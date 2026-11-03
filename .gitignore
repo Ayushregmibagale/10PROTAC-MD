@@ -1,9 +1,8 @@
-structures/
+structures/*.pdb
+structures/**/*.pdb
 runs/
 simulations/
 logs/
 __pycache__/
 *.pyc
 *.log
-*.tsv
-!structures/klifs_manifest.tsv
