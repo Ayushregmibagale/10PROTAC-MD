@@ -1,0 +1,9 @@
+structures/
+runs/
+simulations/
+logs/
+__pycache__/
+*.pyc
+*.log
+*.tsv
+!structures/klifs_manifest.tsv
