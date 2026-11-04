@@ -1,0 +1,25 @@
+{
+  "status": "COMPLETE",
+  "command": [
+    "/home/ayushregmibagale/.conda/envs/gromacs/bin/acpype",
+    "-i",
+    "/tmp/10protac_finish/ligand_params/SJF1521/neutral_reference/input.mol2",
+    "-b",
+    "SJF1521",
+    "-a",
+    "gaff2",
+    "-c",
+    "bcc",
+    "-n",
+    "0",
+    "-m",
+    "1",
+    "-o",
+    "gmx",
+    "-s",
+    "2400"
+  ],
+  "acpype_sha256": "93d6e130e783bf16286998160587e62d66525ab09aa0cea870cc2766e31b7294",
+  "exit_code": 0,
+  "validation": "Mapped connectivity, charge, masses and QM-output stereochemistry verified"
+}

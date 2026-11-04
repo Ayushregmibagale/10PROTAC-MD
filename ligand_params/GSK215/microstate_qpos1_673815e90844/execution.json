@@ -1,0 +1,23 @@
+{
+  "status": "COMPLETE",
+  "command": [
+    "/home/ayushregmibagale/.conda/envs/gromacs/bin/acpype",
+    "-i",
+    "/tmp/10protac_finish/ligand_params/GSK215/microstate_qpos1_673815e90844/input.mol2",
+    "-b",
+    "GSK215",
+    "-a",
+    "gaff2",
+    "-c",
+    "bcc",
+    "-n",
+    "1",
+    "-m",
+    "1",
+    "-o",
+    "gmx",
+    "-s",
+    "2400"
+  ],
+  "exit_code": 0
+}

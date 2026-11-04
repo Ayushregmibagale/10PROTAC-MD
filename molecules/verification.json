@@ -1,0 +1,47 @@
+{
+  "GSK215": {
+    "status": "IDENTITY_VERIFIED",
+    "formula": "C50H59F3N10O6S",
+    "inchikey": "ZGSWGXNEXAXEGV-XFCHVEHOSA-N",
+    "molecular_weight": 985.1469999999999,
+    "catalog": "7818",
+    "source": "https://www.rndsystems.com/products/gsk-215_7818",
+    "pose_status": "supplier_identity_verified"
+  },
+  "SJF8240": {
+    "status": "IDENTITY_VERIFIED",
+    "formula": "C58H65F2N7O11S",
+    "inchikey": "SCUZPTNDZHEHLB-ZWUDBOSPSA-N",
+    "molecular_weight": 1106.2589999999993,
+    "catalog": "7266",
+    "source": "https://www.rndsystems.com/products/sjf-8240_7266",
+    "pose_status": "supplier_identity_verified_pose_pending"
+  },
+  "SJF1521": {
+    "status": "IDENTITY_VERIFIED",
+    "formula": "C57H61ClFN7O9S",
+    "inchikey": "XZNORRXEBCTXPB-KHBXAZQSSA-N",
+    "molecular_weight": 1074.6730000000002,
+    "catalog": "7261",
+    "source": "https://www.rndsystems.com/products/sjf-1521_7261",
+    "pose_status": "supplier_identity_verified_pose_pending"
+  },
+  "JNJ1013": {
+    "status": "IDENTITY_VERIFIED",
+    "formula": "C46H55N9O7S",
+    "inchikey": "MHRNVFQJUUXQIG-VIFUUBRESA-N",
+    "molecular_weight": 878.0690000000001,
+    "catalog": "8029",
+    "source": "https://www.rndsystems.com/products/jnj-1013_8029",
+    "pose_status": "supplier_identity_verified_pose_pending"
+  },
+  "SJF_delta": {
+    "status": "IDENTITY_VERIFIED",
+    "formula": "C62H63F2N7O12S",
+    "inchikey": "LYUUIIZKBMBNQV-CHOFKVETSA-N",
+    "molecular_weight": 1168.2859999999996,
+    "catalog": "7267",
+    "source": "https://www.rndsystems.com/products/sjfdelta_7267",
+    "pose_status": "supplier_identity_verified_pose_pending"
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "vhl": {
+    "file": "modeled_reference_candidates/SJF1521/vhl_head.sdf",
+    "anchor_one_based": 1,
+    "parent_indices_zero_based": [
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32
+    ],
+    "reference_pdb": "4W9H",
+    "component": "3JF",
+    "parent_sha256": "a1fe7f4084d547826aa5d22a70c7126872246753324c0e24f01744624255facf",
+    "sha256": "37981dea105e48f8f26c666222ecad4ea8659270b46f0df9789fa49655a4a5d2"
+  },
+  "poi": {
+    "anchor_one_based": 1,
+    "file": "modeled_reference_candidates/SJF1521/poi_head.sdf",
+    "sha256": "8218e3bc7c92c8772f9e63bd23afb0166e1df2f384efa31054cb12e7bac90dc0"
+  },
+  "production_ready": false,
+  "method": "modeled_conjugated_head_candidate",
+  "modeled_role": "poi",
+  "model_provenance_sha256": "874324043296dfb0f855265dbacfa976238b1ab8f65e62616abba9d86b3eed31"
+}

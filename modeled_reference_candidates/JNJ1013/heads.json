@@ -1,0 +1,50 @@
+{
+  "vhl": {
+    "file": "modeled_reference_candidates/JNJ1013/vhl_head.sdf",
+    "anchor_one_based": 5,
+    "anchor_ccd": "N5",
+    "full_ccd_indices_zero_based": [
+      13,
+      14,
+      15,
+      16,
+      43,
+      44,
+      45,
+      46,
+      47,
+      48,
+      49,
+      50,
+      51,
+      52,
+      53,
+      54,
+      55,
+      56,
+      57,
+      58,
+      59,
+      60,
+      61,
+      62,
+      63,
+      64,
+      65,
+      66,
+      67,
+      68,
+      69
+    ],
+    "sha256": "926817eef52a725848ca79fd61679ea0605b4fa6eb6f1d63cacca3355ca56537"
+  },
+  "poi": {
+    "anchor_one_based": 12,
+    "file": "modeled_reference_candidates/JNJ1013/poi_head.sdf",
+    "sha256": "6015846dbb48034b087e402cec0435ff636e72041f061b643211da1f7f287571"
+  },
+  "production_ready": false,
+  "method": "modeled_conjugated_head_candidate",
+  "modeled_role": "poi",
+  "model_provenance_sha256": "86afb414c245a2dbb8f1343a21ec3cc47ed0465a3d8f7203862b140556dae92e"
+}

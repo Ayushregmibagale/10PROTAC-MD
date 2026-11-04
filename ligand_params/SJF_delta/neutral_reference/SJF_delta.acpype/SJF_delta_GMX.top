@@ -1,0 +1,20 @@
+; SJF_delta_GMX.top created by acpype (v: 2023.10.27) on Wed Nov  4 14:56:28 2026
+
+[ defaults ]
+; nbfunc        comb-rule       gen-pairs       fudgeLJ fudgeQQ
+1               2               yes             0.5     0.8333333333
+
+; Include SJF_delta_GMX.itp topology
+#include "SJF_delta_GMX.itp"
+
+; Ligand position restraints
+#ifdef POSRES_LIG
+#include "posre_SJF_delta.itp"
+#endif
+
+[ system ]
+ SJF_delta
+
+[ molecules ]
+; Compound        nmols
+ SJF_delta        1     

@@ -1,0 +1,19 @@
+; SJF1521_GMX_OPLS.top created by acpype (v: 2023.10.27) on Wed Nov  4 14:55:56 2026
+
+; Include forcefield parameters
+#include "ffoplsaa.itp"
+
+; Include SJF1521_GMX.itp topology
+#include "SJF1521_GMX.itp"
+
+; Ligand position restraints
+#ifdef POSRES_LIG
+#include "posre_SJF1521.itp"
+#endif
+
+[ system ]
+ SJF1521
+
+[ molecules ]
+; Compound        nmols
+ SJF1521          1     

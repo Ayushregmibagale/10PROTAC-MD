@@ -1,0 +1,77 @@
+{
+  "schema_version": 1,
+  "retrieved": "2026-11-04",
+  "supplier": "Tocris Bioscience / Bio-Techne",
+  "compounds": {
+    "GSK215": {
+      "catalog": "7818",
+      "cas": "2743427-26-9",
+      "formula": "C50H59F3N10O6S",
+      "inchikey": "ZGSWGXNEXAXEGV-XFCHVEHOSA-N",
+      "source": "https://www.rndsystems.com/products/gsk-215_7818",
+      "smiles": "FC(F)(F)C(C(NC1=C(C=CC=C1)C(NC)=O)=C2)=CN=C2NC3=C(C=C(N4CCN(CC4)CC(N[C@@H](C(C)(C)C)C(N5[C@@H](C[C@H](C5)O)C(N[C@H](C6=CC=C(C7=C(N=CS7)C)C=C6)C)=O)=O)=O)C=C3)OC",
+      "reference": {
+        "pdb": "7PI4",
+        "component": "7QB",
+        "kind": "native_ternary"
+      },
+      "status": "supplier_identity_verified"
+    },
+    "SJF8240": {
+      "catalog": "7266",
+      "cas": "2230821-68-6",
+      "formula": "C58H65F2N7O11S",
+      "inchikey": "SCUZPTNDZHEHLB-ZWUDBOSPSA-N",
+      "source": "https://www.rndsystems.com/products/sjf-8240_7266",
+      "smiles": "COC1=CC2=C(N=CC=C2OC3=C(C=C(C=C3)NC(C4(C(NC5=CC=C(C=C5)F)=O)CC4)=O)F)C=C1OCCCOCCCOCCC(N[C@@H](C(C)(C)C)C(N6C[C@@H](C[C@H]6C(NCC7=CC=C(C8=C(N=CS8)C)C=C7)=O)O)=O)=O",
+      "reference": {
+        "pdb": "3LQ8",
+        "component": "88Z",
+        "kind": "parent_ligand_only_requires_atom_mapping"
+      },
+      "status": "supplier_identity_verified_pose_pending"
+    },
+    "SJF1521": {
+      "catalog": "7261",
+      "cas": "2230821-40-4",
+      "formula": "C57H61ClFN7O9S",
+      "inchikey": "XZNORRXEBCTXPB-KHBXAZQSSA-N",
+      "source": "https://www.rndsystems.com/products/sjf-1521_7261",
+      "smiles": "CC1=C(C2=CC=C(C=C2)CNC([C@@H]3C[C@H](CN3C([C@H](C(C)(C)C)NC(COCCOCCOCCOC4=CC=C(C5=CC6=C(N=CN=C6NC7=CC(Cl)=C(C=C7)OCC8=CC(F)=CC=C8)C=C5)C=C4)=O)=O)O)=O)SC=N1",
+      "reference": {
+        "pdb": "1XKK",
+        "component": "FMM",
+        "kind": "parent_ligand_only_requires_atom_mapping"
+      },
+      "status": "supplier_identity_verified_pose_pending"
+    },
+    "JNJ1013": {
+      "catalog": "8029",
+      "cas": "2597343-08-1",
+      "formula": "C46H55N9O7S",
+      "inchikey": "MHRNVFQJUUXQIG-VIFUUBRESA-N",
+      "source": "https://www.rndsystems.com/products/jnj-1013_8029",
+      "smiles": "COC(C=C1N(CC2)CCC2OCC(N[C@@H](C(C)(C)C)C(N3[C@@H](C[C@H](C3)O)C(N[C@H](C4=CC=C(C5=C(C)N=CS5)C=C4)C)=O)=O)=O)=C(C=C1)NC(C6=CC=CC(C7=NNC=C7)=N6)=O",
+      "reference": {
+        "pdb": "6BFN",
+        "component": "DL1",
+        "kind": "parent_ligand_only_requires_atom_mapping"
+      },
+      "status": "supplier_identity_verified_pose_pending"
+    },
+    "SJF_delta": {
+      "catalog": "7267",
+      "cas": "2254609-23-7",
+      "formula": "C62H63F2N7O12S",
+      "inchikey": "LYUUIIZKBMBNQV-CHOFKVETSA-N",
+      "source": "https://www.rndsystems.com/products/sjfdelta_7267",
+      "smiles": "COC1=CC2=C(C=C1OCCOCCOCCOC1=C(CNC(=O)[C@@H]3C[C@@H](O)CN3C(=O)[C@H](C(C)C)N3CC4=CC=CC=C4C3=O)C=CC(=C1)C1=C(C)N=CS1)N=CC=C2OC1=C(F)C=C(NC(=O)C2(CC2)C(=O)NC2=CC=C(F)C=C2)C=C1",
+      "reference": {
+        "pdb": "3LQ8",
+        "component": "88Z",
+        "kind": "parent_ligand_only_requires_atom_mapping"
+      },
+      "status": "supplier_identity_verified_pose_pending"
+    }
+  }
+}

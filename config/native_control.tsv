@@ -1,0 +1,2 @@
+protac	gene	uniprot_id	structure_path	chain	res_start	res_end
+GSK215	PTK2	Q05397	reference_structures/validated/GSK215/protein.pdb	D	1	9999

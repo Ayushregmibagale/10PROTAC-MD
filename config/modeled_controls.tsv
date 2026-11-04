@@ -1,0 +1,4 @@
+protac	gene	uniprot_id	structure_path	chain	res_start	res_end
+SJF1521	EGFR	P00533	modeled_reference_candidates/SJF1521/protein.pdb	D	1	9999
+JNJ1013	IRAK1	P51617	modeled_reference_candidates/JNJ1013/protein.pdb	D	1	9999
+SJF_delta	MET	P08581	modeled_reference_candidates/SJF_delta/protein.pdb	D	1	9999

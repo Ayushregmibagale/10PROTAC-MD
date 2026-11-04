@@ -1,0 +1,21 @@
+{
+  "probe_time_utc": "2026-11-04T17:51:07.152669+00:00",
+  "scope": "Post-calculation probe of the interpreter/tool installation used in this session; individual commands and artifacts retained separately",
+  "preparation_python": "3.13.11 | packaged by Anaconda, Inc. | (main, Dec 10 2025, 21:28:48) [GCC 14.3.0]",
+  "preparation_rdkit": "2026.03.6",
+  "ambertools_conda": {
+    "name": "ambertools",
+    "version": "24.8",
+    "build": "cuda_None_nompi_py312hbe1986e_101",
+    "channel": "https://conda.anaconda.org/conda-forge/linux-64",
+    "url": "https://conda.anaconda.org/conda-forge/linux-64/ambertools-24.8-cuda_None_nompi_py312hbe1986e_101.conda",
+    "sha256": "dc3a4ff296bebd7b2470f2d61da43051a15bb42147214a16887dda676a942172"
+  },
+  "executable_sha256": {
+    "acpype": "93d6e130e783bf16286998160587e62d66525ab09aa0cea870cc2766e31b7294",
+    "antechamber": "59060c69c5fca305794b10f19d950556fbd18db92d6c7af87252389858214c5d",
+    "sqm": "51aa91376228e8201950c3983ab252d6080f364e0aff00d3c3a78f73ecf5bd97",
+    "parmchk2": "c2ef0906b71c64e5277673bcba943512daf75ef334ad9421c0045b6b80b6d7cc",
+    "tleap": "f1c526e0a24ad1fefc6c82be1279aa33eff5f9557d577c2236aa81437dfb52ac"
+  }
+}

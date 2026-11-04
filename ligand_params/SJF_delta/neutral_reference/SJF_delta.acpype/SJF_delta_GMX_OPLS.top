@@ -1,0 +1,19 @@
+; SJF_delta_GMX_OPLS.top created by acpype (v: 2023.10.27) on Wed Nov  4 14:56:28 2026
+
+; Include forcefield parameters
+#include "ffoplsaa.itp"
+
+; Include SJF_delta_GMX.itp topology
+#include "SJF_delta_GMX.itp"
+
+; Ligand position restraints
+#ifdef POSRES_LIG
+#include "posre_SJF_delta.itp"
+#endif
+
+[ system ]
+ SJF_delta
+
+[ molecules ]
+; Compound        nmols
+ SJF_delta        1     
