@@ -11,12 +11,12 @@ Stage 1 is a fast screen to identify any bridging hits; Stage 2 is a deep run on
 
 | Stage | Purpose | N_DOCK | Output poses | Flag |
 |-------|---------|--------|--------------|------|
-| Stage 1 | Screen | 50 | ~200 Rosetta-refined | (none) |
-| Stage 2 | Deep | 1000 | ~20,000 Rosetta-refined | `Full: True` |
+| Stage 1 | Screen | 200 | 200 poses | (none) |
+| Stage 2 | Deep | 1000 | ~20,000 poses | `Full: True` |
 
-**Rationale:** matches the protac-md 19-POI training campaign (~20,000 poses per POI).
-kinome_scan stage 1 used N_DOCK=50 → ~200 constrained poses; top-5 full runs used
-N_DOCK=1000 + `Full: True` → ~20,000 poses (source: `25_run_top5_full_prostac.sh`).
+**Rationale:** N_DOCK=200 is the pRosettaC runner's explicit default (`--n_dock 200` in
+`03_run_local_prosettac.py`).  Stage 2 uses N_DOCK=1000 + `Full: True` → ~20,000 poses,
+matching the protac-md 19-POI training campaign (source: `25_run_top5_full_prostac.sh`).
 
 ---
 

@@ -56,7 +56,7 @@ MAX_PARALLEL  = 10    # concurrent kinases on Ernie (10 × 2 workers = 20 CPUs ~
 N_WORKERS_PER = 2     # parallel Rosetta workers per pRosettaC job
 
 # ── pRosettaC params ───────────────────────────────────────────────────────────
-STAGE1_NDOCK = 50     # → ~200 Rosetta-refined poses per kinase
+STAGE1_NDOCK = 200    # 200 global PatchDock poses → screen
 STAGE2_NDOCK = 1000   # + Full: True → ~20,000 poses per kinase
 BRIDGE_DIST  = 5.0    # Å, used in bridging pose counting
 VHL_MAX_RES  = 103    # last VHL residue in combined PDB
@@ -241,13 +241,13 @@ def cmd_plan(args):
     for p in pairs:
         by_protac.setdefault(p['protac'], 0)
         by_protac[p['protac']] += 1
-    # ~8 min per kinase at N_DOCK=50 (empirical from kinome_scan)
+    # ~32 min per kinase at N_DOCK=200 (4× the kinome_scan 50-pose ~8 min estimate)
     for k, v in sorted(by_protac.items()):
-        s1_hrs = v * 8 / 60
+        s1_hrs = v * 32 / 60
         print(f'  {k:12s}  {v:4d} pairs  ~{s1_hrs:.0f} CPU-hrs (stage1, N_DOCK={STAGE1_NDOCK})')
     total = sum(by_protac.values())
     print(f'\nTotal stage1 wall-time at MAX_PARALLEL={MAX_PARALLEL}: '
-          f'~{total * 8 / 60 / MAX_PARALLEL:.0f} hrs')
+          f'~{total * 32 / 60 / MAX_PARALLEL:.0f} hrs')
 
 
 def cmd_stage(args, stage: int):
