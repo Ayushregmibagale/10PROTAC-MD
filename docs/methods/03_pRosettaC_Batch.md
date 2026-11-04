@@ -7,16 +7,13 @@ Stage 1 is a fast screen to identify any bridging hits; Stage 2 is a deep run on
 
 ---
 
-## Pose counts
+## Pose count
 
-| Stage | Purpose | N_DOCK | Output poses | Flag |
-|-------|---------|--------|--------------|------|
-| Stage 1 | Screen | 200 | 200 poses | (none) |
-| Stage 2 | Deep | 1000 | ~20,000 poses | `Full: True` |
+Single stage: **N_DOCK=200 → ~10,000 Rosetta-refined poses per kinase.**
 
-**Rationale:** N_DOCK=200 is the pRosettaC runner's explicit default (`--n_dock 200` in
-`03_run_local_prosettac.py`).  Stage 2 uses N_DOCK=1000 + `Full: True` → ~20,000 poses,
-matching the protac-md 19-POI training campaign (source: `25_run_top5_full_prostac.sh`).
+Confirmed from protac-md 19-POI training campaign: every completed POI has exactly
+~10,000 combined_*_0001.pdb files at N_DOCK=200 (source: `06_launch_parallel.sh`,
+`08_ernie_launch_chain_d.sh`).  This is the pRosettaC runner's explicit default.
 
 ---
 
