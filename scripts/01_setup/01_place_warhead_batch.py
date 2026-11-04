@@ -51,7 +51,7 @@ MANIFEST    = ROOT / 'structures' / 'merged_manifest.tsv'
 VHL_PDB     = Path.home() / 'protac' / 'data' / 'structures' / 'VHL' / '4W9H_VBC_clean.pdb'
 VHL_WH_SDF  = Path.home() / 'protac' / 'data' / 'structures' / 'VHL' / 'SJF8240_vhll_placed.sdf'
 ERNIE_USER  = 's1638308'
-ERNIE_HOME  = f'/home/{ERNIE_USER}'
+ERNIE_HOME  = '/home/s1638308'
 
 PROTAC_CONFIG = {
     'SJF8240':   {'skip': True,  'skip_reason': 'Already staged from kinome_scan'},
