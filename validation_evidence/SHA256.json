@@ -1,0 +1,15 @@
+{
+  "screen_preflight_final.json": "f5a3e446051a448040b54fe62842c0f48bd1fb87edc13e038493d4a15be5d053",
+  "baseline_storage_projection_v8.json": "21ba50c735de531db84cfdadff54cc187a9f35767155eb6d7502efb9010f375f",
+  "baseline_fixed_head_native_qc_stdout.json": "628aa7294dabdab7c64c5e0bb23d61f3600ab0ec7709e048132e72c1e062192f",
+  "SJF_delta_MAPK13_control.json": "cdfaa31d3c1af0b9738e4cd5ac6f6725703911bac131c67c0c45d7c935df56a1",
+  "all_compound_Rosetta_parameter_validation.json": "fa0af8d26f29f03264d3af59f0ddb33c2d4cdc2e4cb0fec59f50ce3a14211319",
+  "baseline_fixed_head_pipeline_v9_qc_stdout.json": "54094f33182163d540c4d036a9fe097eef33b8e460747a53eb72bb12376f967a",
+  "README.md": "1e7128895ba3fb00f121f6a2e0daed10ac9867dc7d825b5457d27f4fc5debe8e",
+  "baseline_receipted_nohit_v11/completion.json": "2a1b1a61c3104b8df5fa8addb2d327c9e6e667c88489b8a6f14f9bfaef11b2fc",
+  "baseline_receipted_nohit_v11/engine_status.json": "b49a1b1c1c15f6eb5996c2b1840f1b025bada5d24c8070d245e442c52da7d2cc",
+  "baseline_receipted_nohit_v11/attempt.json": "47b84e403129092b4788e900663682d05e92982c7a42c26348052b4e9d0c1473",
+  "baseline_receipted_native_v10/completion.json": "5c63026745eb817ce0b0dfeb34f6d64ea540568c29fce4ee7df4a0b4f3b0d2f1",
+  "baseline_receipted_native_v10/engine_status.json": "b76d8de0b2981d5a4510c5f3257c2e660e13a2e8fe391a439ebe8cd1a36dc837",
+  "baseline_receipted_native_v10/attempt.json": "38346b6dd174aa4fe5d415b06e21733ac65cbd933e528d55aa185a8286fffc1d"
+}

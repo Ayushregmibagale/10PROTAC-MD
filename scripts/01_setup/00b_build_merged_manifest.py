@@ -30,6 +30,8 @@ Usage:
 
 import pandas as pd
 import re
+import json
+import hashlib
 from pathlib import Path
 
 ROOT        = Path(__file__).resolve().parents[2]
@@ -64,26 +66,41 @@ def scan_klifs_files():
     """
     records = []
     for f in STRUCT_DIR.rglob('*.pdb'):
-        m = re.match(r'HUMAN_([^_]+)_([^_]+)_.*complex\.pdb', f.name)
-        if not m:
+        sidecar=f.with_suffix('.provenance.json')
+        if sidecar.exists():
+            meta=json.loads(sidecar.read_text())
+            if hashlib.sha256(f.read_bytes()).hexdigest()!=meta['sha256']:
+                raise ValueError('KLIFS file hash mismatch: '+str(f))
+            records.append({'klifs_name':meta['gene'],'pdb_id':meta['pdb_id'].lower(),
+                            'chain':meta['chain'],'klifs_id':meta['klifs_id'],'filepath':str(f)})
             continue
-        klifs_name = m.group(1)
-        pdb_id     = m.group(2).lower()
-        records.append({'klifs_name': klifs_name, 'pdb_id': pdb_id, 'filepath': str(f)})
+        m = re.match(r'HUMAN_([^_]+)_([^_]+)_(?:alt[^_]+_)?chain([^_]+)_complex\.pdb', f.name)
+        if m:
+            records.append({'klifs_name':m.group(1),'pdb_id':m.group(2).lower(),
+                            'chain':m.group(3),'klifs_id':None,'filepath':str(f)})
     return pd.DataFrame(records)
 
 
 def match_files_to_manifest(files_df, manifest_df):
-    """Join scanned files to manifest on (klifs_name ≈ gene, pdb_id) to get DFG state."""
-    # manifest 'gene' column = klifs_name
-    merged = files_df.merge(
-        manifest_df[['gene', 'pdb_id', 'dfg_state', 'resolution', 'missing_residues', 'quality_score']],
-        left_on=['klifs_name', 'pdb_id'],
-        right_on=['gene', 'pdb_id'],
-        how='left'
-    )
-    merged = merged.drop(columns=['gene'])
-    return merged
+    """Never infer DFG state from gene+PDB alone or choose an ambiguous chain/alt."""
+    records=[]
+    metadata=manifest_df.copy()
+    metadata['pdb_id']=metadata['pdb_id'].str.lower()
+    if metadata['klifs_id'].duplicated().any(): raise ValueError('Duplicate KLIFS structure IDs')
+    for _,file in files_df.iterrows():
+        subset=metadata[(metadata['gene']==file['klifs_name']) & (metadata['pdb_id']==file['pdb_id'])
+                        & (metadata['chain'].astype(str)==str(file['chain']))]
+        if pd.notna(file.get('klifs_id')):
+            subset=subset[subset['klifs_id']==int(file['klifs_id'])]
+        record=file.to_dict()
+        if len(subset)==1:
+            record.update(subset.iloc[0].drop(labels=['gene']).to_dict())
+            record['metadata_status']='EXACT_ID' if pd.notna(file.get('klifs_id')) else 'UNAMBIGUOUS_CHAIN'
+        else:
+            record.update(dfg_state=None,resolution=None,missing_residues=None,quality_score=None,
+                          metadata_status='AMBIGUOUS_METADATA' if len(subset)>1 else 'MISSING_METADATA')
+        records.append(record)
+    return pd.DataFrame(records)
 
 
 def best_klifs_per_kinase_dfg(files_manifest_df):
@@ -110,6 +127,9 @@ def best_klifs_per_kinase_dfg(files_manifest_df):
         rows[kn][f'klifs_{dfg}_path']  = row['filepath']
         rows[kn][f'klifs_{dfg}_res']   = row['resolution']
         rows[kn][f'klifs_{dfg}_pdb']   = row['pdb_id']
+        rows[kn][f'klifs_{dfg}_id']    = row.get('klifs_id')
+        rows[kn][f'klifs_{dfg}_chain'] = row.get('chain')
+        rows[kn][f'klifs_{dfg}_metadata_status'] = row.get('metadata_status')
 
     return pd.DataFrame(list(rows.values()))
 
@@ -178,7 +198,10 @@ def build_merged(klifs_kinase_map, klifs_best, af2_map):
     klifs_only = klifs_only.rename(columns={'hgnc_gene': 'hgnc_gene'})
 
     merged = pd.concat([merged, klifs_only], ignore_index=True)
-    merged = merged.drop_duplicates(subset=['uniprot_id'], keep='first')
+    # Tandem domains such as RSK N/C termini must not disappear by UniProt deduplication.
+    merged['domain_id']=merged['klifs_name'].fillna('UNASSIGNED_AF2_DOMAIN')
+    if merged.duplicated(subset=['uniprot_id','domain_id']).any():
+        raise ValueError('Duplicate UniProt/domain identity; resolve metadata rather than dropping rows')
 
     # Assign recommended structure per PROTAC
     for protac, strategy in PROTAC_STRATEGY.items():
@@ -196,6 +219,12 @@ def build_merged(klifs_kinase_map, klifs_best, af2_map):
 # ── Main ───────────────────────────────────────────────────────────────────────
 
 def main():
+    import argparse
+    parser=argparse.ArgumentParser(description=__doc__)
+    parser.add_argument('--output',type=Path,default=OUT_TSV,
+                        help='A new versioned manifest; existing files are never overwritten')
+    args=parser.parse_args()
+    if args.output.exists(): raise FileExistsError('Preserving existing manifest: '+str(args.output))
     print('Loading KLIFS kinase metadata ...')
     klifs_kinase_map = load_klifs_kinase_map()
     print(f'  {len(klifs_kinase_map)} human kinases with UniProt IDs')
@@ -236,8 +265,9 @@ def main():
         print(f'  {protac:12s}  {total:4d} kinases  '
               f'(KLIFS: {n_klifs}, AF2: {n_af2})')
 
-    merged.to_csv(OUT_TSV, sep='\t', index=False)
-    print(f'\nSaved → {OUT_TSV}')
+    args.output.parent.mkdir(parents=True,exist_ok=True)
+    merged.to_csv(args.output, sep='\t', index=False)
+    print(f'\nSaved → {args.output}')
 
 
 if __name__ == '__main__':

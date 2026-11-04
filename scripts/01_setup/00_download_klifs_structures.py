@@ -21,6 +21,10 @@ Env: ~/.conda/envs/klifs_screen  (conda-forge opencadd=1.0.1)
 import argparse
 import sys
 import time
+import tempfile
+import json
+import hashlib
+import shutil
 import pandas as pd
 from pathlib import Path
 from tqdm import tqdm
@@ -48,6 +52,8 @@ def get_session():
 
 
 def cmd_query(args):
+    if MANIFEST_TSV.exists():
+        raise FileExistsError('Preserving existing KLIFS manifest; use a new project snapshot for a new query')
     print('Connecting to KLIFS and fetching all structures ...')
     session = get_session()
     df = session.structures.all_structures()
@@ -122,20 +128,28 @@ def cmd_download(args):
         out_dir.mkdir(parents=True, exist_ok=True)
         out_file = out_dir / f'{klifs_id}_{dfg}.pdb'
 
+        provenance=out_file.with_suffix('.provenance.json')
         if out_file.exists():
+            if not provenance.exists(): raise ValueError('Existing unverified download: '+str(out_file))
+            meta=json.loads(provenance.read_text())
+            if meta['klifs_id']!=klifs_id or meta['sha256']!=hashlib.sha256(out_file.read_bytes()).hexdigest():
+                raise ValueError('Downloaded input provenance mismatch: '+str(out_file))
             skip += 1
             continue
 
         try:
-            session.coordinates.to_pdb(
-                structure_klifs_id=klifs_id,
-                output_path=out_dir,
-                entity='complex',
-            )
-            # opencadd saves as {klifs_id}.pdb — rename to our convention
-            default_name = out_dir / f'{klifs_id}.pdb'
-            if default_name.exists():
-                default_name.rename(out_file)
+            # OpenCADD filenames vary; isolate one API request instead of guessing
+            # the saved name or counting an absent file as a successful download.
+            with tempfile.TemporaryDirectory(dir=out_dir,prefix='.download-') as temporary:
+                session.coordinates.to_pdb(structure_klifs_id=klifs_id,output_path=Path(temporary),entity='complex')
+                candidates=list(Path(temporary).rglob('*.pdb'))
+                if len(candidates)!=1 or not any(l.startswith('ATOM  ') for l in candidates[0].read_text().splitlines()):
+                    raise ValueError('API did not produce exactly one nonempty protein PDB')
+                shutil.copy2(candidates[0],out_file)
+            meta={'klifs_id':klifs_id,'gene':gene,'pdb_id':str(row['pdb_id']),
+                  'chain':str(row['chain']),'dfg_state':dfg,
+                  'sha256':hashlib.sha256(out_file.read_bytes()).hexdigest()}
+            provenance.write_text(json.dumps(meta,indent=2)+'\n')
             ok += 1
             time.sleep(0.3)
         except Exception as e:

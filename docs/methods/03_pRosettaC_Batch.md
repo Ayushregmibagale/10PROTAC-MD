@@ -1,90 +1,47 @@
-# Step 03 — pRosettaC Batch Submission
+# Execution and completion contracts
 
-## Overview
+Production submission is disabled pending verification of the exact Ernie engine,
+scheduler/allocation requirements, and benchmark release. No direct nohup campaign
+launch is available in the repaired script.
 
-All kinase × PROTAC pairs are submitted to Ernie (96-core HPC cluster) in two stages.
-Stage 1 is a fast screen to identify any bridging hits; Stage 2 is a deep run on hits only.
+`02_batch_prosettac.py --plan` is read-only. `--build-manifest` performs a locked,
+atomic union of discovered rows and existing rows, preserving unrelated filtered
+entries. Changed input hashes invalidate prior state. Missing configs are included
+as blocked pairs instead of silently omitted. Legacy completion flags are not
+scientific validation receipts.
 
----
+For an explicitly requested isolated local benchmark, `03_record_attempt.py` records
+immutable inputs, command, UUID, start/end times and terminal status. Nonzero exit,
+timeout, missing outputs, mismatched pose IDs, severe clashes, shifted scores or
+possible -1 placeholder scores cause failure. Existing attempt directories cannot
+be reused. A zero exit code alone is insufficient.
 
-## Pose count
+Rosetta scores are parsed from `Patchdock_Results/score.sc`, skipping SEQUENCE
+and matching repeated headers. Every scored pose must have a matching combined
+PDB. Completion is represented by `completion.json`, including all output hashes;
+analysis rechecks it and the input hashes. A score file appearing during execution
+never proves completion.
 
-Single stage: **N_DOCK=200 → ~10,000 Rosetta-refined poses per kinase.**
+Geometry uses explicit VHL/POI/PROTAC selections from `selection.json`, heavy
+atoms, and strict distances <5 A and <8 A. Fractions use 0-1; `bridge_pct` is
+0-100. Missing or invalid data never becomes a zero-hit biological result.
+The feature extractor accepts an explicit local attempt index; transfer must finish
+before verification. No automatic partial rsync cache is treated as complete.
 
-Confirmed from protac-md 19-POI training campaign: every completed POI has exactly
-~10,000 combined_*_0001.pdb files at N_DOCK=200 (source: `06_launch_parallel.sh`,
-`08_ernie_launch_chain_d.sh`).  This is the pRosettaC runner's explicit default.
+`n_dock` is a maximum requested global count, not a guaranteed number of valid
+ternary complexes. Pilot sampling, independent seeds, runtime and storage must be
+measured before the campaign budget is set.
 
----
+The repaired controller now supports `--run --pilot`: foreground, sequential pairs,
+explicit Python/seed and bounded global/local/conformer/worker/trial/time budgets.
+Each attempt has a fresh UUID. Validated attempts with the exact same input and
+protocol hashes are skipped; failed attempts are retained on retry. SIGTERM,
+SIGHUP, timeout and keyboard interruption terminate the whole child process
+group and leave a terminal receipt. Full mode requires source/input/evidence
+hashes and a storage budget in a versioned release file, which has not been issued.
 
-## pRosettaC interface on Ernie
-
-```
-python3 RUNNER Protac_params.txt --n_dock N --n_workers W
-```
-
-- **RUNNER**: `/home/s1638308/protac/scripts/02_rosetta_utils/03_run_local_prosettac.py`
-- **Conda env**: `s1638308/miniconda3/envs/protac` (has PyRosetta + RDKit)
-- **Stage 2 params**: `Protac_params_full.txt` (adds `Full: True` and `Anchor atoms: 6 1`)
-
----
-
-## Submission script
-
-**Script:** `scripts/01_setup/02_batch_prosettac.py`
-
-```bash
-# Stage 1 — all pairs
-python 02_batch_prosettac.py --stage1
-
-# Check hits
-python 02_batch_prosettac.py --filter-stage1
-
-# Stage 2 — bridging hits only
-python 02_batch_prosettac.py --stage2
-```
-
-### Parallelism
-
-`MAX_PARALLEL = 10` concurrent jobs on Ernie, each with `N_WORKERS_PER = 2` Rosetta
-workers. Total: 20 CPUs (~20% of Ernie's 96 cores — conservative to avoid queue penalties).
-
----
-
-## Run counts
-
-| PROTAC | N_DOCK source | Input count | Stage 1 ETA |
-|--------|--------------|-------------|-------------|
-| SJF8240 | kinome_scan (sym) | 461 | ~62 hrs |
-| SJF_delta | kinome_scan (sym) | 461 | ~62 hrs |
-| SJF1521 | KLIFS/AF2 | 644 | ~86 hrs |
-| GSK215 | KLIFS/AF2 | 650 | ~87 hrs |
-| JNJ1013 | KLIFS/AF2 | 644 | ~86 hrs |
-
-Wall time per PROTAC at MAX_PARALLEL=10: ~8–9 hrs (8 min × N / 10).
-
----
-
-## State tracking
-
-Each run is tracked in `runs/manifest_stage{1,2}.tsv` with columns:
-`protac, gene, uid, run_name, status, n_dock, bridge_poses, bridge_pct, submit_time, done_time, ernie_outdir`
-
-Statuses: `PENDING → RUNNING → COMPLETE | FAILED`
-
----
-
-## Completion detection
-
-Script polls Ernie every 60 s for `{ernie_outdir}/score.sc`.
-On completion, `score.sc` is rsynced locally and bridging poses counted.
-
----
-
-## Notes
-
-- Stage 2 `Protac_params_full.txt` is written locally and rsynced alongside other inputs.
-  The original `Protac_params.txt` is preserved for auditing.
-- `Anchor atoms: 6 1` is required with `Full: True` (matches top5_full kinome_scan format).
-- SJF8240 and SJF_delta inputs are symlinks to `~/kinome_scan/data/kinase_pRosettaC/`.
-  rsync follows symlinks (`-az`) so the actual files land on Ernie.
+The original global/local docking stages remain. The former free conformer rigid
+fit failed to keep both full ligand heads bound. Both-head-constrained ETKDG/UFF
+now preserves those coordinates and rejects impossible linker geometries. Raw
+scoring counts and the separate pose-QC acceptance counts are retained. A completed
+search with no valid poses is COMPLETE_NO_VALID_POSES, not a biological negative.

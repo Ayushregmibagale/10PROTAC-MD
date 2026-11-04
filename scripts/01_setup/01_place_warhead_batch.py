@@ -1,308 +1,171 @@
 #!/usr/bin/env python3
+"""Prepare GSK215/SJF8240 candidates using explicit domains and bound head graphs.
+
+TSV fields: protac,gene,uniprot_id,structure_path,chain,res_start,res_end.
+Writes separate prepared_inputs; candidates remain blocked from production.
 """
-01_place_warhead_batch.py — automated warhead placement for all kinase × PROTAC pairs
-=======================================================================================
-Places each PROTAC's warhead into every kinase structure frame using Cα superposition
-onto a reference co-crystal, then transfers warhead coordinates.
-
-Foretinib PROTACs (SJF8240, SJFδ) are already staged from kinome_scan via
-00b_build_merged_manifest.py — this script handles the remaining 3 PROTACs only.
-
-Strategy per warhead:
-  lapatinib (SJF1521):  Cα superposition vs EGFR in 1XKK (Type I, DFG-in)
-  VS-4718   (GSK215):   Cα superposition vs FAK  in 5JC7 (FERM-domain kinase)
-  JH-I-25   (JNJ-1013): Cα superposition vs IRAK1 in 6EGA (Type I, DFG-in)
-
-Input structure selection from merged_manifest.tsv:
-  SJF1521 / JNJ-1013: KLIFS DFG-in first, AF2 fallback
-  GSK215: KLIFS any DFG, AF2 fallback
-
-Prerequisites:
-  ~/10PROTAC-MD/warheads/{lapatinib,VS4718,JHI25}_warhead.sdf
-  ~/10PROTAC-MD/reference_structures/{1XKK,5JC7,6EGA}_kinase.pdb
-  ~/10PROTAC-MD/structures/merged_manifest.tsv
-  Conda env: ~/.conda/envs/klifs_screen (has rdkit via conda-forge opencadd)
-
-Usage:
-  python 01_place_warhead_batch.py --plan                   # count pairs, check prereqs
-  python 01_place_warhead_batch.py --run                    # place all (resumable)
-  python 01_place_warhead_batch.py --run --protac SJF1521   # one PROTAC
-  python 01_place_warhead_batch.py --run --gene EGFR        # one gene
-  python 01_place_warhead_batch.py --status
-
-Output per pair:
-  ~/10PROTAC-MD/prosettac_inputs/{PROTAC}/{GENE}_{UID}/
-      kinase.pdb        — kinase chain (chain D, residues 200+)
-      warhead.sdf       — warhead in kinase frame
-      Protac_params.txt — pRosettaC config (ernie paths)
-"""
-
-import argparse, sys, re
-import numpy as np
-import pandas as pd
+import argparse
+import csv
+import json
+import re
+import shutil
+import sys
+import uuid
 from pathlib import Path
+import numpy as np
+from Bio.Align import PairwiseAligner, substitution_matrices
+from Bio.SeqUtils import seq1
+from rdkit import Chem
+sys.path.insert(0,str(Path(__file__).resolve().parents[1]/'lib'))
+from protac_qc import ValidationError, pdb_atoms, min_distance, sha256, atomic_json, read_params
 
-ROOT        = Path(__file__).resolve().parents[2]
-WARHEAD_DIR = ROOT / 'warheads'
-REF_DIR     = ROOT / 'reference_structures'
-INPUT_DIR   = ROOT / 'prosettac_inputs'
-MANIFEST    = ROOT / 'structures' / 'merged_manifest.tsv'
+def kabsch(mobile, reference):
+    """Row-vector convention: mobile @ R.T + t = reference."""
+    mc,rc=mobile.mean(0),reference.mean(0)
+    u,_,vt=np.linalg.svd((mobile-mc).T@(reference-rc))
+    r=vt.T@np.diag([1,1,np.linalg.det(vt.T@u.T)])@u.T
+    return r,rc-mc@r.T
 
-VHL_PDB     = Path.home() / 'protac' / 'data' / 'structures' / 'VHL' / '4W9H_VBC_clean.pdb'
-VHL_WH_SDF  = Path.home() / 'protac' / 'data' / 'structures' / 'VHL' / 'SJF8240_vhll_placed.sdf'
-ERNIE_USER  = 's1638308'
-ERNIE_HOME  = '/home/s1638308'
+def domain_atoms(path, chain, start, end):
+    atoms=[a for a in pdb_atoms(path) if a['record']=='ATOM' and a['chain']==chain
+           and start <= a['resnum'] <= end]
+    ca=[a for a in atoms if a['name']=='CA']
+    if not 100<=len(ca)<=400:
+        raise ValidationError(f'Explicit kinase domain must have 100–400 Cα atoms, got {len(ca)}')
+    return atoms,ca
 
-PROTAC_CONFIG = {
-    'SJF8240':   {'skip': True,  'skip_reason': 'Already staged from kinome_scan'},
-    'SJF_delta': {'skip': True,  'skip_reason': 'Already staged from kinome_scan'},
-    'SJF1521': {
-        'skip':        False,
-        'warhead_sdf': WARHEAD_DIR / 'lapatinib_warhead.sdf',
-        'ref_kinase':  REF_DIR / '1XKK_kinase.pdb',
-        'struct_col':  'SJF1521_path',
-        'src_col':     'SJF1521_source',
-    },
-    'GSK215': {
-        'skip':        False,
-        'warhead_sdf': WARHEAD_DIR / 'VS4718_warhead.sdf',
-        'ref_kinase':  REF_DIR / '5JC7_kinase.pdb',
-        'struct_col':  'GSK215_path',
-        'src_col':     'GSK215_source',
-    },
-    'JNJ1013': {
-        'skip':        False,
-        'warhead_sdf': WARHEAD_DIR / 'JHI25_warhead.sdf',
-        'ref_kinase':  REF_DIR / '6EGA_kinase.pdb',
-        'struct_col':  'JNJ1013_path',
-        'src_col':     'JNJ1013_source',
-    },
-    'MS143': {'skip': True, 'skip_reason': 'Allosteric AKT — excluded from kinome screen'},
-}
+def align_domain(target, reference, head,method='sequence'):
+    aligner=PairwiseAligner()
+    aligner.substitution_matrix=substitution_matrices.load('BLOSUM62')
+    aligner.open_gap_score=-10; aligner.extend_gap_score=-0.5
+    alignment=aligner.align(''.join(seq1(a['resname'],undef_code='X') for a in reference),
+                            ''.join(seq1(a['resname'],undef_code='X') for a in target))[0]
+    pairs=[(i,j) for (a,b),(c,d) in zip(*alignment.aligned) for i,j in zip(range(a,b),range(c,d))]
+    identity=sum(reference[i]['resname']==target[j]['resname'] for i,j in pairs)/len(pairs)
+    if method=='ce':
+        # CE supplies a structural correspondence across divergent, independently
+        # annotated kinase domains. Do not relax pocket/clash/coverage thresholds.
+        from Bio.PDB.cealign import run_cealign
+        paths=run_cealign([list(a['xyz']) for a in reference],[list(a['xyz']) for a in target],8,30)
+        if not paths:raise ValidationError('No CE domain correspondence')
+        longest=[p for p in paths if p.length==paths[0].length]
+        def residual(path):
+            a,b=path.path
+            x=np.array([target[j]['xyz'] for j in b]);y=np.array([reference[i]['xyz'] for i in a])
+            r,t=kabsch(x,y)
+            return float(np.mean(np.sum((x@r.T+t-y)**2,axis=1)))
+        best=min(longest,key=residual);pairs=list(zip(*best.path))
+        identity=sum(reference[i]['resname']==target[j]['resname'] for i,j in pairs)/len(pairs)
+    elif method!='sequence':raise ValidationError('Unknown domain alignment method')
+    if (method=='sequence' and identity<0.25) or len(pairs)<100: raise ValidationError('Insufficient homologous domain correspondence')
+    ref=np.array([reference[i]['xyz'] for i,j in pairs]); mob=np.array([target[j]['xyz'] for i,j in pairs])
+    keep=np.ones(len(pairs),dtype=bool)
+    for _ in range(8):
+        r,t=kabsch(mob[keep],ref[keep]); distances=np.linalg.norm(mob@r.T+t-ref,axis=1)
+        candidate=distances<=3.0
+        if np.array_equal(candidate,keep): break
+        if candidate.sum()<100 or candidate.mean()<0.6: raise ValidationError('Too little alignable domain core')
+        keep=candidate
+    r,t=kabsch(mob[keep],ref[keep]); distances=np.linalg.norm(mob@r.T+t-ref,axis=1)
+    ref_pocket={i for i,a in enumerate(reference) if min_distance(np.array([a['xyz']]),head)<10.0}
+    pocket_indices=[k for k,(i,j) in enumerate(pairs) if i in ref_pocket]
+    if len(pocket_indices)<10 or len(pocket_indices)/len(ref_pocket)<0.8:
+        raise ValidationError('Insufficient mapped pocket coverage')
+    rmsd=float(np.sqrt(np.mean(distances[keep]**2)))
+    pocket_rmsd=float(np.sqrt(np.mean(distances[pocket_indices]**2)))
+    if rmsd>2.5 or pocket_rmsd>2.0: raise ValidationError(f'Poor domain/pocket fit: {rmsd:.2f}/{pocket_rmsd:.2f} Å')
+    return r,t,{'identity':identity,'alignment_method':method,'core_rmsd_A':rmsd,'pocket_rmsd_A':pocket_rmsd,
+                'pocket_coverage':len(pocket_indices)/len(ref_pocket),
+                'aligned_residues':[{'reference':[reference[i]['resnum'],reference[i]['icode']],
+                                     'target':[target[j]['resnum'],target[j]['icode']],
+                                     'fit_core':bool(keep[k])} for k,(i,j) in enumerate(pairs)]}
 
-
-# ── Kabsch alignment ──────────────────────────────────────────────────────────
-
-def parse_ca(pdb_path: Path) -> np.ndarray:
-    """Return (N,3) Cα coordinate array in residue order."""
-    coords = []
-    with open(pdb_path) as f:
-        for line in f:
-            if line[:4] == 'ATOM' and line[12:16].strip() == 'CA':
-                coords.append([float(line[30:38]), float(line[38:46]), float(line[46:54])])
-    return np.array(coords) if coords else np.zeros((0, 3))
-
-
-def kabsch(mobile: np.ndarray, ref: np.ndarray):
-    """Return (R, t) minimising RMSD: mobile @ R.T + t ≈ ref."""
-    mc, rc = mobile.mean(0), ref.mean(0)
-    H  = (mobile - mc).T @ (ref - rc)
-    U, _, Vt = np.linalg.svd(H)
-    d  = np.linalg.det(Vt.T @ U.T)
-    R  = Vt.T @ np.diag([1, 1, d]) @ U.T
-    return R, rc - mc @ R.T
-
-
-def common_ca_align(kin_pdb: Path, ref_pdb: Path):
-    """
-    Align up to min(N_kin, N_ref) Cα atoms (N-terminal truncation to common length).
-    Returns (R, t) or (None, None) if too few atoms.
-    """
-    kin_ca = parse_ca(kin_pdb)
-    ref_ca = parse_ca(ref_pdb)
-    n = min(len(kin_ca), len(ref_ca))
-    if n < 30:
-        return None, None
-    R, t = kabsch(kin_ca[:n], ref_ca[:n])
-    rmsd = float(np.sqrt(((kin_ca[:n] @ R.T + t - ref_ca[:n]) ** 2).mean()))
-    return R, t
-
-
-# ── Warhead transform ─────────────────────────────────────────────────────────
-
-def transform_warhead(sdf_in: Path, R: np.ndarray, t: np.ndarray, sdf_out: Path) -> bool:
-    """Apply inverse rotation (ref→kinase frame) to warhead atoms via RDKit."""
-    try:
-        from rdkit import Chem
-        mol = Chem.MolFromMolFile(str(sdf_in), removeHs=False)
-        if mol is None:
-            return False
-        conf = mol.GetConformer()
-        pos  = conf.GetPositions()
-        # ref frame → kinase frame: inverse of (mob @ R.T + t = ref)
-        new_pos = (pos - t) @ R
-        for i, xyz in enumerate(new_pos):
-            conf.SetAtomPosition(i, xyz.tolist())
-        w = Chem.SDWriter(str(sdf_out))
-        w.write(mol); w.close()
-        return True
-    except Exception as e:
-        print(f'    RDKit error: {e}')
-        return False
-
-
-# ── Kinase chain writer ───────────────────────────────────────────────────────
-
-def write_kinase_chain(src: Path, dst: Path, chain='D', offset=200):
-    """Write kinase PDB with chain relabelled to D and residues offset to 200+."""
-    lines = []
-    seen_ter = False
-    with open(src) as f:
-        for line in f:
-            if line.startswith('TER') and not seen_ter:
-                seen_ter = True
-                lines.append('TER\n')
-            elif line[:4] in ('ATOM', 'HETA') and not seen_ter:
-                try:
-                    rnum = int(line[22:26]) + offset
-                except ValueError:
-                    continue
-                line = line[:21] + chain + f'{rnum:4d}' + line[26:]
-                lines.append(line)
-    with open(dst, 'w') as f:
-        f.writelines(lines)
-
-
-# ── Protac_params writer ──────────────────────────────────────────────────────
-
-def write_protac_params(out_dir: Path, protac: str, uid: str):
-    ernie_dir  = f'{ERNIE_HOME}/10PROTAC-MD/prosettac_inputs/{protac}/{out_dir.name}'
-    # VHL SMILES from SJF8240 — same VHL ligand for all PROTACs
-    smi_path   = f'{ERNIE_HOME}/protac/data/structures/PROTAC/SJF8240/SJF8240.smi'
-    params = (
-        f'Structures: {ERNIE_HOME}/protac/data/structures/VHL/4W9H_VBC_clean.pdb '
-        f'{ernie_dir}/protein.pdb\n'
-        f'Chains: ABC A\n'
-        f'Heads: {ERNIE_HOME}/protac/data/structures/VHL/SJF8240_vhll_placed.sdf '
-        f'{ernie_dir}/warhead.sdf\n'
-        f'Smiles: {smi_path}\n'
-        f'OutDir: {ernie_dir}\n'
-    )
-    (out_dir / 'Protac_params.txt').write_text(params)
-
-
-# ── Placement core ────────────────────────────────────────────────────────────
-
-def place_one(gene: str, uid: str, struct_path: str, protac: str) -> bool:
-    cfg     = PROTAC_CONFIG[protac]
-    out_dir = INPUT_DIR / protac / f'{gene}_{uid}'
-    done    = out_dir / 'warhead.sdf'
-    if done.exists():
-        return True
-
-    kin_pdb = Path(struct_path)
-    if not kin_pdb.exists():
-        print(f'    Missing structure: {kin_pdb}')
-        return False
-
-    R, t = common_ca_align(kin_pdb, cfg['ref_kinase'])
-    if R is None:
-        print(f'    Too few Cα atoms for alignment: {gene}')
-        return False
-
-    out_dir.mkdir(parents=True, exist_ok=True)
-
-    if not transform_warhead(cfg['warhead_sdf'], R, t, out_dir / 'warhead.sdf'):
-        return False
-
-    write_kinase_chain(kin_pdb, out_dir / 'protein.pdb')
-    write_protac_params(out_dir, protac, uid)
-    return True
-
-
-# ── Commands ─────────────────────────────────────────────────────────────────
-
-def load_manifest():
-    if not MANIFEST.exists():
-        print('No merged manifest — run 00b_build_merged_manifest.py first.')
-        sys.exit(1)
-    return pd.read_csv(MANIFEST, sep='\t')
-
-
-def cmd_plan(args):
-    df = load_manifest()
-    print('Warhead placement plan:')
-    for protac, cfg in PROTAC_CONFIG.items():
-        if cfg.get('skip'):
-            col = f'{protac}_path'
-            if col in df.columns:
-                n = df[col].notna().sum()
-                print(f'  {protac:12s}  SKIP ({cfg["skip_reason"]}) — {n} already staged')
-            else:
-                print(f'  {protac:12s}  SKIP ({cfg["skip_reason"]})')
-            continue
-        col = cfg['struct_col']
-        if col not in df.columns:
-            print(f'  {protac:12s}  no column in manifest')
-            continue
-        n_total = df[col].notna().sum()
-        n_done  = sum(1 for _, row in df.iterrows()
-                      if pd.notna(row.get(col)) and
-                      (INPUT_DIR / protac / f'{row.get("hgnc_gene","?")}_{row.get("uniprot_id","?")}' / 'warhead.sdf').exists())
-        print(f'  {protac:12s}  {n_total} pairs  ({n_done} already done)')
-        # check prereqs
-        for req in [cfg['warhead_sdf'], cfg['ref_kinase']]:
-            if not req.exists():
-                print(f'    MISSING: {req}')
-
-
-def cmd_run(args):
-    df = load_manifest()
-    for protac, cfg in PROTAC_CONFIG.items():
-        if cfg.get('skip'):
-            continue
-        if args.protac and protac != args.protac:
-            continue
-        col = cfg.get('struct_col')
-        if not col or col not in df.columns:
-            continue
-        subset = df[df[col].notna()].copy()
-        if args.gene:
-            subset = subset[subset['hgnc_gene'] == args.gene]
-        print(f'\n{protac}: {len(subset)} kinases to place ...')
-        ok = skip = fail = 0
-        for _, row in subset.iterrows():
-            gene = str(row.get('hgnc_gene', row.get('uniprot_id', '?')))
-            uid  = str(row.get('uniprot_id', '?'))
-            path = str(row[col])
-            result = place_one(gene, uid, path, protac)
-            if result is True:
-                # check if it was already done or just placed
-                out = INPUT_DIR / protac / f'{gene}_{uid}' / 'warhead.sdf'
-                ok += 1
-            else:
-                fail += 1
-        print(f'  placed: {ok}, failed: {fail}')
-
-
-def cmd_status(args):
-    df = load_manifest() if MANIFEST.exists() else None
-    print('Placement status:')
-    for protac in PROTAC_CONFIG:
-        d = INPUT_DIR / protac
-        n = sum(1 for x in d.glob('*/warhead.sdf')) if d.exists() else 0
-        cfg = PROTAC_CONFIG[protac]
-        if cfg.get('skip'):
-            print(f'  {protac:12s}  {n} staged (pre-existing kinome_scan)')
-        else:
-            col = cfg.get('struct_col', '')
-            expected = df[col].notna().sum() if df is not None and col in df.columns else '?'
-            print(f'  {protac:12s}  {n}/{expected} done')
-
+def prepare(root,row,allow_modeled=False,output_root=None):
+    modeled=row['protac'] in {'SJF1521','JNJ1013','SJF_delta'}
+    if row['protac'] not in {'GSK215','SJF8240'} and not (modeled and allow_modeled):
+        raise ValidationError('No validated atom-mapped head for '+row['protac'])
+    refdir=(root/'modeled_reference_candidates' if modeled else root/'reference_structures/validated')/row['protac']
+    if row.get('reference_bundle'):
+        candidate=(root/row['reference_bundle']).resolve()
+        if not modeled or not candidate.is_relative_to((root/'modeled_reference_candidates').resolve()):
+            raise ValidationError('Explicit reference bundle must be a modeled candidate under this project')
+        refdir=candidate
+    heads=json.loads((refdir/'heads.json').read_text())
+    source=Path(row['structure_path'])
+    source=(source if source.is_absolute() else root/source).resolve()
+    atoms,ca=domain_atoms(source,row['chain'],int(row['res_start']),int(row['res_end']))
+    _,refca=domain_atoms(refdir/'protein.pdb','D',-999,9999)
+    mol=Chem.MolFromMolFile(str(refdir/'poi_head.sdf'),removeHs=False)
+    r,t,meta=align_domain(ca,refca,mol.GetConformer().GetPositions(),row.get('alignment_method','sequence'))
+    placed=(mol.GetConformer().GetPositions()-t)@r
+    distance=min_distance(placed,np.array([a['xyz'] for a in atoms if a['element'] not in ('H','D')]))
+    if not 1.5 <= distance <= 4.5: raise ValidationError(f'Implausible head contacts/clash: {distance:.3f} Å')
+    name=row.get('run_name') or row['gene']+'_'+row['uniprot_id']
+    if not re.fullmatch(r'[A-Za-z0-9][A-Za-z0-9_.-]*',name) or any('/' in v or '\\' in v or v in {'.','..'} for v in [row['gene'],row['uniprot_id']]):
+        raise ValidationError('Unsafe run identifier')
+    dest=(Path(output_root) if output_root is not None else root/'prepared_inputs')/row['protac']/name
+    if dest.exists(): raise ValidationError('Candidate exists; use a new root for a new attempt')
+    dest.mkdir(parents=True)
+    for i,xyz in enumerate(placed): mol.GetConformer().SetAtomPosition(i,xyz)
+    w=Chem.SDWriter(str(dest/'poi_head.sdf')); w.write(mol); w.close()
+    (dest/'protein.pdb').write_text('\n'.join(a['line'][:21]+'D'+a['line'][22:] for a in atoms)+'\nTER\nEND\n')
+    protein_lines=(refdir/'proteins.pdb').read_text().splitlines()
+    (dest/'vbc.pdb').write_text('\n'.join(l for l in protein_lines if l.startswith('ATOM  ') and l[21] in 'ABC')+'\nEND\n')
+    shutil.copy2(refdir/'vhl_head.sdf',dest/'vhl_head.sdf')
+    shutil.copy2(root/'molecules'/row['protac']/'full.smi',dest/'full.smi')
+    (dest/'Protac_params.txt').write_text('Structures: vbc.pdb protein.pdb\nChains: ABC D\nHeads: vhl_head.sdf poi_head.sdf\n'
+        +f'Anchor atoms: {heads["vhl"]["anchor_one_based"]} {heads["poi"]["anchor_one_based"]}\nProtac: full.smi\nFull: True\nClusterName: LOCAL\n')
+    read_params(dest/'Protac_params.txt')
+    selection={'vhl':{'chains':['A'],'record':'ATOM'},'poi':{'chains':['D'],'record':'ATOM'},
+               'protac':{'chains':['X'],'record':'HETATM','resname':'PTC'},
+               'qc':{'min_nonbonded_heavy_distance_A':1.5,'units':'Angstrom',
+                     'basis':'Same minimum contact distance as bound-head preparation; gross-overlap exclusion only'}}
+    atomic_json(dest/'selection.json',selection)
+    meta.update({'schema_version':1,'status':'PREPARATION_CANDIDATE','production_ready':False,
+                 'protac':row['protac'],'gene':row['gene'],'uniprot_id':row['uniprot_id'],
+                 'run_name':name,'domain_id':row.get('domain_id'),
+                 'structure_source':row.get('source'),
+                 'reference_kind':heads.get('method','native_bound_fragment'),
+                 'reference_bundle':str(refdir.relative_to(root)),
+                 'reference_model_evidence':heads.get('model_evidence'),
+                 'contains_modeled_head':modeled,'head_bundle_sha256':sha256(refdir/'heads.json'),
+                 'source_path':str(source),'source_sha256':sha256(source),'source_chain':row['chain'],
+                 'domain':[int(row['res_start']),int(row['res_end'])], 'head_min_distance_A':distance,
+                 'reference_sha256':sha256(refdir/'poi_head.sdf'),
+                 'molecule_inchikey':Chem.MolToInchiKey(Chem.MolFromSmiles((dest/'full.smi').read_text().strip())),
+                 'files':{p.name:sha256(p) for p in dest.iterdir() if p.is_file()}})
+    atomic_json(dest/'preparation.json',meta)
+    return meta
 
 def main():
-    p = argparse.ArgumentParser()
-    g = p.add_mutually_exclusive_group(required=True)
-    g.add_argument('--plan',   action='store_true')
-    g.add_argument('--run',    action='store_true')
-    g.add_argument('--status', action='store_true')
-    p.add_argument('--protac', default=None)
-    p.add_argument('--gene',   default=None)
-    args = p.parse_args()
-    if args.plan:   cmd_plan(args)
-    elif args.run:  cmd_run(args)
-    elif args.status: cmd_status(args)
+    p=argparse.ArgumentParser(description=__doc__)
+    p.add_argument('--root',type=Path,default=Path(__file__).resolve().parents[2])
+    p.add_argument('--pair-table',type=Path,required=True)
+    p.add_argument('--run',action='store_true',help='Write candidates; default lists explicit domains')
+    p.add_argument('--allow-modeled-candidates',action='store_true',
+                   help='Explicitly admit analog-model references for QC, never a production release')
+    a=p.parse_args(); rows=list(csv.DictReader(a.pair_table.open(),delimiter='\t'))
+    if not a.run: print(json.dumps(rows,indent=2)); return
+    results=[]
+    for row in rows:
+        try:
+            meta=prepare(a.root,row,a.allow_modeled_candidates)
+            results.append({'protac':row['protac'],'gene':row['gene'],'uniprot_id':row['uniprot_id'],
+                            'status':'CANDIDATE','rmsd':meta['pocket_rmsd_A']})
+        except (ValidationError,ValueError,OSError) as exc:
+            results.append({'protac':row['protac'],'gene':row['gene'],'uniprot_id':row['uniprot_id'],
+                            'status':'REJECTED','reason':str(exc)})
+    atomic_json(a.root/'audits/preparation_attempts'/(str(uuid.uuid4())+'.json'),
+                {'pair_table_sha256':sha256(a.pair_table),'allow_modeled':a.allow_modeled_candidates,'results':results})
+    summary=[]
+    for path in sorted((a.root/'prepared_inputs').glob('*/*/preparation.json')):
+        info=json.loads(path.read_text())
+        summary.append({'protac':path.parent.parent.name,'run_name':path.parent.name,
+                        'status':info['status'],'production_ready':info['production_ready'],
+                        'contains_modeled_head':info.get('contains_modeled_head',False),
+                        'pocket_rmsd_A':info['pocket_rmsd_A'],'metadata_sha256':sha256(path)})
+    atomic_json(a.root/'prepared_inputs/preparation_summary.json',summary)
+    print(json.dumps(results,indent=2))
+    if any(r['status']=='REJECTED' for r in results): raise SystemExit(1)
 
-
-if __name__ == '__main__':
-    main()
+if __name__=='__main__': main()

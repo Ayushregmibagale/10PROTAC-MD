@@ -1,0 +1,46 @@
+{
+  "schema_version": 1,
+  "attempt_id": "acb8552e-0165-4504-97d7-1f1aa297997f",
+  "command": [
+    "/home/ayushregmibagale/miniconda3/envs/deepternary/bin/python",
+    "/tmp/10protac_finish/baseline_engine/run.py",
+    "--run-dir",
+    "/tmp/10protac_finish/benchmarks/baseline_receipted_native_v10",
+    "--protocol",
+    "native_frame",
+    "--seed",
+    "392",
+    "--n-dock",
+    "1",
+    "--n-local",
+    "3",
+    "--conformers",
+    "2",
+    "--workers",
+    "1",
+    "--max-global-trials",
+    "1"
+  ],
+  "input_sha256": {
+    "selection.json": "35d269763795f0e8585f3bf9a171037528820bc9443de00a2bf97a0836ba563e",
+    "vbc.pdb": "38a87ba99977645ba344f0d36a0d20be725150a50182c68bfab6cfdd183902a2",
+    "poi_head.sdf": "1e39c54042c3b028ca6d0e4fe2a320f0ee5ab493b3b2daea22e396e3de1eadb4",
+    "protein.pdb": "52ac6c7d90bee91eed2f5d5f84b2f7b45e068f0e9da8945c6c945e39bf63c0a6",
+    "preparation.json": "cdc7677fe6f27e454baa3f3d290cb21b6509614a331a37830c82f416a29068af",
+    "vhl_head.sdf": "926817eef52a725848ca79fd61679ea0605b4fa6eb6f1d63cacca3355ca56537",
+    "full.smi": "2c10735a4f644a08ef4aac29b91fa9213a44931acbe12d7a7b2c7cb32ee0c2ed",
+    "Protac_params.txt": "42183eb86f4f5cdb68d99dfa53ed9b55612fad6022155615157f04a771dfc362"
+  },
+  "selection_sha256": "35d269763795f0e8585f3bf9a171037528820bc9443de00a2bf97a0836ba563e",
+  "started_unix": 1793816132.919089,
+  "status": "COMPLETE",
+  "exit_code": 0,
+  "engine_status_sha256": "b76d8de0b2981d5a4510c5f3257c2e660e13a2e8fe391a439ebe8cd1a36dc837",
+  "score_sha256": "09e87b02cb516bbc9b61d7a5171fffccdb84afa6ef492b066fa97c221b03c90c",
+  "pose_sha256": {
+    "combined_1_3_0001": "8c65af85ca9b1b77509a719b62f2898273a9ff9fe66f933c0cf21683a68c3d31"
+  },
+  "n_scored_valid": 1,
+  "reason": "",
+  "finished_unix": 1793816188.634295
+}

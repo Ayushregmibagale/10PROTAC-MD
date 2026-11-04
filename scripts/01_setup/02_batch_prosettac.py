@@ -1,263 +1,112 @@
 #!/usr/bin/env python3
+"""Plan or execute immutable baseline-workflow inputs using the LOCAL backend.
+
+--plan is read-only. --run --pilot is bounded; full --run needs a versioned scientific release.
 """
-02_batch_prosettac.py — batch pRosettaC submission for all kinase × PROTAC pairs
-==================================================================================
-Single stage: N_DOCK=200 → ~10,000 Rosetta-refined poses per kinase.
-Matches the protac-md 19-POI training campaign exactly.
-
-pRosettaC interface (Ernie):
-  python3 RUNNER Protac_params.txt --n_dock 200 --n_workers W
-
-Runs on Ernie via SSH subprocess.  Fully resumable — checks for score.sc to detect
-completion.  Submits up to MAX_PARALLEL jobs simultaneously.
-
-Prerequisites:
-  - ~/10PROTAC-MD/prosettac_inputs/{PROTAC}/{GENE}_{UID}/Protac_params.txt
-  - pRosettaC runner on Ernie at ERNIE_RUNNER
-  - SSH key-based access to Ernie (host alias 'ernie')
-
-Usage:
-  python 02_batch_prosettac.py --plan                     # list all runs + ETA
-  python 02_batch_prosettac.py --run                      # submit all
-  python 02_batch_prosettac.py --run --protac SJF8240     # one PROTAC
-  python 02_batch_prosettac.py --run --gene DDR2          # one kinase
-  python 02_batch_prosettac.py --status                   # progress report
-
-State machine per run (stored in manifest):
-  PENDING → RUNNING → COMPLETE | FAILED
-"""
-
 import argparse
-import subprocess
-import time
+import csv
+import fcntl
+import importlib.util
+import json
+import os
 import sys
-import pandas as pd
+import tempfile
 from pathlib import Path
-from datetime import datetime
+sys.path.insert(0,str(Path(__file__).resolve().parents[1]/'lib'))
+from protac_qc import sha256, ValidationError
 
-ROOT         = Path(__file__).resolve().parents[2]
-INPUT_DIR    = ROOT / 'prosettac_inputs'
-RUNS_DIR     = ROOT / 'runs'
-MANIFEST     = ROOT / 'runs' / 'manifest.tsv'
+def pair_hash(folder):
+    # Hash config and every local dependency, including the original symlink target content.
+    import hashlib
+    files=sorted(p for p in folder.iterdir() if p.is_file())
+    return hashlib.sha256(json.dumps([(p.name,sha256(p)) for p in files]).encode()).hexdigest()
 
-# ── Ernie config ───────────────────────────────────────────────────────────────
-ERNIE_HOST    = 'ernie'
-ERNIE_ROOT    = '/home/s1638308/10PROTAC-MD'
-ERNIE_PYTHON  = '/home/s1638308/miniconda3/envs/protac/bin/python3'
-ERNIE_RUNNER  = '/home/s1638308/protac/scripts/02_rosetta_utils/03_run_local_prosettac.py'
-MAX_PARALLEL  = 10    # concurrent kinases (10 × 2 workers = 20 CPUs)
-N_WORKERS_PER = 2     # parallel Rosetta workers per job
-
-# ── pRosettaC params ───────────────────────────────────────────────────────────
-N_DOCK = 200   # → ~10,000 Rosetta-refined poses per kinase (matches protac-md)
-
-
-# ── Helpers ────────────────────────────────────────────────────────────────────
-
-def ernie_run(cmd: str, check=True) -> subprocess.CompletedProcess:
-    return subprocess.run(['ssh', ERNIE_HOST, cmd], capture_output=True, text=True, check=check)
-
-
-def ernie_exists(path: str) -> bool:
-    return ernie_run(f'test -f {path}', check=False).returncode == 0
-
-
-def get_all_inputs(protac_filter=None, gene_filter=None):
-    pairs = []
-    for p_dir in sorted(INPUT_DIR.iterdir()):
-        if not p_dir.is_dir():
-            continue
-        protac = p_dir.name
-        if protac_filter and protac != protac_filter:
-            continue
-        for run_dir in sorted(p_dir.iterdir()):
-            if not run_dir.is_dir():
-                continue
-            if not (run_dir / 'Protac_params.txt').exists():
-                continue
-            parts = run_dir.name.rsplit('_', 1)
-            gene  = parts[0] if len(parts) == 2 else run_dir.name
-            uid   = parts[1] if len(parts) == 2 else run_dir.name
-            if gene_filter and gene != gene_filter:
-                continue
-            pairs.append({
-                'protac':    protac,
-                'gene':      gene,
-                'uid':       uid,
-                'run_name':  run_dir.name,
-                'local_dir': str(run_dir),
-            })
+def get_all_inputs(input_dir,protac_filter=None,gene_filter=None):
+    pairs=[]
+    for d in sorted(Path(input_dir).glob('*/*')):
+        if not d.is_dir(): continue
+        gene,_,uid=d.name.rpartition('_')
+        if (d/'preparation.json').exists():
+            info=json.loads((d/'preparation.json').read_text())
+            gene,uid=info.get('gene') or gene,info.get('uniprot_id') or uid
+        if protac_filter and d.parent.name!=protac_filter: continue
+        if gene_filter and gene!=gene_filter: continue
+        pairs.append({'protac':d.parent.name,'gene':gene,'uid':uid,'run_name':d.name,'local_dir':str(d.resolve()),
+                      'input_hash':pair_hash(d)})
     return pairs
 
-
-def build_manifest(protac_filter=None, gene_filter=None) -> pd.DataFrame:
-    pairs = get_all_inputs(protac_filter, gene_filter)
-    if not pairs:
-        print('No input pairs found.')
-        sys.exit(1)
-
-    df = pd.DataFrame(pairs)
-    df['status']       = 'PENDING'
-    df['bridge_poses'] = -1
-    df['bridge_pct']   = -1.0
-    df['submit_time']  = ''
-    df['done_time']    = ''
-    df['ernie_outdir'] = df.apply(
-        lambda r: f'{ERNIE_ROOT}/prosettac_inputs/{r["protac"]}/{r["run_name"]}', axis=1
-    )
-
-    RUNS_DIR.mkdir(parents=True, exist_ok=True)
-    if MANIFEST.exists():
-        existing = pd.read_csv(MANIFEST, sep='\t')
-        key = ['protac', 'gene', 'uid']
-        df = df.set_index(key)
-        existing = existing.set_index(key)
-        for col in ['status', 'bridge_poses', 'bridge_pct', 'submit_time', 'done_time']:
-            if col in existing.columns:
-                df[col] = existing[col].reindex(df.index).fillna(df[col])
-        df = df.reset_index()
-    df.to_csv(MANIFEST, sep='\t', index=False)
-    return df
-
-
-def submit_run(row: pd.Series) -> str:
-    local_dir = Path(row['local_dir'])
-    out_dir   = row['ernie_outdir']
-
-    ernie_run(f'mkdir -p {out_dir}')
-    subprocess.run(
-        ['rsync', '-az', '--copy-links', str(local_dir) + '/', f'{ERNIE_HOST}:{out_dir}/'],
-        check=True, capture_output=True
-    )
-
-    run_cmd = (
-        f'export PATH="$HOME/miniconda3/envs/protac/bin:$PATH"; '
-        f'export OMP_NUM_THREADS=1; '
-        f'cd {out_dir} && '
-        f'nohup {ERNIE_PYTHON} {ERNIE_RUNNER} '
-        f'Protac_params.txt '
-        f'--n_dock {N_DOCK} --n_workers {N_WORKERS_PER} '
-        f'> {out_dir}/pRosettaC.log 2>&1 & echo $!'
-    )
-    r = ernie_run(run_cmd)
-    return r.stdout.strip()
-
-
-def check_complete(row: pd.Series) -> tuple:
-    score_sc = f'{row["ernie_outdir"]}/score.sc'
-    if not ernie_exists(score_sc):
-        return False, -1, -1.0
-    local_score = RUNS_DIR / 'scores' / row['protac'] / f'{row["run_name"]}_score.sc'
-    local_score.parent.mkdir(parents=True, exist_ok=True)
-    subprocess.run(['rsync', '-az', f'{ERNIE_HOST}:{score_sc}', str(local_score)],
-                   capture_output=True)
-    return True, *_count_bridging(local_score)
-
-
-def _count_bridging(score_sc: Path):
-    if not score_sc.exists():
-        return 0, 0.0
-    try:
-        df = pd.read_csv(score_sc, sep=r'\s+', comment='#', header=0)
-        cols = [c for c in df.columns if 'bridg' in c.lower()]
-        if cols:
-            n   = int((df[cols[0]] > 0).sum())
-            pct = round(n / len(df) * 100, 2)
-            return n, pct
-        return 0, 0.0
-    except Exception:
-        return 0, 0.0
-
-
-# ── Commands ───────────────────────────────────────────────────────────────────
-
-def cmd_plan(args):
-    pairs = get_all_inputs(args.protac, args.gene)
-    print(f'Total input pairs: {len(pairs)}  (N_DOCK={N_DOCK}, ~10k poses each)')
-    by_protac = {}
-    for p in pairs:
-        by_protac.setdefault(p['protac'], 0)
-        by_protac[p['protac']] += 1
-    for k, v in sorted(by_protac.items()):
-        wall = v * 32 / 60 / MAX_PARALLEL   # ~32 min/kinase at N_DOCK=200
-        print(f'  {k:12s}  {v:4d} pairs  ~{wall:.0f} hrs wall-time')
-
-
-def cmd_run(args):
-    df = build_manifest(args.protac, args.gene)
-    pending = df[df['status'] == 'PENDING']
-    print(f'{len(pending)} PENDING, '
-          f'{(df["status"]=="COMPLETE").sum()} COMPLETE, '
-          f'{(df["status"]=="FAILED").sum()} FAILED')
-
-    while True:
-        df = pd.read_csv(MANIFEST, sep='\t')
-
-        for idx, row in df[df['status'] == 'RUNNING'].iterrows():
-            done, n_bridge, pct = check_complete(row)
-            if done:
-                df.at[idx, 'status']       = 'COMPLETE'
-                df.at[idx, 'bridge_poses'] = n_bridge
-                df.at[idx, 'bridge_pct']   = pct
-                df.at[idx, 'done_time']    = datetime.now().isoformat()
-                print(f'  COMPLETE: {row["protac"]}/{row["gene"]} '
-                      f'bridge={n_bridge} ({pct:.1f}%)')
-
-        n_running = int((df['status'] == 'RUNNING').sum())
-        for idx, row in df[df['status'] == 'PENDING'].head(MAX_PARALLEL - n_running).iterrows():
-            try:
-                pid = submit_run(row)
-                df.at[idx, 'status']      = 'RUNNING'
-                df.at[idx, 'submit_time'] = datetime.now().isoformat()
-                print(f'  SUBMITTED: {row["protac"]}/{row["gene"]}  pid={pid}')
-            except Exception as e:
-                df.at[idx, 'status'] = 'FAILED'
-                print(f'  FAILED: {row["protac"]}/{row["gene"]}: {e}')
-
-        df.to_csv(MANIFEST, sep='\t', index=False)
-
-        n_remaining = int((df['status'].isin(['PENDING', 'RUNNING'])).sum())
-        n_done      = int((df['status'] == 'COMPLETE').sum())
-        print(f'  [{datetime.now().strftime("%H:%M:%S")}] {n_done}/{len(df)} complete, '
-              f'{n_remaining} remaining')
-
-        if n_remaining == 0:
-            print('All done.')
-            break
-        time.sleep(60)
-
-
-def cmd_status(args):
-    if not MANIFEST.exists():
-        print('No manifest — run --plan first.')
-        return
-    df = pd.read_csv(MANIFEST, sep='\t')
-    print(f'{len(df)} total runs — '
-          + ', '.join(f'{s}={int((df["status"]==s).sum())}'
-                      for s in ['PENDING', 'RUNNING', 'COMPLETE', 'FAILED']))
-    print('\nBy PROTAC:')
-    for protac in sorted(df['protac'].unique()):
-        sub = df[df['protac'] == protac]
-        done = int((sub['status'] == 'COMPLETE').sum())
-        bridging = sub[sub['bridge_poses'] > 0]
-        print(f'  {protac:12s}  {done}/{len(sub)} complete  '
-              f'{len(bridging)} bridging hits')
-
+def build_manifest(manifest,pairs):
+    """Locked atomic union; filtered plans never delete unrelated manifest rows."""
+    manifest=Path(manifest); manifest.parent.mkdir(parents=True,exist_ok=True)
+    with (manifest.parent/(manifest.name+'.lock')).open('w') as lock:
+        fcntl.flock(lock,fcntl.LOCK_EX|fcntl.LOCK_NB)
+        existing=list(csv.DictReader(manifest.open(),delimiter='\t')) if manifest.exists() else []
+        key=lambda r:(r['protac'],r.get('run_name') or r['gene']+'_'+r['uid'])
+        merged={key(r):r for r in existing}
+        if len(merged)!=len(existing): raise ValidationError('Duplicate keys in existing manifest')
+        for pair in pairs:
+            old=merged.get(key(pair),{})
+            changed=old.get('input_hash')!=pair['input_hash']
+            if changed and old.get('status') in {'RUNNING','SUBMITTED','SUBMITTING'}:
+                raise ValidationError('Inputs changed during active attempt; inspect before continuing')
+            state=dict(old)
+            state.update(pair)
+            if not old or changed:
+                state.update(status='BLOCKED',attempt_id='',scheduler_id='',reason='PREFLIGHT_AND_ENGINE_RELEASE_REQUIRED')
+            merged[key(pair)]=state
+        rows=[merged[k] for k in sorted(merged)]
+        fields=sorted({k for r in rows for k in r})
+        fd,name=tempfile.mkstemp(dir=manifest.parent,prefix='.manifest-')
+        try:
+            with os.fdopen(fd,'w') as f:
+                w=csv.DictWriter(f,fieldnames=fields,delimiter='\t'); w.writeheader(); w.writerows(rows)
+                f.flush(); os.fsync(f.fileno())
+            os.replace(name,manifest)
+        finally:
+            if os.path.exists(name): os.unlink(name)
+        return rows
 
 def main():
-    p = argparse.ArgumentParser()
-    g = p.add_mutually_exclusive_group(required=True)
-    g.add_argument('--plan',   action='store_true')
-    g.add_argument('--run',    action='store_true')
-    g.add_argument('--status', action='store_true')
-    p.add_argument('--protac', default=None)
-    p.add_argument('--gene',   default=None)
-    args = p.parse_args()
+    p=argparse.ArgumentParser(description=__doc__)
+    g=p.add_mutually_exclusive_group(required=True)
+    for mode in ['plan','build-manifest','status','run']: g.add_argument('--'+mode,action='store_true')
+    p.add_argument('--root',type=Path,default=Path(__file__).resolve().parents[2])
+    p.add_argument('--inputs',type=Path); p.add_argument('--protac'); p.add_argument('--gene')
+    p.add_argument('--python',type=Path);p.add_argument('--seed',type=int)
+    p.add_argument('--workers',type=int);p.add_argument('--n-dock',type=int)
+    p.add_argument('--n-local',type=int);p.add_argument('--conformers',type=int)
+    p.add_argument('--max-global-trials',type=int);p.add_argument('--timeout-seconds',type=float)
+    p.add_argument('--runs',type=Path);p.add_argument('--pilot',action='store_true')
+    p.add_argument('--protocol',choices=['global','native_frame'],default='global')
+    p.add_argument('--max-pairs',type=int);p.add_argument('--rerun',action='store_true')
+    a=p.parse_args()
+    defaults={'workers':1 if a.pilot else 2,'n_dock':2 if a.pilot else 200,
+              'n_local':3 if a.pilot else 50,'conformers':2 if a.pilot else 100,
+              'max_global_trials':10000 if a.pilot else 10000000,
+              'timeout_seconds':600 if a.pilot else 86400}
+    for key,value in defaults.items():
+        if getattr(a,key) is None:setattr(a,key,value)
+    if a.runs is None:a.runs=a.root/'runs'
+    manifest=a.runs/'manifest.tsv'
+    if a.run:
+        from campaign import execute
+        pairs=get_all_inputs(a.inputs or a.root/('prepared_inputs' if a.pilot else 'prepared_screen'),a.protac,a.gene)
+        limit=a.max_pairs if a.max_pairs is not None else (1 if a.pilot else len(pairs))
+        if limit<1:raise ValidationError('max-pairs must be positive')
+        execute(a.root,pairs[:limit],a)
+        return
+    if a.status:
+        if not manifest.exists(): print('No manifest.'); return
+        rows=list(csv.DictReader(manifest.open(),delimiter='\t'))
+    else:
+        rows=get_all_inputs(a.inputs or a.root/('prepared_inputs' if a.pilot else 'prepared_screen'),a.protac,a.gene)
+        if a.max_pairs is not None or a.pilot:rows=rows[:a.max_pairs if a.max_pairs is not None else 1]
+        if a.build_manifest: rows=build_manifest(manifest,rows)
+    from collections import Counter
+    print(json.dumps({'pairs':len(rows),'by_protac':dict(Counter(r['protac'] for r in rows)),
+                      'status':dict(Counter(r.get('status','UNVALIDATED') for r in rows)),
+                      'mode':'BOUNDED_PILOT' if a.pilot else 'CAMPAIGN_REQUIRES_VERSIONED_RELEASE',
+                      'budget':defaults | {k:getattr(a,k) for k in defaults},'retention':'FULL_RAW_OUTPUTS',
+                      'execution_started':False},indent=2))
 
-    if args.plan:     cmd_plan(args)
-    elif args.run:    cmd_run(args)
-    elif args.status: cmd_status(args)
-
-
-if __name__ == '__main__':
-    main()
+if __name__=='__main__': main()

@@ -1,0 +1,11 @@
+{
+  "reference_project": "/home/ayushregmibagale/protac-md",
+  "access": "read_only",
+  "files": {
+    "scripts/01_setup/04_build_topology.sh": "9da4ad266c402be0a35655c522a0ea146536f9c1773bc49b58a9a138d3c89851",
+    "scripts/01_setup/09_run_kinome_md_screen.py": "a0aa305ccaba8c5b909da8df5ee3c37a40a0a66425ae174c6aa1270bb6336968",
+    "scripts/01_setup/07_run_production.sh": "7dd1892ec899d4299186a609a6232a32203b967bce4888d9b6a45221f46299e4",
+    "docs/paper_methods.md": "709d8aedc1203ebd94f7dad1bdee2fb5ea6c0bb63513bb332c2f527d12094037",
+    "docs/gnn_robustness_requirements.md": "9e0df38c5489d291530884ad416a03c56e78e22c3d5472f8d0de4fdc6c46a0cb"
+  }
+}
