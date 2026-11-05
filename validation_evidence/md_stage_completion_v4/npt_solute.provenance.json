@@ -1,0 +1,23 @@
+{
+  "group": "SOLUTE",
+  "atom_count": 10253,
+  "source_sha256": "367dd1cae104af2d734e7700a88e0bff4f7f86d9b87261e36eead98c821506e5",
+  "target_sha256": "0819996b7585c5f079c31b7e30d1df17559d64d0fc59ccc5702c9051486e0f83",
+  "index_sha256": "064579fb0826e767b5cee8b82f904542b44207311a3c1c7192718272470a62b1",
+  "preparation_sha256": "feb4abb19999c70ce084ac8e6e1733d777a9e945447cb4be16c7aeab718b4c53",
+  "parent_receipt_sha256": "235ac1623479ad22b06306504b29edd84a44e1d488871a3b04b412ab2fb563a5",
+  "gmx_sha256": "9286cccea1befcb1a867c64a1b7c21ac6e456e1b221831dd81f544fe4f74b748",
+  "command": [
+    "/home/ayushregmibagale/software/gmx-plumed/bin/gmx",
+    "convert-tpr",
+    "-s",
+    "/tmp/10protac_finish/benchmarks/md_stage_completion_v4/npt.tpr",
+    "-n",
+    "/tmp/10protac_finish/benchmarks/md_stage_completion_v4/index.ndx",
+    "-o",
+    "/tmp/10protac_finish/benchmarks/md_stage_completion_v4/npt_solute.tpr"
+  ],
+  "stdin": "SOLUTE",
+  "log_sha256": "7a6f41d21acdcdf636584d36adb946cf2c2802c2d65ce81c7543962023981491",
+  "atom_order": "Original indices 1 through solute_atoms, without permutation"
+}

@@ -13,8 +13,10 @@ base=Path(__file__).resolve().parent;run=a.run.resolve();run.mkdir(exist_ok=Fals
 for f in a.input.iterdir():
  if f.is_file() and f.name not in {'attempt.json','completion.json','engine_status.json','engine.log','.attempt.lock'}:shutil.copy2(f,run/f.name)
 os.chdir(run)
+from constrained_linker import DEFAULT_OUTER_ATTEMPTS
 os.environ.pop('PROTAC_DIAGNOSTIC',None)
-os.environ.update(PROTAC_PROSETTAC=str(base/'runtime/PRosettaC'),PROTAC_ATTEMPT_ROOT=str(run),PROTAC_SEED=str(a.seed),PROTAC_WORKERS=str(a.workers),PROTAC_CONFORMERS=str(a.conformers),PROTAC_MAX_GLOBAL_TRIALS=str(a.max_global_trials))
+os.environ.pop('PROTAC_TASK_KEY',None)
+os.environ.update(PROTAC_PROSETTAC=str(base/'runtime/PRosettaC'),PROTAC_ATTEMPT_ROOT=str(run),PROTAC_SEED=str(a.seed),PROTAC_WORKERS=str(a.workers),PROTAC_CONFORMERS=str(a.conformers),PROTAC_MAX_GLOBAL_TRIALS=str(a.max_global_trials),PROTAC_LINKER_EMBED_TRIALS=str(DEFAULT_OUTER_ATTEMPTS),N_WORKERS_RESUME=str(a.workers))
 ad=base/'runtime/adapter';pr=base/'runtime/PRosettaC';sys.path[:0]=[str(ad),str(pr)]
 import pyrosetta_adapter as adapter
 adapter.apply_patches()

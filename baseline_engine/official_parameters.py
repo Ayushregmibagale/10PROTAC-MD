@@ -18,6 +18,14 @@ def generate(sdf_file,name,pdb_prefix,overwrite=True,conformers=False,nbr=-1,v_a
     expected=Chem.MolToInchiKey(molecules[0])
     if any(Chem.MolToInchiKey(m)!=expected for m in molecules):raise RuntimeError('Different graphs/stereochemistry in conformer ensemble')
     hyd=[Chem.AddHs(m,addCoords=True) for m in molecules]
+    frame=None
+    if conformers and len(hyd)>1:
+        if not 0<=nbr<molecules[0].GetNumAtoms():raise RuntimeError('Multiple ligand conformers require an explicit fixed orientation center')
+        frame=[nbr]+[n.GetIdx() for n in molecules[0].GetAtomWithIdx(nbr).GetNeighbors() if n.GetAtomicNum()>1]
+        if len(frame)<3:raise RuntimeError('Rotamer orientation center needs two fixed heavy neighbors')
+        reference=hyd[0].GetConformer().GetPositions()[frame]
+        displacement=max(float(np.max(np.linalg.norm(h.GetConformer().GetPositions()[frame]-reference,axis=1))) for h in hyd)
+        if displacement>0.003:raise RuntimeError('Ligand rotamer orientation frame is not invariant across conformers')
     for h in hyd:
         check=Chem.RemoveHs(Chem.Mol(h));Chem.AssignStereochemistryFrom3D(check,replaceExistingTags=True)
         if Chem.MolToInchiKey(check)!=expected:raise RuntimeError('Conformer 3D stereochemistry differs from input graph')
@@ -55,7 +63,8 @@ def generate(sdf_file,name,pdb_prefix,overwrite=True,conformers=False,nbr=-1,v_a
             lines.append(f'HETATM{i+1:5d} {pdb_fields[i]} {name:3s} X   1    {x:8.3f}{y:8.3f}{z:8.3f}  1.00  0.00          {a.GetSymbol():>2s}  ')
         return '\n'.join(lines)+'\nTER\n'
     # Official generation centers additional conformers; restore each exact input
-    # frame so rotamer selection cannot translate a head away from its protein.
+    # frame. The explicit invariant NBR frame is also required during Rosetta's
+    # conformer orientation; restoring Cartesian files alone is insufficient.
     pdb.write_text(block(hyd[0]))
     if conformers:
         rotamers=Path(str(prefix)+'_conformers.pdb')
@@ -68,8 +77,10 @@ def generate(sdf_file,name,pdb_prefix,overwrite=True,conformers=False,nbr=-1,v_a
         'source_sha256':digest(sdf_file),'generator_sha256':digest(script),'params_sha256':digest(params),
         'pdb_sha256':digest(pdb),'input_conformers':len(hyd),'heavy_atoms':molecules[0].GetNumAtoms(),
         'all_atom_index_to_name':mapping,'input_coordinate_frames_preserved':True,
+        'neighbor_atom_zero_based':nbr,'rotamer_frame_atom_indices':frame,
+        'rotamer_frame_max_displacement_A':displacement if frame is not None else None,
         'virtual_atoms_requested':bool(v_atoms_sdf),'virtual_atoms_used':False,
-        'virtual_atom_note':'Existing free-conformer adapter does not construct virtual-atom constraints; no physical vanadium atoms are added',
+        'virtual_atom_note':'Compatibility reference only; fixed-head construction uses real atoms, and no physical vanadium atoms are added',
         'command':command}
     prefix.with_name(prefix.name+'_parameter_provenance.json').write_text(json.dumps(provenance,indent=2)+'\n')
     requested=Path(pdb_prefix)

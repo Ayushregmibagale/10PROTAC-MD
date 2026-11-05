@@ -698,3 +698,214 @@ def test_native_interface_benchmark_detects_decoys_and_ignores_global_translatio
     bad=recovery.measure(reference,wrong,selection)
     assert bad['vhl_CA_rmsd_after_POI_fit_A']>29
     assert bad['fraction_native_contacts']<0.1
+
+
+def test_linker_embedding_has_explicit_internal_retry_budget(native,monkeypatch):
+    from rdkit import Chem
+    linker=load('linker_retry_budget','baseline_engine/constrained_linker.py')
+    full=Chem.MolFromMolFile(str(native/'bound_ligand.sdf'))
+    heads=[Chem.MolFromMolFile(str(native/(role+'_head.sdf'))) for role in ['vhl','poi']]
+    seen=[]
+    def reject(molecule,params):
+        seen.append((params.maxIterations,params.trackFailures))
+        return -1
+    monkeypatch.setattr(linker.AllChem,'EmbedMolecule',reject)
+    mol,report=linker.constrained_linker(full,heads,[h.GetConformer().GetPositions() for h in heads],17,attempts=2,embed_iterations=7)
+    assert mol is None and seen==[(7,True),(7,True)]
+    assert report['embedding_max_iterations_per_attempt']==7
+    assert len(report['embedding_failure_counts_by_attempt'])==2
+    with pytest.raises(ValidationError,match='bounded'):
+        linker.constrained_linker(full,heads,[],17,embed_iterations=0)
+
+
+def test_execution_snapshot_isolated_from_working_tree_and_detects_drift(tmp_path):
+    campaign=load('campaign_snapshot','scripts/lib/campaign.py')
+    root=tmp_path/'project';engine=root/'baseline_engine';engine.mkdir(parents=True)
+    (engine/'worker.py').write_text('original worker\n')
+    (engine/'docking.xml').write_text('<original/>\n')
+    for relative in ['scripts/lib/protac_qc.py','scripts/lib/campaign.py','scripts/01_setup/02_batch_prosettac.py','scripts/01_setup/03_record_attempt.py']:
+        p=root/relative;p.parent.mkdir(parents=True,exist_ok=True);p.write_text('fixture\n')
+    expected=campaign.source_hashes(root);snapshot=tmp_path/'snapshot'
+    campaign.snapshot_sources(root,snapshot,expected)
+    (engine/'worker.py').write_text('changed worker\n')
+    (engine/'docking.xml').write_text('<changed/>\n')
+    assert (snapshot/'baseline_engine/worker.py').read_text()=='original worker\n'
+    assert campaign.source_hashes(snapshot)==expected
+    assert campaign.source_hashes(root)!=expected
+    with pytest.raises(ValidationError,match='Sources changed'):
+        campaign.snapshot_sources(root,tmp_path/'drifted_snapshot',expected)
+
+
+def test_all_supplier_heads_offer_a_fixed_rotamer_frame():
+    from rdkit import Chem
+    linker=load('fixed_neighbor_selection','baseline_engine/constrained_linker.py')
+    for compound in ['GSK215','SJF8240','SJF1521','JNJ1013','SJF_delta']:
+        base=ROOT/('reference_structures/validated' if compound in {'GSK215','SJF8240'} else 'modeled_reference_candidates')/compound
+        heads=[Chem.MolFromMolFile(str(base/(role+'_head.sdf'))) for role in ['vhl','poi']]
+        full=Chem.MolFromSmiles((ROOT/'molecules'/compound/'full.smi').read_text().strip())
+        fixed=set(linker.match_heads(full,heads)[0][0]);center=linker.fixed_head_neighbor(full,fixed)
+        neighbors={a.GetIdx() for a in full.GetAtomWithIdx(center).GetNeighbors() if a.GetAtomicNum()>1}
+        assert center in fixed and len(neighbors)>=2 and neighbors<=fixed
+        assert full.GetAtomWithIdx(center).IsInRing()
+
+
+def test_parameter_tool_rejects_moving_rotamer_orientation_frame(tmp_path):
+    from rdkit import Chem
+    params=load('rotamer_frame_validation','baseline_engine/official_parameters.py')
+    molecule=Chem.MolFromSmiles('CCCO');conf=Chem.Conformer(4)
+    for i,xyz in enumerate([[0.,0.,0.],[1.5,0.,0.],[2.2,1.3,0.],[3.6,1.3,0.]]):conf.SetAtomPosition(i,xyz)
+    molecule.AddConformer(conf);other=Chem.Mol(molecule);other.GetConformer().SetAtomPosition(3,[3.6,1.3,1.])
+    source=tmp_path/'ensemble.sdf'
+    with Chem.SDWriter(str(source)) as writer:writer.write(molecule);writer.write(other)
+    with pytest.raises(RuntimeError,match='not invariant'):
+        params.generate(str(source),'PTC',str(tmp_path/'PT'),conformers=True,nbr=2)
+
+
+def test_thermodynamic_diagnostics_reject_invalid_series_and_preserve_replica_unit():
+    thermo=load('thermodynamic_diagnostics','scripts/02_analysis/05_md_thermodynamics.py')
+    time=np.arange(0.,11.);values=np.column_stack([300.+time,1000.-time])
+    report=thermo.summarize(time,values,2.,4.)
+    assert report['retained_samples']==9 and len(report['block_means'])==2
+    assert report['independent_replicates']==1 and report['convergence_certified'] is False
+    assert sum(b['samples'] for b in report['block_means'])==9
+    np.testing.assert_allclose(report['linear_slopes_per_ps'],[1.,-1.])
+    with pytest.raises(ValidationError,match='non-increasing'):
+        thermo.summarize([0.,0.,1.],np.ones((3,2)),0.,1.)
+    with pytest.raises(ValidationError,match='Insufficient'):
+        thermo.summarize(time,values,20.,4.)
+
+
+def test_equilibration_contacts_stay_diagnostic():
+    contact=load('equilibration_contact_scope','scripts/02_analysis/02_analyze_md_contacts.py')
+    completed={'status':'COMPLETE','intent':{'stage':'npt'}}
+    contact.validate_analysis_stage(completed,True)
+    with pytest.raises(ValidationError,match='production'):
+        contact.validate_analysis_stage(completed,False)
+    with pytest.raises(ValidationError,match='completed'):
+        contact.validate_analysis_stage({'status':'FAILED'},True)
+
+
+def test_reduced_topology_requires_unpermuted_complete_solute():
+    reduced=load('reduced_topology_order','scripts/02_analysis/06_reduce_md_topology.py')
+    assert reduced.solute_indices('[ SOLUTE ]\n1 2 3\n[ System ]\n1 2 3 4\n',3)==[1,2,3]
+    for text in ['[ SOLUTE ]\n1 3 2\n','[ SOLUTE ]\n1 2\n','[ SOLUTE ]\n1 2 3\n[ SOLUTE ]\n1 2 3\n']:
+        with pytest.raises(ValidationError,match='ordered'):
+            reduced.solute_indices(text,3)
+
+
+def test_snapshot_receipt_verification_detects_code_tampering(tmp_path):
+    from protac_qc import verify_execution_snapshot
+    campaign=load('snapshot_receipt_campaign','scripts/lib/campaign.py')
+    root=tmp_path/'original';engine=root/'baseline_engine';engine.mkdir(parents=True)
+    (engine/'worker.py').write_text('original\n')
+    for relative in ['scripts/lib/protac_qc.py','scripts/lib/campaign.py','scripts/01_setup/02_batch_prosettac.py','scripts/01_setup/03_record_attempt.py']:
+        p=root/relative;p.parent.mkdir(parents=True,exist_ok=True);p.write_text('fixture\n')
+    expected=campaign.source_hashes(root);run=tmp_path/'attempt';run.mkdir()
+    campaign.snapshot_sources(root,run/'source_snapshot',expected)
+    verify_execution_snapshot(run,{'engine_sha256':expected})
+    (run/'source_snapshot/baseline_engine/worker.py').write_text('changed\n')
+    with pytest.raises(ValidationError,match='snapshot differs'):
+        verify_execution_snapshot(run,{'engine_sha256':expected})
+
+
+def test_campaign_input_hash_ignores_snapshot_directory_but_detects_input_drift(tmp_path):
+    from protac_qc import preparation_input_hash
+    (tmp_path/'input.smi').write_text('CC\n');before=preparation_input_hash(tmp_path)
+    (tmp_path/'source_snapshot').mkdir();(tmp_path/'source_snapshot/source.py').write_text('code\n')
+    assert preparation_input_hash(tmp_path)==before
+    (tmp_path/'input.smi').write_text('CO\n')
+    assert preparation_input_hash(tmp_path)!=before
+
+
+def test_campaign_keeps_one_code_version_when_working_tree_changes(tmp_path,monkeypatch):
+    from types import SimpleNamespace
+    from protac_qc import preparation_input_hash
+    campaign=load('campaign_frozen_batch','scripts/lib/campaign.py')
+    root=tmp_path/'project';engine=root/'baseline_engine';engine.mkdir(parents=True)
+    (engine/'worker.py').write_text('original worker\n')
+    for relative in ['scripts/lib/protac_qc.py','scripts/lib/campaign.py','scripts/01_setup/02_batch_prosettac.py','scripts/01_setup/03_record_attempt.py']:
+        p=root/relative;p.parent.mkdir(parents=True,exist_ok=True);p.write_text('fixture\n')
+    pairs=[]
+    for name in ['one','two']:
+        folder=tmp_path/name;folder.mkdir();(folder/'selection.json').write_text('{}\n')
+        pairs.append({'protac':'GSK215','run_name':name,'gene':'PTK2','uid':'Q05397',
+                      'local_dir':str(folder),'input_hash':preparation_input_hash(folder)})
+    args=SimpleNamespace(python=Path(sys.executable),seed=1,protocol='global',n_dock=1,n_local=1,
+        conformers=1,workers=1,max_global_trials=1,timeout_seconds=10,runs=tmp_path/'runs',rerun=False)
+    monkeypatch.setattr(campaign,'validate_plan',lambda *a:{'mode':'TEST','minimum_free_bytes':0})
+    monkeypatch.setattr(campaign.shutil,'disk_usage',lambda *a:SimpleNamespace(free=10_000_000_000))
+    observed=[]
+    def recorder(command,**kwargs):
+        attempt=Path(command[command.index('--run-dir')+1])
+        observed.append((attempt/'source_snapshot/baseline_engine/worker.py').read_text())
+        (engine/'worker.py').write_text('changed working tree\n')
+        atomic_json(attempt/'completion.json',{'status':'COMPLETE_NO_VALID_POSES'})
+        return SimpleNamespace(returncode=0,stdout='',stderr='')
+    monkeypatch.setattr(campaign.subprocess,'run',recorder)
+    campaign.execute(root,pairs,args)
+    assert observed==['original worker\n','original worker\n']
+    assert len(list((args.runs/'source_snapshots').iterdir()))==1
+
+
+def test_resource_plan_distinguishes_requested_and_generated_conformers(tmp_path):
+    resources=load('resource_budget_evidence','scripts/01_setup/02a_resource_plan.py')
+    inputs=tmp_path/'inputs';pair=inputs/'SJF1521/EGFR';pair.mkdir(parents=True)
+    (pair/'preparation.json').write_text('{}\n')
+    pilot=tmp_path/'pilot';raw=pilot/'Patchdock_Results';raw.mkdir(parents=True)
+    (raw/'pd.1_docking_0001.pdb').write_text('synthetic resource fixture\n')
+    ensemble=raw/'confs_1_1.sdf';ensemble.write_text('synthetic ensemble bytes\n')
+    atomic_json(raw/'confs_1_1.sdf.sampling.json',{'requested_conformers':100,'generated_conformers':74})
+    atomic_json(raw/'PT_1_1_parameter_provenance.json',{'input_conformers':74,'source_sha256':sha256(ensemble)})
+    report=resources.plan(inputs,pilot,200,50,100,available_bytes=10**12)
+    assert report['requested_full_conformers']==100 and report['actual_generated_conformers_by_local_pose']==[74]
+    with pytest.raises(ValidationError,match='requested conformer budget'):
+        resources.plan(inputs,pilot,200,50,200,available_bytes=10**12)
+    (raw/'pd.1_docking_0002.pdb').write_text('synthetic rejected local pose\n')
+    atomic_json(raw/'confs_1_2.sdf.sampling.json',{'requested_conformers':100,'generated_conformers':0})
+    completed=resources.plan(inputs,pilot,200,50,100,available_bytes=10**12)
+    assert sorted(completed['actual_generated_conformers_by_local_pose'])==[0,74]
+    assert completed['zero_conformer_files_absent_after_upstream_empty_file_cleanup']==['confs_1_2.sdf']
+    atomic_json(raw/'PT_1_1_parameter_provenance.json',{'input_conformers':75,'source_sha256':sha256(ensemble)})
+    with pytest.raises(ValidationError,match='Parameter ensemble'):
+        resources.plan(inputs,pilot,200,50,100,available_bytes=10**12)
+
+
+def test_full_complex_qc_rejects_elongin_clashes_outside_vhl_binding_chain(native,tmp_path):
+    from protac_qc import pdb_atoms
+    selection=json.loads((native/'selection.json').read_text());selection['qc']={'min_nonbonded_heavy_distance_A':1.5}
+    original=native/'native_complex.pdb';good=pose_features(original,selection)
+    assert not good['severe_overlap'] and good['protein_clash_e3_chains']==['A','B','C']
+    atoms=pdb_atoms(original)
+    ligand=next(a for a in atoms if a['record']=='HETATM' and a['resname']=='PTC' and a['element'] not in {'H','D'})
+    def modified(target,source,name):
+        lines=original.read_text().splitlines();index=lines.index(target['line']);xyz=source['xyz']
+        lines[index]=target['line'][:30]+''.join(f'{v:8.3f}' for v in xyz)+target['line'][54:]
+        result=tmp_path/name;result.write_text('\n'.join(lines)+'\n');return pose_features(result,selection)
+    elongin=next(a for a in atoms if a['record']=='ATOM' and a['chain']=='B' and a['name']=='CA')
+    clash=modified(elongin,ligand,'ligand_elongin_clash.pdb')
+    assert clash['d_vhl']>=1.5 and clash['d_kin']>=1.5
+    assert clash['min_ligand_all_protein_A']==0 and clash['severe_overlap']
+    poi=next(a for a in atoms if a['record']=='ATOM' and a['chain']=='D' and a['name']=='CA')
+    clash=modified(elongin,poi,'protein_protein_clash.pdb')
+    assert clash['min_e3_complex_poi_A']==0 and clash['severe_overlap']
+
+
+def test_intraligand_clash_check_excludes_bonds_and_angles():
+    from rdkit import Chem
+    from protac_qc import check_ligand_nonbonded_geometry
+    molecule=Chem.MolFromSmiles('CCCC');conf=Chem.Conformer(4)
+    for i in range(4):conf.SetAtomPosition(i,[1.5*i,0.,0.])
+    molecule.AddConformer(conf)
+    assert check_ligand_nonbonded_geometry(molecule)==4.5
+    molecule.GetConformer().SetAtomPosition(3,[0.,0.,0.])
+    with pytest.raises(ValidationError,match='intraligand'):
+        check_ligand_nonbonded_geometry(molecule)
+
+
+def test_ce_alignment_compatibility_preserves_old_and_new_api_correspondences():
+    from collections import namedtuple
+    modern=namedtuple('ModernCE','length path')(3,([1,2,3],[4,5,6]))
+    legacy=[[1,2,3],[4,5,6]]
+    assert placement.ce_path_indices(modern)==placement.ce_path_indices(legacy)==((1,2,3),(4,5,6))
+    with pytest.raises(ValidationError,match='Malformed'):
+        placement.ce_path_indices([[1,2],[3]])

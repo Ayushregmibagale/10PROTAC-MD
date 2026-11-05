@@ -35,3 +35,7 @@ baseline_engine/runtime/adapter/vendor/rosetta_py/
 
 # ACPYPE serialized working objects are retained locally, not needed for reuse.
 *.pkl
+
+# Licensed Rosetta helpers are fetched from their pinned official source, including archived execution packages.
+**/vendor/molfile_to_params.py
+**/vendor/rosetta_py/

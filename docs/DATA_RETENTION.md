@@ -31,3 +31,10 @@ The separate 161-candidate pocket comparison would project approximately 10.41 T
 at those same budgets. It is not an expansion of the accepted 7.24-TB campaign
 scope, and no jobs have been launched from it. Both input versions and exclusions
 are retained for method comparison and cohort review.
+
+The repaired runtime retains even zero-conformer markers and virtual compatibility
+references. Earlier historical runs may lack those empty files because the
+inherited upstream code removed them; their sampling ledgers remain intact.
+The updated native-frame 100-conformer pilot projects ~3.37 TB for the original
+112-pair model. It is a small conditional sample and does not reduce the accepted
+~7.24-TB planning allowance or establish an allocated data store.

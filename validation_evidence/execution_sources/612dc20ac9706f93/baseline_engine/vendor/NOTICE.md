@@ -1,0 +1,1 @@
+Vendored Rosetta Commons ligand-parameter tooling at the commit in SOURCE.json. Original copyright/license headers retained. Rosetta/PyRosetta licensing applies; no PyRosetta binaries or database are distributed with this project. Source: https://github.com/RosettaCommons/rosetta/tree/eddc15bbac60cf91302d3faf76895bd6d215cc50/source/scripts/python/public

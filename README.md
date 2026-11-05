@@ -11,7 +11,7 @@ GSK215 (7818), SJF8240 (7266), SJF1521 (7261), JNJ1013 (8029), SJF_delta (7267).
 `config/molecules.json` records supplier isomeric SMILES, formula, InChIKey,
 CAS and source URLs. `molecules/verification.json` records machine checks.
 SJF_delta is Tocris catalog 7267; its distinct VHL attachment is retained in the registry.
-These five identified compounds are not a finalized ten-compound study.
+The current verified registry contains these five compounds.
 
 ## Repaired preparation and analysis
 
@@ -76,3 +76,9 @@ The separate explicit-pocket comparison (`01d_compare_pocket_screen.py`) records
 are built by `00k_cache_klifs_pockets.py` and `00l_build_pocket_correspondence.py`.
 It remains comparison-only; the controller does not silently replace the original
 112-pair cohort. See docs/NATURE_READINESS.md for the requested publication standard.
+
+Current validation includes a frozen five-compound docking pilot, actual
+100-conformer-budget controls, completed local staged MD validation and 91 tests
+in each of the Python 3.10 docking and Python 3.13 analysis environments. These
+are prelaunch controls, not a production dataset or calibrated degradation model.
+See docs/ML_TRANSFER_SCOPE.md and docs/methods/04_MD_Protocol.md for current scope.

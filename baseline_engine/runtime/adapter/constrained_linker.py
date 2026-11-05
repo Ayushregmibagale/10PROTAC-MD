@@ -15,6 +15,29 @@ try:
 except ImportError:
     class ValidationError(ValueError):pass
 
+DEFAULT_EMBED_ITERATIONS=20
+DEFAULT_OUTER_ATTEMPTS=20
+
+def fixed_head_neighbor(full,head_indices):
+    """Choose a rotamer orientation center whose heavy neighbors are all fixed.
+
+    Rosetta orients ligand conformers using NBR_ATOM and two bonded heavy atoms.
+    A linker attachment atom can therefore rotate a conformer off both heads.
+    A ring atom wholly inside the fixed head supplies an invariant frame.
+    """
+    fixed=set(head_indices)
+    boundary=[i for i in fixed if any(n.GetIdx() not in fixed for n in full.GetAtomWithIdx(i).GetNeighbors() if n.GetAtomicNum()>1)]
+    candidates=[]
+    distances=Chem.GetDistanceMatrix(full)
+    for i in sorted(fixed):
+        atom=full.GetAtomWithIdx(i)
+        neighbors={n.GetIdx() for n in atom.GetNeighbors() if n.GetAtomicNum()>1}
+        if atom.IsInRing() and len(neighbors)>=2 and neighbors<=fixed:
+            separation=min((distances[i,j] for j in boundary),default=0.)
+            candidates.append((-separation,i))
+    if not candidates:raise ValidationError('No invariant ring frame inside fixed head')
+    return min(candidates)[1]
+
 def stereo_key(mol):
     mol=Chem.RemoveHs(Chem.Mol(mol))
     Chem.AssignStereochemistryFrom3D(mol,replaceExistingTags=True)
@@ -34,16 +57,18 @@ def fit(mobile,reference):
     rotation=u@np.diag([1,1,np.linalg.det(u@vt)])@vt
     return rotation,rc-mc@rotation
 
-def constrained_linker(full,heads,targets,seed,attempts=20,rmsd_limit=0.35):
+def constrained_linker(full,heads,targets,seed,attempts=DEFAULT_OUTER_ATTEMPTS,rmsd_limit=0.35,embed_iterations=DEFAULT_EMBED_ITERATIONS):
     """Return a valid full PROTAC or an explicit geometric sampling rejection.
 
     Both complete bound head fragments participate in the distance constraints.
     All head heavy atoms stay fixed during minimization. A failed embedding never
     falls back to a free conformer or an unrelated VHL template.
     """
+    if not 1<=attempts<=2000 or not 1<=embed_iterations<=2000:
+        raise ValidationError('Explicit positive bounded embedding budgets are required')
     expected=Chem.MolToInchiKey(full)
     mappings=match_heads(full,heads)
-    failures=[]
+    failures=[];embedding_failures=[]
     for trial in range(attempts):
         a,b=mappings[trial%len(mappings)]
         indices=list(a+b);target=np.vstack(targets)
@@ -52,9 +77,16 @@ def constrained_linker(full,heads,targets,seed,attempts=20,rmsd_limit=0.35):
         params.randomSeed=(int(seed)+trial)%2147483647
         params.enforceChirality=True
         params.numThreads=1
+        # RDKit's zero default means 10*all-atom-count INTERNAL retries per
+        # call, multiplied by the outer seed budget. Make this hidden cost
+        # explicit and deterministic; never reinterpret exhaustion as inactivity.
+        params.maxIterations=int(embed_iterations)
+        params.trackFailures=True
         params.useRandomCoords=True
         params.SetCoordMap({idx:Point3D(*map(float,p)) for idx,p in zip(indices,target)})
-        if AllChem.EmbedMolecule(mol,params)<0:
+        embedded=AllChem.EmbedMolecule(mol,params)
+        embedding_failures.append(list(params.GetFailureCounts()))
+        if embedded<0:
             failures.append('embedding_failed');continue
         conf=mol.GetConformer();positions=conf.GetPositions()
         r,t=fit(positions[indices],target)
@@ -82,7 +114,11 @@ def constrained_linker(full,heads,targets,seed,attempts=20,rmsd_limit=0.35):
         return mol,{'accepted':True,'seed':params.randomSeed,'attempts':trial+1,
                     'head_mappings':[list(a),list(b)],'mapping_alternatives':len(mappings),
                     'initial_both_head_rmsd_A':float(np.sqrt(np.mean(error**2))),
+                    'embedding_max_iterations_per_attempt':embed_iterations,
+                    'embedding_failure_counts_by_attempt':embedding_failures,
                     'rejection_reasons':failures}
     return None,{'accepted':False,'seed':int(seed),'attempts':attempts,
-                 'mapping_alternatives':len(mappings),'rejection_reasons':failures}
+                 'mapping_alternatives':len(mappings),'rejection_reasons':failures,
+                 'embedding_max_iterations_per_attempt':embed_iterations,
+                 'embedding_failure_counts_by_attempt':embedding_failures}
 

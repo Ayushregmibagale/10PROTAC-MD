@@ -16,8 +16,33 @@ def plan(inputs,pilot,n_dock,n_local,conformers,available_bytes=None,pose_archiv
     pilot_dir=pilot/'Patchdock_Results'
     local=list(pilot_dir.glob('pd.*_docking_????.pdb'))
     if not local:raise ValidationError('No measured local-docking output')
-    budgets={json.loads(p.read_text())['input_conformers'] for p in pilot_dir.glob('PT_*_parameter_provenance.json')}
-    if budgets!={conformers}:raise ValidationError('Measured full-conformer budget differs from requested budget')
+    parameters=[json.loads(p.read_text()) for p in pilot_dir.glob('PT_*_parameter_provenance.json')]
+    sampling=list(pilot_dir.glob('confs_*.sdf.sampling.json'))
+    if sampling:
+        if len(sampling)!=len(local):raise ValidationError('Missing per-local sampling budget evidence')
+        generated={};actual=[];absent_zero_ensembles=[]
+        for p in sampling:
+            ledger=json.loads(p.read_text());count=ledger['generated_conformers']
+            if ledger['requested_conformers']!=conformers or not 0<=count<=conformers:
+                raise ValidationError('Measured requested conformer budget differs from projection')
+            actual.append(count)
+            sdf=Path(str(p)[:-len('.sampling.json')])
+            if not sdf.exists() and count==0:
+                absent_zero_ensembles.append(sdf.name);continue
+            if not sdf.exists():raise ValidationError('A generated nonempty ensemble is missing')
+            digest=sha256(sdf)
+            if digest in generated and generated[digest]!=count:raise ValidationError('Conflicting conformer counts')
+            generated[digest]=count
+        for record in parameters:
+            if generated.get(record['source_sha256'])!=record['input_conformers']:
+                raise ValidationError('Parameter ensemble differs from recorded generated conformers')
+        if {p['source_sha256'] for p in parameters}!={k for k,v in generated.items() if v>0}:
+            raise ValidationError('Missing parameter provenance for a feasible ensemble')
+        budget_basis='Explicit requested budgets; valid generated counts may be lower'
+    else:
+        budgets={p['input_conformers'] for p in parameters}
+        if budgets!={conformers}:raise ValidationError('Measured full-conformer budget differs from requested budget')
+        actual=[p['input_conformers'] for p in parameters];budget_basis='Historical generated-count evidence only';absent_zero_ensembles=[]
     # Include every measured local-stage artifact, not just the final scored PDB.
     files=[p for p in pilot_dir.rglob('*') if p.is_file()]
     raw=sum(p.stat().st_size for p in files)
@@ -26,6 +51,9 @@ def plan(inputs,pilot,n_dock,n_local,conformers,available_bytes=None,pose_archiv
     scale=len(pairs)*n_dock*n_local/len(local)
     total_raw=round(raw*scale);total_gzip=round(compressed*scale)
     report={'status':'STORAGE_PROJECTION_ONLY','pairs':len(pairs),'n_dock':n_dock,'n_local':n_local,
+        'resource_planner_sha256':sha256(Path(__file__)),
+        'conformer_budget_evidence':budget_basis,'actual_generated_conformers_by_local_pose':actual,
+        'zero_conformer_files_absent_after_upstream_empty_file_cleanup':absent_zero_ensembles,
         'requested_full_conformers':conformers,'pilot_local_pose_count':len(local),
         'pilot_conformer_budget_must_match':True,
         'pilot_total_intermediate_bytes':raw,'pilot_gzip6_bytes':compressed,

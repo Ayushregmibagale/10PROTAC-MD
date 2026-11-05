@@ -29,7 +29,7 @@ a universal trajectory duration or that three replicas guarantee convergence.
 | Real docking output | Valid native-frame control; raw-score and head-geometry QC | Independent global recovery/cross-docking and representative multi-seed sampling controls |
 | Full PROTAC feasibility | Fixed both-head linker generation, exact stereo and strict clash checks | Sampling convergence and head/linker strain review; no assumed thermodynamic populations from generated-pose fractions |
 | Force-field reproducibility | Five neutral and one GSK215 +1 GAFF2/AM1-BCC sets verified; mapped protein/ligand topology | Select assay-relevant states; check sensitivity of key conclusions to state/parameter/model choices |
-| MD physical validity | Strict portable topology and bounded mechanical diagnostics | Converged minimization/equilibration, independent replicas, adequate time to assess relevant motions and uncertainties |
+| MD physical validity | Converged EM and completed 1.2-ns staged native-control validation | Converged minimization/equilibration, independent replicas, adequate time to assess relevant motions and uncertainties |
 | Statistics | Receipt-derived distances and rejection denominators | Prespecified independent units, replica-level uncertainty, autocorrelation/block treatment and exclusions; frames are not independent biological replicates |
 | Selectivity/degradation mechanism | Structures and published identities are available | Relevant experimental positives/negatives, orthogonal validation and evidence separating binding, ternary formation and degradation |
 | Reproducibility | Versioned source, immutable commands/seeds/hashes, retained failures | Frozen code/data release, availability statements and environment/runtime details for the actual production run |
@@ -51,3 +51,9 @@ measurements must be linked to the exact compound/target/conditions used.
 No experimental outcomes, convergence results, release DOI, data accession or
 publication-readiness certificate have been invented. Open entries remain open
 until their underlying evidence exists.
+
+The local MD protocol and descriptive validation are detailed in
+methods/04_MD_Protocol.md. The original ten-compound/proteome-wide aim is broader
+than the current five-compound kinase-domain inventory; ML_TRANSFER_SCOPE.md
+records that distinction. CONTROL_ROLES.json distinguishes the supplementary
+SJFδ/MET geometry transfer from the actual MAPK13 known-target control.

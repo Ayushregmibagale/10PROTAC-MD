@@ -19,10 +19,11 @@ have not been modified or imported as validation labels for this project.
 | Pose selection | The screen uses seeded random selection rather than only top energies. | Preserve the rationale: an MD subset must represent the ensemble and include independent replicas; energy ranking alone is not a probability distribution. Selection and random seeds must be recorded before simulation. |
 | Features and ML | Existing models include MD/E2 features and were developed on a small panel. | Geometry-only output is not a complete model input. No missing-feature zero filling or automatic reuse of trained weights across the replacement engine/chemotypes. Cross-compound experimental validation is still required. |
 
-The replacement docking engine is a separately identified constrained-chemistry
-Rosetta protocol. It must not be described as an unmodified upstream pRosettaC
-run. Native integration and small perturbation tests check chemical/engine
-integration; they do not establish prospective kinase selectivity.
+The exploratory replacement docking engine is quarantined. The active candidate
+is the repaired working global/local adapter, with explicit both-head linker
+constraints and an invariant ligand-rotamer frame. It must not be described as
+unmodified upstream pRosettaC. Native and multi-compound integration controls
+check chemistry and execution; they do not establish prospective selectivity.
 
 `linker_geometry_yield` counts accepted ternaries against *all* attempted
 protein poses. Contacts calculated only among successful, head-constrained

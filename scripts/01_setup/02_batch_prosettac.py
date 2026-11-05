@@ -13,13 +13,11 @@ import sys
 import tempfile
 from pathlib import Path
 sys.path.insert(0,str(Path(__file__).resolve().parents[1]/'lib'))
-from protac_qc import sha256, ValidationError
+from protac_qc import sha256, ValidationError,preparation_input_hash
 
 def pair_hash(folder):
     # Hash config and every local dependency, including the original symlink target content.
-    import hashlib
-    files=sorted(p for p in folder.iterdir() if p.is_file())
-    return hashlib.sha256(json.dumps([(p.name,sha256(p)) for p in files]).encode()).hexdigest()
+    return preparation_input_hash(folder)
 
 def get_all_inputs(input_dir,protac_filter=None,gene_filter=None):
     pairs=[]

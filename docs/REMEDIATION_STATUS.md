@@ -1,44 +1,49 @@
 # Remediation status
 
-Publication repairs are installed in reviewed batches. **No Ernie production
-campaign has been launched. Scientific release evidence is still incomplete.**
-The original protac-md workflow is the baseline and its source remains unchanged.
-The exploratory replacement engine is retained separately and excluded from the
-production controller. All failed diagnostics and legacy inputs are preserved.
+**Identified local input/software faults have been repaired and validated. The
+scientific campaign release remains pending. No Ernie simulation was launched.**
+The original protac-md project was read-only. Repairs are in 10PROTAC-MD; its
+working global/local docking sequence is retained. The exploratory replacement
+engine is quarantined, and existing archive copies are not overwritten by updates.
 
-| Item | Current evidence |
+| Area | Current evidence |
 |---|---|
-| Supplier identity | All five Tocris stereochemical graphs verified; distinct heads and anchors |
+| Purchased chemistry | Five exact Tocris stereochemical graphs, compound-specific heads and anchors verified |
 | Legacy inputs | All 2,860 preserved and excluded from campaign release |
-| KLIFS provenance | 496 exact coordinate fingerprints verified; RSK3 fallback excluded |
-| Domain inventory | 770 domains across 435 UniProt proteins, explicit exclusions |
-| Kinome transfer | Original CE: 112 candidates. Separate explicit-pocket comparison: 161 candidates, all five known-target controls represented; neither is a released complete-kinome study |
-| Known-target preparations | PTK2/GSK215, MET/SJF8240, EGFR/SJF1521, IRAK1/JNJ1013 and a separate modeled MAPK13/SJFδ control |
-| SJFδ MAPK13 control | Published 5IA4-to-4EYJ template pair; 83/85 mapped pocket residues, 1.608 Å pocket RMSD, 1.794 Å minimum heavy contact; no experimental p38δ/foretinib claim |
-| Baseline integration | Original stage order with repaired both-head-constrained linker generation; valid native-frame GSK215 output and receipt-compatible no-valid-pose outcome |
-| Chemistry components | All five full-molecule Rosetta parameter/load/stereochemistry controls passed |
-| MD parameters | Five neutral GAFF2/AM1-BCC sets and GSK215 +1 set verified, including QM-output stereochemistry and atom-map hashes |
-| Protonation | Provisional pH 7.4 enumeration plus 6.5–8 sensitivity; GSK215 neutral/+1 at 7.4, others neutral in this tool; no populations or final MD state selection claimed |
-| MD completion checks | Actual final step, EM force convergence, exact TPR generation binding, parent output and prepared topology/force-field hashes required |
-| MD systems | Neutral and +1 GSK215 strict topology builds passed; modeled protein loops and unchanged observed heavy atoms recorded |
-| MD dynamics | 1,000-step EM and 0.04 ps NVT mechanical diagnostic only; EM did not converge and no scientific equilibration is claimed |
-| MD analysis | Atom-mapped periodic contacts and trajectory/topology provenance verified on diagnostic trajectory |
-| Execution | Bounded pilot controller, immutable attempts, raw scores, QC rejections, process-group interruption and verified resume/skip contracts |
-| Storage | Full raw retention accepted; measured 112-pair model ~7.24 TB before MD/retries/backups; actual writable allocation still to be identified |
-| ML | Receipt-derived geometry schema records rejections; old models are not assumed compatible |
+| Source/domain identity | 496 exact KLIFS fingerprints; 770 kinase domains across 435 UniProt proteins; explicit exclusions |
+| Preparation comparison | Original CE screen: 112 candidates. Separate explicit-pocket comparison: 161, including all five known-target controls; neither is a complete proteome screen |
+| Baseline linker/scoring | Both heads constrained; explicit bounded embedding; invariant rotamer orientation frame prevents scoring-stage head displacement |
+| Full-complex QC | Ligand identity/stereo, ligand internal nonbonded clashes, ligand versus all protein chains, E3-complex versus POI overlap, and fixed-head displacement checked |
+| Frozen global pilot | All five compounds complete without execution failure: SJF1521 two and SJFδ three QC-valid poses; GSK215/JNJ1013/SJF8240 no valid pose in the small budget |
+| Full conformer budget | Native-frame GSK215 control: 100 requested/generated conformers in its feasible local geometry and one QC-valid final pose; not independent global recovery |
+| Component resource controls | 100 requested conformers: SJF1521 generated 74 and SJFδ 97; both pass actual repacking/head checks; local process peak roughly 1 GiB and component runtime roughly 44 seconds |
+| Ligand MD parameters | All five neutral GAFF2/AM1-BCC sets and GSK215 +1 set verified, including QM-output stereo and atom maps |
+| Chemical-state scope | Provisional pH 7.4 plus 6.5–8 sensitivity; no populations or finalized primary state claimed; protein states require assay-aware review |
+| MD protocol validation | Neutral GSK215 EM converged (Fmax 472.168<500), followed by complete 200 ps NVT + 500 ps restrained NPT + 500 ps unrestrained NPT |
+| MD diagnostics | Receipt-bound energy, ordered-solute topology and periodic contacts verified; 26 sampled final-window frames retain both protein contacts; no production/convergence certificate |
+| Execution integrity | Frozen campaign/attempt code, atomic manifests, explicit seeds, process-group termination, source/input drift detection, and verified cached completion |
+| Runtime compatibility | Biopython CE interfaces normalized for 1.84 and 1.85; 91 tests pass in both Python 3.10 docking and Python 3.13 analysis environments |
+| Storage | Full raw retention accepted; original allowance ~7.24 TB for 112 pairs. A new small native pilot projects ~3.37 TB but does not justify reducing that allowance or certify capacity. Ernie /home has ~1.50 TB free |
+| ML transfer | New feature schema explicitly rejects assumed old-model compatibility; experimental holdouts and complete feature validation still required |
 
-Latest software validation: 77 regression tests passed in the staging checkout;
-installation-specific output is in audits/installed_regression_<timestamp>.txt.
-A test pass is a software result, not publication certification.
+A separate bounded local GSK215 global-recovery benchmark is in progress: 50
+global poses, five local poses each, two conformers per local pose, two workers,
+20,000 maximum global trials and a one-hour time limit. Its exploratory recovery
+criteria were recorded before execution. Native-frame success is not substituted
+for this independent global search. Active benchmark files are deferred from
+installation until they stop changing.
 
-Before committing months of compute, remaining evidence includes representative
-independent global recovery/cross-docking and sampling pilots; treatment of the
-restricted transfer coverage; selection of relevant chemical states; measured
-runtime/memory/storage on the intended Ernie allocation; and converged,
-replicated MD with a prespecified analysis. No versioned campaign release has
-been fabricated to bypass these requirements. See REMEDIATION_LOG.md for details.
+Two study inputs remain unresolved: the original ten-compound aim versus the five
+currently verified compounds, and the allocated Ernie data directory. Read-only
+software probes did not discover Gromacs in PATH or the limited locations checked;
+this is not proof that no installation exists. No scheduler/allocation is invented.
 
-See NATURE_READINESS.md for the requested Nature reporting standard, primary
-guidance links and the evidence still needed to support scientific claims.
-The 161-candidate comparison projects ~10.41 TB at the same measured budgets; it
-has not replaced the original 112-pair plan or expanded the accepted 7.24-TB scope.
+Further publication evidence includes independent recovery/cross-docking,
+sampling adequacy, finalized cohort and chemical states, measured Ernie resources,
+replicated/converged MD, appropriate experimental validation and frozen analysis.
+See NATURE_READINESS.md, ML_TRANSFER_SCOPE.md and methods/04_MD_Protocol.md.
+Software validation is not a guarantee of journal acceptance.
+
+Latest software validation: 91 tests passed in each runtime. Raw failure/pass logs,
+version observations and installation-specific regressions are retained in audits/.
+All historical failures and raw artifacts remain preserved.

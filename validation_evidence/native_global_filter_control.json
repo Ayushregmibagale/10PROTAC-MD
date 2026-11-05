@@ -1,0 +1,13 @@
+{
+  "native_min_CA_distance_A": 6.9773259204368605,
+  "native_passes_global_CA_4A_filter": true,
+  "closest_mobile_residue": [
+    "D",
+    513
+  ],
+  "closest_fixed_residue": [
+    "A",
+    99
+  ],
+  "native_anchor_distance_A": 2.706024944452659
+}

@@ -1070,3 +1070,200 @@ consistency, not independent global recovery. Raw v13 local protein geometries
 are also measured separately; they are not full-ligand QC-accepted poses. The
 software suite now contains 77 tests. No acceptance threshold or global accuracy
 claim was invented after observing these values.
+
+## 38. Explicit internal embedding budgets and performance repair
+
+The five-compound v14 pilot completed for GSK215 and JNJ1013 without valid poses,
+produced one QC-valid SJF1521 pose, then timed out on SJF8240. The timeout correctly
+killed the process group and remained FAILED. RDKit 2025.9.5 uses a zero default
+maxIterations to permit ten times the all-atom count of internal embedding retries
+per call. Twenty outer seeded attempts multiplied this hidden cost. The installed
+Python binding has no timeout property even though newer RDKit documentation does.
+
+The repaired search explicitly uses 20 internal retries per outer attempt and
+records failure counters. Exhaustion is not biological inactivity. Bounds,
+stereochemistry, both-head RMSD and UFF convergence were not relaxed. Producer
+settings pin the outer budget, resume worker count and parent task-key state so
+inherited environment variables cannot silently change a cached protocol. The
+SJF8240 retry completed within the small pilot limit. These budgets remain sampling
+choices, not evidence of exhaustive conformational coverage.
+
+## 39. Invariant ligand-rotamer orientation frame
+
+Further multi-conformer controls found head displacement after Rosetta packing,
+including approximately 0.636/1.605 Å on one SJF1521 pose and much larger shifts
+on another. Input Cartesian conformers had preserved both heads. Inspection of
+the actual PyRosetta residue type and pinned official ResidueType.cc showed that
+orientation uses NBR_ATOM and two bonded heavy neighbors. The old center was a
+linker attachment atom; a movable neighbor rotated the stored conformer.
+
+The neighbor center is now a ring atom wholly inside the fixed VHL head with its
+heavy neighbors fixed too. Parameter generation verifies frame invariance across
+the complete conformer library, rather than disabling ligand conformer selection.
+An actual retained failing SJF1521 ensemble was reparameterized and repacked.
+The v19 control gives zero displacement for both head contact cores and minimum
+contacts 2.435/2.818 Å without gross overlap. The first v18 harness omitted the
+H-added head SDFs required by provenance matching; that harness failure and its
+scored artifact are retained, and the missing provenance inputs were copied in
+v19 without altering the original ensemble.
+
+## 40. Frozen execution packages and input-drift checks
+
+Staged source was edited while two diagnostic pilots were running. Those runs
+are retained as diagnostics, not claimed as frozen-version validation. This
+exposed a general reproducibility gap in workers reading the live working tree.
+The controller now creates an atomic, verified campaign source/config package and
+copies it into each attempt. Both recorder and producer execute from that package.
+Later source edits cannot change workers or later pairs of the same campaign.
+Python, JSON, XML, flags and parameter configuration hashes are included; no
+PyRosetta binaries/database are copied into the package.
+
+Input hashes are checked before and after copying each pair. Completed source
+snapshots and their manifest are rechecked during receipt verification and skip/
+resume decisions. Tests mutate the working tree between two simulated recorder
+calls and confirm both use the original campaign code; separate tests catch
+snapshot tampering and changed inputs. The real v21 controller completed a bounded
+search and an identical invocation printed Already validated without rerunning.
+Exact public source for the v20 five-compound pilot is archived in
+validation_evidence/execution_sources/; separately licensed helper files are omitted
+from Git and recoverable by their pinned official-source hashes.
+
+## 41. Frozen five-compound end-to-end control
+
+The v20 run uses explicit source snapshots, three global poses, three local poses
+per global pose, two conformers, one worker, at most 20,000 global trials and a
+600-second limit per compound. All five completed without execution errors.
+GSK215, JNJ1013 and SJF8240 each produced no valid pose in that small search.
+SJF1521 scored three feasible local geometries, retaining two after QC; SJFδ
+scored three and retained all three. There were 45 local protein poses in total.
+No-valid-pose results remain sampling outcomes, not inactive-target labels.
+Independent receipt verification checked code/input/output hashes. This control
+validates multi-chemotype execution, not general predictive selectivity.
+
+## 42. Completed staged local MD validation
+
+The current portable neutral GSK215 system converged to maximum force
+472.168 kJ/mol/nm (threshold 500); Gromacs reports 4,222 EM steps. It completed
+100,000 NVT steps (200 ps), 250,000 restrained NPT steps (500 ps), and 250,000
+unrestrained NPT steps (500 ps), with actual final-step and TPR/input checks.
+The initial GPU attempt failed because sandbox device access reported zero GPUs;
+its log is retained. The authorized retry used the idle local RTX 5090 and the
+existing CUDA 12.9/sm120-capable Gromacs build. No Ernie simulation was run.
+
+The last 250 ps of unrestrained NPT has descriptive saved-sample means 299.989 K,
+8.964 bar and 1004.720 kg/m^3 density. Gromacs accumulator statistics over the full
+stage are retained separately and differ from sampled-window statistics. No
+confidence interval or independent-replica count is fabricated. The 26 retained
+solute-trajectory frames maintain contacts within 5 Å of both proteins; this is
+short native-control evidence, not a binding free energy or convergence result.
+
+05_md_thermodynamics.py binds energy extraction to stage receipts and records its
+window/block definitions. 06_reduce_md_topology.py verifies the parent TPR,
+preparation and exact ordered SOLUTE index, converts by group name and checks the
+atom count. Equilibration contacts can now be analyzed explicitly as diagnostic
+while production-only scientific summaries remain gated. Source/runtime metadata
+and failed intermediate diagnostic setup attempts remain retained.
+
+## 43. Real 100-conformer-budget controls and storage calibration
+
+The v22 component tests regenerate 100 requested conformers for known feasible
+SJF1521 and SJFδ geometries, then run real parameter generation and Rosetta packing.
+They generated 74 and 97 valid conformers respectively; both preserve the two
+heads exactly and pass gross-clash checks. Local measured component cost is about
+44 seconds and about 1 GiB process peak RSS. These are local component measurements,
+not aggregate parallel memory or promises about Ernie performance.
+
+The frozen v23 native-frame GSK215 workflow requested 100 conformers per local
+geometry, generated 100 in its feasible geometry, rejected two other geometries
+and retained one scored/QC-valid pose. All original stages except independent
+global search were exercised at that per-local conformer budget. The storage
+planner was repaired to compare requested budgets using sampling ledgers, while
+checking actual generated counts against parameter provenance; it no longer
+incorrectly rejects a legitimate 74-of-100 outcome.
+
+Historical upstream code removed empty conformer/reference files. The planner
+handles such zero-output ledgers without inventing missing structures. The
+current isolated runtime retains those files too, honoring full raw retention;
+the v24 real control verifies all three zero-conformer markers and references.
+This changes no molecular geometry or scoring. Inherited files and earlier runs
+are never rewritten to pretend those empty files were present historically.
+
+The new small native pilot projects ~3.37 TB raw for the same 112-pair,
+200-global/50-local/100-requested-conformer example. The earlier ~7.24 TB was based
+on the older free-conformer output pattern. Different feasible fractions and
+protein/chemotype sizes change these estimates, so the accepted ~7.24-TB planning
+allowance is not silently reduced. Neither estimate includes MD, retries, backups
+or a guarantee of capacity; both exceed currently observed /home free space.
+
+## 44. Full-complex and intraligand clash coverage
+
+Clash QC now covers ligand versus all protein ATOM records and the full E3 complex
+versus POI, including elongins outside the VHL binding chain. It also checks
+intraligand heavy-atom distances for pairs separated by more than two bonds.
+These are gross-overlap exclusions at the existing 1.5 Å preparation threshold,
+not universal journal rules or affinity estimates. Tests introduce ligand/elongin
+and E3/POI overlaps that a VHL-binding-chain-only check would miss; covalent and
+angle-related ligand pairs are excluded from the self-overlap test. All five
+previously accepted frozen-pilot poses pass the expanded checks. Their E3/POI
+minimum heavy distances are approximately 2.81–3.04 Å.
+
+## 45. Actual-runtime compatibility testing
+
+The suite first passed in Python 3.13/Biopython 1.85. Running it in the actual
+Python 3.10 docking environment exposed two CE-interface failures: Biopython 1.84
+returns paired index lists; 1.85 returns named results with .path/.length. The
+adapter now normalizes both forms without changing correspondence or thresholds.
+A regression test verifies identical indices for both APIs. All 91 tests then
+passed in each environment. Pytest 8.4.2 and its pure test dependencies were placed
+under /tmp for the 3.10 run; no user environment was modified. The failing log,
+passing summaries and exact observed runtime versions are retained.
+
+## 46. Scope, Ernie readiness and independent recovery benchmark
+
+Fresh read-only Ernie probes show 96 CPU affinity slots and about 1.50 TB free in
+/home. No Gromacs executable was discovered in PATH or the few standard locations
+checked; this is not an exhaustive installation search. No scheduler or quota tool
+was found in PATH. Limited share-directory inspection did not identify an allocated
+personal writable directory. No remote files or jobs were created. The user was
+asked for the allocated output path and whether to retain the five verified
+compounds or supply the remaining Tocris catalogs for the original ten-compound
+aim. Elapsed time is not treated as an answer to either required study input.
+
+The original ML/reference project was inspected read-only. Its small-panel LOPO
+results and MGTbind structural labels do not establish cross-compound transfer
+for this new generator. ML_TRANSFER_SCOPE.md records the required schema,
+independent-unit, label/assay and holdout checks. No unknown labels were recoded,
+models retrained, old results modified or new probabilities fabricated.
+
+A separate frozen GSK215 global-recovery diagnostic (v26) was started locally:
+50 global poses, five local poses each, two conformers per local pose, two workers,
+20,000 maximum global trials and a one-hour timeout. Its necessary QC-valid-pose
+check and exploratory native-interface criterion (VHL Cα RMSD<=5 Å after POI fit
+and >=0.5 native contact recovery at 5 Å) were recorded before execution. These
+are project diagnostics, not DockQ/CAPRI classes or proof of general accuracy.
+Native-frame controls are not substituted for independent global recovery.
+The active benchmark is excluded from installation until its files stop changing.
+
+## 47. Final local validation and preservation details
+
+Full-complex clash coverage and explicit intraligand nonbonded checks were
+rechecked against the completed five-compound pilot; all five previously accepted
+poses still pass. A final frozen native-frame control exercises the latest
+producer/QC. The actual-runtime CE compatibility fix raises the suite to 91 tests,
+passing under both Python 3.10/Biopython 1.84 and Python 3.13/Biopython 1.85.
+Exact versions, the initial two-failure log and passing summaries are preserved.
+
+The resource planner additionally handles historical zero-conformer SDFs removed
+by upstream cleanup without pretending nonempty missing ensembles are valid.
+Current runtime cleanup is disabled for those empty markers and reference files,
+and a real all-rejected local control verified their retention. Existing
+quarantined experiment copies are frozen rather than receiving later helper
+updates through the installer. Completed raw diagnostics and source packages are
+installed into the project with drift checks/backups; the active global-recovery
+benchmark is deferred. No simulation was submitted to Ernie.
+
+CONTROL_ROLES.json makes explicit that SJFδ/MET is a transfer-geometry control,
+not an asserted degradation-positive target. The MAPK13 published-template model
+is the separate known-target preparation. No completed input/receipt was rewritten
+to change its historical control role. Remaining compound count, allocated storage,
+independent recovery and scientific-validation decisions are not silently resolved.

@@ -1,0 +1,31 @@
+{
+  "status": "FIXED_FRAME_REPACK_CONTROL_PASSED",
+  "seed": 101,
+  "input_conformers": 2,
+  "original_input_sha256": "68dad467b82116be405ef5d14d5fa0880fd6ebc17c913669b3dd52a4dfeaa12d",
+  "ensemble_sha256": "dc1ae5a2eba2865262b401c7afe84dfb064053ea7e447cdda6e0c92f47c05a8a",
+  "neighbor_atom_zero_based": 2,
+  "head_engagement": {
+    "status": "MEASURED_NOT_A_BINDING_LABEL",
+    "contact_core_cutoff_A": 4.5,
+    "comparison": "No superposition; final PROTAC heads versus their docked bound-head coordinates",
+    "core_atoms": [
+      28,
+      34
+    ],
+    "vhl_core_rmsd_A": 0.0,
+    "poi_core_rmsd_A": 0.0,
+    "head_mapping_alternatives": 1,
+    "docked_head_reference_sha256": "9735622213d0a018766099168effaecb1c3992a4ee45b7a4b5ec27083cb80923"
+  },
+  "geometry": {
+    "d_vhl": 2.4346264600550054,
+    "d_kin": 2.818146554031565,
+    "bridging_5A": true,
+    "bridging_8A": true,
+    "clash_cutoff_A": 1.5,
+    "severe_overlap": false
+  },
+  "scored_pose_sha256": "7b460fba57968e722956fa99cffd5540270eeb0ce6c724709006f8b56f17d274",
+  "scope": "Actual retained multi-conformer regression; not an independent binding benchmark"
+}

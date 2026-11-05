@@ -1,0 +1,52 @@
+{
+  "schema_version": 1,
+  "attempt_id": "8685b23b-7303-46e0-aecf-bc0e275c5272",
+  "command": [
+    "/home/ayushregmibagale/miniconda3/envs/deepternary/bin/python",
+    "/tmp/10protac_finish/benchmarks/frozen_all_compound_pilot_v20/attempts/SJF_delta/MAPK13_O15264_published_overlay/db2b47fc-6fa9-4f4f-a6e7-122fdf2bd948/source_snapshot/baseline_engine/run.py",
+    "--run-dir",
+    "/tmp/10protac_finish/benchmarks/frozen_all_compound_pilot_v20/attempts/SJF_delta/MAPK13_O15264_published_overlay/db2b47fc-6fa9-4f4f-a6e7-122fdf2bd948",
+    "--seed",
+    "1387572667",
+    "--protocol",
+    "global",
+    "--n-dock",
+    "3",
+    "--n-local",
+    "3",
+    "--conformers",
+    "2",
+    "--workers",
+    "1",
+    "--max-global-trials",
+    "20000"
+  ],
+  "recorder_sha256": "a4acc6161c630e91a1e4fe7b1fa501d6b641b82e548507c6542af2560c31e648",
+  "input_sha256": {
+    "selection.json": "35d269763795f0e8585f3bf9a171037528820bc9443de00a2bf97a0836ba563e",
+    "vbc.pdb": "d5d0c38470689c813f2c46495a479e6723568f2f131dbaddc8a95a469f539342",
+    "poi_head.sdf": "b3b7b23ff10ccdf040677624936cbbaba49ab29015d96fcb33366f46f70c4de7",
+    "protein.pdb": "2a6ebc29af0dadd0f7776680ca46be80cede8ca66f5a577ae550e4f6daf99e2e",
+    "preparation.json": "442e1e7ed0d353a8ddb519ce5141d6b169e13423cdf4245d741f13d63bf221d2",
+    "vhl_head.sdf": "a61375fc07b7f24f9e0ac58bf3c6f14447c10779b804fd56389af7bee4976282",
+    "full.smi": "911750d46e1e3a0cac330f3311854530de945c6c034961d8e5fcecec26583b13",
+    "Protac_params.txt": "43f68cd55c3d64abffff72d5966a4a2b3cf400b5d18e3a4f0f998890d44995f1",
+    "campaign_intent.json": "1b539388c819c28b563393c970abba2133c3442a47aa57fad6b3481d728be481"
+  },
+  "selection_sha256": "35d269763795f0e8585f3bf9a171037528820bc9443de00a2bf97a0836ba563e",
+  "started_unix": 1793899206.0299478,
+  "status": "COMPLETE",
+  "exit_code": 0,
+  "process_id": 282,
+  "process_group_id": 282,
+  "engine_status_sha256": "a9073df35de2c6811000682024e0e93571455f27b30ee648056d8acd1fccc7d9",
+  "score_sha256": "43169a5e2fcb4314cc1ebaa16724de7bfebda84c9453dae4c20e9bc92957297e",
+  "pose_sha256": {
+    "combined_2_3_0001": "33fb6f27db36473ae02cd1b94ea0745b14bb4f9462cc8346aff4b1cbf4f29551",
+    "combined_1_3_0001": "b15bba41b1f459644b3aea02acf8cee1a4d51b6e4ed86fd4536e1243e21f59c1",
+    "combined_3_2_0001": "61ce711d98224a35eaf7ee9bfebbfc78c07128575846ca62e8d28c26416efd06"
+  },
+  "n_scored_valid": 3,
+  "reason": "",
+  "finished_unix": 1793899362.5740447
+}

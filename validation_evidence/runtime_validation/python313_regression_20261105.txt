@@ -1,0 +1,3 @@
+Analysis/QC runtime: Python 3.13, Biopython 1.85; exact versions in validation_runtime_versions_20261105.json.
+Command: python3 -m pytest -p no:cacheprovider tests -q
+Observed completion: 91 passed in 5.02s

@@ -1,0 +1,109 @@
+Runtime: /home/ayushregmibagale/miniconda3/envs/deepternary/bin/python
+Temporary pytest overlay: /tmp/10protac_qc_py310 (pytest 8.4.2)
+Core runtime: NumPy 2.2.6, SciPy 1.15.2, RDKit 2025.9.5, Python 3.10.22
+Command: PYTHONPATH=/tmp/10protac_qc_py310:/tmp/10protac_runtime PYTEST_DISABLE_PLUGIN_AUTOLOAD=1 PYTHONDONTWRITEBYTECODE=1 python -m pytest -p no:cacheprovider tests -q
+Completion output (initial progress dots omitted):
+.................................F...............F. [ 80%]
+..................                                                       [100%]
+=================================== FAILURES ===================================
+________________ test_ce_correspondence_transfers_native_domain ________________
+
+native = PosixPath('/tmp/10protac_finish/reference_structures/validated/GSK215')
+
+    def test_ce_correspondence_transfers_native_domain(native):
+        from rdkit import Chem
+        _,reference=placement.domain_atoms(native/'protein.pdb','D',-999,9999)
+        mobile=[dict(a,xyz=np.asarray(a['xyz'])+np.array([19.,-7.,3.])) for a in reference]
+        head=Chem.MolFromMolFile(str(native/'poi_head.sdf')).GetConformer().GetPositions()
+>       rotation,translation,info=placement.align_domain(mobile,reference,head,'ce')
+
+tests/test_preflight.py:377: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+scripts/01_setup/01_place_warhead_batch.py:51: in align_domain
+    longest=[p for p in paths if p.length==paths[0].length]
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+.0 = <list_iterator object at 0x7b4827584df0>
+
+>   longest=[p for p in paths if p.length==paths[0].length]
+E   AttributeError: 'list' object has no attribute 'length'
+
+scripts/01_setup/01_place_warhead_batch.py:51: AttributeError
+___________ test_explicit_pocket_fit_preserves_known_rigid_transform ___________
+
+native = PosixPath('/tmp/10protac_finish/reference_structures/validated/GSK215')
+
+    def test_explicit_pocket_fit_preserves_known_rigid_transform(native):
+        atoms=[a for a in __import__('protac_qc').pdb_atoms(native/'protein.pdb') if a['name']=='CA']
+        reference=atoms[:]
+        from rdkit import Chem
+        head=Chem.MolFromMolFile(str(native/'poi_head.sdf')).GetConformer().GetPositions()
+        neighborhood=[i for i,a in enumerate(atoms) if np.linalg.norm(np.array(a['xyz'])-head,axis=1).min()<10]
+        chosen=(neighborhood+[i for i in range(len(atoms)) if i not in neighborhood])[:85]
+        positions={str(k+1):atoms[i]['resnum'] for k,i in enumerate(chosen)}
+        shift=np.array([7.,-4.,2.])
+        target=[dict(a,xyz=np.array(a['xyz'])+shift) for a in atoms]
+        evidence={'target':{'positions':positions},'reference':{'positions':positions}}
+>       rotation,translation,meta=placement.align_klifs_pocket(target,reference,head,evidence)
+
+tests/test_preflight.py:603: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+target = [{'chain': 'D', 'element': 'C', 'icode': ' ', 'line': 'ATOM   2803  CA  TYR D 415      73.804 -27.766  15.702  1.00115...', 'icode': ' ', 'line': 'ATOM   2852  CA  GLU D 420      70.962 -15.690   6.462  1.00108.73           C  ', ...}, ...]
+reference = [{'chain': 'D', 'element': 'C', 'icode': ' ', 'line': 'ATOM   2803  CA  TYR D 415      73.804 -27.766  15.702  1.00115...', 'icode': ' ', 'line': 'ATOM   2852  CA  GLU D 420      70.962 -15.690   6.462  1.00108.73           C  ', ...}, ...]
+head = array([[ 56.853, -19.169,  22.382],
+       [ 51.584, -13.847,  19.862],
+       [ 55.671, -15.865,  24.678],
+       [ 5...  18.963],
+       [ 50.191, -11.404,  20.226],
+       [ 51.018, -11.941,  21.298],
+       [ 51.068, -13.444,  21.175]])
+evidence = {'reference': {'positions': {'1': 425, '10': 437, '11': 438, '12': 439, ...}}, 'target': {'positions': {'1': 425, '10': 437, '11': 438, '12': 439, ...}}}
+
+    def align_klifs_pocket(target,reference,head,evidence):
+        """Fit explicit pocket identities; independently check the domain core.
+    
+        The original geometry thresholds remain: 80% of the head neighborhood,
+        >=100 core residues, >=60% core, <=2.5 Å core and <=2 Å pocket RMSD.
+        Missing/ambiguous pocket positions never become guessed correspondences.
+        """
+        def ca_index(atoms):
+            index={}
+            for i,a in enumerate(atoms):
+                key=(a['resnum'],a['icode'].strip())
+                if key in index:raise ValidationError('Ambiguous Cα identity in pocket alignment')
+                index[key]=i
+            return index
+        ti,ri=ca_index(target),ca_index(reference)
+        tp,rp=evidence['target']['positions'],evidence['reference']['positions']
+        for mapping in [tp,rp]:
+            if any(str(k) not in {str(i) for i in range(1,86)} for k in mapping):
+                raise ValidationError('Invalid KLIFS position index')
+            if len(mapping.values())!=len(set(mapping.values())):
+                raise ValidationError('Pocket residue correspondence must be one-to-one')
+        positions=sorted(set(tp)&set(rp),key=int)
+        pairs=[(ri[(int(rp[k]),'')],ti[(int(tp[k]),'')]) for k in positions
+               if (int(rp[k]),'') in ri and (int(tp[k]),'') in ti]
+        if len(pairs)<68:raise ValidationError('Insufficient explicit 85-position pocket coverage')
+        x=np.array([target[j]['xyz'] for i,j in pairs]);y=np.array([reference[i]['xyz'] for i,j in pairs])
+        r,t=kabsch(x,y);error=np.linalg.norm(x@r.T+t-y,axis=1)
+        rmsd=float(np.sqrt(np.mean(error**2)))
+        neighborhood={i for i,a in enumerate(reference) if min_distance(np.array([a['xyz']]),head)<10.0}
+        local=[k for k,(i,j) in enumerate(pairs) if i in neighborhood]
+        coverage=len(local)/len(neighborhood) if neighborhood else 0
+        if len(local)<10 or coverage<0.8:raise ValidationError('Insufficient mapped head-neighborhood coverage')
+        pocket_rmsd=float(np.sqrt(np.mean(error[local]**2)))
+        if rmsd>2.0 or pocket_rmsd>2.0:raise ValidationError(f'Poor explicit pocket fit: {rmsd:.2f}/{pocket_rmsd:.2f} Å')
+        from Bio.PDB.cealign import run_cealign
+        paths=run_cealign([list(a['xyz']) for a in reference],[list(a['xyz']) for a in target],8,30)
+        checks=[]
+        for path in paths:
+>           a,b=path.path
+E           AttributeError: 'list' object has no attribute 'path'
+
+scripts/01_setup/01_place_warhead_batch.py:121: AttributeError
+=========================== short test summary info ============================
+FAILED tests/test_preflight.py::test_ce_correspondence_transfers_native_domain
+FAILED tests/test_preflight.py::test_explicit_pocket_fit_preserves_known_rigid_transform
+2 failed, 88 passed in 4.21s
+

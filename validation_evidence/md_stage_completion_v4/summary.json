@@ -1,9 +1,10 @@
 {
-  "status": "DIAGNOSTIC_ONLY",
-  "force_field_local_and_hashed": true,
-  "actual_final_step_verified": true,
-  "smoke_em_steps": 1000,
-  "smoke_nvt_steps": 20,
-  "scientific_equilibration_completed": false,
-  "full_em_status": "RUNNING_SEPARATELY"
+  "status": "LOCAL_STAGED_VALIDATION_COMPLETE",
+  "em_fmax_kJ_mol_nm": 472.168,
+  "nvt_ps": 200,
+  "restrained_npt_ps": 500,
+  "unrestrained_npt_ps": 500,
+  "production_started": false,
+  "convergence_certified": false,
+  "independent_replicas": 1
 }

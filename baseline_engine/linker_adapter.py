@@ -3,7 +3,7 @@ import hashlib,json,os
 from pathlib import Path
 from rdkit import Chem
 from rdkit.Geometry import Point3D
-from constrained_linker import constrained_linker,match_heads
+from constrained_linker import constrained_linker,match_heads,fixed_head_neighbor,DEFAULT_OUTER_ATTEMPTS
 from official_parameters import docked_heads
 
 def generate(head_paths,docked,smiles_path,output,anchor_a,virtual_path,n=100,homo_protac=False):
@@ -16,7 +16,7 @@ def generate(head_paths,docked,smiles_path,output,anchor_a,virtual_path,n=100,ho
     full=Chem.MolFromSmiles(Path(smiles_path).read_text().split()[0])
     if full is None:raise RuntimeError('Invalid full PROTAC graph')
     mappings=match_heads(full,heads)
-    neighbour=mappings[0][0][int(anchor_a)]
+    neighbour=fixed_head_neighbor(full,mappings[0][0])
     # The original caller creates/removes a virtual-reference SDF. Keep that
     # interface artifact valid; no dummy atoms enter physical ligand parameters.
     rw=Chem.RWMol()
@@ -26,7 +26,7 @@ def generate(head_paths,docked,smiles_path,output,anchor_a,virtual_path,n=100,ho
     virtual.AddConformer(conf);writer=Chem.SDWriter(str(virtual_path));writer.write(virtual);writer.close()
     requested=min(n,int(os.environ.get('PROTAC_CONFORMERS',str(n))))
     if os.environ.get('PROTAC_DIAGNOSTIC')=='1':requested=min(requested,int(os.environ.get('PROTAC_DIAGNOSTIC_CONFORMERS','2')))
-    trials=max(1,int(os.environ.get('PROTAC_LINKER_EMBED_TRIALS','20')))
+    trials=max(1,int(os.environ.get('PROTAC_LINKER_EMBED_TRIALS',str(DEFAULT_OUTER_ATTEMPTS))))
     diagnostics=[];accepted=0
     writer=Chem.SDWriter(str(output));writer.SetKekulize(False)
     for i in range(requested):
@@ -46,6 +46,8 @@ def generate(head_paths,docked,smiles_path,output,anchor_a,virtual_path,n=100,ho
         'conformer_searches_not_attempted':requested-len(diagnostics),
         'early_stop_after_failed_initial_feasibility_search':accepted==0,
         'bound_head_atoms_fixed':True,'fallback_to_free_conformer':False,
+        'rotamer_neighbor_atom_zero_based':neighbour,
+        'rotamer_orientation_frame':'Ring center and bonded heavy neighbors wholly inside fixed VHL head',
         'full_molecule_inchikey':Chem.MolToInchiKey(full),'diagnostics':diagnostics,
         'interpretation':'A failed bounded search does not establish biological nondegradation',
         'source_sha256':{str(p):hashlib.sha256(Path(p).read_bytes()).hexdigest() for p in [*head_paths,smiles_path]}}

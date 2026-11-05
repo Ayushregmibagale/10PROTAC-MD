@@ -1,0 +1,4 @@
+Actual docking runtime: Python 3.10.22, Biopython 1.84, NumPy 2.2.6, SciPy 1.15.2, RDKit 2025.9.5. Temporary pytest 8.4.2 under /tmp; original environment unchanged.
+Command: PYTHONPATH=/tmp/10protac_qc_py310:/tmp/10protac_runtime PYTEST_DISABLE_PLUGIN_AUTOLOAD=1 PYTHONDONTWRITEBYTECODE=1 python -m pytest -p no:cacheprovider tests -q
+Observed completion: 91 passed in 4.19s
+The earlier failing test log is preserved separately.

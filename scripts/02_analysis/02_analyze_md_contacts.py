@@ -10,17 +10,21 @@ import json
 import sys
 from pathlib import Path
 import numpy as np
-import MDAnalysis as mda
-from MDAnalysis.lib.distances import distance_array
 sys.path.insert(0,str(Path(__file__).resolve().parents[1]/'lib'))
 from protac_qc import ValidationError,atomic_json,sha256
+
+def validate_analysis_stage(completed,diagnostic):
+    if diagnostic:
+        if completed['status'] not in {'SMOKE_COMPLETE','COMPLETE'}:
+            raise ValidationError('Diagnostic contacts require a completed stage')
+    elif completed['status']!='COMPLETE' or completed['intent']['stage']!='prod':
+        raise ValidationError('Scientific contacts require completed production MD')
+
 
 def analyze(preparation,topology,trajectory,receipt,output,discard_ps,block_ps,diagnostic=False):
     if discard_ps<0 or block_ps<=0:raise ValidationError('Explicit nonnegative discard and positive block duration required')
     meta=json.loads(preparation.read_text());completed=json.loads(receipt.read_text())
-    if completed['status']!=('SMOKE_COMPLETE' if diagnostic else 'COMPLETE'):
-        raise ValidationError('Stage receipt status is incompatible with requested analysis')
-    if not diagnostic and completed['intent']['stage']!='prod':raise ValidationError('Scientific contacts require production MD')
+    validate_analysis_stage(completed,diagnostic)
     if completed['intent']['inputs'].get('md_preparation.json')!=sha256(preparation):
         raise ValidationError('Atom mapping/preparation differs from executed system')
     if completed['outputs'].get(trajectory.name)!=sha256(trajectory):raise ValidationError('Trajectory differs from stage receipt')
@@ -29,6 +33,8 @@ def analyze(preparation,topology,trajectory,receipt,output,discard_ps,block_ps,d
         if (converted['group']!='SOLUTE' or converted['target_sha256']!=sha256(topology)
             or converted['source_sha256'] not in [v for k,v in completed['outputs'].items() if k.endswith('.tpr')]):
             raise ValidationError('Reduced topology does not descend from executed stage')
+    import MDAnalysis as mda
+    from MDAnalysis.lib.distances import distance_array
     universe=mda.Universe(str(topology),str(trajectory))
     indices={k:np.asarray(meta['atom_indices_one_based'][k],dtype=int)-1 for k in ['vhl','poi','protac']}
     if max(int(x.max()) for x in indices.values())>=universe.atoms.n_atoms:

@@ -17,6 +17,28 @@ def sha256(path):
             h.update(chunk)
     return h.hexdigest()
 
+def engine_source_hashes(root):
+    root=Path(root)
+    files=[f for f in (root/'baseline_engine').rglob('*') if f.is_file() and '__pycache__' not in f.parts
+           and f.suffix in {'.py','.json','.smarts','.xml','.flags','.params'}]
+    files.extend(root/relative for relative in ['scripts/lib/protac_qc.py','scripts/lib/campaign.py',
+        'scripts/01_setup/02_batch_prosettac.py','scripts/01_setup/03_record_attempt.py'])
+    return {str(f.relative_to(root)):sha256(f) for f in sorted(files)}
+
+def preparation_input_hash(folder):
+    files=sorted(p for p in Path(folder).iterdir() if p.is_file())
+    return hashlib.sha256(json.dumps([(p.name,sha256(p)) for p in files]).encode()).hexdigest()
+
+def verify_execution_snapshot(run,report):
+    run=Path(run);snapshot=run/'source_snapshot'
+    if not snapshot.exists():return  # Historical non-snapshot diagnostic receipts.
+    manifest=json.loads((snapshot/'source_manifest.json').read_text())
+    if manifest['source_sha256']!=report['engine_sha256'] or engine_source_hashes(snapshot)!=manifest['source_sha256']:
+        raise ValidationError('Execution source snapshot differs from completed engine version')
+    intent=run/'campaign_intent.json'
+    if intent.exists() and json.loads(intent.read_text())['source_snapshot_manifest_sha256']!=sha256(snapshot/'source_manifest.json'):
+        raise ValidationError('Execution source manifest differs from attempt intent')
+
 def atomic_json(path, data):
     path = Path(path)
     path.parent.mkdir(parents=True, exist_ok=True)
@@ -131,9 +153,19 @@ def pose_features(pdb, selection):
     d_kin = min_distance(groups['protac'], groups['poi'])
     cutoff=float(selection.get('qc',{}).get('min_nonbonded_heavy_distance_A',1.0))
     if not math.isfinite(cutoff) or cutoff<=0:raise ValidationError('Invalid overlap cutoff')
+    # Normalized ternaries contain protein ATOM records and an explicitly
+    # selected ligand. Check the entire E3 complex, including elongins, rather
+    # than only the VHL binding chain used by the contact feature.
+    protein=[a for i,a in enumerate(atoms) if a['record']=='ATOM' and i not in indices['protac'] and a['element'] not in {'H','D'}]
+    e3=[a for a in protein if a['chain'] not in selection['poi']['chains']]
+    if not protein or not e3:raise ValidationError('Missing complete protein-complex selection')
+    ligand_protein=min_distance(groups['protac'],np.array([a['xyz'] for a in protein]))
+    e3_poi=min_distance(np.array([a['xyz'] for a in e3]),groups['poi'])
     return {'d_vhl': d_vhl, 'd_kin': d_kin, 'bridging_5A': d_vhl < 5 and d_kin < 5,
             'bridging_8A': d_vhl < 8 and d_kin < 8,
-            'clash_cutoff_A':cutoff,'severe_overlap': min(d_vhl, d_kin) < cutoff}
+            'clash_cutoff_A':cutoff,'min_ligand_all_protein_A':ligand_protein,
+            'min_e3_complex_poi_A':e3_poi,'protein_clash_e3_chains':sorted({a['chain'] for a in e3}),
+            'severe_overlap': min(d_vhl,d_kin,ligand_protein,e3_poi) < cutoff}
 
 def validate_outputs(run, selection):
     """Require every scored combined pose, fail on mismatches or sentinel scores."""
@@ -175,11 +207,22 @@ def verify_receipt(run, selection):
     rows = validate_outputs(run, selection)
     if receipt.get('engine_status_sha256')!=sha256(run/'engine_status.json'):
         raise ValidationError('Engine stage report changed since completion')
+    verify_execution_snapshot(run,json.loads((run/'engine_status.json').read_text()))
     if receipt.get('score_sha256') != sha256(run/'Patchdock_Results/score.sc'):
         raise ValidationError('Scores changed since completion')
     hashes = {r['description']:r['pdb_sha256'] for r in rows}
     if hashes != receipt.get('pose_sha256'): raise ValidationError('Pose files changed since completion')
     return rows
+
+def check_ligand_nonbonded_geometry(mol,cutoff=1.5):
+    from rdkit import Chem
+    topology=Chem.GetDistanceMatrix(mol);coordinates=mol.GetConformer().GetPositions()
+    mask=np.triu(topology>2,k=1)  # Exclude bonded and angle-related atom pairs.
+    if not mask.any():return None
+    distances=np.linalg.norm(coordinates[:,None,:]-coordinates[None,:,:],axis=2)
+    minimum=float(distances[mask].min())
+    if minimum<cutoff:raise ValidationError('Severe intraligand nonbonded heavy-atom overlap')
+    return minimum
 
 def validate_ligand_identity(pdb, selector, smiles_path):
     """Check the complete heavy graph and 3D stereochemistry against full PROTAC."""
@@ -202,6 +245,8 @@ def validate_ligand_identity(pdb, selector, smiles_path):
     except (ValueError,RuntimeError) as exc:raise ValidationError('Ligand connectivity cannot match full PROTAC') from exc
     if Chem.MolToInchiKey(mol)!=Chem.MolToInchiKey(full):
         raise ValidationError('Output ligand stereochemistry/identity differs from full PROTAC')
+    minimum=check_ligand_nonbonded_geometry(mol)
+    return {'min_intraligand_nonbonded_heavy_A':minimum}
 
 def validate_stage_report(run, n_scored):
     """Do not hide failed child workers behind the surviving pose set."""

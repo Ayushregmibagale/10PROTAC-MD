@@ -26,6 +26,13 @@ def kabsch(mobile, reference):
     r=vt.T@np.diag([1,1,np.linalg.det(vt.T@u.T)])@u.T
     return r,rc-mc@r.T
 
+def ce_path_indices(result):
+    """Normalize Biopython 1.84 paired lists and 1.85 named CE results."""
+    path=getattr(result,'path',result)
+    if not isinstance(path,(tuple,list)) or len(path)!=2 or len(path[0])!=len(path[1]) or not len(path[0]):
+        raise ValidationError('Malformed CE residue correspondence')
+    return tuple(path[0]),tuple(path[1])
+
 def domain_atoms(path, chain, start, end):
     atoms=[a for a in pdb_atoms(path) if a['record']=='ATOM' and a['chain']==chain
            and start <= a['resnum'] <= end]
@@ -46,15 +53,16 @@ def align_domain(target, reference, head,method='sequence'):
         # CE supplies a structural correspondence across divergent, independently
         # annotated kinase domains. Do not relax pocket/clash/coverage thresholds.
         from Bio.PDB.cealign import run_cealign
-        paths=run_cealign([list(a['xyz']) for a in reference],[list(a['xyz']) for a in target],8,30)
+        paths=[ce_path_indices(p) for p in run_cealign([list(a['xyz']) for a in reference],[list(a['xyz']) for a in target],8,30)]
         if not paths:raise ValidationError('No CE domain correspondence')
-        longest=[p for p in paths if p.length==paths[0].length]
+        longest_length=max(len(p[0]) for p in paths)
+        longest=[p for p in paths if len(p[0])==longest_length]
         def residual(path):
-            a,b=path.path
+            a,b=path
             x=np.array([target[j]['xyz'] for j in b]);y=np.array([reference[i]['xyz'] for i in a])
             r,t=kabsch(x,y)
             return float(np.mean(np.sum((x@r.T+t-y)**2,axis=1)))
-        best=min(longest,key=residual);pairs=list(zip(*best.path))
+        best=min(longest,key=residual);pairs=list(zip(*best))
         identity=sum(reference[i]['resname']==target[j]['resname'] for i,j in pairs)/len(pairs)
     elif method!='sequence':raise ValidationError('Unknown domain alignment method')
     if (method=='sequence' and identity<0.25) or len(pairs)<100: raise ValidationError('Insufficient homologous domain correspondence')
@@ -118,7 +126,7 @@ def align_klifs_pocket(target,reference,head,evidence):
     paths=run_cealign([list(a['xyz']) for a in reference],[list(a['xyz']) for a in target],8,30)
     checks=[]
     for path in paths:
-        a,b=path.path
+        a,b=ce_path_indices(path)
         distances=np.linalg.norm(np.array([target[j]['xyz'] for j in b])@r.T+t-
                                  np.array([reference[i]['xyz'] for i in a]),axis=1)
         keep=distances<=3.0

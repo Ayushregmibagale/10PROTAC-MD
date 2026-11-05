@@ -10,8 +10,9 @@ import platform
 from pathlib import Path
 BASE=Path(__file__).resolve().parent;ROOT=BASE.parent
 sys.path.insert(0,str(ROOT/'scripts/lib'))
-from protac_qc import ValidationError,atomic_json,sha256,parse_scores
+from protac_qc import ValidationError,atomic_json,sha256,parse_scores,engine_source_hashes
 from audit_outputs import audit
+from constrained_linker import DEFAULT_EMBED_ITERATIONS,DEFAULT_OUTER_ATTEMPTS
 
 def main():
     p=argparse.ArgumentParser(description=__doc__)
@@ -27,9 +28,10 @@ def main():
     report={'schema_version':2,'status':'RUNNING','score_role':'raw','seed':a.seed,
         'engine_kind':'existing_pRosettaC_baseline_repaired','protocol':a.protocol,
         'docking_microstate':'supplier_neutral_reference','started_unix':time.time(),'stages':{},
-        'engine_sha256':{str(f.relative_to(ROOT)):sha256(f) for f in BASE.rglob('*')
-            if f.is_file() and '__pycache__' not in f.parts and f.suffix in {'.py','.json','.smarts'}},
+        'engine_sha256':engine_source_hashes(ROOT),
         'settings':{k:str(v) if isinstance(v,Path) else v for k,v in vars(a).items()}}
+    report['settings'].update(linker_embedding_outer_attempts=DEFAULT_OUTER_ATTEMPTS,
+                              linker_embedding_internal_iterations=DEFAULT_EMBED_ITERATIONS)
     report['engine_sha256']['scripts/lib/protac_qc.py']=sha256(ROOT/'scripts/lib/protac_qc.py')
     atomic_json(run/'engine_status.json',report)
     try:
@@ -48,6 +50,8 @@ def main():
             '--local-poses',str(a.n_local),'--conformers',str(a.conformers),'--workers',str(a.workers),
             '--max-global-trials',str(a.max_global_trials)]
         subprocess.run(command,check=True,env=env)
+        if engine_source_hashes(ROOT)!=report['engine_sha256']:
+            raise ValidationError('Execution snapshot changed during the run')
         execution=json.loads((raw/'diagnostic.json').read_text())
         local=list((raw/'Patchdock_Results').glob('pd.*_docking_????.pdb'))
         sampling=list((raw/'Patchdock_Results').glob('confs_*.sdf.sampling.json'))

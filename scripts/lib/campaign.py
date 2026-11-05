@@ -4,19 +4,29 @@ Inputs, attempts and transitions are durable. Pilot mode has enforced small
 budgets; campaign mode requires a versioned release receipt and storage budget.
 No SSH, detached submission, automatic deletion or experiment-engine invocation.
 """
-import argparse,csv,fcntl,hashlib,importlib.util,json,os,shutil,sys,tempfile,time,uuid
+import argparse,csv,fcntl,hashlib,importlib.util,json,os,shutil,sys,tempfile,time,uuid,subprocess
 from pathlib import Path
-from protac_qc import ValidationError,sha256,verify_receipt
+from protac_qc import ValidationError,sha256,verify_receipt,engine_source_hashes,atomic_json,preparation_input_hash
 
 def module(root,name,relative):
     spec=importlib.util.spec_from_file_location(name,root/relative)
     loaded=importlib.util.module_from_spec(spec);spec.loader.exec_module(loaded);return loaded
 
 def source_hashes(root):
-    files=[f for f in (root/'baseline_engine').rglob('*') if f.is_file() and '__pycache__' not in f.parts and f.suffix in {'.py','.json','.smarts'}]
-    files.extend(root/relative for relative in ['scripts/lib/protac_qc.py','scripts/lib/campaign.py',
-        'scripts/01_setup/02_batch_prosettac.py','scripts/01_setup/03_record_attempt.py'])
-    return {str(f.relative_to(root)):sha256(f) for f in sorted(files)}
+    return engine_source_hashes(root)
+
+
+def snapshot_sources(root,dest,expected):
+    """Freeze executable code/config before starting a worker or recorder."""
+    dest.mkdir(parents=True,exist_ok=False)
+    shutil.copytree(root/'baseline_engine',dest/'baseline_engine',ignore=shutil.ignore_patterns('__pycache__','*.pyc'))
+    for relative in ['scripts/lib/protac_qc.py','scripts/lib/campaign.py',
+                     'scripts/01_setup/02_batch_prosettac.py','scripts/01_setup/03_record_attempt.py']:
+        target=dest/relative;target.parent.mkdir(parents=True,exist_ok=True);shutil.copy2(root/relative,target)
+    if engine_source_hashes(dest)!=expected:
+        raise ValidationError('Sources changed while creating execution snapshot; preserve and retry')
+    atomic_json(dest/'source_manifest.json',{'status':'VERIFIED_EXECUTION_SNAPSHOT','source_sha256':expected})
+    return dest
 
 def transition(manifest,pair,attempt,status,key,reason=''):
     manifest.parent.mkdir(parents=True,exist_ok=True)
@@ -81,11 +91,20 @@ def execute(root,pairs,args):
     runs=args.runs.resolve();runs.mkdir(parents=True,exist_ok=True);manifest=runs/'manifest.tsv'
     protocol={k:getattr(args,k) for k in ['seed','protocol','n_dock','n_local','conformers','workers','max_global_trials','timeout_seconds']}
     protocol['engine_sha256']=source_hashes(root)
-    attempt_module=module(root,'campaign_attempt','scripts/01_setup/03_record_attempt.py')
     with (runs/'campaign.lock').open('w') as lock:
         fcntl.flock(lock,fcntl.LOCK_EX|fcntl.LOCK_NB)
         if shutil.disk_usage(runs).free<policy['minimum_free_bytes']:raise ValidationError('Insufficient free space for selected full-retention plan')
+        source_key=hashlib.sha256(json.dumps(protocol['engine_sha256'],sort_keys=True).encode()).hexdigest()
+        cached=runs/'source_snapshots'/source_key
+        if not cached.exists():
+            cached.parent.mkdir(parents=True,exist_ok=True)
+            temporary=cached.parent/('.creating-'+str(uuid.uuid4()))
+            snapshot_sources(root,temporary,protocol['engine_sha256'])
+            os.replace(temporary,cached)
+        if source_hashes(cached)!=protocol['engine_sha256']:raise ValidationError('Cached campaign source snapshot changed')
         for pair in pairs:
+            if preparation_input_hash(pair['local_dir'])!=pair['input_hash']:
+                raise ValidationError('Prepared inputs changed after campaign planning: '+pair['run_name'])
             key=hashlib.sha256(json.dumps({'input':pair['input_hash'],'protocol':protocol},sort_keys=True).encode()).hexdigest()
             previous=list(csv.DictReader(manifest.open(),delimiter='\t')) if manifest.exists() else []
             old=next((r for r in previous if (r['protac'],r['run_name'])==(pair['protac'],pair['run_name'])),{})
@@ -100,14 +119,22 @@ def execute(root,pairs,args):
                 attempt.mkdir(parents=True,exist_ok=False)
                 for file in Path(pair['local_dir']).iterdir():
                     if file.is_file():shutil.copy2(file,attempt/file.name)
-                from protac_qc import atomic_json
+                if preparation_input_hash(attempt)!=pair['input_hash']:
+                    raise ValidationError('Prepared inputs changed while copying into attempt')
+                snapshot=snapshot_sources(cached,attempt/'source_snapshot',protocol['engine_sha256'])
                 seed=1+int.from_bytes(hashlib.sha256((str(args.seed)+'|'+pair['protac']+'/'+pair['run_name']).encode()).digest()[:4],'big')%2147483646
-                atomic_json(attempt/'campaign_intent.json',{'pair':pair,'policy':policy,'protocol':protocol,'derived_seed':seed})
-                command=[str(args.python),str(root/'baseline_engine/run.py'),'--run-dir',str(attempt),'--seed',str(seed),'--protocol',args.protocol,
+                atomic_json(attempt/'campaign_intent.json',{'pair':pair,'policy':policy,'protocol':protocol,'derived_seed':seed,
+                    'source_snapshot_manifest_sha256':sha256(snapshot/'source_manifest.json')})
+                command=[str(args.python),str(snapshot/'baseline_engine/run.py'),'--run-dir',str(attempt),'--seed',str(seed),'--protocol',args.protocol,
                     '--n-dock',str(args.n_dock),'--n-local',str(args.n_local),'--conformers',str(args.conformers),
                     '--workers',str(args.workers),'--max-global-trials',str(args.max_global_trials)]
                 transition(manifest,pair,attempt,'RUNNING',key)
-                result=attempt_module.record(attempt,command,args.timeout_seconds)
+                recorded=subprocess.run([str(args.python),str(snapshot/'scripts/01_setup/03_record_attempt.py'),
+                    '--run-dir',str(attempt),'--timeout-seconds',str(args.timeout_seconds),'--',*command],
+                    text=True,capture_output=True)
+                (attempt/'recorder.stdout.log').write_text(recorded.stdout)
+                (attempt/'recorder.stderr.log').write_text(recorded.stderr)
+                result=json.loads((attempt/'completion.json').read_text())
                 transition(manifest,pair,attempt,result['status'],key,result.get('reason',''))
                 terminal_recorded=True
                 print(json.dumps({'attempt':str(attempt),'status':result['status']}),flush=True)

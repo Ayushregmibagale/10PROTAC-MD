@@ -32,8 +32,7 @@ def main(name, argv):
         #if no conformations were not able to be generated, the local docking solution is discarded
         #if they were generated, we run mol_to_params, add the generated pdb to the structure, and run relax, allowing the packer to choose the best PROTAC conformation.
         if os.path.getsize(sdf_file) == 0:
-                os.remove(sdf_file)
-                os.remove(v_atoms_sdf)
+                # Retain empty ensembles and virtual references for the attempt audit.
                 print("No conformations were generated")
         else:
                 pdb, params = rs.mol_to_params(sdf_file, 'PTC', 'PT_' + argv[3], overwrite = False, conformers = True, nbr = NBR, v_atoms_sdf = v_atoms_sdf)

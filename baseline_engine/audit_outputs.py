@@ -64,11 +64,11 @@ def audit(run,min_distance=None):
     for row in rows:
         pose=run/'Patchdock_Results'/(row['description']+'.pdb');entry=dict(row,pdb_sha256=sha256(pose))
         try:
-            validate_ligand_identity(pose,selection['protac'],run/'full.smi')
+            entry.update(validate_ligand_identity(pose,selection['protac'],run/'full.smi'))
             geometry=pose_features(pose,selection);entry.update(geometry)
             entry['head_engagement']=head_engagement(run,pose,selection)
             entry.update(status='GEOMETRY_REJECTED' if geometry['severe_overlap'] else 'MECHANICAL_QC_PASSED',
-                         reason=f'Severe protein-ligand overlap (<{geometry["clash_cutoff_A"]} Angstrom)' if geometry['severe_overlap'] else '')
+                         reason=f'Severe nonbonded protein/ligand or E3/POI overlap (<{geometry["clash_cutoff_A"]} Angstrom)' if geometry['severe_overlap'] else '')
         except (ValidationError,ValueError,OSError) as exc:entry.update(status='CHEMISTRY_OR_OUTPUT_REJECTED',reason=str(exc))
         outcomes.append(entry)
     good=[r for r in outcomes if r['status']=='MECHANICAL_QC_PASSED']

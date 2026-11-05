@@ -1,0 +1,3 @@
+# Additional dependency used in the validated MD analysis environment
+-r requirements-qc.txt
+MDAnalysis==2.10.0
