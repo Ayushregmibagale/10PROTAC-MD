@@ -565,3 +565,136 @@ def test_attempt_sigterm_records_interrupt_and_terminates_child(run):
         with pytest.raises(ProcessLookupError):os.kill(child,0)
     finally:
         if process.poll() is None:process.kill();process.wait()
+
+
+def test_pocket_map_cache_requires_unique_indices_and_residues():
+    cache=load('pocket_cache_checks','scripts/01_setup/00k_cache_klifs_pockets.py')
+    rows=[{'index':i,'Xray_position':str(i),'KLIFS_position':f'test.{i}'} for i in range(1,86)]
+    assert cache.validate(rows)==rows
+    with pytest.raises(ValidationError,match='85'):
+        cache.validate(rows+[rows[0]])
+    rows[1]=dict(rows[1],Xray_position='1')
+    with pytest.raises(ValidationError,match='one-to-one'):
+        cache.validate(rows)
+
+
+def test_canonical_pocket_consensus_never_resolves_conflicts_by_voting():
+    correspondence=load('pocket_consensus_checks','scripts/01_setup/00l_build_pocket_correspondence.py')
+    assert correspondence.consensus([{'1':10},{'1':10,'2':11}])=={'1':10,'2':11}
+    with pytest.raises(ValidationError,match='Conflicting'):
+        correspondence.consensus([{'1':10},{'1':11},{'1':10}])
+    with pytest.raises(ValidationError,match='two pocket'):
+        correspondence.consensus([{'1':10,'2':10}])
+    assert correspondence.source_residue('123A')==(123,'A')
+    assert correspondence.source_residue('_') is None
+
+
+def test_explicit_pocket_fit_preserves_known_rigid_transform(native):
+    atoms=[a for a in __import__('protac_qc').pdb_atoms(native/'protein.pdb') if a['name']=='CA']
+    reference=atoms[:]
+    from rdkit import Chem
+    head=Chem.MolFromMolFile(str(native/'poi_head.sdf')).GetConformer().GetPositions()
+    neighborhood=[i for i,a in enumerate(atoms) if np.linalg.norm(np.array(a['xyz'])-head,axis=1).min()<10]
+    chosen=(neighborhood+[i for i in range(len(atoms)) if i not in neighborhood])[:85]
+    positions={str(k+1):atoms[i]['resnum'] for k,i in enumerate(chosen)}
+    shift=np.array([7.,-4.,2.])
+    target=[dict(a,xyz=np.array(a['xyz'])+shift) for a in atoms]
+    evidence={'target':{'positions':positions},'reference':{'positions':positions}}
+    rotation,translation,meta=placement.align_klifs_pocket(target,reference,head,evidence)
+    np.testing.assert_allclose(rotation,np.eye(3),atol=1e-10)
+    np.testing.assert_allclose(translation,-shift,atol=1e-10)
+    assert meta['pocket_rmsd_A']<1e-10 and meta['core_atoms']>=100
+    bad=dict(positions);bad['2']=bad['1']
+    with pytest.raises(ValidationError,match='one-to-one'):
+        placement.align_klifs_pocket(target,reference,head,{'target':{'positions':bad},'reference':{'positions':positions}})
+    sparse={k:v for k,v in positions.items() if int(k)<68}
+    with pytest.raises(ValidationError,match='coverage'):
+        placement.align_klifs_pocket(target,reference,head,{'target':{'positions':sparse},'reference':{'positions':positions}})
+
+
+def test_md_graceful_stop_is_not_full_completion():
+    md=load('md_stage_completion','scripts/01_setup/07_run_md_stage.py')
+    partial='           Step           Time\n             10        0.02000\nFinished mdrun on rank 0\n'
+    with pytest.raises(ValidationError,match='before requested'):
+        md.validate_stage_log(partial,'nvt',None,'nsteps = 100\ndt = 0.002\n')
+    assert md.validate_stage_log(partial,'nvt',10,'nsteps = 10\n')['last_logged_step']==10
+    with pytest.raises(ValidationError,match='before requested'):
+        md.validate_stage_log(partial,'prod',None,'init_step = 10\nnsteps = 10\n')
+    invalid=partial+'LINCS WARNING\n'
+    with pytest.raises(ValidationError,match='instability'):
+        md.validate_stage_log(invalid,'nvt',None,'nsteps = 10\n')
+
+
+def test_md_minimization_requires_positive_convergence_and_finite_force():
+    md=load('md_em_completion','scripts/01_setup/07_run_md_stage.py')
+    common='Step Time\n10 10.00000\nMaximum force = 100.0 on atom 12\nFinished mdrun\n'
+    good=common+'Steepest Descents converged to Fmax < 500 in 10 steps\n'
+    assert md.validate_stage_log(good,'em',None,'nsteps = 100\nemtol = 500\n')['force_converged']
+    bad=common+'Steepest Descents did not converge to Fmax < 500 in 10 steps\n'
+    with pytest.raises(ValidationError,match='force convergence'):
+        md.validate_stage_log(bad,'em',None,'nsteps = 10\nemtol = 500\n')
+    with pytest.raises(ValidationError,match='nonfinite'):
+        md.validate_stage_log(good.replace('100.0','nan'),'em',None,'nsteps = 100\nemtol = 500\n')
+
+
+def test_md_rejects_unbound_or_changed_tpr(tmp_path):
+    md=load('md_tpr_binding','scripts/01_setup/07_run_md_stage.py')
+    tpr=tmp_path/'nvt.tpr';tpr.write_bytes(b'first tpr')
+    with pytest.raises(ValidationError,match='lacks a generation receipt'):
+        md.verify_tpr_binding(tmp_path,'nvt',{'stage':'nvt'})
+    atomic_json(tmp_path/'nvt.tpr_generation.json',{'intent':{'stage':'nvt'},'tpr_sha256':sha256(tpr)})
+    md.verify_tpr_binding(tmp_path,'nvt',{'stage':'nvt'})
+    tpr.write_bytes(b'second tpr')
+    with pytest.raises(ValidationError,match='generation receipt'):
+        md.verify_tpr_binding(tmp_path,'nvt',{'stage':'nvt'})
+
+
+def test_md_preparation_requires_local_hashed_force_field(tmp_path):
+    md=load('md_preparation_binding','scripts/01_setup/07_run_md_stage.py')
+    atomic_json(tmp_path/'md_preparation.json',{'status':'TOPOLOGY_PREPARED','files':{}})
+    with pytest.raises(ValidationError,match='Portable'):
+        md.verify_preparation(tmp_path,'nvt')
+    (tmp_path/'amber99sb-ildn.ff').mkdir();(tmp_path/'mdp').mkdir()
+    for name in ['amber99sb-ildn.ff/forcefield.itp','topol.top','index.ndx','system.gro','mdp/nvt.mdp']:
+        (tmp_path/name).write_text('fixture')
+    files={str(p.relative_to(tmp_path)):sha256(p) for p in tmp_path.rglob('*') if p.is_file() and p.name!='md_preparation.json'}
+    atomic_json(tmp_path/'md_preparation.json',{'status':'TOPOLOGY_PREPARED','files':files})
+    md.verify_preparation(tmp_path,'nvt')
+    (tmp_path/'amber99sb-ildn.ff/forcefield.itp').write_text('changed')
+    with pytest.raises(ValidationError,match='altered'):
+        md.verify_preparation(tmp_path,'nvt')
+
+
+def test_md_system_lock_prevents_concurrent_stages(tmp_path,monkeypatch):
+    import fcntl
+    md=load('md_system_lock','scripts/01_setup/07_run_md_stage.py')
+    monkeypatch.setattr(md,'_run',lambda *args:'locked execution')
+    with (tmp_path/'.md_stage.lock').open('w') as held:
+        fcntl.flock(held,fcntl.LOCK_EX|fcntl.LOCK_NB)
+        with pytest.raises(ValidationError,match='Another MD stage'):
+            md.run(tmp_path,'em',Path('/fixture/gmx'),1)
+    assert md.run(tmp_path,'em',Path('/fixture/gmx'),1)=='locked execution'
+
+
+def test_native_interface_benchmark_detects_decoys_and_ignores_global_translation(native,tmp_path):
+    recovery=load('native_recovery','scripts/02_analysis/04_native_recovery.py')
+    reference=native/'native_complex.pdb';selection=json.loads((native/'selection.json').read_text())
+    original=reference.read_text().splitlines();shifted=[];decoy=[]
+    for line in original:
+        if line.startswith(('ATOM  ','HETATM')):
+            xyz=np.array([float(line[30:38]),float(line[38:46]),float(line[46:54])])
+            translated=xyz+np.array([7.,-4.,2.])
+            shifted.append(line[:30]+''.join(f'{v:8.3f}' for v in translated)+line[54:])
+            if line.startswith('ATOM  ') and line[21] in selection['vhl']['chains']:
+                xyz=xyz+np.array([30.,0.,0.])
+            decoy.append(line[:30]+''.join(f'{v:8.3f}' for v in xyz)+line[54:])
+        else:shifted.append(line);decoy.append(line)
+    translated=tmp_path/'translated.pdb';translated.write_text('\n'.join(shifted)+'\n')
+    wrong=tmp_path/'decoy.pdb';wrong.write_text('\n'.join(decoy)+'\n')
+    good=recovery.measure(reference,translated,selection)
+    assert good['vhl_CA_rmsd_after_POI_fit_A']<1e-8
+    assert good['fraction_native_contacts']==1
+    assert good['independent_global_recovery_demonstrated'] is False
+    bad=recovery.measure(reference,wrong,selection)
+    assert bad['vhl_CA_rmsd_after_POI_fit_A']>29
+    assert bad['fraction_native_contacts']<0.1

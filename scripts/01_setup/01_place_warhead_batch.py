@@ -80,6 +80,61 @@ def align_domain(target, reference, head,method='sequence'):
                                      'target':[target[j]['resnum'],target[j]['icode']],
                                      'fit_core':bool(keep[k])} for k,(i,j) in enumerate(pairs)]}
 
+def align_klifs_pocket(target,reference,head,evidence):
+    """Fit explicit pocket identities; independently check the domain core.
+
+    The original geometry thresholds remain: 80% of the head neighborhood,
+    >=100 core residues, >=60% core, <=2.5 Å core and <=2 Å pocket RMSD.
+    Missing/ambiguous pocket positions never become guessed correspondences.
+    """
+    def ca_index(atoms):
+        index={}
+        for i,a in enumerate(atoms):
+            key=(a['resnum'],a['icode'].strip())
+            if key in index:raise ValidationError('Ambiguous Cα identity in pocket alignment')
+            index[key]=i
+        return index
+    ti,ri=ca_index(target),ca_index(reference)
+    tp,rp=evidence['target']['positions'],evidence['reference']['positions']
+    for mapping in [tp,rp]:
+        if any(str(k) not in {str(i) for i in range(1,86)} for k in mapping):
+            raise ValidationError('Invalid KLIFS position index')
+        if len(mapping.values())!=len(set(mapping.values())):
+            raise ValidationError('Pocket residue correspondence must be one-to-one')
+    positions=sorted(set(tp)&set(rp),key=int)
+    pairs=[(ri[(int(rp[k]),'')],ti[(int(tp[k]),'')]) for k in positions
+           if (int(rp[k]),'') in ri and (int(tp[k]),'') in ti]
+    if len(pairs)<68:raise ValidationError('Insufficient explicit 85-position pocket coverage')
+    x=np.array([target[j]['xyz'] for i,j in pairs]);y=np.array([reference[i]['xyz'] for i,j in pairs])
+    r,t=kabsch(x,y);error=np.linalg.norm(x@r.T+t-y,axis=1)
+    rmsd=float(np.sqrt(np.mean(error**2)))
+    neighborhood={i for i,a in enumerate(reference) if min_distance(np.array([a['xyz']]),head)<10.0}
+    local=[k for k,(i,j) in enumerate(pairs) if i in neighborhood]
+    coverage=len(local)/len(neighborhood) if neighborhood else 0
+    if len(local)<10 or coverage<0.8:raise ValidationError('Insufficient mapped head-neighborhood coverage')
+    pocket_rmsd=float(np.sqrt(np.mean(error[local]**2)))
+    if rmsd>2.0 or pocket_rmsd>2.0:raise ValidationError(f'Poor explicit pocket fit: {rmsd:.2f}/{pocket_rmsd:.2f} Å')
+    from Bio.PDB.cealign import run_cealign
+    paths=run_cealign([list(a['xyz']) for a in reference],[list(a['xyz']) for a in target],8,30)
+    checks=[]
+    for path in paths:
+        a,b=path.path
+        distances=np.linalg.norm(np.array([target[j]['xyz'] for j in b])@r.T+t-
+                                 np.array([reference[i]['xyz'] for i in a]),axis=1)
+        keep=distances<=3.0
+        if keep.sum()>=100 and keep.mean()>=0.6:
+            checks.append((float(np.sqrt(np.mean(distances[keep]**2))),int(keep.sum()),float(keep.mean())))
+    if not checks:raise ValidationError('Insufficient independently alignable domain core after pocket fit')
+    core_rmsd,core_atoms,core_fraction=min(checks)
+    if core_rmsd>2.5:raise ValidationError('Domain core RMSD exceeds 2.5 Å after pocket fit')
+    return r,t,{'alignment_method':'explicit_KLIFS_pocket','pocket_rmsd_A':pocket_rmsd,
+        'whole_KLIFS_pocket_rmsd_A':rmsd,'pocket_coverage':coverage,'core_rmsd_A':core_rmsd,
+        'core_atoms':core_atoms,'core_fraction':core_fraction,'mapped_KLIFS_positions':len(pairs),
+        'pocket_correspondence_evidence':evidence,
+        'aligned_residues':[{'reference':[reference[i]['resnum'],reference[i]['icode']],
+                             'target':[target[j]['resnum'],target[j]['icode']]} for i,j in pairs]}
+
+
 def prepare(root,row,allow_modeled=False,output_root=None):
     modeled=row['protac'] in {'SJF1521','JNJ1013','SJF_delta'}
     if row['protac'] not in {'GSK215','SJF8240'} and not (modeled and allow_modeled):
@@ -96,7 +151,13 @@ def prepare(root,row,allow_modeled=False,output_root=None):
     atoms,ca=domain_atoms(source,row['chain'],int(row['res_start']),int(row['res_end']))
     _,refca=domain_atoms(refdir/'protein.pdb','D',-999,9999)
     mol=Chem.MolFromMolFile(str(refdir/'poi_head.sdf'),removeHs=False)
-    r,t,meta=align_domain(ca,refca,mol.GetConformer().GetPositions(),row.get('alignment_method','sequence'))
+    if row.get('alignment_method')=='klifs':
+        evidence=row['pocket_correspondence']
+        if sha256(source)!=evidence['target']['domain_sha256'] or sha256(refdir/'protein.pdb')!=evidence['reference']['protein_sha256']:
+            raise ValidationError('Pocket correspondence coordinate hash mismatch')
+        r,t,meta=align_klifs_pocket(ca,refca,mol.GetConformer().GetPositions(),evidence)
+    else:
+        r,t,meta=align_domain(ca,refca,mol.GetConformer().GetPositions(),row.get('alignment_method','sequence'))
     placed=(mol.GetConformer().GetPositions()-t)@r
     distance=min_distance(placed,np.array([a['xyz'] for a in atoms if a['element'] not in ('H','D')]))
     if not 1.5 <= distance <= 4.5: raise ValidationError(f'Implausible head contacts/clash: {distance:.3f} Å')

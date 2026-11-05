@@ -1,0 +1,1572 @@
+{
+  "schema_version": 1,
+  "input_root": "/tmp/10protac_finish/prepared_pocket_screen",
+  "pairs": [
+    {
+      "protac": "GSK215",
+      "run_name": "ABL1_P00519__kinase1_242_493__AF2",
+      "status": "BLOCKED",
+      "issues": [
+        "BENCHMARK_RELEASE_PENDING"
+      ],
+      "config_sha256": "42183eb86f4f5cdb68d99dfa53ed9b55612fad6022155615157f04a771dfc362"
+    },
+    {
+      "protac": "GSK215",
+      "run_name": "ABL2_P42684__kinase1_288_539__AF2",
+      "status": "BLOCKED",
+      "issues": [
+        "BENCHMARK_RELEASE_PENDING"
+      ],
+      "config_sha256": "42183eb86f4f5cdb68d99dfa53ed9b55612fad6022155615157f04a771dfc362"
+    },
+    {
+      "protac": "GSK215",
+      "run_name": "ALK_Q9UM73__kinase1_1116_1392__KLIFS6393",
+      "status": "BLOCKED",
+      "issues": [
+        "BENCHMARK_RELEASE_PENDING"
+      ],
+      "config_sha256": "42183eb86f4f5cdb68d99dfa53ed9b55612fad6022155615157f04a771dfc362"
+    },
+    {
+      "protac": "GSK215",
+      "run_name": "CDK4_P11802__kinase1_6_295__AF2",
+      "status": "BLOCKED",
+      "issues": [
+        "BENCHMARK_RELEASE_PENDING"
+      ],
+      "config_sha256": "42183eb86f4f5cdb68d99dfa53ed9b55612fad6022155615157f04a771dfc362"
+    },
+    {
+      "protac": "GSK215",
+      "run_name": "CLK3_P49761__kinase1_156_472__KLIFS15443",
+      "status": "BLOCKED",
+      "issues": [
+        "BENCHMARK_RELEASE_PENDING"
+      ],
+      "config_sha256": "42183eb86f4f5cdb68d99dfa53ed9b55612fad6022155615157f04a771dfc362"
+    },
+    {
+      "protac": "GSK215",
+      "run_name": "CSK_P41240__kinase1_195_449__AF2",
+      "status": "BLOCKED",
+      "issues": [
+        "BENCHMARK_RELEASE_PENDING"
+      ],
+      "config_sha256": "42183eb86f4f5cdb68d99dfa53ed9b55612fad6022155615157f04a771dfc362"
+    },
+    {
+      "protac": "GSK215",
+      "run_name": "DDR1_Q08345__kinase1_610_905__KLIFS10760",
+      "status": "BLOCKED",
+      "issues": [
+        "BENCHMARK_RELEASE_PENDING"
+      ],
+      "config_sha256": "42183eb86f4f5cdb68d99dfa53ed9b55612fad6022155615157f04a771dfc362"
+    },
+    {
+      "protac": "GSK215",
+      "run_name": "DDR2_Q16832__kinase1_563_849__AF2",
+      "status": "BLOCKED",
+      "issues": [
+        "BENCHMARK_RELEASE_PENDING"
+      ],
+      "config_sha256": "42183eb86f4f5cdb68d99dfa53ed9b55612fad6022155615157f04a771dfc362"
+    },
+    {
+      "protac": "GSK215",
+      "run_name": "ERBB4_Q15303__kinase1_718_985__AF2",
+      "status": "BLOCKED",
+      "issues": [
+        "BENCHMARK_RELEASE_PENDING"
+      ],
+      "config_sha256": "42183eb86f4f5cdb68d99dfa53ed9b55612fad6022155615157f04a771dfc362"
+    },
+    {
+      "protac": "GSK215",
+      "run_name": "FES_P07332__kinase1_561_822__AF2",
+      "status": "BLOCKED",
+      "issues": [
+        "BENCHMARK_RELEASE_PENDING"
+      ],
+      "config_sha256": "42183eb86f4f5cdb68d99dfa53ed9b55612fad6022155615157f04a771dfc362"
+    },
+    {
+      "protac": "GSK215",
+      "run_name": "FES_P07332__kinase1_561_822__KLIFS2811",
+      "status": "BLOCKED",
+      "issues": [
+        "BENCHMARK_RELEASE_PENDING"
+      ],
+      "config_sha256": "42183eb86f4f5cdb68d99dfa53ed9b55612fad6022155615157f04a771dfc362"
+    },
+    {
+      "protac": "GSK215",
+      "run_name": "FGFR1_P11362__kinase1_478_767__AF2",
+      "status": "BLOCKED",
+      "issues": [
+        "BENCHMARK_RELEASE_PENDING"
+      ],
+      "config_sha256": "42183eb86f4f5cdb68d99dfa53ed9b55612fad6022155615157f04a771dfc362"
+    },
+    {
+      "protac": "GSK215",
+      "run_name": "FGFR1_P11362__kinase1_478_767__KLIFS6461",
+      "status": "BLOCKED",
+      "issues": [
+        "BENCHMARK_RELEASE_PENDING"
+      ],
+      "config_sha256": "42183eb86f4f5cdb68d99dfa53ed9b55612fad6022155615157f04a771dfc362"
+    },
+    {
+      "protac": "GSK215",
+      "run_name": "FGFR3_P22607__kinase1_472_761__AF2",
+      "status": "BLOCKED",
+      "issues": [
+        "BENCHMARK_RELEASE_PENDING"
+      ],
+      "config_sha256": "42183eb86f4f5cdb68d99dfa53ed9b55612fad6022155615157f04a771dfc362"
+    },
+    {
+      "protac": "GSK215",
+      "run_name": "IGF1R_P08069__kinase1_999_1274__KLIFS7097",
+      "status": "BLOCKED",
+      "issues": [
+        "BENCHMARK_RELEASE_PENDING"
+      ],
+      "config_sha256": "42183eb86f4f5cdb68d99dfa53ed9b55612fad6022155615157f04a771dfc362"
+    },
+    {
+      "protac": "GSK215",
+      "run_name": "JAK2_O60674__kinase2_849_1124__AF2",
+      "status": "BLOCKED",
+      "issues": [
+        "BENCHMARK_RELEASE_PENDING"
+      ],
+      "config_sha256": "42183eb86f4f5cdb68d99dfa53ed9b55612fad6022155615157f04a771dfc362"
+    },
+    {
+      "protac": "GSK215",
+      "run_name": "JAK3_P52333__kinase2_822_1111__AF2",
+      "status": "BLOCKED",
+      "issues": [
+        "BENCHMARK_RELEASE_PENDING"
+      ],
+      "config_sha256": "42183eb86f4f5cdb68d99dfa53ed9b55612fad6022155615157f04a771dfc362"
+    },
+    {
+      "protac": "GSK215",
+      "run_name": "JAK3_P52333__kinase2_822_1111__KLIFS7118",
+      "status": "BLOCKED",
+      "issues": [
+        "BENCHMARK_RELEASE_PENDING"
+      ],
+      "config_sha256": "42183eb86f4f5cdb68d99dfa53ed9b55612fad6022155615157f04a771dfc362"
+    },
+    {
+      "protac": "GSK215",
+      "run_name": "MAP3K5_Q99683__kinase1_680_938__AF2",
+      "status": "BLOCKED",
+      "issues": [
+        "BENCHMARK_RELEASE_PENDING"
+      ],
+      "config_sha256": "42183eb86f4f5cdb68d99dfa53ed9b55612fad6022155615157f04a771dfc362"
+    },
+    {
+      "protac": "GSK215",
+      "run_name": "MAP3K5_Q99683__kinase1_680_938__KLIFS4740",
+      "status": "BLOCKED",
+      "issues": [
+        "BENCHMARK_RELEASE_PENDING"
+      ],
+      "config_sha256": "42183eb86f4f5cdb68d99dfa53ed9b55612fad6022155615157f04a771dfc362"
+    },
+    {
+      "protac": "GSK215",
+      "run_name": "MARK2_Q7KZI7__kinase1_53_304__KLIFS6410",
+      "status": "BLOCKED",
+      "issues": [
+        "BENCHMARK_RELEASE_PENDING"
+      ],
+      "config_sha256": "42183eb86f4f5cdb68d99dfa53ed9b55612fad6022155615157f04a771dfc362"
+    },
+    {
+      "protac": "GSK215",
+      "run_name": "MARK4_Q96L34__kinase1_59_310__KLIFS6260",
+      "status": "BLOCKED",
+      "issues": [
+        "BENCHMARK_RELEASE_PENDING"
+      ],
+      "config_sha256": "42183eb86f4f5cdb68d99dfa53ed9b55612fad6022155615157f04a771dfc362"
+    },
+    {
+      "protac": "GSK215",
+      "run_name": "MLKL_Q8NB16__kinase1_194_469__KLIFS12783",
+      "status": "BLOCKED",
+      "issues": [
+        "BENCHMARK_RELEASE_PENDING"
+      ],
+      "config_sha256": "42183eb86f4f5cdb68d99dfa53ed9b55612fad6022155615157f04a771dfc362"
+    },
+    {
+      "protac": "GSK215",
+      "run_name": "MUSK_O15146__kinase1_575_856__KLIFS15670",
+      "status": "BLOCKED",
+      "issues": [
+        "BENCHMARK_RELEASE_PENDING"
+      ],
+      "config_sha256": "42183eb86f4f5cdb68d99dfa53ed9b55612fad6022155615157f04a771dfc362"
+    },
+    {
+      "protac": "GSK215",
+      "run_name": "PLK2_Q9NYY3__kinase1_82_334__AF2",
+      "status": "BLOCKED",
+      "issues": [
+        "BENCHMARK_RELEASE_PENDING"
+      ],
+      "config_sha256": "42183eb86f4f5cdb68d99dfa53ed9b55612fad6022155615157f04a771dfc362"
+    },
+    {
+      "protac": "GSK215",
+      "run_name": "PRKAA1_Q13131__kinase1_27_279__AF2",
+      "status": "BLOCKED",
+      "issues": [
+        "BENCHMARK_RELEASE_PENDING"
+      ],
+      "config_sha256": "42183eb86f4f5cdb68d99dfa53ed9b55612fad6022155615157f04a771dfc362"
+    },
+    {
+      "protac": "GSK215",
+      "run_name": "PRKAA1_Q13131__kinase1_27_279__KLIFS10714",
+      "status": "BLOCKED",
+      "issues": [
+        "BENCHMARK_RELEASE_PENDING"
+      ],
+      "config_sha256": "42183eb86f4f5cdb68d99dfa53ed9b55612fad6022155615157f04a771dfc362"
+    },
+    {
+      "protac": "GSK215",
+      "run_name": "PRKAA2_P54646__kinase1_16_268__AF2",
+      "status": "BLOCKED",
+      "issues": [
+        "BENCHMARK_RELEASE_PENDING"
+      ],
+      "config_sha256": "42183eb86f4f5cdb68d99dfa53ed9b55612fad6022155615157f04a771dfc362"
+    },
+    {
+      "protac": "GSK215",
+      "run_name": "PTK2_Q05397__kinase1_422_680__KLIFS13319",
+      "status": "BLOCKED",
+      "issues": [
+        "BENCHMARK_RELEASE_PENDING"
+      ],
+      "config_sha256": "42183eb86f4f5cdb68d99dfa53ed9b55612fad6022155615157f04a771dfc362"
+    },
+    {
+      "protac": "GSK215",
+      "run_name": "SLK_Q9H2G2__kinase1_34_292__KLIFS10625",
+      "status": "BLOCKED",
+      "issues": [
+        "BENCHMARK_RELEASE_PENDING"
+      ],
+      "config_sha256": "42183eb86f4f5cdb68d99dfa53ed9b55612fad6022155615157f04a771dfc362"
+    },
+    {
+      "protac": "GSK215",
+      "run_name": "STK26_Q9P289__kinase1_24_274__AF2",
+      "status": "BLOCKED",
+      "issues": [
+        "BENCHMARK_RELEASE_PENDING"
+      ],
+      "config_sha256": "42183eb86f4f5cdb68d99dfa53ed9b55612fad6022155615157f04a771dfc362"
+    },
+    {
+      "protac": "GSK215",
+      "run_name": "TNK2_Q07912__kinase1_126_385__KLIFS14103",
+      "status": "BLOCKED",
+      "issues": [
+        "BENCHMARK_RELEASE_PENDING"
+      ],
+      "config_sha256": "42183eb86f4f5cdb68d99dfa53ed9b55612fad6022155615157f04a771dfc362"
+    },
+    {
+      "protac": "GSK215",
+      "run_name": "ULK2_Q8IYT8__kinase1_9_271__AF2",
+      "status": "BLOCKED",
+      "issues": [
+        "BENCHMARK_RELEASE_PENDING"
+      ],
+      "config_sha256": "42183eb86f4f5cdb68d99dfa53ed9b55612fad6022155615157f04a771dfc362"
+    },
+    {
+      "protac": "GSK215",
+      "run_name": "ZAP70_P43403__kinase1_338_600__KLIFS2733",
+      "status": "BLOCKED",
+      "issues": [
+        "BENCHMARK_RELEASE_PENDING"
+      ],
+      "config_sha256": "42183eb86f4f5cdb68d99dfa53ed9b55612fad6022155615157f04a771dfc362"
+    },
+    {
+      "protac": "JNJ1013",
+      "run_name": "AAK1_Q2M2I8__kinase1_46_315__AF2",
+      "status": "BLOCKED",
+      "issues": [
+        "BENCHMARK_RELEASE_PENDING",
+        "MODELED_HEAD_REVIEW_PENDING"
+      ],
+      "config_sha256": "44148151b5eaf9d2506e2ca9bb6626e5af2c5ea8aad802865dd91ddce5684756"
+    },
+    {
+      "protac": "JNJ1013",
+      "run_name": "ARAF_P10398__kinase1_310_570__KLIFS15961",
+      "status": "BLOCKED",
+      "issues": [
+        "BENCHMARK_RELEASE_PENDING",
+        "MODELED_HEAD_REVIEW_PENDING"
+      ],
+      "config_sha256": "44148151b5eaf9d2506e2ca9bb6626e5af2c5ea8aad802865dd91ddce5684756"
+    },
+    {
+      "protac": "JNJ1013",
+      "run_name": "AURKA_O14965__kinase1_133_383__AF2",
+      "status": "BLOCKED",
+      "issues": [
+        "BENCHMARK_RELEASE_PENDING",
+        "MODELED_HEAD_REVIEW_PENDING"
+      ],
+      "config_sha256": "44148151b5eaf9d2506e2ca9bb6626e5af2c5ea8aad802865dd91ddce5684756"
+    },
+    {
+      "protac": "JNJ1013",
+      "run_name": "BMP2K_Q9NSY1__kinase1_51_316__AF2",
+      "status": "BLOCKED",
+      "issues": [
+        "BENCHMARK_RELEASE_PENDING",
+        "MODELED_HEAD_REVIEW_PENDING"
+      ],
+      "config_sha256": "44148151b5eaf9d2506e2ca9bb6626e5af2c5ea8aad802865dd91ddce5684756"
+    },
+    {
+      "protac": "JNJ1013",
+      "run_name": "BMP2K_Q9NSY1__kinase1_51_316__KLIFS3274",
+      "status": "BLOCKED",
+      "issues": [
+        "BENCHMARK_RELEASE_PENDING",
+        "MODELED_HEAD_REVIEW_PENDING"
+      ],
+      "config_sha256": "44148151b5eaf9d2506e2ca9bb6626e5af2c5ea8aad802865dd91ddce5684756"
+    },
+    {
+      "protac": "JNJ1013",
+      "run_name": "CDK5_Q00535__kinase1_4_286__AF2",
+      "status": "BLOCKED",
+      "issues": [
+        "BENCHMARK_RELEASE_PENDING",
+        "MODELED_HEAD_REVIEW_PENDING"
+      ],
+      "config_sha256": "44148151b5eaf9d2506e2ca9bb6626e5af2c5ea8aad802865dd91ddce5684756"
+    },
+    {
+      "protac": "JNJ1013",
+      "run_name": "CDK8_P49336__kinase1_21_335__AF2",
+      "status": "BLOCKED",
+      "issues": [
+        "BENCHMARK_RELEASE_PENDING",
+        "MODELED_HEAD_REVIEW_PENDING"
+      ],
+      "config_sha256": "44148151b5eaf9d2506e2ca9bb6626e5af2c5ea8aad802865dd91ddce5684756"
+    },
+    {
+      "protac": "JNJ1013",
+      "run_name": "CDK8_P49336__kinase1_21_335__KLIFS8314",
+      "status": "BLOCKED",
+      "issues": [
+        "BENCHMARK_RELEASE_PENDING",
+        "MODELED_HEAD_REVIEW_PENDING"
+      ],
+      "config_sha256": "44148151b5eaf9d2506e2ca9bb6626e5af2c5ea8aad802865dd91ddce5684756"
+    },
+    {
+      "protac": "JNJ1013",
+      "run_name": "CDKL1_Q00532__kinase1_4_287__AF2",
+      "status": "BLOCKED",
+      "issues": [
+        "BENCHMARK_RELEASE_PENDING",
+        "MODELED_HEAD_REVIEW_PENDING"
+      ],
+      "config_sha256": "44148151b5eaf9d2506e2ca9bb6626e5af2c5ea8aad802865dd91ddce5684756"
+    },
+    {
+      "protac": "JNJ1013",
+      "run_name": "CDKL3_Q8IVW4__kinase1_4_286__AF2",
+      "status": "BLOCKED",
+      "issues": [
+        "BENCHMARK_RELEASE_PENDING",
+        "MODELED_HEAD_REVIEW_PENDING"
+      ],
+      "config_sha256": "44148151b5eaf9d2506e2ca9bb6626e5af2c5ea8aad802865dd91ddce5684756"
+    },
+    {
+      "protac": "JNJ1013",
+      "run_name": "CDKL3_Q8IVW4__kinase1_4_286__KLIFS4677",
+      "status": "BLOCKED",
+      "issues": [
+        "BENCHMARK_RELEASE_PENDING",
+        "MODELED_HEAD_REVIEW_PENDING"
+      ],
+      "config_sha256": "44148151b5eaf9d2506e2ca9bb6626e5af2c5ea8aad802865dd91ddce5684756"
+    },
+    {
+      "protac": "JNJ1013",
+      "run_name": "CDKL5_O76039__kinase1_13_297__KLIFS1425",
+      "status": "BLOCKED",
+      "issues": [
+        "BENCHMARK_RELEASE_PENDING",
+        "MODELED_HEAD_REVIEW_PENDING"
+      ],
+      "config_sha256": "44148151b5eaf9d2506e2ca9bb6626e5af2c5ea8aad802865dd91ddce5684756"
+    },
+    {
+      "protac": "JNJ1013",
+      "run_name": "CHEK2_O96017__kinase1_220_486__KLIFS4810",
+      "status": "BLOCKED",
+      "issues": [
+        "BENCHMARK_RELEASE_PENDING",
+        "MODELED_HEAD_REVIEW_PENDING"
+      ],
+      "config_sha256": "44148151b5eaf9d2506e2ca9bb6626e5af2c5ea8aad802865dd91ddce5684756"
+    },
+    {
+      "protac": "JNJ1013",
+      "run_name": "CLK1_P49759__kinase1_161_477__AF2",
+      "status": "BLOCKED",
+      "issues": [
+        "BENCHMARK_RELEASE_PENDING",
+        "MODELED_HEAD_REVIEW_PENDING"
+      ],
+      "config_sha256": "44148151b5eaf9d2506e2ca9bb6626e5af2c5ea8aad802865dd91ddce5684756"
+    },
+    {
+      "protac": "JNJ1013",
+      "run_name": "CLK1_P49759__kinase1_161_477__KLIFS9895",
+      "status": "BLOCKED",
+      "issues": [
+        "BENCHMARK_RELEASE_PENDING",
+        "MODELED_HEAD_REVIEW_PENDING"
+      ],
+      "config_sha256": "44148151b5eaf9d2506e2ca9bb6626e5af2c5ea8aad802865dd91ddce5684756"
+    },
+    {
+      "protac": "JNJ1013",
+      "run_name": "CLK2_P49760__kinase1_163_479__AF2",
+      "status": "BLOCKED",
+      "issues": [
+        "BENCHMARK_RELEASE_PENDING",
+        "MODELED_HEAD_REVIEW_PENDING"
+      ],
+      "config_sha256": "44148151b5eaf9d2506e2ca9bb6626e5af2c5ea8aad802865dd91ddce5684756"
+    },
+    {
+      "protac": "JNJ1013",
+      "run_name": "CLK2_P49760__kinase1_163_479__KLIFS10403",
+      "status": "BLOCKED",
+      "issues": [
+        "BENCHMARK_RELEASE_PENDING",
+        "MODELED_HEAD_REVIEW_PENDING"
+      ],
+      "config_sha256": "44148151b5eaf9d2506e2ca9bb6626e5af2c5ea8aad802865dd91ddce5684756"
+    },
+    {
+      "protac": "JNJ1013",
+      "run_name": "CLK3_P49761__kinase1_156_472__AF2",
+      "status": "BLOCKED",
+      "issues": [
+        "BENCHMARK_RELEASE_PENDING",
+        "MODELED_HEAD_REVIEW_PENDING"
+      ],
+      "config_sha256": "44148151b5eaf9d2506e2ca9bb6626e5af2c5ea8aad802865dd91ddce5684756"
+    },
+    {
+      "protac": "JNJ1013",
+      "run_name": "CLK4_Q9HAZ1__kinase1_159_475__AF2",
+      "status": "BLOCKED",
+      "issues": [
+        "BENCHMARK_RELEASE_PENDING",
+        "MODELED_HEAD_REVIEW_PENDING"
+      ],
+      "config_sha256": "44148151b5eaf9d2506e2ca9bb6626e5af2c5ea8aad802865dd91ddce5684756"
+    },
+    {
+      "protac": "JNJ1013",
+      "run_name": "CLK4_Q9HAZ1__kinase1_159_475__KLIFS10510",
+      "status": "BLOCKED",
+      "issues": [
+        "BENCHMARK_RELEASE_PENDING",
+        "MODELED_HEAD_REVIEW_PENDING"
+      ],
+      "config_sha256": "44148151b5eaf9d2506e2ca9bb6626e5af2c5ea8aad802865dd91ddce5684756"
+    },
+    {
+      "protac": "JNJ1013",
+      "run_name": "CSK_P41240__kinase1_195_449__AF2",
+      "status": "BLOCKED",
+      "issues": [
+        "BENCHMARK_RELEASE_PENDING",
+        "MODELED_HEAD_REVIEW_PENDING"
+      ],
+      "config_sha256": "44148151b5eaf9d2506e2ca9bb6626e5af2c5ea8aad802865dd91ddce5684756"
+    },
+    {
+      "protac": "JNJ1013",
+      "run_name": "CSK_P41240__kinase1_195_449__KLIFS2942",
+      "status": "BLOCKED",
+      "issues": [
+        "BENCHMARK_RELEASE_PENDING",
+        "MODELED_HEAD_REVIEW_PENDING"
+      ],
+      "config_sha256": "44148151b5eaf9d2506e2ca9bb6626e5af2c5ea8aad802865dd91ddce5684756"
+    },
+    {
+      "protac": "JNJ1013",
+      "run_name": "DAPK3_O43293__kinase1_13_275__KLIFS381",
+      "status": "BLOCKED",
+      "issues": [
+        "BENCHMARK_RELEASE_PENDING",
+        "MODELED_HEAD_REVIEW_PENDING"
+      ],
+      "config_sha256": "44148151b5eaf9d2506e2ca9bb6626e5af2c5ea8aad802865dd91ddce5684756"
+    },
+    {
+      "protac": "JNJ1013",
+      "run_name": "ERBB4_Q15303__kinase1_718_985__AF2",
+      "status": "BLOCKED",
+      "issues": [
+        "BENCHMARK_RELEASE_PENDING",
+        "MODELED_HEAD_REVIEW_PENDING"
+      ],
+      "config_sha256": "44148151b5eaf9d2506e2ca9bb6626e5af2c5ea8aad802865dd91ddce5684756"
+    },
+    {
+      "protac": "JNJ1013",
+      "run_name": "IRAK1_P51617__kinase1_212_521__AF2",
+      "status": "BLOCKED",
+      "issues": [
+        "BENCHMARK_RELEASE_PENDING",
+        "MODELED_HEAD_REVIEW_PENDING"
+      ],
+      "config_sha256": "44148151b5eaf9d2506e2ca9bb6626e5af2c5ea8aad802865dd91ddce5684756"
+    },
+    {
+      "protac": "JNJ1013",
+      "run_name": "IRAK1_P51617__kinase1_212_521__KLIFS8699",
+      "status": "BLOCKED",
+      "issues": [
+        "BENCHMARK_RELEASE_PENDING",
+        "MODELED_HEAD_REVIEW_PENDING"
+      ],
+      "config_sha256": "44148151b5eaf9d2506e2ca9bb6626e5af2c5ea8aad802865dd91ddce5684756"
+    },
+    {
+      "protac": "JNJ1013",
+      "run_name": "IRAK3_Q9Y616__kinase1_165_452__KLIFS12483",
+      "status": "BLOCKED",
+      "issues": [
+        "BENCHMARK_RELEASE_PENDING",
+        "MODELED_HEAD_REVIEW_PENDING"
+      ],
+      "config_sha256": "44148151b5eaf9d2506e2ca9bb6626e5af2c5ea8aad802865dd91ddce5684756"
+    },
+    {
+      "protac": "JNJ1013",
+      "run_name": "IRAK4_Q9NWZ3__kinase1_186_454__AF2",
+      "status": "BLOCKED",
+      "issues": [
+        "BENCHMARK_RELEASE_PENDING",
+        "MODELED_HEAD_REVIEW_PENDING"
+      ],
+      "config_sha256": "44148151b5eaf9d2506e2ca9bb6626e5af2c5ea8aad802865dd91ddce5684756"
+    },
+    {
+      "protac": "JNJ1013",
+      "run_name": "IRAK4_Q9NWZ3__kinase1_186_454__KLIFS10889",
+      "status": "BLOCKED",
+      "issues": [
+        "BENCHMARK_RELEASE_PENDING",
+        "MODELED_HEAD_REVIEW_PENDING"
+      ],
+      "config_sha256": "44148151b5eaf9d2506e2ca9bb6626e5af2c5ea8aad802865dd91ddce5684756"
+    },
+    {
+      "protac": "JNJ1013",
+      "run_name": "JAK3_P52333__kinase2_822_1111__AF2",
+      "status": "BLOCKED",
+      "issues": [
+        "BENCHMARK_RELEASE_PENDING",
+        "MODELED_HEAD_REVIEW_PENDING"
+      ],
+      "config_sha256": "44148151b5eaf9d2506e2ca9bb6626e5af2c5ea8aad802865dd91ddce5684756"
+    },
+    {
+      "protac": "JNJ1013",
+      "run_name": "MAP3K7_O43318__kinase1_36_291__KLIFS6886",
+      "status": "BLOCKED",
+      "issues": [
+        "BENCHMARK_RELEASE_PENDING",
+        "MODELED_HEAD_REVIEW_PENDING"
+      ],
+      "config_sha256": "44148151b5eaf9d2506e2ca9bb6626e5af2c5ea8aad802865dd91ddce5684756"
+    },
+    {
+      "protac": "JNJ1013",
+      "run_name": "MAP4K1_Q92918__kinase1_17_274__AF2",
+      "status": "BLOCKED",
+      "issues": [
+        "BENCHMARK_RELEASE_PENDING",
+        "MODELED_HEAD_REVIEW_PENDING"
+      ],
+      "config_sha256": "44148151b5eaf9d2506e2ca9bb6626e5af2c5ea8aad802865dd91ddce5684756"
+    },
+    {
+      "protac": "JNJ1013",
+      "run_name": "MAP4K1_Q92918__kinase1_17_274__KLIFS15777",
+      "status": "BLOCKED",
+      "issues": [
+        "BENCHMARK_RELEASE_PENDING",
+        "MODELED_HEAD_REVIEW_PENDING"
+      ],
+      "config_sha256": "44148151b5eaf9d2506e2ca9bb6626e5af2c5ea8aad802865dd91ddce5684756"
+    },
+    {
+      "protac": "JNJ1013",
+      "run_name": "MAPK3_P27361__kinase1_42_330__AF2",
+      "status": "BLOCKED",
+      "issues": [
+        "BENCHMARK_RELEASE_PENDING",
+        "MODELED_HEAD_REVIEW_PENDING"
+      ],
+      "config_sha256": "44148151b5eaf9d2506e2ca9bb6626e5af2c5ea8aad802865dd91ddce5684756"
+    },
+    {
+      "protac": "JNJ1013",
+      "run_name": "MAPK3_P27361__kinase1_42_330__KLIFS1713",
+      "status": "BLOCKED",
+      "issues": [
+        "BENCHMARK_RELEASE_PENDING",
+        "MODELED_HEAD_REVIEW_PENDING"
+      ],
+      "config_sha256": "44148151b5eaf9d2506e2ca9bb6626e5af2c5ea8aad802865dd91ddce5684756"
+    },
+    {
+      "protac": "JNJ1013",
+      "run_name": "PAK1_Q13153__kinase1_270_521__AF2",
+      "status": "BLOCKED",
+      "issues": [
+        "BENCHMARK_RELEASE_PENDING",
+        "MODELED_HEAD_REVIEW_PENDING"
+      ],
+      "config_sha256": "44148151b5eaf9d2506e2ca9bb6626e5af2c5ea8aad802865dd91ddce5684756"
+    },
+    {
+      "protac": "JNJ1013",
+      "run_name": "PAK2_Q13177__kinase1_249_499__AF2",
+      "status": "BLOCKED",
+      "issues": [
+        "BENCHMARK_RELEASE_PENDING",
+        "MODELED_HEAD_REVIEW_PENDING"
+      ],
+      "config_sha256": "44148151b5eaf9d2506e2ca9bb6626e5af2c5ea8aad802865dd91ddce5684756"
+    },
+    {
+      "protac": "JNJ1013",
+      "run_name": "PAK3_O75914__kinase1_283_534__AF2",
+      "status": "BLOCKED",
+      "issues": [
+        "BENCHMARK_RELEASE_PENDING",
+        "MODELED_HEAD_REVIEW_PENDING"
+      ],
+      "config_sha256": "44148151b5eaf9d2506e2ca9bb6626e5af2c5ea8aad802865dd91ddce5684756"
+    },
+    {
+      "protac": "JNJ1013",
+      "run_name": "PAK3_O75914__kinase1_283_534__KLIFS9463",
+      "status": "BLOCKED",
+      "issues": [
+        "BENCHMARK_RELEASE_PENDING",
+        "MODELED_HEAD_REVIEW_PENDING"
+      ],
+      "config_sha256": "44148151b5eaf9d2506e2ca9bb6626e5af2c5ea8aad802865dd91ddce5684756"
+    },
+    {
+      "protac": "JNJ1013",
+      "run_name": "PBK_Q96KB5__kinase1_32_322__AF2",
+      "status": "BLOCKED",
+      "issues": [
+        "BENCHMARK_RELEASE_PENDING",
+        "MODELED_HEAD_REVIEW_PENDING"
+      ],
+      "config_sha256": "44148151b5eaf9d2506e2ca9bb6626e5af2c5ea8aad802865dd91ddce5684756"
+    },
+    {
+      "protac": "JNJ1013",
+      "run_name": "PHKG1_Q16816__kinase1_20_288__AF2",
+      "status": "BLOCKED",
+      "issues": [
+        "BENCHMARK_RELEASE_PENDING",
+        "MODELED_HEAD_REVIEW_PENDING"
+      ],
+      "config_sha256": "44148151b5eaf9d2506e2ca9bb6626e5af2c5ea8aad802865dd91ddce5684756"
+    },
+    {
+      "protac": "JNJ1013",
+      "run_name": "PHKG1_Q16816__kinase1_20_288__KLIFS15264",
+      "status": "BLOCKED",
+      "issues": [
+        "BENCHMARK_RELEASE_PENDING",
+        "MODELED_HEAD_REVIEW_PENDING"
+      ],
+      "config_sha256": "44148151b5eaf9d2506e2ca9bb6626e5af2c5ea8aad802865dd91ddce5684756"
+    },
+    {
+      "protac": "JNJ1013",
+      "run_name": "PKMYT1_Q99640__kinase1_110_359__AF2",
+      "status": "BLOCKED",
+      "issues": [
+        "BENCHMARK_RELEASE_PENDING",
+        "MODELED_HEAD_REVIEW_PENDING"
+      ],
+      "config_sha256": "44148151b5eaf9d2506e2ca9bb6626e5af2c5ea8aad802865dd91ddce5684756"
+    },
+    {
+      "protac": "JNJ1013",
+      "run_name": "PKMYT1_Q99640__kinase1_110_359__KLIFS8342",
+      "status": "BLOCKED",
+      "issues": [
+        "BENCHMARK_RELEASE_PENDING",
+        "MODELED_HEAD_REVIEW_PENDING"
+      ],
+      "config_sha256": "44148151b5eaf9d2506e2ca9bb6626e5af2c5ea8aad802865dd91ddce5684756"
+    },
+    {
+      "protac": "JNJ1013",
+      "run_name": "PLK3_Q9H4B4__kinase1_62_314__KLIFS3797",
+      "status": "BLOCKED",
+      "issues": [
+        "BENCHMARK_RELEASE_PENDING",
+        "MODELED_HEAD_REVIEW_PENDING"
+      ],
+      "config_sha256": "44148151b5eaf9d2506e2ca9bb6626e5af2c5ea8aad802865dd91ddce5684756"
+    },
+    {
+      "protac": "JNJ1013",
+      "run_name": "PTK6_Q13882__kinase1_191_445__AF2",
+      "status": "BLOCKED",
+      "issues": [
+        "BENCHMARK_RELEASE_PENDING",
+        "MODELED_HEAD_REVIEW_PENDING"
+      ],
+      "config_sha256": "44148151b5eaf9d2506e2ca9bb6626e5af2c5ea8aad802865dd91ddce5684756"
+    },
+    {
+      "protac": "JNJ1013",
+      "run_name": "RET_P07949__kinase1_724_1016__AF2",
+      "status": "BLOCKED",
+      "issues": [
+        "BENCHMARK_RELEASE_PENDING",
+        "MODELED_HEAD_REVIEW_PENDING"
+      ],
+      "config_sha256": "44148151b5eaf9d2506e2ca9bb6626e5af2c5ea8aad802865dd91ddce5684756"
+    },
+    {
+      "protac": "JNJ1013",
+      "run_name": "RET_P07949__kinase1_724_1016__KLIFS14049",
+      "status": "BLOCKED",
+      "issues": [
+        "BENCHMARK_RELEASE_PENDING",
+        "MODELED_HEAD_REVIEW_PENDING"
+      ],
+      "config_sha256": "44148151b5eaf9d2506e2ca9bb6626e5af2c5ea8aad802865dd91ddce5684756"
+    },
+    {
+      "protac": "JNJ1013",
+      "run_name": "RIPK2_O43353__kinase1_18_294__AF2",
+      "status": "BLOCKED",
+      "issues": [
+        "BENCHMARK_RELEASE_PENDING",
+        "MODELED_HEAD_REVIEW_PENDING"
+      ],
+      "config_sha256": "44148151b5eaf9d2506e2ca9bb6626e5af2c5ea8aad802865dd91ddce5684756"
+    },
+    {
+      "protac": "JNJ1013",
+      "run_name": "RIPK2_O43353__kinase1_18_294__KLIFS8051",
+      "status": "BLOCKED",
+      "issues": [
+        "BENCHMARK_RELEASE_PENDING",
+        "MODELED_HEAD_REVIEW_PENDING"
+      ],
+      "config_sha256": "44148151b5eaf9d2506e2ca9bb6626e5af2c5ea8aad802865dd91ddce5684756"
+    },
+    {
+      "protac": "JNJ1013",
+      "run_name": "RIPK3_Q9Y572__kinase1_21_287__AF2",
+      "status": "BLOCKED",
+      "issues": [
+        "BENCHMARK_RELEASE_PENDING",
+        "MODELED_HEAD_REVIEW_PENDING"
+      ],
+      "config_sha256": "44148151b5eaf9d2506e2ca9bb6626e5af2c5ea8aad802865dd91ddce5684756"
+    },
+    {
+      "protac": "JNJ1013",
+      "run_name": "RIPK3_Q9Y572__kinase1_21_287__KLIFS13995",
+      "status": "BLOCKED",
+      "issues": [
+        "BENCHMARK_RELEASE_PENDING",
+        "MODELED_HEAD_REVIEW_PENDING"
+      ],
+      "config_sha256": "44148151b5eaf9d2506e2ca9bb6626e5af2c5ea8aad802865dd91ddce5684756"
+    },
+    {
+      "protac": "JNJ1013",
+      "run_name": "RPS6KA3_P51812__kinase1_68_327__KLIFS136",
+      "status": "BLOCKED",
+      "issues": [
+        "BENCHMARK_RELEASE_PENDING",
+        "MODELED_HEAD_REVIEW_PENDING"
+      ],
+      "config_sha256": "44148151b5eaf9d2506e2ca9bb6626e5af2c5ea8aad802865dd91ddce5684756"
+    },
+    {
+      "protac": "JNJ1013",
+      "run_name": "SLK_Q9H2G2__kinase1_34_292__AF2",
+      "status": "BLOCKED",
+      "issues": [
+        "BENCHMARK_RELEASE_PENDING",
+        "MODELED_HEAD_REVIEW_PENDING"
+      ],
+      "config_sha256": "44148151b5eaf9d2506e2ca9bb6626e5af2c5ea8aad802865dd91ddce5684756"
+    },
+    {
+      "protac": "JNJ1013",
+      "run_name": "SLK_Q9H2G2__kinase1_34_292__KLIFS10625",
+      "status": "BLOCKED",
+      "issues": [
+        "BENCHMARK_RELEASE_PENDING",
+        "MODELED_HEAD_REVIEW_PENDING"
+      ],
+      "config_sha256": "44148151b5eaf9d2506e2ca9bb6626e5af2c5ea8aad802865dd91ddce5684756"
+    },
+    {
+      "protac": "JNJ1013",
+      "run_name": "STK10_O94804__kinase1_36_294__AF2",
+      "status": "BLOCKED",
+      "issues": [
+        "BENCHMARK_RELEASE_PENDING",
+        "MODELED_HEAD_REVIEW_PENDING"
+      ],
+      "config_sha256": "44148151b5eaf9d2506e2ca9bb6626e5af2c5ea8aad802865dd91ddce5684756"
+    },
+    {
+      "protac": "JNJ1013",
+      "run_name": "SYK_P43405__kinase1_371_631__KLIFS1180",
+      "status": "BLOCKED",
+      "issues": [
+        "BENCHMARK_RELEASE_PENDING",
+        "MODELED_HEAD_REVIEW_PENDING"
+      ],
+      "config_sha256": "44148151b5eaf9d2506e2ca9bb6626e5af2c5ea8aad802865dd91ddce5684756"
+    },
+    {
+      "protac": "JNJ1013",
+      "run_name": "TLK2_Q86UE8__kinase1_462_741__AF2",
+      "status": "BLOCKED",
+      "issues": [
+        "BENCHMARK_RELEASE_PENDING",
+        "MODELED_HEAD_REVIEW_PENDING"
+      ],
+      "config_sha256": "44148151b5eaf9d2506e2ca9bb6626e5af2c5ea8aad802865dd91ddce5684756"
+    },
+    {
+      "protac": "JNJ1013",
+      "run_name": "TNNI3K_Q59H18__kinase1_463_723__AF2",
+      "status": "BLOCKED",
+      "issues": [
+        "BENCHMARK_RELEASE_PENDING",
+        "MODELED_HEAD_REVIEW_PENDING"
+      ],
+      "config_sha256": "44148151b5eaf9d2506e2ca9bb6626e5af2c5ea8aad802865dd91ddce5684756"
+    },
+    {
+      "protac": "JNJ1013",
+      "run_name": "TNNI3K_Q59H18__kinase1_463_723__KLIFS6071",
+      "status": "BLOCKED",
+      "issues": [
+        "BENCHMARK_RELEASE_PENDING",
+        "MODELED_HEAD_REVIEW_PENDING"
+      ],
+      "config_sha256": "44148151b5eaf9d2506e2ca9bb6626e5af2c5ea8aad802865dd91ddce5684756"
+    },
+    {
+      "protac": "JNJ1013",
+      "run_name": "ULK2_Q8IYT8__kinase1_9_271__AF2",
+      "status": "BLOCKED",
+      "issues": [
+        "BENCHMARK_RELEASE_PENDING",
+        "MODELED_HEAD_REVIEW_PENDING"
+      ],
+      "config_sha256": "44148151b5eaf9d2506e2ca9bb6626e5af2c5ea8aad802865dd91ddce5684756"
+    },
+    {
+      "protac": "JNJ1013",
+      "run_name": "WEE1_P30291__kinase1_299_569__AF2",
+      "status": "BLOCKED",
+      "issues": [
+        "BENCHMARK_RELEASE_PENDING",
+        "MODELED_HEAD_REVIEW_PENDING"
+      ],
+      "config_sha256": "44148151b5eaf9d2506e2ca9bb6626e5af2c5ea8aad802865dd91ddce5684756"
+    },
+    {
+      "protac": "JNJ1013",
+      "run_name": "WEE2_P0C1S8__kinase1_212_486__AF2",
+      "status": "BLOCKED",
+      "issues": [
+        "BENCHMARK_RELEASE_PENDING",
+        "MODELED_HEAD_REVIEW_PENDING"
+      ],
+      "config_sha256": "44148151b5eaf9d2506e2ca9bb6626e5af2c5ea8aad802865dd91ddce5684756"
+    },
+    {
+      "protac": "SJF1521",
+      "run_name": "ABL1_P00519__kinase1_242_493__KLIFS1096",
+      "status": "BLOCKED",
+      "issues": [
+        "BENCHMARK_RELEASE_PENDING",
+        "MODELED_HEAD_REVIEW_PENDING"
+      ],
+      "config_sha256": "4bbc7b65b1543126f038720781ec40ca3bd4e40bc31d3c79577f9e80bdfa3c77"
+    },
+    {
+      "protac": "SJF1521",
+      "run_name": "ARAF_P10398__kinase1_310_570__AF2",
+      "status": "BLOCKED",
+      "issues": [
+        "BENCHMARK_RELEASE_PENDING",
+        "MODELED_HEAD_REVIEW_PENDING"
+      ],
+      "config_sha256": "4bbc7b65b1543126f038720781ec40ca3bd4e40bc31d3c79577f9e80bdfa3c77"
+    },
+    {
+      "protac": "SJF1521",
+      "run_name": "AXL_P30530__kinase1_536_807__KLIFS8257",
+      "status": "BLOCKED",
+      "issues": [
+        "BENCHMARK_RELEASE_PENDING",
+        "MODELED_HEAD_REVIEW_PENDING"
+      ],
+      "config_sha256": "4bbc7b65b1543126f038720781ec40ca3bd4e40bc31d3c79577f9e80bdfa3c77"
+    },
+    {
+      "protac": "SJF1521",
+      "run_name": "BMX_P51813__kinase1_417_675__AF2",
+      "status": "BLOCKED",
+      "issues": [
+        "BENCHMARK_RELEASE_PENDING",
+        "MODELED_HEAD_REVIEW_PENDING"
+      ],
+      "config_sha256": "4bbc7b65b1543126f038720781ec40ca3bd4e40bc31d3c79577f9e80bdfa3c77"
+    },
+    {
+      "protac": "SJF1521",
+      "run_name": "BRAF_P15056__kinase1_457_717__AF2",
+      "status": "BLOCKED",
+      "issues": [
+        "BENCHMARK_RELEASE_PENDING",
+        "MODELED_HEAD_REVIEW_PENDING"
+      ],
+      "config_sha256": "4bbc7b65b1543126f038720781ec40ca3bd4e40bc31d3c79577f9e80bdfa3c77"
+    },
+    {
+      "protac": "SJF1521",
+      "run_name": "BRAF_P15056__kinase1_457_717__KLIFS15365",
+      "status": "BLOCKED",
+      "issues": [
+        "BENCHMARK_RELEASE_PENDING",
+        "MODELED_HEAD_REVIEW_PENDING"
+      ],
+      "config_sha256": "4bbc7b65b1543126f038720781ec40ca3bd4e40bc31d3c79577f9e80bdfa3c77"
+    },
+    {
+      "protac": "SJF1521",
+      "run_name": "BTK_Q06187__kinase1_402_655__AF2",
+      "status": "BLOCKED",
+      "issues": [
+        "BENCHMARK_RELEASE_PENDING",
+        "MODELED_HEAD_REVIEW_PENDING"
+      ],
+      "config_sha256": "4bbc7b65b1543126f038720781ec40ca3bd4e40bc31d3c79577f9e80bdfa3c77"
+    },
+    {
+      "protac": "SJF1521",
+      "run_name": "BTK_Q06187__kinase1_402_655__KLIFS13569",
+      "status": "BLOCKED",
+      "issues": [
+        "BENCHMARK_RELEASE_PENDING",
+        "MODELED_HEAD_REVIEW_PENDING"
+      ],
+      "config_sha256": "4bbc7b65b1543126f038720781ec40ca3bd4e40bc31d3c79577f9e80bdfa3c77"
+    },
+    {
+      "protac": "SJF1521",
+      "run_name": "BTK_Q06187__kinase1_402_655__KLIFS7637",
+      "status": "BLOCKED",
+      "issues": [
+        "BENCHMARK_RELEASE_PENDING",
+        "MODELED_HEAD_REVIEW_PENDING"
+      ],
+      "config_sha256": "4bbc7b65b1543126f038720781ec40ca3bd4e40bc31d3c79577f9e80bdfa3c77"
+    },
+    {
+      "protac": "SJF1521",
+      "run_name": "CAMK1D_Q8IU85__kinase1_23_279__AF2",
+      "status": "BLOCKED",
+      "issues": [
+        "BENCHMARK_RELEASE_PENDING",
+        "MODELED_HEAD_REVIEW_PENDING"
+      ],
+      "config_sha256": "4bbc7b65b1543126f038720781ec40ca3bd4e40bc31d3c79577f9e80bdfa3c77"
+    },
+    {
+      "protac": "SJF1521",
+      "run_name": "CAMK2B_Q13554__kinase1_14_272__KLIFS1506",
+      "status": "BLOCKED",
+      "issues": [
+        "BENCHMARK_RELEASE_PENDING",
+        "MODELED_HEAD_REVIEW_PENDING"
+      ],
+      "config_sha256": "4bbc7b65b1543126f038720781ec40ca3bd4e40bc31d3c79577f9e80bdfa3c77"
+    },
+    {
+      "protac": "SJF1521",
+      "run_name": "CASK_O14936__kinase1_12_276__KLIFS16104",
+      "status": "BLOCKED",
+      "issues": [
+        "BENCHMARK_RELEASE_PENDING",
+        "MODELED_HEAD_REVIEW_PENDING"
+      ],
+      "config_sha256": "4bbc7b65b1543126f038720781ec40ca3bd4e40bc31d3c79577f9e80bdfa3c77"
+    },
+    {
+      "protac": "SJF1521",
+      "run_name": "CDK8_P49336__kinase1_21_335__AF2",
+      "status": "BLOCKED",
+      "issues": [
+        "BENCHMARK_RELEASE_PENDING",
+        "MODELED_HEAD_REVIEW_PENDING"
+      ],
+      "config_sha256": "4bbc7b65b1543126f038720781ec40ca3bd4e40bc31d3c79577f9e80bdfa3c77"
+    },
+    {
+      "protac": "SJF1521",
+      "run_name": "CDKL1_Q00532__kinase1_4_287__AF2",
+      "status": "BLOCKED",
+      "issues": [
+        "BENCHMARK_RELEASE_PENDING",
+        "MODELED_HEAD_REVIEW_PENDING"
+      ],
+      "config_sha256": "4bbc7b65b1543126f038720781ec40ca3bd4e40bc31d3c79577f9e80bdfa3c77"
+    },
+    {
+      "protac": "SJF1521",
+      "run_name": "CDKL5_O76039__kinase1_13_297__AF2",
+      "status": "BLOCKED",
+      "issues": [
+        "BENCHMARK_RELEASE_PENDING",
+        "MODELED_HEAD_REVIEW_PENDING"
+      ],
+      "config_sha256": "4bbc7b65b1543126f038720781ec40ca3bd4e40bc31d3c79577f9e80bdfa3c77"
+    },
+    {
+      "protac": "SJF1521",
+      "run_name": "EGFR_P00533__kinase1_712_979__KLIFS14462",
+      "status": "BLOCKED",
+      "issues": [
+        "BENCHMARK_RELEASE_PENDING",
+        "MODELED_HEAD_REVIEW_PENDING"
+      ],
+      "config_sha256": "4bbc7b65b1543126f038720781ec40ca3bd4e40bc31d3c79577f9e80bdfa3c77"
+    },
+    {
+      "protac": "SJF1521",
+      "run_name": "ERBB3_P21860__kinase1_709_966__AF2",
+      "status": "BLOCKED",
+      "issues": [
+        "BENCHMARK_RELEASE_PENDING",
+        "MODELED_HEAD_REVIEW_PENDING"
+      ],
+      "config_sha256": "4bbc7b65b1543126f038720781ec40ca3bd4e40bc31d3c79577f9e80bdfa3c77"
+    },
+    {
+      "protac": "SJF1521",
+      "run_name": "ERBB3_P21860__kinase1_709_966__KLIFS11544",
+      "status": "BLOCKED",
+      "issues": [
+        "BENCHMARK_RELEASE_PENDING",
+        "MODELED_HEAD_REVIEW_PENDING"
+      ],
+      "config_sha256": "4bbc7b65b1543126f038720781ec40ca3bd4e40bc31d3c79577f9e80bdfa3c77"
+    },
+    {
+      "protac": "SJF1521",
+      "run_name": "ERBB4_Q15303__kinase1_718_985__KLIFS2818",
+      "status": "BLOCKED",
+      "issues": [
+        "BENCHMARK_RELEASE_PENDING",
+        "MODELED_HEAD_REVIEW_PENDING"
+      ],
+      "config_sha256": "4bbc7b65b1543126f038720781ec40ca3bd4e40bc31d3c79577f9e80bdfa3c77"
+    },
+    {
+      "protac": "SJF1521",
+      "run_name": "FYN_P06241__kinase1_271_524__AF2",
+      "status": "BLOCKED",
+      "issues": [
+        "BENCHMARK_RELEASE_PENDING",
+        "MODELED_HEAD_REVIEW_PENDING"
+      ],
+      "config_sha256": "4bbc7b65b1543126f038720781ec40ca3bd4e40bc31d3c79577f9e80bdfa3c77"
+    },
+    {
+      "protac": "SJF1521",
+      "run_name": "KSR1_Q8IVT5__kinase1_613_883__KLIFS12855",
+      "status": "BLOCKED",
+      "issues": [
+        "BENCHMARK_RELEASE_PENDING",
+        "MODELED_HEAD_REVIEW_PENDING"
+      ],
+      "config_sha256": "4bbc7b65b1543126f038720781ec40ca3bd4e40bc31d3c79577f9e80bdfa3c77"
+    },
+    {
+      "protac": "SJF1521",
+      "run_name": "KSR2_Q6VAB6__kinase1_666_931__KLIFS12822",
+      "status": "BLOCKED",
+      "issues": [
+        "BENCHMARK_RELEASE_PENDING",
+        "MODELED_HEAD_REVIEW_PENDING"
+      ],
+      "config_sha256": "4bbc7b65b1543126f038720781ec40ca3bd4e40bc31d3c79577f9e80bdfa3c77"
+    },
+    {
+      "protac": "SJF1521",
+      "run_name": "LIMK2_P53671__kinase1_331_608__KLIFS14861",
+      "status": "BLOCKED",
+      "issues": [
+        "BENCHMARK_RELEASE_PENDING",
+        "MODELED_HEAD_REVIEW_PENDING"
+      ],
+      "config_sha256": "4bbc7b65b1543126f038720781ec40ca3bd4e40bc31d3c79577f9e80bdfa3c77"
+    },
+    {
+      "protac": "SJF1521",
+      "run_name": "LYN_P07948__kinase1_247_501__AF2",
+      "status": "BLOCKED",
+      "issues": [
+        "BENCHMARK_RELEASE_PENDING",
+        "MODELED_HEAD_REVIEW_PENDING"
+      ],
+      "config_sha256": "4bbc7b65b1543126f038720781ec40ca3bd4e40bc31d3c79577f9e80bdfa3c77"
+    },
+    {
+      "protac": "SJF1521",
+      "run_name": "MAP4K1_Q92918__kinase1_17_274__AF2",
+      "status": "BLOCKED",
+      "issues": [
+        "BENCHMARK_RELEASE_PENDING",
+        "MODELED_HEAD_REVIEW_PENDING"
+      ],
+      "config_sha256": "4bbc7b65b1543126f038720781ec40ca3bd4e40bc31d3c79577f9e80bdfa3c77"
+    },
+    {
+      "protac": "SJF1521",
+      "run_name": "MAPK6_Q16659__kinase1_20_316__AF2",
+      "status": "BLOCKED",
+      "issues": [
+        "BENCHMARK_RELEASE_PENDING",
+        "MODELED_HEAD_REVIEW_PENDING"
+      ],
+      "config_sha256": "4bbc7b65b1543126f038720781ec40ca3bd4e40bc31d3c79577f9e80bdfa3c77"
+    },
+    {
+      "protac": "SJF1521",
+      "run_name": "MKNK2_Q9HBH9__kinase1_84_388__AF2",
+      "status": "BLOCKED",
+      "issues": [
+        "BENCHMARK_RELEASE_PENDING",
+        "MODELED_HEAD_REVIEW_PENDING"
+      ],
+      "config_sha256": "4bbc7b65b1543126f038720781ec40ca3bd4e40bc31d3c79577f9e80bdfa3c77"
+    },
+    {
+      "protac": "SJF1521",
+      "run_name": "MKNK2_Q9HBH9__kinase1_84_388__KLIFS15550",
+      "status": "BLOCKED",
+      "issues": [
+        "BENCHMARK_RELEASE_PENDING",
+        "MODELED_HEAD_REVIEW_PENDING"
+      ],
+      "config_sha256": "4bbc7b65b1543126f038720781ec40ca3bd4e40bc31d3c79577f9e80bdfa3c77"
+    },
+    {
+      "protac": "SJF1521",
+      "run_name": "NEK1_Q96PY6__kinase1_4_258__AF2",
+      "status": "BLOCKED",
+      "issues": [
+        "BENCHMARK_RELEASE_PENDING",
+        "MODELED_HEAD_REVIEW_PENDING"
+      ],
+      "config_sha256": "4bbc7b65b1543126f038720781ec40ca3bd4e40bc31d3c79577f9e80bdfa3c77"
+    },
+    {
+      "protac": "SJF1521",
+      "run_name": "PIM2_Q9P1W9__kinase1_32_286__AF2",
+      "status": "BLOCKED",
+      "issues": [
+        "BENCHMARK_RELEASE_PENDING",
+        "MODELED_HEAD_REVIEW_PENDING"
+      ],
+      "config_sha256": "4bbc7b65b1543126f038720781ec40ca3bd4e40bc31d3c79577f9e80bdfa3c77"
+    },
+    {
+      "protac": "SJF1521",
+      "run_name": "PRP4K_Q13523__kinase1_687_1006__AF2",
+      "status": "BLOCKED",
+      "issues": [
+        "BENCHMARK_RELEASE_PENDING",
+        "MODELED_HEAD_REVIEW_PENDING"
+      ],
+      "config_sha256": "4bbc7b65b1543126f038720781ec40ca3bd4e40bc31d3c79577f9e80bdfa3c77"
+    },
+    {
+      "protac": "SJF1521",
+      "run_name": "RAF1_P04049__kinase1_349_609__AF2",
+      "status": "BLOCKED",
+      "issues": [
+        "BENCHMARK_RELEASE_PENDING",
+        "MODELED_HEAD_REVIEW_PENDING"
+      ],
+      "config_sha256": "4bbc7b65b1543126f038720781ec40ca3bd4e40bc31d3c79577f9e80bdfa3c77"
+    },
+    {
+      "protac": "SJF1521",
+      "run_name": "RAF1_P04049__kinase1_349_609__KLIFS15542",
+      "status": "BLOCKED",
+      "issues": [
+        "BENCHMARK_RELEASE_PENDING",
+        "MODELED_HEAD_REVIEW_PENDING"
+      ],
+      "config_sha256": "4bbc7b65b1543126f038720781ec40ca3bd4e40bc31d3c79577f9e80bdfa3c77"
+    },
+    {
+      "protac": "SJF1521",
+      "run_name": "RIPK2_O43353__kinase1_18_294__AF2",
+      "status": "BLOCKED",
+      "issues": [
+        "BENCHMARK_RELEASE_PENDING",
+        "MODELED_HEAD_REVIEW_PENDING"
+      ],
+      "config_sha256": "4bbc7b65b1543126f038720781ec40ca3bd4e40bc31d3c79577f9e80bdfa3c77"
+    },
+    {
+      "protac": "SJF1521",
+      "run_name": "RPS6KA6_Q9UK32__kinase1_73_330__AF2",
+      "status": "BLOCKED",
+      "issues": [
+        "BENCHMARK_RELEASE_PENDING",
+        "MODELED_HEAD_REVIEW_PENDING"
+      ],
+      "config_sha256": "4bbc7b65b1543126f038720781ec40ca3bd4e40bc31d3c79577f9e80bdfa3c77"
+    },
+    {
+      "protac": "SJF1521",
+      "run_name": "SLK_Q9H2G2__kinase1_34_292__AF2",
+      "status": "BLOCKED",
+      "issues": [
+        "BENCHMARK_RELEASE_PENDING",
+        "MODELED_HEAD_REVIEW_PENDING"
+      ],
+      "config_sha256": "4bbc7b65b1543126f038720781ec40ca3bd4e40bc31d3c79577f9e80bdfa3c77"
+    },
+    {
+      "protac": "SJF1521",
+      "run_name": "SLK_Q9H2G2__kinase1_34_292__KLIFS10625",
+      "status": "BLOCKED",
+      "issues": [
+        "BENCHMARK_RELEASE_PENDING",
+        "MODELED_HEAD_REVIEW_PENDING"
+      ],
+      "config_sha256": "4bbc7b65b1543126f038720781ec40ca3bd4e40bc31d3c79577f9e80bdfa3c77"
+    },
+    {
+      "protac": "SJF1521",
+      "run_name": "SRC_P12931__kinase1_270_523__AF2",
+      "status": "BLOCKED",
+      "issues": [
+        "BENCHMARK_RELEASE_PENDING",
+        "MODELED_HEAD_REVIEW_PENDING"
+      ],
+      "config_sha256": "4bbc7b65b1543126f038720781ec40ca3bd4e40bc31d3c79577f9e80bdfa3c77"
+    },
+    {
+      "protac": "SJF1521",
+      "run_name": "STK10_O94804__kinase1_36_294__AF2",
+      "status": "BLOCKED",
+      "issues": [
+        "BENCHMARK_RELEASE_PENDING",
+        "MODELED_HEAD_REVIEW_PENDING"
+      ],
+      "config_sha256": "4bbc7b65b1543126f038720781ec40ca3bd4e40bc31d3c79577f9e80bdfa3c77"
+    },
+    {
+      "protac": "SJF1521",
+      "run_name": "TEK_Q02763__kinase1_824_1096__KLIFS5548",
+      "status": "BLOCKED",
+      "issues": [
+        "BENCHMARK_RELEASE_PENDING",
+        "MODELED_HEAD_REVIEW_PENDING"
+      ],
+      "config_sha256": "4bbc7b65b1543126f038720781ec40ca3bd4e40bc31d3c79577f9e80bdfa3c77"
+    },
+    {
+      "protac": "SJF1521",
+      "run_name": "TNK2_Q07912__kinase1_126_385__KLIFS10492",
+      "status": "BLOCKED",
+      "issues": [
+        "BENCHMARK_RELEASE_PENDING",
+        "MODELED_HEAD_REVIEW_PENDING"
+      ],
+      "config_sha256": "4bbc7b65b1543126f038720781ec40ca3bd4e40bc31d3c79577f9e80bdfa3c77"
+    },
+    {
+      "protac": "SJF1521",
+      "run_name": "WNK1_Q9H4A3__kinase1_221_479__AF2",
+      "status": "BLOCKED",
+      "issues": [
+        "BENCHMARK_RELEASE_PENDING",
+        "MODELED_HEAD_REVIEW_PENDING"
+      ],
+      "config_sha256": "4bbc7b65b1543126f038720781ec40ca3bd4e40bc31d3c79577f9e80bdfa3c77"
+    },
+    {
+      "protac": "SJF8240",
+      "run_name": "BRAF_P15056__kinase1_457_717__KLIFS14629",
+      "status": "BLOCKED",
+      "issues": [
+        "BENCHMARK_RELEASE_PENDING"
+      ],
+      "config_sha256": "43f68cd55c3d64abffff72d5966a4a2b3cf400b5d18e3a4f0f998890d44995f1"
+    },
+    {
+      "protac": "SJF8240",
+      "run_name": "CDK2_P24941__kinase1_4_286__KLIFS3901",
+      "status": "BLOCKED",
+      "issues": [
+        "BENCHMARK_RELEASE_PENDING"
+      ],
+      "config_sha256": "43f68cd55c3d64abffff72d5966a4a2b3cf400b5d18e3a4f0f998890d44995f1"
+    },
+    {
+      "protac": "SJF8240",
+      "run_name": "DDR2_Q16832__kinase1_563_849__KLIFS10734",
+      "status": "BLOCKED",
+      "issues": [
+        "BENCHMARK_RELEASE_PENDING"
+      ],
+      "config_sha256": "43f68cd55c3d64abffff72d5966a4a2b3cf400b5d18e3a4f0f998890d44995f1"
+    },
+    {
+      "protac": "SJF8240",
+      "run_name": "EPHB3_P54753__kinase1_633_896__KLIFS6937",
+      "status": "BLOCKED",
+      "issues": [
+        "BENCHMARK_RELEASE_PENDING"
+      ],
+      "config_sha256": "43f68cd55c3d64abffff72d5966a4a2b3cf400b5d18e3a4f0f998890d44995f1"
+    },
+    {
+      "protac": "SJF8240",
+      "run_name": "FGFR4_P22455__kinase1_467_755__KLIFS930",
+      "status": "BLOCKED",
+      "issues": [
+        "BENCHMARK_RELEASE_PENDING"
+      ],
+      "config_sha256": "43f68cd55c3d64abffff72d5966a4a2b3cf400b5d18e3a4f0f998890d44995f1"
+    },
+    {
+      "protac": "SJF8240",
+      "run_name": "MAPK13_O15264__kinase1_25_308__KLIFS2949",
+      "status": "BLOCKED",
+      "issues": [
+        "BENCHMARK_RELEASE_PENDING"
+      ],
+      "config_sha256": "43f68cd55c3d64abffff72d5966a4a2b3cf400b5d18e3a4f0f998890d44995f1"
+    },
+    {
+      "protac": "SJF8240",
+      "run_name": "MET_P08581__kinase1_1078_1345__KLIFS16133",
+      "status": "BLOCKED",
+      "issues": [
+        "BENCHMARK_RELEASE_PENDING"
+      ],
+      "config_sha256": "43f68cd55c3d64abffff72d5966a4a2b3cf400b5d18e3a4f0f998890d44995f1"
+    },
+    {
+      "protac": "SJF8240",
+      "run_name": "MLKL_Q8NB16__kinase1_194_469__KLIFS7270",
+      "status": "BLOCKED",
+      "issues": [
+        "BENCHMARK_RELEASE_PENDING"
+      ],
+      "config_sha256": "43f68cd55c3d64abffff72d5966a4a2b3cf400b5d18e3a4f0f998890d44995f1"
+    },
+    {
+      "protac": "SJF8240",
+      "run_name": "NTRK3_Q16288__kinase1_538_839__KLIFS11697",
+      "status": "BLOCKED",
+      "issues": [
+        "BENCHMARK_RELEASE_PENDING"
+      ],
+      "config_sha256": "43f68cd55c3d64abffff72d5966a4a2b3cf400b5d18e3a4f0f998890d44995f1"
+    },
+    {
+      "protac": "SJF8240",
+      "run_name": "SLK_Q9H2G2__kinase1_34_292__KLIFS14487",
+      "status": "BLOCKED",
+      "issues": [
+        "BENCHMARK_RELEASE_PENDING"
+      ],
+      "config_sha256": "43f68cd55c3d64abffff72d5966a4a2b3cf400b5d18e3a4f0f998890d44995f1"
+    },
+    {
+      "protac": "SJF8240",
+      "run_name": "SRC_P12931__kinase1_270_523__KLIFS14240",
+      "status": "BLOCKED",
+      "issues": [
+        "BENCHMARK_RELEASE_PENDING"
+      ],
+      "config_sha256": "43f68cd55c3d64abffff72d5966a4a2b3cf400b5d18e3a4f0f998890d44995f1"
+    },
+    {
+      "protac": "SJF8240",
+      "run_name": "SYK_P43405__kinase1_371_631__KLIFS1179",
+      "status": "BLOCKED",
+      "issues": [
+        "BENCHMARK_RELEASE_PENDING"
+      ],
+      "config_sha256": "43f68cd55c3d64abffff72d5966a4a2b3cf400b5d18e3a4f0f998890d44995f1"
+    },
+    {
+      "protac": "SJF_delta",
+      "run_name": "BRAF_P15056__kinase1_457_717__KLIFS14629",
+      "status": "BLOCKED",
+      "issues": [
+        "BENCHMARK_RELEASE_PENDING",
+        "MODELED_HEAD_REVIEW_PENDING"
+      ],
+      "config_sha256": "43f68cd55c3d64abffff72d5966a4a2b3cf400b5d18e3a4f0f998890d44995f1"
+    },
+    {
+      "protac": "SJF_delta",
+      "run_name": "CDK2_P24941__kinase1_4_286__KLIFS3901",
+      "status": "BLOCKED",
+      "issues": [
+        "BENCHMARK_RELEASE_PENDING",
+        "MODELED_HEAD_REVIEW_PENDING"
+      ],
+      "config_sha256": "43f68cd55c3d64abffff72d5966a4a2b3cf400b5d18e3a4f0f998890d44995f1"
+    },
+    {
+      "protac": "SJF_delta",
+      "run_name": "CDK8_P49336__kinase1_21_335__KLIFS3845",
+      "status": "BLOCKED",
+      "issues": [
+        "BENCHMARK_RELEASE_PENDING",
+        "MODELED_HEAD_REVIEW_PENDING"
+      ],
+      "config_sha256": "43f68cd55c3d64abffff72d5966a4a2b3cf400b5d18e3a4f0f998890d44995f1"
+    },
+    {
+      "protac": "SJF_delta",
+      "run_name": "EPHB3_P54753__kinase1_633_896__KLIFS6937",
+      "status": "BLOCKED",
+      "issues": [
+        "BENCHMARK_RELEASE_PENDING",
+        "MODELED_HEAD_REVIEW_PENDING"
+      ],
+      "config_sha256": "43f68cd55c3d64abffff72d5966a4a2b3cf400b5d18e3a4f0f998890d44995f1"
+    },
+    {
+      "protac": "SJF_delta",
+      "run_name": "FGFR4_P22455__kinase1_467_755__KLIFS930",
+      "status": "BLOCKED",
+      "issues": [
+        "BENCHMARK_RELEASE_PENDING",
+        "MODELED_HEAD_REVIEW_PENDING"
+      ],
+      "config_sha256": "43f68cd55c3d64abffff72d5966a4a2b3cf400b5d18e3a4f0f998890d44995f1"
+    },
+    {
+      "protac": "SJF_delta",
+      "run_name": "MAPK13_O15264__kinase1_25_308__KLIFS2949",
+      "status": "BLOCKED",
+      "issues": [
+        "BENCHMARK_RELEASE_PENDING",
+        "MODELED_HEAD_REVIEW_PENDING"
+      ],
+      "config_sha256": "43f68cd55c3d64abffff72d5966a4a2b3cf400b5d18e3a4f0f998890d44995f1"
+    },
+    {
+      "protac": "SJF_delta",
+      "run_name": "MAPK9_P45984__kinase1_26_321__KLIFS1235",
+      "status": "BLOCKED",
+      "issues": [
+        "BENCHMARK_RELEASE_PENDING",
+        "MODELED_HEAD_REVIEW_PENDING"
+      ],
+      "config_sha256": "43f68cd55c3d64abffff72d5966a4a2b3cf400b5d18e3a4f0f998890d44995f1"
+    },
+    {
+      "protac": "SJF_delta",
+      "run_name": "MET_P08581__kinase1_1078_1345__KLIFS16133",
+      "status": "BLOCKED",
+      "issues": [
+        "BENCHMARK_RELEASE_PENDING",
+        "MODELED_HEAD_REVIEW_PENDING"
+      ],
+      "config_sha256": "43f68cd55c3d64abffff72d5966a4a2b3cf400b5d18e3a4f0f998890d44995f1"
+    },
+    {
+      "protac": "SJF_delta",
+      "run_name": "NTRK3_Q16288__kinase1_538_839__KLIFS11697",
+      "status": "BLOCKED",
+      "issues": [
+        "BENCHMARK_RELEASE_PENDING",
+        "MODELED_HEAD_REVIEW_PENDING"
+      ],
+      "config_sha256": "43f68cd55c3d64abffff72d5966a4a2b3cf400b5d18e3a4f0f998890d44995f1"
+    },
+    {
+      "protac": "SJF_delta",
+      "run_name": "SYK_P43405__kinase1_371_631__KLIFS1179",
+      "status": "BLOCKED",
+      "issues": [
+        "BENCHMARK_RELEASE_PENDING",
+        "MODELED_HEAD_REVIEW_PENDING"
+      ],
+      "config_sha256": "43f68cd55c3d64abffff72d5966a4a2b3cf400b5d18e3a4f0f998890d44995f1"
+    }
+  ],
+  "ready": 0,
+  "blocked": 161
+}

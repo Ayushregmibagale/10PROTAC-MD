@@ -170,7 +170,7 @@ def build(root,compound,pose,protein,selection,work,gmx_path,seed,production_ns,
         f.write('[ System ]\n')
         for start in range(1,system_count+1,15):
             f.write(' '.join(map(str,range(start,min(start+15,system_count+1))))+'\n')
-    gmx([str(gmx_path),'grompp','-f','mdp/em.mdp','-c','system.gro','-p','topol.top','-n','index.ndx','-o','em.tpr'],work,'grompp_em.log')
+    gmx([str(gmx_path),'grompp','-f','mdp/em.mdp','-c','system.gro','-p','topol.top','-n','index.ndx','-o','preflight_em.tpr'],work,'grompp_em.log')
     result={'status':'TOPOLOGY_PREPARED','compound':compound,'pose_sha256':sha256(pose),'protein_repair':repair,
         'parameter_state':parameter_state,'ligand_microstate':report['microstate'],
         'ligand_formal_charge':report['formal_charge'],

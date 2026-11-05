@@ -13,6 +13,7 @@ audit_baselines/
 benchmarks/
 domain_structures/
 prepared_screen/
+prepared_pocket_screen/
 prepared_screen_sequence_v1/
 prosettac_inputs/
 experiments/

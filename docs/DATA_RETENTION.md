@@ -26,3 +26,8 @@ replacement for full raw retention.
 PyRosetta binaries/databases are never redistributed. Rosetta parameter helper
 source is obtained directly from the official pinned repository; the project
 records its file hashes and does not relicense it as LondonLab MIT code.
+
+The separate 161-candidate pocket comparison would project approximately 10.41 TB
+at those same budgets. It is not an expansion of the accepted 7.24-TB campaign
+scope, and no jobs have been launched from it. Both input versions and exclusions
+are retained for method comparison and cohort review.

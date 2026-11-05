@@ -388,7 +388,7 @@ def global_dock(structs: list[str], anchors: list[int],
         if results % 10 == 0:
             print(f'[global_dock] {results}/{num_results} after {trial+1:,} trials', flush=True)
 
-    print(f'[global_dock] done: {results} poses from {min(trial+1, max_trials):,} trials', flush=True)
+    print(f'[global_dock] done: {results} poses from {trials_attempted:,} trials', flush=True)
     with open("global_sampling.json","w") as ledger: json.dump({"attempted":trials_attempted,"succeeded":results,"rejected":trials_attempted-results,"failed":0},ledger)
     return results if results > 0 else None
 

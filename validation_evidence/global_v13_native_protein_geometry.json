@@ -1,0 +1,493 @@
+{
+  "status": "RAW_LOCAL_PROTEIN_GEOMETRY_ONLY",
+  "full_ligand_QC_accepted": false,
+  "poses": [
+    {
+      "pose": "benchmarks/global_baseline_pilot_v13/attempts/GSK215/PTK2_Q05397/aa2c15a1-208a-487b-9750-8f8cd9a30a73/engine_raw/Patchdock_Results/pd.1_docking_0001.pdb",
+      "status": "GEOMETRY_BENCHMARK_ONLY",
+      "reference_sha256": "b2f8e526142a71c8217f4305e9c84ff4b48e6166391bff56884391b6edd685d7",
+      "pose_sha256": "cf1f27cf81b19b626aae47dda0897b001f544760a870fc16ea3968f264cdbcba",
+      "selection": {
+        "vhl": {
+          "chains": [
+            "A"
+          ],
+          "record": "ATOM"
+        },
+        "poi": {
+          "chains": [
+            "D"
+          ],
+          "record": "ATOM"
+        },
+        "protac": {
+          "chains": [
+            "X"
+          ],
+          "record": "HETATM",
+          "resname": "PTC"
+        }
+      },
+      "alignment": "POI C\u03b1, compatible chain/residue number/insertion/residue name",
+      "coverage": {
+        "poi": {
+          "matched_CA": 264,
+          "reference_CA": 264,
+          "fraction": 1.0
+        },
+        "vhl": {
+          "matched_CA": 155,
+          "reference_CA": 155,
+          "fraction": 1.0
+        }
+      },
+      "poi_aligned_CA_rmsd_A": 0.000683619075369904,
+      "vhl_CA_rmsd_after_POI_fit_A": 55.49901571933641,
+      "contact_cutoff_A": 5.0,
+      "contacts_definition": "Unique heavy-atom protein residue pairs within cutoff",
+      "native_contact_pairs": 16,
+      "model_contact_pairs": 13,
+      "recovered_native_contact_pairs": 2,
+      "fraction_native_contacts": 0.125,
+      "independent_global_recovery_demonstrated": false,
+      "limitations": [
+        "Protein orientation/interface metrics only; ligand geometry and chemistry need separate QC",
+        "A native-frame or input-derived self comparison cannot establish independent predictive recovery",
+        "No DockQ/CAPRI classification, affinity, degradation or thermodynamic probability inferred"
+      ]
+    },
+    {
+      "pose": "benchmarks/global_baseline_pilot_v13/attempts/GSK215/PTK2_Q05397/aa2c15a1-208a-487b-9750-8f8cd9a30a73/engine_raw/Patchdock_Results/pd.1_docking_0002.pdb",
+      "status": "GEOMETRY_BENCHMARK_ONLY",
+      "reference_sha256": "b2f8e526142a71c8217f4305e9c84ff4b48e6166391bff56884391b6edd685d7",
+      "pose_sha256": "715826c6b8e9e890e6003558acb3a627271c1e4f9e4b2ecaa44630ee0cbfd2c2",
+      "selection": {
+        "vhl": {
+          "chains": [
+            "A"
+          ],
+          "record": "ATOM"
+        },
+        "poi": {
+          "chains": [
+            "D"
+          ],
+          "record": "ATOM"
+        },
+        "protac": {
+          "chains": [
+            "X"
+          ],
+          "record": "HETATM",
+          "resname": "PTC"
+        }
+      },
+      "alignment": "POI C\u03b1, compatible chain/residue number/insertion/residue name",
+      "coverage": {
+        "poi": {
+          "matched_CA": 264,
+          "reference_CA": 264,
+          "fraction": 1.0
+        },
+        "vhl": {
+          "matched_CA": 155,
+          "reference_CA": 155,
+          "fraction": 1.0
+        }
+      },
+      "poi_aligned_CA_rmsd_A": 0.0007002707777393538,
+      "vhl_CA_rmsd_after_POI_fit_A": 22.138552688727568,
+      "contact_cutoff_A": 5.0,
+      "contacts_definition": "Unique heavy-atom protein residue pairs within cutoff",
+      "native_contact_pairs": 16,
+      "model_contact_pairs": 8,
+      "recovered_native_contact_pairs": 1,
+      "fraction_native_contacts": 0.0625,
+      "independent_global_recovery_demonstrated": false,
+      "limitations": [
+        "Protein orientation/interface metrics only; ligand geometry and chemistry need separate QC",
+        "A native-frame or input-derived self comparison cannot establish independent predictive recovery",
+        "No DockQ/CAPRI classification, affinity, degradation or thermodynamic probability inferred"
+      ]
+    },
+    {
+      "pose": "benchmarks/global_baseline_pilot_v13/attempts/GSK215/PTK2_Q05397/aa2c15a1-208a-487b-9750-8f8cd9a30a73/engine_raw/Patchdock_Results/pd.1_docking_0003.pdb",
+      "status": "GEOMETRY_BENCHMARK_ONLY",
+      "reference_sha256": "b2f8e526142a71c8217f4305e9c84ff4b48e6166391bff56884391b6edd685d7",
+      "pose_sha256": "a09e0ebe611955ed752c7025ec14a770e7c1b3df9d67e9e6ab5c26d1a65f308b",
+      "selection": {
+        "vhl": {
+          "chains": [
+            "A"
+          ],
+          "record": "ATOM"
+        },
+        "poi": {
+          "chains": [
+            "D"
+          ],
+          "record": "ATOM"
+        },
+        "protac": {
+          "chains": [
+            "X"
+          ],
+          "record": "HETATM",
+          "resname": "PTC"
+        }
+      },
+      "alignment": "POI C\u03b1, compatible chain/residue number/insertion/residue name",
+      "coverage": {
+        "poi": {
+          "matched_CA": 264,
+          "reference_CA": 264,
+          "fraction": 1.0
+        },
+        "vhl": {
+          "matched_CA": 155,
+          "reference_CA": 155,
+          "fraction": 1.0
+        }
+      },
+      "poi_aligned_CA_rmsd_A": 0.0006978311202417385,
+      "vhl_CA_rmsd_after_POI_fit_A": 34.45507259326325,
+      "contact_cutoff_A": 5.0,
+      "contacts_definition": "Unique heavy-atom protein residue pairs within cutoff",
+      "native_contact_pairs": 16,
+      "model_contact_pairs": 22,
+      "recovered_native_contact_pairs": 2,
+      "fraction_native_contacts": 0.125,
+      "independent_global_recovery_demonstrated": false,
+      "limitations": [
+        "Protein orientation/interface metrics only; ligand geometry and chemistry need separate QC",
+        "A native-frame or input-derived self comparison cannot establish independent predictive recovery",
+        "No DockQ/CAPRI classification, affinity, degradation or thermodynamic probability inferred"
+      ]
+    },
+    {
+      "pose": "benchmarks/global_baseline_pilot_v13/attempts/GSK215/PTK2_Q05397/aa2c15a1-208a-487b-9750-8f8cd9a30a73/engine_raw/Patchdock_Results/pd.2_docking_0001.pdb",
+      "status": "GEOMETRY_BENCHMARK_ONLY",
+      "reference_sha256": "b2f8e526142a71c8217f4305e9c84ff4b48e6166391bff56884391b6edd685d7",
+      "pose_sha256": "ca0f2be3355f300b0b651f931c2cb04418e2019ef705525f6559151d4245d700",
+      "selection": {
+        "vhl": {
+          "chains": [
+            "A"
+          ],
+          "record": "ATOM"
+        },
+        "poi": {
+          "chains": [
+            "D"
+          ],
+          "record": "ATOM"
+        },
+        "protac": {
+          "chains": [
+            "X"
+          ],
+          "record": "HETATM",
+          "resname": "PTC"
+        }
+      },
+      "alignment": "POI C\u03b1, compatible chain/residue number/insertion/residue name",
+      "coverage": {
+        "poi": {
+          "matched_CA": 264,
+          "reference_CA": 264,
+          "fraction": 1.0
+        },
+        "vhl": {
+          "matched_CA": 155,
+          "reference_CA": 155,
+          "fraction": 1.0
+        }
+      },
+      "poi_aligned_CA_rmsd_A": 0.0007089287460800395,
+      "vhl_CA_rmsd_after_POI_fit_A": 41.38305146868384,
+      "contact_cutoff_A": 5.0,
+      "contacts_definition": "Unique heavy-atom protein residue pairs within cutoff",
+      "native_contact_pairs": 16,
+      "model_contact_pairs": 11,
+      "recovered_native_contact_pairs": 0,
+      "fraction_native_contacts": 0.0,
+      "independent_global_recovery_demonstrated": false,
+      "limitations": [
+        "Protein orientation/interface metrics only; ligand geometry and chemistry need separate QC",
+        "A native-frame or input-derived self comparison cannot establish independent predictive recovery",
+        "No DockQ/CAPRI classification, affinity, degradation or thermodynamic probability inferred"
+      ]
+    },
+    {
+      "pose": "benchmarks/global_baseline_pilot_v13/attempts/GSK215/PTK2_Q05397/aa2c15a1-208a-487b-9750-8f8cd9a30a73/engine_raw/Patchdock_Results/pd.2_docking_0002.pdb",
+      "status": "GEOMETRY_BENCHMARK_ONLY",
+      "reference_sha256": "b2f8e526142a71c8217f4305e9c84ff4b48e6166391bff56884391b6edd685d7",
+      "pose_sha256": "26a1c67ebf8381e7a26141682468edac2f573fc9610ffc0443c867d48009a3d9",
+      "selection": {
+        "vhl": {
+          "chains": [
+            "A"
+          ],
+          "record": "ATOM"
+        },
+        "poi": {
+          "chains": [
+            "D"
+          ],
+          "record": "ATOM"
+        },
+        "protac": {
+          "chains": [
+            "X"
+          ],
+          "record": "HETATM",
+          "resname": "PTC"
+        }
+      },
+      "alignment": "POI C\u03b1, compatible chain/residue number/insertion/residue name",
+      "coverage": {
+        "poi": {
+          "matched_CA": 264,
+          "reference_CA": 264,
+          "fraction": 1.0
+        },
+        "vhl": {
+          "matched_CA": 155,
+          "reference_CA": 155,
+          "fraction": 1.0
+        }
+      },
+      "poi_aligned_CA_rmsd_A": 0.0007097115874467514,
+      "vhl_CA_rmsd_after_POI_fit_A": 42.16461391440062,
+      "contact_cutoff_A": 5.0,
+      "contacts_definition": "Unique heavy-atom protein residue pairs within cutoff",
+      "native_contact_pairs": 16,
+      "model_contact_pairs": 25,
+      "recovered_native_contact_pairs": 0,
+      "fraction_native_contacts": 0.0,
+      "independent_global_recovery_demonstrated": false,
+      "limitations": [
+        "Protein orientation/interface metrics only; ligand geometry and chemistry need separate QC",
+        "A native-frame or input-derived self comparison cannot establish independent predictive recovery",
+        "No DockQ/CAPRI classification, affinity, degradation or thermodynamic probability inferred"
+      ]
+    },
+    {
+      "pose": "benchmarks/global_baseline_pilot_v13/attempts/GSK215/PTK2_Q05397/aa2c15a1-208a-487b-9750-8f8cd9a30a73/engine_raw/Patchdock_Results/pd.2_docking_0003.pdb",
+      "status": "GEOMETRY_BENCHMARK_ONLY",
+      "reference_sha256": "b2f8e526142a71c8217f4305e9c84ff4b48e6166391bff56884391b6edd685d7",
+      "pose_sha256": "e777d9c0f000a6633ec6ce6db159d8fd18bf95a75cd2f7918a93661ab48ecb8b",
+      "selection": {
+        "vhl": {
+          "chains": [
+            "A"
+          ],
+          "record": "ATOM"
+        },
+        "poi": {
+          "chains": [
+            "D"
+          ],
+          "record": "ATOM"
+        },
+        "protac": {
+          "chains": [
+            "X"
+          ],
+          "record": "HETATM",
+          "resname": "PTC"
+        }
+      },
+      "alignment": "POI C\u03b1, compatible chain/residue number/insertion/residue name",
+      "coverage": {
+        "poi": {
+          "matched_CA": 264,
+          "reference_CA": 264,
+          "fraction": 1.0
+        },
+        "vhl": {
+          "matched_CA": 155,
+          "reference_CA": 155,
+          "fraction": 1.0
+        }
+      },
+      "poi_aligned_CA_rmsd_A": 0.0007284668051544655,
+      "vhl_CA_rmsd_after_POI_fit_A": 45.0507619745647,
+      "contact_cutoff_A": 5.0,
+      "contacts_definition": "Unique heavy-atom protein residue pairs within cutoff",
+      "native_contact_pairs": 16,
+      "model_contact_pairs": 15,
+      "recovered_native_contact_pairs": 0,
+      "fraction_native_contacts": 0.0,
+      "independent_global_recovery_demonstrated": false,
+      "limitations": [
+        "Protein orientation/interface metrics only; ligand geometry and chemistry need separate QC",
+        "A native-frame or input-derived self comparison cannot establish independent predictive recovery",
+        "No DockQ/CAPRI classification, affinity, degradation or thermodynamic probability inferred"
+      ]
+    },
+    {
+      "pose": "benchmarks/global_baseline_pilot_v13/attempts/GSK215/PTK2_Q05397/aa2c15a1-208a-487b-9750-8f8cd9a30a73/engine_raw/Patchdock_Results/pd.3_docking_0001.pdb",
+      "status": "GEOMETRY_BENCHMARK_ONLY",
+      "reference_sha256": "b2f8e526142a71c8217f4305e9c84ff4b48e6166391bff56884391b6edd685d7",
+      "pose_sha256": "e3838ce990d052af4b50a4a05b5745ab6a28745d4e0cab46ebd548983d6d7b5e",
+      "selection": {
+        "vhl": {
+          "chains": [
+            "A"
+          ],
+          "record": "ATOM"
+        },
+        "poi": {
+          "chains": [
+            "D"
+          ],
+          "record": "ATOM"
+        },
+        "protac": {
+          "chains": [
+            "X"
+          ],
+          "record": "HETATM",
+          "resname": "PTC"
+        }
+      },
+      "alignment": "POI C\u03b1, compatible chain/residue number/insertion/residue name",
+      "coverage": {
+        "poi": {
+          "matched_CA": 264,
+          "reference_CA": 264,
+          "fraction": 1.0
+        },
+        "vhl": {
+          "matched_CA": 155,
+          "reference_CA": 155,
+          "fraction": 1.0
+        }
+      },
+      "poi_aligned_CA_rmsd_A": 0.0007082018782227474,
+      "vhl_CA_rmsd_after_POI_fit_A": 24.8740880169315,
+      "contact_cutoff_A": 5.0,
+      "contacts_definition": "Unique heavy-atom protein residue pairs within cutoff",
+      "native_contact_pairs": 16,
+      "model_contact_pairs": 11,
+      "recovered_native_contact_pairs": 0,
+      "fraction_native_contacts": 0.0,
+      "independent_global_recovery_demonstrated": false,
+      "limitations": [
+        "Protein orientation/interface metrics only; ligand geometry and chemistry need separate QC",
+        "A native-frame or input-derived self comparison cannot establish independent predictive recovery",
+        "No DockQ/CAPRI classification, affinity, degradation or thermodynamic probability inferred"
+      ]
+    },
+    {
+      "pose": "benchmarks/global_baseline_pilot_v13/attempts/GSK215/PTK2_Q05397/aa2c15a1-208a-487b-9750-8f8cd9a30a73/engine_raw/Patchdock_Results/pd.3_docking_0002.pdb",
+      "status": "GEOMETRY_BENCHMARK_ONLY",
+      "reference_sha256": "b2f8e526142a71c8217f4305e9c84ff4b48e6166391bff56884391b6edd685d7",
+      "pose_sha256": "bdbad3c883828b5e946df4ec0c9fb2dbf69c0384f769f371bdd7587806e724d3",
+      "selection": {
+        "vhl": {
+          "chains": [
+            "A"
+          ],
+          "record": "ATOM"
+        },
+        "poi": {
+          "chains": [
+            "D"
+          ],
+          "record": "ATOM"
+        },
+        "protac": {
+          "chains": [
+            "X"
+          ],
+          "record": "HETATM",
+          "resname": "PTC"
+        }
+      },
+      "alignment": "POI C\u03b1, compatible chain/residue number/insertion/residue name",
+      "coverage": {
+        "poi": {
+          "matched_CA": 264,
+          "reference_CA": 264,
+          "fraction": 1.0
+        },
+        "vhl": {
+          "matched_CA": 155,
+          "reference_CA": 155,
+          "fraction": 1.0
+        }
+      },
+      "poi_aligned_CA_rmsd_A": 0.0007113715574187332,
+      "vhl_CA_rmsd_after_POI_fit_A": 40.286898291551545,
+      "contact_cutoff_A": 5.0,
+      "contacts_definition": "Unique heavy-atom protein residue pairs within cutoff",
+      "native_contact_pairs": 16,
+      "model_contact_pairs": 17,
+      "recovered_native_contact_pairs": 1,
+      "fraction_native_contacts": 0.0625,
+      "independent_global_recovery_demonstrated": false,
+      "limitations": [
+        "Protein orientation/interface metrics only; ligand geometry and chemistry need separate QC",
+        "A native-frame or input-derived self comparison cannot establish independent predictive recovery",
+        "No DockQ/CAPRI classification, affinity, degradation or thermodynamic probability inferred"
+      ]
+    },
+    {
+      "pose": "benchmarks/global_baseline_pilot_v13/attempts/GSK215/PTK2_Q05397/aa2c15a1-208a-487b-9750-8f8cd9a30a73/engine_raw/Patchdock_Results/pd.3_docking_0003.pdb",
+      "status": "GEOMETRY_BENCHMARK_ONLY",
+      "reference_sha256": "b2f8e526142a71c8217f4305e9c84ff4b48e6166391bff56884391b6edd685d7",
+      "pose_sha256": "a97e638d22bbce9aea178666d118a386bf0c6d5095e563956c8bdfe6590fc020",
+      "selection": {
+        "vhl": {
+          "chains": [
+            "A"
+          ],
+          "record": "ATOM"
+        },
+        "poi": {
+          "chains": [
+            "D"
+          ],
+          "record": "ATOM"
+        },
+        "protac": {
+          "chains": [
+            "X"
+          ],
+          "record": "HETATM",
+          "resname": "PTC"
+        }
+      },
+      "alignment": "POI C\u03b1, compatible chain/residue number/insertion/residue name",
+      "coverage": {
+        "poi": {
+          "matched_CA": 264,
+          "reference_CA": 264,
+          "fraction": 1.0
+        },
+        "vhl": {
+          "matched_CA": 155,
+          "reference_CA": 155,
+          "fraction": 1.0
+        }
+      },
+      "poi_aligned_CA_rmsd_A": 0.0007112629918440261,
+      "vhl_CA_rmsd_after_POI_fit_A": 10.83901904852565,
+      "contact_cutoff_A": 5.0,
+      "contacts_definition": "Unique heavy-atom protein residue pairs within cutoff",
+      "native_contact_pairs": 16,
+      "model_contact_pairs": 8,
+      "recovered_native_contact_pairs": 1,
+      "fraction_native_contacts": 0.0625,
+      "independent_global_recovery_demonstrated": false,
+      "limitations": [
+        "Protein orientation/interface metrics only; ligand geometry and chemistry need separate QC",
+        "A native-frame or input-derived self comparison cannot establish independent predictive recovery",
+        "No DockQ/CAPRI classification, affinity, degradation or thermodynamic probability inferred"
+      ]
+    }
+  ],
+  "count": 9
+}

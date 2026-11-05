@@ -41,3 +41,12 @@ original-template evidence is retained in the preparation receipt; identity
 self-placement RMSD is not substituted for the cross-template modeling error.
 The original 112-candidate CE screen remains unchanged, so its limited coverage
 must be reported and addressed before broad kinome claims.
+
+A separate explicit-KLIFS-pocket comparison uses 346 cached official maps.
+Observed positions are mapped to canonical UniProt residues using verified source
+coordinates; AF2 inherits maps only from consistent evidence for the exact same
+domain. 556 domains have such maps; 214 remain explicitly unavailable. Bijective
+pocket fitting retains the numerical core, coverage, RMSD and clash limits above.
+It produces 161 candidates, including all five known-target controls. Forty-one
+overlap the prior 112 CE candidates. This comparison is not silently adopted,
+pooled with the old screen or interpreted as validation of biological binding.

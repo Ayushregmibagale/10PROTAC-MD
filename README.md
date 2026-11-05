@@ -70,3 +70,9 @@ The pinned Rosetta helpers can be obtained with baseline_engine/fetch_rosetta_he
 The current checks and open scientific requirements are recorded in
 docs/REMEDIATION_STATUS.md; complete changes and failed attempts are recorded in
 docs/REMEDIATION_LOG.md.
+
+The separate explicit-pocket comparison (`01d_compare_pocket_screen.py`) records
+161 candidates and all five known-target controls. Its source correspondences
+are built by `00k_cache_klifs_pockets.py` and `00l_build_pocket_correspondence.py`.
+It remains comparison-only; the controller does not silently replace the original
+112-pair cohort. See docs/NATURE_READINESS.md for the requested publication standard.

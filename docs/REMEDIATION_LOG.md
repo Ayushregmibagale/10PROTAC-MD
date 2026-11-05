@@ -967,3 +967,106 @@ separately licensed helper source. PyRosetta binaries/databases are excluded.
 Git exclusions do not delete scientific data. The user-approved full raw retention
 preference remains in effect. Software checks pass 68 regression tests after the
 MAPK13 control correction; installed validation is recorded separately by timestamp.
+
+## 33. Explicit pocket-correspondence comparison
+
+346 official KLIFS 85-position maps were retrieved with four bounded workers,
+validated and cached with URL/time/SHA256 receipts. Experimental residue numbers
+were mapped through the verified source/UniProt sequence correspondence into the
+explicit domains. AF2 domains inherit positions only from consistent experimental
+maps of the same UniProt domain; conflicting maps are rejected rather than voted
+on. 556/770 domains have explicit evidence; 214 remain unavailable. The latter
+are data-coverage limitations, not negative binding labels.
+
+The independent comparison uses explicit pocket least-squares alignment plus an
+independent domain-core check. It retains >=100 core residues, >=60% core,
+<=2.5 Å core RMSD, >=80% head-neighborhood coverage, <=2 Å pocket RMSD and the
+1.5–4.5 Å minimum head-contact interval. Both the complete mapped pocket and the
+head neighborhood must pass the RMSD threshold; correspondence must be bijective.
+The earlier 112 CE candidates and all their rejections remain unchanged.
+
+The comparison prepares 161 candidates: GSK215 34, SJF8240 12, SJF1521 42,
+JNJ1013 63 and SJFδ 10. It records 2,619 geometry rejections and 1,070 unavailable
+compound/domain correspondences. All five known-target controls are represented,
+including MAPK13/SJFδ. Only 41 candidates overlap the earlier screen, so the two
+methods are not interchangeable and are not silently pooled into a larger study.
+All 161 pass mechanical preflight; the remaining blocks are scientific release
+and, for 115, modeled-head review. The alternate screen is comparison-only and
+has not changed the production controller default or the user's 112-pair budget.
+
+## 34. Global baseline pilot and accurate sampling counters
+
+A bounded GSK215 global pilot (three requested global poses, three local poses
+each, two conformers, at most 20,000 global trials, explicit seed and 600-second
+limit) completed. The authoritative ledger records 89 random trials, three global
+poses and nine successful local dockings. None of the nine local geometries
+passed fixed-head linker generation, so no fabricated scores or poses were
+created. Terminal status is COMPLETE_NO_VALID_POSES. This small sample cannot
+establish inactivity, global recovery accuracy or production feasibility.
+
+The older human-readable sampler line reported 90 trials because it counted an
+extra loop entry that immediately broke. The ledger already counted the actual
+89 samples. The runtime builder now makes the printed count use that same actual
+counter; the historical pilot log and receipt are unchanged and preserved.
+
+## 35. MD early-stop, TPR and preparation binding
+
+A completion-marker-only check could accept a graceful Gromacs early stop. The
+runner now verifies the final logged step against finite nsteps/init-step, and
+requires a positive force-convergence statement plus finite Fmax below emtol for
+scientific EM. Smoke runs remain explicitly diagnostic. TPR reuse now requires a
+hash-bound generation receipt for the exact inputs/protocol; missing, modified or
+unbound TPRs fail. Parent-stage logs, output hashes and smoke-EM dependencies are
+validated before progression. Topology, local force-field files, index, initial
+system and stage MDP are verified against the preparation receipt.
+
+The topology builder's validation TPR is named preflight_em.tpr, leaving stage
+TPRs to the stage runner and their own generation receipts. A diagnostic cloning
+attempt found that the older neutral system used Gromacs' external force-field
+lookup and had no local force-field directory. That attempt's 20-step output is
+preserved as a historical mechanical test, not promoted as complete force-field
+provenance. The current runner refuses such older systems. A fresh neutral system
+was built using the current portable force-field preparation for the new checks.
+An initial diagnostic command named a nonexistent pose; it failed before writing
+system files and was corrected to the actual combined_0_0_0001.pdb path.
+
+## 36. Requested Nature standard
+
+The user explicitly requested Nature publication quality. NATURE_READINESS.md
+links current Nature reporting/code/data guidance and the Communications Biology
+MD reliability perspective, separates policy from project-specific scientific
+choices, and maps actual evidence to outstanding requirements. Software tests and
+native-frame integration are not represented as independent biological validation
+or a guarantee of journal acceptance. Relevant experiments, sampling/convergence
+and defensible claim scope remain substantive requirements.
+
+The new portable v4 system passed actual 1,000-step EM and 20-step NVT mechanical
+diagnostics with TPR generation, prepared force-field and actual final-step checks.
+The diagnostic EM has not met emtol and is labeled SMOKE_COMPLETE only. A full
+50,000-step-bounded EM with the actual Fmax<500 requirement is running separately;
+a five-compound bounded global pilot also remains in progress. Active raw
+benchmarks are deferred from this installation batch to avoid copying changing
+files. Static smoke receipts and the comparison evidence are included now.
+
+The MD runner also takes a nonblocking lock across the entire system directory,
+preventing concurrent stages from overwriting shared outputs. Independent replicas
+use separate systems. Regression coverage exercises lock contention. The new
+software suite contains 76 tests. The already-running full EM diagnostic predates
+this lock addition; no competing stage is started in its directory.
+
+## 37. Quantitative native-interface recovery analysis
+
+04_native_recovery.py aligns the POI Cα coordinates and measures mobile VHL Cα
+RMSD and native protein residue-contact recovery at an explicit heavy-atom cutoff.
+Compatible chain/residue/insertion/name coverage is required and duplicate Cα
+identities are rejected. These are project metrics, not DockQ/CAPRI classes or
+binding energies. A translated whole complex gives the same metrics; a VHL-only
+30 Å decoy is rejected by the geometric comparison in regression coverage.
+
+The accepted v10 native-frame/local-docking control has POI Cα RMSD 0.000508 Å,
+VHL Cα RMSD 2.209 Å after POI fit, and recovers 12/16 native contact pairs (0.75)
+at 5 Å. All reference Cα residues are mapped. This quantifies local native-frame
+consistency, not independent global recovery. Raw v13 local protein geometries
+are also measured separately; they are not full-ligand QC-accepted poses. The
+software suite now contains 77 tests. No acceptance threshold or global accuracy
+claim was invented after observing these values.
