@@ -1,0 +1,58 @@
+{
+  "status": "GEOMETRY_BENCHMARK_ONLY",
+  "reference_sha256": "b2f8e526142a71c8217f4305e9c84ff4b48e6166391bff56884391b6edd685d7",
+  "pose_sha256": "f3452b1927de47cb82b4bb74eff3bd188da6a1f1a844be1f4362c9754a40d4bf",
+  "selection": {
+    "vhl": {
+      "chains": [
+        "A"
+      ],
+      "record": "ATOM"
+    },
+    "poi": {
+      "chains": [
+        "D"
+      ],
+      "record": "ATOM"
+    },
+    "protac": {
+      "chains": [
+        "X"
+      ],
+      "record": "HETATM",
+      "resname": "PTC"
+    },
+    "qc": {
+      "min_nonbonded_heavy_distance_A": 1.5,
+      "units": "Angstrom",
+      "basis": "Same minimum contact distance as bound-head preparation; gross-overlap exclusion only"
+    }
+  },
+  "alignment": "POI C\u03b1, compatible chain/residue number/insertion/residue name",
+  "coverage": {
+    "poi": {
+      "matched_CA": 264,
+      "reference_CA": 264,
+      "fraction": 1.0
+    },
+    "vhl": {
+      "matched_CA": 155,
+      "reference_CA": 155,
+      "fraction": 1.0
+    }
+  },
+  "poi_aligned_CA_rmsd_A": 0.0005080636319132922,
+  "vhl_CA_rmsd_after_POI_fit_A": 2.209166225720736,
+  "contact_cutoff_A": 5.0,
+  "contacts_definition": "Unique heavy-atom protein residue pairs within cutoff",
+  "native_contact_pairs": 16,
+  "model_contact_pairs": 16,
+  "recovered_native_contact_pairs": 12,
+  "fraction_native_contacts": 0.75,
+  "independent_global_recovery_demonstrated": false,
+  "limitations": [
+    "Protein orientation/interface metrics only; ligand geometry and chemistry need separate QC",
+    "A native-frame or input-derived self comparison cannot establish independent predictive recovery",
+    "No DockQ/CAPRI classification, affinity, degradation or thermodynamic probability inferred"
+  ]
+}

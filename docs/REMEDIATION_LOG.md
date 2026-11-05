@@ -1267,3 +1267,14 @@ not an asserted degradation-positive target. The MAPK13 published-template model
 is the separate known-target preparation. No completed input/receipt was rewritten
 to change its historical control role. Remaining compound count, allocated storage,
 independent recovery and scientific-validation decisions are not silently resolved.
+
+
+## 48. Installed and Git-only checkpoint validation
+
+**What:** Installed the completed repair set and stopped benchmark artifacts with the active global-recovery benchmark explicitly excluded. Published checkpoint `0eae588` to GitHub master.
+
+**How:** The installer checked source and destination hashes, backed up overwritten files under `audit_baselines/before_publication_repairs_20261105T182837Z`, atomically installed 3,810 changed/new files, and verified installed hashes. The installed regression suite passed all 91 tests. A fresh Git-index export in `/tmp/10protac_git_checkpoint_v3` also passed all 91 tests, and all 150 packaged evidence checksums matched. No original protac-md files or Ernie simulation outputs were changed.
+
+**Why:** Tests in a staging tree alone can conceal untracked dependencies or missing public assets. A clean Git-only export checks that the published checkpoint includes the files needed by the regression suite. Licensed external docking tools remain separately required and explicitly documented.
+
+The final frozen native-frame diagnostic v25 completed with one chemically/QC-valid pose. Receptor-aligned VHL Cα RMSD was 2.209166 Å and 12/16 native residue contact pairs were recovered (0.75 at 5 Å), with full compatible Cα coverage. This initializes from the experimental protein arrangement and is not independent global recovery. The separate v26 global-search diagnostic is still active; it has not been assigned a successful or failed recovery outcome.
