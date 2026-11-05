@@ -1,0 +1,19 @@
+; SJF8240_GMX_OPLS.top created by acpype (v: 2023.10.27) on Wed Nov  4 14:55:56 2026
+
+; Include forcefield parameters
+#include "ffoplsaa.itp"
+
+; Include SJF8240_GMX.itp topology
+#include "SJF8240_GMX.itp"
+
+; Ligand position restraints
+#ifdef POSRES_LIG
+#include "posre_SJF8240.itp"
+#endif
+
+[ system ]
+ SJF8240
+
+[ molecules ]
+; Compound        nmols
+ SJF8240          1     

@@ -1,0 +1,26 @@
+{
+  "scope": "Read-only ligand parameter source molecules; actual per-system topology inclusion and downstream GNN lineage remain to verify",
+  "molecules": [
+    {
+      "path": "/home/ayushregmibagale/protac-md/ligand_params/SJF8240_3d.acpype/SJF8240_3d.mol2",
+      "sha256": "4d9ceb1754042a711dbe29bb1fdfe4abf8a9c7aa331d417075b85dd75780a539",
+      "parsed": true,
+      "inchikey": "MCJFROJTDORRBB-ZWUDBOSPSA-N",
+      "formula": "C58H65F2N7O11S",
+      "heavy_atoms": 79
+    },
+    {
+      "path": "/home/ayushregmibagale/protac-md/ligand_params/SJF8240_3d.acpype/SJF8240_3d_bcc_gaff2.mol2",
+      "sha256": "0fcf2e6da975a5c642b6cfa945b33fca76d074f1099113a25906f8d1de4c5d73",
+      "parsed": false
+    },
+    {
+      "path": "/home/ayushregmibagale/protac-md/ligand_params/SJF8240_3d.mol2",
+      "sha256": "4d9ceb1754042a711dbe29bb1fdfe4abf8a9c7aa331d417075b85dd75780a539",
+      "parsed": true,
+      "inchikey": "MCJFROJTDORRBB-ZWUDBOSPSA-N",
+      "formula": "C58H65F2N7O11S",
+      "heavy_atoms": 79
+    }
+  ]
+}

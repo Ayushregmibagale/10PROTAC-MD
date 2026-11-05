@@ -1,0 +1,18 @@
+INFO: PRosettaC run has started
+INFO: Processing inputs
+INFO: Using these params:
+INFO:   Structures: /home/s1638308/protac/data/structures/VHL/4W9H_VBC_clean.pdb /home/s1638308/protac/data/structures/POI/low_affinity_no_degradation/CDK2/CDK2_protein_clean.pdb
+INFO:   Chains: ABC D
+INFO:   Heads: /home/s1638308/protac/data/structures/VHL/SJF8240_vhll_placed.sdf /home/s1638308/protac/data/structures/POI/low_affinity_no_degradation/CDK2/CDK2_warhead_placed.sdf
+INFO:   Anchor atoms: 6 1
+INFO:   Protac: /home/s1638308/protac/data/structures/PROTAC/SJF8240/SJF8240.smi
+INFO:   Full: True
+INFO:   ClusterName: LOCAL
+INFO:   RosettaDockMemory: 8000
+INFO:   ProtacModelMemory: 4000
+INFO: Cleaning structures, adding hydrogens to binders and running relax
+INFO: Sampling the distance between the two anchor points
+INFO: Running PatchDock with the constrains
+INFO: Run Rosetta local docking on the top 1000 PatchDock results
+INFO: Local docking jobs: ['local_done']
+INFO: Generating up to 100 constrained conformations for each local docking results

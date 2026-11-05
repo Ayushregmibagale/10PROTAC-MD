@@ -1,0 +1,50 @@
+{
+  "status": "ALL_FIVE_CHEMISTRY_COMPONENTS_PASSED",
+  "rows": [
+    {
+      "compound": "GSK215",
+      "status": "OFFICIAL_PARAMETERS_AND_PYROSETTA_LOAD_VERIFIED",
+      "scope": "Chemical parameter/load component, not a binding-pose benchmark",
+      "atoms": 129,
+      "input_sha256": "e2d37618b42eb551b1a862952924bdf79662c0d66f22b8515d05111830efa0b4",
+      "params_sha256": "9bacf2558f0b773be36257b94c71aa72921395620e8594f78588b5cdd3d92c58",
+      "loaded_pdb_sha256": "f1e8e1f0184d680d13306d448646ebde4022bcf42cbe4ab4f677dce5b957d7cc"
+    },
+    {
+      "compound": "SJF8240",
+      "status": "OFFICIAL_PARAMETERS_AND_PYROSETTA_LOAD_VERIFIED",
+      "scope": "Chemical parameter/load component, not a binding-pose benchmark",
+      "atoms": 144,
+      "input_sha256": "dd17ccb1e4f2a5b853f6302f7910ac821b465946cd04f8f4fb5c7b7c72d97544",
+      "params_sha256": "06c39e42fc0bbbd9526153d2ceb2cc450c18c2aa3bba0ceb3b96a68622ffcb05",
+      "loaded_pdb_sha256": "c10e0c6b510be35219ac4549b09265937a335ea37ebc46ff270ab32425e4ee53"
+    },
+    {
+      "compound": "SJF1521",
+      "status": "OFFICIAL_PARAMETERS_AND_PYROSETTA_LOAD_VERIFIED",
+      "scope": "Chemical parameter/load component, not a binding-pose benchmark",
+      "atoms": 137,
+      "input_sha256": "1d422f41ca0f598ccd2acf42f8d071c8679e9f65d81170ca5226805d53a53da8",
+      "params_sha256": "66fb75e255c2f131a2b52472d43d9c95e68f20a0255a8de033bd99200abf3400",
+      "loaded_pdb_sha256": "9641a3fc53240c3959089c5169483e8edc11f2206279e98d850bb7cdeb1c5e0f"
+    },
+    {
+      "compound": "JNJ1013",
+      "status": "OFFICIAL_PARAMETERS_AND_PYROSETTA_LOAD_VERIFIED",
+      "scope": "Chemical parameter/load component, not a binding-pose benchmark",
+      "atoms": 118,
+      "input_sha256": "6f64dd8c6375bc71559cf830053517ddcc79ccb91e268bda40b8720a6c7d547a",
+      "params_sha256": "fb1792e02fc3185662e7c6f11eb10ef924b84f0550f77ff2a7f83d2351edd1c6",
+      "loaded_pdb_sha256": "f2f8a526c3b307d9de41df8a59f738515fc74e82974f34cc3739f140c0025661"
+    },
+    {
+      "compound": "SJF_delta",
+      "status": "OFFICIAL_PARAMETERS_AND_PYROSETTA_LOAD_VERIFIED",
+      "scope": "Chemical parameter/load component, not a binding-pose benchmark",
+      "atoms": 147,
+      "input_sha256": "618055349e7ecc2ce0afd9988c93b5a5f8d26ed3c3ddcd0ec426e91a49a77b27",
+      "params_sha256": "cfac531ef2e6fc2b6bc28ecf6fee78edda0ab3f3bfea54fd3ce0f0aa8f082cc4",
+      "loaded_pdb_sha256": "088c3d531516af188a39f042d804be1dd55583a0ae88b06f07c1e74a0281be94"
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+[
+  {
+    "file": "7PI4.cif",
+    "sha256": "d164c769b54d1eeff38edc71b185b4a42b24984b2552a82925a941cc6b2f2c95",
+    "source": "https://files.rcsb.org/download/7PI4.cif",
+    "retrieved": "2026-11-04"
+  },
+  {
+    "file": "7QB.cif",
+    "sha256": "e38332d44da908f474f3c2dffa69e02c1b483dfc4a36c40fabeff1442804c988",
+    "source": "https://files.rcsb.org/ligands/download/7QB.cif",
+    "retrieved": "2026-11-04"
+  },
+  {
+    "file": "1XKK.cif",
+    "sha256": "72b40baf2b78e319e025a81243c61d0fe69ca835b9e4bf3cc736c6c7d7de5b34",
+    "source": "https://files.rcsb.org/download/1XKK.cif",
+    "retrieved": "2026-11-04"
+  },
+  {
+    "file": "FMM.cif",
+    "sha256": "661f988768facb8504add19c205db0177631c3ad33b733550e7bac5a6fad8819",
+    "source": "https://files.rcsb.org/ligands/download/FMM.cif",
+    "retrieved": "2026-11-04"
+  },
+  {
+    "file": "6BFN.cif",
+    "sha256": "1b7e7d288a2356932b5e9e8500b81d687706d8e43062243730745abca5003270",
+    "source": "https://files.rcsb.org/download/6BFN.cif",
+    "retrieved": "2026-11-04"
+  },
+  {
+    "file": "DL1.cif",
+    "sha256": "cdb4193cc1c59417145c281f2e9055c40326e677fd33fdf6b15b7999dff22b4a",
+    "source": "https://files.rcsb.org/ligands/download/DL1.cif",
+    "retrieved": "2026-11-04"
+  },
+  {
+    "file": "3LQ8.cif",
+    "sha256": "a06e0dd6d6be63f7022e7093b958f81e1a7ebe9a2489bd33d098b677f47026f9",
+    "source": "https://files.rcsb.org/download/3LQ8.cif",
+    "retrieved": "2026-11-04"
+  },
+  {
+    "file": "88Z.cif",
+    "sha256": "17247446e22502f9fd0d04cbb6a1b152abdbfabd955268433a32edea5c6622c9",
+    "source": "https://files.rcsb.org/ligands/download/88Z.cif",
+    "retrieved": "2026-11-04"
+  },
+  {
+    "file": "4W9H.cif",
+    "sha256": "fa41e70fcbb5c89bcad6199a85bae5e85729b56168c02022744bd7a41fcc6db6",
+    "source": "https://files.rcsb.org/download/4W9H.cif",
+    "retrieved": "2026-11-04"
+  },
+  {
+    "file": "3JF.cif",
+    "sha256": "fc98631cf9b92c04300df36710a95f0f4e7cca7e67b7334326733f12fcce4d57",
+    "source": "https://files.rcsb.org/ligands/download/3JF.cif",
+    "retrieved": "2026-11-04"
+  }
+]

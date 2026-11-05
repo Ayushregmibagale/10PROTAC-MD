@@ -1,0 +1,19 @@
+; JNJ1013_GMX_OPLS.top created by acpype (v: 2023.10.27) on Wed Nov  4 14:55:56 2026
+
+; Include forcefield parameters
+#include "ffoplsaa.itp"
+
+; Include JNJ1013_GMX.itp topology
+#include "JNJ1013_GMX.itp"
+
+; Ligand position restraints
+#ifdef POSRES_LIG
+#include "posre_JNJ1013.itp"
+#endif
+
+[ system ]
+ JNJ1013
+
+[ molecules ]
+; Compound        nmols
+ JNJ1013          1     

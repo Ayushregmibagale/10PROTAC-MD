@@ -1,0 +1,32 @@
+{
+  "status": "CONTROL_SCOPE_ANNOTATION_NOT_ACTIVITY_LABELS",
+  "controls": {
+    "GSK215/PTK2_Q05397": {
+      "role": "native_ternary_integration_control",
+      "known_target": "PTK2",
+      "reference": "7PI4"
+    },
+    "SJF8240/MET_P08581": {
+      "role": "known_target_bound_parent_head_control",
+      "known_target": "MET"
+    },
+    "SJF1521/EGFR_P00533": {
+      "role": "known_target_modeled_conjugated_head_control",
+      "known_target": "EGFR"
+    },
+    "JNJ1013/IRAK1_P51617": {
+      "role": "known_target_modeled_conjugated_head_control",
+      "known_target": "IRAK1"
+    },
+    "SJF_delta/MAPK13_O15264_published_overlay": {
+      "role": "known_target_published_template_overlay_control",
+      "known_target": "MAPK13",
+      "experimental_ternary_coordinates": false
+    },
+    "SJF_delta/MET_P08581": {
+      "role": "geometry_transfer_control_only",
+      "known_target_assertion": false,
+      "interpretation": "Not a verified degradation-positive control"
+    }
+  }
+}

@@ -1,0 +1,116 @@
+{
+  "status": "ALL_FIVE_ACCEPTED_POSES_PASS",
+  "qc_source_sha256": "b7faca900f0a3c441f3d7fccb9835e7ae138f1198f480101145b9e6363ccf632",
+  "poses": [
+    {
+      "compound": "SJF_delta",
+      "pose": "combined_2_3_0001",
+      "geometry": {
+        "d_vhl": 1.6894052207803831,
+        "d_kin": 1.8649903485004962,
+        "bridging_5A": true,
+        "bridging_8A": true,
+        "clash_cutoff_A": 1.5,
+        "min_ligand_all_protein_A": 1.6894052207803831,
+        "min_e3_complex_poi_A": 2.922674460147761,
+        "protein_clash_e3_chains": [
+          "A",
+          "B",
+          "C"
+        ],
+        "severe_overlap": false
+      },
+      "ligand_geometry": {
+        "min_intraligand_nonbonded_heavy_A": 2.4669215634065065
+      }
+    },
+    {
+      "compound": "SJF_delta",
+      "pose": "combined_1_3_0001",
+      "geometry": {
+        "d_vhl": 1.7785578427478843,
+        "d_kin": 1.6128822027662155,
+        "bridging_5A": true,
+        "bridging_8A": true,
+        "clash_cutoff_A": 1.5,
+        "min_ligand_all_protein_A": 1.6128822027662155,
+        "min_e3_complex_poi_A": 3.0363996772493596,
+        "protein_clash_e3_chains": [
+          "A",
+          "B",
+          "C"
+        ],
+        "severe_overlap": false
+      },
+      "ligand_geometry": {
+        "min_intraligand_nonbonded_heavy_A": 2.467344523977142
+      }
+    },
+    {
+      "compound": "SJF_delta",
+      "pose": "combined_3_2_0001",
+      "geometry": {
+        "d_vhl": 2.141670843056887,
+        "d_kin": 1.8657596308206585,
+        "bridging_5A": true,
+        "bridging_8A": true,
+        "clash_cutoff_A": 1.5,
+        "min_ligand_all_protein_A": 1.8657596308206585,
+        "min_e3_complex_poi_A": 3.0324658283317896,
+        "protein_clash_e3_chains": [
+          "A",
+          "B",
+          "C"
+        ],
+        "severe_overlap": false
+      },
+      "ligand_geometry": {
+        "min_intraligand_nonbonded_heavy_A": 2.466627049231396
+      }
+    },
+    {
+      "compound": "SJF1521",
+      "pose": "combined_1_1_0001",
+      "geometry": {
+        "d_vhl": 2.4346264600550054,
+        "d_kin": 1.995738710352634,
+        "bridging_5A": true,
+        "bridging_8A": true,
+        "clash_cutoff_A": 1.5,
+        "min_ligand_all_protein_A": 1.995738710352634,
+        "min_e3_complex_poi_A": 2.8141961552102273,
+        "protein_clash_e3_chains": [
+          "A",
+          "B",
+          "C"
+        ],
+        "severe_overlap": false
+      },
+      "ligand_geometry": {
+        "min_intraligand_nonbonded_heavy_A": 2.698578514699923
+      }
+    },
+    {
+      "compound": "SJF1521",
+      "pose": "combined_3_3_0001",
+      "geometry": {
+        "d_vhl": 2.4346264600550054,
+        "d_kin": 2.818146554031565,
+        "bridging_5A": true,
+        "bridging_8A": true,
+        "clash_cutoff_A": 1.5,
+        "min_ligand_all_protein_A": 2.4346264600550054,
+        "min_e3_complex_poi_A": 2.998259828633931,
+        "protein_clash_e3_chains": [
+          "A",
+          "B",
+          "C"
+        ],
+        "severe_overlap": false
+      },
+      "ligand_geometry": {
+        "min_intraligand_nonbonded_heavy_A": 2.6920670496850585
+      }
+    }
+  ]
+}

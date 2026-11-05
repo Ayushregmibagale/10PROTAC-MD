@@ -1,0 +1,54 @@
+# Target: MAP4K5 | Category: high_affinity_no_degradation
+# Cα superposition RMSD vs MET/3LQ8: 11.3 Å
+# Notes: STE family AF2 model; CHECK
+
+# pRosettaC flags template — SJF8240 / VHL campaign
+# Copy to configs/<category>/MAP4K5.flags and fill in the REQUIRED fields.
+#
+# Reference: Zaidman et al. 2020 (pRosettaC)
+# pRosettaC GitHub: https://github.com/LiorZ/pRosettaC
+
+# ── REQUIRED: fill per POI ────────────────────────────────────────────────────
+
+# Path to POI PDB with warhead (kinase half of SJF8240) pre-placed
+-s1 ../../data/structures/POI/high_affinity_no_degradation/MAP4K5/MAP4K5_warhead.pdb
+
+# Path to VHL complex PDB with VHL-ligand half pre-placed
+-s2 ../../../../data/structures/VHL/4W9H_vhl_ligand.pdb
+
+# Rosetta params for the full PROTAC (or split linker params)
+-extra_res_fa ../../data/ligand_params/SJF8240.params
+
+# Residue number of the warhead anchor atom in the POI structure (REQUIRED)
+-anchor1 1
+
+# Residue number of the VHL-ligand anchor atom in the VHL structure (REQUIRED)
+-anchor2 6
+
+# ── OUTPUT ────────────────────────────────────────────────────────────────────
+-out:path:all ../../results/models/MAP4K5/
+-out:prefix MAP4K5_
+-out:nstruct 200
+
+# ── SCORING ───────────────────────────────────────────────────────────────────
+-score:weights ref2015
+-out:file:scorefile ../../results/scores/MAP4K5_scores.sc
+
+# ── SAMPLING ──────────────────────────────────────────────────────────────────
+# Number of PROTAC conformers to sample (default 1000)
+-nstruct_per_conf 5
+-conformers 200
+
+# ── DOCKING ───────────────────────────────────────────────────────────────────
+-dock_pert 3 8
+-randomize2
+
+# ── MINIMIZATION ──────────────────────────────────────────────────────────────
+-ex1
+-ex2aro
+
+# ── MISC ──────────────────────────────────────────────────────────────────────
+-ignore_unrecognized_res
+-mute all
+-unmute protocols.moves.RigidBodyMover
+-log:level 200

@@ -1,0 +1,54 @@
+# Target: PIP4K2C | Category: low_affinity_degraders
+# Cα superposition RMSD vs MET/3LQ8: 18.3 Å
+# Notes: lipid kinase; INSPECT CAREFULLY
+
+# pRosettaC flags template — SJF8240 / VHL campaign
+# Copy to configs/<category>/PIP4K2C.flags and fill in the REQUIRED fields.
+#
+# Reference: Zaidman et al. 2020 (pRosettaC)
+# pRosettaC GitHub: https://github.com/LiorZ/pRosettaC
+
+# ── REQUIRED: fill per POI ────────────────────────────────────────────────────
+
+# Path to POI PDB with warhead (kinase half of SJF8240) pre-placed
+-s1 ../../data/structures/POI/low_affinity_degraders/PIP4K2C/PIP4K2C_warhead.pdb
+
+# Path to VHL complex PDB with VHL-ligand half pre-placed
+-s2 ../../../../data/structures/VHL/4W9H_vhl_ligand.pdb
+
+# Rosetta params for the full PROTAC (or split linker params)
+-extra_res_fa ../../data/ligand_params/SJF8240.params
+
+# Residue number of the warhead anchor atom in the POI structure (REQUIRED)
+-anchor1 1
+
+# Residue number of the VHL-ligand anchor atom in the VHL structure (REQUIRED)
+-anchor2 6
+
+# ── OUTPUT ────────────────────────────────────────────────────────────────────
+-out:path:all ../../results/models/PIP4K2C/
+-out:prefix PIP4K2C_
+-out:nstruct 200
+
+# ── SCORING ───────────────────────────────────────────────────────────────────
+-score:weights ref2015
+-out:file:scorefile ../../results/scores/PIP4K2C_scores.sc
+
+# ── SAMPLING ──────────────────────────────────────────────────────────────────
+# Number of PROTAC conformers to sample (default 1000)
+-nstruct_per_conf 5
+-conformers 200
+
+# ── DOCKING ───────────────────────────────────────────────────────────────────
+-dock_pert 3 8
+-randomize2
+
+# ── MINIMIZATION ──────────────────────────────────────────────────────────────
+-ex1
+-ex2aro
+
+# ── MISC ──────────────────────────────────────────────────────────────────────
+-ignore_unrecognized_res
+-mute all
+-unmute protocols.moves.RigidBodyMover
+-log:level 200

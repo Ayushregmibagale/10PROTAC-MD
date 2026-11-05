@@ -1,0 +1,301 @@
+{
+  "status": "LOCAL_REPAIR_CHECKPOINT_VERIFIED",
+  "rows": [
+    {
+      "pilot": "frozen_all_compound_pilot_v20",
+      "compound": "GSK215",
+      "run_name": "PTK2_Q05397",
+      "status": "COMPLETE_NO_VALID_POSES",
+      "valid_poses": 0,
+      "stages": {
+        "global_sampling": {
+          "attempted": 188,
+          "succeeded": 3,
+          "rejected": 185,
+          "failed": 0
+        },
+        "local_docking": {
+          "attempted": 9,
+          "succeeded": 9,
+          "rejected": 0,
+          "failed": 0
+        },
+        "linker_modeling": {
+          "attempted": 9,
+          "succeeded": 0,
+          "rejected": 9,
+          "failed": 0
+        },
+        "scoring": {
+          "attempted": 0,
+          "succeeded": 0,
+          "rejected": 0,
+          "failed": 0
+        },
+        "pose_qc": {
+          "attempted": 0,
+          "succeeded": 0,
+          "rejected": 0,
+          "failed": 0
+        }
+      },
+      "completion_sha256": "836ee72cb0db2e83ddb06fe75447b1d4c567121054d5049ec284a556ab73a057",
+      "source_snapshot_manifest_sha256": "612dc20ac9706f938c1327a17864fbfcbf4be194f592137364719918025faf74"
+    },
+    {
+      "pilot": "frozen_all_compound_pilot_v20",
+      "compound": "JNJ1013",
+      "run_name": "IRAK1_P51617",
+      "status": "COMPLETE_NO_VALID_POSES",
+      "valid_poses": 0,
+      "stages": {
+        "global_sampling": {
+          "attempted": 230,
+          "succeeded": 3,
+          "rejected": 227,
+          "failed": 0
+        },
+        "local_docking": {
+          "attempted": 9,
+          "succeeded": 9,
+          "rejected": 0,
+          "failed": 0
+        },
+        "linker_modeling": {
+          "attempted": 9,
+          "succeeded": 0,
+          "rejected": 9,
+          "failed": 0
+        },
+        "scoring": {
+          "attempted": 0,
+          "succeeded": 0,
+          "rejected": 0,
+          "failed": 0
+        },
+        "pose_qc": {
+          "attempted": 0,
+          "succeeded": 0,
+          "rejected": 0,
+          "failed": 0
+        }
+      },
+      "completion_sha256": "d57ad0875f54a76023e5fc1de2db28ab26d366125b7d5a2abc0148991e1b91c4",
+      "source_snapshot_manifest_sha256": "612dc20ac9706f938c1327a17864fbfcbf4be194f592137364719918025faf74"
+    },
+    {
+      "pilot": "frozen_all_compound_pilot_v20",
+      "compound": "SJF1521",
+      "run_name": "EGFR_P00533",
+      "status": "COMPLETE",
+      "valid_poses": 2,
+      "stages": {
+        "global_sampling": {
+          "attempted": 130,
+          "succeeded": 3,
+          "rejected": 127,
+          "failed": 0
+        },
+        "local_docking": {
+          "attempted": 9,
+          "succeeded": 9,
+          "rejected": 0,
+          "failed": 0
+        },
+        "linker_modeling": {
+          "attempted": 9,
+          "succeeded": 3,
+          "rejected": 6,
+          "failed": 0
+        },
+        "scoring": {
+          "attempted": 3,
+          "succeeded": 3,
+          "rejected": 0,
+          "failed": 0
+        },
+        "pose_qc": {
+          "attempted": 3,
+          "succeeded": 2,
+          "rejected": 1,
+          "failed": 0
+        }
+      },
+      "completion_sha256": "a3bcc00b66f168e2dce9921e591abf4e5dbc9cf492522eda585159abefd2e13c",
+      "source_snapshot_manifest_sha256": "612dc20ac9706f938c1327a17864fbfcbf4be194f592137364719918025faf74"
+    },
+    {
+      "pilot": "frozen_all_compound_pilot_v20",
+      "compound": "SJF8240",
+      "run_name": "MET_P08581",
+      "status": "COMPLETE_NO_VALID_POSES",
+      "valid_poses": 0,
+      "stages": {
+        "global_sampling": {
+          "attempted": 242,
+          "succeeded": 3,
+          "rejected": 239,
+          "failed": 0
+        },
+        "local_docking": {
+          "attempted": 9,
+          "succeeded": 9,
+          "rejected": 0,
+          "failed": 0
+        },
+        "linker_modeling": {
+          "attempted": 9,
+          "succeeded": 0,
+          "rejected": 9,
+          "failed": 0
+        },
+        "scoring": {
+          "attempted": 0,
+          "succeeded": 0,
+          "rejected": 0,
+          "failed": 0
+        },
+        "pose_qc": {
+          "attempted": 0,
+          "succeeded": 0,
+          "rejected": 0,
+          "failed": 0
+        }
+      },
+      "completion_sha256": "d9bb86605da4823e475e6437ec73839f5f8bc9fc7440671e21c899d6dd326f61",
+      "source_snapshot_manifest_sha256": "612dc20ac9706f938c1327a17864fbfcbf4be194f592137364719918025faf74"
+    },
+    {
+      "pilot": "frozen_all_compound_pilot_v20",
+      "compound": "SJF_delta",
+      "run_name": "MAPK13_O15264_published_overlay",
+      "status": "COMPLETE",
+      "valid_poses": 3,
+      "stages": {
+        "global_sampling": {
+          "attempted": 1005,
+          "succeeded": 3,
+          "rejected": 1002,
+          "failed": 0
+        },
+        "local_docking": {
+          "attempted": 9,
+          "succeeded": 9,
+          "rejected": 0,
+          "failed": 0
+        },
+        "linker_modeling": {
+          "attempted": 9,
+          "succeeded": 3,
+          "rejected": 6,
+          "failed": 0
+        },
+        "scoring": {
+          "attempted": 3,
+          "succeeded": 3,
+          "rejected": 0,
+          "failed": 0
+        },
+        "pose_qc": {
+          "attempted": 3,
+          "succeeded": 3,
+          "rejected": 0,
+          "failed": 0
+        }
+      },
+      "completion_sha256": "5d48d48e25119385de9687f5475cc87fef04962005989f8e5e6e9e424ab8d56d",
+      "source_snapshot_manifest_sha256": "612dc20ac9706f938c1327a17864fbfcbf4be194f592137364719918025faf74"
+    },
+    {
+      "pilot": "source_cache_controller_v21",
+      "compound": "GSK215",
+      "run_name": "PTK2_Q05397",
+      "status": "COMPLETE_NO_VALID_POSES",
+      "valid_poses": 0,
+      "stages": {
+        "global_sampling": {
+          "attempted": 1,
+          "succeeded": 0,
+          "rejected": 1,
+          "failed": 0
+        },
+        "local_docking": {
+          "attempted": 0,
+          "succeeded": 0,
+          "rejected": 0,
+          "failed": 0
+        },
+        "linker_modeling": {
+          "attempted": 0,
+          "succeeded": 0,
+          "rejected": 0,
+          "failed": 0
+        },
+        "scoring": {
+          "attempted": 0,
+          "succeeded": 0,
+          "rejected": 0,
+          "failed": 0
+        },
+        "pose_qc": {
+          "attempted": 0,
+          "succeeded": 0,
+          "rejected": 0,
+          "failed": 0
+        }
+      },
+      "completion_sha256": "379b7b6d2fe894f37f3034c2c9b10e396823c5a798141ca31b7b3314ceaf182f",
+      "source_snapshot_manifest_sha256": "687c5dc7ee2748372371c7a53d05aa3b962ea78450a7bb2dfb8d08de2861988b"
+    },
+    {
+      "pilot": "source_cache_retention_v24",
+      "compound": "GSK215",
+      "run_name": "PTK2_Q05397",
+      "status": "COMPLETE_NO_VALID_POSES",
+      "valid_poses": 0,
+      "stages": {
+        "global_sampling": {
+          "attempted": 1,
+          "succeeded": 1,
+          "rejected": 0,
+          "failed": 0
+        },
+        "local_docking": {
+          "attempted": 3,
+          "succeeded": 3,
+          "rejected": 0,
+          "failed": 0
+        },
+        "linker_modeling": {
+          "attempted": 3,
+          "succeeded": 0,
+          "rejected": 3,
+          "failed": 0
+        },
+        "scoring": {
+          "attempted": 0,
+          "succeeded": 0,
+          "rejected": 0,
+          "failed": 0
+        },
+        "pose_qc": {
+          "attempted": 0,
+          "succeeded": 0,
+          "rejected": 0,
+          "failed": 0
+        }
+      },
+      "completion_sha256": "060f91c8729b5321cea7c9bb17776bc2e5317bea0a304588bf290003db5de34b",
+      "source_snapshot_manifest_sha256": "388447c671d7d2947175e401e3cdf923bbb1e815f78d24d26ca9df67e2e887b4"
+    },
+    {
+      "pilot": "native_full_budget_v23",
+      "compound": "GSK215",
+      "status": "COMPLETE",
+      "valid_poses": 1,
+      "scope": "Native-frame control, 100 requested conformers per local geometry"
+    }
+  ],
+  "no_ernie_simulation_launched": true,
+  "original_protac_md_modified": false
+}

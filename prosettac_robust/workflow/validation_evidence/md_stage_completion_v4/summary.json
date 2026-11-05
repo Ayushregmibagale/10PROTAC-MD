@@ -1,0 +1,10 @@
+{
+  "status": "LOCAL_STAGED_VALIDATION_COMPLETE",
+  "em_fmax_kJ_mol_nm": 472.168,
+  "nvt_ps": 200,
+  "restrained_npt_ps": 500,
+  "unrestrained_npt_ps": 500,
+  "production_started": false,
+  "convergence_certified": false,
+  "independent_replicas": 1
+}

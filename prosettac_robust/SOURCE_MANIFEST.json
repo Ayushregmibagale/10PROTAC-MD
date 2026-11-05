@@ -1,0 +1,429 @@
+{
+  "source": "/mnt/d/PROTAC degradation Prediction",
+  "access": "READ_ONLY_SNAPSHOT",
+  "results_or_trajectories_copied": false,
+  "source_files": {
+    "scripts/01_structure_prep/01_download_structures.py": {
+      "sha256": "3de6282b06e2bda149b6479774bbda9cad2be2cd89a908032c80fead63b2f98d",
+      "bytes": 5648
+    },
+    "scripts/01_structure_prep/02_prepare_full_kinase.py": {
+      "sha256": "2c1e52ad87806a0083d4564edcd0a15f72f4d39ebae6470157f32077dc3288fa",
+      "bytes": 5493
+    },
+    "scripts/01_structure_prep/03_place_warhead.py": {
+      "sha256": "e9b88343a4956a2b7d7c9d67198eca0f1b664da61fd7db46a74db5c7b27715af",
+      "bytes": 17007
+    },
+    "scripts/02_rosetta_utils/01_install_rosetta.sh": {
+      "sha256": "25056ebe99d21b0fef1d8f0abe6d17e7c6319efd7f0eb93601e6450fb4f92a21",
+      "bytes": 2274
+    },
+    "scripts/02_rosetta_utils/02_sdf_to_params.py": {
+      "sha256": "8f07b2c9c6e6de08946ac98778b07e4b1a1b273e5f4652758218c72b91cf147b",
+      "bytes": 8639
+    },
+    "scripts/02_rosetta_utils/03_run_local_prosettac.py": {
+      "sha256": "d4c7228472e9ce7516cd3ea496cea7a50115a0b9bdf985e872d6de112f650c20",
+      "bytes": 4280
+    },
+    "scripts/02_rosetta_utils/04_run_all_pois.py": {
+      "sha256": "f76546fc49f07227e4b786b2f79dbea6086ef830d1bf72691c1aa422bfd7033e",
+      "bytes": 1078
+    },
+    "scripts/02_rosetta_utils/05_gen_local_fasc.py": {
+      "sha256": "df6921b25d92c48a073e31a895f605ce20314cbeb8cc1016e73b87ad00c7155b",
+      "bytes": 1362
+    },
+    "scripts/02_rosetta_utils/06_resume_pipeline.py": {
+      "sha256": "2776a357cb45f15fdd3fab7a7c5d259e26cb056f0c7c2e098013ec6b526742cc",
+      "bytes": 10577
+    },
+    "scripts/02_rosetta_utils/constraint_generation.py": {
+      "sha256": "c32d4c1f7a3099a0b877b25ebbe4dca4092a06583cd50ffce730b225b79c9489",
+      "bytes": 834
+    },
+    "scripts/02_rosetta_utils/pyrosetta_adapter.py": {
+      "sha256": "b21629c36d6bc6250db86784a52e9bb063b1c82594731a39586d249844deadff",
+      "bytes": 49645
+    },
+    "scripts/02_rosetta_utils/resume_pipeline.py": {
+      "sha256": "2776a357cb45f15fdd3fab7a7c5d259e26cb056f0c7c2e098013ec6b526742cc",
+      "bytes": 10577
+    },
+    "scripts/02_rosetta_utils/run_docking.py": {
+      "sha256": "2d169df98336e024e4dc8b05da40c721aa2c01402b7b0b66b480b5cb66d76ccb",
+      "bytes": 2220
+    },
+    "scripts/02_rosetta_utils/sdf_to_params.py": {
+      "sha256": "8f07b2c9c6e6de08946ac98778b07e4b1a1b273e5f4652758218c72b91cf147b",
+      "bytes": 8639
+    },
+    "scripts/03_analysis/01_find_feasible_poses.py": {
+      "sha256": "54bc11a8fd35b2bf997a2029976918c34ccb14bc52c38c60443b9d5841d3be73",
+      "bytes": 4023
+    },
+    "scripts/03_analysis/02_recluster_feasible.py": {
+      "sha256": "c2730c2d07d381f2a68d19d76ff9e587eb28e90b6e2aa88a44c16a82d2fd9468",
+      "bytes": 15872
+    },
+    "scripts/03_analysis/03_batch_check_protac.py": {
+      "sha256": "b6c36d86a95473f6bebc46fbf1622cbeb7e736ceb5e33ba5094cdfef19b306af",
+      "bytes": 4976
+    },
+    "scripts/03_analysis/04_run_poi_full_analysis.py": {
+      "sha256": "1dbf8c0d9b9cf0306feb262131b4dd0291fe0c039f4049c2d42cc05192a88bda",
+      "bytes": 44838
+    },
+    "scripts/analysis/aggregate_features.py": {
+      "sha256": "0e61256796a5807c8eeee40c28502812c2b95b6583e0be7b90bfb5e60310f005",
+      "bytes": 9251
+    },
+    "scripts/analysis/batch_check_protac.py": {
+      "sha256": "b6c36d86a95473f6bebc46fbf1622cbeb7e736ceb5e33ba5094cdfef19b306af",
+      "bytes": 4976
+    },
+    "scripts/analysis/degradation_classifier.py": {
+      "sha256": "8adc6204020f0a1eabee36ac3c78c12f8f06ea866639938a7dae5b271bef684f",
+      "bytes": 6842
+    },
+    "scripts/analysis/met_cluster_features.py": {
+      "sha256": "35afb73c138aab282661c975570cd7d395bd2e24dd6686879b4163dd11c1ddc8",
+      "bytes": 21354
+    },
+    "scripts/analysis/met_premd_check.py": {
+      "sha256": "33fa610e2346449b0ebe2913a47851132a377bf04e1703abbecb97dd299d31ef",
+      "bytes": 35056
+    },
+    "scripts/analysis/run_poi_full_analysis.py": {
+      "sha256": "e49266e2e05f92a888361ce21fd2dff5ff075f7a249b6a2c24b1e65ea7d2c7af",
+      "bytes": 43210
+    },
+    "scripts/analysis/score_analysis.py": {
+      "sha256": "d163ed45d595828fbf26b57f6245f1c4786cd1529d8ee9329d292bba060bf4c0",
+      "bytes": 4319
+    },
+    "scripts/ernie_setup/01_create_env.sh": {
+      "sha256": "35f290cdbedcfab2a83148d96349d33817cd98aed525250aa57fff75c216aae4",
+      "bytes": 914
+    },
+    "scripts/ernie_setup/02_install_pyrosetta.sh": {
+      "sha256": "7c514baac3620fbfa29b13c8bc18b0876662f6a1e95548f6e968545305036a7e",
+      "bytes": 1334
+    },
+    "scripts/ernie_setup/03_transfer_files.sh": {
+      "sha256": "25409056710c8eda48b23c3969284d7af6706db8a09d0995e7ff80fb1697089a",
+      "bytes": 1108
+    },
+    "scripts/ernie_setup/04_fix_paths.sh": {
+      "sha256": "7dcdacf4bb03ccc9bc615e35452c764a6db524b4dd6baf8e771ad2af6579a47a",
+      "bytes": 2762
+    },
+    "scripts/ernie_setup/05_verify_setup.sh": {
+      "sha256": "b3fb385580e1b4a52e71e487226e5ada146fa3943e913b82072144e5e081e679",
+      "bytes": 2970
+    },
+    "scripts/ernie_setup/06_launch_parallel.sh": {
+      "sha256": "514373b920a9c2c8326d474292fc777987cbb8e9eaf57de6a3d8b9368664b3e1",
+      "bytes": 7038
+    },
+    "scripts/ernie_setup/07_prep_chain_d_reruns.py": {
+      "sha256": "edf6aa8d9de383be9c227a0dafa3a90547c28cb9300ac721628f857ce1adff45",
+      "bytes": 8090
+    },
+    "scripts/ernie_setup/08_ernie_launch_chain_d.sh": {
+      "sha256": "435a8a2249a394609e1a6944ccd37c82b5508d704a667b9a03635a8a7eef86fc",
+      "bytes": 4359
+    },
+    "scripts/redundant_scripts/analysis/add_feasible_to_clusters.py": {
+      "sha256": "93bbb68b033a5c8004ef1ea4bf638a7c5f8140fdbec92ff4d05a08796c61ebd9",
+      "bytes": 3241
+    },
+    "scripts/redundant_scripts/analysis/aggregate_features.py": {
+      "sha256": "0e61256796a5807c8eeee40c28502812c2b95b6583e0be7b90bfb5e60310f005",
+      "bytes": 9251
+    },
+    "scripts/redundant_scripts/analysis/degradation_classifier.py": {
+      "sha256": "8adc6204020f0a1eabee36ac3c78c12f8f06ea866639938a7dae5b271bef684f",
+      "bytes": 6842
+    },
+    "scripts/redundant_scripts/analysis/met_cluster_features.py": {
+      "sha256": "35afb73c138aab282661c975570cd7d395bd2e24dd6686879b4163dd11c1ddc8",
+      "bytes": 21354
+    },
+    "scripts/redundant_scripts/analysis/met_premd_check.py": {
+      "sha256": "33fa610e2346449b0ebe2913a47851132a377bf04e1703abbecb97dd299d31ef",
+      "bytes": 35056
+    },
+    "scripts/redundant_scripts/analysis/score_analysis.py": {
+      "sha256": "d163ed45d595828fbf26b57f6245f1c4786cd1529d8ee9329d292bba060bf4c0",
+      "bytes": 4319
+    },
+    "scripts/redundant_scripts/ernie_setup/01_create_env.sh": {
+      "sha256": "35f290cdbedcfab2a83148d96349d33817cd98aed525250aa57fff75c216aae4",
+      "bytes": 914
+    },
+    "scripts/redundant_scripts/ernie_setup/02_install_pyrosetta.sh": {
+      "sha256": "7c514baac3620fbfa29b13c8bc18b0876662f6a1e95548f6e968545305036a7e",
+      "bytes": 1334
+    },
+    "scripts/redundant_scripts/ernie_setup/03_transfer_files.sh": {
+      "sha256": "25409056710c8eda48b23c3969284d7af6706db8a09d0995e7ff80fb1697089a",
+      "bytes": 1108
+    },
+    "scripts/redundant_scripts/ernie_setup/04_fix_paths.sh": {
+      "sha256": "7dcdacf4bb03ccc9bc615e35452c764a6db524b4dd6baf8e771ad2af6579a47a",
+      "bytes": 2762
+    },
+    "scripts/redundant_scripts/ernie_setup/05_verify_setup.sh": {
+      "sha256": "074cb7608a354bca23aaadcee793beb6f0804df219fc1d5eba6fcb57942d5746",
+      "bytes": 3077
+    },
+    "scripts/redundant_scripts/ernie_setup/06_launch_parallel.sh": {
+      "sha256": "514373b920a9c2c8326d474292fc777987cbb8e9eaf57de6a3d8b9368664b3e1",
+      "bytes": 7038
+    },
+    "scripts/redundant_scripts/rosetta_utils/batch_run.sh": {
+      "sha256": "5c6e1ee16aba73ed2eb33a7d39944b52c90de87cb36d2a907da9131d073d87a6",
+      "bytes": 2003
+    },
+    "scripts/redundant_scripts/rosetta_utils/batch_run_local.sh": {
+      "sha256": "4c6262e4137a2cd6b8fbab9963f4fe21d0e297d3be0ca9535813b7dbe4f9fe97",
+      "bytes": 1955
+    },
+    "scripts/redundant_scripts/rosetta_utils/check_status.sh": {
+      "sha256": "74573c07f1a1c186e69d2040f067b0ed0ecae74fe72f043631132ff29515d943",
+      "bytes": 3284
+    },
+    "scripts/redundant_scripts/rosetta_utils/run_batch_rerun.sh": {
+      "sha256": "28e4d9538a36276ed61c5644c6520b58b905556a0387baa2077988f9e282a563",
+      "bytes": 2556
+    },
+    "scripts/redundant_scripts/rosetta_utils/run_priority1.sh": {
+      "sha256": "af95127baa9457fd97ff61e2138dbf09e8aeb722aa1b9e1378db3aaced7e7ecf",
+      "bytes": 1310
+    },
+    "scripts/redundant_scripts/rosetta_utils/run_prosettac.sh": {
+      "sha256": "d7cdb8b19c8ad3fe45553762e31a6b2da5b0bf5b419a01be5196ad97e0827bc9",
+      "bytes": 1847
+    },
+    "scripts/redundant_scripts/rosetta_utils/run_queue_ernie.sh": {
+      "sha256": "e6e382d4b60d9c210211405acd18ee3e7ac18bd746101a8ee7659b7b29b2dc4b",
+      "bytes": 1838
+    },
+    "scripts/redundant_scripts/rosetta_utils/watch_and_analyse.sh": {
+      "sha256": "a962b814c163f655e556e171b448e192861a5e840df008866d87b24154d9ce00",
+      "bytes": 1990
+    },
+    "scripts/rosetta_utils/batch_run.sh": {
+      "sha256": "5c6e1ee16aba73ed2eb33a7d39944b52c90de87cb36d2a907da9131d073d87a6",
+      "bytes": 2003
+    },
+    "scripts/rosetta_utils/batch_run_local.sh": {
+      "sha256": "4c6262e4137a2cd6b8fbab9963f4fe21d0e297d3be0ca9535813b7dbe4f9fe97",
+      "bytes": 1955
+    },
+    "scripts/rosetta_utils/check_status.sh": {
+      "sha256": "74573c07f1a1c186e69d2040f067b0ed0ecae74fe72f043631132ff29515d943",
+      "bytes": 3284
+    },
+    "scripts/rosetta_utils/constraint_generation.py": {
+      "sha256": "c32d4c1f7a3099a0b877b25ebbe4dca4092a06583cd50ffce730b225b79c9489",
+      "bytes": 834
+    },
+    "scripts/rosetta_utils/gen_local_fasc.py": {
+      "sha256": "df6921b25d92c48a073e31a895f605ce20314cbeb8cc1016e73b87ad00c7155b",
+      "bytes": 1362
+    },
+    "scripts/rosetta_utils/install_rosetta.sh": {
+      "sha256": "25056ebe99d21b0fef1d8f0abe6d17e7c6319efd7f0eb93601e6450fb4f92a21",
+      "bytes": 2274
+    },
+    "scripts/rosetta_utils/log.txt": {
+      "sha256": "9381ebca30f2ffce2bca5eb6edcaa4f8d7ce1cd270186ccded72832cec5c03c5",
+      "bytes": 1046
+    },
+    "scripts/rosetta_utils/pyrosetta_adapter.py": {
+      "sha256": "b21629c36d6bc6250db86784a52e9bb063b1c82594731a39586d249844deadff",
+      "bytes": 49645
+    },
+    "scripts/rosetta_utils/resume_pipeline.py": {
+      "sha256": "5014476705a7cba698d710cccec63e1cb9e7ae64674cfca0976f8842a688403b",
+      "bytes": 9827
+    },
+    "scripts/rosetta_utils/run_all_pois.py": {
+      "sha256": "256216c32765172172f86ef9a150250da6b3a533919f376eb10fcefc942c2633",
+      "bytes": 1072
+    },
+    "scripts/rosetta_utils/run_batch_rerun.sh": {
+      "sha256": "28e4d9538a36276ed61c5644c6520b58b905556a0387baa2077988f9e282a563",
+      "bytes": 2556
+    },
+    "scripts/rosetta_utils/run_docking.py": {
+      "sha256": "2d169df98336e024e4dc8b05da40c721aa2c01402b7b0b66b480b5cb66d76ccb",
+      "bytes": 2220
+    },
+    "scripts/rosetta_utils/run_local_prosettac.py": {
+      "sha256": "5574576fa222e5837c7dfb939e0cb3654341882ea87ffee36cf471566a8f2304",
+      "bytes": 4268
+    },
+    "scripts/rosetta_utils/run_priority1.sh": {
+      "sha256": "af95127baa9457fd97ff61e2138dbf09e8aeb722aa1b9e1378db3aaced7e7ecf",
+      "bytes": 1310
+    },
+    "scripts/rosetta_utils/run_prosettac.sh": {
+      "sha256": "d7cdb8b19c8ad3fe45553762e31a6b2da5b0bf5b419a01be5196ad97e0827bc9",
+      "bytes": 1847
+    },
+    "scripts/rosetta_utils/run_queue_ernie.sh": {
+      "sha256": "e6e382d4b60d9c210211405acd18ee3e7ac18bd746101a8ee7659b7b29b2dc4b",
+      "bytes": 1838
+    },
+    "scripts/rosetta_utils/sdf_to_params.py": {
+      "sha256": "8f07b2c9c6e6de08946ac98778b07e4b1a1b273e5f4652758218c72b91cf147b",
+      "bytes": 8639
+    },
+    "scripts/rosetta_utils/watch_and_analyse.sh": {
+      "sha256": "a962b814c163f655e556e171b448e192861a5e840df008866d87b24154d9ce00",
+      "bytes": 1990
+    },
+    "scripts/structure_prep/download_structures.py": {
+      "sha256": "15a67694aa0d7fc4e0b327793fad7ea32ef8a48b1208f5977ba6bbe9a49b1d08",
+      "bytes": 3567
+    },
+    "scripts/structure_prep/place_warhead.py": {
+      "sha256": "8da3ddef6ff4617cdae54574950c7634aade075572f4faae841fd7ca6ae82553",
+      "bytes": 16394
+    },
+    "docs/01_scientific_rationale.md": {
+      "sha256": "1c20c800a82158e6197d0a230d7d21b6e5ffce77dab66c0132b330d576af88cb",
+      "bytes": 6672
+    },
+    "docs/02_structure_preparation.md": {
+      "sha256": "80f6625f6e8b08d928b9288fa321ea08b02695e4100411f17f3b89d50cf471fa",
+      "bytes": 13379
+    },
+    "docs/03_pipeline_guide.md": {
+      "sha256": "759a81e38f1da6a66513003f5abd67ce058ddb3c51bb0158ac4c5ef8291f5de0",
+      "bytes": 10243
+    },
+    "docs/04_parameter_justification.md": {
+      "sha256": "40ae856cd47f12da91aa69484a3267d18dd55ba2edc3deadf59e9a58dc1e2a71",
+      "bytes": 8988
+    },
+    "docs/05_bugs_and_fixes.md": {
+      "sha256": "ccd181633f1c3c7e180bf8d9e3333a5e98cf56ffc2ed904a18829e61b19cb5f2",
+      "bytes": 9468
+    },
+    "docs/06_results_summary.md": {
+      "sha256": "00233e22e97648b055af8ac81e4b85fb9e90950531b8df570deffa88871e9e1a",
+      "bytes": 5024
+    },
+    "docs/07_analysis_guide.md": {
+      "sha256": "32211bb227de1571f235a8dd448446726df45dca9bb480c992a6d60068275c8c",
+      "bytes": 8255
+    },
+    "docs/08_ernie_ddr2_troubleshooting_2026-06-22.md": {
+      "sha256": "6b84f4c0b678a45e7298096e256d541d43973c2134b0efdfd02cd75cb853e676",
+      "bytes": 8070
+    },
+    "docs/09_phase2_nlobe_fix_md_candidates.md": {
+      "sha256": "09318a7d8a1caada0b56d810a43f6e783eb53629856ca8f280055807c82300e9",
+      "bytes": 12794
+    },
+    "md/scripts/setup/render_overview.py": {
+      "sha256": "9640c78ca174462e1cd4f8d199765aeae776606a7bcff519ae6bbde3ede03db2",
+      "bytes": 3843
+    },
+    "pRosettaC/configs/high_affinity_degraders/DDR2.flags": {
+      "sha256": "746568819912570132b2c1c227b8d6890cbf099888d22e4cf4a940203e7a77c7",
+      "bytes": 2782
+    },
+    "pRosettaC/configs/high_affinity_degraders/EPHB2.flags": {
+      "sha256": "f982eec215131175556f89e9acb48512e09de5833197afab200426471de78d7c",
+      "bytes": 2798
+    },
+    "pRosettaC/configs/high_affinity_degraders/MAPK14.flags": {
+      "sha256": "ae6ece61275186710eee1581351f25047c9fc3c3da7929b05c8562232d15f857",
+      "bytes": 2825
+    },
+    "pRosettaC/configs/high_affinity_degraders/MET.flags": {
+      "sha256": "715e4a31605d0fbac8bc18fb82214b5a06fec029863c70a96664a9061462db16",
+      "bytes": 2805
+    },
+    "pRosettaC/configs/high_affinity_degraders/RIPK2.flags": {
+      "sha256": "2aedd93422008f01c2c1e3ac4136962b8af33859fe82f446739c083df8e68dd2",
+      "bytes": 2818
+    },
+    "pRosettaC/configs/high_affinity_no_degradation/ABL1.flags": {
+      "sha256": "58f5f6c9518ffc6b385abd619c8edb185436978e48bbcd7b9bd73de64113957e",
+      "bytes": 2812
+    },
+    "pRosettaC/configs/high_affinity_no_degradation/AXL.flags": {
+      "sha256": "f18427e4d7f34d553bfbb48e7ca8825f19d7437ec6241933e0cdb383955555cf",
+      "bytes": 2794
+    },
+    "pRosettaC/configs/high_affinity_no_degradation/EPHA2.flags": {
+      "sha256": "fac7e6a4ab8fc576faa17df993547b26b7564bf03beb662501b2a9749ff6fc8e",
+      "bytes": 2821
+    },
+    "pRosettaC/configs/high_affinity_no_degradation/MAP4K5.flags": {
+      "sha256": "b76db933d796a1457d60071b7176580e086ba84801bcac0c79d22095c76112e1",
+      "bytes": 2824
+    },
+    "pRosettaC/configs/high_affinity_no_degradation/SLK.flags": {
+      "sha256": "2dfe5dd8bc92ac03cb53117e45b6f8bec5d504e44347b32a666a004835c06440",
+      "bytes": 2793
+    },
+    "pRosettaC/configs/low_affinity_degraders/CDK17.flags": {
+      "sha256": "8703c10701fe9cea95627eb6d63b4b35a1e18dd2461578177ddb9040a513b2e0",
+      "bytes": 2805
+    },
+    "pRosettaC/configs/low_affinity_degraders/MAPK14.flags": {
+      "sha256": "ae6ece61275186710eee1581351f25047c9fc3c3da7929b05c8562232d15f857",
+      "bytes": 2825
+    },
+    "pRosettaC/configs/low_affinity_degraders/PIP4K2C.flags": {
+      "sha256": "37e085128ee5d1d8c389e0341fa6b8a450bbc6ebf7ef41117051f9ec6b9e3529",
+      "bytes": 2823
+    },
+    "pRosettaC/configs/low_affinity_degraders/TNIK.flags": {
+      "sha256": "2d2bd2e9a0e0b724e38d05e4ca10f442872c14123170f34e407aa6770a5ccbb3",
+      "bytes": 2788
+    },
+    "pRosettaC/configs/low_affinity_no_degradation/CDK2.flags": {
+      "sha256": "b0004afc62164278ad2cab3c751b8e8873d5907beb7da008e5b3ee3c30717091",
+      "bytes": 746
+    },
+    "pRosettaC/configs/low_affinity_no_degradation/CDK4.flags": {
+      "sha256": "b1488656cafb3515b9e62168fae002351891fcf629c47e01e84fb328ba4e2fa3",
+      "bytes": 746
+    },
+    "pRosettaC/configs/low_affinity_no_degradation/CDK6.flags": {
+      "sha256": "aadea4e336475917c8656fc054352dcd37cb7d426f8beb4628a74488ec9c026e",
+      "bytes": 746
+    },
+    "pRosettaC/configs/low_affinity_no_degradation/DAPK1.flags": {
+      "sha256": "2dad644163bce28ace7273c411ad562eebe974579056f4c4dc319d78897e8d09",
+      "bytes": 752
+    },
+    "pRosettaC/configs/low_affinity_no_degradation/IRAK1.flags": {
+      "sha256": "bd32b2ad1feb0357dcd55439ba0ba843e0e653f98abd3a1907c773ec0af3dbef",
+      "bytes": 752
+    },
+    "pRosettaC/configs/low_affinity_no_degradation/TLK2.flags": {
+      "sha256": "f21e7d8e586139d817003ab7b5bca018484deb6be09e579ba353a84a6ee7cb0b",
+      "bytes": 746
+    },
+    "pRosettaC/configs/template.flags": {
+      "sha256": "ba6f42cefec85f1d11faa1859e957f53619201ba29417f4cd37cea871eceda4d",
+      "bytes": 2688
+    },
+    "README.md": {
+      "sha256": "15485ca6120ada98dd4523d86ec0ad74e27c0187e9bc798806ec24a257d0cf13",
+      "bytes": 6542
+    }
+  },
+  "workflow_base_commit": "9d66c47",
+  "workflow_base_repository": "https://github.com/Ayushregmibagale/10PROTAC-MD"
+}

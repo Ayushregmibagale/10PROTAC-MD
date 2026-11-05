@@ -1,0 +1,56 @@
+[
+  {
+    "protac": "GSK215",
+    "run_name": "PTK2_Q05397",
+    "status": "PREPARATION_CANDIDATE",
+    "production_ready": false,
+    "contains_modeled_head": false,
+    "pocket_rmsd_A": 1.0045787607787341e-14,
+    "metadata_sha256": "cdc7677fe6f27e454baa3f3d290cb21b6509614a331a37830c82f416a29068af"
+  },
+  {
+    "protac": "JNJ1013",
+    "run_name": "IRAK1_P51617",
+    "status": "PREPARATION_CANDIDATE",
+    "production_ready": false,
+    "contains_modeled_head": true,
+    "pocket_rmsd_A": 7.793737668055522e-15,
+    "metadata_sha256": "78121326ffba3fc3d5e095ec0fba682b9c427e5417d053ad4acda3284135d80d"
+  },
+  {
+    "protac": "SJF1521",
+    "run_name": "EGFR_P00533",
+    "status": "PREPARATION_CANDIDATE",
+    "production_ready": false,
+    "contains_modeled_head": true,
+    "pocket_rmsd_A": 7.59865309360699e-15,
+    "metadata_sha256": "ac81ca745b5a019a6d5528f228a97d70885c59646e5e1d4d675d8f3eea12edbb"
+  },
+  {
+    "protac": "SJF8240",
+    "run_name": "MET_P08581",
+    "status": "PREPARATION_CANDIDATE",
+    "production_ready": false,
+    "contains_modeled_head": false,
+    "pocket_rmsd_A": 1.108161069398093e-14,
+    "metadata_sha256": "bebe345c4c0d97586c28e79109a18cc856c97e15df1119c8a283a69fad5d549f"
+  },
+  {
+    "protac": "SJF_delta",
+    "run_name": "MAPK13_O15264_published_overlay",
+    "status": "PREPARATION_CANDIDATE",
+    "production_ready": false,
+    "contains_modeled_head": true,
+    "pocket_rmsd_A": 6.835838067434419e-15,
+    "metadata_sha256": "442e1e7ed0d353a8ddb519ce5141d6b169e13423cdf4245d741f13d63bf221d2"
+  },
+  {
+    "protac": "SJF_delta",
+    "run_name": "MET_P08581",
+    "status": "PREPARATION_CANDIDATE",
+    "production_ready": false,
+    "contains_modeled_head": true,
+    "pocket_rmsd_A": 1.108161069398093e-14,
+    "metadata_sha256": "c3e41afd188e9dd56cf9cfd1d79264f150693d810043ccaa75dbf14c62b6edb9"
+  }
+]

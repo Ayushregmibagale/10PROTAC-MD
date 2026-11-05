@@ -1,0 +1,41 @@
+# Existing raw structures and runtime outputs
+structures/*.pdb
+structures/**/*.pdb
+runs/
+simulations/
+logs/
+__pycache__/
+*.pyc
+*.log
+.pytest_cache/
+# Preserve these locally; publish code, compact inputs and selected receipts.
+audit_baselines/
+benchmarks/
+domain_structures/
+prepared_screen/
+prepared_pocket_screen/
+prepared_screen_sequence_v1/
+prosettac_inputs/
+experiments/
+engine_audit/
+audits/
+structure_provenance/
+*.zip
+*.tar.gz
+*.xtc
+*.trr
+*.tpr
+*.edr
+*.cpt
+# Retrieve licensed Rosetta helpers from their official pinned source.
+baseline_engine/vendor/*.py
+baseline_engine/vendor/rosetta_py/
+baseline_engine/runtime/adapter/vendor/*.py
+baseline_engine/runtime/adapter/vendor/rosetta_py/
+
+# ACPYPE serialized working objects are retained locally, not needed for reuse.
+*.pkl
+
+# Licensed Rosetta helpers are fetched from their pinned official source, including archived execution packages.
+**/vendor/molfile_to_params.py
+**/vendor/rosetta_py/

@@ -1,0 +1,24 @@
+{
+  "status": "COMPLETE",
+  "command": [
+    "/home/ayushregmibagale/.conda/envs/gromacs/bin/acpype",
+    "-i",
+    "/tmp/10protac_finish/ligand_params/SJF8240/neutral_reference/input.mol2",
+    "-b",
+    "SJF8240",
+    "-a",
+    "gaff2",
+    "-c",
+    "bcc",
+    "-n",
+    "0",
+    "-m",
+    "1",
+    "-o",
+    "gmx",
+    "-s",
+    "2400"
+  ],
+  "exit_code": 0,
+  "validation": "Mapped connectivity, charge, masses and QM-output stereochemistry verified"
+}

@@ -1,0 +1,26 @@
+{
+  "status": "FULL_RAW_RETENTION_CONTROL_PASSED",
+  "rows": [
+    {
+      "local_pose": "confs_1_3.sdf",
+      "generated_conformers": 0,
+      "empty_or_populated_sdf_retained": true,
+      "virtual_reference_retained": true,
+      "ledger_sha256": "bec9bd12abd07ff028fca179b3bf14ee1a81c5407f88ff14d1b8951ba99c0a8d"
+    },
+    {
+      "local_pose": "confs_1_2.sdf",
+      "generated_conformers": 0,
+      "empty_or_populated_sdf_retained": true,
+      "virtual_reference_retained": true,
+      "ledger_sha256": "287f9e3eec61a810aed38e2d6fabb265e5dea76ec042946060ff43c0dd2ea497"
+    },
+    {
+      "local_pose": "confs_1_1.sdf",
+      "generated_conformers": 0,
+      "empty_or_populated_sdf_retained": true,
+      "virtual_reference_retained": true,
+      "ledger_sha256": "c3e6ab9e13215520b2a529afa4ea408c65d7c75b720d13c23eaecee4ae679aa2"
+    }
+  ]
+}

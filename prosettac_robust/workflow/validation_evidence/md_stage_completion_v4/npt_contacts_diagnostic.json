@@ -1,0 +1,49 @@
+{
+  "status": "DIAGNOSTIC_ONLY",
+  "units": {
+    "distance": "Angstrom",
+    "time": "ps"
+  },
+  "periodic_method": "triclinic minimum-image heavy-atom distance",
+  "n_frames": 26,
+  "discard_ps": 250.0,
+  "block_ps": 50.0,
+  "blocks": [
+    {
+      "block": 0,
+      "n_frames": 5,
+      "bridge_fraction_5A": 1.0
+    },
+    {
+      "block": 1,
+      "n_frames": 5,
+      "bridge_fraction_5A": 1.0
+    },
+    {
+      "block": 2,
+      "n_frames": 5,
+      "bridge_fraction_5A": 1.0
+    },
+    {
+      "block": 3,
+      "n_frames": 5,
+      "bridge_fraction_5A": 1.0
+    },
+    {
+      "block": 4,
+      "n_frames": 5,
+      "bridge_fraction_5A": 1.0
+    }
+  ],
+  "bridge_fraction_5A": 1.0,
+  "bridge_fraction_8A": 1.0,
+  "convergence_certified": false,
+  "independent_replica_uncertainty": null,
+  "input_sha256": {
+    "benchmarks/md_stage_completion_v4/md_preparation.json": "feb4abb19999c70ce084ac8e6e1733d777a9e945447cb4be16c7aeab718b4c53",
+    "benchmarks/md_stage_completion_v4/npt_solute.tpr": "0819996b7585c5f079c31b7e30d1df17559d64d0fc59ccc5702c9051486e0f83",
+    "benchmarks/md_stage_completion_v4/npt.xtc": "03514fdd285f6d9f4f7e5e703e03a3430ed0ef28ece0c29b144bffdb97ac006e",
+    "benchmarks/md_stage_completion_v4/npt.receipt.json": "235ac1623479ad22b06306504b29edd84a44e1d488871a3b04b412ab2fb563a5"
+  },
+  "MDAnalysis_version": "2.10.0"
+}

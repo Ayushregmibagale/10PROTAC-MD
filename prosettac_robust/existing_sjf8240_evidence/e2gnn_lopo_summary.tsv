@@ -1,0 +1,2 @@
+split	n_folds	n_correct	accuracy	auroc_overall	auroc_md_pois	auroc_nonmd_pois	e2_cols
+E2-scalar GNN LOPO-CV	17	15	0.8824	0.8	0.6		e2_mean_min_dist_A+e2_delta_reach_50A+e2_delta_reach_80A+lk_lys_nearest_e2_dist_A

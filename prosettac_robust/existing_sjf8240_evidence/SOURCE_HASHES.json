@@ -1,0 +1,8 @@
+{
+  "read_only_source": "/home/ayushregmibagale/protac-md",
+  "sha256": {
+    "analysis/gnn/e2gnn_lopo_summary.tsv": "a6aedfa4183b46bab37a31454bf69a167ee2e6cd67e8ec2b2b5daa98219a8c4b",
+    "scripts/02_analysis/04g_e2_scalar_gnn.py": "50bac9583da2db4e256b872bfa80bfc495a0f808f8b55ee782a3aaf62c105a18"
+  },
+  "md_or_model_outputs_modified": false
+}

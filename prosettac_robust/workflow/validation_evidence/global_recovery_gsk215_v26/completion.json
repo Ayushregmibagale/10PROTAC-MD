@@ -1,0 +1,50 @@
+{
+  "schema_version": 1,
+  "attempt_id": "14b152fe-90f3-4a20-9e36-ddf2992e2077",
+  "command": [
+    "/home/ayushregmibagale/miniconda3/envs/deepternary/bin/python",
+    "/tmp/10protac_finish/benchmarks/global_recovery_gsk215_v26/source_snapshot/baseline_engine/run.py",
+    "--run-dir",
+    "/tmp/10protac_finish/benchmarks/global_recovery_gsk215_v26",
+    "--seed",
+    "104729",
+    "--protocol",
+    "global",
+    "--n-dock",
+    "50",
+    "--n-local",
+    "5",
+    "--conformers",
+    "2",
+    "--workers",
+    "2",
+    "--max-global-trials",
+    "20000"
+  ],
+  "recorder_sha256": "a4acc6161c630e91a1e4fe7b1fa501d6b641b82e548507c6542af2560c31e648",
+  "input_sha256": {
+    "selection.json": "35d269763795f0e8585f3bf9a171037528820bc9443de00a2bf97a0836ba563e",
+    "vbc.pdb": "38a87ba99977645ba344f0d36a0d20be725150a50182c68bfab6cfdd183902a2",
+    "poi_head.sdf": "1e39c54042c3b028ca6d0e4fe2a320f0ee5ab493b3b2daea22e396e3de1eadb4",
+    "protein.pdb": "52ac6c7d90bee91eed2f5d5f84b2f7b45e068f0e9da8945c6c945e39bf63c0a6",
+    "preparation.json": "cdc7677fe6f27e454baa3f3d290cb21b6509614a331a37830c82f416a29068af",
+    "vhl_head.sdf": "926817eef52a725848ca79fd61679ea0605b4fa6eb6f1d63cacca3355ca56537",
+    "full.smi": "2c10735a4f644a08ef4aac29b91fa9213a44931acbe12d7a7b2c7cb32ee0c2ed",
+    "Protac_params.txt": "42183eb86f4f5cdb68d99dfa53ed9b55612fad6022155615157f04a771dfc362",
+    "benchmark_plan.json": "ec1d99bacf613a1dc14ab406a3205aa1be48f5a4b0b402da0723fb8c9bc7cce8"
+  },
+  "selection_sha256": "35d269763795f0e8585f3bf9a171037528820bc9443de00a2bf97a0836ba563e",
+  "started_unix": 1793902241.0531402,
+  "status": "COMPLETE",
+  "exit_code": 0,
+  "process_id": 32,
+  "process_group_id": 32,
+  "engine_status_sha256": "e3473be85ba6c1513c5ab0c5dd22c5f7e6b377fda672a8cca9b4e9fdc008fa6c",
+  "score_sha256": "93d4197313583ef1b7834ff81b5332b4d21048179da5df8afb6acdcff57776c8",
+  "pose_sha256": {
+    "combined_49_3_0001": "6b8fb24a8ef178b0732517df0c45c3d47021799e5ad3acba73bd8df7bdd068aa"
+  },
+  "n_scored_valid": 1,
+  "reason": "",
+  "finished_unix": 1793903808.1047764
+}

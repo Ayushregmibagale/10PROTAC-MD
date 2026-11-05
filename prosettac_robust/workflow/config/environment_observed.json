@@ -1,0 +1,11 @@
+{
+  "kind": "observed_local_test_environment_not_Ernie_lockfile",
+  "packages": {
+    "numpy": "2.4.6",
+    "scipy": "1.17.1",
+    "biopython": "1.85",
+    "rdkit": "2026.3.6",
+    "pandas": "3.1.0",
+    "pytest": "9.1.1"
+  }
+}

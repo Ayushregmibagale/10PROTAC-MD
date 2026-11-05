@@ -1,0 +1,40 @@
+{
+  "status": "FIXED_FRAME_REPACK_CONTROL_PASSED",
+  "seed": 101,
+  "input_conformers": 97,
+  "regenerated_conformers_requested": 100,
+  "original_ensemble_sha256": "059c6b8cd48f7d794c391e8dae2a637edb468da3dbbf1ca1415b9413d81056c6",
+  "original_input_sha256": "1b603443fb8c911c79305a6b583f98b74610ef708c4fedf4d5bf2d87b732734a",
+  "ensemble_sha256": "aaf2ac5d1a375b5be17c8270c9e2eedd914caf650785c222781a943f6e6f2800",
+  "neighbor_atom_zero_based": 78,
+  "head_engagement": {
+    "status": "MEASURED_NOT_A_BINDING_LABEL",
+    "contact_core_cutoff_A": 4.5,
+    "comparison": "No superposition; final PROTAC heads versus their docked bound-head coordinates",
+    "core_atoms": [
+      37,
+      37
+    ],
+    "vhl_core_rmsd_A": 0.0,
+    "poi_core_rmsd_A": 0.0,
+    "head_mapping_alternatives": 1,
+    "docked_head_reference_sha256": "3b17d0a3b6f0d35c4d87f3601930c813db8db2f9f5fbd6329c6e01a10eeeac7b"
+  },
+  "geometry": {
+    "d_vhl": 1.8657917890268405,
+    "d_kin": 1.8649903485004962,
+    "bridging_5A": true,
+    "bridging_8A": true,
+    "clash_cutoff_A": 1.5,
+    "severe_overlap": false
+  },
+  "scored_pose_sha256": "57742c247ec437d07fb0993e9ba702c817cb598b5297cf4717489afa2d9f581c",
+  "resources": {
+    "wall_seconds_inside_control": 44.803044723114,
+    "process_peak_rss_KiB": 1077548,
+    "largest_child_peak_rss_KiB": 157752,
+    "bytes_before_summary": 5692079,
+    "scope": "Local component process peaks, not aggregate campaign memory or Ernie performance"
+  },
+  "scope": "Actual retained multi-conformer regression; not an independent binding benchmark"
+}

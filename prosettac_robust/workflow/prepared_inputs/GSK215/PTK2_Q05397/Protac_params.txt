@@ -1,0 +1,7 @@
+Structures: vbc.pdb protein.pdb
+Chains: ABC D
+Heads: vhl_head.sdf poi_head.sdf
+Anchor atoms: 5 34
+Protac: full.smi
+Full: True
+ClusterName: LOCAL

@@ -1,0 +1,3347 @@
+{
+  "identity": 1.0,
+  "core_rmsd_A": 1.0732420690159558e-14,
+  "pocket_rmsd_A": 7.793737668055522e-15,
+  "pocket_coverage": 1.0,
+  "aligned_residues": [
+    {
+      "reference": [
+        193,
+        " "
+      ],
+      "target": [
+        193,
+        " "
+      ],
+      "fit_core": true
+    },
+    {
+      "reference": [
+        194,
+        " "
+      ],
+      "target": [
+        194,
+        " "
+      ],
+      "fit_core": true
+    },
+    {
+      "reference": [
+        195,
+        " "
+      ],
+      "target": [
+        195,
+        " "
+      ],
+      "fit_core": true
+    },
+    {
+      "reference": [
+        196,
+        " "
+      ],
+      "target": [
+        196,
+        " "
+      ],
+      "fit_core": true
+    },
+    {
+      "reference": [
+        197,
+        " "
+      ],
+      "target": [
+        197,
+        " "
+      ],
+      "fit_core": true
+    },
+    {
+      "reference": [
+        198,
+        " "
+      ],
+      "target": [
+        198,
+        " "
+      ],
+      "fit_core": true
+    },
+    {
+      "reference": [
+        199,
+        " "
+      ],
+      "target": [
+        199,
+        " "
+      ],
+      "fit_core": true
+    },
+    {
+      "reference": [
+        200,
+        " "
+      ],
+      "target": [
+        200,
+        " "
+      ],
+      "fit_core": true
+    },
+    {
+      "reference": [
+        201,
+        " "
+      ],
+      "target": [
+        201,
+        " "
+      ],
+      "fit_core": true
+    },
+    {
+      "reference": [
+        202,
+        " "
+      ],
+      "target": [
+        202,
+        " "
+      ],
+      "fit_core": true
+    },
+    {
+      "reference": [
+        203,
+        " "
+      ],
+      "target": [
+        203,
+        " "
+      ],
+      "fit_core": true
+    },
+    {
+      "reference": [
+        204,
+        " "
+      ],
+      "target": [
+        204,
+        " "
+      ],
+      "fit_core": true
+    },
+    {
+      "reference": [
+        205,
+        " "
+      ],
+      "target": [
+        205,
+        " "
+      ],
+      "fit_core": true
+    },
+    {
+      "reference": [
+        206,
+        " "
+      ],
+      "target": [
+        206,
+        " "
+      ],
+      "fit_core": true
+    },
+    {
+      "reference": [
+        207,
+        " "
+      ],
+      "target": [
+        207,
+        " "
+      ],
+      "fit_core": true
+    },
+    {
+      "reference": [
+        208,
+        " "
+      ],
+      "target": [
+        208,
+        " "
+      ],
+      "fit_core": true
+    },
+    {
+      "reference": [
+        209,
+        " "
+      ],
+      "target": [
+        209,
+        " "
+      ],
+      "fit_core": true
+    },
+    {
+      "reference": [
+        210,
+        " "
+      ],
+      "target": [
+        210,
+        " "
+      ],
+      "fit_core": true
+    },
+    {
+      "reference": [
+        211,
+        " "
+      ],
+      "target": [
+        211,
+        " "
+      ],
+      "fit_core": true
+    },
+    {
+      "reference": [
+        212,
+        " "
+      ],
+      "target": [
+        212,
+        " "
+      ],
+      "fit_core": true
+    },
+    {
+      "reference": [
+        213,
+        " "
+      ],
+      "target": [
+        213,
+        " "
+      ],
+      "fit_core": true
+    },
+    {
+      "reference": [
+        214,
+        " "
+      ],
+      "target": [
+        214,
+        " "
+      ],
+      "fit_core": true
+    },
+    {
+      "reference": [
+        215,
+        " "
+      ],
+      "target": [
+        215,
+        " "
+      ],
+      "fit_core": true
+    },
+    {
+      "reference": [
+        216,
+        " "
+      ],
+      "target": [
+        216,
+        " "
+      ],
+      "fit_core": true
+    },
+    {
+      "reference": [
+        217,
+        " "
+      ],
+      "target": [
+        217,
+        " "
+      ],
+      "fit_core": true
+    },
+    {
+      "reference": [
+        218,
+        " "
+      ],
+      "target": [
+        218,
+        " "
+      ],
+      "fit_core": true
+    },
+    {
+      "reference": [
+        219,
+        " "
+      ],
+      "target": [
+        219,
+        " "
+      ],
+      "fit_core": true
+    },
+    {
+      "reference": [
+        220,
+        " "
+      ],
+      "target": [
+        220,
+        " "
+      ],
+      "fit_core": true
+    },
+    {
+      "reference": [
+        221,
+        " "
+      ],
+      "target": [
+        221,
+        " "
+      ],
+      "fit_core": true
+    },
+    {
+      "reference": [
+        222,
+        " "
+      ],
+      "target": [
+        222,
+        " "
+      ],
+      "fit_core": true
+    },
+    {
+      "reference": [
+        223,
+        " "
+      ],
+      "target": [
+        223,
+        " "
+      ],
+      "fit_core": true
+    },
+    {
+      "reference": [
+        224,
+        " "
+      ],
+      "target": [
+        224,
+        " "
+      ],
+      "fit_core": true
+    },
+    {
+      "reference": [
+        225,
+        " "
+      ],
+      "target": [
+        225,
+        " "
+      ],
+      "fit_core": true
+    },
+    {
+      "reference": [
+        226,
+        " "
+      ],
+      "target": [
+        226,
+        " "
+      ],
+      "fit_core": true
+    },
+    {
+      "reference": [
+        227,
+        " "
+      ],
+      "target": [
+        227,
+        " "
+      ],
+      "fit_core": true
+    },
+    {
+      "reference": [
+        228,
+        " "
+      ],
+      "target": [
+        228,
+        " "
+      ],
+      "fit_core": true
+    },
+    {
+      "reference": [
+        229,
+        " "
+      ],
+      "target": [
+        229,
+        " "
+      ],
+      "fit_core": true
+    },
+    {
+      "reference": [
+        230,
+        " "
+      ],
+      "target": [
+        230,
+        " "
+      ],
+      "fit_core": true
+    },
+    {
+      "reference": [
+        231,
+        " "
+      ],
+      "target": [
+        231,
+        " "
+      ],
+      "fit_core": true
+    },
+    {
+      "reference": [
+        232,
+        " "
+      ],
+      "target": [
+        232,
+        " "
+      ],
+      "fit_core": true
+    },
+    {
+      "reference": [
+        233,
+        " "
+      ],
+      "target": [
+        233,
+        " "
+      ],
+      "fit_core": true
+    },
+    {
+      "reference": [
+        234,
+        " "
+      ],
+      "target": [
+        234,
+        " "
+      ],
+      "fit_core": true
+    },
+    {
+      "reference": [
+        235,
+        " "
+      ],
+      "target": [
+        235,
+        " "
+      ],
+      "fit_core": true
+    },
+    {
+      "reference": [
+        236,
+        " "
+      ],
+      "target": [
+        236,
+        " "
+      ],
+      "fit_core": true
+    },
+    {
+      "reference": [
+        237,
+        " "
+      ],
+      "target": [
+        237,
+        " "
+      ],
+      "fit_core": true
+    },
+    {
+      "reference": [
+        238,
+        " "
+      ],
+      "target": [
+        238,
+        " "
+      ],
+      "fit_core": true
+    },
+    {
+      "reference": [
+        239,
+        " "
+      ],
+      "target": [
+        239,
+        " "
+      ],
+      "fit_core": true
+    },
+    {
+      "reference": [
+        240,
+        " "
+      ],
+      "target": [
+        240,
+        " "
+      ],
+      "fit_core": true
+    },
+    {
+      "reference": [
+        241,
+        " "
+      ],
+      "target": [
+        241,
+        " "
+      ],
+      "fit_core": true
+    },
+    {
+      "reference": [
+        242,
+        " "
+      ],
+      "target": [
+        242,
+        " "
+      ],
+      "fit_core": true
+    },
+    {
+      "reference": [
+        248,
+        " "
+      ],
+      "target": [
+        248,
+        " "
+      ],
+      "fit_core": true
+    },
+    {
+      "reference": [
+        249,
+        " "
+      ],
+      "target": [
+        249,
+        " "
+      ],
+      "fit_core": true
+    },
+    {
+      "reference": [
+        250,
+        " "
+      ],
+      "target": [
+        250,
+        " "
+      ],
+      "fit_core": true
+    },
+    {
+      "reference": [
+        251,
+        " "
+      ],
+      "target": [
+        251,
+        " "
+      ],
+      "fit_core": true
+    },
+    {
+      "reference": [
+        252,
+        " "
+      ],
+      "target": [
+        252,
+        " "
+      ],
+      "fit_core": true
+    },
+    {
+      "reference": [
+        253,
+        " "
+      ],
+      "target": [
+        253,
+        " "
+      ],
+      "fit_core": true
+    },
+    {
+      "reference": [
+        254,
+        " "
+      ],
+      "target": [
+        254,
+        " "
+      ],
+      "fit_core": true
+    },
+    {
+      "reference": [
+        255,
+        " "
+      ],
+      "target": [
+        255,
+        " "
+      ],
+      "fit_core": true
+    },
+    {
+      "reference": [
+        256,
+        " "
+      ],
+      "target": [
+        256,
+        " "
+      ],
+      "fit_core": true
+    },
+    {
+      "reference": [
+        257,
+        " "
+      ],
+      "target": [
+        257,
+        " "
+      ],
+      "fit_core": true
+    },
+    {
+      "reference": [
+        258,
+        " "
+      ],
+      "target": [
+        258,
+        " "
+      ],
+      "fit_core": true
+    },
+    {
+      "reference": [
+        259,
+        " "
+      ],
+      "target": [
+        259,
+        " "
+      ],
+      "fit_core": true
+    },
+    {
+      "reference": [
+        260,
+        " "
+      ],
+      "target": [
+        260,
+        " "
+      ],
+      "fit_core": true
+    },
+    {
+      "reference": [
+        261,
+        " "
+      ],
+      "target": [
+        261,
+        " "
+      ],
+      "fit_core": true
+    },
+    {
+      "reference": [
+        262,
+        " "
+      ],
+      "target": [
+        262,
+        " "
+      ],
+      "fit_core": true
+    },
+    {
+      "reference": [
+        263,
+        " "
+      ],
+      "target": [
+        263,
+        " "
+      ],
+      "fit_core": true
+    },
+    {
+      "reference": [
+        264,
+        " "
+      ],
+      "target": [
+        264,
+        " "
+      ],
+      "fit_core": true
+    },
+    {
+      "reference": [
+        265,
+        " "
+      ],
+      "target": [
+        265,
+        " "
+      ],
+      "fit_core": true
+    },
+    {
+      "reference": [
+        266,
+        " "
+      ],
+      "target": [
+        266,
+        " "
+      ],
+      "fit_core": true
+    },
+    {
+      "reference": [
+        267,
+        " "
+      ],
+      "target": [
+        267,
+        " "
+      ],
+      "fit_core": true
+    },
+    {
+      "reference": [
+        268,
+        " "
+      ],
+      "target": [
+        268,
+        " "
+      ],
+      "fit_core": true
+    },
+    {
+      "reference": [
+        269,
+        " "
+      ],
+      "target": [
+        269,
+        " "
+      ],
+      "fit_core": true
+    },
+    {
+      "reference": [
+        270,
+        " "
+      ],
+      "target": [
+        270,
+        " "
+      ],
+      "fit_core": true
+    },
+    {
+      "reference": [
+        271,
+        " "
+      ],
+      "target": [
+        271,
+        " "
+      ],
+      "fit_core": true
+    },
+    {
+      "reference": [
+        272,
+        " "
+      ],
+      "target": [
+        272,
+        " "
+      ],
+      "fit_core": true
+    },
+    {
+      "reference": [
+        273,
+        " "
+      ],
+      "target": [
+        273,
+        " "
+      ],
+      "fit_core": true
+    },
+    {
+      "reference": [
+        274,
+        " "
+      ],
+      "target": [
+        274,
+        " "
+      ],
+      "fit_core": true
+    },
+    {
+      "reference": [
+        275,
+        " "
+      ],
+      "target": [
+        275,
+        " "
+      ],
+      "fit_core": true
+    },
+    {
+      "reference": [
+        276,
+        " "
+      ],
+      "target": [
+        276,
+        " "
+      ],
+      "fit_core": true
+    },
+    {
+      "reference": [
+        277,
+        " "
+      ],
+      "target": [
+        277,
+        " "
+      ],
+      "fit_core": true
+    },
+    {
+      "reference": [
+        278,
+        " "
+      ],
+      "target": [
+        278,
+        " "
+      ],
+      "fit_core": true
+    },
+    {
+      "reference": [
+        279,
+        " "
+      ],
+      "target": [
+        279,
+        " "
+      ],
+      "fit_core": true
+    },
+    {
+      "reference": [
+        280,
+        " "
+      ],
+      "target": [
+        280,
+        " "
+      ],
+      "fit_core": true
+    },
+    {
+      "reference": [
+        281,
+        " "
+      ],
+      "target": [
+        281,
+        " "
+      ],
+      "fit_core": true
+    },
+    {
+      "reference": [
+        282,
+        " "
+      ],
+      "target": [
+        282,
+        " "
+      ],
+      "fit_core": true
+    },
+    {
+      "reference": [
+        283,
+        " "
+      ],
+      "target": [
+        283,
+        " "
+      ],
+      "fit_core": true
+    },
+    {
+      "reference": [
+        284,
+        " "
+      ],
+      "target": [
+        284,
+        " "
+      ],
+      "fit_core": true
+    },
+    {
+      "reference": [
+        285,
+        " "
+      ],
+      "target": [
+        285,
+        " "
+      ],
+      "fit_core": true
+    },
+    {
+      "reference": [
+        286,
+        " "
+      ],
+      "target": [
+        286,
+        " "
+      ],
+      "fit_core": true
+    },
+    {
+      "reference": [
+        287,
+        " "
+      ],
+      "target": [
+        287,
+        " "
+      ],
+      "fit_core": true
+    },
+    {
+      "reference": [
+        288,
+        " "
+      ],
+      "target": [
+        288,
+        " "
+      ],
+      "fit_core": true
+    },
+    {
+      "reference": [
+        289,
+        " "
+      ],
+      "target": [
+        289,
+        " "
+      ],
+      "fit_core": true
+    },
+    {
+      "reference": [
+        290,
+        " "
+      ],
+      "target": [
+        290,
+        " "
+      ],
+      "fit_core": true
+    },
+    {
+      "reference": [
+        291,
+        " "
+      ],
+      "target": [
+        291,
+        " "
+      ],
+      "fit_core": true
+    },
+    {
+      "reference": [
+        292,
+        " "
+      ],
+      "target": [
+        292,
+        " "
+      ],
+      "fit_core": true
+    },
+    {
+      "reference": [
+        293,
+        " "
+      ],
+      "target": [
+        293,
+        " "
+      ],
+      "fit_core": true
+    },
+    {
+      "reference": [
+        294,
+        " "
+      ],
+      "target": [
+        294,
+        " "
+      ],
+      "fit_core": true
+    },
+    {
+      "reference": [
+        295,
+        " "
+      ],
+      "target": [
+        295,
+        " "
+      ],
+      "fit_core": true
+    },
+    {
+      "reference": [
+        296,
+        " "
+      ],
+      "target": [
+        296,
+        " "
+      ],
+      "fit_core": true
+    },
+    {
+      "reference": [
+        297,
+        " "
+      ],
+      "target": [
+        297,
+        " "
+      ],
+      "fit_core": true
+    },
+    {
+      "reference": [
+        298,
+        " "
+      ],
+      "target": [
+        298,
+        " "
+      ],
+      "fit_core": true
+    },
+    {
+      "reference": [
+        299,
+        " "
+      ],
+      "target": [
+        299,
+        " "
+      ],
+      "fit_core": true
+    },
+    {
+      "reference": [
+        300,
+        " "
+      ],
+      "target": [
+        300,
+        " "
+      ],
+      "fit_core": true
+    },
+    {
+      "reference": [
+        301,
+        " "
+      ],
+      "target": [
+        301,
+        " "
+      ],
+      "fit_core": true
+    },
+    {
+      "reference": [
+        302,
+        " "
+      ],
+      "target": [
+        302,
+        " "
+      ],
+      "fit_core": true
+    },
+    {
+      "reference": [
+        303,
+        " "
+      ],
+      "target": [
+        303,
+        " "
+      ],
+      "fit_core": true
+    },
+    {
+      "reference": [
+        304,
+        " "
+      ],
+      "target": [
+        304,
+        " "
+      ],
+      "fit_core": true
+    },
+    {
+      "reference": [
+        305,
+        " "
+      ],
+      "target": [
+        305,
+        " "
+      ],
+      "fit_core": true
+    },
+    {
+      "reference": [
+        306,
+        " "
+      ],
+      "target": [
+        306,
+        " "
+      ],
+      "fit_core": true
+    },
+    {
+      "reference": [
+        307,
+        " "
+      ],
+      "target": [
+        307,
+        " "
+      ],
+      "fit_core": true
+    },
+    {
+      "reference": [
+        308,
+        " "
+      ],
+      "target": [
+        308,
+        " "
+      ],
+      "fit_core": true
+    },
+    {
+      "reference": [
+        309,
+        " "
+      ],
+      "target": [
+        309,
+        " "
+      ],
+      "fit_core": true
+    },
+    {
+      "reference": [
+        310,
+        " "
+      ],
+      "target": [
+        310,
+        " "
+      ],
+      "fit_core": true
+    },
+    {
+      "reference": [
+        311,
+        " "
+      ],
+      "target": [
+        311,
+        " "
+      ],
+      "fit_core": true
+    },
+    {
+      "reference": [
+        312,
+        " "
+      ],
+      "target": [
+        312,
+        " "
+      ],
+      "fit_core": true
+    },
+    {
+      "reference": [
+        313,
+        " "
+      ],
+      "target": [
+        313,
+        " "
+      ],
+      "fit_core": true
+    },
+    {
+      "reference": [
+        314,
+        " "
+      ],
+      "target": [
+        314,
+        " "
+      ],
+      "fit_core": true
+    },
+    {
+      "reference": [
+        315,
+        " "
+      ],
+      "target": [
+        315,
+        " "
+      ],
+      "fit_core": true
+    },
+    {
+      "reference": [
+        316,
+        " "
+      ],
+      "target": [
+        316,
+        " "
+      ],
+      "fit_core": true
+    },
+    {
+      "reference": [
+        317,
+        " "
+      ],
+      "target": [
+        317,
+        " "
+      ],
+      "fit_core": true
+    },
+    {
+      "reference": [
+        318,
+        " "
+      ],
+      "target": [
+        318,
+        " "
+      ],
+      "fit_core": true
+    },
+    {
+      "reference": [
+        319,
+        " "
+      ],
+      "target": [
+        319,
+        " "
+      ],
+      "fit_core": true
+    },
+    {
+      "reference": [
+        320,
+        " "
+      ],
+      "target": [
+        320,
+        " "
+      ],
+      "fit_core": true
+    },
+    {
+      "reference": [
+        321,
+        " "
+      ],
+      "target": [
+        321,
+        " "
+      ],
+      "fit_core": true
+    },
+    {
+      "reference": [
+        322,
+        " "
+      ],
+      "target": [
+        322,
+        " "
+      ],
+      "fit_core": true
+    },
+    {
+      "reference": [
+        323,
+        " "
+      ],
+      "target": [
+        323,
+        " "
+      ],
+      "fit_core": true
+    },
+    {
+      "reference": [
+        324,
+        " "
+      ],
+      "target": [
+        324,
+        " "
+      ],
+      "fit_core": true
+    },
+    {
+      "reference": [
+        325,
+        " "
+      ],
+      "target": [
+        325,
+        " "
+      ],
+      "fit_core": true
+    },
+    {
+      "reference": [
+        326,
+        " "
+      ],
+      "target": [
+        326,
+        " "
+      ],
+      "fit_core": true
+    },
+    {
+      "reference": [
+        327,
+        " "
+      ],
+      "target": [
+        327,
+        " "
+      ],
+      "fit_core": true
+    },
+    {
+      "reference": [
+        328,
+        " "
+      ],
+      "target": [
+        328,
+        " "
+      ],
+      "fit_core": true
+    },
+    {
+      "reference": [
+        329,
+        " "
+      ],
+      "target": [
+        329,
+        " "
+      ],
+      "fit_core": true
+    },
+    {
+      "reference": [
+        330,
+        " "
+      ],
+      "target": [
+        330,
+        " "
+      ],
+      "fit_core": true
+    },
+    {
+      "reference": [
+        331,
+        " "
+      ],
+      "target": [
+        331,
+        " "
+      ],
+      "fit_core": true
+    },
+    {
+      "reference": [
+        332,
+        " "
+      ],
+      "target": [
+        332,
+        " "
+      ],
+      "fit_core": true
+    },
+    {
+      "reference": [
+        333,
+        " "
+      ],
+      "target": [
+        333,
+        " "
+      ],
+      "fit_core": true
+    },
+    {
+      "reference": [
+        334,
+        " "
+      ],
+      "target": [
+        334,
+        " "
+      ],
+      "fit_core": true
+    },
+    {
+      "reference": [
+        335,
+        " "
+      ],
+      "target": [
+        335,
+        " "
+      ],
+      "fit_core": true
+    },
+    {
+      "reference": [
+        336,
+        " "
+      ],
+      "target": [
+        336,
+        " "
+      ],
+      "fit_core": true
+    },
+    {
+      "reference": [
+        337,
+        " "
+      ],
+      "target": [
+        337,
+        " "
+      ],
+      "fit_core": true
+    },
+    {
+      "reference": [
+        338,
+        " "
+      ],
+      "target": [
+        338,
+        " "
+      ],
+      "fit_core": true
+    },
+    {
+      "reference": [
+        339,
+        " "
+      ],
+      "target": [
+        339,
+        " "
+      ],
+      "fit_core": true
+    },
+    {
+      "reference": [
+        340,
+        " "
+      ],
+      "target": [
+        340,
+        " "
+      ],
+      "fit_core": true
+    },
+    {
+      "reference": [
+        341,
+        " "
+      ],
+      "target": [
+        341,
+        " "
+      ],
+      "fit_core": true
+    },
+    {
+      "reference": [
+        342,
+        " "
+      ],
+      "target": [
+        342,
+        " "
+      ],
+      "fit_core": true
+    },
+    {
+      "reference": [
+        343,
+        " "
+      ],
+      "target": [
+        343,
+        " "
+      ],
+      "fit_core": true
+    },
+    {
+      "reference": [
+        344,
+        " "
+      ],
+      "target": [
+        344,
+        " "
+      ],
+      "fit_core": true
+    },
+    {
+      "reference": [
+        345,
+        " "
+      ],
+      "target": [
+        345,
+        " "
+      ],
+      "fit_core": true
+    },
+    {
+      "reference": [
+        346,
+        " "
+      ],
+      "target": [
+        346,
+        " "
+      ],
+      "fit_core": true
+    },
+    {
+      "reference": [
+        347,
+        " "
+      ],
+      "target": [
+        347,
+        " "
+      ],
+      "fit_core": true
+    },
+    {
+      "reference": [
+        348,
+        " "
+      ],
+      "target": [
+        348,
+        " "
+      ],
+      "fit_core": true
+    },
+    {
+      "reference": [
+        349,
+        " "
+      ],
+      "target": [
+        349,
+        " "
+      ],
+      "fit_core": true
+    },
+    {
+      "reference": [
+        350,
+        " "
+      ],
+      "target": [
+        350,
+        " "
+      ],
+      "fit_core": true
+    },
+    {
+      "reference": [
+        351,
+        " "
+      ],
+      "target": [
+        351,
+        " "
+      ],
+      "fit_core": true
+    },
+    {
+      "reference": [
+        352,
+        " "
+      ],
+      "target": [
+        352,
+        " "
+      ],
+      "fit_core": true
+    },
+    {
+      "reference": [
+        353,
+        " "
+      ],
+      "target": [
+        353,
+        " "
+      ],
+      "fit_core": true
+    },
+    {
+      "reference": [
+        354,
+        " "
+      ],
+      "target": [
+        354,
+        " "
+      ],
+      "fit_core": true
+    },
+    {
+      "reference": [
+        355,
+        " "
+      ],
+      "target": [
+        355,
+        " "
+      ],
+      "fit_core": true
+    },
+    {
+      "reference": [
+        356,
+        " "
+      ],
+      "target": [
+        356,
+        " "
+      ],
+      "fit_core": true
+    },
+    {
+      "reference": [
+        357,
+        " "
+      ],
+      "target": [
+        357,
+        " "
+      ],
+      "fit_core": true
+    },
+    {
+      "reference": [
+        358,
+        " "
+      ],
+      "target": [
+        358,
+        " "
+      ],
+      "fit_core": true
+    },
+    {
+      "reference": [
+        359,
+        " "
+      ],
+      "target": [
+        359,
+        " "
+      ],
+      "fit_core": true
+    },
+    {
+      "reference": [
+        360,
+        " "
+      ],
+      "target": [
+        360,
+        " "
+      ],
+      "fit_core": true
+    },
+    {
+      "reference": [
+        361,
+        " "
+      ],
+      "target": [
+        361,
+        " "
+      ],
+      "fit_core": true
+    },
+    {
+      "reference": [
+        362,
+        " "
+      ],
+      "target": [
+        362,
+        " "
+      ],
+      "fit_core": true
+    },
+    {
+      "reference": [
+        363,
+        " "
+      ],
+      "target": [
+        363,
+        " "
+      ],
+      "fit_core": true
+    },
+    {
+      "reference": [
+        364,
+        " "
+      ],
+      "target": [
+        364,
+        " "
+      ],
+      "fit_core": true
+    },
+    {
+      "reference": [
+        365,
+        " "
+      ],
+      "target": [
+        365,
+        " "
+      ],
+      "fit_core": true
+    },
+    {
+      "reference": [
+        366,
+        " "
+      ],
+      "target": [
+        366,
+        " "
+      ],
+      "fit_core": true
+    },
+    {
+      "reference": [
+        383,
+        " "
+      ],
+      "target": [
+        383,
+        " "
+      ],
+      "fit_core": true
+    },
+    {
+      "reference": [
+        384,
+        " "
+      ],
+      "target": [
+        384,
+        " "
+      ],
+      "fit_core": true
+    },
+    {
+      "reference": [
+        385,
+        " "
+      ],
+      "target": [
+        385,
+        " "
+      ],
+      "fit_core": true
+    },
+    {
+      "reference": [
+        386,
+        " "
+      ],
+      "target": [
+        386,
+        " "
+      ],
+      "fit_core": true
+    },
+    {
+      "reference": [
+        387,
+        " "
+      ],
+      "target": [
+        387,
+        " "
+      ],
+      "fit_core": true
+    },
+    {
+      "reference": [
+        388,
+        " "
+      ],
+      "target": [
+        388,
+        " "
+      ],
+      "fit_core": true
+    },
+    {
+      "reference": [
+        389,
+        " "
+      ],
+      "target": [
+        389,
+        " "
+      ],
+      "fit_core": true
+    },
+    {
+      "reference": [
+        390,
+        " "
+      ],
+      "target": [
+        390,
+        " "
+      ],
+      "fit_core": true
+    },
+    {
+      "reference": [
+        391,
+        " "
+      ],
+      "target": [
+        391,
+        " "
+      ],
+      "fit_core": true
+    },
+    {
+      "reference": [
+        392,
+        " "
+      ],
+      "target": [
+        392,
+        " "
+      ],
+      "fit_core": true
+    },
+    {
+      "reference": [
+        393,
+        " "
+      ],
+      "target": [
+        393,
+        " "
+      ],
+      "fit_core": true
+    },
+    {
+      "reference": [
+        394,
+        " "
+      ],
+      "target": [
+        394,
+        " "
+      ],
+      "fit_core": true
+    },
+    {
+      "reference": [
+        395,
+        " "
+      ],
+      "target": [
+        395,
+        " "
+      ],
+      "fit_core": true
+    },
+    {
+      "reference": [
+        396,
+        " "
+      ],
+      "target": [
+        396,
+        " "
+      ],
+      "fit_core": true
+    },
+    {
+      "reference": [
+        397,
+        " "
+      ],
+      "target": [
+        397,
+        " "
+      ],
+      "fit_core": true
+    },
+    {
+      "reference": [
+        398,
+        " "
+      ],
+      "target": [
+        398,
+        " "
+      ],
+      "fit_core": true
+    },
+    {
+      "reference": [
+        399,
+        " "
+      ],
+      "target": [
+        399,
+        " "
+      ],
+      "fit_core": true
+    },
+    {
+      "reference": [
+        400,
+        " "
+      ],
+      "target": [
+        400,
+        " "
+      ],
+      "fit_core": true
+    },
+    {
+      "reference": [
+        401,
+        " "
+      ],
+      "target": [
+        401,
+        " "
+      ],
+      "fit_core": true
+    },
+    {
+      "reference": [
+        402,
+        " "
+      ],
+      "target": [
+        402,
+        " "
+      ],
+      "fit_core": true
+    },
+    {
+      "reference": [
+        403,
+        " "
+      ],
+      "target": [
+        403,
+        " "
+      ],
+      "fit_core": true
+    },
+    {
+      "reference": [
+        404,
+        " "
+      ],
+      "target": [
+        404,
+        " "
+      ],
+      "fit_core": true
+    },
+    {
+      "reference": [
+        405,
+        " "
+      ],
+      "target": [
+        405,
+        " "
+      ],
+      "fit_core": true
+    },
+    {
+      "reference": [
+        406,
+        " "
+      ],
+      "target": [
+        406,
+        " "
+      ],
+      "fit_core": true
+    },
+    {
+      "reference": [
+        407,
+        " "
+      ],
+      "target": [
+        407,
+        " "
+      ],
+      "fit_core": true
+    },
+    {
+      "reference": [
+        408,
+        " "
+      ],
+      "target": [
+        408,
+        " "
+      ],
+      "fit_core": true
+    },
+    {
+      "reference": [
+        409,
+        " "
+      ],
+      "target": [
+        409,
+        " "
+      ],
+      "fit_core": true
+    },
+    {
+      "reference": [
+        410,
+        " "
+      ],
+      "target": [
+        410,
+        " "
+      ],
+      "fit_core": true
+    },
+    {
+      "reference": [
+        411,
+        " "
+      ],
+      "target": [
+        411,
+        " "
+      ],
+      "fit_core": true
+    },
+    {
+      "reference": [
+        412,
+        " "
+      ],
+      "target": [
+        412,
+        " "
+      ],
+      "fit_core": true
+    },
+    {
+      "reference": [
+        413,
+        " "
+      ],
+      "target": [
+        413,
+        " "
+      ],
+      "fit_core": true
+    },
+    {
+      "reference": [
+        414,
+        " "
+      ],
+      "target": [
+        414,
+        " "
+      ],
+      "fit_core": true
+    },
+    {
+      "reference": [
+        415,
+        " "
+      ],
+      "target": [
+        415,
+        " "
+      ],
+      "fit_core": true
+    },
+    {
+      "reference": [
+        416,
+        " "
+      ],
+      "target": [
+        416,
+        " "
+      ],
+      "fit_core": true
+    },
+    {
+      "reference": [
+        417,
+        " "
+      ],
+      "target": [
+        417,
+        " "
+      ],
+      "fit_core": true
+    },
+    {
+      "reference": [
+        418,
+        " "
+      ],
+      "target": [
+        418,
+        " "
+      ],
+      "fit_core": true
+    },
+    {
+      "reference": [
+        419,
+        " "
+      ],
+      "target": [
+        419,
+        " "
+      ],
+      "fit_core": true
+    },
+    {
+      "reference": [
+        420,
+        " "
+      ],
+      "target": [
+        420,
+        " "
+      ],
+      "fit_core": true
+    },
+    {
+      "reference": [
+        421,
+        " "
+      ],
+      "target": [
+        421,
+        " "
+      ],
+      "fit_core": true
+    },
+    {
+      "reference": [
+        422,
+        " "
+      ],
+      "target": [
+        422,
+        " "
+      ],
+      "fit_core": true
+    },
+    {
+      "reference": [
+        423,
+        " "
+      ],
+      "target": [
+        423,
+        " "
+      ],
+      "fit_core": true
+    },
+    {
+      "reference": [
+        424,
+        " "
+      ],
+      "target": [
+        424,
+        " "
+      ],
+      "fit_core": true
+    },
+    {
+      "reference": [
+        425,
+        " "
+      ],
+      "target": [
+        425,
+        " "
+      ],
+      "fit_core": true
+    },
+    {
+      "reference": [
+        426,
+        " "
+      ],
+      "target": [
+        426,
+        " "
+      ],
+      "fit_core": true
+    },
+    {
+      "reference": [
+        427,
+        " "
+      ],
+      "target": [
+        427,
+        " "
+      ],
+      "fit_core": true
+    },
+    {
+      "reference": [
+        428,
+        " "
+      ],
+      "target": [
+        428,
+        " "
+      ],
+      "fit_core": true
+    },
+    {
+      "reference": [
+        429,
+        " "
+      ],
+      "target": [
+        429,
+        " "
+      ],
+      "fit_core": true
+    },
+    {
+      "reference": [
+        430,
+        " "
+      ],
+      "target": [
+        430,
+        " "
+      ],
+      "fit_core": true
+    },
+    {
+      "reference": [
+        431,
+        " "
+      ],
+      "target": [
+        431,
+        " "
+      ],
+      "fit_core": true
+    },
+    {
+      "reference": [
+        432,
+        " "
+      ],
+      "target": [
+        432,
+        " "
+      ],
+      "fit_core": true
+    },
+    {
+      "reference": [
+        433,
+        " "
+      ],
+      "target": [
+        433,
+        " "
+      ],
+      "fit_core": true
+    },
+    {
+      "reference": [
+        434,
+        " "
+      ],
+      "target": [
+        434,
+        " "
+      ],
+      "fit_core": true
+    },
+    {
+      "reference": [
+        435,
+        " "
+      ],
+      "target": [
+        435,
+        " "
+      ],
+      "fit_core": true
+    },
+    {
+      "reference": [
+        436,
+        " "
+      ],
+      "target": [
+        436,
+        " "
+      ],
+      "fit_core": true
+    },
+    {
+      "reference": [
+        437,
+        " "
+      ],
+      "target": [
+        437,
+        " "
+      ],
+      "fit_core": true
+    },
+    {
+      "reference": [
+        438,
+        " "
+      ],
+      "target": [
+        438,
+        " "
+      ],
+      "fit_core": true
+    },
+    {
+      "reference": [
+        439,
+        " "
+      ],
+      "target": [
+        439,
+        " "
+      ],
+      "fit_core": true
+    },
+    {
+      "reference": [
+        440,
+        " "
+      ],
+      "target": [
+        440,
+        " "
+      ],
+      "fit_core": true
+    },
+    {
+      "reference": [
+        441,
+        " "
+      ],
+      "target": [
+        441,
+        " "
+      ],
+      "fit_core": true
+    },
+    {
+      "reference": [
+        442,
+        " "
+      ],
+      "target": [
+        442,
+        " "
+      ],
+      "fit_core": true
+    },
+    {
+      "reference": [
+        443,
+        " "
+      ],
+      "target": [
+        443,
+        " "
+      ],
+      "fit_core": true
+    },
+    {
+      "reference": [
+        444,
+        " "
+      ],
+      "target": [
+        444,
+        " "
+      ],
+      "fit_core": true
+    },
+    {
+      "reference": [
+        445,
+        " "
+      ],
+      "target": [
+        445,
+        " "
+      ],
+      "fit_core": true
+    },
+    {
+      "reference": [
+        446,
+        " "
+      ],
+      "target": [
+        446,
+        " "
+      ],
+      "fit_core": true
+    },
+    {
+      "reference": [
+        447,
+        " "
+      ],
+      "target": [
+        447,
+        " "
+      ],
+      "fit_core": true
+    },
+    {
+      "reference": [
+        448,
+        " "
+      ],
+      "target": [
+        448,
+        " "
+      ],
+      "fit_core": true
+    },
+    {
+      "reference": [
+        461,
+        " "
+      ],
+      "target": [
+        461,
+        " "
+      ],
+      "fit_core": true
+    },
+    {
+      "reference": [
+        462,
+        " "
+      ],
+      "target": [
+        462,
+        " "
+      ],
+      "fit_core": true
+    },
+    {
+      "reference": [
+        463,
+        " "
+      ],
+      "target": [
+        463,
+        " "
+      ],
+      "fit_core": true
+    },
+    {
+      "reference": [
+        464,
+        " "
+      ],
+      "target": [
+        464,
+        " "
+      ],
+      "fit_core": true
+    },
+    {
+      "reference": [
+        465,
+        " "
+      ],
+      "target": [
+        465,
+        " "
+      ],
+      "fit_core": true
+    },
+    {
+      "reference": [
+        466,
+        " "
+      ],
+      "target": [
+        466,
+        " "
+      ],
+      "fit_core": true
+    },
+    {
+      "reference": [
+        467,
+        " "
+      ],
+      "target": [
+        467,
+        " "
+      ],
+      "fit_core": true
+    },
+    {
+      "reference": [
+        468,
+        " "
+      ],
+      "target": [
+        468,
+        " "
+      ],
+      "fit_core": true
+    },
+    {
+      "reference": [
+        469,
+        " "
+      ],
+      "target": [
+        469,
+        " "
+      ],
+      "fit_core": true
+    },
+    {
+      "reference": [
+        470,
+        " "
+      ],
+      "target": [
+        470,
+        " "
+      ],
+      "fit_core": true
+    },
+    {
+      "reference": [
+        471,
+        " "
+      ],
+      "target": [
+        471,
+        " "
+      ],
+      "fit_core": true
+    },
+    {
+      "reference": [
+        472,
+        " "
+      ],
+      "target": [
+        472,
+        " "
+      ],
+      "fit_core": true
+    },
+    {
+      "reference": [
+        473,
+        " "
+      ],
+      "target": [
+        473,
+        " "
+      ],
+      "fit_core": true
+    },
+    {
+      "reference": [
+        474,
+        " "
+      ],
+      "target": [
+        474,
+        " "
+      ],
+      "fit_core": true
+    },
+    {
+      "reference": [
+        475,
+        " "
+      ],
+      "target": [
+        475,
+        " "
+      ],
+      "fit_core": true
+    },
+    {
+      "reference": [
+        476,
+        " "
+      ],
+      "target": [
+        476,
+        " "
+      ],
+      "fit_core": true
+    },
+    {
+      "reference": [
+        477,
+        " "
+      ],
+      "target": [
+        477,
+        " "
+      ],
+      "fit_core": true
+    },
+    {
+      "reference": [
+        478,
+        " "
+      ],
+      "target": [
+        478,
+        " "
+      ],
+      "fit_core": true
+    },
+    {
+      "reference": [
+        479,
+        " "
+      ],
+      "target": [
+        479,
+        " "
+      ],
+      "fit_core": true
+    },
+    {
+      "reference": [
+        480,
+        " "
+      ],
+      "target": [
+        480,
+        " "
+      ],
+      "fit_core": true
+    },
+    {
+      "reference": [
+        481,
+        " "
+      ],
+      "target": [
+        481,
+        " "
+      ],
+      "fit_core": true
+    },
+    {
+      "reference": [
+        482,
+        " "
+      ],
+      "target": [
+        482,
+        " "
+      ],
+      "fit_core": true
+    },
+    {
+      "reference": [
+        483,
+        " "
+      ],
+      "target": [
+        483,
+        " "
+      ],
+      "fit_core": true
+    },
+    {
+      "reference": [
+        484,
+        " "
+      ],
+      "target": [
+        484,
+        " "
+      ],
+      "fit_core": true
+    },
+    {
+      "reference": [
+        485,
+        " "
+      ],
+      "target": [
+        485,
+        " "
+      ],
+      "fit_core": true
+    },
+    {
+      "reference": [
+        486,
+        " "
+      ],
+      "target": [
+        486,
+        " "
+      ],
+      "fit_core": true
+    },
+    {
+      "reference": [
+        487,
+        " "
+      ],
+      "target": [
+        487,
+        " "
+      ],
+      "fit_core": true
+    },
+    {
+      "reference": [
+        488,
+        " "
+      ],
+      "target": [
+        488,
+        " "
+      ],
+      "fit_core": true
+    },
+    {
+      "reference": [
+        489,
+        " "
+      ],
+      "target": [
+        489,
+        " "
+      ],
+      "fit_core": true
+    },
+    {
+      "reference": [
+        490,
+        " "
+      ],
+      "target": [
+        490,
+        " "
+      ],
+      "fit_core": true
+    },
+    {
+      "reference": [
+        491,
+        " "
+      ],
+      "target": [
+        491,
+        " "
+      ],
+      "fit_core": true
+    },
+    {
+      "reference": [
+        492,
+        " "
+      ],
+      "target": [
+        492,
+        " "
+      ],
+      "fit_core": true
+    },
+    {
+      "reference": [
+        493,
+        " "
+      ],
+      "target": [
+        493,
+        " "
+      ],
+      "fit_core": true
+    },
+    {
+      "reference": [
+        494,
+        " "
+      ],
+      "target": [
+        494,
+        " "
+      ],
+      "fit_core": true
+    },
+    {
+      "reference": [
+        495,
+        " "
+      ],
+      "target": [
+        495,
+        " "
+      ],
+      "fit_core": true
+    },
+    {
+      "reference": [
+        496,
+        " "
+      ],
+      "target": [
+        496,
+        " "
+      ],
+      "fit_core": true
+    },
+    {
+      "reference": [
+        497,
+        " "
+      ],
+      "target": [
+        497,
+        " "
+      ],
+      "fit_core": true
+    },
+    {
+      "reference": [
+        498,
+        " "
+      ],
+      "target": [
+        498,
+        " "
+      ],
+      "fit_core": true
+    },
+    {
+      "reference": [
+        499,
+        " "
+      ],
+      "target": [
+        499,
+        " "
+      ],
+      "fit_core": true
+    },
+    {
+      "reference": [
+        500,
+        " "
+      ],
+      "target": [
+        500,
+        " "
+      ],
+      "fit_core": true
+    },
+    {
+      "reference": [
+        501,
+        " "
+      ],
+      "target": [
+        501,
+        " "
+      ],
+      "fit_core": true
+    },
+    {
+      "reference": [
+        502,
+        " "
+      ],
+      "target": [
+        502,
+        " "
+      ],
+      "fit_core": true
+    },
+    {
+      "reference": [
+        503,
+        " "
+      ],
+      "target": [
+        503,
+        " "
+      ],
+      "fit_core": true
+    },
+    {
+      "reference": [
+        504,
+        " "
+      ],
+      "target": [
+        504,
+        " "
+      ],
+      "fit_core": true
+    },
+    {
+      "reference": [
+        505,
+        " "
+      ],
+      "target": [
+        505,
+        " "
+      ],
+      "fit_core": true
+    },
+    {
+      "reference": [
+        506,
+        " "
+      ],
+      "target": [
+        506,
+        " "
+      ],
+      "fit_core": true
+    },
+    {
+      "reference": [
+        507,
+        " "
+      ],
+      "target": [
+        507,
+        " "
+      ],
+      "fit_core": true
+    },
+    {
+      "reference": [
+        508,
+        " "
+      ],
+      "target": [
+        508,
+        " "
+      ],
+      "fit_core": true
+    },
+    {
+      "reference": [
+        509,
+        " "
+      ],
+      "target": [
+        509,
+        " "
+      ],
+      "fit_core": true
+    },
+    {
+      "reference": [
+        510,
+        " "
+      ],
+      "target": [
+        510,
+        " "
+      ],
+      "fit_core": true
+    },
+    {
+      "reference": [
+        511,
+        " "
+      ],
+      "target": [
+        511,
+        " "
+      ],
+      "fit_core": true
+    },
+    {
+      "reference": [
+        512,
+        " "
+      ],
+      "target": [
+        512,
+        " "
+      ],
+      "fit_core": true
+    },
+    {
+      "reference": [
+        513,
+        " "
+      ],
+      "target": [
+        513,
+        " "
+      ],
+      "fit_core": true
+    },
+    {
+      "reference": [
+        514,
+        " "
+      ],
+      "target": [
+        514,
+        " "
+      ],
+      "fit_core": true
+    },
+    {
+      "reference": [
+        515,
+        " "
+      ],
+      "target": [
+        515,
+        " "
+      ],
+      "fit_core": true
+    },
+    {
+      "reference": [
+        516,
+        " "
+      ],
+      "target": [
+        516,
+        " "
+      ],
+      "fit_core": true
+    },
+    {
+      "reference": [
+        517,
+        " "
+      ],
+      "target": [
+        517,
+        " "
+      ],
+      "fit_core": true
+    },
+    {
+      "reference": [
+        518,
+        " "
+      ],
+      "target": [
+        518,
+        " "
+      ],
+      "fit_core": true
+    },
+    {
+      "reference": [
+        519,
+        " "
+      ],
+      "target": [
+        519,
+        " "
+      ],
+      "fit_core": true
+    },
+    {
+      "reference": [
+        520,
+        " "
+      ],
+      "target": [
+        520,
+        " "
+      ],
+      "fit_core": true
+    },
+    {
+      "reference": [
+        521,
+        " "
+      ],
+      "target": [
+        521,
+        " "
+      ],
+      "fit_core": true
+    },
+    {
+      "reference": [
+        522,
+        " "
+      ],
+      "target": [
+        522,
+        " "
+      ],
+      "fit_core": true
+    },
+    {
+      "reference": [
+        523,
+        " "
+      ],
+      "target": [
+        523,
+        " "
+      ],
+      "fit_core": true
+    },
+    {
+      "reference": [
+        524,
+        " "
+      ],
+      "target": [
+        524,
+        " "
+      ],
+      "fit_core": true
+    },
+    {
+      "reference": [
+        525,
+        " "
+      ],
+      "target": [
+        525,
+        " "
+      ],
+      "fit_core": true
+    },
+    {
+      "reference": [
+        526,
+        " "
+      ],
+      "target": [
+        526,
+        " "
+      ],
+      "fit_core": true
+    }
+  ],
+  "schema_version": 1,
+  "status": "PREPARATION_CANDIDATE",
+  "production_ready": false,
+  "protac": "JNJ1013",
+  "gene": "IRAK1",
+  "uniprot_id": "P51617",
+  "reference_kind": "modeled_conjugated_head_candidate",
+  "contains_modeled_head": true,
+  "head_bundle_sha256": "0e222b7c228d0a61dbd2fd202d12e91863791aef8468f6e0c7159dd375b6e435",
+  "source_path": "/home/ayushregmibagale/10PROTAC-MD/modeled_reference_candidates/JNJ1013/protein.pdb",
+  "source_sha256": "f636005eb9155089fa6aa77b0d5c952e6e85fa3b7ddacc43a3cac0d182650507",
+  "source_chain": "D",
+  "domain": [
+    1,
+    9999
+  ],
+  "head_min_distance_A": 2.691390161236374,
+  "reference_sha256": "6015846dbb48034b087e402cec0435ff636e72041f061b643211da1f7f287571",
+  "molecule_inchikey": "MHRNVFQJUUXQIG-VIFUUBRESA-N",
+  "files": {
+    "selection.json": "35d269763795f0e8585f3bf9a171037528820bc9443de00a2bf97a0836ba563e",
+    "vbc.pdb": "38a87ba99977645ba344f0d36a0d20be725150a50182c68bfab6cfdd183902a2",
+    "poi_head.sdf": "fa0a342c586f47112b1c721cb8af5fcee812504e3b4fe8dc2efac66955aa5466",
+    "protein.pdb": "dbbd464ab9d839424188bff2538637572c61fa58dda660791f40c9db4b1f5660",
+    "vhl_head.sdf": "926817eef52a725848ca79fd61679ea0605b4fa6eb6f1d63cacca3355ca56537",
+    "full.smi": "571134df69a9e2a6a3a98ecd451191def020ec1b598442c2ca2e44623c221334",
+    "Protac_params.txt": "44148151b5eaf9d2506e2ca9bb6626e5af2c5ea8aad802865dd91ddce5684756"
+  }
+}

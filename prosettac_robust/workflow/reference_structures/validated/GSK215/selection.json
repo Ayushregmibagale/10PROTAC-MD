@@ -1,0 +1,21 @@
+{
+  "vhl": {
+    "chains": [
+      "A"
+    ],
+    "record": "ATOM"
+  },
+  "poi": {
+    "chains": [
+      "D"
+    ],
+    "record": "ATOM"
+  },
+  "protac": {
+    "chains": [
+      "X"
+    ],
+    "record": "HETATM",
+    "resname": "PTC"
+  }
+}

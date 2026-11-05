@@ -1,0 +1,66 @@
+{
+  "status": "EXPLORATORY_RECOVERY_CRITERION_NOT_MET",
+  "execution_status": "COMPLETE",
+  "receipt_independently_verified": true,
+  "seed": 104729,
+  "stages": {
+    "global_sampling": {
+      "attempted": 1071,
+      "succeeded": 50,
+      "rejected": 1021,
+      "failed": 0
+    },
+    "local_docking": {
+      "attempted": 250,
+      "succeeded": 250,
+      "rejected": 0,
+      "failed": 0
+    },
+    "linker_modeling": {
+      "attempted": 250,
+      "succeeded": 1,
+      "rejected": 249,
+      "failed": 0
+    },
+    "scoring": {
+      "attempted": 1,
+      "succeeded": 1,
+      "rejected": 0,
+      "failed": 0
+    },
+    "pose_qc": {
+      "attempted": 1,
+      "succeeded": 1,
+      "rejected": 0,
+      "failed": 0
+    }
+  },
+  "elapsed_seconds": 1566.6200106143951,
+  "valid_pose": "combined_49_3_0001",
+  "valid_pose_vhl_CA_rmsd_A": 6.259668931786644,
+  "valid_pose_fraction_native_contacts": 0.5,
+  "criterion": {
+    "vhl_CA_rmsd_after_POI_fit_A_max": 5.0,
+    "fraction_native_contacts_min": 0.5,
+    "contact_cutoff_A": 5.0
+  },
+  "joint_criterion_met": false,
+  "raw_local_joint_criterion_hits": 0,
+  "raw_local_count": 250,
+  "best_raw_local_vhl_CA_rmsd_A": 4.168322870658645,
+  "biological_degrader_label": null,
+  "production_release": false,
+  "interpretation": "Chemically valid output is demonstrated; this finite global search missed its joint recovery criterion. No raw local arrangement met both geometry thresholds, so linker rejection alone cannot explain the miss. Single-seed failure does not prove an intrinsic inability to recover the native structure.",
+  "input_sha256": {
+    "selection.json": "35d269763795f0e8585f3bf9a171037528820bc9443de00a2bf97a0836ba563e",
+    "vbc.pdb": "38a87ba99977645ba344f0d36a0d20be725150a50182c68bfab6cfdd183902a2",
+    "poi_head.sdf": "1e39c54042c3b028ca6d0e4fe2a320f0ee5ab493b3b2daea22e396e3de1eadb4",
+    "protein.pdb": "52ac6c7d90bee91eed2f5d5f84b2f7b45e068f0e9da8945c6c945e39bf63c0a6",
+    "preparation.json": "cdc7677fe6f27e454baa3f3d290cb21b6509614a331a37830c82f416a29068af",
+    "vhl_head.sdf": "926817eef52a725848ca79fd61679ea0605b4fa6eb6f1d63cacca3355ca56537",
+    "full.smi": "2c10735a4f644a08ef4aac29b91fa9213a44931acbe12d7a7b2c7cb32ee0c2ed",
+    "Protac_params.txt": "42183eb86f4f5cdb68d99dfa53ed9b55612fad6022155615157f04a771dfc362",
+    "benchmark_plan.json": "ec1d99bacf613a1dc14ab406a3205aa1be48f5a4b0b402da0723fb8c9bc7cce8"
+  },
+  "source_manifest_sha256": "46c33e5e5b9371d891a6a8b15af6c0c51d3f17c02b44cbf61bf860444bbc4da3"
+}

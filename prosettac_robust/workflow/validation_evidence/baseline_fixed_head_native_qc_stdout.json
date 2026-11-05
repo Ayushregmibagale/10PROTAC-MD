@@ -1,0 +1,43 @@
+{
+  "status": "OUTPUT_QC_PASSED_REQUIRES_SCIENTIFIC_VALIDATION",
+  "raw_scored_poses": 1,
+  "qc_valid_poses": 1,
+  "qc_rejected_poses": 0,
+  "raw_pose_geometry_acceptance": 1.0,
+  "conditional_valid_bridge_fraction_5A": 1.0,
+  "biological_degrader_label": null,
+  "production_release": false,
+  "scope": "Chemistry and gross-clash checks only; head engagement, sampling and experimental validation remain required",
+  "selection_sha256": "35d269763795f0e8585f3bf9a171037528820bc9443de00a2bf97a0836ba563e",
+  "overlap_cutoff_A": 1.5,
+  "explicit_cutoff_override": null,
+  "score_sha256": "c2e694b0ec124d448f5157408b698dda366c6aff91c1169cbe84e666e925058f",
+  "poses": [
+    {
+      "total_score": 188.908562,
+      "description": "combined_0_0_0001",
+      "pdb_sha256": "7a66c987e2622d4ef686f69195d40a7c22f4f38c5869978c5665acee1b9b8d07",
+      "d_vhl": 2.4568837986359906,
+      "d_kin": 2.6344640821237255,
+      "bridging_5A": true,
+      "bridging_8A": true,
+      "clash_cutoff_A": 1.5,
+      "severe_overlap": false,
+      "head_engagement": {
+        "status": "MEASURED_NOT_A_BINDING_LABEL",
+        "contact_core_cutoff_A": 4.5,
+        "comparison": "No superposition; final PROTAC heads versus their docked bound-head coordinates",
+        "core_atoms": [
+          30,
+          35
+        ],
+        "vhl_core_rmsd_A": 0.0,
+        "poi_core_rmsd_A": 0.0,
+        "head_mapping_alternatives": 1,
+        "docked_head_reference_sha256": "7f7105aa1002282283f5b4f1db9c64fdd98260a9609c654fd78b3429a32bb781"
+      },
+      "status": "MECHANICAL_QC_PASSED",
+      "reason": ""
+    }
+  ]
+}

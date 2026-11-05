@@ -1,0 +1,12 @@
+{
+  "source_smiles_file": "/mnt/d/PROTAC degradation Prediction/data/structures/PROTAC/SJF8240/SJF8240.smi",
+  "source_file_sha256": "417cd0be95ddeaf0059eaa3c8917aa99cd8d4515da8e484ea549a7ef1ed33670",
+  "legacy_inchikey": "MCJFROJTDORRBB-ZWUDBOSPSA-N",
+  "supplier_verified_inchikey": "SCUZPTNDZHEHLB-ZWUDBOSPSA-N",
+  "legacy_formula": "C58H65F2N7O11S",
+  "supplier_formula": "C58H65F2N7O11S",
+  "legacy_heavy_atoms": 79,
+  "supplier_heavy_atoms": 79,
+  "same_stereochemical_graph": false,
+  "scope": "This compares the legacy input file, not every historical final pose or GNN dataset. Downstream impact has not yet been established."
+}

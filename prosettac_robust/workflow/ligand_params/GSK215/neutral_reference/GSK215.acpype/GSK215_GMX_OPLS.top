@@ -1,0 +1,19 @@
+; GSK215_GMX_OPLS.top created by acpype (v: 2023.10.27) on Wed Nov  4 14:43:43 2026
+
+; Include forcefield parameters
+#include "ffoplsaa.itp"
+
+; Include GSK215_GMX.itp topology
+#include "GSK215_GMX.itp"
+
+; Ligand position restraints
+#ifdef POSRES_LIG
+#include "posre_GSK215.itp"
+#endif
+
+[ system ]
+ GSK215
+
+[ molecules ]
+; Compound        nmols
+ GSK215           1     

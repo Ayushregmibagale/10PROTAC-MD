@@ -1,0 +1,53 @@
+{
+  "status": "OUTPUT_QC_PASSED_REQUIRES_SCIENTIFIC_VALIDATION",
+  "raw_scored_poses": 1,
+  "qc_valid_poses": 1,
+  "qc_rejected_poses": 0,
+  "raw_pose_geometry_acceptance": 1.0,
+  "local_pose_count": 250,
+  "local_poses_with_feasible_linkers": 1,
+  "conditional_valid_bridge_fraction_5A": 1.0,
+  "biological_degrader_label": null,
+  "production_release": false,
+  "scope": "Chemistry and gross-clash checks only; head engagement, sampling and experimental validation remain required",
+  "selection_sha256": "35d269763795f0e8585f3bf9a171037528820bc9443de00a2bf97a0836ba563e",
+  "overlap_cutoff_A": 1.5,
+  "explicit_cutoff_override": null,
+  "score_sha256": "93d4197313583ef1b7834ff81b5332b4d21048179da5df8afb6acdcff57776c8",
+  "poses": [
+    {
+      "total_score": 453.929638,
+      "description": "combined_49_3_0001",
+      "pdb_sha256": "6b8fb24a8ef178b0732517df0c45c3d47021799e5ad3acba73bd8df7bdd068aa",
+      "min_intraligand_nonbonded_heavy_A": 2.5875196617610436,
+      "d_vhl": 2.4568837986359906,
+      "d_kin": 2.6356183335225154,
+      "bridging_5A": true,
+      "bridging_8A": true,
+      "clash_cutoff_A": 1.5,
+      "min_ligand_all_protein_A": 2.4568837986359906,
+      "min_e3_complex_poi_A": 2.7476226087292255,
+      "protein_clash_e3_chains": [
+        "A",
+        "B",
+        "C"
+      ],
+      "severe_overlap": false,
+      "head_engagement": {
+        "status": "MEASURED_NOT_A_BINDING_LABEL",
+        "contact_core_cutoff_A": 4.5,
+        "comparison": "No superposition; final PROTAC heads versus their docked bound-head coordinates",
+        "core_atoms": [
+          30,
+          35
+        ],
+        "vhl_core_rmsd_A": 0.0,
+        "poi_core_rmsd_A": 0.0,
+        "head_mapping_alternatives": 1,
+        "docked_head_reference_sha256": "11371831988027081d25f34885f669b3a85a57fbeb0bb7aa274d00a0b63bffbf"
+      },
+      "status": "MECHANICAL_QC_PASSED",
+      "reason": ""
+    }
+  ]
+}

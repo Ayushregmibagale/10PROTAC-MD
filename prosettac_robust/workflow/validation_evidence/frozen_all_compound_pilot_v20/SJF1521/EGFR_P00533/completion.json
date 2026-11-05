@@ -1,0 +1,51 @@
+{
+  "schema_version": 1,
+  "attempt_id": "1487b03c-6148-437c-a233-c96f4866ffee",
+  "command": [
+    "/home/ayushregmibagale/miniconda3/envs/deepternary/bin/python",
+    "/tmp/10protac_finish/benchmarks/frozen_all_compound_pilot_v20/attempts/SJF1521/EGFR_P00533/514d2aae-bda7-44a5-9489-12b1505b6845/source_snapshot/baseline_engine/run.py",
+    "--run-dir",
+    "/tmp/10protac_finish/benchmarks/frozen_all_compound_pilot_v20/attempts/SJF1521/EGFR_P00533/514d2aae-bda7-44a5-9489-12b1505b6845",
+    "--seed",
+    "374761663",
+    "--protocol",
+    "global",
+    "--n-dock",
+    "3",
+    "--n-local",
+    "3",
+    "--conformers",
+    "2",
+    "--workers",
+    "1",
+    "--max-global-trials",
+    "20000"
+  ],
+  "recorder_sha256": "a4acc6161c630e91a1e4fe7b1fa501d6b641b82e548507c6542af2560c31e648",
+  "input_sha256": {
+    "selection.json": "35d269763795f0e8585f3bf9a171037528820bc9443de00a2bf97a0836ba563e",
+    "vbc.pdb": "d5d0c38470689c813f2c46495a479e6723568f2f131dbaddc8a95a469f539342",
+    "poi_head.sdf": "7c524a613f3c18892850731675e171752228a913b29089d7a9982b1694126edf",
+    "protein.pdb": "4a7b675638de75c32829a1284d188029a6ffaab139a6907593c2fba07098b4e2",
+    "preparation.json": "ac81ca745b5a019a6d5528f228a97d70885c59646e5e1d4d675d8f3eea12edbb",
+    "vhl_head.sdf": "37981dea105e48f8f26c666222ecad4ea8659270b46f0df9789fa49655a4a5d2",
+    "full.smi": "3302370deaabd590cef8fff386f73cf9f96e6227ef1e93bed09113d7518b69e0",
+    "Protac_params.txt": "4bbc7b65b1543126f038720781ec40ca3bd4e40bc31d3c79577f9e80bdfa3c77",
+    "campaign_intent.json": "f24d8aee672d53ffc5e65fb8d3eb017b82188ce70177659cc866070e1dcb5c45"
+  },
+  "selection_sha256": "35d269763795f0e8585f3bf9a171037528820bc9443de00a2bf97a0836ba563e",
+  "started_unix": 1793898803.8076642,
+  "status": "COMPLETE",
+  "exit_code": 0,
+  "process_id": 141,
+  "process_group_id": 141,
+  "engine_status_sha256": "d190d96652f0f9af352d2c3bfde57bf8259db902d7a483c732683eb066df4c2f",
+  "score_sha256": "d15034763c954a5874c1c3a6790c6be54f449be894f6ae669780e14a29ad9979",
+  "pose_sha256": {
+    "combined_1_1_0001": "8f15cf2e3093fe18177ccc059ebb7a82075a998ac55a239d8e1a0064165a6597",
+    "combined_3_3_0001": "542fef5d14a7f9ed4bf6c05ea14d887272a1bcb0cb0e4adb30c9500f483b7c6e"
+  },
+  "n_scored_valid": 2,
+  "reason": "",
+  "finished_unix": 1793898940.5146313
+}

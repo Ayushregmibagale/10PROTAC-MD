@@ -1,0 +1,31 @@
+{
+  "status": "OBSERVED_AFTER_REGRESSION_TESTS",
+  "environments": {
+    "analysis_python313": {
+      "python": "3.13.11 | packaged by Anaconda, Inc. | (main, Dec 10 2025, 21:28:48) [GCC 14.3.0]",
+      "executable": "/home/ayushregmibagale/miniconda3/bin/python3",
+      "versions": {
+        "numpy": "2.4.6",
+        "scipy": "1.17.1",
+        "rdkit": "2026.3.6",
+        "biopython": "1.85",
+        "pandas": "3.1.0",
+        "pytest": "9.1.1"
+      }
+    },
+    "docking_python310": {
+      "python": "3.10.22 | packaged by conda-forge | (main, Oct  6 2026, 23:02:24) [GCC 14.4.0]",
+      "executable": "/home/ayushregmibagale/miniconda3/envs/deepternary/bin/python",
+      "versions": {
+        "numpy": "2.2.6",
+        "scipy": "1.15.2",
+        "rdkit": "2025.9.5",
+        "biopython": "1.84",
+        "pandas": "2.3.3",
+        "pytest": "8.4.2"
+      }
+    }
+  },
+  "user_environments_modified": false,
+  "temporary_pytest_overlay": "/tmp/10protac_qc_py310"
+}

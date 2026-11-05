@@ -1,0 +1,24 @@
+# Target: DAPK1 | Category: low_affinity_no_degradation
+# Low-affinity SJF8240 binder; no VHL-mediated degradation observed
+# Kinase chain renamed A→D in protein_clean.pdb (avoid residue-number conflict with VHL 1-103)
+
+-s1 ../../data/structures/POI/low_affinity_no_degradation/DAPK1/DAPK1_warhead.pdb
+-s2 ../../data/structures/VHL/4W9H_VBC_clean.pdb
+-extra_res_fa ../../data/ligand_params/SJF8240.params
+-anchor1 1
+-anchor2 6
+-out:path:all ../../results/models/DAPK1/
+-out:prefix DAPK1_
+-out:nstruct 200
+-score:weights ref2015
+-out:file:scorefile ../../results/scores/DAPK1_scores.sc
+-nstruct_per_conf 5
+-conformers 200
+-dock_pert 3 8
+-randomize2
+-ex1
+-ex2aro
+-ignore_unrecognized_res
+-mute all
+-unmute protocols.moves.RigidBodyMover
+-log:level 200
