@@ -49,3 +49,15 @@ and runtime_manifest.json records the assembled runtime.
 
 Full raw retention includes empty failed-conformer markers and compatibility
 reference files. Previously produced historical attempts are not rewritten.
+
+
+## SJF8240 isolated derivative
+
+This copy adds exact disjoint stereo anchor mapping to initial distance sampling,
+rejects ambiguous atom correspondences, uses one RDKit thread, and records the
+finite seed-dependent histogram/range. `distance_sampler_repairs.patch` is an
+additional patch on the inherited checkpoint; the original patch remains intact.
+The helper change is in constrained_linker.py. A 200-conformer paired control in
+the actual docking environment produced identical conformer bytes, histogram and
+range for SJF8240 before/after this focused repair. This does not establish docking
+accuracy or exhaustive linker reach. Execution snapshots remain immutable.

@@ -1,0 +1,35 @@
+{
+  "status": "SAMPLED_HEURISTIC_RANGE",
+  "requested_conformers": 200,
+  "generated_conformers": 191,
+  "num_threads": 1,
+  "seed": 350386266,
+  "embedding_max_iterations_setting": 1440,
+  "full_molecule_anchor_indices_zero_based": [
+    49,
+    36
+  ],
+  "mapping": "Exact disjoint stereochemical complete heads; unique anchor pair",
+  "histogram_bin_width_A": 1.0,
+  "histogram": {
+    "12": 13,
+    "9": 43,
+    "11": 48,
+    "10": 67,
+    "7": 6,
+    "8": 13,
+    "6": 1
+  },
+  "hist_threshold": 0.75,
+  "min_margin_A": 2,
+  "range_A": [
+    7.9109947643979055,
+    11.910994764397905
+  ],
+  "source_sha256": {
+    "/tmp/10protac_finish/prosettac_robust/workflow/prepared_inputs/SJF8240/MET_P08581/vhl_head.sdf": "37981dea105e48f8f26c666222ecad4ea8659270b46f0df9789fa49655a4a5d2",
+    "/tmp/10protac_finish/prosettac_robust/workflow/prepared_inputs/SJF8240/MET_P08581/poi_head.sdf": "2c46229bc6f4d46bfd5cd0b8f152ccf0af2af45103aee38d752e3cba67c5ed53",
+    "/tmp/10protac_finish/prosettac_robust/workflow/prepared_inputs/SJF8240/MET_P08581/full.smi": "d66d442adccfab6b07c3aa34457027420932df051168ba5a9375b5a6754dbc08"
+  },
+  "interpretation": "Finite free-conformer heuristic; no biological negative or population inferred"
+}

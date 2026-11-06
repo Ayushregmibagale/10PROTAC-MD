@@ -1,0 +1,20 @@
+{
+  "status": "PRESPECIFIED_ADAPTIVE_SJF8240_INTEGRATION_DIAGNOSTIC",
+  "compound": "SJF8240",
+  "target": "MET",
+  "seed": 155921,
+  "n_global": 50,
+  "n_local_per_global": 5,
+  "requested_conformers_per_local": 2,
+  "workers": 2,
+  "max_global_trials": 20000,
+  "timeout_seconds": 3600,
+  "trigger": "The smaller 5x5x2 corrected-chemistry pilot completed with no valid pose. Explore a larger bounded bank to validate the SJF8240-to-MD handoff.",
+  "necessary_check": "At least one chemistry/full-complex-QC-valid full ternary pose; not an accuracy or biological degradation benchmark.",
+  "label": -1,
+  "limits": [
+    "No experimental ternary recovery claim for SJF8240",
+    "No production MD or GNN training release",
+    "Keep both this result and the zero-pose smaller pilot"
+  ]
+}

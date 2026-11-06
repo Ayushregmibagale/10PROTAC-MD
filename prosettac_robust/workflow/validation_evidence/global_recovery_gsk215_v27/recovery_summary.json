@@ -1,0 +1,193 @@
+{
+  "status": "ADAPTIVE_EXPLORATORY_RECOVERY_CRITERION_MET",
+  "seed": 155921,
+  "receipt_verified": true,
+  "poses": [
+    {
+      "status": "GEOMETRY_BENCHMARK_ONLY",
+      "reference_sha256": "b2f8e526142a71c8217f4305e9c84ff4b48e6166391bff56884391b6edd685d7",
+      "pose_sha256": "7c1c7a7c97454a62f3a2968c6ffceb4d2bde0b4556fba15491bcca6f0c6371c3",
+      "selection": {
+        "vhl": {
+          "chains": [
+            "A"
+          ],
+          "record": "ATOM"
+        },
+        "poi": {
+          "chains": [
+            "D"
+          ],
+          "record": "ATOM"
+        },
+        "protac": {
+          "chains": [
+            "X"
+          ],
+          "record": "HETATM",
+          "resname": "PTC"
+        },
+        "qc": {
+          "min_nonbonded_heavy_distance_A": 1.5,
+          "units": "Angstrom",
+          "basis": "Same minimum contact distance as bound-head preparation; gross-overlap exclusion only"
+        }
+      },
+      "alignment": "POI C\u03b1, compatible chain/residue number/insertion/residue name",
+      "coverage": {
+        "poi": {
+          "matched_CA": 264,
+          "reference_CA": 264,
+          "fraction": 1.0
+        },
+        "vhl": {
+          "matched_CA": 155,
+          "reference_CA": 155,
+          "fraction": 1.0
+        }
+      },
+      "poi_aligned_CA_rmsd_A": 0.0006906621776332411,
+      "vhl_CA_rmsd_after_POI_fit_A": 40.43713586884818,
+      "contact_cutoff_A": 5.0,
+      "contacts_definition": "Unique heavy-atom protein residue pairs within cutoff",
+      "native_contact_pairs": 16,
+      "model_contact_pairs": 8,
+      "recovered_native_contact_pairs": 0,
+      "fraction_native_contacts": 0.0,
+      "independent_global_recovery_demonstrated": false,
+      "limitations": [
+        "Protein orientation/interface metrics only; ligand geometry and chemistry need separate QC",
+        "A native-frame or input-derived self comparison cannot establish independent predictive recovery",
+        "No DockQ/CAPRI classification, affinity, degradation or thermodynamic probability inferred"
+      ],
+      "pose": "combined_42_5_0001",
+      "joint_exploratory_criterion_met": false
+    },
+    {
+      "status": "GEOMETRY_BENCHMARK_ONLY",
+      "reference_sha256": "b2f8e526142a71c8217f4305e9c84ff4b48e6166391bff56884391b6edd685d7",
+      "pose_sha256": "533c718e18a803134c9d3a95ca7c2dc5d40eb32dbdba15bdc38a198cae2d1956",
+      "selection": {
+        "vhl": {
+          "chains": [
+            "A"
+          ],
+          "record": "ATOM"
+        },
+        "poi": {
+          "chains": [
+            "D"
+          ],
+          "record": "ATOM"
+        },
+        "protac": {
+          "chains": [
+            "X"
+          ],
+          "record": "HETATM",
+          "resname": "PTC"
+        },
+        "qc": {
+          "min_nonbonded_heavy_distance_A": 1.5,
+          "units": "Angstrom",
+          "basis": "Same minimum contact distance as bound-head preparation; gross-overlap exclusion only"
+        }
+      },
+      "alignment": "POI C\u03b1, compatible chain/residue number/insertion/residue name",
+      "coverage": {
+        "poi": {
+          "matched_CA": 264,
+          "reference_CA": 264,
+          "fraction": 1.0
+        },
+        "vhl": {
+          "matched_CA": 155,
+          "reference_CA": 155,
+          "fraction": 1.0
+        }
+      },
+      "poi_aligned_CA_rmsd_A": 0.0006907366386847676,
+      "vhl_CA_rmsd_after_POI_fit_A": 1.8894251638174568,
+      "contact_cutoff_A": 5.0,
+      "contacts_definition": "Unique heavy-atom protein residue pairs within cutoff",
+      "native_contact_pairs": 16,
+      "model_contact_pairs": 14,
+      "recovered_native_contact_pairs": 9,
+      "fraction_native_contacts": 0.5625,
+      "independent_global_recovery_demonstrated": false,
+      "limitations": [
+        "Protein orientation/interface metrics only; ligand geometry and chemistry need separate QC",
+        "A native-frame or input-derived self comparison cannot establish independent predictive recovery",
+        "No DockQ/CAPRI classification, affinity, degradation or thermodynamic probability inferred"
+      ],
+      "pose": "combined_36_3_0001",
+      "joint_exploratory_criterion_met": true
+    },
+    {
+      "status": "GEOMETRY_BENCHMARK_ONLY",
+      "reference_sha256": "b2f8e526142a71c8217f4305e9c84ff4b48e6166391bff56884391b6edd685d7",
+      "pose_sha256": "f9550c2b549ef63c724972822a66b13dcbdfd396cfe361a7cc8c6283657f1340",
+      "selection": {
+        "vhl": {
+          "chains": [
+            "A"
+          ],
+          "record": "ATOM"
+        },
+        "poi": {
+          "chains": [
+            "D"
+          ],
+          "record": "ATOM"
+        },
+        "protac": {
+          "chains": [
+            "X"
+          ],
+          "record": "HETATM",
+          "resname": "PTC"
+        },
+        "qc": {
+          "min_nonbonded_heavy_distance_A": 1.5,
+          "units": "Angstrom",
+          "basis": "Same minimum contact distance as bound-head preparation; gross-overlap exclusion only"
+        }
+      },
+      "alignment": "POI C\u03b1, compatible chain/residue number/insertion/residue name",
+      "coverage": {
+        "poi": {
+          "matched_CA": 264,
+          "reference_CA": 264,
+          "fraction": 1.0
+        },
+        "vhl": {
+          "matched_CA": 155,
+          "reference_CA": 155,
+          "fraction": 1.0
+        }
+      },
+      "poi_aligned_CA_rmsd_A": 0.0007089490829305843,
+      "vhl_CA_rmsd_after_POI_fit_A": 42.97418875073526,
+      "contact_cutoff_A": 5.0,
+      "contacts_definition": "Unique heavy-atom protein residue pairs within cutoff",
+      "native_contact_pairs": 16,
+      "model_contact_pairs": 11,
+      "recovered_native_contact_pairs": 0,
+      "fraction_native_contacts": 0.0,
+      "independent_global_recovery_demonstrated": false,
+      "limitations": [
+        "Protein orientation/interface metrics only; ligand geometry and chemistry need separate QC",
+        "A native-frame or input-derived self comparison cannot establish independent predictive recovery",
+        "No DockQ/CAPRI classification, affinity, degradation or thermodynamic probability inferred"
+      ],
+      "pose": "combined_15_5_0001",
+      "joint_exploratory_criterion_met": false
+    }
+  ],
+  "base_commit_9d66c47_semantic_sources_match": true,
+  "limitations": [
+    "v26 missed the joint criterion and is retained.",
+    "This follow-up was planned after reviewing v26; it is not confirmatory validation.",
+    "One reference recovered in one of two seeds does not establish sampling convergence or SJF8240 accuracy."
+  ]
+}

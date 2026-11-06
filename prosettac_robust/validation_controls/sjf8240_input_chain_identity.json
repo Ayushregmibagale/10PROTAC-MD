@@ -1,0 +1,34 @@
+{
+  "status": "EXPLICIT_CHAIN_IDENTITIES_VERIFIED",
+  "rows": [
+    {
+      "chain": "A",
+      "uniprot": "P40337",
+      "observed_CA": 140,
+      "mapped_residues": 140,
+      "identity": 1.0
+    },
+    {
+      "chain": "B",
+      "uniprot": "Q15370",
+      "observed_CA": 101,
+      "mapped_residues": 101,
+      "identity": 1.0
+    },
+    {
+      "chain": "C",
+      "uniprot": "Q15369",
+      "observed_CA": 85,
+      "mapped_residues": 85,
+      "identity": 1.0
+    },
+    {
+      "chain": "D",
+      "uniprot": "P08581",
+      "observed_CA": 278,
+      "mapped_residues": 278,
+      "identity": 1.0
+    }
+  ],
+  "source": "Current corrected SJF8240/MET control inputs; no coordinate changes"
+}

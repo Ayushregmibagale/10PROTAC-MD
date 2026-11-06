@@ -1,0 +1,1548 @@
+{
+  "results": [
+    {
+      "entryType": "UniProtKB reviewed (Swiss-Prot)",
+      "primaryAccession": "O43353",
+      "genes": [
+        {
+          "geneName": {
+            "evidences": [
+              {
+                "evidenceCode": "ECO:0000303",
+                "source": "PubMed",
+                "id": "30026309"
+              },
+              {
+                "evidenceCode": "ECO:0000312",
+                "source": "HGNC",
+                "id": "HGNC:10020"
+              }
+            ],
+            "value": "RIPK2"
+          },
+          "synonyms": [
+            {
+              "evidences": [
+                {
+                  "evidenceCode": "ECO:0000303",
+                  "source": "PubMed",
+                  "id": "9705938"
+                }
+              ],
+              "value": "CARDIAK"
+            },
+            {
+              "evidences": [
+                {
+                  "evidenceCode": "ECO:0000303",
+                  "source": "PubMed",
+                  "id": "9575181"
+                }
+              ],
+              "value": "RICK"
+            },
+            {
+              "evidences": [
+                {
+                  "evidenceCode": "ECO:0000303",
+                  "source": "PubMed",
+                  "id": "9642260"
+                }
+              ],
+              "value": "RIP2"
+            }
+          ],
+          "orfNames": [
+            {
+              "evidences": [
+                {
+                  "evidenceCode": "ECO:0000303",
+                  "source": "PubMed",
+                  "id": "12975309"
+                }
+              ],
+              "value": "UNQ277/PRO314/PRO34092"
+            }
+          ]
+        }
+      ],
+      "features": [
+        {
+          "type": "Domain",
+          "location": {
+            "start": {
+              "value": 18,
+              "modifier": "EXACT"
+            },
+            "end": {
+              "value": 294,
+              "modifier": "EXACT"
+            }
+          },
+          "description": "Protein kinase",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000255",
+              "source": "PROSITE-ProRule",
+              "id": "PRU00159"
+            }
+          ]
+        },
+        {
+          "type": "Domain",
+          "location": {
+            "start": {
+              "value": 432,
+              "modifier": "EXACT"
+            },
+            "end": {
+              "value": 524,
+              "modifier": "EXACT"
+            }
+          },
+          "description": "CARD",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000255",
+              "source": "PROSITE-ProRule",
+              "id": "PRU00046"
+            }
+          ]
+        }
+      ],
+      "sequence": {
+        "value": "MNGEAICSALPTIPYHKLADLRYLSRGASGTVSSARHADWRVQVAVKHLHIHTPLLDSERKDVLREAEILHKARFSYILPILGICNEPEFLGIVTEYMPNGSLNELLHRKTEYPDVAWPLRFRILHEIALGVNYLHNMTPPLLHHDLKTQNILLDNEFHVKIADFGLSKWRMMSLSQSRSSKSAPEGGTIIYMPPENYEPGQKSRASIKHDIYSYAVITWEVLSRKQPFEDVTNPLQIMYSVSQGHRPVINEESLPYDIPHRARMISLIESGWAQNPDERPSFLKCLIELEPVLRTFEEITFLEAVIQLKKTKLQSVSSAIHLCDKKKMELSLNIPVNHGPQEESCGSSQLHENSGSPETSRSLPAPQDNDFLSRKAQDCYFMKLHHCPGNHSWDSTISGSQRAAFCDHKTTPCSSAIINPLSTAGNSERLQPGIAQQWIQSKREDIVNQMTEACLNQSLDALLSRDLIMKEDYELVSTKPTRTSKVRQLLDTTDIQGEEFAKVIVQKLKDNKQMGLQPYPEILVVSRSPSLNLLQNKSM",
+        "length": 540,
+        "molWeight": 61195,
+        "crc64": "575A692239505792",
+        "md5": "9FAB357664BCB6AAF6D68320F38AD955"
+      },
+      "extraAttributes": {
+        "uniParcId": "UPI00001338F2"
+      }
+    },
+    {
+      "entryType": "UniProtKB reviewed (Swiss-Prot)",
+      "primaryAccession": "P00519",
+      "genes": [
+        {
+          "geneName": {
+            "value": "ABL1"
+          },
+          "synonyms": [
+            {
+              "value": "ABL"
+            },
+            {
+              "value": "JTK7"
+            }
+          ]
+        }
+      ],
+      "features": [
+        {
+          "type": "Domain",
+          "location": {
+            "start": {
+              "value": 61,
+              "modifier": "EXACT"
+            },
+            "end": {
+              "value": 121,
+              "modifier": "EXACT"
+            }
+          },
+          "description": "SH3",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000255",
+              "source": "PROSITE-ProRule",
+              "id": "PRU00192"
+            }
+          ]
+        },
+        {
+          "type": "Domain",
+          "location": {
+            "start": {
+              "value": 127,
+              "modifier": "EXACT"
+            },
+            "end": {
+              "value": 217,
+              "modifier": "EXACT"
+            }
+          },
+          "description": "SH2",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000255",
+              "source": "PROSITE-ProRule",
+              "id": "PRU00191"
+            }
+          ]
+        },
+        {
+          "type": "Domain",
+          "location": {
+            "start": {
+              "value": 242,
+              "modifier": "EXACT"
+            },
+            "end": {
+              "value": 493,
+              "modifier": "EXACT"
+            }
+          },
+          "description": "Protein kinase",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000255",
+              "source": "PROSITE-ProRule",
+              "id": "PRU00159"
+            }
+          ]
+        }
+      ],
+      "sequence": {
+        "value": "MLEICLKLVGCKSKKGLSSSSSCYLEEALQRPVASDFEPQGLSEAARWNSKENLLAGPSENDPNLFVALYDFVASGDNTLSITKGEKLRVLGYNHNGEWCEAQTKNGQGWVPSNYITPVNSLEKHSWYHGPVSRNAAEYLLSSGINGSFLVRESESSPGQRSISLRYEGRVYHYRINTASDGKLYVSSESRFNTLAELVHHHSTVADGLITTLHYPAPKRNKPTVYGVSPNYDKWEMERTDITMKHKLGGGQYGEVYEGVWKKYSLTVAVKTLKEDTMEVEEFLKEAAVMKEIKHPNLVQLLGVCTREPPFYIITEFMTYGNLLDYLRECNRQEVNAVVLLYMATQISSAMEYLEKKNFIHRDLAARNCLVGENHLVKVADFGLSRLMTGDTYTAHAGAKFPIKWTAPESLAYNKFSIKSDVWAFGVLLWEIATYGMSPYPGIDLSQVYELLEKDYRMERPEGCPEKVYELMRACWQWNPSDRPSFAEIHQAFETMFQESSISDEVEKELGKQGVRGAVSTLLQAPELPTKTRTSRRAAEHRDTTDVPEMPHSKGQGESDPLDHEPAVSPLLPRKERGPPEGGLNEDERLLPKDKKTNLFSALIKKKKKTAPTPPKRSSSFREMDGQPERRGAGEEEGRDISNGALAFTPLDTADPAKSPKPSNGAGVPNGALRESGGSGFRSPHLWKKSSTLTSSRLATGEEEGGGSSSKRFLRSCSASCVPHGAKDTEWRSVTLPRDLQSTGRQFDSSTFGGHKSEKPALPRKRAGENRSDQVTRGTVTPPPRLVKKNEEAADEVFKDIMESSPGSSPPNLTPKPLRRQVTVAPASGLPHKEEAGKGSALGTPAAAEPVTPTSKAGSGAPGGTSKGPAEESRVRRHKHSSESPGRDKGKLSRLKPAPPPPPAASAGKAGGKPSQSPSQEAAGEAVLGAKTKATSLVDAVNSDAAKPSQPGEGLKKPVLPATPKPQSAKPSGTPISPAPVPSTLPSASSALAGDQPSSTAFIPLISTRVSLRKTRQPPERIASGAITKGVVLDSTEALCLAISRNSEQMASHSAVLEAGKNLYTFCVSYVDSIQQMRNKFAFREAINKLENNLRELQICPATAGSGPAATQDFSKLLSSVKEISDIVQR",
+        "length": 1130,
+        "molWeight": 122873,
+        "crc64": "85FE6C1C0E483EA2",
+        "md5": "D24F1EA01AC4C8D96E75DD9550A0FB09"
+      },
+      "extraAttributes": {
+        "uniParcId": "UPI000013D6D4"
+      }
+    },
+    {
+      "entryType": "UniProtKB reviewed (Swiss-Prot)",
+      "primaryAccession": "P08581",
+      "genes": [
+        {
+          "geneName": {
+            "value": "MET"
+          }
+        }
+      ],
+      "features": [
+        {
+          "type": "Domain",
+          "location": {
+            "start": {
+              "value": 27,
+              "modifier": "EXACT"
+            },
+            "end": {
+              "value": 515,
+              "modifier": "EXACT"
+            }
+          },
+          "description": "Sema",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000255",
+              "source": "PROSITE-ProRule",
+              "id": "PRU00352"
+            }
+          ]
+        },
+        {
+          "type": "Domain",
+          "location": {
+            "start": {
+              "value": 563,
+              "modifier": "EXACT"
+            },
+            "end": {
+              "value": 655,
+              "modifier": "EXACT"
+            }
+          },
+          "description": "IPT/TIG 1"
+        },
+        {
+          "type": "Domain",
+          "location": {
+            "start": {
+              "value": 657,
+              "modifier": "EXACT"
+            },
+            "end": {
+              "value": 739,
+              "modifier": "EXACT"
+            }
+          },
+          "description": "IPT/TIG 2"
+        },
+        {
+          "type": "Domain",
+          "location": {
+            "start": {
+              "value": 742,
+              "modifier": "EXACT"
+            },
+            "end": {
+              "value": 836,
+              "modifier": "EXACT"
+            }
+          },
+          "description": "IPT/TIG 3"
+        },
+        {
+          "type": "Domain",
+          "location": {
+            "start": {
+              "value": 1078,
+              "modifier": "EXACT"
+            },
+            "end": {
+              "value": 1345,
+              "modifier": "EXACT"
+            }
+          },
+          "description": "Protein kinase",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000255",
+              "source": "PROSITE-ProRule",
+              "id": "PRU00159"
+            }
+          ]
+        }
+      ],
+      "sequence": {
+        "value": "MKAPAVLAPGILVLLFTLVQRSNGECKEALAKSEMNVNMKYQLPNFTAETPIQNVILHEHHIFLGATNYIYVLNEEDLQKVAEYKTGPVLEHPDCFPCQDCSSKANLSGGVWKDNINMALVVDTYYDDQLISCGSVNRGTCQRHVFPHNHTADIQSEVHCIFSPQIEEPSQCPDCVVSALGAKVLSSVKDRFINFFVGNTINSSYFPDHPLHSISVRRLKETKDGFMFLTDQSYIDVLPEFRDSYPIKYVHAFESNNFIYFLTVQRETLDAQTFHTRIIRFCSINSGLHSYMEMPLECILTEKRKKRSTKKEVFNILQAAYVSKPGAQLARQIGASLNDDILFGVFAQSKPDSAEPMDRSAMCAFPIKYVNDFFNKIVNKNNVRCLQHFYGPNHEHCFNRTLLRNSSGCEARRDEYRTEFTTALQRVDLFMGQFSEVLLTSISTFIKGDLTIANLGTSEGRFMQVVVSRSGPSTPHVNFLLDSHPVSPEVIVEHTLNQNGYTLVITGKKITKIPLNGLGCRHFQSCSQCLSAPPFVQCGWCHDKCVRSEECLSGTWTQQICLPAIYKVFPNSAPLEGGTRLTICGWDFGFRRNNKFDLKKTRVLLGNESCTLTLSESTMNTLKCTVGPAMNKHFNMSIIISNGHGTTQYSTFSYVDPVITSISPKYGPMAGGTLLTLTGNYLNSGNSRHISIGGKTCTLKSVSNSILECYTPAQTISTEFAVKLKIDLANRETSIFSYREDPIVYEIHPTKSFISGGSTITGVGKNLNSVSVPRMVINVHEAGRNFTVACQHRSNSEIICCTTPSLQQLNLQLPLKTKAFFMLDGILSKYFDLIYVHNPVFKPFEKPVMISMGNENVLEIKGNDIDPEAVKGEVLKVGNKSCENIHLHSEAVLCTVPNDLLKLNSELNIEWKQAISSTVLGKVIVQPDQNFTGLIAGVVSISTALLLLLGFFLWLKKRKQIKDLGSELVRYDARVHTPHLDRLVSARSVSPTTEMVSNESVDYRATFPEDQFPNSSQNGSCRQVQYPLTDMSPILTSGDSDISSPLLQNTVHIDLSALNPELVQAVQHVVIGPSSLIVHFNEVIGRGHFGCVYHGTLLDNDGKKIHCAVKSLNRITDIGEVSQFLTEGIIMKDFSHPNVLSLLGICLRSEGSPLVVLPYMKHGDLRNFIRNETHNPTVKDLIGFGLQVAKGMKYLASKKFVHRDLAARNCMLDEKFTVKVADFGLARDMYDKEYYSVHNKTGAKLPVKWMALESLQTQKFTTKSDVWSFGVLLWELMTRGAPPYPDVNTFDITVYLLQGRRLLQPEYCPDPLYEVMLKCWHPKAEMRPSFSELVSRISAIFSTFIGEHYVHVNATYVNVKCVAPYPSLLSSEDNADDEVDTRPASFWETS",
+        "length": 1390,
+        "molWeight": 155541,
+        "crc64": "9CF896D1273905C3",
+        "md5": "EE0753C4F68E188BDDB0C66890BEEE23"
+      },
+      "extraAttributes": {
+        "uniParcId": "UPI000020F975"
+      }
+    },
+    {
+      "entryType": "UniProtKB reviewed (Swiss-Prot)",
+      "primaryAccession": "P11802",
+      "genes": [
+        {
+          "geneName": {
+            "evidences": [
+              {
+                "evidenceCode": "ECO:0000303",
+                "source": "PubMed",
+                "id": "7652577"
+              },
+              {
+                "evidenceCode": "ECO:0000312",
+                "source": "HGNC",
+                "id": "HGNC:1773"
+              }
+            ],
+            "value": "CDK4"
+          }
+        }
+      ],
+      "features": [
+        {
+          "type": "Domain",
+          "location": {
+            "start": {
+              "value": 6,
+              "modifier": "EXACT"
+            },
+            "end": {
+              "value": 295,
+              "modifier": "EXACT"
+            }
+          },
+          "description": "Protein kinase",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000255",
+              "source": "PROSITE-ProRule",
+              "id": "PRU00159"
+            }
+          ]
+        }
+      ],
+      "sequence": {
+        "value": "MATSRYEPVAEIGVGAYGTVYKARDPHSGHFVALKSVRVPNGGGGGGGLPISTVREVALLRRLEAFEHPNVVRLMDVCATSRTDREIKVTLVFEHVDQDLRTYLDKAPPPGLPAETIKDLMRQFLRGLDFLHANCIVHRDLKPENILVTSGGTVKLADFGLARIYSYQMALTPVVVTLWYRAPEVLLQSTYATPVDMWSVGCIFAEMFRRKPLFCGNSEADQLGKIFDLIGLPPEDDWPRDVSLPRGAFPPRGPRPVQSVVPEMEESGAQLLLEMLTFNPHKRISAFRALQHSYLHKDEGNPE",
+        "length": 303,
+        "molWeight": 33730,
+        "crc64": "0916A0C07403A33A",
+        "md5": "F2274C019B864269CC028C5A676EBCB7"
+      },
+      "extraAttributes": {
+        "uniParcId": "UPI0000113582"
+      }
+    },
+    {
+      "entryType": "UniProtKB reviewed (Swiss-Prot)",
+      "primaryAccession": "P24941",
+      "genes": [
+        {
+          "geneName": {
+            "value": "CDK2"
+          },
+          "synonyms": [
+            {
+              "value": "CDKN2"
+            }
+          ]
+        }
+      ],
+      "features": [
+        {
+          "type": "Domain",
+          "location": {
+            "start": {
+              "value": 4,
+              "modifier": "EXACT"
+            },
+            "end": {
+              "value": 286,
+              "modifier": "EXACT"
+            }
+          },
+          "description": "Protein kinase",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000255",
+              "source": "PROSITE-ProRule",
+              "id": "PRU00159"
+            }
+          ]
+        }
+      ],
+      "sequence": {
+        "value": "MENFQKVEKIGEGTYGVVYKARNKLTGEVVALKKIRLDTETEGVPSTAIREISLLKELNHPNIVKLLDVIHTENKLYLVFEFLHQDLKKFMDASALTGIPLPLIKSYLFQLLQGLAFCHSHRVLHRDLKPQNLLINTEGAIKLADFGLARAFGVPVRTYTHEVVTLWYRAPEILLGCKYYSTAVDIWSLGCIFAEMVTRRALFPGDSEIDQLFRIFRTLGTPDEVVWPGVTSMPDYKPSFPKWARQDFSKVVPPLDEDGRSLLSQMLHYDPNKRISAKAALAHPFFQDVTKPVPHLRL",
+        "length": 298,
+        "molWeight": 33930,
+        "crc64": "F90A0F4E70910B51",
+        "md5": "E738AF340C97DB8838EAACA382C140E1"
+      },
+      "extraAttributes": {
+        "uniParcId": "UPI00001105FA"
+      }
+    },
+    {
+      "entryType": "UniProtKB reviewed (Swiss-Prot)",
+      "primaryAccession": "P29317",
+      "genes": [
+        {
+          "geneName": {
+            "value": "EPHA2"
+          },
+          "synonyms": [
+            {
+              "value": "ECK"
+            }
+          ]
+        }
+      ],
+      "features": [
+        {
+          "type": "Domain",
+          "location": {
+            "start": {
+              "value": 28,
+              "modifier": "EXACT"
+            },
+            "end": {
+              "value": 206,
+              "modifier": "EXACT"
+            }
+          },
+          "description": "Eph LBD",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000255",
+              "source": "PROSITE-ProRule",
+              "id": "PRU00883"
+            }
+          ]
+        },
+        {
+          "type": "Domain",
+          "location": {
+            "start": {
+              "value": 328,
+              "modifier": "EXACT"
+            },
+            "end": {
+              "value": 432,
+              "modifier": "EXACT"
+            }
+          },
+          "description": "Fibronectin type-III 1",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000255",
+              "source": "PROSITE-ProRule",
+              "id": "PRU00316"
+            }
+          ]
+        },
+        {
+          "type": "Domain",
+          "location": {
+            "start": {
+              "value": 438,
+              "modifier": "EXACT"
+            },
+            "end": {
+              "value": 529,
+              "modifier": "EXACT"
+            }
+          },
+          "description": "Fibronectin type-III 2",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000255",
+              "source": "PROSITE-ProRule",
+              "id": "PRU00316"
+            }
+          ]
+        },
+        {
+          "type": "Domain",
+          "location": {
+            "start": {
+              "value": 613,
+              "modifier": "EXACT"
+            },
+            "end": {
+              "value": 875,
+              "modifier": "EXACT"
+            }
+          },
+          "description": "Protein kinase",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000255",
+              "source": "PROSITE-ProRule",
+              "id": "PRU00159"
+            }
+          ]
+        },
+        {
+          "type": "Domain",
+          "location": {
+            "start": {
+              "value": 904,
+              "modifier": "EXACT"
+            },
+            "end": {
+              "value": 968,
+              "modifier": "EXACT"
+            }
+          },
+          "description": "SAM",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000255",
+              "source": "PROSITE-ProRule",
+              "id": "PRU00184"
+            }
+          ]
+        }
+      ],
+      "sequence": {
+        "value": "MELQAARACFALLWGCALAAAAAAQGKEVVLLDFAAAGGELGWLTHPYGKGWDLMQNIMNDMPIYMYSVCNVMSGDQDNWLRTNWVYRGEAERIFIELKFTVRDCNSFPGGASSCKETFNLYYAESDLDYGTNFQKRLFTKIDTIAPDEITVSSDFEARHVKLNVEERSVGPLTRKGFYLAFQDIGACVALLSVRVYYKKCPELLQGLAHFPETIAGSDAPSLATVAGTCVDHAVVPPGGEEPRMHCAVDGEWLVPIGQCLCQAGYEKVEDACQACSPGFFKFEASESPCLECPEHTLPSPEGATSCECEEGFFRAPQDPASMPCTRPPSAPHYLTAVGMGAKVELRWTPPQDSGGREDIVYSVTCEQCWPESGECGPCEASVRYSEPPHGLTRTSVTVSDLEPHMNYTFTVEARNGVSGLVTSRSFRTASVSINQTEPPKVRLEGRSTTSLSVSWSIPPPQQSRVWKYEVTYRKKGDSNSYNVRRTEGFSVTLDDLAPDTTYLVQVQALTQEGQGAGSKVHEFQTLSPEGSGNLAVIGGVAVGVVLLLVLAGVGFFIHRRRKNQRARQSPEDVYFSKSEQLKPLKTYVDPHTYEDPNQAVLKFTTEIHPSCVTRQKVIGAGEFGEVYKGMLKTSSGKKEVPVAIKTLKAGYTEKQRVDFLGEAGIMGQFSHHNIIRLEGVISKYKPMMIITEYMENGALDKFLREKDGEFSVLQLVGMLRGIAAGMKYLANMNYVHRDLAARNILVNSNLVCKVSDFGLSRVLEDDPEATYTTSGGKIPIRWTAPEAISYRKFTSASDVWSFGIVMWEVMTYGERPYWELSNHEVMKAINDGFRLPTPMDCPSAIYQLMMQCWQQERARRPKFADIVSILDKLIRAPDSLKTLADFDPRVSIRLPSTSGSEGVPFRTVSEWLESIKMQQYTEHFMAAGYTAIEKVVQMTNDDIKRIGVRLPGHQKRIAYSLLGLKDQVNTVGIPI",
+        "length": 976,
+        "molWeight": 108266,
+        "crc64": "845D7E1BBCCAACCC",
+        "md5": "751C83CCAA7E8981AFFA3780720DE9EC"
+      },
+      "extraAttributes": {
+        "uniParcId": "UPI00000731AB"
+      }
+    },
+    {
+      "entryType": "UniProtKB reviewed (Swiss-Prot)",
+      "primaryAccession": "P29323",
+      "genes": [
+        {
+          "geneName": {
+            "value": "EPHB2"
+          },
+          "synonyms": [
+            {
+              "value": "DRT"
+            },
+            {
+              "value": "EPHT3"
+            },
+            {
+              "value": "EPTH3"
+            },
+            {
+              "value": "ERK"
+            },
+            {
+              "value": "HEK5"
+            },
+            {
+              "value": "TYRO5"
+            }
+          ]
+        }
+      ],
+      "features": [
+        {
+          "type": "Domain",
+          "location": {
+            "start": {
+              "value": 20,
+              "modifier": "EXACT"
+            },
+            "end": {
+              "value": 202,
+              "modifier": "EXACT"
+            }
+          },
+          "description": "Eph LBD",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000255",
+              "source": "PROSITE-ProRule",
+              "id": "PRU00883"
+            }
+          ]
+        },
+        {
+          "type": "Domain",
+          "location": {
+            "start": {
+              "value": 324,
+              "modifier": "EXACT"
+            },
+            "end": {
+              "value": 434,
+              "modifier": "EXACT"
+            }
+          },
+          "description": "Fibronectin type-III 1",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000255",
+              "source": "PROSITE-ProRule",
+              "id": "PRU00316"
+            }
+          ]
+        },
+        {
+          "type": "Domain",
+          "location": {
+            "start": {
+              "value": 435,
+              "modifier": "EXACT"
+            },
+            "end": {
+              "value": 530,
+              "modifier": "EXACT"
+            }
+          },
+          "description": "Fibronectin type-III 2",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000255",
+              "source": "PROSITE-ProRule",
+              "id": "PRU00316"
+            }
+          ]
+        },
+        {
+          "type": "Domain",
+          "location": {
+            "start": {
+              "value": 621,
+              "modifier": "EXACT"
+            },
+            "end": {
+              "value": 884,
+              "modifier": "EXACT"
+            }
+          },
+          "description": "Protein kinase",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000255",
+              "source": "PROSITE-ProRule",
+              "id": "PRU00159"
+            }
+          ]
+        },
+        {
+          "type": "Domain",
+          "location": {
+            "start": {
+              "value": 913,
+              "modifier": "EXACT"
+            },
+            "end": {
+              "value": 977,
+              "modifier": "EXACT"
+            }
+          },
+          "description": "SAM",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000255",
+              "source": "PROSITE-ProRule",
+              "id": "PRU00184"
+            }
+          ]
+        }
+      ],
+      "sequence": {
+        "value": "MALRRLGAALLLLPLLAAVEETLMDSTTATAELGWMVHPPSGWEEVSGYDENMNTIRTYQVCNVFESSQNNWLRTKFIRRRGAHRIHVEMKFSVRDCSSIPSVPGSCKETFNLYYYEADFDSATKTFPNWMENPWVKVDTIAADESFSQVDLGGRVMKINTEVRSFGPVSRSGFYLAFQDYGGCMSLIAVRVFYRKCPRIIQNGAIFQETLSGAESTSLVAARGSCIANAEEVDVPIKLYCNGDGEWLVPIGRCMCKAGFEAVENGTVCRGCPSGTFKANQGDEACTHCPINSRTTSEGATNCVCRNGYYRADLDPLDMPCTTIPSAPQAVISSVNETSLMLEWTPPRDSGGREDLVYNIICKSCGSGRGACTRCGDNVQYAPRQLGLTEPRIYISDLLAHTQYTFEIQAVNGVTDQSPFSPQFASVNITTNQAAPSAVSIMHQVSRTVDSITLSWSQPDQPNGVILDYELQYYEKELSEYNATAIKSPTNTVTVQGLKAGAIYVFQVRARTVAGYGRYSGKMYFQTMTEAEYQTSIQEKLPLIIGSSAAGLVFLIAVVVIAIVCNRRGFERADSEYTDKLQHYTSGHMTPGMKIYIDPFTYEDPNEAVREFAKEIDISCVKIEQVIGAGEFGEVCSGHLKLPGKREIFVAIKTLKSGYTEKQRRDFLSEASIMGQFDHPNVIHLEGVVTKSTPVMIITEFMENGSLDSFLRQNDGQFTVIQLVGMLRGIAAGMKYLADMNYVHRDLAARNILVNSNLVCKVSDFGLSRFLEDDTSDPTYTSALGGKIPIRWTAPEAIQYRKFTSASDVWSYGIVMWEVMSYGERPYWDMTNQDVINAIEQDYRLPPPMDCPSALHQLMLDCWQKDRNHRPKFGQIVNTLDKMIRNPNSLKAMAPLSSGINLPLLDRTIPDYTSFNTVDEWLEAIKMGQYKESFANAGFTSFDVVSQMMMEDILRVGVTLAGHQKKILNSIQVMRAQMNQIQSVEGQPLARRPRATGRTKRCQPRDVTKKTCNSNDGKKKGMGKKKTDPGRGREIQGIFFKEDSHKESNDCSCGG",
+        "length": 1055,
+        "molWeight": 117493,
+        "crc64": "4F8BFEDC45986483",
+        "md5": "8499CBD3D88427DA406F6FEEA6623E42"
+      },
+      "extraAttributes": {
+        "uniParcId": "UPI0000033EC3"
+      }
+    },
+    {
+      "entryType": "UniProtKB reviewed (Swiss-Prot)",
+      "primaryAccession": "P30530",
+      "genes": [
+        {
+          "geneName": {
+            "value": "AXL"
+          },
+          "synonyms": [
+            {
+              "value": "UFO"
+            }
+          ]
+        }
+      ],
+      "features": [
+        {
+          "type": "Domain",
+          "location": {
+            "start": {
+              "value": 27,
+              "modifier": "EXACT"
+            },
+            "end": {
+              "value": 128,
+              "modifier": "EXACT"
+            }
+          },
+          "description": "Ig-like C2-type 1"
+        },
+        {
+          "type": "Domain",
+          "location": {
+            "start": {
+              "value": 139,
+              "modifier": "EXACT"
+            },
+            "end": {
+              "value": 222,
+              "modifier": "EXACT"
+            }
+          },
+          "description": "Ig-like C2-type 2"
+        },
+        {
+          "type": "Domain",
+          "location": {
+            "start": {
+              "value": 227,
+              "modifier": "EXACT"
+            },
+            "end": {
+              "value": 331,
+              "modifier": "EXACT"
+            }
+          },
+          "description": "Fibronectin type-III 1",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000255",
+              "source": "PROSITE-ProRule",
+              "id": "PRU00316"
+            }
+          ]
+        },
+        {
+          "type": "Domain",
+          "location": {
+            "start": {
+              "value": 336,
+              "modifier": "EXACT"
+            },
+            "end": {
+              "value": 428,
+              "modifier": "EXACT"
+            }
+          },
+          "description": "Fibronectin type-III 2",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000255",
+              "source": "PROSITE-ProRule",
+              "id": "PRU00316"
+            }
+          ]
+        },
+        {
+          "type": "Domain",
+          "location": {
+            "start": {
+              "value": 536,
+              "modifier": "EXACT"
+            },
+            "end": {
+              "value": 807,
+              "modifier": "EXACT"
+            }
+          },
+          "description": "Protein kinase",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000255",
+              "source": "PROSITE-ProRule",
+              "id": "PRU00159"
+            }
+          ]
+        }
+      ],
+      "sequence": {
+        "value": "MAWRCPRMGRVPLAWCLALCGWACMAPRGTQAEESPFVGNPGNITGARGLTGTLRCQLQVQGEPPEVHWLRDGQILELADSTQTQVPLGEDEQDDWIVVSQLRITSLQLSDTGQYQCLVFLGHQTFVSQPGYVGLEGLPYFLEEPEDRTVAANTPFNLSCQAQGPPEPVDLLWLQDAVPLATAPGHGPQRSLHVPGLNKTSSFSCEAHNAKGVTTSRTATITVLPQQPRNLHLVSRQPTELEVAWTPGLSGIYPLTHCTLQAVLSDDGMGIQAGEPDPPEEPLTSQASVPPHQLRLGSLHPHTPYHIRVACTSSQGPSSWTHWLPVETPEGVPLGPPENISATRNGSQAFVHWQEPRAPLQGTLLGYRLAYQGQDTPEVLMDIGLRQEVTLELQGDGSVSNLTVCVAAYTAAGDGPWSLPVPLEAWRPGQAQPVHQLVKEPSTPAFSWPWWYVLLGAVVAAACVLILALFLVHRRKKETRYGEVFEPTVERGELVVRYRVRKSYSRRTTEATLNSLGISEELKEKLRDVMVDRHKVALGKTLGEGEFGAVMEGQLNQDDSILKVAVKTMKIAICTRSELEDFLSEAVCMKEFDHPNVMRLIGVCFQGSERESFPAPVVILPFMKHGDLHSFLLYSRLGDQPVYLPTQMLVKFMADIASGMEYLSTKRFIHRDLAARNCMLNENMSVCVADFGLSKKIYNGDYYRQGRIAKMPVKWIAIESLADRVYTSKSDVWSFGVTMWEIATRGQTPYPGVENSEIYDYLRQGNRLKQPADCLDGLYALMSRCWELNPQDRPSFTELREDLENTLKALPPAQEPDEILYVNMDEGGGYPEPPGAAGGADPPTQPDPKDSCSCLTAAEVHPAGRYVLCPSTTPSPAQPADRGSPAAPGQEDGA",
+        "length": 894,
+        "molWeight": 98337,
+        "crc64": "262D3659218E3202",
+        "md5": "57CD15357B0CAFED33B9BE7506BE14A6"
+      },
+      "extraAttributes": {
+        "uniParcId": "UPI000014319B"
+      }
+    },
+    {
+      "entryType": "UniProtKB reviewed (Swiss-Prot)",
+      "primaryAccession": "P40337",
+      "genes": [
+        {
+          "geneName": {
+            "value": "VHL"
+          }
+        }
+      ],
+      "features": [],
+      "sequence": {
+        "value": "MPRRAENWDEAEVGAEEAGVEEYGPEEDGGEESGAEESGPEESGPEELGAEEEMEAGRPRPVLRSVNSREPSQVIFCNRSPRVVLPVWLNFDGEPQPYPTLPPGTGRRIHSYRGHLWLFRDAGTHDGLLVNQTELFVPSLNVDGQPIFANITLPVYTLKERCLQVVRSLVKPENYRRLDIVRSLYEDLEDHPNVQKDLERLTQERIAHQRMGD",
+        "length": 213,
+        "molWeight": 24153,
+        "crc64": "BA5D6765FBC16EA7",
+        "md5": "C5F6BF6B87607EA572A0942BC3850564"
+      },
+      "extraAttributes": {
+        "uniParcId": "UPI0000035C95"
+      }
+    },
+    {
+      "entryType": "UniProtKB reviewed (Swiss-Prot)",
+      "primaryAccession": "P51617",
+      "genes": [
+        {
+          "geneName": {
+            "evidences": [
+              {
+                "evidenceCode": "ECO:0000312",
+                "source": "HGNC",
+                "id": "HGNC:6112"
+              }
+            ],
+            "value": "IRAK1"
+          },
+          "synonyms": [
+            {
+              "value": "IRAK"
+            }
+          ]
+        }
+      ],
+      "features": [
+        {
+          "type": "Domain",
+          "location": {
+            "start": {
+              "value": 27,
+              "modifier": "EXACT"
+            },
+            "end": {
+              "value": 106,
+              "modifier": "EXACT"
+            }
+          },
+          "description": "Death"
+        },
+        {
+          "type": "Domain",
+          "location": {
+            "start": {
+              "value": 212,
+              "modifier": "EXACT"
+            },
+            "end": {
+              "value": 521,
+              "modifier": "EXACT"
+            }
+          },
+          "description": "Protein kinase",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000255",
+              "source": "PROSITE-ProRule",
+              "id": "PRU00159"
+            }
+          ]
+        }
+      ],
+      "sequence": {
+        "value": "MAGGPGPGEPAAPGAQHFLYEVPPWVMCRFYKVMDALEPADWCQFAALIVRDQTELRLCERSGQRTASVLWPWINRNARVADLVHILTHLQLLRARDIITAWHPPAPLPSPGTTAPRPSSIPAPAEAEAWSPRKLPSSASTFLSPAFPGSQTHSGPELGLVPSPASLWPPPPSPAPSSTKPGPESSVSLLQGARPFPFCWPLCEISRGTHNFSEELKIGEGGFGCVYRAVMRNTVYAVKRLKENADLEWTAVKQSFLTEVEQLSRFRHPNIVDFAGYCAQNGFYCLVYGFLPNGSLEDRLHCQTQACPPLSWPQRLDILLGTARAIQFLHQDSPSLIHGDIKSSNVLLDERLTPKLGDFGLARFSRFAGSSPSQSSMVARTQTVRGTLAYLPEEYIKTGRLAVDTDTFSFGVVVLETLAGQRAVKTHGARTKYLKDLVEEEAEEAGVALRSTQSTLQAGLAADAWAAPIAMQIYKKHLDPRPGPCPPELGLGLGQLACCCLHRRAKRRPPMTQVYERLEKLQAVVAGVPGHSEAASCIPPSPQENSYVSSTGRAHSGAAPWQPLAAPSGASAQAAEQLQRGPNQPVESDESLGGLSAALRSWHLTPSCPLDPAPLREAGCPQGDTAGESSWGSGPGSRPTAVEGLALGSSASSSSEPPQIIINPARQKMVQKLALYEDGALDSLQLLSSSSLPGLGLEQDRQGPEESDEFQS",
+        "length": 712,
+        "molWeight": 76537,
+        "crc64": "A7ADED75D3A3981D",
+        "md5": "7C465F9A42DC946204C257C884BEDA6A"
+      },
+      "extraAttributes": {
+        "uniParcId": "UPI000012D873"
+      }
+    },
+    {
+      "entryType": "UniProtKB reviewed (Swiss-Prot)",
+      "primaryAccession": "P53355",
+      "genes": [
+        {
+          "geneName": {
+            "value": "DAPK1"
+          },
+          "synonyms": [
+            {
+              "value": "DAPK"
+            }
+          ]
+        }
+      ],
+      "features": [
+        {
+          "type": "Domain",
+          "location": {
+            "start": {
+              "value": 13,
+              "modifier": "EXACT"
+            },
+            "end": {
+              "value": 275,
+              "modifier": "EXACT"
+            }
+          },
+          "description": "Protein kinase",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000255",
+              "source": "PROSITE-ProRule",
+              "id": "PRU00159"
+            }
+          ]
+        },
+        {
+          "type": "Domain",
+          "location": {
+            "start": {
+              "value": 681,
+              "modifier": "EXACT"
+            },
+            "end": {
+              "value": 955,
+              "modifier": "EXACT"
+            }
+          },
+          "description": "Roc",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000255",
+              "source": "PROSITE-ProRule",
+              "id": "PRU00758"
+            }
+          ]
+        },
+        {
+          "type": "Domain",
+          "location": {
+            "start": {
+              "value": 1312,
+              "modifier": "EXACT"
+            },
+            "end": {
+              "value": 1396,
+              "modifier": "EXACT"
+            }
+          },
+          "description": "Death",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000255",
+              "source": "PROSITE-ProRule",
+              "id": "PRU00064"
+            }
+          ]
+        }
+      ],
+      "sequence": {
+        "value": "MTVFRQENVDDYYDTGEELGSGQFAVVKKCREKSTGLQYAAKFIKKRRTKSSRRGVSREDIEREVSILKEIQHPNVITLHEVYENKTDVILILELVAGGELFDFLAEKESLTEEEATEFLKQILNGVYYLHSLQIAHFDLKPENIMLLDRNVPKPRIKIIDFGLAHKIDFGNEFKNIFGTPEFVAPEIVNYEPLGLEADMWSIGVITYILLSGASPFLGDTKQETLANVSAVNYEFEDEYFSNTSALAKDFIRRLLVKDPKKRMTIQDSLQHPWIKPKDTQQALSRKASAVNMEKFKKFAARKKWKQSVRLISLCQRLSRSFLSRSNMSVARSDDTLDEEDSFVMKAIIHAINDDNVPGLQHLLGSLSNYDVNQPNKHGTPPLLIAAGCGNIQILQLLIKRGSRIDVQDKGGSNAVYWAARHGHVDTLKFLSENKCPLDVKDKSGEMALHVAARYGHADVAQLLCSFGSNPNIQDKEEETPLHCAAWHGYYSVAKALCEAGCNVNIKNREGETPLLTASARGYHDIVECLAEHGADLNACDKDGHIALHLAVRRCQMEVIKTLLSQGCFVDYQDRHGNTPLHVACKDGNMPIVVALCEANCNLDISNKYGRTPLHLAANNGILDVVRYLCLMGASVEALTTDGKTAEDLARSEQHEHVAGLLARLRKDTHRGLFIQQLRPTQNLQPRIKLKLFGHSGSGKTTLVESLKCGLLRSFFRRRRPRLSSTNSSRFPPSPLASKPTVSVSINNLYPGCENVSVRSRSMMFEPGLTKGMLEVFVAPTHHPHCSADDQSTKAIDIQNAYLNGVGDFSVWEFSGNPVYFCCYDYFAANDPTSIHVVVFSLEEPYEIQLNQVIFWLSFLKSLVPVEEPIAFGGKLKNPLQVVLVATHADIMNVPRPAGGEFGYDKDTSLLKEIRNRFGNDLHISNKLFVLDAGASGSKDMKVLRNHLQEIRSQIVSVCPPMTHLCEKIISTLPSWRKLNGPNQLMSLQQFVYDVQDQLNPLASEEDLRRIAQQLHSTGEINIMQSETVQDVLLLDPRWLCTNVLGKLLSVETPRALHHYRGRYTVEDIQRLVPDSDVEELLQILDAMDICARDLSSGTMVDVPALIKTDNLHRSWADEEDEVMVYGGVRIVPVEHLTPFPCGIFHKVQVNLCRWIHQQSTEGDADIRLWVNGCKLANRGAELLVLLVNHGQGIEVQVRGLETEKIKCCLLLDSVCSTIENVMATTLPGLLTVKHYLSPQQLREHHEPVMIYQPRDFFRAQTLKETSLTNTMGGYKESFSSIMCFGCHDVYSQASLGMDIHASDLNLLTRRKLSRLLDPPDPLGKDWCLLAMNLGLPDLVAKYNTSNGAPKDFLPSPLHALLREWTTYPESTVGTLMSKLRELGRRDAADFLLKASSVFKINLDGNGQEAYASSCNSGTSYNSISSVVSR",
+        "length": 1430,
+        "molWeight": 160046,
+        "crc64": "E2C4246E7C78A6D2",
+        "md5": "463EF701DEAB9E03C247D4A82B274659"
+      },
+      "extraAttributes": {
+        "uniParcId": "UPI0000210C2F"
+      }
+    },
+    {
+      "entryType": "UniProtKB reviewed (Swiss-Prot)",
+      "primaryAccession": "Q00534",
+      "genes": [
+        {
+          "geneName": {
+            "value": "CDK6"
+          },
+          "synonyms": [
+            {
+              "value": "CDKN6"
+            }
+          ]
+        }
+      ],
+      "features": [
+        {
+          "type": "Domain",
+          "location": {
+            "start": {
+              "value": 13,
+              "modifier": "EXACT"
+            },
+            "end": {
+              "value": 300,
+              "modifier": "EXACT"
+            }
+          },
+          "description": "Protein kinase",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000255",
+              "source": "PROSITE-ProRule",
+              "id": "PRU00159"
+            }
+          ]
+        }
+      ],
+      "sequence": {
+        "value": "MEKDGLCRADQQYECVAEIGEGAYGKVFKARDLKNGGRFVALKRVRVQTGEEGMPLSTIREVAVLRHLETFEHPNVVRLFDVCTVSRTDRETKLTLVFEHVDQDLTTYLDKVPEPGVPTETIKDMMFQLLRGLDFLHSHRVVHRDLKPQNILVTSSGQIKLADFGLARIYSFQMALTSVVVTLWYRAPEVLLQSSYATPVDLWSVGCIFAEMFRRKPLFRGSSDVDQLGKILDVIGLPGEEDWPRDVALPRQAFHSKSAQPIEKFVTDIDELGKDLLLKCLTFNPAKRISAYSALSHPYFQDLERCKENLDSHLPPSQNTSELNTA",
+        "length": 326,
+        "molWeight": 36938,
+        "crc64": "571733EE6BE7FD4A",
+        "md5": "A0BAB246E837D91D518ADC4B9F800D53"
+      },
+      "extraAttributes": {
+        "uniParcId": "UPI00001108FA"
+      }
+    },
+    {
+      "entryType": "UniProtKB reviewed (Swiss-Prot)",
+      "primaryAccession": "Q00537",
+      "genes": [
+        {
+          "geneName": {
+            "value": "CDK17"
+          },
+          "synonyms": [
+            {
+              "value": "PCTAIRE2"
+            },
+            {
+              "value": "PCTK2"
+            }
+          ]
+        }
+      ],
+      "features": [
+        {
+          "type": "Domain",
+          "location": {
+            "start": {
+              "value": 192,
+              "modifier": "EXACT"
+            },
+            "end": {
+              "value": 473,
+              "modifier": "EXACT"
+            }
+          },
+          "description": "Protein kinase",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000255",
+              "source": "PROSITE-ProRule",
+              "id": "PRU00159"
+            }
+          ]
+        }
+      ],
+      "sequence": {
+        "value": "MKKFKRRLSLTLRGSQTIDESLSELAEQMTIEENSSKDNEPIVKNGRPPTSHSMHSFLHQYTGSFKKPPLRRPHSVIGGSLGSFMAMPRNGSRLDIVHENLKMGSDGESDQASGTSSDEVQSPTGVCLRNRIHRRISMEDLNKRLSLPADIRIPDGYLEKLQINSPPFDQPMSRRSRRASLSEIGFGKMETYIKLEKLGEGTYATVYKGRSKLTENLVALKEIRLEHEEGAPCTAIREVSLLKDLKHANIVTLHDIVHTDKSLTLVFEYLDKDLKQYMDDCGNIMSMHNVKLFLYQILRGLAYCHRRKVLHRDLKPQNLLINEKGELKLADFGLARAKSVPTKTYSNEVVTLWYRPPDVLLGSSEYSTQIDMWGVGCIFFEMASGRPLFPGSTVEDELHLIFRLLGTPSQETWPGISSNEEFKNYNFPKYKPQPLINHAPRLDSEGIELITKFLQYESKKRVSAEEAMKHVYFRSLGPRIHALPESVSIFSLKEIQLQKDPGFRNSSYPETGHGKNRRQSMLF",
+        "length": 523,
+        "molWeight": 59582,
+        "crc64": "429ABD1DCBB5A082",
+        "md5": "EC9C15EE7E279B4F6887A9B95C12338B"
+      },
+      "extraAttributes": {
+        "uniParcId": "UPI000006F45A"
+      }
+    },
+    {
+      "entryType": "UniProtKB reviewed (Swiss-Prot)",
+      "primaryAccession": "Q15369",
+      "genes": [
+        {
+          "geneName": {
+            "evidences": [
+              {
+                "evidenceCode": "ECO:0000312",
+                "source": "HGNC",
+                "id": "HGNC:11617"
+              }
+            ],
+            "value": "ELOC"
+          },
+          "synonyms": [
+            {
+              "evidences": [
+                {
+                  "evidenceCode": "ECO:0000312",
+                  "source": "HGNC",
+                  "id": "HGNC:11617"
+                }
+              ],
+              "value": "TCEB1"
+            }
+          ]
+        }
+      ],
+      "features": [],
+      "sequence": {
+        "value": "MDGEEKTYGGCEGPDAMYVKLISSDGHEFIVKREHALTSGTIKAMLSGPGQFAENETNEVNFREIPSHVLSKVCMYFTYKVRYTNSSTEIPEFPIAPEIALELLMAANFLDC",
+        "length": 112,
+        "molWeight": 12473,
+        "crc64": "98D88696E883538B",
+        "md5": "F51C0A3316DAAB0C3905ABD30B472309"
+      },
+      "extraAttributes": {
+        "uniParcId": "UPI000002921A"
+      }
+    },
+    {
+      "entryType": "UniProtKB reviewed (Swiss-Prot)",
+      "primaryAccession": "Q15370",
+      "genes": [
+        {
+          "geneName": {
+            "evidences": [
+              {
+                "evidenceCode": "ECO:0000312",
+                "source": "HGNC",
+                "id": "HGNC:11619"
+              }
+            ],
+            "value": "ELOB"
+          },
+          "synonyms": [
+            {
+              "value": "TCEB2"
+            }
+          ]
+        }
+      ],
+      "features": [
+        {
+          "type": "Domain",
+          "location": {
+            "start": {
+              "value": 1,
+              "modifier": "EXACT"
+            },
+            "end": {
+              "value": 66,
+              "modifier": "EXACT"
+            }
+          },
+          "description": "Ubiquitin-like",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000255",
+              "source": "PROSITE-ProRule",
+              "id": "PRU00214"
+            }
+          ]
+        }
+      ],
+      "sequence": {
+        "value": "MDVFLMIRRHKTTIFTDAKESSTVFELKRIVEGILKRPPDEQRLYKDDQLLDDGKTLGECGFTSQTARPQAPATVGLAFRADDTFEALCIEPFSSPPELPDVMKPQDSGSSANEQAVQ",
+        "length": 118,
+        "molWeight": 13133,
+        "crc64": "C045F58FBED0EC47",
+        "md5": "E233A7F619BB09925C63911C2DD67156"
+      },
+      "extraAttributes": {
+        "uniParcId": "UPI0000032BA6"
+      }
+    },
+    {
+      "entryType": "UniProtKB reviewed (Swiss-Prot)",
+      "primaryAccession": "Q16539",
+      "genes": [
+        {
+          "geneName": {
+            "evidences": [
+              {
+                "evidenceCode": "ECO:0000312",
+                "source": "HGNC",
+                "id": "HGNC:6876"
+              }
+            ],
+            "value": "MAPK14"
+          },
+          "synonyms": [
+            {
+              "value": "CSBP"
+            },
+            {
+              "value": "CSBP1"
+            },
+            {
+              "value": "CSBP2"
+            },
+            {
+              "value": "CSPB1"
+            },
+            {
+              "value": "MXI2"
+            },
+            {
+              "value": "SAPK2A"
+            }
+          ]
+        }
+      ],
+      "features": [
+        {
+          "type": "Domain",
+          "location": {
+            "start": {
+              "value": 24,
+              "modifier": "EXACT"
+            },
+            "end": {
+              "value": 308,
+              "modifier": "EXACT"
+            }
+          },
+          "description": "Protein kinase",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000255",
+              "source": "PROSITE-ProRule",
+              "id": "PRU00159"
+            }
+          ]
+        }
+      ],
+      "sequence": {
+        "value": "MSQERPTFYRQELNKTIWEVPERYQNLSPVGSGAYGSVCAAFDTKTGLRVAVKKLSRPFQSIIHAKRTYRELRLLKHMKHENVIGLLDVFTPARSLEEFNDVYLVTHLMGADLNNIVKCQKLTDDHVQFLIYQILRGLKYIHSADIIHRDLKPSNLAVNEDCELKILDFGLARHTDDEMTGYVATRWYRAPEIMLNWMHYNQTVDIWSVGCIMAELLTGRTLFPGTDHIDQLKLILRLVGTPGAELLKKISSESARNYIQSLTQMPKMNFANVFIGANPLAVDLLEKMLVLDSDKRITAAQALAHAYFAQYHDPDDEPVADPYDQSFESRDLLIDEWKSLTYDEVISFVPPPLDQEEMES",
+        "length": 360,
+        "molWeight": 41293,
+        "crc64": "286C81D0487618B3",
+        "md5": "4F35EE5C7E10D2F8F66E8580CD2F9708"
+      },
+      "extraAttributes": {
+        "uniParcId": "UPI0000110FF1"
+      }
+    },
+    {
+      "entryType": "UniProtKB reviewed (Swiss-Prot)",
+      "primaryAccession": "Q16832",
+      "genes": [
+        {
+          "geneName": {
+            "value": "DDR2"
+          },
+          "synonyms": [
+            {
+              "value": "NTRKR3"
+            },
+            {
+              "value": "TKT"
+            },
+            {
+              "value": "TYRO10"
+            }
+          ]
+        }
+      ],
+      "features": [
+        {
+          "type": "Domain",
+          "location": {
+            "start": {
+              "value": 30,
+              "modifier": "EXACT"
+            },
+            "end": {
+              "value": 185,
+              "modifier": "EXACT"
+            }
+          },
+          "description": "F5/8 type C",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000255",
+              "source": "PROSITE-ProRule",
+              "id": "PRU00081"
+            }
+          ]
+        },
+        {
+          "type": "Domain",
+          "location": {
+            "start": {
+              "value": 563,
+              "modifier": "EXACT"
+            },
+            "end": {
+              "value": 849,
+              "modifier": "EXACT"
+            }
+          },
+          "description": "Protein kinase",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000255",
+              "source": "PROSITE-ProRule",
+              "id": "PRU00159"
+            }
+          ]
+        }
+      ],
+      "sequence": {
+        "value": "MILIPRMLLVLFLLLPILSSAKAQVNPAICRYPLGMSGGQIPDEDITASSQWSESTAAKYGRLDSEEGDGAWCPEIPVEPDDLKEFLQIDLHTLHFITLVGTQGRHAGGHGIEFAPMYKINYSRDGTRWISWRNRHGKQVLDGNSNPYDIFLKDLEPPIVARFVRFIPVTDHSMNVCMRVELYGCVWLDGLVSYNAPAGQQFVLPGGSIIYLNDSVYDGAVGYSMTEGLGQLTDGVSGLDDFTQTHEYHVWPGYDYVGWRNESATNGYIEIMFEFDRIRNFTTMKVHCNNMFAKGVKIFKEVQCYFRSEASEWEPNAISFPLVLDDVNPSARFVTVPLHHRMASAIKCQYHFADTWMMFSEITFQSDAAMYNNSEALPTSPMAPTTYDPMLKVDDSNTRILIGCLVAIIFILLAIIVIILWRQFWQKMLEKASRRMLDDEMTVSLSLPSDSSMFNNNRSSSPSEQGSNSTYDRIFPLRPDYQEPSRLIRKLPEFAPGEEESGCSGVVKPVQPSGPEGVPHYAEADIVNLQGVTGGNTYSVPAVTMDLLSGKDVAVEEFPRKLLTFKEKLGEGQFGEVHLCEVEGMEKFKDKDFALDVSANQPVLVAVKMLRADANKNARNDFLKEIKIMSRLKDPNIIHLLAVCITDDPLCMITEYMENGDLNQFLSRHEPPNSSSSDVRTVSYTNLKFMATQIASGMKYLSSLNFVHRDLATRNCLVGKNYTIKIADFGMSRNLYSGDYYRIQGRAVLPIRWMSWESILLGKFTTASDVWAFGVTLWETFTFCQEQPYSQLSDEQVIENTGEFFRDQGRQTYLPQPAICPDSVYKLMLSCWRRDTKNRPSFQEIHLLLLQQGDE",
+        "length": 855,
+        "molWeight": 96736,
+        "crc64": "78662021BC53E1A0",
+        "md5": "EA72B9CC246E4C0F46055E8FB71CD1B6"
+      },
+      "extraAttributes": {
+        "uniParcId": "UPI000013E1B4"
+      }
+    },
+    {
+      "entryType": "UniProtKB reviewed (Swiss-Prot)",
+      "primaryAccession": "Q86UE8",
+      "genes": [
+        {
+          "geneName": {
+            "evidences": [
+              {
+                "evidenceCode": "ECO:0000312",
+                "source": "HGNC",
+                "id": "HGNC:11842"
+              }
+            ],
+            "value": "TLK2"
+          }
+        }
+      ],
+      "features": [
+        {
+          "type": "Domain",
+          "location": {
+            "start": {
+              "value": 462,
+              "modifier": "EXACT"
+            },
+            "end": {
+              "value": 741,
+              "modifier": "EXACT"
+            }
+          },
+          "description": "Protein kinase",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000255",
+              "source": "PROSITE-ProRule",
+              "id": "PRU00159"
+            }
+          ]
+        }
+      ],
+      "sequence": {
+        "value": "MMEELHSLDPRRQELLEARFTGVGVSKGPLNSESSNQSLCSVGSLSDKEVETPEKKQNDQRNRKRKAEPYETSQGKGTPRGHKISDYFEFAGGSAPGTSPGRSVPPVARSSPQHSLSNPLPRRVEQPLYGLDGSAAKEATEEQSALPTLMSVMLAKPRLDTEQLAQRGAGLCFTFVSAQQNSPSSTGSGNTEHSCSSQKQISIQHRQTQSDLTIEKISALENSKNSDLEKKEGRIDDLLRANCDLRRQIDEQQKMLEKYKERLNRCVTMSKKLLIEKSKQEKMACRDKSMQDRLRLGHFTTVRHGASFTEQWTDGYAFQNLIKQQERINSQREEIERQRKMLAKRKPPAMGQAPPATNEQKQRKSKTNGAENETPSSGNTELKDTAPALGAHSLLRLTLAEYHEQEEIFKLRLGHLKKEEAEIQAELERLERVRNLHIRELKRIHNEDNSQFKDHPTLNDRYLLLHLLGRGGFSEVYKAFDLTEQRYVAVKIHQLNKNWRDEKKENYHKHACREYRIHKELDHPRIVKLYDYFSLDTDSFCTVLEYCEGNDLDFYLKQHKLMSEKEARSIIMQIVNALKYLNEIKPPIIHYDLKPGNILLVNGTACGEIKITDFGLSKIMDDDSYNSVDGMELTSQGAGTYWYLPPECFVVGKEPPKISNKVDVWSVGVIFYQCLYGRKPFGHNQSQQDILQENTILKATEVQFPPKPVVTPEAKAFIRRCLAYRKEDRIDVQQLACDPYLLPHIRKSVSTSSPAGAAIASTSGASNNSSSN",
+        "length": 772,
+        "molWeight": 87661,
+        "crc64": "765EE37ED4A4ADEC",
+        "md5": "F2585A2C0B6996FE51629FD1F2C903E1"
+      },
+      "extraAttributes": {
+        "uniParcId": "UPI00001B6B0E"
+      }
+    },
+    {
+      "entryType": "UniProtKB reviewed (Swiss-Prot)",
+      "primaryAccession": "Q9H2G2",
+      "genes": [
+        {
+          "geneName": {
+            "value": "SLK"
+          },
+          "synonyms": [
+            {
+              "value": "KIAA0204"
+            },
+            {
+              "value": "STK2"
+            }
+          ]
+        }
+      ],
+      "features": [
+        {
+          "type": "Domain",
+          "location": {
+            "start": {
+              "value": 34,
+              "modifier": "EXACT"
+            },
+            "end": {
+              "value": 292,
+              "modifier": "EXACT"
+            }
+          },
+          "description": "Protein kinase",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000255",
+              "source": "PROSITE-ProRule",
+              "id": "PRU00159"
+            }
+          ]
+        },
+        {
+          "type": "Domain",
+          "location": {
+            "start": {
+              "value": 875,
+              "modifier": "EXACT"
+            },
+            "end": {
+              "value": 910,
+              "modifier": "EXACT"
+            }
+          },
+          "description": "UVR",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000255",
+              "source": "PROSITE-ProRule",
+              "id": "PRU00217"
+            }
+          ]
+        }
+      ],
+      "sequence": {
+        "value": "MSFFNFRKIFKLGSEKKKKQYEHVKRDLNPEDFWEIIGELGDGAFGKVYKAQNKETSVLAAAKVIDTKSEEELEDYMVEIDILASCDHPNIVKLLDAFYYENNLWILIEFCAGGAVDAVMLELERPLTESQIQVVCKQTLDALNYLHDNKIIHRDLKAGNILFTLDGDIKLADFGVSAKNTRTIQRRDSFIGTPYWMAPEVVMCETSKDRPYDYKADVWSLGITLIEMAEIEPPHHELNPMRVLLKIAKSEPPTLAQPSRWSSNFKDFLKKCLEKNVDARWTTSQLLQHPFVTVDSNKPIRELIAEAKAEVTEEVEDGKEEDEEEETENSLPIPASKRASSDLSIASSEEDKLSQNACILESVSEKTERSNSEDKLNSKILNEKPTTDEPEKAVEDINEHITDAQLEAMTELHDRTAVIKENEREKRPKLENLPDTEDQETVDINSVSEGKENNIMITLETNIEHNLKSEEEKDQEKQQMFENKLIKSEEIKDTILQTVDLVSQETGEKEANIQAVDSEVGLTKEDTQEKLGEDDKTQKDVISNTSDVIGTCEAADVAQKVDEDSAEDTQSNDGKEVVEVGQKLINKPMVGPEAGGTKEVPIKEIVEMNEIEEGKNKEQAINSSENIMDINEEPGTTEGEEITESSSTEEMEVRSVVADTDQKALGSEVQDASKVTTQIDKEKKEIPVSIKKEPEVTVVSQPTEPQPVLIPSININSDSGENKEEIGSLSKTETILPPESENPKENDNDSGTGSTADTSSIDLNLSISSFLSKTKDSGSISLQETRRQKKTLKKTRKFIVDGVEVSVTTSKIVTDSDSKTEELRFLRRQELRELRFLQKEEQRAQQQLNSKLQQQREQIFRRFEQEMMSKKRQYDQEIENLEKQQKQTIERLEQEHTNRLRDEAKRIKGEQEKELSKFQNMLKNRKKEVINEVEKAPKELRKELMKRRKEELAQSQHAQEQEFVQKQQQELDGSLKKIIQQQKAELANIERECLNNKQQLMRAREAAIWELEERHLQEKHQLLKQQLKDQYFMQRHQLLKRHEKETEQMQRYNQRLIEELKNRQTQERARLPKIQRSEAKTRMAMFKKSLRINSTATPDQDRDKIKQFAAQEEKRQKNERMAQHQKHENQMRDLQLQCEANVRELHQLQNEKCHLLVEHETQKLKELDEEHSQELKEWREKLRPRKKTLEEEFARKLQEQEVFFKMTGESECLNPSTQSRISKFYPIPSLHSTGS",
+        "length": 1235,
+        "molWeight": 142695,
+        "crc64": "53A43E7CA29B0ED3",
+        "md5": "6FDCF11FCF8D897C520438F44F03A3BB"
+      },
+      "extraAttributes": {
+        "uniParcId": "UPI000004B6D3"
+      }
+    },
+    {
+      "entryType": "UniProtKB reviewed (Swiss-Prot)",
+      "primaryAccession": "Q9Y4K4",
+      "genes": [
+        {
+          "geneName": {
+            "value": "MAP4K5"
+          }
+        }
+      ],
+      "features": [
+        {
+          "type": "Domain",
+          "location": {
+            "start": {
+              "value": 20,
+              "modifier": "EXACT"
+            },
+            "end": {
+              "value": 277,
+              "modifier": "EXACT"
+            }
+          },
+          "description": "Protein kinase",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000255",
+              "source": "PROSITE-ProRule",
+              "id": "PRU00159"
+            }
+          ]
+        },
+        {
+          "type": "Domain",
+          "location": {
+            "start": {
+              "value": 506,
+              "modifier": "EXACT"
+            },
+            "end": {
+              "value": 819,
+              "modifier": "EXACT"
+            }
+          },
+          "description": "CNH",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000255",
+              "source": "PROSITE-ProRule",
+              "id": "PRU00795"
+            }
+          ]
+        }
+      ],
+      "sequence": {
+        "value": "MEAPLRPAADILRRNPQQDYELVQRVGSGTYGDVYKARNVHTGELAAVKIIKLEPGDDFSLIQQEIFMVKECKHCNIVAYFGSYLSREKLWICMEYCGGGSLQDIYHVTGPLSELQIAYVCRETLQGLAYLHTKGKMHRDIKGANILLTDHGDVKLADFGVAAKITATIAKRKSFIGTPYWMAPEVAAVEKNGGYNQLCDIWAVGITAIELGELQPPMFDLHPMRALFLMSKSNFQPPKLKDKTKWSSTFHNFVKIALTKNPKKRPTAERLLTHTFVAQPGLSRALAVELLDKVNNPDNHAHYTEADDDDFEPHAIIRHTIRSTNRNARAERTASEINFDKLQFEPPLRKETEARDEMGLSSDPNFMLQWNPFVDGANTGKSTSKRAIPPPLPPKPRISSYPEDNFPDEEKASTIKHCPDSESRAPQILRRQSSPSCGPVAETSSIGNGDGISKLMSENTEGSAQAPQLPRKKDKRDFPKPAINGLPPTPKVLMGACFSKVFDGCPLKINCATSWIHPDTKDQYIIFGTEDGIYTLNLNELHEATMEQLFPRKCTWLYVINNTLMSLSEGKTFQLYSHNLIALFEHAKKPGLAAHIQTHRFPDRILPRKFALTTKIPDTKGCHKCCIVRNPYTGHKYLCGALQSGIVLLQWYEPMQKFMLIKHFDFPLPSPLNVFEMLVIPEQEYPMVCVAISKGTESNQVVQFETINLNSASSWFTEIGAGSQQLDSIHVTQLERDTVLVCLDKFVKIVNLQGKLKSSKKLASELSFDFRIESVVCLQDSVLAFWKHGMQGKSFKSDEVTQEISDETRVFRLLGSDRVVVLESRPTENPTAHSNLYILAGHENSY",
+        "length": 846,
+        "molWeight": 95054,
+        "crc64": "E17EC41A4BA1B466",
+        "md5": "4462D324FEE543269A4C6675580B6A83"
+      },
+      "extraAttributes": {
+        "uniParcId": "UPI0000161C01"
+      }
+    }
+  ]
+}

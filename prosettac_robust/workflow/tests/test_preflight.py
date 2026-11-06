@@ -909,3 +909,180 @@ def test_ce_alignment_compatibility_preserves_old_and_new_api_correspondences():
     assert placement.ce_path_indices(modern)==placement.ce_path_indices(legacy)==((1,2,3),(4,5,6))
     with pytest.raises(ValidationError,match='Malformed'):
         placement.ce_path_indices([[1,2],[3]])
+
+
+def test_distance_sampler_requires_exact_unambiguous_stereo_anchors():
+    from rdkit import Chem
+    helper=load('distance_head_mapping','baseline_engine/constrained_linker.py')
+    folder=ROOT/'prepared_inputs/SJF8240/MET_P08581'
+    heads=[Chem.SDMolSupplier(str(folder/n))[0] for n in ['vhl_head.sdf','poi_head.sdf']]
+    full=Chem.MolFromSmiles((folder/'full.smi').read_text().split()[0])
+    anchors=[int(x)-1 for x in read_params(folder/'Protac_params.txt')['Anchor atoms'].split()]
+    assert helper.distance_anchor_indices(full,heads,anchors)==(49,36)
+    with pytest.raises(ValidationError,match='outside'):
+        helper.distance_anchor_indices(full,heads,[999,anchors[1]])
+    with pytest.raises(ValidationError,match='Ambiguous'):
+        helper.distance_anchor_indices(Chem.MolFromSmiles('CC.CC'),[Chem.MolFromSmiles('C')]*2,[0,0])
+    for atom in full.GetAtoms():
+        if atom.GetChiralTag()!=Chem.ChiralType.CHI_UNSPECIFIED:
+            atom.InvertChirality();break
+    with pytest.raises(ValidationError,match='stereochemical'):
+        helper.distance_anchor_indices(full,heads,anchors)
+
+
+def test_initial_distance_sampler_records_exact_mapping_and_single_thread(tmp_path,monkeypatch):
+    from rdkit import Chem
+    monkeypatch.syspath_prepend(str(ROOT/'baseline_engine'))
+    monkeypatch.setenv('PROTAC_ATTEMPT_ROOT',str(tmp_path));monkeypatch.setenv('PROTAC_SEED','155921')
+    monkeypatch.chdir(tmp_path)
+    adapter=load('distance_sampler_adapter','baseline_engine/pyrosetta_adapter.py')
+    folder=ROOT/'prepared_inputs/SJF8240/MET_P08581'
+    params=read_params(folder/'Protac_params.txt')
+    heads=[str(folder/n) for n in ['vhl_head.sdf','poi_head.sdf']]
+    anchors=[int(x)-1 for x in params['Anchor atoms'].split()]
+    bounds=adapter.sample_dist_free_conf(heads,anchors,str(folder/'full.smi'),n=3)
+    ledger=json.loads((tmp_path/'anchor_distance_sampling.json').read_text())
+    assert ledger['num_threads']==1 and ledger['requested_conformers']==3
+    assert 0<ledger['generated_conformers']<=3
+    assert ledger['full_molecule_anchor_indices_zero_based']==[49,36]
+    assert list(bounds)==ledger['range_A'] and bounds[0]<bounds[1]
+    assert sum(ledger['histogram'].values())==ledger['generated_conformers']
+
+
+def test_gnn_contract_excludes_unknowns_and_checks_cohort_labels():
+    from types import SimpleNamespace
+    from gnn_contract import select_training_graphs
+    graph=lambda p,y:SimpleNamespace(poi=p,y=np.array([y]),artifact=False)
+    kept,excluded=select_training_graphs([graph('known',1),graph('prediction',-1)],{'known':1})
+    assert [x.poi for x in kept]==['known'] and excluded==['prediction']
+    with pytest.raises(ValidationError,match='label'):
+        select_training_graphs([graph('known',-1)],{'known':1})
+    with pytest.raises(ValidationError,match='Duplicate'):
+        select_training_graphs([graph('known',1),graph('known',1)],{'known':1})
+
+
+def test_gnn_scalar_normalization_uses_training_rows_only():
+    import pandas as pd
+    from gnn_contract import normalize_fold_scalars
+    t=pd.DataFrame({'x':[1.,3.,100.]},index=['a','b','heldout'])
+    assert normalize_fold_scalars('heldout',t,['a','b'],['x'])[0]==pytest.approx(98/np.sqrt(2))
+    t.loc['heldout','x']=np.inf
+    with pytest.raises(ValidationError,match='Infinite'):
+        normalize_fold_scalars('heldout',t,['a','b'],['x'])
+
+
+def test_gnn_periodic_contacts_and_joint_frequency_reject_independence_proxy():
+    from gnn_contract import periodic_minima,observed_joint_contacts
+    d=periodic_minima([[.2,0,0]],[[9.8,0,0]],[10,10,10,90,90,90])
+    assert d[0]==pytest.approx(.4,abs=1e-5)
+    left=[[True],[False]];right=[[False],[True]]
+    assert observed_joint_contacts(left,right)[0,0]==0 # Marginal product would be 0.25.
+    with pytest.raises(ValidationError,match='periodic box'):
+        periodic_minima([[0,0,0]],[[1,1,1]],None)
+
+
+def test_gnn_release_rejects_historical_chemistry_before_model_loading(tmp_path):
+    from gnn_contract import verify_gnn_release
+    release=tmp_path/'release.json';release.write_text(json.dumps({'status':'RELEASED_FOR_EXPLORATORY_GNN','compound':'SJF8240','ligand_inchikey':'MCJFROJTDORRBB-ZWUDBOSPSA-N'}))
+    with pytest.raises(ValidationError,match='chemistry'):
+        verify_gnn_release(release,{},'SCUZPTNDZHEHLB-ZWUDBOSPSA-N')
+
+
+def test_compiled_ligand_guard_checks_connectivity_beyond_formula():
+    import MDAnalysis as mda
+    from rdkit import Chem
+    from gnn_contract import require_verified_ligand_graph
+    smiles=json.loads((ROOT/'config/molecules.json').read_text())['compounds']['SJF8240']['smiles']
+    mol=Chem.MolFromSmiles(smiles);u=mda.Universe.empty(mol.GetNumAtoms(),n_residues=1,atom_resindex=np.zeros(mol.GetNumAtoms(),dtype=int))
+    u.add_TopologyAttr('resnames',['PTC']);u.add_TopologyAttr('names',[f'A{i}' for i in range(mol.GetNumAtoms())]);u.add_TopologyAttr('masses',[a.GetMass() for a in mol.GetAtoms()])
+    bonds=[(b.GetBeginAtomIdx(),b.GetEndAtomIdx()) for b in mol.GetBonds()];u.add_TopologyAttr('bonds',bonds)
+    assert len(require_verified_ligand_graph(u,smiles))==79
+    u.delete_bonds([bonds[0]]) # Atom identities/counts/formula are unchanged.
+    with pytest.raises(ValidationError,match='connectivity'):
+        require_verified_ligand_graph(u,smiles)
+
+
+def test_static_graph_uses_conditional_distances_and_frozen_node_correspondence(tmp_path,monkeypatch):
+    builder=load('static_sjf_graph','scripts/04_gnn/03_static_contact_graph.py')
+    run=tmp_path/'run';poses=run/'Patchdock_Results';poses.mkdir(parents=True)
+    smiles=json.loads((ROOT/'config/molecules.json').read_text())['compounds']['SJF8240']['smiles']
+    (run/'full.smi').write_text(smiles+'\n');(run/'completion.json').write_text('{}')
+    selection={'vhl':{'chains':['A']},'poi':{'chains':['D']},'protac':{'chains':['X'],'resname':'PTC'}}
+    (run/'selection.json').write_text(json.dumps(selection))
+    def atom(record,i,name,res,chain,x):
+        return f'{record:<6}{i:5d} {name:^4s} {res:3s} {chain}   1    {x:8.3f}{0.:8.3f}{0.:8.3f}  1.00  0.00           C  '
+    for pose,offset in [('one',1.),('two',3.)]:
+        lines=[atom('ATOM',1,'CA','ALA','A',0.),atom('ATOM',2,'CA','ALA','D',10.)]
+        lines.extend(atom('HETATM',i+3,f'C{i}','PTC','X',offset+i*.01) for i in range(79))
+        (poses/(pose+'.pdb')).write_text('\n'.join(lines)+'\n')
+    # Unit-test graph mathematics after the independently tested QC boundary.
+    monkeypatch.setattr(builder,'verify_receipt',lambda *a:[{'description':'one'},{'description':'two'}])
+    out=tmp_path/'graph';builder.build(run,'synthetic',-1,out)
+    with np.load(out/'graph.npz',allow_pickle=False) as a:
+        assert a['x'].shape==(81,9)
+        def edge(i,j):return a['edge_attr'][np.where((a['edge_index'][0]==i)&(a['edge_index'][1]==j))[0][0]]
+        assert edge(2,0)==pytest.approx([1.,.2,.1])
+        assert edge(2,1)==pytest.approx([.5,.7,.7]) # Mean is conditional on contact, not 0.35 nm.
+
+
+def test_gnn_release_prevents_aliases_of_same_protein_crossing_folds(tmp_path):
+    from gnn_contract import verify_gnn_release
+    p=tmp_path/'release.json';p.write_text(json.dumps({'status':'RELEASED_FOR_EXPLORATORY_GNN','compound':'SJF8240','ligand_inchikey':'SCUZPTNDZHEHLB-ZWUDBOSPSA-N','feature_schema':'SJF8240-periodic-contacts-v1','experimental_labels':{'MAPK14':1,'MAPK14_full':0},'protein_groups':{'MAPK14':'Q16539','MAPK14_full':'Q16539'}}))
+    with pytest.raises(ValidationError,match='multiple times'):
+        verify_gnn_release(p,{},'SCUZPTNDZHEHLB-ZWUDBOSPSA-N')
+
+
+def test_md_graph_builder_uses_observed_joint_contacts_and_aligned_nodes(monkeypatch,tmp_path):
+    module=load('periodic_sjf_md_graph','scripts/04_gnn/02_md_contact_graphs.py')
+    monkeypatch.setattr(module,'HAS_TORCH',False)
+    result={'vhl_resids':np.array([1]),'kin_resids':np.array([200]),'vhl_freq':np.array([.5]),'kin_freq':np.array([.5]),'vhl_mean_d':np.array([4.]),'kin_mean_d':np.array([4.]),'joint_freq':np.array([[0.]]),'n_frames':2,'n_ptc_atoms':79,'input_sha256':{}}
+    monkeypatch.setattr(module,'compute_pose_contacts',lambda *a:result)
+    cfg={'kin_min':0,'degrader':None,'screen_dir':tmp_path};poses=[{'pose_id':'one'},{'pose_id':'two'}]
+    graph,metadata=module.build_poi_md_graph('synthetic',poses,1,cfg)
+    assert graph['degrader']==-1 and graph['edge_src'].size==0 and graph['edge_attr'].shape==(0,3)
+    assert len(metadata)==2 # Product of the marginals would incorrectly create an edge.
+    count=[0]
+    def changed(*args):
+        count[0]+=1
+        return dict(result,kin_resids=np.array([200 if count[0]==1 else 201]))
+    monkeypatch.setattr(module,'compute_pose_contacts',changed)
+    with pytest.raises(ValidationError,match='Unaligned'):
+        module.build_poi_md_graph('synthetic',poses,1,cfg)
+
+
+def test_gnn_graph_schema_rejects_legacy_packets_even_when_dimensions_match():
+    from types import SimpleNamespace
+    from gnn_contract import validate_feature_graph
+    graph=SimpleNamespace(x=np.ones((2,9)),edge_index=np.empty((2,0),dtype=int),edge_attr=np.empty((0,3)))
+    with pytest.raises(ValidationError,match='schema'):
+        validate_feature_graph(graph,9)
+    graph.feature_schema='SJF8240-periodic-contacts-v1';validate_feature_graph(graph,9)
+    graph.edge_index=np.array([[0],[9]]);graph.edge_attr=np.ones((1,3))
+    with pytest.raises(ValidationError,match='index'):
+        validate_feature_graph(graph,9)
+
+
+def test_gnn_runner_rejects_historical_scalar_table_without_versioned_chemistry(tmp_path):
+    module=load('isolated_sjf_e2_runner','scripts/04_gnn/01_sjf8240_e2_lopo.py')
+    p=tmp_path/'old_table.tsv';p.write_text('poi\tprostac_artifact\nMET\t0\n')
+    with pytest.raises(ValidationError,match='scalar feature schema'):
+        module.load_e2_table(p)
+
+
+def test_sjf8240_sequence_repair_inputs_are_portable_and_hash_bound():
+    inventory=load('portable_sjf_sequences','scripts/01_setup/00i_build_domain_inventory.py')
+    cache=ROOT/'sequence_provenance';source=json.loads((cache/'SOURCE.json').read_text());p=cache/'uniprot_batches/sjf8240_reference_cohort.json'
+    assert sha256(p)==source['selected_cache_sha256']
+    entries=inventory.entries(cache);cohort=json.loads((ROOT/'config/sjf8240_publication_cohort.json').read_text())
+    assert set(cohort['protein_groups'].values())|{'P40337','Q15370','Q15369'}==set(entries)
+    assert len(entries)==20 and all(x['sequence']['value'] for x in entries.values())
+
+
+def test_md_preparation_rejects_repaired_protein_from_a_different_pose(tmp_path):
+    md=load('md_pose_repair_binding','scripts/01_setup/06_prepare_md.py')
+    pose=tmp_path/'pose.pdb';protein=tmp_path/'protein.pdb';other=tmp_path/'other_pose.pdb'
+    pose.write_text('Original observed protein/ligand frame\n');protein.write_text('Repaired protein in that frame\n');other.write_text('Different docking arrangement\n')
+    repair={'status':'PROTEIN_MODEL_COMPLETED','source_sha256':sha256(pose),'output_sha256':sha256(protein)}
+    md.verify_protein_repair(pose,protein,repair)
+    with pytest.raises(ValidationError,match='different starting pose'):
+        md.verify_protein_repair(other,protein,repair)

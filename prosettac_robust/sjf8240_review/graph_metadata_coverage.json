@@ -1,0 +1,11 @@
+{
+  "manifest_stages": {
+    "ANALYSIS_DONE": 174,
+    "FAILED": 19,
+    "EM_DONE": 7
+  },
+  "manifest_completed": 174,
+  "retained_graph_pose_rows": 174,
+  "completed_rows_absent_from_graph_metadata": [],
+  "scope": "Metadata coverage audit, not an automatic diagnosis of why rows are absent."
+}

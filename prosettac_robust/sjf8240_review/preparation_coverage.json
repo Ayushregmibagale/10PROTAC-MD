@@ -1,0 +1,140 @@
+{
+  "scope": "Inventory of current prepared candidate/control folders; these are separate comparisons, not a selected study cohort or biological labels. Missing candidate folders do not establish lack of binding/degradation.",
+  "historical_targets": 17,
+  "CE_comparison_target_coverage": 1,
+  "pocket_comparison_target_coverage": 4,
+  "known_control_target_coverage": 1,
+  "rows": [
+    {
+      "poi": "MAP4K5",
+      "gene": "MAP4K5",
+      "prepared_screen": [],
+      "prepared_pocket_screen": [],
+      "prepared_inputs": []
+    },
+    {
+      "poi": "SLK",
+      "gene": "SLK",
+      "prepared_screen": [],
+      "prepared_pocket_screen": [
+        "prepared_pocket_screen/SJF8240/SLK_Q9H2G2__kinase1_34_292__KLIFS14487"
+      ],
+      "prepared_inputs": []
+    },
+    {
+      "poi": "DDR2",
+      "gene": "DDR2",
+      "prepared_screen": [],
+      "prepared_pocket_screen": [
+        "prepared_pocket_screen/SJF8240/DDR2_Q16832__kinase1_563_849__KLIFS10734"
+      ],
+      "prepared_inputs": []
+    },
+    {
+      "poi": "RIPK2_full",
+      "gene": "RIPK2",
+      "prepared_screen": [],
+      "prepared_pocket_screen": [],
+      "prepared_inputs": []
+    },
+    {
+      "poi": "MAPK14_full",
+      "gene": "MAPK14",
+      "prepared_screen": [],
+      "prepared_pocket_screen": [],
+      "prepared_inputs": []
+    },
+    {
+      "poi": "MET",
+      "gene": "MET",
+      "prepared_screen": [
+        "prepared_screen/SJF8240/MET_P08581__kinase1_1078_1345__KLIFS16133"
+      ],
+      "prepared_pocket_screen": [
+        "prepared_pocket_screen/SJF8240/MET_P08581__kinase1_1078_1345__KLIFS16133"
+      ],
+      "prepared_inputs": [
+        "prepared_inputs/SJF8240/MET_P08581"
+      ]
+    },
+    {
+      "poi": "EPHB2",
+      "gene": "EPHB2",
+      "prepared_screen": [],
+      "prepared_pocket_screen": [],
+      "prepared_inputs": []
+    },
+    {
+      "poi": "ABL1",
+      "gene": "ABL1",
+      "prepared_screen": [],
+      "prepared_pocket_screen": [],
+      "prepared_inputs": []
+    },
+    {
+      "poi": "AXL",
+      "gene": "AXL",
+      "prepared_screen": [],
+      "prepared_pocket_screen": [],
+      "prepared_inputs": []
+    },
+    {
+      "poi": "EPHA2",
+      "gene": "EPHA2",
+      "prepared_screen": [],
+      "prepared_pocket_screen": [],
+      "prepared_inputs": []
+    },
+    {
+      "poi": "CDK17",
+      "gene": "CDK17",
+      "prepared_screen": [],
+      "prepared_pocket_screen": [],
+      "prepared_inputs": []
+    },
+    {
+      "poi": "CDK2",
+      "gene": "CDK2",
+      "prepared_screen": [],
+      "prepared_pocket_screen": [
+        "prepared_pocket_screen/SJF8240/CDK2_P24941__kinase1_4_286__KLIFS3901"
+      ],
+      "prepared_inputs": []
+    },
+    {
+      "poi": "CDK4",
+      "gene": "CDK4",
+      "prepared_screen": [],
+      "prepared_pocket_screen": [],
+      "prepared_inputs": []
+    },
+    {
+      "poi": "CDK6",
+      "gene": "CDK6",
+      "prepared_screen": [],
+      "prepared_pocket_screen": [],
+      "prepared_inputs": []
+    },
+    {
+      "poi": "DAPK1",
+      "gene": "DAPK1",
+      "prepared_screen": [],
+      "prepared_pocket_screen": [],
+      "prepared_inputs": []
+    },
+    {
+      "poi": "IRAK1",
+      "gene": "IRAK1",
+      "prepared_screen": [],
+      "prepared_pocket_screen": [],
+      "prepared_inputs": []
+    },
+    {
+      "poi": "TLK2",
+      "gene": "TLK2",
+      "prepared_screen": [],
+      "prepared_pocket_screen": [],
+      "prepared_inputs": []
+    }
+  ]
+}

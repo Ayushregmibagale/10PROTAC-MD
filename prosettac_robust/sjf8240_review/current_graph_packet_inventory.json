@@ -1,0 +1,348 @@
+[
+  {
+    "file": "ensemble_graphs.pt",
+    "graphs": [
+      {
+        "poi": "MAP4K5",
+        "label": 0,
+        "artifact": false,
+        "nodes": 500
+      },
+      {
+        "poi": "SLK",
+        "label": 0,
+        "artifact": false,
+        "nodes": 468
+      },
+      {
+        "poi": "DDR2",
+        "label": 1,
+        "artifact": false,
+        "nodes": 455
+      },
+      {
+        "poi": "RIPK2_full",
+        "label": 1,
+        "artifact": false,
+        "nodes": 459
+      },
+      {
+        "poi": "MAPK14_full",
+        "label": 1,
+        "artifact": false,
+        "nodes": 517
+      },
+      {
+        "poi": "MET",
+        "label": 1,
+        "artifact": false,
+        "nodes": 458
+      },
+      {
+        "poi": "EPHB2",
+        "label": 1,
+        "artifact": false,
+        "nodes": 428
+      },
+      {
+        "poi": "ABL1",
+        "label": 0,
+        "artifact": false,
+        "nodes": 443
+      },
+      {
+        "poi": "AXL",
+        "label": 0,
+        "artifact": false,
+        "nodes": 450
+      },
+      {
+        "poi": "EPHA2",
+        "label": 0,
+        "artifact": false,
+        "nodes": 467
+      },
+      {
+        "poi": "CDK17",
+        "label": 0,
+        "artifact": false,
+        "nodes": 530
+      },
+      {
+        "poi": "CDK2",
+        "label": 0,
+        "artifact": false,
+        "nodes": 477
+      },
+      {
+        "poi": "CDK4",
+        "label": 0,
+        "artifact": false,
+        "nodes": 467
+      },
+      {
+        "poi": "CDK6",
+        "label": 0,
+        "artifact": false,
+        "nodes": 462
+      },
+      {
+        "poi": "DAPK1",
+        "label": 0,
+        "artifact": false,
+        "nodes": 460
+      },
+      {
+        "poi": "IRAK1",
+        "label": 0,
+        "artifact": false,
+        "nodes": 481
+      },
+      {
+        "poi": "TLK2",
+        "label": 0,
+        "artifact": false,
+        "nodes": 424
+      },
+      {
+        "poi": "TNIK",
+        "label": 1,
+        "artifact": true,
+        "nodes": 469
+      },
+      {
+        "poi": "RPS6KB2",
+        "label": -1,
+        "artifact": false,
+        "nodes": 302
+      },
+      {
+        "poi": "SIK3_full",
+        "label": -1,
+        "artifact": false,
+        "nodes": 421
+      },
+      {
+        "poi": "RPS6KB2_full",
+        "label": -1,
+        "artifact": false,
+        "nodes": 421
+      },
+      {
+        "poi": "candidate_0000",
+        "label": -1,
+        "artifact": false,
+        "nodes": 454
+      },
+      {
+        "poi": "candidate_0001",
+        "label": -1,
+        "artifact": false,
+        "nodes": 455
+      },
+      {
+        "poi": "candidate_0002",
+        "label": -1,
+        "artifact": false,
+        "nodes": 454
+      },
+      {
+        "poi": "candidate_0003",
+        "label": -1,
+        "artifact": false,
+        "nodes": 455
+      },
+      {
+        "poi": "candidate_0004",
+        "label": -1,
+        "artifact": false,
+        "nodes": 452
+      },
+      {
+        "poi": "candidate_0005",
+        "label": -1,
+        "artifact": false,
+        "nodes": 455
+      },
+      {
+        "poi": "candidate_0006",
+        "label": -1,
+        "artifact": false,
+        "nodes": 454
+      },
+      {
+        "poi": "candidate_0007",
+        "label": -1,
+        "artifact": false,
+        "nodes": 455
+      },
+      {
+        "poi": "candidate_0008",
+        "label": -1,
+        "artifact": false,
+        "nodes": 454
+      },
+      {
+        "poi": "candidate_0009",
+        "label": -1,
+        "artifact": false,
+        "nodes": 454
+      },
+      {
+        "poi": "candidate_0010",
+        "label": -1,
+        "artifact": false,
+        "nodes": 454
+      },
+      {
+        "poi": "candidate_0011",
+        "label": -1,
+        "artifact": false,
+        "nodes": 454
+      },
+      {
+        "poi": "candidate_0012",
+        "label": -1,
+        "artifact": false,
+        "nodes": 455
+      },
+      {
+        "poi": "candidate_0013",
+        "label": -1,
+        "artifact": false,
+        "nodes": 454
+      },
+      {
+        "poi": "candidate_0014",
+        "label": -1,
+        "artifact": false,
+        "nodes": 455
+      },
+      {
+        "poi": "candidate_0015",
+        "label": -1,
+        "artifact": false,
+        "nodes": 455
+      },
+      {
+        "poi": "candidate_0016",
+        "label": -1,
+        "artifact": false,
+        "nodes": 453
+      },
+      {
+        "poi": "candidate_0017",
+        "label": -1,
+        "artifact": false,
+        "nodes": 455
+      },
+      {
+        "poi": "candidate_0018",
+        "label": -1,
+        "artifact": false,
+        "nodes": 455
+      },
+      {
+        "poi": "candidate_0019",
+        "label": -1,
+        "artifact": false,
+        "nodes": 455
+      },
+      {
+        "poi": "candidate_0020",
+        "label": -1,
+        "artifact": false,
+        "nodes": 454
+      },
+      {
+        "poi": "candidate_0021",
+        "label": -1,
+        "artifact": false,
+        "nodes": 454
+      },
+      {
+        "poi": "candidate_0022",
+        "label": -1,
+        "artifact": false,
+        "nodes": 455
+      },
+      {
+        "poi": "candidate_0023",
+        "label": -1,
+        "artifact": false,
+        "nodes": 454
+      },
+      {
+        "poi": "candidate_0024",
+        "label": -1,
+        "artifact": false,
+        "nodes": 455
+      }
+    ]
+  },
+  {
+    "file": "md_contact_graphs.pt",
+    "graphs": [
+      {
+        "poi": "DDR2",
+        "label": 1,
+        "artifact": false,
+        "nodes": 376
+      },
+      {
+        "poi": "RIPK2_full",
+        "label": 1,
+        "artifact": false,
+        "nodes": 380
+      },
+      {
+        "poi": "MAPK14_full",
+        "label": 1,
+        "artifact": false,
+        "nodes": 438
+      },
+      {
+        "poi": "MET",
+        "label": 1,
+        "artifact": false,
+        "nodes": 379
+      },
+      {
+        "poi": "EPHB2",
+        "label": 1,
+        "artifact": false,
+        "nodes": 349
+      },
+      {
+        "poi": "ABL1",
+        "label": 0,
+        "artifact": false,
+        "nodes": 364
+      },
+      {
+        "poi": "AXL",
+        "label": 0,
+        "artifact": false,
+        "nodes": 371
+      },
+      {
+        "poi": "EPHA2",
+        "label": 0,
+        "artifact": false,
+        "nodes": 388
+      },
+      {
+        "poi": "SIK3_full",
+        "label": -1,
+        "artifact": false,
+        "nodes": 342
+      },
+      {
+        "poi": "RPS6KB2_full",
+        "label": -1,
+        "artifact": false,
+        "nodes": 342
+      }
+    ]
+  }
+]

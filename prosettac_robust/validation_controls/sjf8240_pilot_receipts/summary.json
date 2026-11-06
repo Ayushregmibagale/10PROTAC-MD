@@ -1,0 +1,9 @@
+{
+  "status": "COMPLETE_NO_VALID_POSES",
+  "receipt_verified": true,
+  "n_scored_valid": 0,
+  "scope": "5 global x 5 local x 2 requested conformers, seed392, bounded local diagnostic",
+  "biological_negative_label": null,
+  "raw_attempt_directory": "/tmp/10protac_finish/prosettac_robust/validation_controls/sjf8240_current_pilot/attempts/SJF8240/MET_P08581/048310ad-b41d-4701-b4b1-0546053efe3c",
+  "exact_protocol_source": "Frozen attempt source_snapshot; current later documentation/provenance edits do not change it"
+}

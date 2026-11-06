@@ -1,0 +1,83 @@
+--- checkpoint_9d66c47/pyrosetta_adapter.py
++++ isolated/pyrosetta_adapter.py
+@@ -424,20 +424,14 @@
+                           output_hist: str = 'initial_distances.hist',
+                           hist_threshold: float = 0.75, min_margin: float = 2,
+                           homo_protac: bool = False):
+-    """
+-    Replacement for protac_lib.SampleDist.
+-
+-    pRosettaC's original SampleDist embeds the full PROTAC with constraint maps
+-    derived from both head fragments.  For SJF8240 (30 + 37 = 67 of 79 atoms in
+-    head fragments) this leaves only 12 linker atoms unconstrained, making
+-    constraint-based embedding fail 100% of the time.
+-
+-    This replacement instead generates free ETKDGv3 conformers, measures the
+-    anchor-to-anchor distance in each, and returns the same (min, max) range
+-    that the original would have returned — but reliably.
++    """Inherited free ETKDGv3 distance histogram with exact stereo head mapping.
++
++    This is a seed-dependent sampling heuristic, not an exhaustive physical
++    linker-reach distribution or a probability estimate. Both-head constrained
++    final linker construction is a separate stage.
+     """
+     from rdkit import Chem
+-    from rdkit.Chem import AllChem, rdFMCS, rdMolTransforms
++    from rdkit.Chem import AllChem, rdMolTransforms
+     from rdkit.Chem.rdchem import Conformer
+ 
+     HeadA_sdf, HeadB_sdf = Heads
+@@ -453,27 +447,14 @@
+     if HeadA is None or HeadB is None:
+         return (None, None)
+ 
+-    # Map anchor atoms from each head into the full PROTAC via MCS
+-    patt_A = Chem.MolFromSmarts(rdFMCS.FindMCS([mol, HeadA]).smartsString)
+-    patt_B = Chem.MolFromSmarts(rdFMCS.FindMCS([mol, HeadB]).smartsString)
+-    head_A_list = mol.GetSubstructMatches(patt_A, uniquify=False)
+-    head_B_list = mol.GetSubstructMatches(patt_B, uniquify=False)
+-    if not head_A_list or not head_B_list:
+-        return (None, None)
+-
+-    inner_A = list(HeadA.GetSubstructMatch(patt_A))
+-    inner_B = list(HeadB.GetSubstructMatch(patt_B))
+-    try:
+-        anchor_A = head_A_list[0][inner_A.index(Anchors[0])]
+-        anchor_B = head_B_list[0][inner_B.index(Anchors[1])]
+-    except (ValueError, IndexError):
+-        return (None, None)
++    from constrained_linker import distance_anchor_indices
++    anchor_A,anchor_B=distance_anchor_indices(mol,[HeadA,HeadB],Anchors)
+ 
+     # Generate free conformers with ETKDGv3
+     mol_h = Chem.AddHs(mol)
+     params = AllChem.ETKDGv3()
+     params.randomSeed = publication_seed("distance_conformers")
+-    params.numThreads = 4
++    params.numThreads = 1
+     params.enforceChirality = True
+     conf_ids = list(AllChem.EmbedMultipleConfs(mol_h, numConfs=n, params=params))
+     if not conf_ids:
+@@ -510,8 +491,20 @@
+     threshold = max_count * hist_threshold
+     high_values = [b for b, c in histogram.items() if c >= threshold]
+ 
+-    return (min(min(high_values), avg_index - min_margin),
+-            max(max(high_values), avg_index + min_margin))
++    bounds=(min(min(high_values),avg_index-min_margin),
++            max(max(high_values),avg_index+min_margin))
++    from protac_qc import atomic_json,sha256
++    atomic_json(Path('anchor_distance_sampling.json'),{
++        'status':'SAMPLED_HEURISTIC_RANGE','requested_conformers':n,
++        'generated_conformers':len(conf_ids),'num_threads':params.numThreads,
++        'seed':params.randomSeed,'embedding_max_iterations_setting':params.maxIterations,
++        'full_molecule_anchor_indices_zero_based':[anchor_A,anchor_B],
++        'mapping':'Exact disjoint stereochemical complete heads; unique anchor pair',
++        'histogram_bin_width_A':1.0,'histogram':histogram,'hist_threshold':hist_threshold,
++        'min_margin_A':min_margin,'range_A':bounds,
++        'source_sha256':{str(p):sha256(p) for p in [*Heads,Linkers]},
++        'interpretation':'Finite free-conformer heuristic; no biological negative or population inferred'})
++    return bounds
+ 
+ 
+ def _make_docked_heads_mol(docked_sdf_or_pdb,headA_sdf,headB_sdf):

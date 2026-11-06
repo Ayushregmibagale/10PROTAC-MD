@@ -45,15 +45,18 @@ scores, and explicit zero-pose outcomes. It also checks MD stage completion and
 provenance. These protections apply to new runs; they cannot retroactively prove
 that every old result passed the same checks.
 
-## Remaining implementation review
+## Focused sampler and GNN repairs completed
 
-The inherited initial anchor-distance sampling still uses MCS and four RDKit
-threads. All six current control anchor pairs agree with exact stereo mappings;
-no current mapping error was demonstrated. Replace this path with exact disjoint
-head matching, explicit thread allocation and a distance-sampling ledger in this
-isolated folder. Do not alter the frozen running diagnostics or original files.
+The initial MCS anchor path was replaced by exact disjoint stereochemical matching,
+a unique anchor-pair contract and one RDKit thread, with an immutable per-run
+histogram record. The actual 200-conformer SJF8240 paired control produced identical
+conformer bytes, range and histogram. The separate SJF8240/MET 5×5×2 pilot completed
+without execution failure but yielded no valid pose; it remains a sampling result.
 
-The GSK215 v26 finite global benchmark missed its recorded joint recovery
-criterion; its completed evidence is retained under workflow/validation_evidence.
-An already-started, bounded adaptive follow-up uses unchanged frozen code and
-seed 155921. Neither run is a rerun of the historical SJF8240 MD or GNN.
+The isolated graph/GNN scripts now enforce verified compiled chemistry, production
+receipts, explicit atom mappings and cohorts, periodic distances, observed joint
+contacts, deterministic CPU folds and source/input hashes. Full notes and current
+scientific requirements are in SJF8240_STATUS.md and SJF8240_REMEDIATION_LOG.md.
+The historical MD/GNN results remain unchanged; a corrected training release has
+not been issued. The completed GSK215 recovery diagnostics are supplementary
+engine evidence, not a replacement for SJF8240 validation.

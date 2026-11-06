@@ -1,0 +1,15 @@
+{
+  "status": "TEMPLATE_NOT_RELEASED",
+  "compound": "SJF8240",
+  "ligand_inchikey": "SCUZPTNDZHEHLB-ZWUDBOSPSA-N",
+  "feature_schema": "SJF8240-periodic-contacts-v1",
+  "input_sha256": {
+    "static": "REQUIRES_REGENERATED_PACKET_HASH",
+    "dynamic": "REQUIRES_REGENERATED_PACKET_HASH",
+    "ml_table": "REQUIRES_REGENERATED_SCALAR_TABLE_HASH"
+  },
+  "experimental_labels": {},
+  "protein_groups": {},
+  "label_provenance_file": "REQUIRES_FROZEN_ASSAY_EVIDENCE",
+  "label_provenance_sha256": "REQUIRES_EVIDENCE_HASH"
+}

@@ -1,0 +1,10 @@
+{
+  "status": "COMPLETE_NO_VALID_POSES",
+  "receipt_independently_verified": true,
+  "valid_poses": 0,
+  "global_trials": 1680,
+  "global_accepted": 50,
+  "local_poses": 250,
+  "sampling_outcome_not_biological_label": true,
+  "MD_handoff_validated_by_this_run": false
+}

@@ -1,0 +1,26 @@
+{
+  "status": "PRESPECIFIED_ADAPTIVE_FOLLOWUP_LOCAL_DIAGNOSTIC",
+  "compound": "GSK215",
+  "reference": "7PI4",
+  "global_poses": 50,
+  "local_poses_per_global": 5,
+  "conformers_per_local": 2,
+  "workers": 2,
+  "maximum_global_trials": 20000,
+  "timeout_seconds": 3600,
+  "seed": 155921,
+  "necessary_check": "At least one complete chemically valid pose passing full-complex clash and fixed-head QC",
+  "exploratory_native_recovery_criterion": {
+    "vhl_CA_rmsd_after_POI_fit_A_max": 5.0,
+    "fraction_native_contacts_min": 0.5,
+    "contact_cutoff_A": 5.0
+  },
+  "limitations": [
+    "Project-specific exploratory recovery criterion, not a DockQ/CAPRI classification",
+    "Single reference/seed cannot establish general predictive accuracy",
+    "No-valid-pose outcome is not biological inactivity"
+  ],
+  "no_production_campaign": true,
+  "trigger": "v26 completed with one QC-valid pose but missed the joint recovery criterion; zero of 250 raw local protein poses met both criteria",
+  "comparison": "Same code, inputs and budget; new independent random seed. All outcomes retained. This adaptive follow-up is exploratory, not confirmatory."
+}

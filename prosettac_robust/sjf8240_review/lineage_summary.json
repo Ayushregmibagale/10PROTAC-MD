@@ -1,0 +1,67 @@
+{
+  "scope": "READ_ONLY_HISTORICAL_SJF8240_CONNECTIVITY_AND_GNN_LINEAGE_AUDIT",
+  "original_root": "/home/ayushregmibagale/protac-md",
+  "legacy_parameter_source_sha256": "96b3566de422cf2d20432a1ea64af75767086af72352627fa4e2e80e8da360ad",
+  "legacy_heavy_connectivity_signature": "2089553de694e9bf70c059527ef4f9a85718116da117a1be7be7e8fe12011d74",
+  "topologies_examined": 255,
+  "matching_legacy_connectivity": 255,
+  "connectivity_mismatches": [],
+  "md_graph_pose_metadata_rows": 174,
+  "md_graph_rows_with_matching_legacy_parameters": 174,
+  "unresolved_md_graph_rows": [],
+  "by_poi_md_graph_parameters": {
+    "DDR2": 18,
+    "RIPK2_full": 17,
+    "MAPK14_full": 18,
+    "MET": 16,
+    "EPHB2": 19,
+    "ABL1": 17,
+    "AXL": 18,
+    "EPHA2": 18,
+    "SIK3": 15,
+    "RPS6KB2": 18
+  },
+  "artifact_sha256": {
+    "analysis/gnn/ensemble_graphs.pt": {
+      "sha256": "419da580e2d5a81d049aa5168fba849f9d2c65162bf85dbde47b18ad40e3d90a",
+      "bytes": 17858175
+    },
+    "analysis/gnn/md_contact_graphs.pt": {
+      "sha256": "7258d9821a190bb4bc80fc8aaf059e754759d9d999d5825a6386c1a2227efc66",
+      "bytes": 702519
+    },
+    "analysis/features/ml_table.tsv": {
+      "sha256": "81db3c0fbc4c829818d9161ea45aaa8d73a748b697a2fc5f63571a619c33d7d5",
+      "bytes": 13904
+    },
+    "analysis/gnn/e2gnn_lopo_results.tsv": {
+      "sha256": "d9243bcff04203ea8a69a3b8e5bb8570db56dd30551f9ffb667cabd9bb8f749e",
+      "bytes": 560
+    },
+    "analysis/gnn/e2gnn_lopo_summary.tsv": {
+      "sha256": "a6aedfa4183b46bab37a31454bf69a167ee2e6cd67e8ec2b2b5daa98219a8c4b",
+      "bytes": 212
+    },
+    "scripts/02_analysis/04a_build_ensemble_graphs.py": {
+      "sha256": "be1ba711f7599766c867c64ef2f59926a1931ec60b73543f214e345f733ffa04",
+      "bytes": 25631
+    },
+    "scripts/02_analysis/04c_build_md_contact_graphs.py": {
+      "sha256": "e7341cfc1c9ab84f3fa82ba4a73958192754b9754410c6b2b5b938fc51aebe80",
+      "bytes": 21393
+    },
+    "scripts/02_analysis/04g_e2_scalar_gnn.py": {
+      "sha256": "50bac9583da2db4e256b872bfa80bfc495a0f808f8b55ee782a3aaf62c105a18",
+      "bytes": 15620
+    },
+    "random_screen/manifest.tsv": {
+      "sha256": "d4f652807c68df20d089c3562be4cbfbc1b6c5bd63932dbf4489a2fa27b78fe1",
+      "bytes": 20551
+    }
+  },
+  "limitations": [
+    "Text topologies and graph-builder metadata establish retained artifact lineage, not a cryptographic original-run receipt.",
+    "ITP signature checks named heavy-atom adjacency and masses, not stereochemistry/bond orders or actual TPR contents.",
+    "Static graph and GNN table rows need separate review; MD provenance does not certify their independence or accuracy."
+  ]
+}

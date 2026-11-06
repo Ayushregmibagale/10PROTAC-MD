@@ -1,3 +1,5 @@
+> Historical five-compound checkpoint summary. Current isolated priority and findings: [SJF8240 status](../../SJF8240_STATUS.md).
+
 # Remediation status
 
 **Identified local input/software faults have been repaired and validated. The
@@ -34,10 +36,7 @@ the 250 raw local protein arrangements met both thresholds. This is an execution
 success and an exploratory recovery failure, not a biological negative. Full
 receipts, raw geometry accounting and unchanged criteria are retained.
 
-An adaptive exploratory follow-up v27 is active with seed 155921, otherwise the
-same frozen code, input, 50×5×2 budget, two workers and one-hour cap. It was planned
-after observing v26 and is explicitly not a confirmatory independent validation.
-Its changing files are excluded from installation until completion.
+The adaptive follow-up v27 completed with three QC-valid poses. One meets the joint exploratory criterion (1.889 Å VHL Cα RMSD; 9/16 native contacts). Its code matches checkpoint 9d66c47. Both seeds are retained. This is not confirmatory validation, convergence evidence or SJF8240 accuracy.
 
 Two study inputs remain unresolved: the original ten-compound aim versus the five
 currently verified compounds, and the allocated Ernie data directory. Read-only

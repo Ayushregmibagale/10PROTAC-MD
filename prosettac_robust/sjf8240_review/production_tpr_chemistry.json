@@ -1,0 +1,1764 @@
+{
+  "scope": "ACTUAL_COMPILED_PRODUCTION_TPR_HEAVY_CONNECTIVITY",
+  "rows": [
+    {
+      "poi": "DDR2",
+      "pose_id": "pose001",
+      "tpr": "/home/ayushregmibagale/protac-md/random_screen/DDR2/pose001/prod/prod.tpr",
+      "exists": true,
+      "sha256": "ddee6fdf1abf6045f4dc462bfaf5c1a95e2665a1072e680f6729b3400c1f4d6b",
+      "heavy_atoms": 79,
+      "heavy_connectivity_signature": "2089553de694e9bf70c059527ef4f9a85718116da117a1be7be7e8fe12011d74",
+      "matches_legacy_connectivity": true
+    },
+    {
+      "poi": "DDR2",
+      "pose_id": "pose002",
+      "tpr": "/home/ayushregmibagale/protac-md/random_screen/DDR2/pose002/prod/prod.tpr",
+      "exists": true,
+      "sha256": "002927ead3677017a0f00745a7d0a515e419f72d03e7c38297d9f94ee67e2c15",
+      "heavy_atoms": 79,
+      "heavy_connectivity_signature": "2089553de694e9bf70c059527ef4f9a85718116da117a1be7be7e8fe12011d74",
+      "matches_legacy_connectivity": true
+    },
+    {
+      "poi": "DDR2",
+      "pose_id": "pose003",
+      "tpr": "/home/ayushregmibagale/protac-md/random_screen/DDR2/pose003/prod/prod.tpr",
+      "exists": true,
+      "sha256": "f27d83bf07090cec411a1e1129f387eb1c5624a416ad5d7ea793f8dd459b4b69",
+      "heavy_atoms": 79,
+      "heavy_connectivity_signature": "2089553de694e9bf70c059527ef4f9a85718116da117a1be7be7e8fe12011d74",
+      "matches_legacy_connectivity": true
+    },
+    {
+      "poi": "DDR2",
+      "pose_id": "pose004",
+      "tpr": "/home/ayushregmibagale/protac-md/random_screen/DDR2/pose004/prod/prod.tpr",
+      "exists": true,
+      "sha256": "42341a5b50b98494ee014d70f416014e8aed659b97e73151303304bdc59bf67e",
+      "heavy_atoms": 79,
+      "heavy_connectivity_signature": "2089553de694e9bf70c059527ef4f9a85718116da117a1be7be7e8fe12011d74",
+      "matches_legacy_connectivity": true
+    },
+    {
+      "poi": "DDR2",
+      "pose_id": "pose005",
+      "tpr": "/home/ayushregmibagale/protac-md/random_screen/DDR2/pose005/prod/prod.tpr",
+      "exists": true,
+      "sha256": "c2ca1b610841bc316b8b1c5852e0b85fb8b3515dff48c103789af755b4cd3c14",
+      "heavy_atoms": 79,
+      "heavy_connectivity_signature": "2089553de694e9bf70c059527ef4f9a85718116da117a1be7be7e8fe12011d74",
+      "matches_legacy_connectivity": true
+    },
+    {
+      "poi": "DDR2",
+      "pose_id": "pose006",
+      "tpr": "/home/ayushregmibagale/protac-md/random_screen/DDR2/pose006/prod/prod.tpr",
+      "exists": true,
+      "sha256": "9740dcb63dbb0617ab0a5fffde11a243ad0d9c36c8e451f1890b5855fddfc75a",
+      "heavy_atoms": 79,
+      "heavy_connectivity_signature": "2089553de694e9bf70c059527ef4f9a85718116da117a1be7be7e8fe12011d74",
+      "matches_legacy_connectivity": true
+    },
+    {
+      "poi": "DDR2",
+      "pose_id": "pose007",
+      "tpr": "/home/ayushregmibagale/protac-md/random_screen/DDR2/pose007/prod/prod.tpr",
+      "exists": true,
+      "sha256": "399c9545be74c51a88b4f5da7d07b81657951d5556708e64ae83b37eee75a4f5",
+      "heavy_atoms": 79,
+      "heavy_connectivity_signature": "2089553de694e9bf70c059527ef4f9a85718116da117a1be7be7e8fe12011d74",
+      "matches_legacy_connectivity": true
+    },
+    {
+      "poi": "DDR2",
+      "pose_id": "pose008",
+      "tpr": "/home/ayushregmibagale/protac-md/random_screen/DDR2/pose008/prod/prod.tpr",
+      "exists": true,
+      "sha256": "5e4faf732137d09cb222b81282fbcc56f451c2aee20304a014ee5a626a32e381",
+      "heavy_atoms": 79,
+      "heavy_connectivity_signature": "2089553de694e9bf70c059527ef4f9a85718116da117a1be7be7e8fe12011d74",
+      "matches_legacy_connectivity": true
+    },
+    {
+      "poi": "DDR2",
+      "pose_id": "pose010",
+      "tpr": "/home/ayushregmibagale/protac-md/random_screen/DDR2/pose010/prod/prod.tpr",
+      "exists": true,
+      "sha256": "ef5f3c2e3c1aa286fadec7717b6fa28a27d35b6bce4210341f7db43e29421070",
+      "heavy_atoms": 79,
+      "heavy_connectivity_signature": "2089553de694e9bf70c059527ef4f9a85718116da117a1be7be7e8fe12011d74",
+      "matches_legacy_connectivity": true
+    },
+    {
+      "poi": "DDR2",
+      "pose_id": "pose011",
+      "tpr": "/home/ayushregmibagale/protac-md/random_screen/DDR2/pose011/prod/prod.tpr",
+      "exists": true,
+      "sha256": "360d69369702b78573af0cd38df647785ae462dc9966262b3108eb8ed7a1d918",
+      "heavy_atoms": 79,
+      "heavy_connectivity_signature": "2089553de694e9bf70c059527ef4f9a85718116da117a1be7be7e8fe12011d74",
+      "matches_legacy_connectivity": true
+    },
+    {
+      "poi": "DDR2",
+      "pose_id": "pose013",
+      "tpr": "/home/ayushregmibagale/protac-md/random_screen/DDR2/pose013/prod/prod.tpr",
+      "exists": true,
+      "sha256": "f1233aae0ebf8b7e15286428b52c52820789b201a19ba6126544867bf2dea283",
+      "heavy_atoms": 79,
+      "heavy_connectivity_signature": "2089553de694e9bf70c059527ef4f9a85718116da117a1be7be7e8fe12011d74",
+      "matches_legacy_connectivity": true
+    },
+    {
+      "poi": "DDR2",
+      "pose_id": "pose014",
+      "tpr": "/home/ayushregmibagale/protac-md/random_screen/DDR2/pose014/prod/prod.tpr",
+      "exists": true,
+      "sha256": "b89fb3d72cdc55692629d72a7fffbfa7bea25456b40aa4380a33729aeeac36bc",
+      "heavy_atoms": 79,
+      "heavy_connectivity_signature": "2089553de694e9bf70c059527ef4f9a85718116da117a1be7be7e8fe12011d74",
+      "matches_legacy_connectivity": true
+    },
+    {
+      "poi": "DDR2",
+      "pose_id": "pose015",
+      "tpr": "/home/ayushregmibagale/protac-md/random_screen/DDR2/pose015/prod/prod.tpr",
+      "exists": true,
+      "sha256": "f503655a7be00134bd65d6a007fb07328e2d37a0b83fca25e75329e2827b4938",
+      "heavy_atoms": 79,
+      "heavy_connectivity_signature": "2089553de694e9bf70c059527ef4f9a85718116da117a1be7be7e8fe12011d74",
+      "matches_legacy_connectivity": true
+    },
+    {
+      "poi": "DDR2",
+      "pose_id": "pose016",
+      "tpr": "/home/ayushregmibagale/protac-md/random_screen/DDR2/pose016/prod/prod.tpr",
+      "exists": true,
+      "sha256": "4054047674c1f24a038f3100f74493bba248e56c553b9abedf4ee7da2abbc43b",
+      "heavy_atoms": 79,
+      "heavy_connectivity_signature": "2089553de694e9bf70c059527ef4f9a85718116da117a1be7be7e8fe12011d74",
+      "matches_legacy_connectivity": true
+    },
+    {
+      "poi": "DDR2",
+      "pose_id": "pose017",
+      "tpr": "/home/ayushregmibagale/protac-md/random_screen/DDR2/pose017/prod/prod.tpr",
+      "exists": true,
+      "sha256": "77d1246df560ea670c2953a371854a8a3f7c9be2c913f8d5fe1187a4d827f8c8",
+      "heavy_atoms": 79,
+      "heavy_connectivity_signature": "2089553de694e9bf70c059527ef4f9a85718116da117a1be7be7e8fe12011d74",
+      "matches_legacy_connectivity": true
+    },
+    {
+      "poi": "DDR2",
+      "pose_id": "pose018",
+      "tpr": "/home/ayushregmibagale/protac-md/random_screen/DDR2/pose018/prod/prod.tpr",
+      "exists": true,
+      "sha256": "772edb4c8c23d4c75077e0aa8366c095506b16344e22854adf01e3b1029038a9",
+      "heavy_atoms": 79,
+      "heavy_connectivity_signature": "2089553de694e9bf70c059527ef4f9a85718116da117a1be7be7e8fe12011d74",
+      "matches_legacy_connectivity": true
+    },
+    {
+      "poi": "DDR2",
+      "pose_id": "pose019",
+      "tpr": "/home/ayushregmibagale/protac-md/random_screen/DDR2/pose019/prod/prod.tpr",
+      "exists": true,
+      "sha256": "26c75c95f0ea17f87f693bd950eeea5c90aebec4dfe11b0d9823d675d788b03f",
+      "heavy_atoms": 79,
+      "heavy_connectivity_signature": "2089553de694e9bf70c059527ef4f9a85718116da117a1be7be7e8fe12011d74",
+      "matches_legacy_connectivity": true
+    },
+    {
+      "poi": "DDR2",
+      "pose_id": "pose020",
+      "tpr": "/home/ayushregmibagale/protac-md/random_screen/DDR2/pose020/prod/prod.tpr",
+      "exists": true,
+      "sha256": "cd001433ab5239bd6f0871b6ac46bdd7978e9535ebce17c9256616d17448a5c0",
+      "heavy_atoms": 79,
+      "heavy_connectivity_signature": "2089553de694e9bf70c059527ef4f9a85718116da117a1be7be7e8fe12011d74",
+      "matches_legacy_connectivity": true
+    },
+    {
+      "poi": "RIPK2_full",
+      "pose_id": "pose001",
+      "tpr": "/home/ayushregmibagale/protac-md/random_screen/RIPK2_full/pose001/prod/prod.tpr",
+      "exists": true,
+      "sha256": "f78af8d9bbc5c6fcd1f7e47f85d0b47a08479060a371f0be7e6f020eb39794dc",
+      "heavy_atoms": 79,
+      "heavy_connectivity_signature": "2089553de694e9bf70c059527ef4f9a85718116da117a1be7be7e8fe12011d74",
+      "matches_legacy_connectivity": true
+    },
+    {
+      "poi": "RIPK2_full",
+      "pose_id": "pose003",
+      "tpr": "/home/ayushregmibagale/protac-md/random_screen/RIPK2_full/pose003/prod/prod.tpr",
+      "exists": true,
+      "sha256": "8dde09121cefd2b3baaedf52dee7e40a0385b5c34a10ec9ac4ddcd003d5068d2",
+      "heavy_atoms": 79,
+      "heavy_connectivity_signature": "2089553de694e9bf70c059527ef4f9a85718116da117a1be7be7e8fe12011d74",
+      "matches_legacy_connectivity": true
+    },
+    {
+      "poi": "RIPK2_full",
+      "pose_id": "pose004",
+      "tpr": "/home/ayushregmibagale/protac-md/random_screen/RIPK2_full/pose004/prod/prod.tpr",
+      "exists": true,
+      "sha256": "274cf0a81ec1a641d587107f4532edc63eda49cda01d262b3a1d566bb52b7470",
+      "heavy_atoms": 79,
+      "heavy_connectivity_signature": "2089553de694e9bf70c059527ef4f9a85718116da117a1be7be7e8fe12011d74",
+      "matches_legacy_connectivity": true
+    },
+    {
+      "poi": "RIPK2_full",
+      "pose_id": "pose005",
+      "tpr": "/home/ayushregmibagale/protac-md/random_screen/RIPK2_full/pose005/prod/prod.tpr",
+      "exists": true,
+      "sha256": "67b336a69a1fcb220963152ee2e33594c367f374dbfd98350314c89057857523",
+      "heavy_atoms": 79,
+      "heavy_connectivity_signature": "2089553de694e9bf70c059527ef4f9a85718116da117a1be7be7e8fe12011d74",
+      "matches_legacy_connectivity": true
+    },
+    {
+      "poi": "RIPK2_full",
+      "pose_id": "pose006",
+      "tpr": "/home/ayushregmibagale/protac-md/random_screen/RIPK2_full/pose006/prod/prod.tpr",
+      "exists": true,
+      "sha256": "2e2786c27fd17f7733a867d7995749fc1be4c62b71cfb4268ccf72c8f4fceda4",
+      "heavy_atoms": 79,
+      "heavy_connectivity_signature": "2089553de694e9bf70c059527ef4f9a85718116da117a1be7be7e8fe12011d74",
+      "matches_legacy_connectivity": true
+    },
+    {
+      "poi": "RIPK2_full",
+      "pose_id": "pose007",
+      "tpr": "/home/ayushregmibagale/protac-md/random_screen/RIPK2_full/pose007/prod/prod.tpr",
+      "exists": true,
+      "sha256": "2869ff438958f5197aefc1d2fa53cedfadc3d5c67400d10ac63e4a14cf4d74a9",
+      "heavy_atoms": 79,
+      "heavy_connectivity_signature": "2089553de694e9bf70c059527ef4f9a85718116da117a1be7be7e8fe12011d74",
+      "matches_legacy_connectivity": true
+    },
+    {
+      "poi": "RIPK2_full",
+      "pose_id": "pose008",
+      "tpr": "/home/ayushregmibagale/protac-md/random_screen/RIPK2_full/pose008/prod/prod.tpr",
+      "exists": true,
+      "sha256": "ea1181f072eab2a7304965f5924e443b3fe2faed7ae9c9a3064246f55bb078ac",
+      "heavy_atoms": 79,
+      "heavy_connectivity_signature": "2089553de694e9bf70c059527ef4f9a85718116da117a1be7be7e8fe12011d74",
+      "matches_legacy_connectivity": true
+    },
+    {
+      "poi": "RIPK2_full",
+      "pose_id": "pose009",
+      "tpr": "/home/ayushregmibagale/protac-md/random_screen/RIPK2_full/pose009/prod/prod.tpr",
+      "exists": true,
+      "sha256": "b579a0947f7964c9d3df8e16e93e54c28307369bcf4421d1ed9d14bbeb5a6a9e",
+      "heavy_atoms": 79,
+      "heavy_connectivity_signature": "2089553de694e9bf70c059527ef4f9a85718116da117a1be7be7e8fe12011d74",
+      "matches_legacy_connectivity": true
+    },
+    {
+      "poi": "RIPK2_full",
+      "pose_id": "pose010",
+      "tpr": "/home/ayushregmibagale/protac-md/random_screen/RIPK2_full/pose010/prod/prod.tpr",
+      "exists": true,
+      "sha256": "07a1c1f49b3fdb16eaf245a0cc784c8461a1954cde7595eeb74dd4e935032789",
+      "heavy_atoms": 79,
+      "heavy_connectivity_signature": "2089553de694e9bf70c059527ef4f9a85718116da117a1be7be7e8fe12011d74",
+      "matches_legacy_connectivity": true
+    },
+    {
+      "poi": "RIPK2_full",
+      "pose_id": "pose011",
+      "tpr": "/home/ayushregmibagale/protac-md/random_screen/RIPK2_full/pose011/prod/prod.tpr",
+      "exists": true,
+      "sha256": "48db67d4111c036297c91a8fb5328877f6cbd40d1d1eddd91f011446666ca2a9",
+      "heavy_atoms": 79,
+      "heavy_connectivity_signature": "2089553de694e9bf70c059527ef4f9a85718116da117a1be7be7e8fe12011d74",
+      "matches_legacy_connectivity": true
+    },
+    {
+      "poi": "RIPK2_full",
+      "pose_id": "pose012",
+      "tpr": "/home/ayushregmibagale/protac-md/random_screen/RIPK2_full/pose012/prod/prod.tpr",
+      "exists": true,
+      "sha256": "26794a37de7860487866849f8f6ea5e1ea94ec11136d18f98ceba847dcb78f5e",
+      "heavy_atoms": 79,
+      "heavy_connectivity_signature": "2089553de694e9bf70c059527ef4f9a85718116da117a1be7be7e8fe12011d74",
+      "matches_legacy_connectivity": true
+    },
+    {
+      "poi": "RIPK2_full",
+      "pose_id": "pose015",
+      "tpr": "/home/ayushregmibagale/protac-md/random_screen/RIPK2_full/pose015/prod/prod.tpr",
+      "exists": true,
+      "sha256": "fbec2b61f4ce1e6c4bc36a7576dc9d1e0d430bd49ba81781617696392811001d",
+      "heavy_atoms": 79,
+      "heavy_connectivity_signature": "2089553de694e9bf70c059527ef4f9a85718116da117a1be7be7e8fe12011d74",
+      "matches_legacy_connectivity": true
+    },
+    {
+      "poi": "RIPK2_full",
+      "pose_id": "pose016",
+      "tpr": "/home/ayushregmibagale/protac-md/random_screen/RIPK2_full/pose016/prod/prod.tpr",
+      "exists": true,
+      "sha256": "8ac0e03c115fe0aa94c19d5fa661799eab548ad31255fcbf7b3a02c601ffa97a",
+      "heavy_atoms": 79,
+      "heavy_connectivity_signature": "2089553de694e9bf70c059527ef4f9a85718116da117a1be7be7e8fe12011d74",
+      "matches_legacy_connectivity": true
+    },
+    {
+      "poi": "RIPK2_full",
+      "pose_id": "pose017",
+      "tpr": "/home/ayushregmibagale/protac-md/random_screen/RIPK2_full/pose017/prod/prod.tpr",
+      "exists": true,
+      "sha256": "e84dd61ddd0972cd5f6aff3104e12e339d04d2876c25752c33222a2249605906",
+      "heavy_atoms": 79,
+      "heavy_connectivity_signature": "2089553de694e9bf70c059527ef4f9a85718116da117a1be7be7e8fe12011d74",
+      "matches_legacy_connectivity": true
+    },
+    {
+      "poi": "RIPK2_full",
+      "pose_id": "pose018",
+      "tpr": "/home/ayushregmibagale/protac-md/random_screen/RIPK2_full/pose018/prod/prod.tpr",
+      "exists": true,
+      "sha256": "26f729dc120e1e93b8d85ca60b5b1114f5b7c4daa72af12a3d988a855a3af6fa",
+      "heavy_atoms": 79,
+      "heavy_connectivity_signature": "2089553de694e9bf70c059527ef4f9a85718116da117a1be7be7e8fe12011d74",
+      "matches_legacy_connectivity": true
+    },
+    {
+      "poi": "RIPK2_full",
+      "pose_id": "pose019",
+      "tpr": "/home/ayushregmibagale/protac-md/random_screen/RIPK2_full/pose019/prod/prod.tpr",
+      "exists": true,
+      "sha256": "a5925ef5f51ec1b3c82e526749db2276b59e6a066339b56d1eaef9482c1f10f6",
+      "heavy_atoms": 79,
+      "heavy_connectivity_signature": "2089553de694e9bf70c059527ef4f9a85718116da117a1be7be7e8fe12011d74",
+      "matches_legacy_connectivity": true
+    },
+    {
+      "poi": "RIPK2_full",
+      "pose_id": "pose020",
+      "tpr": "/home/ayushregmibagale/protac-md/random_screen/RIPK2_full/pose020/prod/prod.tpr",
+      "exists": true,
+      "sha256": "1dbec3ba34d897b64b28323d8944ae5a19cfb4da95e662af4dd4171aa1ca6763",
+      "heavy_atoms": 79,
+      "heavy_connectivity_signature": "2089553de694e9bf70c059527ef4f9a85718116da117a1be7be7e8fe12011d74",
+      "matches_legacy_connectivity": true
+    },
+    {
+      "poi": "MAPK14_full",
+      "pose_id": "pose001",
+      "tpr": "/home/ayushregmibagale/protac-md/random_screen/MAPK14_full/pose001/prod/prod.tpr",
+      "exists": true,
+      "sha256": "6a9bd9a4bdc140d440ee698bad9c682fcacc90bbca753db44ec868535d8dff21",
+      "heavy_atoms": 79,
+      "heavy_connectivity_signature": "2089553de694e9bf70c059527ef4f9a85718116da117a1be7be7e8fe12011d74",
+      "matches_legacy_connectivity": true
+    },
+    {
+      "poi": "MAPK14_full",
+      "pose_id": "pose002",
+      "tpr": "/home/ayushregmibagale/protac-md/random_screen/MAPK14_full/pose002/prod/prod.tpr",
+      "exists": true,
+      "sha256": "a37615b2d14841458810ce1379ed09b7546ff4ac009d90dd00a1f2029b36ee93",
+      "heavy_atoms": 79,
+      "heavy_connectivity_signature": "2089553de694e9bf70c059527ef4f9a85718116da117a1be7be7e8fe12011d74",
+      "matches_legacy_connectivity": true
+    },
+    {
+      "poi": "MAPK14_full",
+      "pose_id": "pose003",
+      "tpr": "/home/ayushregmibagale/protac-md/random_screen/MAPK14_full/pose003/prod/prod.tpr",
+      "exists": true,
+      "sha256": "cb10b277b9e90a1a86ed4d6147c5aca319ac8d5a50abe8096c9f30d9c320482a",
+      "heavy_atoms": 79,
+      "heavy_connectivity_signature": "2089553de694e9bf70c059527ef4f9a85718116da117a1be7be7e8fe12011d74",
+      "matches_legacy_connectivity": true
+    },
+    {
+      "poi": "MAPK14_full",
+      "pose_id": "pose004",
+      "tpr": "/home/ayushregmibagale/protac-md/random_screen/MAPK14_full/pose004/prod/prod.tpr",
+      "exists": true,
+      "sha256": "57be33a50afc253620b5e4587c3098c422a5677150835fa5b49e4414083526d2",
+      "heavy_atoms": 79,
+      "heavy_connectivity_signature": "2089553de694e9bf70c059527ef4f9a85718116da117a1be7be7e8fe12011d74",
+      "matches_legacy_connectivity": true
+    },
+    {
+      "poi": "MAPK14_full",
+      "pose_id": "pose005",
+      "tpr": "/home/ayushregmibagale/protac-md/random_screen/MAPK14_full/pose005/prod/prod.tpr",
+      "exists": true,
+      "sha256": "27717625ebddc01c0f85bb76789c78e968e42c68d9c88e0a99a590134b5d7b4f",
+      "heavy_atoms": 79,
+      "heavy_connectivity_signature": "2089553de694e9bf70c059527ef4f9a85718116da117a1be7be7e8fe12011d74",
+      "matches_legacy_connectivity": true
+    },
+    {
+      "poi": "MAPK14_full",
+      "pose_id": "pose006",
+      "tpr": "/home/ayushregmibagale/protac-md/random_screen/MAPK14_full/pose006/prod/prod.tpr",
+      "exists": true,
+      "sha256": "dcf49263c4012192aace5b17215c5cf08032780f9e04d47f03261b200a1b5377",
+      "heavy_atoms": 79,
+      "heavy_connectivity_signature": "2089553de694e9bf70c059527ef4f9a85718116da117a1be7be7e8fe12011d74",
+      "matches_legacy_connectivity": true
+    },
+    {
+      "poi": "MAPK14_full",
+      "pose_id": "pose007",
+      "tpr": "/home/ayushregmibagale/protac-md/random_screen/MAPK14_full/pose007/prod/prod.tpr",
+      "exists": true,
+      "sha256": "d79a1b2cbd3ec970b651094b066817191dc02358653d56f47a01dc0a4077b4d6",
+      "heavy_atoms": 79,
+      "heavy_connectivity_signature": "2089553de694e9bf70c059527ef4f9a85718116da117a1be7be7e8fe12011d74",
+      "matches_legacy_connectivity": true
+    },
+    {
+      "poi": "MAPK14_full",
+      "pose_id": "pose008",
+      "tpr": "/home/ayushregmibagale/protac-md/random_screen/MAPK14_full/pose008/prod/prod.tpr",
+      "exists": true,
+      "sha256": "c89d2dde376f1de3dbeae03af2eea35d67e7fb24667938a2f96203e3444b6b55",
+      "heavy_atoms": 79,
+      "heavy_connectivity_signature": "2089553de694e9bf70c059527ef4f9a85718116da117a1be7be7e8fe12011d74",
+      "matches_legacy_connectivity": true
+    },
+    {
+      "poi": "MAPK14_full",
+      "pose_id": "pose009",
+      "tpr": "/home/ayushregmibagale/protac-md/random_screen/MAPK14_full/pose009/prod/prod.tpr",
+      "exists": true,
+      "sha256": "5f742275abf36787a6e42d8bb7c7d706b994aa53d93dbaec0f9ce7b43a7f1052",
+      "heavy_atoms": 79,
+      "heavy_connectivity_signature": "2089553de694e9bf70c059527ef4f9a85718116da117a1be7be7e8fe12011d74",
+      "matches_legacy_connectivity": true
+    },
+    {
+      "poi": "MAPK14_full",
+      "pose_id": "pose010",
+      "tpr": "/home/ayushregmibagale/protac-md/random_screen/MAPK14_full/pose010/prod/prod.tpr",
+      "exists": true,
+      "sha256": "a3d7b115b9a4f4fd2c43996bd0ecd51f3f6860853e1b0d485a368d2663b5862a",
+      "heavy_atoms": 79,
+      "heavy_connectivity_signature": "2089553de694e9bf70c059527ef4f9a85718116da117a1be7be7e8fe12011d74",
+      "matches_legacy_connectivity": true
+    },
+    {
+      "poi": "MAPK14_full",
+      "pose_id": "pose011",
+      "tpr": "/home/ayushregmibagale/protac-md/random_screen/MAPK14_full/pose011/prod/prod.tpr",
+      "exists": true,
+      "sha256": "a0c5fb4c913996eafa021a98f1284c42b913f82e54efd20696c484e8c8701503",
+      "heavy_atoms": 79,
+      "heavy_connectivity_signature": "2089553de694e9bf70c059527ef4f9a85718116da117a1be7be7e8fe12011d74",
+      "matches_legacy_connectivity": true
+    },
+    {
+      "poi": "MAPK14_full",
+      "pose_id": "pose012",
+      "tpr": "/home/ayushregmibagale/protac-md/random_screen/MAPK14_full/pose012/prod/prod.tpr",
+      "exists": true,
+      "sha256": "f653235f574ba06b5dbed8722ea7a322f203d38eceb60b9de1c0c30cd9da3c5a",
+      "heavy_atoms": 79,
+      "heavy_connectivity_signature": "2089553de694e9bf70c059527ef4f9a85718116da117a1be7be7e8fe12011d74",
+      "matches_legacy_connectivity": true
+    },
+    {
+      "poi": "MAPK14_full",
+      "pose_id": "pose013",
+      "tpr": "/home/ayushregmibagale/protac-md/random_screen/MAPK14_full/pose013/prod/prod.tpr",
+      "exists": true,
+      "sha256": "f95ce57793f85a6fe0857cde0f166fa513a45bff805a156256e0f6e116192d3d",
+      "heavy_atoms": 79,
+      "heavy_connectivity_signature": "2089553de694e9bf70c059527ef4f9a85718116da117a1be7be7e8fe12011d74",
+      "matches_legacy_connectivity": true
+    },
+    {
+      "poi": "MAPK14_full",
+      "pose_id": "pose015",
+      "tpr": "/home/ayushregmibagale/protac-md/random_screen/MAPK14_full/pose015/prod/prod.tpr",
+      "exists": true,
+      "sha256": "3f71ed1dc67af3dac5ee15a11c77abb386616522bf31343c41709372ff95f328",
+      "heavy_atoms": 79,
+      "heavy_connectivity_signature": "2089553de694e9bf70c059527ef4f9a85718116da117a1be7be7e8fe12011d74",
+      "matches_legacy_connectivity": true
+    },
+    {
+      "poi": "MAPK14_full",
+      "pose_id": "pose016",
+      "tpr": "/home/ayushregmibagale/protac-md/random_screen/MAPK14_full/pose016/prod/prod.tpr",
+      "exists": true,
+      "sha256": "b483bc9dc6e3d9f563132c4cb8a19468dc748a6d80b164304336e66af614d582",
+      "heavy_atoms": 79,
+      "heavy_connectivity_signature": "2089553de694e9bf70c059527ef4f9a85718116da117a1be7be7e8fe12011d74",
+      "matches_legacy_connectivity": true
+    },
+    {
+      "poi": "MAPK14_full",
+      "pose_id": "pose017",
+      "tpr": "/home/ayushregmibagale/protac-md/random_screen/MAPK14_full/pose017/prod/prod.tpr",
+      "exists": true,
+      "sha256": "a60ea1968a3d243176a46ca32283e2de3db1ba66105a45b7d3ed865a40e8bb6e",
+      "heavy_atoms": 79,
+      "heavy_connectivity_signature": "2089553de694e9bf70c059527ef4f9a85718116da117a1be7be7e8fe12011d74",
+      "matches_legacy_connectivity": true
+    },
+    {
+      "poi": "MAPK14_full",
+      "pose_id": "pose018",
+      "tpr": "/home/ayushregmibagale/protac-md/random_screen/MAPK14_full/pose018/prod/prod.tpr",
+      "exists": true,
+      "sha256": "5f58c5d91cf5cca815ddee2bb26fe7f85fb78cb04d92613ede6ce98881425ab5",
+      "heavy_atoms": 79,
+      "heavy_connectivity_signature": "2089553de694e9bf70c059527ef4f9a85718116da117a1be7be7e8fe12011d74",
+      "matches_legacy_connectivity": true
+    },
+    {
+      "poi": "MAPK14_full",
+      "pose_id": "pose020",
+      "tpr": "/home/ayushregmibagale/protac-md/random_screen/MAPK14_full/pose020/prod/prod.tpr",
+      "exists": true,
+      "sha256": "6bb6ef917f2999a42d342069b2a55d253ebf91aefb2e144818b225eeb87339b5",
+      "heavy_atoms": 79,
+      "heavy_connectivity_signature": "2089553de694e9bf70c059527ef4f9a85718116da117a1be7be7e8fe12011d74",
+      "matches_legacy_connectivity": true
+    },
+    {
+      "poi": "MET",
+      "pose_id": "pose002",
+      "tpr": "/home/ayushregmibagale/protac-md/random_screen/MET/pose002/prod/prod.tpr",
+      "exists": true,
+      "sha256": "08c2ffc58ce8d38a2a7a36e095fd206e684f48ef4f522e8bf4d528b562132f83",
+      "heavy_atoms": 79,
+      "heavy_connectivity_signature": "2089553de694e9bf70c059527ef4f9a85718116da117a1be7be7e8fe12011d74",
+      "matches_legacy_connectivity": true
+    },
+    {
+      "poi": "MET",
+      "pose_id": "pose003",
+      "tpr": "/home/ayushregmibagale/protac-md/random_screen/MET/pose003/prod/prod.tpr",
+      "exists": true,
+      "sha256": "ad0187acc23fe6098d30002daef209410ea7a05dc1f8800c08a2386d56418325",
+      "heavy_atoms": 79,
+      "heavy_connectivity_signature": "2089553de694e9bf70c059527ef4f9a85718116da117a1be7be7e8fe12011d74",
+      "matches_legacy_connectivity": true
+    },
+    {
+      "poi": "MET",
+      "pose_id": "pose004",
+      "tpr": "/home/ayushregmibagale/protac-md/random_screen/MET/pose004/prod/prod.tpr",
+      "exists": true,
+      "sha256": "983ab25b4df6d84fa0caa017f075702f527d425d12ef38382476278985119503",
+      "heavy_atoms": 79,
+      "heavy_connectivity_signature": "2089553de694e9bf70c059527ef4f9a85718116da117a1be7be7e8fe12011d74",
+      "matches_legacy_connectivity": true
+    },
+    {
+      "poi": "MET",
+      "pose_id": "pose005",
+      "tpr": "/home/ayushregmibagale/protac-md/random_screen/MET/pose005/prod/prod.tpr",
+      "exists": true,
+      "sha256": "6bd4b0f955d63a7fc44c53af2446c36a160ca0bb5fc50e274089bb6ce95a003d",
+      "heavy_atoms": 79,
+      "heavy_connectivity_signature": "2089553de694e9bf70c059527ef4f9a85718116da117a1be7be7e8fe12011d74",
+      "matches_legacy_connectivity": true
+    },
+    {
+      "poi": "MET",
+      "pose_id": "pose006",
+      "tpr": "/home/ayushregmibagale/protac-md/random_screen/MET/pose006/prod/prod.tpr",
+      "exists": true,
+      "sha256": "818c10476be80c36f31e74e5651df421ca12d1325612d98547816cb41e352681",
+      "heavy_atoms": 79,
+      "heavy_connectivity_signature": "2089553de694e9bf70c059527ef4f9a85718116da117a1be7be7e8fe12011d74",
+      "matches_legacy_connectivity": true
+    },
+    {
+      "poi": "MET",
+      "pose_id": "pose007",
+      "tpr": "/home/ayushregmibagale/protac-md/random_screen/MET/pose007/prod/prod.tpr",
+      "exists": true,
+      "sha256": "cf825792f3b239e4b8758fe0ff323a838c5887f458b13f140d41c9f4632cbf27",
+      "heavy_atoms": 79,
+      "heavy_connectivity_signature": "2089553de694e9bf70c059527ef4f9a85718116da117a1be7be7e8fe12011d74",
+      "matches_legacy_connectivity": true
+    },
+    {
+      "poi": "MET",
+      "pose_id": "pose008",
+      "tpr": "/home/ayushregmibagale/protac-md/random_screen/MET/pose008/prod/prod.tpr",
+      "exists": true,
+      "sha256": "2e864233f6ef532158d9fb2f2d9cc81bb0899f1d6aa8d13bc8d552d00baf4967",
+      "heavy_atoms": 79,
+      "heavy_connectivity_signature": "2089553de694e9bf70c059527ef4f9a85718116da117a1be7be7e8fe12011d74",
+      "matches_legacy_connectivity": true
+    },
+    {
+      "poi": "MET",
+      "pose_id": "pose009",
+      "tpr": "/home/ayushregmibagale/protac-md/random_screen/MET/pose009/prod/prod.tpr",
+      "exists": true,
+      "sha256": "20a4ace09829feee2eab52fe253dcc7a7acd3fec9c755c06011056ddba6a67ae",
+      "heavy_atoms": 79,
+      "heavy_connectivity_signature": "2089553de694e9bf70c059527ef4f9a85718116da117a1be7be7e8fe12011d74",
+      "matches_legacy_connectivity": true
+    },
+    {
+      "poi": "MET",
+      "pose_id": "pose011",
+      "tpr": "/home/ayushregmibagale/protac-md/random_screen/MET/pose011/prod/prod.tpr",
+      "exists": true,
+      "sha256": "0c91ecdeee1a339ff5e8888989388a989860d4d7f408852e7538615f18df9d36",
+      "heavy_atoms": 79,
+      "heavy_connectivity_signature": "2089553de694e9bf70c059527ef4f9a85718116da117a1be7be7e8fe12011d74",
+      "matches_legacy_connectivity": true
+    },
+    {
+      "poi": "MET",
+      "pose_id": "pose012",
+      "tpr": "/home/ayushregmibagale/protac-md/random_screen/MET/pose012/prod/prod.tpr",
+      "exists": true,
+      "sha256": "5cfe640a5ed8d8bc40faf03ebb05f5780f9a931c93a674267bc9f18b50f9fc7f",
+      "heavy_atoms": 79,
+      "heavy_connectivity_signature": "2089553de694e9bf70c059527ef4f9a85718116da117a1be7be7e8fe12011d74",
+      "matches_legacy_connectivity": true
+    },
+    {
+      "poi": "MET",
+      "pose_id": "pose013",
+      "tpr": "/home/ayushregmibagale/protac-md/random_screen/MET/pose013/prod/prod.tpr",
+      "exists": true,
+      "sha256": "79246214fc57041e51eba369d0475132409db81b909e6d729a6eb117db169210",
+      "heavy_atoms": 79,
+      "heavy_connectivity_signature": "2089553de694e9bf70c059527ef4f9a85718116da117a1be7be7e8fe12011d74",
+      "matches_legacy_connectivity": true
+    },
+    {
+      "poi": "MET",
+      "pose_id": "pose014",
+      "tpr": "/home/ayushregmibagale/protac-md/random_screen/MET/pose014/prod/prod.tpr",
+      "exists": true,
+      "sha256": "c91d8b402372ae6b1371bbf3141c8686b6ecf396a34deab0d341d7932538a531",
+      "heavy_atoms": 79,
+      "heavy_connectivity_signature": "2089553de694e9bf70c059527ef4f9a85718116da117a1be7be7e8fe12011d74",
+      "matches_legacy_connectivity": true
+    },
+    {
+      "poi": "MET",
+      "pose_id": "pose017",
+      "tpr": "/home/ayushregmibagale/protac-md/random_screen/MET/pose017/prod/prod.tpr",
+      "exists": true,
+      "sha256": "eaa1c5620f1ff0b6d8981f488b65b6c0c6cc6a127d12563e8e7142ec84215b5c",
+      "heavy_atoms": 79,
+      "heavy_connectivity_signature": "2089553de694e9bf70c059527ef4f9a85718116da117a1be7be7e8fe12011d74",
+      "matches_legacy_connectivity": true
+    },
+    {
+      "poi": "MET",
+      "pose_id": "pose018",
+      "tpr": "/home/ayushregmibagale/protac-md/random_screen/MET/pose018/prod/prod.tpr",
+      "exists": true,
+      "sha256": "ce229f8b7626fec0d172e85c784c5e0f31336848c7172feb471ecbbd5922d40f",
+      "heavy_atoms": 79,
+      "heavy_connectivity_signature": "2089553de694e9bf70c059527ef4f9a85718116da117a1be7be7e8fe12011d74",
+      "matches_legacy_connectivity": true
+    },
+    {
+      "poi": "MET",
+      "pose_id": "pose019",
+      "tpr": "/home/ayushregmibagale/protac-md/random_screen/MET/pose019/prod/prod.tpr",
+      "exists": true,
+      "sha256": "40737b64072c48112d7e4dcca1df7200ec3884ecfaf6329eb89208498484e2c9",
+      "heavy_atoms": 79,
+      "heavy_connectivity_signature": "2089553de694e9bf70c059527ef4f9a85718116da117a1be7be7e8fe12011d74",
+      "matches_legacy_connectivity": true
+    },
+    {
+      "poi": "MET",
+      "pose_id": "pose020",
+      "tpr": "/home/ayushregmibagale/protac-md/random_screen/MET/pose020/prod/prod.tpr",
+      "exists": true,
+      "sha256": "4559ad1253ec2f81f6d37e835d01b0bef3cf8f1159edf56221f742ee148499f5",
+      "heavy_atoms": 79,
+      "heavy_connectivity_signature": "2089553de694e9bf70c059527ef4f9a85718116da117a1be7be7e8fe12011d74",
+      "matches_legacy_connectivity": true
+    },
+    {
+      "poi": "EPHB2",
+      "pose_id": "pose001",
+      "tpr": "/home/ayushregmibagale/protac-md/random_screen/EPHB2/pose001/prod/prod.tpr",
+      "exists": true,
+      "sha256": "f36071ca7a1b1acab70910afe586624c6cb0a6906a451c5757fd52e5312974de",
+      "heavy_atoms": 79,
+      "heavy_connectivity_signature": "2089553de694e9bf70c059527ef4f9a85718116da117a1be7be7e8fe12011d74",
+      "matches_legacy_connectivity": true
+    },
+    {
+      "poi": "EPHB2",
+      "pose_id": "pose002",
+      "tpr": "/home/ayushregmibagale/protac-md/random_screen/EPHB2/pose002/prod/prod.tpr",
+      "exists": true,
+      "sha256": "d76f6cb6b646bb740d9a7ff2f161e61227f4087bb1c00eefd5807613ceda725d",
+      "heavy_atoms": 79,
+      "heavy_connectivity_signature": "2089553de694e9bf70c059527ef4f9a85718116da117a1be7be7e8fe12011d74",
+      "matches_legacy_connectivity": true
+    },
+    {
+      "poi": "EPHB2",
+      "pose_id": "pose003",
+      "tpr": "/home/ayushregmibagale/protac-md/random_screen/EPHB2/pose003/prod/prod.tpr",
+      "exists": true,
+      "sha256": "d9652d8ea399a020c9e9c707e24f26de3121848f49faa4f40e5f9bf30166173e",
+      "heavy_atoms": 79,
+      "heavy_connectivity_signature": "2089553de694e9bf70c059527ef4f9a85718116da117a1be7be7e8fe12011d74",
+      "matches_legacy_connectivity": true
+    },
+    {
+      "poi": "EPHB2",
+      "pose_id": "pose004",
+      "tpr": "/home/ayushregmibagale/protac-md/random_screen/EPHB2/pose004/prod/prod.tpr",
+      "exists": true,
+      "sha256": "51cf13c39d0793dae205c3d9b14d1669c07f47c99f4e239ddb13b6de383b5476",
+      "heavy_atoms": 79,
+      "heavy_connectivity_signature": "2089553de694e9bf70c059527ef4f9a85718116da117a1be7be7e8fe12011d74",
+      "matches_legacy_connectivity": true
+    },
+    {
+      "poi": "EPHB2",
+      "pose_id": "pose005",
+      "tpr": "/home/ayushregmibagale/protac-md/random_screen/EPHB2/pose005/prod/prod.tpr",
+      "exists": true,
+      "sha256": "213a88b4e650502e40c5f66330fb92c1f2ee0f194e3d8982ecf774edb6fdae9f",
+      "heavy_atoms": 79,
+      "heavy_connectivity_signature": "2089553de694e9bf70c059527ef4f9a85718116da117a1be7be7e8fe12011d74",
+      "matches_legacy_connectivity": true
+    },
+    {
+      "poi": "EPHB2",
+      "pose_id": "pose006",
+      "tpr": "/home/ayushregmibagale/protac-md/random_screen/EPHB2/pose006/prod/prod.tpr",
+      "exists": true,
+      "sha256": "fbc2d1d611a4e02b397564ac2c00740840392423bcc2966f649b72614f1ee0b3",
+      "heavy_atoms": 79,
+      "heavy_connectivity_signature": "2089553de694e9bf70c059527ef4f9a85718116da117a1be7be7e8fe12011d74",
+      "matches_legacy_connectivity": true
+    },
+    {
+      "poi": "EPHB2",
+      "pose_id": "pose007",
+      "tpr": "/home/ayushregmibagale/protac-md/random_screen/EPHB2/pose007/prod/prod.tpr",
+      "exists": true,
+      "sha256": "f3dfb6e1f03511fb739db60da17351907bc1f09a9a19c478c3a87af45e882c5f",
+      "heavy_atoms": 79,
+      "heavy_connectivity_signature": "2089553de694e9bf70c059527ef4f9a85718116da117a1be7be7e8fe12011d74",
+      "matches_legacy_connectivity": true
+    },
+    {
+      "poi": "EPHB2",
+      "pose_id": "pose008",
+      "tpr": "/home/ayushregmibagale/protac-md/random_screen/EPHB2/pose008/prod/prod.tpr",
+      "exists": true,
+      "sha256": "7d89374273d9b91d206febaf698ed70212e95c1f33861f92439c940f73588d5a",
+      "heavy_atoms": 79,
+      "heavy_connectivity_signature": "2089553de694e9bf70c059527ef4f9a85718116da117a1be7be7e8fe12011d74",
+      "matches_legacy_connectivity": true
+    },
+    {
+      "poi": "EPHB2",
+      "pose_id": "pose009",
+      "tpr": "/home/ayushregmibagale/protac-md/random_screen/EPHB2/pose009/prod/prod.tpr",
+      "exists": true,
+      "sha256": "0aea28f70d71be636778537b75fc5e5931021adaa6ac4f5cf76659b5dd910e8a",
+      "heavy_atoms": 79,
+      "heavy_connectivity_signature": "2089553de694e9bf70c059527ef4f9a85718116da117a1be7be7e8fe12011d74",
+      "matches_legacy_connectivity": true
+    },
+    {
+      "poi": "EPHB2",
+      "pose_id": "pose010",
+      "tpr": "/home/ayushregmibagale/protac-md/random_screen/EPHB2/pose010/prod/prod.tpr",
+      "exists": true,
+      "sha256": "28ae9c47d98a1f3882564989115ebf2a6d7f83793c326da91286827e20ccd4d7",
+      "heavy_atoms": 79,
+      "heavy_connectivity_signature": "2089553de694e9bf70c059527ef4f9a85718116da117a1be7be7e8fe12011d74",
+      "matches_legacy_connectivity": true
+    },
+    {
+      "poi": "EPHB2",
+      "pose_id": "pose011",
+      "tpr": "/home/ayushregmibagale/protac-md/random_screen/EPHB2/pose011/prod/prod.tpr",
+      "exists": true,
+      "sha256": "4f7eedb638d7736c94139bae6b9eddee678ea212a43d089b401f17eefb3678ea",
+      "heavy_atoms": 79,
+      "heavy_connectivity_signature": "2089553de694e9bf70c059527ef4f9a85718116da117a1be7be7e8fe12011d74",
+      "matches_legacy_connectivity": true
+    },
+    {
+      "poi": "EPHB2",
+      "pose_id": "pose013",
+      "tpr": "/home/ayushregmibagale/protac-md/random_screen/EPHB2/pose013/prod/prod.tpr",
+      "exists": true,
+      "sha256": "018bfa596beb3c5c111fc41f2216e6461c5a2dd6a83f3dbbba812bf63daa98b4",
+      "heavy_atoms": 79,
+      "heavy_connectivity_signature": "2089553de694e9bf70c059527ef4f9a85718116da117a1be7be7e8fe12011d74",
+      "matches_legacy_connectivity": true
+    },
+    {
+      "poi": "EPHB2",
+      "pose_id": "pose014",
+      "tpr": "/home/ayushregmibagale/protac-md/random_screen/EPHB2/pose014/prod/prod.tpr",
+      "exists": true,
+      "sha256": "7a56b699e50ea23f7c02b3b0dfac28d31d8577e82d445daea87f09078b9a46b8",
+      "heavy_atoms": 79,
+      "heavy_connectivity_signature": "2089553de694e9bf70c059527ef4f9a85718116da117a1be7be7e8fe12011d74",
+      "matches_legacy_connectivity": true
+    },
+    {
+      "poi": "EPHB2",
+      "pose_id": "pose015",
+      "tpr": "/home/ayushregmibagale/protac-md/random_screen/EPHB2/pose015/prod/prod.tpr",
+      "exists": true,
+      "sha256": "e7533af23028d66d90f2959ae6bab071d6c9d77c43c16d7ed30be1f6beb0874a",
+      "heavy_atoms": 79,
+      "heavy_connectivity_signature": "2089553de694e9bf70c059527ef4f9a85718116da117a1be7be7e8fe12011d74",
+      "matches_legacy_connectivity": true
+    },
+    {
+      "poi": "EPHB2",
+      "pose_id": "pose016",
+      "tpr": "/home/ayushregmibagale/protac-md/random_screen/EPHB2/pose016/prod/prod.tpr",
+      "exists": true,
+      "sha256": "bbc9f76b10e35ad86c95784e7b6f0ee15f4d40ef6ad4a16d67fd4ad5ab66c687",
+      "heavy_atoms": 79,
+      "heavy_connectivity_signature": "2089553de694e9bf70c059527ef4f9a85718116da117a1be7be7e8fe12011d74",
+      "matches_legacy_connectivity": true
+    },
+    {
+      "poi": "EPHB2",
+      "pose_id": "pose017",
+      "tpr": "/home/ayushregmibagale/protac-md/random_screen/EPHB2/pose017/prod/prod.tpr",
+      "exists": true,
+      "sha256": "a04947db94db05eb03227af8c1621b3ce19e17c4fdf80bc9916f1d0262e8dca2",
+      "heavy_atoms": 79,
+      "heavy_connectivity_signature": "2089553de694e9bf70c059527ef4f9a85718116da117a1be7be7e8fe12011d74",
+      "matches_legacy_connectivity": true
+    },
+    {
+      "poi": "EPHB2",
+      "pose_id": "pose018",
+      "tpr": "/home/ayushregmibagale/protac-md/random_screen/EPHB2/pose018/prod/prod.tpr",
+      "exists": true,
+      "sha256": "67234bd40ceca652a9995e6baf6a0de0dc3ccf7aec3c779227c2cefc0c953c98",
+      "heavy_atoms": 79,
+      "heavy_connectivity_signature": "2089553de694e9bf70c059527ef4f9a85718116da117a1be7be7e8fe12011d74",
+      "matches_legacy_connectivity": true
+    },
+    {
+      "poi": "EPHB2",
+      "pose_id": "pose019",
+      "tpr": "/home/ayushregmibagale/protac-md/random_screen/EPHB2/pose019/prod/prod.tpr",
+      "exists": true,
+      "sha256": "6185e8564a8e8ca4654fcbc157e6f9077971ce62b34f4853d591ffb42b5a9702",
+      "heavy_atoms": 79,
+      "heavy_connectivity_signature": "2089553de694e9bf70c059527ef4f9a85718116da117a1be7be7e8fe12011d74",
+      "matches_legacy_connectivity": true
+    },
+    {
+      "poi": "EPHB2",
+      "pose_id": "pose020",
+      "tpr": "/home/ayushregmibagale/protac-md/random_screen/EPHB2/pose020/prod/prod.tpr",
+      "exists": true,
+      "sha256": "1e684bf0c25409986a3860d6ce1b59b3787cf46349c254354184e7e0f852802d",
+      "heavy_atoms": 79,
+      "heavy_connectivity_signature": "2089553de694e9bf70c059527ef4f9a85718116da117a1be7be7e8fe12011d74",
+      "matches_legacy_connectivity": true
+    },
+    {
+      "poi": "ABL1",
+      "pose_id": "pose001",
+      "tpr": "/home/ayushregmibagale/protac-md/random_screen/ABL1/pose001/prod/prod.tpr",
+      "exists": true,
+      "sha256": "f9228e3e573644840af08941f321cff25a3e8e124677c53cb9d681a5b7ec000c",
+      "heavy_atoms": 79,
+      "heavy_connectivity_signature": "2089553de694e9bf70c059527ef4f9a85718116da117a1be7be7e8fe12011d74",
+      "matches_legacy_connectivity": true
+    },
+    {
+      "poi": "ABL1",
+      "pose_id": "pose003",
+      "tpr": "/home/ayushregmibagale/protac-md/random_screen/ABL1/pose003/prod/prod.tpr",
+      "exists": true,
+      "sha256": "825a5ad1d5a4a2783a6bc01de3aefe3cd5469cc00ad1b97ca3881c9d8cf04d42",
+      "heavy_atoms": 79,
+      "heavy_connectivity_signature": "2089553de694e9bf70c059527ef4f9a85718116da117a1be7be7e8fe12011d74",
+      "matches_legacy_connectivity": true
+    },
+    {
+      "poi": "ABL1",
+      "pose_id": "pose004",
+      "tpr": "/home/ayushregmibagale/protac-md/random_screen/ABL1/pose004/prod/prod.tpr",
+      "exists": true,
+      "sha256": "e4827d247436d4fc895822bb82c2d22da6c7a7928d5e1ba28df278b636c746ad",
+      "heavy_atoms": 79,
+      "heavy_connectivity_signature": "2089553de694e9bf70c059527ef4f9a85718116da117a1be7be7e8fe12011d74",
+      "matches_legacy_connectivity": true
+    },
+    {
+      "poi": "ABL1",
+      "pose_id": "pose005",
+      "tpr": "/home/ayushregmibagale/protac-md/random_screen/ABL1/pose005/prod/prod.tpr",
+      "exists": true,
+      "sha256": "27033950b8310b6c613d7be24734ef3f0da848d2b168c75003a6404af0096115",
+      "heavy_atoms": 79,
+      "heavy_connectivity_signature": "2089553de694e9bf70c059527ef4f9a85718116da117a1be7be7e8fe12011d74",
+      "matches_legacy_connectivity": true
+    },
+    {
+      "poi": "ABL1",
+      "pose_id": "pose006",
+      "tpr": "/home/ayushregmibagale/protac-md/random_screen/ABL1/pose006/prod/prod.tpr",
+      "exists": true,
+      "sha256": "404b64af39855bb92cb22b035d0300d64a4d81179d4b2c6f9c7d8ddb6ba88388",
+      "heavy_atoms": 79,
+      "heavy_connectivity_signature": "2089553de694e9bf70c059527ef4f9a85718116da117a1be7be7e8fe12011d74",
+      "matches_legacy_connectivity": true
+    },
+    {
+      "poi": "ABL1",
+      "pose_id": "pose008",
+      "tpr": "/home/ayushregmibagale/protac-md/random_screen/ABL1/pose008/prod/prod.tpr",
+      "exists": true,
+      "sha256": "7a5975ddfb7d91e829131654ddf0b3300bf196a38093947c00db1e3318fd7f1b",
+      "heavy_atoms": 79,
+      "heavy_connectivity_signature": "2089553de694e9bf70c059527ef4f9a85718116da117a1be7be7e8fe12011d74",
+      "matches_legacy_connectivity": true
+    },
+    {
+      "poi": "ABL1",
+      "pose_id": "pose009",
+      "tpr": "/home/ayushregmibagale/protac-md/random_screen/ABL1/pose009/prod/prod.tpr",
+      "exists": true,
+      "sha256": "22ecc594dcb4bd15e4abc7b07e660078836e0797ea813c734eae92e475a28773",
+      "heavy_atoms": 79,
+      "heavy_connectivity_signature": "2089553de694e9bf70c059527ef4f9a85718116da117a1be7be7e8fe12011d74",
+      "matches_legacy_connectivity": true
+    },
+    {
+      "poi": "ABL1",
+      "pose_id": "pose010",
+      "tpr": "/home/ayushregmibagale/protac-md/random_screen/ABL1/pose010/prod/prod.tpr",
+      "exists": true,
+      "sha256": "361836176106b66982b9e4fbf56bca11be6a91103f1bb79a3044a09c6a93bb78",
+      "heavy_atoms": 79,
+      "heavy_connectivity_signature": "2089553de694e9bf70c059527ef4f9a85718116da117a1be7be7e8fe12011d74",
+      "matches_legacy_connectivity": true
+    },
+    {
+      "poi": "ABL1",
+      "pose_id": "pose011",
+      "tpr": "/home/ayushregmibagale/protac-md/random_screen/ABL1/pose011/prod/prod.tpr",
+      "exists": true,
+      "sha256": "50a5617a8708f226bcb5b9c46a27bb6098c2c318f7abd1278fe15e01cdb47ae2",
+      "heavy_atoms": 79,
+      "heavy_connectivity_signature": "2089553de694e9bf70c059527ef4f9a85718116da117a1be7be7e8fe12011d74",
+      "matches_legacy_connectivity": true
+    },
+    {
+      "poi": "ABL1",
+      "pose_id": "pose013",
+      "tpr": "/home/ayushregmibagale/protac-md/random_screen/ABL1/pose013/prod/prod.tpr",
+      "exists": true,
+      "sha256": "41b9f7a85552e4efbe56e0aa8cb1bde730d48d4562c1dc95ae0a099c21d8c299",
+      "heavy_atoms": 79,
+      "heavy_connectivity_signature": "2089553de694e9bf70c059527ef4f9a85718116da117a1be7be7e8fe12011d74",
+      "matches_legacy_connectivity": true
+    },
+    {
+      "poi": "ABL1",
+      "pose_id": "pose014",
+      "tpr": "/home/ayushregmibagale/protac-md/random_screen/ABL1/pose014/prod/prod.tpr",
+      "exists": true,
+      "sha256": "69f8b63c8a98c3156957476d0c7e4a59bcd8b54f567a3adfc27ff49942713fc9",
+      "heavy_atoms": 79,
+      "heavy_connectivity_signature": "2089553de694e9bf70c059527ef4f9a85718116da117a1be7be7e8fe12011d74",
+      "matches_legacy_connectivity": true
+    },
+    {
+      "poi": "ABL1",
+      "pose_id": "pose015",
+      "tpr": "/home/ayushregmibagale/protac-md/random_screen/ABL1/pose015/prod/prod.tpr",
+      "exists": true,
+      "sha256": "984e5e696fd15297dec23d0eeb43033646b1eb839117fb885cf4f7fd5b640a29",
+      "heavy_atoms": 79,
+      "heavy_connectivity_signature": "2089553de694e9bf70c059527ef4f9a85718116da117a1be7be7e8fe12011d74",
+      "matches_legacy_connectivity": true
+    },
+    {
+      "poi": "ABL1",
+      "pose_id": "pose016",
+      "tpr": "/home/ayushregmibagale/protac-md/random_screen/ABL1/pose016/prod/prod.tpr",
+      "exists": true,
+      "sha256": "5019ab3c97196545f9c20fe00bc7a74719285810026f5f2bda2613bf64dc9d1a",
+      "heavy_atoms": 79,
+      "heavy_connectivity_signature": "2089553de694e9bf70c059527ef4f9a85718116da117a1be7be7e8fe12011d74",
+      "matches_legacy_connectivity": true
+    },
+    {
+      "poi": "ABL1",
+      "pose_id": "pose017",
+      "tpr": "/home/ayushregmibagale/protac-md/random_screen/ABL1/pose017/prod/prod.tpr",
+      "exists": true,
+      "sha256": "273da24952681bf5c4f9ae5ed8a05d205f257c0005b9f6f7ce08726dfb6cdec2",
+      "heavy_atoms": 79,
+      "heavy_connectivity_signature": "2089553de694e9bf70c059527ef4f9a85718116da117a1be7be7e8fe12011d74",
+      "matches_legacy_connectivity": true
+    },
+    {
+      "poi": "ABL1",
+      "pose_id": "pose018",
+      "tpr": "/home/ayushregmibagale/protac-md/random_screen/ABL1/pose018/prod/prod.tpr",
+      "exists": true,
+      "sha256": "c1e42d301391d8f9068a7e3e273f057f8e4cf13eb53b16fbca7ec078b33d59f2",
+      "heavy_atoms": 79,
+      "heavy_connectivity_signature": "2089553de694e9bf70c059527ef4f9a85718116da117a1be7be7e8fe12011d74",
+      "matches_legacy_connectivity": true
+    },
+    {
+      "poi": "ABL1",
+      "pose_id": "pose019",
+      "tpr": "/home/ayushregmibagale/protac-md/random_screen/ABL1/pose019/prod/prod.tpr",
+      "exists": true,
+      "sha256": "2581870fbb7ab9d4574a39e4ce86303e85bacdca1ebf6b59af0b6ec852289b9a",
+      "heavy_atoms": 79,
+      "heavy_connectivity_signature": "2089553de694e9bf70c059527ef4f9a85718116da117a1be7be7e8fe12011d74",
+      "matches_legacy_connectivity": true
+    },
+    {
+      "poi": "ABL1",
+      "pose_id": "pose020",
+      "tpr": "/home/ayushregmibagale/protac-md/random_screen/ABL1/pose020/prod/prod.tpr",
+      "exists": true,
+      "sha256": "b8155ed56796c56f77a158305c25cb6f87c6600f8903ca9240e7f5bb6a31e6cb",
+      "heavy_atoms": 79,
+      "heavy_connectivity_signature": "2089553de694e9bf70c059527ef4f9a85718116da117a1be7be7e8fe12011d74",
+      "matches_legacy_connectivity": true
+    },
+    {
+      "poi": "AXL",
+      "pose_id": "pose001",
+      "tpr": "/home/ayushregmibagale/protac-md/random_screen/AXL/pose001/prod/prod.tpr",
+      "exists": true,
+      "sha256": "f0d3cf24ce0097561aa8d87508b76c646ee36a647e96ad37b16edcc1da14eee8",
+      "heavy_atoms": 79,
+      "heavy_connectivity_signature": "2089553de694e9bf70c059527ef4f9a85718116da117a1be7be7e8fe12011d74",
+      "matches_legacy_connectivity": true
+    },
+    {
+      "poi": "AXL",
+      "pose_id": "pose002",
+      "tpr": "/home/ayushregmibagale/protac-md/random_screen/AXL/pose002/prod/prod.tpr",
+      "exists": true,
+      "sha256": "59c7395012a604d0cb823d9fb5d5b3d725f4e6f1fb504432c18244c3cdbea26e",
+      "heavy_atoms": 79,
+      "heavy_connectivity_signature": "2089553de694e9bf70c059527ef4f9a85718116da117a1be7be7e8fe12011d74",
+      "matches_legacy_connectivity": true
+    },
+    {
+      "poi": "AXL",
+      "pose_id": "pose004",
+      "tpr": "/home/ayushregmibagale/protac-md/random_screen/AXL/pose004/prod/prod.tpr",
+      "exists": true,
+      "sha256": "4bd8967e4ca754671ccf404e671d82d4299a24d8042eb83b4482b63cefba09bb",
+      "heavy_atoms": 79,
+      "heavy_connectivity_signature": "2089553de694e9bf70c059527ef4f9a85718116da117a1be7be7e8fe12011d74",
+      "matches_legacy_connectivity": true
+    },
+    {
+      "poi": "AXL",
+      "pose_id": "pose005",
+      "tpr": "/home/ayushregmibagale/protac-md/random_screen/AXL/pose005/prod/prod.tpr",
+      "exists": true,
+      "sha256": "b40516dffd26c733bcbe31a4a884690214b6beec58f8215f94274c5ad782dfff",
+      "heavy_atoms": 79,
+      "heavy_connectivity_signature": "2089553de694e9bf70c059527ef4f9a85718116da117a1be7be7e8fe12011d74",
+      "matches_legacy_connectivity": true
+    },
+    {
+      "poi": "AXL",
+      "pose_id": "pose006",
+      "tpr": "/home/ayushregmibagale/protac-md/random_screen/AXL/pose006/prod/prod.tpr",
+      "exists": true,
+      "sha256": "7d6603a741a8155a7bc55e43a68fbcdf2042021d97d4e3fad117d6211d512a92",
+      "heavy_atoms": 79,
+      "heavy_connectivity_signature": "2089553de694e9bf70c059527ef4f9a85718116da117a1be7be7e8fe12011d74",
+      "matches_legacy_connectivity": true
+    },
+    {
+      "poi": "AXL",
+      "pose_id": "pose007",
+      "tpr": "/home/ayushregmibagale/protac-md/random_screen/AXL/pose007/prod/prod.tpr",
+      "exists": true,
+      "sha256": "aef2caf1fe3b2c197c51c8603ecb15b8f61cbf6c2132125ee8d8410a07d3b776",
+      "heavy_atoms": 79,
+      "heavy_connectivity_signature": "2089553de694e9bf70c059527ef4f9a85718116da117a1be7be7e8fe12011d74",
+      "matches_legacy_connectivity": true
+    },
+    {
+      "poi": "AXL",
+      "pose_id": "pose008",
+      "tpr": "/home/ayushregmibagale/protac-md/random_screen/AXL/pose008/prod/prod.tpr",
+      "exists": true,
+      "sha256": "c6a962df1f03c082b8b4bb78680b10ce905d08175318b47c195b0cdaef6faeb0",
+      "heavy_atoms": 79,
+      "heavy_connectivity_signature": "2089553de694e9bf70c059527ef4f9a85718116da117a1be7be7e8fe12011d74",
+      "matches_legacy_connectivity": true
+    },
+    {
+      "poi": "AXL",
+      "pose_id": "pose009",
+      "tpr": "/home/ayushregmibagale/protac-md/random_screen/AXL/pose009/prod/prod.tpr",
+      "exists": true,
+      "sha256": "6aa87c8079c624fbbbad9c4686482d3bdc56469fb7bde6d936282220ce39251f",
+      "heavy_atoms": 79,
+      "heavy_connectivity_signature": "2089553de694e9bf70c059527ef4f9a85718116da117a1be7be7e8fe12011d74",
+      "matches_legacy_connectivity": true
+    },
+    {
+      "poi": "AXL",
+      "pose_id": "pose010",
+      "tpr": "/home/ayushregmibagale/protac-md/random_screen/AXL/pose010/prod/prod.tpr",
+      "exists": true,
+      "sha256": "b500c36aa2fb8893a20de3d3325f456e697300bf8b66ffa597b2ebfac22df345",
+      "heavy_atoms": 79,
+      "heavy_connectivity_signature": "2089553de694e9bf70c059527ef4f9a85718116da117a1be7be7e8fe12011d74",
+      "matches_legacy_connectivity": true
+    },
+    {
+      "poi": "AXL",
+      "pose_id": "pose011",
+      "tpr": "/home/ayushregmibagale/protac-md/random_screen/AXL/pose011/prod/prod.tpr",
+      "exists": true,
+      "sha256": "d4c31bda16d0a0d3306f1371b119f1ffd28b1ccff8d217a1210d1c511a55ce6b",
+      "heavy_atoms": 79,
+      "heavy_connectivity_signature": "2089553de694e9bf70c059527ef4f9a85718116da117a1be7be7e8fe12011d74",
+      "matches_legacy_connectivity": true
+    },
+    {
+      "poi": "AXL",
+      "pose_id": "pose012",
+      "tpr": "/home/ayushregmibagale/protac-md/random_screen/AXL/pose012/prod/prod.tpr",
+      "exists": true,
+      "sha256": "ab5fa03a530b30ed2672dd7433602dbf81d47c13ee8596d6c751f83e6e08d3cf",
+      "heavy_atoms": 79,
+      "heavy_connectivity_signature": "2089553de694e9bf70c059527ef4f9a85718116da117a1be7be7e8fe12011d74",
+      "matches_legacy_connectivity": true
+    },
+    {
+      "poi": "AXL",
+      "pose_id": "pose013",
+      "tpr": "/home/ayushregmibagale/protac-md/random_screen/AXL/pose013/prod/prod.tpr",
+      "exists": true,
+      "sha256": "efd26d621f4f5bca132337bf87e6ae01e1d55e1e70d4f4d9c7d9f4021ecc7333",
+      "heavy_atoms": 79,
+      "heavy_connectivity_signature": "2089553de694e9bf70c059527ef4f9a85718116da117a1be7be7e8fe12011d74",
+      "matches_legacy_connectivity": true
+    },
+    {
+      "poi": "AXL",
+      "pose_id": "pose015",
+      "tpr": "/home/ayushregmibagale/protac-md/random_screen/AXL/pose015/prod/prod.tpr",
+      "exists": true,
+      "sha256": "30f91db9b151dcb5b91976e48c06ed66bbf804504b8369df0c5fcd85001b10f5",
+      "heavy_atoms": 79,
+      "heavy_connectivity_signature": "2089553de694e9bf70c059527ef4f9a85718116da117a1be7be7e8fe12011d74",
+      "matches_legacy_connectivity": true
+    },
+    {
+      "poi": "AXL",
+      "pose_id": "pose016",
+      "tpr": "/home/ayushregmibagale/protac-md/random_screen/AXL/pose016/prod/prod.tpr",
+      "exists": true,
+      "sha256": "062e2f59f9d2ba7d46b051ddef60c07d20ed0d72febcd2c579e4d021b5cd019f",
+      "heavy_atoms": 79,
+      "heavy_connectivity_signature": "2089553de694e9bf70c059527ef4f9a85718116da117a1be7be7e8fe12011d74",
+      "matches_legacy_connectivity": true
+    },
+    {
+      "poi": "AXL",
+      "pose_id": "pose017",
+      "tpr": "/home/ayushregmibagale/protac-md/random_screen/AXL/pose017/prod/prod.tpr",
+      "exists": true,
+      "sha256": "bb8528b0ff3d79e8f2f5bf819bd44a74fec1bf7b913d2bef27819e9fd61195e3",
+      "heavy_atoms": 79,
+      "heavy_connectivity_signature": "2089553de694e9bf70c059527ef4f9a85718116da117a1be7be7e8fe12011d74",
+      "matches_legacy_connectivity": true
+    },
+    {
+      "poi": "AXL",
+      "pose_id": "pose018",
+      "tpr": "/home/ayushregmibagale/protac-md/random_screen/AXL/pose018/prod/prod.tpr",
+      "exists": true,
+      "sha256": "e9e8522f276b9fc18ad706b0090deccc86c371a3eead4a14f488ecaabee271f0",
+      "heavy_atoms": 79,
+      "heavy_connectivity_signature": "2089553de694e9bf70c059527ef4f9a85718116da117a1be7be7e8fe12011d74",
+      "matches_legacy_connectivity": true
+    },
+    {
+      "poi": "AXL",
+      "pose_id": "pose019",
+      "tpr": "/home/ayushregmibagale/protac-md/random_screen/AXL/pose019/prod/prod.tpr",
+      "exists": true,
+      "sha256": "ee742b6f634ced6dad63455dc57897ddaf0e11bd350022323da13366a1fee114",
+      "heavy_atoms": 79,
+      "heavy_connectivity_signature": "2089553de694e9bf70c059527ef4f9a85718116da117a1be7be7e8fe12011d74",
+      "matches_legacy_connectivity": true
+    },
+    {
+      "poi": "AXL",
+      "pose_id": "pose020",
+      "tpr": "/home/ayushregmibagale/protac-md/random_screen/AXL/pose020/prod/prod.tpr",
+      "exists": true,
+      "sha256": "a97184ce94ec6cdb0ecbd250233e8d4533362a2f38342e6cc781394a192c0ddf",
+      "heavy_atoms": 79,
+      "heavy_connectivity_signature": "2089553de694e9bf70c059527ef4f9a85718116da117a1be7be7e8fe12011d74",
+      "matches_legacy_connectivity": true
+    },
+    {
+      "poi": "EPHA2",
+      "pose_id": "pose001",
+      "tpr": "/home/ayushregmibagale/protac-md/random_screen/EPHA2/pose001/prod/prod.tpr",
+      "exists": true,
+      "sha256": "f702a475a8510d7cdf03019ba0ebced9d01efb35822a0643c09fb936d5e66431",
+      "heavy_atoms": 79,
+      "heavy_connectivity_signature": "2089553de694e9bf70c059527ef4f9a85718116da117a1be7be7e8fe12011d74",
+      "matches_legacy_connectivity": true
+    },
+    {
+      "poi": "EPHA2",
+      "pose_id": "pose002",
+      "tpr": "/home/ayushregmibagale/protac-md/random_screen/EPHA2/pose002/prod/prod.tpr",
+      "exists": true,
+      "sha256": "c56c85dcd52373af6d4bee13b08cf879bed9ed70eb8eb4b5dd1080f4c406cee6",
+      "heavy_atoms": 79,
+      "heavy_connectivity_signature": "2089553de694e9bf70c059527ef4f9a85718116da117a1be7be7e8fe12011d74",
+      "matches_legacy_connectivity": true
+    },
+    {
+      "poi": "EPHA2",
+      "pose_id": "pose003",
+      "tpr": "/home/ayushregmibagale/protac-md/random_screen/EPHA2/pose003/prod/prod.tpr",
+      "exists": true,
+      "sha256": "bda4d7a9ab09e75d414f7a68c9b064e2f777f2062e2fe398f79a6cae681063e5",
+      "heavy_atoms": 79,
+      "heavy_connectivity_signature": "2089553de694e9bf70c059527ef4f9a85718116da117a1be7be7e8fe12011d74",
+      "matches_legacy_connectivity": true
+    },
+    {
+      "poi": "EPHA2",
+      "pose_id": "pose004",
+      "tpr": "/home/ayushregmibagale/protac-md/random_screen/EPHA2/pose004/prod/prod.tpr",
+      "exists": true,
+      "sha256": "d219c3dba6a4bd3e8b6a961eb626b2f5e484aefdf506ea08d8d22c6d297b65f2",
+      "heavy_atoms": 79,
+      "heavy_connectivity_signature": "2089553de694e9bf70c059527ef4f9a85718116da117a1be7be7e8fe12011d74",
+      "matches_legacy_connectivity": true
+    },
+    {
+      "poi": "EPHA2",
+      "pose_id": "pose005",
+      "tpr": "/home/ayushregmibagale/protac-md/random_screen/EPHA2/pose005/prod/prod.tpr",
+      "exists": true,
+      "sha256": "8f21599f4f145f184f0691c4bebfb1a0ed28a6ee5b5514d487cb4b756e179253",
+      "heavy_atoms": 79,
+      "heavy_connectivity_signature": "2089553de694e9bf70c059527ef4f9a85718116da117a1be7be7e8fe12011d74",
+      "matches_legacy_connectivity": true
+    },
+    {
+      "poi": "EPHA2",
+      "pose_id": "pose006",
+      "tpr": "/home/ayushregmibagale/protac-md/random_screen/EPHA2/pose006/prod/prod.tpr",
+      "exists": true,
+      "sha256": "42e5a84616b2aa594e6fb15e9f72519e834c6bcea9a97dce2a10e7e35a93d856",
+      "heavy_atoms": 79,
+      "heavy_connectivity_signature": "2089553de694e9bf70c059527ef4f9a85718116da117a1be7be7e8fe12011d74",
+      "matches_legacy_connectivity": true
+    },
+    {
+      "poi": "EPHA2",
+      "pose_id": "pose007",
+      "tpr": "/home/ayushregmibagale/protac-md/random_screen/EPHA2/pose007/prod/prod.tpr",
+      "exists": true,
+      "sha256": "7ec3dda7fd45e8e01e9642ce47761e1bfbff673bbb8101bf239fb906e33e4d79",
+      "heavy_atoms": 79,
+      "heavy_connectivity_signature": "2089553de694e9bf70c059527ef4f9a85718116da117a1be7be7e8fe12011d74",
+      "matches_legacy_connectivity": true
+    },
+    {
+      "poi": "EPHA2",
+      "pose_id": "pose008",
+      "tpr": "/home/ayushregmibagale/protac-md/random_screen/EPHA2/pose008/prod/prod.tpr",
+      "exists": true,
+      "sha256": "7e47e4cf4025bf8796fe79bf2d7f3b12885e453af2fe02675523120bf5b7e8b3",
+      "heavy_atoms": 79,
+      "heavy_connectivity_signature": "2089553de694e9bf70c059527ef4f9a85718116da117a1be7be7e8fe12011d74",
+      "matches_legacy_connectivity": true
+    },
+    {
+      "poi": "EPHA2",
+      "pose_id": "pose009",
+      "tpr": "/home/ayushregmibagale/protac-md/random_screen/EPHA2/pose009/prod/prod.tpr",
+      "exists": true,
+      "sha256": "862ea3cc0236a5b711dc7c2464d8d009272290294124cc5d7884c94f45b072e3",
+      "heavy_atoms": 79,
+      "heavy_connectivity_signature": "2089553de694e9bf70c059527ef4f9a85718116da117a1be7be7e8fe12011d74",
+      "matches_legacy_connectivity": true
+    },
+    {
+      "poi": "EPHA2",
+      "pose_id": "pose010",
+      "tpr": "/home/ayushregmibagale/protac-md/random_screen/EPHA2/pose010/prod/prod.tpr",
+      "exists": true,
+      "sha256": "871fb55b0706ece261954d76d77f14c99d778ab2d12596aeddf193227f48a2e7",
+      "heavy_atoms": 79,
+      "heavy_connectivity_signature": "2089553de694e9bf70c059527ef4f9a85718116da117a1be7be7e8fe12011d74",
+      "matches_legacy_connectivity": true
+    },
+    {
+      "poi": "EPHA2",
+      "pose_id": "pose011",
+      "tpr": "/home/ayushregmibagale/protac-md/random_screen/EPHA2/pose011/prod/prod.tpr",
+      "exists": true,
+      "sha256": "cff8a1a564c616e948b26738a89d998084c46d9524ffc5f1f4f26fec38288c0a",
+      "heavy_atoms": 79,
+      "heavy_connectivity_signature": "2089553de694e9bf70c059527ef4f9a85718116da117a1be7be7e8fe12011d74",
+      "matches_legacy_connectivity": true
+    },
+    {
+      "poi": "EPHA2",
+      "pose_id": "pose012",
+      "tpr": "/home/ayushregmibagale/protac-md/random_screen/EPHA2/pose012/prod/prod.tpr",
+      "exists": true,
+      "sha256": "0de34c03c21524ed4221eaed3bcb95c1296e51c1d01554857ded9454178b16f8",
+      "heavy_atoms": 79,
+      "heavy_connectivity_signature": "2089553de694e9bf70c059527ef4f9a85718116da117a1be7be7e8fe12011d74",
+      "matches_legacy_connectivity": true
+    },
+    {
+      "poi": "EPHA2",
+      "pose_id": "pose013",
+      "tpr": "/home/ayushregmibagale/protac-md/random_screen/EPHA2/pose013/prod/prod.tpr",
+      "exists": true,
+      "sha256": "9a88b06eed8d029520d1c5192a774b6c2d64fa7389c8e80aa658462dcf4b70bb",
+      "heavy_atoms": 79,
+      "heavy_connectivity_signature": "2089553de694e9bf70c059527ef4f9a85718116da117a1be7be7e8fe12011d74",
+      "matches_legacy_connectivity": true
+    },
+    {
+      "poi": "EPHA2",
+      "pose_id": "pose015",
+      "tpr": "/home/ayushregmibagale/protac-md/random_screen/EPHA2/pose015/prod/prod.tpr",
+      "exists": true,
+      "sha256": "e0e826c8846218a48236175a0c2906425ac583130dee89547b83f796228afc4e",
+      "heavy_atoms": 79,
+      "heavy_connectivity_signature": "2089553de694e9bf70c059527ef4f9a85718116da117a1be7be7e8fe12011d74",
+      "matches_legacy_connectivity": true
+    },
+    {
+      "poi": "EPHA2",
+      "pose_id": "pose017",
+      "tpr": "/home/ayushregmibagale/protac-md/random_screen/EPHA2/pose017/prod/prod.tpr",
+      "exists": true,
+      "sha256": "fcba58c9498409da67236a3dc890c1e92f995fa9336b16ff8ec792a30bf173b7",
+      "heavy_atoms": 79,
+      "heavy_connectivity_signature": "2089553de694e9bf70c059527ef4f9a85718116da117a1be7be7e8fe12011d74",
+      "matches_legacy_connectivity": true
+    },
+    {
+      "poi": "EPHA2",
+      "pose_id": "pose018",
+      "tpr": "/home/ayushregmibagale/protac-md/random_screen/EPHA2/pose018/prod/prod.tpr",
+      "exists": true,
+      "sha256": "9f855d366e40c7765dce4071bf7364586f35259fc7f2b7288bc9a1416491c275",
+      "heavy_atoms": 79,
+      "heavy_connectivity_signature": "2089553de694e9bf70c059527ef4f9a85718116da117a1be7be7e8fe12011d74",
+      "matches_legacy_connectivity": true
+    },
+    {
+      "poi": "EPHA2",
+      "pose_id": "pose019",
+      "tpr": "/home/ayushregmibagale/protac-md/random_screen/EPHA2/pose019/prod/prod.tpr",
+      "exists": true,
+      "sha256": "04c850dbe2fb01645028b15f471b598598b685c7f43cde76c2a5c774d7e15a03",
+      "heavy_atoms": 79,
+      "heavy_connectivity_signature": "2089553de694e9bf70c059527ef4f9a85718116da117a1be7be7e8fe12011d74",
+      "matches_legacy_connectivity": true
+    },
+    {
+      "poi": "EPHA2",
+      "pose_id": "pose020",
+      "tpr": "/home/ayushregmibagale/protac-md/random_screen/EPHA2/pose020/prod/prod.tpr",
+      "exists": true,
+      "sha256": "79aada36ef81b1f78cd6383cea9a156470a5ba726c6a623d7e70a4da89cbb514",
+      "heavy_atoms": 79,
+      "heavy_connectivity_signature": "2089553de694e9bf70c059527ef4f9a85718116da117a1be7be7e8fe12011d74",
+      "matches_legacy_connectivity": true
+    },
+    {
+      "poi": "SIK3",
+      "pose_id": "pose002",
+      "tpr": "/home/ayushregmibagale/protac-md/random_screen/SIK3/pose002/prod/prod.tpr",
+      "exists": true,
+      "sha256": "e7b09bf4bd143c4a01cc3720d222fdc98685253d0bb98fd7efa0b603ae34d4a7",
+      "heavy_atoms": 79,
+      "heavy_connectivity_signature": "2089553de694e9bf70c059527ef4f9a85718116da117a1be7be7e8fe12011d74",
+      "matches_legacy_connectivity": true
+    },
+    {
+      "poi": "SIK3",
+      "pose_id": "pose003",
+      "tpr": "/home/ayushregmibagale/protac-md/random_screen/SIK3/pose003/prod/prod.tpr",
+      "exists": true,
+      "sha256": "82468f876f60c45b2de9b746cc0f2c9e2d191a97ff4a81042598de6e3f79d49e",
+      "heavy_atoms": 79,
+      "heavy_connectivity_signature": "2089553de694e9bf70c059527ef4f9a85718116da117a1be7be7e8fe12011d74",
+      "matches_legacy_connectivity": true
+    },
+    {
+      "poi": "SIK3",
+      "pose_id": "pose006",
+      "tpr": "/home/ayushregmibagale/protac-md/random_screen/SIK3/pose006/prod/prod.tpr",
+      "exists": true,
+      "sha256": "04b65b54ee1877a95a4deabd2756ea11c4feeeefbf2e8e454f2de1d9269d22dd",
+      "heavy_atoms": 79,
+      "heavy_connectivity_signature": "2089553de694e9bf70c059527ef4f9a85718116da117a1be7be7e8fe12011d74",
+      "matches_legacy_connectivity": true
+    },
+    {
+      "poi": "SIK3",
+      "pose_id": "pose008",
+      "tpr": "/home/ayushregmibagale/protac-md/random_screen/SIK3/pose008/prod/prod.tpr",
+      "exists": true,
+      "sha256": "c59eac255d116bdcf57794812fe698cedbb9cfa11d0138e43395daa6b5a94b83",
+      "heavy_atoms": 79,
+      "heavy_connectivity_signature": "2089553de694e9bf70c059527ef4f9a85718116da117a1be7be7e8fe12011d74",
+      "matches_legacy_connectivity": true
+    },
+    {
+      "poi": "SIK3",
+      "pose_id": "pose009",
+      "tpr": "/home/ayushregmibagale/protac-md/random_screen/SIK3/pose009/prod/prod.tpr",
+      "exists": true,
+      "sha256": "1c720e16a33bb7672119f661c608d9c9465e1fa61affccd8cfa7257b8319ecc8",
+      "heavy_atoms": 79,
+      "heavy_connectivity_signature": "2089553de694e9bf70c059527ef4f9a85718116da117a1be7be7e8fe12011d74",
+      "matches_legacy_connectivity": true
+    },
+    {
+      "poi": "SIK3",
+      "pose_id": "pose010",
+      "tpr": "/home/ayushregmibagale/protac-md/random_screen/SIK3/pose010/prod/prod.tpr",
+      "exists": true,
+      "sha256": "b22fce3380932c7aff559bf23a1959d04db72e5df2dfc7eb71e5d51b602e19db",
+      "heavy_atoms": 79,
+      "heavy_connectivity_signature": "2089553de694e9bf70c059527ef4f9a85718116da117a1be7be7e8fe12011d74",
+      "matches_legacy_connectivity": true
+    },
+    {
+      "poi": "SIK3",
+      "pose_id": "pose011",
+      "tpr": "/home/ayushregmibagale/protac-md/random_screen/SIK3/pose011/prod/prod.tpr",
+      "exists": true,
+      "sha256": "fecc70481e6da93a8132de91942a09dd86730a86037b08f6c49cac2ac3e44bed",
+      "heavy_atoms": 79,
+      "heavy_connectivity_signature": "2089553de694e9bf70c059527ef4f9a85718116da117a1be7be7e8fe12011d74",
+      "matches_legacy_connectivity": true
+    },
+    {
+      "poi": "SIK3",
+      "pose_id": "pose012",
+      "tpr": "/home/ayushregmibagale/protac-md/random_screen/SIK3/pose012/prod/prod.tpr",
+      "exists": true,
+      "sha256": "73b9fd50fb9e9504cbf76a5a3cf63d35dddad4f73ce4271cf144e724f59eebc0",
+      "heavy_atoms": 79,
+      "heavy_connectivity_signature": "2089553de694e9bf70c059527ef4f9a85718116da117a1be7be7e8fe12011d74",
+      "matches_legacy_connectivity": true
+    },
+    {
+      "poi": "SIK3",
+      "pose_id": "pose013",
+      "tpr": "/home/ayushregmibagale/protac-md/random_screen/SIK3/pose013/prod/prod.tpr",
+      "exists": true,
+      "sha256": "a20722c627759b3fc13209ea41fc70615b968c231d759b1156a5f25f74d22f03",
+      "heavy_atoms": 79,
+      "heavy_connectivity_signature": "2089553de694e9bf70c059527ef4f9a85718116da117a1be7be7e8fe12011d74",
+      "matches_legacy_connectivity": true
+    },
+    {
+      "poi": "SIK3",
+      "pose_id": "pose014",
+      "tpr": "/home/ayushregmibagale/protac-md/random_screen/SIK3/pose014/prod/prod.tpr",
+      "exists": true,
+      "sha256": "ab47dae202e0a841fcda95cce8939491a04e3e795b9d95682bf8df102314b426",
+      "heavy_atoms": 79,
+      "heavy_connectivity_signature": "2089553de694e9bf70c059527ef4f9a85718116da117a1be7be7e8fe12011d74",
+      "matches_legacy_connectivity": true
+    },
+    {
+      "poi": "SIK3",
+      "pose_id": "pose015",
+      "tpr": "/home/ayushregmibagale/protac-md/random_screen/SIK3/pose015/prod/prod.tpr",
+      "exists": true,
+      "sha256": "9ca4ab527949ad94fb3993b0f015ec59f2343e0f4af376a900b7caf1bf59bbff",
+      "heavy_atoms": 79,
+      "heavy_connectivity_signature": "2089553de694e9bf70c059527ef4f9a85718116da117a1be7be7e8fe12011d74",
+      "matches_legacy_connectivity": true
+    },
+    {
+      "poi": "SIK3",
+      "pose_id": "pose016",
+      "tpr": "/home/ayushregmibagale/protac-md/random_screen/SIK3/pose016/prod/prod.tpr",
+      "exists": true,
+      "sha256": "f97ea2c47cf019527069b21268e4588f189f6df12c100b6e83aee2f879f38692",
+      "heavy_atoms": 79,
+      "heavy_connectivity_signature": "2089553de694e9bf70c059527ef4f9a85718116da117a1be7be7e8fe12011d74",
+      "matches_legacy_connectivity": true
+    },
+    {
+      "poi": "SIK3",
+      "pose_id": "pose017",
+      "tpr": "/home/ayushregmibagale/protac-md/random_screen/SIK3/pose017/prod/prod.tpr",
+      "exists": true,
+      "sha256": "a79b9966b6d589ba620a22dc945976993b4f0a69be13dd0f895d384eaac7e951",
+      "heavy_atoms": 79,
+      "heavy_connectivity_signature": "2089553de694e9bf70c059527ef4f9a85718116da117a1be7be7e8fe12011d74",
+      "matches_legacy_connectivity": true
+    },
+    {
+      "poi": "SIK3",
+      "pose_id": "pose019",
+      "tpr": "/home/ayushregmibagale/protac-md/random_screen/SIK3/pose019/prod/prod.tpr",
+      "exists": true,
+      "sha256": "8d6e987d348f2aa970ab3207b7957ddb2fe948a21ccbed6c676c380061661490",
+      "heavy_atoms": 79,
+      "heavy_connectivity_signature": "2089553de694e9bf70c059527ef4f9a85718116da117a1be7be7e8fe12011d74",
+      "matches_legacy_connectivity": true
+    },
+    {
+      "poi": "SIK3",
+      "pose_id": "pose020",
+      "tpr": "/home/ayushregmibagale/protac-md/random_screen/SIK3/pose020/prod/prod.tpr",
+      "exists": true,
+      "sha256": "66209669fd82bc074184947c50ea4926331d5da9ac26419cd6b7db447824af30",
+      "heavy_atoms": 79,
+      "heavy_connectivity_signature": "2089553de694e9bf70c059527ef4f9a85718116da117a1be7be7e8fe12011d74",
+      "matches_legacy_connectivity": true
+    },
+    {
+      "poi": "RPS6KB2",
+      "pose_id": "pose001",
+      "tpr": "/home/ayushregmibagale/protac-md/random_screen/RPS6KB2/pose001/prod/prod.tpr",
+      "exists": true,
+      "sha256": "f26329429e9e91ed68bd6f4bf4087ff5824a8577802493277b62acdc7f0d2253",
+      "heavy_atoms": 79,
+      "heavy_connectivity_signature": "2089553de694e9bf70c059527ef4f9a85718116da117a1be7be7e8fe12011d74",
+      "matches_legacy_connectivity": true
+    },
+    {
+      "poi": "RPS6KB2",
+      "pose_id": "pose002",
+      "tpr": "/home/ayushregmibagale/protac-md/random_screen/RPS6KB2/pose002/prod/prod.tpr",
+      "exists": true,
+      "sha256": "f7e96a0d0403049294a608f3c2edda3d98b8f9fe1ed1ff5d1141bedea196b86d",
+      "heavy_atoms": 79,
+      "heavy_connectivity_signature": "2089553de694e9bf70c059527ef4f9a85718116da117a1be7be7e8fe12011d74",
+      "matches_legacy_connectivity": true
+    },
+    {
+      "poi": "RPS6KB2",
+      "pose_id": "pose003",
+      "tpr": "/home/ayushregmibagale/protac-md/random_screen/RPS6KB2/pose003/prod/prod.tpr",
+      "exists": true,
+      "sha256": "0420bb02f2a92808ef37c18b3fb4090d4ff7552ad350013acbc31614956a15d8",
+      "heavy_atoms": 79,
+      "heavy_connectivity_signature": "2089553de694e9bf70c059527ef4f9a85718116da117a1be7be7e8fe12011d74",
+      "matches_legacy_connectivity": true
+    },
+    {
+      "poi": "RPS6KB2",
+      "pose_id": "pose004",
+      "tpr": "/home/ayushregmibagale/protac-md/random_screen/RPS6KB2/pose004/prod/prod.tpr",
+      "exists": true,
+      "sha256": "d380ca5e3d286e04829d8074b8a57560fc8216afe347d458e286065fd3947370",
+      "heavy_atoms": 79,
+      "heavy_connectivity_signature": "2089553de694e9bf70c059527ef4f9a85718116da117a1be7be7e8fe12011d74",
+      "matches_legacy_connectivity": true
+    },
+    {
+      "poi": "RPS6KB2",
+      "pose_id": "pose005",
+      "tpr": "/home/ayushregmibagale/protac-md/random_screen/RPS6KB2/pose005/prod/prod.tpr",
+      "exists": true,
+      "sha256": "aa27546f4a99cbe28bb5bd8c5d794a079abe2f397fc888160222f2452baf5a45",
+      "heavy_atoms": 79,
+      "heavy_connectivity_signature": "2089553de694e9bf70c059527ef4f9a85718116da117a1be7be7e8fe12011d74",
+      "matches_legacy_connectivity": true
+    },
+    {
+      "poi": "RPS6KB2",
+      "pose_id": "pose006",
+      "tpr": "/home/ayushregmibagale/protac-md/random_screen/RPS6KB2/pose006/prod/prod.tpr",
+      "exists": true,
+      "sha256": "f8cc1421936007c813762c1633ec4aed0471a108cf90765e5e216ce4f9541c21",
+      "heavy_atoms": 79,
+      "heavy_connectivity_signature": "2089553de694e9bf70c059527ef4f9a85718116da117a1be7be7e8fe12011d74",
+      "matches_legacy_connectivity": true
+    },
+    {
+      "poi": "RPS6KB2",
+      "pose_id": "pose008",
+      "tpr": "/home/ayushregmibagale/protac-md/random_screen/RPS6KB2/pose008/prod/prod.tpr",
+      "exists": true,
+      "sha256": "198ff470a2967afb06ed69957728a7976100aa3ba8ab5520233332e173dcb56c",
+      "heavy_atoms": 79,
+      "heavy_connectivity_signature": "2089553de694e9bf70c059527ef4f9a85718116da117a1be7be7e8fe12011d74",
+      "matches_legacy_connectivity": true
+    },
+    {
+      "poi": "RPS6KB2",
+      "pose_id": "pose009",
+      "tpr": "/home/ayushregmibagale/protac-md/random_screen/RPS6KB2/pose009/prod/prod.tpr",
+      "exists": true,
+      "sha256": "06e500c18108c086123401754cfecbba4986c283c16bfb6a95b6cd9ad4b147d3",
+      "heavy_atoms": 79,
+      "heavy_connectivity_signature": "2089553de694e9bf70c059527ef4f9a85718116da117a1be7be7e8fe12011d74",
+      "matches_legacy_connectivity": true
+    },
+    {
+      "poi": "RPS6KB2",
+      "pose_id": "pose010",
+      "tpr": "/home/ayushregmibagale/protac-md/random_screen/RPS6KB2/pose010/prod/prod.tpr",
+      "exists": true,
+      "sha256": "0cd1a78d3bdfc22e8d37b8e23a5ea23f85c2688f30ef995a815c6f2f3b02b455",
+      "heavy_atoms": 79,
+      "heavy_connectivity_signature": "2089553de694e9bf70c059527ef4f9a85718116da117a1be7be7e8fe12011d74",
+      "matches_legacy_connectivity": true
+    },
+    {
+      "poi": "RPS6KB2",
+      "pose_id": "pose011",
+      "tpr": "/home/ayushregmibagale/protac-md/random_screen/RPS6KB2/pose011/prod/prod.tpr",
+      "exists": true,
+      "sha256": "a2fefc857cc963e2b58e599043902b5d59c4cce11483762e80cf9ab2a8ade900",
+      "heavy_atoms": 79,
+      "heavy_connectivity_signature": "2089553de694e9bf70c059527ef4f9a85718116da117a1be7be7e8fe12011d74",
+      "matches_legacy_connectivity": true
+    },
+    {
+      "poi": "RPS6KB2",
+      "pose_id": "pose012",
+      "tpr": "/home/ayushregmibagale/protac-md/random_screen/RPS6KB2/pose012/prod/prod.tpr",
+      "exists": true,
+      "sha256": "2b6c8980565c57b2b1f229a0da2f40949a7f27766c82755bbc174961548daa38",
+      "heavy_atoms": 79,
+      "heavy_connectivity_signature": "2089553de694e9bf70c059527ef4f9a85718116da117a1be7be7e8fe12011d74",
+      "matches_legacy_connectivity": true
+    },
+    {
+      "poi": "RPS6KB2",
+      "pose_id": "pose013",
+      "tpr": "/home/ayushregmibagale/protac-md/random_screen/RPS6KB2/pose013/prod/prod.tpr",
+      "exists": true,
+      "sha256": "fde44a558168448ad24bf023ceadc6eeba46d3050284ec1eedd19aad3d917a73",
+      "heavy_atoms": 79,
+      "heavy_connectivity_signature": "2089553de694e9bf70c059527ef4f9a85718116da117a1be7be7e8fe12011d74",
+      "matches_legacy_connectivity": true
+    },
+    {
+      "poi": "RPS6KB2",
+      "pose_id": "pose014",
+      "tpr": "/home/ayushregmibagale/protac-md/random_screen/RPS6KB2/pose014/prod/prod.tpr",
+      "exists": true,
+      "sha256": "13918c71d3b8aca5b1abace5730b0e884c6a2fced1282620e78d1b83f9781713",
+      "heavy_atoms": 79,
+      "heavy_connectivity_signature": "2089553de694e9bf70c059527ef4f9a85718116da117a1be7be7e8fe12011d74",
+      "matches_legacy_connectivity": true
+    },
+    {
+      "poi": "RPS6KB2",
+      "pose_id": "pose015",
+      "tpr": "/home/ayushregmibagale/protac-md/random_screen/RPS6KB2/pose015/prod/prod.tpr",
+      "exists": true,
+      "sha256": "3505f7c0a62349d358176dc0ca3fbb730af09dcb14c12169352fe5a784d324bb",
+      "heavy_atoms": 79,
+      "heavy_connectivity_signature": "2089553de694e9bf70c059527ef4f9a85718116da117a1be7be7e8fe12011d74",
+      "matches_legacy_connectivity": true
+    },
+    {
+      "poi": "RPS6KB2",
+      "pose_id": "pose017",
+      "tpr": "/home/ayushregmibagale/protac-md/random_screen/RPS6KB2/pose017/prod/prod.tpr",
+      "exists": true,
+      "sha256": "037e9bed53532426f2da52aeca0f55b9b70c155f8ecdfd84079f3d0e9374a31b",
+      "heavy_atoms": 79,
+      "heavy_connectivity_signature": "2089553de694e9bf70c059527ef4f9a85718116da117a1be7be7e8fe12011d74",
+      "matches_legacy_connectivity": true
+    },
+    {
+      "poi": "RPS6KB2",
+      "pose_id": "pose018",
+      "tpr": "/home/ayushregmibagale/protac-md/random_screen/RPS6KB2/pose018/prod/prod.tpr",
+      "exists": true,
+      "sha256": "30edf921a835a1a0efff3160b401d6b9aefc4e46047b746981a79aa68b40e650",
+      "heavy_atoms": 79,
+      "heavy_connectivity_signature": "2089553de694e9bf70c059527ef4f9a85718116da117a1be7be7e8fe12011d74",
+      "matches_legacy_connectivity": true
+    },
+    {
+      "poi": "RPS6KB2",
+      "pose_id": "pose019",
+      "tpr": "/home/ayushregmibagale/protac-md/random_screen/RPS6KB2/pose019/prod/prod.tpr",
+      "exists": true,
+      "sha256": "bc8c0683035f94528ba279e93e116a69438b7b892b4579c02a5d74eebaf47c55",
+      "heavy_atoms": 79,
+      "heavy_connectivity_signature": "2089553de694e9bf70c059527ef4f9a85718116da117a1be7be7e8fe12011d74",
+      "matches_legacy_connectivity": true
+    },
+    {
+      "poi": "RPS6KB2",
+      "pose_id": "pose020",
+      "tpr": "/home/ayushregmibagale/protac-md/random_screen/RPS6KB2/pose020/prod/prod.tpr",
+      "exists": true,
+      "sha256": "db5e5481e9be6c2e32b9431958bb539946749da80c18ea527fb14d8427f39f23",
+      "heavy_atoms": 79,
+      "heavy_connectivity_signature": "2089553de694e9bf70c059527ef4f9a85718116da117a1be7be7e8fe12011d74",
+      "matches_legacy_connectivity": true
+    }
+  ],
+  "total": 174,
+  "matches_legacy_connectivity": 174,
+  "missing_or_unresolved": [],
+  "by_poi": {
+    "DDR2": 18,
+    "RIPK2_full": 17,
+    "MAPK14_full": 18,
+    "MET": 16,
+    "EPHB2": 19,
+    "ABL1": 17,
+    "AXL": 18,
+    "EPHA2": 18,
+    "SIK3": 15,
+    "RPS6KB2": 18
+  },
+  "limitations": [
+    "TPR graph proves compiled ligand connectivity; trajectory/TPR identity and original model execution require separate provenance.",
+    "Named heavy adjacency and masses do not encode bond order or stereochemistry."
+  ]
+}

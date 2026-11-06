@@ -1,0 +1,11 @@
+# Retain locally; version compact validation receipts separately.
+/validation_controls/sjf8240_current_pilot/
+/.update_backups/
+core
+core.*
+
+# Original supplementary workbook retained locally; publish source URL, hash and selected factual audit.
+/sjf8240_review/primary_sources/
+/.raw_validation/
+/.installation_history/
+/validation_controls/sjf8240_global50_diagnostic_v2/

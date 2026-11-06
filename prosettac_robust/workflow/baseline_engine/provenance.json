@@ -4,7 +4,7 @@
   "files": {
     "pyrosetta_adapter.py": {
       "original_sha256": "df7bf0f642fe517df2b1f57e6443d0b97ab9615c7a75733c1e1d269a789c9808",
-      "patched_sha256": "9824d61b14e220c873fc296a02a51a6d6b293213931d94ddb1005feb3e2faaae",
+      "patched_sha256": "b2a4a11d212719514a36c17eacde903803507eb2bb6d731e7f26d8d14ffa63c2",
       "source": "read-only Ernie snapshot"
     },
     "LOCAL.py": {
@@ -38,5 +38,10 @@
     "baseline end-to-end and output-head geometry validation",
     "legacy ligand parameter typing audit",
     "independent benchmark and microstate assessment"
-  ]
+  ],
+  "isolated_derivative": {
+    "base_commit": "9d66c47",
+    "additional_patch": "distance_sampler_repairs.patch",
+    "scope": "Exact initial distance-anchor matching, single RDKit thread and per-run sampling ledger; other inherited algorithm stages preserved."
+  }
 }

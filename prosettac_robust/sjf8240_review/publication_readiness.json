@@ -1,0 +1,34 @@
+{
+  "status": "NOT_READY_FOR_SCIENTIFIC_RELEASE",
+  "priority": "SJF8240 before other compounds",
+  "original_results_preserved": true,
+  "corrected_training_release_issued": false,
+  "historical_compiled_graphs_checked": 174,
+  "legacy_graph_matches": 174,
+  "software_changes_tested_separately": true,
+  "blocked_scientific_claims": [
+    "Treating the historical legacy-isomer MD as verified Tocris SJF8240 MD",
+    "Reporting historical GNN metrics as validated performance on corrected SJF8240 data",
+    "Resolving experimental labels using docking/MD predictions",
+    "Calling a finite failed linker search a biological nondegrader"
+  ],
+  "required_before_scientific_release": [
+    "Select/freeze the assay endpoint and resolve the 17 historical labels against experimental sources",
+    "Generate or revalidate corrected SJF8240 ternary candidates with recorded sampling coverage",
+    "Rebuild systems with verified SJF8240 parameters; run independent production MD and assess convergence",
+    "Regenerate source-bound periodic graph features and E2 descriptors, then rerun frozen-cohort evaluation",
+    "Document uncertainty, selection/missingness, independent experimental validation, and actual storage/Ernie allocation"
+  ],
+  "computational_campaign_submitted": false,
+  "current_preparation_comparison_coverage": {
+    "historical_targets": 17,
+    "CE_comparison_target_coverage": 1,
+    "pocket_comparison_target_coverage": 4,
+    "known_control_target_coverage": 1
+  },
+  "SJF8240_large_diagnostic": {
+    "status": "COMPLETE_NO_VALID_POSES",
+    "local_poses": 250,
+    "MD_handoff_validated": false
+  }
+}

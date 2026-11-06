@@ -51,6 +51,18 @@ def match_heads(full,heads):
     # Graph automorphisms are deterministic, with all alternatives retained for provenance.
     return sorted(set(pairs))
 
+def distance_anchor_indices(full,heads,anchors):
+    """Require exact disjoint stereochemical heads and unambiguous full anchors."""
+    if len(heads)!=2 or len(anchors)!=2:
+        raise ValidationError('Exactly two heads and anchors are required')
+    if any(not 0<=i<h.GetNumAtoms() for h,i in zip(heads,anchors)):
+        raise ValidationError('Anchor outside its exact heavy-atom head')
+    pairs={(a[anchors[0]],b[anchors[1]]) for a,b in match_heads(full,heads)}
+    if len(pairs)!=1:
+        raise ValidationError('Ambiguous full-molecule anchor mapping')
+    return next(iter(pairs))
+
+
 def fit(mobile,reference):
     mc,rc=mobile.mean(0),reference.mean(0)
     u,_,vt=np.linalg.svd((mobile-mc).T@(reference-rc))

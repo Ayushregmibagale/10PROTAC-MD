@@ -1,0 +1,21 @@
+{
+  "status": "SYNTHETIC_ARCHITECTURE_FORWARD_BACKWARD_PASSED",
+  "torch": "2.12.0+cu126",
+  "torch_geometric": "2.8.0.post1",
+  "seed": 392,
+  "device": "cpu",
+  "optional_backends_disabled": [
+    "pyg_lib",
+    "torch_scatter",
+    "torch_sparse",
+    "torch_cluster",
+    "torch_spline_conv",
+    "torch_frame",
+    "intel_extension_for_pytorch"
+  ],
+  "synthetic_loss": 0.5601490139961243,
+  "synthetic_score": 0.5255683064460754,
+  "source_sha256": "0bc6e6f73a183026a7164bbe44518c1f65b31410e1c1d072a2d4c01d30131a61",
+  "contract_sha256": "48647425ff3c9f65ef37dc8a7e536a9610385dd6036109658c569ae503f8a5aa",
+  "scope": "Runtime/gradient check only; no study training or predictive performance claim"
+}

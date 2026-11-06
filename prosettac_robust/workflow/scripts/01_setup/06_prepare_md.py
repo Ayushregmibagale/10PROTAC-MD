@@ -21,6 +21,13 @@ from protac_qc import ValidationError,pdb_atoms,atomic_json,sha256
 spec=importlib.util.spec_from_file_location('ligand_parameters',Path(__file__).with_name('04_parameterize_ligands.py'))
 ligparams=importlib.util.module_from_spec(spec);spec.loader.exec_module(ligparams)
 
+def verify_protein_repair(pose,protein,repair):
+    if repair.get('status')!='PROTEIN_MODEL_COMPLETED' or sha256(protein)!=repair.get('output_sha256'):
+        raise ValidationError('Complete, verified protein model required before MD')
+    if repair.get('source_sha256')!=sha256(pose):
+        raise ValidationError('Repaired protein belongs to a different starting pose')
+
+
 def gmx(command,cwd,log,stdin=None):
     env=os.environ.copy();env['GMX_MAXBACKUP']='-1'
     result=subprocess.run(command,cwd=cwd,input=stdin,text=True,capture_output=True,env=env)
@@ -112,8 +119,7 @@ def build(root,compound,pose,protein,selection,work,gmx_path,seed,production_ns,
     for filename,digest in report['files'].items():
         if sha256(params/filename)!=digest:raise ValidationError('Ligand parameter artifact changed: '+filename)
     repair=json.loads(protein.with_suffix('.repair.json').read_text())
-    if repair['status']!='PROTEIN_MODEL_COMPLETED' or sha256(protein)!=repair['output_sha256']:
-        raise ValidationError('Complete, verified protein model required before MD')
+    verify_protein_repair(pose,protein,repair)
     mapping=json.loads((params/'atom_mapping.json').read_text())
     if report.get('atom_mapping_sha256')!=sha256(params/'atom_mapping.json'):
         raise ValidationError('Ligand atom mapping is not bound to its parameter validation receipt')

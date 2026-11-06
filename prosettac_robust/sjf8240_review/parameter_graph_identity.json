@@ -1,0 +1,7 @@
+{
+  "method": "Element-labeled heavy-atom graph isomorphism; ignores bond order and stereo",
+  "itp_sha256": "96b3566de422cf2d20432a1ea64af75767086af72352627fa4e2e80e8da360ad",
+  "heavy_atoms": 79,
+  "matches_legacy_mol2_connectivity": true,
+  "matches_verified_supplier_connectivity": false
+}

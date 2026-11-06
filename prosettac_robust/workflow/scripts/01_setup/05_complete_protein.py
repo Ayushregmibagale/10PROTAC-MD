@@ -25,8 +25,13 @@ def complete(root,pdb,poi_uid,output,seed):
     from openmm.app import PDBFile
     from pdbfixer import PDBFixer
     os.environ['OPENMM_CPU_THREADS']='1'
-    data=inventory.entries(root/'structure_provenance')
+    output=Path(output)
+    if output.exists() or output.with_suffix('.repair.json').exists():raise ValidationError('Protein completion output already exists; use a fresh path')
+    cache=root/'sequence_provenance' if (root/'sequence_provenance').is_dir() else root/'structure_provenance'
+    data=inventory.entries(cache)
     chain_uid={'A':'P40337','B':'Q15370','C':'Q15369','D':poi_uid}
+    missing=set(chain_uid.values())-set(data)
+    if missing:raise ValidationError('Missing reviewed sequence cache entries: '+','.join(sorted(missing)))
     all_atoms=pdb_atoms(pdb)
     atoms=[a for a in all_atoms if a['record']=='ATOM' and a['chain'] in chain_uid and a['element'] not in {'H','D'}]
     chains={c:[a for a in atoms if a['chain']==c] for c in chain_uid}
@@ -82,7 +87,7 @@ def complete(root,pdb,poi_uid,output,seed):
     ligand=np.array([a['xyz'] for a in all_atoms if a['chain']=='X' and a['element'] not in {'H','D'}])
     if len(ligand):
         contact=float(cKDTree(np.array([a['xyz'] for a in repaired if a['element'] not in {'H','D'}])).query(ligand)[0].min())
-        if contact<1.0:raise ValidationError('Protein repair created a severe ligand clash')
+        if contact<1.5:raise ValidationError('Protein repair created a severe ligand clash')
     else:contact=None
     report={'status':'PROTEIN_MODEL_COMPLETED','source_sha256':sha256(pdb),'output_sha256':sha256(output),
             'seed':seed,'chain_uniprot':chain_uid,'sequence_identity':identities,'internal_gaps':gaps,

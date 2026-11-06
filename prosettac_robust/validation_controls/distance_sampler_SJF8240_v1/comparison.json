@@ -1,0 +1,28 @@
+{
+  "status": "PAIRED_ACTUAL_DOCKING_ENVIRONMENT_DISTANCE_CONTROL",
+  "seed": 155921,
+  "requested_conformers": 200,
+  "results": {
+    "historical_patched_baseline": {
+      "source_sha256": "9824d61b14e220c873fc296a02a51a6d6b293213931d94ddb1005feb3e2faaae",
+      "range_A": [
+        7.9109947643979055,
+        11.910994764397905
+      ],
+      "histogram_sha256": "06ae610789f7566f650e02f368cd9d9692503e0d4d6908b2b96e06db27e2cb67",
+      "conformer_sdf_sha256": "68c05cf3deb52c43c04689e3337bb2c989e7d25a22eceb0e4bd2de4bf8398c1b"
+    },
+    "isolated_hardened_sampler": {
+      "source_sha256": "b2a4a11d212719514a36c17eacde903803507eb2bb6d731e7f26d8d14ffa63c2",
+      "range_A": [
+        7.9109947643979055,
+        11.910994764397905
+      ],
+      "histogram_sha256": "06ae610789f7566f650e02f368cd9d9692503e0d4d6908b2b96e06db27e2cb67",
+      "conformer_sdf_sha256": "68c05cf3deb52c43c04689e3337bb2c989e7d25a22eceb0e4bd2de4bf8398c1b"
+    }
+  },
+  "same_histogram": true,
+  "same_range": true,
+  "scope": "Initial distance sampling only; does not establish docking recovery, MD convergence or GNN predictive validity"
+}

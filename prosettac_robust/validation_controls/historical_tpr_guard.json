@@ -1,0 +1,6 @@
+{
+  "status": "HISTORICAL_COMPILED_CHEMISTRY_CORRECTLY_REJECTED",
+  "source": "/home/ayushregmibagale/protac-md/random_screen/DDR2/pose001/prod/prod.tpr",
+  "reason": "Compiled ligand connectivity differs from verified SJF8240",
+  "original_files_modified": false
+}
