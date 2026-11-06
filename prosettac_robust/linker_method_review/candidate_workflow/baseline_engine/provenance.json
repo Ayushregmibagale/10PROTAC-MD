@@ -1,0 +1,47 @@
+{
+  "status": "ISOLATED_PATCHSET_NOT_DEPLOYED",
+  "algorithm": "Existing pRosettaC/PyRosetta adapter baseline",
+  "files": {
+    "pyrosetta_adapter.py": {
+      "original_sha256": "df7bf0f642fe517df2b1f57e6443d0b97ab9615c7a75733c1e1d269a789c9808",
+      "patched_sha256": "b2a4a11d212719514a36c17eacde903803507eb2bb6d731e7f26d8d14ffa63c2",
+      "source": "read-only Ernie snapshot"
+    },
+    "LOCAL.py": {
+      "original_sha256": "c8810b9378214e34219f76cd72f66e29fdab3988d0335d8481da025b9e1ad62a",
+      "patched_sha256": "ddad2652c6199efd494051e83d1a3becbd46eea1396f64c2add03205dfcb966d",
+      "source": "read-only Ernie snapshot"
+    },
+    "resume_pipeline.py": {
+      "original_sha256": "52d7e75cb2e34b9f4886afc90196d377a210158d9cb51f4bf88ade2735e7fd20",
+      "patched_sha256": "1e69684a660714d6fb91003320148ffb859fd0e0824a52b417bbd5b2fe6f1c22",
+      "source": "read-only Ernie snapshot"
+    },
+    "runner.py": {
+      "original_sha256": "d4c7228472e9ce7516cd3ea496cea7a50115a0b9bdf985e872d6de112f650c20",
+      "patched_sha256": "d4c7228472e9ce7516cd3ea496cea7a50115a0b9bdf985e872d6de112f650c20",
+      "source": "read-only Ernie snapshot"
+    },
+    "main.py": {
+      "original_sha256": "bd71a24bdf6e20136fd1762d37fad67e6dca53ddcfb137ba2dd862387ea91089",
+      "patched_sha256": "bd71a24bdf6e20136fd1762d37fad67e6dca53ddcfb137ba2dd862387ea91089",
+      "source": "read-only Ernie snapshot"
+    },
+    "clustering.py": {
+      "original_sha256": "cbd3d6dcb37b2e83fb803efce8c01312059da191badb05a04aac996ecd04b782",
+      "patched_sha256": "8867ea7f9b95a746b1e29d08351670c883735d4fe801c6d4ff600de7f9732985",
+      "source": "read-only Ernie PRosettaC source archive"
+    }
+  },
+  "remaining": [
+    "full dependency snapshot and exact deployment integration",
+    "baseline end-to-end and output-head geometry validation",
+    "legacy ligand parameter typing audit",
+    "independent benchmark and microstate assessment"
+  ],
+  "isolated_derivative": {
+    "base_commit": "9d66c47",
+    "additional_patch": "distance_sampler_repairs.patch",
+    "scope": "Exact initial distance-anchor matching, single RDKit thread and per-run sampling ledger; other inherited algorithm stages preserved."
+  }
+}

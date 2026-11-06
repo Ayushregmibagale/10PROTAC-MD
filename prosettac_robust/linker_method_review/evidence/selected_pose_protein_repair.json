@@ -1,0 +1,110 @@
+{
+  "status": "PROTEIN_MODEL_COMPLETED",
+  "source_sha256": "6a8bb092c849a7d6eb2b2612e544745ef9eda778e4ba24285cf2f4015b241a69",
+  "output_sha256": "bc3f535141fad1e324e13305ff01a4b7ce91b43e8f23ba851f00259b64c01bed",
+  "seed": 7919,
+  "chain_uniprot": {
+    "A": "P40337",
+    "B": "Q15370",
+    "C": "Q15369",
+    "D": "P08581"
+  },
+  "sequence_identity": {
+    "A": 1.0,
+    "B": 1.0,
+    "C": 1.0,
+    "D": 1.0
+  },
+  "internal_gaps": [
+    {
+      "chain": "A",
+      "left_uniprot": 76,
+      "right_uniprot": 78,
+      "modeled_residues": [
+        "CYS"
+      ]
+    },
+    {
+      "chain": "B",
+      "left_uniprot": 59,
+      "right_uniprot": 61,
+      "modeled_residues": [
+        "CYS"
+      ]
+    },
+    {
+      "chain": "B",
+      "left_uniprot": 88,
+      "right_uniprot": 90,
+      "modeled_residues": [
+        "CYS"
+      ]
+    },
+    {
+      "chain": "C",
+      "left_uniprot": 47,
+      "right_uniprot": 58,
+      "modeled_residues": [
+        "GLY",
+        "PRO",
+        "GLY",
+        "GLN",
+        "PHE",
+        "ALA",
+        "GLU",
+        "ASN",
+        "GLU",
+        "THR"
+      ]
+    },
+    {
+      "chain": "D",
+      "left_uniprot": 1114,
+      "right_uniprot": 1118,
+      "modeled_residues": [
+        "ILE",
+        "THR",
+        "ASP"
+      ]
+    },
+    {
+      "chain": "D",
+      "left_uniprot": 1147,
+      "right_uniprot": 1152,
+      "modeled_residues": [
+        "ARG",
+        "SER",
+        "GLU",
+        "GLY"
+      ]
+    },
+    {
+      "chain": "D",
+      "left_uniprot": 1228,
+      "right_uniprot": 1231,
+      "modeled_residues": [
+        "MET",
+        "TYR"
+      ]
+    },
+    {
+      "chain": "D",
+      "left_uniprot": 1236,
+      "right_uniprot": 1243,
+      "modeled_residues": [
+        "VAL",
+        "HIS",
+        "ASN",
+        "LYS",
+        "THR",
+        "GLY"
+      ]
+    }
+  ],
+  "missing_heavy_atoms": [],
+  "maximum_observed_atom_shift_A": 0.0,
+  "ligand_min_distance_A": 1.6336260281961748,
+  "new_coordinates_are_modeled": true,
+  "openmm_version": "8.4",
+  "production_equilibration_completed": false
+}

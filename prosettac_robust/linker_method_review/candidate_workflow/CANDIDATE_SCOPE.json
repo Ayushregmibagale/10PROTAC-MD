@@ -1,0 +1,13 @@
+{
+  "status": "EXPLORATORY_NOT_ADOPTED",
+  "baseline_workflow_modified": false,
+  "method": "Center head coordinates during distance geometry; disable experimental-torsion/basic-knowledge preferences; retain exact fixed heads, chirality, UFF refinement, geometry QC and restore original frame.",
+  "unchanged": "Global/local protein docking, ligand chemical identity, raw scoring, all QC thresholds, rotamer registration and attempt verification",
+  "reason": "Centered ETKDG failed ETK minimization for four sampled bound-head arrangements; basic DG produced full-identity candidates passing full-complex provisional geometry for three of those arrangements.",
+  "required_before_adoption": [
+    "Known-reference integration control",
+    "Scored SJF8240 integration control",
+    "Head preservation and source/geometry verification",
+    "Resource/sampling assessment"
+  ]
+}

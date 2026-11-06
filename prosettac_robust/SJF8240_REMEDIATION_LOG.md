@@ -161,3 +161,51 @@ failure. They do not demonstrate a feasible experimental-bound ternary complex.
 The SJF8240-to-MD handoff remains unvalidated by these runs; no artificial protein
 complex or successful biological prediction is substituted. Keep raw failures,
 focused controls and the sampling limitation visible before expensive production.
+
+
+## 12. Paired bound-head linker-method diagnostic and first corrected-chemistry MD handoff
+
+**What:** Isolated a constraint-embedding failure and tested a candidate method without changing the default production workflow.
+**How:** Centered both bound heads before embedding; tested torsion-preference/basic-knowledge switches independently. A centered variant with both preferences disabled generated candidates while retaining exact stereochemistry, fixed heads, UFF refinement, original coordinate restoration, raw scoring and every existing structural cutoff. Across 50 local protein arrangements whose atom coordinates exactly match the baseline run, baseline ETKDG yielded zero valid poses; the candidate yielded 29 linker-feasible/scored poses and 15 passing full QC. Maximum head-core displacement was 0 Å. The candidate native GSK215 control retained 2.209 Å VHL RMSD and 0.75 native-contact fraction. These are integration controls, not independent prospective docking validation.
+
+Three candidate-specific tests cover bound-head preservation, large coordinate translation and bounded rejection; each passes in both analysis and approved docking runtimes. A separate flag-isolation control suggests retaining experimental torsion preferences may also work when basic-knowledge terms are disabled; that alternative is not yet qualified or adopted. Candidate code, tests and compact evidence are under `linker_method_review/`; the default remains unchanged pending method review.
+
+Selected the first lexicographically sorted QC-valid SJF8240 pose for an unlabelled MD integration control (not energy ranking). Sequence-informed repair matched all four chains at identity 1.0, modeled internal gaps, kept observed atoms unchanged and retained a 1.634 Å minimum protein–ligand heavy-atom separation. Corrected-chemistry topology preparation passed for 10,278 solute atoms. Local EM is underway, followed by the full staged handoff and a planned 20 ps diagnostic production segment; this duration cannot establish study convergence.
+
+**Why:** Paired identical protein frames isolate the linker-method effect. Success must retain chemical identity and head geometry rather than use a free-conformer fallback. A validated software handoff is required before an expensive study; these controls cannot establish biological degradation or publication readiness.
+
+## 13. Restore complete immutable ligand-parameter bundles
+
+**What:** Fixed a clean-copy packaging omission affecting the MD handoff.
+**How:** Restored 18 exact log/serialized files across six parameter-state bundles from the retained generation outputs, checked every file against its original validation hash, and added a distribution-level regression check. Explicit Git exceptions retain these bound artifacts; serialized files are hashed as bytes, never loaded. No parameter charges, topology, validation hashes or chemistry were changed.
+**Why:** Existing receipts declare all generation artifacts. Omitting logs/pickles made reuse fail despite valid topologies. Keeping their exact bytes preserves the original evidence and lets a clean checkout satisfy strict verification. The expanded workflow suite passes 106 tests in the analysis runtime; the former 105-test checkpoint remains historical.
+
+
+## 14. Check modeled protein gaps against every other chain
+
+**What:** Added explicit post-repair cross-chain heavy-atom overlap rejection, in addition to peptide closure and ligand checks.
+**How:** Measure each chain pair with a KD tree, reject any distance below the same 1.5 Å gross-overlap threshold, and include distances in future repair receipts. A regression counterexample puts a newly modeled atom inside another chain and must fail. Independently checked the selected repaired SJF8240 model: the closest chain-pair contact is B/C at 2.296 Å, so this additional guard does not change its outcome. Its original receipt remains unmodified; the retrospective check is separate evidence.
+**Why:** A loop can avoid the ligand yet overlap a different protein chain. Sequence identity and closed peptide bonds alone do not rule out this modeling failure. This is a gross geometry guard, not an assessment of loop conformational accuracy.
+
+
+## 15. Preserve the approved local docking runtime
+
+**What:** Saved the validated 3.6 GiB dependency overlay privately inside the derivative project and added an explicit launcher.
+**How:** Guarded installation copied every selected dependency file by SHA-256 into `.runtime/python310-packages`. The public launcher reads private configuration, checks that Python, RDKit and the PyRosetta database exist, then prepends this overlay for the command and child processes. Verified RDKit 2025.09.5 supports coordinate maps, NumPy is 2.2.6, OpenMM is 8.4 and PyRosetta imports from the persistent private directory. Licensed binaries/database remain Git-ignored. Base Python 3.10.22 and fallback conda packages are still external dependencies.
+**Why:** The bare base interpreter has an older RDKit lacking the required API, and `/tmp` is not durable storage. This preserves the validated local runtime without altering original environments. It is not an Ernie deployment or self-contained environment release.
+
+
+## 16. Prespecified comparison retaining experimental torsion preferences
+
+**What:** Started a second isolated candidate comparison, keeping experimental torsion preferences while disabling basic-knowledge terms and centering the fixed heads.
+**How:** Froze separate source snapshots, copied the same validated inputs, retained global/local seeds, counts and conformer budgets, and registered SJF8240 global10×local5×conformer2 plus native-frame GSK215 controls before execution. The first candidate, baseline and their completed results remain unchanged. Default workflow is not switched. Full active run directories are excluded from installation until terminal receipts exist.
+**Why:** A successful broad change does not show that every changed preference is necessary. This comparison isolates whether a smaller change retains compatibility with bound head geometry. Outcomes are pending; no increase in biological accuracy is inferred from greater pose yield.
+
+Parameter bundles use Git attributes that preserve exact bytes and display serialized/log artifacts as binary; their validation hashes remain authoritative. Frozen candidate source retains inherited upstream formatting. This prevents line-ending conversion from invalidating chemistry provenance and avoids treating immutable generated logs as hand-edited source.
+
+
+The manually copied torsion-candidate v1 source trees omitted `source_manifest.json`. Independent `verify_receipt` correctly rejected the completed GSK control. Both v1 attempts are excluded from method qualification and retained unchanged, including the bounded active SJF attempt. Created fresh v2 attempts through the canonical `snapshot_sources` function and bound each pre-execution manifest hash into the campaign intent before launching. No historical manifest was retroactively invented. This is a diagnostic setup error, not evidence of a failed molecule or biological negative.
+
+The benchmark recorder now validates any supplied source snapshot and campaign manifest binding before starting a worker. Added a counterexample proving that a missing source manifest cannot start a process or create an attempt record. This turns the observed setup error into an inexpensive pre-execution failure for future runs. Existing recorded controls remain unchanged.
+
+The corrected-chemistry SJF8240/MET MD integration system passed full EM: 5,273 steps, Fmax 172.44859 kJ/mol/nm (<500), with a verified completion receipt and compiled-input/output hashes. Started the full configured 200 ps restrained NVT stage on the local GPU. This is the first corrected-chemistry SJF8240 EM handoff in the isolated workflow; it does not validate the modeled loop conformations, candidate docking method or production convergence.

@@ -1,0 +1,262 @@
+{
+  "status": "EXPLORATORY_PAIRED_LINKER_METHOD_COMPARISON",
+  "paired_local_poses": 50,
+  "all_coordinates_identical": true,
+  "baseline_ETK_valid_poses_in_these_frames": 0,
+  "candidate_centered_DG_scored": 29,
+  "candidate_centered_DG_QC_valid": 15,
+  "maximum_head_core_displacement_A": 0.0,
+  "comparisons": [
+    {
+      "pose": "pd.10_docking_0001.pdb",
+      "same_atom_keys": true,
+      "max_coordinate_difference_A": 0.0
+    },
+    {
+      "pose": "pd.10_docking_0002.pdb",
+      "same_atom_keys": true,
+      "max_coordinate_difference_A": 0.0
+    },
+    {
+      "pose": "pd.10_docking_0003.pdb",
+      "same_atom_keys": true,
+      "max_coordinate_difference_A": 0.0
+    },
+    {
+      "pose": "pd.10_docking_0004.pdb",
+      "same_atom_keys": true,
+      "max_coordinate_difference_A": 0.0
+    },
+    {
+      "pose": "pd.10_docking_0005.pdb",
+      "same_atom_keys": true,
+      "max_coordinate_difference_A": 0.0
+    },
+    {
+      "pose": "pd.1_docking_0001.pdb",
+      "same_atom_keys": true,
+      "max_coordinate_difference_A": 0.0
+    },
+    {
+      "pose": "pd.1_docking_0002.pdb",
+      "same_atom_keys": true,
+      "max_coordinate_difference_A": 0.0
+    },
+    {
+      "pose": "pd.1_docking_0003.pdb",
+      "same_atom_keys": true,
+      "max_coordinate_difference_A": 0.0
+    },
+    {
+      "pose": "pd.1_docking_0004.pdb",
+      "same_atom_keys": true,
+      "max_coordinate_difference_A": 0.0
+    },
+    {
+      "pose": "pd.1_docking_0005.pdb",
+      "same_atom_keys": true,
+      "max_coordinate_difference_A": 0.0
+    },
+    {
+      "pose": "pd.2_docking_0001.pdb",
+      "same_atom_keys": true,
+      "max_coordinate_difference_A": 0.0
+    },
+    {
+      "pose": "pd.2_docking_0002.pdb",
+      "same_atom_keys": true,
+      "max_coordinate_difference_A": 0.0
+    },
+    {
+      "pose": "pd.2_docking_0003.pdb",
+      "same_atom_keys": true,
+      "max_coordinate_difference_A": 0.0
+    },
+    {
+      "pose": "pd.2_docking_0004.pdb",
+      "same_atom_keys": true,
+      "max_coordinate_difference_A": 0.0
+    },
+    {
+      "pose": "pd.2_docking_0005.pdb",
+      "same_atom_keys": true,
+      "max_coordinate_difference_A": 0.0
+    },
+    {
+      "pose": "pd.3_docking_0001.pdb",
+      "same_atom_keys": true,
+      "max_coordinate_difference_A": 0.0
+    },
+    {
+      "pose": "pd.3_docking_0002.pdb",
+      "same_atom_keys": true,
+      "max_coordinate_difference_A": 0.0
+    },
+    {
+      "pose": "pd.3_docking_0003.pdb",
+      "same_atom_keys": true,
+      "max_coordinate_difference_A": 0.0
+    },
+    {
+      "pose": "pd.3_docking_0004.pdb",
+      "same_atom_keys": true,
+      "max_coordinate_difference_A": 0.0
+    },
+    {
+      "pose": "pd.3_docking_0005.pdb",
+      "same_atom_keys": true,
+      "max_coordinate_difference_A": 0.0
+    },
+    {
+      "pose": "pd.4_docking_0001.pdb",
+      "same_atom_keys": true,
+      "max_coordinate_difference_A": 0.0
+    },
+    {
+      "pose": "pd.4_docking_0002.pdb",
+      "same_atom_keys": true,
+      "max_coordinate_difference_A": 0.0
+    },
+    {
+      "pose": "pd.4_docking_0003.pdb",
+      "same_atom_keys": true,
+      "max_coordinate_difference_A": 0.0
+    },
+    {
+      "pose": "pd.4_docking_0004.pdb",
+      "same_atom_keys": true,
+      "max_coordinate_difference_A": 0.0
+    },
+    {
+      "pose": "pd.4_docking_0005.pdb",
+      "same_atom_keys": true,
+      "max_coordinate_difference_A": 0.0
+    },
+    {
+      "pose": "pd.5_docking_0001.pdb",
+      "same_atom_keys": true,
+      "max_coordinate_difference_A": 0.0
+    },
+    {
+      "pose": "pd.5_docking_0002.pdb",
+      "same_atom_keys": true,
+      "max_coordinate_difference_A": 0.0
+    },
+    {
+      "pose": "pd.5_docking_0003.pdb",
+      "same_atom_keys": true,
+      "max_coordinate_difference_A": 0.0
+    },
+    {
+      "pose": "pd.5_docking_0004.pdb",
+      "same_atom_keys": true,
+      "max_coordinate_difference_A": 0.0
+    },
+    {
+      "pose": "pd.5_docking_0005.pdb",
+      "same_atom_keys": true,
+      "max_coordinate_difference_A": 0.0
+    },
+    {
+      "pose": "pd.6_docking_0001.pdb",
+      "same_atom_keys": true,
+      "max_coordinate_difference_A": 0.0
+    },
+    {
+      "pose": "pd.6_docking_0002.pdb",
+      "same_atom_keys": true,
+      "max_coordinate_difference_A": 0.0
+    },
+    {
+      "pose": "pd.6_docking_0003.pdb",
+      "same_atom_keys": true,
+      "max_coordinate_difference_A": 0.0
+    },
+    {
+      "pose": "pd.6_docking_0004.pdb",
+      "same_atom_keys": true,
+      "max_coordinate_difference_A": 0.0
+    },
+    {
+      "pose": "pd.6_docking_0005.pdb",
+      "same_atom_keys": true,
+      "max_coordinate_difference_A": 0.0
+    },
+    {
+      "pose": "pd.7_docking_0001.pdb",
+      "same_atom_keys": true,
+      "max_coordinate_difference_A": 0.0
+    },
+    {
+      "pose": "pd.7_docking_0002.pdb",
+      "same_atom_keys": true,
+      "max_coordinate_difference_A": 0.0
+    },
+    {
+      "pose": "pd.7_docking_0003.pdb",
+      "same_atom_keys": true,
+      "max_coordinate_difference_A": 0.0
+    },
+    {
+      "pose": "pd.7_docking_0004.pdb",
+      "same_atom_keys": true,
+      "max_coordinate_difference_A": 0.0
+    },
+    {
+      "pose": "pd.7_docking_0005.pdb",
+      "same_atom_keys": true,
+      "max_coordinate_difference_A": 0.0
+    },
+    {
+      "pose": "pd.8_docking_0001.pdb",
+      "same_atom_keys": true,
+      "max_coordinate_difference_A": 0.0
+    },
+    {
+      "pose": "pd.8_docking_0002.pdb",
+      "same_atom_keys": true,
+      "max_coordinate_difference_A": 0.0
+    },
+    {
+      "pose": "pd.8_docking_0003.pdb",
+      "same_atom_keys": true,
+      "max_coordinate_difference_A": 0.0
+    },
+    {
+      "pose": "pd.8_docking_0004.pdb",
+      "same_atom_keys": true,
+      "max_coordinate_difference_A": 0.0
+    },
+    {
+      "pose": "pd.8_docking_0005.pdb",
+      "same_atom_keys": true,
+      "max_coordinate_difference_A": 0.0
+    },
+    {
+      "pose": "pd.9_docking_0001.pdb",
+      "same_atom_keys": true,
+      "max_coordinate_difference_A": 0.0
+    },
+    {
+      "pose": "pd.9_docking_0002.pdb",
+      "same_atom_keys": true,
+      "max_coordinate_difference_A": 0.0
+    },
+    {
+      "pose": "pd.9_docking_0003.pdb",
+      "same_atom_keys": true,
+      "max_coordinate_difference_A": 0.0
+    },
+    {
+      "pose": "pd.9_docking_0004.pdb",
+      "same_atom_keys": true,
+      "max_coordinate_difference_A": 0.0
+    },
+    {
+      "pose": "pd.9_docking_0005.pdb",
+      "same_atom_keys": true,
+      "max_coordinate_difference_A": 0.0
+    }
+  ],
+  "biological_accuracy_claim": false
+}

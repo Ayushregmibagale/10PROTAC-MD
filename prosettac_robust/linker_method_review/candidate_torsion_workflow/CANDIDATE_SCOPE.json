@@ -1,0 +1,13 @@
+{
+  "status": "EXPLORATORY_NOT_ADOPTED",
+  "baseline_workflow_modified": false,
+  "method": "Center heads; retain ETKDG experimental torsion preferences; disable only basic-knowledge preferences; retain exact heads, chirality, UFF, geometry QC and restore original frame.",
+  "unchanged": "Global/local protein docking, ligand chemical identity, raw scoring, all QC thresholds, rotamer registration and attempt verification",
+  "reason": "Flag isolation found that retaining experimental torsion preferences succeeds for the tested bound-head frame when basic-knowledge preferences are disabled. Compare identical protein frames before method choice.",
+  "required_before_adoption": [
+    "Known-reference integration control",
+    "Scored SJF8240 integration control",
+    "Head preservation and source/geometry verification",
+    "Resource/sampling assessment"
+  ]
+}

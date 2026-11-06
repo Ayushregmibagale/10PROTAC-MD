@@ -18,7 +18,7 @@ import threading
 from contextlib import contextmanager
 from pathlib import Path
 sys.path.insert(0,str(Path(__file__).resolve().parents[1]/'lib'))
-from protac_qc import atomic_json, sha256, validate_outputs, ValidationError
+from protac_qc import atomic_json, sha256, validate_outputs, ValidationError, verify_execution_snapshot
 
 @contextmanager
 def interruption_signals():
@@ -37,6 +37,13 @@ def record(run,command,timeout):
         fcntl.flock(lock,fcntl.LOCK_EX|fcntl.LOCK_NB)
         if (run/'attempt.json').exists() or (run/'completion.json').exists() or (run/'Patchdock_Results').exists():
             raise ValidationError('Attempt directory already used; create a fresh isolated copy')
+        snapshot=run/'source_snapshot'
+        if snapshot.exists():
+            try:
+                manifest=json.loads((snapshot/'source_manifest.json').read_text())
+            except (OSError,ValueError) as exc:
+                raise ValidationError('Execution source manifest required before starting a benchmark') from exc
+            verify_execution_snapshot(run,{'engine_sha256':manifest.get('source_sha256')})
         selection=json.loads((run/'selection.json').read_text())
         inputs={p.name:sha256(p) for p in run.iterdir() if p.is_file() and p.name!='.attempt.lock'}
         receipt={'schema_version':1,'attempt_id':str(uuid.uuid4()),'command':command,

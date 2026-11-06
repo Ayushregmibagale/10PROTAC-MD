@@ -1,0 +1,15 @@
+{
+  "repository": "https://github.com/RosettaCommons/rosetta",
+  "commit": "eddc15bbac60cf91302d3faf76895bd6d215cc50",
+  "path": "source/scripts/python/public/",
+  "retrieved": "2026-11-04",
+  "files": {
+    "molfile_to_params.py": "335e6ec826f0f725f7ef3ee26ad0f9024a6cbcb806ead331f6b0d58643f4759d",
+    "rosetta_py/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "rosetta_py/utility/rankorder.py": "64425814876a934fe1b90d1b8ec6760731fbb6cdc1d4bb8fea18b6d5233b00d9",
+    "rosetta_py/utility/r3.py": "00d854b223234df3edd096202330329ef006f4aa091e24b3d7beb38f386e57b0",
+    "rosetta_py/utility/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "rosetta_py/io/mdl_molfile.py": "76b0abd3b3d6ef24bc5335a58fbc11217d2b92d4cd7da610687bd2eaafe85297",
+    "rosetta_py/io/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  }
+}

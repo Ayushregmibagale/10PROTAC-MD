@@ -9,3 +9,16 @@ core.*
 /.raw_validation/
 /.installation_history/
 /validation_controls/sjf8240_global50_diagnostic_v2/
+
+# Full candidate controls remain local; compact evidence and candidate source are versioned.
+/linker_method_review/native_gsk215_control/
+/linker_method_review/sjf8240_global10_control/
+/linker_method_review/md_handoff_DG_v1/
+/.runtime/
+
+/linker_method_review/sjf8240_torsion_global10_control/
+/linker_method_review/native_gsk215_torsion_control/
+
+/validation_controls/variant_*
+/linker_method_review/native_gsk215_torsion_control*/
+/linker_method_review/sjf8240_torsion_global10_control*/

@@ -39,3 +39,7 @@ baseline_engine/runtime/adapter/vendor/rosetta_py/
 # Licensed Rosetta helpers are fetched from their pinned official source, including archived execution packages.
 **/vendor/molfile_to_params.py
 **/vendor/rosetta_py/
+
+# Parameter receipts bind these generation artifacts; retain bytes without unpickling.
+!ligand_params/**/*.acpype/*.log
+!ligand_params/**/*.acpype/*.pkl

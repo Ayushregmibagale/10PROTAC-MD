@@ -1,0 +1,672 @@
+[
+  {
+    "pose": "docked_10_1",
+    "mode": "absolute",
+    "center": [
+      1.6988059701492542,
+      54.04971641791045,
+      97.83026865671643
+    ],
+    "accepted": false,
+    "seconds": 1.1037231471855193,
+    "diagnostics": {
+      "accepted": false,
+      "seed": 155921,
+      "attempts": 3,
+      "mapping_alternatives": 1,
+      "rejection_reasons": [
+        "embedding_failed",
+        "embedding_failed",
+        "embedding_failed"
+      ],
+      "embedding_max_iterations_per_attempt": 20,
+      "embedding_failure_counts_by_attempt": [
+        [
+          0,
+          18,
+          0,
+          0,
+          0,
+          2,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          18,
+          0,
+          0,
+          0,
+          2,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          20,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      ]
+    }
+  },
+  {
+    "pose": "docked_10_1",
+    "mode": "centered",
+    "center": [
+      1.6988059701492542,
+      54.04971641791045,
+      97.83026865671643
+    ],
+    "accepted": false,
+    "seconds": 8.948413237929344,
+    "diagnostics": {
+      "accepted": false,
+      "seed": 155921,
+      "attempts": 3,
+      "mapping_alternatives": 1,
+      "rejection_reasons": [
+        "embedding_failed",
+        "embedding_failed",
+        "embedding_failed"
+      ],
+      "embedding_max_iterations_per_attempt": 20,
+      "embedding_failure_counts_by_attempt": [
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          20,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          20,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          20,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      ]
+    }
+  },
+  {
+    "pose": "docked_10_2",
+    "mode": "absolute",
+    "center": [
+      2.4016716417910424,
+      50.493626865671644,
+      94.81516417910451
+    ],
+    "accepted": false,
+    "seconds": 0.04552750987932086,
+    "diagnostics": {
+      "accepted": false,
+      "seed": 155921,
+      "attempts": 3,
+      "mapping_alternatives": 1,
+      "rejection_reasons": [
+        "embedding_failed",
+        "embedding_failed",
+        "embedding_failed"
+      ],
+      "embedding_max_iterations_per_attempt": 20,
+      "embedding_failure_counts_by_attempt": [
+        [
+          0,
+          20,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          20,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          20,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      ]
+    }
+  },
+  {
+    "pose": "docked_10_2",
+    "mode": "centered",
+    "center": [
+      2.4016716417910424,
+      50.493626865671644,
+      94.81516417910451
+    ],
+    "accepted": false,
+    "seconds": 9.906274229986593,
+    "diagnostics": {
+      "accepted": false,
+      "seed": 155921,
+      "attempts": 3,
+      "mapping_alternatives": 1,
+      "rejection_reasons": [
+        "embedding_failed",
+        "embedding_failed",
+        "embedding_failed"
+      ],
+      "embedding_max_iterations_per_attempt": 20,
+      "embedding_failure_counts_by_attempt": [
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          20,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          20,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          20,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      ]
+    }
+  },
+  {
+    "pose": "docked_10_3",
+    "mode": "absolute",
+    "center": [
+      9.71355223880597,
+      51.307597014925385,
+      106.69795522388061
+    ],
+    "accepted": false,
+    "seconds": 0.026087075006216764,
+    "diagnostics": {
+      "accepted": false,
+      "seed": 155921,
+      "attempts": 3,
+      "mapping_alternatives": 1,
+      "rejection_reasons": [
+        "embedding_failed",
+        "embedding_failed",
+        "embedding_failed"
+      ],
+      "embedding_max_iterations_per_attempt": 20,
+      "embedding_failure_counts_by_attempt": [
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      ]
+    }
+  },
+  {
+    "pose": "docked_10_3",
+    "mode": "centered",
+    "center": [
+      9.71355223880597,
+      51.307597014925385,
+      106.69795522388061
+    ],
+    "accepted": false,
+    "seconds": 0.024284860119223595,
+    "diagnostics": {
+      "accepted": false,
+      "seed": 155921,
+      "attempts": 3,
+      "mapping_alternatives": 1,
+      "rejection_reasons": [
+        "embedding_failed",
+        "embedding_failed",
+        "embedding_failed"
+      ],
+      "embedding_max_iterations_per_attempt": 20,
+      "embedding_failure_counts_by_attempt": [
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      ]
+    }
+  },
+  {
+    "pose": "docked_10_4",
+    "mode": "absolute",
+    "center": [
+      1.1050597014925372,
+      52.71341791044774,
+      96.81749253731343
+    ],
+    "accepted": false,
+    "seconds": 0.044358598068356514,
+    "diagnostics": {
+      "accepted": false,
+      "seed": 155921,
+      "attempts": 3,
+      "mapping_alternatives": 1,
+      "rejection_reasons": [
+        "embedding_failed",
+        "embedding_failed",
+        "embedding_failed"
+      ],
+      "embedding_max_iterations_per_attempt": 20,
+      "embedding_failure_counts_by_attempt": [
+        [
+          0,
+          20,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          20,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          20,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      ]
+    }
+  },
+  {
+    "pose": "docked_10_4",
+    "mode": "centered",
+    "center": [
+      1.1050597014925372,
+      52.71341791044774,
+      96.81749253731343
+    ],
+    "accepted": false,
+    "seconds": 9.513477561995387,
+    "diagnostics": {
+      "accepted": false,
+      "seed": 155921,
+      "attempts": 3,
+      "mapping_alternatives": 1,
+      "rejection_reasons": [
+        "embedding_failed",
+        "embedding_failed",
+        "embedding_failed"
+      ],
+      "embedding_max_iterations_per_attempt": 20,
+      "embedding_failure_counts_by_attempt": [
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          20,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          20,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          20,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      ]
+    }
+  },
+  {
+    "pose": "docked_10_5",
+    "mode": "absolute",
+    "center": [
+      1.1194029850746268,
+      53.65723880597015,
+      97.09202985074626
+    ],
+    "accepted": false,
+    "seconds": 0.31647641002200544,
+    "diagnostics": {
+      "accepted": false,
+      "seed": 155921,
+      "attempts": 3,
+      "mapping_alternatives": 1,
+      "rejection_reasons": [
+        "embedding_failed",
+        "embedding_failed",
+        "embedding_failed"
+      ],
+      "embedding_max_iterations_per_attempt": 20,
+      "embedding_failure_counts_by_attempt": [
+        [
+          0,
+          19,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          20,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          20,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      ]
+    }
+  },
+  {
+    "pose": "docked_10_5",
+    "mode": "centered",
+    "center": [
+      1.1194029850746268,
+      53.65723880597015,
+      97.09202985074626
+    ],
+    "accepted": false,
+    "seconds": 9.06176965800114,
+    "diagnostics": {
+      "accepted": false,
+      "seed": 155921,
+      "attempts": 3,
+      "mapping_alternatives": 1,
+      "rejection_reasons": [
+        "embedding_failed",
+        "embedding_failed",
+        "embedding_failed"
+      ],
+      "embedding_max_iterations_per_attempt": 20,
+      "embedding_failure_counts_by_attempt": [
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          20,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          20,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          20,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      ]
+    }
+  }
+]

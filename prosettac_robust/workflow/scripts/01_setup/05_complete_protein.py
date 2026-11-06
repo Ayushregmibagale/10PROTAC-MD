@@ -20,6 +20,23 @@ import importlib.util
 spec=importlib.util.spec_from_file_location('domain_inventory',Path(__file__).with_name('00i_build_domain_inventory.py'))
 inventory=importlib.util.module_from_spec(spec);spec.loader.exec_module(inventory)
 
+def validate_interchain_contacts(atoms,minimum_distance_A=1.5):
+    """Reject gross overlap between explicit protein chains after gap modeling."""
+    chains={}
+    for atom in atoms:
+        if atom['element'] not in {'H','D'}:
+            chains.setdefault(atom['chain'],[]).append(atom['xyz'])
+    distances={}
+    names=sorted(chains)
+    for i,left in enumerate(names):
+        tree=cKDTree(np.asarray(chains[left]))
+        for right in names[i+1:]:
+            distance=float(tree.query(np.asarray(chains[right]))[0].min())
+            distances[left+':'+right]=distance
+            if distance<minimum_distance_A:
+                raise ValidationError(f'Protein repair has a severe interchain clash: {left}/{right}, {distance:.3f} A')
+    return distances
+
 def complete(root,pdb,poi_uid,output,seed):
     import openmm
     from openmm.app import PDBFile
@@ -71,6 +88,7 @@ def complete(root,pdb,poi_uid,output,seed):
     output=Path(output);output.parent.mkdir(parents=True,exist_ok=True)
     with output.open('w') as f:PDBFile.writeFile(fixer.topology,fixer.positions,f,keepIds=True)
     repaired=pdb_atoms(output)
+    interchain=validate_interchain_contacts(repaired)
     # Consecutive residues within each explicit chain must have a physical peptide bond.
     residues={}
     for a in repaired:residues.setdefault((a['chain'],a['resnum'],a['icode']),{})[a['name']]=a
@@ -92,7 +110,7 @@ def complete(root,pdb,poi_uid,output,seed):
     report={'status':'PROTEIN_MODEL_COMPLETED','source_sha256':sha256(pdb),'output_sha256':sha256(output),
             'seed':seed,'chain_uniprot':chain_uid,'sequence_identity':identities,'internal_gaps':gaps,
             'missing_heavy_atoms':missing_atoms,'maximum_observed_atom_shift_A':max(shifts),
-            'ligand_min_distance_A':contact,'new_coordinates_are_modeled':bool(gaps or missing_atoms),
+            'ligand_min_distance_A':contact,'interchain_min_distances_A':interchain,'new_coordinates_are_modeled':bool(gaps or missing_atoms),
             'openmm_version':openmm.__version__,'production_equilibration_completed':False}
     atomic_json(output.with_suffix('.repair.json'),report);print(json.dumps(report,indent=2))
 

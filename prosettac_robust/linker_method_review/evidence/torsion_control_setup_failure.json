@@ -1,0 +1,6 @@
+{
+  "status": "V1_EXCLUDED_FROM_METHOD_QUALIFICATION",
+  "reason": "Copied source trees were immutable during engine execution but lacked the source_manifest.json required by independent verify_receipt. No post-hoc manifest added. Original attempts retained.",
+  "correction": "Fresh v2 attempts prepared with canonical snapshot_sources; pre-execution manifest hash is bound into campaign_intent and recorder input ledger.",
+  "biological_label": null
+}

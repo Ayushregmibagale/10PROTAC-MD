@@ -1086,3 +1086,35 @@ def test_md_preparation_rejects_repaired_protein_from_a_different_pose(tmp_path)
     md.verify_protein_repair(pose,protein,repair)
     with pytest.raises(ValidationError,match='different starting pose'):
         md.verify_protein_repair(other,protein,repair)
+
+
+def test_distributed_parameter_bundles_contain_every_receipt_bound_artifact():
+    reports=sorted((ROOT/'ligand_params').rglob('parameter_validation.json'))
+    assert len(reports)>=6
+    for path in reports:
+        report=json.loads(path.read_text())
+        assert report['status']=='PARAMETERS_VERIFIED'
+        for name,digest in report['files'].items():
+            artifact=path.parent/name
+            assert artifact.is_file(),str(artifact)
+            assert sha256(artifact)==digest,str(artifact)
+
+
+def test_sequence_repair_rejects_new_loop_overlap_with_another_chain():
+    repair=load('protein_interchain_geometry','scripts/01_setup/05_complete_protein.py')
+    atoms=[{'chain':'A','element':'C','xyz':np.array([0.,0.,0.])},
+           {'chain':'D','element':'C','xyz':np.array([2.5,0.,0.])}]
+    assert repair.validate_interchain_contacts(atoms)=={'A:D':2.5}
+    atoms.append({'chain':'D','element':'C','xyz':np.array([0.5,0.,0.])})
+    with pytest.raises(ValidationError,match='interchain clash'):
+        repair.validate_interchain_contacts(atoms)
+
+
+def test_attempt_refuses_incomplete_source_snapshot_before_starting_worker(tmp_path):
+    recorder=load('preexecution_snapshot_guard','scripts/01_setup/03_record_attempt.py')
+    (tmp_path/'selection.json').write_text('{}')
+    (tmp_path/'source_snapshot').mkdir()
+    marker=tmp_path/'worker_started'
+    with pytest.raises(ValidationError,match='source manifest required'):
+        recorder.record(tmp_path,[sys.executable,'-c',"from pathlib import Path; Path('worker_started').touch()"],10)
+    assert not marker.exists() and not (tmp_path/'attempt.json').exists()

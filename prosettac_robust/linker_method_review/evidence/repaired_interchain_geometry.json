@@ -1,0 +1,13 @@
+{
+  "status": "RETROSPECTIVE_GEOMETRY_CHECK_PASSED",
+  "minimum_required_A": 1.5,
+  "distances_A": {
+    "A:B": 3.3752155486724034,
+    "A:C": 2.625680483227157,
+    "A:D": 2.869328318613965,
+    "B:C": 2.2963919526073977,
+    "B:D": 41.99915081284382,
+    "C:D": 31.027231104305784
+  },
+  "original_repair_receipt_modified": false
+}

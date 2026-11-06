@@ -1,0 +1,77 @@
+{
+  "status": "EXPLORATORY_UNSCORED_NOT_ADOPTED",
+  "poses": [
+    {
+      "pose": "10_1",
+      "min_intraligand_nonbonded_heavy_A": 2.518511266601758,
+      "d_vhl": 2.4346264600550054,
+      "d_kin": 2.5858385487110387,
+      "bridging_5A": true,
+      "bridging_8A": true,
+      "clash_cutoff_A": 1.5,
+      "min_ligand_all_protein_A": 2.4346264600550054,
+      "min_e3_complex_poi_A": 2.315837213622747,
+      "protein_clash_e3_chains": [
+        "A",
+        "B",
+        "C"
+      ],
+      "severe_overlap": false,
+      "status": "PROVISIONAL_GEOMETRY_PASSED"
+    },
+    {
+      "pose": "10_2",
+      "min_intraligand_nonbonded_heavy_A": 2.4966205158173365,
+      "d_vhl": 2.4346264600550054,
+      "d_kin": 0.8128997478164193,
+      "bridging_5A": true,
+      "bridging_8A": true,
+      "clash_cutoff_A": 1.5,
+      "min_ligand_all_protein_A": 0.8128997478164193,
+      "min_e3_complex_poi_A": 2.6940321081976704,
+      "protein_clash_e3_chains": [
+        "A",
+        "B",
+        "C"
+      ],
+      "severe_overlap": true,
+      "status": "PROTEIN_CLASH_REJECTED"
+    },
+    {
+      "pose": "10_4",
+      "min_intraligand_nonbonded_heavy_A": 2.460105079056589,
+      "d_vhl": 2.417971257066556,
+      "d_kin": 1.8952543364941765,
+      "bridging_5A": true,
+      "bridging_8A": true,
+      "clash_cutoff_A": 1.5,
+      "min_ligand_all_protein_A": 1.8952543364941765,
+      "min_e3_complex_poi_A": 2.708128689704386,
+      "protein_clash_e3_chains": [
+        "A",
+        "B",
+        "C"
+      ],
+      "severe_overlap": false,
+      "status": "PROVISIONAL_GEOMETRY_PASSED"
+    },
+    {
+      "pose": "10_5",
+      "min_intraligand_nonbonded_heavy_A": 2.4744053831173267,
+      "d_vhl": 2.4346264600550054,
+      "d_kin": 1.6821860776977071,
+      "bridging_5A": true,
+      "bridging_8A": true,
+      "clash_cutoff_A": 1.5,
+      "min_ligand_all_protein_A": 1.6821860776977071,
+      "min_e3_complex_poi_A": 3.1895857097748532,
+      "protein_clash_e3_chains": [
+        "A",
+        "B",
+        "C"
+      ],
+      "severe_overlap": false,
+      "status": "PROVISIONAL_GEOMETRY_PASSED"
+    }
+  ]
+}

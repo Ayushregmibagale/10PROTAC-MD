@@ -1,0 +1,24 @@
+{
+  "status": "ALL_DECLARED_PARAMETER_FILES_HASH_VERIFIED",
+  "restored_files": [
+    "GSK215/neutral_reference/GSK215.acpype/acpype.log",
+    "GSK215/neutral_reference/GSK215.acpype/GSK215.pkl",
+    "GSK215/neutral_reference/GSK215.acpype/leap.log",
+    "GSK215/microstate_qpos1_673815e90844/GSK215.acpype/acpype.log",
+    "GSK215/microstate_qpos1_673815e90844/GSK215.acpype/GSK215.pkl",
+    "GSK215/microstate_qpos1_673815e90844/GSK215.acpype/leap.log",
+    "SJF8240/neutral_reference/SJF8240.acpype/acpype.log",
+    "SJF8240/neutral_reference/SJF8240.acpype/SJF8240.pkl",
+    "SJF8240/neutral_reference/SJF8240.acpype/leap.log",
+    "SJF1521/neutral_reference/SJF1521.acpype/acpype.log",
+    "SJF1521/neutral_reference/SJF1521.acpype/SJF1521.pkl",
+    "SJF1521/neutral_reference/SJF1521.acpype/leap.log",
+    "JNJ1013/neutral_reference/JNJ1013.acpype/acpype.log",
+    "JNJ1013/neutral_reference/JNJ1013.acpype/JNJ1013.pkl",
+    "JNJ1013/neutral_reference/JNJ1013.acpype/leap.log",
+    "SJF_delta/neutral_reference/SJF_delta.acpype/acpype.log",
+    "SJF_delta/neutral_reference/SJF_delta.acpype/leap.log",
+    "SJF_delta/neutral_reference/SJF_delta.acpype/SJF_delta.pkl"
+  ],
+  "reason": "Copied derivative omitted log files still required by immutable parameter validation receipts"
+}

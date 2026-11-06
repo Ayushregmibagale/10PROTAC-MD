@@ -1,0 +1,430 @@
+--- original/pyrosetta_adapter.py
++++ patched/pyrosetta_adapter.py
+@@ -22,9 +22,21 @@
+ import glob
+ import shutil
+ import random
++import hashlib
++from pathlib import Path
++
++def publication_seed(stage):
++    base=int(os.environ.get("PROTAC_SEED", "42"))
++    root=Path(os.environ.get("PROTAC_ATTEMPT_ROOT", os.getcwd())).resolve()
++    try: task=str(Path.cwd().resolve().relative_to(root))
++    except ValueError: raise RuntimeError("Worker outside declared attempt root")
++    return 1+int.from_bytes(hashlib.sha256((str(base)+"|"+task+"|"+os.environ.get("PROTAC_TASK_KEY","parent")+"|"+stage).encode()).digest()[:4],"big")%2147483646
++
++random.seed(publication_seed("python"))
+ import numpy as np
+ from pathlib import Path
+ from scipy.spatial import cKDTree
++np.random.seed(publication_seed("numpy"))
+ 
+ # ── directories ──────────────────────────────────────────────────────────────
+ _THIS_DIR = Path(__file__).parent
+@@ -39,7 +51,8 @@
+     if _pyrosetta_ready:
+         return
+     import pyrosetta
+-    opts = '-ignore_unrecognized_res true -load_PDB_components false -out:level 100'
++    opts = '-ignore_unrecognized_res false -load_PDB_components false -out:level 100'
++    opts += f' -constant_seed -jran {publication_seed("rosetta")}'
+     for p in extra_params:
+         opts += f' -extra_res_fa {p}'
+     pyrosetta.init(opts)
+@@ -170,98 +183,44 @@
+ 
+ def mol_to_params(sdf_file: str, name: str, pdb_prefix: str,
+                   overwrite: bool = True, conformers: bool = False,
+-                  nbr: int = -1, v_atoms_sdf: str = '') -> tuple[str, str]:
+-    """
+-    Generate a Rosetta .params file and a ligand PDB from an SDF.
+-    Replaces rosetta.mol_to_params() which called molfile_to_params.py.
+-    """
+-    sys.path.insert(0, str(_THIS_DIR))
+-    from sdf_to_params import generate_params, atom_name as _atom_name
+-
+-    if v_atoms_sdf:
+-        # Let pRosettaC's utils.add_virtual_atoms run first (pure Python, no shell needed)
+-        pass  # already handled in utils_patched
+-
+-    params_path = Path(pdb_prefix + '.params')
+-    generate_params(Path(sdf_file), name, params_path)
+-
+-    # Override NBR_ATOM if caller specified a virtual-atom index
+-    if nbr != -1:
+-        from rdkit import Chem
+-        mol = Chem.SDMolSupplier(sdf_file, removeHs=False)[0]
+-        if mol is not None:
+-            atom = mol.GetAtomWithIdx(nbr)
+-            aname = _atom_name(atom, nbr)
+-            lines = params_path.read_text().splitlines()
+-            params_path.write_text(
+-                '\n'.join(
+-                    f'NBR_ATOM {aname:4s}' if l.startswith('NBR_ATOM') else l
+-                    for l in lines
+-                ) + '\n'
+-            )
+-
+-    # Generate ligand PDB
+-    pdb_out = pdb_prefix + ('.pdb' if conformers else '_0001.pdb')
+-    Path(pdb_out).write_text(_sdf_to_pdb_block(sdf_file, name))
+-
+-    if conformers:
+-        return pdb_prefix + '.pdb', pdb_prefix + '.params'
+-    return pdb_prefix + '_0001.pdb', pdb_prefix + '.params'
+-
+-
+-def _append_score_sc(score: float, desc: str) -> None:
+-    """Append one scored entry to score.sc in the current directory."""
+-    sc_file = 'score.sc'
+-    if not os.path.exists(sc_file):
+-        with open(sc_file, 'w') as f:
+-            f.write('SEQUENCE: \n')
+-            f.write('SCORE:     total_score     description\n')
+-    with open(sc_file, 'a') as f:
+-        f.write(f'SCORE:     {score:12.3f}     {desc}\n')
++                  nbr: int = -1, v_atoms_sdf: str = ''):
++    from official_parameters import generate
++    return generate(sdf_file,name,pdb_prefix,overwrite,conformers,nbr,v_atoms_sdf)
++
++
++def _append_score_sc(score,desc):
++    import fcntl,math
++    if not math.isfinite(score):raise RuntimeError('Nonfinite score')
++    with open('score.sc','a+') as f:
++        fcntl.flock(f,fcntl.LOCK_EX)
++        f.seek(0,2)
++        if f.tell()==0:f.write('SEQUENCE: \nSCORE: total_score description\n')
++        f.write(f'SCORE: {score:.6f} {desc}\n');f.flush();os.fsync(f.fileno())
+ 
+ 
+ def relax(struct: str, sdf_params: str, interface: bool = False, n: int = 1) -> None:
+-    """
+-    Sidechain repack using PyRosetta then score and write to score.sc.
+-    interface=True uses PackRotamersMover on the full complex (fast vs FastRelax).
+-    Falls back to copying the unrelaxed structure with a placeholder score when
+-    PyRosetta fails to score the combined complex (e.g. stub errors in PyRosetta 3.10).
+-    """
++    """Original ref2015 side-chain repacking; propagate all scientific failures."""
++    import math
+     import pyrosetta
+-    import shutil
+     from pyrosetta.rosetta.protocols.minimization_packing import PackRotamersMover
+     from pyrosetta.rosetta.core.pack.task import TaskFactory
+     from pyrosetta.rosetta.core.pack.task.operation import RestrictToRepacking
+-
+-    _init_pyrosetta(extra_params=[sdf_params])
+-    prefix = struct.split('.pdb')[0]
+-
+-    try:
+-        pose = pyrosetta.pose_from_file(struct)
+-        scorefxn = pyrosetta.create_score_function('ref2015')
+-        tf = TaskFactory()
+-        tf.push_back(RestrictToRepacking())
+-        packer = PackRotamersMover(scorefxn)
+-        packer.task_factory(tf)
+-
+-        for i in range(int(n)):
+-            wpose = pyrosetta.Pose(pose)
+-            try:
+-                packer.apply(wpose)
+-            except RuntimeError:
+-                wpose = pyrosetta.Pose(pose)
+-            out_pdb = f'{prefix}_{i + 1:04d}.pdb'
+-            wpose.dump_pdb(out_pdb)
+-            score = scorefxn(wpose)
+-            _append_score_sc(score, Path(out_pdb).stem)
+-
+-    except RuntimeError:
+-        # PyRosetta 3.10 stub error loading LIGAND params — write unrelaxed structure
+-        # with placeholder score so clustering can still run.
+-        for i in range(int(n)):
+-            out_pdb = f'{prefix}_{i + 1:04d}.pdb'
+-            shutil.copy2(struct, out_pdb)
+-            _append_score_sc(-1.0, Path(out_pdb).stem)
++    _init_pyrosetta()
++    prefix=struct.split('.pdb')[0]
++    pose=pyrosetta.Pose()
++    pyrosetta.generate_nonstandard_residue_set(pose,[sdf_params])
++    pyrosetta.pose_from_file(pose,struct)
++    scorefxn=pyrosetta.create_score_function('ref2015')
++    tf=TaskFactory();tf.push_back(RestrictToRepacking())
++    packer=PackRotamersMover(scorefxn);packer.task_factory(tf)
++    for i in range(int(n)):
++        wpose=pyrosetta.Pose(pose)
++        packer.apply(wpose)
++        score=float(scorefxn(wpose))
++        if not math.isfinite(score): raise RuntimeError('Nonfinite Rosetta score')
++        out_pdb=f'{prefix}_{i + 1:04d}.pdb'
++        wpose.dump_pdb(out_pdb)
++        _append_score_sc(score,Path(out_pdb).stem)
+ 
+ 
+ def _symlink_path(p: str) -> str:
+@@ -381,7 +340,7 @@
+ 
+     os.makedirs('Patchdock_Results', exist_ok=True)
+ 
+-    rng = np.random.default_rng(42)
++    rng = np.random.default_rng(publication_seed("global_translation"))
+     results = 0
+     # Large trial budget: Cα-only clash is cheap, acceptance ~0.1-1% for big proteins
+     max_trials = max(num_results * 20_000, 500_000)
+@@ -513,9 +472,9 @@
+     # Generate free conformers with ETKDGv3
+     mol_h = Chem.AddHs(mol)
+     params = AllChem.ETKDGv3()
+-    params.randomSeed = 42
++    params.randomSeed = publication_seed("distance_conformers")
+     params.numThreads = 4
+-    params.enforceChirality = False
++    params.enforceChirality = True
+     conf_ids = list(AllChem.EmbedMultipleConfs(mol_h, numConfs=n, params=params))
+     if not conf_ids:
+         return (0, 0)
+@@ -555,59 +514,9 @@
+             max(max(high_values), avg_index + min_margin))
+ 
+ 
+-def _make_docked_heads_mol(docked_sdf_or_pdb: str, headA_sdf: str, headB_sdf: str):
+-    """
+-    Build a combined RDKit molecule (HeadA || HeadB) with coordinates taken from
+-    the docked-pose PDB HETATM records.
+-
+-    Key invariant (verified by Kabsch RMSD = 0.000 Å): the placed warhead SDF
+-    atom indices map 1-to-1 in serial order to the PT0/PT1 HETATM records in the
+-    docked PDB.  We exploit this directly — no atom-name matching needed.
+-
+-    Returns a Chem.Mol with one conformer: HeadA atoms first (indices 0..nA-1),
+-    then HeadB (indices nA..nA+nB-1).
+-    """
+-    from rdkit import Chem
+-    from rdkit.Chem.rdchem import Conformer
+-
+-    pdb_path = docked_sdf_or_pdb.replace('.sdf', '.pdb')
+-    if not os.path.exists(pdb_path):
+-        mol = Chem.SDMolSupplier(docked_sdf_or_pdb, sanitize=False)[0]
+-        return mol
+-
+-    # Parse HETATM coords in serial order, grouped by residue name
+-    pt0_coords, pt1_coords = [], []
+-    for line in open(pdb_path):
+-        if not line.startswith('HETATM'):
+-            continue
+-        resname = line[17:20].strip()
+-        x, y, z = float(line[30:38]), float(line[38:46]), float(line[46:54])
+-        if resname == 'PT0':
+-            pt0_coords.append((x, y, z))
+-        elif resname == 'PT1':
+-            pt1_coords.append((x, y, z))
+-
+-    if not pt0_coords or not pt1_coords:
+-        return None
+-
+-    molA = Chem.SDMolSupplier(headA_sdf, removeHs=True)[0]
+-    molB = Chem.SDMolSupplier(headB_sdf, removeHs=True)[0]
+-    if (molA is None or molB is None or
+-            len(pt0_coords) != molA.GetNumAtoms() or
+-            len(pt1_coords) != molB.GetNumAtoms()):
+-        return None
+-
+-    def _assign_coords(mol, coords):
+-        rw = Chem.RWMol(mol)
+-        conf = Conformer(rw.GetNumAtoms())
+-        for i, (x, y, z) in enumerate(coords):
+-            conf.SetAtomPosition(i, (x, y, z))
+-        rw.RemoveAllConformers()
+-        rw.AddConformer(conf, assignId=True)
+-        return rw.GetMol()
+-
+-    return Chem.CombineMols(_assign_coords(molA, pt0_coords),
+-                            _assign_coords(molB, pt1_coords))
++def _make_docked_heads_mol(docked_sdf_or_pdb,headA_sdf,headB_sdf):
++    from official_parameters import docked_heads
++    return docked_heads(docked_sdf_or_pdb,[headA_sdf,headB_sdf])
+ 
+ 
+ def _find_linker_attachment_atoms(mol, head_match):
+@@ -1069,7 +978,7 @@
+     # ── generate free heavy-atom conformers ───────────────────────────────────
+     conf_ids = list(AllChem.EmbedMultipleConfs(
+         mol, numConfs=N_EMBED,
+-        randomSeed=42, numThreads=1, enforceChirality=False,
++        randomSeed=publication_seed("free_conformers"), numThreads=1, enforceChirality=True,
+         useExpTorsionAnglePrefs=True, useBasicKnowledge=True, ETversion=2,
+     ))
+ 
+@@ -1138,7 +1047,8 @@
+     import protac_lib as _pl
+     _pl.translate_anchors = translate_anchors_fixed   # sanitize=False/True mismatch fix
+     _pl.SampleDist = sample_dist_free_conf            # free-conformer anchor-distance sampling
+-    _pl.GenConstConf = gen_const_conf_free               # ETKDGv3 + Kabsch alignment to docked site (anchored DG fails for DDR2 poses)
++    from linker_adapter import generate as generate_bound_linker
++    _pl.GenConstConf = generate_bound_linker               # Preserve both complete bound heads; reject infeasible linker placements
+ 
+     # redirect SCRIPTS_FOL so subprocess constraint_generation commands use our wrapper
+     _utils.SCRIPTS_FOL = str(_THIS_DIR)
+--- original/LOCAL.py
++++ patched/LOCAL.py
+@@ -3,6 +3,8 @@
+ Replaces PBS/SGE/SLURM when running on a single workstation.
+ """
+ import os
++import json,hashlib,shlex
++from pathlib import Path
+ import subprocess
+ import concurrent.futures
+ from ..Cluster import Cluster
+@@ -10,7 +12,7 @@
+ 
+ class LOCAL(Cluster):
+     def __init__(self, n_workers=None):
+-        self.n_workers = n_workers or max(1, os.cpu_count() - 1)
++        self.n_workers = n_workers or max(1, int(os.environ.get('PROTAC_WORKERS', '2')))
+ 
+     def getRunningJobIDs(self):
+         return []
+@@ -30,9 +32,25 @@
+         """Run all commands in parallel using a thread pool (threads share CWD and avoid
+         pickle issues that arise with ProcessPoolExecutor for local functions)."""
+         def _run(cmd):
+-            result = subprocess.run(cmd, shell=True, capture_output=True, text=True)
++            root=Path(os.environ.get('PROTAC_ATTEMPT_ROOT',os.getcwd())).resolve()
++            words=shlex.split(cmd)
++            normalized=[]
++            for index,word in enumerate(words[1:]):
++                path=Path(word)
++                if index==0: normalized.append(path.name)
++                elif path.is_absolute():
++                    try: normalized.append(str(path.resolve().relative_to(root)))
++                    except ValueError: normalized.append(path.name)
++                else: normalized.append(word)
++            task_key=hashlib.sha256(json.dumps(normalized).encode()).hexdigest()
++            env=dict(os.environ,PROTAC_TASK_KEY=task_key)
++            result = subprocess.run(cmd, shell=True, capture_output=True, text=True,env=env)
++            logs=Path('LOCAL_logs');logs.mkdir(exist_ok=True)
++            (logs/(task_key+'.log')).write_text(result.stdout+result.stderr)
++            (logs/(task_key+'.json')).write_text(json.dumps({'command':cmd,'normalized_task':normalized,'task_key':task_key,'exit_code':result.returncode},indent=2)+'\n')
+             if result.returncode != 0:
+                 print(f'[LOCAL] Command failed (rc={result.returncode}): {cmd}\n{result.stderr[-500:]}')
++            result.check_returncode()
+             return result.returncode
+ 
+         with concurrent.futures.ThreadPoolExecutor(max_workers=self.n_workers) as ex:
+@@ -40,8 +58,9 @@
+             for fut in concurrent.futures.as_completed(futures):
+                 try:
+                     fut.result()
+-                except Exception as e:
+-                    print(f'[LOCAL] Error: {e}')
++                except Exception:
++                    for pending in futures: pending.cancel()
++                    raise
+         return ['local_done']
+ 
+     def wait(self, job_ids, timeout=-1):
+--- original/resume_pipeline.py
++++ patched/resume_pipeline.py
+@@ -50,7 +50,7 @@
+     if os.path.exists(fasc):
+         with open(fasc) as f:
+             n = sum(1 for line in f if line.startswith('SCORE:'))
+-        if n >= len(pdbs) * 0.9:
++        if False:  # File counts cannot prove matching inputs; re-score explicitly.
+             print(f'local.fasc already has {n}/{len(pdbs)} entries — skipping scoring.')
+             return
+     print(f'Scoring {len(pdbs)} docking PDBs for local.fasc...', flush=True)
+@@ -71,8 +71,7 @@
+                 pose = pyrosetta.pose_from_file(pdb)
+                 score = scorefxn(pose)
+             except Exception as e:
+-                print(f'  SKIP {os.path.basename(pdb)}: {e}')
+-                score = 0.0
++                raise RuntimeError(f'Scoring failed for {pdb}') from e
+             desc = os.path.basename(pdb).replace('.pdb', '')
+             lf.write(f'SCORE:  {score:.3f}  0  0  0  {score:.3f}  {desc}\n')
+             if (k + 1) % 200 == 0:
+@@ -233,7 +232,9 @@
+ 
+ def run_clustering(chains):
+     """Run clustering (matches main.py call)."""
+-    os.system('cat Init0.pdb Init1.pdb > Init.pdb')
++    with open('Init.pdb','wb') as target:
++        for source in ['Init0.pdb','Init1.pdb']:
++            with open(source,'rb') as part: target.write(part.read())
+     sys.path.insert(0, str(os.path.join(os.path.expanduser('~'), 'PRosettaC')))
+     import importlib
+     cl = importlib.import_module('clustering')
+@@ -263,7 +264,7 @@
+     score_docking_pdbs(pt0, pt1)
+     cleanup_failed_constraint_gen()
+     run_constraint_generation(heads, linkers, chains)
+-    shift_scores_if_needed()
++    # Preserve raw score.sc; clustering accepts finite scores of either sign.
+     run_clustering(chains)
+ 
+ 
+--- original/clustering.py
++++ patched/clustering.py
+@@ -1,3 +1,4 @@
++import math
+ #This script is doing the last clustering step.
+ #Inputs are: <top_score> <top_local> <RMSD> <chain>.
+ #top_score=the number of top models to consider based on final score of the model.
+@@ -27,7 +28,7 @@
+                 return
+         with open('score.sc', 'r') as f:
+                 local_lines = [line.split() for line in f][2:]
+-        local_lines = [line for line in local_lines if len(line) > 0 and float(line[1]) < 0]
++        local_lines = [line for line in local_lines if len(line) > 0 and math.isfinite(float(line[1]))]
+         if len(local_lines) == 0:
+                 return
+         local_lines.sort(key=lambda x: float(x[1]))
+@@ -54,12 +55,15 @@
+         for f in local_files:
+                 shutil.copyfile(f[0], top_folder + f[0])
+         #Clustering
++        init_absolute = os.path.abspath('../Init.pdb')
++        patchdock_absolute = os.path.abspath('.')
++        summary_absolute = os.path.abspath('../result_summary.txt')
+         os.chdir(top_folder)
+-        shutil.copyfile('../Init.pdb', './Init.pdb')
+-        rank, big_clusters, num_labels = apply_DBSCAN('Init.pdb', local_files, chain, RMSD)
+-        with open('../result_summary.txt', 'w') as f:
++        shutil.copyfile(init_absolute, './Init.pdb')
++        rank, big_clusters, num_labels = apply_DBSCAN('Init.pdb', local_files, chain, RMSD, patchdock_dir=patchdock_absolute)
++        with open(summary_absolute, 'w') as f:
+                 f.write(str(num_local_docking) + ' local docking solutions were generated.\n')
+-                f.write(str(final_models_num) + ' final models with energy below the threshold (0) were generated.\n')
++                f.write(str(final_models_num) + ' final models with finite raw scores were generated.\n')
+                 f.write(str(len(local_files)) + ' top final models were clustered.\n')
+                 f.write(str(num_labels) + ' clusters were generated.\n')
+                 f.write('Out of them ' + str(big_clusters) + ' have at least 5 members.\n')
+@@ -71,7 +75,7 @@
+         #        f.write(str(big_clusters) + '\n')
+         os.chdir('../')
+ 
+-def apply_DBSCAN(native, names, chain, threshold, cls_size_threshold=5):
++def apply_DBSCAN(native, names, chain, threshold, cls_size_threshold=5, patchdock_dir=None):
+         names_dict = {}
+         for (x, y) in names:
+                 names_dict[x] = y
+@@ -86,7 +90,7 @@
+                 models.append(final)
+                 if not len(native) == len(final):
+                         print("Not the same length")
+-                        sys.exit()
++                        raise RuntimeError('Cluster models have inconsistent atom selections')
+         num = len(models)
+         rmsd = []
+         for i,m1 in enumerate(models + [native]):
+@@ -116,7 +120,7 @@
+                                 native_clusters[label] = True
+                         cluster_size[label] += 1
+                         cluster_sum[label] += names_dict[names[i][0]]
+-                        shutil.copyfile('../Patchdock_Results/' + names[i][0], 'tmp' + str(label + 1) + '/' + names[i][0])
++                        shutil.copyfile(os.path.join(patchdock_dir,names[i][0]), 'tmp' + str(label + 1) + '/' + names[i][0])
+ 
+         cluster_avg = []
+         for i in range(num_labels):

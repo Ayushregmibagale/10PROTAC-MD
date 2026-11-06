@@ -65,3 +65,13 @@ attempt. That self-control does not use experimental head shapes or a protein
 complex. The recorded global/local frames did not provide successful two-bound-
 head linker geometry within this budget; further SJF8240 pose/sampling review is
 still required before a scientific campaign.
+
+
+### 2026-11-06 experimental linker/MD checkpoint
+
+- Default workflow is still isolated and unchanged by the candidate linker method.
+- Paired 50-frame diagnostic: baseline 0 valid, centered-DG candidate 15 full-QC valid, identical local protein coordinates and 0 Å head-core displacement.
+- GSK215 candidate integration check: 2.209 Å VHL RMSD, 0.75 native-contact fraction.
+- Candidate-specific geometry tests: 3 passed in both runtimes. Active workflow now has 108 tests, including parameter-bundle completeness and modeled-loop interchain overlap rejection; the 105-test software checkpoint is historical.
+- Selected corrected-chemistry SJF8240/MET protein repair and topology preparation passed. Full EM passed (5,273 steps; Fmax 172.45 <500 kJ/mol/nm). NVT is running; no production convergence or biological accuracy claim yet.
+- All immutable parameter-generation artifacts restored; validated docking overlay preserved privately inside the derivative folder. Base conda dependencies remain external.

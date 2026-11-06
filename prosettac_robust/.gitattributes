@@ -1,0 +1,7 @@
+# Immutable molecular artifacts are hash-bound and must retain exact bytes.
+workflow/ligand_params/** -text
+workflow/ligand_params/**/*.log binary
+workflow/ligand_params/**/*.pkl binary
+# Experimental frozen source copies retain inherited upstream whitespace.
+linker_method_review/candidate_workflow/** -text whitespace=-blank-at-eol,-blank-at-eof,-space-before-tab
+linker_method_review/candidate_torsion_workflow/** -text whitespace=-blank-at-eol,-blank-at-eof,-space-before-tab

@@ -114,3 +114,14 @@ excluded from Git; compact receipts and exact source hashes are versioned.
 Additional reference GSK215 controls are supplementary engine evidence, not
 SJF8240 accuracy evidence. No original project files or global packages were
 modified and no Ernie production campaign was submitted.
+
+
+### Preserved local docking runtime (2026-11-06)
+
+The licensed local overlay now resides privately at `prosettac_robust/.runtime/python310-packages`, hash-verified during guarded installation. Launch local docking Python with:
+
+```sh
+python3 /home/ayushregmibagale/10PROTAC-MD/prosettac_robust/workflow/scripts/00_runtime/docking_python.py YOUR_SCRIPT.py YOUR_ARGUMENTS
+```
+
+This prepends the preserved overlay and inherits it in child processes. The base `/home/ayushregmibagale/miniconda3/envs/deepternary/bin/python` and its fallback packages remain external dependencies; this is not a self-contained portable environment. Bare base Python uses an older RDKit and must not be substituted. Verified overlay versions: Python 3.10.22, RDKit 2025.09.5 with `SetCoordMap`, NumPy 2.2.6, OpenMM 8.4; PyRosetta imports from the preserved private path. Do not upload licensed binaries/database to GitHub or assume this local layout exists on Ernie.

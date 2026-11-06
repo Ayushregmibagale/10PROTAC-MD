@@ -1,0 +1,16 @@
+{
+  "status": "PRIVATE_INSTALL_AND_LAUNCHER_VERIFIED",
+  "overlay_source": "/tmp/10protac_runtime",
+  "overlay_destination_relative": ".runtime/python310-packages",
+  "licensed_binary_distribution": "LOCAL_ONLY_GIT_IGNORED",
+  "base_interpreter_external": true,
+  "reason": "Avoid dependency on temporary overlay and avoid changing the original conda environment",
+  "versions": {
+    "python": "3.10.22",
+    "rdkit": "2025.09.5",
+    "numpy": "2.2.6",
+    "openmm": "8.4"
+  },
+  "coordinate_map_supported": true,
+  "installed_pyrosetta_path": "/home/ayushregmibagale/10PROTAC-MD/prosettac_robust/.runtime/python310-packages/pyrosetta/__init__.py"
+}

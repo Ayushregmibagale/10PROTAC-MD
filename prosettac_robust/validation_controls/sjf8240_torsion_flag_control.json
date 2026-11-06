@@ -1,0 +1,141 @@
+{
+  "status": "EXPLORATORY_NOT_ADOPTED",
+  "poses": [
+    {
+      "experimental_torsion_preferences": false,
+      "basic_knowledge": true,
+      "accepted": false,
+      "seconds": 3.1482804941479117,
+      "details": {
+        "accepted": false,
+        "seed": 155921,
+        "attempts": 1,
+        "mapping_alternatives": 1,
+        "rejection_reasons": [
+          "embedding_failed"
+        ],
+        "embedding_max_iterations_per_attempt": 20,
+        "embedding_failure_counts_by_attempt": [
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            20,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        ]
+      }
+    },
+    {
+      "experimental_torsion_preferences": true,
+      "basic_knowledge": false,
+      "accepted": true,
+      "seconds": 0.29408751404844224,
+      "details": {
+        "accepted": true,
+        "seed": 155921,
+        "attempts": 1,
+        "head_mappings": [
+          [
+            49,
+            50,
+            75,
+            76,
+            77,
+            78,
+            51,
+            52,
+            53,
+            54,
+            55,
+            56,
+            57,
+            58,
+            59,
+            60,
+            61,
+            62,
+            63,
+            64,
+            65,
+            74,
+            73,
+            66,
+            67,
+            68,
+            69,
+            70,
+            71,
+            72
+          ],
+          [
+            2,
+            35,
+            34,
+            33,
+            4,
+            3,
+            32,
+            31,
+            30,
+            5,
+            1,
+            0,
+            36,
+            6,
+            7,
+            8,
+            9,
+            10,
+            27,
+            28,
+            29,
+            11,
+            12,
+            14,
+            15,
+            17,
+            13,
+            16,
+            18,
+            19,
+            20,
+            21,
+            23,
+            24,
+            22,
+            25,
+            26
+          ]
+        ],
+        "mapping_alternatives": 1,
+        "initial_both_head_rmsd_A": 2.6454176299216877e-15,
+        "embedding_max_iterations_per_attempt": 20,
+        "embedding_failure_counts_by_attempt": [
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        ],
+        "rejection_reasons": []
+      }
+    }
+  ]
+}
