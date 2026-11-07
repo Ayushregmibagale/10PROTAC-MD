@@ -1,0 +1,8 @@
+{
+  "status": "STOPPED_SUPERSEDED_BY_VALIDATED_BOND_TREE_IMPLEMENTATION",
+  "process": 4119399,
+  "completed_pose_files": 4,
+  "reason": "Whole-bond guard still required original reconstruction on wrapped frames; a vectorized bonded spanning-tree implementation was compared with the original before v3",
+  "original_unwrap_reference_comparison": "../e2_tree_reference_comparison.json",
+  "new_MD_executed": false
+}

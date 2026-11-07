@@ -1,0 +1,25 @@
+{
+  "status": "REQUESTED_INTEGRATION_AND_METHODS_REVIEW_EXECUTED_WITH_FINDINGS",
+  "scientific_release": "WITHHELD",
+  "full_E2_cases": 141,
+  "full_E2_frames": 29142,
+  "timestamp_aligned_cases": 141,
+  "saved_rows_reproduced_over_full_current_trajectory": 140,
+  "remaining_saved_row_resolved_by_explicit_0_to_20_ns_window": "AXL/pose011",
+  "window_summary_cases": 141,
+  "image_sensitive_audit_only_cases": 12,
+  "static_target_representatives": 19,
+  "expected_POI_matches": 18,
+  "CDK17_labelled_source_matches": "CDK14/O94921",
+  "new_MD_or_biological_GNN_training": false,
+  "original_files_modified": false,
+  "report_sha256": "6a84042d6c8f7db405dbbbaf0b5b5922882849276c7b04a61f19921a28c4cccb",
+  "evidence_sha256": {
+    "existing_result_audit/e2_full_frames_v3/summary.json": "522c778f436db48fdcacca4eeee9b08eb4fb99710b8daafc8d5d9be730aeb4f4",
+    "existing_result_audit/e2_full_frames_v3/AXL_pose011_window_resolution.json": "2261226f53c1469f1819e1914aa5174c5682772ecd37d87905c03ee6db26c51c",
+    "existing_result_audit/e2_explicit_window_all_core_v1/summary.json": "cc5498578badfd9d2587adcf22a5b3ab58bc50472d767aee8c80c289c6adf52a",
+    "existing_result_audit/integration_19_v2/summary.json": "5b693edc2107ceda78b0bb85da1c0e690d09b42fb8549292fed9fe25acaf2322",
+    "existing_result_audit/integration_19_v2/CDK17_source_identity.json": "58e92de9d0818ba06623aa4c7e53a6d826bac6076d4289e1a4dd879cdd4af3c8",
+    "validation_controls/software_checkpoint_v8.json": "e87a93e29a606eb0ee369b6a205e411789267aca4347e5edcd5eddc6ef65f127"
+  }
+}

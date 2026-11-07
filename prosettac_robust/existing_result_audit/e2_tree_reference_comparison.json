@@ -1,0 +1,30 @@
+[
+  {
+    "frame": 0,
+    "max_coordinate_difference_A": 1.52587890625e-05,
+    "original_s": 0.13215390127152205,
+    "tree_s": 0.0027622589841485023,
+    "fallback": false
+  },
+  {
+    "frame": 1,
+    "max_coordinate_difference_A": 1.52587890625e-05,
+    "original_s": 0.1273644887842238,
+    "tree_s": 0.0027814703062176704,
+    "fallback": false
+  },
+  {
+    "frame": 100,
+    "max_coordinate_difference_A": 1.52587890625e-05,
+    "original_s": 0.1250071176327765,
+    "tree_s": 0.0026546320877969265,
+    "fallback": false
+  },
+  {
+    "frame": 200,
+    "max_coordinate_difference_A": 1.52587890625e-05,
+    "original_s": 0.12908885208889842,
+    "tree_s": 0.0027670892886817455,
+    "fallback": false
+  }
+]

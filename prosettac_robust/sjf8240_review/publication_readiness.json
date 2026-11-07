@@ -80,6 +80,12 @@
         "skip_reason": "GNN replay tests require PyG, which is in the analysis environment",
         "log": "validation_controls/regression/docking_20261107_historical_scope.txt"
       }
+    },
+    "latest_integration": {
+      "analysis_passed": 136,
+      "docking_passed": 132,
+      "docking_PyG_skipped": 4,
+      "checkpoint": "validation_controls/software_checkpoint_v8.json"
     }
   },
   "scientific_signoff_report": "../SCIENTIFIC_SIGNOFF.md",
@@ -107,5 +113,17 @@
     },
     "source": "../existing_result_audit/compiled_md_protocol_v1/summary.json",
     "nominal_duration_is_actual_completion": false
+  },
+  "completed_retained_review": {
+    "status": "EXECUTED_WITH_FINDINGS_NOT_SCIENTIFIC_SIGNOFF",
+    "report": "../INTEGRATION_REVIEW_RESULTS.md",
+    "full_E2_cases": 141,
+    "frames": 29142,
+    "timestamp_aligned_cases": 141,
+    "image_review_cases": 12,
+    "static_target_representatives": 19,
+    "expected_POI_matches": 18,
+    "CDK17_source_identity": "CDK14/O94921",
+    "no_new_MD_or_biological_GNN_training": true
   }
 }

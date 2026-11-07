@@ -1,0 +1,19 @@
+{
+  "status": "RETAINED_CDK17_REPRESENTATIVE_MATCHES_DIFFERENT_PROTEIN",
+  "expected_uid": "Q00537",
+  "identified_uid": "O94921",
+  "identified_gene": "CDK14",
+  "sequence_match": {
+    "uniprot": "O94921",
+    "identity": 1.0,
+    "observed_CA_coverage": 1.0,
+    "canonical_first": 1,
+    "canonical_last": 350
+  },
+  "representative": "/mnt/d/PROTAC degradation Prediction/pRosettaC/runs/low_affinity_degraders/CDK17/Patchdock_Results/combined_10_1.pdb",
+  "representative_sha256": "6df7dd16d4f573e151031e5cfa9488dabccc70f6c85a5e26def63bd2d40a84ce",
+  "canonical_source_url": "https://rest.uniprot.org/uniprotkb/O94921.json",
+  "canonical_source_sha256": "a437680a921d792a8434254c93545253a863cfd3faee289ece77891745b9a629",
+  "scope": "One representative selected with the old graph selector; do not automatically generalize to all poses or relabel old labels/graphs",
+  "old_files_modified": false
+}

@@ -33,6 +33,10 @@ endpoint and label evidence independently of model output. The historical
 17-target cohort is a reference, not a newly certified label set. Do not treat
 missing assay data, absent graphs or a failed finite search as a negative label.
 
+## Retained E2 summaries after full-frame audit
+
+Use `scripts/02_analysis/10_summarize_existing_e2.py --help` on a hash-bound frame packet and its pose audit receipt. Time bounds, duplicate policy and image policy are mandatory. The completed core audit/summaries are in `../existing_result_audit/e2_full_frames_v3` and `e2_explicit_window_all_core_v1`. Reuse those outputs instead of repeating the full sweep. Default scientific handling rejects an image flag; explicit audit-only output remains un-released. Do not pair arrays by truncating their lengths or call a virtual-point MIC calculation an approved physical correction. Read `../INTEGRATION_REVIEW_RESULTS.md` for completed checks and remaining biological limitations.
+
 ## Optional future docking/MD controls
 
 For a separately chosen future control, the repaired controller has `--plan` and bounded `--run --pilot` modes with

@@ -1,0 +1,1130 @@
+[
+  {
+    "poi": "ABL1",
+    "pose_id": "pose001",
+    "status": "IMAGE_REVIEW_REQUIRED_AUDIT_ONLY",
+    "frames": 201,
+    "policy": "audit-only",
+    "summary_sha256": "01005b7ddc3c33f322cf3517a8c9daf3d4b60cf23da7c865e10e3974b9781440"
+  },
+  {
+    "poi": "ABL1",
+    "pose_id": "pose003",
+    "status": "DESCRIPTIVE_E2_SUMMARY_NOT_TRAINING_RELEASE",
+    "frames": 201,
+    "policy": "reject",
+    "summary_sha256": "5098a891e85e12ed7c01a8344b250fbf3f391c985512e9bcf6ddd59711e4ca3b"
+  },
+  {
+    "poi": "ABL1",
+    "pose_id": "pose004",
+    "status": "DESCRIPTIVE_E2_SUMMARY_NOT_TRAINING_RELEASE",
+    "frames": 201,
+    "policy": "reject",
+    "summary_sha256": "aeeacdf8217660b702768d9a25c689721cdd3d318f67bd202309900022a24efb"
+  },
+  {
+    "poi": "ABL1",
+    "pose_id": "pose005",
+    "status": "DESCRIPTIVE_E2_SUMMARY_NOT_TRAINING_RELEASE",
+    "frames": 201,
+    "policy": "reject",
+    "summary_sha256": "6607f387f0f7d5b4882d42b50c965538223fb5ebde1d84716096744d92bad26c"
+  },
+  {
+    "poi": "ABL1",
+    "pose_id": "pose006",
+    "status": "DESCRIPTIVE_E2_SUMMARY_NOT_TRAINING_RELEASE",
+    "frames": 201,
+    "policy": "reject",
+    "summary_sha256": "ffb0c17d743ea8f41fcb6101bb618f31effe92abf8421b25399e29af11a548f5"
+  },
+  {
+    "poi": "ABL1",
+    "pose_id": "pose008",
+    "status": "DESCRIPTIVE_E2_SUMMARY_NOT_TRAINING_RELEASE",
+    "frames": 201,
+    "policy": "reject",
+    "summary_sha256": "aae47c2675df281ddb0b39d387cae3c53c5b5d33620030055bcda23de8e3ab5b"
+  },
+  {
+    "poi": "ABL1",
+    "pose_id": "pose009",
+    "status": "IMAGE_REVIEW_REQUIRED_AUDIT_ONLY",
+    "frames": 201,
+    "policy": "audit-only",
+    "summary_sha256": "948963364155b34dc72cf8e27f995276921dcfb9f7eae61d862c37e306c05233"
+  },
+  {
+    "poi": "ABL1",
+    "pose_id": "pose010",
+    "status": "DESCRIPTIVE_E2_SUMMARY_NOT_TRAINING_RELEASE",
+    "frames": 201,
+    "policy": "reject",
+    "summary_sha256": "11f636fe9bfb2685cd293c758fdf3916743ac64b163264d76564f1670691b0cc"
+  },
+  {
+    "poi": "ABL1",
+    "pose_id": "pose011",
+    "status": "DESCRIPTIVE_E2_SUMMARY_NOT_TRAINING_RELEASE",
+    "frames": 201,
+    "policy": "reject",
+    "summary_sha256": "d1f199f77c0962d02010397767adb1a5bf5bfc6a8a0508cd78ebccbb7486f1c8"
+  },
+  {
+    "poi": "ABL1",
+    "pose_id": "pose013",
+    "status": "DESCRIPTIVE_E2_SUMMARY_NOT_TRAINING_RELEASE",
+    "frames": 201,
+    "policy": "reject",
+    "summary_sha256": "4b0a5f203ba1b7627f9b9c444ff786f8327b8fa0dbe6a4bf2ede8a24b9b4c1e1"
+  },
+  {
+    "poi": "ABL1",
+    "pose_id": "pose014",
+    "status": "DESCRIPTIVE_E2_SUMMARY_NOT_TRAINING_RELEASE",
+    "frames": 201,
+    "policy": "reject",
+    "summary_sha256": "2a6a9f7af8cd26772a484e2a27a45b4e1acab67117efbf42d500edc0ecbb920a"
+  },
+  {
+    "poi": "ABL1",
+    "pose_id": "pose015",
+    "status": "DESCRIPTIVE_E2_SUMMARY_NOT_TRAINING_RELEASE",
+    "frames": 201,
+    "policy": "reject",
+    "summary_sha256": "895d5d6e3904f044c2707fa660e95dd28b83e1af4b8f9330fac5bdb1769317f2"
+  },
+  {
+    "poi": "ABL1",
+    "pose_id": "pose016",
+    "status": "IMAGE_REVIEW_REQUIRED_AUDIT_ONLY",
+    "frames": 201,
+    "policy": "audit-only",
+    "summary_sha256": "903e76bbcdc8a7155a6b5a7af20ec51971cef3a2ff48ed4f004f3e98fd634291"
+  },
+  {
+    "poi": "ABL1",
+    "pose_id": "pose017",
+    "status": "DESCRIPTIVE_E2_SUMMARY_NOT_TRAINING_RELEASE",
+    "frames": 201,
+    "policy": "reject",
+    "summary_sha256": "d7c372c30d831816bea4169cb07278b87f6f4c66902ba1177ce4e8011cf74009"
+  },
+  {
+    "poi": "ABL1",
+    "pose_id": "pose018",
+    "status": "DESCRIPTIVE_E2_SUMMARY_NOT_TRAINING_RELEASE",
+    "frames": 201,
+    "policy": "reject",
+    "summary_sha256": "3ebccb30b30779115614d86739787743be66cbd5b93d41cd9899d7e46bc93dbd"
+  },
+  {
+    "poi": "ABL1",
+    "pose_id": "pose019",
+    "status": "DESCRIPTIVE_E2_SUMMARY_NOT_TRAINING_RELEASE",
+    "frames": 201,
+    "policy": "reject",
+    "summary_sha256": "7010338671529d002d5776d403a9bb603bc95f48c09a9fd95c440ea2465b11e3"
+  },
+  {
+    "poi": "ABL1",
+    "pose_id": "pose020",
+    "status": "IMAGE_REVIEW_REQUIRED_AUDIT_ONLY",
+    "frames": 201,
+    "policy": "audit-only",
+    "summary_sha256": "30e730c56c364b157cf8442df64ee764ba147d0c2ae4a635800fa8f00be4cecd"
+  },
+  {
+    "poi": "AXL",
+    "pose_id": "pose001",
+    "status": "DESCRIPTIVE_E2_SUMMARY_NOT_TRAINING_RELEASE",
+    "frames": 201,
+    "policy": "reject",
+    "summary_sha256": "3eb5af7221b5d59d5571fda1be0a62de3a3b51f1e88bb4c70d4c589c1d069083"
+  },
+  {
+    "poi": "AXL",
+    "pose_id": "pose002",
+    "status": "DESCRIPTIVE_E2_SUMMARY_NOT_TRAINING_RELEASE",
+    "frames": 201,
+    "policy": "reject",
+    "summary_sha256": "83db0db1699114ed94222be03245346d657865f80bab554f7b4f5b0cc0633add"
+  },
+  {
+    "poi": "AXL",
+    "pose_id": "pose004",
+    "status": "DESCRIPTIVE_E2_SUMMARY_NOT_TRAINING_RELEASE",
+    "frames": 201,
+    "policy": "reject",
+    "summary_sha256": "5689372e6d814b0eb41f05733c0c35421039978f5b3358891a833fdd1ed0dd9e"
+  },
+  {
+    "poi": "AXL",
+    "pose_id": "pose005",
+    "status": "DESCRIPTIVE_E2_SUMMARY_NOT_TRAINING_RELEASE",
+    "frames": 201,
+    "policy": "reject",
+    "summary_sha256": "18648e9e72fa2a84b21438b1d8901fb02fb917ddd063a8fb201b5506e57ed293"
+  },
+  {
+    "poi": "AXL",
+    "pose_id": "pose006",
+    "status": "DESCRIPTIVE_E2_SUMMARY_NOT_TRAINING_RELEASE",
+    "frames": 201,
+    "policy": "reject",
+    "summary_sha256": "9af061100ac6a3b4663ae19da5dfe3287c0bb59ec99dd1bfb041c24ae4421844"
+  },
+  {
+    "poi": "AXL",
+    "pose_id": "pose007",
+    "status": "DESCRIPTIVE_E2_SUMMARY_NOT_TRAINING_RELEASE",
+    "frames": 201,
+    "policy": "reject",
+    "summary_sha256": "4d47e76767223cdadb2e34f64653a59cd2d6641e95a919c885cba7a47622893f"
+  },
+  {
+    "poi": "AXL",
+    "pose_id": "pose008",
+    "status": "DESCRIPTIVE_E2_SUMMARY_NOT_TRAINING_RELEASE",
+    "frames": 201,
+    "policy": "reject",
+    "summary_sha256": "fc06c71ac55fdff24064b27f6cc45ec4eb0f05f055178059cc39dda54d14b822"
+  },
+  {
+    "poi": "AXL",
+    "pose_id": "pose009",
+    "status": "DESCRIPTIVE_E2_SUMMARY_NOT_TRAINING_RELEASE",
+    "frames": 201,
+    "policy": "reject",
+    "summary_sha256": "617f60fe579eeca7d447e99e320579118a6e129c4903e707b05ddc55be0b6e89"
+  },
+  {
+    "poi": "AXL",
+    "pose_id": "pose010",
+    "status": "DESCRIPTIVE_E2_SUMMARY_NOT_TRAINING_RELEASE",
+    "frames": 201,
+    "policy": "reject",
+    "summary_sha256": "b24724114ef9bc1bcbf739d05756abe615505fbefc9cb928d8d53ea69bf7605f"
+  },
+  {
+    "poi": "AXL",
+    "pose_id": "pose011",
+    "status": "DESCRIPTIVE_E2_SUMMARY_NOT_TRAINING_RELEASE",
+    "frames": 201,
+    "policy": "reject",
+    "summary_sha256": "359cd067d2d6ec621a5cc776f84530f0aa5fc7c623069dcbad5008666ea380e2"
+  },
+  {
+    "poi": "AXL",
+    "pose_id": "pose012",
+    "status": "DESCRIPTIVE_E2_SUMMARY_NOT_TRAINING_RELEASE",
+    "frames": 201,
+    "policy": "reject",
+    "summary_sha256": "ed70878d531e04acde90910ef87dbd64fb982c91f4c8a1dba77d0712c82dcb3a"
+  },
+  {
+    "poi": "AXL",
+    "pose_id": "pose013",
+    "status": "DESCRIPTIVE_E2_SUMMARY_NOT_TRAINING_RELEASE",
+    "frames": 201,
+    "policy": "reject",
+    "summary_sha256": "343c4e8b4d325856a2e084abfb049b53537057f6722c180b6133ad95e1d31d7c"
+  },
+  {
+    "poi": "AXL",
+    "pose_id": "pose015",
+    "status": "DESCRIPTIVE_E2_SUMMARY_NOT_TRAINING_RELEASE",
+    "frames": 201,
+    "policy": "reject",
+    "summary_sha256": "50971139a7c7e11a11eeb24f643941a1b43057103f2428a7b3316ac9ebd8df87"
+  },
+  {
+    "poi": "AXL",
+    "pose_id": "pose016",
+    "status": "IMAGE_REVIEW_REQUIRED_AUDIT_ONLY",
+    "frames": 201,
+    "policy": "audit-only",
+    "summary_sha256": "588ef274cfd9828a7d640b8cbb08569fe8f9574103a65fe708e4b8b169059f58"
+  },
+  {
+    "poi": "AXL",
+    "pose_id": "pose017",
+    "status": "DESCRIPTIVE_E2_SUMMARY_NOT_TRAINING_RELEASE",
+    "frames": 201,
+    "policy": "reject",
+    "summary_sha256": "b5da68b4d41592eaa4aa8ec946f6c961f962ff526982c7db322ff1ca661662c4"
+  },
+  {
+    "poi": "AXL",
+    "pose_id": "pose018",
+    "status": "DESCRIPTIVE_E2_SUMMARY_NOT_TRAINING_RELEASE",
+    "frames": 201,
+    "policy": "reject",
+    "summary_sha256": "d29aa41aaa30a3a4ef3ce4172ad0d5975dcb6ff6121fe1c08aad17d0d09fcbd5"
+  },
+  {
+    "poi": "AXL",
+    "pose_id": "pose019",
+    "status": "DESCRIPTIVE_E2_SUMMARY_NOT_TRAINING_RELEASE",
+    "frames": 201,
+    "policy": "reject",
+    "summary_sha256": "f4a992ad133c1b974f0709e189e1ffd51bd00fc86acb652feaecb71ae691ce98"
+  },
+  {
+    "poi": "AXL",
+    "pose_id": "pose020",
+    "status": "DESCRIPTIVE_E2_SUMMARY_NOT_TRAINING_RELEASE",
+    "frames": 201,
+    "policy": "reject",
+    "summary_sha256": "9dac9ca19576ee8f5129c563918dc6d7a4397791c7124ee154287cfb1158ba4b"
+  },
+  {
+    "poi": "DDR2",
+    "pose_id": "pose001",
+    "status": "DESCRIPTIVE_E2_SUMMARY_NOT_TRAINING_RELEASE",
+    "frames": 201,
+    "policy": "reject",
+    "summary_sha256": "f1e948b7efc804c413afb7239912e9fad2f0d3cbc1b91f796e1b58b1b454070d"
+  },
+  {
+    "poi": "DDR2",
+    "pose_id": "pose002",
+    "status": "DESCRIPTIVE_E2_SUMMARY_NOT_TRAINING_RELEASE",
+    "frames": 201,
+    "policy": "reject",
+    "summary_sha256": "3f72fcbf77b2630a29162d3ba04e7e368199431cc0bb905c42cb669cf9bafb3d"
+  },
+  {
+    "poi": "DDR2",
+    "pose_id": "pose003",
+    "status": "DESCRIPTIVE_E2_SUMMARY_NOT_TRAINING_RELEASE",
+    "frames": 201,
+    "policy": "reject",
+    "summary_sha256": "a8d529c1bcd57979ff31159f95303fee8813c74f1594725870f49ed2923f713b"
+  },
+  {
+    "poi": "DDR2",
+    "pose_id": "pose004",
+    "status": "DESCRIPTIVE_E2_SUMMARY_NOT_TRAINING_RELEASE",
+    "frames": 201,
+    "policy": "reject",
+    "summary_sha256": "23b9fc58f1decee1f8604b7ec50e6f231782fff77d0dca3ba4e4de475cb1901b"
+  },
+  {
+    "poi": "DDR2",
+    "pose_id": "pose005",
+    "status": "IMAGE_REVIEW_REQUIRED_AUDIT_ONLY",
+    "frames": 201,
+    "policy": "audit-only",
+    "summary_sha256": "868d5ffbe68007c525361175347de1303beeb9d416c8c089300d9d73f80541b3"
+  },
+  {
+    "poi": "DDR2",
+    "pose_id": "pose006",
+    "status": "DESCRIPTIVE_E2_SUMMARY_NOT_TRAINING_RELEASE",
+    "frames": 201,
+    "policy": "reject",
+    "summary_sha256": "2f00955950e3c19a56346241c3662e376c62d19696d56ca989c176452aea944e"
+  },
+  {
+    "poi": "DDR2",
+    "pose_id": "pose007",
+    "status": "DESCRIPTIVE_E2_SUMMARY_NOT_TRAINING_RELEASE",
+    "frames": 201,
+    "policy": "reject",
+    "summary_sha256": "332193a159a31e04e5d7931e7effe51374c37c3bfa24929df0ee5dda829878bb"
+  },
+  {
+    "poi": "DDR2",
+    "pose_id": "pose008",
+    "status": "DESCRIPTIVE_E2_SUMMARY_NOT_TRAINING_RELEASE",
+    "frames": 201,
+    "policy": "reject",
+    "summary_sha256": "642ac7edfceb5077c2dd8a518984e992af1de98769568049acec4becd72beafa"
+  },
+  {
+    "poi": "DDR2",
+    "pose_id": "pose010",
+    "status": "DESCRIPTIVE_E2_SUMMARY_NOT_TRAINING_RELEASE",
+    "frames": 201,
+    "policy": "reject",
+    "summary_sha256": "3202d1de3fc6714de2c128f661f9b25e9e5a7635265021c66556685c06898bac"
+  },
+  {
+    "poi": "DDR2",
+    "pose_id": "pose011",
+    "status": "DESCRIPTIVE_E2_SUMMARY_NOT_TRAINING_RELEASE",
+    "frames": 201,
+    "policy": "reject",
+    "summary_sha256": "24feadadcdf67b2801c0d04439869af62d24ad61694dc8b0b938ed3a0cddfe86"
+  },
+  {
+    "poi": "DDR2",
+    "pose_id": "pose013",
+    "status": "DESCRIPTIVE_E2_SUMMARY_NOT_TRAINING_RELEASE",
+    "frames": 201,
+    "policy": "reject",
+    "summary_sha256": "00036b786e82ee56977095a9da875d26829e79bfc45caa438a4ce538da517679"
+  },
+  {
+    "poi": "DDR2",
+    "pose_id": "pose014",
+    "status": "IMAGE_REVIEW_REQUIRED_AUDIT_ONLY",
+    "frames": 201,
+    "policy": "audit-only",
+    "summary_sha256": "9916cd3e7119d02f66da754eace48eb5dce23ed383939083bfb6941fef80efc5"
+  },
+  {
+    "poi": "DDR2",
+    "pose_id": "pose015",
+    "status": "DESCRIPTIVE_E2_SUMMARY_NOT_TRAINING_RELEASE",
+    "frames": 201,
+    "policy": "reject",
+    "summary_sha256": "84b4e36597d8428c5493c59964339af157fa74e8e6d212668dc4be72ffbcff65"
+  },
+  {
+    "poi": "DDR2",
+    "pose_id": "pose016",
+    "status": "DESCRIPTIVE_E2_SUMMARY_NOT_TRAINING_RELEASE",
+    "frames": 201,
+    "policy": "reject",
+    "summary_sha256": "4074ef4b73bfd75921dcf6b2a74d367776c0e89b5e0a6275d21780f22f4f6931"
+  },
+  {
+    "poi": "DDR2",
+    "pose_id": "pose017",
+    "status": "DESCRIPTIVE_E2_SUMMARY_NOT_TRAINING_RELEASE",
+    "frames": 201,
+    "policy": "reject",
+    "summary_sha256": "6b1e65ea9e4da49a4b87a5760164afaf43aa823847807575a446c05fccd1a921"
+  },
+  {
+    "poi": "DDR2",
+    "pose_id": "pose018",
+    "status": "DESCRIPTIVE_E2_SUMMARY_NOT_TRAINING_RELEASE",
+    "frames": 201,
+    "policy": "reject",
+    "summary_sha256": "35e4826c749a7ff13757e01876fbf3acb43be398d6dcae0843e040624a107905"
+  },
+  {
+    "poi": "DDR2",
+    "pose_id": "pose019",
+    "status": "DESCRIPTIVE_E2_SUMMARY_NOT_TRAINING_RELEASE",
+    "frames": 201,
+    "policy": "reject",
+    "summary_sha256": "b2c7d73ffb1787c2f751826265236363d12caefc924fe0f680102d2c9c582695"
+  },
+  {
+    "poi": "DDR2",
+    "pose_id": "pose020",
+    "status": "DESCRIPTIVE_E2_SUMMARY_NOT_TRAINING_RELEASE",
+    "frames": 201,
+    "policy": "reject",
+    "summary_sha256": "b7adad81520e879ef4f89dda942ff9bed1a538fe8ceac2568616622183d8551e"
+  },
+  {
+    "poi": "EPHA2",
+    "pose_id": "pose001",
+    "status": "DESCRIPTIVE_E2_SUMMARY_NOT_TRAINING_RELEASE",
+    "frames": 201,
+    "policy": "reject",
+    "summary_sha256": "78dade56d596d37f5cbb56aec42ce6dc4e034f160e51ce52dd4fe2be7b5afbb0"
+  },
+  {
+    "poi": "EPHA2",
+    "pose_id": "pose002",
+    "status": "DESCRIPTIVE_E2_SUMMARY_NOT_TRAINING_RELEASE",
+    "frames": 201,
+    "policy": "reject",
+    "summary_sha256": "abeec3adf47bb2655cdeff5fe324e0c5c5d2bbf324a1e93d074b055cfa03a437"
+  },
+  {
+    "poi": "EPHA2",
+    "pose_id": "pose003",
+    "status": "DESCRIPTIVE_E2_SUMMARY_NOT_TRAINING_RELEASE",
+    "frames": 201,
+    "policy": "reject",
+    "summary_sha256": "bdc82ac0fc52d247bde65e28b8a2089d4727fd086b9a2308b053321c094afdd5"
+  },
+  {
+    "poi": "EPHA2",
+    "pose_id": "pose004",
+    "status": "DESCRIPTIVE_E2_SUMMARY_NOT_TRAINING_RELEASE",
+    "frames": 201,
+    "policy": "reject",
+    "summary_sha256": "ae011df53d7e5a2fff10099c8d74d6714da7b75c8064cedc314678ca4593511d"
+  },
+  {
+    "poi": "EPHA2",
+    "pose_id": "pose005",
+    "status": "DESCRIPTIVE_E2_SUMMARY_NOT_TRAINING_RELEASE",
+    "frames": 201,
+    "policy": "reject",
+    "summary_sha256": "59d21872680a8c75e7ada48a1dd1d1d4bb160bcdebcb8bedbd136113359beaa7"
+  },
+  {
+    "poi": "EPHA2",
+    "pose_id": "pose006",
+    "status": "DESCRIPTIVE_E2_SUMMARY_NOT_TRAINING_RELEASE",
+    "frames": 201,
+    "policy": "reject",
+    "summary_sha256": "4b7a017583992408e149ae87b4c39f3ac39c26524510dd38c138276740351f8d"
+  },
+  {
+    "poi": "EPHA2",
+    "pose_id": "pose007",
+    "status": "IMAGE_REVIEW_REQUIRED_AUDIT_ONLY",
+    "frames": 201,
+    "policy": "audit-only",
+    "summary_sha256": "d5b050050d6174b30691746012fc658d0b2cd7c7c734effb56fc031eaaf8b916"
+  },
+  {
+    "poi": "EPHA2",
+    "pose_id": "pose008",
+    "status": "DESCRIPTIVE_E2_SUMMARY_NOT_TRAINING_RELEASE",
+    "frames": 201,
+    "policy": "reject",
+    "summary_sha256": "5ff738ff14e3eca7342c37bc7df6cb9c067acc606129d6558da8b31be1e60e73"
+  },
+  {
+    "poi": "EPHA2",
+    "pose_id": "pose009",
+    "status": "DESCRIPTIVE_E2_SUMMARY_NOT_TRAINING_RELEASE",
+    "frames": 201,
+    "policy": "reject",
+    "summary_sha256": "10c7ffae32d27e471784b41032175ced529d7bf5556dc2f85eccd10b1b717f83"
+  },
+  {
+    "poi": "EPHA2",
+    "pose_id": "pose010",
+    "status": "DESCRIPTIVE_E2_SUMMARY_NOT_TRAINING_RELEASE",
+    "frames": 201,
+    "policy": "reject",
+    "summary_sha256": "7c84e9bd9ec5272e4703dc884a97c387dd69e57fed8495c814ecf9803132ad05"
+  },
+  {
+    "poi": "EPHA2",
+    "pose_id": "pose011",
+    "status": "DESCRIPTIVE_E2_SUMMARY_NOT_TRAINING_RELEASE",
+    "frames": 201,
+    "policy": "reject",
+    "summary_sha256": "4cb32ffb858fb5022a40eab9ee7b44e8e7b403b12dd9eacc7a4611cd016ce21e"
+  },
+  {
+    "poi": "EPHA2",
+    "pose_id": "pose012",
+    "status": "IMAGE_REVIEW_REQUIRED_AUDIT_ONLY",
+    "frames": 201,
+    "policy": "audit-only",
+    "summary_sha256": "e73bfa5a0d7c986bd1477fe45e5c6dea61a9ac6d19ee4375ddceeda5f5d67c3d"
+  },
+  {
+    "poi": "EPHA2",
+    "pose_id": "pose013",
+    "status": "DESCRIPTIVE_E2_SUMMARY_NOT_TRAINING_RELEASE",
+    "frames": 201,
+    "policy": "reject",
+    "summary_sha256": "d7e2bf46fb03ca9798ebb98df76de707ce1af4641cc102b4ea00b2ea8dcbce38"
+  },
+  {
+    "poi": "EPHA2",
+    "pose_id": "pose015",
+    "status": "DESCRIPTIVE_E2_SUMMARY_NOT_TRAINING_RELEASE",
+    "frames": 201,
+    "policy": "reject",
+    "summary_sha256": "f6b0ec5a074b3adfcb8dcf9dd673d1ce0e87e7817da554cd2cb5560c9b858335"
+  },
+  {
+    "poi": "EPHA2",
+    "pose_id": "pose017",
+    "status": "DESCRIPTIVE_E2_SUMMARY_NOT_TRAINING_RELEASE",
+    "frames": 201,
+    "policy": "reject",
+    "summary_sha256": "adafca9b54495e91e76321d726aadd59103f75b6d69b8dd2f31900fff497b896"
+  },
+  {
+    "poi": "EPHA2",
+    "pose_id": "pose018",
+    "status": "DESCRIPTIVE_E2_SUMMARY_NOT_TRAINING_RELEASE",
+    "frames": 201,
+    "policy": "reject",
+    "summary_sha256": "348622a7b654d2ccccab8963dec21403038cf8b5eb3a69be396a0b563e77ad60"
+  },
+  {
+    "poi": "EPHA2",
+    "pose_id": "pose019",
+    "status": "DESCRIPTIVE_E2_SUMMARY_NOT_TRAINING_RELEASE",
+    "frames": 201,
+    "policy": "reject",
+    "summary_sha256": "0a186ce5e7cbd627fbd22e2c261730f8c5cdff6fc79e564f632243e1c936c274"
+  },
+  {
+    "poi": "EPHA2",
+    "pose_id": "pose020",
+    "status": "DESCRIPTIVE_E2_SUMMARY_NOT_TRAINING_RELEASE",
+    "frames": 201,
+    "policy": "reject",
+    "summary_sha256": "b4ff23082c5bb5811ca09e2aa91674844e82a95a895e1153de51522c02d48213"
+  },
+  {
+    "poi": "EPHB2",
+    "pose_id": "pose001",
+    "status": "DESCRIPTIVE_E2_SUMMARY_NOT_TRAINING_RELEASE",
+    "frames": 201,
+    "policy": "reject",
+    "summary_sha256": "7ea122b192cfb574b9f501dde367bcfd2e6947f89fa6c3a4d53d9f23d49cbb65"
+  },
+  {
+    "poi": "EPHB2",
+    "pose_id": "pose002",
+    "status": "DESCRIPTIVE_E2_SUMMARY_NOT_TRAINING_RELEASE",
+    "frames": 201,
+    "policy": "reject",
+    "summary_sha256": "3e47faf65949b27b8c19acdd0d99803a40ad9270d80eab74af7641df0bcf8c55"
+  },
+  {
+    "poi": "EPHB2",
+    "pose_id": "pose003",
+    "status": "IMAGE_REVIEW_REQUIRED_AUDIT_ONLY",
+    "frames": 201,
+    "policy": "audit-only",
+    "summary_sha256": "0e1b8bd63b09d94621557359953ca2c6a3cfa7034f041f00216e37c16c92d811"
+  },
+  {
+    "poi": "EPHB2",
+    "pose_id": "pose004",
+    "status": "DESCRIPTIVE_E2_SUMMARY_NOT_TRAINING_RELEASE",
+    "frames": 201,
+    "policy": "reject",
+    "summary_sha256": "1f0138359ae796f41c6c87feab4baefee9776a15e28ddcce292b081effd388a6"
+  },
+  {
+    "poi": "EPHB2",
+    "pose_id": "pose005",
+    "status": "DESCRIPTIVE_E2_SUMMARY_NOT_TRAINING_RELEASE",
+    "frames": 201,
+    "policy": "reject",
+    "summary_sha256": "bea7d415ccc801ceea138dd4ce34da064ca31317bc740b1e7fa258aebccf4204"
+  },
+  {
+    "poi": "EPHB2",
+    "pose_id": "pose006",
+    "status": "DESCRIPTIVE_E2_SUMMARY_NOT_TRAINING_RELEASE",
+    "frames": 201,
+    "policy": "reject",
+    "summary_sha256": "2d2f17e6a89e2c0cc76893cea07ed1f6fc1dc009bcd4e48d69034555b1badb9b"
+  },
+  {
+    "poi": "EPHB2",
+    "pose_id": "pose007",
+    "status": "DESCRIPTIVE_E2_SUMMARY_NOT_TRAINING_RELEASE",
+    "frames": 201,
+    "policy": "reject",
+    "summary_sha256": "30ed9fed22fb86a12b5c145665686fc28afa1be49b120394d8b2d30c57988fc3"
+  },
+  {
+    "poi": "EPHB2",
+    "pose_id": "pose008",
+    "status": "DESCRIPTIVE_E2_SUMMARY_NOT_TRAINING_RELEASE",
+    "frames": 201,
+    "policy": "reject",
+    "summary_sha256": "626ff88a55fd4aacf2c0535c0501a2c75402f5c7b6b6bdf28ba88bc9c0c99323"
+  },
+  {
+    "poi": "EPHB2",
+    "pose_id": "pose009",
+    "status": "DESCRIPTIVE_E2_SUMMARY_NOT_TRAINING_RELEASE",
+    "frames": 201,
+    "policy": "reject",
+    "summary_sha256": "6ac1a0e97b4ac4e4e4f7c23211943d8407d3f8f6ea0022b4eecd5704c4595151"
+  },
+  {
+    "poi": "EPHB2",
+    "pose_id": "pose010",
+    "status": "DESCRIPTIVE_E2_SUMMARY_NOT_TRAINING_RELEASE",
+    "frames": 201,
+    "policy": "reject",
+    "summary_sha256": "e2b26e3e8a68c19c8578702a48e18c593c155910f7dc83a9b9bc354632e200aa"
+  },
+  {
+    "poi": "EPHB2",
+    "pose_id": "pose011",
+    "status": "DESCRIPTIVE_E2_SUMMARY_NOT_TRAINING_RELEASE",
+    "frames": 201,
+    "policy": "reject",
+    "summary_sha256": "01081c91625c80395f30a3fee65cc41cec227173efdf99be85f4564956495410"
+  },
+  {
+    "poi": "EPHB2",
+    "pose_id": "pose013",
+    "status": "DESCRIPTIVE_E2_SUMMARY_NOT_TRAINING_RELEASE",
+    "frames": 201,
+    "policy": "reject",
+    "summary_sha256": "abe5aa19eeb1b60b12202be8364479ce7a42f87508dc9681724af01c72fd169f"
+  },
+  {
+    "poi": "EPHB2",
+    "pose_id": "pose014",
+    "status": "DESCRIPTIVE_E2_SUMMARY_NOT_TRAINING_RELEASE",
+    "frames": 201,
+    "policy": "reject",
+    "summary_sha256": "4f6a6f9f2aa1d4a9b503510aaebbeccb250d5b15ef48fa411abd2ea017f6bca6"
+  },
+  {
+    "poi": "EPHB2",
+    "pose_id": "pose015",
+    "status": "DESCRIPTIVE_E2_SUMMARY_NOT_TRAINING_RELEASE",
+    "frames": 201,
+    "policy": "reject",
+    "summary_sha256": "17e34031a4897e03da9dcdf46ea849acb4c12f74f4783d35294ea45da55b2689"
+  },
+  {
+    "poi": "EPHB2",
+    "pose_id": "pose016",
+    "status": "DESCRIPTIVE_E2_SUMMARY_NOT_TRAINING_RELEASE",
+    "frames": 201,
+    "policy": "reject",
+    "summary_sha256": "6e37fe3b9d7c1f50c2fbc28edef7831681ff0c2cffc826d20f33d5640c0b437d"
+  },
+  {
+    "poi": "EPHB2",
+    "pose_id": "pose017",
+    "status": "DESCRIPTIVE_E2_SUMMARY_NOT_TRAINING_RELEASE",
+    "frames": 201,
+    "policy": "reject",
+    "summary_sha256": "1dfa48ee3c476c99cad8e3dec3a2b588948d67a8d2c37f31a2bc8b6c9c6ad631"
+  },
+  {
+    "poi": "EPHB2",
+    "pose_id": "pose018",
+    "status": "DESCRIPTIVE_E2_SUMMARY_NOT_TRAINING_RELEASE",
+    "frames": 201,
+    "policy": "reject",
+    "summary_sha256": "4bedd0cf279334d234a0b5237941c8b65fc0d8dde0e29168dd6a5504c76f4a9a"
+  },
+  {
+    "poi": "EPHB2",
+    "pose_id": "pose019",
+    "status": "DESCRIPTIVE_E2_SUMMARY_NOT_TRAINING_RELEASE",
+    "frames": 201,
+    "policy": "reject",
+    "summary_sha256": "b25f4a8063e5ec1674e6bd5ff44ece59bf5dca987aef63de7bb437247916b826"
+  },
+  {
+    "poi": "EPHB2",
+    "pose_id": "pose020",
+    "status": "DESCRIPTIVE_E2_SUMMARY_NOT_TRAINING_RELEASE",
+    "frames": 201,
+    "policy": "reject",
+    "summary_sha256": "a886f2c5a6b9da519d757947761451dda9a82b44d898808125ee00c06032b7dc"
+  },
+  {
+    "poi": "MAPK14_full",
+    "pose_id": "pose001",
+    "status": "DESCRIPTIVE_E2_SUMMARY_NOT_TRAINING_RELEASE",
+    "frames": 201,
+    "policy": "reject",
+    "summary_sha256": "d0b44de796729248adeadf0e7c0f72dd4dbd470295c6d5fa208d15f967c3e102"
+  },
+  {
+    "poi": "MAPK14_full",
+    "pose_id": "pose002",
+    "status": "DESCRIPTIVE_E2_SUMMARY_NOT_TRAINING_RELEASE",
+    "frames": 201,
+    "policy": "reject",
+    "summary_sha256": "b030314f1a5afc34de9b8fcbd84c76ea6f54527ce229565e34cfc57d81320971"
+  },
+  {
+    "poi": "MAPK14_full",
+    "pose_id": "pose003",
+    "status": "DESCRIPTIVE_E2_SUMMARY_NOT_TRAINING_RELEASE",
+    "frames": 201,
+    "policy": "reject",
+    "summary_sha256": "f9573576de9891d431eb05d7e76d3f2fff1cdb4d6f0759e714eade3aa3f32b36"
+  },
+  {
+    "poi": "MAPK14_full",
+    "pose_id": "pose004",
+    "status": "DESCRIPTIVE_E2_SUMMARY_NOT_TRAINING_RELEASE",
+    "frames": 201,
+    "policy": "reject",
+    "summary_sha256": "29c5aaec29fab4b535facef064ca210d36f3ad26fa865da38be2103375d7263d"
+  },
+  {
+    "poi": "MAPK14_full",
+    "pose_id": "pose005",
+    "status": "DESCRIPTIVE_E2_SUMMARY_NOT_TRAINING_RELEASE",
+    "frames": 201,
+    "policy": "reject",
+    "summary_sha256": "76079789009a90fed4f874845fdb95fb3d423839317771abc7fcfb9dd9426f5e"
+  },
+  {
+    "poi": "MAPK14_full",
+    "pose_id": "pose006",
+    "status": "DESCRIPTIVE_E2_SUMMARY_NOT_TRAINING_RELEASE",
+    "frames": 201,
+    "policy": "reject",
+    "summary_sha256": "4cdb31c88377c346829f462511613323b74cad60a8add90378e9e91a0198f1af"
+  },
+  {
+    "poi": "MAPK14_full",
+    "pose_id": "pose007",
+    "status": "DESCRIPTIVE_E2_SUMMARY_NOT_TRAINING_RELEASE",
+    "frames": 201,
+    "policy": "reject",
+    "summary_sha256": "3764210ec60cfd3004c1bfb8117b831529375a7681593989426e92ab401aa914"
+  },
+  {
+    "poi": "MAPK14_full",
+    "pose_id": "pose008",
+    "status": "DESCRIPTIVE_E2_SUMMARY_NOT_TRAINING_RELEASE",
+    "frames": 201,
+    "policy": "reject",
+    "summary_sha256": "742dd65f31072f58a418e58763dfa055dec22a9734cd15f4f747060088437df2"
+  },
+  {
+    "poi": "MAPK14_full",
+    "pose_id": "pose009",
+    "status": "DESCRIPTIVE_E2_SUMMARY_NOT_TRAINING_RELEASE",
+    "frames": 201,
+    "policy": "reject",
+    "summary_sha256": "4781241b03272e05c7cee5a6faadce2f668a67839bbbc3af3a9fc0e015070d1c"
+  },
+  {
+    "poi": "MAPK14_full",
+    "pose_id": "pose010",
+    "status": "DESCRIPTIVE_E2_SUMMARY_NOT_TRAINING_RELEASE",
+    "frames": 201,
+    "policy": "reject",
+    "summary_sha256": "eee739b0dc882454b9be20066689a42c40c9974b2f058ac06d783803d46061ad"
+  },
+  {
+    "poi": "MAPK14_full",
+    "pose_id": "pose011",
+    "status": "DESCRIPTIVE_E2_SUMMARY_NOT_TRAINING_RELEASE",
+    "frames": 201,
+    "policy": "reject",
+    "summary_sha256": "6dde2b845464547f3caad940aa61fbe1616afaf8f1c10620ff0afb9bba099608"
+  },
+  {
+    "poi": "MAPK14_full",
+    "pose_id": "pose012",
+    "status": "DESCRIPTIVE_E2_SUMMARY_NOT_TRAINING_RELEASE",
+    "frames": 201,
+    "policy": "reject",
+    "summary_sha256": "85331cd5b39e73ce51da622405e4a20ccf6470f1b5f7687346f0ca8124757481"
+  },
+  {
+    "poi": "MAPK14_full",
+    "pose_id": "pose013",
+    "status": "IMAGE_REVIEW_REQUIRED_AUDIT_ONLY",
+    "frames": 201,
+    "policy": "audit-only",
+    "summary_sha256": "858595dd573edc02a6b48ee72c1d2636a4bd663c145ca6a9343d6e159f9320a7"
+  },
+  {
+    "poi": "MAPK14_full",
+    "pose_id": "pose015",
+    "status": "DESCRIPTIVE_E2_SUMMARY_NOT_TRAINING_RELEASE",
+    "frames": 201,
+    "policy": "reject",
+    "summary_sha256": "c85d204d57bd6d5efe2f04c2aacbe21b216764af75d42f00a3158814df67c626"
+  },
+  {
+    "poi": "MAPK14_full",
+    "pose_id": "pose016",
+    "status": "DESCRIPTIVE_E2_SUMMARY_NOT_TRAINING_RELEASE",
+    "frames": 201,
+    "policy": "reject",
+    "summary_sha256": "42f764c04edd4865b5ffc96c74ade789f188bd80ad14baf8f358e4b7ed8ceaa2"
+  },
+  {
+    "poi": "MAPK14_full",
+    "pose_id": "pose017",
+    "status": "DESCRIPTIVE_E2_SUMMARY_NOT_TRAINING_RELEASE",
+    "frames": 201,
+    "policy": "reject",
+    "summary_sha256": "cc33964e72a2bee86954a965e80bc32570b13fbc8bc9772b327350b91df7962c"
+  },
+  {
+    "poi": "MAPK14_full",
+    "pose_id": "pose018",
+    "status": "DESCRIPTIVE_E2_SUMMARY_NOT_TRAINING_RELEASE",
+    "frames": 201,
+    "policy": "reject",
+    "summary_sha256": "ff96a058e809ff0e08ecf067dd68e29dd191ea218457f6bd24da75f65d8d9d16"
+  },
+  {
+    "poi": "MAPK14_full",
+    "pose_id": "pose020",
+    "status": "IMAGE_REVIEW_REQUIRED_AUDIT_ONLY",
+    "frames": 201,
+    "policy": "audit-only",
+    "summary_sha256": "682a4637e4b04d3ec82aa4dc36d8d8a36ad948e3f3d847c695a5342571c40bf8"
+  },
+  {
+    "poi": "MET",
+    "pose_id": "pose002",
+    "status": "DESCRIPTIVE_E2_SUMMARY_NOT_TRAINING_RELEASE",
+    "frames": 201,
+    "policy": "reject",
+    "summary_sha256": "550787fdd4e97669687c79603bee77b77565bee37f139ae0d3ac5329ffc489cd"
+  },
+  {
+    "poi": "MET",
+    "pose_id": "pose003",
+    "status": "DESCRIPTIVE_E2_SUMMARY_NOT_TRAINING_RELEASE",
+    "frames": 201,
+    "policy": "reject",
+    "summary_sha256": "0b10c29c6e73bbed588ced7cb7a8169fc3db0635c2f4504bd789d264156c763d"
+  },
+  {
+    "poi": "MET",
+    "pose_id": "pose004",
+    "status": "DESCRIPTIVE_E2_SUMMARY_NOT_TRAINING_RELEASE",
+    "frames": 201,
+    "policy": "reject",
+    "summary_sha256": "202a38875973562cd40fed34b5360d7136237bdbf7897018ed91e65361e1000c"
+  },
+  {
+    "poi": "MET",
+    "pose_id": "pose005",
+    "status": "DESCRIPTIVE_E2_SUMMARY_NOT_TRAINING_RELEASE",
+    "frames": 201,
+    "policy": "reject",
+    "summary_sha256": "52138260b70bbb2b0f251cd47a2d69c7644a056c47c109e899e2bbf5ee4cf7ce"
+  },
+  {
+    "poi": "MET",
+    "pose_id": "pose006",
+    "status": "DESCRIPTIVE_E2_SUMMARY_NOT_TRAINING_RELEASE",
+    "frames": 201,
+    "policy": "reject",
+    "summary_sha256": "0b1dfc0560dee88908373e0d97b09554ac4f55dec96de41d522f6b47e4cf3a4a"
+  },
+  {
+    "poi": "MET",
+    "pose_id": "pose007",
+    "status": "DESCRIPTIVE_E2_SUMMARY_NOT_TRAINING_RELEASE",
+    "frames": 201,
+    "policy": "reject",
+    "summary_sha256": "3af316b03977d3ccdfae2a6d854583e98c0cfb6bb4ffde547de166978df2aa9a"
+  },
+  {
+    "poi": "MET",
+    "pose_id": "pose008",
+    "status": "DESCRIPTIVE_E2_SUMMARY_NOT_TRAINING_RELEASE",
+    "frames": 201,
+    "policy": "reject",
+    "summary_sha256": "a6fa39956752e1ea556496b0f57f4affc789ea5bd165276222fd1a70a47719b6"
+  },
+  {
+    "poi": "MET",
+    "pose_id": "pose009",
+    "status": "DESCRIPTIVE_E2_SUMMARY_NOT_TRAINING_RELEASE",
+    "frames": 201,
+    "policy": "reject",
+    "summary_sha256": "65c6cff1b0f47bb788264bea6d97ddee9e1ae313ed259ffbd2bf3fe571d440c7"
+  },
+  {
+    "poi": "MET",
+    "pose_id": "pose011",
+    "status": "DESCRIPTIVE_E2_SUMMARY_NOT_TRAINING_RELEASE",
+    "frames": 201,
+    "policy": "reject",
+    "summary_sha256": "d76d107a67c5e43f1745c0efb11e6517a1b604227b62822a2f1f4b97805d33d9"
+  },
+  {
+    "poi": "MET",
+    "pose_id": "pose012",
+    "status": "DESCRIPTIVE_E2_SUMMARY_NOT_TRAINING_RELEASE",
+    "frames": 201,
+    "policy": "reject",
+    "summary_sha256": "11c428601c47270d8f39ab4efb8274c72df629ced6d350c7382fbd41817b2ed2"
+  },
+  {
+    "poi": "MET",
+    "pose_id": "pose013",
+    "status": "DESCRIPTIVE_E2_SUMMARY_NOT_TRAINING_RELEASE",
+    "frames": 201,
+    "policy": "reject",
+    "summary_sha256": "dc500dd2f56a9a9cd7a7e3f25ceb08e997732a18df85d5d5dfac1548285909e4"
+  },
+  {
+    "poi": "MET",
+    "pose_id": "pose014",
+    "status": "DESCRIPTIVE_E2_SUMMARY_NOT_TRAINING_RELEASE",
+    "frames": 201,
+    "policy": "reject",
+    "summary_sha256": "3fb482624205314e86fa38801674fcf7f4c4382f5b91f6ac7ed27d0160ed1af2"
+  },
+  {
+    "poi": "MET",
+    "pose_id": "pose017",
+    "status": "DESCRIPTIVE_E2_SUMMARY_NOT_TRAINING_RELEASE",
+    "frames": 201,
+    "policy": "reject",
+    "summary_sha256": "2497549ee542de1f0383f4c196f531d7918933ee9efbfda74ecc4b964da802a8"
+  },
+  {
+    "poi": "MET",
+    "pose_id": "pose018",
+    "status": "DESCRIPTIVE_E2_SUMMARY_NOT_TRAINING_RELEASE",
+    "frames": 201,
+    "policy": "reject",
+    "summary_sha256": "cf0a2567197d6a3b9f3c11c791615c56a0ee8198b381c3295d1c5e8d249579e3"
+  },
+  {
+    "poi": "MET",
+    "pose_id": "pose019",
+    "status": "DESCRIPTIVE_E2_SUMMARY_NOT_TRAINING_RELEASE",
+    "frames": 201,
+    "policy": "reject",
+    "summary_sha256": "a9cddf25f671e86d71a5dcf729deff3ce38cab61b63546bc3ba30205ee07c21e"
+  },
+  {
+    "poi": "MET",
+    "pose_id": "pose020",
+    "status": "DESCRIPTIVE_E2_SUMMARY_NOT_TRAINING_RELEASE",
+    "frames": 201,
+    "policy": "reject",
+    "summary_sha256": "fef61aa6a09ec7139db14f57276381908241aaf7ae6b2616646adab5a7b7913a"
+  },
+  {
+    "poi": "RIPK2_full",
+    "pose_id": "pose001",
+    "status": "DESCRIPTIVE_E2_SUMMARY_NOT_TRAINING_RELEASE",
+    "frames": 201,
+    "policy": "reject",
+    "summary_sha256": "6bfa7ddea0e9533d113536a680f1799c8f48e4799c643fba49b9b3f6d469426e"
+  },
+  {
+    "poi": "RIPK2_full",
+    "pose_id": "pose003",
+    "status": "DESCRIPTIVE_E2_SUMMARY_NOT_TRAINING_RELEASE",
+    "frames": 201,
+    "policy": "reject",
+    "summary_sha256": "5ee78d7fea5cbf49f2bce3c8dd032a57f951bd8b8ad86cb0add65d169a1914f6"
+  },
+  {
+    "poi": "RIPK2_full",
+    "pose_id": "pose004",
+    "status": "DESCRIPTIVE_E2_SUMMARY_NOT_TRAINING_RELEASE",
+    "frames": 201,
+    "policy": "reject",
+    "summary_sha256": "94a5522a038f438d8a78ba318aa4ee1acf1ec9912541def93ad22946ce9c5a26"
+  },
+  {
+    "poi": "RIPK2_full",
+    "pose_id": "pose005",
+    "status": "DESCRIPTIVE_E2_SUMMARY_NOT_TRAINING_RELEASE",
+    "frames": 201,
+    "policy": "reject",
+    "summary_sha256": "4425cb0ef7248cf72ff9174067f545bb11716b544470fb431d3929cd6dc7f7cd"
+  },
+  {
+    "poi": "RIPK2_full",
+    "pose_id": "pose006",
+    "status": "DESCRIPTIVE_E2_SUMMARY_NOT_TRAINING_RELEASE",
+    "frames": 201,
+    "policy": "reject",
+    "summary_sha256": "9281110cca4555549634c813179c4bb34b4f771ef3041b52a1416bb0f452a411"
+  },
+  {
+    "poi": "RIPK2_full",
+    "pose_id": "pose007",
+    "status": "DESCRIPTIVE_E2_SUMMARY_NOT_TRAINING_RELEASE",
+    "frames": 201,
+    "policy": "reject",
+    "summary_sha256": "3d37798179143c7477d53d86aaccb29e7f043150cd0cba388c9149644cfc6aa2"
+  },
+  {
+    "poi": "RIPK2_full",
+    "pose_id": "pose008",
+    "status": "DESCRIPTIVE_E2_SUMMARY_NOT_TRAINING_RELEASE",
+    "frames": 201,
+    "policy": "reject",
+    "summary_sha256": "3f351554d261fa7f894d79a60c09bbf13623bc0881bd4fe1abb7dd3a29d3f80a"
+  },
+  {
+    "poi": "RIPK2_full",
+    "pose_id": "pose009",
+    "status": "DESCRIPTIVE_E2_SUMMARY_NOT_TRAINING_RELEASE",
+    "frames": 201,
+    "policy": "reject",
+    "summary_sha256": "0238d2aaa40ff2c8a89b201a17e90cbdfdcc2c89290e63f0aa07049cbfd4b633"
+  },
+  {
+    "poi": "RIPK2_full",
+    "pose_id": "pose010",
+    "status": "DESCRIPTIVE_E2_SUMMARY_NOT_TRAINING_RELEASE",
+    "frames": 201,
+    "policy": "reject",
+    "summary_sha256": "47c8ba493290d9a855b0fc6e556096ab4af6ccd69fc2645900e25d0bc03e1861"
+  },
+  {
+    "poi": "RIPK2_full",
+    "pose_id": "pose011",
+    "status": "DESCRIPTIVE_E2_SUMMARY_NOT_TRAINING_RELEASE",
+    "frames": 201,
+    "policy": "reject",
+    "summary_sha256": "46fb90bced95f056208d8607faa874a3c701c2030a6f7f529d8c83cda919c1a1"
+  },
+  {
+    "poi": "RIPK2_full",
+    "pose_id": "pose012",
+    "status": "DESCRIPTIVE_E2_SUMMARY_NOT_TRAINING_RELEASE",
+    "frames": 201,
+    "policy": "reject",
+    "summary_sha256": "9b7f9866204309c80c6bec772ff0e925e42d3726d38843e200bf822a7e70b625"
+  },
+  {
+    "poi": "RIPK2_full",
+    "pose_id": "pose015",
+    "status": "DESCRIPTIVE_E2_SUMMARY_NOT_TRAINING_RELEASE",
+    "frames": 201,
+    "policy": "reject",
+    "summary_sha256": "aa574531cdcf340d3d71b5ed5ca7bdaab49fdf5634b12289516d98a0c1ea4d61"
+  },
+  {
+    "poi": "RIPK2_full",
+    "pose_id": "pose016",
+    "status": "DESCRIPTIVE_E2_SUMMARY_NOT_TRAINING_RELEASE",
+    "frames": 201,
+    "policy": "reject",
+    "summary_sha256": "4e4e959faa05475bdc7d5b9b5e8e8a6c81593cd61e7849d03324c20a8296ccb1"
+  },
+  {
+    "poi": "RIPK2_full",
+    "pose_id": "pose017",
+    "status": "DESCRIPTIVE_E2_SUMMARY_NOT_TRAINING_RELEASE",
+    "frames": 201,
+    "policy": "reject",
+    "summary_sha256": "9e8d65ba86949b2c5614a95a78382d06435850ac7ad4dd38f42fed921f64763c"
+  },
+  {
+    "poi": "RIPK2_full",
+    "pose_id": "pose018",
+    "status": "DESCRIPTIVE_E2_SUMMARY_NOT_TRAINING_RELEASE",
+    "frames": 201,
+    "policy": "reject",
+    "summary_sha256": "bf3d14975a45445e3a838118cdb4038bd108da6876617cc8abade57677ea0f38"
+  },
+  {
+    "poi": "RIPK2_full",
+    "pose_id": "pose019",
+    "status": "DESCRIPTIVE_E2_SUMMARY_NOT_TRAINING_RELEASE",
+    "frames": 201,
+    "policy": "reject",
+    "summary_sha256": "c566bdfdc060ee80e0d27461d5c2a1302be8a63b6e4b453f61eb42c90b5413aa"
+  },
+  {
+    "poi": "RIPK2_full",
+    "pose_id": "pose020",
+    "status": "DESCRIPTIVE_E2_SUMMARY_NOT_TRAINING_RELEASE",
+    "frames": 201,
+    "policy": "reject",
+    "summary_sha256": "e1d9f088ef89b30f8b59f081d327cef28f1ad66ec4869edcd89c7242069a8f8f"
+  }
+]

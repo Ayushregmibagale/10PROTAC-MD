@@ -1,0 +1,32 @@
+[
+  {
+    "case": "DDR2/pose003",
+    "frames": 201,
+    "max_numeric_difference": 2.6249435634451146e-05
+  },
+  {
+    "case": "DDR2/pose006",
+    "frames": 201,
+    "max_numeric_difference": 2.3703825219989483e-05
+  },
+  {
+    "case": "DDR2/pose002",
+    "frames": 201,
+    "max_numeric_difference": 2.3213763583385116e-05
+  },
+  {
+    "case": "DDR2/pose004",
+    "frames": 201,
+    "max_numeric_difference": 0.0
+  },
+  {
+    "case": "DDR2/pose005",
+    "frames": 201,
+    "max_numeric_difference": 2.0007762605800394e-05
+  },
+  {
+    "case": "DDR2/pose001",
+    "frames": 201,
+    "max_numeric_difference": 1.5053137436993325e-05
+  }
+]

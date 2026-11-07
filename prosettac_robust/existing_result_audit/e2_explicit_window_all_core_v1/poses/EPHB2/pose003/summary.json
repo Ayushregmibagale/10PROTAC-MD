@@ -1,0 +1,49 @@
+{
+  "status": "IMAGE_REVIEW_REQUIRED_AUDIT_ONLY",
+  "selected_frames": 201,
+  "window_ns": [
+    0.0,
+    20.0
+  ],
+  "timestamp_max_difference_ns": 0.0,
+  "duplicate_rows_dropped_full_input": 0,
+  "duplicate_policy": "identical",
+  "image_policy": "audit-only",
+  "maximum_CA_image_gap_A": {
+    "ELOC_VHL_CA": 0.0,
+    "VHL_POI_CA": 26.080436025296407,
+    "ELOC_POI_CA": 34.31899552874641
+  },
+  "state_counts": {
+    "bridge": 3,
+    "nonbridge": 198
+  },
+  "legacy_ELOB_POI_bridge_fraction": 0.014925373134328358,
+  "state_definition": "Historical same-frame ligand-to-Elongin-B and ligand-to-POI all-atom distances, strict <5 A; not true VHL contact",
+  "values": {
+    "mean_min_E2_A": 65.0960868266472,
+    "reach_50A_bridge": 0.0,
+    "reach_50A_nonbridge": 9.902951079421667e-05,
+    "delta_reach_50A_paired_within_pose": -9.902951079421667e-05,
+    "reach_80A_bridge": 0.0392156862745098,
+    "reach_80A_nonbridge": 0.04218657159833629,
+    "delta_reach_80A_paired_within_pose": -0.002970885323826486,
+    "reach_100A_bridge": 0.3856209150326797,
+    "reach_100A_nonbridge": 0.3059021588433354,
+    "delta_reach_100A_paired_within_pose": 0.07971875618934432
+  },
+  "frame_weighted_descriptive_summary": true,
+  "automatic_training_release": false,
+  "catalytic_probability_claim": false,
+  "poi": "EPHB2",
+  "pose_id": "pose003",
+  "input_sha256": {
+    "/tmp/10protac_finish/prosettac_robust/existing_result_audit/e2_full_frames_v3/poses/EPHB2/pose003/frames.tsv": "348540d1bdf71f8bb91695b15372e89833c82a64e44b1033615c2b59bf171cf2",
+    "/tmp/10protac_finish/prosettac_robust/existing_result_audit/e2_full_frames_v3/poses/EPHB2/pose003/summary.json": "3e5704e63d40d0b3edd8185915cf6722662e37554cefbd67df1338b48058fef7",
+    "/home/ayushregmibagale/protac-md/analysis/random_screen/EPHB2/pose003/metrics.csv": "592037b48514edb68d659a40425cb58012fba18c7b3667fb3046314b9a82d99d",
+    "/tmp/10protac_finish/prosettac_robust/workflow/scripts/02_analysis/10_summarize_existing_e2.py": "55b33352c555862f6b7813c368e279be1c23537bd7827c8465362a052f05e067",
+    "/tmp/10protac_finish/prosettac_robust/workflow/scripts/lib/e2_summary.py": "4a2fe790661f765962f7fed6a85759cafcee211a49ce9e155e3a6819b4edd097"
+  },
+  "old_outputs_modified": false,
+  "new_MD_or_GNN_training": false
+}

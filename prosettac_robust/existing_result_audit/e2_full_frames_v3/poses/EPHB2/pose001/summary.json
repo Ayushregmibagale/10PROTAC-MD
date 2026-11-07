@@ -1,0 +1,61 @@
+{
+  "poi": "EPHB2",
+  "pose_id": "pose001",
+  "trajectory_frames": 201,
+  "original_unwrap_fallback_calls": 0,
+  "metric_rows": 201,
+  "time_alignment_error_ns": 0.0,
+  "time_alignment_failure": null,
+  "metric_duplicate_times": 0,
+  "trajectory_duplicate_times": 0,
+  "duplicate_coordinate_conflicts_in_audited_selection": 0,
+  "trajectory_window_ns": [
+    0.0,
+    20.0
+  ],
+  "old_positional_estimator_replay": {
+    "bridge_pct": 0.0,
+    "n_kinase_lys": 13,
+    "min_e2_dist_mean": 70.6688752156276,
+    "reach_50A_bridge": null,
+    "reach_50A_nonbridge": 0.0,
+    "reach_80A_bridge": null,
+    "reach_80A_nonbridge": 0.024095210223392834,
+    "reach_100A_bridge": null,
+    "reach_100A_nonbridge": 0.1700321919812701
+  },
+  "saved_minus_replay_direction": "reported differences are replay minus saved",
+  "replay_minus_saved": {
+    "bridge_pct": 0.0,
+    "n_kinase_lys": 0.0,
+    "min_e2_dist_mean": -2.4784372399722088e-05,
+    "reach_50A_nonbridge": 0.0,
+    "reach_80A_nonbridge": -4.789776607165563e-06,
+    "reach_100A_nonbridge": 3.219198127007994e-05
+  },
+  "missing_value_disagreements": [],
+  "all_saved_values_reproduced_at_0_001_precision": true,
+  "maximum_CA_direct_minus_periodic_A": {
+    "ELOC_VHL_CA": 0.0,
+    "VHL_POI_CA": 0.0,
+    "ELOC_POI_CA": 0.0
+  },
+  "frames_with_CA_image_gap_over_0_001A": {
+    "ELOC_VHL_CA": 0,
+    "VHL_POI_CA": 0,
+    "ELOC_POI_CA": 0
+  },
+  "maximum_ELOC_anchor_fit_RMSD_A": 1.7639914938892929,
+  "rotation_determinant_range": [
+    0.9999998852387115,
+    1.000000128674593
+  ],
+  "maximum_old_vs_checked_mapping_A": 7.99459921658695e-05,
+  "maximum_virtual_MIC_minimum_change_A": 73.07140785652393,
+  "source_input_sha256": {
+    "/home/ayushregmibagale/protac-md/random_screen/EPHB2/pose001/prod/prod.tpr": "f36071ca7a1b1acab70910afe586624c6cb0a6906a451c5757fd52e5312974de",
+    "/home/ayushregmibagale/protac-md/analysis/random_screen/EPHB2/pose001/prod_nojump.xtc": "d9e80200b526cb1c398ecfa17e120bda8a03a4079bc8c9b7a6a6cbe10d7cd253",
+    "/home/ayushregmibagale/protac-md/analysis/random_screen/EPHB2/pose001/metrics.csv": "8302fae1f8a8be1fb4c6c20b4e007220e4f699768ee750de89b8536d9c319438"
+  },
+  "frames_sha256": "9adaf39ade6820bf7248afb5232c706ba7c738ff3d53fe371d3f8cf0f05cc50a"
+}

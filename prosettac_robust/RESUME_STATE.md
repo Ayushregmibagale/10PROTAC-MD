@@ -1,76 +1,51 @@
-# Resume checkpoint — 2026-11-07
+# Resume state — retained-structure integration review
 
-Read `AGENTS.md`, `USER_REQUIREMENTS.md`, this file and `SJF8240_STATUS.md` first.
+Read AGENTS.md, USER_REQUIREMENTS.md and INTEGRATION_REVIEW_RESULTS.md first. Earlier checkpoints and all material what/how/why notes remain in SJF8240_REMEDIATION_LOG.md and Git history.
 
-## Scope that must persist
+## User scope
 
-Preserve/reuse the existing SJF8240 structures and completed PRosettaC/MD/GNN results. Harden scripts and audit rationales, explicitly the <5 Å bridging definition. Helpful bounded local diagnostics are authorized; a wholesale experiment rerun or Ernie production submission is not. Original `/home/ayushregmibagale/protac-md`, `/mnt/d/PROTAC degradation Prediction` and prior top-level work remain untouched. All derivative work belongs in `prosettac_robust/`. Keep committing source/evidence, and record what/how/why. No guarantee of Nature acceptance.
+Use the exact structures, parameters and completed PRosettaC/MD/GNN results from the original experiment. Harden scripts and review rationale. Confirmed panel: 17 historical GNN evaluation targets plus prediction-only SIK3 and RPS6KB2. The user wants GNN, not separate conventional predictive models. No supplier structure replacement, wholesale study rerun, Ernie production or replacement biological GNN training is authorized. Helpful bounded diagnostics remain allowed; none should be restarted automatically.
 
-## Most important completed findings
+Original /home/ayushregmibagale/protac-md, /mnt/d/PROTAC degradation Prediction and prior top-level work are read-only. Derivative is /home/ayushregmibagale/10PROTAC-MD/prosettac_robust; stage is /tmp/10protac_finish/prosettac_robust.
 
-- Compiled-TPR sequence audit covers all 141 core MD cases: historical group named VHL is actually Elongin B/Q15370, chain A. True VHL/P40337 is chain C, with 100% sequence identity and observed-sequence coverage in all cases. All POI groups match expected targets.
-- One retained static structure per core target (17/17 representatives) has the same Elongin-B selection under the old VHL label. This is not an exhaustive static-pose audit.
-- All 141 existing trajectories were re-analysed, not re-simulated, using frozen sources, two workers, common 0–20 ns windows and 201 frames/case. Stored GROMACS distances reproduce within 0.000022 Å. Original metrics/models remain preserved.
-- At 5 Å, true-VHL contact occupancies differ substantially from the legacy Elongin-B descriptor. Tables and PDF/SVG/PNG figures are under `existing_result_audit/contact_core_v1/`. These are geometric occupancies, not degradation probabilities or proof of native pocket engagement.
-- AXL/pose011 extends to 100 ns and has an identical duplicate at 20 ns. The derivative common-window audit explicitly handles that; originals are unchanged. Initial incomplete audits are retained.
-- The corrected E2 script anchors to sequence-verified Elongin C (chain B, 85 Cα), consistent with topology identities. Do not blanket-call that transformation wrong. Bridging-conditioned subsets still use the legacy descriptor and need semantic/lineage review.
-- Historical simulated ligand connectivity differs from the verified supplier reference; experimental labels also have missing/conflicting evidence. These remain separate scientific findings, not permission to silently relabel data or launch a replacement campaign.
+## Requested remaining review checks have executed
 
-## Software and bounded controls
+- All 174 production TPRs represented in saved MD graph metadata have expected protein identities for their ten MD targets. Compiled settings: nominal 20 ns, 2 fs, 100 ps output; 113 cases at 1.0 nm cutoffs, 61 at 1.6 nm. AXL is mixed. A TPR request does not prove actual trajectory duration/completion.
+- Original VHL-named metric/static selectors actually select Elongin B. True VHL is present. All 141 core existing trajectories have corrected contact audits reproducing stored GROMACS distances within 0.000022 A. Do not repeat this completed batch.
+- E2 full-frame sweep: all 141 core trajectories, 29,142 frames, all metric/trajectory time axes aligned. Full-current-trajectory saved E2 reproduction succeeds for 140; AXL/pose011's saved row instead matches its explicit deduplicated 0–20 ns window, resolving the numerical discrepancy. No saved table changed.
+- Twelve cases have CA direct/PBC image sensitivity. The earlier 15-frame sample missed them. Virtual Gaussian-point MIC is a stress test, not an adopted physical correction. Explicit-window summaries cover 141 cases with 201 unique frames each: 129 clear at this diagnostic and 12 audit-only, never automatic training data.
+- Nineteen static representatives: 18 expected target matches; CDK17-labelled representative matches CDK14/O94921. All five retained AF/domain/clean-protein source PDBs in that folder also match O94921. Do not replace/rename the old structure, graph or experimental label. All 19 old static VHL selectors identify Elongin B. This is a representative audit, not every pose.
+- Current graph artifacts are expanded: static PT 46, dynamic PT 10; static NPZ only two prediction targets. Do not assume interchangeable exports or frozen original training inputs. Old scalar runner filters artifacts but not unknown labels; hardened runner already uses explicit reviewed labels/cohort and input hashes.
+- Seventeen evaluation rows belong to the E2-scalar GNN. Two extension prediction rows use the schema declared by the separate dual-encoder predictor without E2 scalars. Retained prediction log and current table disagree about MD availability and rounded scores; neither as-run lineage nor independent biological validation is established.
+- Fractional graph-index/label coercion fixed in packing; packet target/count/source-drift guards added. Explicit E2 window/duplicate/image guard and missing-state handling added. No model architecture or old prediction changed.
 
-- Isolated future linker method: centered ETKDG, retain experimental torsion preferences, disable basic-knowledge preferences; fixed heads/stereochemistry/QC preserved. Earlier controls/sources/failures are retained separately. No original study output was regenerated with this method.
-- A broader-DG local integration control completed EM, 200 ps NVT, two 500 ps NPT stages and a 20 ps diagnostic segment. This is not scientific production/convergence validation.
-- A selected-method minimization retry completed in 5,468 steps, Fmax 455.493 <500 kJ/mol/nm. Interrupted attempt retained. No following MD stages were started for that retry.
-- Read-only XTC reader prevents offset/lock sidecars beside original files; tests cover normal and refreshed-offset modes.
-- Future GNN evaluations now retain tensor-only per-fold weights, exact training-only scalar reference rows, held-out inputs/scores, hashes and full score precision. No historical SJF8240 GNN was retrained. Synthetic replay/one-epoch tests validate saving/restoration only.
-- Analysis Python 3.13 supports the complete 122-test suite. The Python 3.10 docking overlay lacks PyG: 119 tests apply there, and 3 GNN tests are explicitly skipped. Final logs verify 122 passed in analysis and 119 passed/3 skipped in docking. Never claim 122 passed in both environments.
+## Current verification
 
-## Durable artifacts
+136 analysis tests passed. Docking overlay: 132 passed, four PyG-only tests skipped. software_checkpoint_v8.json contains logs and all active script hashes. Installed checks run during guarded save; inspect newest installation receipt/log and actual Git history rather than assuming a partial save completed.
 
-`USER_REQUIREMENTS.md`: full user requests and preservation rules.
-`SJF8240_REMEDIATION_LOG.md`: detailed what/how/why through section 29.
-`existing_result_audit/BRIDGING_RATIONALE_AUDIT.md` and `METRIC_GLOSSARY.md`: rationale, primary sources, limits.
-`existing_result_audit/protein_roles_core_complete/`: combined sequence proof for all 141.
-`existing_result_audit/contact_core_v1/`: completed contact analysis, source snapshot, plan, per-case hashes/tables, figures.
-`existing_result_audit/static_role_representatives_v1/`: 17 static representatives.
-`sjf8240_review/`: original chemistry, assay, graph/model lineage audits and readiness metadata.
-`validation_controls/`: software checks and installation receipts.
+E2 geometry reconstruction preserves root images, uses periodic bonded spanning-tree reconstruction and checks all bonds with original fallback. Four real coordinate comparisons max 0.000016 A; six original complete cases /1,206 rows max numeric descriptor difference below 0.000027. Original v1 and ineffective guarded v2 audit attempts were stopped and retained; v3 completed. Do not restart them. Exact source snapshots and termination records are preserved.
 
-Persistent private docking overlay is `.runtime/python310-packages`; launch via `workflow/scripts/00_runtime/docking_python.py`. Base conda interpreter/fallback packages remain external dependencies. Licensed binaries stay out of Git.
+## Main artifacts
 
-## Staging / installation / Git
+- INTEGRATION_REVIEW_RESULTS.md: completed checks, actual findings and remaining scientific limits.
+- HISTORICAL_METHODS_AND_RATIONALE.md: actual old algorithm/protocol/metric descriptions and script changes.
+- existing_result_audit/e2_full_frames_v3: full per-frame audit, source snapshots, AXL window resolution.
+- existing_result_audit/e2_explicit_window_all_core_v1: 141 explicit-window summaries, including 12 audit-only cases.
+- existing_result_audit/integration_19_v2: target/config/artifact reconciliation and CDK17 prepared-source identity supplement. Canonical O94921 JSON and representative proof are retained in integration_19_v1.
+- existing_result_audit/integration_review_v1: test/execution logs and review_completion.json.
+- workflow/scripts/02_analysis/09_reanalyze_existing_contacts.py: retained core-layout contact analysis, no new production receipts or supplier replacement required.
+- workflow/scripts/02_analysis/10_summarize_existing_e2.py: hash-bound E2 frame packet summaries; explicit time/duplicate/image policies.
 
-Staging root: `/tmp/10protac_finish/prosettac_robust`.
-Installed derivative: `/home/ayushregmibagale/10PROTAC-MD/prosettac_robust`.
-Guarded updater: `/tmp/update_isolated_prosettac.py`, plan `/tmp/prosettac_robust_update_plan.json`.
-Generate plan, then apply with approved escalation. Source/destination hashes are checked; backups and private history retained; installed tests run. Do not bypass drift checks.
-Repo: https://github.com/Ayushregmibagale/10PROTAC-MD, master. Read current `git log`/status for the actual checkpoint. Before the November 7 save, latest pushed commit was 3dfbdae and later work was partially staged; do not assume the prior promised final save had completed.
+## Scientific decisions/evidence still outstanding
 
-## Next work (no new MD)
+Unconditional biological/predictive sign-off is withheld. Code cannot resolve the CDK17/CDK14 experimental-target correspondence, a physical coherent-assembly policy for flagged E2 cases, assay endpoint/label missingness and discordance, absent exact historical fold weights/input snapshots, or independent generalization/calibration. Preserve the original historical labels and findings; do not silently exclude cases to improve results or relabel simulations as supplier-equivalent. No further original-study computation is inferred from these limitations.
 
-1. Complete/verify/install/commit this checkpoint and preserve actual test logs and resume instructions.
-2. Trace which E2 tables/scalars the saved GNN actually used. `09_build_ml_table.py` reads `e2_reachability_all_pois.tsv`, `e2_reachability_poi_summary.tsv` and other feature tables; `15_e2_reachability_corrected.py` writes an AXL-specific corrected table. Do not assume that corrected table fed the saved model.
-3. Review bridging-conditioned E2 summaries and original graph semantics against sequence-identified roles. Preserve old predictions; any corrected feature/evaluation must be separately versioned and assay-reviewed.
-4. Keep chemical identity, assay-label evidence, sampling bias, uncertainty and calibrated-probability claims explicit. Do not choose cutoffs or relabel targets to improve performance.
+The supplier connectivity difference is retained provenance, not a prerequisite to continue the requested retained-structure review. MAPK14's scalar paired/unpaired estimator discrepancy and investigation patch remain documented; do not execute original scripts that upsert old tables.
 
-No project simulation/analysis batch remains running from the completed core re-analysis. Only checkpoint verification tests/installations may be active during this save. Do not automatically restart completed diagnostics on resume.
+## Saving / runtime
 
-Final source verification logs and hashes are recorded in `validation_controls/software_checkpoint_v5.json`. The installation and Git-only export checks are additional saved evidence; inspect the latest installation receipt and Git history rather than assuming an earlier partial save was current.
+Generate the guarded plan with python3 /tmp/update_isolated_prosettac.py; wait for completion, then apply with approved escalation. Hash drift checks/backups must remain enabled. Keep edits under the isolated derivative. Git repo Ayushregmibagale/10PROTAC-MD master; current durable checkpoint is determined by git log/status. User requested frequent commits/pushes.
 
-## Additional completed E2/GNN audits on 2026-11-07
+Compatible historical TPR reader: /home/ayushregmibagale/.conda/envs/gromacs/bin/gmx (2025.4). The 2024.3 PLUMED binary cannot read the historical 2025.4 TPR format. Private Python 3.10 docking overlay and licensed binaries remain excluded from Git. Analysis environment has native PyG; docking overlay does not.
 
-`existing_result_audit/gnn_scalar_lineage_v1` checks 68 scalar entries: 33 finite pairs (32 match/one mismatch) and 35 matching missing-value pairs. MAPK14_full/e2_delta_reach_80A is 0.022575 saved versus 0.02569375 by the declared paired estimator; unpaired available-means gives 0.02256875. This is compatible with an alternative estimator, not proof of a patch/history. Original values were not changed. See `E2_GNN_SCALAR_LINEAGE.md` for actual unconditional/static scalar definitions and limitations.
-
-`gnn_availability_audit_v1` fits no model: saved GNN 15/17 correct, AUROC .8; MD availability flag 14/17, AUROC .875. These are retrospective diagnostics on recorded historical labels, not independent validation or proof of leakage/uselessness. See `GNN_AVAILABILITY_AUDIT.md`.
-
-Next substantive work is E2 reference-frame/coherent-imaging and exact frame correspondence review on retained data, followed by final semantic/integration review. Do not repeat the completed 141-case contact batch. Current source tests after adding scalar-audit regressions: 124 passed in analysis; 121 passed with 3 GNN-only skips in docking. Latest Git history, software checkpoint and installation receipts identify which changes are durably saved.
-
-The E2 static-frame audit is complete under `existing_result_audit/e2_reference_frame_v1`: all 141 starting Elongin-C frames agree exactly; the 13 identical 51-point arrays represent 51 unique coordinates, not 663 independent samples. A retained `16b_mapk14_e2_fix.py` explicitly patches the scalar with the alternative estimator, but no historical execution receipt proves when it ran. Do not execute that old script: it can upsert original tables and its residue-exclusion body contradicts its retention header. Dynamic imaging remains to be checked separately.
-
-GNN-focused checkpoint: 4634744 pushed. Bounded dynamic E2 imaging probe completed on DDR2/pose001, MET/pose002, AXL/pose011 at 0,5,10,15,20 ns. No direct/periodic protein-distance gap in 15 frames; maximum ELOC fit RMSD 2.1213 A. This is not exhaustive dynamic validation. New normalization guard rejects absent training rows/ambiguous columns while allowing explicit NaNs. User explicitly prioritizes GNN over conventional ML.
-
-Scientific review now covers the confirmed 19-target roster. Read SCIENTIFIC_SIGNOFF.md: unconditional approval WITHHELD, with per-claim reasons and evidence. New descriptive cutoff/window/leave-one-pose-out analysis uses existing 141-case distance tables only. Prediction compiled roles v3 identifies all expected proteins in the remaining 33 TPRs. Earlier v1/v2 attempts failed on absent index paths and remain retained; v3 does not claim those indices verified. All 174 saved MD graph pose metadata rows have 21 sampled frames. Endpoint question remains pending; do not relabel/retrain.
-
-Active scope after latest user clarification: exact historical structures retained; scripts/rationale review only, no supplier replacement or study rerun. Read HISTORICAL_METHODS_AND_RATIONALE.md. New compiled-input audit checks all 174 TPRs: nominal 20 ns, 2 fs and 100 ps output; 113 cases have 1.0 nm cutoffs, 61 have 1.6 nm (AXL mixed). Compatible GROMACS is /home/ayushregmibagale/.conda/envs/gromacs/bin/gmx; 2024.3 cannot read the historical 2025.4 TPR format. These requested settings are not proof of actual trajectory duration/completion.
-
-New workflow entrypoint 09_reanalyze_existing_contacts.py uses original core trajectories directly without replacement chemistry/new production receipts. DDR2/pose001 contact table is byte-identical to prior corrected audit. It now checks both stored time axes; helper/metadata hashes are retained. MD mapping/contact validation and named-energy parser reuse are repaired. Original source snapshots and detailed notes are in existing_result_audit/historical_methods_v1. Run current tests/check installation logs rather than quoting old counts. No simulations or GNN training were started.
+No project simulation or analysis batch remains running after the completed review. Checkpoint installation/tests may run during saving. Do not imply work continues after an inactive session.

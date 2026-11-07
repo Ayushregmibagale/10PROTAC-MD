@@ -1,0 +1,13 @@
+{
+  "status": "COMPLETE_EXPLICIT_WINDOW_SUMMARY_REVIEW_FLAGS_PRESERVED",
+  "poses": 141,
+  "frames_each": 201,
+  "window_ns": [
+    0,
+    20
+  ],
+  "image_review_required": 12,
+  "automatic_GNN_training_release": false,
+  "new_MD_or_training": false,
+  "per_pose_status_sha256": "732e6117cced021f9cc03380d7a489e627d8c6db6dd993fd15e7c3e7790d4e06"
+}

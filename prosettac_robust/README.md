@@ -1,5 +1,7 @@
 # Isolated SJF8240 publication robustness work
 
+Latest completed review: [INTEGRATION_REVIEW_RESULTS.md](INTEGRATION_REVIEW_RESULTS.md), with evidence and software checks; scientific release remains withheld for documented findings.
+
 **Active scope:** use the exact historical structures/results and review scripts plus rationale. Start with [HISTORICAL_METHODS_AND_RATIONALE.md](HISTORICAL_METHODS_AND_RATIONALE.md). Supplier replacement and new production are not the current task.
 
 

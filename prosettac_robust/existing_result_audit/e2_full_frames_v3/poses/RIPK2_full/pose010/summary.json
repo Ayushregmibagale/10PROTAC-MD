@@ -1,0 +1,64 @@
+{
+  "poi": "RIPK2_full",
+  "pose_id": "pose010",
+  "trajectory_frames": 201,
+  "original_unwrap_fallback_calls": 0,
+  "metric_rows": 201,
+  "time_alignment_error_ns": 0.0,
+  "time_alignment_failure": null,
+  "metric_duplicate_times": 0,
+  "trajectory_duplicate_times": 0,
+  "duplicate_coordinate_conflicts_in_audited_selection": 0,
+  "trajectory_window_ns": [
+    0.0,
+    20.0
+  ],
+  "old_positional_estimator_replay": {
+    "bridge_pct": 38.80597014925373,
+    "n_kinase_lys": 13,
+    "min_e2_dist_mean": 65.83842645156217,
+    "reach_50A_bridge": 0.0,
+    "reach_50A_nonbridge": 0.0,
+    "reach_80A_bridge": 0.02714932126696832,
+    "reach_80A_nonbridge": 0.03188267176789414,
+    "reach_100A_bridge": 0.24912016088486671,
+    "reach_100A_nonbridge": 0.2934799936234657
+  },
+  "saved_minus_replay_direction": "reported differences are replay minus saved",
+  "replay_minus_saved": {
+    "bridge_pct": -2.9850746265935868e-05,
+    "n_kinase_lys": 0.0,
+    "min_e2_dist_mean": 2.6451562177953747e-05,
+    "reach_50A_bridge": 0.0,
+    "reach_50A_nonbridge": 0.0,
+    "reach_80A_bridge": 4.9321266968320454e-05,
+    "reach_80A_nonbridge": -1.732823210585932e-05,
+    "reach_100A_bridge": 2.0160884866726736e-05,
+    "reach_100A_nonbridge": -2.000637653426507e-05
+  },
+  "missing_value_disagreements": [],
+  "all_saved_values_reproduced_at_0_001_precision": true,
+  "maximum_CA_direct_minus_periodic_A": {
+    "ELOC_VHL_CA": 0.0,
+    "VHL_POI_CA": 0.0,
+    "ELOC_POI_CA": 0.0
+  },
+  "frames_with_CA_image_gap_over_0_001A": {
+    "ELOC_VHL_CA": 0,
+    "VHL_POI_CA": 0,
+    "ELOC_POI_CA": 0
+  },
+  "maximum_ELOC_anchor_fit_RMSD_A": 1.7613259582889165,
+  "rotation_determinant_range": [
+    0.9999999048629002,
+    1.0000001218883967
+  ],
+  "maximum_old_vs_checked_mapping_A": 8.528539532372905e-05,
+  "maximum_virtual_MIC_minimum_change_A": 67.91307857652522,
+  "source_input_sha256": {
+    "/home/ayushregmibagale/protac-md/random_screen/RIPK2_full/pose010/prod/prod.tpr": "07a1c1f49b3fdb16eaf245a0cc784c8461a1954cde7595eeb74dd4e935032789",
+    "/home/ayushregmibagale/protac-md/analysis/random_screen/RIPK2_full/pose010/prod_nojump.xtc": "387c161067c36fce4e09e3c622abda7a5cb27bc2b99cfb5163ed7f7263834b27",
+    "/home/ayushregmibagale/protac-md/analysis/random_screen/RIPK2_full/pose010/metrics.csv": "4e007d3f228f2628923413e1ce499745ae2be4b8979457c58098f588264ee697"
+  },
+  "frames_sha256": "bd6b7f49ab10b2cd798e804a67c28a9a1bbec675d2dc350a8971721a6b15da4f"
+}

@@ -1,0 +1,49 @@
+{
+  "status": "DESCRIPTIVE_E2_SUMMARY_NOT_TRAINING_RELEASE",
+  "selected_frames": 201,
+  "window_ns": [
+    0.0,
+    20.0
+  ],
+  "timestamp_max_difference_ns": 0.0,
+  "duplicate_rows_dropped_full_input": 0,
+  "duplicate_policy": "identical",
+  "image_policy": "reject",
+  "maximum_CA_image_gap_A": {
+    "ELOC_VHL_CA": 0.0,
+    "VHL_POI_CA": 0.0,
+    "ELOC_POI_CA": 0.0
+  },
+  "state_counts": {
+    "bridge": 0,
+    "nonbridge": 201
+  },
+  "legacy_ELOB_POI_bridge_fraction": 0.0,
+  "state_definition": "Historical same-frame ligand-to-Elongin-B and ligand-to-POI all-atom distances, strict <5 A; not true VHL contact",
+  "values": {
+    "mean_min_E2_A": 70.82242533199481,
+    "reach_50A_bridge": null,
+    "reach_50A_nonbridge": 0.0,
+    "delta_reach_50A_paired_within_pose": null,
+    "reach_80A_bridge": null,
+    "reach_80A_nonbridge": 0.020583357721197928,
+    "delta_reach_80A_paired_within_pose": null,
+    "reach_100A_bridge": null,
+    "reach_100A_nonbridge": 0.15822846551555944,
+    "delta_reach_100A_paired_within_pose": null
+  },
+  "frame_weighted_descriptive_summary": true,
+  "automatic_training_release": false,
+  "catalytic_probability_claim": false,
+  "poi": "DDR2",
+  "pose_id": "pose015",
+  "input_sha256": {
+    "/tmp/10protac_finish/prosettac_robust/existing_result_audit/e2_full_frames_v3/poses/DDR2/pose015/frames.tsv": "7e905e4b1e995f89e88ad0305cc6cd4dfbc665ab0d08252f74cf0796c2b5ad8b",
+    "/tmp/10protac_finish/prosettac_robust/existing_result_audit/e2_full_frames_v3/poses/DDR2/pose015/summary.json": "f62047cae2a1a84871a903d909bee2cc33b5345b8667eaff586e139710d2ff91",
+    "/home/ayushregmibagale/protac-md/analysis/random_screen/DDR2/pose015/metrics.csv": "95d3af3c02c0e19ec8d0a01ab60e3b8ba3c97b34c6e060b50ac713acfa119255",
+    "/tmp/10protac_finish/prosettac_robust/workflow/scripts/02_analysis/10_summarize_existing_e2.py": "55b33352c555862f6b7813c368e279be1c23537bd7827c8465362a052f05e067",
+    "/tmp/10protac_finish/prosettac_robust/workflow/scripts/lib/e2_summary.py": "4a2fe790661f765962f7fed6a85759cafcee211a49ce9e155e3a6819b4edd097"
+  },
+  "old_outputs_modified": false,
+  "new_MD_or_GNN_training": false
+}

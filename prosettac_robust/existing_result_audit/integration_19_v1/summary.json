@@ -1,0 +1,62 @@
+{
+  "status": "COMPLETE_19_TARGET_RETAINED_ARTIFACT_RECONCILIATION",
+  "targets": 19,
+  "static_representatives_checked": 19,
+  "POI_sequence_identified": 18,
+  "legacy_VHL_selects_ELOB": 19,
+  "current_PT_static_graphs": 46,
+  "current_PT_dynamic_graphs": 10,
+  "NPZ_export_target_sets": {
+    "ensemble_graphs_np.npz": [
+      "RPS6KB2_full",
+      "SIK3_full"
+    ],
+    "md_contact_graphs_np.npz": [
+      "ABL1",
+      "AXL",
+      "DDR2",
+      "EPHA2",
+      "EPHB2",
+      "MAPK14_full",
+      "MET",
+      "RIPK2_full",
+      "RPS6KB2_full",
+      "SIK3_full"
+    ]
+  },
+  "saved_evaluation_model": "04g E2-scalar dual-encoder GNN; 17 retained rows",
+  "prediction_only_declared_writer": "04d dual-encoder GNN, without the E2 scalar branch; current table has two rows",
+  "prediction_log_matches_current_table": false,
+  "prediction_log_mismatch_evidence": "Retained predict_kinome.log records has_md=False and rounded scores about 0.0001; current table records has_md=True and different scores. This log does not establish current-table as-run lineage.",
+  "historical_scalar_runner_filters_unknown_labels": false,
+  "source_input_sha256": {
+    "/home/ayushregmibagale/protac-md/scripts/02_analysis/01_screen_bridging_all_pois.py": "387c36c1f9203d689afc9272f84d00375e62f7b6ccc42be3b5b7a0b7c115ea0a",
+    "/home/ayushregmibagale/protac-md/scripts/02_analysis/04a_build_ensemble_graphs.py": "be1ba711f7599766c867c64ef2f59926a1931ec60b73543f214e345f733ffa04",
+    "/home/ayushregmibagale/protac-md/scripts/02_analysis/04c_build_md_contact_graphs.py": "e7341cfc1c9ab84f3fa82ba4a73958192754b9754410c6b2b5b938fc51aebe80",
+    "/home/ayushregmibagale/protac-md/scripts/02_analysis/04d_dual_encoder_gnn.py": "ac32a7e0c2249dc26bc55401a1ccb10971e4725285d78244bf27ae0d2aa3d5c1",
+    "/home/ayushregmibagale/protac-md/scripts/02_analysis/04g_e2_scalar_gnn.py": "50bac9583da2db4e256b872bfa80bfc495a0f808f8b55ee782a3aaf62c105a18",
+    "/home/ayushregmibagale/protac-md/analysis/gnn/e2gnn_lopo_results.tsv": "d9243bcff04203ea8a69a3b8e5bb8570db56dd30551f9ffb667cabd9bb8f749e",
+    "/home/ayushregmibagale/protac-md/analysis/gnn/kinome_predictions.tsv": "d531aa8b4b3ba876698b3c4cae953ca08a1f91bded1462bfba7d9822f4a00f05",
+    "/home/ayushregmibagale/protac-md/analysis/gnn/predict_kinome.log": "ce6010c335b2fabaa5d111335762f167145fe38b47a6011f57a1de6b7fa3c114",
+    "/home/ayushregmibagale/protac-md/analysis/gnn/ensemble_graphs.pt": "419da580e2d5a81d049aa5168fba849f9d2c65162bf85dbde47b18ad40e3d90a",
+    "/home/ayushregmibagale/protac-md/analysis/gnn/md_contact_graphs.pt": "7258d9821a190bb4bc80fc8aaf059e754759d9d999d5825a6386c1a2227efc66",
+    "/home/ayushregmibagale/protac-md/analysis/gnn/ensemble_graphs_np.npz": "eeac0407c6153dfb031c74dda6c7cb7780d7f638e98f16d0956c77875227d9f6",
+    "/home/ayushregmibagale/protac-md/analysis/gnn/md_contact_graphs_np.npz": "182c27250a1afc217f089d292cc8367de68b232812d8feb9d1398c4ad1af27e9",
+    "/tmp/10protac_finish/prosettac_robust/sjf8240_review/current_graph_packet_inventory.json": "f578a86f920ad4ab5b275b1209ad29c1ef23fad24cbf107741ffcca3a6806b46",
+    "/tmp/10protac_finish/prosettac_robust/sjf8240_review/lineage_summary.json": "b515dfed9cc32e1a940553624f2782e38693eac8eebb283eee23ca1c58e43b8e",
+    "/tmp/10protac_finish/prosettac_robust/existing_result_audit/scientific_signoff_v1/protein_groups_19.json": "26eb8a5025b445be5d4e739934153dd4fc9058b34778c09a415ba2a8ca090e78",
+    "/tmp/10protac_finish/prosettac_robust/existing_result_audit/scientific_signoff_v1/all19_sequences.json": "90f74ab1594b895f3d9b56e29cb04d12eac4dd3be7592be08c8fee1c721ff69a",
+    "/tmp/10protac_finish/prosettac_robust/existing_result_audit/scientific_signoff_v1/coverage_19_targets.json": "81e930f2619206afc4aa31a9ed9342ac9d8b17f71a38b8a53fca741a086a385b"
+  },
+  "audit_source_sha256": "d5f4fdf760793910b3de0c8fc85d89b1b4661a96ace502b8a21c884727d8a333",
+  "records_sha256": "f5355964ace8e3aed8c00002ede19392b93b588e3cb48b3bbf199c672b9eabd6",
+  "original_files_modified": false,
+  "new_MD_or_GNN_training": false,
+  "limitations": [
+    "One static representative per target, not every docking pose.",
+    "Current packets are expanded artifacts, not frozen copies of the historical evaluated inputs.",
+    "NPZ sidecars may be partial exports; they are not interchangeable with the full current PT packet.",
+    "Directory categories and code comments are not independent experimental label evidence.",
+    "Prediction-only calls are not extra held-out validation targets."
+  ]
+}

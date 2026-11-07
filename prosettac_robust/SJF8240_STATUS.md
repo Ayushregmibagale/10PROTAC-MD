@@ -1,5 +1,7 @@
 # SJF8240 publication work: current status
 
+**Requested remaining review checks have executed.** Start with INTEGRATION_REVIEW_RESULTS.md. All 141 E2 trajectories (29,142 frames) have aligned timestamps; 12 cases need image review. All 19 static target representatives were examined: 18 expected matches and a CDK17-labelled/CDK14-structure mismatch. Code passes 136 analysis tests; docking 132 passed/4 PyG-only skips. No unconditional scientific sign-off or replacement experiment has been issued. Earlier sections below describe historical checkpoints.
+
 **Current task:** retain the exact old structures and results; review/harden scripts and rationale. Read HISTORICAL_METHODS_AND_RATIONALE.md. Supplier replacement or repeating MD is not the active task.
 
 Current priority: preserve/reuse the existing SJF8240 structures and completed PRosettaC/MD/GNN results; harden scripts and audit scientific rationales. Helpful bounded diagnostics are authorized, but a wholesale experiment rerun is not. Read `USER_REQUIREMENTS.md` and `AGENTS.md`. Scientific claims remain under review.

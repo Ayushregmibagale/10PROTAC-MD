@@ -1,0 +1,64 @@
+{
+  "poi": "MET",
+  "pose_id": "pose003",
+  "trajectory_frames": 201,
+  "original_unwrap_fallback_calls": 0,
+  "metric_rows": 201,
+  "time_alignment_error_ns": 0.0,
+  "time_alignment_failure": null,
+  "metric_duplicate_times": 0,
+  "trajectory_duplicate_times": 0,
+  "duplicate_coordinate_conflicts_in_audited_selection": 0,
+  "trajectory_window_ns": [
+    0.0,
+    20.0
+  ],
+  "old_positional_estimator_replay": {
+    "bridge_pct": 97.51243781094527,
+    "n_kinase_lys": 19,
+    "min_e2_dist_mean": 59.822959283897845,
+    "reach_50A_bridge": 0.0,
+    "reach_50A_nonbridge": 0.0,
+    "reach_80A_bridge": 0.0314125650260104,
+    "reach_80A_nonbridge": 0.03137254901960784,
+    "reach_100A_bridge": 0.35754301720688275,
+    "reach_100A_nonbridge": 0.35294117647058826
+  },
+  "saved_minus_replay_direction": "reported differences are replay minus saved",
+  "replay_minus_saved": {
+    "bridge_pct": 3.781094527255391e-05,
+    "n_kinase_lys": 0.0,
+    "min_e2_dist_mean": -4.07161021556135e-05,
+    "reach_50A_bridge": 0.0,
+    "reach_50A_nonbridge": 0.0,
+    "reach_80A_bridge": 1.256502601040127e-05,
+    "reach_80A_nonbridge": -2.7450980392154656e-05,
+    "reach_100A_bridge": 4.301720688276722e-05,
+    "reach_100A_nonbridge": 4.117647058826668e-05
+  },
+  "missing_value_disagreements": [],
+  "all_saved_values_reproduced_at_0_001_precision": true,
+  "maximum_CA_direct_minus_periodic_A": {
+    "ELOC_VHL_CA": 0.0,
+    "VHL_POI_CA": 0.0,
+    "ELOC_POI_CA": 0.0
+  },
+  "frames_with_CA_image_gap_over_0_001A": {
+    "ELOC_VHL_CA": 0,
+    "VHL_POI_CA": 0,
+    "ELOC_POI_CA": 0
+  },
+  "maximum_ELOC_anchor_fit_RMSD_A": 1.691774820962683,
+  "rotation_determinant_range": [
+    0.9999998821531569,
+    1.0000001417021969
+  ],
+  "maximum_old_vs_checked_mapping_A": 7.428207670994282e-05,
+  "maximum_virtual_MIC_minimum_change_A": 60.592759961521125,
+  "source_input_sha256": {
+    "/home/ayushregmibagale/protac-md/random_screen/MET/pose003/prod/prod.tpr": "ad0187acc23fe6098d30002daef209410ea7a05dc1f8800c08a2386d56418325",
+    "/home/ayushregmibagale/protac-md/analysis/random_screen/MET/pose003/prod_nojump.xtc": "e481f169b263bb8bc87ab1f89cd4556428c5f33d0d21d6e094fbb5eab2fbe9a8",
+    "/home/ayushregmibagale/protac-md/analysis/random_screen/MET/pose003/metrics.csv": "3298e27416144bfd83507abf92ff67a47a31290d310502bc7ba210601bec25a5"
+  },
+  "frames_sha256": "ba6e6e89446222e2071c2100ed53853bf7fcae56cf4e01123c772ec7cf44215b"
+}

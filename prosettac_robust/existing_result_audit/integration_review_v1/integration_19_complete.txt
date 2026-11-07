@@ -1,0 +1,23 @@
+{
+  "status": "COMPLETE_19_TARGET_RETAINED_ARTIFACT_RECONCILIATION",
+  "targets": 19,
+  "static_representatives_checked": 19,
+  "POI_sequence_identified": 18,
+  "legacy_VHL_selects_ELOB": 19,
+  "current_PT_static_graphs": 46,
+  "current_PT_dynamic_graphs": 10,
+  "saved_evaluation_model": "04g E2-scalar dual-encoder GNN; 17 retained rows",
+  "prediction_only_declared_writer": "04d dual-encoder GNN, without the E2 scalar branch; current table has two rows",
+  "prediction_log_matches_current_table": false,
+  "prediction_log_has_MD_by_target": {
+    "SIK3_full": false,
+    "RPS6KB2_full": false
+  },
+  "prediction_log_mismatch_evidence": "Retained predict_kinome.log records has_md=False and rounded scores about 0.0001; current table records has_md=True and different scores. This log does not establish current-table as-run lineage.",
+  "historical_scalar_cohort_expression": "[g for g in static_graphs if not g.artifact]",
+  "historical_scalar_runner_observed_cohort_filter": "ARTIFACT_ONLY_NO_UNKNOWN_LABEL_FILTER",
+  "audit_source_sha256": "950d2ff237fdb16d1f4cc6d6f1efa8c4f6210151bedb83a29a0373b38b301952",
+  "records_sha256": "f5355964ace8e3aed8c00002ede19392b93b588e3cb48b3bbf199c672b9eabd6",
+  "original_files_modified": false,
+  "new_MD_or_GNN_training": false
+}

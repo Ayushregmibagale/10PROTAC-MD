@@ -1,0 +1,39 @@
+/home/ayushregmibagale/miniconda3/lib/python3.13/site-packages/Bio/Application/__init__.py:39: BiopythonDeprecationWarning: The Bio.Application modules and modules relying on it have been deprecated.
+
+Due to the on going maintenance burden of keeping command line application
+wrappers up to date, we have decided to deprecate and eventually remove these
+modules.
+
+We instead now recommend building your command line and invoking it directly
+with the subprocess module.
+  warnings.warn(
+{"completed": 10, "failures": 0, "elapsed_s": 33.9}
+{"completed": 20, "failures": 0, "elapsed_s": 68.1}
+{"completed": 30, "failures": 0, "elapsed_s": 101.8}
+{"completed": 40, "failures": 0, "elapsed_s": 136.6}
+{"completed": 50, "failures": 0, "elapsed_s": 171.7}
+{"completed": 60, "failures": 0, "elapsed_s": 206.1}
+{"completed": 70, "failures": 0, "elapsed_s": 240.7}
+{"completed": 80, "failures": 0, "elapsed_s": 273.3}
+{"completed": 90, "failures": 0, "elapsed_s": 307.9}
+{"completed": 100, "failures": 0, "elapsed_s": 341.5}
+{"completed": 110, "failures": 0, "elapsed_s": 376.2}
+{"completed": 120, "failures": 0, "elapsed_s": 419.9}
+{"completed": 130, "failures": 0, "elapsed_s": 453.1}
+{"completed": 140, "failures": 0, "elapsed_s": 490.3}
+{
+  "status": "COMPLETE_RETAINED_E2_FRAME_AUDIT",
+  "cases_requested": 141,
+  "cases_completed": 141,
+  "frames_checked": 29142,
+  "timestamp_aligned_cases": 141,
+  "saved_E2_reproduced_cases": 140,
+  "failures": [],
+  "cases_with_CA_image_gap": 12,
+  "maximum_CA_image_gap_A": 104.88331925697443,
+  "maximum_virtual_MIC_minimum_change_A": 136.3368950119247,
+  "elapsed_s": 493.65047450130805,
+  "summaries_sha256": "34bd8249539c06c7410c5ec84523cd49cd5c44147a546e3acc051e211504cd1a",
+  "original_files_modified": false,
+  "new_MD_or_GNN_training": false
+}

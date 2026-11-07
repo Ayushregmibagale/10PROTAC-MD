@@ -1,0 +1,584 @@
+{
+  "cases": [
+    {
+      "poi": "DDR2",
+      "pose_id": "pose001"
+    },
+    {
+      "poi": "DDR2",
+      "pose_id": "pose002"
+    },
+    {
+      "poi": "DDR2",
+      "pose_id": "pose003"
+    },
+    {
+      "poi": "DDR2",
+      "pose_id": "pose004"
+    },
+    {
+      "poi": "DDR2",
+      "pose_id": "pose005"
+    },
+    {
+      "poi": "DDR2",
+      "pose_id": "pose006"
+    },
+    {
+      "poi": "DDR2",
+      "pose_id": "pose007"
+    },
+    {
+      "poi": "DDR2",
+      "pose_id": "pose008"
+    },
+    {
+      "poi": "DDR2",
+      "pose_id": "pose010"
+    },
+    {
+      "poi": "DDR2",
+      "pose_id": "pose011"
+    },
+    {
+      "poi": "DDR2",
+      "pose_id": "pose013"
+    },
+    {
+      "poi": "DDR2",
+      "pose_id": "pose014"
+    },
+    {
+      "poi": "DDR2",
+      "pose_id": "pose015"
+    },
+    {
+      "poi": "DDR2",
+      "pose_id": "pose016"
+    },
+    {
+      "poi": "DDR2",
+      "pose_id": "pose017"
+    },
+    {
+      "poi": "DDR2",
+      "pose_id": "pose018"
+    },
+    {
+      "poi": "DDR2",
+      "pose_id": "pose019"
+    },
+    {
+      "poi": "DDR2",
+      "pose_id": "pose020"
+    },
+    {
+      "poi": "RIPK2_full",
+      "pose_id": "pose001"
+    },
+    {
+      "poi": "RIPK2_full",
+      "pose_id": "pose003"
+    },
+    {
+      "poi": "RIPK2_full",
+      "pose_id": "pose004"
+    },
+    {
+      "poi": "RIPK2_full",
+      "pose_id": "pose005"
+    },
+    {
+      "poi": "RIPK2_full",
+      "pose_id": "pose006"
+    },
+    {
+      "poi": "RIPK2_full",
+      "pose_id": "pose007"
+    },
+    {
+      "poi": "RIPK2_full",
+      "pose_id": "pose008"
+    },
+    {
+      "poi": "RIPK2_full",
+      "pose_id": "pose009"
+    },
+    {
+      "poi": "RIPK2_full",
+      "pose_id": "pose010"
+    },
+    {
+      "poi": "RIPK2_full",
+      "pose_id": "pose011"
+    },
+    {
+      "poi": "RIPK2_full",
+      "pose_id": "pose012"
+    },
+    {
+      "poi": "RIPK2_full",
+      "pose_id": "pose015"
+    },
+    {
+      "poi": "RIPK2_full",
+      "pose_id": "pose016"
+    },
+    {
+      "poi": "RIPK2_full",
+      "pose_id": "pose017"
+    },
+    {
+      "poi": "RIPK2_full",
+      "pose_id": "pose018"
+    },
+    {
+      "poi": "RIPK2_full",
+      "pose_id": "pose019"
+    },
+    {
+      "poi": "RIPK2_full",
+      "pose_id": "pose020"
+    },
+    {
+      "poi": "MAPK14_full",
+      "pose_id": "pose001"
+    },
+    {
+      "poi": "MAPK14_full",
+      "pose_id": "pose002"
+    },
+    {
+      "poi": "MAPK14_full",
+      "pose_id": "pose003"
+    },
+    {
+      "poi": "MAPK14_full",
+      "pose_id": "pose004"
+    },
+    {
+      "poi": "MAPK14_full",
+      "pose_id": "pose005"
+    },
+    {
+      "poi": "MAPK14_full",
+      "pose_id": "pose006"
+    },
+    {
+      "poi": "MAPK14_full",
+      "pose_id": "pose007"
+    },
+    {
+      "poi": "MAPK14_full",
+      "pose_id": "pose008"
+    },
+    {
+      "poi": "MAPK14_full",
+      "pose_id": "pose009"
+    },
+    {
+      "poi": "MAPK14_full",
+      "pose_id": "pose010"
+    },
+    {
+      "poi": "MAPK14_full",
+      "pose_id": "pose011"
+    },
+    {
+      "poi": "MAPK14_full",
+      "pose_id": "pose012"
+    },
+    {
+      "poi": "MAPK14_full",
+      "pose_id": "pose013"
+    },
+    {
+      "poi": "MAPK14_full",
+      "pose_id": "pose015"
+    },
+    {
+      "poi": "MAPK14_full",
+      "pose_id": "pose016"
+    },
+    {
+      "poi": "MAPK14_full",
+      "pose_id": "pose017"
+    },
+    {
+      "poi": "MAPK14_full",
+      "pose_id": "pose018"
+    },
+    {
+      "poi": "MAPK14_full",
+      "pose_id": "pose020"
+    },
+    {
+      "poi": "MET",
+      "pose_id": "pose002"
+    },
+    {
+      "poi": "MET",
+      "pose_id": "pose003"
+    },
+    {
+      "poi": "MET",
+      "pose_id": "pose004"
+    },
+    {
+      "poi": "MET",
+      "pose_id": "pose005"
+    },
+    {
+      "poi": "MET",
+      "pose_id": "pose006"
+    },
+    {
+      "poi": "MET",
+      "pose_id": "pose007"
+    },
+    {
+      "poi": "MET",
+      "pose_id": "pose008"
+    },
+    {
+      "poi": "MET",
+      "pose_id": "pose009"
+    },
+    {
+      "poi": "MET",
+      "pose_id": "pose011"
+    },
+    {
+      "poi": "MET",
+      "pose_id": "pose012"
+    },
+    {
+      "poi": "MET",
+      "pose_id": "pose013"
+    },
+    {
+      "poi": "MET",
+      "pose_id": "pose014"
+    },
+    {
+      "poi": "MET",
+      "pose_id": "pose017"
+    },
+    {
+      "poi": "MET",
+      "pose_id": "pose018"
+    },
+    {
+      "poi": "MET",
+      "pose_id": "pose019"
+    },
+    {
+      "poi": "MET",
+      "pose_id": "pose020"
+    },
+    {
+      "poi": "EPHB2",
+      "pose_id": "pose001"
+    },
+    {
+      "poi": "EPHB2",
+      "pose_id": "pose002"
+    },
+    {
+      "poi": "EPHB2",
+      "pose_id": "pose003"
+    },
+    {
+      "poi": "EPHB2",
+      "pose_id": "pose004"
+    },
+    {
+      "poi": "EPHB2",
+      "pose_id": "pose005"
+    },
+    {
+      "poi": "EPHB2",
+      "pose_id": "pose006"
+    },
+    {
+      "poi": "EPHB2",
+      "pose_id": "pose007"
+    },
+    {
+      "poi": "EPHB2",
+      "pose_id": "pose008"
+    },
+    {
+      "poi": "EPHB2",
+      "pose_id": "pose009"
+    },
+    {
+      "poi": "EPHB2",
+      "pose_id": "pose010"
+    },
+    {
+      "poi": "EPHB2",
+      "pose_id": "pose011"
+    },
+    {
+      "poi": "EPHB2",
+      "pose_id": "pose013"
+    },
+    {
+      "poi": "EPHB2",
+      "pose_id": "pose014"
+    },
+    {
+      "poi": "EPHB2",
+      "pose_id": "pose015"
+    },
+    {
+      "poi": "EPHB2",
+      "pose_id": "pose016"
+    },
+    {
+      "poi": "EPHB2",
+      "pose_id": "pose017"
+    },
+    {
+      "poi": "EPHB2",
+      "pose_id": "pose018"
+    },
+    {
+      "poi": "EPHB2",
+      "pose_id": "pose019"
+    },
+    {
+      "poi": "EPHB2",
+      "pose_id": "pose020"
+    },
+    {
+      "poi": "ABL1",
+      "pose_id": "pose001"
+    },
+    {
+      "poi": "ABL1",
+      "pose_id": "pose003"
+    },
+    {
+      "poi": "ABL1",
+      "pose_id": "pose004"
+    },
+    {
+      "poi": "ABL1",
+      "pose_id": "pose005"
+    },
+    {
+      "poi": "ABL1",
+      "pose_id": "pose006"
+    },
+    {
+      "poi": "ABL1",
+      "pose_id": "pose008"
+    },
+    {
+      "poi": "ABL1",
+      "pose_id": "pose009"
+    },
+    {
+      "poi": "ABL1",
+      "pose_id": "pose010"
+    },
+    {
+      "poi": "ABL1",
+      "pose_id": "pose011"
+    },
+    {
+      "poi": "ABL1",
+      "pose_id": "pose013"
+    },
+    {
+      "poi": "ABL1",
+      "pose_id": "pose014"
+    },
+    {
+      "poi": "ABL1",
+      "pose_id": "pose015"
+    },
+    {
+      "poi": "ABL1",
+      "pose_id": "pose016"
+    },
+    {
+      "poi": "ABL1",
+      "pose_id": "pose017"
+    },
+    {
+      "poi": "ABL1",
+      "pose_id": "pose018"
+    },
+    {
+      "poi": "ABL1",
+      "pose_id": "pose019"
+    },
+    {
+      "poi": "ABL1",
+      "pose_id": "pose020"
+    },
+    {
+      "poi": "AXL",
+      "pose_id": "pose001"
+    },
+    {
+      "poi": "AXL",
+      "pose_id": "pose002"
+    },
+    {
+      "poi": "AXL",
+      "pose_id": "pose004"
+    },
+    {
+      "poi": "AXL",
+      "pose_id": "pose005"
+    },
+    {
+      "poi": "AXL",
+      "pose_id": "pose006"
+    },
+    {
+      "poi": "AXL",
+      "pose_id": "pose007"
+    },
+    {
+      "poi": "AXL",
+      "pose_id": "pose008"
+    },
+    {
+      "poi": "AXL",
+      "pose_id": "pose009"
+    },
+    {
+      "poi": "AXL",
+      "pose_id": "pose010"
+    },
+    {
+      "poi": "AXL",
+      "pose_id": "pose011"
+    },
+    {
+      "poi": "AXL",
+      "pose_id": "pose012"
+    },
+    {
+      "poi": "AXL",
+      "pose_id": "pose013"
+    },
+    {
+      "poi": "AXL",
+      "pose_id": "pose015"
+    },
+    {
+      "poi": "AXL",
+      "pose_id": "pose016"
+    },
+    {
+      "poi": "AXL",
+      "pose_id": "pose017"
+    },
+    {
+      "poi": "AXL",
+      "pose_id": "pose018"
+    },
+    {
+      "poi": "AXL",
+      "pose_id": "pose019"
+    },
+    {
+      "poi": "AXL",
+      "pose_id": "pose020"
+    },
+    {
+      "poi": "EPHA2",
+      "pose_id": "pose001"
+    },
+    {
+      "poi": "EPHA2",
+      "pose_id": "pose002"
+    },
+    {
+      "poi": "EPHA2",
+      "pose_id": "pose003"
+    },
+    {
+      "poi": "EPHA2",
+      "pose_id": "pose004"
+    },
+    {
+      "poi": "EPHA2",
+      "pose_id": "pose005"
+    },
+    {
+      "poi": "EPHA2",
+      "pose_id": "pose006"
+    },
+    {
+      "poi": "EPHA2",
+      "pose_id": "pose007"
+    },
+    {
+      "poi": "EPHA2",
+      "pose_id": "pose008"
+    },
+    {
+      "poi": "EPHA2",
+      "pose_id": "pose009"
+    },
+    {
+      "poi": "EPHA2",
+      "pose_id": "pose010"
+    },
+    {
+      "poi": "EPHA2",
+      "pose_id": "pose011"
+    },
+    {
+      "poi": "EPHA2",
+      "pose_id": "pose012"
+    },
+    {
+      "poi": "EPHA2",
+      "pose_id": "pose013"
+    },
+    {
+      "poi": "EPHA2",
+      "pose_id": "pose015"
+    },
+    {
+      "poi": "EPHA2",
+      "pose_id": "pose017"
+    },
+    {
+      "poi": "EPHA2",
+      "pose_id": "pose018"
+    },
+    {
+      "poi": "EPHA2",
+      "pose_id": "pose019"
+    },
+    {
+      "poi": "EPHA2",
+      "pose_id": "pose020"
+    }
+  ],
+  "workers": 2,
+  "timestamp_tolerance_ns": 5.1e-05,
+  "virtual_point_MIC_policy": "sensitivity only, never substituted as physical correction",
+  "source_sha256": {
+    "/tmp/10protac_finish/prosettac_robust/existing_result_audit/review_tools/audit_e2_full_frames.py": "4e332ea8332414cdd4bcdf2a3ee981561613b75f8f343c607e14dfe419e19d72",
+    "/tmp/10protac_finish/prosettac_robust/workflow/scripts/lib/e2_geometry.py": "7b5d2c7fbf047cba5bd179ec9f2da5a04f59f597c177b7a00861c292a914339b",
+    "/tmp/10protac_finish/prosettac_robust/workflow/scripts/lib/read_only_trajectory.py": "231645da4027fd0f9e7e2ad49e7f5d942a12e768a5e1995b58a88fd505e55edb",
+    "/tmp/10protac_finish/prosettac_robust/existing_result_audit/contact_core_v1/plan.json": "76acf82bc9dd3ed44ea1480fa51bcac09d650ea8550f58b8546f216f5544c2f5",
+    "/tmp/10protac_finish/prosettac_robust/existing_result_audit/protein_roles_core_complete/per_pose_roles.json": "58424dcef7fab12723789c597fc6e947a5b15ea236843fdeeb7dd5fb262f51b8",
+    "/tmp/10protac_finish/prosettac_robust/existing_result_audit/e2_reference_frame_v1/summary.json": "5a4f2f7455c5ec14e692560a90eb3c3b60187b6fa32f1bf970eb747a87e28def",
+    "/home/ayushregmibagale/protac-md/scripts/02_analysis/16_all_poi_e2_reachability.py": "fd4e2286f7476f7f94a4cba659e951d7e6400ff9d18dff95e7c19d8275c2eb21",
+    "/home/ayushregmibagale/protac-md/reference_structures/e2_c85_ensemble.json": "9dac98e05fdd384bb77fc147e3e61d9de3dcdfe028355d4cccb833d3d9f73f15",
+    "/home/ayushregmibagale/protac-md/analysis/e2_reachability_all_pois.tsv": "43448fcae7833444727eadd81179c2ea11758aea1bc14d7880a30bb355bacdf1",
+    "/home/ayushregmibagale/protac-md/simulations/DDR2/structure/rank1/complex_protein.pdb": "ead79fbe765c2f0c3554f4ad98400b2061143f440d114769d93bee2bcaa9b547"
+  },
+  "new_MD_or_training": false
+}

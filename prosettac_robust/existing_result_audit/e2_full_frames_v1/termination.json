@@ -1,0 +1,7 @@
+{
+  "status": "STOPPED_FOR_EQUIVALENT_PERFORMANCE_GUARD",
+  "process": 4115634,
+  "completed_pose_files": 6,
+  "reason": "Avoid repeated make_whole calls on already whole bonds; retain original implementation and partial data for equivalence comparison",
+  "new_MD_executed": false
+}

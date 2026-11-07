@@ -1,5 +1,7 @@
 # 10PROTAC-MD
 
+The remaining review checks are recorded in `../INTEGRATION_REVIEW_RESULTS.md`. Retained E2 summaries use `scripts/02_analysis/10_summarize_existing_e2.py` with explicit bounds/policies; image flags never become automatic training data. Latest regression: 136 analysis passed; docking 132 passed/4 PyG-only skips.
+
 **Current retained-data review:** read `../HISTORICAL_METHODS_AND_RATIONALE.md`. `scripts/02_analysis/09_reanalyze_existing_contacts.py` works directly on the historical core-layout data with fresh audit outputs. Supplier-registry preparation below belongs to a separate prospective workflow and is not a request to replace or rerun the old experiment.
 
 Pre-Ernie remediation is in progress. **Production submission is blocked.**

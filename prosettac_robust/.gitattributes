@@ -18,3 +18,6 @@ existing_result_audit/**/figures/*.svg -text whitespace=-blank-at-eol
 # Preserve exact pytest failure logs; trailing report whitespace is forensic data.
 existing_result_audit/**/*.txt whitespace=-blank-at-eol
 existing_result_audit/**/*.log whitespace=-blank-at-eol,-blank-at-eof
+
+# Regression stdout is immutable evidence, including warning-layout spaces.
+validation_controls/regression/*.txt -text whitespace=-blank-at-eol,-blank-at-eof

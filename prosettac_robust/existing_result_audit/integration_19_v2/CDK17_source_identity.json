@@ -1,0 +1,71 @@
+{
+  "status": "RETAINED_PREPARATION_IDENTITY_REVIEW",
+  "expected_target": "CDK17/Q00537",
+  "observed_reference": "CDK14/O94921",
+  "canonical_source_sha256": "a437680a921d792a8434254c93545253a863cfd3faee289ece77891745b9a629",
+  "canonical_source_url": "https://rest.uniprot.org/uniprotkb/O94921.json",
+  "files": [
+    {
+      "source": "/mnt/d/PROTAC degradation Prediction/data/structures/POI/low_affinity_degraders/CDK17/CDK17_AF2_O94921_v6.pdb",
+      "sha256": "69834ad0301dc1d42400707946c5e241d7b8c5690a36ef81357b6c164aa59f75",
+      "CA_residues": 469,
+      "identification": {
+        "uniprot": "O94921",
+        "identity": 1.0,
+        "observed_CA_coverage": 1.0,
+        "canonical_first": 1,
+        "canonical_last": 469
+      }
+    },
+    {
+      "source": "/mnt/d/PROTAC degradation Prediction/data/structures/POI/low_affinity_degraders/CDK17/CDK17_kinase_domain.pdb",
+      "sha256": "1a61bc82e9b427e24b956bb917abccca0d10e43c744f7ef2ce2ed5862c94b2ff",
+      "CA_residues": 350,
+      "identification": {
+        "uniprot": "O94921",
+        "identity": 1.0,
+        "observed_CA_coverage": 1.0,
+        "canonical_first": 1,
+        "canonical_last": 350
+      }
+    },
+    {
+      "source": "/mnt/d/PROTAC degradation Prediction/data/structures/POI/low_affinity_degraders/CDK17/CDK17_protein_clean.pdb",
+      "sha256": "2af3b35fce93ce598da08862d986bb385f89cc80cf93d33728d895b3d40bb68c",
+      "CA_residues": 350,
+      "identification": {
+        "uniprot": "O94921",
+        "identity": 1.0,
+        "observed_CA_coverage": 1.0,
+        "canonical_first": 1,
+        "canonical_last": 350
+      }
+    },
+    {
+      "source": "/mnt/d/PROTAC degradation Prediction/data/structures/POI/low_affinity_degraders/CDK17/CDK17_protein_clean_A.pdb",
+      "sha256": "d8c441c7a96e7a578a0955802c36c708967a3395331fdf03120ec4a5672574f8",
+      "CA_residues": 350,
+      "identification": {
+        "uniprot": "O94921",
+        "identity": 1.0,
+        "observed_CA_coverage": 1.0,
+        "canonical_first": 1,
+        "canonical_last": 350
+      }
+    },
+    {
+      "source": "/mnt/d/PROTAC degradation Prediction/data/structures/POI/low_affinity_degraders/CDK17/CDK17_protein_clean_D.pdb",
+      "sha256": "2af3b35fce93ce598da08862d986bb385f89cc80cf93d33728d895b3d40bb68c",
+      "CA_residues": 350,
+      "identification": {
+        "uniprot": "O94921",
+        "identity": 1.0,
+        "observed_CA_coverage": 1.0,
+        "canonical_first": 1,
+        "canonical_last": 350
+      }
+    }
+  ],
+  "all_files_modified": false,
+  "historical_graph_or_label_rewritten": false
+}

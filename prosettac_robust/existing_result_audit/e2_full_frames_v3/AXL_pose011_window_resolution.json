@@ -1,0 +1,20 @@
+{
+  "status": "SAVED_ROW_REPRODUCES_EXPLICIT_DEDUPLICATED_0_TO_20_NS_WINDOW",
+  "full_current_trajectory_ns": 100,
+  "full_current_trajectory_frames": 1002,
+  "selected_unique_frames": 201,
+  "replay_minus_saved": {
+    "bridge_pct": -3.7313432827090764e-05,
+    "min_e2_dist_mean": 1.704125325119321e-05,
+    "reach_50A_bridge": -9.70489205783331e-07,
+    "reach_50A_nonbridge": 0.0,
+    "reach_80A_bridge": 3.622499504851717e-05,
+    "reach_80A_nonbridge": 1.5686274509804643e-05,
+    "reach_100A_bridge": 2.3133293721611103e-05,
+    "reach_100A_nonbridge": 4.117647058826668e-05
+  },
+  "summary_sha256": "359cd067d2d6ec621a5cc776f84530f0aa5fc7c623069dcbad5008666ea380e2",
+  "source_table_sha256": "43448fcae7833444727eadd81179c2ea11758aea1bc14d7880a30bb355bacdf1",
+  "interpretation": "Numerical window correspondence, not proof of original execution time or an immutable as-run receipt",
+  "original_values_changed": false
+}

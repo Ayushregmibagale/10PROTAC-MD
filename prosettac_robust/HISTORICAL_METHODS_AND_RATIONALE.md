@@ -87,3 +87,11 @@ This runs analysis, not MD. It does not launch docking, change model weights or 
 Code/rationale correctness can be reviewed on this retained-structure basis without substituting chemistry. Biological identity, assay correspondence and predictive validity still limit publication claims. Keep the prior scientific review as evidence of those limits, not as an instruction to replace the experiment.
 
 Current validation: 129 analysis tests pass; 126 docking tests pass with three PyG-dependent GNN replay tests skipped in that environment. The mapped-contact analyzer additionally passed a real analysis-only check on the previously completed separate 20 ps control, explicitly labelled diagnostic. No simulation or historical GNN training was repeated. Full receipts and logs are in `validation_controls/software_checkpoint_v7.json` and `existing_result_audit/historical_methods_v1`.
+
+## Completed integration review superseding the small E2 probe
+
+Read [INTEGRATION_REVIEW_RESULTS.md](INTEGRATION_REVIEW_RESULTS.md). All 141 E2 core trajectories were audited over 29,142 frames; timestamps align throughout. The saved AXL row matches its original 0–20 ns window. Twelve cases have CA image sensitivity, so the new explicit-window entrypoint rejects them unless explicitly requested as audit-only; no virtual-point minimum-image rule was substituted. The earlier 15-frame sample was insufficient and is retained as history.
+
+Static representatives now cover all 19 confirmed targets: 18 match the expected POI, while the CDK17-labelled structure/preparation matches CDK14/O94921. Preserve this historical case with its actual identity; it is not a validated CDK17 structural example. The two extension prediction rows use a different declared GNN writer from the 17-fold E2-scalar evaluation, and the retained prediction log differs from the current table. Exact historical replay remains unproven.
+
+Latest tests: 136 analysis passed; docking 132 passed/four PyG-only skips. These supersede the earlier checkpoint counts above. The requested review checks have executed; unconditional biological scientific sign-off remains withheld for the evidence limits in the integration report.

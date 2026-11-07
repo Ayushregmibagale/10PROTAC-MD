@@ -1363,3 +1363,92 @@ def test_existing_contact_reanalysis_rejects_misaligned_stored_series():
     for other in ([.1,.2,.3],[0.,.1],[0.,float('nan'),.2]):
         with pytest.raises(ValidationError,match='timestamps'):
             audit.validate_stored_times([0.,.1,.2],other)
+
+
+def test_e2_rigid_mapping_preserves_known_frame_and_rejects_degenerate_anchor():
+    from e2_geometry import fit_reference_points
+    ref=np.array([[0.,0.,0.],[1.,0.,0.],[0.,2.,0.],[0.,0.,3.]])
+    rotation=np.array([[0.,-1.,0.],[1.,0.,0.],[0.,0.,1.]])
+    points=np.array([[1.,2.,4.],[-2.,3.,1.]])
+    mapped,rmsd,R=fit_reference_points(ref,ref@rotation.T+[8.,-3.,2.],points)
+    np.testing.assert_allclose(mapped,points@rotation.T+[8.,-3.,2.],atol=1e-12)
+    assert rmsd<1e-12 and np.linalg.det(R)==pytest.approx(1.)
+    with pytest.raises(ValidationError,match='degenerate'):
+        fit_reference_points(np.zeros((4,3)),np.zeros((4,3)),points)
+
+
+def test_e2_alignment_never_truncates_or_pairs_shifted_frames():
+    from e2_geometry import validate_time_alignment
+    assert validate_time_alignment([0.,.1,.1,.2],[0.,.1,.1,.2],1e-8)==0.
+    for times in ([0.,.1],[.1,.2,.3],[0.,float('nan'),.2]):
+        with pytest.raises(ValidationError):
+            validate_time_alignment([0.,.1,.2],times,1e-8)
+
+
+def test_e2_reach_threshold_is_strict_and_duplicate_priors_are_not_new_samples():
+    from e2_geometry import geometric_reachability
+    points=[[0.,0.,0.],[10.,0.,0.]];lys=[[5.,0.,0.]]
+    minimum,reach=geometric_reachability(points,lys,[5.,6.])
+    assert minimum==5. and reach==[0.,1.]
+    assert geometric_reachability(points*13,lys,[5.,6.])==(minimum,reach)
+
+
+def test_static_graph_packing_never_coerces_fractional_indices_labels_or_target_identity(tmp_path):
+    from gnn_contract import configure_native_pyg
+    configure_native_pyg()
+    pytest.importorskip('torch_geometric')
+    packer=load('typed_static_packet_packer','scripts/04_gnn/04_pack_static_graphs.py')
+    def packet(name,edges,label,poi='TARGET'):
+        folder=tmp_path/name;folder.mkdir();p=folder/'graph.npz'
+        np.savez(p,x=np.zeros((2,9)),edge_index=np.asarray(edges),edge_attr=np.ones((np.asarray(edges).shape[1],3)),label=np.asarray(label),poi=np.array([poi]))
+        atomic_json(folder/'receipt.json',{'status':'GRAPH_PACKET_REQUIRES_REVIEW','feature_schema':'SJF8240-periodic-contacts-v1','graph_sha256':sha256(p),'poi':'TARGET','label':-1,'nodes':2,'directed_edges':np.asarray(edges).shape[1]})
+        return folder
+    for name,edges,label,poi in [('fractional_edge',[[.2],[1.]],[-1],'TARGET'),('fractional_label',np.empty((2,0),int),[-1.2],'TARGET'),('target_mismatch',np.empty((2,0),int),[-1],'OTHER')]:
+        with pytest.raises(ValidationError):
+            packer.pack([packet(name,edges,label,poi)],tmp_path/(name+'_output'))
+    valid=packet('valid',np.empty((2,0),int),[-1]);output=tmp_path/'packed';packer.pack([valid],output)
+    receipt=json.loads((output/'receipt.json').read_text())
+    assert not receipt['automatic_training_release'] and receipt['status']=='GRAPH_PACKET_REQUIRES_REVIEW'
+    assert receipt['input_sha256'][str(valid/'graph.npz')]==sha256(valid/'graph.npz')
+
+
+def test_e2_whole_protein_guard_matches_original_unwrap_for_whole_and_wrapped_bonds():
+    mda=pytest.importorskip('MDAnalysis')
+    from MDAnalysis.transformations import unwrap
+    from e2_geometry import WholeProteinGuard
+    universe=mda.Universe.empty(2,trajectory=True);universe.add_TopologyAttr('bonds',[(0,1)])
+    universe.dimensions=[10.,10.,10.,90.,90.,90.]
+    guard=WholeProteinGuard(universe.atoms)
+    for coords,expected_fallback in [([[1.,1.,1.],[2.,1.,1.]],False),([[9.7,1.,1.],[.3,1.,1.]],True)]:
+        universe.atoms.positions=coords;unwrap(universe.atoms)(universe.trajectory.ts);expected=universe.atoms.positions.copy()
+        universe.atoms.positions=coords
+        assert guard(universe.trajectory.ts)==expected_fallback
+        np.testing.assert_allclose(universe.atoms.positions,expected,atol=1e-6)
+
+
+def test_e2_bond_tree_reconstruction_matches_original_for_branches_and_multiple_fragments():
+    mda=pytest.importorskip('MDAnalysis')
+    from MDAnalysis.transformations import unwrap
+    from e2_geometry import WholeProteinTree
+    universe=mda.Universe.empty(6,trajectory=True);universe.add_TopologyAttr('bonds',[(0,1),(1,2),(1,3),(4,5)])
+    universe.dimensions=[10.,10.,10.,90.,90.,90.]
+    original=np.array([[9.7,1.,1.],[.3,1.,1.],[.8,1.3,1.],[.3,.1,1.],[.2,5.,5.],[9.5,5.,5.]])
+    universe.atoms.positions=original;unwrap(universe.atoms)(universe.trajectory.ts);expected=universe.atoms.positions.copy()
+    universe.atoms.positions=original
+    assert WholeProteinTree(universe.atoms)(universe.trajectory.ts) is False
+    np.testing.assert_allclose(universe.atoms.positions,expected,atol=1e-6)
+
+
+def test_retained_e2_summary_requires_explicit_duplicate_window_and_image_policy():
+    from e2_summary import summarize_frames
+    names=['time_ns','min_E2_direct_A']+[f'reach_{c}A_direct' for c in [50,80,100]]+[n+'_gap_A' for n in ['ELOC_VHL_CA','VHL_POI_CA','ELOC_POI_CA']]
+    frames=np.zeros(4,dtype=[(name,float) for name in names]);frames['time_ns']=[0.,1.,1.,2.];frames['min_E2_direct_A']=60.;frames['reach_80A_direct']=.5
+    args=(frames,[0.,1.,1.,2.],[4.,4.,4.,6.],[4.,4.,4.,4.],0.,2.)
+    with pytest.raises(ValidationError,match='Repeated'):summarize_frames(*args)
+    result=summarize_frames(*args,duplicates='identical');assert result['selected_frames']==3 and result['state_counts']=={'bridge':2,'nonbridge':1}
+    assert not result['automatic_training_release']
+    frames['ELOC_VHL_CA_gap_A'][-1]=20.
+    with pytest.raises(ValidationError,match='image'):summarize_frames(*args,duplicates='identical')
+    result=summarize_frames(*args,duplicates='identical',image_policy='audit-only');assert result['status']=='IMAGE_REVIEW_REQUIRED_AUDIT_ONLY'
+    with pytest.raises(ValidationError,match='endpoints'):
+        summarize_frames(*args[:-1],3.,duplicates='identical',image_policy='audit-only')
