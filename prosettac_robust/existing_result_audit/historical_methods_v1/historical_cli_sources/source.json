@@ -1,0 +1,5 @@
+{
+  "purpose": "Exact helper bytes used for preserved historical_workflow_contact_v1 output before whitespace-only EOF normalization",
+  "original_path": "workflow/scripts/lib/protein_roles.py",
+  "sha256": "3991e8b1055341afa3dec324cc17a8f7af74406caaea85f20244501b38c2e267"
+}

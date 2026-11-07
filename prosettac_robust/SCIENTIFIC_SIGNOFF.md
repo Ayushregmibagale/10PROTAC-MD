@@ -1,5 +1,7 @@
 # Scientific review decision — confirmed 19-protein SJF8240 project
 
+**Subsequent user scope clarification:** retain the exact old structures and focus on code/rationale. Supplier equivalence below limits chemical/biological claims; it does not block the retained-structure methods review or require replacement simulations. Current implementation/methods findings are in [HISTORICAL_METHODS_AND_RATIONALE.md](HISTORICAL_METHODS_AND_RATIONALE.md). This report's withheld decision concerns unconditional scientific claims, not authorization to keep the historical structures.
+
 Decision: **WITHHOLD unconditional scientific sign-off.** This is an evidence review, not a certification of publication readiness or journal acceptance. Software checks support specific behavior; they cannot repair unverified chemical identity, experimental endpoints or missing historical execution provenance. The user confirmed the scope as the 17 historical evaluation targets plus SIK3 and RPS6KB2. No conventional predictive model was added.
 
 ## Scope and evidence

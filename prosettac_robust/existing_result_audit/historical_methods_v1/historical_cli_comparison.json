@@ -1,0 +1,8 @@
+{
+  "status": "EXACT_CONTACT_TABLE_REPRODUCTION",
+  "old_audit_sha256": "7c642254fa0870d4938010380d755e011361320ab59c0d089328ee3811bcdc57",
+  "new_workflow_sha256": "7c642254fa0870d4938010380d755e011361320ab59c0d089328ee3811bcdc57",
+  "rows": 201,
+  "old_outputs_modified": false,
+  "new_MD_executed": false
+}

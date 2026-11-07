@@ -1,5 +1,8 @@
 # Isolated SJF8240 publication robustness work
 
+**Active scope:** use the exact historical structures/results and review scripts plus rationale. Start with [HISTORICAL_METHODS_AND_RATIONALE.md](HISTORICAL_METHODS_AND_RATIONALE.md). Supplier replacement and new production are not the current task.
+
+
 Start with [SJF8240_STATUS.md](SJF8240_STATUS.md). The other compounds are deferred.
 
 This folder preserves the existing SJF8240 campaign and GNN work. The original

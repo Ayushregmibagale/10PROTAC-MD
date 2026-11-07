@@ -1,10 +1,12 @@
 # SJF8240 publication work: current status
 
+**Current task:** retain the exact old structures and results; review/harden scripts and rationale. Read HISTORICAL_METHODS_AND_RATIONALE.md. Supplier replacement or repeating MD is not the active task.
+
 Current priority: preserve/reuse the existing SJF8240 structures and completed PRosettaC/MD/GNN results; harden scripts and audit scientific rationales. Helpful bounded diagnostics are authorized, but a wholesale experiment rerun is not. Read `USER_REQUIREMENTS.md` and `AGENTS.md`. Scientific claims remain under review.
 The original D: project, original protac-md, original MD/GNN results, and the
 previous top-level 10PROTAC-MD workflow are unchanged.
 
-**Latest validation:** 125 analysis-environment tests pass (installed log installed_20261107T010353Z.txt). Earlier docking-environment checkpoint: 121 passed with three GNN-only skips (PyG absent); it predates the newest normalization regression. Tests verify software behavior, not publication claims.
+**Latest validation:** 129 analysis-environment tests pass. Docking environment: 126 passed with three GNN-only skips (PyG absent). See software_checkpoint_v7.json and saved logs. Tests verify software behavior, not publication claims.
 
 **Scientific decision:** unconditional sign-off WITHHELD for the user-confirmed 19-target panel. Read SCIENTIFIC_SIGNOFF.md for the per-claim evidence, remaining gates and permitted retrospective claims. Later completed controls supersede the historical running-stage entries below.
 
@@ -41,11 +43,10 @@ explained in the [PyG installation documentation](https://pytorch-geometric.read
 
 The existing generic CE and separate pocket-comparison banks cover only one and four of the historical 17 targets, respectively; the known-target control bank covers MET. These banks are not a completed or adopted 17-target study preparation. Missing candidates are not biological negatives. The target-specific preparation review must be completed after the assay/cohort is fixed.
 
-## What is still required
+## Historical corrected-chemistry proposal — outside the active scope
 
-The historical trajectories cannot be converted into corrected chemistry by
-editing their ITP files or resuming old checkpoints. Corrected systems and
-chemistry-dependent features must be recomputed. Protein structures, software
+For a separately authorized future study of different chemistry, the historical trajectories cannot be converted into that chemistry by
+editing their ITP files or resuming old checkpoints. Such a different-chemistry study would require its own systems and chemistry-dependent features. This is not required to continue the present retained-structure code/rationale review. Protein structures, software
 architecture, genuine experimental records and historical raw results can be
 retained with their provenance. Sampling and convergence still need evidence.
 

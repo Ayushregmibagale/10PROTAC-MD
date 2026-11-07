@@ -14,6 +14,12 @@ flowchart LR
   F[Reviewed assay and chemical identity] --> E
 ```
 
+## Active retained-structure analysis route
+
+Read `../HISTORICAL_METHODS_AND_RATIONALE.md`. Reuse the original structures, trajectories and predictions. For a fresh core-layout retrospective contact output, run `scripts/02_analysis/09_reanalyze_existing_contacts.py --help`; this analysis entrypoint requires no replacement supplier parameters or fabricated new production receipt. Its qualified DDR2 control exactly reproduces the prior 201-row contact table. The two prediction-target directories do not contain the same legacy index/XVG layout, so do not guess their inputs.
+
+Compiled settings for all 174 MD graph systems are in `../existing_result_audit/compiled_md_protocol_v1`. Actual cutoffs vary: 113 cases at 1.0 nm, 61 at 1.6 nm. Do not describe every old run using today's template. Those diagnostic MDP exports cannot be used to restart MD. Optional future controls below are not instructions to repeat the old experiment.
+
 ## Preserve and re-analyse existing results
 
 Keep historical runs, model files, predictions, source structures and all failure

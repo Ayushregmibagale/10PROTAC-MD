@@ -26,3 +26,7 @@ core.*
 /linker_method_review/md_handoff_torsion_v1/
 /linker_method_review/static_graph_DG_control/
 /linker_method_review/static_graph_packet_DG_control/
+
+# Compact read-only inspection logs are part of the scientific evidence.
+!existing_result_audit/compiled_md_protocol_v1/**/dump.log
+!existing_result_audit/historical_methods_v1/*.log

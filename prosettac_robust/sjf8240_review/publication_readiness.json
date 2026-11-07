@@ -32,7 +32,7 @@
     "Regenerate source-bound periodic graph features and E2 descriptors, then rerun frozen-cohort evaluation",
     "Document uncertainty, selection/missingness, independent experimental validation, and actual storage/Ernie allocation"
   ],
-  "current_user_scope": "Preserve/reuse the existing SJF8240 structures and completed results; robust scripts and scientific-rationale audits. Helpful bounded diagnostics allowed; no wholesale rerun authorized.",
+  "current_user_scope": "Use exact historical experimental structures/results; harden scripts and rationale. Supplier equivalence remains provenance only; no replacement simulations or new biological-model training authorized.",
   "required_before_existing_result_publication": [
     "Describe and resolve the actual simulated chemical identity without silently treating the historical graph as verified supplier SJF8240",
     "Correct protein-role and contact-definition descriptions; distinguish legacy Elongin-B descriptors from true-VHL measurements",
@@ -67,6 +67,19 @@
       "passed": 125,
       "skipped": 0,
       "log": "validation_controls/regression/installed_20261107T010353Z.txt"
+    },
+    "latest_retained_scope": {
+      "analysis": {
+        "passed": 129,
+        "skipped": 0,
+        "log": "validation_controls/regression/analysis_20261107_historical_scope.txt"
+      },
+      "docking": {
+        "passed": 126,
+        "skipped": 3,
+        "skip_reason": "GNN replay tests require PyG, which is in the analysis environment",
+        "log": "validation_controls/regression/docking_20261107_historical_scope.txt"
+      }
     }
   },
   "scientific_signoff_report": "../SCIENTIFIC_SIGNOFF.md",
@@ -84,5 +97,15 @@
     "all_expected_proteins_present": true,
     "legacy_index_roles_verified": false,
     "source": "../existing_result_audit/prediction_compiled_roles_v3/summary.json"
+  },
+  "current_methods_review": "../HISTORICAL_METHODS_AND_RATIONALE.md",
+  "compiled_protocol_audit": {
+    "cases": 174,
+    "cutoff_classes_nm": {
+      "1.0": 113,
+      "1.6": 61
+    },
+    "source": "../existing_result_audit/compiled_md_protocol_v1/summary.json",
+    "nominal_duration_is_actual_completion": false
   }
 }

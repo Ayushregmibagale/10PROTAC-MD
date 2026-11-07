@@ -1,0 +1,83 @@
+{
+  "scope": "Retained source bytes for methods review; current files are not proof of immutable original-run versions",
+  "files": {
+    "original_analysis/01_screen_bridging_all_pois.py": {
+      "original_path": "/home/ayushregmibagale/protac-md/scripts/02_analysis/01_screen_bridging_all_pois.py",
+      "sha256": "387c36c1f9203d689afc9272f84d00375e62f7b6ccc42be3b5b7a0b7c115ea0a",
+      "bytes": 11043,
+      "executed": false
+    },
+    "original_analysis/02_run_analysis.py": {
+      "original_path": "/home/ayushregmibagale/protac-md/scripts/02_analysis/02_run_analysis.py",
+      "sha256": "7157576da1049be3b4adf7048dfeb33ef40ce78d3314df7376bb69a4dac03c87",
+      "bytes": 27557,
+      "executed": false
+    },
+    "original_analysis/04a_build_ensemble_graphs.py": {
+      "original_path": "/home/ayushregmibagale/protac-md/scripts/02_analysis/04a_build_ensemble_graphs.py",
+      "sha256": "be1ba711f7599766c867c64ef2f59926a1931ec60b73543f214e345f733ffa04",
+      "bytes": 25631,
+      "executed": false
+    },
+    "original_analysis/04c_build_md_contact_graphs.py": {
+      "original_path": "/home/ayushregmibagale/protac-md/scripts/02_analysis/04c_build_md_contact_graphs.py",
+      "sha256": "e7341cfc1c9ab84f3fa82ba4a73958192754b9754410c6b2b5b938fc51aebe80",
+      "bytes": 21393,
+      "executed": false
+    },
+    "original_analysis/04g_e2_scalar_gnn.py": {
+      "original_path": "/home/ayushregmibagale/protac-md/scripts/02_analysis/04g_e2_scalar_gnn.py",
+      "sha256": "50bac9583da2db4e256b872bfa80bfc495a0f808f8b55ee782a3aaf62c105a18",
+      "bytes": 15620,
+      "executed": false
+    },
+    "original_analysis/09_build_ml_table.py": {
+      "original_path": "/home/ayushregmibagale/protac-md/scripts/02_analysis/09_build_ml_table.py",
+      "sha256": "eda26c0b05e2a1606a96cab29abaff7ea8653528d092cfc1aa1be841ee7a7f8b",
+      "bytes": 15284,
+      "executed": false
+    },
+    "original_analysis/16_all_poi_e2_reachability.py": {
+      "original_path": "/home/ayushregmibagale/protac-md/scripts/02_analysis/16_all_poi_e2_reachability.py",
+      "sha256": "fd4e2286f7476f7f94a4cba659e951d7e6400ff9d18dff95e7c19d8275c2eb21",
+      "bytes": 9703,
+      "executed": false
+    },
+    "original_setup/08_run_random_screen.py": {
+      "original_path": "/home/ayushregmibagale/protac-md/scripts/01_setup/08_run_random_screen.py",
+      "sha256": "5b0946dab19fa658d8be51a8ffd43d4ae650d260247b35afaed8619ecbf5dce9",
+      "bytes": 42605,
+      "executed": false
+    },
+    "original_rosetta_wrappers/run_local_prosettac.py": {
+      "original_path": "/mnt/d/PROTAC degradation Prediction/scripts/rosetta_utils/run_local_prosettac.py",
+      "sha256": "5574576fa222e5837c7dfb939e0cb3654341882ea87ffee36cf471566a8f2304",
+      "bytes": 4268,
+      "executed": false
+    },
+    "original_rosetta_wrappers/constraint_generation.py": {
+      "original_path": "/mnt/d/PROTAC degradation Prediction/scripts/rosetta_utils/constraint_generation.py",
+      "sha256": "c32d4c1f7a3099a0b877b25ebbe4dca4092a06583cd50ffce730b225b79c9489",
+      "bytes": 834,
+      "executed": false
+    },
+    "original_rosetta_wrappers/run_docking.py": {
+      "original_path": "/mnt/d/PROTAC degradation Prediction/scripts/rosetta_utils/run_docking.py",
+      "sha256": "2d169df98336e024e4dc8b05da40c721aa2c01402b7b0b66b480b5cb66d76ccb",
+      "bytes": 2220,
+      "executed": false
+    },
+    "original_rosetta_wrappers/pyrosetta_adapter.py": {
+      "original_path": "/mnt/d/PROTAC degradation Prediction/scripts/rosetta_utils/pyrosetta_adapter.py",
+      "sha256": "b21629c36d6bc6250db86784a52e9bb063b1c82594731a39586d249844deadff",
+      "bytes": 49645,
+      "executed": false
+    },
+    "current_template/prod_20ns.mdp": {
+      "original_path": "/home/ayushregmibagale/protac-md/scripts/mdp/prod_20ns.mdp",
+      "sha256": "2779677e63acfd86c64e4f035fb1ec60fd34468eadeae5b67c5d0ea84aa184e1",
+      "bytes": 1185,
+      "executed": false
+    }
+  }
+}

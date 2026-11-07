@@ -1,0 +1,14 @@
+{
+  "status": "RETAINED_STRUCTURE_SCRIPT_RATIONALE_CHECKPOINT",
+  "old_structures_preserved": true,
+  "new_MD_or_training_executed": false,
+  "files_sha256": {
+    "HISTORICAL_METHODS_AND_RATIONALE.md": "abc52b953ebea85ecd9308a57597558f874bf6e09605fd93f6cddadfce6135c4",
+    "validation_controls/software_checkpoint_v7.json": "2701542634d9f92896f9e46cc11659f629dee68005ff547fe20b156bd8172837",
+    "existing_result_audit/historical_methods_v1/source_manifest.json": "d5168f867b88ed4f771bcd21a91bd32cc5b9a814596f5be164148c634da01a97",
+    "existing_result_audit/historical_methods_v1/compiled_protocol_cases.tsv": "9fe3f47c1d7ec389cf6a6e94cb0a7b392a8f26e680921e49628447bd770fcaed",
+    "existing_result_audit/historical_methods_v1/historical_cli_comparison.json": "cce76f70d2414affd3f024d57b1ee1bbf11de7c17785b28d98e178c545eb5788",
+    "existing_result_audit/historical_methods_v1/analysis_handoff_recheck/summary.json": "73bc7aa7cf121cd74f42d428a67f492198e7f60bdee7f7c770f993eaa43e855f",
+    "existing_result_audit/compiled_md_protocol_v1/summary.json": "e9bb2d53cfe940c052a69ecc5c3f3bdaaa2538713ae36d6c986d0ffbfadb0ff1"
+  }
+}

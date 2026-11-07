@@ -1,0 +1,85 @@
+{
+  "status": "COMPILED_PROTOCOL_INSPECTION_COMPLETE",
+  "requested": 174,
+  "inspected": 174,
+  "failures": [],
+  "protocol_classes": [
+    {
+      "cases": 113,
+      "settings": {
+        "DispCorr": "No",
+        "constraint-algorithm": "Lincs",
+        "continuation": "false",
+        "coulomb-modifier": "Potential-shift",
+        "coulombtype": "PME",
+        "cutoff-scheme": "Verlet",
+        "dt": "0.002",
+        "integrator": "md",
+        "lincs-iter": "1",
+        "lincs-order": "4",
+        "nsteps": "10000000",
+        "nstxout-compressed": "50000",
+        "pbc": "xyz",
+        "pcoupl": "Parrinello-Rahman",
+        "pcoupltype": "Isotropic",
+        "rcoulomb": "1",
+        "ref-p": "1 1 1 0 0 0",
+        "ref-t": "300 300 300",
+        "rlist": "1",
+        "rvdw": "1",
+        "tau-p": "2",
+        "tau-t": "0.1 0.1 0.1",
+        "tcoupl": "V-rescale",
+        "vdw-modifier": "Potential-shift",
+        "vdw-type": "Cut-off"
+      }
+    },
+    {
+      "cases": 61,
+      "settings": {
+        "DispCorr": "No",
+        "constraint-algorithm": "Lincs",
+        "continuation": "false",
+        "coulomb-modifier": "Potential-shift",
+        "coulombtype": "PME",
+        "cutoff-scheme": "Verlet",
+        "dt": "0.002",
+        "integrator": "md",
+        "lincs-iter": "1",
+        "lincs-order": "4",
+        "nsteps": "10000000",
+        "nstxout-compressed": "50000",
+        "pbc": "xyz",
+        "pcoupl": "Parrinello-Rahman",
+        "pcoupltype": "Isotropic",
+        "rcoulomb": "1.6",
+        "ref-p": "1 1 1 0 0 0",
+        "ref-t": "300 300 300",
+        "rlist": "1.6",
+        "rvdw": "1.6",
+        "tau-p": "2",
+        "tau-t": "0.1 0.1 0.1",
+        "tcoupl": "V-rescale",
+        "vdw-modifier": "Potential-shift",
+        "vdw-type": "Cut-off"
+      }
+    }
+  ],
+  "nominal_duration_ns_counts": {
+    "20.0": 174
+  },
+  "stored_frame_interval_ps_counts": {
+    "100.0": 174
+  },
+  "source_sha256": "7e23b29040a0844246d96d840c758543a6a5ad898e613e63a09f3a0ce6e5c7e1",
+  "gmx_sha256": "cf56503aceaa25bffb42b9f16a0a5a3c9a02ede05f98d0c39dd57a87cc7a1c03",
+  "roster_sha256": "334a2fa8e79b1f423ddf7fb0b40ed6a296fb59671ce7b61ba3bbd703d94ef395",
+  "records_sha256": "e73cc6babb1e898616a5547ab42c2db371e4997d61cf9926a5692bd1b23d5b8d",
+  "new_MD_or_model_training_executed": false,
+  "original_files_modified": false,
+  "limitations": [
+    "Compiled input settings do not establish completed steps, convergence or independent replicas.",
+    "Generated inspection MDP files cannot be reused as grompp inputs.",
+    "Absent template-level constraint selection cannot be reconstructed merely from the inputrec; bonded interactions require separate inspection."
+  ]
+}

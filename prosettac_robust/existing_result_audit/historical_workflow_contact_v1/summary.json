@@ -1,0 +1,127 @@
+{
+  "status": "RETROSPECTIVE_CONTACT_REANALYSIS_NOT_NEW_MD",
+  "poi": "DDR2",
+  "pose_id": "pose001",
+  "frames": 201,
+  "time_window_ns": [
+    0.0,
+    20.0
+  ],
+  "time_alignment_tolerance_ns": 5.0999999999999995e-06,
+  "time_max_difference_ns": 1.0000000010279564e-06,
+  "identified_proteins": {
+    "Q15370": {
+      "moltype": "Protein_chain_A",
+      "sequence_match": {
+        "uniprot": "Q15370",
+        "identity": 1.0,
+        "observed_CA_coverage": 1.0,
+        "canonical_first": 1,
+        "canonical_last": 103
+      }
+    },
+    "Q15369": {
+      "moltype": "Protein_chain_B",
+      "sequence_match": {
+        "uniprot": "Q15369",
+        "identity": 1.0,
+        "observed_CA_coverage": 1.0,
+        "canonical_first": 17,
+        "canonical_last": 111
+      }
+    },
+    "P40337": {
+      "moltype": "Protein_chain_C",
+      "sequence_match": {
+        "uniprot": "P40337",
+        "identity": 1.0,
+        "observed_CA_coverage": 1.0,
+        "canonical_first": 62,
+        "canonical_last": 202
+      }
+    },
+    "Q16832": {
+      "moltype": "Protein_chain_D",
+      "sequence_match": {
+        "uniprot": "Q16832",
+        "identity": 0.985239852398524,
+        "observed_CA_coverage": 0.9854545454545455,
+        "canonical_first": 557,
+        "canonical_last": 849
+      }
+    }
+  },
+  "legacy_VHL_group_moltypes": [
+    "Protein_chain_A"
+  ],
+  "group_atoms": {
+    "ligand_all": 144,
+    "ligand_heavy": 79,
+    "true_VHL_all": 2300,
+    "true_VHL_heavy": 1148,
+    "POI_all": 4442,
+    "POI_heavy": 2230
+  },
+  "periodic_distance_reproduction_max_error_A": {
+    "legacy_VHL": 1.3701132534293947e-05,
+    "POI": 8.648320522608444e-06
+  },
+  "stored_GROMACS_distances_reproduced_within_0_002_A": true,
+  "cutoff_curves": [
+    {
+      "cutoff_A": 3.5,
+      "legacy_named_groups_all_atom_fraction": 0.0,
+      "true_VHL_POI_all_atom_fraction": 1.0,
+      "true_VHL_POI_heavy_atom_fraction": 0.9751243781094527
+    },
+    {
+      "cutoff_A": 4.0,
+      "legacy_named_groups_all_atom_fraction": 0.0,
+      "true_VHL_POI_all_atom_fraction": 1.0,
+      "true_VHL_POI_heavy_atom_fraction": 0.9950248756218906
+    },
+    {
+      "cutoff_A": 4.5,
+      "legacy_named_groups_all_atom_fraction": 0.004975124378109453,
+      "true_VHL_POI_all_atom_fraction": 1.0,
+      "true_VHL_POI_heavy_atom_fraction": 1.0
+    },
+    {
+      "cutoff_A": 5.0,
+      "legacy_named_groups_all_atom_fraction": 0.01990049751243781,
+      "true_VHL_POI_all_atom_fraction": 1.0,
+      "true_VHL_POI_heavy_atom_fraction": 1.0
+    },
+    {
+      "cutoff_A": 5.5,
+      "legacy_named_groups_all_atom_fraction": 0.05472636815920398,
+      "true_VHL_POI_all_atom_fraction": 1.0,
+      "true_VHL_POI_heavy_atom_fraction": 1.0
+    },
+    {
+      "cutoff_A": 6.0,
+      "legacy_named_groups_all_atom_fraction": 0.15422885572139303,
+      "true_VHL_POI_all_atom_fraction": 1.0,
+      "true_VHL_POI_heavy_atom_fraction": 1.0
+    }
+  ],
+  "source_input_sha256": {
+    "/home/ayushregmibagale/protac-md/random_screen/DDR2/pose001/prod/prod.tpr": "ddee6fdf1abf6045f4dc462bfaf5c1a95e2665a1072e680f6729b3400c1f4d6b",
+    "/home/ayushregmibagale/protac-md/analysis/random_screen/DDR2/pose001/prod_nojump.xtc": "e9978732e144e446fb0f1d71e4af0759c53d89dcc24d1d730669ac74da49c2cd",
+    "/home/ayushregmibagale/protac-md/analysis/random_screen/DDR2/pose001/index.ndx": "53a0f0a62b081b3e230b63e1f47861a2f003e11ec115571816b13df9cc4ec9fc",
+    "/home/ayushregmibagale/protac-md/analysis/random_screen/DDR2/pose001/dist_protac_vhl.xvg": "680ce105001b110eab5932b361d0b12d7bf5299222afee8835f3216a5316ef1f",
+    "/home/ayushregmibagale/protac-md/analysis/random_screen/DDR2/pose001/dist_protac_kinase.xvg": "c1a33260ac94141409e924a651c767bf76be76b6e3fa5d1da19224803def0a51",
+    "/tmp/10protac_finish/prosettac_robust/workflow/sequence_provenance/uniprot_batches/sjf8240_reference_cohort.json": "bad81965bbf853328ae2b8617cc5f03337762be87d71c0df2cc202203ad7f57d",
+    "/tmp/10protac_finish/prosettac_robust/workflow/config/sjf8240_publication_cohort.json": "7964f77822f62627fe7813b937335c357bf1e1849e9678864bf9124cf3e580e8",
+    "/tmp/10protac_finish/prosettac_robust/workflow/scripts/lib/protein_roles.py": "3991e8b1055341afa3dec324cc17a8f7af74406caaea85f20244501b38c2e267",
+    "/tmp/10protac_finish/prosettac_robust/workflow/scripts/lib/read_only_trajectory.py": "231645da4027fd0f9e7e2ad49e7f5d942a12e768a5e1995b58a88fd505e55edb",
+    "/tmp/10protac_finish/prosettac_robust/workflow/scripts/lib/protac_qc.py": "b7faca900f0a3c441f3d7fccb9835e7ae138f1198f480101145b9e6363ccf632",
+    "/tmp/10protac_finish/prosettac_robust/workflow/scripts/02_analysis/07_audit_existing_bridge_metrics.py": "f8ee479b76843d137203df193eab4c3bc156f748f88397b6f8238c8fb6876254"
+  },
+  "sequence_cache_sha256": "bad81965bbf853328ae2b8617cc5f03337762be87d71c0df2cc202203ad7f57d",
+  "source_sha256": "875de5c3a0b7343d50b9d3aaefbf7725918f41f204c352d1d06f5527c88b84b2",
+  "chemical_scope": "Retained historical simulated structure; no supplier-identity substitution or equivalence claim",
+  "original_outputs_modified": false,
+  "new_MD_or_docking_executed": false,
+  "interpretation": "This quantifies atom/role-definition sensitivity for one preselected existing trajectory. It neither replaces saved results nor estimates degradation probability."
+}

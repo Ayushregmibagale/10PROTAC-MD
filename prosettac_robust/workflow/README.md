@@ -1,5 +1,7 @@
 # 10PROTAC-MD
 
+**Current retained-data review:** read `../HISTORICAL_METHODS_AND_RATIONALE.md`. `scripts/02_analysis/09_reanalyze_existing_contacts.py` works directly on the historical core-layout data with fresh audit outputs. Supplier-registry preparation below belongs to a separate prospective workflow and is not a request to replace or rerun the old experiment.
+
 Pre-Ernie remediation is in progress. **Production submission is blocked.**
 The legacy `prosettac_inputs/` are preserved for provenance and are not validated
 inputs. They must not be submitted using an old copy of the launch script.

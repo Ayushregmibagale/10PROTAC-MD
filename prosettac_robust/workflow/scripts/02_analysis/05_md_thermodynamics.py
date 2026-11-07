@@ -9,6 +9,7 @@ from pathlib import Path
 import numpy as np
 sys.path.insert(0,str(Path(__file__).resolve().parents[1]/'lib'))
 from protac_qc import ValidationError,atomic_json,sha256
+from gromacs_energy import named_energy_series
 
 
 def summarize(time,values,discard,block):
@@ -45,12 +46,9 @@ def analyze(work,stage,gmx,discard,block,output):
     result=subprocess.run(command,input='\n'.join(requested+['0'])+'\n',text=True,capture_output=True)
     log=work/(stage+'_thermodynamics_checked.log');log.write_text(result.stdout+result.stderr)
     if result.returncode:raise ValidationError('Gromacs energy extraction failed')
-    text=xvg.read_text();legends={int(i):name for i,name in re.findall(r'@\s+s(\d+)\s+legend\s+"([^"]+)"',text)}
-    names=[legends[i] for i in range(len(legends))]
-    if set(names)!=set(requested):raise ValidationError('Extracted energy fields differ from requested fields')
-    data=np.loadtxt([line for line in text.splitlines() if line and not line.startswith(('#','@'))],ndmin=2)
-    if data.shape[1]!=len(names)+1:raise ValidationError('Energy field count mismatch')
-    summary=summarize(data[:,0],data[:,1:],discard,block)
+    time,columns=named_energy_series(xvg.read_text(),requested)
+    names=requested
+    summary=summarize(time,np.column_stack([columns[name] for name in names]),discard,block)
     report={'status':'THERMODYNAMIC_DIAGNOSTIC_ONLY','stage':stage,'discard_ps':discard,'block_ps':block,
         'fields':names,'units':{'Temperature':'K','Pressure':'bar','Potential':'kJ/mol','Density':'kg/m^3'},
         'summary':summary,'command':command,'stdin_fields':requested,

@@ -1,5 +1,7 @@
 # Preserve completed SJF8240 results; trace impact before rerunning
 
+**Latest scope and evidence:** retain the exact old structures; focus on scripts/rationale. Supplier replacement is not the active task. The early next-step statements below are historical; actual connectivity has since been traced in 174 compiled production TPRs, and all 174 protein sets have been identified. Start with `HISTORICAL_METHODS_AND_RATIONALE.md`, `SJF8240_STATUS.md` and the saved evidence inventories.
+
 ## Established existing work
 
 The read-only original `protac-md/analysis/gnn/e2gnn_lopo_summary.tsv` records

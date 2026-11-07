@@ -1,0 +1,66 @@
+........................................................................ [ 56%]
+.......................................................F                 [100%]
+=================================== FAILURES ===================================
+_____ test_thermodynamic_extraction_names_columns_by_legend_not_file_order _____
+
+tmp_path = PosixPath('/tmp/pytest-of-ayushregmibagale/pytest-128/test_thermodynamic_extraction_0')
+monkeypatch = <_pytest.monkeypatch.MonkeyPatch object at 0x7e434b93a340>
+
+    def test_thermodynamic_extraction_names_columns_by_legend_not_file_order(tmp_path,monkeypatch):
+        from types import SimpleNamespace
+        thermo=load('named_thermo_extraction','scripts/02_analysis/05_md_thermodynamics.py')
+        edr=tmp_path/'npt.edr';edr.write_bytes(b'energy');gmx=tmp_path/'gmx';gmx.write_bytes(b'fixture')
+        atomic_json(tmp_path/'npt.receipt.json',{'status':'COMPLETE','outputs':{'npt.edr':sha256(edr)}})
+        def extract(*args,**kwargs):
+            (tmp_path/'npt_thermodynamics_checked.xvg').write_text('@ s0 legend "Potential"\n@ s1 legend "Density"\n@ s2 legend "Temperature"\n@ s3 legend "Pressure"\n0 -1000 1001 300 -2\n1 -1000 1001 300 -2\n2 -1000 1001 300 -2\n')
+            return SimpleNamespace(returncode=0,stdout='',stderr='')
+        monkeypatch.setattr(thermo.subprocess,'run',extract)
+>       output=tmp_path/'thermo.json';thermo.analyze(tmp_path,'npt',gmx,0.,1.,output)
+                                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+tests/test_preflight.py:1354: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+scripts/02_analysis/05_md_thermodynamics.py:51: in analyze
+    summary=summarize(time,np.column_stack([columns[name] for name in names]),discard,block)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+time = array([0., 1., 2.])
+values = array([[  300.,    -2., -1000.,  1001.],
+       [  300.,    -2., -1000.,  1001.],
+       [  300.,    -2., -1000.,  1001.]])
+discard = 0.0, block = 1.0
+
+    def summarize(time,values,discard,block):
+        time=np.asarray(time,dtype=float);values=np.asarray(values,dtype=float)
+        if not np.isfinite(discard) or not np.isfinite(block) or discard<0 or block<=0:
+            raise ValidationError('Explicit finite discard/block times are required')
+        if time.ndim!=1 or values.ndim!=2 or len(time)!=len(values) or len(time)<2:
+            raise ValidationError('Invalid thermodynamic time series')
+        if not np.isfinite(time).all() or not np.isfinite(values).all() or not (np.diff(time)>0).all():
+            raise ValidationError('Nonfinite or non-increasing thermodynamic time series')
+        keep=time>=discard
+        if keep.sum()<2:raise ValidationError('Insufficient retained thermodynamic samples')
+        t=time[keep];v=values[keep];blocks=[]
+        for i in range(int(np.floor((t[-1]-discard)/block))):
+            low=discard+i*block;high=low+block
+            mask=(t>=low)&((t<=high) if high==t[-1] else (t<high))
+>           if mask.sum()<2:raise ValidationError('A complete time block has too few samples')
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+E           protac_qc.ValidationError: A complete time block has too few samples
+
+scripts/02_analysis/05_md_thermodynamics.py:29: ValidationError
+=============================== warnings summary ===============================
+tests/test_preflight.py::test_md_graph_builder_uses_observed_joint_contacts_and_aligned_nodes
+tests/test_preflight.py::test_md_graph_builder_uses_observed_joint_contacts_and_aligned_nodes
+  /home/ayushregmibagale/miniconda3/lib/python3.13/site-packages/torch/jit/_script.py:1488: DeprecationWarning: `torch.jit.script` is deprecated. Please switch to `torch.compile` or `torch.export`.
+    warnings.warn(
+
+tests/test_preflight.py: 564 warnings
+  /home/ayushregmibagale/miniconda3/lib/python3.13/site-packages/torch_geometric/inspector.py:433: DeprecationWarning: Failing to pass a value to the 'type_params' parameter of 'typing._eval_type' is deprecated, as it leads to incorrect behaviour when calling typing._eval_type on a stringified annotation that references a PEP 695 type parameter. It will be disallowed in Python 3.15.
+    return typing._eval_type(value, _globals, None)  # type: ignore
+
+-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html
+=========================== short test summary info ============================
+FAILED tests/test_preflight.py::test_thermodynamic_extraction_names_columns_by_legend_not_file_order
+1 failed, 127 passed, 566 warnings in 10.24s

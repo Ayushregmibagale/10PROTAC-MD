@@ -1302,3 +1302,64 @@ def test_gnn_normalization_rejects_missing_training_rows_but_allows_explicit_mis
     assert np.array_equal(normalize_fold_scalars('heldout',table,['a','b'],['x']),[0.])
     with pytest.raises(ValidationError,match='scalar columns'):
         normalize_fold_scalars('heldout',table,['a','b'],['x','x'])
+
+
+def test_executed_heavy_mapping_rejects_fractional_indices_solvent_and_overlap():
+    from types import SimpleNamespace
+    from md_mapping import mapped_heavy_groups
+    class Atoms:
+        def __init__(self,masses):self.masses=np.asarray(masses)
+        def __len__(self):return len(self.masses)
+        def __getitem__(self,ids):return Atoms(self.masses[ids])
+    universe=SimpleNamespace(atoms=Atoms([12.,14.,16.,23.]))
+    meta={'solute_atoms':3,'atom_indices_one_based':{'vhl':[1],'poi':[2],'protac':[3]}}
+    assert set(mapped_heavy_groups(universe,meta))=={'vhl','poi','protac'}
+    for ids in ([1.9],[4],[2],[],[True]):
+        bad=dict(meta,atom_indices_one_based=dict(meta['atom_indices_one_based'],protac=ids))
+        with pytest.raises(ValidationError,match='indices|mapped heavy'):
+            mapped_heavy_groups(universe,bad)
+    for mass in [1.,float('nan')]:
+        with pytest.raises(ValidationError,match='mass|hydrogen'):
+            mapped_heavy_groups(SimpleNamespace(atoms=Atoms([12.,14.,mass])),meta)
+
+
+def test_contact_analysis_rejects_nonfinite_windows_and_nan_time_before_discard(tmp_path,monkeypatch):
+    from types import SimpleNamespace
+    contact=load('finite_contact_analysis','scripts/02_analysis/02_analyze_md_contacts.py')
+    for discard,block in [(float('nan'),1.),(0.,float('inf')),(0.,float('nan'))]:
+        with pytest.raises(ValidationError,match='finite'):
+            contact.validate_analysis_times(discard,block)
+    mda=pytest.importorskip('MDAnalysis')
+    u=mda.Universe.empty(3,trajectory=True);u.add_TopologyAttr('masses',[12.,14.,16.])
+    fake=SimpleNamespace(atoms=u.atoms,trajectory=[SimpleNamespace(time=float('nan'))])
+    monkeypatch.setattr(mda,'Universe',lambda *args,**kwargs:fake)
+    preparation=tmp_path/'md_preparation.json';topology=tmp_path/'prod.tpr';trajectory=tmp_path/'prod.xtc';receipt=tmp_path/'prod.receipt.json'
+    topology.write_bytes(b'topology');trajectory.write_bytes(b'trajectory')
+    atomic_json(preparation,{'solute_atoms':3,'atom_indices_one_based':{'vhl':[1],'poi':[2],'protac':[3]}})
+    atomic_json(receipt,{'status':'COMPLETE','intent':{'stage':'prod','inputs':{'md_preparation.json':sha256(preparation)}},'outputs':{'prod.tpr':sha256(topology),'prod.xtc':sha256(trajectory)}})
+    with pytest.raises(ValidationError,match='nonfinite'):
+        contact.analyze(preparation,topology,trajectory,receipt,tmp_path/'output',0.,1.)
+    assert not (tmp_path/'output').exists()
+
+
+def test_thermodynamic_extraction_names_columns_by_legend_not_file_order(tmp_path,monkeypatch):
+    from types import SimpleNamespace
+    thermo=load('named_thermo_extraction','scripts/02_analysis/05_md_thermodynamics.py')
+    edr=tmp_path/'npt.edr';edr.write_bytes(b'energy');gmx=tmp_path/'gmx';gmx.write_bytes(b'fixture')
+    atomic_json(tmp_path/'npt.receipt.json',{'status':'COMPLETE','outputs':{'npt.edr':sha256(edr)}})
+    def extract(*args,**kwargs):
+        (tmp_path/'npt_thermodynamics_checked.xvg').write_text('@ s0 legend "Potential"\n@ s1 legend "Density"\n@ s2 legend "Temperature"\n@ s3 legend "Pressure"\n0 -1000 1001 300 -2\n1 -1000 1001 300 -2\n2 -1000 1001 300 -2\n')
+        return SimpleNamespace(returncode=0,stdout='',stderr='')
+    monkeypatch.setattr(thermo.subprocess,'run',extract)
+    output=tmp_path/'thermo.json';thermo.analyze(tmp_path,'npt',gmx,0.,2.,output)
+    result=json.loads(output.read_text())
+    assert result['fields']==['Temperature','Pressure','Potential','Density']
+    np.testing.assert_allclose(result['summary']['sample_means'],[300.,-2.,-1000.,1001.])
+
+
+def test_existing_contact_reanalysis_rejects_misaligned_stored_series():
+    audit=load('retained_contact_time_contract','scripts/02_analysis/09_reanalyze_existing_contacts.py')
+    audit.validate_stored_times([0.,.1,.2],[0.,.1,.2])
+    for other in ([.1,.2,.3],[0.,.1],[0.,float('nan'),.2]):
+        with pytest.raises(ValidationError,match='timestamps'):
+            audit.validate_stored_times([0.,.1,.2],other)

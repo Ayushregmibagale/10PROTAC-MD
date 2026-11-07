@@ -1,0 +1,35 @@
+{
+  "status": "DIAGNOSTIC_ONLY",
+  "units": {
+    "distance": "Angstrom",
+    "time": "ps"
+  },
+  "periodic_method": "triclinic minimum-image heavy-atom distance",
+  "n_frames": 3,
+  "discard_ps": 0.0,
+  "block_ps": 5.0,
+  "blocks": [
+    {
+      "block": 0,
+      "n_frames": 1,
+      "bridge_fraction_5A": 1.0
+    },
+    {
+      "block": 2,
+      "n_frames": 1,
+      "bridge_fraction_5A": 1.0
+    }
+  ],
+  "bridge_fraction_5A": 1.0,
+  "bridge_fraction_8A": 1.0,
+  "convergence_certified": false,
+  "independent_replica_uncertainty": null,
+  "input_sha256": {
+    "/tmp/10protac_finish/prosettac_robust/linker_method_review/md_handoff_DG_v1/system/md_preparation.json": "dbfb73ddce53ed0dd02e67615537095be35e3ee6b292729982b1d1563bc4318d",
+    "/tmp/10protac_finish/prosettac_robust/linker_method_review/md_handoff_DG_v1/system/solute.tpr": "37ce413a456957f656a11f15a71f3c629d035f1eb6ff3cbad1ba64fcffd7ba86",
+    "/tmp/10protac_finish/prosettac_robust/linker_method_review/md_handoff_DG_v1/system/prod.xtc": "d98cfe03ebb8a2d46045b40e13238f652aa0a259d6d644e40e19459c87eda298",
+    "/tmp/10protac_finish/prosettac_robust/linker_method_review/md_handoff_DG_v1/system/prod.receipt.json": "b816cbc516a95550cc2c80f961876984ea551f5797e089f5f311aae0746fb37e",
+    "/tmp/10protac_finish/prosettac_robust/linker_method_review/md_handoff_DG_v1/system/solute.provenance.json": "55601f9fefe8bd6f81883ec417ee1a25bafaf2fec999d350da8774a275ab2bd6"
+  },
+  "MDAnalysis_version": "2.10.0"
+}

@@ -1,0 +1,13 @@
+                 :-) GROMACS - gmx dump, 2025.4-conda_forge (-:
+
+Executable:   /home/ayushregmibagale/.conda/envs/gromacs/bin.AVX2_256/gmx
+Data prefix:  /home/ayushregmibagale/.conda/envs/gromacs
+Working dir:  /mnt/c/Users/Ayush Regmi Bagale
+Command line:
+  gmx dump -s /home/ayushregmibagale/protac-md/random_screen/SIK3/pose017/prod/prod.tpr -om /tmp/10protac_finish/prosettac_robust/existing_result_audit/compiled_md_protocol_v1/SIK3/pose017/compiled_input_inspection.mdp
+
+Reading file /home/ayushregmibagale/protac-md/random_screen/SIK3/pose017/prod/prod.tpr, VERSION 2025.4-conda_forge (single precision)
+Reading file /home/ayushregmibagale/protac-md/random_screen/SIK3/pose017/prod/prod.tpr, VERSION 2025.4-conda_forge (single precision)
+
+GROMACS reminds you: "Can't You Make This Thing Go Faster ?" (Black Crowes)
+
