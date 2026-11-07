@@ -56,3 +56,5 @@ The 141-case contact re-analysis is now complete: all stored-distance reproducti
 The user also requested continuing overnight. Continue useful work while the session is active, save frequent durable/Git checkpoints, and do not promise unattended work after the session ends. The requested overnight work does not alter the no-wholesale-rerun scope.
 
 Latest clarification: focus on the GNN; the user does not want separate conventional ML models. Continue PRosettaC/MD integration hardening and preserve all completed results. Scalar-feature checks are part of GNN input validation, not a request to add another predictive model.
+
+Scientific sign-off requested explicitly. User confirmed the 19-target scope: 17 historical GNN evaluation targets plus prediction-only SIK3 and RPS6KB2. This is a request for evidence-based review, not authorization to declare failed scientific gates passed or launch a wholesale rerun. Assay endpoint clarification remains pending.

@@ -1,0 +1,20 @@
+{
+  "status": "COMPILED_PROTEIN_IDENTIFICATION_COMPLETE_LEGACY_INDICES_NOT_AVAILABLE",
+  "poses_identified": 33,
+  "targets": [
+    "RPS6KB2",
+    "SIK3"
+  ],
+  "all_expected_proteins_present": true,
+  "legacy_index_roles_verified": false,
+  "new_MD_executed": false,
+  "original_files_modified": false,
+  "input_sha256": {
+    "/tmp/10protac_finish/prosettac_robust/existing_result_audit/scientific_signoff_v1/prediction_pose_roster.json": "3e9e24daec511e69d57070281acb535dd8599c62908273cd49823a9f41e24d37",
+    "/tmp/10protac_finish/prosettac_robust/existing_result_audit/scientific_signoff_v1/all19_sequences.json": "90f74ab1594b895f3d9b56e29cb04d12eac4dd3be7592be08c8fee1c721ff69a",
+    "/tmp/10protac_finish/prosettac_robust/existing_result_audit/scientific_signoff_v1/protein_groups_19.json": "26eb8a5025b445be5d4e739934153dd4fc9058b34778c09a415ba2a8ca090e78",
+    "/tmp/10protac_finish/prosettac_robust/existing_result_audit/review_tools/audit_existing_protein_roles.py": "bfbe73c720ab1666e4ada74faf7acffeee7c15ecf2b42ae9c1b1edeb0989a02f"
+  },
+  "source_sha256": "f9ca64192b8eefa4fa76ab615628cd2c99acd0245d3b650ba68bcc7890192aab",
+  "records_sha256": "188549eec229ba0e30082e97d271cbc12e84cd4d086e10f8d7ac631f863ef143"
+}

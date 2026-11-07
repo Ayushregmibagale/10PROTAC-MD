@@ -1,0 +1,1454 @@
+[
+  {
+    "poi": "SIK3",
+    "pose_id": "pose002",
+    "proteins": [
+      {
+        "uniprot": "Q15370",
+        "identity": 1.0,
+        "observed_CA_coverage": 1.0,
+        "canonical_first": 1,
+        "canonical_last": 103,
+        "moltype": "Protein_chain_A",
+        "CA_atoms": 101
+      },
+      {
+        "uniprot": "Q15369",
+        "identity": 1.0,
+        "observed_CA_coverage": 1.0,
+        "canonical_first": 17,
+        "canonical_last": 111,
+        "moltype": "Protein_chain_B",
+        "CA_atoms": 85
+      },
+      {
+        "uniprot": "P40337",
+        "identity": 1.0,
+        "observed_CA_coverage": 1.0,
+        "canonical_first": 62,
+        "canonical_last": 202,
+        "moltype": "Protein_chain_C",
+        "CA_atoms": 140
+      },
+      {
+        "uniprot": "Q9Y2K2",
+        "identity": 1.0,
+        "observed_CA_coverage": 1.0,
+        "canonical_first": 86,
+        "canonical_last": 326,
+        "moltype": "Protein_chain_D",
+        "CA_atoms": 241
+      }
+    ],
+    "tpr": "/home/ayushregmibagale/protac-md/random_screen/SIK3/pose002/prod/prod.tpr",
+    "tpr_sha256": "e7b09bf4bd143c4a01cc3720d222fdc98685253d0bb98fd7efa0b603ae34d4a7"
+  },
+  {
+    "poi": "SIK3",
+    "pose_id": "pose003",
+    "proteins": [
+      {
+        "uniprot": "Q15370",
+        "identity": 1.0,
+        "observed_CA_coverage": 1.0,
+        "canonical_first": 1,
+        "canonical_last": 103,
+        "moltype": "Protein_chain_A",
+        "CA_atoms": 101
+      },
+      {
+        "uniprot": "Q15369",
+        "identity": 1.0,
+        "observed_CA_coverage": 1.0,
+        "canonical_first": 17,
+        "canonical_last": 111,
+        "moltype": "Protein_chain_B",
+        "CA_atoms": 85
+      },
+      {
+        "uniprot": "P40337",
+        "identity": 1.0,
+        "observed_CA_coverage": 1.0,
+        "canonical_first": 62,
+        "canonical_last": 202,
+        "moltype": "Protein_chain_C",
+        "CA_atoms": 140
+      },
+      {
+        "uniprot": "Q9Y2K2",
+        "identity": 1.0,
+        "observed_CA_coverage": 1.0,
+        "canonical_first": 86,
+        "canonical_last": 326,
+        "moltype": "Protein_chain_D",
+        "CA_atoms": 241
+      }
+    ],
+    "tpr": "/home/ayushregmibagale/protac-md/random_screen/SIK3/pose003/prod/prod.tpr",
+    "tpr_sha256": "82468f876f60c45b2de9b746cc0f2c9e2d191a97ff4a81042598de6e3f79d49e"
+  },
+  {
+    "poi": "SIK3",
+    "pose_id": "pose006",
+    "proteins": [
+      {
+        "uniprot": "Q15370",
+        "identity": 1.0,
+        "observed_CA_coverage": 1.0,
+        "canonical_first": 1,
+        "canonical_last": 103,
+        "moltype": "Protein_chain_A",
+        "CA_atoms": 101
+      },
+      {
+        "uniprot": "Q15369",
+        "identity": 1.0,
+        "observed_CA_coverage": 1.0,
+        "canonical_first": 17,
+        "canonical_last": 111,
+        "moltype": "Protein_chain_B",
+        "CA_atoms": 85
+      },
+      {
+        "uniprot": "P40337",
+        "identity": 1.0,
+        "observed_CA_coverage": 1.0,
+        "canonical_first": 62,
+        "canonical_last": 202,
+        "moltype": "Protein_chain_C",
+        "CA_atoms": 140
+      },
+      {
+        "uniprot": "Q9Y2K2",
+        "identity": 1.0,
+        "observed_CA_coverage": 1.0,
+        "canonical_first": 86,
+        "canonical_last": 326,
+        "moltype": "Protein_chain_D",
+        "CA_atoms": 241
+      }
+    ],
+    "tpr": "/home/ayushregmibagale/protac-md/random_screen/SIK3/pose006/prod/prod.tpr",
+    "tpr_sha256": "04b65b54ee1877a95a4deabd2756ea11c4feeeefbf2e8e454f2de1d9269d22dd"
+  },
+  {
+    "poi": "SIK3",
+    "pose_id": "pose008",
+    "proteins": [
+      {
+        "uniprot": "Q15370",
+        "identity": 1.0,
+        "observed_CA_coverage": 1.0,
+        "canonical_first": 1,
+        "canonical_last": 103,
+        "moltype": "Protein_chain_A",
+        "CA_atoms": 101
+      },
+      {
+        "uniprot": "Q15369",
+        "identity": 1.0,
+        "observed_CA_coverage": 1.0,
+        "canonical_first": 17,
+        "canonical_last": 111,
+        "moltype": "Protein_chain_B",
+        "CA_atoms": 85
+      },
+      {
+        "uniprot": "P40337",
+        "identity": 1.0,
+        "observed_CA_coverage": 1.0,
+        "canonical_first": 62,
+        "canonical_last": 202,
+        "moltype": "Protein_chain_C",
+        "CA_atoms": 140
+      },
+      {
+        "uniprot": "Q9Y2K2",
+        "identity": 1.0,
+        "observed_CA_coverage": 1.0,
+        "canonical_first": 86,
+        "canonical_last": 326,
+        "moltype": "Protein_chain_D",
+        "CA_atoms": 241
+      }
+    ],
+    "tpr": "/home/ayushregmibagale/protac-md/random_screen/SIK3/pose008/prod/prod.tpr",
+    "tpr_sha256": "c59eac255d116bdcf57794812fe698cedbb9cfa11d0138e43395daa6b5a94b83"
+  },
+  {
+    "poi": "SIK3",
+    "pose_id": "pose009",
+    "proteins": [
+      {
+        "uniprot": "Q15370",
+        "identity": 1.0,
+        "observed_CA_coverage": 1.0,
+        "canonical_first": 1,
+        "canonical_last": 103,
+        "moltype": "Protein_chain_A",
+        "CA_atoms": 101
+      },
+      {
+        "uniprot": "Q15369",
+        "identity": 1.0,
+        "observed_CA_coverage": 1.0,
+        "canonical_first": 17,
+        "canonical_last": 111,
+        "moltype": "Protein_chain_B",
+        "CA_atoms": 85
+      },
+      {
+        "uniprot": "P40337",
+        "identity": 1.0,
+        "observed_CA_coverage": 1.0,
+        "canonical_first": 62,
+        "canonical_last": 202,
+        "moltype": "Protein_chain_C",
+        "CA_atoms": 140
+      },
+      {
+        "uniprot": "Q9Y2K2",
+        "identity": 1.0,
+        "observed_CA_coverage": 1.0,
+        "canonical_first": 86,
+        "canonical_last": 326,
+        "moltype": "Protein_chain_D",
+        "CA_atoms": 241
+      }
+    ],
+    "tpr": "/home/ayushregmibagale/protac-md/random_screen/SIK3/pose009/prod/prod.tpr",
+    "tpr_sha256": "1c720e16a33bb7672119f661c608d9c9465e1fa61affccd8cfa7257b8319ecc8"
+  },
+  {
+    "poi": "SIK3",
+    "pose_id": "pose010",
+    "proteins": [
+      {
+        "uniprot": "Q15370",
+        "identity": 1.0,
+        "observed_CA_coverage": 1.0,
+        "canonical_first": 1,
+        "canonical_last": 103,
+        "moltype": "Protein_chain_A",
+        "CA_atoms": 101
+      },
+      {
+        "uniprot": "Q15369",
+        "identity": 1.0,
+        "observed_CA_coverage": 1.0,
+        "canonical_first": 17,
+        "canonical_last": 111,
+        "moltype": "Protein_chain_B",
+        "CA_atoms": 85
+      },
+      {
+        "uniprot": "P40337",
+        "identity": 1.0,
+        "observed_CA_coverage": 1.0,
+        "canonical_first": 62,
+        "canonical_last": 202,
+        "moltype": "Protein_chain_C",
+        "CA_atoms": 140
+      },
+      {
+        "uniprot": "Q9Y2K2",
+        "identity": 1.0,
+        "observed_CA_coverage": 1.0,
+        "canonical_first": 86,
+        "canonical_last": 326,
+        "moltype": "Protein_chain_D",
+        "CA_atoms": 241
+      }
+    ],
+    "tpr": "/home/ayushregmibagale/protac-md/random_screen/SIK3/pose010/prod/prod.tpr",
+    "tpr_sha256": "b22fce3380932c7aff559bf23a1959d04db72e5df2dfc7eb71e5d51b602e19db"
+  },
+  {
+    "poi": "SIK3",
+    "pose_id": "pose011",
+    "proteins": [
+      {
+        "uniprot": "Q15370",
+        "identity": 1.0,
+        "observed_CA_coverage": 1.0,
+        "canonical_first": 1,
+        "canonical_last": 103,
+        "moltype": "Protein_chain_A",
+        "CA_atoms": 101
+      },
+      {
+        "uniprot": "Q15369",
+        "identity": 1.0,
+        "observed_CA_coverage": 1.0,
+        "canonical_first": 17,
+        "canonical_last": 111,
+        "moltype": "Protein_chain_B",
+        "CA_atoms": 85
+      },
+      {
+        "uniprot": "P40337",
+        "identity": 1.0,
+        "observed_CA_coverage": 1.0,
+        "canonical_first": 62,
+        "canonical_last": 202,
+        "moltype": "Protein_chain_C",
+        "CA_atoms": 140
+      },
+      {
+        "uniprot": "Q9Y2K2",
+        "identity": 1.0,
+        "observed_CA_coverage": 1.0,
+        "canonical_first": 86,
+        "canonical_last": 326,
+        "moltype": "Protein_chain_D",
+        "CA_atoms": 241
+      }
+    ],
+    "tpr": "/home/ayushregmibagale/protac-md/random_screen/SIK3/pose011/prod/prod.tpr",
+    "tpr_sha256": "fecc70481e6da93a8132de91942a09dd86730a86037b08f6c49cac2ac3e44bed"
+  },
+  {
+    "poi": "SIK3",
+    "pose_id": "pose012",
+    "proteins": [
+      {
+        "uniprot": "Q15370",
+        "identity": 1.0,
+        "observed_CA_coverage": 1.0,
+        "canonical_first": 1,
+        "canonical_last": 103,
+        "moltype": "Protein_chain_A",
+        "CA_atoms": 101
+      },
+      {
+        "uniprot": "Q15369",
+        "identity": 1.0,
+        "observed_CA_coverage": 1.0,
+        "canonical_first": 17,
+        "canonical_last": 111,
+        "moltype": "Protein_chain_B",
+        "CA_atoms": 85
+      },
+      {
+        "uniprot": "P40337",
+        "identity": 1.0,
+        "observed_CA_coverage": 1.0,
+        "canonical_first": 62,
+        "canonical_last": 202,
+        "moltype": "Protein_chain_C",
+        "CA_atoms": 140
+      },
+      {
+        "uniprot": "Q9Y2K2",
+        "identity": 1.0,
+        "observed_CA_coverage": 1.0,
+        "canonical_first": 86,
+        "canonical_last": 326,
+        "moltype": "Protein_chain_D",
+        "CA_atoms": 241
+      }
+    ],
+    "tpr": "/home/ayushregmibagale/protac-md/random_screen/SIK3/pose012/prod/prod.tpr",
+    "tpr_sha256": "73b9fd50fb9e9504cbf76a5a3cf63d35dddad4f73ce4271cf144e724f59eebc0"
+  },
+  {
+    "poi": "SIK3",
+    "pose_id": "pose013",
+    "proteins": [
+      {
+        "uniprot": "Q15370",
+        "identity": 1.0,
+        "observed_CA_coverage": 1.0,
+        "canonical_first": 1,
+        "canonical_last": 103,
+        "moltype": "Protein_chain_A",
+        "CA_atoms": 101
+      },
+      {
+        "uniprot": "Q15369",
+        "identity": 1.0,
+        "observed_CA_coverage": 1.0,
+        "canonical_first": 17,
+        "canonical_last": 111,
+        "moltype": "Protein_chain_B",
+        "CA_atoms": 85
+      },
+      {
+        "uniprot": "P40337",
+        "identity": 1.0,
+        "observed_CA_coverage": 1.0,
+        "canonical_first": 62,
+        "canonical_last": 202,
+        "moltype": "Protein_chain_C",
+        "CA_atoms": 140
+      },
+      {
+        "uniprot": "Q9Y2K2",
+        "identity": 1.0,
+        "observed_CA_coverage": 1.0,
+        "canonical_first": 86,
+        "canonical_last": 326,
+        "moltype": "Protein_chain_D",
+        "CA_atoms": 241
+      }
+    ],
+    "tpr": "/home/ayushregmibagale/protac-md/random_screen/SIK3/pose013/prod/prod.tpr",
+    "tpr_sha256": "a20722c627759b3fc13209ea41fc70615b968c231d759b1156a5f25f74d22f03"
+  },
+  {
+    "poi": "SIK3",
+    "pose_id": "pose014",
+    "proteins": [
+      {
+        "uniprot": "Q15370",
+        "identity": 1.0,
+        "observed_CA_coverage": 1.0,
+        "canonical_first": 1,
+        "canonical_last": 103,
+        "moltype": "Protein_chain_A",
+        "CA_atoms": 101
+      },
+      {
+        "uniprot": "Q15369",
+        "identity": 1.0,
+        "observed_CA_coverage": 1.0,
+        "canonical_first": 17,
+        "canonical_last": 111,
+        "moltype": "Protein_chain_B",
+        "CA_atoms": 85
+      },
+      {
+        "uniprot": "P40337",
+        "identity": 1.0,
+        "observed_CA_coverage": 1.0,
+        "canonical_first": 62,
+        "canonical_last": 202,
+        "moltype": "Protein_chain_C",
+        "CA_atoms": 140
+      },
+      {
+        "uniprot": "Q9Y2K2",
+        "identity": 1.0,
+        "observed_CA_coverage": 1.0,
+        "canonical_first": 86,
+        "canonical_last": 326,
+        "moltype": "Protein_chain_D",
+        "CA_atoms": 241
+      }
+    ],
+    "tpr": "/home/ayushregmibagale/protac-md/random_screen/SIK3/pose014/prod/prod.tpr",
+    "tpr_sha256": "ab47dae202e0a841fcda95cce8939491a04e3e795b9d95682bf8df102314b426"
+  },
+  {
+    "poi": "SIK3",
+    "pose_id": "pose015",
+    "proteins": [
+      {
+        "uniprot": "Q15370",
+        "identity": 1.0,
+        "observed_CA_coverage": 1.0,
+        "canonical_first": 1,
+        "canonical_last": 103,
+        "moltype": "Protein_chain_A",
+        "CA_atoms": 101
+      },
+      {
+        "uniprot": "Q15369",
+        "identity": 1.0,
+        "observed_CA_coverage": 1.0,
+        "canonical_first": 17,
+        "canonical_last": 111,
+        "moltype": "Protein_chain_B",
+        "CA_atoms": 85
+      },
+      {
+        "uniprot": "P40337",
+        "identity": 1.0,
+        "observed_CA_coverage": 1.0,
+        "canonical_first": 62,
+        "canonical_last": 202,
+        "moltype": "Protein_chain_C",
+        "CA_atoms": 140
+      },
+      {
+        "uniprot": "Q9Y2K2",
+        "identity": 1.0,
+        "observed_CA_coverage": 1.0,
+        "canonical_first": 86,
+        "canonical_last": 326,
+        "moltype": "Protein_chain_D",
+        "CA_atoms": 241
+      }
+    ],
+    "tpr": "/home/ayushregmibagale/protac-md/random_screen/SIK3/pose015/prod/prod.tpr",
+    "tpr_sha256": "9ca4ab527949ad94fb3993b0f015ec59f2343e0f4af376a900b7caf1bf59bbff"
+  },
+  {
+    "poi": "SIK3",
+    "pose_id": "pose016",
+    "proteins": [
+      {
+        "uniprot": "Q15370",
+        "identity": 1.0,
+        "observed_CA_coverage": 1.0,
+        "canonical_first": 1,
+        "canonical_last": 103,
+        "moltype": "Protein_chain_A",
+        "CA_atoms": 101
+      },
+      {
+        "uniprot": "Q15369",
+        "identity": 1.0,
+        "observed_CA_coverage": 1.0,
+        "canonical_first": 17,
+        "canonical_last": 111,
+        "moltype": "Protein_chain_B",
+        "CA_atoms": 85
+      },
+      {
+        "uniprot": "P40337",
+        "identity": 1.0,
+        "observed_CA_coverage": 1.0,
+        "canonical_first": 62,
+        "canonical_last": 202,
+        "moltype": "Protein_chain_C",
+        "CA_atoms": 140
+      },
+      {
+        "uniprot": "Q9Y2K2",
+        "identity": 1.0,
+        "observed_CA_coverage": 1.0,
+        "canonical_first": 86,
+        "canonical_last": 326,
+        "moltype": "Protein_chain_D",
+        "CA_atoms": 241
+      }
+    ],
+    "tpr": "/home/ayushregmibagale/protac-md/random_screen/SIK3/pose016/prod/prod.tpr",
+    "tpr_sha256": "f97ea2c47cf019527069b21268e4588f189f6df12c100b6e83aee2f879f38692"
+  },
+  {
+    "poi": "SIK3",
+    "pose_id": "pose017",
+    "proteins": [
+      {
+        "uniprot": "Q15370",
+        "identity": 1.0,
+        "observed_CA_coverage": 1.0,
+        "canonical_first": 1,
+        "canonical_last": 103,
+        "moltype": "Protein_chain_A",
+        "CA_atoms": 101
+      },
+      {
+        "uniprot": "Q15369",
+        "identity": 1.0,
+        "observed_CA_coverage": 1.0,
+        "canonical_first": 17,
+        "canonical_last": 111,
+        "moltype": "Protein_chain_B",
+        "CA_atoms": 85
+      },
+      {
+        "uniprot": "P40337",
+        "identity": 1.0,
+        "observed_CA_coverage": 1.0,
+        "canonical_first": 62,
+        "canonical_last": 202,
+        "moltype": "Protein_chain_C",
+        "CA_atoms": 140
+      },
+      {
+        "uniprot": "Q9Y2K2",
+        "identity": 1.0,
+        "observed_CA_coverage": 1.0,
+        "canonical_first": 86,
+        "canonical_last": 326,
+        "moltype": "Protein_chain_D",
+        "CA_atoms": 241
+      }
+    ],
+    "tpr": "/home/ayushregmibagale/protac-md/random_screen/SIK3/pose017/prod/prod.tpr",
+    "tpr_sha256": "a79b9966b6d589ba620a22dc945976993b4f0a69be13dd0f895d384eaac7e951"
+  },
+  {
+    "poi": "SIK3",
+    "pose_id": "pose019",
+    "proteins": [
+      {
+        "uniprot": "Q15370",
+        "identity": 1.0,
+        "observed_CA_coverage": 1.0,
+        "canonical_first": 1,
+        "canonical_last": 103,
+        "moltype": "Protein_chain_A",
+        "CA_atoms": 101
+      },
+      {
+        "uniprot": "Q15369",
+        "identity": 1.0,
+        "observed_CA_coverage": 1.0,
+        "canonical_first": 17,
+        "canonical_last": 111,
+        "moltype": "Protein_chain_B",
+        "CA_atoms": 85
+      },
+      {
+        "uniprot": "P40337",
+        "identity": 1.0,
+        "observed_CA_coverage": 1.0,
+        "canonical_first": 62,
+        "canonical_last": 202,
+        "moltype": "Protein_chain_C",
+        "CA_atoms": 140
+      },
+      {
+        "uniprot": "Q9Y2K2",
+        "identity": 1.0,
+        "observed_CA_coverage": 1.0,
+        "canonical_first": 86,
+        "canonical_last": 326,
+        "moltype": "Protein_chain_D",
+        "CA_atoms": 241
+      }
+    ],
+    "tpr": "/home/ayushregmibagale/protac-md/random_screen/SIK3/pose019/prod/prod.tpr",
+    "tpr_sha256": "8d6e987d348f2aa970ab3207b7957ddb2fe948a21ccbed6c676c380061661490"
+  },
+  {
+    "poi": "SIK3",
+    "pose_id": "pose020",
+    "proteins": [
+      {
+        "uniprot": "Q15370",
+        "identity": 1.0,
+        "observed_CA_coverage": 1.0,
+        "canonical_first": 1,
+        "canonical_last": 103,
+        "moltype": "Protein_chain_A",
+        "CA_atoms": 101
+      },
+      {
+        "uniprot": "Q15369",
+        "identity": 1.0,
+        "observed_CA_coverage": 1.0,
+        "canonical_first": 17,
+        "canonical_last": 111,
+        "moltype": "Protein_chain_B",
+        "CA_atoms": 85
+      },
+      {
+        "uniprot": "P40337",
+        "identity": 1.0,
+        "observed_CA_coverage": 1.0,
+        "canonical_first": 62,
+        "canonical_last": 202,
+        "moltype": "Protein_chain_C",
+        "CA_atoms": 140
+      },
+      {
+        "uniprot": "Q9Y2K2",
+        "identity": 1.0,
+        "observed_CA_coverage": 1.0,
+        "canonical_first": 86,
+        "canonical_last": 326,
+        "moltype": "Protein_chain_D",
+        "CA_atoms": 241
+      }
+    ],
+    "tpr": "/home/ayushregmibagale/protac-md/random_screen/SIK3/pose020/prod/prod.tpr",
+    "tpr_sha256": "66209669fd82bc074184947c50ea4926331d5da9ac26419cd6b7db447824af30"
+  },
+  {
+    "poi": "RPS6KB2",
+    "pose_id": "pose001",
+    "proteins": [
+      {
+        "uniprot": "Q15370",
+        "identity": 1.0,
+        "observed_CA_coverage": 1.0,
+        "canonical_first": 1,
+        "canonical_last": 103,
+        "moltype": "Protein_chain_A",
+        "CA_atoms": 101
+      },
+      {
+        "uniprot": "Q15369",
+        "identity": 1.0,
+        "observed_CA_coverage": 1.0,
+        "canonical_first": 17,
+        "canonical_last": 111,
+        "moltype": "Protein_chain_B",
+        "CA_atoms": 85
+      },
+      {
+        "uniprot": "P40337",
+        "identity": 1.0,
+        "observed_CA_coverage": 1.0,
+        "canonical_first": 62,
+        "canonical_last": 202,
+        "moltype": "Protein_chain_C",
+        "CA_atoms": 140
+      },
+      {
+        "uniprot": "Q9UBS0",
+        "identity": 1.0,
+        "observed_CA_coverage": 1.0,
+        "canonical_first": 92,
+        "canonical_last": 332,
+        "moltype": "Protein_chain_D",
+        "CA_atoms": 241
+      }
+    ],
+    "tpr": "/home/ayushregmibagale/protac-md/random_screen/RPS6KB2/pose001/prod/prod.tpr",
+    "tpr_sha256": "f26329429e9e91ed68bd6f4bf4087ff5824a8577802493277b62acdc7f0d2253"
+  },
+  {
+    "poi": "RPS6KB2",
+    "pose_id": "pose002",
+    "proteins": [
+      {
+        "uniprot": "Q15370",
+        "identity": 1.0,
+        "observed_CA_coverage": 1.0,
+        "canonical_first": 1,
+        "canonical_last": 103,
+        "moltype": "Protein_chain_A",
+        "CA_atoms": 101
+      },
+      {
+        "uniprot": "Q15369",
+        "identity": 1.0,
+        "observed_CA_coverage": 1.0,
+        "canonical_first": 17,
+        "canonical_last": 111,
+        "moltype": "Protein_chain_B",
+        "CA_atoms": 85
+      },
+      {
+        "uniprot": "P40337",
+        "identity": 1.0,
+        "observed_CA_coverage": 1.0,
+        "canonical_first": 62,
+        "canonical_last": 202,
+        "moltype": "Protein_chain_C",
+        "CA_atoms": 140
+      },
+      {
+        "uniprot": "Q9UBS0",
+        "identity": 1.0,
+        "observed_CA_coverage": 1.0,
+        "canonical_first": 92,
+        "canonical_last": 332,
+        "moltype": "Protein_chain_D",
+        "CA_atoms": 241
+      }
+    ],
+    "tpr": "/home/ayushregmibagale/protac-md/random_screen/RPS6KB2/pose002/prod/prod.tpr",
+    "tpr_sha256": "f7e96a0d0403049294a608f3c2edda3d98b8f9fe1ed1ff5d1141bedea196b86d"
+  },
+  {
+    "poi": "RPS6KB2",
+    "pose_id": "pose003",
+    "proteins": [
+      {
+        "uniprot": "Q15370",
+        "identity": 1.0,
+        "observed_CA_coverage": 1.0,
+        "canonical_first": 1,
+        "canonical_last": 103,
+        "moltype": "Protein_chain_A",
+        "CA_atoms": 101
+      },
+      {
+        "uniprot": "Q15369",
+        "identity": 1.0,
+        "observed_CA_coverage": 1.0,
+        "canonical_first": 17,
+        "canonical_last": 111,
+        "moltype": "Protein_chain_B",
+        "CA_atoms": 85
+      },
+      {
+        "uniprot": "P40337",
+        "identity": 1.0,
+        "observed_CA_coverage": 1.0,
+        "canonical_first": 62,
+        "canonical_last": 202,
+        "moltype": "Protein_chain_C",
+        "CA_atoms": 140
+      },
+      {
+        "uniprot": "Q9UBS0",
+        "identity": 1.0,
+        "observed_CA_coverage": 1.0,
+        "canonical_first": 92,
+        "canonical_last": 332,
+        "moltype": "Protein_chain_D",
+        "CA_atoms": 241
+      }
+    ],
+    "tpr": "/home/ayushregmibagale/protac-md/random_screen/RPS6KB2/pose003/prod/prod.tpr",
+    "tpr_sha256": "0420bb02f2a92808ef37c18b3fb4090d4ff7552ad350013acbc31614956a15d8"
+  },
+  {
+    "poi": "RPS6KB2",
+    "pose_id": "pose004",
+    "proteins": [
+      {
+        "uniprot": "Q15370",
+        "identity": 1.0,
+        "observed_CA_coverage": 1.0,
+        "canonical_first": 1,
+        "canonical_last": 103,
+        "moltype": "Protein_chain_A",
+        "CA_atoms": 101
+      },
+      {
+        "uniprot": "Q15369",
+        "identity": 1.0,
+        "observed_CA_coverage": 1.0,
+        "canonical_first": 17,
+        "canonical_last": 111,
+        "moltype": "Protein_chain_B",
+        "CA_atoms": 85
+      },
+      {
+        "uniprot": "P40337",
+        "identity": 1.0,
+        "observed_CA_coverage": 1.0,
+        "canonical_first": 62,
+        "canonical_last": 202,
+        "moltype": "Protein_chain_C",
+        "CA_atoms": 140
+      },
+      {
+        "uniprot": "Q9UBS0",
+        "identity": 1.0,
+        "observed_CA_coverage": 1.0,
+        "canonical_first": 92,
+        "canonical_last": 332,
+        "moltype": "Protein_chain_D",
+        "CA_atoms": 241
+      }
+    ],
+    "tpr": "/home/ayushregmibagale/protac-md/random_screen/RPS6KB2/pose004/prod/prod.tpr",
+    "tpr_sha256": "d380ca5e3d286e04829d8074b8a57560fc8216afe347d458e286065fd3947370"
+  },
+  {
+    "poi": "RPS6KB2",
+    "pose_id": "pose005",
+    "proteins": [
+      {
+        "uniprot": "Q15370",
+        "identity": 1.0,
+        "observed_CA_coverage": 1.0,
+        "canonical_first": 1,
+        "canonical_last": 103,
+        "moltype": "Protein_chain_A",
+        "CA_atoms": 101
+      },
+      {
+        "uniprot": "Q15369",
+        "identity": 1.0,
+        "observed_CA_coverage": 1.0,
+        "canonical_first": 17,
+        "canonical_last": 111,
+        "moltype": "Protein_chain_B",
+        "CA_atoms": 85
+      },
+      {
+        "uniprot": "P40337",
+        "identity": 1.0,
+        "observed_CA_coverage": 1.0,
+        "canonical_first": 62,
+        "canonical_last": 202,
+        "moltype": "Protein_chain_C",
+        "CA_atoms": 140
+      },
+      {
+        "uniprot": "Q9UBS0",
+        "identity": 1.0,
+        "observed_CA_coverage": 1.0,
+        "canonical_first": 92,
+        "canonical_last": 332,
+        "moltype": "Protein_chain_D",
+        "CA_atoms": 241
+      }
+    ],
+    "tpr": "/home/ayushregmibagale/protac-md/random_screen/RPS6KB2/pose005/prod/prod.tpr",
+    "tpr_sha256": "aa27546f4a99cbe28bb5bd8c5d794a079abe2f397fc888160222f2452baf5a45"
+  },
+  {
+    "poi": "RPS6KB2",
+    "pose_id": "pose006",
+    "proteins": [
+      {
+        "uniprot": "Q15370",
+        "identity": 1.0,
+        "observed_CA_coverage": 1.0,
+        "canonical_first": 1,
+        "canonical_last": 103,
+        "moltype": "Protein_chain_A",
+        "CA_atoms": 101
+      },
+      {
+        "uniprot": "Q15369",
+        "identity": 1.0,
+        "observed_CA_coverage": 1.0,
+        "canonical_first": 17,
+        "canonical_last": 111,
+        "moltype": "Protein_chain_B",
+        "CA_atoms": 85
+      },
+      {
+        "uniprot": "P40337",
+        "identity": 1.0,
+        "observed_CA_coverage": 1.0,
+        "canonical_first": 62,
+        "canonical_last": 202,
+        "moltype": "Protein_chain_C",
+        "CA_atoms": 140
+      },
+      {
+        "uniprot": "Q9UBS0",
+        "identity": 1.0,
+        "observed_CA_coverage": 1.0,
+        "canonical_first": 92,
+        "canonical_last": 332,
+        "moltype": "Protein_chain_D",
+        "CA_atoms": 241
+      }
+    ],
+    "tpr": "/home/ayushregmibagale/protac-md/random_screen/RPS6KB2/pose006/prod/prod.tpr",
+    "tpr_sha256": "f8cc1421936007c813762c1633ec4aed0471a108cf90765e5e216ce4f9541c21"
+  },
+  {
+    "poi": "RPS6KB2",
+    "pose_id": "pose008",
+    "proteins": [
+      {
+        "uniprot": "Q15370",
+        "identity": 1.0,
+        "observed_CA_coverage": 1.0,
+        "canonical_first": 1,
+        "canonical_last": 103,
+        "moltype": "Protein_chain_A",
+        "CA_atoms": 101
+      },
+      {
+        "uniprot": "Q15369",
+        "identity": 1.0,
+        "observed_CA_coverage": 1.0,
+        "canonical_first": 17,
+        "canonical_last": 111,
+        "moltype": "Protein_chain_B",
+        "CA_atoms": 85
+      },
+      {
+        "uniprot": "P40337",
+        "identity": 1.0,
+        "observed_CA_coverage": 1.0,
+        "canonical_first": 62,
+        "canonical_last": 202,
+        "moltype": "Protein_chain_C",
+        "CA_atoms": 140
+      },
+      {
+        "uniprot": "Q9UBS0",
+        "identity": 1.0,
+        "observed_CA_coverage": 1.0,
+        "canonical_first": 92,
+        "canonical_last": 332,
+        "moltype": "Protein_chain_D",
+        "CA_atoms": 241
+      }
+    ],
+    "tpr": "/home/ayushregmibagale/protac-md/random_screen/RPS6KB2/pose008/prod/prod.tpr",
+    "tpr_sha256": "198ff470a2967afb06ed69957728a7976100aa3ba8ab5520233332e173dcb56c"
+  },
+  {
+    "poi": "RPS6KB2",
+    "pose_id": "pose009",
+    "proteins": [
+      {
+        "uniprot": "Q15370",
+        "identity": 1.0,
+        "observed_CA_coverage": 1.0,
+        "canonical_first": 1,
+        "canonical_last": 103,
+        "moltype": "Protein_chain_A",
+        "CA_atoms": 101
+      },
+      {
+        "uniprot": "Q15369",
+        "identity": 1.0,
+        "observed_CA_coverage": 1.0,
+        "canonical_first": 17,
+        "canonical_last": 111,
+        "moltype": "Protein_chain_B",
+        "CA_atoms": 85
+      },
+      {
+        "uniprot": "P40337",
+        "identity": 1.0,
+        "observed_CA_coverage": 1.0,
+        "canonical_first": 62,
+        "canonical_last": 202,
+        "moltype": "Protein_chain_C",
+        "CA_atoms": 140
+      },
+      {
+        "uniprot": "Q9UBS0",
+        "identity": 1.0,
+        "observed_CA_coverage": 1.0,
+        "canonical_first": 92,
+        "canonical_last": 332,
+        "moltype": "Protein_chain_D",
+        "CA_atoms": 241
+      }
+    ],
+    "tpr": "/home/ayushregmibagale/protac-md/random_screen/RPS6KB2/pose009/prod/prod.tpr",
+    "tpr_sha256": "06e500c18108c086123401754cfecbba4986c283c16bfb6a95b6cd9ad4b147d3"
+  },
+  {
+    "poi": "RPS6KB2",
+    "pose_id": "pose010",
+    "proteins": [
+      {
+        "uniprot": "Q15370",
+        "identity": 1.0,
+        "observed_CA_coverage": 1.0,
+        "canonical_first": 1,
+        "canonical_last": 103,
+        "moltype": "Protein_chain_A",
+        "CA_atoms": 101
+      },
+      {
+        "uniprot": "Q15369",
+        "identity": 1.0,
+        "observed_CA_coverage": 1.0,
+        "canonical_first": 17,
+        "canonical_last": 111,
+        "moltype": "Protein_chain_B",
+        "CA_atoms": 85
+      },
+      {
+        "uniprot": "P40337",
+        "identity": 1.0,
+        "observed_CA_coverage": 1.0,
+        "canonical_first": 62,
+        "canonical_last": 202,
+        "moltype": "Protein_chain_C",
+        "CA_atoms": 140
+      },
+      {
+        "uniprot": "Q9UBS0",
+        "identity": 1.0,
+        "observed_CA_coverage": 1.0,
+        "canonical_first": 92,
+        "canonical_last": 332,
+        "moltype": "Protein_chain_D",
+        "CA_atoms": 241
+      }
+    ],
+    "tpr": "/home/ayushregmibagale/protac-md/random_screen/RPS6KB2/pose010/prod/prod.tpr",
+    "tpr_sha256": "0cd1a78d3bdfc22e8d37b8e23a5ea23f85c2688f30ef995a815c6f2f3b02b455"
+  },
+  {
+    "poi": "RPS6KB2",
+    "pose_id": "pose011",
+    "proteins": [
+      {
+        "uniprot": "Q15370",
+        "identity": 1.0,
+        "observed_CA_coverage": 1.0,
+        "canonical_first": 1,
+        "canonical_last": 103,
+        "moltype": "Protein_chain_A",
+        "CA_atoms": 101
+      },
+      {
+        "uniprot": "Q15369",
+        "identity": 1.0,
+        "observed_CA_coverage": 1.0,
+        "canonical_first": 17,
+        "canonical_last": 111,
+        "moltype": "Protein_chain_B",
+        "CA_atoms": 85
+      },
+      {
+        "uniprot": "P40337",
+        "identity": 1.0,
+        "observed_CA_coverage": 1.0,
+        "canonical_first": 62,
+        "canonical_last": 202,
+        "moltype": "Protein_chain_C",
+        "CA_atoms": 140
+      },
+      {
+        "uniprot": "Q9UBS0",
+        "identity": 1.0,
+        "observed_CA_coverage": 1.0,
+        "canonical_first": 92,
+        "canonical_last": 332,
+        "moltype": "Protein_chain_D",
+        "CA_atoms": 241
+      }
+    ],
+    "tpr": "/home/ayushregmibagale/protac-md/random_screen/RPS6KB2/pose011/prod/prod.tpr",
+    "tpr_sha256": "a2fefc857cc963e2b58e599043902b5d59c4cce11483762e80cf9ab2a8ade900"
+  },
+  {
+    "poi": "RPS6KB2",
+    "pose_id": "pose012",
+    "proteins": [
+      {
+        "uniprot": "Q15370",
+        "identity": 1.0,
+        "observed_CA_coverage": 1.0,
+        "canonical_first": 1,
+        "canonical_last": 103,
+        "moltype": "Protein_chain_A",
+        "CA_atoms": 101
+      },
+      {
+        "uniprot": "Q15369",
+        "identity": 1.0,
+        "observed_CA_coverage": 1.0,
+        "canonical_first": 17,
+        "canonical_last": 111,
+        "moltype": "Protein_chain_B",
+        "CA_atoms": 85
+      },
+      {
+        "uniprot": "P40337",
+        "identity": 1.0,
+        "observed_CA_coverage": 1.0,
+        "canonical_first": 62,
+        "canonical_last": 202,
+        "moltype": "Protein_chain_C",
+        "CA_atoms": 140
+      },
+      {
+        "uniprot": "Q9UBS0",
+        "identity": 1.0,
+        "observed_CA_coverage": 1.0,
+        "canonical_first": 92,
+        "canonical_last": 332,
+        "moltype": "Protein_chain_D",
+        "CA_atoms": 241
+      }
+    ],
+    "tpr": "/home/ayushregmibagale/protac-md/random_screen/RPS6KB2/pose012/prod/prod.tpr",
+    "tpr_sha256": "2b6c8980565c57b2b1f229a0da2f40949a7f27766c82755bbc174961548daa38"
+  },
+  {
+    "poi": "RPS6KB2",
+    "pose_id": "pose013",
+    "proteins": [
+      {
+        "uniprot": "Q15370",
+        "identity": 1.0,
+        "observed_CA_coverage": 1.0,
+        "canonical_first": 1,
+        "canonical_last": 103,
+        "moltype": "Protein_chain_A",
+        "CA_atoms": 101
+      },
+      {
+        "uniprot": "Q15369",
+        "identity": 1.0,
+        "observed_CA_coverage": 1.0,
+        "canonical_first": 17,
+        "canonical_last": 111,
+        "moltype": "Protein_chain_B",
+        "CA_atoms": 85
+      },
+      {
+        "uniprot": "P40337",
+        "identity": 1.0,
+        "observed_CA_coverage": 1.0,
+        "canonical_first": 62,
+        "canonical_last": 202,
+        "moltype": "Protein_chain_C",
+        "CA_atoms": 140
+      },
+      {
+        "uniprot": "Q9UBS0",
+        "identity": 1.0,
+        "observed_CA_coverage": 1.0,
+        "canonical_first": 92,
+        "canonical_last": 332,
+        "moltype": "Protein_chain_D",
+        "CA_atoms": 241
+      }
+    ],
+    "tpr": "/home/ayushregmibagale/protac-md/random_screen/RPS6KB2/pose013/prod/prod.tpr",
+    "tpr_sha256": "fde44a558168448ad24bf023ceadc6eeba46d3050284ec1eedd19aad3d917a73"
+  },
+  {
+    "poi": "RPS6KB2",
+    "pose_id": "pose014",
+    "proteins": [
+      {
+        "uniprot": "Q15370",
+        "identity": 1.0,
+        "observed_CA_coverage": 1.0,
+        "canonical_first": 1,
+        "canonical_last": 103,
+        "moltype": "Protein_chain_A",
+        "CA_atoms": 101
+      },
+      {
+        "uniprot": "Q15369",
+        "identity": 1.0,
+        "observed_CA_coverage": 1.0,
+        "canonical_first": 17,
+        "canonical_last": 111,
+        "moltype": "Protein_chain_B",
+        "CA_atoms": 85
+      },
+      {
+        "uniprot": "P40337",
+        "identity": 1.0,
+        "observed_CA_coverage": 1.0,
+        "canonical_first": 62,
+        "canonical_last": 202,
+        "moltype": "Protein_chain_C",
+        "CA_atoms": 140
+      },
+      {
+        "uniprot": "Q9UBS0",
+        "identity": 1.0,
+        "observed_CA_coverage": 1.0,
+        "canonical_first": 92,
+        "canonical_last": 332,
+        "moltype": "Protein_chain_D",
+        "CA_atoms": 241
+      }
+    ],
+    "tpr": "/home/ayushregmibagale/protac-md/random_screen/RPS6KB2/pose014/prod/prod.tpr",
+    "tpr_sha256": "13918c71d3b8aca5b1abace5730b0e884c6a2fced1282620e78d1b83f9781713"
+  },
+  {
+    "poi": "RPS6KB2",
+    "pose_id": "pose015",
+    "proteins": [
+      {
+        "uniprot": "Q15370",
+        "identity": 1.0,
+        "observed_CA_coverage": 1.0,
+        "canonical_first": 1,
+        "canonical_last": 103,
+        "moltype": "Protein_chain_A",
+        "CA_atoms": 101
+      },
+      {
+        "uniprot": "Q15369",
+        "identity": 1.0,
+        "observed_CA_coverage": 1.0,
+        "canonical_first": 17,
+        "canonical_last": 111,
+        "moltype": "Protein_chain_B",
+        "CA_atoms": 85
+      },
+      {
+        "uniprot": "P40337",
+        "identity": 1.0,
+        "observed_CA_coverage": 1.0,
+        "canonical_first": 62,
+        "canonical_last": 202,
+        "moltype": "Protein_chain_C",
+        "CA_atoms": 140
+      },
+      {
+        "uniprot": "Q9UBS0",
+        "identity": 1.0,
+        "observed_CA_coverage": 1.0,
+        "canonical_first": 92,
+        "canonical_last": 332,
+        "moltype": "Protein_chain_D",
+        "CA_atoms": 241
+      }
+    ],
+    "tpr": "/home/ayushregmibagale/protac-md/random_screen/RPS6KB2/pose015/prod/prod.tpr",
+    "tpr_sha256": "3505f7c0a62349d358176dc0ca3fbb730af09dcb14c12169352fe5a784d324bb"
+  },
+  {
+    "poi": "RPS6KB2",
+    "pose_id": "pose017",
+    "proteins": [
+      {
+        "uniprot": "Q15370",
+        "identity": 1.0,
+        "observed_CA_coverage": 1.0,
+        "canonical_first": 1,
+        "canonical_last": 103,
+        "moltype": "Protein_chain_A",
+        "CA_atoms": 101
+      },
+      {
+        "uniprot": "Q15369",
+        "identity": 1.0,
+        "observed_CA_coverage": 1.0,
+        "canonical_first": 17,
+        "canonical_last": 111,
+        "moltype": "Protein_chain_B",
+        "CA_atoms": 85
+      },
+      {
+        "uniprot": "P40337",
+        "identity": 1.0,
+        "observed_CA_coverage": 1.0,
+        "canonical_first": 62,
+        "canonical_last": 202,
+        "moltype": "Protein_chain_C",
+        "CA_atoms": 140
+      },
+      {
+        "uniprot": "Q9UBS0",
+        "identity": 1.0,
+        "observed_CA_coverage": 1.0,
+        "canonical_first": 92,
+        "canonical_last": 332,
+        "moltype": "Protein_chain_D",
+        "CA_atoms": 241
+      }
+    ],
+    "tpr": "/home/ayushregmibagale/protac-md/random_screen/RPS6KB2/pose017/prod/prod.tpr",
+    "tpr_sha256": "037e9bed53532426f2da52aeca0f55b9b70c155f8ecdfd84079f3d0e9374a31b"
+  },
+  {
+    "poi": "RPS6KB2",
+    "pose_id": "pose018",
+    "proteins": [
+      {
+        "uniprot": "Q15370",
+        "identity": 1.0,
+        "observed_CA_coverage": 1.0,
+        "canonical_first": 1,
+        "canonical_last": 103,
+        "moltype": "Protein_chain_A",
+        "CA_atoms": 101
+      },
+      {
+        "uniprot": "Q15369",
+        "identity": 1.0,
+        "observed_CA_coverage": 1.0,
+        "canonical_first": 17,
+        "canonical_last": 111,
+        "moltype": "Protein_chain_B",
+        "CA_atoms": 85
+      },
+      {
+        "uniprot": "P40337",
+        "identity": 1.0,
+        "observed_CA_coverage": 1.0,
+        "canonical_first": 62,
+        "canonical_last": 202,
+        "moltype": "Protein_chain_C",
+        "CA_atoms": 140
+      },
+      {
+        "uniprot": "Q9UBS0",
+        "identity": 1.0,
+        "observed_CA_coverage": 1.0,
+        "canonical_first": 92,
+        "canonical_last": 332,
+        "moltype": "Protein_chain_D",
+        "CA_atoms": 241
+      }
+    ],
+    "tpr": "/home/ayushregmibagale/protac-md/random_screen/RPS6KB2/pose018/prod/prod.tpr",
+    "tpr_sha256": "30edf921a835a1a0efff3160b401d6b9aefc4e46047b746981a79aa68b40e650"
+  },
+  {
+    "poi": "RPS6KB2",
+    "pose_id": "pose019",
+    "proteins": [
+      {
+        "uniprot": "Q15370",
+        "identity": 1.0,
+        "observed_CA_coverage": 1.0,
+        "canonical_first": 1,
+        "canonical_last": 103,
+        "moltype": "Protein_chain_A",
+        "CA_atoms": 101
+      },
+      {
+        "uniprot": "Q15369",
+        "identity": 1.0,
+        "observed_CA_coverage": 1.0,
+        "canonical_first": 17,
+        "canonical_last": 111,
+        "moltype": "Protein_chain_B",
+        "CA_atoms": 85
+      },
+      {
+        "uniprot": "P40337",
+        "identity": 1.0,
+        "observed_CA_coverage": 1.0,
+        "canonical_first": 62,
+        "canonical_last": 202,
+        "moltype": "Protein_chain_C",
+        "CA_atoms": 140
+      },
+      {
+        "uniprot": "Q9UBS0",
+        "identity": 1.0,
+        "observed_CA_coverage": 1.0,
+        "canonical_first": 92,
+        "canonical_last": 332,
+        "moltype": "Protein_chain_D",
+        "CA_atoms": 241
+      }
+    ],
+    "tpr": "/home/ayushregmibagale/protac-md/random_screen/RPS6KB2/pose019/prod/prod.tpr",
+    "tpr_sha256": "bc8c0683035f94528ba279e93e116a69438b7b892b4579c02a5d74eebaf47c55"
+  },
+  {
+    "poi": "RPS6KB2",
+    "pose_id": "pose020",
+    "proteins": [
+      {
+        "uniprot": "Q15370",
+        "identity": 1.0,
+        "observed_CA_coverage": 1.0,
+        "canonical_first": 1,
+        "canonical_last": 103,
+        "moltype": "Protein_chain_A",
+        "CA_atoms": 101
+      },
+      {
+        "uniprot": "Q15369",
+        "identity": 1.0,
+        "observed_CA_coverage": 1.0,
+        "canonical_first": 17,
+        "canonical_last": 111,
+        "moltype": "Protein_chain_B",
+        "CA_atoms": 85
+      },
+      {
+        "uniprot": "P40337",
+        "identity": 1.0,
+        "observed_CA_coverage": 1.0,
+        "canonical_first": 62,
+        "canonical_last": 202,
+        "moltype": "Protein_chain_C",
+        "CA_atoms": 140
+      },
+      {
+        "uniprot": "Q9UBS0",
+        "identity": 1.0,
+        "observed_CA_coverage": 1.0,
+        "canonical_first": 92,
+        "canonical_last": 332,
+        "moltype": "Protein_chain_D",
+        "CA_atoms": 241
+      }
+    ],
+    "tpr": "/home/ayushregmibagale/protac-md/random_screen/RPS6KB2/pose020/prod/prod.tpr",
+    "tpr_sha256": "db5e5481e9be6c2e32b9431958bb539946749da80c18ea527fb14d8427f39f23"
+  }
+]

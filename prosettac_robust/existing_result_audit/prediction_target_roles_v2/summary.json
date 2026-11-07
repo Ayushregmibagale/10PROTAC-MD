@@ -1,0 +1,183 @@
+{
+  "status": "INCOMPLETE_ROLE_AUDIT",
+  "poses_requested": 33,
+  "poses_identified": 0,
+  "legacy_VHL_label_matches": 0,
+  "legacy_VHL_label_mismatches": 0,
+  "legacy_POI_matches": 0,
+  "failures": [
+    {
+      "poi": "SIK3",
+      "pose_id": "pose002",
+      "reason": "[Errno 2] No such file or directory: '/home/ayushregmibagale/protac-md/analysis/kinome_md/SIK3/pose002/index.ndx'"
+    },
+    {
+      "poi": "SIK3",
+      "pose_id": "pose003",
+      "reason": "[Errno 2] No such file or directory: '/home/ayushregmibagale/protac-md/analysis/kinome_md/SIK3/pose003/index.ndx'"
+    },
+    {
+      "poi": "SIK3",
+      "pose_id": "pose006",
+      "reason": "[Errno 2] No such file or directory: '/home/ayushregmibagale/protac-md/analysis/kinome_md/SIK3/pose006/index.ndx'"
+    },
+    {
+      "poi": "SIK3",
+      "pose_id": "pose008",
+      "reason": "[Errno 2] No such file or directory: '/home/ayushregmibagale/protac-md/analysis/kinome_md/SIK3/pose008/index.ndx'"
+    },
+    {
+      "poi": "SIK3",
+      "pose_id": "pose009",
+      "reason": "[Errno 2] No such file or directory: '/home/ayushregmibagale/protac-md/analysis/kinome_md/SIK3/pose009/index.ndx'"
+    },
+    {
+      "poi": "SIK3",
+      "pose_id": "pose010",
+      "reason": "[Errno 2] No such file or directory: '/home/ayushregmibagale/protac-md/analysis/kinome_md/SIK3/pose010/index.ndx'"
+    },
+    {
+      "poi": "SIK3",
+      "pose_id": "pose011",
+      "reason": "[Errno 2] No such file or directory: '/home/ayushregmibagale/protac-md/analysis/kinome_md/SIK3/pose011/index.ndx'"
+    },
+    {
+      "poi": "SIK3",
+      "pose_id": "pose012",
+      "reason": "[Errno 2] No such file or directory: '/home/ayushregmibagale/protac-md/analysis/kinome_md/SIK3/pose012/index.ndx'"
+    },
+    {
+      "poi": "SIK3",
+      "pose_id": "pose013",
+      "reason": "[Errno 2] No such file or directory: '/home/ayushregmibagale/protac-md/analysis/kinome_md/SIK3/pose013/index.ndx'"
+    },
+    {
+      "poi": "SIK3",
+      "pose_id": "pose014",
+      "reason": "[Errno 2] No such file or directory: '/home/ayushregmibagale/protac-md/analysis/kinome_md/SIK3/pose014/index.ndx'"
+    },
+    {
+      "poi": "SIK3",
+      "pose_id": "pose015",
+      "reason": "[Errno 2] No such file or directory: '/home/ayushregmibagale/protac-md/analysis/kinome_md/SIK3/pose015/index.ndx'"
+    },
+    {
+      "poi": "SIK3",
+      "pose_id": "pose016",
+      "reason": "[Errno 2] No such file or directory: '/home/ayushregmibagale/protac-md/analysis/kinome_md/SIK3/pose016/index.ndx'"
+    },
+    {
+      "poi": "SIK3",
+      "pose_id": "pose017",
+      "reason": "[Errno 2] No such file or directory: '/home/ayushregmibagale/protac-md/analysis/kinome_md/SIK3/pose017/index.ndx'"
+    },
+    {
+      "poi": "SIK3",
+      "pose_id": "pose019",
+      "reason": "[Errno 2] No such file or directory: '/home/ayushregmibagale/protac-md/analysis/kinome_md/SIK3/pose019/index.ndx'"
+    },
+    {
+      "poi": "SIK3",
+      "pose_id": "pose020",
+      "reason": "[Errno 2] No such file or directory: '/home/ayushregmibagale/protac-md/analysis/kinome_md/SIK3/pose020/index.ndx'"
+    },
+    {
+      "poi": "RPS6KB2",
+      "pose_id": "pose001",
+      "reason": "[Errno 2] No such file or directory: '/home/ayushregmibagale/protac-md/analysis/kinome_md/RPS6KB2/pose001/index.ndx'"
+    },
+    {
+      "poi": "RPS6KB2",
+      "pose_id": "pose002",
+      "reason": "[Errno 2] No such file or directory: '/home/ayushregmibagale/protac-md/analysis/kinome_md/RPS6KB2/pose002/index.ndx'"
+    },
+    {
+      "poi": "RPS6KB2",
+      "pose_id": "pose003",
+      "reason": "[Errno 2] No such file or directory: '/home/ayushregmibagale/protac-md/analysis/kinome_md/RPS6KB2/pose003/index.ndx'"
+    },
+    {
+      "poi": "RPS6KB2",
+      "pose_id": "pose004",
+      "reason": "[Errno 2] No such file or directory: '/home/ayushregmibagale/protac-md/analysis/kinome_md/RPS6KB2/pose004/index.ndx'"
+    },
+    {
+      "poi": "RPS6KB2",
+      "pose_id": "pose005",
+      "reason": "[Errno 2] No such file or directory: '/home/ayushregmibagale/protac-md/analysis/kinome_md/RPS6KB2/pose005/index.ndx'"
+    },
+    {
+      "poi": "RPS6KB2",
+      "pose_id": "pose006",
+      "reason": "[Errno 2] No such file or directory: '/home/ayushregmibagale/protac-md/analysis/kinome_md/RPS6KB2/pose006/index.ndx'"
+    },
+    {
+      "poi": "RPS6KB2",
+      "pose_id": "pose008",
+      "reason": "[Errno 2] No such file or directory: '/home/ayushregmibagale/protac-md/analysis/kinome_md/RPS6KB2/pose008/index.ndx'"
+    },
+    {
+      "poi": "RPS6KB2",
+      "pose_id": "pose009",
+      "reason": "[Errno 2] No such file or directory: '/home/ayushregmibagale/protac-md/analysis/kinome_md/RPS6KB2/pose009/index.ndx'"
+    },
+    {
+      "poi": "RPS6KB2",
+      "pose_id": "pose010",
+      "reason": "[Errno 2] No such file or directory: '/home/ayushregmibagale/protac-md/analysis/kinome_md/RPS6KB2/pose010/index.ndx'"
+    },
+    {
+      "poi": "RPS6KB2",
+      "pose_id": "pose011",
+      "reason": "[Errno 2] No such file or directory: '/home/ayushregmibagale/protac-md/analysis/kinome_md/RPS6KB2/pose011/index.ndx'"
+    },
+    {
+      "poi": "RPS6KB2",
+      "pose_id": "pose012",
+      "reason": "[Errno 2] No such file or directory: '/home/ayushregmibagale/protac-md/analysis/kinome_md/RPS6KB2/pose012/index.ndx'"
+    },
+    {
+      "poi": "RPS6KB2",
+      "pose_id": "pose013",
+      "reason": "[Errno 2] No such file or directory: '/home/ayushregmibagale/protac-md/analysis/kinome_md/RPS6KB2/pose013/index.ndx'"
+    },
+    {
+      "poi": "RPS6KB2",
+      "pose_id": "pose014",
+      "reason": "[Errno 2] No such file or directory: '/home/ayushregmibagale/protac-md/analysis/kinome_md/RPS6KB2/pose014/index.ndx'"
+    },
+    {
+      "poi": "RPS6KB2",
+      "pose_id": "pose015",
+      "reason": "[Errno 2] No such file or directory: '/home/ayushregmibagale/protac-md/analysis/kinome_md/RPS6KB2/pose015/index.ndx'"
+    },
+    {
+      "poi": "RPS6KB2",
+      "pose_id": "pose017",
+      "reason": "[Errno 2] No such file or directory: '/home/ayushregmibagale/protac-md/analysis/kinome_md/RPS6KB2/pose017/index.ndx'"
+    },
+    {
+      "poi": "RPS6KB2",
+      "pose_id": "pose018",
+      "reason": "[Errno 2] No such file or directory: '/home/ayushregmibagale/protac-md/analysis/kinome_md/RPS6KB2/pose018/index.ndx'"
+    },
+    {
+      "poi": "RPS6KB2",
+      "pose_id": "pose019",
+      "reason": "[Errno 2] No such file or directory: '/home/ayushregmibagale/protac-md/analysis/kinome_md/RPS6KB2/pose019/index.ndx'"
+    },
+    {
+      "poi": "RPS6KB2",
+      "pose_id": "pose020",
+      "reason": "[Errno 2] No such file or directory: '/home/ayushregmibagale/protac-md/analysis/kinome_md/RPS6KB2/pose020/index.ndx'"
+    }
+  ],
+  "original_files_modified": false,
+  "new_MD_or_docking_executed": false,
+  "sequences_sha256": "90f74ab1594b895f3d9b56e29cb04d12eac4dd3be7592be08c8fee1c721ff69a",
+  "roster_sha256": "3e9e24daec511e69d57070281acb535dd8599c62908273cd49823a9f41e24d37",
+  "source_sha256": "ba89687f647e79f1a73bea094cbafa1b67f6c91d1b282b0e75d08bcea3a7fe20",
+  "records_sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+  "MDAnalysis_version": "2.10.0",
+  "interpretation": "This identifies actual proteins in the existing compiled systems. Reproducing a legacy metric does not validate its biological role labels. Correcting analysis selections can reuse existing trajectories; no MD rerun is inferred."
+}

@@ -22,7 +22,8 @@
   "SJF8240_large_diagnostic": {
     "status": "COMPLETE_NO_VALID_POSES",
     "local_poses": 250,
-    "MD_handoff_validated": false
+    "MD_handoff_validated": false,
+    "interpretation": "Historical no-pose control only; later bounded controls are documented in SCIENTIFIC_SIGNOFF.md, not proof of study validation"
   },
   "prior_corrected_chemistry_campaign_requirements": [
     "Select/freeze the assay endpoint and resolve the 17 historical labels against experimental sources",
@@ -61,6 +62,27 @@
       "skip_reason": "Three GNN replay tests require PyG, available in the analysis environment only",
       "log": "validation_controls/regression/docking_20261107_checkpoint.txt",
       "log_sha256": "bff5646d42214a4605c6cf03e32e7c9cc265307e29da5947cbf434f360df63f8"
+    },
+    "latest_analysis": {
+      "passed": 125,
+      "skipped": 0,
+      "log": "validation_controls/regression/installed_20261107T010353Z.txt"
     }
+  },
+  "scientific_signoff_report": "../SCIENTIFIC_SIGNOFF.md",
+  "confirmed_scope": {
+    "targets": 19,
+    "historical_GNN_evaluation": 17,
+    "prediction_only": [
+      "SIK3",
+      "RPS6KB2"
+    ],
+    "experimental_endpoint_frozen": false
+  },
+  "prediction_target_compiled_protein_audit": {
+    "poses": 33,
+    "all_expected_proteins_present": true,
+    "legacy_index_roles_verified": false,
+    "source": "../existing_result_audit/prediction_compiled_roles_v3/summary.json"
   }
 }

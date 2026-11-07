@@ -4,7 +4,9 @@ Current priority: preserve/reuse the existing SJF8240 structures and completed P
 The original D: project, original protac-md, original MD/GNN results, and the
 previous top-level 10PROTAC-MD workflow are unchanged.
 
-**Validation:** 124 analysis-environment tests pass. Docking-environment checks pass 121 with three GNN-only skips (PyG absent). Tests verify software behavior, not publication claims.
+**Latest validation:** 125 analysis-environment tests pass (installed log installed_20261107T010353Z.txt). Earlier docking-environment checkpoint: 121 passed with three GNN-only skips (PyG absent); it predates the newest normalization regression. Tests verify software behavior, not publication claims.
+
+**Scientific decision:** unconditional sign-off WITHHELD for the user-confirmed 19-target panel. Read SCIENTIFIC_SIGNOFF.md for the per-claim evidence, remaining gates and permitted retrospective claims. Later completed controls supersede the historical running-stage entries below.
 
 ## Findings established from retained artifacts
 

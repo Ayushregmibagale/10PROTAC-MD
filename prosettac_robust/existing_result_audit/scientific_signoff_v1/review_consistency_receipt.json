@@ -1,0 +1,28 @@
+{
+  "status": "AUDIT_CONSISTENCY_CHECKS_PASSED_SCIENTIFIC_RELEASE_WITHHELD",
+  "targets": 19,
+  "MD_graph_poses": 174,
+  "core_contact_poses": 141,
+  "prediction_compiled_protein_cases": 33,
+  "checks": [
+    "19-target roster reconciliation",
+    "174 MD graph rows",
+    "141 core contact cases",
+    "all 33 extension TPR protein sets identified",
+    "4/5/6 A occupancy monotonicity",
+    "standalone audit source syntax"
+  ],
+  "external_sequence_source_url": "https://rest.uniprot.org/uniprotkb/stream?query=%28accession%3AQ9Y2K2%20OR%20accession%3AQ9UBS0%29&format=json",
+  "files_sha256": {
+    "SCIENTIFIC_SIGNOFF.md": "5588fcaeb1d6d4d62ca2530577d003befb24c30f26cf1d199ac52ef3cee81734",
+    "existing_result_audit/scientific_signoff_v1/coverage_19_targets.json": "81e930f2619206afc4aa31a9ed9342ac9d8b17f71a38b8a53fca741a086a385b",
+    "existing_result_audit/scientific_signoff_v1/summary.json": "ad8ec50da80167480fb3fbf0bb7756af72320c3603c22434fe5340215dbda266",
+    "existing_result_audit/scientific_signoff_v1/contact_window_sensitivity.json": "00fb7d6ebced66f8b168c112a707fb36e6bf3b49b30b7210967bc65363bd4f4a",
+    "existing_result_audit/scientific_signoff_v1/contact_window_per_pose.tsv": "f9b3878b69ae45a01c43c84a200e850f7ba691282cbb915000c46105071eb58d",
+    "existing_result_audit/scientific_signoff_v1/protein_groups_19.json": "26eb8a5025b445be5d4e739934153dd4fc9058b34778c09a415ba2a8ca090e78",
+    "existing_result_audit/scientific_signoff_v1/prediction_target_sequences.json": "33e23f56cef345a3a45d398791f7b7085981cf7339d168b86b7ea785ee565d77",
+    "existing_result_audit/scientific_signoff_v1/all19_sequences.json": "90f74ab1594b895f3d9b56e29cb04d12eac4dd3be7592be08c8fee1c721ff69a",
+    "existing_result_audit/scientific_signoff_v1/prediction_pose_roster.json": "3e9e24daec511e69d57070281acb535dd8599c62908273cd49823a9f41e24d37",
+    "existing_result_audit/prediction_compiled_roles_v3/summary.json": "a3f8d9164f98b993bf8a21c2b28dbdbc06796818d0cd0e3d8ae2c9a2e441f824"
+  }
+}
