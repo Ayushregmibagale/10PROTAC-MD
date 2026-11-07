@@ -1290,3 +1290,15 @@ def test_legacy_scalar_audit_rejects_duplicate_pose_rows():
     e2=pd.DataFrame({'poi':['P','P'],'pose_id':['a','a']})
     with pytest.raises(ValidationError,match='Duplicate E2 pose'):
         audit.expected_scalars(e2,pd.DataFrame())
+
+
+def test_gnn_normalization_rejects_missing_training_rows_but_allows_explicit_missing_values():
+    import pandas as pd
+    from gnn_contract import normalize_fold_scalars
+    table=pd.DataFrame({'x':[float('nan'),3.]},index=['a','b'])
+    for training in ([],['a','absent']):
+        with pytest.raises(ValidationError,match='explicit scalar row'):
+            normalize_fold_scalars('heldout',table,training,['x'])
+    assert np.array_equal(normalize_fold_scalars('heldout',table,['a','b'],['x']),[0.])
+    with pytest.raises(ValidationError,match='scalar columns'):
+        normalize_fold_scalars('heldout',table,['a','b'],['x','x'])

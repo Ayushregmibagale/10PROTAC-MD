@@ -1,0 +1,53 @@
+{
+  "status": "BOUNDED_DYNAMIC_IMAGING_PROBE_NOT_EXHAUSTIVE_VALIDATION",
+  "cases": [
+    {
+      "poi": "DDR2",
+      "pose_id": "pose001"
+    },
+    {
+      "poi": "MET",
+      "pose_id": "pose002"
+    },
+    {
+      "poi": "AXL",
+      "pose_id": "pose011"
+    }
+  ],
+  "frames_per_case": [
+    0,
+    50,
+    100,
+    150,
+    200
+  ],
+  "sampled_frames": 15,
+  "maximum_direct_minus_periodic_distance_A": {
+    "ELOC_VHL": 0.0,
+    "VHL_POI": 0.0,
+    "ELOC_POI": 0.0
+  },
+  "max_ELOC_anchor_fit_RMSD_A": 2.1213339444650314,
+  "minimum_rotation_determinant": 0.9999999337410117,
+  "maximum_rotation_determinant": 1.0000000571475527,
+  "source_input_sha256": {
+    "/home/ayushregmibagale/protac-md/scripts/02_analysis/16_all_poi_e2_reachability.py": "fd4e2286f7476f7f94a4cba659e951d7e6400ff9d18dff95e7c19d8275c2eb21",
+    "/home/ayushregmibagale/protac-md/simulations/DDR2/structure/rank1/complex_protein.pdb": "ead79fbe765c2f0c3554f4ad98400b2061143f440d114769d93bee2bcaa9b547",
+    "/home/ayushregmibagale/protac-md/reference_structures/e2_c85_ensemble.json": "9dac98e05fdd384bb77fc147e3e61d9de3dcdfe028355d4cccb833d3d9f73f15",
+    "/home/ayushregmibagale/protac-md/random_screen/DDR2/pose001/prod/prod.tpr": "ddee6fdf1abf6045f4dc462bfaf5c1a95e2665a1072e680f6729b3400c1f4d6b",
+    "/home/ayushregmibagale/protac-md/analysis/random_screen/DDR2/pose001/prod_nojump.xtc": "e9978732e144e446fb0f1d71e4af0759c53d89dcc24d1d730669ac74da49c2cd",
+    "/home/ayushregmibagale/protac-md/random_screen/MET/pose002/prod/prod.tpr": "08c2ffc58ce8d38a2a7a36e095fd206e684f48ef4f522e8bf4d528b562132f83",
+    "/home/ayushregmibagale/protac-md/analysis/random_screen/MET/pose002/prod_nojump.xtc": "13697b73025e12bb5ef067001e38b82a6e6d0018a5ae862f05cafb49e1568152",
+    "/home/ayushregmibagale/protac-md/random_screen/AXL/pose011/prod/prod.tpr": "d4c31bda16d0a0d3306f1371b119f1ffd28b1ccff8d217a1210d1c511a55ce6b",
+    "/home/ayushregmibagale/protac-md/analysis/random_screen/AXL/pose011/prod_nojump.xtc": "fa9849f7fc0e00bbd2e055596f9b7eb46c30877fe4aa3f5e29fd8d5c9ccc1119"
+  },
+  "audit_source_sha256": "6b916467f917942d53b78e37b7392c2e0fb938da2e828577fc82539eec9c8076",
+  "rows_sha256": "e419c153eda76d97cf8001499d416e2876a1f708fda7cf1af35b74367f3e5771",
+  "original_files_modified": false,
+  "new_MD_or_GNN_training_executed": false,
+  "limitations": [
+    "Only three preselected cases at five times each; rare imaging events in other frames/cases remain untested.",
+    "Direct/periodic protein-distance differences are diagnostics, not proof that a virtual E2 minimum-image distance is the correct biological replacement.",
+    "No reachability formula or original descriptor was changed."
+  ]
+}

@@ -43,7 +43,11 @@ def select_training_graphs(graphs,labels):
 def normalize_fold_scalars(poi,table,train_pois,columns):
     if table.index.has_duplicates:raise ValidationError('Duplicate scalar POI identifiers')
     if len(set(train_pois))!=len(train_pois):raise ValidationError('Duplicate training POIs')
-    values=table.loc[table.index.isin(train_pois),columns].to_numpy(dtype=float)
+    if not train_pois or set(train_pois)-set(table.index):
+        raise ValidationError('Every training POI must have an explicit scalar row')
+    if table.columns.has_duplicates or not columns or len(set(columns))!=len(columns) or set(columns)-set(table.columns):
+        raise ValidationError('Unique declared scalar columns required')
+    values=table.loc[list(train_pois),columns].to_numpy(dtype=float)
     if np.isinf(values).any():raise ValidationError('Infinite training scalars')
     # Training-only estimates; all-missing and singleton columns have explicit fallbacks.
     means=np.array([np.mean(x[np.isfinite(x)]) if np.isfinite(x).any() else 0. for x in values.T])

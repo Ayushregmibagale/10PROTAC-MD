@@ -1,0 +1,10 @@
+{
+  "status": "INSTALLED_CHECKSUM_AND_REGRESSION_VERIFIED",
+  "files": 8,
+  "bytes": 163266,
+  "backup": "/home/ayushregmibagale/10PROTAC-MD/prosettac_robust/.update_backups/20261107T010353Z",
+  "private_receipt": "/home/ayushregmibagale/10PROTAC-MD/prosettac_robust/.installation_history/20261107T010353Z.json",
+  "installed_regression": "/home/ayushregmibagale/10PROTAC-MD/prosettac_robust/validation_controls/regression/installed_20261107T010353Z.txt",
+  "previous_project_files_overwritten": false,
+  "active_diagnostic_excluded": null
+}
