@@ -1,0 +1,78 @@
+{
+  "status": "DESCRIPTIVE_SAVED_COHORT_AUDIT_NOT_NEW_VALIDATION",
+  "cases": 17,
+  "source_sha256": "d9243bcff04203ea8a69a3b8e5bb8570db56dd30551f9ffb667cabd9bb8f749e",
+  "source": "/home/ayushregmibagale/protac-md/analysis/gnn/e2gnn_lopo_results.tsv",
+  "audit_source_sha256": "0122ed1b8d1244ea8ad9077c4ed65112e3632e129c04cfedc9ee582d79b895d1",
+  "availability_counts": [
+    {
+      "field": "has_md",
+      "available": 0,
+      "cases": 9,
+      "recorded_positive_labels": 0,
+      "recorded_negative_labels": 9
+    },
+    {
+      "field": "has_md",
+      "available": 1,
+      "cases": 8,
+      "recorded_positive_labels": 5,
+      "recorded_negative_labels": 3
+    },
+    {
+      "field": "has_e2",
+      "available": 0,
+      "cases": 7,
+      "recorded_positive_labels": 0,
+      "recorded_negative_labels": 7
+    },
+    {
+      "field": "has_e2",
+      "available": 1,
+      "cases": 10,
+      "recorded_positive_labels": 5,
+      "recorded_negative_labels": 5
+    }
+  ],
+  "comparison": [
+    {
+      "descriptor": "saved_GNN",
+      "cases": 17,
+      "correct": 15,
+      "accuracy": 0.8823529411764706,
+      "balanced_accuracy": 0.8583333333333334,
+      "AUROC": 0.8,
+      "MCC": 0.7166666666666667
+    },
+    {
+      "descriptor": "MD_available_flag",
+      "cases": 17,
+      "correct": 14,
+      "accuracy": 0.8235294117647058,
+      "balanced_accuracy": 0.875,
+      "AUROC": 0.875,
+      "MCC": 0.6846531968814576
+    },
+    {
+      "descriptor": "E2_available_flag",
+      "cases": 17,
+      "correct": 12,
+      "accuracy": 0.7058823529411765,
+      "balanced_accuracy": 0.7916666666666667,
+      "AUROC": 0.7916666666666666,
+      "MCC": 0.5400617248673217
+    }
+  ],
+  "model_fitted": false,
+  "GNN_retrained": false,
+  "new_MD_or_docking_executed": false,
+  "original_results_modified": false,
+  "threshold_for_binary_flags": ".5, without tuning",
+  "limitations": [
+    "Uses recorded historical labels; does not resolve experimental label provenance.",
+    "These availability checks were chosen as a retrospective audit, not preregistered independent validation.",
+    "Saved GNN AUROC is recomputed from its retained rounded scores; original unrounded logits/weights are not inferred.",
+    "Metadata flags are descriptive rank scores, not calibrated probabilities.",
+    "Small selected cohort and availability/selection confounding prevent a causal or generalization conclusion."
+  ]
+}

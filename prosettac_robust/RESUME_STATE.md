@@ -56,3 +56,13 @@ Repo: https://github.com/Ayushregmibagale/10PROTAC-MD, master. Read current `git
 No project simulation/analysis batch remains running from the completed core re-analysis. Only checkpoint verification tests/installations may be active during this save. Do not automatically restart completed diagnostics on resume.
 
 Final source verification logs and hashes are recorded in `validation_controls/software_checkpoint_v5.json`. The installation and Git-only export checks are additional saved evidence; inspect the latest installation receipt and Git history rather than assuming an earlier partial save was current.
+
+## Additional completed E2/GNN audits on 2026-11-07
+
+`existing_result_audit/gnn_scalar_lineage_v1` checks 68 scalar entries: 33 finite pairs (32 match/one mismatch) and 35 matching missing-value pairs. MAPK14_full/e2_delta_reach_80A is 0.022575 saved versus 0.02569375 by the declared paired estimator; unpaired available-means gives 0.02256875. This is compatible with an alternative estimator, not proof of a patch/history. Original values were not changed. See `E2_GNN_SCALAR_LINEAGE.md` for actual unconditional/static scalar definitions and limitations.
+
+`gnn_availability_audit_v1` fits no model: saved GNN 15/17 correct, AUROC .8; MD availability flag 14/17, AUROC .875. These are retrospective diagnostics on recorded historical labels, not independent validation or proof of leakage/uselessness. See `GNN_AVAILABILITY_AUDIT.md`.
+
+Next substantive work is E2 reference-frame/coherent-imaging and exact frame correspondence review on retained data, followed by final semantic/integration review. Do not repeat the completed 141-case contact batch. Current source tests after adding scalar-audit regressions: 124 passed in analysis; 121 passed with 3 GNN-only skips in docking. Latest Git history, software checkpoint and installation receipts identify which changes are durably saved.
+
+The E2 static-frame audit is complete under `existing_result_audit/e2_reference_frame_v1`: all 141 starting Elongin-C frames agree exactly; the 13 identical 51-point arrays represent 51 unique coordinates, not 663 independent samples. A retained `16b_mapk14_e2_fix.py` explicitly patches the scalar with the alternative estimator, but no historical execution receipt proves when it ran. Do not execute that old script: it can upsert original tables and its residue-exclusion body contradicts its retention header. Dynamic imaging remains to be checked separately.

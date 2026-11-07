@@ -1,0 +1,8 @@
+{
+  "source_E2_sha256": "43448fcae7833444727eadd81179c2ea11758aea1bc14d7880a30bb355bacdf1",
+  "feature_table_sha256": "81db3c0fbc4c829818d9161ea45aaa8d73a748b697a2fc5f63571a619c33d7d5",
+  "purpose": "Compare aggregation estimands without selecting one using labels or model performance",
+  "does_not_prove_historical_patch_or_training_history": true,
+  "original_files_modified": false,
+  "retrained_GNN": false
+}

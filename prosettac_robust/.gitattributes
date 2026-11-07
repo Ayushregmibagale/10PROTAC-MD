@@ -8,7 +8,9 @@ linker_method_review/candidate_torsion_workflow/** -text whitespace=-blank-at-eo
 
 # Preserve hash-bound audit tables; csv.DictWriter emitted standard CRLF.
 existing_result_audit/** -text
-existing_result_audit/**/*.tsv whitespace=cr-at-eol
+existing_result_audit/**/*.tsv whitespace=cr-at-eol,-blank-at-eol
 
 # Matplotlib-generated, hash-bound SVG paths retain their original spacing.
 existing_result_audit/**/figures/*.svg -text whitespace=-blank-at-eol
+
+# Missing final TSV fields require trailing delimiters; preserve their exact bytes.

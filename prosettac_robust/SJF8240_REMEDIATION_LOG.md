@@ -319,3 +319,26 @@ Updated the runbook/readiness metadata to prioritize reuse of existing results. 
 ## 30. Durable resume checkpoint after the session limit
 
 The requested final save had not completed before the interruption: the last pushed commit remained 3dfbdae, and later work was partly staged. On 2026-11-07, checked actual files/Git status and created `RESUME_STATE.md` with scope, findings, exact artifact/runtime locations, remaining tasks and the incomplete-save history. The three new GNN tests require PyG, which is absent from the docking environment. They now explicitly skip there rather than failing or implying unsupported validation. Analysis-environment tests still require them to pass. No dependencies were installed into the original environments, no study data was retrained and no molecular simulation restarted.
+
+
+## 31. Trace retained E2 inputs and expose an aggregation mismatch
+
+**What:** Added a read-only scalar-lineage auditor for the current retained GNN feature table and source E2/static-lysine tables. No GNN retraining or molecular simulation was executed.
+**How:** Reconstructed the declared builder's four scalars for the 17 reference targets and checked saved precision, missingness, denominators and selected static ranks. Preserved input/source hashes and the exact auditor source. One field, MAPK14_full/e2_delta_reach_80A, differs: saved 0.022575 versus paired within-pose reconstruction 0.02569375. The alternative difference of available pose means is 0.02256875, compatible within retained precision; its bridge and nonbridge sets have 18 and 16 poses. This is a compatible estimand, not proof of a manual edit or historical execution. Preserved the mismatch and original data. Produced an all-target paired/unpaired sensitivity table without labels or performance selection; missing-value matches are counted separately.
+**Why:** The old feature descriptions incorrectly call an unconditional distance mean bridging-conditioned, and a rank-selected static distance an across-trajectory nearest distance. The builder's `.first()` has no mean fallback. Corrected descriptions in the isolated future runner while preserving its numeric architecture/algorithm and old results. Missing-value imputation is now described as a policy, not a guarantee against confounding. Full explanation is in `existing_result_audit/E2_GNN_SCALAR_LINEAGE.md`; exact historical training input remains unproven without its original execution receipt.
+
+
+## 32. Audit incremental GNN evidence against availability flags
+
+**What:** Compared the saved 17-target GNN predictions to fixed MD/E2 availability flags, without fitting any model or changing labels.
+**How:** Verified unique binary-labelled records, finite saved scores and binary flags; hashed the source before/after. Retained GNN AUROC is 0.800 (15/17 correct); the MD flag gives 0.875 (14/17 correct), and E2 flag 0.7917 (12/17). All five recorded positives have MD; all nine without MD are recorded negatives. No thresholds or hyperparameters were tuned. This is an explicitly retrospective descriptive audit, not new independent validation.
+**Why:** A complex model's mechanistic/incremental claim needs comparison with simple signals already encoded by workflow selection. Availability can be a legitimate cascaded-stage feature, so this finding is not automatically leakage or proof the GNN is useless. With the small selected cohort, role/selection issues and uncertain label provenance, report the historical result as exploratory and retain the baselines/limitations. No original GNN or molecular simulation was rerun.
+
+
+## 33. Verify E2 static reference correspondence and legacy patch pathway
+
+**What:** Checked the E2 producer's static coordinate-frame assumptions without recalculating MD or altering model inputs.
+**How:** Compared ordered 85-Cα Elongin-C coordinates from all 141 retained starting structures and the producer-selected reference PDBs against the common reference. Random-pose raw RMSD is 0 Å. The JSON's 13 arrays are byte-identical, each with 51 positions; flattening creates 663 records but only 51 unique coordinates. Equal duplication does not change the source minima/fractions, but is not independent ensemble diversity. The source's 20 Å Gaussian perturbation model is recorded as an assumption, not equilibrium sampling.
+
+Also inspected, without executing, `16b_mapk14_e2_fix.py`. Its body explicitly rewrites MAPK14's 80 Å scalar using unpaired available-means and six-decimal rounding, providing a source-level pathway consistent with the discovered estimator discrepancy. Execution timing/inputs remain unproven. Its header says retain LYS211 while the worker excludes it and upserts original tables if invoked; keep it as historical investigation code rather than a routine pipeline step. No residue selection or original table was changed.
+**Why:** Distinguish actual numerical/frame issues from misleading comments or inflated sample-count interpretation. Common static coordinates and duplicate points are verified facts; dynamic coherent imaging and the prior's physical validity still need separate checks.

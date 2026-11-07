@@ -1,0 +1,69 @@
+poi	column	saved_value	reconstructed_value	absolute_difference	matches_stored_precision	source_observations	selected_rank
+MAP4K5	e2_mean_min_dist_A				True	0	
+MAP4K5	e2_delta_reach_50A				True	0	
+MAP4K5	e2_delta_reach_80A				True	0	
+MAP4K5	lk_lys_nearest_e2_dist_A	119.6639	119.663863785	3.62153508036e-05	True	1	1
+SLK	e2_mean_min_dist_A				True	0	
+SLK	e2_delta_reach_50A				True	0	
+SLK	e2_delta_reach_80A				True	0	
+SLK	lk_lys_nearest_e2_dist_A	103.3412	103.341247459	4.74593697817e-05	True	1	1
+DDR2	e2_mean_min_dist_A	61.6396	61.6395777778	2.22222222348e-05	True	18	
+DDR2	e2_delta_reach_50A	-0.002	-0.00198125	1.875e-05	True	16	
+DDR2	e2_delta_reach_80A	0.007	0.006975	2.5e-05	True	16	
+DDR2	lk_lys_nearest_e2_dist_A	103.214	103.214011747	1.17465743443e-05	True	1	1
+RIPK2_full	e2_mean_min_dist_A	61.7521	61.7521411765	4.11764705888e-05	True	17	
+RIPK2_full	e2_delta_reach_50A	0.0001	7.5e-05	2.5e-05	True	12	
+RIPK2_full	e2_delta_reach_80A	-0.0011	-0.001075	2.5e-05	True	12	
+RIPK2_full	lk_lys_nearest_e2_dist_A	107.4233	107.423275007	2.49929970408e-05	True	1	1
+MAPK14_full	e2_mean_min_dist_A	48.8647	48.8647111111	1.11111111138e-05	True	18	
+MAPK14_full	e2_delta_reach_50A	0.0071	0.0071375	3.75e-05	True	16	
+MAPK14_full	e2_delta_reach_80A	0.022575	0.02569375	0.00311875	False	16	
+MAPK14_full	lk_lys_nearest_e2_dist_A	97.3675	97.3675274461	2.74461446708e-05	True	1	1
+MET	e2_mean_min_dist_A	62.8689	62.8689375	3.75000000048e-05	True	16	
+MET	e2_delta_reach_50A	0.0005	0.000471428571429	2.85714285714e-05	True	14	
+MET	e2_delta_reach_80A	0.0119	0.0119071428571	7.14285714286e-06	True	14	
+MET	lk_lys_nearest_e2_dist_A	105.1026	105.102637567	3.75671489223e-05	True	1	1
+EPHB2	e2_mean_min_dist_A	63.4142	63.4142421053	4.2105263141e-05	True	19	
+EPHB2	e2_delta_reach_50A	0.0001	8.57142857143e-05	1.42857142857e-05	True	14	
+EPHB2	e2_delta_reach_80A	-0.0021	-0.00215	5e-05	True	14	
+EPHB2	lk_lys_nearest_e2_dist_A				True	0	
+ABL1	e2_mean_min_dist_A	56.9459	56.9459470588	4.7058823526e-05	True	17	
+ABL1	e2_delta_reach_50A	-0.0159	-0.01592	2e-05	True	15	
+ABL1	e2_delta_reach_80A	-0.0269	-0.0269266666667	2.66666666667e-05	True	15	
+ABL1	lk_lys_nearest_e2_dist_A	112.8449	112.844923594	2.35938604618e-05	True	1	1
+AXL	e2_mean_min_dist_A	59.9315	59.9314555556	4.44444444412e-05	True	18	
+AXL	e2_delta_reach_50A	-0.0167	-0.01668125	1.875e-05	True	16	
+AXL	e2_delta_reach_80A	0.0023	0.0022625	3.75e-05	True	16	
+AXL	lk_lys_nearest_e2_dist_A	105.4445	105.44449486	5.14001966678e-06	True	1	1
+EPHA2	e2_mean_min_dist_A	60.3974	60.3974222222	2.22222222277e-05	True	18	
+EPHA2	e2_delta_reach_50A	0.0065	0.00646428571429	3.57142857143e-05	True	14	
+EPHA2	e2_delta_reach_80A	0.0005	0.000507142857143	7.14285714286e-06	True	14	
+EPHA2	lk_lys_nearest_e2_dist_A	101.078	101.078009572	9.57234217935e-06	True	1	1
+CDK17	e2_mean_min_dist_A				True	0	
+CDK17	e2_delta_reach_50A				True	0	
+CDK17	e2_delta_reach_80A				True	0	
+CDK17	lk_lys_nearest_e2_dist_A				True	0	
+CDK2	e2_mean_min_dist_A				True	0	
+CDK2	e2_delta_reach_50A				True	0	
+CDK2	e2_delta_reach_80A				True	0	
+CDK2	lk_lys_nearest_e2_dist_A				True	0	
+CDK4	e2_mean_min_dist_A				True	0	
+CDK4	e2_delta_reach_50A				True	0	
+CDK4	e2_delta_reach_80A				True	0	
+CDK4	lk_lys_nearest_e2_dist_A				True	0	
+CDK6	e2_mean_min_dist_A				True	0	
+CDK6	e2_delta_reach_50A				True	0	
+CDK6	e2_delta_reach_80A				True	0	
+CDK6	lk_lys_nearest_e2_dist_A				True	0	
+DAPK1	e2_mean_min_dist_A				True	0	
+DAPK1	e2_delta_reach_50A				True	0	
+DAPK1	e2_delta_reach_80A				True	0	
+DAPK1	lk_lys_nearest_e2_dist_A				True	0	
+IRAK1	e2_mean_min_dist_A				True	0	
+IRAK1	e2_delta_reach_50A				True	0	
+IRAK1	e2_delta_reach_80A				True	0	
+IRAK1	lk_lys_nearest_e2_dist_A				True	0	
+TLK2	e2_mean_min_dist_A				True	0	
+TLK2	e2_delta_reach_50A				True	0	
+TLK2	e2_delta_reach_80A				True	0	
+TLK2	lk_lys_nearest_e2_dist_A				True	0	

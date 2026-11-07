@@ -1,0 +1,8 @@
+{
+  "records": 68,
+  "both_missing": 35,
+  "numeric_pairs": 33,
+  "numeric_matches": 32,
+  "numeric_mismatches": 1,
+  "note": "Matching missing values are reported separately from numerical reconstruction."
+}

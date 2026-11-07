@@ -1268,3 +1268,25 @@ def test_tiny_synthetic_lopo_retains_full_precision_scores_and_each_fold_model(t
         saved=torch.load(path,map_location='cpu',weights_only=True)
         assert saved['held_out_score']==row['prob_degrader'] and saved['held_out_poi']==row['poi']
         assert row['poi'] not in saved['training_pois']
+
+
+def test_legacy_scalar_audit_distinguishes_paired_contrast_and_unconditional_mean():
+    import pandas as pd
+    audit=load('existing_scalar_estimands','scripts/02_analysis/08_audit_existing_gnn_scalar_lineage.py')
+    e2=pd.DataFrame({'poi':['P','P'],'pose_id':['a','b'],'min_e2_dist_mean':[10.,30.],
+        'reach_50A_bridge':[.1,.2],'reach_50A_nonbridge':[.05,float('nan')],
+        'reach_80A_bridge':[.8,1.],'reach_80A_nonbridge':[.2,float('nan')]})
+    lys=pd.DataFrame({'poi':['P','P'],'rank':[2,1],'lys_nearest_e2_dist_A':[20.,100.]})
+    values,counts=audit.expected_scalars(e2,lys)
+    assert values['P']['e2_mean_min_dist_A']==20.
+    assert values['P']['e2_delta_reach_80A']==pytest.approx(.6)
+    assert counts['P']['e2_delta_reach_80A']==1
+    assert values['P']['lk_lys_nearest_e2_dist_A']==100. and counts['P']['lk_selected_rank']==1.
+
+
+def test_legacy_scalar_audit_rejects_duplicate_pose_rows():
+    import pandas as pd
+    audit=load('existing_scalar_duplicate_guard','scripts/02_analysis/08_audit_existing_gnn_scalar_lineage.py')
+    e2=pd.DataFrame({'poi':['P','P'],'pose_id':['a','a']})
+    with pytest.raises(ValidationError,match='Duplicate E2 pose'):
+        audit.expected_scalars(e2,pd.DataFrame())

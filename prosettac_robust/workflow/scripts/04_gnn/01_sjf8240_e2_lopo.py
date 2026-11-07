@@ -4,14 +4,18 @@
 
 Identical to 04d (dual-encoder) except the fusion MLP receives additional
 graph-level E2 scalar features:
-  - e2_mean_min_dist_A      : mean E2–lysine distance during bridging (Å)
+  - e2_mean_min_dist_A      : producer-defined per-pose nearest E2-point/lysine distance mean (Å)
   - e2_delta_reach_50A      : Δ E2 reach at 50 Å (bridging vs non-bridging)
   - e2_delta_reach_80A      : Δ E2 reach at 80 Å
-  - lk_lys_nearest_e2_dist_A: nearest E2–lysine distance across all frames
+  - lk_lys_nearest_e2_dist_A: rank-selected static nearest lysine NZ to its modeled E2 point (Å)
 
-These are NaN for non-MD POIs (no bridging → no E2 estimate).
+Missing descriptors remain NaN before fold normalization. Absence of MD and absence
+of bridging are different conditions; exact scalar definitions/conditioning belong
+in the reviewed input provenance. Historical all-frame means are not implicitly
+redefined as bridging-conditioned means.
 Imputation: per-fold z-normalise on training set; NaN → 0.0 after normalisation
-(so non-MD POIs receive a zero-mean signal, not a spurious discriminating value).
+Missing-value imputation does not eliminate missingness confounding; coverage
+and missing-data sensitivity must be reviewed separately.
 
 Hypothesis: ABL1/AXL/EPHA2 may be separable from DEGs via E2 accessibility
 patterns not captured by graph topology alone.

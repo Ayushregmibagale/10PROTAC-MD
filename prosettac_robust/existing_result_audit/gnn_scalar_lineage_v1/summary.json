@@ -1,0 +1,55 @@
+{
+  "status": "SCALAR_LINEAGE_REVIEW_REQUIRED",
+  "cohort_targets": 17,
+  "checked_scalars": 68,
+  "matching_scalars": 67,
+  "missing_targets": [],
+  "mismatches": [
+    {
+      "poi": "MAPK14_full",
+      "column": "e2_delta_reach_80A",
+      "saved_value": 0.022575,
+      "reconstructed_value": 0.02569375,
+      "absolute_difference": 0.00311875,
+      "matches_stored_precision": false,
+      "source_observations": 16,
+      "selected_rank": null
+    }
+  ],
+  "source_file_sha256": {
+    "feature_table": "81db3c0fbc4c829818d9161ea45aaa8d73a748b697a2fc5f63571a619c33d7d5",
+    "E2_per_pose": "43448fcae7833444727eadd81179c2ea11758aea1bc14d7880a30bb355bacdf1",
+    "static_lysine": "03ea08be2eec6e421842a83e05c9728ad4bf5a1429a7e6fdb7adf21e857609ef",
+    "feature_builder": "eda26c0b05e2a1606a96cab29abaff7ea8653528d092cfc1aa1be841ee7a7f8b",
+    "GNN_runner": "50bac9583da2db4e256b872bfa80bfc495a0f808f8b55ee782a3aaf62c105a18",
+    "E2_producer": "fd4e2286f7476f7f94a4cba659e951d7e6400ff9d18dff95e7c19d8275c2eb21",
+    "cohort": "7964f77822f62627fe7813b937335c357bf1e1849e9678864bf9124cf3e580e8"
+  },
+  "source_paths": {
+    "feature_table": "/home/ayushregmibagale/protac-md/analysis/features/ml_table.tsv",
+    "E2_per_pose": "/home/ayushregmibagale/protac-md/analysis/e2_reachability_all_pois.tsv",
+    "static_lysine": "/home/ayushregmibagale/protac-md/analysis/features/lysine_features.csv",
+    "feature_builder": "/home/ayushregmibagale/protac-md/scripts/02_analysis/09_build_ml_table.py",
+    "GNN_runner": "/home/ayushregmibagale/protac-md/scripts/02_analysis/04g_e2_scalar_gnn.py",
+    "E2_producer": "/home/ayushregmibagale/protac-md/scripts/02_analysis/16_all_poi_e2_reachability.py",
+    "cohort": "/tmp/10protac_finish/prosettac_robust/workflow/config/sjf8240_publication_cohort.json"
+  },
+  "audit_source_sha256": "d6ebd25231cc19b23ed41c4bafd5399363deb027f38b76ff9abe233def6f1ad9",
+  "historical_exact_training_input_proven": false,
+  "original_files_modified": false,
+  "GNN_retrained": false,
+  "new_MD_or_docking_executed": false,
+  "actual_scalar_definitions": {
+    "e2_mean_min_dist_A": "Equal-pose mean of each pose mean nearest E2-ensemble-point/kinase-Lys-NZ distance over producer frames; not conditioned on bridging",
+    "e2_delta_reach_50A": "Mean per-pose bridge-minus-nonbridge geometric ensemble-reach fraction; only poses with both finite conditional values contribute",
+    "e2_delta_reach_80A": "As for 50 \u00c5, using 80 \u00c5; inherited bridging mask refers to legacy Elongin-B-labelled proximity",
+    "lk_lys_nearest_e2_dist_A": "First nonmissing static-lysine value after sorting rank within POI; not nearest across all MD frames and no mean fallback"
+  },
+  "limitations": [
+    "Matching current table arithmetic does not establish immutable provenance for the historical training invocation.",
+    "Old bridging-conditioned descriptors use the historical scaffold-proximity mask.",
+    "Modeled E2 ensemble proximity to any kinase lysine is a geometric descriptor, not a catalytic or degradation probability.",
+    "Source producer truncates to minimum frame counts without timestamp verification; audit that separately before reusing the algorithm."
+  ],
+  "output_sha256": "bfaa29f21fe3a83638393a300e563a322e18273d6ac8a5ae87bb44134f3d9ee0"
+}

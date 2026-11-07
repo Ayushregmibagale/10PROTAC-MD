@@ -4,7 +4,7 @@ Current priority: preserve/reuse the existing SJF8240 structures and completed P
 The original D: project, original protac-md, original MD/GNN results, and the
 previous top-level 10PROTAC-MD workflow are unchanged.
 
-**Validation:** 122 tests pass in the Python 3.13 analysis environment. The Python 3.10 docking environment passes 119, with three GNN replay tests explicitly skipped because PyG is absent. Actual logs are retained; these are software checks, not scientific-release certification.
+**Validation:** 124 analysis-environment tests pass. Docking-environment checks pass 121 with three GNN-only skips (PyG absent). Tests verify software behavior, not publication claims.
 
 ## Findings established from retained artifacts
 
@@ -87,3 +87,5 @@ The user-authorized selected-method minimization retry passed in 5,468 steps (Fm
 ### Completed existing-trajectory correction checkpoint
 
 All 141 core trajectories were re-analysed without new MD. Sequence-identified true VHL is Protein_chain_C; every old group labelled VHL is Elongin B. All original GROMACS distance checks reproduce within 0.000022 Å. Separate legacy/all-atom/true-VHL/heavy-only definitions, cutoff tables and review figures are in `existing_result_audit/contact_core_v1/`. Original metrics and GNN predictions are preserved. One retained static structure per core target (17/17 representatives) has the same legacy Elongin-B selector; this is not an exhaustive per-pose static audit. The corrected E2 script's Elongin-C alignment anchor is consistent with the sequence check; its conditional metric semantics still need precise descriptions.
+
+The retained E2/GNN scalar and availability audits are recorded in `existing_result_audit/E2_GNN_SCALAR_LINEAGE.md` and `GNN_AVAILABILITY_AUDIT.md`. They preserve old predictions, flag one scalar estimator inconsistency, and show that incremental GNN value needs availability controls. No model was fitted for these audits.
