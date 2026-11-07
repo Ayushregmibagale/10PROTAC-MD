@@ -6,7 +6,7 @@
     "adapter/linker_adapter.py": "0b14d6039a353e55f10ce763b6f18a9662ab3b98d4465ff1ee523be7226169e4",
     "adapter/run_docking.py": "eb03b7598b4ae8d645395fafd9be01f993daa7529a5cb93536a80701afb3d1e6",
     "adapter/pyrosetta_adapter.py": "803c2e9f0ba772e44cdba89579700906e918b2f54a2bd87e2ef8e69c543ce0b7",
-    "adapter/constrained_linker.py": "101d24800434485f9bc315099d1861f87e6459697658231eb055ca253f574749",
+    "adapter/constrained_linker.py": "40279b507ff8a2818f132b83f5635e0a67eabe86eb6947369f035316f0f92034",
     "adapter/resume_pipeline.py": "ac4066f1d65304b3a0117f9f4386d4f1ae4396bbc665460e59b140148a5e60cb",
     "adapter/constraint_generation.py": "3ea753e4ed802f0079b553a922112012d270ebbd0d0a1e1acc04f2e1c2eae099",
     "adapter/06_resume_pipeline.py": "ac4066f1d65304b3a0117f9f4386d4f1ae4396bbc665460e59b140148a5e60cb",
@@ -54,5 +54,7 @@
     "adapter/vendor/rosetta_py/utility/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
     "adapter/vendor/rosetta_py/io/mdl_molfile.py": "76b0abd3b3d6ef24bc5335a58fbc11217d2b92d4cd7da610687bd2eaafe85297",
     "adapter/vendor/rosetta_py/io/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
-  }
+  },
+  "linker_method": "Centered ETKDGv3 with experimental torsion preferences retained, basic-knowledge preferences disabled, exact fixed heads and UFF refinement",
+  "method_qualification": "Local software/integration controls only; scientific production release remains separate"
 }

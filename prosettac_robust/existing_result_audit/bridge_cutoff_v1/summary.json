@@ -1,0 +1,204 @@
+{
+  "status": "INCOMPLETE_AUDIT_REVIEW_REQUIRED",
+  "original_project": "/home/ayushregmibagale/protac-md",
+  "manifest_sha256": "d4f652807c68df20d089c3562be4cbfbc1b6c5bd63932dbf4489a2fa27b78fe1",
+  "declared_completed_poses": 174,
+  "audited_poses": 140,
+  "failures": [
+    {
+      "poi": "AXL",
+      "pose_id": "pose011",
+      "reason": "Energy samples are nonfinite or time is not increasing"
+    },
+    {
+      "poi": "SIK3",
+      "pose_id": "pose002",
+      "reason": "[Errno 2] No such file or directory: '/home/ayushregmibagale/protac-md/analysis/random_screen/SIK3/pose002/dist_protac_vhl.xvg'"
+    },
+    {
+      "poi": "SIK3",
+      "pose_id": "pose003",
+      "reason": "[Errno 2] No such file or directory: '/home/ayushregmibagale/protac-md/analysis/random_screen/SIK3/pose003/dist_protac_vhl.xvg'"
+    },
+    {
+      "poi": "SIK3",
+      "pose_id": "pose006",
+      "reason": "[Errno 2] No such file or directory: '/home/ayushregmibagale/protac-md/analysis/random_screen/SIK3/pose006/dist_protac_vhl.xvg'"
+    },
+    {
+      "poi": "SIK3",
+      "pose_id": "pose008",
+      "reason": "[Errno 2] No such file or directory: '/home/ayushregmibagale/protac-md/analysis/random_screen/SIK3/pose008/dist_protac_vhl.xvg'"
+    },
+    {
+      "poi": "SIK3",
+      "pose_id": "pose009",
+      "reason": "[Errno 2] No such file or directory: '/home/ayushregmibagale/protac-md/analysis/random_screen/SIK3/pose009/dist_protac_vhl.xvg'"
+    },
+    {
+      "poi": "SIK3",
+      "pose_id": "pose010",
+      "reason": "[Errno 2] No such file or directory: '/home/ayushregmibagale/protac-md/analysis/random_screen/SIK3/pose010/dist_protac_vhl.xvg'"
+    },
+    {
+      "poi": "SIK3",
+      "pose_id": "pose011",
+      "reason": "[Errno 2] No such file or directory: '/home/ayushregmibagale/protac-md/analysis/random_screen/SIK3/pose011/dist_protac_vhl.xvg'"
+    },
+    {
+      "poi": "SIK3",
+      "pose_id": "pose012",
+      "reason": "[Errno 2] No such file or directory: '/home/ayushregmibagale/protac-md/analysis/random_screen/SIK3/pose012/dist_protac_vhl.xvg'"
+    },
+    {
+      "poi": "SIK3",
+      "pose_id": "pose013",
+      "reason": "[Errno 2] No such file or directory: '/home/ayushregmibagale/protac-md/analysis/random_screen/SIK3/pose013/dist_protac_vhl.xvg'"
+    },
+    {
+      "poi": "SIK3",
+      "pose_id": "pose014",
+      "reason": "[Errno 2] No such file or directory: '/home/ayushregmibagale/protac-md/analysis/random_screen/SIK3/pose014/dist_protac_vhl.xvg'"
+    },
+    {
+      "poi": "SIK3",
+      "pose_id": "pose015",
+      "reason": "[Errno 2] No such file or directory: '/home/ayushregmibagale/protac-md/analysis/random_screen/SIK3/pose015/dist_protac_vhl.xvg'"
+    },
+    {
+      "poi": "SIK3",
+      "pose_id": "pose016",
+      "reason": "[Errno 2] No such file or directory: '/home/ayushregmibagale/protac-md/analysis/random_screen/SIK3/pose016/dist_protac_vhl.xvg'"
+    },
+    {
+      "poi": "SIK3",
+      "pose_id": "pose017",
+      "reason": "[Errno 2] No such file or directory: '/home/ayushregmibagale/protac-md/analysis/random_screen/SIK3/pose017/dist_protac_vhl.xvg'"
+    },
+    {
+      "poi": "SIK3",
+      "pose_id": "pose019",
+      "reason": "[Errno 2] No such file or directory: '/home/ayushregmibagale/protac-md/analysis/random_screen/SIK3/pose019/dist_protac_vhl.xvg'"
+    },
+    {
+      "poi": "SIK3",
+      "pose_id": "pose020",
+      "reason": "[Errno 2] No such file or directory: '/home/ayushregmibagale/protac-md/analysis/random_screen/SIK3/pose020/dist_protac_vhl.xvg'"
+    },
+    {
+      "poi": "RPS6KB2",
+      "pose_id": "pose001",
+      "reason": "[Errno 2] No such file or directory: '/home/ayushregmibagale/protac-md/analysis/random_screen/RPS6KB2/pose001/dist_protac_vhl.xvg'"
+    },
+    {
+      "poi": "RPS6KB2",
+      "pose_id": "pose002",
+      "reason": "[Errno 2] No such file or directory: '/home/ayushregmibagale/protac-md/analysis/random_screen/RPS6KB2/pose002/dist_protac_vhl.xvg'"
+    },
+    {
+      "poi": "RPS6KB2",
+      "pose_id": "pose003",
+      "reason": "[Errno 2] No such file or directory: '/home/ayushregmibagale/protac-md/analysis/random_screen/RPS6KB2/pose003/dist_protac_vhl.xvg'"
+    },
+    {
+      "poi": "RPS6KB2",
+      "pose_id": "pose004",
+      "reason": "[Errno 2] No such file or directory: '/home/ayushregmibagale/protac-md/analysis/random_screen/RPS6KB2/pose004/dist_protac_vhl.xvg'"
+    },
+    {
+      "poi": "RPS6KB2",
+      "pose_id": "pose005",
+      "reason": "[Errno 2] No such file or directory: '/home/ayushregmibagale/protac-md/analysis/random_screen/RPS6KB2/pose005/dist_protac_vhl.xvg'"
+    },
+    {
+      "poi": "RPS6KB2",
+      "pose_id": "pose006",
+      "reason": "[Errno 2] No such file or directory: '/home/ayushregmibagale/protac-md/analysis/random_screen/RPS6KB2/pose006/dist_protac_vhl.xvg'"
+    },
+    {
+      "poi": "RPS6KB2",
+      "pose_id": "pose008",
+      "reason": "[Errno 2] No such file or directory: '/home/ayushregmibagale/protac-md/analysis/random_screen/RPS6KB2/pose008/dist_protac_vhl.xvg'"
+    },
+    {
+      "poi": "RPS6KB2",
+      "pose_id": "pose009",
+      "reason": "[Errno 2] No such file or directory: '/home/ayushregmibagale/protac-md/analysis/random_screen/RPS6KB2/pose009/dist_protac_vhl.xvg'"
+    },
+    {
+      "poi": "RPS6KB2",
+      "pose_id": "pose010",
+      "reason": "[Errno 2] No such file or directory: '/home/ayushregmibagale/protac-md/analysis/random_screen/RPS6KB2/pose010/dist_protac_vhl.xvg'"
+    },
+    {
+      "poi": "RPS6KB2",
+      "pose_id": "pose011",
+      "reason": "[Errno 2] No such file or directory: '/home/ayushregmibagale/protac-md/analysis/random_screen/RPS6KB2/pose011/dist_protac_vhl.xvg'"
+    },
+    {
+      "poi": "RPS6KB2",
+      "pose_id": "pose012",
+      "reason": "[Errno 2] No such file or directory: '/home/ayushregmibagale/protac-md/analysis/random_screen/RPS6KB2/pose012/dist_protac_vhl.xvg'"
+    },
+    {
+      "poi": "RPS6KB2",
+      "pose_id": "pose013",
+      "reason": "[Errno 2] No such file or directory: '/home/ayushregmibagale/protac-md/analysis/random_screen/RPS6KB2/pose013/dist_protac_vhl.xvg'"
+    },
+    {
+      "poi": "RPS6KB2",
+      "pose_id": "pose014",
+      "reason": "[Errno 2] No such file or directory: '/home/ayushregmibagale/protac-md/analysis/random_screen/RPS6KB2/pose014/dist_protac_vhl.xvg'"
+    },
+    {
+      "poi": "RPS6KB2",
+      "pose_id": "pose015",
+      "reason": "[Errno 2] No such file or directory: '/home/ayushregmibagale/protac-md/analysis/random_screen/RPS6KB2/pose015/dist_protac_vhl.xvg'"
+    },
+    {
+      "poi": "RPS6KB2",
+      "pose_id": "pose017",
+      "reason": "[Errno 2] No such file or directory: '/home/ayushregmibagale/protac-md/analysis/random_screen/RPS6KB2/pose017/dist_protac_vhl.xvg'"
+    },
+    {
+      "poi": "RPS6KB2",
+      "pose_id": "pose018",
+      "reason": "[Errno 2] No such file or directory: '/home/ayushregmibagale/protac-md/analysis/random_screen/RPS6KB2/pose018/dist_protac_vhl.xvg'"
+    },
+    {
+      "poi": "RPS6KB2",
+      "pose_id": "pose019",
+      "reason": "[Errno 2] No such file or directory: '/home/ayushregmibagale/protac-md/analysis/random_screen/RPS6KB2/pose019/dist_protac_vhl.xvg'"
+    },
+    {
+      "poi": "RPS6KB2",
+      "pose_id": "pose020",
+      "reason": "[Errno 2] No such file or directory: '/home/ayushregmibagale/protac-md/analysis/random_screen/RPS6KB2/pose020/dist_protac_vhl.xvg'"
+    }
+  ],
+  "primary_rule": "(min ligand-to-VHL distance <5 \u00c5) AND (min ligand-to-POI distance <5 \u00c5) at aligned timestamps",
+  "cutoff_sensitivity_A": [
+    3.5,
+    4.0,
+    4.5,
+    5.0,
+    5.5,
+    6.0
+  ],
+  "original_outputs_modified": false,
+  "new_PRosettaC_or_MD_executed": false,
+  "labels_used_for_cutoff_selection": false,
+  "contact_scope": "Actual stored Other/VHL/Kinase index groups; composition recorded, not silently redefined as heavy atoms",
+  "limitations": [
+    "Reuses stored distances; does not independently recompute periodic distances or prove correct index-to-TPR correspondence.",
+    "GRO hydrogen counts use atom names; topology is needed for exact element/mass identity.",
+    "Pose-sampled frame occupancy is not equilibrium binding probability, degradation probability or a free energy.",
+    "Correlated frames and bridge-selected starting poses preclude treating every frame/pose as an independent biological replicate."
+  ],
+  "source_sha256": "5bc6307f550e72d4e35429907483ef84ab528dd374fc1692316bf21831ea64ef",
+  "outputs_sha256": {
+    "per_target_cutoff.tsv": "7dec31d05e2067d30f152bba97b856af929564921be8156e44bfbfd11cd138fa",
+    "per_pose_cutoff.tsv": "297b299a39db4c230f8e2eb43f40b59f752646341fc7f8f2076ac41b13d05aed",
+    "pose_provenance.json": "9a6d9d025ace8025bea5b41e4a657881203e655deb0e9d77d4d99d9df38e2b8b"
+  }
+}

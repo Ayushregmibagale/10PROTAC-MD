@@ -1,0 +1,2942 @@
+[
+  {
+    "poi": "RIPK2_full",
+    "pose_id": "pose001",
+    "source_pdb": "combined_154_20",
+    "raw_frames": 201,
+    "canonical_full_frames": 201,
+    "removed_identical_duplicate_frames": 0,
+    "raw_time_last_ns": 20.0,
+    "frames": 201,
+    "time_first_ns": 0.0,
+    "time_last_ns": 20.0,
+    "median_sample_interval_ns": 0.09999999999999964,
+    "uniform_sample_spacing": false,
+    "legacy_header_bridging_pct": 0.0,
+    "recomputed_bridging_pct": 0.0,
+    "index_group_composition": {
+      "Other": {
+        "atoms": 144,
+        "hydrogen_name_count": 65,
+        "hydrogen_detection": "GRO atom-name heuristic; exact elemental/mass identity requires topology review",
+        "residue_names": [
+          "UNL"
+        ]
+      },
+      "VHL": {
+        "atoms": 1603,
+        "hydrogen_name_count": 801,
+        "hydrogen_detection": "GRO atom-name heuristic; exact elemental/mass identity requires topology review",
+        "residue_names": [
+          "ALA",
+          "ARG",
+          "ASP",
+          "GLN",
+          "GLU",
+          "GLY",
+          "HIS",
+          "ILE",
+          "LEU",
+          "LYS",
+          "MET",
+          "PHE",
+          "PRO",
+          "SER",
+          "THR",
+          "TYR",
+          "VAL"
+        ]
+      },
+      "Kinase": {
+        "atoms": 4577,
+        "hydrogen_name_count": 2294,
+        "hydrogen_detection": "GRO atom-name heuristic; exact elemental/mass identity requires topology review",
+        "residue_names": [
+          "ALA",
+          "ARG",
+          "ASN",
+          "ASP",
+          "CYS",
+          "GLN",
+          "GLU",
+          "GLY",
+          "HIS",
+          "ILE",
+          "LEU",
+          "LYS",
+          "MET",
+          "PHE",
+          "PRO",
+          "SER",
+          "THR",
+          "TRP",
+          "TYR",
+          "VAL"
+        ]
+      }
+    },
+    "input_sha256": {
+      "/home/ayushregmibagale/protac-md/analysis/random_screen/RIPK2_full/pose001/dist_protac_vhl.xvg": "f15de7605c8f2d9bc8ee31833de9a51db9fbba64a870e0cf60210ac78566e270",
+      "/home/ayushregmibagale/protac-md/analysis/random_screen/RIPK2_full/pose001/dist_protac_kinase.xvg": "f0cacd360fd97671c4dce19991f3f6c425b0639e1bab8d90b026c882e140bbaf",
+      "/home/ayushregmibagale/protac-md/analysis/random_screen/RIPK2_full/pose001/metrics.csv": "be831ad029954836fb7b0799a930349bce1753f415655c22789867765fe75584",
+      "/home/ayushregmibagale/protac-md/analysis/random_screen/RIPK2_full/pose001/index.ndx": "f65477ffb81496017b8bd107ce81ab6989dc2e000ba7502f0c88ec554d919ffa",
+      "/home/ayushregmibagale/protac-md/random_screen/RIPK2_full/pose001/topol/complex_ions.gro": "6ed31caee9fb9519236fb6233b6b1e7aa9fed2f516ad248abb2fe2ab70c5c471"
+    }
+  },
+  {
+    "poi": "RIPK2_full",
+    "pose_id": "pose003",
+    "source_pdb": "combined_116_42",
+    "raw_frames": 201,
+    "canonical_full_frames": 201,
+    "removed_identical_duplicate_frames": 0,
+    "raw_time_last_ns": 20.0,
+    "frames": 201,
+    "time_first_ns": 0.0,
+    "time_last_ns": 20.0,
+    "median_sample_interval_ns": 0.09999999999999964,
+    "uniform_sample_spacing": false,
+    "legacy_header_bridging_pct": 0.0,
+    "recomputed_bridging_pct": 0.0,
+    "index_group_composition": {
+      "Other": {
+        "atoms": 144,
+        "hydrogen_name_count": 65,
+        "hydrogen_detection": "GRO atom-name heuristic; exact elemental/mass identity requires topology review",
+        "residue_names": [
+          "UNL"
+        ]
+      },
+      "VHL": {
+        "atoms": 1603,
+        "hydrogen_name_count": 801,
+        "hydrogen_detection": "GRO atom-name heuristic; exact elemental/mass identity requires topology review",
+        "residue_names": [
+          "ALA",
+          "ARG",
+          "ASP",
+          "GLN",
+          "GLU",
+          "GLY",
+          "HIS",
+          "ILE",
+          "LEU",
+          "LYS",
+          "MET",
+          "PHE",
+          "PRO",
+          "SER",
+          "THR",
+          "TYR",
+          "VAL"
+        ]
+      },
+      "Kinase": {
+        "atoms": 4577,
+        "hydrogen_name_count": 2294,
+        "hydrogen_detection": "GRO atom-name heuristic; exact elemental/mass identity requires topology review",
+        "residue_names": [
+          "ALA",
+          "ARG",
+          "ASN",
+          "ASP",
+          "CYS",
+          "GLN",
+          "GLU",
+          "GLY",
+          "HIS",
+          "ILE",
+          "LEU",
+          "LYS",
+          "MET",
+          "PHE",
+          "PRO",
+          "SER",
+          "THR",
+          "TRP",
+          "TYR",
+          "VAL"
+        ]
+      }
+    },
+    "input_sha256": {
+      "/home/ayushregmibagale/protac-md/analysis/random_screen/RIPK2_full/pose003/dist_protac_vhl.xvg": "d3afb69857f75df60b6249f9a42a8783bc6d7711810113349aabee9c549b0503",
+      "/home/ayushregmibagale/protac-md/analysis/random_screen/RIPK2_full/pose003/dist_protac_kinase.xvg": "c1b6602ef9c616ccb87e52007b22e610d1a3dab730b202854660a70e9d766292",
+      "/home/ayushregmibagale/protac-md/analysis/random_screen/RIPK2_full/pose003/metrics.csv": "ec4ab93d00d9e6e3d2738e9dd9a74b2cd9a50051ec78d70ae4a12fea34e875e6",
+      "/home/ayushregmibagale/protac-md/analysis/random_screen/RIPK2_full/pose003/index.ndx": "3cf6d12fa343d0a8f179a6ff23caa3cab0c7d76e4689c07fe65f5ffa4120cd22",
+      "/home/ayushregmibagale/protac-md/random_screen/RIPK2_full/pose003/topol/complex_ions.gro": "a61b1d3647d42e7e19c6ba0c43e9b005f7a6c68917c4c58b73958fd62951169f"
+    }
+  },
+  {
+    "poi": "RIPK2_full",
+    "pose_id": "pose004",
+    "source_pdb": "combined_141_33",
+    "raw_frames": 201,
+    "canonical_full_frames": 201,
+    "removed_identical_duplicate_frames": 0,
+    "raw_time_last_ns": 20.0,
+    "frames": 201,
+    "time_first_ns": 0.0,
+    "time_last_ns": 20.0,
+    "median_sample_interval_ns": 0.09999999999999964,
+    "uniform_sample_spacing": false,
+    "legacy_header_bridging_pct": 54.7,
+    "recomputed_bridging_pct": 54.72636815920397,
+    "index_group_composition": {
+      "Other": {
+        "atoms": 144,
+        "hydrogen_name_count": 65,
+        "hydrogen_detection": "GRO atom-name heuristic; exact elemental/mass identity requires topology review",
+        "residue_names": [
+          "UNL"
+        ]
+      },
+      "VHL": {
+        "atoms": 1603,
+        "hydrogen_name_count": 801,
+        "hydrogen_detection": "GRO atom-name heuristic; exact elemental/mass identity requires topology review",
+        "residue_names": [
+          "ALA",
+          "ARG",
+          "ASP",
+          "GLN",
+          "GLU",
+          "GLY",
+          "HIS",
+          "ILE",
+          "LEU",
+          "LYS",
+          "MET",
+          "PHE",
+          "PRO",
+          "SER",
+          "THR",
+          "TYR",
+          "VAL"
+        ]
+      },
+      "Kinase": {
+        "atoms": 4577,
+        "hydrogen_name_count": 2294,
+        "hydrogen_detection": "GRO atom-name heuristic; exact elemental/mass identity requires topology review",
+        "residue_names": [
+          "ALA",
+          "ARG",
+          "ASN",
+          "ASP",
+          "CYS",
+          "GLN",
+          "GLU",
+          "GLY",
+          "HIS",
+          "ILE",
+          "LEU",
+          "LYS",
+          "MET",
+          "PHE",
+          "PRO",
+          "SER",
+          "THR",
+          "TRP",
+          "TYR",
+          "VAL"
+        ]
+      }
+    },
+    "input_sha256": {
+      "/home/ayushregmibagale/protac-md/analysis/random_screen/RIPK2_full/pose004/dist_protac_vhl.xvg": "ca1483aba3fb410437e7881d9d66e72744ffd87027aae7272a6c9c4bc520dfe5",
+      "/home/ayushregmibagale/protac-md/analysis/random_screen/RIPK2_full/pose004/dist_protac_kinase.xvg": "f25d8844083be40c26aaed4ccc70f69dd28c611093042f8b9363007281318eaa",
+      "/home/ayushregmibagale/protac-md/analysis/random_screen/RIPK2_full/pose004/metrics.csv": "86edc139923672d921b308ff4ec5c08b2a9b885147450dc7f69d1d527a072c60",
+      "/home/ayushregmibagale/protac-md/analysis/random_screen/RIPK2_full/pose004/index.ndx": "84fd3f4a648a7aa32555a4f8de69838c22ee409026cd6d43cd026327dae6ed65",
+      "/home/ayushregmibagale/protac-md/random_screen/RIPK2_full/pose004/topol/complex_ions.gro": "64712290b0e78bbf6303f29e59f698235de083a7ee575221a86870d46948539a"
+    }
+  },
+  {
+    "poi": "RIPK2_full",
+    "pose_id": "pose005",
+    "source_pdb": "combined_32_28",
+    "raw_frames": 201,
+    "canonical_full_frames": 201,
+    "removed_identical_duplicate_frames": 0,
+    "raw_time_last_ns": 20.0,
+    "frames": 201,
+    "time_first_ns": 0.0,
+    "time_last_ns": 20.0,
+    "median_sample_interval_ns": 0.09999999999999964,
+    "uniform_sample_spacing": false,
+    "legacy_header_bridging_pct": 31.3,
+    "recomputed_bridging_pct": 31.343283582089555,
+    "index_group_composition": {
+      "Other": {
+        "atoms": 144,
+        "hydrogen_name_count": 65,
+        "hydrogen_detection": "GRO atom-name heuristic; exact elemental/mass identity requires topology review",
+        "residue_names": [
+          "UNL"
+        ]
+      },
+      "VHL": {
+        "atoms": 1603,
+        "hydrogen_name_count": 801,
+        "hydrogen_detection": "GRO atom-name heuristic; exact elemental/mass identity requires topology review",
+        "residue_names": [
+          "ALA",
+          "ARG",
+          "ASP",
+          "GLN",
+          "GLU",
+          "GLY",
+          "HIS",
+          "ILE",
+          "LEU",
+          "LYS",
+          "MET",
+          "PHE",
+          "PRO",
+          "SER",
+          "THR",
+          "TYR",
+          "VAL"
+        ]
+      },
+      "Kinase": {
+        "atoms": 4577,
+        "hydrogen_name_count": 2294,
+        "hydrogen_detection": "GRO atom-name heuristic; exact elemental/mass identity requires topology review",
+        "residue_names": [
+          "ALA",
+          "ARG",
+          "ASN",
+          "ASP",
+          "CYS",
+          "GLN",
+          "GLU",
+          "GLY",
+          "HIS",
+          "ILE",
+          "LEU",
+          "LYS",
+          "MET",
+          "PHE",
+          "PRO",
+          "SER",
+          "THR",
+          "TRP",
+          "TYR",
+          "VAL"
+        ]
+      }
+    },
+    "input_sha256": {
+      "/home/ayushregmibagale/protac-md/analysis/random_screen/RIPK2_full/pose005/dist_protac_vhl.xvg": "a30d8adf9d109a4cfc352333aa076deed7606269dfcf1ce98c0fa7d0ff496466",
+      "/home/ayushregmibagale/protac-md/analysis/random_screen/RIPK2_full/pose005/dist_protac_kinase.xvg": "7b9855645ca75144969ee758e230dfb9c37cf39992fb75954e88d3727065ab89",
+      "/home/ayushregmibagale/protac-md/analysis/random_screen/RIPK2_full/pose005/metrics.csv": "27469407df2139470015cbb4c429ae887139c7ba132e8c523426c89c2c79ae79",
+      "/home/ayushregmibagale/protac-md/analysis/random_screen/RIPK2_full/pose005/index.ndx": "c3334bfb32f0cb87a9203a605f2a9e2539f4870996860a004a0ebd952a0034fa",
+      "/home/ayushregmibagale/protac-md/random_screen/RIPK2_full/pose005/topol/complex_ions.gro": "9f0ef41de8b5ae66bb7a6f7259be5d69966a02907157398f0a340cabb15e6d34"
+    }
+  },
+  {
+    "poi": "RIPK2_full",
+    "pose_id": "pose006",
+    "source_pdb": "combined_6_50",
+    "raw_frames": 201,
+    "canonical_full_frames": 201,
+    "removed_identical_duplicate_frames": 0,
+    "raw_time_last_ns": 20.0,
+    "frames": 201,
+    "time_first_ns": 0.0,
+    "time_last_ns": 20.0,
+    "median_sample_interval_ns": 0.09999999999999964,
+    "uniform_sample_spacing": false,
+    "legacy_header_bridging_pct": 95.5,
+    "recomputed_bridging_pct": 95.52238805970148,
+    "index_group_composition": {
+      "Other": {
+        "atoms": 144,
+        "hydrogen_name_count": 65,
+        "hydrogen_detection": "GRO atom-name heuristic; exact elemental/mass identity requires topology review",
+        "residue_names": [
+          "UNL"
+        ]
+      },
+      "VHL": {
+        "atoms": 1603,
+        "hydrogen_name_count": 801,
+        "hydrogen_detection": "GRO atom-name heuristic; exact elemental/mass identity requires topology review",
+        "residue_names": [
+          "ALA",
+          "ARG",
+          "ASP",
+          "GLN",
+          "GLU",
+          "GLY",
+          "HIS",
+          "ILE",
+          "LEU",
+          "LYS",
+          "MET",
+          "PHE",
+          "PRO",
+          "SER",
+          "THR",
+          "TYR",
+          "VAL"
+        ]
+      },
+      "Kinase": {
+        "atoms": 4577,
+        "hydrogen_name_count": 2294,
+        "hydrogen_detection": "GRO atom-name heuristic; exact elemental/mass identity requires topology review",
+        "residue_names": [
+          "ALA",
+          "ARG",
+          "ASN",
+          "ASP",
+          "CYS",
+          "GLN",
+          "GLU",
+          "GLY",
+          "HIS",
+          "ILE",
+          "LEU",
+          "LYS",
+          "MET",
+          "PHE",
+          "PRO",
+          "SER",
+          "THR",
+          "TRP",
+          "TYR",
+          "VAL"
+        ]
+      }
+    },
+    "input_sha256": {
+      "/home/ayushregmibagale/protac-md/analysis/random_screen/RIPK2_full/pose006/dist_protac_vhl.xvg": "7b25c8d45d6a654e20f9f651b76b7397fbfdbbecdfda3dce167fd6d2206f7ce2",
+      "/home/ayushregmibagale/protac-md/analysis/random_screen/RIPK2_full/pose006/dist_protac_kinase.xvg": "ac5490b50e881b1ac3d456811c02ea5dc8a82dc5e06070d818bf4a9f6ccf703e",
+      "/home/ayushregmibagale/protac-md/analysis/random_screen/RIPK2_full/pose006/metrics.csv": "e28429a08113d62867c3c5580e9bf5259610553375ce1d811602ab2a270c6c14",
+      "/home/ayushregmibagale/protac-md/analysis/random_screen/RIPK2_full/pose006/index.ndx": "b6abfb6c89834226e1460f884a9455b2904eaa2d702c510c9cb05546ba65ce6a",
+      "/home/ayushregmibagale/protac-md/random_screen/RIPK2_full/pose006/topol/complex_ions.gro": "2162cce3e2be9b1902ac176a8b7a45c4b7ca50ac700b7a7d5eca7f347564541b"
+    }
+  },
+  {
+    "poi": "RIPK2_full",
+    "pose_id": "pose007",
+    "source_pdb": "combined_158_25",
+    "raw_frames": 201,
+    "canonical_full_frames": 201,
+    "removed_identical_duplicate_frames": 0,
+    "raw_time_last_ns": 20.0,
+    "frames": 201,
+    "time_first_ns": 0.0,
+    "time_last_ns": 20.0,
+    "median_sample_interval_ns": 0.09999999999999964,
+    "uniform_sample_spacing": false,
+    "legacy_header_bridging_pct": 36.3,
+    "recomputed_bridging_pct": 36.318407960199,
+    "index_group_composition": {
+      "Other": {
+        "atoms": 144,
+        "hydrogen_name_count": 65,
+        "hydrogen_detection": "GRO atom-name heuristic; exact elemental/mass identity requires topology review",
+        "residue_names": [
+          "UNL"
+        ]
+      },
+      "VHL": {
+        "atoms": 1603,
+        "hydrogen_name_count": 801,
+        "hydrogen_detection": "GRO atom-name heuristic; exact elemental/mass identity requires topology review",
+        "residue_names": [
+          "ALA",
+          "ARG",
+          "ASP",
+          "GLN",
+          "GLU",
+          "GLY",
+          "HIS",
+          "ILE",
+          "LEU",
+          "LYS",
+          "MET",
+          "PHE",
+          "PRO",
+          "SER",
+          "THR",
+          "TYR",
+          "VAL"
+        ]
+      },
+      "Kinase": {
+        "atoms": 4577,
+        "hydrogen_name_count": 2294,
+        "hydrogen_detection": "GRO atom-name heuristic; exact elemental/mass identity requires topology review",
+        "residue_names": [
+          "ALA",
+          "ARG",
+          "ASN",
+          "ASP",
+          "CYS",
+          "GLN",
+          "GLU",
+          "GLY",
+          "HIS",
+          "ILE",
+          "LEU",
+          "LYS",
+          "MET",
+          "PHE",
+          "PRO",
+          "SER",
+          "THR",
+          "TRP",
+          "TYR",
+          "VAL"
+        ]
+      }
+    },
+    "input_sha256": {
+      "/home/ayushregmibagale/protac-md/analysis/random_screen/RIPK2_full/pose007/dist_protac_vhl.xvg": "a799c7ff2b8c253c7319f10b8d1b700e386695e2a1155ad5840b3d1f1e64e14b",
+      "/home/ayushregmibagale/protac-md/analysis/random_screen/RIPK2_full/pose007/dist_protac_kinase.xvg": "d982180ac50c1f302edc23cb5c068ac35259e0512dc57ac5cdbac9454e571626",
+      "/home/ayushregmibagale/protac-md/analysis/random_screen/RIPK2_full/pose007/metrics.csv": "3fbc170dd205a96931de0383cec1a66844819bc9cb4647d274dda37942fab5e3",
+      "/home/ayushregmibagale/protac-md/analysis/random_screen/RIPK2_full/pose007/index.ndx": "0bf9827e971fd23df386ff34bc7a8fc29cfdf103a73e7c68e23b691402aa460f",
+      "/home/ayushregmibagale/protac-md/random_screen/RIPK2_full/pose007/topol/complex_ions.gro": "ee3b0a41c7477d9b2cfa9d6c9892c00a20026f3a705b477e69ad473cc3390940"
+    }
+  },
+  {
+    "poi": "RIPK2_full",
+    "pose_id": "pose008",
+    "source_pdb": "combined_182_2",
+    "raw_frames": 201,
+    "canonical_full_frames": 201,
+    "removed_identical_duplicate_frames": 0,
+    "raw_time_last_ns": 20.0,
+    "frames": 201,
+    "time_first_ns": 0.0,
+    "time_last_ns": 20.0,
+    "median_sample_interval_ns": 0.09999999999999964,
+    "uniform_sample_spacing": false,
+    "legacy_header_bridging_pct": 46.3,
+    "recomputed_bridging_pct": 46.26865671641791,
+    "index_group_composition": {
+      "Other": {
+        "atoms": 144,
+        "hydrogen_name_count": 65,
+        "hydrogen_detection": "GRO atom-name heuristic; exact elemental/mass identity requires topology review",
+        "residue_names": [
+          "UNL"
+        ]
+      },
+      "VHL": {
+        "atoms": 1603,
+        "hydrogen_name_count": 801,
+        "hydrogen_detection": "GRO atom-name heuristic; exact elemental/mass identity requires topology review",
+        "residue_names": [
+          "ALA",
+          "ARG",
+          "ASP",
+          "GLN",
+          "GLU",
+          "GLY",
+          "HIS",
+          "ILE",
+          "LEU",
+          "LYS",
+          "MET",
+          "PHE",
+          "PRO",
+          "SER",
+          "THR",
+          "TYR",
+          "VAL"
+        ]
+      },
+      "Kinase": {
+        "atoms": 4577,
+        "hydrogen_name_count": 2294,
+        "hydrogen_detection": "GRO atom-name heuristic; exact elemental/mass identity requires topology review",
+        "residue_names": [
+          "ALA",
+          "ARG",
+          "ASN",
+          "ASP",
+          "CYS",
+          "GLN",
+          "GLU",
+          "GLY",
+          "HIS",
+          "ILE",
+          "LEU",
+          "LYS",
+          "MET",
+          "PHE",
+          "PRO",
+          "SER",
+          "THR",
+          "TRP",
+          "TYR",
+          "VAL"
+        ]
+      }
+    },
+    "input_sha256": {
+      "/home/ayushregmibagale/protac-md/analysis/random_screen/RIPK2_full/pose008/dist_protac_vhl.xvg": "f9085bb190f8e8d67f64afea387637cc7429a153fd27d6782fe8405eb6ae045f",
+      "/home/ayushregmibagale/protac-md/analysis/random_screen/RIPK2_full/pose008/dist_protac_kinase.xvg": "504c792ae0d6513c974958b669ac444459d8a4f7f64455015a739ae20c714ec0",
+      "/home/ayushregmibagale/protac-md/analysis/random_screen/RIPK2_full/pose008/metrics.csv": "62cbcffee29ab4ea8d007a4ca81203755c0681e1be31d4abe7ab2f9ef2cf0df8",
+      "/home/ayushregmibagale/protac-md/analysis/random_screen/RIPK2_full/pose008/index.ndx": "56a17f50af4207aa3bc14f95164e9ae0213d5fcb628896febb8d49f77527f53d",
+      "/home/ayushregmibagale/protac-md/random_screen/RIPK2_full/pose008/topol/complex_ions.gro": "ac9dfe58ddaf6c829f153cd18e929f86ef0edc6d51b67bfb97dc1645ec737555"
+    }
+  },
+  {
+    "poi": "RIPK2_full",
+    "pose_id": "pose009",
+    "source_pdb": "combined_176_22",
+    "raw_frames": 201,
+    "canonical_full_frames": 201,
+    "removed_identical_duplicate_frames": 0,
+    "raw_time_last_ns": 20.0,
+    "frames": 201,
+    "time_first_ns": 0.0,
+    "time_last_ns": 20.0,
+    "median_sample_interval_ns": 0.09999999999999964,
+    "uniform_sample_spacing": false,
+    "legacy_header_bridging_pct": 41.8,
+    "recomputed_bridging_pct": 41.7910447761194,
+    "index_group_composition": {
+      "Other": {
+        "atoms": 144,
+        "hydrogen_name_count": 65,
+        "hydrogen_detection": "GRO atom-name heuristic; exact elemental/mass identity requires topology review",
+        "residue_names": [
+          "UNL"
+        ]
+      },
+      "VHL": {
+        "atoms": 1603,
+        "hydrogen_name_count": 801,
+        "hydrogen_detection": "GRO atom-name heuristic; exact elemental/mass identity requires topology review",
+        "residue_names": [
+          "ALA",
+          "ARG",
+          "ASP",
+          "GLN",
+          "GLU",
+          "GLY",
+          "HIS",
+          "ILE",
+          "LEU",
+          "LYS",
+          "MET",
+          "PHE",
+          "PRO",
+          "SER",
+          "THR",
+          "TYR",
+          "VAL"
+        ]
+      },
+      "Kinase": {
+        "atoms": 4577,
+        "hydrogen_name_count": 2294,
+        "hydrogen_detection": "GRO atom-name heuristic; exact elemental/mass identity requires topology review",
+        "residue_names": [
+          "ALA",
+          "ARG",
+          "ASN",
+          "ASP",
+          "CYS",
+          "GLN",
+          "GLU",
+          "GLY",
+          "HIS",
+          "ILE",
+          "LEU",
+          "LYS",
+          "MET",
+          "PHE",
+          "PRO",
+          "SER",
+          "THR",
+          "TRP",
+          "TYR",
+          "VAL"
+        ]
+      }
+    },
+    "input_sha256": {
+      "/home/ayushregmibagale/protac-md/analysis/random_screen/RIPK2_full/pose009/dist_protac_vhl.xvg": "ff09ec65cfabdcaa2810d989e2cbd7c693f3c1d36db5a27a342f83adae471557",
+      "/home/ayushregmibagale/protac-md/analysis/random_screen/RIPK2_full/pose009/dist_protac_kinase.xvg": "169df3844db6789aa9975c12e5bc67a1a92f8b6f7534024b0e577cfbd169a837",
+      "/home/ayushregmibagale/protac-md/analysis/random_screen/RIPK2_full/pose009/metrics.csv": "cb8013ecb6b9b9714142053ed66f2251f049bc722872fc53b2bd1aca94d22ff8",
+      "/home/ayushregmibagale/protac-md/analysis/random_screen/RIPK2_full/pose009/index.ndx": "04e950350429486c651ecfdd0b46922ba00bf14b00e7b2b47b95a117e353e5c0",
+      "/home/ayushregmibagale/protac-md/random_screen/RIPK2_full/pose009/topol/complex_ions.gro": "d3e193bc7d920b05b3c371100fc24e2e18ee94c331b011e8f1be89757d09075a"
+    }
+  },
+  {
+    "poi": "RIPK2_full",
+    "pose_id": "pose010",
+    "source_pdb": "combined_54_44",
+    "raw_frames": 201,
+    "canonical_full_frames": 201,
+    "removed_identical_duplicate_frames": 0,
+    "raw_time_last_ns": 20.0,
+    "frames": 201,
+    "time_first_ns": 0.0,
+    "time_last_ns": 20.0,
+    "median_sample_interval_ns": 0.09999999999999964,
+    "uniform_sample_spacing": false,
+    "legacy_header_bridging_pct": 38.8,
+    "recomputed_bridging_pct": 38.80597014925373,
+    "index_group_composition": {
+      "Other": {
+        "atoms": 144,
+        "hydrogen_name_count": 65,
+        "hydrogen_detection": "GRO atom-name heuristic; exact elemental/mass identity requires topology review",
+        "residue_names": [
+          "UNL"
+        ]
+      },
+      "VHL": {
+        "atoms": 1603,
+        "hydrogen_name_count": 801,
+        "hydrogen_detection": "GRO atom-name heuristic; exact elemental/mass identity requires topology review",
+        "residue_names": [
+          "ALA",
+          "ARG",
+          "ASP",
+          "GLN",
+          "GLU",
+          "GLY",
+          "HIS",
+          "ILE",
+          "LEU",
+          "LYS",
+          "MET",
+          "PHE",
+          "PRO",
+          "SER",
+          "THR",
+          "TYR",
+          "VAL"
+        ]
+      },
+      "Kinase": {
+        "atoms": 4577,
+        "hydrogen_name_count": 2294,
+        "hydrogen_detection": "GRO atom-name heuristic; exact elemental/mass identity requires topology review",
+        "residue_names": [
+          "ALA",
+          "ARG",
+          "ASN",
+          "ASP",
+          "CYS",
+          "GLN",
+          "GLU",
+          "GLY",
+          "HIS",
+          "ILE",
+          "LEU",
+          "LYS",
+          "MET",
+          "PHE",
+          "PRO",
+          "SER",
+          "THR",
+          "TRP",
+          "TYR",
+          "VAL"
+        ]
+      }
+    },
+    "input_sha256": {
+      "/home/ayushregmibagale/protac-md/analysis/random_screen/RIPK2_full/pose010/dist_protac_vhl.xvg": "d8be026588511f89aaedf37c26a26187b22532d18951c47a13d94c7e99155b1b",
+      "/home/ayushregmibagale/protac-md/analysis/random_screen/RIPK2_full/pose010/dist_protac_kinase.xvg": "1a5aed70396f2ada1ff39ae355e4a4fde75387514ef0dc5cef63352a1d3026f6",
+      "/home/ayushregmibagale/protac-md/analysis/random_screen/RIPK2_full/pose010/metrics.csv": "4e007d3f228f2628923413e1ce499745ae2be4b8979457c58098f588264ee697",
+      "/home/ayushregmibagale/protac-md/analysis/random_screen/RIPK2_full/pose010/index.ndx": "62b8385cdb2f6b3441f064e9f113135d87ef8a7df3d07d80fb537cef2ae665fa",
+      "/home/ayushregmibagale/protac-md/random_screen/RIPK2_full/pose010/topol/complex_ions.gro": "3b54587c984a1177e04514645dcc2c33643932a4d92af0b164f36b9a292d530e"
+    }
+  },
+  {
+    "poi": "RIPK2_full",
+    "pose_id": "pose011",
+    "source_pdb": "combined_135_11_0001",
+    "raw_frames": 201,
+    "canonical_full_frames": 201,
+    "removed_identical_duplicate_frames": 0,
+    "raw_time_last_ns": 20.0,
+    "frames": 201,
+    "time_first_ns": 0.0,
+    "time_last_ns": 20.0,
+    "median_sample_interval_ns": 0.09999999999999964,
+    "uniform_sample_spacing": false,
+    "legacy_header_bridging_pct": 100.0,
+    "recomputed_bridging_pct": 100.0,
+    "index_group_composition": {
+      "Other": {
+        "atoms": 144,
+        "hydrogen_name_count": 65,
+        "hydrogen_detection": "GRO atom-name heuristic; exact elemental/mass identity requires topology review",
+        "residue_names": [
+          "UNL"
+        ]
+      },
+      "VHL": {
+        "atoms": 1603,
+        "hydrogen_name_count": 801,
+        "hydrogen_detection": "GRO atom-name heuristic; exact elemental/mass identity requires topology review",
+        "residue_names": [
+          "ALA",
+          "ARG",
+          "ASP",
+          "GLN",
+          "GLU",
+          "GLY",
+          "HIS",
+          "ILE",
+          "LEU",
+          "LYS",
+          "MET",
+          "PHE",
+          "PRO",
+          "SER",
+          "THR",
+          "TYR",
+          "VAL"
+        ]
+      },
+      "Kinase": {
+        "atoms": 4577,
+        "hydrogen_name_count": 2294,
+        "hydrogen_detection": "GRO atom-name heuristic; exact elemental/mass identity requires topology review",
+        "residue_names": [
+          "ALA",
+          "ARG",
+          "ASN",
+          "ASP",
+          "CYS",
+          "GLN",
+          "GLU",
+          "GLY",
+          "HIS",
+          "ILE",
+          "LEU",
+          "LYS",
+          "MET",
+          "PHE",
+          "PRO",
+          "SER",
+          "THR",
+          "TRP",
+          "TYR",
+          "VAL"
+        ]
+      }
+    },
+    "input_sha256": {
+      "/home/ayushregmibagale/protac-md/analysis/random_screen/RIPK2_full/pose011/dist_protac_vhl.xvg": "c530283d6e85975f8bc77d6c09a9eb078a50e11e1d6a26746cef6120ce403bf4",
+      "/home/ayushregmibagale/protac-md/analysis/random_screen/RIPK2_full/pose011/dist_protac_kinase.xvg": "eb4673a7e774e06b6a51231e0d255922da493a607b5eca51af01e0bb10b09120",
+      "/home/ayushregmibagale/protac-md/analysis/random_screen/RIPK2_full/pose011/metrics.csv": "e30cf4020980e3e174064dcbb1bb0917d966689625e47f3ecffabc13553b3a99",
+      "/home/ayushregmibagale/protac-md/analysis/random_screen/RIPK2_full/pose011/index.ndx": "7afbe9403d38365d48f33d651128c5b84551a03837e41580b900a61876bff7fe",
+      "/home/ayushregmibagale/protac-md/random_screen/RIPK2_full/pose011/topol/complex_ions.gro": "ecc037f58a1ec1c24b24469186333acf757e0dc41ba6545a44daaef9c7e1d4d6"
+    }
+  },
+  {
+    "poi": "RIPK2_full",
+    "pose_id": "pose012",
+    "source_pdb": "combined_200_10",
+    "raw_frames": 201,
+    "canonical_full_frames": 201,
+    "removed_identical_duplicate_frames": 0,
+    "raw_time_last_ns": 20.0,
+    "frames": 201,
+    "time_first_ns": 0.0,
+    "time_last_ns": 20.0,
+    "median_sample_interval_ns": 0.09999999999999964,
+    "uniform_sample_spacing": false,
+    "legacy_header_bridging_pct": 100.0,
+    "recomputed_bridging_pct": 100.0,
+    "index_group_composition": {
+      "Other": {
+        "atoms": 144,
+        "hydrogen_name_count": 65,
+        "hydrogen_detection": "GRO atom-name heuristic; exact elemental/mass identity requires topology review",
+        "residue_names": [
+          "UNL"
+        ]
+      },
+      "VHL": {
+        "atoms": 1603,
+        "hydrogen_name_count": 801,
+        "hydrogen_detection": "GRO atom-name heuristic; exact elemental/mass identity requires topology review",
+        "residue_names": [
+          "ALA",
+          "ARG",
+          "ASP",
+          "GLN",
+          "GLU",
+          "GLY",
+          "HIS",
+          "ILE",
+          "LEU",
+          "LYS",
+          "MET",
+          "PHE",
+          "PRO",
+          "SER",
+          "THR",
+          "TYR",
+          "VAL"
+        ]
+      },
+      "Kinase": {
+        "atoms": 4577,
+        "hydrogen_name_count": 2294,
+        "hydrogen_detection": "GRO atom-name heuristic; exact elemental/mass identity requires topology review",
+        "residue_names": [
+          "ALA",
+          "ARG",
+          "ASN",
+          "ASP",
+          "CYS",
+          "GLN",
+          "GLU",
+          "GLY",
+          "HIS",
+          "ILE",
+          "LEU",
+          "LYS",
+          "MET",
+          "PHE",
+          "PRO",
+          "SER",
+          "THR",
+          "TRP",
+          "TYR",
+          "VAL"
+        ]
+      }
+    },
+    "input_sha256": {
+      "/home/ayushregmibagale/protac-md/analysis/random_screen/RIPK2_full/pose012/dist_protac_vhl.xvg": "2016865e3a6f41dcf82e61abc5e08c8ee528e2d33fef99cab2bfe8ab73048cf2",
+      "/home/ayushregmibagale/protac-md/analysis/random_screen/RIPK2_full/pose012/dist_protac_kinase.xvg": "b8d6c3a2c86244bf94d4beae31ae844f76da96174ab79abc8f5c79c21571cc99",
+      "/home/ayushregmibagale/protac-md/analysis/random_screen/RIPK2_full/pose012/metrics.csv": "a529c3ce8c87f7670933238906c6f8eb9f7a6651c06084b64b6fea9faa85c053",
+      "/home/ayushregmibagale/protac-md/analysis/random_screen/RIPK2_full/pose012/index.ndx": "43635cfcfa5e3b28351c62b796ac3357ee2caae9ef4846b65c56eeedcd59ff13",
+      "/home/ayushregmibagale/protac-md/random_screen/RIPK2_full/pose012/topol/complex_ions.gro": "aad0036ebc55f31ef23a813f07a9ff5492186896b0905ae48bd250ee174396a2"
+    }
+  },
+  {
+    "poi": "RIPK2_full",
+    "pose_id": "pose015",
+    "source_pdb": "combined_79_18",
+    "raw_frames": 201,
+    "canonical_full_frames": 201,
+    "removed_identical_duplicate_frames": 0,
+    "raw_time_last_ns": 20.0,
+    "frames": 201,
+    "time_first_ns": 0.0,
+    "time_last_ns": 20.0,
+    "median_sample_interval_ns": 0.09999999999999964,
+    "uniform_sample_spacing": false,
+    "legacy_header_bridging_pct": 8.5,
+    "recomputed_bridging_pct": 8.45771144278607,
+    "index_group_composition": {
+      "Other": {
+        "atoms": 144,
+        "hydrogen_name_count": 65,
+        "hydrogen_detection": "GRO atom-name heuristic; exact elemental/mass identity requires topology review",
+        "residue_names": [
+          "UNL"
+        ]
+      },
+      "VHL": {
+        "atoms": 1603,
+        "hydrogen_name_count": 801,
+        "hydrogen_detection": "GRO atom-name heuristic; exact elemental/mass identity requires topology review",
+        "residue_names": [
+          "ALA",
+          "ARG",
+          "ASP",
+          "GLN",
+          "GLU",
+          "GLY",
+          "HIS",
+          "ILE",
+          "LEU",
+          "LYS",
+          "MET",
+          "PHE",
+          "PRO",
+          "SER",
+          "THR",
+          "TYR",
+          "VAL"
+        ]
+      },
+      "Kinase": {
+        "atoms": 4577,
+        "hydrogen_name_count": 2294,
+        "hydrogen_detection": "GRO atom-name heuristic; exact elemental/mass identity requires topology review",
+        "residue_names": [
+          "ALA",
+          "ARG",
+          "ASN",
+          "ASP",
+          "CYS",
+          "GLN",
+          "GLU",
+          "GLY",
+          "HIS",
+          "ILE",
+          "LEU",
+          "LYS",
+          "MET",
+          "PHE",
+          "PRO",
+          "SER",
+          "THR",
+          "TRP",
+          "TYR",
+          "VAL"
+        ]
+      }
+    },
+    "input_sha256": {
+      "/home/ayushregmibagale/protac-md/analysis/random_screen/RIPK2_full/pose015/dist_protac_vhl.xvg": "5cd8770c56907f0b48797b0aa39c72e40d38380219a7a0cdf1d9625fbb2ed76c",
+      "/home/ayushregmibagale/protac-md/analysis/random_screen/RIPK2_full/pose015/dist_protac_kinase.xvg": "251d6c9ed58055b7937737bda139e054e77e8b4f41c981d8c772454070e1144d",
+      "/home/ayushregmibagale/protac-md/analysis/random_screen/RIPK2_full/pose015/metrics.csv": "fa0acf8203511c9d8b3f36f9d279fdd34eee73fd2a7fb8f714b98a098a0905db",
+      "/home/ayushregmibagale/protac-md/analysis/random_screen/RIPK2_full/pose015/index.ndx": "da69ee0101931c5e1f1b8a4ebc95e84c7e00f1dc541ecc977fc13cbae58b1742",
+      "/home/ayushregmibagale/protac-md/random_screen/RIPK2_full/pose015/topol/complex_ions.gro": "e2fa6fabe9db41cb72213feb462ee7f2a1b10859374322869d28be7aa6828ff3"
+    }
+  },
+  {
+    "poi": "RIPK2_full",
+    "pose_id": "pose016",
+    "source_pdb": "combined_52_11",
+    "raw_frames": 201,
+    "canonical_full_frames": 201,
+    "removed_identical_duplicate_frames": 0,
+    "raw_time_last_ns": 20.0,
+    "frames": 201,
+    "time_first_ns": 0.0,
+    "time_last_ns": 20.0,
+    "median_sample_interval_ns": 0.09999999999999964,
+    "uniform_sample_spacing": false,
+    "legacy_header_bridging_pct": 21.4,
+    "recomputed_bridging_pct": 21.393034825870647,
+    "index_group_composition": {
+      "Other": {
+        "atoms": 144,
+        "hydrogen_name_count": 65,
+        "hydrogen_detection": "GRO atom-name heuristic; exact elemental/mass identity requires topology review",
+        "residue_names": [
+          "UNL"
+        ]
+      },
+      "VHL": {
+        "atoms": 1603,
+        "hydrogen_name_count": 801,
+        "hydrogen_detection": "GRO atom-name heuristic; exact elemental/mass identity requires topology review",
+        "residue_names": [
+          "ALA",
+          "ARG",
+          "ASP",
+          "GLN",
+          "GLU",
+          "GLY",
+          "HIS",
+          "ILE",
+          "LEU",
+          "LYS",
+          "MET",
+          "PHE",
+          "PRO",
+          "SER",
+          "THR",
+          "TYR",
+          "VAL"
+        ]
+      },
+      "Kinase": {
+        "atoms": 4577,
+        "hydrogen_name_count": 2294,
+        "hydrogen_detection": "GRO atom-name heuristic; exact elemental/mass identity requires topology review",
+        "residue_names": [
+          "ALA",
+          "ARG",
+          "ASN",
+          "ASP",
+          "CYS",
+          "GLN",
+          "GLU",
+          "GLY",
+          "HIS",
+          "ILE",
+          "LEU",
+          "LYS",
+          "MET",
+          "PHE",
+          "PRO",
+          "SER",
+          "THR",
+          "TRP",
+          "TYR",
+          "VAL"
+        ]
+      }
+    },
+    "input_sha256": {
+      "/home/ayushregmibagale/protac-md/analysis/random_screen/RIPK2_full/pose016/dist_protac_vhl.xvg": "e5659753d8b53faa2f6c7fc3e8b3aaa6c10b94fe24478aac758999e7f24307f1",
+      "/home/ayushregmibagale/protac-md/analysis/random_screen/RIPK2_full/pose016/dist_protac_kinase.xvg": "fada89f634d2ade34ed5d6f027ca9d391513fc76623a67997fc99cfa382d8c7b",
+      "/home/ayushregmibagale/protac-md/analysis/random_screen/RIPK2_full/pose016/metrics.csv": "341c70cad39e64432eb67207a5049a9edd25859dd349e60ac3cfbd480567a7d6",
+      "/home/ayushregmibagale/protac-md/analysis/random_screen/RIPK2_full/pose016/index.ndx": "7ff70e7e9d0b7870883ce39b0506b081681f242bed97842ab146fb221b158236",
+      "/home/ayushregmibagale/protac-md/random_screen/RIPK2_full/pose016/topol/complex_ions.gro": "950724826b538722f0af8838d53e893838b95b34f8143d341ae9d30136152218"
+    }
+  },
+  {
+    "poi": "RIPK2_full",
+    "pose_id": "pose017",
+    "source_pdb": "combined_90_23",
+    "raw_frames": 201,
+    "canonical_full_frames": 201,
+    "removed_identical_duplicate_frames": 0,
+    "raw_time_last_ns": 20.0,
+    "frames": 201,
+    "time_first_ns": 0.0,
+    "time_last_ns": 20.0,
+    "median_sample_interval_ns": 0.09999999999999964,
+    "uniform_sample_spacing": false,
+    "legacy_header_bridging_pct": 84.1,
+    "recomputed_bridging_pct": 84.07960199004975,
+    "index_group_composition": {
+      "Other": {
+        "atoms": 144,
+        "hydrogen_name_count": 65,
+        "hydrogen_detection": "GRO atom-name heuristic; exact elemental/mass identity requires topology review",
+        "residue_names": [
+          "UNL"
+        ]
+      },
+      "VHL": {
+        "atoms": 1603,
+        "hydrogen_name_count": 801,
+        "hydrogen_detection": "GRO atom-name heuristic; exact elemental/mass identity requires topology review",
+        "residue_names": [
+          "ALA",
+          "ARG",
+          "ASP",
+          "GLN",
+          "GLU",
+          "GLY",
+          "HIS",
+          "ILE",
+          "LEU",
+          "LYS",
+          "MET",
+          "PHE",
+          "PRO",
+          "SER",
+          "THR",
+          "TYR",
+          "VAL"
+        ]
+      },
+      "Kinase": {
+        "atoms": 4577,
+        "hydrogen_name_count": 2294,
+        "hydrogen_detection": "GRO atom-name heuristic; exact elemental/mass identity requires topology review",
+        "residue_names": [
+          "ALA",
+          "ARG",
+          "ASN",
+          "ASP",
+          "CYS",
+          "GLN",
+          "GLU",
+          "GLY",
+          "HIS",
+          "ILE",
+          "LEU",
+          "LYS",
+          "MET",
+          "PHE",
+          "PRO",
+          "SER",
+          "THR",
+          "TRP",
+          "TYR",
+          "VAL"
+        ]
+      }
+    },
+    "input_sha256": {
+      "/home/ayushregmibagale/protac-md/analysis/random_screen/RIPK2_full/pose017/dist_protac_vhl.xvg": "1f2e7e18cec8e73764c2171ff0216b58ffdcdf087df60e55f1cbf2afdf9a2bbe",
+      "/home/ayushregmibagale/protac-md/analysis/random_screen/RIPK2_full/pose017/dist_protac_kinase.xvg": "16836df0e1a99a730d71b90252bb4793d3c71b75cf724505fd0e40fce3ccb575",
+      "/home/ayushregmibagale/protac-md/analysis/random_screen/RIPK2_full/pose017/metrics.csv": "348a2bf2e3e861eea0b8684235dd176dbafe6596a490f6e239eae705dd3087e9",
+      "/home/ayushregmibagale/protac-md/analysis/random_screen/RIPK2_full/pose017/index.ndx": "87f776405c0abd982289eb45d30473a7baaeaab7c86088636efbbf7847e4fddb",
+      "/home/ayushregmibagale/protac-md/random_screen/RIPK2_full/pose017/topol/complex_ions.gro": "2c29682541e1d75b2b3e719c030fde9464553d4dc7a8d1e95d67fb4c8a11a988"
+    }
+  },
+  {
+    "poi": "RIPK2_full",
+    "pose_id": "pose018",
+    "source_pdb": "combined_43_11",
+    "raw_frames": 201,
+    "canonical_full_frames": 201,
+    "removed_identical_duplicate_frames": 0,
+    "raw_time_last_ns": 20.0,
+    "frames": 201,
+    "time_first_ns": 0.0,
+    "time_last_ns": 20.0,
+    "median_sample_interval_ns": 0.09999999999999964,
+    "uniform_sample_spacing": false,
+    "legacy_header_bridging_pct": 0.5,
+    "recomputed_bridging_pct": 0.4975124378109453,
+    "index_group_composition": {
+      "Other": {
+        "atoms": 144,
+        "hydrogen_name_count": 65,
+        "hydrogen_detection": "GRO atom-name heuristic; exact elemental/mass identity requires topology review",
+        "residue_names": [
+          "UNL"
+        ]
+      },
+      "VHL": {
+        "atoms": 1603,
+        "hydrogen_name_count": 801,
+        "hydrogen_detection": "GRO atom-name heuristic; exact elemental/mass identity requires topology review",
+        "residue_names": [
+          "ALA",
+          "ARG",
+          "ASP",
+          "GLN",
+          "GLU",
+          "GLY",
+          "HIS",
+          "ILE",
+          "LEU",
+          "LYS",
+          "MET",
+          "PHE",
+          "PRO",
+          "SER",
+          "THR",
+          "TYR",
+          "VAL"
+        ]
+      },
+      "Kinase": {
+        "atoms": 4577,
+        "hydrogen_name_count": 2294,
+        "hydrogen_detection": "GRO atom-name heuristic; exact elemental/mass identity requires topology review",
+        "residue_names": [
+          "ALA",
+          "ARG",
+          "ASN",
+          "ASP",
+          "CYS",
+          "GLN",
+          "GLU",
+          "GLY",
+          "HIS",
+          "ILE",
+          "LEU",
+          "LYS",
+          "MET",
+          "PHE",
+          "PRO",
+          "SER",
+          "THR",
+          "TRP",
+          "TYR",
+          "VAL"
+        ]
+      }
+    },
+    "input_sha256": {
+      "/home/ayushregmibagale/protac-md/analysis/random_screen/RIPK2_full/pose018/dist_protac_vhl.xvg": "4921a188180df954e52c94b5e190464c1aa01b110efcdcb692d3585fe6d51ab5",
+      "/home/ayushregmibagale/protac-md/analysis/random_screen/RIPK2_full/pose018/dist_protac_kinase.xvg": "e151d39758b1b47f02c4822e3f43318204446725042f821941e1c4e2ed469bfe",
+      "/home/ayushregmibagale/protac-md/analysis/random_screen/RIPK2_full/pose018/metrics.csv": "657ca4c3054a267afbccdf6c0a5fa8e0db0ac913fadbee74201fb4a82feaeedd",
+      "/home/ayushregmibagale/protac-md/analysis/random_screen/RIPK2_full/pose018/index.ndx": "c483dbb822473204e24857ac887ac45350248c483e9d3ed26210c5fa987aaaa6",
+      "/home/ayushregmibagale/protac-md/random_screen/RIPK2_full/pose018/topol/complex_ions.gro": "0f6ddea6c0f32f7e09e1f61d30dcdea2bd6c5d3caa7daa474b315a02130f94dd"
+    }
+  },
+  {
+    "poi": "RIPK2_full",
+    "pose_id": "pose019",
+    "source_pdb": "combined_79_18_0001",
+    "raw_frames": 201,
+    "canonical_full_frames": 201,
+    "removed_identical_duplicate_frames": 0,
+    "raw_time_last_ns": 20.0,
+    "frames": 201,
+    "time_first_ns": 0.0,
+    "time_last_ns": 20.0,
+    "median_sample_interval_ns": 0.09999999999999964,
+    "uniform_sample_spacing": false,
+    "legacy_header_bridging_pct": 100.0,
+    "recomputed_bridging_pct": 100.0,
+    "index_group_composition": {
+      "Other": {
+        "atoms": 144,
+        "hydrogen_name_count": 65,
+        "hydrogen_detection": "GRO atom-name heuristic; exact elemental/mass identity requires topology review",
+        "residue_names": [
+          "UNL"
+        ]
+      },
+      "VHL": {
+        "atoms": 1603,
+        "hydrogen_name_count": 801,
+        "hydrogen_detection": "GRO atom-name heuristic; exact elemental/mass identity requires topology review",
+        "residue_names": [
+          "ALA",
+          "ARG",
+          "ASP",
+          "GLN",
+          "GLU",
+          "GLY",
+          "HIS",
+          "ILE",
+          "LEU",
+          "LYS",
+          "MET",
+          "PHE",
+          "PRO",
+          "SER",
+          "THR",
+          "TYR",
+          "VAL"
+        ]
+      },
+      "Kinase": {
+        "atoms": 4577,
+        "hydrogen_name_count": 2294,
+        "hydrogen_detection": "GRO atom-name heuristic; exact elemental/mass identity requires topology review",
+        "residue_names": [
+          "ALA",
+          "ARG",
+          "ASN",
+          "ASP",
+          "CYS",
+          "GLN",
+          "GLU",
+          "GLY",
+          "HIS",
+          "ILE",
+          "LEU",
+          "LYS",
+          "MET",
+          "PHE",
+          "PRO",
+          "SER",
+          "THR",
+          "TRP",
+          "TYR",
+          "VAL"
+        ]
+      }
+    },
+    "input_sha256": {
+      "/home/ayushregmibagale/protac-md/analysis/random_screen/RIPK2_full/pose019/dist_protac_vhl.xvg": "3cd16b6b39cf781cc530337b24f2ede7923ceb8a2b7b4d70828ac6fdfd50e665",
+      "/home/ayushregmibagale/protac-md/analysis/random_screen/RIPK2_full/pose019/dist_protac_kinase.xvg": "6adf3f521844bba020a03d757e669214313965e878eebab2d1f857e95237c002",
+      "/home/ayushregmibagale/protac-md/analysis/random_screen/RIPK2_full/pose019/metrics.csv": "b0ee26d6fe5e0baa1129704b8877b7e6bb58addbf9b3c1f554c5ee8d76d28414",
+      "/home/ayushregmibagale/protac-md/analysis/random_screen/RIPK2_full/pose019/index.ndx": "9b95a0505205052bf186af22c64d7623fe537f5b4134eb0f663bc3bc8d9039f0",
+      "/home/ayushregmibagale/protac-md/random_screen/RIPK2_full/pose019/topol/complex_ions.gro": "55e743d3fc8741f8c4573c58cb57650600fbe4a7d781f2896e8a0cadcbba328b"
+    }
+  },
+  {
+    "poi": "RIPK2_full",
+    "pose_id": "pose020",
+    "source_pdb": "combined_193_6",
+    "raw_frames": 201,
+    "canonical_full_frames": 201,
+    "removed_identical_duplicate_frames": 0,
+    "raw_time_last_ns": 20.0,
+    "frames": 201,
+    "time_first_ns": 0.0,
+    "time_last_ns": 20.0,
+    "median_sample_interval_ns": 0.09999999999999964,
+    "uniform_sample_spacing": false,
+    "legacy_header_bridging_pct": 0.5,
+    "recomputed_bridging_pct": 0.4975124378109453,
+    "index_group_composition": {
+      "Other": {
+        "atoms": 144,
+        "hydrogen_name_count": 65,
+        "hydrogen_detection": "GRO atom-name heuristic; exact elemental/mass identity requires topology review",
+        "residue_names": [
+          "UNL"
+        ]
+      },
+      "VHL": {
+        "atoms": 1603,
+        "hydrogen_name_count": 801,
+        "hydrogen_detection": "GRO atom-name heuristic; exact elemental/mass identity requires topology review",
+        "residue_names": [
+          "ALA",
+          "ARG",
+          "ASP",
+          "GLN",
+          "GLU",
+          "GLY",
+          "HIS",
+          "ILE",
+          "LEU",
+          "LYS",
+          "MET",
+          "PHE",
+          "PRO",
+          "SER",
+          "THR",
+          "TYR",
+          "VAL"
+        ]
+      },
+      "Kinase": {
+        "atoms": 4577,
+        "hydrogen_name_count": 2294,
+        "hydrogen_detection": "GRO atom-name heuristic; exact elemental/mass identity requires topology review",
+        "residue_names": [
+          "ALA",
+          "ARG",
+          "ASN",
+          "ASP",
+          "CYS",
+          "GLN",
+          "GLU",
+          "GLY",
+          "HIS",
+          "ILE",
+          "LEU",
+          "LYS",
+          "MET",
+          "PHE",
+          "PRO",
+          "SER",
+          "THR",
+          "TRP",
+          "TYR",
+          "VAL"
+        ]
+      }
+    },
+    "input_sha256": {
+      "/home/ayushregmibagale/protac-md/analysis/random_screen/RIPK2_full/pose020/dist_protac_vhl.xvg": "6ce6d585b23ce2160afb29337271df7b29885d8b59e15626f67bf8527bb1b189",
+      "/home/ayushregmibagale/protac-md/analysis/random_screen/RIPK2_full/pose020/dist_protac_kinase.xvg": "3074c0c0b09a5e678c2b860dabbc113df7d50567570c7b7e91a680063e63a690",
+      "/home/ayushregmibagale/protac-md/analysis/random_screen/RIPK2_full/pose020/metrics.csv": "f2ae6600055b845c4f374261d013d02821b6f5e3385e5f1df9200f1e914af80f",
+      "/home/ayushregmibagale/protac-md/analysis/random_screen/RIPK2_full/pose020/index.ndx": "9ea0f32dbe2002d4a9b49cb4f527803386f697df43773a640b04e714d35928f3",
+      "/home/ayushregmibagale/protac-md/random_screen/RIPK2_full/pose020/topol/complex_ions.gro": "e096a04d10e83fecc26517486383dfce264ed5e8de0c9ca9097870ca2b46984a"
+    }
+  },
+  {
+    "poi": "MAPK14_full",
+    "pose_id": "pose001",
+    "source_pdb": "combined_162_22",
+    "raw_frames": 201,
+    "canonical_full_frames": 201,
+    "removed_identical_duplicate_frames": 0,
+    "raw_time_last_ns": 20.0,
+    "frames": 201,
+    "time_first_ns": 0.0,
+    "time_last_ns": 20.0,
+    "median_sample_interval_ns": 0.09999999999999964,
+    "uniform_sample_spacing": false,
+    "legacy_header_bridging_pct": 64.7,
+    "recomputed_bridging_pct": 64.6766169154229,
+    "index_group_composition": {
+      "Other": {
+        "atoms": 144,
+        "hydrogen_name_count": 65,
+        "hydrogen_detection": "GRO atom-name heuristic; exact elemental/mass identity requires topology review",
+        "residue_names": [
+          "UNL"
+        ]
+      },
+      "VHL": {
+        "atoms": 1603,
+        "hydrogen_name_count": 801,
+        "hydrogen_detection": "GRO atom-name heuristic; exact elemental/mass identity requires topology review",
+        "residue_names": [
+          "ALA",
+          "ARG",
+          "ASP",
+          "GLN",
+          "GLU",
+          "GLY",
+          "HIS",
+          "ILE",
+          "LEU",
+          "LYS",
+          "MET",
+          "PHE",
+          "PRO",
+          "SER",
+          "THR",
+          "TYR",
+          "VAL"
+        ]
+      },
+      "Kinase": {
+        "atoms": 5448,
+        "hydrogen_name_count": 2728,
+        "hydrogen_detection": "GRO atom-name heuristic; exact elemental/mass identity requires topology review",
+        "residue_names": [
+          "ALA",
+          "ARG",
+          "ASN",
+          "ASP",
+          "CYS",
+          "GLN",
+          "GLU",
+          "GLY",
+          "HIS",
+          "ILE",
+          "LEU",
+          "LYS",
+          "MET",
+          "PHE",
+          "PRO",
+          "SER",
+          "THR",
+          "TRP",
+          "TYR",
+          "VAL"
+        ]
+      }
+    },
+    "input_sha256": {
+      "/home/ayushregmibagale/protac-md/analysis/random_screen/MAPK14_full/pose001/dist_protac_vhl.xvg": "764633509567fb98a5393ce07afb31e0034f3042dd9f6739d27d06807bd70a87",
+      "/home/ayushregmibagale/protac-md/analysis/random_screen/MAPK14_full/pose001/dist_protac_kinase.xvg": "a28884aedd1eba1acb2fa9ae88e82512f60db8ec4451adf96575f01f0a7f730e",
+      "/home/ayushregmibagale/protac-md/analysis/random_screen/MAPK14_full/pose001/metrics.csv": "2e04e6470f3df0a466a98b069f6746febc944aac705a6fbe8f7db70e961d14b3",
+      "/home/ayushregmibagale/protac-md/analysis/random_screen/MAPK14_full/pose001/index.ndx": "d0f4b5f405bcc05afc895699e85083c45094a7a19f995655b5bf71315f94379b",
+      "/home/ayushregmibagale/protac-md/random_screen/MAPK14_full/pose001/topol/complex_ions.gro": "45fad199152b76316a9cbd1004b2f6d033275316468fe864a293dde12c0231fe"
+    }
+  },
+  {
+    "poi": "MAPK14_full",
+    "pose_id": "pose002",
+    "source_pdb": "combined_24_18_0001",
+    "raw_frames": 201,
+    "canonical_full_frames": 201,
+    "removed_identical_duplicate_frames": 0,
+    "raw_time_last_ns": 20.0,
+    "frames": 201,
+    "time_first_ns": 0.0,
+    "time_last_ns": 20.0,
+    "median_sample_interval_ns": 0.09999999999999964,
+    "uniform_sample_spacing": false,
+    "legacy_header_bridging_pct": 1.5,
+    "recomputed_bridging_pct": 1.4925373134328357,
+    "index_group_composition": {
+      "Other": {
+        "atoms": 144,
+        "hydrogen_name_count": 65,
+        "hydrogen_detection": "GRO atom-name heuristic; exact elemental/mass identity requires topology review",
+        "residue_names": [
+          "UNL"
+        ]
+      },
+      "VHL": {
+        "atoms": 1603,
+        "hydrogen_name_count": 801,
+        "hydrogen_detection": "GRO atom-name heuristic; exact elemental/mass identity requires topology review",
+        "residue_names": [
+          "ALA",
+          "ARG",
+          "ASP",
+          "GLN",
+          "GLU",
+          "GLY",
+          "HIS",
+          "ILE",
+          "LEU",
+          "LYS",
+          "MET",
+          "PHE",
+          "PRO",
+          "SER",
+          "THR",
+          "TYR",
+          "VAL"
+        ]
+      },
+      "Kinase": {
+        "atoms": 5448,
+        "hydrogen_name_count": 2728,
+        "hydrogen_detection": "GRO atom-name heuristic; exact elemental/mass identity requires topology review",
+        "residue_names": [
+          "ALA",
+          "ARG",
+          "ASN",
+          "ASP",
+          "CYS",
+          "GLN",
+          "GLU",
+          "GLY",
+          "HIS",
+          "ILE",
+          "LEU",
+          "LYS",
+          "MET",
+          "PHE",
+          "PRO",
+          "SER",
+          "THR",
+          "TRP",
+          "TYR",
+          "VAL"
+        ]
+      }
+    },
+    "input_sha256": {
+      "/home/ayushregmibagale/protac-md/analysis/random_screen/MAPK14_full/pose002/dist_protac_vhl.xvg": "1b47637b44e6a44db829193d319f277f7d7b044f69584f39c02b071b26e87d23",
+      "/home/ayushregmibagale/protac-md/analysis/random_screen/MAPK14_full/pose002/dist_protac_kinase.xvg": "a477285903bf5c81b878938e223bd5803e9fd5e0be58227f99663ffe8a1dd4c0",
+      "/home/ayushregmibagale/protac-md/analysis/random_screen/MAPK14_full/pose002/metrics.csv": "8db0c0b87d8dfd1a24fef6514d97ec807e05a45643a9552e2f1304fd5c78c93c",
+      "/home/ayushregmibagale/protac-md/analysis/random_screen/MAPK14_full/pose002/index.ndx": "a1ac4221066ac29960e49e42c7e168b9b8bde59ff3dbb9f45b9c208e286a38a7",
+      "/home/ayushregmibagale/protac-md/random_screen/MAPK14_full/pose002/topol/complex_ions.gro": "5fa4d93d40e8e68f5210f2b02eff221bfd6a2a7fb1b1c23b046a1637f5b55672"
+    }
+  },
+  {
+    "poi": "MAPK14_full",
+    "pose_id": "pose003",
+    "source_pdb": "combined_162_33",
+    "raw_frames": 201,
+    "canonical_full_frames": 201,
+    "removed_identical_duplicate_frames": 0,
+    "raw_time_last_ns": 20.0,
+    "frames": 201,
+    "time_first_ns": 0.0,
+    "time_last_ns": 20.0,
+    "median_sample_interval_ns": 0.09999999999999964,
+    "uniform_sample_spacing": false,
+    "legacy_header_bridging_pct": 24.4,
+    "recomputed_bridging_pct": 24.378109452736318,
+    "index_group_composition": {
+      "Other": {
+        "atoms": 144,
+        "hydrogen_name_count": 65,
+        "hydrogen_detection": "GRO atom-name heuristic; exact elemental/mass identity requires topology review",
+        "residue_names": [
+          "UNL"
+        ]
+      },
+      "VHL": {
+        "atoms": 1603,
+        "hydrogen_name_count": 801,
+        "hydrogen_detection": "GRO atom-name heuristic; exact elemental/mass identity requires topology review",
+        "residue_names": [
+          "ALA",
+          "ARG",
+          "ASP",
+          "GLN",
+          "GLU",
+          "GLY",
+          "HIS",
+          "ILE",
+          "LEU",
+          "LYS",
+          "MET",
+          "PHE",
+          "PRO",
+          "SER",
+          "THR",
+          "TYR",
+          "VAL"
+        ]
+      },
+      "Kinase": {
+        "atoms": 5448,
+        "hydrogen_name_count": 2728,
+        "hydrogen_detection": "GRO atom-name heuristic; exact elemental/mass identity requires topology review",
+        "residue_names": [
+          "ALA",
+          "ARG",
+          "ASN",
+          "ASP",
+          "CYS",
+          "GLN",
+          "GLU",
+          "GLY",
+          "HIS",
+          "ILE",
+          "LEU",
+          "LYS",
+          "MET",
+          "PHE",
+          "PRO",
+          "SER",
+          "THR",
+          "TRP",
+          "TYR",
+          "VAL"
+        ]
+      }
+    },
+    "input_sha256": {
+      "/home/ayushregmibagale/protac-md/analysis/random_screen/MAPK14_full/pose003/dist_protac_vhl.xvg": "e81b239dc0e6346c81be9b4df7a8062abf241cbd590953e3c2dab9af0fca649d",
+      "/home/ayushregmibagale/protac-md/analysis/random_screen/MAPK14_full/pose003/dist_protac_kinase.xvg": "9b85d6bbb7bcd7effb69559cf06a57c57c4a7cf971d8fa40cf3eac924c246b9f",
+      "/home/ayushregmibagale/protac-md/analysis/random_screen/MAPK14_full/pose003/metrics.csv": "dab2be01699f75f66f714791346b18e87c74e6f8c2eb493d9a68fc4a3363383b",
+      "/home/ayushregmibagale/protac-md/analysis/random_screen/MAPK14_full/pose003/index.ndx": "a9221230ebde9ca7f7664dcbb7f90c071243cdf58fe3b24b9e6b19f14948ccd7",
+      "/home/ayushregmibagale/protac-md/random_screen/MAPK14_full/pose003/topol/complex_ions.gro": "080a6262bafcad8c08258ad72f2ca95dc6da7562aa3299c13719ad20cc8d3d88"
+    }
+  },
+  {
+    "poi": "MAPK14_full",
+    "pose_id": "pose004",
+    "source_pdb": "combined_154_43",
+    "raw_frames": 201,
+    "canonical_full_frames": 201,
+    "removed_identical_duplicate_frames": 0,
+    "raw_time_last_ns": 20.0,
+    "frames": 201,
+    "time_first_ns": 0.0,
+    "time_last_ns": 20.0,
+    "median_sample_interval_ns": 0.09999999999999964,
+    "uniform_sample_spacing": false,
+    "legacy_header_bridging_pct": 15.9,
+    "recomputed_bridging_pct": 15.92039800995025,
+    "index_group_composition": {
+      "Other": {
+        "atoms": 144,
+        "hydrogen_name_count": 65,
+        "hydrogen_detection": "GRO atom-name heuristic; exact elemental/mass identity requires topology review",
+        "residue_names": [
+          "UNL"
+        ]
+      },
+      "VHL": {
+        "atoms": 1603,
+        "hydrogen_name_count": 801,
+        "hydrogen_detection": "GRO atom-name heuristic; exact elemental/mass identity requires topology review",
+        "residue_names": [
+          "ALA",
+          "ARG",
+          "ASP",
+          "GLN",
+          "GLU",
+          "GLY",
+          "HIS",
+          "ILE",
+          "LEU",
+          "LYS",
+          "MET",
+          "PHE",
+          "PRO",
+          "SER",
+          "THR",
+          "TYR",
+          "VAL"
+        ]
+      },
+      "Kinase": {
+        "atoms": 5448,
+        "hydrogen_name_count": 2728,
+        "hydrogen_detection": "GRO atom-name heuristic; exact elemental/mass identity requires topology review",
+        "residue_names": [
+          "ALA",
+          "ARG",
+          "ASN",
+          "ASP",
+          "CYS",
+          "GLN",
+          "GLU",
+          "GLY",
+          "HIS",
+          "ILE",
+          "LEU",
+          "LYS",
+          "MET",
+          "PHE",
+          "PRO",
+          "SER",
+          "THR",
+          "TRP",
+          "TYR",
+          "VAL"
+        ]
+      }
+    },
+    "input_sha256": {
+      "/home/ayushregmibagale/protac-md/analysis/random_screen/MAPK14_full/pose004/dist_protac_vhl.xvg": "28fbad0c3e35d9e205e7ed9d6cfc065d5eee7ed151066d3524fa6d964ba412a6",
+      "/home/ayushregmibagale/protac-md/analysis/random_screen/MAPK14_full/pose004/dist_protac_kinase.xvg": "09fcddcfde40bcc8fbeb59f27408398fda5ba7a58452824d8ba69ae1c077a4fc",
+      "/home/ayushregmibagale/protac-md/analysis/random_screen/MAPK14_full/pose004/metrics.csv": "7f33f368fa3faee43aba6640abc8133d80f46c7fbe454e709923357da84398c1",
+      "/home/ayushregmibagale/protac-md/analysis/random_screen/MAPK14_full/pose004/index.ndx": "7ad89349f30108f4cee0362a74b635b64b1662870bb56f39a2001cd1a51fcd00",
+      "/home/ayushregmibagale/protac-md/random_screen/MAPK14_full/pose004/topol/complex_ions.gro": "a7129e1021fe279096e0c62c19f4147036c37c113e720051cef35fc543c3c717"
+    }
+  },
+  {
+    "poi": "MAPK14_full",
+    "pose_id": "pose005",
+    "source_pdb": "combined_184_35",
+    "raw_frames": 201,
+    "canonical_full_frames": 201,
+    "removed_identical_duplicate_frames": 0,
+    "raw_time_last_ns": 20.0,
+    "frames": 201,
+    "time_first_ns": 0.0,
+    "time_last_ns": 20.0,
+    "median_sample_interval_ns": 0.09999999999999964,
+    "uniform_sample_spacing": false,
+    "legacy_header_bridging_pct": 100.0,
+    "recomputed_bridging_pct": 100.0,
+    "index_group_composition": {
+      "Other": {
+        "atoms": 144,
+        "hydrogen_name_count": 65,
+        "hydrogen_detection": "GRO atom-name heuristic; exact elemental/mass identity requires topology review",
+        "residue_names": [
+          "UNL"
+        ]
+      },
+      "VHL": {
+        "atoms": 1603,
+        "hydrogen_name_count": 801,
+        "hydrogen_detection": "GRO atom-name heuristic; exact elemental/mass identity requires topology review",
+        "residue_names": [
+          "ALA",
+          "ARG",
+          "ASP",
+          "GLN",
+          "GLU",
+          "GLY",
+          "HIS",
+          "ILE",
+          "LEU",
+          "LYS",
+          "MET",
+          "PHE",
+          "PRO",
+          "SER",
+          "THR",
+          "TYR",
+          "VAL"
+        ]
+      },
+      "Kinase": {
+        "atoms": 5448,
+        "hydrogen_name_count": 2728,
+        "hydrogen_detection": "GRO atom-name heuristic; exact elemental/mass identity requires topology review",
+        "residue_names": [
+          "ALA",
+          "ARG",
+          "ASN",
+          "ASP",
+          "CYS",
+          "GLN",
+          "GLU",
+          "GLY",
+          "HIS",
+          "ILE",
+          "LEU",
+          "LYS",
+          "MET",
+          "PHE",
+          "PRO",
+          "SER",
+          "THR",
+          "TRP",
+          "TYR",
+          "VAL"
+        ]
+      }
+    },
+    "input_sha256": {
+      "/home/ayushregmibagale/protac-md/analysis/random_screen/MAPK14_full/pose005/dist_protac_vhl.xvg": "1282d6d965d1528320022550c5a4ba875fb5709157b552ec5df3d42b960e7ca3",
+      "/home/ayushregmibagale/protac-md/analysis/random_screen/MAPK14_full/pose005/dist_protac_kinase.xvg": "da06e0f639f9e8efe02c62f58d838a2875ff5505394c20217f9613ba4f31d0b1",
+      "/home/ayushregmibagale/protac-md/analysis/random_screen/MAPK14_full/pose005/metrics.csv": "e8e1bff7da2eac661291438849e42ebf263cf62ae2687d11a84a9ec648918fde",
+      "/home/ayushregmibagale/protac-md/analysis/random_screen/MAPK14_full/pose005/index.ndx": "13916433822ec06a9508fb3ee2a19fcdbb78ea8b667c2e2570bc3e8169838e53",
+      "/home/ayushregmibagale/protac-md/random_screen/MAPK14_full/pose005/topol/complex_ions.gro": "8c7ce41b43846949a3f96c1bf1a430fb2398eafd76c1172fc968c057acf281f7"
+    }
+  },
+  {
+    "poi": "MAPK14_full",
+    "pose_id": "pose006",
+    "source_pdb": "combined_166_22",
+    "raw_frames": 201,
+    "canonical_full_frames": 201,
+    "removed_identical_duplicate_frames": 0,
+    "raw_time_last_ns": 20.0,
+    "frames": 201,
+    "time_first_ns": 0.0,
+    "time_last_ns": 20.0,
+    "median_sample_interval_ns": 0.09999999999999964,
+    "uniform_sample_spacing": false,
+    "legacy_header_bridging_pct": 2.0,
+    "recomputed_bridging_pct": 1.9900497512437811,
+    "index_group_composition": {
+      "Other": {
+        "atoms": 144,
+        "hydrogen_name_count": 65,
+        "hydrogen_detection": "GRO atom-name heuristic; exact elemental/mass identity requires topology review",
+        "residue_names": [
+          "UNL"
+        ]
+      },
+      "VHL": {
+        "atoms": 1603,
+        "hydrogen_name_count": 801,
+        "hydrogen_detection": "GRO atom-name heuristic; exact elemental/mass identity requires topology review",
+        "residue_names": [
+          "ALA",
+          "ARG",
+          "ASP",
+          "GLN",
+          "GLU",
+          "GLY",
+          "HIS",
+          "ILE",
+          "LEU",
+          "LYS",
+          "MET",
+          "PHE",
+          "PRO",
+          "SER",
+          "THR",
+          "TYR",
+          "VAL"
+        ]
+      },
+      "Kinase": {
+        "atoms": 5448,
+        "hydrogen_name_count": 2728,
+        "hydrogen_detection": "GRO atom-name heuristic; exact elemental/mass identity requires topology review",
+        "residue_names": [
+          "ALA",
+          "ARG",
+          "ASN",
+          "ASP",
+          "CYS",
+          "GLN",
+          "GLU",
+          "GLY",
+          "HIS",
+          "ILE",
+          "LEU",
+          "LYS",
+          "MET",
+          "PHE",
+          "PRO",
+          "SER",
+          "THR",
+          "TRP",
+          "TYR",
+          "VAL"
+        ]
+      }
+    },
+    "input_sha256": {
+      "/home/ayushregmibagale/protac-md/analysis/random_screen/MAPK14_full/pose006/dist_protac_vhl.xvg": "485c7310de44138f065b1c13781b14c9b4bfdb6d6d4d5fb25132b19b92656ef0",
+      "/home/ayushregmibagale/protac-md/analysis/random_screen/MAPK14_full/pose006/dist_protac_kinase.xvg": "db4ea4076e7125e28140222fd525c034d6c63efc06953925fcee92425809dc93",
+      "/home/ayushregmibagale/protac-md/analysis/random_screen/MAPK14_full/pose006/metrics.csv": "3ac57dfea86b4330b904fb09cc77f94fd0bb0f3f34df391e825e35e5c7ceb912",
+      "/home/ayushregmibagale/protac-md/analysis/random_screen/MAPK14_full/pose006/index.ndx": "7edd3dd97c2ec4b7b0cd87f885dce0bd7f9c5bf8c94386f2ffab4539674bb48d",
+      "/home/ayushregmibagale/protac-md/random_screen/MAPK14_full/pose006/topol/complex_ions.gro": "35d806e1bdb4b468c35a54d9a70c773193e563c03d43ad5fe7bc6ed21290efaf"
+    }
+  },
+  {
+    "poi": "MAPK14_full",
+    "pose_id": "pose007",
+    "source_pdb": "combined_37_41_0001",
+    "raw_frames": 201,
+    "canonical_full_frames": 201,
+    "removed_identical_duplicate_frames": 0,
+    "raw_time_last_ns": 20.0,
+    "frames": 201,
+    "time_first_ns": 0.0,
+    "time_last_ns": 20.0,
+    "median_sample_interval_ns": 0.09999999999999964,
+    "uniform_sample_spacing": false,
+    "legacy_header_bridging_pct": 71.6,
+    "recomputed_bridging_pct": 71.64179104477611,
+    "index_group_composition": {
+      "Other": {
+        "atoms": 144,
+        "hydrogen_name_count": 65,
+        "hydrogen_detection": "GRO atom-name heuristic; exact elemental/mass identity requires topology review",
+        "residue_names": [
+          "UNL"
+        ]
+      },
+      "VHL": {
+        "atoms": 1603,
+        "hydrogen_name_count": 801,
+        "hydrogen_detection": "GRO atom-name heuristic; exact elemental/mass identity requires topology review",
+        "residue_names": [
+          "ALA",
+          "ARG",
+          "ASP",
+          "GLN",
+          "GLU",
+          "GLY",
+          "HIS",
+          "ILE",
+          "LEU",
+          "LYS",
+          "MET",
+          "PHE",
+          "PRO",
+          "SER",
+          "THR",
+          "TYR",
+          "VAL"
+        ]
+      },
+      "Kinase": {
+        "atoms": 5448,
+        "hydrogen_name_count": 2728,
+        "hydrogen_detection": "GRO atom-name heuristic; exact elemental/mass identity requires topology review",
+        "residue_names": [
+          "ALA",
+          "ARG",
+          "ASN",
+          "ASP",
+          "CYS",
+          "GLN",
+          "GLU",
+          "GLY",
+          "HIS",
+          "ILE",
+          "LEU",
+          "LYS",
+          "MET",
+          "PHE",
+          "PRO",
+          "SER",
+          "THR",
+          "TRP",
+          "TYR",
+          "VAL"
+        ]
+      }
+    },
+    "input_sha256": {
+      "/home/ayushregmibagale/protac-md/analysis/random_screen/MAPK14_full/pose007/dist_protac_vhl.xvg": "6d92db3b3e490d030d6c80d05a79332f7db8fc8125db218f69142d455539f550",
+      "/home/ayushregmibagale/protac-md/analysis/random_screen/MAPK14_full/pose007/dist_protac_kinase.xvg": "b24047adf09c21491ec1a9f8185340c4f88ff7bf342b81fead3e93a391f09f16",
+      "/home/ayushregmibagale/protac-md/analysis/random_screen/MAPK14_full/pose007/metrics.csv": "7e4f89aa9abb8457e74d7eed8f59ea012b349ebf793cb0e298f57abb5cf1d8d2",
+      "/home/ayushregmibagale/protac-md/analysis/random_screen/MAPK14_full/pose007/index.ndx": "275ebb4359a0177d1c4126e37955525e3d61dffd30c0d85f2ba613de68ab174d",
+      "/home/ayushregmibagale/protac-md/random_screen/MAPK14_full/pose007/topol/complex_ions.gro": "0a6b9dfc36528968182b4debbb758b48460c5715d1c95058cea4c59e8d0042d9"
+    }
+  },
+  {
+    "poi": "MAPK14_full",
+    "pose_id": "pose008",
+    "source_pdb": "combined_180_38",
+    "raw_frames": 201,
+    "canonical_full_frames": 201,
+    "removed_identical_duplicate_frames": 0,
+    "raw_time_last_ns": 20.0,
+    "frames": 201,
+    "time_first_ns": 0.0,
+    "time_last_ns": 20.0,
+    "median_sample_interval_ns": 0.09999999999999964,
+    "uniform_sample_spacing": false,
+    "legacy_header_bridging_pct": 47.8,
+    "recomputed_bridging_pct": 47.76119402985074,
+    "index_group_composition": {
+      "Other": {
+        "atoms": 144,
+        "hydrogen_name_count": 65,
+        "hydrogen_detection": "GRO atom-name heuristic; exact elemental/mass identity requires topology review",
+        "residue_names": [
+          "UNL"
+        ]
+      },
+      "VHL": {
+        "atoms": 1603,
+        "hydrogen_name_count": 801,
+        "hydrogen_detection": "GRO atom-name heuristic; exact elemental/mass identity requires topology review",
+        "residue_names": [
+          "ALA",
+          "ARG",
+          "ASP",
+          "GLN",
+          "GLU",
+          "GLY",
+          "HIS",
+          "ILE",
+          "LEU",
+          "LYS",
+          "MET",
+          "PHE",
+          "PRO",
+          "SER",
+          "THR",
+          "TYR",
+          "VAL"
+        ]
+      },
+      "Kinase": {
+        "atoms": 5448,
+        "hydrogen_name_count": 2728,
+        "hydrogen_detection": "GRO atom-name heuristic; exact elemental/mass identity requires topology review",
+        "residue_names": [
+          "ALA",
+          "ARG",
+          "ASN",
+          "ASP",
+          "CYS",
+          "GLN",
+          "GLU",
+          "GLY",
+          "HIS",
+          "ILE",
+          "LEU",
+          "LYS",
+          "MET",
+          "PHE",
+          "PRO",
+          "SER",
+          "THR",
+          "TRP",
+          "TYR",
+          "VAL"
+        ]
+      }
+    },
+    "input_sha256": {
+      "/home/ayushregmibagale/protac-md/analysis/random_screen/MAPK14_full/pose008/dist_protac_vhl.xvg": "4488d179548066f5831c175bedbba33912dd363fb14e395b0b792bc461b6fb47",
+      "/home/ayushregmibagale/protac-md/analysis/random_screen/MAPK14_full/pose008/dist_protac_kinase.xvg": "8e98baa204e91a0e23ea9515b5bbebb0c989b051a199e91284d9c036a7d97a3f",
+      "/home/ayushregmibagale/protac-md/analysis/random_screen/MAPK14_full/pose008/metrics.csv": "a21eae685ff2b836b6cb72775ef68f8e7b141185056e0d9576041c88a39bc3b3",
+      "/home/ayushregmibagale/protac-md/analysis/random_screen/MAPK14_full/pose008/index.ndx": "267f188064ad84c2ddac9bff38dbb04bfeb73a72b5a3bf253d5558ecf266d17b",
+      "/home/ayushregmibagale/protac-md/random_screen/MAPK14_full/pose008/topol/complex_ions.gro": "7ede79e65a88011c6e978eb1f04442cd97cd8b0c51bd4d038329c501ce80e843"
+    }
+  },
+  {
+    "poi": "MAPK14_full",
+    "pose_id": "pose009",
+    "source_pdb": "combined_143_8",
+    "raw_frames": 201,
+    "canonical_full_frames": 201,
+    "removed_identical_duplicate_frames": 0,
+    "raw_time_last_ns": 20.0,
+    "frames": 201,
+    "time_first_ns": 0.0,
+    "time_last_ns": 20.0,
+    "median_sample_interval_ns": 0.09999999999999964,
+    "uniform_sample_spacing": false,
+    "legacy_header_bridging_pct": 0.5,
+    "recomputed_bridging_pct": 0.4975124378109453,
+    "index_group_composition": {
+      "Other": {
+        "atoms": 144,
+        "hydrogen_name_count": 65,
+        "hydrogen_detection": "GRO atom-name heuristic; exact elemental/mass identity requires topology review",
+        "residue_names": [
+          "UNL"
+        ]
+      },
+      "VHL": {
+        "atoms": 1603,
+        "hydrogen_name_count": 801,
+        "hydrogen_detection": "GRO atom-name heuristic; exact elemental/mass identity requires topology review",
+        "residue_names": [
+          "ALA",
+          "ARG",
+          "ASP",
+          "GLN",
+          "GLU",
+          "GLY",
+          "HIS",
+          "ILE",
+          "LEU",
+          "LYS",
+          "MET",
+          "PHE",
+          "PRO",
+          "SER",
+          "THR",
+          "TYR",
+          "VAL"
+        ]
+      },
+      "Kinase": {
+        "atoms": 5448,
+        "hydrogen_name_count": 2728,
+        "hydrogen_detection": "GRO atom-name heuristic; exact elemental/mass identity requires topology review",
+        "residue_names": [
+          "ALA",
+          "ARG",
+          "ASN",
+          "ASP",
+          "CYS",
+          "GLN",
+          "GLU",
+          "GLY",
+          "HIS",
+          "ILE",
+          "LEU",
+          "LYS",
+          "MET",
+          "PHE",
+          "PRO",
+          "SER",
+          "THR",
+          "TRP",
+          "TYR",
+          "VAL"
+        ]
+      }
+    },
+    "input_sha256": {
+      "/home/ayushregmibagale/protac-md/analysis/random_screen/MAPK14_full/pose009/dist_protac_vhl.xvg": "121452751743f1d10e63dc9d96f18cec0b1c4f525cc37392bb4c7055daa3576d",
+      "/home/ayushregmibagale/protac-md/analysis/random_screen/MAPK14_full/pose009/dist_protac_kinase.xvg": "d6895e69edfdc2da0da9d1b3751fc66d2fe6288be36c0df138648c78849a1618",
+      "/home/ayushregmibagale/protac-md/analysis/random_screen/MAPK14_full/pose009/metrics.csv": "d4a7f046bd4b7308c530831f3ce20f96e1efbfc6c209a588591aa0733d625fd6",
+      "/home/ayushregmibagale/protac-md/analysis/random_screen/MAPK14_full/pose009/index.ndx": "c83999810e986adab3919a9687a9200a9074e9c456e43b3d43fdf1c598ea9733",
+      "/home/ayushregmibagale/protac-md/random_screen/MAPK14_full/pose009/topol/complex_ions.gro": "32acce2502b3be52f34986053876d8b781a60b6d67e3d037df11a49ed57e9f21"
+    }
+  },
+  {
+    "poi": "MAPK14_full",
+    "pose_id": "pose010",
+    "source_pdb": "combined_85_46",
+    "raw_frames": 201,
+    "canonical_full_frames": 201,
+    "removed_identical_duplicate_frames": 0,
+    "raw_time_last_ns": 20.0,
+    "frames": 201,
+    "time_first_ns": 0.0,
+    "time_last_ns": 20.0,
+    "median_sample_interval_ns": 0.09999999999999964,
+    "uniform_sample_spacing": false,
+    "legacy_header_bridging_pct": 96.5,
+    "recomputed_bridging_pct": 96.51741293532339,
+    "index_group_composition": {
+      "Other": {
+        "atoms": 144,
+        "hydrogen_name_count": 65,
+        "hydrogen_detection": "GRO atom-name heuristic; exact elemental/mass identity requires topology review",
+        "residue_names": [
+          "UNL"
+        ]
+      },
+      "VHL": {
+        "atoms": 1603,
+        "hydrogen_name_count": 801,
+        "hydrogen_detection": "GRO atom-name heuristic; exact elemental/mass identity requires topology review",
+        "residue_names": [
+          "ALA",
+          "ARG",
+          "ASP",
+          "GLN",
+          "GLU",
+          "GLY",
+          "HIS",
+          "ILE",
+          "LEU",
+          "LYS",
+          "MET",
+          "PHE",
+          "PRO",
+          "SER",
+          "THR",
+          "TYR",
+          "VAL"
+        ]
+      },
+      "Kinase": {
+        "atoms": 5448,
+        "hydrogen_name_count": 2728,
+        "hydrogen_detection": "GRO atom-name heuristic; exact elemental/mass identity requires topology review",
+        "residue_names": [
+          "ALA",
+          "ARG",
+          "ASN",
+          "ASP",
+          "CYS",
+          "GLN",
+          "GLU",
+          "GLY",
+          "HIS",
+          "ILE",
+          "LEU",
+          "LYS",
+          "MET",
+          "PHE",
+          "PRO",
+          "SER",
+          "THR",
+          "TRP",
+          "TYR",
+          "VAL"
+        ]
+      }
+    },
+    "input_sha256": {
+      "/home/ayushregmibagale/protac-md/analysis/random_screen/MAPK14_full/pose010/dist_protac_vhl.xvg": "e7aab40a62ad4f5f14dd94aebfb5c51610a0fdd6ef951a23745f03540e2ad84e",
+      "/home/ayushregmibagale/protac-md/analysis/random_screen/MAPK14_full/pose010/dist_protac_kinase.xvg": "7f58124b885a82b11c942ff36692f82bfa6d93160af915389ca1613b875150e4",
+      "/home/ayushregmibagale/protac-md/analysis/random_screen/MAPK14_full/pose010/metrics.csv": "f3ba92ade3ef8de11eeaf1d30042f53903b912c6e8ff606fcfe80c9407b6129b",
+      "/home/ayushregmibagale/protac-md/analysis/random_screen/MAPK14_full/pose010/index.ndx": "24fcdfb10255461e4827eb4817f0109836d8aad7943906b284be46f8ae602410",
+      "/home/ayushregmibagale/protac-md/random_screen/MAPK14_full/pose010/topol/complex_ions.gro": "96d5da8fae9ff26f197f03a3eefdabea88eed852ee723b6c02b806a5bfd3a1a5"
+    }
+  },
+  {
+    "poi": "MAPK14_full",
+    "pose_id": "pose011",
+    "source_pdb": "combined_154_41",
+    "raw_frames": 201,
+    "canonical_full_frames": 201,
+    "removed_identical_duplicate_frames": 0,
+    "raw_time_last_ns": 20.0,
+    "frames": 201,
+    "time_first_ns": 0.0,
+    "time_last_ns": 20.0,
+    "median_sample_interval_ns": 0.09999999999999964,
+    "uniform_sample_spacing": false,
+    "legacy_header_bridging_pct": 29.9,
+    "recomputed_bridging_pct": 29.850746268656714,
+    "index_group_composition": {
+      "Other": {
+        "atoms": 144,
+        "hydrogen_name_count": 65,
+        "hydrogen_detection": "GRO atom-name heuristic; exact elemental/mass identity requires topology review",
+        "residue_names": [
+          "UNL"
+        ]
+      },
+      "VHL": {
+        "atoms": 1603,
+        "hydrogen_name_count": 801,
+        "hydrogen_detection": "GRO atom-name heuristic; exact elemental/mass identity requires topology review",
+        "residue_names": [
+          "ALA",
+          "ARG",
+          "ASP",
+          "GLN",
+          "GLU",
+          "GLY",
+          "HIS",
+          "ILE",
+          "LEU",
+          "LYS",
+          "MET",
+          "PHE",
+          "PRO",
+          "SER",
+          "THR",
+          "TYR",
+          "VAL"
+        ]
+      },
+      "Kinase": {
+        "atoms": 5448,
+        "hydrogen_name_count": 2728,
+        "hydrogen_detection": "GRO atom-name heuristic; exact elemental/mass identity requires topology review",
+        "residue_names": [
+          "ALA",
+          "ARG",
+          "ASN",
+          "ASP",
+          "CYS",
+          "GLN",
+          "GLU",
+          "GLY",
+          "HIS",
+          "ILE",
+          "LEU",
+          "LYS",
+          "MET",
+          "PHE",
+          "PRO",
+          "SER",
+          "THR",
+          "TRP",
+          "TYR",
+          "VAL"
+        ]
+      }
+    },
+    "input_sha256": {
+      "/home/ayushregmibagale/protac-md/analysis/random_screen/MAPK14_full/pose011/dist_protac_vhl.xvg": "896252eafdc565cb0135d694710082b811a927fbbebffda4cc6ee3c3139d0c80",
+      "/home/ayushregmibagale/protac-md/analysis/random_screen/MAPK14_full/pose011/dist_protac_kinase.xvg": "df69ad7237cbcd10e2a656325b61863dfcbd57765253fe54be09089a8b7b55ff",
+      "/home/ayushregmibagale/protac-md/analysis/random_screen/MAPK14_full/pose011/metrics.csv": "a008e3cda775be3ed6315883ce444ec5334e583700528c2e794eaa52488c2430",
+      "/home/ayushregmibagale/protac-md/analysis/random_screen/MAPK14_full/pose011/index.ndx": "4889b427c3d114c8c5380be2f2ad5e11dc34221ac54e7e73f3612e660cbfc813",
+      "/home/ayushregmibagale/protac-md/random_screen/MAPK14_full/pose011/topol/complex_ions.gro": "69855e8afb183c8e2e05477bcaa0dd6d76f14e505dcc0d6bc2a84e1ba60ac038"
+    }
+  },
+  {
+    "poi": "MAPK14_full",
+    "pose_id": "pose012",
+    "source_pdb": "combined_162_31",
+    "raw_frames": 201,
+    "canonical_full_frames": 201,
+    "removed_identical_duplicate_frames": 0,
+    "raw_time_last_ns": 20.0,
+    "frames": 201,
+    "time_first_ns": 0.0,
+    "time_last_ns": 20.0,
+    "median_sample_interval_ns": 0.09999999999999964,
+    "uniform_sample_spacing": false,
+    "legacy_header_bridging_pct": 100.0,
+    "recomputed_bridging_pct": 100.0,
+    "index_group_composition": {
+      "Other": {
+        "atoms": 144,
+        "hydrogen_name_count": 65,
+        "hydrogen_detection": "GRO atom-name heuristic; exact elemental/mass identity requires topology review",
+        "residue_names": [
+          "UNL"
+        ]
+      },
+      "VHL": {
+        "atoms": 1603,
+        "hydrogen_name_count": 801,
+        "hydrogen_detection": "GRO atom-name heuristic; exact elemental/mass identity requires topology review",
+        "residue_names": [
+          "ALA",
+          "ARG",
+          "ASP",
+          "GLN",
+          "GLU",
+          "GLY",
+          "HIS",
+          "ILE",
+          "LEU",
+          "LYS",
+          "MET",
+          "PHE",
+          "PRO",
+          "SER",
+          "THR",
+          "TYR",
+          "VAL"
+        ]
+      },
+      "Kinase": {
+        "atoms": 5448,
+        "hydrogen_name_count": 2728,
+        "hydrogen_detection": "GRO atom-name heuristic; exact elemental/mass identity requires topology review",
+        "residue_names": [
+          "ALA",
+          "ARG",
+          "ASN",
+          "ASP",
+          "CYS",
+          "GLN",
+          "GLU",
+          "GLY",
+          "HIS",
+          "ILE",
+          "LEU",
+          "LYS",
+          "MET",
+          "PHE",
+          "PRO",
+          "SER",
+          "THR",
+          "TRP",
+          "TYR",
+          "VAL"
+        ]
+      }
+    },
+    "input_sha256": {
+      "/home/ayushregmibagale/protac-md/analysis/random_screen/MAPK14_full/pose012/dist_protac_vhl.xvg": "5369362975c25629caa2fa09e8584a533b0e38167b8e691d4020c30fb6e7ec74",
+      "/home/ayushregmibagale/protac-md/analysis/random_screen/MAPK14_full/pose012/dist_protac_kinase.xvg": "41b2c7611794b390731d4b7089157690d4f3326b3627153fe31f12cb210a718c",
+      "/home/ayushregmibagale/protac-md/analysis/random_screen/MAPK14_full/pose012/metrics.csv": "1806ca5263d016969d180fd49a0bdaf81a10f6f5bf64b7b7c00b77a758b65b47",
+      "/home/ayushregmibagale/protac-md/analysis/random_screen/MAPK14_full/pose012/index.ndx": "0a3faed12d82b958194f02075a66b5232f3f4375ad3052f030dadcbdbbafa787",
+      "/home/ayushregmibagale/protac-md/random_screen/MAPK14_full/pose012/topol/complex_ions.gro": "8ba2a8ee29f9999c8c5c39f487bb59a1b6dbd8c1b9e418f788c70d5b1908540f"
+    }
+  },
+  {
+    "poi": "MAPK14_full",
+    "pose_id": "pose013",
+    "source_pdb": "combined_95_5",
+    "raw_frames": 201,
+    "canonical_full_frames": 201,
+    "removed_identical_duplicate_frames": 0,
+    "raw_time_last_ns": 20.0,
+    "frames": 201,
+    "time_first_ns": 0.0,
+    "time_last_ns": 20.0,
+    "median_sample_interval_ns": 0.09999999999999964,
+    "uniform_sample_spacing": false,
+    "legacy_header_bridging_pct": 0.5,
+    "recomputed_bridging_pct": 0.4975124378109453,
+    "index_group_composition": {
+      "Other": {
+        "atoms": 144,
+        "hydrogen_name_count": 65,
+        "hydrogen_detection": "GRO atom-name heuristic; exact elemental/mass identity requires topology review",
+        "residue_names": [
+          "UNL"
+        ]
+      },
+      "VHL": {
+        "atoms": 1603,
+        "hydrogen_name_count": 801,
+        "hydrogen_detection": "GRO atom-name heuristic; exact elemental/mass identity requires topology review",
+        "residue_names": [
+          "ALA",
+          "ARG",
+          "ASP",
+          "GLN",
+          "GLU",
+          "GLY",
+          "HIS",
+          "ILE",
+          "LEU",
+          "LYS",
+          "MET",
+          "PHE",
+          "PRO",
+          "SER",
+          "THR",
+          "TYR",
+          "VAL"
+        ]
+      },
+      "Kinase": {
+        "atoms": 5448,
+        "hydrogen_name_count": 2728,
+        "hydrogen_detection": "GRO atom-name heuristic; exact elemental/mass identity requires topology review",
+        "residue_names": [
+          "ALA",
+          "ARG",
+          "ASN",
+          "ASP",
+          "CYS",
+          "GLN",
+          "GLU",
+          "GLY",
+          "HIS",
+          "ILE",
+          "LEU",
+          "LYS",
+          "MET",
+          "PHE",
+          "PRO",
+          "SER",
+          "THR",
+          "TRP",
+          "TYR",
+          "VAL"
+        ]
+      }
+    },
+    "input_sha256": {
+      "/home/ayushregmibagale/protac-md/analysis/random_screen/MAPK14_full/pose013/dist_protac_vhl.xvg": "9d7bf470a8dc21854f9a93a2d68a069ef66bd18f3a009f5e32bb529b272891e0",
+      "/home/ayushregmibagale/protac-md/analysis/random_screen/MAPK14_full/pose013/dist_protac_kinase.xvg": "e6602b537a643d15783a3c8b1d2f08e7d56053921200c259c2fd704b0b20b583",
+      "/home/ayushregmibagale/protac-md/analysis/random_screen/MAPK14_full/pose013/metrics.csv": "805412e05e5153d73f75ba46361592cc0f7fca41a75c0e054ee56e43cbef6021",
+      "/home/ayushregmibagale/protac-md/analysis/random_screen/MAPK14_full/pose013/index.ndx": "83237fd94d655f4d262a8bc0d86afb9756e690ccb4dd2f6d2868c060473a12e7",
+      "/home/ayushregmibagale/protac-md/random_screen/MAPK14_full/pose013/topol/complex_ions.gro": "8091f7edb1d06ff341aa7f2197f1149ad8533099ddef9dee97995e763d5e0951"
+    }
+  },
+  {
+    "poi": "MAPK14_full",
+    "pose_id": "pose015",
+    "source_pdb": "combined_162_34",
+    "raw_frames": 201,
+    "canonical_full_frames": 201,
+    "removed_identical_duplicate_frames": 0,
+    "raw_time_last_ns": 20.0,
+    "frames": 201,
+    "time_first_ns": 0.0,
+    "time_last_ns": 20.0,
+    "median_sample_interval_ns": 0.09999999999999964,
+    "uniform_sample_spacing": false,
+    "legacy_header_bridging_pct": 89.6,
+    "recomputed_bridging_pct": 89.55223880597015,
+    "index_group_composition": {
+      "Other": {
+        "atoms": 144,
+        "hydrogen_name_count": 65,
+        "hydrogen_detection": "GRO atom-name heuristic; exact elemental/mass identity requires topology review",
+        "residue_names": [
+          "UNL"
+        ]
+      },
+      "VHL": {
+        "atoms": 1603,
+        "hydrogen_name_count": 801,
+        "hydrogen_detection": "GRO atom-name heuristic; exact elemental/mass identity requires topology review",
+        "residue_names": [
+          "ALA",
+          "ARG",
+          "ASP",
+          "GLN",
+          "GLU",
+          "GLY",
+          "HIS",
+          "ILE",
+          "LEU",
+          "LYS",
+          "MET",
+          "PHE",
+          "PRO",
+          "SER",
+          "THR",
+          "TYR",
+          "VAL"
+        ]
+      },
+      "Kinase": {
+        "atoms": 5448,
+        "hydrogen_name_count": 2728,
+        "hydrogen_detection": "GRO atom-name heuristic; exact elemental/mass identity requires topology review",
+        "residue_names": [
+          "ALA",
+          "ARG",
+          "ASN",
+          "ASP",
+          "CYS",
+          "GLN",
+          "GLU",
+          "GLY",
+          "HIS",
+          "ILE",
+          "LEU",
+          "LYS",
+          "MET",
+          "PHE",
+          "PRO",
+          "SER",
+          "THR",
+          "TRP",
+          "TYR",
+          "VAL"
+        ]
+      }
+    },
+    "input_sha256": {
+      "/home/ayushregmibagale/protac-md/analysis/random_screen/MAPK14_full/pose015/dist_protac_vhl.xvg": "e2f2f823e3b8f52729833067056a9b1933a4a89bbdd7cb73ccee6ad309af80ae",
+      "/home/ayushregmibagale/protac-md/analysis/random_screen/MAPK14_full/pose015/dist_protac_kinase.xvg": "d313830ea0adfdc14c97e5fa841c95444d99e4d0cce1ec6b773211c265349945",
+      "/home/ayushregmibagale/protac-md/analysis/random_screen/MAPK14_full/pose015/metrics.csv": "84f7af853dc4e4d568203dd81bb2aa3bcfda0bcc99330034394b6c576bfd88b9",
+      "/home/ayushregmibagale/protac-md/analysis/random_screen/MAPK14_full/pose015/index.ndx": "a9221230ebde9ca7f7664dcbb7f90c071243cdf58fe3b24b9e6b19f14948ccd7",
+      "/home/ayushregmibagale/protac-md/random_screen/MAPK14_full/pose015/topol/complex_ions.gro": "9da3697558cb254975a0a3e1ca01355eacddff89c7842a6d865b8c7c99a31f77"
+    }
+  },
+  {
+    "poi": "MAPK14_full",
+    "pose_id": "pose016",
+    "source_pdb": "combined_162_15",
+    "raw_frames": 201,
+    "canonical_full_frames": 201,
+    "removed_identical_duplicate_frames": 0,
+    "raw_time_last_ns": 20.0,
+    "frames": 201,
+    "time_first_ns": 0.0,
+    "time_last_ns": 20.0,
+    "median_sample_interval_ns": 0.09999999999999964,
+    "uniform_sample_spacing": false,
+    "legacy_header_bridging_pct": 82.1,
+    "recomputed_bridging_pct": 82.08955223880598,
+    "index_group_composition": {
+      "Other": {
+        "atoms": 144,
+        "hydrogen_name_count": 65,
+        "hydrogen_detection": "GRO atom-name heuristic; exact elemental/mass identity requires topology review",
+        "residue_names": [
+          "UNL"
+        ]
+      },
+      "VHL": {
+        "atoms": 1603,
+        "hydrogen_name_count": 801,
+        "hydrogen_detection": "GRO atom-name heuristic; exact elemental/mass identity requires topology review",
+        "residue_names": [
+          "ALA",
+          "ARG",
+          "ASP",
+          "GLN",
+          "GLU",
+          "GLY",
+          "HIS",
+          "ILE",
+          "LEU",
+          "LYS",
+          "MET",
+          "PHE",
+          "PRO",
+          "SER",
+          "THR",
+          "TYR",
+          "VAL"
+        ]
+      },
+      "Kinase": {
+        "atoms": 5448,
+        "hydrogen_name_count": 2728,
+        "hydrogen_detection": "GRO atom-name heuristic; exact elemental/mass identity requires topology review",
+        "residue_names": [
+          "ALA",
+          "ARG",
+          "ASN",
+          "ASP",
+          "CYS",
+          "GLN",
+          "GLU",
+          "GLY",
+          "HIS",
+          "ILE",
+          "LEU",
+          "LYS",
+          "MET",
+          "PHE",
+          "PRO",
+          "SER",
+          "THR",
+          "TRP",
+          "TYR",
+          "VAL"
+        ]
+      }
+    },
+    "input_sha256": {
+      "/home/ayushregmibagale/protac-md/analysis/random_screen/MAPK14_full/pose016/dist_protac_vhl.xvg": "4e5bcfdee06ad8c650df1cf4cafa3675b075c0053b8b7d2e98385f27de13f35a",
+      "/home/ayushregmibagale/protac-md/analysis/random_screen/MAPK14_full/pose016/dist_protac_kinase.xvg": "2b72e23ebeb752a9ce71db18678d7716a067e335237c19469d3c3112141c4526",
+      "/home/ayushregmibagale/protac-md/analysis/random_screen/MAPK14_full/pose016/metrics.csv": "04b97760f1a4e665fdf7fe3d724181da66ee91faa63b6416939b4eb559f6fa3e",
+      "/home/ayushregmibagale/protac-md/analysis/random_screen/MAPK14_full/pose016/index.ndx": "183afa2100d4d2fa2291032046e6835418b7d785ebc14a903a5874d0d5f29e9d",
+      "/home/ayushregmibagale/protac-md/random_screen/MAPK14_full/pose016/topol/complex_ions.gro": "d9a331bfc0f60f39e0c1e98b0e13b7e2a35fb901b7d0e1f73029a61cf105b79f"
+    }
+  },
+  {
+    "poi": "MAPK14_full",
+    "pose_id": "pose017",
+    "source_pdb": "combined_37_31",
+    "raw_frames": 201,
+    "canonical_full_frames": 201,
+    "removed_identical_duplicate_frames": 0,
+    "raw_time_last_ns": 20.0,
+    "frames": 201,
+    "time_first_ns": 0.0,
+    "time_last_ns": 20.0,
+    "median_sample_interval_ns": 0.09999999999999964,
+    "uniform_sample_spacing": false,
+    "legacy_header_bridging_pct": 0.5,
+    "recomputed_bridging_pct": 0.4975124378109453,
+    "index_group_composition": {
+      "Other": {
+        "atoms": 144,
+        "hydrogen_name_count": 65,
+        "hydrogen_detection": "GRO atom-name heuristic; exact elemental/mass identity requires topology review",
+        "residue_names": [
+          "UNL"
+        ]
+      },
+      "VHL": {
+        "atoms": 1603,
+        "hydrogen_name_count": 801,
+        "hydrogen_detection": "GRO atom-name heuristic; exact elemental/mass identity requires topology review",
+        "residue_names": [
+          "ALA",
+          "ARG",
+          "ASP",
+          "GLN",
+          "GLU",
+          "GLY",
+          "HIS",
+          "ILE",
+          "LEU",
+          "LYS",
+          "MET",
+          "PHE",
+          "PRO",
+          "SER",
+          "THR",
+          "TYR",
+          "VAL"
+        ]
+      },
+      "Kinase": {
+        "atoms": 5448,
+        "hydrogen_name_count": 2728,
+        "hydrogen_detection": "GRO atom-name heuristic; exact elemental/mass identity requires topology review",
+        "residue_names": [
+          "ALA",
+          "ARG",
+          "ASN",
+          "ASP",
+          "CYS",
+          "GLN",
+          "GLU",
+          "GLY",
+          "HIS",
+          "ILE",
+          "LEU",
+          "LYS",
+          "MET",
+          "PHE",
+          "PRO",
+          "SER",
+          "THR",
+          "TRP",
+          "TYR",
+          "VAL"
+        ]
+      }
+    },
+    "input_sha256": {
+      "/home/ayushregmibagale/protac-md/analysis/random_screen/MAPK14_full/pose017/dist_protac_vhl.xvg": "de58491b7c24169740c9b3c4ea392370d6361d6c1335a873cdf21eb41e0f3969",
+      "/home/ayushregmibagale/protac-md/analysis/random_screen/MAPK14_full/pose017/dist_protac_kinase.xvg": "c7fad8d2a77dbc3392b17738505759f4ab5bfd8dc0caafab37d7074f08946041",
+      "/home/ayushregmibagale/protac-md/analysis/random_screen/MAPK14_full/pose017/metrics.csv": "61d593a2c64678226892e6e3eb20ea63fe2d26a8ef0d4e557871877d1f1b3d73",
+      "/home/ayushregmibagale/protac-md/analysis/random_screen/MAPK14_full/pose017/index.ndx": "c0828a3dc46da13a1c8fc47500738d9a2ed097d217415d264b6c5a866c3d4b5d",
+      "/home/ayushregmibagale/protac-md/random_screen/MAPK14_full/pose017/topol/complex_ions.gro": "2253b95804471bbfdf9d913884d02b70937039bfaece2440bca60914dd9da9a4"
+    }
+  },
+  {
+    "poi": "MAPK14_full",
+    "pose_id": "pose018",
+    "source_pdb": "combined_85_39",
+    "raw_frames": 201,
+    "canonical_full_frames": 201,
+    "removed_identical_duplicate_frames": 0,
+    "raw_time_last_ns": 20.0,
+    "frames": 201,
+    "time_first_ns": 0.0,
+    "time_last_ns": 20.0,
+    "median_sample_interval_ns": 0.09999999999999964,
+    "uniform_sample_spacing": false,
+    "legacy_header_bridging_pct": 86.1,
+    "recomputed_bridging_pct": 86.06965174129353,
+    "index_group_composition": {
+      "Other": {
+        "atoms": 144,
+        "hydrogen_name_count": 65,
+        "hydrogen_detection": "GRO atom-name heuristic; exact elemental/mass identity requires topology review",
+        "residue_names": [
+          "UNL"
+        ]
+      },
+      "VHL": {
+        "atoms": 1603,
+        "hydrogen_name_count": 801,
+        "hydrogen_detection": "GRO atom-name heuristic; exact elemental/mass identity requires topology review",
+        "residue_names": [
+          "ALA",
+          "ARG",
+          "ASP",
+          "GLN",
+          "GLU",
+          "GLY",
+          "HIS",
+          "ILE",
+          "LEU",
+          "LYS",
+          "MET",
+          "PHE",
+          "PRO",
+          "SER",
+          "THR",
+          "TYR",
+          "VAL"
+        ]
+      },
+      "Kinase": {
+        "atoms": 5448,
+        "hydrogen_name_count": 2728,
+        "hydrogen_detection": "GRO atom-name heuristic; exact elemental/mass identity requires topology review",
+        "residue_names": [
+          "ALA",
+          "ARG",
+          "ASN",
+          "ASP",
+          "CYS",
+          "GLN",
+          "GLU",
+          "GLY",
+          "HIS",
+          "ILE",
+          "LEU",
+          "LYS",
+          "MET",
+          "PHE",
+          "PRO",
+          "SER",
+          "THR",
+          "TRP",
+          "TYR",
+          "VAL"
+        ]
+      }
+    },
+    "input_sha256": {
+      "/home/ayushregmibagale/protac-md/analysis/random_screen/MAPK14_full/pose018/dist_protac_vhl.xvg": "8b7dfed84f3abcb5868fe56f6131608e8e947e39a538990add46f4a71d283cbb",
+      "/home/ayushregmibagale/protac-md/analysis/random_screen/MAPK14_full/pose018/dist_protac_kinase.xvg": "69a3f69f16be8d5fb86f79bd74eeffceb25a4a13218bb37703829ef92fb89982",
+      "/home/ayushregmibagale/protac-md/analysis/random_screen/MAPK14_full/pose018/metrics.csv": "6b2488d1d1473a6551005bf2e003df49b272b1d256dad0ed01ffd8bbbbc48414",
+      "/home/ayushregmibagale/protac-md/analysis/random_screen/MAPK14_full/pose018/index.ndx": "33f546b4298df9afbea617d26bee660769e4a503aab3b8994cdd63ca3c8b85ae",
+      "/home/ayushregmibagale/protac-md/random_screen/MAPK14_full/pose018/topol/complex_ions.gro": "f24d5894f13d0eafd4c8bb7548feb798e177b77438b02f8d1a3c93c8cbc1b6b8"
+    }
+  },
+  {
+    "poi": "MAPK14_full",
+    "pose_id": "pose020",
+    "source_pdb": "combined_162_38",
+    "raw_frames": 201,
+    "canonical_full_frames": 201,
+    "removed_identical_duplicate_frames": 0,
+    "raw_time_last_ns": 20.0,
+    "frames": 201,
+    "time_first_ns": 0.0,
+    "time_last_ns": 20.0,
+    "median_sample_interval_ns": 0.09999999999999964,
+    "uniform_sample_spacing": false,
+    "legacy_header_bridging_pct": 25.9,
+    "recomputed_bridging_pct": 25.870646766169152,
+    "index_group_composition": {
+      "Other": {
+        "atoms": 144,
+        "hydrogen_name_count": 65,
+        "hydrogen_detection": "GRO atom-name heuristic; exact elemental/mass identity requires topology review",
+        "residue_names": [
+          "UNL"
+        ]
+      },
+      "VHL": {
+        "atoms": 1603,
+        "hydrogen_name_count": 801,
+        "hydrogen_detection": "GRO atom-name heuristic; exact elemental/mass identity requires topology review",
+        "residue_names": [
+          "ALA",
+          "ARG",
+          "ASP",
+          "GLN",
+          "GLU",
+          "GLY",
+          "HIS",
+          "ILE",
+          "LEU",
+          "LYS",
+          "MET",
+          "PHE",
+          "PRO",
+          "SER",
+          "THR",
+          "TYR",
+          "VAL"
+        ]
+      },
+      "Kinase": {
+        "atoms": 5448,
+        "hydrogen_name_count": 2728,
+        "hydrogen_detection": "GRO atom-name heuristic; exact elemental/mass identity requires topology review",
+        "residue_names": [
+          "ALA",
+          "ARG",
+          "ASN",
+          "ASP",
+          "CYS",
+          "GLN",
+          "GLU",
+          "GLY",
+          "HIS",
+          "ILE",
+          "LEU",
+          "LYS",
+          "MET",
+          "PHE",
+          "PRO",
+          "SER",
+          "THR",
+          "TRP",
+          "TYR",
+          "VAL"
+        ]
+      }
+    },
+    "input_sha256": {
+      "/home/ayushregmibagale/protac-md/analysis/random_screen/MAPK14_full/pose020/dist_protac_vhl.xvg": "5531e93c430ab1e2841c0bf4d1d353de9490e427f39bc32266032b56f951212a",
+      "/home/ayushregmibagale/protac-md/analysis/random_screen/MAPK14_full/pose020/dist_protac_kinase.xvg": "72893b45082638095e0d52c516425da819398c494b44424b830b1cc0292edd28",
+      "/home/ayushregmibagale/protac-md/analysis/random_screen/MAPK14_full/pose020/metrics.csv": "499a7d0eca38ea0702ee77750f29a6718c624838bd45caca9d93e3c3aacfb3cb",
+      "/home/ayushregmibagale/protac-md/analysis/random_screen/MAPK14_full/pose020/index.ndx": "a93641f45398d7e57caf7cf536797818bfe0bee6725a675e302f0a959865e739",
+      "/home/ayushregmibagale/protac-md/random_screen/MAPK14_full/pose020/topol/complex_ions.gro": "6939930f199a100eddcacf7a56891a0c3e936ea26816f2f908b4c1d05e4777b9"
+    }
+  }
+]

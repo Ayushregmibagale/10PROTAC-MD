@@ -200,6 +200,29 @@ def predict(model, static_g, dynamic_g, e2_vec, device):
 
 # ── LOPO-CV ───────────────────────────────────────────────────────────────────
 
+def save_fold_checkpoint(path,model,poi,train_pois,seed,e2_df,e2_test,args,prediction):
+    """Retain inference state and exact training-only scalar reference rows."""
+    path=Path(path)
+    if any(path.resolve().is_relative_to(root) for root in [Path('/home/ayushregmibagale/protac-md'),Path('/mnt/d/PROTAC degradation Prediction')]):raise ValidationError('Checkpoint output points into original work')
+    if path.exists():raise ValidationError('Fold checkpoint already exists')
+    if not np.isfinite(prediction) or not 0<=prediction<=1:raise ValidationError('Invalid model score')
+    if poi in train_pois:raise ValidationError('Held-out target leaked into checkpoint training cohort')
+    reference=e2_df.loc[e2_df.index.isin(train_pois),E2_COLS]
+    checkpoint={'format_version':1,'purpose':'EXPLORATORY_FOLD_INFERENCE_NOT_CALIBRATED_PROBABILITY',
+        'held_out_poi':poi,'training_pois':list(train_pois),'seed':int(seed),
+        'architecture':{'n_e2_scalars':len(E2_COLS),'hidden':args.hidden,'heads':args.heads,'dropout':args.dropout},
+        'model_state_dict':{name:value.detach().cpu().clone() for name,value in model.state_dict().items()},
+        'scalar_columns':list(E2_COLS),'scalar_reference_pois':list(reference.index),
+        'scalar_reference_values':torch.tensor(reference.to_numpy(dtype=float),dtype=torch.float64),
+        'scalar_normalization':'Training rows only; finite mean and sample SD (ddof=1); all-missing mean 0; singleton/zero scale 1; target NaN becomes normalized 0',
+        'held_out_normalized_scalars':e2_test.detach().cpu().clone(),
+        'held_out_score':float(prediction),'feature_schema':'SJF8240-periodic-contacts-v1',
+        'source_sha256':sha256(Path(__file__)),'contract_sha256':sha256(Path(__file__).resolve().parents[1]/'lib/gnn_contract.py'),
+        'torch_version':str(torch.__version__)}
+    path.parent.mkdir(parents=True,exist_ok=True);torch.save(checkpoint,path)
+    return {'path':str(path),'sha256':sha256(path)}
+
+
 def run_lopo(static_graphs, dynamic_map, e2_df, args):
     device = 'cpu'
     print(f"Device: {device}")
@@ -246,6 +269,7 @@ def run_lopo(static_graphs, dynamic_map, e2_df, args):
 
         e2_test = get_e2_vec(poi, e2_df, train_pois, device)
         prob    = predict(model, test_g, test_dyn, e2_test, device)
+        checkpoint=save_fold_checkpoint(args.output/'fold_checkpoints'/f'fold_{fold_i+1:04d}.pt',model,poi,train_pois,stage_seed,e2_df,e2_test,args,prob)
         label   = int(test_g.y.item())
         has_md  = poi in md_pois
         has_e2  = (poi in e2_df.index and
@@ -265,7 +289,9 @@ def run_lopo(static_graphs, dynamic_map, e2_df, args):
 
         pred_rows.append({
             'fold': fold_i + 1, 'poi': poi,
-            'label': label, 'prob_degrader': round(prob, 4),
+            'label': label, 'prob_degrader': float(prob),
+            'fold_checkpoint':str(Path(checkpoint['path']).relative_to(args.output)),
+            'fold_checkpoint_sha256':checkpoint['sha256'],
             'pred': int(prob >= 0.5),
             'correct': int((prob >= 0.5) == bool(label)),
             'has_md': int(has_md),
@@ -350,7 +376,7 @@ def main():
     parser.add_argument('--release',type=Path,required=True)
     parser.add_argument('--output',type=Path,required=True)
     args = parser.parse_args()
-    if args.epochs<1 or args.hidden<1 or args.heads<1 or not 0<=args.dropout<1 or args.lr<=0:
+    if args.epochs<1 or args.hidden<1 or args.heads<1 or not 0<=args.dropout<1 or (not np.isfinite(args.lr)) or args.lr<=0 or args.hidden%args.heads!=0:
         raise ValidationError('Invalid GNN training budget')
     old_roots=[Path('/home/ayushregmibagale/protac-md'),Path('/mnt/d/PROTAC degradation Prediction')]
     if any(args.output.resolve().is_relative_to(p) for p in old_roots):raise ValidationError('Output points into original work')
@@ -383,11 +409,16 @@ def main():
     print(f"Loaded {len(md_graphs)} MD graphs: {sorted(dynamic_map.keys())}")
     print(f"E2 table: {len(e2_df)} POIs, {e2_df.notna().any(axis=1).sum()} with ≥1 E2 value")
 
+    args.output.mkdir(parents=True,exist_ok=False)
+    (args.output/'training_intent.json').write_text(json.dumps({'status':'INTENT_ONLY_NOT_COMPLETION',
+        'seed':args.seed,'source_sha256':source_digest,'contract_sha256':contract_digest,'release_sha256':release_digest,
+        'inputs_sha256':{k:sha256(Path(getattr(args,k))) for k in ['static','dynamic','ml_table']},
+        'settings':{k:str(v) if isinstance(v,Path) else v for k,v in vars(args).items()},
+        'completion_requires':'receipt.json with EXPLORATORY_LOPO_COMPLETE'},indent=2)+'\n')
     pred_df, summ_df = run_lopo(static_graphs, dynamic_map, e2_df, args)
 
     if sha256(Path(__file__))!=source_digest or sha256(Path(__file__).resolve().parents[1]/'lib/gnn_contract.py')!=contract_digest or sha256(args.release)!=release_digest:raise ValidationError('GNN source/release changed during training')
     verify_gnn_release(args.release,{'static':Path(args.static),'dynamic':Path(args.dynamic),'ml_table':Path(args.ml_table)},'SCUZPTNDZHEHLB-ZWUDBOSPSA-N')
-    args.output.mkdir(parents=True,exist_ok=False)
     pred_df.to_csv(args.output/'predictions.tsv',sep='\t',index=False)
     summ_df.to_csv(args.output/'summary.tsv',sep='\t',index=False)
     receipt={'status':'EXPLORATORY_LOPO_COMPLETE','seed':args.seed,'device':'cpu','deterministic_algorithms':True,
@@ -397,7 +428,8 @@ def main():
         'scalar_observed_counts':{c:int(e2_df.loc[e2_df.index.isin(release['experimental_labels']),c].notna().sum()) for c in E2_COLS},
         'settings':{k:str(v) if isinstance(v,Path) else v for k,v in vars(args).items()},
         'inputs_sha256':{k:sha256(Path(getattr(args,k))) for k in ['static','dynamic','ml_table']},
-        'outputs_sha256':{n:sha256(args.output/n) for n in ['predictions.tsv','summary.tsv']},
+        'outputs_sha256':{str(p.relative_to(args.output)):sha256(p) for p in args.output.rglob('*') if p.is_file()},
+        'fold_model_checkpoints_saved':True,'scores_rounded_before_metrics':False,
         'disabled_optional_GNN_backends':DISABLED_OPTIONAL_GNN_BACKENDS,'torch_version':torch.__version__,'numpy_version':np.__version__,
         'generalization_certified':False,'limitations':['LOPO on the development cohort is exploratory; independent held-out experimental validation remains required.','A model score is not a calibrated degradation probability.']}
     (args.output/'receipt.json').write_text(json.dumps(receipt,indent=2)+'\n')

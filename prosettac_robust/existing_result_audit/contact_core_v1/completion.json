@@ -1,0 +1,999 @@
+{
+  "status": "CONTACT_REANALYSIS_COMPLETE",
+  "cases": 141,
+  "failed": 0,
+  "elapsed_s": 498.7680811882019,
+  "outcomes": [
+    {
+      "poi": "DDR2",
+      "pose_id": "pose002",
+      "exit_code": 0,
+      "output": "/tmp/10protac_finish/prosettac_robust/existing_result_audit/contact_core_v1/poses/DDR2/pose002",
+      "log": "/tmp/10protac_finish/prosettac_robust/existing_result_audit/contact_core_v1/poses/DDR2/pose002.log"
+    },
+    {
+      "poi": "DDR2",
+      "pose_id": "pose001",
+      "exit_code": 0,
+      "output": "/tmp/10protac_finish/prosettac_robust/existing_result_audit/contact_core_v1/poses/DDR2/pose001",
+      "log": "/tmp/10protac_finish/prosettac_robust/existing_result_audit/contact_core_v1/poses/DDR2/pose001.log"
+    },
+    {
+      "poi": "DDR2",
+      "pose_id": "pose003",
+      "exit_code": 0,
+      "output": "/tmp/10protac_finish/prosettac_robust/existing_result_audit/contact_core_v1/poses/DDR2/pose003",
+      "log": "/tmp/10protac_finish/prosettac_robust/existing_result_audit/contact_core_v1/poses/DDR2/pose003.log"
+    },
+    {
+      "poi": "DDR2",
+      "pose_id": "pose004",
+      "exit_code": 0,
+      "output": "/tmp/10protac_finish/prosettac_robust/existing_result_audit/contact_core_v1/poses/DDR2/pose004",
+      "log": "/tmp/10protac_finish/prosettac_robust/existing_result_audit/contact_core_v1/poses/DDR2/pose004.log"
+    },
+    {
+      "poi": "DDR2",
+      "pose_id": "pose005",
+      "exit_code": 0,
+      "output": "/tmp/10protac_finish/prosettac_robust/existing_result_audit/contact_core_v1/poses/DDR2/pose005",
+      "log": "/tmp/10protac_finish/prosettac_robust/existing_result_audit/contact_core_v1/poses/DDR2/pose005.log"
+    },
+    {
+      "poi": "DDR2",
+      "pose_id": "pose006",
+      "exit_code": 0,
+      "output": "/tmp/10protac_finish/prosettac_robust/existing_result_audit/contact_core_v1/poses/DDR2/pose006",
+      "log": "/tmp/10protac_finish/prosettac_robust/existing_result_audit/contact_core_v1/poses/DDR2/pose006.log"
+    },
+    {
+      "poi": "DDR2",
+      "pose_id": "pose007",
+      "exit_code": 0,
+      "output": "/tmp/10protac_finish/prosettac_robust/existing_result_audit/contact_core_v1/poses/DDR2/pose007",
+      "log": "/tmp/10protac_finish/prosettac_robust/existing_result_audit/contact_core_v1/poses/DDR2/pose007.log"
+    },
+    {
+      "poi": "DDR2",
+      "pose_id": "pose008",
+      "exit_code": 0,
+      "output": "/tmp/10protac_finish/prosettac_robust/existing_result_audit/contact_core_v1/poses/DDR2/pose008",
+      "log": "/tmp/10protac_finish/prosettac_robust/existing_result_audit/contact_core_v1/poses/DDR2/pose008.log"
+    },
+    {
+      "poi": "DDR2",
+      "pose_id": "pose010",
+      "exit_code": 0,
+      "output": "/tmp/10protac_finish/prosettac_robust/existing_result_audit/contact_core_v1/poses/DDR2/pose010",
+      "log": "/tmp/10protac_finish/prosettac_robust/existing_result_audit/contact_core_v1/poses/DDR2/pose010.log"
+    },
+    {
+      "poi": "DDR2",
+      "pose_id": "pose011",
+      "exit_code": 0,
+      "output": "/tmp/10protac_finish/prosettac_robust/existing_result_audit/contact_core_v1/poses/DDR2/pose011",
+      "log": "/tmp/10protac_finish/prosettac_robust/existing_result_audit/contact_core_v1/poses/DDR2/pose011.log"
+    },
+    {
+      "poi": "DDR2",
+      "pose_id": "pose013",
+      "exit_code": 0,
+      "output": "/tmp/10protac_finish/prosettac_robust/existing_result_audit/contact_core_v1/poses/DDR2/pose013",
+      "log": "/tmp/10protac_finish/prosettac_robust/existing_result_audit/contact_core_v1/poses/DDR2/pose013.log"
+    },
+    {
+      "poi": "DDR2",
+      "pose_id": "pose014",
+      "exit_code": 0,
+      "output": "/tmp/10protac_finish/prosettac_robust/existing_result_audit/contact_core_v1/poses/DDR2/pose014",
+      "log": "/tmp/10protac_finish/prosettac_robust/existing_result_audit/contact_core_v1/poses/DDR2/pose014.log"
+    },
+    {
+      "poi": "DDR2",
+      "pose_id": "pose015",
+      "exit_code": 0,
+      "output": "/tmp/10protac_finish/prosettac_robust/existing_result_audit/contact_core_v1/poses/DDR2/pose015",
+      "log": "/tmp/10protac_finish/prosettac_robust/existing_result_audit/contact_core_v1/poses/DDR2/pose015.log"
+    },
+    {
+      "poi": "DDR2",
+      "pose_id": "pose016",
+      "exit_code": 0,
+      "output": "/tmp/10protac_finish/prosettac_robust/existing_result_audit/contact_core_v1/poses/DDR2/pose016",
+      "log": "/tmp/10protac_finish/prosettac_robust/existing_result_audit/contact_core_v1/poses/DDR2/pose016.log"
+    },
+    {
+      "poi": "DDR2",
+      "pose_id": "pose017",
+      "exit_code": 0,
+      "output": "/tmp/10protac_finish/prosettac_robust/existing_result_audit/contact_core_v1/poses/DDR2/pose017",
+      "log": "/tmp/10protac_finish/prosettac_robust/existing_result_audit/contact_core_v1/poses/DDR2/pose017.log"
+    },
+    {
+      "poi": "DDR2",
+      "pose_id": "pose018",
+      "exit_code": 0,
+      "output": "/tmp/10protac_finish/prosettac_robust/existing_result_audit/contact_core_v1/poses/DDR2/pose018",
+      "log": "/tmp/10protac_finish/prosettac_robust/existing_result_audit/contact_core_v1/poses/DDR2/pose018.log"
+    },
+    {
+      "poi": "DDR2",
+      "pose_id": "pose019",
+      "exit_code": 0,
+      "output": "/tmp/10protac_finish/prosettac_robust/existing_result_audit/contact_core_v1/poses/DDR2/pose019",
+      "log": "/tmp/10protac_finish/prosettac_robust/existing_result_audit/contact_core_v1/poses/DDR2/pose019.log"
+    },
+    {
+      "poi": "DDR2",
+      "pose_id": "pose020",
+      "exit_code": 0,
+      "output": "/tmp/10protac_finish/prosettac_robust/existing_result_audit/contact_core_v1/poses/DDR2/pose020",
+      "log": "/tmp/10protac_finish/prosettac_robust/existing_result_audit/contact_core_v1/poses/DDR2/pose020.log"
+    },
+    {
+      "poi": "RIPK2_full",
+      "pose_id": "pose001",
+      "exit_code": 0,
+      "output": "/tmp/10protac_finish/prosettac_robust/existing_result_audit/contact_core_v1/poses/RIPK2_full/pose001",
+      "log": "/tmp/10protac_finish/prosettac_robust/existing_result_audit/contact_core_v1/poses/RIPK2_full/pose001.log"
+    },
+    {
+      "poi": "RIPK2_full",
+      "pose_id": "pose003",
+      "exit_code": 0,
+      "output": "/tmp/10protac_finish/prosettac_robust/existing_result_audit/contact_core_v1/poses/RIPK2_full/pose003",
+      "log": "/tmp/10protac_finish/prosettac_robust/existing_result_audit/contact_core_v1/poses/RIPK2_full/pose003.log"
+    },
+    {
+      "poi": "RIPK2_full",
+      "pose_id": "pose004",
+      "exit_code": 0,
+      "output": "/tmp/10protac_finish/prosettac_robust/existing_result_audit/contact_core_v1/poses/RIPK2_full/pose004",
+      "log": "/tmp/10protac_finish/prosettac_robust/existing_result_audit/contact_core_v1/poses/RIPK2_full/pose004.log"
+    },
+    {
+      "poi": "RIPK2_full",
+      "pose_id": "pose005",
+      "exit_code": 0,
+      "output": "/tmp/10protac_finish/prosettac_robust/existing_result_audit/contact_core_v1/poses/RIPK2_full/pose005",
+      "log": "/tmp/10protac_finish/prosettac_robust/existing_result_audit/contact_core_v1/poses/RIPK2_full/pose005.log"
+    },
+    {
+      "poi": "RIPK2_full",
+      "pose_id": "pose006",
+      "exit_code": 0,
+      "output": "/tmp/10protac_finish/prosettac_robust/existing_result_audit/contact_core_v1/poses/RIPK2_full/pose006",
+      "log": "/tmp/10protac_finish/prosettac_robust/existing_result_audit/contact_core_v1/poses/RIPK2_full/pose006.log"
+    },
+    {
+      "poi": "RIPK2_full",
+      "pose_id": "pose007",
+      "exit_code": 0,
+      "output": "/tmp/10protac_finish/prosettac_robust/existing_result_audit/contact_core_v1/poses/RIPK2_full/pose007",
+      "log": "/tmp/10protac_finish/prosettac_robust/existing_result_audit/contact_core_v1/poses/RIPK2_full/pose007.log"
+    },
+    {
+      "poi": "RIPK2_full",
+      "pose_id": "pose008",
+      "exit_code": 0,
+      "output": "/tmp/10protac_finish/prosettac_robust/existing_result_audit/contact_core_v1/poses/RIPK2_full/pose008",
+      "log": "/tmp/10protac_finish/prosettac_robust/existing_result_audit/contact_core_v1/poses/RIPK2_full/pose008.log"
+    },
+    {
+      "poi": "RIPK2_full",
+      "pose_id": "pose009",
+      "exit_code": 0,
+      "output": "/tmp/10protac_finish/prosettac_robust/existing_result_audit/contact_core_v1/poses/RIPK2_full/pose009",
+      "log": "/tmp/10protac_finish/prosettac_robust/existing_result_audit/contact_core_v1/poses/RIPK2_full/pose009.log"
+    },
+    {
+      "poi": "RIPK2_full",
+      "pose_id": "pose010",
+      "exit_code": 0,
+      "output": "/tmp/10protac_finish/prosettac_robust/existing_result_audit/contact_core_v1/poses/RIPK2_full/pose010",
+      "log": "/tmp/10protac_finish/prosettac_robust/existing_result_audit/contact_core_v1/poses/RIPK2_full/pose010.log"
+    },
+    {
+      "poi": "RIPK2_full",
+      "pose_id": "pose011",
+      "exit_code": 0,
+      "output": "/tmp/10protac_finish/prosettac_robust/existing_result_audit/contact_core_v1/poses/RIPK2_full/pose011",
+      "log": "/tmp/10protac_finish/prosettac_robust/existing_result_audit/contact_core_v1/poses/RIPK2_full/pose011.log"
+    },
+    {
+      "poi": "RIPK2_full",
+      "pose_id": "pose012",
+      "exit_code": 0,
+      "output": "/tmp/10protac_finish/prosettac_robust/existing_result_audit/contact_core_v1/poses/RIPK2_full/pose012",
+      "log": "/tmp/10protac_finish/prosettac_robust/existing_result_audit/contact_core_v1/poses/RIPK2_full/pose012.log"
+    },
+    {
+      "poi": "RIPK2_full",
+      "pose_id": "pose015",
+      "exit_code": 0,
+      "output": "/tmp/10protac_finish/prosettac_robust/existing_result_audit/contact_core_v1/poses/RIPK2_full/pose015",
+      "log": "/tmp/10protac_finish/prosettac_robust/existing_result_audit/contact_core_v1/poses/RIPK2_full/pose015.log"
+    },
+    {
+      "poi": "RIPK2_full",
+      "pose_id": "pose016",
+      "exit_code": 0,
+      "output": "/tmp/10protac_finish/prosettac_robust/existing_result_audit/contact_core_v1/poses/RIPK2_full/pose016",
+      "log": "/tmp/10protac_finish/prosettac_robust/existing_result_audit/contact_core_v1/poses/RIPK2_full/pose016.log"
+    },
+    {
+      "poi": "RIPK2_full",
+      "pose_id": "pose017",
+      "exit_code": 0,
+      "output": "/tmp/10protac_finish/prosettac_robust/existing_result_audit/contact_core_v1/poses/RIPK2_full/pose017",
+      "log": "/tmp/10protac_finish/prosettac_robust/existing_result_audit/contact_core_v1/poses/RIPK2_full/pose017.log"
+    },
+    {
+      "poi": "RIPK2_full",
+      "pose_id": "pose018",
+      "exit_code": 0,
+      "output": "/tmp/10protac_finish/prosettac_robust/existing_result_audit/contact_core_v1/poses/RIPK2_full/pose018",
+      "log": "/tmp/10protac_finish/prosettac_robust/existing_result_audit/contact_core_v1/poses/RIPK2_full/pose018.log"
+    },
+    {
+      "poi": "RIPK2_full",
+      "pose_id": "pose019",
+      "exit_code": 0,
+      "output": "/tmp/10protac_finish/prosettac_robust/existing_result_audit/contact_core_v1/poses/RIPK2_full/pose019",
+      "log": "/tmp/10protac_finish/prosettac_robust/existing_result_audit/contact_core_v1/poses/RIPK2_full/pose019.log"
+    },
+    {
+      "poi": "RIPK2_full",
+      "pose_id": "pose020",
+      "exit_code": 0,
+      "output": "/tmp/10protac_finish/prosettac_robust/existing_result_audit/contact_core_v1/poses/RIPK2_full/pose020",
+      "log": "/tmp/10protac_finish/prosettac_robust/existing_result_audit/contact_core_v1/poses/RIPK2_full/pose020.log"
+    },
+    {
+      "poi": "MAPK14_full",
+      "pose_id": "pose001",
+      "exit_code": 0,
+      "output": "/tmp/10protac_finish/prosettac_robust/existing_result_audit/contact_core_v1/poses/MAPK14_full/pose001",
+      "log": "/tmp/10protac_finish/prosettac_robust/existing_result_audit/contact_core_v1/poses/MAPK14_full/pose001.log"
+    },
+    {
+      "poi": "MAPK14_full",
+      "pose_id": "pose002",
+      "exit_code": 0,
+      "output": "/tmp/10protac_finish/prosettac_robust/existing_result_audit/contact_core_v1/poses/MAPK14_full/pose002",
+      "log": "/tmp/10protac_finish/prosettac_robust/existing_result_audit/contact_core_v1/poses/MAPK14_full/pose002.log"
+    },
+    {
+      "poi": "MAPK14_full",
+      "pose_id": "pose003",
+      "exit_code": 0,
+      "output": "/tmp/10protac_finish/prosettac_robust/existing_result_audit/contact_core_v1/poses/MAPK14_full/pose003",
+      "log": "/tmp/10protac_finish/prosettac_robust/existing_result_audit/contact_core_v1/poses/MAPK14_full/pose003.log"
+    },
+    {
+      "poi": "MAPK14_full",
+      "pose_id": "pose004",
+      "exit_code": 0,
+      "output": "/tmp/10protac_finish/prosettac_robust/existing_result_audit/contact_core_v1/poses/MAPK14_full/pose004",
+      "log": "/tmp/10protac_finish/prosettac_robust/existing_result_audit/contact_core_v1/poses/MAPK14_full/pose004.log"
+    },
+    {
+      "poi": "MAPK14_full",
+      "pose_id": "pose005",
+      "exit_code": 0,
+      "output": "/tmp/10protac_finish/prosettac_robust/existing_result_audit/contact_core_v1/poses/MAPK14_full/pose005",
+      "log": "/tmp/10protac_finish/prosettac_robust/existing_result_audit/contact_core_v1/poses/MAPK14_full/pose005.log"
+    },
+    {
+      "poi": "MAPK14_full",
+      "pose_id": "pose006",
+      "exit_code": 0,
+      "output": "/tmp/10protac_finish/prosettac_robust/existing_result_audit/contact_core_v1/poses/MAPK14_full/pose006",
+      "log": "/tmp/10protac_finish/prosettac_robust/existing_result_audit/contact_core_v1/poses/MAPK14_full/pose006.log"
+    },
+    {
+      "poi": "MAPK14_full",
+      "pose_id": "pose007",
+      "exit_code": 0,
+      "output": "/tmp/10protac_finish/prosettac_robust/existing_result_audit/contact_core_v1/poses/MAPK14_full/pose007",
+      "log": "/tmp/10protac_finish/prosettac_robust/existing_result_audit/contact_core_v1/poses/MAPK14_full/pose007.log"
+    },
+    {
+      "poi": "MAPK14_full",
+      "pose_id": "pose008",
+      "exit_code": 0,
+      "output": "/tmp/10protac_finish/prosettac_robust/existing_result_audit/contact_core_v1/poses/MAPK14_full/pose008",
+      "log": "/tmp/10protac_finish/prosettac_robust/existing_result_audit/contact_core_v1/poses/MAPK14_full/pose008.log"
+    },
+    {
+      "poi": "MAPK14_full",
+      "pose_id": "pose009",
+      "exit_code": 0,
+      "output": "/tmp/10protac_finish/prosettac_robust/existing_result_audit/contact_core_v1/poses/MAPK14_full/pose009",
+      "log": "/tmp/10protac_finish/prosettac_robust/existing_result_audit/contact_core_v1/poses/MAPK14_full/pose009.log"
+    },
+    {
+      "poi": "MAPK14_full",
+      "pose_id": "pose010",
+      "exit_code": 0,
+      "output": "/tmp/10protac_finish/prosettac_robust/existing_result_audit/contact_core_v1/poses/MAPK14_full/pose010",
+      "log": "/tmp/10protac_finish/prosettac_robust/existing_result_audit/contact_core_v1/poses/MAPK14_full/pose010.log"
+    },
+    {
+      "poi": "MAPK14_full",
+      "pose_id": "pose011",
+      "exit_code": 0,
+      "output": "/tmp/10protac_finish/prosettac_robust/existing_result_audit/contact_core_v1/poses/MAPK14_full/pose011",
+      "log": "/tmp/10protac_finish/prosettac_robust/existing_result_audit/contact_core_v1/poses/MAPK14_full/pose011.log"
+    },
+    {
+      "poi": "MAPK14_full",
+      "pose_id": "pose012",
+      "exit_code": 0,
+      "output": "/tmp/10protac_finish/prosettac_robust/existing_result_audit/contact_core_v1/poses/MAPK14_full/pose012",
+      "log": "/tmp/10protac_finish/prosettac_robust/existing_result_audit/contact_core_v1/poses/MAPK14_full/pose012.log"
+    },
+    {
+      "poi": "MAPK14_full",
+      "pose_id": "pose013",
+      "exit_code": 0,
+      "output": "/tmp/10protac_finish/prosettac_robust/existing_result_audit/contact_core_v1/poses/MAPK14_full/pose013",
+      "log": "/tmp/10protac_finish/prosettac_robust/existing_result_audit/contact_core_v1/poses/MAPK14_full/pose013.log"
+    },
+    {
+      "poi": "MAPK14_full",
+      "pose_id": "pose015",
+      "exit_code": 0,
+      "output": "/tmp/10protac_finish/prosettac_robust/existing_result_audit/contact_core_v1/poses/MAPK14_full/pose015",
+      "log": "/tmp/10protac_finish/prosettac_robust/existing_result_audit/contact_core_v1/poses/MAPK14_full/pose015.log"
+    },
+    {
+      "poi": "MAPK14_full",
+      "pose_id": "pose016",
+      "exit_code": 0,
+      "output": "/tmp/10protac_finish/prosettac_robust/existing_result_audit/contact_core_v1/poses/MAPK14_full/pose016",
+      "log": "/tmp/10protac_finish/prosettac_robust/existing_result_audit/contact_core_v1/poses/MAPK14_full/pose016.log"
+    },
+    {
+      "poi": "MAPK14_full",
+      "pose_id": "pose017",
+      "exit_code": 0,
+      "output": "/tmp/10protac_finish/prosettac_robust/existing_result_audit/contact_core_v1/poses/MAPK14_full/pose017",
+      "log": "/tmp/10protac_finish/prosettac_robust/existing_result_audit/contact_core_v1/poses/MAPK14_full/pose017.log"
+    },
+    {
+      "poi": "MAPK14_full",
+      "pose_id": "pose018",
+      "exit_code": 0,
+      "output": "/tmp/10protac_finish/prosettac_robust/existing_result_audit/contact_core_v1/poses/MAPK14_full/pose018",
+      "log": "/tmp/10protac_finish/prosettac_robust/existing_result_audit/contact_core_v1/poses/MAPK14_full/pose018.log"
+    },
+    {
+      "poi": "MAPK14_full",
+      "pose_id": "pose020",
+      "exit_code": 0,
+      "output": "/tmp/10protac_finish/prosettac_robust/existing_result_audit/contact_core_v1/poses/MAPK14_full/pose020",
+      "log": "/tmp/10protac_finish/prosettac_robust/existing_result_audit/contact_core_v1/poses/MAPK14_full/pose020.log"
+    },
+    {
+      "poi": "MET",
+      "pose_id": "pose002",
+      "exit_code": 0,
+      "output": "/tmp/10protac_finish/prosettac_robust/existing_result_audit/contact_core_v1/poses/MET/pose002",
+      "log": "/tmp/10protac_finish/prosettac_robust/existing_result_audit/contact_core_v1/poses/MET/pose002.log"
+    },
+    {
+      "poi": "MET",
+      "pose_id": "pose003",
+      "exit_code": 0,
+      "output": "/tmp/10protac_finish/prosettac_robust/existing_result_audit/contact_core_v1/poses/MET/pose003",
+      "log": "/tmp/10protac_finish/prosettac_robust/existing_result_audit/contact_core_v1/poses/MET/pose003.log"
+    },
+    {
+      "poi": "MET",
+      "pose_id": "pose004",
+      "exit_code": 0,
+      "output": "/tmp/10protac_finish/prosettac_robust/existing_result_audit/contact_core_v1/poses/MET/pose004",
+      "log": "/tmp/10protac_finish/prosettac_robust/existing_result_audit/contact_core_v1/poses/MET/pose004.log"
+    },
+    {
+      "poi": "MET",
+      "pose_id": "pose005",
+      "exit_code": 0,
+      "output": "/tmp/10protac_finish/prosettac_robust/existing_result_audit/contact_core_v1/poses/MET/pose005",
+      "log": "/tmp/10protac_finish/prosettac_robust/existing_result_audit/contact_core_v1/poses/MET/pose005.log"
+    },
+    {
+      "poi": "MET",
+      "pose_id": "pose006",
+      "exit_code": 0,
+      "output": "/tmp/10protac_finish/prosettac_robust/existing_result_audit/contact_core_v1/poses/MET/pose006",
+      "log": "/tmp/10protac_finish/prosettac_robust/existing_result_audit/contact_core_v1/poses/MET/pose006.log"
+    },
+    {
+      "poi": "MET",
+      "pose_id": "pose007",
+      "exit_code": 0,
+      "output": "/tmp/10protac_finish/prosettac_robust/existing_result_audit/contact_core_v1/poses/MET/pose007",
+      "log": "/tmp/10protac_finish/prosettac_robust/existing_result_audit/contact_core_v1/poses/MET/pose007.log"
+    },
+    {
+      "poi": "MET",
+      "pose_id": "pose008",
+      "exit_code": 0,
+      "output": "/tmp/10protac_finish/prosettac_robust/existing_result_audit/contact_core_v1/poses/MET/pose008",
+      "log": "/tmp/10protac_finish/prosettac_robust/existing_result_audit/contact_core_v1/poses/MET/pose008.log"
+    },
+    {
+      "poi": "MET",
+      "pose_id": "pose009",
+      "exit_code": 0,
+      "output": "/tmp/10protac_finish/prosettac_robust/existing_result_audit/contact_core_v1/poses/MET/pose009",
+      "log": "/tmp/10protac_finish/prosettac_robust/existing_result_audit/contact_core_v1/poses/MET/pose009.log"
+    },
+    {
+      "poi": "MET",
+      "pose_id": "pose011",
+      "exit_code": 0,
+      "output": "/tmp/10protac_finish/prosettac_robust/existing_result_audit/contact_core_v1/poses/MET/pose011",
+      "log": "/tmp/10protac_finish/prosettac_robust/existing_result_audit/contact_core_v1/poses/MET/pose011.log"
+    },
+    {
+      "poi": "MET",
+      "pose_id": "pose012",
+      "exit_code": 0,
+      "output": "/tmp/10protac_finish/prosettac_robust/existing_result_audit/contact_core_v1/poses/MET/pose012",
+      "log": "/tmp/10protac_finish/prosettac_robust/existing_result_audit/contact_core_v1/poses/MET/pose012.log"
+    },
+    {
+      "poi": "MET",
+      "pose_id": "pose013",
+      "exit_code": 0,
+      "output": "/tmp/10protac_finish/prosettac_robust/existing_result_audit/contact_core_v1/poses/MET/pose013",
+      "log": "/tmp/10protac_finish/prosettac_robust/existing_result_audit/contact_core_v1/poses/MET/pose013.log"
+    },
+    {
+      "poi": "MET",
+      "pose_id": "pose014",
+      "exit_code": 0,
+      "output": "/tmp/10protac_finish/prosettac_robust/existing_result_audit/contact_core_v1/poses/MET/pose014",
+      "log": "/tmp/10protac_finish/prosettac_robust/existing_result_audit/contact_core_v1/poses/MET/pose014.log"
+    },
+    {
+      "poi": "MET",
+      "pose_id": "pose017",
+      "exit_code": 0,
+      "output": "/tmp/10protac_finish/prosettac_robust/existing_result_audit/contact_core_v1/poses/MET/pose017",
+      "log": "/tmp/10protac_finish/prosettac_robust/existing_result_audit/contact_core_v1/poses/MET/pose017.log"
+    },
+    {
+      "poi": "MET",
+      "pose_id": "pose018",
+      "exit_code": 0,
+      "output": "/tmp/10protac_finish/prosettac_robust/existing_result_audit/contact_core_v1/poses/MET/pose018",
+      "log": "/tmp/10protac_finish/prosettac_robust/existing_result_audit/contact_core_v1/poses/MET/pose018.log"
+    },
+    {
+      "poi": "MET",
+      "pose_id": "pose019",
+      "exit_code": 0,
+      "output": "/tmp/10protac_finish/prosettac_robust/existing_result_audit/contact_core_v1/poses/MET/pose019",
+      "log": "/tmp/10protac_finish/prosettac_robust/existing_result_audit/contact_core_v1/poses/MET/pose019.log"
+    },
+    {
+      "poi": "MET",
+      "pose_id": "pose020",
+      "exit_code": 0,
+      "output": "/tmp/10protac_finish/prosettac_robust/existing_result_audit/contact_core_v1/poses/MET/pose020",
+      "log": "/tmp/10protac_finish/prosettac_robust/existing_result_audit/contact_core_v1/poses/MET/pose020.log"
+    },
+    {
+      "poi": "EPHB2",
+      "pose_id": "pose001",
+      "exit_code": 0,
+      "output": "/tmp/10protac_finish/prosettac_robust/existing_result_audit/contact_core_v1/poses/EPHB2/pose001",
+      "log": "/tmp/10protac_finish/prosettac_robust/existing_result_audit/contact_core_v1/poses/EPHB2/pose001.log"
+    },
+    {
+      "poi": "EPHB2",
+      "pose_id": "pose002",
+      "exit_code": 0,
+      "output": "/tmp/10protac_finish/prosettac_robust/existing_result_audit/contact_core_v1/poses/EPHB2/pose002",
+      "log": "/tmp/10protac_finish/prosettac_robust/existing_result_audit/contact_core_v1/poses/EPHB2/pose002.log"
+    },
+    {
+      "poi": "EPHB2",
+      "pose_id": "pose003",
+      "exit_code": 0,
+      "output": "/tmp/10protac_finish/prosettac_robust/existing_result_audit/contact_core_v1/poses/EPHB2/pose003",
+      "log": "/tmp/10protac_finish/prosettac_robust/existing_result_audit/contact_core_v1/poses/EPHB2/pose003.log"
+    },
+    {
+      "poi": "EPHB2",
+      "pose_id": "pose004",
+      "exit_code": 0,
+      "output": "/tmp/10protac_finish/prosettac_robust/existing_result_audit/contact_core_v1/poses/EPHB2/pose004",
+      "log": "/tmp/10protac_finish/prosettac_robust/existing_result_audit/contact_core_v1/poses/EPHB2/pose004.log"
+    },
+    {
+      "poi": "EPHB2",
+      "pose_id": "pose005",
+      "exit_code": 0,
+      "output": "/tmp/10protac_finish/prosettac_robust/existing_result_audit/contact_core_v1/poses/EPHB2/pose005",
+      "log": "/tmp/10protac_finish/prosettac_robust/existing_result_audit/contact_core_v1/poses/EPHB2/pose005.log"
+    },
+    {
+      "poi": "EPHB2",
+      "pose_id": "pose006",
+      "exit_code": 0,
+      "output": "/tmp/10protac_finish/prosettac_robust/existing_result_audit/contact_core_v1/poses/EPHB2/pose006",
+      "log": "/tmp/10protac_finish/prosettac_robust/existing_result_audit/contact_core_v1/poses/EPHB2/pose006.log"
+    },
+    {
+      "poi": "EPHB2",
+      "pose_id": "pose007",
+      "exit_code": 0,
+      "output": "/tmp/10protac_finish/prosettac_robust/existing_result_audit/contact_core_v1/poses/EPHB2/pose007",
+      "log": "/tmp/10protac_finish/prosettac_robust/existing_result_audit/contact_core_v1/poses/EPHB2/pose007.log"
+    },
+    {
+      "poi": "EPHB2",
+      "pose_id": "pose008",
+      "exit_code": 0,
+      "output": "/tmp/10protac_finish/prosettac_robust/existing_result_audit/contact_core_v1/poses/EPHB2/pose008",
+      "log": "/tmp/10protac_finish/prosettac_robust/existing_result_audit/contact_core_v1/poses/EPHB2/pose008.log"
+    },
+    {
+      "poi": "EPHB2",
+      "pose_id": "pose009",
+      "exit_code": 0,
+      "output": "/tmp/10protac_finish/prosettac_robust/existing_result_audit/contact_core_v1/poses/EPHB2/pose009",
+      "log": "/tmp/10protac_finish/prosettac_robust/existing_result_audit/contact_core_v1/poses/EPHB2/pose009.log"
+    },
+    {
+      "poi": "EPHB2",
+      "pose_id": "pose010",
+      "exit_code": 0,
+      "output": "/tmp/10protac_finish/prosettac_robust/existing_result_audit/contact_core_v1/poses/EPHB2/pose010",
+      "log": "/tmp/10protac_finish/prosettac_robust/existing_result_audit/contact_core_v1/poses/EPHB2/pose010.log"
+    },
+    {
+      "poi": "EPHB2",
+      "pose_id": "pose011",
+      "exit_code": 0,
+      "output": "/tmp/10protac_finish/prosettac_robust/existing_result_audit/contact_core_v1/poses/EPHB2/pose011",
+      "log": "/tmp/10protac_finish/prosettac_robust/existing_result_audit/contact_core_v1/poses/EPHB2/pose011.log"
+    },
+    {
+      "poi": "EPHB2",
+      "pose_id": "pose013",
+      "exit_code": 0,
+      "output": "/tmp/10protac_finish/prosettac_robust/existing_result_audit/contact_core_v1/poses/EPHB2/pose013",
+      "log": "/tmp/10protac_finish/prosettac_robust/existing_result_audit/contact_core_v1/poses/EPHB2/pose013.log"
+    },
+    {
+      "poi": "EPHB2",
+      "pose_id": "pose014",
+      "exit_code": 0,
+      "output": "/tmp/10protac_finish/prosettac_robust/existing_result_audit/contact_core_v1/poses/EPHB2/pose014",
+      "log": "/tmp/10protac_finish/prosettac_robust/existing_result_audit/contact_core_v1/poses/EPHB2/pose014.log"
+    },
+    {
+      "poi": "EPHB2",
+      "pose_id": "pose015",
+      "exit_code": 0,
+      "output": "/tmp/10protac_finish/prosettac_robust/existing_result_audit/contact_core_v1/poses/EPHB2/pose015",
+      "log": "/tmp/10protac_finish/prosettac_robust/existing_result_audit/contact_core_v1/poses/EPHB2/pose015.log"
+    },
+    {
+      "poi": "EPHB2",
+      "pose_id": "pose016",
+      "exit_code": 0,
+      "output": "/tmp/10protac_finish/prosettac_robust/existing_result_audit/contact_core_v1/poses/EPHB2/pose016",
+      "log": "/tmp/10protac_finish/prosettac_robust/existing_result_audit/contact_core_v1/poses/EPHB2/pose016.log"
+    },
+    {
+      "poi": "EPHB2",
+      "pose_id": "pose017",
+      "exit_code": 0,
+      "output": "/tmp/10protac_finish/prosettac_robust/existing_result_audit/contact_core_v1/poses/EPHB2/pose017",
+      "log": "/tmp/10protac_finish/prosettac_robust/existing_result_audit/contact_core_v1/poses/EPHB2/pose017.log"
+    },
+    {
+      "poi": "EPHB2",
+      "pose_id": "pose018",
+      "exit_code": 0,
+      "output": "/tmp/10protac_finish/prosettac_robust/existing_result_audit/contact_core_v1/poses/EPHB2/pose018",
+      "log": "/tmp/10protac_finish/prosettac_robust/existing_result_audit/contact_core_v1/poses/EPHB2/pose018.log"
+    },
+    {
+      "poi": "EPHB2",
+      "pose_id": "pose019",
+      "exit_code": 0,
+      "output": "/tmp/10protac_finish/prosettac_robust/existing_result_audit/contact_core_v1/poses/EPHB2/pose019",
+      "log": "/tmp/10protac_finish/prosettac_robust/existing_result_audit/contact_core_v1/poses/EPHB2/pose019.log"
+    },
+    {
+      "poi": "EPHB2",
+      "pose_id": "pose020",
+      "exit_code": 0,
+      "output": "/tmp/10protac_finish/prosettac_robust/existing_result_audit/contact_core_v1/poses/EPHB2/pose020",
+      "log": "/tmp/10protac_finish/prosettac_robust/existing_result_audit/contact_core_v1/poses/EPHB2/pose020.log"
+    },
+    {
+      "poi": "ABL1",
+      "pose_id": "pose001",
+      "exit_code": 0,
+      "output": "/tmp/10protac_finish/prosettac_robust/existing_result_audit/contact_core_v1/poses/ABL1/pose001",
+      "log": "/tmp/10protac_finish/prosettac_robust/existing_result_audit/contact_core_v1/poses/ABL1/pose001.log"
+    },
+    {
+      "poi": "ABL1",
+      "pose_id": "pose003",
+      "exit_code": 0,
+      "output": "/tmp/10protac_finish/prosettac_robust/existing_result_audit/contact_core_v1/poses/ABL1/pose003",
+      "log": "/tmp/10protac_finish/prosettac_robust/existing_result_audit/contact_core_v1/poses/ABL1/pose003.log"
+    },
+    {
+      "poi": "ABL1",
+      "pose_id": "pose004",
+      "exit_code": 0,
+      "output": "/tmp/10protac_finish/prosettac_robust/existing_result_audit/contact_core_v1/poses/ABL1/pose004",
+      "log": "/tmp/10protac_finish/prosettac_robust/existing_result_audit/contact_core_v1/poses/ABL1/pose004.log"
+    },
+    {
+      "poi": "ABL1",
+      "pose_id": "pose005",
+      "exit_code": 0,
+      "output": "/tmp/10protac_finish/prosettac_robust/existing_result_audit/contact_core_v1/poses/ABL1/pose005",
+      "log": "/tmp/10protac_finish/prosettac_robust/existing_result_audit/contact_core_v1/poses/ABL1/pose005.log"
+    },
+    {
+      "poi": "ABL1",
+      "pose_id": "pose006",
+      "exit_code": 0,
+      "output": "/tmp/10protac_finish/prosettac_robust/existing_result_audit/contact_core_v1/poses/ABL1/pose006",
+      "log": "/tmp/10protac_finish/prosettac_robust/existing_result_audit/contact_core_v1/poses/ABL1/pose006.log"
+    },
+    {
+      "poi": "ABL1",
+      "pose_id": "pose008",
+      "exit_code": 0,
+      "output": "/tmp/10protac_finish/prosettac_robust/existing_result_audit/contact_core_v1/poses/ABL1/pose008",
+      "log": "/tmp/10protac_finish/prosettac_robust/existing_result_audit/contact_core_v1/poses/ABL1/pose008.log"
+    },
+    {
+      "poi": "ABL1",
+      "pose_id": "pose009",
+      "exit_code": 0,
+      "output": "/tmp/10protac_finish/prosettac_robust/existing_result_audit/contact_core_v1/poses/ABL1/pose009",
+      "log": "/tmp/10protac_finish/prosettac_robust/existing_result_audit/contact_core_v1/poses/ABL1/pose009.log"
+    },
+    {
+      "poi": "ABL1",
+      "pose_id": "pose010",
+      "exit_code": 0,
+      "output": "/tmp/10protac_finish/prosettac_robust/existing_result_audit/contact_core_v1/poses/ABL1/pose010",
+      "log": "/tmp/10protac_finish/prosettac_robust/existing_result_audit/contact_core_v1/poses/ABL1/pose010.log"
+    },
+    {
+      "poi": "ABL1",
+      "pose_id": "pose011",
+      "exit_code": 0,
+      "output": "/tmp/10protac_finish/prosettac_robust/existing_result_audit/contact_core_v1/poses/ABL1/pose011",
+      "log": "/tmp/10protac_finish/prosettac_robust/existing_result_audit/contact_core_v1/poses/ABL1/pose011.log"
+    },
+    {
+      "poi": "ABL1",
+      "pose_id": "pose013",
+      "exit_code": 0,
+      "output": "/tmp/10protac_finish/prosettac_robust/existing_result_audit/contact_core_v1/poses/ABL1/pose013",
+      "log": "/tmp/10protac_finish/prosettac_robust/existing_result_audit/contact_core_v1/poses/ABL1/pose013.log"
+    },
+    {
+      "poi": "ABL1",
+      "pose_id": "pose014",
+      "exit_code": 0,
+      "output": "/tmp/10protac_finish/prosettac_robust/existing_result_audit/contact_core_v1/poses/ABL1/pose014",
+      "log": "/tmp/10protac_finish/prosettac_robust/existing_result_audit/contact_core_v1/poses/ABL1/pose014.log"
+    },
+    {
+      "poi": "ABL1",
+      "pose_id": "pose015",
+      "exit_code": 0,
+      "output": "/tmp/10protac_finish/prosettac_robust/existing_result_audit/contact_core_v1/poses/ABL1/pose015",
+      "log": "/tmp/10protac_finish/prosettac_robust/existing_result_audit/contact_core_v1/poses/ABL1/pose015.log"
+    },
+    {
+      "poi": "ABL1",
+      "pose_id": "pose016",
+      "exit_code": 0,
+      "output": "/tmp/10protac_finish/prosettac_robust/existing_result_audit/contact_core_v1/poses/ABL1/pose016",
+      "log": "/tmp/10protac_finish/prosettac_robust/existing_result_audit/contact_core_v1/poses/ABL1/pose016.log"
+    },
+    {
+      "poi": "ABL1",
+      "pose_id": "pose017",
+      "exit_code": 0,
+      "output": "/tmp/10protac_finish/prosettac_robust/existing_result_audit/contact_core_v1/poses/ABL1/pose017",
+      "log": "/tmp/10protac_finish/prosettac_robust/existing_result_audit/contact_core_v1/poses/ABL1/pose017.log"
+    },
+    {
+      "poi": "ABL1",
+      "pose_id": "pose018",
+      "exit_code": 0,
+      "output": "/tmp/10protac_finish/prosettac_robust/existing_result_audit/contact_core_v1/poses/ABL1/pose018",
+      "log": "/tmp/10protac_finish/prosettac_robust/existing_result_audit/contact_core_v1/poses/ABL1/pose018.log"
+    },
+    {
+      "poi": "ABL1",
+      "pose_id": "pose019",
+      "exit_code": 0,
+      "output": "/tmp/10protac_finish/prosettac_robust/existing_result_audit/contact_core_v1/poses/ABL1/pose019",
+      "log": "/tmp/10protac_finish/prosettac_robust/existing_result_audit/contact_core_v1/poses/ABL1/pose019.log"
+    },
+    {
+      "poi": "ABL1",
+      "pose_id": "pose020",
+      "exit_code": 0,
+      "output": "/tmp/10protac_finish/prosettac_robust/existing_result_audit/contact_core_v1/poses/ABL1/pose020",
+      "log": "/tmp/10protac_finish/prosettac_robust/existing_result_audit/contact_core_v1/poses/ABL1/pose020.log"
+    },
+    {
+      "poi": "AXL",
+      "pose_id": "pose001",
+      "exit_code": 0,
+      "output": "/tmp/10protac_finish/prosettac_robust/existing_result_audit/contact_core_v1/poses/AXL/pose001",
+      "log": "/tmp/10protac_finish/prosettac_robust/existing_result_audit/contact_core_v1/poses/AXL/pose001.log"
+    },
+    {
+      "poi": "AXL",
+      "pose_id": "pose002",
+      "exit_code": 0,
+      "output": "/tmp/10protac_finish/prosettac_robust/existing_result_audit/contact_core_v1/poses/AXL/pose002",
+      "log": "/tmp/10protac_finish/prosettac_robust/existing_result_audit/contact_core_v1/poses/AXL/pose002.log"
+    },
+    {
+      "poi": "AXL",
+      "pose_id": "pose004",
+      "exit_code": 0,
+      "output": "/tmp/10protac_finish/prosettac_robust/existing_result_audit/contact_core_v1/poses/AXL/pose004",
+      "log": "/tmp/10protac_finish/prosettac_robust/existing_result_audit/contact_core_v1/poses/AXL/pose004.log"
+    },
+    {
+      "poi": "AXL",
+      "pose_id": "pose005",
+      "exit_code": 0,
+      "output": "/tmp/10protac_finish/prosettac_robust/existing_result_audit/contact_core_v1/poses/AXL/pose005",
+      "log": "/tmp/10protac_finish/prosettac_robust/existing_result_audit/contact_core_v1/poses/AXL/pose005.log"
+    },
+    {
+      "poi": "AXL",
+      "pose_id": "pose006",
+      "exit_code": 0,
+      "output": "/tmp/10protac_finish/prosettac_robust/existing_result_audit/contact_core_v1/poses/AXL/pose006",
+      "log": "/tmp/10protac_finish/prosettac_robust/existing_result_audit/contact_core_v1/poses/AXL/pose006.log"
+    },
+    {
+      "poi": "AXL",
+      "pose_id": "pose007",
+      "exit_code": 0,
+      "output": "/tmp/10protac_finish/prosettac_robust/existing_result_audit/contact_core_v1/poses/AXL/pose007",
+      "log": "/tmp/10protac_finish/prosettac_robust/existing_result_audit/contact_core_v1/poses/AXL/pose007.log"
+    },
+    {
+      "poi": "AXL",
+      "pose_id": "pose008",
+      "exit_code": 0,
+      "output": "/tmp/10protac_finish/prosettac_robust/existing_result_audit/contact_core_v1/poses/AXL/pose008",
+      "log": "/tmp/10protac_finish/prosettac_robust/existing_result_audit/contact_core_v1/poses/AXL/pose008.log"
+    },
+    {
+      "poi": "AXL",
+      "pose_id": "pose009",
+      "exit_code": 0,
+      "output": "/tmp/10protac_finish/prosettac_robust/existing_result_audit/contact_core_v1/poses/AXL/pose009",
+      "log": "/tmp/10protac_finish/prosettac_robust/existing_result_audit/contact_core_v1/poses/AXL/pose009.log"
+    },
+    {
+      "poi": "AXL",
+      "pose_id": "pose010",
+      "exit_code": 0,
+      "output": "/tmp/10protac_finish/prosettac_robust/existing_result_audit/contact_core_v1/poses/AXL/pose010",
+      "log": "/tmp/10protac_finish/prosettac_robust/existing_result_audit/contact_core_v1/poses/AXL/pose010.log"
+    },
+    {
+      "poi": "AXL",
+      "pose_id": "pose011",
+      "exit_code": 0,
+      "output": "/tmp/10protac_finish/prosettac_robust/existing_result_audit/contact_core_v1/poses/AXL/pose011",
+      "log": "/tmp/10protac_finish/prosettac_robust/existing_result_audit/contact_core_v1/poses/AXL/pose011.log"
+    },
+    {
+      "poi": "AXL",
+      "pose_id": "pose012",
+      "exit_code": 0,
+      "output": "/tmp/10protac_finish/prosettac_robust/existing_result_audit/contact_core_v1/poses/AXL/pose012",
+      "log": "/tmp/10protac_finish/prosettac_robust/existing_result_audit/contact_core_v1/poses/AXL/pose012.log"
+    },
+    {
+      "poi": "AXL",
+      "pose_id": "pose013",
+      "exit_code": 0,
+      "output": "/tmp/10protac_finish/prosettac_robust/existing_result_audit/contact_core_v1/poses/AXL/pose013",
+      "log": "/tmp/10protac_finish/prosettac_robust/existing_result_audit/contact_core_v1/poses/AXL/pose013.log"
+    },
+    {
+      "poi": "AXL",
+      "pose_id": "pose015",
+      "exit_code": 0,
+      "output": "/tmp/10protac_finish/prosettac_robust/existing_result_audit/contact_core_v1/poses/AXL/pose015",
+      "log": "/tmp/10protac_finish/prosettac_robust/existing_result_audit/contact_core_v1/poses/AXL/pose015.log"
+    },
+    {
+      "poi": "AXL",
+      "pose_id": "pose016",
+      "exit_code": 0,
+      "output": "/tmp/10protac_finish/prosettac_robust/existing_result_audit/contact_core_v1/poses/AXL/pose016",
+      "log": "/tmp/10protac_finish/prosettac_robust/existing_result_audit/contact_core_v1/poses/AXL/pose016.log"
+    },
+    {
+      "poi": "AXL",
+      "pose_id": "pose017",
+      "exit_code": 0,
+      "output": "/tmp/10protac_finish/prosettac_robust/existing_result_audit/contact_core_v1/poses/AXL/pose017",
+      "log": "/tmp/10protac_finish/prosettac_robust/existing_result_audit/contact_core_v1/poses/AXL/pose017.log"
+    },
+    {
+      "poi": "AXL",
+      "pose_id": "pose018",
+      "exit_code": 0,
+      "output": "/tmp/10protac_finish/prosettac_robust/existing_result_audit/contact_core_v1/poses/AXL/pose018",
+      "log": "/tmp/10protac_finish/prosettac_robust/existing_result_audit/contact_core_v1/poses/AXL/pose018.log"
+    },
+    {
+      "poi": "AXL",
+      "pose_id": "pose019",
+      "exit_code": 0,
+      "output": "/tmp/10protac_finish/prosettac_robust/existing_result_audit/contact_core_v1/poses/AXL/pose019",
+      "log": "/tmp/10protac_finish/prosettac_robust/existing_result_audit/contact_core_v1/poses/AXL/pose019.log"
+    },
+    {
+      "poi": "AXL",
+      "pose_id": "pose020",
+      "exit_code": 0,
+      "output": "/tmp/10protac_finish/prosettac_robust/existing_result_audit/contact_core_v1/poses/AXL/pose020",
+      "log": "/tmp/10protac_finish/prosettac_robust/existing_result_audit/contact_core_v1/poses/AXL/pose020.log"
+    },
+    {
+      "poi": "EPHA2",
+      "pose_id": "pose001",
+      "exit_code": 0,
+      "output": "/tmp/10protac_finish/prosettac_robust/existing_result_audit/contact_core_v1/poses/EPHA2/pose001",
+      "log": "/tmp/10protac_finish/prosettac_robust/existing_result_audit/contact_core_v1/poses/EPHA2/pose001.log"
+    },
+    {
+      "poi": "EPHA2",
+      "pose_id": "pose002",
+      "exit_code": 0,
+      "output": "/tmp/10protac_finish/prosettac_robust/existing_result_audit/contact_core_v1/poses/EPHA2/pose002",
+      "log": "/tmp/10protac_finish/prosettac_robust/existing_result_audit/contact_core_v1/poses/EPHA2/pose002.log"
+    },
+    {
+      "poi": "EPHA2",
+      "pose_id": "pose003",
+      "exit_code": 0,
+      "output": "/tmp/10protac_finish/prosettac_robust/existing_result_audit/contact_core_v1/poses/EPHA2/pose003",
+      "log": "/tmp/10protac_finish/prosettac_robust/existing_result_audit/contact_core_v1/poses/EPHA2/pose003.log"
+    },
+    {
+      "poi": "EPHA2",
+      "pose_id": "pose004",
+      "exit_code": 0,
+      "output": "/tmp/10protac_finish/prosettac_robust/existing_result_audit/contact_core_v1/poses/EPHA2/pose004",
+      "log": "/tmp/10protac_finish/prosettac_robust/existing_result_audit/contact_core_v1/poses/EPHA2/pose004.log"
+    },
+    {
+      "poi": "EPHA2",
+      "pose_id": "pose005",
+      "exit_code": 0,
+      "output": "/tmp/10protac_finish/prosettac_robust/existing_result_audit/contact_core_v1/poses/EPHA2/pose005",
+      "log": "/tmp/10protac_finish/prosettac_robust/existing_result_audit/contact_core_v1/poses/EPHA2/pose005.log"
+    },
+    {
+      "poi": "EPHA2",
+      "pose_id": "pose006",
+      "exit_code": 0,
+      "output": "/tmp/10protac_finish/prosettac_robust/existing_result_audit/contact_core_v1/poses/EPHA2/pose006",
+      "log": "/tmp/10protac_finish/prosettac_robust/existing_result_audit/contact_core_v1/poses/EPHA2/pose006.log"
+    },
+    {
+      "poi": "EPHA2",
+      "pose_id": "pose007",
+      "exit_code": 0,
+      "output": "/tmp/10protac_finish/prosettac_robust/existing_result_audit/contact_core_v1/poses/EPHA2/pose007",
+      "log": "/tmp/10protac_finish/prosettac_robust/existing_result_audit/contact_core_v1/poses/EPHA2/pose007.log"
+    },
+    {
+      "poi": "EPHA2",
+      "pose_id": "pose008",
+      "exit_code": 0,
+      "output": "/tmp/10protac_finish/prosettac_robust/existing_result_audit/contact_core_v1/poses/EPHA2/pose008",
+      "log": "/tmp/10protac_finish/prosettac_robust/existing_result_audit/contact_core_v1/poses/EPHA2/pose008.log"
+    },
+    {
+      "poi": "EPHA2",
+      "pose_id": "pose009",
+      "exit_code": 0,
+      "output": "/tmp/10protac_finish/prosettac_robust/existing_result_audit/contact_core_v1/poses/EPHA2/pose009",
+      "log": "/tmp/10protac_finish/prosettac_robust/existing_result_audit/contact_core_v1/poses/EPHA2/pose009.log"
+    },
+    {
+      "poi": "EPHA2",
+      "pose_id": "pose010",
+      "exit_code": 0,
+      "output": "/tmp/10protac_finish/prosettac_robust/existing_result_audit/contact_core_v1/poses/EPHA2/pose010",
+      "log": "/tmp/10protac_finish/prosettac_robust/existing_result_audit/contact_core_v1/poses/EPHA2/pose010.log"
+    },
+    {
+      "poi": "EPHA2",
+      "pose_id": "pose011",
+      "exit_code": 0,
+      "output": "/tmp/10protac_finish/prosettac_robust/existing_result_audit/contact_core_v1/poses/EPHA2/pose011",
+      "log": "/tmp/10protac_finish/prosettac_robust/existing_result_audit/contact_core_v1/poses/EPHA2/pose011.log"
+    },
+    {
+      "poi": "EPHA2",
+      "pose_id": "pose012",
+      "exit_code": 0,
+      "output": "/tmp/10protac_finish/prosettac_robust/existing_result_audit/contact_core_v1/poses/EPHA2/pose012",
+      "log": "/tmp/10protac_finish/prosettac_robust/existing_result_audit/contact_core_v1/poses/EPHA2/pose012.log"
+    },
+    {
+      "poi": "EPHA2",
+      "pose_id": "pose013",
+      "exit_code": 0,
+      "output": "/tmp/10protac_finish/prosettac_robust/existing_result_audit/contact_core_v1/poses/EPHA2/pose013",
+      "log": "/tmp/10protac_finish/prosettac_robust/existing_result_audit/contact_core_v1/poses/EPHA2/pose013.log"
+    },
+    {
+      "poi": "EPHA2",
+      "pose_id": "pose015",
+      "exit_code": 0,
+      "output": "/tmp/10protac_finish/prosettac_robust/existing_result_audit/contact_core_v1/poses/EPHA2/pose015",
+      "log": "/tmp/10protac_finish/prosettac_robust/existing_result_audit/contact_core_v1/poses/EPHA2/pose015.log"
+    },
+    {
+      "poi": "EPHA2",
+      "pose_id": "pose017",
+      "exit_code": 0,
+      "output": "/tmp/10protac_finish/prosettac_robust/existing_result_audit/contact_core_v1/poses/EPHA2/pose017",
+      "log": "/tmp/10protac_finish/prosettac_robust/existing_result_audit/contact_core_v1/poses/EPHA2/pose017.log"
+    },
+    {
+      "poi": "EPHA2",
+      "pose_id": "pose018",
+      "exit_code": 0,
+      "output": "/tmp/10protac_finish/prosettac_robust/existing_result_audit/contact_core_v1/poses/EPHA2/pose018",
+      "log": "/tmp/10protac_finish/prosettac_robust/existing_result_audit/contact_core_v1/poses/EPHA2/pose018.log"
+    },
+    {
+      "poi": "EPHA2",
+      "pose_id": "pose019",
+      "exit_code": 0,
+      "output": "/tmp/10protac_finish/prosettac_robust/existing_result_audit/contact_core_v1/poses/EPHA2/pose019",
+      "log": "/tmp/10protac_finish/prosettac_robust/existing_result_audit/contact_core_v1/poses/EPHA2/pose019.log"
+    },
+    {
+      "poi": "EPHA2",
+      "pose_id": "pose020",
+      "exit_code": 0,
+      "output": "/tmp/10protac_finish/prosettac_robust/existing_result_audit/contact_core_v1/poses/EPHA2/pose020",
+      "log": "/tmp/10protac_finish/prosettac_robust/existing_result_audit/contact_core_v1/poses/EPHA2/pose020.log"
+    }
+  ],
+  "source_manifest_sha256": "9495dd583d94036b0cbc9cea34ac7689190b88e7223f455607674c9a3c904474",
+  "plan_sha256": "76acf82bc9dd3ed44ea1480fa51bcac09d650ea8550f58b8546f216f5544c2f5",
+  "original_files_modified": false,
+  "new_MD_or_docking_executed": false
+}

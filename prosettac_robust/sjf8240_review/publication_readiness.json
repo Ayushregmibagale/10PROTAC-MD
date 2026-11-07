@@ -12,13 +12,6 @@
     "Resolving experimental labels using docking/MD predictions",
     "Calling a finite failed linker search a biological nondegrader"
   ],
-  "required_before_scientific_release": [
-    "Select/freeze the assay endpoint and resolve the 17 historical labels against experimental sources",
-    "Generate or revalidate corrected SJF8240 ternary candidates with recorded sampling coverage",
-    "Rebuild systems with verified SJF8240 parameters; run independent production MD and assess convergence",
-    "Regenerate source-bound periodic graph features and E2 descriptors, then rerun frozen-cohort evaluation",
-    "Document uncertainty, selection/missingness, independent experimental validation, and actual storage/Ernie allocation"
-  ],
   "computational_campaign_submitted": false,
   "current_preparation_comparison_coverage": {
     "historical_targets": 17,
@@ -30,5 +23,44 @@
     "status": "COMPLETE_NO_VALID_POSES",
     "local_poses": 250,
     "MD_handoff_validated": false
+  },
+  "prior_corrected_chemistry_campaign_requirements": [
+    "Select/freeze the assay endpoint and resolve the 17 historical labels against experimental sources",
+    "Generate or revalidate corrected SJF8240 ternary candidates with recorded sampling coverage",
+    "Rebuild systems with verified SJF8240 parameters; run independent production MD and assess convergence",
+    "Regenerate source-bound periodic graph features and E2 descriptors, then rerun frozen-cohort evaluation",
+    "Document uncertainty, selection/missingness, independent experimental validation, and actual storage/Ernie allocation"
+  ],
+  "current_user_scope": "Preserve/reuse the existing SJF8240 structures and completed results; robust scripts and scientific-rationale audits. Helpful bounded diagnostics allowed; no wholesale rerun authorized.",
+  "required_before_existing_result_publication": [
+    "Describe and resolve the actual simulated chemical identity without silently treating the historical graph as verified supplier SJF8240",
+    "Correct protein-role and contact-definition descriptions; distinguish legacy Elongin-B descriptors from true-VHL measurements",
+    "Freeze assay-specific labels/endpoints independently of predictions and account for missing/conflicting evidence",
+    "Preserve original model outputs and make any corrected-feature evaluation a separately versioned analysis",
+    "Document trajectory completion, selection bias, window/sampling/threshold sensitivity, correlation and uncertainty; do not call geometric proxy scores degradation probabilities"
+  ],
+  "prior_campaign_requirements_are_execution_authorization": false,
+  "existing_trajectory_analysis": {
+    "core_cases": 141,
+    "role_label_mismatches": 141,
+    "contact_cases_recomputed": 141,
+    "new_MD_executed_for_this_reanalysis": false,
+    "all_stored_distance_checks_passed": true,
+    "source": "../existing_result_audit/contact_core_v1/aggregate_summary.json"
+  },
+  "software_validation": {
+    "analysis_python313": {
+      "passed": 122,
+      "skipped": 0,
+      "log": "validation_controls/regression/analysis_20261107_checkpoint.txt",
+      "log_sha256": "63eae18bb985149033d0fb99cb261c43efc43bd24114bd9ad6d11b3f944d133e"
+    },
+    "docking_python310": {
+      "passed": 119,
+      "skipped": 3,
+      "skip_reason": "Three GNN replay tests require PyG, available in the analysis environment only",
+      "log": "validation_controls/regression/docking_20261107_checkpoint.txt",
+      "log_sha256": "bff5646d42214a4605c6cf03e32e7c9cc265307e29da5947cbf434f360df63f8"
+    }
   }
 }

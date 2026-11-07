@@ -1,0 +1,26 @@
+{
+  "status": "COMPLETE_RETROSPECTIVE_ROLE_AUDIT_CORRECTION_REQUIRED",
+  "poses": 141,
+  "legacy_VHL_group_is_true_VHL": 0,
+  "legacy_VHL_group_identified_UID_counts": {
+    "Q15370": 141
+  },
+  "correct_VHL_molecule_counts": {
+    "Protein_chain_C": 141
+  },
+  "POI_group_matches_expected": 141,
+  "minimum_true_VHL_sequence_identity": 1.0,
+  "minimum_true_VHL_observed_sequence_coverage": 1.0,
+  "part_summary_sha256": {
+    "protein_role_v1": "d8ce8e53b42313e297bd1e008cd84d9c5080aa16eef0a0678f8adc51cb400aee",
+    "protein_role_v2_alias_completion": "9a16040010eef9a9f7c8d3cc6c22c7179377d0f232d75f32b22753ce743d5470"
+  },
+  "part_records_sha256": {
+    "protein_role_v1": "e370c7e03089dd5c56d32673a8752f2037c7bcc4acba788b7b9f718e9e23877a",
+    "protein_role_v2_alias_completion": "c1243cfd4f9ec4da2a95e23e8043e3a89c11ef9fd6923536c27c789db16a936b"
+  },
+  "combined_records_sha256": "58424dcef7fab12723789c597fc6e947a5b15ea236843fdeeb7dd5fb262f51b8",
+  "original_results_modified": false,
+  "new_MD_executed": false,
+  "interpretation": "All 141 historical groups labelled VHL select Elongin B/Q15370; sequence-identified VHL/P40337 is Protein_chain_C. Correct analyses can reuse the existing trajectories. Original outputs and model results must remain preserved and distinguished from any corrected analysis."
+}

@@ -1118,3 +1118,153 @@ def test_attempt_refuses_incomplete_source_snapshot_before_starting_worker(tmp_p
     with pytest.raises(ValidationError,match='source manifest required'):
         recorder.record(tmp_path,[sys.executable,'-c',"from pathlib import Path; Path('worker_started').touch()"],10)
     assert not marker.exists() and not (tmp_path/'attempt.json').exists()
+
+
+@pytest.mark.parametrize('translation',[[0.,0.,0.],[1234.,-987.,456.]])
+def test_default_linker_preserves_real_sjf_bound_heads_and_coordinate_frame(translation):
+    linker=load('default_sjf_bound_head_regression','baseline_engine/constrained_linker.py')
+    from rdkit import Chem
+    fixture=ROOT/'tests/fixtures/sjf8240_bound_heads'
+    full=Chem.MolFromSmiles((fixture/'full.smi').read_text().split()[0])
+    heads=[Chem.SDMolSupplier(str(fixture/name),removeHs=True)[0] for name in ['vhl_head_H.sdf','poi_head_H.sdf']]
+    xyz=np.asarray(json.loads((fixture/'head_coordinates.json').read_text())['10_1']['coordinates_A'])
+    targets=[xyz[:30]+translation,xyz[30:]+translation]
+    mol,report=linker.constrained_linker(full,heads,targets,155921,attempts=3)
+    assert mol is not None and report['embedding_method']=='CENTERED_TORSION_DG_FIXED_HEADS_UFF'
+    assert linker.stereo_key(mol)==Chem.MolToInchiKey(full)
+    for indices,expected in zip(linker.match_heads(full,heads)[0],targets):
+        assert np.max(np.linalg.norm(mol.GetConformer().GetPositions()[list(indices)]-expected,axis=1))<1e-5
+
+
+def test_md_graph_producer_has_no_implicit_original_paths_or_biological_labels():
+    graph=load('no_legacy_md_graph_defaults','scripts/04_gnn/02_md_contact_graphs.py')
+    assert graph.POI_CONFIG=={} and graph.RANDOM_SCREEN is None
+    with pytest.raises(ValidationError,match='Explicit rebuilt screen directory'):
+        graph.build_poi_md_graph('MET',[],1,{'kin_min':0,'degrader':None})
+
+
+def test_gromacs_energy_columns_follow_legends_instead_of_selection_order():
+    energy=load('gmx_named_energy','scripts/lib/gromacs_energy.py')
+    text='@ s0 legend "Potential"\n@ s1 legend "Temperature"\n0 -1000 299\n2 -990 301\n'
+    time,columns=energy.named_energy_series(text,['Temperature','Potential'])
+    assert np.array_equal(columns['Temperature'],[299,301])
+    assert np.array_equal(columns['Potential'],[-1000,-990])
+    assert np.array_equal(time,[0,2])
+
+
+def test_gromacs_energy_refuses_unlabelled_or_nonphysical_temperature_columns():
+    energy=load('gmx_energy_guard','scripts/lib/gromacs_energy.py')
+    with pytest.raises(ValidationError,match='explicit indexed legend'):
+        energy.named_energy_series('0 -1000 299\n2 -990 301\n',['Temperature'])
+    with pytest.raises(ValidationError,match='Nonpositive Temperature'):
+        energy.named_energy_series('@ s0 legend "Temperature"\n0 -1000\n2 -990\n',['Temperature'])
+
+
+def test_existing_bridge_audit_uses_joint_frames_and_strict_historical_cutoff():
+    audit=load('legacy_bridge_joint','scripts/02_analysis/07_audit_existing_bridge_metrics.py')
+    time=np.array([0.,1.]);vhl=np.array([4.,6.]);poi=np.array([6.,4.])
+    row=audit.joint_statistics(time,vhl,time,poi,5.)
+    assert row['same_frame_bridge_fraction']==0. and row['product_of_marginals']==0.25
+    boundary=audit.joint_statistics(time,np.array([5.,4.]),time,np.array([4.,4.]),5.)
+    assert boundary['same_frame_bridge_fraction']==0.5 and boundary['exact_threshold_vhl_frames']==1
+
+
+def test_existing_bridge_audit_refuses_timestamp_misalignment_or_truncation():
+    audit=load('legacy_bridge_time_guard','scripts/02_analysis/07_audit_existing_bridge_metrics.py')
+    with pytest.raises(ValidationError,match='timestamps'):
+        audit.joint_statistics([0.,1.],[4.,4.],[0.,2.],[4.,4.],5.)
+    with pytest.raises(ValidationError,match='never truncate'):
+        audit.joint_statistics([0.,1.],[4.,4.],[0.],[4.],5.)
+
+
+def test_existing_bridge_distance_reader_requires_explicit_units(tmp_path):
+    audit=load('legacy_bridge_units','scripts/02_analysis/07_audit_existing_bridge_metrics.py')
+    path=tmp_path/'distance.xvg'
+    path.write_text('@ xaxis label "Time (ns)"\n@ yaxis label "Distance (nm)"\n@ s0 legend "Other-VHL"\n0 0.4\n1 0.5\n')
+    _,distance=audit.distance_series(path,'Other-VHL');assert np.array_equal(distance,[4.,5.])
+    path.write_text(path.read_text().replace('Distance (nm)','Distance (A)'))
+    with pytest.raises(ValidationError,match='Explicit ns/nm'):
+        audit.distance_series(path,'Other-VHL')
+
+
+def test_existing_bridge_duplicate_repair_requires_explicit_identical_samples(tmp_path):
+    audit=load('legacy_exact_duplicate_policy','scripts/02_analysis/07_audit_existing_bridge_metrics.py')
+    path=tmp_path/'distance.xvg'
+    header='@ xaxis label "Time (ns)"\n@ yaxis label "Distance (nm)"\n@ s0 legend "Other-VHL"\n'
+    path.write_text(header+'0 0.4\n1 0.5\n1 0.5\n2 0.6\n')
+    with pytest.raises(ValidationError,match='time is not increasing'):
+        audit.distance_series(path,'Other-VHL')
+    time,distance=audit.distance_series(path,'Other-VHL',allow_identical_duplicates=True)
+    assert np.array_equal(time,[0,1,2]) and np.array_equal(distance,[4,5,6])
+    path.write_text(header+'0 0.4\n1 0.5\n1 0.7\n2 0.6\n')
+    with pytest.raises(ValidationError,match='Conflicting duplicate'):
+        audit.distance_series(path,'Other-VHL',allow_identical_duplicates=True)
+
+
+@pytest.mark.parametrize('refresh_offsets',[False,True])
+def test_readonly_trajectory_reader_never_writes_offset_or_lock_sidecars(tmp_path,refresh_offsets):
+    mda=pytest.importorskip('MDAnalysis')
+    module=load('read_only_xtc','scripts/lib/read_only_trajectory.py')
+    universe=mda.Universe.empty(2,trajectory=True);path=tmp_path/'existing.xtc'
+    with mda.Writer(str(path),n_atoms=2) as writer:
+        for frame in range(2):
+            universe.atoms.positions=np.array([[frame,0.,0.],[frame+1.,0.,0.]],dtype=np.float32)
+            universe.trajectory.ts.time=float(frame);universe.dimensions=[10.,10.,10.,90.,90.,90.];writer.write(universe.atoms)
+    before={p.name for p in tmp_path.iterdir()};digest=sha256(path)
+    with module.ReadOnlyXTCReader(str(path),refresh_offsets=refresh_offsets) as reader:
+        assert len(reader)==2 and reader[1].time==1.
+    assert {p.name for p in tmp_path.iterdir()}==before and sha256(path)==digest
+
+
+def test_gnn_fold_checkpoint_replays_score_without_retraining(tmp_path):
+    from types import SimpleNamespace
+    module=load('fold_model_replay','scripts/04_gnn/01_sjf8240_e2_lopo.py')
+    if not module.HAS_DEPS:pytest.skip('Requires the analysis GNN environment; docking environment has no PyG')
+    import torch,pandas as pd
+    from torch_geometric.data import Data
+    torch.manual_seed(7919);torch.set_num_threads(1)
+    args=SimpleNamespace(hidden=8,heads=2,dropout=0.)
+    model=module.E2DualEncoderGNN(hidden=8,heads=2,dropout=0.).eval()
+    graph=Data(x=torch.ones((3,9)),edge_index=torch.tensor([[0,1,1,2],[1,0,2,1]],dtype=torch.long),edge_attr=torch.ones((4,3)))
+    table=pd.DataFrame([[1.,2.,3.,4.],[2.,3.,4.,5.]],index=['TRAIN_A','TRAIN_B'],columns=module.E2_COLS)
+    e2=torch.zeros((1,4));score=module.predict(model,graph,None,e2,'cpu');path=tmp_path/'fold.pt'
+    artifact=module.save_fold_checkpoint(path,model,'HELD_OUT',['TRAIN_A','TRAIN_B'],7919,table,e2,args,score)
+    assert artifact['sha256']==sha256(path)
+    saved=torch.load(path,map_location='cpu',weights_only=True)
+    restored=module.E2DualEncoderGNN(**saved['architecture']);restored.load_state_dict(saved['model_state_dict'])
+    assert module.predict(restored,graph,None,saved['held_out_normalized_scalars'],'cpu')==score
+    assert saved['held_out_score']==score and saved['held_out_poi'] not in saved['training_pois']
+    assert torch.equal(saved['scalar_reference_values'],torch.tensor(table.to_numpy(),dtype=torch.float64))
+    with pytest.raises(ValidationError,match='already exists'):
+        module.save_fold_checkpoint(path,model,'HELD_OUT',['TRAIN_A'],7919,table,e2,args,score)
+
+
+def test_gnn_fold_checkpoint_rejects_held_out_target_in_training_metadata(tmp_path):
+    from types import SimpleNamespace
+    module=load('fold_checkpoint_leak_guard','scripts/04_gnn/01_sjf8240_e2_lopo.py')
+    if not module.HAS_DEPS:pytest.skip('Requires the analysis GNN environment; docking environment has no PyG')
+    import torch,pandas as pd
+    args=SimpleNamespace(hidden=8,heads=2,dropout=0.)
+    model=module.E2DualEncoderGNN(hidden=8,heads=2,dropout=0.)
+    table=pd.DataFrame([[1.,2.,3.,4.]],index=['HELD_OUT'],columns=module.E2_COLS)
+    with pytest.raises(ValidationError,match='leaked'):
+        module.save_fold_checkpoint(tmp_path/'fold.pt',model,'HELD_OUT',['HELD_OUT'],1,table,torch.zeros((1,4)),args,.5)
+    assert not (tmp_path/'fold.pt').exists()
+
+
+def test_tiny_synthetic_lopo_retains_full_precision_scores_and_each_fold_model(tmp_path):
+    from types import SimpleNamespace
+    module=load('synthetic_fold_export','scripts/04_gnn/01_sjf8240_e2_lopo.py')
+    if not module.HAS_DEPS:pytest.skip('Requires the analysis GNN environment; docking environment has no PyG')
+    import torch,pandas as pd
+    from torch_geometric.data import Data
+    args=SimpleNamespace(seed=17,epochs=1,hidden=8,heads=2,dropout=0.,lr=.001,verbose=False,output=tmp_path)
+    graphs=[Data(x=torch.ones((3,9)),edge_index=torch.tensor([[0,1,1,2],[1,0,2,1]],dtype=torch.long),edge_attr=torch.ones((4,3)),y=torch.tensor([i%2]),poi='SYNTHETIC_'+str(i)) for i in range(4)]
+    table=pd.DataFrame([[i,i+1,i+2,i+3] for i in range(4)],index=[g.poi for g in graphs],columns=module.E2_COLS)
+    predictions,_=module.run_lopo(graphs,{},table,args)
+    assert len(predictions)==4 and len(list((tmp_path/'fold_checkpoints').glob('*.pt')))==4
+    for row in predictions.to_dict('records'):
+        path=tmp_path/row['fold_checkpoint'];assert sha256(path)==row['fold_checkpoint_sha256']
+        saved=torch.load(path,map_location='cpu',weights_only=True)
+        assert saved['held_out_score']==row['prob_degrader'] and saved['held_out_poi']==row['poi']
+        assert row['poi'] not in saved['training_pois']

@@ -1,0 +1,18 @@
+{
+  "status": "UNTRAINED_ENCODER_INTEGRATION_PASSED",
+  "input_label": -1,
+  "nodes": 497,
+  "directed_edges": 2052,
+  "embedding_shape": [
+    1,
+    128
+  ],
+  "finite_embedding": true,
+  "seed": 7919,
+  "packet_sha256": "bcf014c9ee1f6756e06cd5bacb995696c9b2c7edd1815c3d1f2e2d9df8a03456",
+  "encoder_source_sha256": "0bc6e6f73a183026a7164bbe44518c1f65b31410e1c1d072a2d4c01d30131a61",
+  "torch_version": "2.12.0+cu126",
+  "training_performed": false,
+  "biological_prediction_made": false,
+  "automatic_training_release": false
+}

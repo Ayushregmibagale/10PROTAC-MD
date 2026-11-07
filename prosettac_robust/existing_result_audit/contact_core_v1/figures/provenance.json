@@ -1,0 +1,13 @@
+{
+  "status": "DESCRIPTIVE_REVIEW_FIGURE",
+  "input_sha256": "7b8414e34d6896788623c6022af7aa8fcd6710f0531512b24270e4ab6b4e43e3",
+  "aggregate_summary_sha256": "7100ce8e936aad3c884bac7b8e79f2d934cbf2968173160a072ffe014b4c1305",
+  "source_sha256": "c858323d48eb5e9f329c5a30529bd4051296cbfe0751d4691c0e1c9b6c6dd62c",
+  "outputs_sha256": {
+    "contact_definition_sensitivity.svg": "b1b6939a291cabb1813049d58f644b57ef4a82b266e4ba9cc3e54912c3d50079",
+    "contact_definition_sensitivity.png": "59156231844dda75c0d90ea336b8f26e6eab6936ef9539e4993e3501d0ee6390",
+    "contact_definition_sensitivity.pdf": "3ead73badb2a3d9aea2931ca45d63ff7dbe2349940eecf54b0b82784626ec71c"
+  },
+  "original_results_modified": false,
+  "new_MD_executed": false
+}

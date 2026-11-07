@@ -5,3 +5,10 @@ workflow/ligand_params/**/*.pkl binary
 # Experimental frozen source copies retain inherited upstream whitespace.
 linker_method_review/candidate_workflow/** -text whitespace=-blank-at-eol,-blank-at-eof,-space-before-tab
 linker_method_review/candidate_torsion_workflow/** -text whitespace=-blank-at-eol,-blank-at-eof,-space-before-tab
+
+# Preserve hash-bound audit tables; csv.DictWriter emitted standard CRLF.
+existing_result_audit/** -text
+existing_result_audit/**/*.tsv whitespace=cr-at-eol
+
+# Matplotlib-generated, hash-bound SVG paths retain their original spacing.
+existing_result_audit/**/figures/*.svg -text whitespace=-blank-at-eol

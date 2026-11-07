@@ -1,0 +1,14 @@
+........................................................................ [ 59%]
+..................................................                       [100%]
+=============================== warnings summary ===============================
+tests/test_preflight.py::test_md_graph_builder_uses_observed_joint_contacts_and_aligned_nodes
+tests/test_preflight.py::test_md_graph_builder_uses_observed_joint_contacts_and_aligned_nodes
+  /home/ayushregmibagale/miniconda3/lib/python3.13/site-packages/torch/jit/_script.py:1488: DeprecationWarning: `torch.jit.script` is deprecated. Please switch to `torch.compile` or `torch.export`.
+    warnings.warn(
+
+tests/test_preflight.py: 564 warnings
+  /home/ayushregmibagale/miniconda3/lib/python3.13/site-packages/torch_geometric/inspector.py:433: DeprecationWarning: Failing to pass a value to the 'type_params' parameter of 'typing._eval_type' is deprecated, as it leads to incorrect behaviour when calling typing._eval_type on a stringified annotation that references a PEP 695 type parameter. It will be disallowed in Python 3.15.
+    return typing._eval_type(value, _globals, None)  # type: ignore
+
+-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html
+122 passed, 566 warnings in 10.11s

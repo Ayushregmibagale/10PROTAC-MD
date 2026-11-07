@@ -1,35 +1,21 @@
 #!/usr/bin/env python3
-"""
-Tier2b MD branch: Build MD-derived contact frequency graphs.
+"""Build periodic contact graphs from explicitly selected rebuilt SJF8240 MD.
 
-For each POI, aggregates all ANALYSIS_DONE random-screen production trajectories
-(20 ns each, ~2000 frames) into a per-POI contact frequency graph:
+Nodes are mapped VHL and POI Cα atoms, with features [is_vhl, is_poi,
+within-role normalized residue position]. A residue contact is a ligand-heavy
+atom within 5 Å of that Cα: this is a Cα proximity proxy, not an all-heavy-atom
+residue contact definition. VHL–POI edges require simultaneous ligand proximity
+in the same sampled frame. Three edge features are observed joint frequency,
+mean ligand-to-VHL-Cα distance (nm), mean ligand-to-POI-Cα distance (nm).
+Per-pose statistics receive equal weight when aggregating a target.
 
-  - Nodes  = VHL residues (Cα) + kinase residues (Cα)  [no separate PROTAC nodes]
-  - Edges  = PROTAC-to-residue contact frequency (min distance < CONTACT_THRESH)
-  - Edge weight = fraction of trajectory frames where any PROTAC heavy atom
-                  is within CONTACT_THRESH Å of the residue's heavy atoms
-  - Graph label  = 1 (degrader) / 0 (non-degrader)
-
-This is the DYNAMIC complement to the pRosettaC ensemble graph (04a):
-  pRosettaC: can the geometry be achieved? (static)
-  MD:        is it thermodynamically stable when achieved? (dynamic)
-
-Outputs:
-  analysis/gnn/md_contact_graphs.pt       — list of PyTorch Geometric Data objects
-  analysis/gnn/md_contact_graphs_np.npz   — numpy fallback
-  analysis/gnn/md_graph_metadata.tsv      — per-POI graph stats
-  analysis/gnn/md_contact_per_pose.tsv    — per-pose VHL/kinase contact frequencies
-
-Node features (6 dims): [is_vhl, is_kin, seq_pos_norm, aa_onehot_C, aa_onehot_N, mean_b_factor]
-Edge features (3 dims): [contact_freq, mean_dist_nm, std_dist_nm]
-
-Note: PROTAC resname in GROMACS is 'UNL' (acpype default).
-VHL/kinase ranges detected from complex_protein.gro residue number jumps.
-
-Usage:
-  python3 scripts/02_analysis/04c_build_md_contact_graphs.py
-  python3 scripts/02_analysis/04c_build_md_contact_graphs.py --poi DDR2 ABL1 --stride 5
+Require executed atom mapping, completed production receipts, verified compiled
+SJF8240 connectivity and triclinic periodic distances. Source directories,
+manifest, output and label provenance are explicit CLI inputs; -1 means unknown.
+Outputs are typed graph packets and hash-bound metadata requiring review.
+Finite contact occupancies do not establish equilibrium stability, free energy,
+degradation or calibrated biological probabilities. Short diagnostic trajectories
+must remain separate from a scientific training/evaluation release.
 """
 import argparse
 import json
@@ -61,111 +47,14 @@ except ImportError:
 
 VERIFIED_SMILES=json.loads((Path(__file__).resolve().parents[2]/'config/molecules.json').read_text())['compounds']['SJF8240']['smiles']
 
-RANDOM_SCREEN = Path.home() / 'protac-md' / 'random_screen'
-ANALYSIS_DIR  = Path.home() / 'protac-md' / 'analysis'
-GNN_DIR       = ANALYSIS_DIR / 'gnn'
-MANIFEST      = RANDOM_SCREEN / 'manifest.tsv'
-OUT_PT        = GNN_DIR / 'md_contact_graphs.pt'
-OUT_NPZ       = GNN_DIR / 'md_contact_graphs_np.npz'
-OUT_META      = GNN_DIR / 'md_graph_metadata.tsv'
-OUT_POSE      = GNN_DIR / 'md_contact_per_pose.tsv'
+# Populated only by explicit CLI inputs; no paths or labels from original work.
+RANDOM_SCREEN = MANIFEST = GNN_DIR = None
+OUT_PT = OUT_NPZ = OUT_META = OUT_POSE = None
+CONTACT_THRESH = 5.0
+EDGE_FREQ_THRESH = 0.01
+STRIDE = 10
+POI_CONFIG = {}
 
-VHL_MAX       = 103     # VHL always residues 1-103
-CONTACT_THRESH = 5.0    # Å — residue is "contacted" if any PROTAC atom within this
-EDGE_FREQ_THRESH = 0.01 # include edge if contacted in ≥ 1% of frames
-STRIDE        = 10      # subsample every N frames (20ns/2ps step = 10000 frames; stride 10 = 1000 frames)
-
-KINOME_SCREEN = Path.home() / 'protac-md' / 'kinome_md_screen'
-KINOME_MANIFEST = KINOME_SCREEN / 'manifest.tsv'
-
-POI_CONFIG = {
-    'DDR2':        {'kin_min': 553,  'degrader': True},
-    'RIPK2_full':  {'kin_min': 200,  'degrader': True},
-    'MAPK14_full': {'kin_min': 200,  'degrader': True},
-    'MET':         {'kin_min': 1053, 'degrader': True},
-    'EPHB2':       {'kin_min': 615,  'degrader': True},
-    'ABL1':        {'kin_min': 235,  'degrader': False},
-    'AXL':         {'kin_min': 521,  'degrader': False},
-    'EPHA2':       {'kin_min': 600,  'degrader': False},
-    # Kinome extension — prediction targets (label unknown → degrader=None)
-    # graph_name must match the pRosettaC ensemble graph poi name used in 04a/04d
-    'SIK3':    {'kin_min': 200, 'degrader': None, 'graph_name': 'SIK3_full'},
-    'RPS6KB2': {'kin_min': 200, 'degrader': None, 'graph_name': 'RPS6KB2_full'},
-}
-
-
-# ── Topology detection (reused from 02_run_analysis.py) ───────────────────────
-
-def _find_chain_boundaries(gro_path: str) -> list[dict]:
-    lines = open(gro_path).readlines()
-    n_atoms = int(lines[1])
-    atoms   = lines[2: 2 + n_atoms]
-    boundaries = [0]
-    prev_res = None
-    for i, l in enumerate(atoms):
-        try:
-            resnum = int(l[0:5])
-        except ValueError:
-            continue
-        if prev_res is not None and abs(resnum - prev_res) > 30:
-            boundaries.append(i)
-        prev_res = resnum
-    boundaries.append(n_atoms)
-    chains = []
-    for j in range(len(boundaries) - 1):
-        s, e = boundaries[j], boundaries[j + 1]
-        chains.append({
-            'start':     s + 1, 'end': e,
-            'first_res': int(atoms[s][0:5]),
-            'last_res':  int(atoms[e - 1][0:5]),
-        })
-    return chains, atoms
-
-
-def _detect_vhl_kin_resid(gro_path: str, kin_min: int) -> tuple[tuple[int, int], tuple[int, int]]:
-    """Return (vhl_first, vhl_last), (kin_first, kin_last) residue numbers from GRO."""
-    chains, atoms = _find_chain_boundaries(gro_path)
-    vhl = next(c for c in chains if c['first_res'] == 1)
-
-    try:
-        kin = next(c for c in chains if c['first_res'] > 103)
-    except StopIteration:
-        # kin_min=104 case: no residue jump; scan for first res=104
-        kin = next((c for c in chains if c['first_res'] <= 104 <= c['last_res']), None)
-        if kin is None:
-            kin = {'first_res': kin_min, 'last_res': max(c['last_res'] for c in chains)}
-        else:
-            kin = {**kin, 'first_res': 104}
-        vhl = {**vhl, 'last_res': 103}
-
-    return (vhl['first_res'], vhl['last_res']), (kin['first_res'], kin['last_res'])
-
-
-def _detect_vhl_kin_atom_ranges(gro_path: str) -> tuple[tuple[int, int], tuple[int, int]] | None:
-    """Return (vhl_start, vhl_end), (kin_start, kin_end) as 1-indexed atom index ranges.
-
-    Uses GRO atom positions directly, bypassing MDAnalysis resid renumbering.
-    Works for all POIs including those with large kin_min (MET=1053, EPHB2=615)
-    where MDAnalysis sequential resids don't match GRO residue numbers.
-    Returns None if chains cannot be identified.
-    """
-    chains, _ = _find_chain_boundaries(gro_path)
-    try:
-        vhl_chain = next(c for c in chains if c['first_res'] == 1)
-    except StopIteration:
-        return None
-
-    # Kinase: first chain with first_res > 103 (has a residue-number jump from VHL)
-    kin_chain = next((c for c in chains if c['first_res'] > 103), None)
-    if kin_chain is None:
-        # kin_min=104 case: no jump; kinase continues after VHL in single chain
-        # GRO resids are sequential so MDAnalysis resid selection still works — caller falls back
-        return None
-
-    return (vhl_chain['start'], vhl_chain['end']), (kin_chain['start'], kin_chain['end'])
-
-
-# ── Per-pose contact frequency computation ────────────────────────────────────
 
 def compute_pose_contacts(
     tpr: Path, xtc: Path, gro: Path, kin_min: int, stride: int = STRIDE
@@ -196,8 +85,7 @@ def compute_pose_contacts(
     n_vhl = len(vhl_ca)
     n_kin = len(kin_ca)
 
-    # For contact: use all heavy atoms of each residue vs all PROTAC heavy atoms
-    # Faster: use Cα only for speed, acceptable for residue-level contact frequency
+    # Versioned Cα proximity proxy; all ligand heavy atoms participate.
     vhl_contact_count  = np.zeros(n_vhl)
     kin_contact_count  = np.zeros(n_kin)
     vhl_dist_sum       = np.zeros(n_vhl)
@@ -250,6 +138,7 @@ def build_poi_md_graph(poi: str, done_poses: list[dict], stride: int, cfg: dict)
     pose_meta    = []
 
     screen_dir = cfg.get('screen_dir', RANDOM_SCREEN)
+    if screen_dir is None:raise ValidationError('Explicit rebuilt screen directory required')
     for pose in done_poses:
         pose_id = pose['pose_id']
         pose_dir = screen_dir / poi / pose_id
@@ -313,17 +202,8 @@ def build_poi_md_graph(poi: str, done_poses: list[dict], stride: int, cfg: dict)
     node_feats[:n_vhl, 2] = vhl_pos_norm.astype(np.float32)
     node_feats[n_vhl:, 2] = kin_pos_norm.astype(np.float32)
 
-    # ── Build edges: VHL-node and kinase-node connected to a virtual PROTAC node ──
-    # OR: connect VHL nodes to kinase nodes weighted by co-contact frequency
-    # (both contacted in same frame)
-    #
-    # Simpler: per-node PROTAC contact frequency as a node attribute, then
-    # VHL→kinase edges weighted by product of their contact frequencies
-    # (high PROTAC-VHL × high PROTAC-kinase = good bridging pair)
-    #
-    # Historical graph used product-of-marginals. This derivative uses observed joint contact.
-    # Graph structure: VHL nodes connected to kinase nodes with edge weight
-    # = product of their PROTAC contact frequencies (bridging co-occurrence proxy)
+    # Cross-role edges represent observed same-frame ligand proximity.
+    # Distance features are means over all sampled frames, converted to nm.
 
     edge_src, edge_dst, edge_freq, edge_dvhl, edge_dkin = [], [], [], [], []
 

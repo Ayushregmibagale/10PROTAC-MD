@@ -22,3 +22,7 @@ core.*
 /validation_controls/variant_*
 /linker_method_review/native_gsk215_torsion_control*/
 /linker_method_review/sjf8240_torsion_global10_control*/
+
+/linker_method_review/md_handoff_torsion_v1/
+/linker_method_review/static_graph_DG_control/
+/linker_method_review/static_graph_packet_DG_control/

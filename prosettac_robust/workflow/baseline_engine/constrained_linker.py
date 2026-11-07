@@ -78,6 +78,8 @@ def constrained_linker(full,heads,targets,seed,attempts=DEFAULT_OUTER_ATTEMPTS,r
     """
     if not 1<=attempts<=2000 or not 1<=embed_iterations<=2000:
         raise ValidationError('Explicit positive bounded embedding budgets are required')
+    origin=np.vstack(targets).mean(axis=0)
+    targets=[np.asarray(a,dtype=float)-origin for a in targets]
     expected=Chem.MolToInchiKey(full)
     mappings=match_heads(full,heads)
     failures=[];embedding_failures=[]
@@ -86,6 +88,8 @@ def constrained_linker(full,heads,targets,seed,attempts=DEFAULT_OUTER_ATTEMPTS,r
         indices=list(a+b);target=np.vstack(targets)
         mol=Chem.AddHs(Chem.Mol(full))
         params=AllChem.ETKDGv3()
+        params.useExpTorsionAnglePrefs=True
+        params.useBasicKnowledge=False
         params.randomSeed=(int(seed)+trial)%2147483647
         params.enforceChirality=True
         params.numThreads=1
@@ -123,13 +127,14 @@ def constrained_linker(full,heads,targets,seed,attempts=DEFAULT_OUTER_ATTEMPTS,r
         if any(not 0.9<np.linalg.norm(pos[x.GetBeginAtomIdx()]-pos[x.GetEndAtomIdx()])<2.1
                for x in mol.GetBonds()):
             failures.append('distorted_linker_bonds');continue
-        return mol,{'accepted':True,'seed':params.randomSeed,'attempts':trial+1,
+        for i,point in enumerate(mol.GetConformer().GetPositions()+origin):mol.GetConformer().SetAtomPosition(i,point)
+        return mol,{'embedding_method':'CENTERED_TORSION_DG_FIXED_HEADS_UFF','embedding_origin_A':origin.tolist(),'accepted':True,'seed':params.randomSeed,'attempts':trial+1,
                     'head_mappings':[list(a),list(b)],'mapping_alternatives':len(mappings),
                     'initial_both_head_rmsd_A':float(np.sqrt(np.mean(error**2))),
                     'embedding_max_iterations_per_attempt':embed_iterations,
                     'embedding_failure_counts_by_attempt':embedding_failures,
                     'rejection_reasons':failures}
-    return None,{'accepted':False,'seed':int(seed),'attempts':attempts,
+    return None,{'embedding_method':'CENTERED_TORSION_DG_FIXED_HEADS_UFF','embedding_origin_A':origin.tolist(),'accepted':False,'seed':int(seed),'attempts':attempts,
                  'mapping_alternatives':len(mappings),'rejection_reasons':failures,
                  'embedding_max_iterations_per_attempt':embed_iterations,
                  'embedding_failure_counts_by_attempt':embedding_failures}

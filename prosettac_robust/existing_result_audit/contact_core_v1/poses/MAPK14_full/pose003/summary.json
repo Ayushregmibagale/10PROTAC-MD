@@ -1,0 +1,120 @@
+{
+  "status": "RETROSPECTIVE_CONTACT_REANALYSIS_NOT_NEW_MD",
+  "poi": "MAPK14_full",
+  "pose_id": "pose003",
+  "frames": 201,
+  "time_window_ns": [
+    0.0,
+    20.0
+  ],
+  "time_alignment_tolerance_ns": 5.0999999999999995e-06,
+  "time_max_difference_ns": 1.0000000010279564e-06,
+  "identified_proteins": {
+    "Q15370": {
+      "moltype": "Protein_chain_A",
+      "sequence_match": {
+        "uniprot": "Q15370",
+        "identity": 1.0,
+        "observed_CA_coverage": 1.0,
+        "canonical_first": 1,
+        "canonical_last": 103
+      }
+    },
+    "Q15369": {
+      "moltype": "Protein_chain_B",
+      "sequence_match": {
+        "uniprot": "Q15369",
+        "identity": 1.0,
+        "observed_CA_coverage": 1.0,
+        "canonical_first": 17,
+        "canonical_last": 111
+      }
+    },
+    "P40337": {
+      "moltype": "Protein_chain_C",
+      "sequence_match": {
+        "uniprot": "P40337",
+        "identity": 1.0,
+        "observed_CA_coverage": 1.0,
+        "canonical_first": 62,
+        "canonical_last": 202
+      }
+    },
+    "Q16539": {
+      "moltype": "Protein_chain_D",
+      "sequence_match": {
+        "uniprot": "Q16539",
+        "identity": 0.9881305637982196,
+        "observed_CA_coverage": 1.0,
+        "canonical_first": 4,
+        "canonical_last": 352
+      }
+    }
+  },
+  "legacy_VHL_group_moltypes": [
+    "Protein_chain_A"
+  ],
+  "group_atoms": {
+    "ligand_all": 144,
+    "ligand_heavy": 79,
+    "true_VHL_all": 2300,
+    "true_VHL_heavy": 1148,
+    "POI_all": 5448,
+    "POI_heavy": 2720
+  },
+  "periodic_distance_reproduction_max_error_A": {
+    "legacy_VHL": 1.1590091752111675e-05,
+    "POI": 9.297148775289088e-06
+  },
+  "stored_GROMACS_distances_reproduced_within_0_002_A": true,
+  "cutoff_curves": [
+    {
+      "cutoff_A": 3.5,
+      "legacy_named_groups_all_atom_fraction": 0.07960199004975124,
+      "true_VHL_POI_all_atom_fraction": 1.0,
+      "true_VHL_POI_heavy_atom_fraction": 1.0
+    },
+    {
+      "cutoff_A": 4.0,
+      "legacy_named_groups_all_atom_fraction": 0.09950248756218906,
+      "true_VHL_POI_all_atom_fraction": 1.0,
+      "true_VHL_POI_heavy_atom_fraction": 1.0
+    },
+    {
+      "cutoff_A": 4.5,
+      "legacy_named_groups_all_atom_fraction": 0.14925373134328357,
+      "true_VHL_POI_all_atom_fraction": 1.0,
+      "true_VHL_POI_heavy_atom_fraction": 1.0
+    },
+    {
+      "cutoff_A": 5.0,
+      "legacy_named_groups_all_atom_fraction": 0.24378109452736318,
+      "true_VHL_POI_all_atom_fraction": 1.0,
+      "true_VHL_POI_heavy_atom_fraction": 1.0
+    },
+    {
+      "cutoff_A": 5.5,
+      "legacy_named_groups_all_atom_fraction": 0.3482587064676617,
+      "true_VHL_POI_all_atom_fraction": 1.0,
+      "true_VHL_POI_heavy_atom_fraction": 1.0
+    },
+    {
+      "cutoff_A": 6.0,
+      "legacy_named_groups_all_atom_fraction": 0.4228855721393035,
+      "true_VHL_POI_all_atom_fraction": 1.0,
+      "true_VHL_POI_heavy_atom_fraction": 1.0
+    }
+  ],
+  "source_input_sha256": {
+    "/home/ayushregmibagale/protac-md/random_screen/MAPK14_full/pose003/prod/prod.tpr": "cb10b277b9e90a1a86ed4d6147c5aca319ac8d5a50abe8096c9f30d9c320482a",
+    "/home/ayushregmibagale/protac-md/analysis/random_screen/MAPK14_full/pose003/prod_nojump.xtc": "8c6e125fcb1269232aa74bcaa1ca4fb527cb2344b16eca99470ecd040997dfa1",
+    "/home/ayushregmibagale/protac-md/analysis/random_screen/MAPK14_full/pose003/index.ndx": "a9221230ebde9ca7f7664dcbb7f90c071243cdf58fe3b24b9e6b19f14948ccd7",
+    "/home/ayushregmibagale/protac-md/analysis/random_screen/MAPK14_full/pose003/dist_protac_vhl.xvg": "e81b239dc0e6346c81be9b4df7a8062abf241cbd590953e3c2dab9af0fca649d",
+    "/home/ayushregmibagale/protac-md/analysis/random_screen/MAPK14_full/pose003/dist_protac_kinase.xvg": "9b85d6bbb7bcd7effb69559cf06a57c57c4a7cf971d8fa40cf3eac924c246b9f"
+  },
+  "sequence_cache_sha256": "bad81965bbf853328ae2b8617cc5f03337762be87d71c0df2cc202203ad7f57d",
+  "source_sha256": "7469a19811d53d9bbf951f146264662ddfee35f7d8a4dff7c30a6af2f0485503",
+  "original_outputs_modified": false,
+  "new_MD_or_docking_executed": false,
+  "interpretation": "This quantifies atom/role-definition sensitivity for one preselected existing trajectory. It neither replaces saved results nor estimates degradation probability."
+}

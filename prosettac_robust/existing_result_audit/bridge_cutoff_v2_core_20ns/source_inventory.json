@@ -1,0 +1,10 @@
+{
+  "status": "POSTRUN_SOURCE_EXPORT_VERIFIED_AGAINST_RECORDED_AUDIT_SOURCE_HASH",
+  "summary_sha256": "1fd0b54c4f77e409a6449b8a2b8cbb09161fbef025649d0225665ff4b61993bb",
+  "files_sha256": {
+    "07_audit_existing_bridge_metrics.py": "f8ee479b76843d137203df193eab4c3bc156f748f88397b6f8238c8fb6876254",
+    "gromacs_energy.py": "28234912de3a17d0b88b4e86f3d2eec3561406071889266eaae5b3dfedc059e0",
+    "protac_qc.py": "b7faca900f0a3c441f3d7fccb9835e7ae138f1198f480101145b9e6363ccf632"
+  },
+  "reproduction": "Place helper modules on PYTHONPATH, invoke the archived audit script with the explicit project/output/cutoff/target/window/duplicate-policy parameters recorded in summary.json"
+}

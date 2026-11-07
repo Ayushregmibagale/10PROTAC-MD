@@ -1,0 +1,11 @@
+{
+  "python": "3.13.11 | packaged by Anaconda, Inc. | (main, Dec 10 2025, 21:28:48) [GCC 14.3.0]",
+  "platform": "Linux-6.6.87.2-microsoft-standard-WSL2-x86_64-with-glibc2.39",
+  "packages": {
+    "numpy": "2.4.6",
+    "scipy": "1.17.1",
+    "MDAnalysis": "2.10.0",
+    "biopython": "1.85"
+  },
+  "scope": "Read-only retrospective sequence/contact analysis; no molecular simulation executed"
+}

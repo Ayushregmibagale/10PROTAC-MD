@@ -1,0 +1,6442 @@
+[
+  {
+    "poi": "RIPK2_full",
+    "pose_id": "pose001",
+    "source_sha256": {
+      "tpr": "f78af8d9bbc5c6fcd1f7e47f85d0b47a08479060a371f0be7e6f020eb39794dc",
+      "index": "f65477ffb81496017b8bd107ce81ab6989dc2e000ba7502f0c88ec554d919ffa"
+    },
+    "proteins": {
+      "Protein_chain_A": {
+        "uniprot": "Q15370",
+        "identity": 1.0,
+        "observed_CA_coverage": 1.0,
+        "canonical_first": 1,
+        "canonical_last": 103,
+        "moltype": "Protein_chain_A",
+        "CA_atoms": 101,
+        "atoms": 1603,
+        "atom_index_first_one_based": 1,
+        "atom_index_last_one_based": 1603,
+        "contiguous_indices": true
+      },
+      "Protein_chain_B": {
+        "uniprot": "Q15369",
+        "identity": 1.0,
+        "observed_CA_coverage": 1.0,
+        "canonical_first": 17,
+        "canonical_last": 111,
+        "moltype": "Protein_chain_B",
+        "CA_atoms": 85,
+        "atoms": 1368,
+        "atom_index_first_one_based": 6181,
+        "atom_index_last_one_based": 7548,
+        "contiguous_indices": true
+      },
+      "Protein_chain_C": {
+        "uniprot": "P40337",
+        "identity": 1.0,
+        "observed_CA_coverage": 1.0,
+        "canonical_first": 62,
+        "canonical_last": 202,
+        "moltype": "Protein_chain_C",
+        "CA_atoms": 140,
+        "atoms": 2300,
+        "atom_index_first_one_based": 7549,
+        "atom_index_last_one_based": 9848,
+        "contiguous_indices": true
+      },
+      "Protein_chain_D": {
+        "uniprot": "O43353",
+        "identity": 1.0,
+        "observed_CA_coverage": 1.0,
+        "canonical_first": 8,
+        "canonical_last": 316,
+        "moltype": "Protein_chain_D",
+        "CA_atoms": 279,
+        "atoms": 4577,
+        "atom_index_first_one_based": 1604,
+        "atom_index_last_one_based": 6180,
+        "contiguous_indices": true
+      }
+    },
+    "legacy_index_groups": {
+      "Other": {
+        "atoms": 144,
+        "hydrogen_mass_count": 65,
+        "moltypes": [
+          "SJF8240_3d"
+        ],
+        "identified_protein": null,
+        "resnames": [
+          "UNL"
+        ]
+      },
+      "VHL": {
+        "atoms": 1603,
+        "hydrogen_mass_count": 801,
+        "moltypes": [
+          "Protein_chain_A"
+        ],
+        "identified_protein": {
+          "uniprot": "Q15370",
+          "identity": 1.0,
+          "observed_CA_coverage": 1.0,
+          "canonical_first": 1,
+          "canonical_last": 103,
+          "moltype": "Protein_chain_A",
+          "CA_atoms": 101,
+          "atoms": 1603,
+          "atom_index_first_one_based": 1,
+          "atom_index_last_one_based": 1603,
+          "contiguous_indices": true
+        },
+        "resnames": [
+          "ALA",
+          "ARG",
+          "ASP",
+          "GLN",
+          "GLU",
+          "GLY",
+          "HIS",
+          "ILE",
+          "LEU",
+          "LYS",
+          "MET",
+          "PHE",
+          "PRO",
+          "SER",
+          "THR",
+          "TYR",
+          "VAL"
+        ]
+      },
+      "Kinase": {
+        "atoms": 4577,
+        "hydrogen_mass_count": 2294,
+        "moltypes": [
+          "Protein_chain_D"
+        ],
+        "identified_protein": {
+          "uniprot": "O43353",
+          "identity": 1.0,
+          "observed_CA_coverage": 1.0,
+          "canonical_first": 8,
+          "canonical_last": 316,
+          "moltype": "Protein_chain_D",
+          "CA_atoms": 279,
+          "atoms": 4577,
+          "atom_index_first_one_based": 1604,
+          "atom_index_last_one_based": 6180,
+          "contiguous_indices": true
+        },
+        "resnames": [
+          "ALA",
+          "ARG",
+          "ASN",
+          "ASP",
+          "CYS",
+          "GLN",
+          "GLU",
+          "GLY",
+          "HIS",
+          "ILE",
+          "LEU",
+          "LYS",
+          "MET",
+          "PHE",
+          "PRO",
+          "SER",
+          "THR",
+          "TRP",
+          "TYR",
+          "VAL"
+        ]
+      }
+    },
+    "legacy_label_VHL_is_true_VHL": false,
+    "legacy_Kinase_matches_expected_POI": true,
+    "sequence_identified_VHL": {
+      "uniprot": "P40337",
+      "identity": 1.0,
+      "observed_CA_coverage": 1.0,
+      "canonical_first": 62,
+      "canonical_last": 202,
+      "moltype": "Protein_chain_C",
+      "CA_atoms": 140,
+      "atoms": 2300,
+      "atom_index_first_one_based": 7549,
+      "atom_index_last_one_based": 9848,
+      "contiguous_indices": true
+    },
+    "sequence_identified_POI": {
+      "uniprot": "O43353",
+      "identity": 1.0,
+      "observed_CA_coverage": 1.0,
+      "canonical_first": 8,
+      "canonical_last": 316,
+      "moltype": "Protein_chain_D",
+      "CA_atoms": 279,
+      "atoms": 4577,
+      "atom_index_first_one_based": 1604,
+      "atom_index_last_one_based": 6180,
+      "contiguous_indices": true
+    }
+  },
+  {
+    "poi": "RIPK2_full",
+    "pose_id": "pose003",
+    "source_sha256": {
+      "tpr": "8dde09121cefd2b3baaedf52dee7e40a0385b5c34a10ec9ac4ddcd003d5068d2",
+      "index": "3cf6d12fa343d0a8f179a6ff23caa3cab0c7d76e4689c07fe65f5ffa4120cd22"
+    },
+    "proteins": {
+      "Protein_chain_A": {
+        "uniprot": "Q15370",
+        "identity": 1.0,
+        "observed_CA_coverage": 1.0,
+        "canonical_first": 1,
+        "canonical_last": 103,
+        "moltype": "Protein_chain_A",
+        "CA_atoms": 101,
+        "atoms": 1603,
+        "atom_index_first_one_based": 1,
+        "atom_index_last_one_based": 1603,
+        "contiguous_indices": true
+      },
+      "Protein_chain_B": {
+        "uniprot": "Q15369",
+        "identity": 1.0,
+        "observed_CA_coverage": 1.0,
+        "canonical_first": 17,
+        "canonical_last": 111,
+        "moltype": "Protein_chain_B",
+        "CA_atoms": 85,
+        "atoms": 1368,
+        "atom_index_first_one_based": 6181,
+        "atom_index_last_one_based": 7548,
+        "contiguous_indices": true
+      },
+      "Protein_chain_C": {
+        "uniprot": "P40337",
+        "identity": 1.0,
+        "observed_CA_coverage": 1.0,
+        "canonical_first": 62,
+        "canonical_last": 202,
+        "moltype": "Protein_chain_C",
+        "CA_atoms": 140,
+        "atoms": 2300,
+        "atom_index_first_one_based": 7549,
+        "atom_index_last_one_based": 9848,
+        "contiguous_indices": true
+      },
+      "Protein_chain_D": {
+        "uniprot": "O43353",
+        "identity": 1.0,
+        "observed_CA_coverage": 1.0,
+        "canonical_first": 8,
+        "canonical_last": 316,
+        "moltype": "Protein_chain_D",
+        "CA_atoms": 279,
+        "atoms": 4577,
+        "atom_index_first_one_based": 1604,
+        "atom_index_last_one_based": 6180,
+        "contiguous_indices": true
+      }
+    },
+    "legacy_index_groups": {
+      "Other": {
+        "atoms": 144,
+        "hydrogen_mass_count": 65,
+        "moltypes": [
+          "SJF8240_3d"
+        ],
+        "identified_protein": null,
+        "resnames": [
+          "UNL"
+        ]
+      },
+      "VHL": {
+        "atoms": 1603,
+        "hydrogen_mass_count": 801,
+        "moltypes": [
+          "Protein_chain_A"
+        ],
+        "identified_protein": {
+          "uniprot": "Q15370",
+          "identity": 1.0,
+          "observed_CA_coverage": 1.0,
+          "canonical_first": 1,
+          "canonical_last": 103,
+          "moltype": "Protein_chain_A",
+          "CA_atoms": 101,
+          "atoms": 1603,
+          "atom_index_first_one_based": 1,
+          "atom_index_last_one_based": 1603,
+          "contiguous_indices": true
+        },
+        "resnames": [
+          "ALA",
+          "ARG",
+          "ASP",
+          "GLN",
+          "GLU",
+          "GLY",
+          "HIS",
+          "ILE",
+          "LEU",
+          "LYS",
+          "MET",
+          "PHE",
+          "PRO",
+          "SER",
+          "THR",
+          "TYR",
+          "VAL"
+        ]
+      },
+      "Kinase": {
+        "atoms": 4577,
+        "hydrogen_mass_count": 2294,
+        "moltypes": [
+          "Protein_chain_D"
+        ],
+        "identified_protein": {
+          "uniprot": "O43353",
+          "identity": 1.0,
+          "observed_CA_coverage": 1.0,
+          "canonical_first": 8,
+          "canonical_last": 316,
+          "moltype": "Protein_chain_D",
+          "CA_atoms": 279,
+          "atoms": 4577,
+          "atom_index_first_one_based": 1604,
+          "atom_index_last_one_based": 6180,
+          "contiguous_indices": true
+        },
+        "resnames": [
+          "ALA",
+          "ARG",
+          "ASN",
+          "ASP",
+          "CYS",
+          "GLN",
+          "GLU",
+          "GLY",
+          "HIS",
+          "ILE",
+          "LEU",
+          "LYS",
+          "MET",
+          "PHE",
+          "PRO",
+          "SER",
+          "THR",
+          "TRP",
+          "TYR",
+          "VAL"
+        ]
+      }
+    },
+    "legacy_label_VHL_is_true_VHL": false,
+    "legacy_Kinase_matches_expected_POI": true,
+    "sequence_identified_VHL": {
+      "uniprot": "P40337",
+      "identity": 1.0,
+      "observed_CA_coverage": 1.0,
+      "canonical_first": 62,
+      "canonical_last": 202,
+      "moltype": "Protein_chain_C",
+      "CA_atoms": 140,
+      "atoms": 2300,
+      "atom_index_first_one_based": 7549,
+      "atom_index_last_one_based": 9848,
+      "contiguous_indices": true
+    },
+    "sequence_identified_POI": {
+      "uniprot": "O43353",
+      "identity": 1.0,
+      "observed_CA_coverage": 1.0,
+      "canonical_first": 8,
+      "canonical_last": 316,
+      "moltype": "Protein_chain_D",
+      "CA_atoms": 279,
+      "atoms": 4577,
+      "atom_index_first_one_based": 1604,
+      "atom_index_last_one_based": 6180,
+      "contiguous_indices": true
+    }
+  },
+  {
+    "poi": "RIPK2_full",
+    "pose_id": "pose004",
+    "source_sha256": {
+      "tpr": "274cf0a81ec1a641d587107f4532edc63eda49cda01d262b3a1d566bb52b7470",
+      "index": "84fd3f4a648a7aa32555a4f8de69838c22ee409026cd6d43cd026327dae6ed65"
+    },
+    "proteins": {
+      "Protein_chain_A": {
+        "uniprot": "Q15370",
+        "identity": 1.0,
+        "observed_CA_coverage": 1.0,
+        "canonical_first": 1,
+        "canonical_last": 103,
+        "moltype": "Protein_chain_A",
+        "CA_atoms": 101,
+        "atoms": 1603,
+        "atom_index_first_one_based": 1,
+        "atom_index_last_one_based": 1603,
+        "contiguous_indices": true
+      },
+      "Protein_chain_B": {
+        "uniprot": "Q15369",
+        "identity": 1.0,
+        "observed_CA_coverage": 1.0,
+        "canonical_first": 17,
+        "canonical_last": 111,
+        "moltype": "Protein_chain_B",
+        "CA_atoms": 85,
+        "atoms": 1368,
+        "atom_index_first_one_based": 6181,
+        "atom_index_last_one_based": 7548,
+        "contiguous_indices": true
+      },
+      "Protein_chain_C": {
+        "uniprot": "P40337",
+        "identity": 1.0,
+        "observed_CA_coverage": 1.0,
+        "canonical_first": 62,
+        "canonical_last": 202,
+        "moltype": "Protein_chain_C",
+        "CA_atoms": 140,
+        "atoms": 2300,
+        "atom_index_first_one_based": 7549,
+        "atom_index_last_one_based": 9848,
+        "contiguous_indices": true
+      },
+      "Protein_chain_D": {
+        "uniprot": "O43353",
+        "identity": 1.0,
+        "observed_CA_coverage": 1.0,
+        "canonical_first": 8,
+        "canonical_last": 316,
+        "moltype": "Protein_chain_D",
+        "CA_atoms": 279,
+        "atoms": 4577,
+        "atom_index_first_one_based": 1604,
+        "atom_index_last_one_based": 6180,
+        "contiguous_indices": true
+      }
+    },
+    "legacy_index_groups": {
+      "Other": {
+        "atoms": 144,
+        "hydrogen_mass_count": 65,
+        "moltypes": [
+          "SJF8240_3d"
+        ],
+        "identified_protein": null,
+        "resnames": [
+          "UNL"
+        ]
+      },
+      "VHL": {
+        "atoms": 1603,
+        "hydrogen_mass_count": 801,
+        "moltypes": [
+          "Protein_chain_A"
+        ],
+        "identified_protein": {
+          "uniprot": "Q15370",
+          "identity": 1.0,
+          "observed_CA_coverage": 1.0,
+          "canonical_first": 1,
+          "canonical_last": 103,
+          "moltype": "Protein_chain_A",
+          "CA_atoms": 101,
+          "atoms": 1603,
+          "atom_index_first_one_based": 1,
+          "atom_index_last_one_based": 1603,
+          "contiguous_indices": true
+        },
+        "resnames": [
+          "ALA",
+          "ARG",
+          "ASP",
+          "GLN",
+          "GLU",
+          "GLY",
+          "HIS",
+          "ILE",
+          "LEU",
+          "LYS",
+          "MET",
+          "PHE",
+          "PRO",
+          "SER",
+          "THR",
+          "TYR",
+          "VAL"
+        ]
+      },
+      "Kinase": {
+        "atoms": 4577,
+        "hydrogen_mass_count": 2294,
+        "moltypes": [
+          "Protein_chain_D"
+        ],
+        "identified_protein": {
+          "uniprot": "O43353",
+          "identity": 1.0,
+          "observed_CA_coverage": 1.0,
+          "canonical_first": 8,
+          "canonical_last": 316,
+          "moltype": "Protein_chain_D",
+          "CA_atoms": 279,
+          "atoms": 4577,
+          "atom_index_first_one_based": 1604,
+          "atom_index_last_one_based": 6180,
+          "contiguous_indices": true
+        },
+        "resnames": [
+          "ALA",
+          "ARG",
+          "ASN",
+          "ASP",
+          "CYS",
+          "GLN",
+          "GLU",
+          "GLY",
+          "HIS",
+          "ILE",
+          "LEU",
+          "LYS",
+          "MET",
+          "PHE",
+          "PRO",
+          "SER",
+          "THR",
+          "TRP",
+          "TYR",
+          "VAL"
+        ]
+      }
+    },
+    "legacy_label_VHL_is_true_VHL": false,
+    "legacy_Kinase_matches_expected_POI": true,
+    "sequence_identified_VHL": {
+      "uniprot": "P40337",
+      "identity": 1.0,
+      "observed_CA_coverage": 1.0,
+      "canonical_first": 62,
+      "canonical_last": 202,
+      "moltype": "Protein_chain_C",
+      "CA_atoms": 140,
+      "atoms": 2300,
+      "atom_index_first_one_based": 7549,
+      "atom_index_last_one_based": 9848,
+      "contiguous_indices": true
+    },
+    "sequence_identified_POI": {
+      "uniprot": "O43353",
+      "identity": 1.0,
+      "observed_CA_coverage": 1.0,
+      "canonical_first": 8,
+      "canonical_last": 316,
+      "moltype": "Protein_chain_D",
+      "CA_atoms": 279,
+      "atoms": 4577,
+      "atom_index_first_one_based": 1604,
+      "atom_index_last_one_based": 6180,
+      "contiguous_indices": true
+    }
+  },
+  {
+    "poi": "RIPK2_full",
+    "pose_id": "pose005",
+    "source_sha256": {
+      "tpr": "67b336a69a1fcb220963152ee2e33594c367f374dbfd98350314c89057857523",
+      "index": "c3334bfb32f0cb87a9203a605f2a9e2539f4870996860a004a0ebd952a0034fa"
+    },
+    "proteins": {
+      "Protein_chain_A": {
+        "uniprot": "Q15370",
+        "identity": 1.0,
+        "observed_CA_coverage": 1.0,
+        "canonical_first": 1,
+        "canonical_last": 103,
+        "moltype": "Protein_chain_A",
+        "CA_atoms": 101,
+        "atoms": 1603,
+        "atom_index_first_one_based": 1,
+        "atom_index_last_one_based": 1603,
+        "contiguous_indices": true
+      },
+      "Protein_chain_B": {
+        "uniprot": "Q15369",
+        "identity": 1.0,
+        "observed_CA_coverage": 1.0,
+        "canonical_first": 17,
+        "canonical_last": 111,
+        "moltype": "Protein_chain_B",
+        "CA_atoms": 85,
+        "atoms": 1368,
+        "atom_index_first_one_based": 6181,
+        "atom_index_last_one_based": 7548,
+        "contiguous_indices": true
+      },
+      "Protein_chain_C": {
+        "uniprot": "P40337",
+        "identity": 1.0,
+        "observed_CA_coverage": 1.0,
+        "canonical_first": 62,
+        "canonical_last": 202,
+        "moltype": "Protein_chain_C",
+        "CA_atoms": 140,
+        "atoms": 2300,
+        "atom_index_first_one_based": 7549,
+        "atom_index_last_one_based": 9848,
+        "contiguous_indices": true
+      },
+      "Protein_chain_D": {
+        "uniprot": "O43353",
+        "identity": 1.0,
+        "observed_CA_coverage": 1.0,
+        "canonical_first": 8,
+        "canonical_last": 316,
+        "moltype": "Protein_chain_D",
+        "CA_atoms": 279,
+        "atoms": 4577,
+        "atom_index_first_one_based": 1604,
+        "atom_index_last_one_based": 6180,
+        "contiguous_indices": true
+      }
+    },
+    "legacy_index_groups": {
+      "Other": {
+        "atoms": 144,
+        "hydrogen_mass_count": 65,
+        "moltypes": [
+          "SJF8240_3d"
+        ],
+        "identified_protein": null,
+        "resnames": [
+          "UNL"
+        ]
+      },
+      "VHL": {
+        "atoms": 1603,
+        "hydrogen_mass_count": 801,
+        "moltypes": [
+          "Protein_chain_A"
+        ],
+        "identified_protein": {
+          "uniprot": "Q15370",
+          "identity": 1.0,
+          "observed_CA_coverage": 1.0,
+          "canonical_first": 1,
+          "canonical_last": 103,
+          "moltype": "Protein_chain_A",
+          "CA_atoms": 101,
+          "atoms": 1603,
+          "atom_index_first_one_based": 1,
+          "atom_index_last_one_based": 1603,
+          "contiguous_indices": true
+        },
+        "resnames": [
+          "ALA",
+          "ARG",
+          "ASP",
+          "GLN",
+          "GLU",
+          "GLY",
+          "HIS",
+          "ILE",
+          "LEU",
+          "LYS",
+          "MET",
+          "PHE",
+          "PRO",
+          "SER",
+          "THR",
+          "TYR",
+          "VAL"
+        ]
+      },
+      "Kinase": {
+        "atoms": 4577,
+        "hydrogen_mass_count": 2294,
+        "moltypes": [
+          "Protein_chain_D"
+        ],
+        "identified_protein": {
+          "uniprot": "O43353",
+          "identity": 1.0,
+          "observed_CA_coverage": 1.0,
+          "canonical_first": 8,
+          "canonical_last": 316,
+          "moltype": "Protein_chain_D",
+          "CA_atoms": 279,
+          "atoms": 4577,
+          "atom_index_first_one_based": 1604,
+          "atom_index_last_one_based": 6180,
+          "contiguous_indices": true
+        },
+        "resnames": [
+          "ALA",
+          "ARG",
+          "ASN",
+          "ASP",
+          "CYS",
+          "GLN",
+          "GLU",
+          "GLY",
+          "HIS",
+          "ILE",
+          "LEU",
+          "LYS",
+          "MET",
+          "PHE",
+          "PRO",
+          "SER",
+          "THR",
+          "TRP",
+          "TYR",
+          "VAL"
+        ]
+      }
+    },
+    "legacy_label_VHL_is_true_VHL": false,
+    "legacy_Kinase_matches_expected_POI": true,
+    "sequence_identified_VHL": {
+      "uniprot": "P40337",
+      "identity": 1.0,
+      "observed_CA_coverage": 1.0,
+      "canonical_first": 62,
+      "canonical_last": 202,
+      "moltype": "Protein_chain_C",
+      "CA_atoms": 140,
+      "atoms": 2300,
+      "atom_index_first_one_based": 7549,
+      "atom_index_last_one_based": 9848,
+      "contiguous_indices": true
+    },
+    "sequence_identified_POI": {
+      "uniprot": "O43353",
+      "identity": 1.0,
+      "observed_CA_coverage": 1.0,
+      "canonical_first": 8,
+      "canonical_last": 316,
+      "moltype": "Protein_chain_D",
+      "CA_atoms": 279,
+      "atoms": 4577,
+      "atom_index_first_one_based": 1604,
+      "atom_index_last_one_based": 6180,
+      "contiguous_indices": true
+    }
+  },
+  {
+    "poi": "RIPK2_full",
+    "pose_id": "pose006",
+    "source_sha256": {
+      "tpr": "2e2786c27fd17f7733a867d7995749fc1be4c62b71cfb4268ccf72c8f4fceda4",
+      "index": "b6abfb6c89834226e1460f884a9455b2904eaa2d702c510c9cb05546ba65ce6a"
+    },
+    "proteins": {
+      "Protein_chain_A": {
+        "uniprot": "Q15370",
+        "identity": 1.0,
+        "observed_CA_coverage": 1.0,
+        "canonical_first": 1,
+        "canonical_last": 103,
+        "moltype": "Protein_chain_A",
+        "CA_atoms": 101,
+        "atoms": 1603,
+        "atom_index_first_one_based": 1,
+        "atom_index_last_one_based": 1603,
+        "contiguous_indices": true
+      },
+      "Protein_chain_B": {
+        "uniprot": "Q15369",
+        "identity": 1.0,
+        "observed_CA_coverage": 1.0,
+        "canonical_first": 17,
+        "canonical_last": 111,
+        "moltype": "Protein_chain_B",
+        "CA_atoms": 85,
+        "atoms": 1368,
+        "atom_index_first_one_based": 6181,
+        "atom_index_last_one_based": 7548,
+        "contiguous_indices": true
+      },
+      "Protein_chain_C": {
+        "uniprot": "P40337",
+        "identity": 1.0,
+        "observed_CA_coverage": 1.0,
+        "canonical_first": 62,
+        "canonical_last": 202,
+        "moltype": "Protein_chain_C",
+        "CA_atoms": 140,
+        "atoms": 2300,
+        "atom_index_first_one_based": 7549,
+        "atom_index_last_one_based": 9848,
+        "contiguous_indices": true
+      },
+      "Protein_chain_D": {
+        "uniprot": "O43353",
+        "identity": 1.0,
+        "observed_CA_coverage": 1.0,
+        "canonical_first": 8,
+        "canonical_last": 316,
+        "moltype": "Protein_chain_D",
+        "CA_atoms": 279,
+        "atoms": 4577,
+        "atom_index_first_one_based": 1604,
+        "atom_index_last_one_based": 6180,
+        "contiguous_indices": true
+      }
+    },
+    "legacy_index_groups": {
+      "Other": {
+        "atoms": 144,
+        "hydrogen_mass_count": 65,
+        "moltypes": [
+          "SJF8240_3d"
+        ],
+        "identified_protein": null,
+        "resnames": [
+          "UNL"
+        ]
+      },
+      "VHL": {
+        "atoms": 1603,
+        "hydrogen_mass_count": 801,
+        "moltypes": [
+          "Protein_chain_A"
+        ],
+        "identified_protein": {
+          "uniprot": "Q15370",
+          "identity": 1.0,
+          "observed_CA_coverage": 1.0,
+          "canonical_first": 1,
+          "canonical_last": 103,
+          "moltype": "Protein_chain_A",
+          "CA_atoms": 101,
+          "atoms": 1603,
+          "atom_index_first_one_based": 1,
+          "atom_index_last_one_based": 1603,
+          "contiguous_indices": true
+        },
+        "resnames": [
+          "ALA",
+          "ARG",
+          "ASP",
+          "GLN",
+          "GLU",
+          "GLY",
+          "HIS",
+          "ILE",
+          "LEU",
+          "LYS",
+          "MET",
+          "PHE",
+          "PRO",
+          "SER",
+          "THR",
+          "TYR",
+          "VAL"
+        ]
+      },
+      "Kinase": {
+        "atoms": 4577,
+        "hydrogen_mass_count": 2294,
+        "moltypes": [
+          "Protein_chain_D"
+        ],
+        "identified_protein": {
+          "uniprot": "O43353",
+          "identity": 1.0,
+          "observed_CA_coverage": 1.0,
+          "canonical_first": 8,
+          "canonical_last": 316,
+          "moltype": "Protein_chain_D",
+          "CA_atoms": 279,
+          "atoms": 4577,
+          "atom_index_first_one_based": 1604,
+          "atom_index_last_one_based": 6180,
+          "contiguous_indices": true
+        },
+        "resnames": [
+          "ALA",
+          "ARG",
+          "ASN",
+          "ASP",
+          "CYS",
+          "GLN",
+          "GLU",
+          "GLY",
+          "HIS",
+          "ILE",
+          "LEU",
+          "LYS",
+          "MET",
+          "PHE",
+          "PRO",
+          "SER",
+          "THR",
+          "TRP",
+          "TYR",
+          "VAL"
+        ]
+      }
+    },
+    "legacy_label_VHL_is_true_VHL": false,
+    "legacy_Kinase_matches_expected_POI": true,
+    "sequence_identified_VHL": {
+      "uniprot": "P40337",
+      "identity": 1.0,
+      "observed_CA_coverage": 1.0,
+      "canonical_first": 62,
+      "canonical_last": 202,
+      "moltype": "Protein_chain_C",
+      "CA_atoms": 140,
+      "atoms": 2300,
+      "atom_index_first_one_based": 7549,
+      "atom_index_last_one_based": 9848,
+      "contiguous_indices": true
+    },
+    "sequence_identified_POI": {
+      "uniprot": "O43353",
+      "identity": 1.0,
+      "observed_CA_coverage": 1.0,
+      "canonical_first": 8,
+      "canonical_last": 316,
+      "moltype": "Protein_chain_D",
+      "CA_atoms": 279,
+      "atoms": 4577,
+      "atom_index_first_one_based": 1604,
+      "atom_index_last_one_based": 6180,
+      "contiguous_indices": true
+    }
+  },
+  {
+    "poi": "RIPK2_full",
+    "pose_id": "pose007",
+    "source_sha256": {
+      "tpr": "2869ff438958f5197aefc1d2fa53cedfadc3d5c67400d10ac63e4a14cf4d74a9",
+      "index": "0bf9827e971fd23df386ff34bc7a8fc29cfdf103a73e7c68e23b691402aa460f"
+    },
+    "proteins": {
+      "Protein_chain_A": {
+        "uniprot": "Q15370",
+        "identity": 1.0,
+        "observed_CA_coverage": 1.0,
+        "canonical_first": 1,
+        "canonical_last": 103,
+        "moltype": "Protein_chain_A",
+        "CA_atoms": 101,
+        "atoms": 1603,
+        "atom_index_first_one_based": 1,
+        "atom_index_last_one_based": 1603,
+        "contiguous_indices": true
+      },
+      "Protein_chain_B": {
+        "uniprot": "Q15369",
+        "identity": 1.0,
+        "observed_CA_coverage": 1.0,
+        "canonical_first": 17,
+        "canonical_last": 111,
+        "moltype": "Protein_chain_B",
+        "CA_atoms": 85,
+        "atoms": 1368,
+        "atom_index_first_one_based": 6181,
+        "atom_index_last_one_based": 7548,
+        "contiguous_indices": true
+      },
+      "Protein_chain_C": {
+        "uniprot": "P40337",
+        "identity": 1.0,
+        "observed_CA_coverage": 1.0,
+        "canonical_first": 62,
+        "canonical_last": 202,
+        "moltype": "Protein_chain_C",
+        "CA_atoms": 140,
+        "atoms": 2300,
+        "atom_index_first_one_based": 7549,
+        "atom_index_last_one_based": 9848,
+        "contiguous_indices": true
+      },
+      "Protein_chain_D": {
+        "uniprot": "O43353",
+        "identity": 1.0,
+        "observed_CA_coverage": 1.0,
+        "canonical_first": 8,
+        "canonical_last": 316,
+        "moltype": "Protein_chain_D",
+        "CA_atoms": 279,
+        "atoms": 4577,
+        "atom_index_first_one_based": 1604,
+        "atom_index_last_one_based": 6180,
+        "contiguous_indices": true
+      }
+    },
+    "legacy_index_groups": {
+      "Other": {
+        "atoms": 144,
+        "hydrogen_mass_count": 65,
+        "moltypes": [
+          "SJF8240_3d"
+        ],
+        "identified_protein": null,
+        "resnames": [
+          "UNL"
+        ]
+      },
+      "VHL": {
+        "atoms": 1603,
+        "hydrogen_mass_count": 801,
+        "moltypes": [
+          "Protein_chain_A"
+        ],
+        "identified_protein": {
+          "uniprot": "Q15370",
+          "identity": 1.0,
+          "observed_CA_coverage": 1.0,
+          "canonical_first": 1,
+          "canonical_last": 103,
+          "moltype": "Protein_chain_A",
+          "CA_atoms": 101,
+          "atoms": 1603,
+          "atom_index_first_one_based": 1,
+          "atom_index_last_one_based": 1603,
+          "contiguous_indices": true
+        },
+        "resnames": [
+          "ALA",
+          "ARG",
+          "ASP",
+          "GLN",
+          "GLU",
+          "GLY",
+          "HIS",
+          "ILE",
+          "LEU",
+          "LYS",
+          "MET",
+          "PHE",
+          "PRO",
+          "SER",
+          "THR",
+          "TYR",
+          "VAL"
+        ]
+      },
+      "Kinase": {
+        "atoms": 4577,
+        "hydrogen_mass_count": 2294,
+        "moltypes": [
+          "Protein_chain_D"
+        ],
+        "identified_protein": {
+          "uniprot": "O43353",
+          "identity": 1.0,
+          "observed_CA_coverage": 1.0,
+          "canonical_first": 8,
+          "canonical_last": 316,
+          "moltype": "Protein_chain_D",
+          "CA_atoms": 279,
+          "atoms": 4577,
+          "atom_index_first_one_based": 1604,
+          "atom_index_last_one_based": 6180,
+          "contiguous_indices": true
+        },
+        "resnames": [
+          "ALA",
+          "ARG",
+          "ASN",
+          "ASP",
+          "CYS",
+          "GLN",
+          "GLU",
+          "GLY",
+          "HIS",
+          "ILE",
+          "LEU",
+          "LYS",
+          "MET",
+          "PHE",
+          "PRO",
+          "SER",
+          "THR",
+          "TRP",
+          "TYR",
+          "VAL"
+        ]
+      }
+    },
+    "legacy_label_VHL_is_true_VHL": false,
+    "legacy_Kinase_matches_expected_POI": true,
+    "sequence_identified_VHL": {
+      "uniprot": "P40337",
+      "identity": 1.0,
+      "observed_CA_coverage": 1.0,
+      "canonical_first": 62,
+      "canonical_last": 202,
+      "moltype": "Protein_chain_C",
+      "CA_atoms": 140,
+      "atoms": 2300,
+      "atom_index_first_one_based": 7549,
+      "atom_index_last_one_based": 9848,
+      "contiguous_indices": true
+    },
+    "sequence_identified_POI": {
+      "uniprot": "O43353",
+      "identity": 1.0,
+      "observed_CA_coverage": 1.0,
+      "canonical_first": 8,
+      "canonical_last": 316,
+      "moltype": "Protein_chain_D",
+      "CA_atoms": 279,
+      "atoms": 4577,
+      "atom_index_first_one_based": 1604,
+      "atom_index_last_one_based": 6180,
+      "contiguous_indices": true
+    }
+  },
+  {
+    "poi": "RIPK2_full",
+    "pose_id": "pose008",
+    "source_sha256": {
+      "tpr": "ea1181f072eab2a7304965f5924e443b3fe2faed7ae9c9a3064246f55bb078ac",
+      "index": "56a17f50af4207aa3bc14f95164e9ae0213d5fcb628896febb8d49f77527f53d"
+    },
+    "proteins": {
+      "Protein_chain_A": {
+        "uniprot": "Q15370",
+        "identity": 1.0,
+        "observed_CA_coverage": 1.0,
+        "canonical_first": 1,
+        "canonical_last": 103,
+        "moltype": "Protein_chain_A",
+        "CA_atoms": 101,
+        "atoms": 1603,
+        "atom_index_first_one_based": 1,
+        "atom_index_last_one_based": 1603,
+        "contiguous_indices": true
+      },
+      "Protein_chain_B": {
+        "uniprot": "Q15369",
+        "identity": 1.0,
+        "observed_CA_coverage": 1.0,
+        "canonical_first": 17,
+        "canonical_last": 111,
+        "moltype": "Protein_chain_B",
+        "CA_atoms": 85,
+        "atoms": 1368,
+        "atom_index_first_one_based": 6181,
+        "atom_index_last_one_based": 7548,
+        "contiguous_indices": true
+      },
+      "Protein_chain_C": {
+        "uniprot": "P40337",
+        "identity": 1.0,
+        "observed_CA_coverage": 1.0,
+        "canonical_first": 62,
+        "canonical_last": 202,
+        "moltype": "Protein_chain_C",
+        "CA_atoms": 140,
+        "atoms": 2300,
+        "atom_index_first_one_based": 7549,
+        "atom_index_last_one_based": 9848,
+        "contiguous_indices": true
+      },
+      "Protein_chain_D": {
+        "uniprot": "O43353",
+        "identity": 1.0,
+        "observed_CA_coverage": 1.0,
+        "canonical_first": 8,
+        "canonical_last": 316,
+        "moltype": "Protein_chain_D",
+        "CA_atoms": 279,
+        "atoms": 4577,
+        "atom_index_first_one_based": 1604,
+        "atom_index_last_one_based": 6180,
+        "contiguous_indices": true
+      }
+    },
+    "legacy_index_groups": {
+      "Other": {
+        "atoms": 144,
+        "hydrogen_mass_count": 65,
+        "moltypes": [
+          "SJF8240_3d"
+        ],
+        "identified_protein": null,
+        "resnames": [
+          "UNL"
+        ]
+      },
+      "VHL": {
+        "atoms": 1603,
+        "hydrogen_mass_count": 801,
+        "moltypes": [
+          "Protein_chain_A"
+        ],
+        "identified_protein": {
+          "uniprot": "Q15370",
+          "identity": 1.0,
+          "observed_CA_coverage": 1.0,
+          "canonical_first": 1,
+          "canonical_last": 103,
+          "moltype": "Protein_chain_A",
+          "CA_atoms": 101,
+          "atoms": 1603,
+          "atom_index_first_one_based": 1,
+          "atom_index_last_one_based": 1603,
+          "contiguous_indices": true
+        },
+        "resnames": [
+          "ALA",
+          "ARG",
+          "ASP",
+          "GLN",
+          "GLU",
+          "GLY",
+          "HIS",
+          "ILE",
+          "LEU",
+          "LYS",
+          "MET",
+          "PHE",
+          "PRO",
+          "SER",
+          "THR",
+          "TYR",
+          "VAL"
+        ]
+      },
+      "Kinase": {
+        "atoms": 4577,
+        "hydrogen_mass_count": 2294,
+        "moltypes": [
+          "Protein_chain_D"
+        ],
+        "identified_protein": {
+          "uniprot": "O43353",
+          "identity": 1.0,
+          "observed_CA_coverage": 1.0,
+          "canonical_first": 8,
+          "canonical_last": 316,
+          "moltype": "Protein_chain_D",
+          "CA_atoms": 279,
+          "atoms": 4577,
+          "atom_index_first_one_based": 1604,
+          "atom_index_last_one_based": 6180,
+          "contiguous_indices": true
+        },
+        "resnames": [
+          "ALA",
+          "ARG",
+          "ASN",
+          "ASP",
+          "CYS",
+          "GLN",
+          "GLU",
+          "GLY",
+          "HIS",
+          "ILE",
+          "LEU",
+          "LYS",
+          "MET",
+          "PHE",
+          "PRO",
+          "SER",
+          "THR",
+          "TRP",
+          "TYR",
+          "VAL"
+        ]
+      }
+    },
+    "legacy_label_VHL_is_true_VHL": false,
+    "legacy_Kinase_matches_expected_POI": true,
+    "sequence_identified_VHL": {
+      "uniprot": "P40337",
+      "identity": 1.0,
+      "observed_CA_coverage": 1.0,
+      "canonical_first": 62,
+      "canonical_last": 202,
+      "moltype": "Protein_chain_C",
+      "CA_atoms": 140,
+      "atoms": 2300,
+      "atom_index_first_one_based": 7549,
+      "atom_index_last_one_based": 9848,
+      "contiguous_indices": true
+    },
+    "sequence_identified_POI": {
+      "uniprot": "O43353",
+      "identity": 1.0,
+      "observed_CA_coverage": 1.0,
+      "canonical_first": 8,
+      "canonical_last": 316,
+      "moltype": "Protein_chain_D",
+      "CA_atoms": 279,
+      "atoms": 4577,
+      "atom_index_first_one_based": 1604,
+      "atom_index_last_one_based": 6180,
+      "contiguous_indices": true
+    }
+  },
+  {
+    "poi": "RIPK2_full",
+    "pose_id": "pose009",
+    "source_sha256": {
+      "tpr": "b579a0947f7964c9d3df8e16e93e54c28307369bcf4421d1ed9d14bbeb5a6a9e",
+      "index": "04e950350429486c651ecfdd0b46922ba00bf14b00e7b2b47b95a117e353e5c0"
+    },
+    "proteins": {
+      "Protein_chain_A": {
+        "uniprot": "Q15370",
+        "identity": 1.0,
+        "observed_CA_coverage": 1.0,
+        "canonical_first": 1,
+        "canonical_last": 103,
+        "moltype": "Protein_chain_A",
+        "CA_atoms": 101,
+        "atoms": 1603,
+        "atom_index_first_one_based": 1,
+        "atom_index_last_one_based": 1603,
+        "contiguous_indices": true
+      },
+      "Protein_chain_B": {
+        "uniprot": "Q15369",
+        "identity": 1.0,
+        "observed_CA_coverage": 1.0,
+        "canonical_first": 17,
+        "canonical_last": 111,
+        "moltype": "Protein_chain_B",
+        "CA_atoms": 85,
+        "atoms": 1368,
+        "atom_index_first_one_based": 6181,
+        "atom_index_last_one_based": 7548,
+        "contiguous_indices": true
+      },
+      "Protein_chain_C": {
+        "uniprot": "P40337",
+        "identity": 1.0,
+        "observed_CA_coverage": 1.0,
+        "canonical_first": 62,
+        "canonical_last": 202,
+        "moltype": "Protein_chain_C",
+        "CA_atoms": 140,
+        "atoms": 2300,
+        "atom_index_first_one_based": 7549,
+        "atom_index_last_one_based": 9848,
+        "contiguous_indices": true
+      },
+      "Protein_chain_D": {
+        "uniprot": "O43353",
+        "identity": 1.0,
+        "observed_CA_coverage": 1.0,
+        "canonical_first": 8,
+        "canonical_last": 316,
+        "moltype": "Protein_chain_D",
+        "CA_atoms": 279,
+        "atoms": 4577,
+        "atom_index_first_one_based": 1604,
+        "atom_index_last_one_based": 6180,
+        "contiguous_indices": true
+      }
+    },
+    "legacy_index_groups": {
+      "Other": {
+        "atoms": 144,
+        "hydrogen_mass_count": 65,
+        "moltypes": [
+          "SJF8240_3d"
+        ],
+        "identified_protein": null,
+        "resnames": [
+          "UNL"
+        ]
+      },
+      "VHL": {
+        "atoms": 1603,
+        "hydrogen_mass_count": 801,
+        "moltypes": [
+          "Protein_chain_A"
+        ],
+        "identified_protein": {
+          "uniprot": "Q15370",
+          "identity": 1.0,
+          "observed_CA_coverage": 1.0,
+          "canonical_first": 1,
+          "canonical_last": 103,
+          "moltype": "Protein_chain_A",
+          "CA_atoms": 101,
+          "atoms": 1603,
+          "atom_index_first_one_based": 1,
+          "atom_index_last_one_based": 1603,
+          "contiguous_indices": true
+        },
+        "resnames": [
+          "ALA",
+          "ARG",
+          "ASP",
+          "GLN",
+          "GLU",
+          "GLY",
+          "HIS",
+          "ILE",
+          "LEU",
+          "LYS",
+          "MET",
+          "PHE",
+          "PRO",
+          "SER",
+          "THR",
+          "TYR",
+          "VAL"
+        ]
+      },
+      "Kinase": {
+        "atoms": 4577,
+        "hydrogen_mass_count": 2294,
+        "moltypes": [
+          "Protein_chain_D"
+        ],
+        "identified_protein": {
+          "uniprot": "O43353",
+          "identity": 1.0,
+          "observed_CA_coverage": 1.0,
+          "canonical_first": 8,
+          "canonical_last": 316,
+          "moltype": "Protein_chain_D",
+          "CA_atoms": 279,
+          "atoms": 4577,
+          "atom_index_first_one_based": 1604,
+          "atom_index_last_one_based": 6180,
+          "contiguous_indices": true
+        },
+        "resnames": [
+          "ALA",
+          "ARG",
+          "ASN",
+          "ASP",
+          "CYS",
+          "GLN",
+          "GLU",
+          "GLY",
+          "HIS",
+          "ILE",
+          "LEU",
+          "LYS",
+          "MET",
+          "PHE",
+          "PRO",
+          "SER",
+          "THR",
+          "TRP",
+          "TYR",
+          "VAL"
+        ]
+      }
+    },
+    "legacy_label_VHL_is_true_VHL": false,
+    "legacy_Kinase_matches_expected_POI": true,
+    "sequence_identified_VHL": {
+      "uniprot": "P40337",
+      "identity": 1.0,
+      "observed_CA_coverage": 1.0,
+      "canonical_first": 62,
+      "canonical_last": 202,
+      "moltype": "Protein_chain_C",
+      "CA_atoms": 140,
+      "atoms": 2300,
+      "atom_index_first_one_based": 7549,
+      "atom_index_last_one_based": 9848,
+      "contiguous_indices": true
+    },
+    "sequence_identified_POI": {
+      "uniprot": "O43353",
+      "identity": 1.0,
+      "observed_CA_coverage": 1.0,
+      "canonical_first": 8,
+      "canonical_last": 316,
+      "moltype": "Protein_chain_D",
+      "CA_atoms": 279,
+      "atoms": 4577,
+      "atom_index_first_one_based": 1604,
+      "atom_index_last_one_based": 6180,
+      "contiguous_indices": true
+    }
+  },
+  {
+    "poi": "RIPK2_full",
+    "pose_id": "pose010",
+    "source_sha256": {
+      "tpr": "07a1c1f49b3fdb16eaf245a0cc784c8461a1954cde7595eeb74dd4e935032789",
+      "index": "62b8385cdb2f6b3441f064e9f113135d87ef8a7df3d07d80fb537cef2ae665fa"
+    },
+    "proteins": {
+      "Protein_chain_A": {
+        "uniprot": "Q15370",
+        "identity": 1.0,
+        "observed_CA_coverage": 1.0,
+        "canonical_first": 1,
+        "canonical_last": 103,
+        "moltype": "Protein_chain_A",
+        "CA_atoms": 101,
+        "atoms": 1603,
+        "atom_index_first_one_based": 1,
+        "atom_index_last_one_based": 1603,
+        "contiguous_indices": true
+      },
+      "Protein_chain_B": {
+        "uniprot": "Q15369",
+        "identity": 1.0,
+        "observed_CA_coverage": 1.0,
+        "canonical_first": 17,
+        "canonical_last": 111,
+        "moltype": "Protein_chain_B",
+        "CA_atoms": 85,
+        "atoms": 1368,
+        "atom_index_first_one_based": 6181,
+        "atom_index_last_one_based": 7548,
+        "contiguous_indices": true
+      },
+      "Protein_chain_C": {
+        "uniprot": "P40337",
+        "identity": 1.0,
+        "observed_CA_coverage": 1.0,
+        "canonical_first": 62,
+        "canonical_last": 202,
+        "moltype": "Protein_chain_C",
+        "CA_atoms": 140,
+        "atoms": 2300,
+        "atom_index_first_one_based": 7549,
+        "atom_index_last_one_based": 9848,
+        "contiguous_indices": true
+      },
+      "Protein_chain_D": {
+        "uniprot": "O43353",
+        "identity": 1.0,
+        "observed_CA_coverage": 1.0,
+        "canonical_first": 8,
+        "canonical_last": 316,
+        "moltype": "Protein_chain_D",
+        "CA_atoms": 279,
+        "atoms": 4577,
+        "atom_index_first_one_based": 1604,
+        "atom_index_last_one_based": 6180,
+        "contiguous_indices": true
+      }
+    },
+    "legacy_index_groups": {
+      "Other": {
+        "atoms": 144,
+        "hydrogen_mass_count": 65,
+        "moltypes": [
+          "SJF8240_3d"
+        ],
+        "identified_protein": null,
+        "resnames": [
+          "UNL"
+        ]
+      },
+      "VHL": {
+        "atoms": 1603,
+        "hydrogen_mass_count": 801,
+        "moltypes": [
+          "Protein_chain_A"
+        ],
+        "identified_protein": {
+          "uniprot": "Q15370",
+          "identity": 1.0,
+          "observed_CA_coverage": 1.0,
+          "canonical_first": 1,
+          "canonical_last": 103,
+          "moltype": "Protein_chain_A",
+          "CA_atoms": 101,
+          "atoms": 1603,
+          "atom_index_first_one_based": 1,
+          "atom_index_last_one_based": 1603,
+          "contiguous_indices": true
+        },
+        "resnames": [
+          "ALA",
+          "ARG",
+          "ASP",
+          "GLN",
+          "GLU",
+          "GLY",
+          "HIS",
+          "ILE",
+          "LEU",
+          "LYS",
+          "MET",
+          "PHE",
+          "PRO",
+          "SER",
+          "THR",
+          "TYR",
+          "VAL"
+        ]
+      },
+      "Kinase": {
+        "atoms": 4577,
+        "hydrogen_mass_count": 2294,
+        "moltypes": [
+          "Protein_chain_D"
+        ],
+        "identified_protein": {
+          "uniprot": "O43353",
+          "identity": 1.0,
+          "observed_CA_coverage": 1.0,
+          "canonical_first": 8,
+          "canonical_last": 316,
+          "moltype": "Protein_chain_D",
+          "CA_atoms": 279,
+          "atoms": 4577,
+          "atom_index_first_one_based": 1604,
+          "atom_index_last_one_based": 6180,
+          "contiguous_indices": true
+        },
+        "resnames": [
+          "ALA",
+          "ARG",
+          "ASN",
+          "ASP",
+          "CYS",
+          "GLN",
+          "GLU",
+          "GLY",
+          "HIS",
+          "ILE",
+          "LEU",
+          "LYS",
+          "MET",
+          "PHE",
+          "PRO",
+          "SER",
+          "THR",
+          "TRP",
+          "TYR",
+          "VAL"
+        ]
+      }
+    },
+    "legacy_label_VHL_is_true_VHL": false,
+    "legacy_Kinase_matches_expected_POI": true,
+    "sequence_identified_VHL": {
+      "uniprot": "P40337",
+      "identity": 1.0,
+      "observed_CA_coverage": 1.0,
+      "canonical_first": 62,
+      "canonical_last": 202,
+      "moltype": "Protein_chain_C",
+      "CA_atoms": 140,
+      "atoms": 2300,
+      "atom_index_first_one_based": 7549,
+      "atom_index_last_one_based": 9848,
+      "contiguous_indices": true
+    },
+    "sequence_identified_POI": {
+      "uniprot": "O43353",
+      "identity": 1.0,
+      "observed_CA_coverage": 1.0,
+      "canonical_first": 8,
+      "canonical_last": 316,
+      "moltype": "Protein_chain_D",
+      "CA_atoms": 279,
+      "atoms": 4577,
+      "atom_index_first_one_based": 1604,
+      "atom_index_last_one_based": 6180,
+      "contiguous_indices": true
+    }
+  },
+  {
+    "poi": "RIPK2_full",
+    "pose_id": "pose011",
+    "source_sha256": {
+      "tpr": "48db67d4111c036297c91a8fb5328877f6cbd40d1d1eddd91f011446666ca2a9",
+      "index": "7afbe9403d38365d48f33d651128c5b84551a03837e41580b900a61876bff7fe"
+    },
+    "proteins": {
+      "Protein_chain_A": {
+        "uniprot": "Q15370",
+        "identity": 1.0,
+        "observed_CA_coverage": 1.0,
+        "canonical_first": 1,
+        "canonical_last": 103,
+        "moltype": "Protein_chain_A",
+        "CA_atoms": 101,
+        "atoms": 1603,
+        "atom_index_first_one_based": 1,
+        "atom_index_last_one_based": 1603,
+        "contiguous_indices": true
+      },
+      "Protein_chain_B": {
+        "uniprot": "Q15369",
+        "identity": 1.0,
+        "observed_CA_coverage": 1.0,
+        "canonical_first": 17,
+        "canonical_last": 111,
+        "moltype": "Protein_chain_B",
+        "CA_atoms": 85,
+        "atoms": 1368,
+        "atom_index_first_one_based": 6181,
+        "atom_index_last_one_based": 7548,
+        "contiguous_indices": true
+      },
+      "Protein_chain_C": {
+        "uniprot": "P40337",
+        "identity": 1.0,
+        "observed_CA_coverage": 1.0,
+        "canonical_first": 62,
+        "canonical_last": 202,
+        "moltype": "Protein_chain_C",
+        "CA_atoms": 140,
+        "atoms": 2300,
+        "atom_index_first_one_based": 7549,
+        "atom_index_last_one_based": 9848,
+        "contiguous_indices": true
+      },
+      "Protein_chain_D": {
+        "uniprot": "O43353",
+        "identity": 1.0,
+        "observed_CA_coverage": 1.0,
+        "canonical_first": 8,
+        "canonical_last": 316,
+        "moltype": "Protein_chain_D",
+        "CA_atoms": 279,
+        "atoms": 4577,
+        "atom_index_first_one_based": 1604,
+        "atom_index_last_one_based": 6180,
+        "contiguous_indices": true
+      }
+    },
+    "legacy_index_groups": {
+      "Other": {
+        "atoms": 144,
+        "hydrogen_mass_count": 65,
+        "moltypes": [
+          "SJF8240_3d"
+        ],
+        "identified_protein": null,
+        "resnames": [
+          "UNL"
+        ]
+      },
+      "VHL": {
+        "atoms": 1603,
+        "hydrogen_mass_count": 801,
+        "moltypes": [
+          "Protein_chain_A"
+        ],
+        "identified_protein": {
+          "uniprot": "Q15370",
+          "identity": 1.0,
+          "observed_CA_coverage": 1.0,
+          "canonical_first": 1,
+          "canonical_last": 103,
+          "moltype": "Protein_chain_A",
+          "CA_atoms": 101,
+          "atoms": 1603,
+          "atom_index_first_one_based": 1,
+          "atom_index_last_one_based": 1603,
+          "contiguous_indices": true
+        },
+        "resnames": [
+          "ALA",
+          "ARG",
+          "ASP",
+          "GLN",
+          "GLU",
+          "GLY",
+          "HIS",
+          "ILE",
+          "LEU",
+          "LYS",
+          "MET",
+          "PHE",
+          "PRO",
+          "SER",
+          "THR",
+          "TYR",
+          "VAL"
+        ]
+      },
+      "Kinase": {
+        "atoms": 4577,
+        "hydrogen_mass_count": 2294,
+        "moltypes": [
+          "Protein_chain_D"
+        ],
+        "identified_protein": {
+          "uniprot": "O43353",
+          "identity": 1.0,
+          "observed_CA_coverage": 1.0,
+          "canonical_first": 8,
+          "canonical_last": 316,
+          "moltype": "Protein_chain_D",
+          "CA_atoms": 279,
+          "atoms": 4577,
+          "atom_index_first_one_based": 1604,
+          "atom_index_last_one_based": 6180,
+          "contiguous_indices": true
+        },
+        "resnames": [
+          "ALA",
+          "ARG",
+          "ASN",
+          "ASP",
+          "CYS",
+          "GLN",
+          "GLU",
+          "GLY",
+          "HIS",
+          "ILE",
+          "LEU",
+          "LYS",
+          "MET",
+          "PHE",
+          "PRO",
+          "SER",
+          "THR",
+          "TRP",
+          "TYR",
+          "VAL"
+        ]
+      }
+    },
+    "legacy_label_VHL_is_true_VHL": false,
+    "legacy_Kinase_matches_expected_POI": true,
+    "sequence_identified_VHL": {
+      "uniprot": "P40337",
+      "identity": 1.0,
+      "observed_CA_coverage": 1.0,
+      "canonical_first": 62,
+      "canonical_last": 202,
+      "moltype": "Protein_chain_C",
+      "CA_atoms": 140,
+      "atoms": 2300,
+      "atom_index_first_one_based": 7549,
+      "atom_index_last_one_based": 9848,
+      "contiguous_indices": true
+    },
+    "sequence_identified_POI": {
+      "uniprot": "O43353",
+      "identity": 1.0,
+      "observed_CA_coverage": 1.0,
+      "canonical_first": 8,
+      "canonical_last": 316,
+      "moltype": "Protein_chain_D",
+      "CA_atoms": 279,
+      "atoms": 4577,
+      "atom_index_first_one_based": 1604,
+      "atom_index_last_one_based": 6180,
+      "contiguous_indices": true
+    }
+  },
+  {
+    "poi": "RIPK2_full",
+    "pose_id": "pose012",
+    "source_sha256": {
+      "tpr": "26794a37de7860487866849f8f6ea5e1ea94ec11136d18f98ceba847dcb78f5e",
+      "index": "43635cfcfa5e3b28351c62b796ac3357ee2caae9ef4846b65c56eeedcd59ff13"
+    },
+    "proteins": {
+      "Protein_chain_A": {
+        "uniprot": "Q15370",
+        "identity": 1.0,
+        "observed_CA_coverage": 1.0,
+        "canonical_first": 1,
+        "canonical_last": 103,
+        "moltype": "Protein_chain_A",
+        "CA_atoms": 101,
+        "atoms": 1603,
+        "atom_index_first_one_based": 1,
+        "atom_index_last_one_based": 1603,
+        "contiguous_indices": true
+      },
+      "Protein_chain_B": {
+        "uniprot": "Q15369",
+        "identity": 1.0,
+        "observed_CA_coverage": 1.0,
+        "canonical_first": 17,
+        "canonical_last": 111,
+        "moltype": "Protein_chain_B",
+        "CA_atoms": 85,
+        "atoms": 1368,
+        "atom_index_first_one_based": 6181,
+        "atom_index_last_one_based": 7548,
+        "contiguous_indices": true
+      },
+      "Protein_chain_C": {
+        "uniprot": "P40337",
+        "identity": 1.0,
+        "observed_CA_coverage": 1.0,
+        "canonical_first": 62,
+        "canonical_last": 202,
+        "moltype": "Protein_chain_C",
+        "CA_atoms": 140,
+        "atoms": 2300,
+        "atom_index_first_one_based": 7549,
+        "atom_index_last_one_based": 9848,
+        "contiguous_indices": true
+      },
+      "Protein_chain_D": {
+        "uniprot": "O43353",
+        "identity": 1.0,
+        "observed_CA_coverage": 1.0,
+        "canonical_first": 8,
+        "canonical_last": 316,
+        "moltype": "Protein_chain_D",
+        "CA_atoms": 279,
+        "atoms": 4577,
+        "atom_index_first_one_based": 1604,
+        "atom_index_last_one_based": 6180,
+        "contiguous_indices": true
+      }
+    },
+    "legacy_index_groups": {
+      "Other": {
+        "atoms": 144,
+        "hydrogen_mass_count": 65,
+        "moltypes": [
+          "SJF8240_3d"
+        ],
+        "identified_protein": null,
+        "resnames": [
+          "UNL"
+        ]
+      },
+      "VHL": {
+        "atoms": 1603,
+        "hydrogen_mass_count": 801,
+        "moltypes": [
+          "Protein_chain_A"
+        ],
+        "identified_protein": {
+          "uniprot": "Q15370",
+          "identity": 1.0,
+          "observed_CA_coverage": 1.0,
+          "canonical_first": 1,
+          "canonical_last": 103,
+          "moltype": "Protein_chain_A",
+          "CA_atoms": 101,
+          "atoms": 1603,
+          "atom_index_first_one_based": 1,
+          "atom_index_last_one_based": 1603,
+          "contiguous_indices": true
+        },
+        "resnames": [
+          "ALA",
+          "ARG",
+          "ASP",
+          "GLN",
+          "GLU",
+          "GLY",
+          "HIS",
+          "ILE",
+          "LEU",
+          "LYS",
+          "MET",
+          "PHE",
+          "PRO",
+          "SER",
+          "THR",
+          "TYR",
+          "VAL"
+        ]
+      },
+      "Kinase": {
+        "atoms": 4577,
+        "hydrogen_mass_count": 2294,
+        "moltypes": [
+          "Protein_chain_D"
+        ],
+        "identified_protein": {
+          "uniprot": "O43353",
+          "identity": 1.0,
+          "observed_CA_coverage": 1.0,
+          "canonical_first": 8,
+          "canonical_last": 316,
+          "moltype": "Protein_chain_D",
+          "CA_atoms": 279,
+          "atoms": 4577,
+          "atom_index_first_one_based": 1604,
+          "atom_index_last_one_based": 6180,
+          "contiguous_indices": true
+        },
+        "resnames": [
+          "ALA",
+          "ARG",
+          "ASN",
+          "ASP",
+          "CYS",
+          "GLN",
+          "GLU",
+          "GLY",
+          "HIS",
+          "ILE",
+          "LEU",
+          "LYS",
+          "MET",
+          "PHE",
+          "PRO",
+          "SER",
+          "THR",
+          "TRP",
+          "TYR",
+          "VAL"
+        ]
+      }
+    },
+    "legacy_label_VHL_is_true_VHL": false,
+    "legacy_Kinase_matches_expected_POI": true,
+    "sequence_identified_VHL": {
+      "uniprot": "P40337",
+      "identity": 1.0,
+      "observed_CA_coverage": 1.0,
+      "canonical_first": 62,
+      "canonical_last": 202,
+      "moltype": "Protein_chain_C",
+      "CA_atoms": 140,
+      "atoms": 2300,
+      "atom_index_first_one_based": 7549,
+      "atom_index_last_one_based": 9848,
+      "contiguous_indices": true
+    },
+    "sequence_identified_POI": {
+      "uniprot": "O43353",
+      "identity": 1.0,
+      "observed_CA_coverage": 1.0,
+      "canonical_first": 8,
+      "canonical_last": 316,
+      "moltype": "Protein_chain_D",
+      "CA_atoms": 279,
+      "atoms": 4577,
+      "atom_index_first_one_based": 1604,
+      "atom_index_last_one_based": 6180,
+      "contiguous_indices": true
+    }
+  },
+  {
+    "poi": "RIPK2_full",
+    "pose_id": "pose015",
+    "source_sha256": {
+      "tpr": "fbec2b61f4ce1e6c4bc36a7576dc9d1e0d430bd49ba81781617696392811001d",
+      "index": "da69ee0101931c5e1f1b8a4ebc95e84c7e00f1dc541ecc977fc13cbae58b1742"
+    },
+    "proteins": {
+      "Protein_chain_A": {
+        "uniprot": "Q15370",
+        "identity": 1.0,
+        "observed_CA_coverage": 1.0,
+        "canonical_first": 1,
+        "canonical_last": 103,
+        "moltype": "Protein_chain_A",
+        "CA_atoms": 101,
+        "atoms": 1603,
+        "atom_index_first_one_based": 1,
+        "atom_index_last_one_based": 1603,
+        "contiguous_indices": true
+      },
+      "Protein_chain_B": {
+        "uniprot": "Q15369",
+        "identity": 1.0,
+        "observed_CA_coverage": 1.0,
+        "canonical_first": 17,
+        "canonical_last": 111,
+        "moltype": "Protein_chain_B",
+        "CA_atoms": 85,
+        "atoms": 1368,
+        "atom_index_first_one_based": 6181,
+        "atom_index_last_one_based": 7548,
+        "contiguous_indices": true
+      },
+      "Protein_chain_C": {
+        "uniprot": "P40337",
+        "identity": 1.0,
+        "observed_CA_coverage": 1.0,
+        "canonical_first": 62,
+        "canonical_last": 202,
+        "moltype": "Protein_chain_C",
+        "CA_atoms": 140,
+        "atoms": 2300,
+        "atom_index_first_one_based": 7549,
+        "atom_index_last_one_based": 9848,
+        "contiguous_indices": true
+      },
+      "Protein_chain_D": {
+        "uniprot": "O43353",
+        "identity": 1.0,
+        "observed_CA_coverage": 1.0,
+        "canonical_first": 8,
+        "canonical_last": 316,
+        "moltype": "Protein_chain_D",
+        "CA_atoms": 279,
+        "atoms": 4577,
+        "atom_index_first_one_based": 1604,
+        "atom_index_last_one_based": 6180,
+        "contiguous_indices": true
+      }
+    },
+    "legacy_index_groups": {
+      "Other": {
+        "atoms": 144,
+        "hydrogen_mass_count": 65,
+        "moltypes": [
+          "SJF8240_3d"
+        ],
+        "identified_protein": null,
+        "resnames": [
+          "UNL"
+        ]
+      },
+      "VHL": {
+        "atoms": 1603,
+        "hydrogen_mass_count": 801,
+        "moltypes": [
+          "Protein_chain_A"
+        ],
+        "identified_protein": {
+          "uniprot": "Q15370",
+          "identity": 1.0,
+          "observed_CA_coverage": 1.0,
+          "canonical_first": 1,
+          "canonical_last": 103,
+          "moltype": "Protein_chain_A",
+          "CA_atoms": 101,
+          "atoms": 1603,
+          "atom_index_first_one_based": 1,
+          "atom_index_last_one_based": 1603,
+          "contiguous_indices": true
+        },
+        "resnames": [
+          "ALA",
+          "ARG",
+          "ASP",
+          "GLN",
+          "GLU",
+          "GLY",
+          "HIS",
+          "ILE",
+          "LEU",
+          "LYS",
+          "MET",
+          "PHE",
+          "PRO",
+          "SER",
+          "THR",
+          "TYR",
+          "VAL"
+        ]
+      },
+      "Kinase": {
+        "atoms": 4577,
+        "hydrogen_mass_count": 2294,
+        "moltypes": [
+          "Protein_chain_D"
+        ],
+        "identified_protein": {
+          "uniprot": "O43353",
+          "identity": 1.0,
+          "observed_CA_coverage": 1.0,
+          "canonical_first": 8,
+          "canonical_last": 316,
+          "moltype": "Protein_chain_D",
+          "CA_atoms": 279,
+          "atoms": 4577,
+          "atom_index_first_one_based": 1604,
+          "atom_index_last_one_based": 6180,
+          "contiguous_indices": true
+        },
+        "resnames": [
+          "ALA",
+          "ARG",
+          "ASN",
+          "ASP",
+          "CYS",
+          "GLN",
+          "GLU",
+          "GLY",
+          "HIS",
+          "ILE",
+          "LEU",
+          "LYS",
+          "MET",
+          "PHE",
+          "PRO",
+          "SER",
+          "THR",
+          "TRP",
+          "TYR",
+          "VAL"
+        ]
+      }
+    },
+    "legacy_label_VHL_is_true_VHL": false,
+    "legacy_Kinase_matches_expected_POI": true,
+    "sequence_identified_VHL": {
+      "uniprot": "P40337",
+      "identity": 1.0,
+      "observed_CA_coverage": 1.0,
+      "canonical_first": 62,
+      "canonical_last": 202,
+      "moltype": "Protein_chain_C",
+      "CA_atoms": 140,
+      "atoms": 2300,
+      "atom_index_first_one_based": 7549,
+      "atom_index_last_one_based": 9848,
+      "contiguous_indices": true
+    },
+    "sequence_identified_POI": {
+      "uniprot": "O43353",
+      "identity": 1.0,
+      "observed_CA_coverage": 1.0,
+      "canonical_first": 8,
+      "canonical_last": 316,
+      "moltype": "Protein_chain_D",
+      "CA_atoms": 279,
+      "atoms": 4577,
+      "atom_index_first_one_based": 1604,
+      "atom_index_last_one_based": 6180,
+      "contiguous_indices": true
+    }
+  },
+  {
+    "poi": "RIPK2_full",
+    "pose_id": "pose016",
+    "source_sha256": {
+      "tpr": "8ac0e03c115fe0aa94c19d5fa661799eab548ad31255fcbf7b3a02c601ffa97a",
+      "index": "7ff70e7e9d0b7870883ce39b0506b081681f242bed97842ab146fb221b158236"
+    },
+    "proteins": {
+      "Protein_chain_A": {
+        "uniprot": "Q15370",
+        "identity": 1.0,
+        "observed_CA_coverage": 1.0,
+        "canonical_first": 1,
+        "canonical_last": 103,
+        "moltype": "Protein_chain_A",
+        "CA_atoms": 101,
+        "atoms": 1603,
+        "atom_index_first_one_based": 1,
+        "atom_index_last_one_based": 1603,
+        "contiguous_indices": true
+      },
+      "Protein_chain_B": {
+        "uniprot": "Q15369",
+        "identity": 1.0,
+        "observed_CA_coverage": 1.0,
+        "canonical_first": 17,
+        "canonical_last": 111,
+        "moltype": "Protein_chain_B",
+        "CA_atoms": 85,
+        "atoms": 1368,
+        "atom_index_first_one_based": 6181,
+        "atom_index_last_one_based": 7548,
+        "contiguous_indices": true
+      },
+      "Protein_chain_C": {
+        "uniprot": "P40337",
+        "identity": 1.0,
+        "observed_CA_coverage": 1.0,
+        "canonical_first": 62,
+        "canonical_last": 202,
+        "moltype": "Protein_chain_C",
+        "CA_atoms": 140,
+        "atoms": 2300,
+        "atom_index_first_one_based": 7549,
+        "atom_index_last_one_based": 9848,
+        "contiguous_indices": true
+      },
+      "Protein_chain_D": {
+        "uniprot": "O43353",
+        "identity": 1.0,
+        "observed_CA_coverage": 1.0,
+        "canonical_first": 8,
+        "canonical_last": 316,
+        "moltype": "Protein_chain_D",
+        "CA_atoms": 279,
+        "atoms": 4577,
+        "atom_index_first_one_based": 1604,
+        "atom_index_last_one_based": 6180,
+        "contiguous_indices": true
+      }
+    },
+    "legacy_index_groups": {
+      "Other": {
+        "atoms": 144,
+        "hydrogen_mass_count": 65,
+        "moltypes": [
+          "SJF8240_3d"
+        ],
+        "identified_protein": null,
+        "resnames": [
+          "UNL"
+        ]
+      },
+      "VHL": {
+        "atoms": 1603,
+        "hydrogen_mass_count": 801,
+        "moltypes": [
+          "Protein_chain_A"
+        ],
+        "identified_protein": {
+          "uniprot": "Q15370",
+          "identity": 1.0,
+          "observed_CA_coverage": 1.0,
+          "canonical_first": 1,
+          "canonical_last": 103,
+          "moltype": "Protein_chain_A",
+          "CA_atoms": 101,
+          "atoms": 1603,
+          "atom_index_first_one_based": 1,
+          "atom_index_last_one_based": 1603,
+          "contiguous_indices": true
+        },
+        "resnames": [
+          "ALA",
+          "ARG",
+          "ASP",
+          "GLN",
+          "GLU",
+          "GLY",
+          "HIS",
+          "ILE",
+          "LEU",
+          "LYS",
+          "MET",
+          "PHE",
+          "PRO",
+          "SER",
+          "THR",
+          "TYR",
+          "VAL"
+        ]
+      },
+      "Kinase": {
+        "atoms": 4577,
+        "hydrogen_mass_count": 2294,
+        "moltypes": [
+          "Protein_chain_D"
+        ],
+        "identified_protein": {
+          "uniprot": "O43353",
+          "identity": 1.0,
+          "observed_CA_coverage": 1.0,
+          "canonical_first": 8,
+          "canonical_last": 316,
+          "moltype": "Protein_chain_D",
+          "CA_atoms": 279,
+          "atoms": 4577,
+          "atom_index_first_one_based": 1604,
+          "atom_index_last_one_based": 6180,
+          "contiguous_indices": true
+        },
+        "resnames": [
+          "ALA",
+          "ARG",
+          "ASN",
+          "ASP",
+          "CYS",
+          "GLN",
+          "GLU",
+          "GLY",
+          "HIS",
+          "ILE",
+          "LEU",
+          "LYS",
+          "MET",
+          "PHE",
+          "PRO",
+          "SER",
+          "THR",
+          "TRP",
+          "TYR",
+          "VAL"
+        ]
+      }
+    },
+    "legacy_label_VHL_is_true_VHL": false,
+    "legacy_Kinase_matches_expected_POI": true,
+    "sequence_identified_VHL": {
+      "uniprot": "P40337",
+      "identity": 1.0,
+      "observed_CA_coverage": 1.0,
+      "canonical_first": 62,
+      "canonical_last": 202,
+      "moltype": "Protein_chain_C",
+      "CA_atoms": 140,
+      "atoms": 2300,
+      "atom_index_first_one_based": 7549,
+      "atom_index_last_one_based": 9848,
+      "contiguous_indices": true
+    },
+    "sequence_identified_POI": {
+      "uniprot": "O43353",
+      "identity": 1.0,
+      "observed_CA_coverage": 1.0,
+      "canonical_first": 8,
+      "canonical_last": 316,
+      "moltype": "Protein_chain_D",
+      "CA_atoms": 279,
+      "atoms": 4577,
+      "atom_index_first_one_based": 1604,
+      "atom_index_last_one_based": 6180,
+      "contiguous_indices": true
+    }
+  },
+  {
+    "poi": "RIPK2_full",
+    "pose_id": "pose017",
+    "source_sha256": {
+      "tpr": "e84dd61ddd0972cd5f6aff3104e12e339d04d2876c25752c33222a2249605906",
+      "index": "87f776405c0abd982289eb45d30473a7baaeaab7c86088636efbbf7847e4fddb"
+    },
+    "proteins": {
+      "Protein_chain_A": {
+        "uniprot": "Q15370",
+        "identity": 1.0,
+        "observed_CA_coverage": 1.0,
+        "canonical_first": 1,
+        "canonical_last": 103,
+        "moltype": "Protein_chain_A",
+        "CA_atoms": 101,
+        "atoms": 1603,
+        "atom_index_first_one_based": 1,
+        "atom_index_last_one_based": 1603,
+        "contiguous_indices": true
+      },
+      "Protein_chain_B": {
+        "uniprot": "Q15369",
+        "identity": 1.0,
+        "observed_CA_coverage": 1.0,
+        "canonical_first": 17,
+        "canonical_last": 111,
+        "moltype": "Protein_chain_B",
+        "CA_atoms": 85,
+        "atoms": 1368,
+        "atom_index_first_one_based": 6181,
+        "atom_index_last_one_based": 7548,
+        "contiguous_indices": true
+      },
+      "Protein_chain_C": {
+        "uniprot": "P40337",
+        "identity": 1.0,
+        "observed_CA_coverage": 1.0,
+        "canonical_first": 62,
+        "canonical_last": 202,
+        "moltype": "Protein_chain_C",
+        "CA_atoms": 140,
+        "atoms": 2300,
+        "atom_index_first_one_based": 7549,
+        "atom_index_last_one_based": 9848,
+        "contiguous_indices": true
+      },
+      "Protein_chain_D": {
+        "uniprot": "O43353",
+        "identity": 1.0,
+        "observed_CA_coverage": 1.0,
+        "canonical_first": 8,
+        "canonical_last": 316,
+        "moltype": "Protein_chain_D",
+        "CA_atoms": 279,
+        "atoms": 4577,
+        "atom_index_first_one_based": 1604,
+        "atom_index_last_one_based": 6180,
+        "contiguous_indices": true
+      }
+    },
+    "legacy_index_groups": {
+      "Other": {
+        "atoms": 144,
+        "hydrogen_mass_count": 65,
+        "moltypes": [
+          "SJF8240_3d"
+        ],
+        "identified_protein": null,
+        "resnames": [
+          "UNL"
+        ]
+      },
+      "VHL": {
+        "atoms": 1603,
+        "hydrogen_mass_count": 801,
+        "moltypes": [
+          "Protein_chain_A"
+        ],
+        "identified_protein": {
+          "uniprot": "Q15370",
+          "identity": 1.0,
+          "observed_CA_coverage": 1.0,
+          "canonical_first": 1,
+          "canonical_last": 103,
+          "moltype": "Protein_chain_A",
+          "CA_atoms": 101,
+          "atoms": 1603,
+          "atom_index_first_one_based": 1,
+          "atom_index_last_one_based": 1603,
+          "contiguous_indices": true
+        },
+        "resnames": [
+          "ALA",
+          "ARG",
+          "ASP",
+          "GLN",
+          "GLU",
+          "GLY",
+          "HIS",
+          "ILE",
+          "LEU",
+          "LYS",
+          "MET",
+          "PHE",
+          "PRO",
+          "SER",
+          "THR",
+          "TYR",
+          "VAL"
+        ]
+      },
+      "Kinase": {
+        "atoms": 4577,
+        "hydrogen_mass_count": 2294,
+        "moltypes": [
+          "Protein_chain_D"
+        ],
+        "identified_protein": {
+          "uniprot": "O43353",
+          "identity": 1.0,
+          "observed_CA_coverage": 1.0,
+          "canonical_first": 8,
+          "canonical_last": 316,
+          "moltype": "Protein_chain_D",
+          "CA_atoms": 279,
+          "atoms": 4577,
+          "atom_index_first_one_based": 1604,
+          "atom_index_last_one_based": 6180,
+          "contiguous_indices": true
+        },
+        "resnames": [
+          "ALA",
+          "ARG",
+          "ASN",
+          "ASP",
+          "CYS",
+          "GLN",
+          "GLU",
+          "GLY",
+          "HIS",
+          "ILE",
+          "LEU",
+          "LYS",
+          "MET",
+          "PHE",
+          "PRO",
+          "SER",
+          "THR",
+          "TRP",
+          "TYR",
+          "VAL"
+        ]
+      }
+    },
+    "legacy_label_VHL_is_true_VHL": false,
+    "legacy_Kinase_matches_expected_POI": true,
+    "sequence_identified_VHL": {
+      "uniprot": "P40337",
+      "identity": 1.0,
+      "observed_CA_coverage": 1.0,
+      "canonical_first": 62,
+      "canonical_last": 202,
+      "moltype": "Protein_chain_C",
+      "CA_atoms": 140,
+      "atoms": 2300,
+      "atom_index_first_one_based": 7549,
+      "atom_index_last_one_based": 9848,
+      "contiguous_indices": true
+    },
+    "sequence_identified_POI": {
+      "uniprot": "O43353",
+      "identity": 1.0,
+      "observed_CA_coverage": 1.0,
+      "canonical_first": 8,
+      "canonical_last": 316,
+      "moltype": "Protein_chain_D",
+      "CA_atoms": 279,
+      "atoms": 4577,
+      "atom_index_first_one_based": 1604,
+      "atom_index_last_one_based": 6180,
+      "contiguous_indices": true
+    }
+  },
+  {
+    "poi": "RIPK2_full",
+    "pose_id": "pose018",
+    "source_sha256": {
+      "tpr": "26f729dc120e1e93b8d85ca60b5b1114f5b7c4daa72af12a3d988a855a3af6fa",
+      "index": "c483dbb822473204e24857ac887ac45350248c483e9d3ed26210c5fa987aaaa6"
+    },
+    "proteins": {
+      "Protein_chain_A": {
+        "uniprot": "Q15370",
+        "identity": 1.0,
+        "observed_CA_coverage": 1.0,
+        "canonical_first": 1,
+        "canonical_last": 103,
+        "moltype": "Protein_chain_A",
+        "CA_atoms": 101,
+        "atoms": 1603,
+        "atom_index_first_one_based": 1,
+        "atom_index_last_one_based": 1603,
+        "contiguous_indices": true
+      },
+      "Protein_chain_B": {
+        "uniprot": "Q15369",
+        "identity": 1.0,
+        "observed_CA_coverage": 1.0,
+        "canonical_first": 17,
+        "canonical_last": 111,
+        "moltype": "Protein_chain_B",
+        "CA_atoms": 85,
+        "atoms": 1368,
+        "atom_index_first_one_based": 6181,
+        "atom_index_last_one_based": 7548,
+        "contiguous_indices": true
+      },
+      "Protein_chain_C": {
+        "uniprot": "P40337",
+        "identity": 1.0,
+        "observed_CA_coverage": 1.0,
+        "canonical_first": 62,
+        "canonical_last": 202,
+        "moltype": "Protein_chain_C",
+        "CA_atoms": 140,
+        "atoms": 2300,
+        "atom_index_first_one_based": 7549,
+        "atom_index_last_one_based": 9848,
+        "contiguous_indices": true
+      },
+      "Protein_chain_D": {
+        "uniprot": "O43353",
+        "identity": 1.0,
+        "observed_CA_coverage": 1.0,
+        "canonical_first": 8,
+        "canonical_last": 316,
+        "moltype": "Protein_chain_D",
+        "CA_atoms": 279,
+        "atoms": 4577,
+        "atom_index_first_one_based": 1604,
+        "atom_index_last_one_based": 6180,
+        "contiguous_indices": true
+      }
+    },
+    "legacy_index_groups": {
+      "Other": {
+        "atoms": 144,
+        "hydrogen_mass_count": 65,
+        "moltypes": [
+          "SJF8240_3d"
+        ],
+        "identified_protein": null,
+        "resnames": [
+          "UNL"
+        ]
+      },
+      "VHL": {
+        "atoms": 1603,
+        "hydrogen_mass_count": 801,
+        "moltypes": [
+          "Protein_chain_A"
+        ],
+        "identified_protein": {
+          "uniprot": "Q15370",
+          "identity": 1.0,
+          "observed_CA_coverage": 1.0,
+          "canonical_first": 1,
+          "canonical_last": 103,
+          "moltype": "Protein_chain_A",
+          "CA_atoms": 101,
+          "atoms": 1603,
+          "atom_index_first_one_based": 1,
+          "atom_index_last_one_based": 1603,
+          "contiguous_indices": true
+        },
+        "resnames": [
+          "ALA",
+          "ARG",
+          "ASP",
+          "GLN",
+          "GLU",
+          "GLY",
+          "HIS",
+          "ILE",
+          "LEU",
+          "LYS",
+          "MET",
+          "PHE",
+          "PRO",
+          "SER",
+          "THR",
+          "TYR",
+          "VAL"
+        ]
+      },
+      "Kinase": {
+        "atoms": 4577,
+        "hydrogen_mass_count": 2294,
+        "moltypes": [
+          "Protein_chain_D"
+        ],
+        "identified_protein": {
+          "uniprot": "O43353",
+          "identity": 1.0,
+          "observed_CA_coverage": 1.0,
+          "canonical_first": 8,
+          "canonical_last": 316,
+          "moltype": "Protein_chain_D",
+          "CA_atoms": 279,
+          "atoms": 4577,
+          "atom_index_first_one_based": 1604,
+          "atom_index_last_one_based": 6180,
+          "contiguous_indices": true
+        },
+        "resnames": [
+          "ALA",
+          "ARG",
+          "ASN",
+          "ASP",
+          "CYS",
+          "GLN",
+          "GLU",
+          "GLY",
+          "HIS",
+          "ILE",
+          "LEU",
+          "LYS",
+          "MET",
+          "PHE",
+          "PRO",
+          "SER",
+          "THR",
+          "TRP",
+          "TYR",
+          "VAL"
+        ]
+      }
+    },
+    "legacy_label_VHL_is_true_VHL": false,
+    "legacy_Kinase_matches_expected_POI": true,
+    "sequence_identified_VHL": {
+      "uniprot": "P40337",
+      "identity": 1.0,
+      "observed_CA_coverage": 1.0,
+      "canonical_first": 62,
+      "canonical_last": 202,
+      "moltype": "Protein_chain_C",
+      "CA_atoms": 140,
+      "atoms": 2300,
+      "atom_index_first_one_based": 7549,
+      "atom_index_last_one_based": 9848,
+      "contiguous_indices": true
+    },
+    "sequence_identified_POI": {
+      "uniprot": "O43353",
+      "identity": 1.0,
+      "observed_CA_coverage": 1.0,
+      "canonical_first": 8,
+      "canonical_last": 316,
+      "moltype": "Protein_chain_D",
+      "CA_atoms": 279,
+      "atoms": 4577,
+      "atom_index_first_one_based": 1604,
+      "atom_index_last_one_based": 6180,
+      "contiguous_indices": true
+    }
+  },
+  {
+    "poi": "RIPK2_full",
+    "pose_id": "pose019",
+    "source_sha256": {
+      "tpr": "a5925ef5f51ec1b3c82e526749db2276b59e6a066339b56d1eaef9482c1f10f6",
+      "index": "9b95a0505205052bf186af22c64d7623fe537f5b4134eb0f663bc3bc8d9039f0"
+    },
+    "proteins": {
+      "Protein_chain_A": {
+        "uniprot": "Q15370",
+        "identity": 1.0,
+        "observed_CA_coverage": 1.0,
+        "canonical_first": 1,
+        "canonical_last": 103,
+        "moltype": "Protein_chain_A",
+        "CA_atoms": 101,
+        "atoms": 1603,
+        "atom_index_first_one_based": 1,
+        "atom_index_last_one_based": 1603,
+        "contiguous_indices": true
+      },
+      "Protein_chain_B": {
+        "uniprot": "Q15369",
+        "identity": 1.0,
+        "observed_CA_coverage": 1.0,
+        "canonical_first": 17,
+        "canonical_last": 111,
+        "moltype": "Protein_chain_B",
+        "CA_atoms": 85,
+        "atoms": 1368,
+        "atom_index_first_one_based": 6181,
+        "atom_index_last_one_based": 7548,
+        "contiguous_indices": true
+      },
+      "Protein_chain_C": {
+        "uniprot": "P40337",
+        "identity": 1.0,
+        "observed_CA_coverage": 1.0,
+        "canonical_first": 62,
+        "canonical_last": 202,
+        "moltype": "Protein_chain_C",
+        "CA_atoms": 140,
+        "atoms": 2300,
+        "atom_index_first_one_based": 7549,
+        "atom_index_last_one_based": 9848,
+        "contiguous_indices": true
+      },
+      "Protein_chain_D": {
+        "uniprot": "O43353",
+        "identity": 1.0,
+        "observed_CA_coverage": 1.0,
+        "canonical_first": 8,
+        "canonical_last": 316,
+        "moltype": "Protein_chain_D",
+        "CA_atoms": 279,
+        "atoms": 4577,
+        "atom_index_first_one_based": 1604,
+        "atom_index_last_one_based": 6180,
+        "contiguous_indices": true
+      }
+    },
+    "legacy_index_groups": {
+      "Other": {
+        "atoms": 144,
+        "hydrogen_mass_count": 65,
+        "moltypes": [
+          "SJF8240_3d"
+        ],
+        "identified_protein": null,
+        "resnames": [
+          "UNL"
+        ]
+      },
+      "VHL": {
+        "atoms": 1603,
+        "hydrogen_mass_count": 801,
+        "moltypes": [
+          "Protein_chain_A"
+        ],
+        "identified_protein": {
+          "uniprot": "Q15370",
+          "identity": 1.0,
+          "observed_CA_coverage": 1.0,
+          "canonical_first": 1,
+          "canonical_last": 103,
+          "moltype": "Protein_chain_A",
+          "CA_atoms": 101,
+          "atoms": 1603,
+          "atom_index_first_one_based": 1,
+          "atom_index_last_one_based": 1603,
+          "contiguous_indices": true
+        },
+        "resnames": [
+          "ALA",
+          "ARG",
+          "ASP",
+          "GLN",
+          "GLU",
+          "GLY",
+          "HIS",
+          "ILE",
+          "LEU",
+          "LYS",
+          "MET",
+          "PHE",
+          "PRO",
+          "SER",
+          "THR",
+          "TYR",
+          "VAL"
+        ]
+      },
+      "Kinase": {
+        "atoms": 4577,
+        "hydrogen_mass_count": 2294,
+        "moltypes": [
+          "Protein_chain_D"
+        ],
+        "identified_protein": {
+          "uniprot": "O43353",
+          "identity": 1.0,
+          "observed_CA_coverage": 1.0,
+          "canonical_first": 8,
+          "canonical_last": 316,
+          "moltype": "Protein_chain_D",
+          "CA_atoms": 279,
+          "atoms": 4577,
+          "atom_index_first_one_based": 1604,
+          "atom_index_last_one_based": 6180,
+          "contiguous_indices": true
+        },
+        "resnames": [
+          "ALA",
+          "ARG",
+          "ASN",
+          "ASP",
+          "CYS",
+          "GLN",
+          "GLU",
+          "GLY",
+          "HIS",
+          "ILE",
+          "LEU",
+          "LYS",
+          "MET",
+          "PHE",
+          "PRO",
+          "SER",
+          "THR",
+          "TRP",
+          "TYR",
+          "VAL"
+        ]
+      }
+    },
+    "legacy_label_VHL_is_true_VHL": false,
+    "legacy_Kinase_matches_expected_POI": true,
+    "sequence_identified_VHL": {
+      "uniprot": "P40337",
+      "identity": 1.0,
+      "observed_CA_coverage": 1.0,
+      "canonical_first": 62,
+      "canonical_last": 202,
+      "moltype": "Protein_chain_C",
+      "CA_atoms": 140,
+      "atoms": 2300,
+      "atom_index_first_one_based": 7549,
+      "atom_index_last_one_based": 9848,
+      "contiguous_indices": true
+    },
+    "sequence_identified_POI": {
+      "uniprot": "O43353",
+      "identity": 1.0,
+      "observed_CA_coverage": 1.0,
+      "canonical_first": 8,
+      "canonical_last": 316,
+      "moltype": "Protein_chain_D",
+      "CA_atoms": 279,
+      "atoms": 4577,
+      "atom_index_first_one_based": 1604,
+      "atom_index_last_one_based": 6180,
+      "contiguous_indices": true
+    }
+  },
+  {
+    "poi": "RIPK2_full",
+    "pose_id": "pose020",
+    "source_sha256": {
+      "tpr": "1dbec3ba34d897b64b28323d8944ae5a19cfb4da95e662af4dd4171aa1ca6763",
+      "index": "9ea0f32dbe2002d4a9b49cb4f527803386f697df43773a640b04e714d35928f3"
+    },
+    "proteins": {
+      "Protein_chain_A": {
+        "uniprot": "Q15370",
+        "identity": 1.0,
+        "observed_CA_coverage": 1.0,
+        "canonical_first": 1,
+        "canonical_last": 103,
+        "moltype": "Protein_chain_A",
+        "CA_atoms": 101,
+        "atoms": 1603,
+        "atom_index_first_one_based": 1,
+        "atom_index_last_one_based": 1603,
+        "contiguous_indices": true
+      },
+      "Protein_chain_B": {
+        "uniprot": "Q15369",
+        "identity": 1.0,
+        "observed_CA_coverage": 1.0,
+        "canonical_first": 17,
+        "canonical_last": 111,
+        "moltype": "Protein_chain_B",
+        "CA_atoms": 85,
+        "atoms": 1368,
+        "atom_index_first_one_based": 6181,
+        "atom_index_last_one_based": 7548,
+        "contiguous_indices": true
+      },
+      "Protein_chain_C": {
+        "uniprot": "P40337",
+        "identity": 1.0,
+        "observed_CA_coverage": 1.0,
+        "canonical_first": 62,
+        "canonical_last": 202,
+        "moltype": "Protein_chain_C",
+        "CA_atoms": 140,
+        "atoms": 2300,
+        "atom_index_first_one_based": 7549,
+        "atom_index_last_one_based": 9848,
+        "contiguous_indices": true
+      },
+      "Protein_chain_D": {
+        "uniprot": "O43353",
+        "identity": 1.0,
+        "observed_CA_coverage": 1.0,
+        "canonical_first": 8,
+        "canonical_last": 316,
+        "moltype": "Protein_chain_D",
+        "CA_atoms": 279,
+        "atoms": 4577,
+        "atom_index_first_one_based": 1604,
+        "atom_index_last_one_based": 6180,
+        "contiguous_indices": true
+      }
+    },
+    "legacy_index_groups": {
+      "Other": {
+        "atoms": 144,
+        "hydrogen_mass_count": 65,
+        "moltypes": [
+          "SJF8240_3d"
+        ],
+        "identified_protein": null,
+        "resnames": [
+          "UNL"
+        ]
+      },
+      "VHL": {
+        "atoms": 1603,
+        "hydrogen_mass_count": 801,
+        "moltypes": [
+          "Protein_chain_A"
+        ],
+        "identified_protein": {
+          "uniprot": "Q15370",
+          "identity": 1.0,
+          "observed_CA_coverage": 1.0,
+          "canonical_first": 1,
+          "canonical_last": 103,
+          "moltype": "Protein_chain_A",
+          "CA_atoms": 101,
+          "atoms": 1603,
+          "atom_index_first_one_based": 1,
+          "atom_index_last_one_based": 1603,
+          "contiguous_indices": true
+        },
+        "resnames": [
+          "ALA",
+          "ARG",
+          "ASP",
+          "GLN",
+          "GLU",
+          "GLY",
+          "HIS",
+          "ILE",
+          "LEU",
+          "LYS",
+          "MET",
+          "PHE",
+          "PRO",
+          "SER",
+          "THR",
+          "TYR",
+          "VAL"
+        ]
+      },
+      "Kinase": {
+        "atoms": 4577,
+        "hydrogen_mass_count": 2294,
+        "moltypes": [
+          "Protein_chain_D"
+        ],
+        "identified_protein": {
+          "uniprot": "O43353",
+          "identity": 1.0,
+          "observed_CA_coverage": 1.0,
+          "canonical_first": 8,
+          "canonical_last": 316,
+          "moltype": "Protein_chain_D",
+          "CA_atoms": 279,
+          "atoms": 4577,
+          "atom_index_first_one_based": 1604,
+          "atom_index_last_one_based": 6180,
+          "contiguous_indices": true
+        },
+        "resnames": [
+          "ALA",
+          "ARG",
+          "ASN",
+          "ASP",
+          "CYS",
+          "GLN",
+          "GLU",
+          "GLY",
+          "HIS",
+          "ILE",
+          "LEU",
+          "LYS",
+          "MET",
+          "PHE",
+          "PRO",
+          "SER",
+          "THR",
+          "TRP",
+          "TYR",
+          "VAL"
+        ]
+      }
+    },
+    "legacy_label_VHL_is_true_VHL": false,
+    "legacy_Kinase_matches_expected_POI": true,
+    "sequence_identified_VHL": {
+      "uniprot": "P40337",
+      "identity": 1.0,
+      "observed_CA_coverage": 1.0,
+      "canonical_first": 62,
+      "canonical_last": 202,
+      "moltype": "Protein_chain_C",
+      "CA_atoms": 140,
+      "atoms": 2300,
+      "atom_index_first_one_based": 7549,
+      "atom_index_last_one_based": 9848,
+      "contiguous_indices": true
+    },
+    "sequence_identified_POI": {
+      "uniprot": "O43353",
+      "identity": 1.0,
+      "observed_CA_coverage": 1.0,
+      "canonical_first": 8,
+      "canonical_last": 316,
+      "moltype": "Protein_chain_D",
+      "CA_atoms": 279,
+      "atoms": 4577,
+      "atom_index_first_one_based": 1604,
+      "atom_index_last_one_based": 6180,
+      "contiguous_indices": true
+    }
+  },
+  {
+    "poi": "MAPK14_full",
+    "pose_id": "pose001",
+    "source_sha256": {
+      "tpr": "6a9bd9a4bdc140d440ee698bad9c682fcacc90bbca753db44ec868535d8dff21",
+      "index": "d0f4b5f405bcc05afc895699e85083c45094a7a19f995655b5bf71315f94379b"
+    },
+    "proteins": {
+      "Protein_chain_A": {
+        "uniprot": "Q15370",
+        "identity": 1.0,
+        "observed_CA_coverage": 1.0,
+        "canonical_first": 1,
+        "canonical_last": 103,
+        "moltype": "Protein_chain_A",
+        "CA_atoms": 101,
+        "atoms": 1603,
+        "atom_index_first_one_based": 1,
+        "atom_index_last_one_based": 1603,
+        "contiguous_indices": true
+      },
+      "Protein_chain_B": {
+        "uniprot": "Q15369",
+        "identity": 1.0,
+        "observed_CA_coverage": 1.0,
+        "canonical_first": 17,
+        "canonical_last": 111,
+        "moltype": "Protein_chain_B",
+        "CA_atoms": 85,
+        "atoms": 1368,
+        "atom_index_first_one_based": 7052,
+        "atom_index_last_one_based": 8419,
+        "contiguous_indices": true
+      },
+      "Protein_chain_C": {
+        "uniprot": "P40337",
+        "identity": 1.0,
+        "observed_CA_coverage": 1.0,
+        "canonical_first": 62,
+        "canonical_last": 202,
+        "moltype": "Protein_chain_C",
+        "CA_atoms": 140,
+        "atoms": 2300,
+        "atom_index_first_one_based": 8420,
+        "atom_index_last_one_based": 10719,
+        "contiguous_indices": true
+      },
+      "Protein_chain_D": {
+        "uniprot": "Q16539",
+        "identity": 0.9881305637982196,
+        "observed_CA_coverage": 1.0,
+        "canonical_first": 4,
+        "canonical_last": 352,
+        "moltype": "Protein_chain_D",
+        "CA_atoms": 337,
+        "atoms": 5448,
+        "atom_index_first_one_based": 1604,
+        "atom_index_last_one_based": 7051,
+        "contiguous_indices": true
+      }
+    },
+    "legacy_index_groups": {
+      "Other": {
+        "atoms": 144,
+        "hydrogen_mass_count": 65,
+        "moltypes": [
+          "SJF8240_3d"
+        ],
+        "identified_protein": null,
+        "resnames": [
+          "UNL"
+        ]
+      },
+      "VHL": {
+        "atoms": 1603,
+        "hydrogen_mass_count": 801,
+        "moltypes": [
+          "Protein_chain_A"
+        ],
+        "identified_protein": {
+          "uniprot": "Q15370",
+          "identity": 1.0,
+          "observed_CA_coverage": 1.0,
+          "canonical_first": 1,
+          "canonical_last": 103,
+          "moltype": "Protein_chain_A",
+          "CA_atoms": 101,
+          "atoms": 1603,
+          "atom_index_first_one_based": 1,
+          "atom_index_last_one_based": 1603,
+          "contiguous_indices": true
+        },
+        "resnames": [
+          "ALA",
+          "ARG",
+          "ASP",
+          "GLN",
+          "GLU",
+          "GLY",
+          "HIS",
+          "ILE",
+          "LEU",
+          "LYS",
+          "MET",
+          "PHE",
+          "PRO",
+          "SER",
+          "THR",
+          "TYR",
+          "VAL"
+        ]
+      },
+      "Kinase": {
+        "atoms": 5448,
+        "hydrogen_mass_count": 2728,
+        "moltypes": [
+          "Protein_chain_D"
+        ],
+        "identified_protein": {
+          "uniprot": "Q16539",
+          "identity": 0.9881305637982196,
+          "observed_CA_coverage": 1.0,
+          "canonical_first": 4,
+          "canonical_last": 352,
+          "moltype": "Protein_chain_D",
+          "CA_atoms": 337,
+          "atoms": 5448,
+          "atom_index_first_one_based": 1604,
+          "atom_index_last_one_based": 7051,
+          "contiguous_indices": true
+        },
+        "resnames": [
+          "ALA",
+          "ARG",
+          "ASN",
+          "ASP",
+          "CYS",
+          "GLN",
+          "GLU",
+          "GLY",
+          "HIS",
+          "ILE",
+          "LEU",
+          "LYS",
+          "MET",
+          "PHE",
+          "PRO",
+          "SER",
+          "THR",
+          "TRP",
+          "TYR",
+          "VAL"
+        ]
+      }
+    },
+    "legacy_label_VHL_is_true_VHL": false,
+    "legacy_Kinase_matches_expected_POI": true,
+    "sequence_identified_VHL": {
+      "uniprot": "P40337",
+      "identity": 1.0,
+      "observed_CA_coverage": 1.0,
+      "canonical_first": 62,
+      "canonical_last": 202,
+      "moltype": "Protein_chain_C",
+      "CA_atoms": 140,
+      "atoms": 2300,
+      "atom_index_first_one_based": 8420,
+      "atom_index_last_one_based": 10719,
+      "contiguous_indices": true
+    },
+    "sequence_identified_POI": {
+      "uniprot": "Q16539",
+      "identity": 0.9881305637982196,
+      "observed_CA_coverage": 1.0,
+      "canonical_first": 4,
+      "canonical_last": 352,
+      "moltype": "Protein_chain_D",
+      "CA_atoms": 337,
+      "atoms": 5448,
+      "atom_index_first_one_based": 1604,
+      "atom_index_last_one_based": 7051,
+      "contiguous_indices": true
+    }
+  },
+  {
+    "poi": "MAPK14_full",
+    "pose_id": "pose002",
+    "source_sha256": {
+      "tpr": "a37615b2d14841458810ce1379ed09b7546ff4ac009d90dd00a1f2029b36ee93",
+      "index": "a1ac4221066ac29960e49e42c7e168b9b8bde59ff3dbb9f45b9c208e286a38a7"
+    },
+    "proteins": {
+      "Protein_chain_A": {
+        "uniprot": "Q15370",
+        "identity": 1.0,
+        "observed_CA_coverage": 1.0,
+        "canonical_first": 1,
+        "canonical_last": 103,
+        "moltype": "Protein_chain_A",
+        "CA_atoms": 101,
+        "atoms": 1603,
+        "atom_index_first_one_based": 1,
+        "atom_index_last_one_based": 1603,
+        "contiguous_indices": true
+      },
+      "Protein_chain_B": {
+        "uniprot": "Q15369",
+        "identity": 1.0,
+        "observed_CA_coverage": 1.0,
+        "canonical_first": 17,
+        "canonical_last": 111,
+        "moltype": "Protein_chain_B",
+        "CA_atoms": 85,
+        "atoms": 1368,
+        "atom_index_first_one_based": 7052,
+        "atom_index_last_one_based": 8419,
+        "contiguous_indices": true
+      },
+      "Protein_chain_C": {
+        "uniprot": "P40337",
+        "identity": 1.0,
+        "observed_CA_coverage": 1.0,
+        "canonical_first": 62,
+        "canonical_last": 202,
+        "moltype": "Protein_chain_C",
+        "CA_atoms": 140,
+        "atoms": 2300,
+        "atom_index_first_one_based": 8420,
+        "atom_index_last_one_based": 10719,
+        "contiguous_indices": true
+      },
+      "Protein_chain_D": {
+        "uniprot": "Q16539",
+        "identity": 0.9881305637982196,
+        "observed_CA_coverage": 1.0,
+        "canonical_first": 4,
+        "canonical_last": 352,
+        "moltype": "Protein_chain_D",
+        "CA_atoms": 337,
+        "atoms": 5448,
+        "atom_index_first_one_based": 1604,
+        "atom_index_last_one_based": 7051,
+        "contiguous_indices": true
+      }
+    },
+    "legacy_index_groups": {
+      "Other": {
+        "atoms": 144,
+        "hydrogen_mass_count": 65,
+        "moltypes": [
+          "SJF8240_3d"
+        ],
+        "identified_protein": null,
+        "resnames": [
+          "UNL"
+        ]
+      },
+      "VHL": {
+        "atoms": 1603,
+        "hydrogen_mass_count": 801,
+        "moltypes": [
+          "Protein_chain_A"
+        ],
+        "identified_protein": {
+          "uniprot": "Q15370",
+          "identity": 1.0,
+          "observed_CA_coverage": 1.0,
+          "canonical_first": 1,
+          "canonical_last": 103,
+          "moltype": "Protein_chain_A",
+          "CA_atoms": 101,
+          "atoms": 1603,
+          "atom_index_first_one_based": 1,
+          "atom_index_last_one_based": 1603,
+          "contiguous_indices": true
+        },
+        "resnames": [
+          "ALA",
+          "ARG",
+          "ASP",
+          "GLN",
+          "GLU",
+          "GLY",
+          "HIS",
+          "ILE",
+          "LEU",
+          "LYS",
+          "MET",
+          "PHE",
+          "PRO",
+          "SER",
+          "THR",
+          "TYR",
+          "VAL"
+        ]
+      },
+      "Kinase": {
+        "atoms": 5448,
+        "hydrogen_mass_count": 2728,
+        "moltypes": [
+          "Protein_chain_D"
+        ],
+        "identified_protein": {
+          "uniprot": "Q16539",
+          "identity": 0.9881305637982196,
+          "observed_CA_coverage": 1.0,
+          "canonical_first": 4,
+          "canonical_last": 352,
+          "moltype": "Protein_chain_D",
+          "CA_atoms": 337,
+          "atoms": 5448,
+          "atom_index_first_one_based": 1604,
+          "atom_index_last_one_based": 7051,
+          "contiguous_indices": true
+        },
+        "resnames": [
+          "ALA",
+          "ARG",
+          "ASN",
+          "ASP",
+          "CYS",
+          "GLN",
+          "GLU",
+          "GLY",
+          "HIS",
+          "ILE",
+          "LEU",
+          "LYS",
+          "MET",
+          "PHE",
+          "PRO",
+          "SER",
+          "THR",
+          "TRP",
+          "TYR",
+          "VAL"
+        ]
+      }
+    },
+    "legacy_label_VHL_is_true_VHL": false,
+    "legacy_Kinase_matches_expected_POI": true,
+    "sequence_identified_VHL": {
+      "uniprot": "P40337",
+      "identity": 1.0,
+      "observed_CA_coverage": 1.0,
+      "canonical_first": 62,
+      "canonical_last": 202,
+      "moltype": "Protein_chain_C",
+      "CA_atoms": 140,
+      "atoms": 2300,
+      "atom_index_first_one_based": 8420,
+      "atom_index_last_one_based": 10719,
+      "contiguous_indices": true
+    },
+    "sequence_identified_POI": {
+      "uniprot": "Q16539",
+      "identity": 0.9881305637982196,
+      "observed_CA_coverage": 1.0,
+      "canonical_first": 4,
+      "canonical_last": 352,
+      "moltype": "Protein_chain_D",
+      "CA_atoms": 337,
+      "atoms": 5448,
+      "atom_index_first_one_based": 1604,
+      "atom_index_last_one_based": 7051,
+      "contiguous_indices": true
+    }
+  },
+  {
+    "poi": "MAPK14_full",
+    "pose_id": "pose003",
+    "source_sha256": {
+      "tpr": "cb10b277b9e90a1a86ed4d6147c5aca319ac8d5a50abe8096c9f30d9c320482a",
+      "index": "a9221230ebde9ca7f7664dcbb7f90c071243cdf58fe3b24b9e6b19f14948ccd7"
+    },
+    "proteins": {
+      "Protein_chain_A": {
+        "uniprot": "Q15370",
+        "identity": 1.0,
+        "observed_CA_coverage": 1.0,
+        "canonical_first": 1,
+        "canonical_last": 103,
+        "moltype": "Protein_chain_A",
+        "CA_atoms": 101,
+        "atoms": 1603,
+        "atom_index_first_one_based": 1,
+        "atom_index_last_one_based": 1603,
+        "contiguous_indices": true
+      },
+      "Protein_chain_B": {
+        "uniprot": "Q15369",
+        "identity": 1.0,
+        "observed_CA_coverage": 1.0,
+        "canonical_first": 17,
+        "canonical_last": 111,
+        "moltype": "Protein_chain_B",
+        "CA_atoms": 85,
+        "atoms": 1368,
+        "atom_index_first_one_based": 7052,
+        "atom_index_last_one_based": 8419,
+        "contiguous_indices": true
+      },
+      "Protein_chain_C": {
+        "uniprot": "P40337",
+        "identity": 1.0,
+        "observed_CA_coverage": 1.0,
+        "canonical_first": 62,
+        "canonical_last": 202,
+        "moltype": "Protein_chain_C",
+        "CA_atoms": 140,
+        "atoms": 2300,
+        "atom_index_first_one_based": 8420,
+        "atom_index_last_one_based": 10719,
+        "contiguous_indices": true
+      },
+      "Protein_chain_D": {
+        "uniprot": "Q16539",
+        "identity": 0.9881305637982196,
+        "observed_CA_coverage": 1.0,
+        "canonical_first": 4,
+        "canonical_last": 352,
+        "moltype": "Protein_chain_D",
+        "CA_atoms": 337,
+        "atoms": 5448,
+        "atom_index_first_one_based": 1604,
+        "atom_index_last_one_based": 7051,
+        "contiguous_indices": true
+      }
+    },
+    "legacy_index_groups": {
+      "Other": {
+        "atoms": 144,
+        "hydrogen_mass_count": 65,
+        "moltypes": [
+          "SJF8240_3d"
+        ],
+        "identified_protein": null,
+        "resnames": [
+          "UNL"
+        ]
+      },
+      "VHL": {
+        "atoms": 1603,
+        "hydrogen_mass_count": 801,
+        "moltypes": [
+          "Protein_chain_A"
+        ],
+        "identified_protein": {
+          "uniprot": "Q15370",
+          "identity": 1.0,
+          "observed_CA_coverage": 1.0,
+          "canonical_first": 1,
+          "canonical_last": 103,
+          "moltype": "Protein_chain_A",
+          "CA_atoms": 101,
+          "atoms": 1603,
+          "atom_index_first_one_based": 1,
+          "atom_index_last_one_based": 1603,
+          "contiguous_indices": true
+        },
+        "resnames": [
+          "ALA",
+          "ARG",
+          "ASP",
+          "GLN",
+          "GLU",
+          "GLY",
+          "HIS",
+          "ILE",
+          "LEU",
+          "LYS",
+          "MET",
+          "PHE",
+          "PRO",
+          "SER",
+          "THR",
+          "TYR",
+          "VAL"
+        ]
+      },
+      "Kinase": {
+        "atoms": 5448,
+        "hydrogen_mass_count": 2728,
+        "moltypes": [
+          "Protein_chain_D"
+        ],
+        "identified_protein": {
+          "uniprot": "Q16539",
+          "identity": 0.9881305637982196,
+          "observed_CA_coverage": 1.0,
+          "canonical_first": 4,
+          "canonical_last": 352,
+          "moltype": "Protein_chain_D",
+          "CA_atoms": 337,
+          "atoms": 5448,
+          "atom_index_first_one_based": 1604,
+          "atom_index_last_one_based": 7051,
+          "contiguous_indices": true
+        },
+        "resnames": [
+          "ALA",
+          "ARG",
+          "ASN",
+          "ASP",
+          "CYS",
+          "GLN",
+          "GLU",
+          "GLY",
+          "HIS",
+          "ILE",
+          "LEU",
+          "LYS",
+          "MET",
+          "PHE",
+          "PRO",
+          "SER",
+          "THR",
+          "TRP",
+          "TYR",
+          "VAL"
+        ]
+      }
+    },
+    "legacy_label_VHL_is_true_VHL": false,
+    "legacy_Kinase_matches_expected_POI": true,
+    "sequence_identified_VHL": {
+      "uniprot": "P40337",
+      "identity": 1.0,
+      "observed_CA_coverage": 1.0,
+      "canonical_first": 62,
+      "canonical_last": 202,
+      "moltype": "Protein_chain_C",
+      "CA_atoms": 140,
+      "atoms": 2300,
+      "atom_index_first_one_based": 8420,
+      "atom_index_last_one_based": 10719,
+      "contiguous_indices": true
+    },
+    "sequence_identified_POI": {
+      "uniprot": "Q16539",
+      "identity": 0.9881305637982196,
+      "observed_CA_coverage": 1.0,
+      "canonical_first": 4,
+      "canonical_last": 352,
+      "moltype": "Protein_chain_D",
+      "CA_atoms": 337,
+      "atoms": 5448,
+      "atom_index_first_one_based": 1604,
+      "atom_index_last_one_based": 7051,
+      "contiguous_indices": true
+    }
+  },
+  {
+    "poi": "MAPK14_full",
+    "pose_id": "pose004",
+    "source_sha256": {
+      "tpr": "57be33a50afc253620b5e4587c3098c422a5677150835fa5b49e4414083526d2",
+      "index": "7ad89349f30108f4cee0362a74b635b64b1662870bb56f39a2001cd1a51fcd00"
+    },
+    "proteins": {
+      "Protein_chain_A": {
+        "uniprot": "Q15370",
+        "identity": 1.0,
+        "observed_CA_coverage": 1.0,
+        "canonical_first": 1,
+        "canonical_last": 103,
+        "moltype": "Protein_chain_A",
+        "CA_atoms": 101,
+        "atoms": 1603,
+        "atom_index_first_one_based": 1,
+        "atom_index_last_one_based": 1603,
+        "contiguous_indices": true
+      },
+      "Protein_chain_B": {
+        "uniprot": "Q15369",
+        "identity": 1.0,
+        "observed_CA_coverage": 1.0,
+        "canonical_first": 17,
+        "canonical_last": 111,
+        "moltype": "Protein_chain_B",
+        "CA_atoms": 85,
+        "atoms": 1368,
+        "atom_index_first_one_based": 7052,
+        "atom_index_last_one_based": 8419,
+        "contiguous_indices": true
+      },
+      "Protein_chain_C": {
+        "uniprot": "P40337",
+        "identity": 1.0,
+        "observed_CA_coverage": 1.0,
+        "canonical_first": 62,
+        "canonical_last": 202,
+        "moltype": "Protein_chain_C",
+        "CA_atoms": 140,
+        "atoms": 2300,
+        "atom_index_first_one_based": 8420,
+        "atom_index_last_one_based": 10719,
+        "contiguous_indices": true
+      },
+      "Protein_chain_D": {
+        "uniprot": "Q16539",
+        "identity": 0.9881305637982196,
+        "observed_CA_coverage": 1.0,
+        "canonical_first": 4,
+        "canonical_last": 352,
+        "moltype": "Protein_chain_D",
+        "CA_atoms": 337,
+        "atoms": 5448,
+        "atom_index_first_one_based": 1604,
+        "atom_index_last_one_based": 7051,
+        "contiguous_indices": true
+      }
+    },
+    "legacy_index_groups": {
+      "Other": {
+        "atoms": 144,
+        "hydrogen_mass_count": 65,
+        "moltypes": [
+          "SJF8240_3d"
+        ],
+        "identified_protein": null,
+        "resnames": [
+          "UNL"
+        ]
+      },
+      "VHL": {
+        "atoms": 1603,
+        "hydrogen_mass_count": 801,
+        "moltypes": [
+          "Protein_chain_A"
+        ],
+        "identified_protein": {
+          "uniprot": "Q15370",
+          "identity": 1.0,
+          "observed_CA_coverage": 1.0,
+          "canonical_first": 1,
+          "canonical_last": 103,
+          "moltype": "Protein_chain_A",
+          "CA_atoms": 101,
+          "atoms": 1603,
+          "atom_index_first_one_based": 1,
+          "atom_index_last_one_based": 1603,
+          "contiguous_indices": true
+        },
+        "resnames": [
+          "ALA",
+          "ARG",
+          "ASP",
+          "GLN",
+          "GLU",
+          "GLY",
+          "HIS",
+          "ILE",
+          "LEU",
+          "LYS",
+          "MET",
+          "PHE",
+          "PRO",
+          "SER",
+          "THR",
+          "TYR",
+          "VAL"
+        ]
+      },
+      "Kinase": {
+        "atoms": 5448,
+        "hydrogen_mass_count": 2728,
+        "moltypes": [
+          "Protein_chain_D"
+        ],
+        "identified_protein": {
+          "uniprot": "Q16539",
+          "identity": 0.9881305637982196,
+          "observed_CA_coverage": 1.0,
+          "canonical_first": 4,
+          "canonical_last": 352,
+          "moltype": "Protein_chain_D",
+          "CA_atoms": 337,
+          "atoms": 5448,
+          "atom_index_first_one_based": 1604,
+          "atom_index_last_one_based": 7051,
+          "contiguous_indices": true
+        },
+        "resnames": [
+          "ALA",
+          "ARG",
+          "ASN",
+          "ASP",
+          "CYS",
+          "GLN",
+          "GLU",
+          "GLY",
+          "HIS",
+          "ILE",
+          "LEU",
+          "LYS",
+          "MET",
+          "PHE",
+          "PRO",
+          "SER",
+          "THR",
+          "TRP",
+          "TYR",
+          "VAL"
+        ]
+      }
+    },
+    "legacy_label_VHL_is_true_VHL": false,
+    "legacy_Kinase_matches_expected_POI": true,
+    "sequence_identified_VHL": {
+      "uniprot": "P40337",
+      "identity": 1.0,
+      "observed_CA_coverage": 1.0,
+      "canonical_first": 62,
+      "canonical_last": 202,
+      "moltype": "Protein_chain_C",
+      "CA_atoms": 140,
+      "atoms": 2300,
+      "atom_index_first_one_based": 8420,
+      "atom_index_last_one_based": 10719,
+      "contiguous_indices": true
+    },
+    "sequence_identified_POI": {
+      "uniprot": "Q16539",
+      "identity": 0.9881305637982196,
+      "observed_CA_coverage": 1.0,
+      "canonical_first": 4,
+      "canonical_last": 352,
+      "moltype": "Protein_chain_D",
+      "CA_atoms": 337,
+      "atoms": 5448,
+      "atom_index_first_one_based": 1604,
+      "atom_index_last_one_based": 7051,
+      "contiguous_indices": true
+    }
+  },
+  {
+    "poi": "MAPK14_full",
+    "pose_id": "pose005",
+    "source_sha256": {
+      "tpr": "27717625ebddc01c0f85bb76789c78e968e42c68d9c88e0a99a590134b5d7b4f",
+      "index": "13916433822ec06a9508fb3ee2a19fcdbb78ea8b667c2e2570bc3e8169838e53"
+    },
+    "proteins": {
+      "Protein_chain_A": {
+        "uniprot": "Q15370",
+        "identity": 1.0,
+        "observed_CA_coverage": 1.0,
+        "canonical_first": 1,
+        "canonical_last": 103,
+        "moltype": "Protein_chain_A",
+        "CA_atoms": 101,
+        "atoms": 1603,
+        "atom_index_first_one_based": 1,
+        "atom_index_last_one_based": 1603,
+        "contiguous_indices": true
+      },
+      "Protein_chain_B": {
+        "uniprot": "Q15369",
+        "identity": 1.0,
+        "observed_CA_coverage": 1.0,
+        "canonical_first": 17,
+        "canonical_last": 111,
+        "moltype": "Protein_chain_B",
+        "CA_atoms": 85,
+        "atoms": 1368,
+        "atom_index_first_one_based": 7052,
+        "atom_index_last_one_based": 8419,
+        "contiguous_indices": true
+      },
+      "Protein_chain_C": {
+        "uniprot": "P40337",
+        "identity": 1.0,
+        "observed_CA_coverage": 1.0,
+        "canonical_first": 62,
+        "canonical_last": 202,
+        "moltype": "Protein_chain_C",
+        "CA_atoms": 140,
+        "atoms": 2300,
+        "atom_index_first_one_based": 8420,
+        "atom_index_last_one_based": 10719,
+        "contiguous_indices": true
+      },
+      "Protein_chain_D": {
+        "uniprot": "Q16539",
+        "identity": 0.9881305637982196,
+        "observed_CA_coverage": 1.0,
+        "canonical_first": 4,
+        "canonical_last": 352,
+        "moltype": "Protein_chain_D",
+        "CA_atoms": 337,
+        "atoms": 5448,
+        "atom_index_first_one_based": 1604,
+        "atom_index_last_one_based": 7051,
+        "contiguous_indices": true
+      }
+    },
+    "legacy_index_groups": {
+      "Other": {
+        "atoms": 144,
+        "hydrogen_mass_count": 65,
+        "moltypes": [
+          "SJF8240_3d"
+        ],
+        "identified_protein": null,
+        "resnames": [
+          "UNL"
+        ]
+      },
+      "VHL": {
+        "atoms": 1603,
+        "hydrogen_mass_count": 801,
+        "moltypes": [
+          "Protein_chain_A"
+        ],
+        "identified_protein": {
+          "uniprot": "Q15370",
+          "identity": 1.0,
+          "observed_CA_coverage": 1.0,
+          "canonical_first": 1,
+          "canonical_last": 103,
+          "moltype": "Protein_chain_A",
+          "CA_atoms": 101,
+          "atoms": 1603,
+          "atom_index_first_one_based": 1,
+          "atom_index_last_one_based": 1603,
+          "contiguous_indices": true
+        },
+        "resnames": [
+          "ALA",
+          "ARG",
+          "ASP",
+          "GLN",
+          "GLU",
+          "GLY",
+          "HIS",
+          "ILE",
+          "LEU",
+          "LYS",
+          "MET",
+          "PHE",
+          "PRO",
+          "SER",
+          "THR",
+          "TYR",
+          "VAL"
+        ]
+      },
+      "Kinase": {
+        "atoms": 5448,
+        "hydrogen_mass_count": 2728,
+        "moltypes": [
+          "Protein_chain_D"
+        ],
+        "identified_protein": {
+          "uniprot": "Q16539",
+          "identity": 0.9881305637982196,
+          "observed_CA_coverage": 1.0,
+          "canonical_first": 4,
+          "canonical_last": 352,
+          "moltype": "Protein_chain_D",
+          "CA_atoms": 337,
+          "atoms": 5448,
+          "atom_index_first_one_based": 1604,
+          "atom_index_last_one_based": 7051,
+          "contiguous_indices": true
+        },
+        "resnames": [
+          "ALA",
+          "ARG",
+          "ASN",
+          "ASP",
+          "CYS",
+          "GLN",
+          "GLU",
+          "GLY",
+          "HIS",
+          "ILE",
+          "LEU",
+          "LYS",
+          "MET",
+          "PHE",
+          "PRO",
+          "SER",
+          "THR",
+          "TRP",
+          "TYR",
+          "VAL"
+        ]
+      }
+    },
+    "legacy_label_VHL_is_true_VHL": false,
+    "legacy_Kinase_matches_expected_POI": true,
+    "sequence_identified_VHL": {
+      "uniprot": "P40337",
+      "identity": 1.0,
+      "observed_CA_coverage": 1.0,
+      "canonical_first": 62,
+      "canonical_last": 202,
+      "moltype": "Protein_chain_C",
+      "CA_atoms": 140,
+      "atoms": 2300,
+      "atom_index_first_one_based": 8420,
+      "atom_index_last_one_based": 10719,
+      "contiguous_indices": true
+    },
+    "sequence_identified_POI": {
+      "uniprot": "Q16539",
+      "identity": 0.9881305637982196,
+      "observed_CA_coverage": 1.0,
+      "canonical_first": 4,
+      "canonical_last": 352,
+      "moltype": "Protein_chain_D",
+      "CA_atoms": 337,
+      "atoms": 5448,
+      "atom_index_first_one_based": 1604,
+      "atom_index_last_one_based": 7051,
+      "contiguous_indices": true
+    }
+  },
+  {
+    "poi": "MAPK14_full",
+    "pose_id": "pose006",
+    "source_sha256": {
+      "tpr": "dcf49263c4012192aace5b17215c5cf08032780f9e04d47f03261b200a1b5377",
+      "index": "7edd3dd97c2ec4b7b0cd87f885dce0bd7f9c5bf8c94386f2ffab4539674bb48d"
+    },
+    "proteins": {
+      "Protein_chain_A": {
+        "uniprot": "Q15370",
+        "identity": 1.0,
+        "observed_CA_coverage": 1.0,
+        "canonical_first": 1,
+        "canonical_last": 103,
+        "moltype": "Protein_chain_A",
+        "CA_atoms": 101,
+        "atoms": 1603,
+        "atom_index_first_one_based": 1,
+        "atom_index_last_one_based": 1603,
+        "contiguous_indices": true
+      },
+      "Protein_chain_B": {
+        "uniprot": "Q15369",
+        "identity": 1.0,
+        "observed_CA_coverage": 1.0,
+        "canonical_first": 17,
+        "canonical_last": 111,
+        "moltype": "Protein_chain_B",
+        "CA_atoms": 85,
+        "atoms": 1368,
+        "atom_index_first_one_based": 7052,
+        "atom_index_last_one_based": 8419,
+        "contiguous_indices": true
+      },
+      "Protein_chain_C": {
+        "uniprot": "P40337",
+        "identity": 1.0,
+        "observed_CA_coverage": 1.0,
+        "canonical_first": 62,
+        "canonical_last": 202,
+        "moltype": "Protein_chain_C",
+        "CA_atoms": 140,
+        "atoms": 2300,
+        "atom_index_first_one_based": 8420,
+        "atom_index_last_one_based": 10719,
+        "contiguous_indices": true
+      },
+      "Protein_chain_D": {
+        "uniprot": "Q16539",
+        "identity": 0.9881305637982196,
+        "observed_CA_coverage": 1.0,
+        "canonical_first": 4,
+        "canonical_last": 352,
+        "moltype": "Protein_chain_D",
+        "CA_atoms": 337,
+        "atoms": 5448,
+        "atom_index_first_one_based": 1604,
+        "atom_index_last_one_based": 7051,
+        "contiguous_indices": true
+      }
+    },
+    "legacy_index_groups": {
+      "Other": {
+        "atoms": 144,
+        "hydrogen_mass_count": 65,
+        "moltypes": [
+          "SJF8240_3d"
+        ],
+        "identified_protein": null,
+        "resnames": [
+          "UNL"
+        ]
+      },
+      "VHL": {
+        "atoms": 1603,
+        "hydrogen_mass_count": 801,
+        "moltypes": [
+          "Protein_chain_A"
+        ],
+        "identified_protein": {
+          "uniprot": "Q15370",
+          "identity": 1.0,
+          "observed_CA_coverage": 1.0,
+          "canonical_first": 1,
+          "canonical_last": 103,
+          "moltype": "Protein_chain_A",
+          "CA_atoms": 101,
+          "atoms": 1603,
+          "atom_index_first_one_based": 1,
+          "atom_index_last_one_based": 1603,
+          "contiguous_indices": true
+        },
+        "resnames": [
+          "ALA",
+          "ARG",
+          "ASP",
+          "GLN",
+          "GLU",
+          "GLY",
+          "HIS",
+          "ILE",
+          "LEU",
+          "LYS",
+          "MET",
+          "PHE",
+          "PRO",
+          "SER",
+          "THR",
+          "TYR",
+          "VAL"
+        ]
+      },
+      "Kinase": {
+        "atoms": 5448,
+        "hydrogen_mass_count": 2728,
+        "moltypes": [
+          "Protein_chain_D"
+        ],
+        "identified_protein": {
+          "uniprot": "Q16539",
+          "identity": 0.9881305637982196,
+          "observed_CA_coverage": 1.0,
+          "canonical_first": 4,
+          "canonical_last": 352,
+          "moltype": "Protein_chain_D",
+          "CA_atoms": 337,
+          "atoms": 5448,
+          "atom_index_first_one_based": 1604,
+          "atom_index_last_one_based": 7051,
+          "contiguous_indices": true
+        },
+        "resnames": [
+          "ALA",
+          "ARG",
+          "ASN",
+          "ASP",
+          "CYS",
+          "GLN",
+          "GLU",
+          "GLY",
+          "HIS",
+          "ILE",
+          "LEU",
+          "LYS",
+          "MET",
+          "PHE",
+          "PRO",
+          "SER",
+          "THR",
+          "TRP",
+          "TYR",
+          "VAL"
+        ]
+      }
+    },
+    "legacy_label_VHL_is_true_VHL": false,
+    "legacy_Kinase_matches_expected_POI": true,
+    "sequence_identified_VHL": {
+      "uniprot": "P40337",
+      "identity": 1.0,
+      "observed_CA_coverage": 1.0,
+      "canonical_first": 62,
+      "canonical_last": 202,
+      "moltype": "Protein_chain_C",
+      "CA_atoms": 140,
+      "atoms": 2300,
+      "atom_index_first_one_based": 8420,
+      "atom_index_last_one_based": 10719,
+      "contiguous_indices": true
+    },
+    "sequence_identified_POI": {
+      "uniprot": "Q16539",
+      "identity": 0.9881305637982196,
+      "observed_CA_coverage": 1.0,
+      "canonical_first": 4,
+      "canonical_last": 352,
+      "moltype": "Protein_chain_D",
+      "CA_atoms": 337,
+      "atoms": 5448,
+      "atom_index_first_one_based": 1604,
+      "atom_index_last_one_based": 7051,
+      "contiguous_indices": true
+    }
+  },
+  {
+    "poi": "MAPK14_full",
+    "pose_id": "pose007",
+    "source_sha256": {
+      "tpr": "d79a1b2cbd3ec970b651094b066817191dc02358653d56f47a01dc0a4077b4d6",
+      "index": "275ebb4359a0177d1c4126e37955525e3d61dffd30c0d85f2ba613de68ab174d"
+    },
+    "proteins": {
+      "Protein_chain_A": {
+        "uniprot": "Q15370",
+        "identity": 1.0,
+        "observed_CA_coverage": 1.0,
+        "canonical_first": 1,
+        "canonical_last": 103,
+        "moltype": "Protein_chain_A",
+        "CA_atoms": 101,
+        "atoms": 1603,
+        "atom_index_first_one_based": 1,
+        "atom_index_last_one_based": 1603,
+        "contiguous_indices": true
+      },
+      "Protein_chain_B": {
+        "uniprot": "Q15369",
+        "identity": 1.0,
+        "observed_CA_coverage": 1.0,
+        "canonical_first": 17,
+        "canonical_last": 111,
+        "moltype": "Protein_chain_B",
+        "CA_atoms": 85,
+        "atoms": 1368,
+        "atom_index_first_one_based": 7052,
+        "atom_index_last_one_based": 8419,
+        "contiguous_indices": true
+      },
+      "Protein_chain_C": {
+        "uniprot": "P40337",
+        "identity": 1.0,
+        "observed_CA_coverage": 1.0,
+        "canonical_first": 62,
+        "canonical_last": 202,
+        "moltype": "Protein_chain_C",
+        "CA_atoms": 140,
+        "atoms": 2300,
+        "atom_index_first_one_based": 8420,
+        "atom_index_last_one_based": 10719,
+        "contiguous_indices": true
+      },
+      "Protein_chain_D": {
+        "uniprot": "Q16539",
+        "identity": 0.9881305637982196,
+        "observed_CA_coverage": 1.0,
+        "canonical_first": 4,
+        "canonical_last": 352,
+        "moltype": "Protein_chain_D",
+        "CA_atoms": 337,
+        "atoms": 5448,
+        "atom_index_first_one_based": 1604,
+        "atom_index_last_one_based": 7051,
+        "contiguous_indices": true
+      }
+    },
+    "legacy_index_groups": {
+      "Other": {
+        "atoms": 144,
+        "hydrogen_mass_count": 65,
+        "moltypes": [
+          "SJF8240_3d"
+        ],
+        "identified_protein": null,
+        "resnames": [
+          "UNL"
+        ]
+      },
+      "VHL": {
+        "atoms": 1603,
+        "hydrogen_mass_count": 801,
+        "moltypes": [
+          "Protein_chain_A"
+        ],
+        "identified_protein": {
+          "uniprot": "Q15370",
+          "identity": 1.0,
+          "observed_CA_coverage": 1.0,
+          "canonical_first": 1,
+          "canonical_last": 103,
+          "moltype": "Protein_chain_A",
+          "CA_atoms": 101,
+          "atoms": 1603,
+          "atom_index_first_one_based": 1,
+          "atom_index_last_one_based": 1603,
+          "contiguous_indices": true
+        },
+        "resnames": [
+          "ALA",
+          "ARG",
+          "ASP",
+          "GLN",
+          "GLU",
+          "GLY",
+          "HIS",
+          "ILE",
+          "LEU",
+          "LYS",
+          "MET",
+          "PHE",
+          "PRO",
+          "SER",
+          "THR",
+          "TYR",
+          "VAL"
+        ]
+      },
+      "Kinase": {
+        "atoms": 5448,
+        "hydrogen_mass_count": 2728,
+        "moltypes": [
+          "Protein_chain_D"
+        ],
+        "identified_protein": {
+          "uniprot": "Q16539",
+          "identity": 0.9881305637982196,
+          "observed_CA_coverage": 1.0,
+          "canonical_first": 4,
+          "canonical_last": 352,
+          "moltype": "Protein_chain_D",
+          "CA_atoms": 337,
+          "atoms": 5448,
+          "atom_index_first_one_based": 1604,
+          "atom_index_last_one_based": 7051,
+          "contiguous_indices": true
+        },
+        "resnames": [
+          "ALA",
+          "ARG",
+          "ASN",
+          "ASP",
+          "CYS",
+          "GLN",
+          "GLU",
+          "GLY",
+          "HIS",
+          "ILE",
+          "LEU",
+          "LYS",
+          "MET",
+          "PHE",
+          "PRO",
+          "SER",
+          "THR",
+          "TRP",
+          "TYR",
+          "VAL"
+        ]
+      }
+    },
+    "legacy_label_VHL_is_true_VHL": false,
+    "legacy_Kinase_matches_expected_POI": true,
+    "sequence_identified_VHL": {
+      "uniprot": "P40337",
+      "identity": 1.0,
+      "observed_CA_coverage": 1.0,
+      "canonical_first": 62,
+      "canonical_last": 202,
+      "moltype": "Protein_chain_C",
+      "CA_atoms": 140,
+      "atoms": 2300,
+      "atom_index_first_one_based": 8420,
+      "atom_index_last_one_based": 10719,
+      "contiguous_indices": true
+    },
+    "sequence_identified_POI": {
+      "uniprot": "Q16539",
+      "identity": 0.9881305637982196,
+      "observed_CA_coverage": 1.0,
+      "canonical_first": 4,
+      "canonical_last": 352,
+      "moltype": "Protein_chain_D",
+      "CA_atoms": 337,
+      "atoms": 5448,
+      "atom_index_first_one_based": 1604,
+      "atom_index_last_one_based": 7051,
+      "contiguous_indices": true
+    }
+  },
+  {
+    "poi": "MAPK14_full",
+    "pose_id": "pose008",
+    "source_sha256": {
+      "tpr": "c89d2dde376f1de3dbeae03af2eea35d67e7fb24667938a2f96203e3444b6b55",
+      "index": "267f188064ad84c2ddac9bff38dbb04bfeb73a72b5a3bf253d5558ecf266d17b"
+    },
+    "proteins": {
+      "Protein_chain_A": {
+        "uniprot": "Q15370",
+        "identity": 1.0,
+        "observed_CA_coverage": 1.0,
+        "canonical_first": 1,
+        "canonical_last": 103,
+        "moltype": "Protein_chain_A",
+        "CA_atoms": 101,
+        "atoms": 1603,
+        "atom_index_first_one_based": 1,
+        "atom_index_last_one_based": 1603,
+        "contiguous_indices": true
+      },
+      "Protein_chain_B": {
+        "uniprot": "Q15369",
+        "identity": 1.0,
+        "observed_CA_coverage": 1.0,
+        "canonical_first": 17,
+        "canonical_last": 111,
+        "moltype": "Protein_chain_B",
+        "CA_atoms": 85,
+        "atoms": 1368,
+        "atom_index_first_one_based": 7052,
+        "atom_index_last_one_based": 8419,
+        "contiguous_indices": true
+      },
+      "Protein_chain_C": {
+        "uniprot": "P40337",
+        "identity": 1.0,
+        "observed_CA_coverage": 1.0,
+        "canonical_first": 62,
+        "canonical_last": 202,
+        "moltype": "Protein_chain_C",
+        "CA_atoms": 140,
+        "atoms": 2300,
+        "atom_index_first_one_based": 8420,
+        "atom_index_last_one_based": 10719,
+        "contiguous_indices": true
+      },
+      "Protein_chain_D": {
+        "uniprot": "Q16539",
+        "identity": 0.9881305637982196,
+        "observed_CA_coverage": 1.0,
+        "canonical_first": 4,
+        "canonical_last": 352,
+        "moltype": "Protein_chain_D",
+        "CA_atoms": 337,
+        "atoms": 5448,
+        "atom_index_first_one_based": 1604,
+        "atom_index_last_one_based": 7051,
+        "contiguous_indices": true
+      }
+    },
+    "legacy_index_groups": {
+      "Other": {
+        "atoms": 144,
+        "hydrogen_mass_count": 65,
+        "moltypes": [
+          "SJF8240_3d"
+        ],
+        "identified_protein": null,
+        "resnames": [
+          "UNL"
+        ]
+      },
+      "VHL": {
+        "atoms": 1603,
+        "hydrogen_mass_count": 801,
+        "moltypes": [
+          "Protein_chain_A"
+        ],
+        "identified_protein": {
+          "uniprot": "Q15370",
+          "identity": 1.0,
+          "observed_CA_coverage": 1.0,
+          "canonical_first": 1,
+          "canonical_last": 103,
+          "moltype": "Protein_chain_A",
+          "CA_atoms": 101,
+          "atoms": 1603,
+          "atom_index_first_one_based": 1,
+          "atom_index_last_one_based": 1603,
+          "contiguous_indices": true
+        },
+        "resnames": [
+          "ALA",
+          "ARG",
+          "ASP",
+          "GLN",
+          "GLU",
+          "GLY",
+          "HIS",
+          "ILE",
+          "LEU",
+          "LYS",
+          "MET",
+          "PHE",
+          "PRO",
+          "SER",
+          "THR",
+          "TYR",
+          "VAL"
+        ]
+      },
+      "Kinase": {
+        "atoms": 5448,
+        "hydrogen_mass_count": 2728,
+        "moltypes": [
+          "Protein_chain_D"
+        ],
+        "identified_protein": {
+          "uniprot": "Q16539",
+          "identity": 0.9881305637982196,
+          "observed_CA_coverage": 1.0,
+          "canonical_first": 4,
+          "canonical_last": 352,
+          "moltype": "Protein_chain_D",
+          "CA_atoms": 337,
+          "atoms": 5448,
+          "atom_index_first_one_based": 1604,
+          "atom_index_last_one_based": 7051,
+          "contiguous_indices": true
+        },
+        "resnames": [
+          "ALA",
+          "ARG",
+          "ASN",
+          "ASP",
+          "CYS",
+          "GLN",
+          "GLU",
+          "GLY",
+          "HIS",
+          "ILE",
+          "LEU",
+          "LYS",
+          "MET",
+          "PHE",
+          "PRO",
+          "SER",
+          "THR",
+          "TRP",
+          "TYR",
+          "VAL"
+        ]
+      }
+    },
+    "legacy_label_VHL_is_true_VHL": false,
+    "legacy_Kinase_matches_expected_POI": true,
+    "sequence_identified_VHL": {
+      "uniprot": "P40337",
+      "identity": 1.0,
+      "observed_CA_coverage": 1.0,
+      "canonical_first": 62,
+      "canonical_last": 202,
+      "moltype": "Protein_chain_C",
+      "CA_atoms": 140,
+      "atoms": 2300,
+      "atom_index_first_one_based": 8420,
+      "atom_index_last_one_based": 10719,
+      "contiguous_indices": true
+    },
+    "sequence_identified_POI": {
+      "uniprot": "Q16539",
+      "identity": 0.9881305637982196,
+      "observed_CA_coverage": 1.0,
+      "canonical_first": 4,
+      "canonical_last": 352,
+      "moltype": "Protein_chain_D",
+      "CA_atoms": 337,
+      "atoms": 5448,
+      "atom_index_first_one_based": 1604,
+      "atom_index_last_one_based": 7051,
+      "contiguous_indices": true
+    }
+  },
+  {
+    "poi": "MAPK14_full",
+    "pose_id": "pose009",
+    "source_sha256": {
+      "tpr": "5f742275abf36787a6e42d8bb7c7d706b994aa53d93dbaec0f9ce7b43a7f1052",
+      "index": "c83999810e986adab3919a9687a9200a9074e9c456e43b3d43fdf1c598ea9733"
+    },
+    "proteins": {
+      "Protein_chain_A": {
+        "uniprot": "Q15370",
+        "identity": 1.0,
+        "observed_CA_coverage": 1.0,
+        "canonical_first": 1,
+        "canonical_last": 103,
+        "moltype": "Protein_chain_A",
+        "CA_atoms": 101,
+        "atoms": 1603,
+        "atom_index_first_one_based": 1,
+        "atom_index_last_one_based": 1603,
+        "contiguous_indices": true
+      },
+      "Protein_chain_B": {
+        "uniprot": "Q15369",
+        "identity": 1.0,
+        "observed_CA_coverage": 1.0,
+        "canonical_first": 17,
+        "canonical_last": 111,
+        "moltype": "Protein_chain_B",
+        "CA_atoms": 85,
+        "atoms": 1368,
+        "atom_index_first_one_based": 7052,
+        "atom_index_last_one_based": 8419,
+        "contiguous_indices": true
+      },
+      "Protein_chain_C": {
+        "uniprot": "P40337",
+        "identity": 1.0,
+        "observed_CA_coverage": 1.0,
+        "canonical_first": 62,
+        "canonical_last": 202,
+        "moltype": "Protein_chain_C",
+        "CA_atoms": 140,
+        "atoms": 2300,
+        "atom_index_first_one_based": 8420,
+        "atom_index_last_one_based": 10719,
+        "contiguous_indices": true
+      },
+      "Protein_chain_D": {
+        "uniprot": "Q16539",
+        "identity": 0.9881305637982196,
+        "observed_CA_coverage": 1.0,
+        "canonical_first": 4,
+        "canonical_last": 352,
+        "moltype": "Protein_chain_D",
+        "CA_atoms": 337,
+        "atoms": 5448,
+        "atom_index_first_one_based": 1604,
+        "atom_index_last_one_based": 7051,
+        "contiguous_indices": true
+      }
+    },
+    "legacy_index_groups": {
+      "Other": {
+        "atoms": 144,
+        "hydrogen_mass_count": 65,
+        "moltypes": [
+          "SJF8240_3d"
+        ],
+        "identified_protein": null,
+        "resnames": [
+          "UNL"
+        ]
+      },
+      "VHL": {
+        "atoms": 1603,
+        "hydrogen_mass_count": 801,
+        "moltypes": [
+          "Protein_chain_A"
+        ],
+        "identified_protein": {
+          "uniprot": "Q15370",
+          "identity": 1.0,
+          "observed_CA_coverage": 1.0,
+          "canonical_first": 1,
+          "canonical_last": 103,
+          "moltype": "Protein_chain_A",
+          "CA_atoms": 101,
+          "atoms": 1603,
+          "atom_index_first_one_based": 1,
+          "atom_index_last_one_based": 1603,
+          "contiguous_indices": true
+        },
+        "resnames": [
+          "ALA",
+          "ARG",
+          "ASP",
+          "GLN",
+          "GLU",
+          "GLY",
+          "HIS",
+          "ILE",
+          "LEU",
+          "LYS",
+          "MET",
+          "PHE",
+          "PRO",
+          "SER",
+          "THR",
+          "TYR",
+          "VAL"
+        ]
+      },
+      "Kinase": {
+        "atoms": 5448,
+        "hydrogen_mass_count": 2728,
+        "moltypes": [
+          "Protein_chain_D"
+        ],
+        "identified_protein": {
+          "uniprot": "Q16539",
+          "identity": 0.9881305637982196,
+          "observed_CA_coverage": 1.0,
+          "canonical_first": 4,
+          "canonical_last": 352,
+          "moltype": "Protein_chain_D",
+          "CA_atoms": 337,
+          "atoms": 5448,
+          "atom_index_first_one_based": 1604,
+          "atom_index_last_one_based": 7051,
+          "contiguous_indices": true
+        },
+        "resnames": [
+          "ALA",
+          "ARG",
+          "ASN",
+          "ASP",
+          "CYS",
+          "GLN",
+          "GLU",
+          "GLY",
+          "HIS",
+          "ILE",
+          "LEU",
+          "LYS",
+          "MET",
+          "PHE",
+          "PRO",
+          "SER",
+          "THR",
+          "TRP",
+          "TYR",
+          "VAL"
+        ]
+      }
+    },
+    "legacy_label_VHL_is_true_VHL": false,
+    "legacy_Kinase_matches_expected_POI": true,
+    "sequence_identified_VHL": {
+      "uniprot": "P40337",
+      "identity": 1.0,
+      "observed_CA_coverage": 1.0,
+      "canonical_first": 62,
+      "canonical_last": 202,
+      "moltype": "Protein_chain_C",
+      "CA_atoms": 140,
+      "atoms": 2300,
+      "atom_index_first_one_based": 8420,
+      "atom_index_last_one_based": 10719,
+      "contiguous_indices": true
+    },
+    "sequence_identified_POI": {
+      "uniprot": "Q16539",
+      "identity": 0.9881305637982196,
+      "observed_CA_coverage": 1.0,
+      "canonical_first": 4,
+      "canonical_last": 352,
+      "moltype": "Protein_chain_D",
+      "CA_atoms": 337,
+      "atoms": 5448,
+      "atom_index_first_one_based": 1604,
+      "atom_index_last_one_based": 7051,
+      "contiguous_indices": true
+    }
+  },
+  {
+    "poi": "MAPK14_full",
+    "pose_id": "pose010",
+    "source_sha256": {
+      "tpr": "a3d7b115b9a4f4fd2c43996bd0ecd51f3f6860853e1b0d485a368d2663b5862a",
+      "index": "24fcdfb10255461e4827eb4817f0109836d8aad7943906b284be46f8ae602410"
+    },
+    "proteins": {
+      "Protein_chain_A": {
+        "uniprot": "Q15370",
+        "identity": 1.0,
+        "observed_CA_coverage": 1.0,
+        "canonical_first": 1,
+        "canonical_last": 103,
+        "moltype": "Protein_chain_A",
+        "CA_atoms": 101,
+        "atoms": 1603,
+        "atom_index_first_one_based": 1,
+        "atom_index_last_one_based": 1603,
+        "contiguous_indices": true
+      },
+      "Protein_chain_B": {
+        "uniprot": "Q15369",
+        "identity": 1.0,
+        "observed_CA_coverage": 1.0,
+        "canonical_first": 17,
+        "canonical_last": 111,
+        "moltype": "Protein_chain_B",
+        "CA_atoms": 85,
+        "atoms": 1368,
+        "atom_index_first_one_based": 7052,
+        "atom_index_last_one_based": 8419,
+        "contiguous_indices": true
+      },
+      "Protein_chain_C": {
+        "uniprot": "P40337",
+        "identity": 1.0,
+        "observed_CA_coverage": 1.0,
+        "canonical_first": 62,
+        "canonical_last": 202,
+        "moltype": "Protein_chain_C",
+        "CA_atoms": 140,
+        "atoms": 2300,
+        "atom_index_first_one_based": 8420,
+        "atom_index_last_one_based": 10719,
+        "contiguous_indices": true
+      },
+      "Protein_chain_D": {
+        "uniprot": "Q16539",
+        "identity": 0.9881305637982196,
+        "observed_CA_coverage": 1.0,
+        "canonical_first": 4,
+        "canonical_last": 352,
+        "moltype": "Protein_chain_D",
+        "CA_atoms": 337,
+        "atoms": 5448,
+        "atom_index_first_one_based": 1604,
+        "atom_index_last_one_based": 7051,
+        "contiguous_indices": true
+      }
+    },
+    "legacy_index_groups": {
+      "Other": {
+        "atoms": 144,
+        "hydrogen_mass_count": 65,
+        "moltypes": [
+          "SJF8240_3d"
+        ],
+        "identified_protein": null,
+        "resnames": [
+          "UNL"
+        ]
+      },
+      "VHL": {
+        "atoms": 1603,
+        "hydrogen_mass_count": 801,
+        "moltypes": [
+          "Protein_chain_A"
+        ],
+        "identified_protein": {
+          "uniprot": "Q15370",
+          "identity": 1.0,
+          "observed_CA_coverage": 1.0,
+          "canonical_first": 1,
+          "canonical_last": 103,
+          "moltype": "Protein_chain_A",
+          "CA_atoms": 101,
+          "atoms": 1603,
+          "atom_index_first_one_based": 1,
+          "atom_index_last_one_based": 1603,
+          "contiguous_indices": true
+        },
+        "resnames": [
+          "ALA",
+          "ARG",
+          "ASP",
+          "GLN",
+          "GLU",
+          "GLY",
+          "HIS",
+          "ILE",
+          "LEU",
+          "LYS",
+          "MET",
+          "PHE",
+          "PRO",
+          "SER",
+          "THR",
+          "TYR",
+          "VAL"
+        ]
+      },
+      "Kinase": {
+        "atoms": 5448,
+        "hydrogen_mass_count": 2728,
+        "moltypes": [
+          "Protein_chain_D"
+        ],
+        "identified_protein": {
+          "uniprot": "Q16539",
+          "identity": 0.9881305637982196,
+          "observed_CA_coverage": 1.0,
+          "canonical_first": 4,
+          "canonical_last": 352,
+          "moltype": "Protein_chain_D",
+          "CA_atoms": 337,
+          "atoms": 5448,
+          "atom_index_first_one_based": 1604,
+          "atom_index_last_one_based": 7051,
+          "contiguous_indices": true
+        },
+        "resnames": [
+          "ALA",
+          "ARG",
+          "ASN",
+          "ASP",
+          "CYS",
+          "GLN",
+          "GLU",
+          "GLY",
+          "HIS",
+          "ILE",
+          "LEU",
+          "LYS",
+          "MET",
+          "PHE",
+          "PRO",
+          "SER",
+          "THR",
+          "TRP",
+          "TYR",
+          "VAL"
+        ]
+      }
+    },
+    "legacy_label_VHL_is_true_VHL": false,
+    "legacy_Kinase_matches_expected_POI": true,
+    "sequence_identified_VHL": {
+      "uniprot": "P40337",
+      "identity": 1.0,
+      "observed_CA_coverage": 1.0,
+      "canonical_first": 62,
+      "canonical_last": 202,
+      "moltype": "Protein_chain_C",
+      "CA_atoms": 140,
+      "atoms": 2300,
+      "atom_index_first_one_based": 8420,
+      "atom_index_last_one_based": 10719,
+      "contiguous_indices": true
+    },
+    "sequence_identified_POI": {
+      "uniprot": "Q16539",
+      "identity": 0.9881305637982196,
+      "observed_CA_coverage": 1.0,
+      "canonical_first": 4,
+      "canonical_last": 352,
+      "moltype": "Protein_chain_D",
+      "CA_atoms": 337,
+      "atoms": 5448,
+      "atom_index_first_one_based": 1604,
+      "atom_index_last_one_based": 7051,
+      "contiguous_indices": true
+    }
+  },
+  {
+    "poi": "MAPK14_full",
+    "pose_id": "pose011",
+    "source_sha256": {
+      "tpr": "a0c5fb4c913996eafa021a98f1284c42b913f82e54efd20696c484e8c8701503",
+      "index": "4889b427c3d114c8c5380be2f2ad5e11dc34221ac54e7e73f3612e660cbfc813"
+    },
+    "proteins": {
+      "Protein_chain_A": {
+        "uniprot": "Q15370",
+        "identity": 1.0,
+        "observed_CA_coverage": 1.0,
+        "canonical_first": 1,
+        "canonical_last": 103,
+        "moltype": "Protein_chain_A",
+        "CA_atoms": 101,
+        "atoms": 1603,
+        "atom_index_first_one_based": 1,
+        "atom_index_last_one_based": 1603,
+        "contiguous_indices": true
+      },
+      "Protein_chain_B": {
+        "uniprot": "Q15369",
+        "identity": 1.0,
+        "observed_CA_coverage": 1.0,
+        "canonical_first": 17,
+        "canonical_last": 111,
+        "moltype": "Protein_chain_B",
+        "CA_atoms": 85,
+        "atoms": 1368,
+        "atom_index_first_one_based": 7052,
+        "atom_index_last_one_based": 8419,
+        "contiguous_indices": true
+      },
+      "Protein_chain_C": {
+        "uniprot": "P40337",
+        "identity": 1.0,
+        "observed_CA_coverage": 1.0,
+        "canonical_first": 62,
+        "canonical_last": 202,
+        "moltype": "Protein_chain_C",
+        "CA_atoms": 140,
+        "atoms": 2300,
+        "atom_index_first_one_based": 8420,
+        "atom_index_last_one_based": 10719,
+        "contiguous_indices": true
+      },
+      "Protein_chain_D": {
+        "uniprot": "Q16539",
+        "identity": 0.9881305637982196,
+        "observed_CA_coverage": 1.0,
+        "canonical_first": 4,
+        "canonical_last": 352,
+        "moltype": "Protein_chain_D",
+        "CA_atoms": 337,
+        "atoms": 5448,
+        "atom_index_first_one_based": 1604,
+        "atom_index_last_one_based": 7051,
+        "contiguous_indices": true
+      }
+    },
+    "legacy_index_groups": {
+      "Other": {
+        "atoms": 144,
+        "hydrogen_mass_count": 65,
+        "moltypes": [
+          "SJF8240_3d"
+        ],
+        "identified_protein": null,
+        "resnames": [
+          "UNL"
+        ]
+      },
+      "VHL": {
+        "atoms": 1603,
+        "hydrogen_mass_count": 801,
+        "moltypes": [
+          "Protein_chain_A"
+        ],
+        "identified_protein": {
+          "uniprot": "Q15370",
+          "identity": 1.0,
+          "observed_CA_coverage": 1.0,
+          "canonical_first": 1,
+          "canonical_last": 103,
+          "moltype": "Protein_chain_A",
+          "CA_atoms": 101,
+          "atoms": 1603,
+          "atom_index_first_one_based": 1,
+          "atom_index_last_one_based": 1603,
+          "contiguous_indices": true
+        },
+        "resnames": [
+          "ALA",
+          "ARG",
+          "ASP",
+          "GLN",
+          "GLU",
+          "GLY",
+          "HIS",
+          "ILE",
+          "LEU",
+          "LYS",
+          "MET",
+          "PHE",
+          "PRO",
+          "SER",
+          "THR",
+          "TYR",
+          "VAL"
+        ]
+      },
+      "Kinase": {
+        "atoms": 5448,
+        "hydrogen_mass_count": 2728,
+        "moltypes": [
+          "Protein_chain_D"
+        ],
+        "identified_protein": {
+          "uniprot": "Q16539",
+          "identity": 0.9881305637982196,
+          "observed_CA_coverage": 1.0,
+          "canonical_first": 4,
+          "canonical_last": 352,
+          "moltype": "Protein_chain_D",
+          "CA_atoms": 337,
+          "atoms": 5448,
+          "atom_index_first_one_based": 1604,
+          "atom_index_last_one_based": 7051,
+          "contiguous_indices": true
+        },
+        "resnames": [
+          "ALA",
+          "ARG",
+          "ASN",
+          "ASP",
+          "CYS",
+          "GLN",
+          "GLU",
+          "GLY",
+          "HIS",
+          "ILE",
+          "LEU",
+          "LYS",
+          "MET",
+          "PHE",
+          "PRO",
+          "SER",
+          "THR",
+          "TRP",
+          "TYR",
+          "VAL"
+        ]
+      }
+    },
+    "legacy_label_VHL_is_true_VHL": false,
+    "legacy_Kinase_matches_expected_POI": true,
+    "sequence_identified_VHL": {
+      "uniprot": "P40337",
+      "identity": 1.0,
+      "observed_CA_coverage": 1.0,
+      "canonical_first": 62,
+      "canonical_last": 202,
+      "moltype": "Protein_chain_C",
+      "CA_atoms": 140,
+      "atoms": 2300,
+      "atom_index_first_one_based": 8420,
+      "atom_index_last_one_based": 10719,
+      "contiguous_indices": true
+    },
+    "sequence_identified_POI": {
+      "uniprot": "Q16539",
+      "identity": 0.9881305637982196,
+      "observed_CA_coverage": 1.0,
+      "canonical_first": 4,
+      "canonical_last": 352,
+      "moltype": "Protein_chain_D",
+      "CA_atoms": 337,
+      "atoms": 5448,
+      "atom_index_first_one_based": 1604,
+      "atom_index_last_one_based": 7051,
+      "contiguous_indices": true
+    }
+  },
+  {
+    "poi": "MAPK14_full",
+    "pose_id": "pose012",
+    "source_sha256": {
+      "tpr": "f653235f574ba06b5dbed8722ea7a322f203d38eceb60b9de1c0c30cd9da3c5a",
+      "index": "0a3faed12d82b958194f02075a66b5232f3f4375ad3052f030dadcbdbbafa787"
+    },
+    "proteins": {
+      "Protein_chain_A": {
+        "uniprot": "Q15370",
+        "identity": 1.0,
+        "observed_CA_coverage": 1.0,
+        "canonical_first": 1,
+        "canonical_last": 103,
+        "moltype": "Protein_chain_A",
+        "CA_atoms": 101,
+        "atoms": 1603,
+        "atom_index_first_one_based": 1,
+        "atom_index_last_one_based": 1603,
+        "contiguous_indices": true
+      },
+      "Protein_chain_B": {
+        "uniprot": "Q15369",
+        "identity": 1.0,
+        "observed_CA_coverage": 1.0,
+        "canonical_first": 17,
+        "canonical_last": 111,
+        "moltype": "Protein_chain_B",
+        "CA_atoms": 85,
+        "atoms": 1368,
+        "atom_index_first_one_based": 7052,
+        "atom_index_last_one_based": 8419,
+        "contiguous_indices": true
+      },
+      "Protein_chain_C": {
+        "uniprot": "P40337",
+        "identity": 1.0,
+        "observed_CA_coverage": 1.0,
+        "canonical_first": 62,
+        "canonical_last": 202,
+        "moltype": "Protein_chain_C",
+        "CA_atoms": 140,
+        "atoms": 2300,
+        "atom_index_first_one_based": 8420,
+        "atom_index_last_one_based": 10719,
+        "contiguous_indices": true
+      },
+      "Protein_chain_D": {
+        "uniprot": "Q16539",
+        "identity": 0.9881305637982196,
+        "observed_CA_coverage": 1.0,
+        "canonical_first": 4,
+        "canonical_last": 352,
+        "moltype": "Protein_chain_D",
+        "CA_atoms": 337,
+        "atoms": 5448,
+        "atom_index_first_one_based": 1604,
+        "atom_index_last_one_based": 7051,
+        "contiguous_indices": true
+      }
+    },
+    "legacy_index_groups": {
+      "Other": {
+        "atoms": 144,
+        "hydrogen_mass_count": 65,
+        "moltypes": [
+          "SJF8240_3d"
+        ],
+        "identified_protein": null,
+        "resnames": [
+          "UNL"
+        ]
+      },
+      "VHL": {
+        "atoms": 1603,
+        "hydrogen_mass_count": 801,
+        "moltypes": [
+          "Protein_chain_A"
+        ],
+        "identified_protein": {
+          "uniprot": "Q15370",
+          "identity": 1.0,
+          "observed_CA_coverage": 1.0,
+          "canonical_first": 1,
+          "canonical_last": 103,
+          "moltype": "Protein_chain_A",
+          "CA_atoms": 101,
+          "atoms": 1603,
+          "atom_index_first_one_based": 1,
+          "atom_index_last_one_based": 1603,
+          "contiguous_indices": true
+        },
+        "resnames": [
+          "ALA",
+          "ARG",
+          "ASP",
+          "GLN",
+          "GLU",
+          "GLY",
+          "HIS",
+          "ILE",
+          "LEU",
+          "LYS",
+          "MET",
+          "PHE",
+          "PRO",
+          "SER",
+          "THR",
+          "TYR",
+          "VAL"
+        ]
+      },
+      "Kinase": {
+        "atoms": 5448,
+        "hydrogen_mass_count": 2728,
+        "moltypes": [
+          "Protein_chain_D"
+        ],
+        "identified_protein": {
+          "uniprot": "Q16539",
+          "identity": 0.9881305637982196,
+          "observed_CA_coverage": 1.0,
+          "canonical_first": 4,
+          "canonical_last": 352,
+          "moltype": "Protein_chain_D",
+          "CA_atoms": 337,
+          "atoms": 5448,
+          "atom_index_first_one_based": 1604,
+          "atom_index_last_one_based": 7051,
+          "contiguous_indices": true
+        },
+        "resnames": [
+          "ALA",
+          "ARG",
+          "ASN",
+          "ASP",
+          "CYS",
+          "GLN",
+          "GLU",
+          "GLY",
+          "HIS",
+          "ILE",
+          "LEU",
+          "LYS",
+          "MET",
+          "PHE",
+          "PRO",
+          "SER",
+          "THR",
+          "TRP",
+          "TYR",
+          "VAL"
+        ]
+      }
+    },
+    "legacy_label_VHL_is_true_VHL": false,
+    "legacy_Kinase_matches_expected_POI": true,
+    "sequence_identified_VHL": {
+      "uniprot": "P40337",
+      "identity": 1.0,
+      "observed_CA_coverage": 1.0,
+      "canonical_first": 62,
+      "canonical_last": 202,
+      "moltype": "Protein_chain_C",
+      "CA_atoms": 140,
+      "atoms": 2300,
+      "atom_index_first_one_based": 8420,
+      "atom_index_last_one_based": 10719,
+      "contiguous_indices": true
+    },
+    "sequence_identified_POI": {
+      "uniprot": "Q16539",
+      "identity": 0.9881305637982196,
+      "observed_CA_coverage": 1.0,
+      "canonical_first": 4,
+      "canonical_last": 352,
+      "moltype": "Protein_chain_D",
+      "CA_atoms": 337,
+      "atoms": 5448,
+      "atom_index_first_one_based": 1604,
+      "atom_index_last_one_based": 7051,
+      "contiguous_indices": true
+    }
+  },
+  {
+    "poi": "MAPK14_full",
+    "pose_id": "pose013",
+    "source_sha256": {
+      "tpr": "f95ce57793f85a6fe0857cde0f166fa513a45bff805a156256e0f6e116192d3d",
+      "index": "83237fd94d655f4d262a8bc0d86afb9756e690ccb4dd2f6d2868c060473a12e7"
+    },
+    "proteins": {
+      "Protein_chain_A": {
+        "uniprot": "Q15370",
+        "identity": 1.0,
+        "observed_CA_coverage": 1.0,
+        "canonical_first": 1,
+        "canonical_last": 103,
+        "moltype": "Protein_chain_A",
+        "CA_atoms": 101,
+        "atoms": 1603,
+        "atom_index_first_one_based": 1,
+        "atom_index_last_one_based": 1603,
+        "contiguous_indices": true
+      },
+      "Protein_chain_B": {
+        "uniprot": "Q15369",
+        "identity": 1.0,
+        "observed_CA_coverage": 1.0,
+        "canonical_first": 17,
+        "canonical_last": 111,
+        "moltype": "Protein_chain_B",
+        "CA_atoms": 85,
+        "atoms": 1368,
+        "atom_index_first_one_based": 7052,
+        "atom_index_last_one_based": 8419,
+        "contiguous_indices": true
+      },
+      "Protein_chain_C": {
+        "uniprot": "P40337",
+        "identity": 1.0,
+        "observed_CA_coverage": 1.0,
+        "canonical_first": 62,
+        "canonical_last": 202,
+        "moltype": "Protein_chain_C",
+        "CA_atoms": 140,
+        "atoms": 2300,
+        "atom_index_first_one_based": 8420,
+        "atom_index_last_one_based": 10719,
+        "contiguous_indices": true
+      },
+      "Protein_chain_D": {
+        "uniprot": "Q16539",
+        "identity": 0.9881305637982196,
+        "observed_CA_coverage": 1.0,
+        "canonical_first": 4,
+        "canonical_last": 352,
+        "moltype": "Protein_chain_D",
+        "CA_atoms": 337,
+        "atoms": 5448,
+        "atom_index_first_one_based": 1604,
+        "atom_index_last_one_based": 7051,
+        "contiguous_indices": true
+      }
+    },
+    "legacy_index_groups": {
+      "Other": {
+        "atoms": 144,
+        "hydrogen_mass_count": 65,
+        "moltypes": [
+          "SJF8240_3d"
+        ],
+        "identified_protein": null,
+        "resnames": [
+          "UNL"
+        ]
+      },
+      "VHL": {
+        "atoms": 1603,
+        "hydrogen_mass_count": 801,
+        "moltypes": [
+          "Protein_chain_A"
+        ],
+        "identified_protein": {
+          "uniprot": "Q15370",
+          "identity": 1.0,
+          "observed_CA_coverage": 1.0,
+          "canonical_first": 1,
+          "canonical_last": 103,
+          "moltype": "Protein_chain_A",
+          "CA_atoms": 101,
+          "atoms": 1603,
+          "atom_index_first_one_based": 1,
+          "atom_index_last_one_based": 1603,
+          "contiguous_indices": true
+        },
+        "resnames": [
+          "ALA",
+          "ARG",
+          "ASP",
+          "GLN",
+          "GLU",
+          "GLY",
+          "HIS",
+          "ILE",
+          "LEU",
+          "LYS",
+          "MET",
+          "PHE",
+          "PRO",
+          "SER",
+          "THR",
+          "TYR",
+          "VAL"
+        ]
+      },
+      "Kinase": {
+        "atoms": 5448,
+        "hydrogen_mass_count": 2728,
+        "moltypes": [
+          "Protein_chain_D"
+        ],
+        "identified_protein": {
+          "uniprot": "Q16539",
+          "identity": 0.9881305637982196,
+          "observed_CA_coverage": 1.0,
+          "canonical_first": 4,
+          "canonical_last": 352,
+          "moltype": "Protein_chain_D",
+          "CA_atoms": 337,
+          "atoms": 5448,
+          "atom_index_first_one_based": 1604,
+          "atom_index_last_one_based": 7051,
+          "contiguous_indices": true
+        },
+        "resnames": [
+          "ALA",
+          "ARG",
+          "ASN",
+          "ASP",
+          "CYS",
+          "GLN",
+          "GLU",
+          "GLY",
+          "HIS",
+          "ILE",
+          "LEU",
+          "LYS",
+          "MET",
+          "PHE",
+          "PRO",
+          "SER",
+          "THR",
+          "TRP",
+          "TYR",
+          "VAL"
+        ]
+      }
+    },
+    "legacy_label_VHL_is_true_VHL": false,
+    "legacy_Kinase_matches_expected_POI": true,
+    "sequence_identified_VHL": {
+      "uniprot": "P40337",
+      "identity": 1.0,
+      "observed_CA_coverage": 1.0,
+      "canonical_first": 62,
+      "canonical_last": 202,
+      "moltype": "Protein_chain_C",
+      "CA_atoms": 140,
+      "atoms": 2300,
+      "atom_index_first_one_based": 8420,
+      "atom_index_last_one_based": 10719,
+      "contiguous_indices": true
+    },
+    "sequence_identified_POI": {
+      "uniprot": "Q16539",
+      "identity": 0.9881305637982196,
+      "observed_CA_coverage": 1.0,
+      "canonical_first": 4,
+      "canonical_last": 352,
+      "moltype": "Protein_chain_D",
+      "CA_atoms": 337,
+      "atoms": 5448,
+      "atom_index_first_one_based": 1604,
+      "atom_index_last_one_based": 7051,
+      "contiguous_indices": true
+    }
+  },
+  {
+    "poi": "MAPK14_full",
+    "pose_id": "pose015",
+    "source_sha256": {
+      "tpr": "3f71ed1dc67af3dac5ee15a11c77abb386616522bf31343c41709372ff95f328",
+      "index": "a9221230ebde9ca7f7664dcbb7f90c071243cdf58fe3b24b9e6b19f14948ccd7"
+    },
+    "proteins": {
+      "Protein_chain_A": {
+        "uniprot": "Q15370",
+        "identity": 1.0,
+        "observed_CA_coverage": 1.0,
+        "canonical_first": 1,
+        "canonical_last": 103,
+        "moltype": "Protein_chain_A",
+        "CA_atoms": 101,
+        "atoms": 1603,
+        "atom_index_first_one_based": 1,
+        "atom_index_last_one_based": 1603,
+        "contiguous_indices": true
+      },
+      "Protein_chain_B": {
+        "uniprot": "Q15369",
+        "identity": 1.0,
+        "observed_CA_coverage": 1.0,
+        "canonical_first": 17,
+        "canonical_last": 111,
+        "moltype": "Protein_chain_B",
+        "CA_atoms": 85,
+        "atoms": 1368,
+        "atom_index_first_one_based": 7052,
+        "atom_index_last_one_based": 8419,
+        "contiguous_indices": true
+      },
+      "Protein_chain_C": {
+        "uniprot": "P40337",
+        "identity": 1.0,
+        "observed_CA_coverage": 1.0,
+        "canonical_first": 62,
+        "canonical_last": 202,
+        "moltype": "Protein_chain_C",
+        "CA_atoms": 140,
+        "atoms": 2300,
+        "atom_index_first_one_based": 8420,
+        "atom_index_last_one_based": 10719,
+        "contiguous_indices": true
+      },
+      "Protein_chain_D": {
+        "uniprot": "Q16539",
+        "identity": 0.9881305637982196,
+        "observed_CA_coverage": 1.0,
+        "canonical_first": 4,
+        "canonical_last": 352,
+        "moltype": "Protein_chain_D",
+        "CA_atoms": 337,
+        "atoms": 5448,
+        "atom_index_first_one_based": 1604,
+        "atom_index_last_one_based": 7051,
+        "contiguous_indices": true
+      }
+    },
+    "legacy_index_groups": {
+      "Other": {
+        "atoms": 144,
+        "hydrogen_mass_count": 65,
+        "moltypes": [
+          "SJF8240_3d"
+        ],
+        "identified_protein": null,
+        "resnames": [
+          "UNL"
+        ]
+      },
+      "VHL": {
+        "atoms": 1603,
+        "hydrogen_mass_count": 801,
+        "moltypes": [
+          "Protein_chain_A"
+        ],
+        "identified_protein": {
+          "uniprot": "Q15370",
+          "identity": 1.0,
+          "observed_CA_coverage": 1.0,
+          "canonical_first": 1,
+          "canonical_last": 103,
+          "moltype": "Protein_chain_A",
+          "CA_atoms": 101,
+          "atoms": 1603,
+          "atom_index_first_one_based": 1,
+          "atom_index_last_one_based": 1603,
+          "contiguous_indices": true
+        },
+        "resnames": [
+          "ALA",
+          "ARG",
+          "ASP",
+          "GLN",
+          "GLU",
+          "GLY",
+          "HIS",
+          "ILE",
+          "LEU",
+          "LYS",
+          "MET",
+          "PHE",
+          "PRO",
+          "SER",
+          "THR",
+          "TYR",
+          "VAL"
+        ]
+      },
+      "Kinase": {
+        "atoms": 5448,
+        "hydrogen_mass_count": 2728,
+        "moltypes": [
+          "Protein_chain_D"
+        ],
+        "identified_protein": {
+          "uniprot": "Q16539",
+          "identity": 0.9881305637982196,
+          "observed_CA_coverage": 1.0,
+          "canonical_first": 4,
+          "canonical_last": 352,
+          "moltype": "Protein_chain_D",
+          "CA_atoms": 337,
+          "atoms": 5448,
+          "atom_index_first_one_based": 1604,
+          "atom_index_last_one_based": 7051,
+          "contiguous_indices": true
+        },
+        "resnames": [
+          "ALA",
+          "ARG",
+          "ASN",
+          "ASP",
+          "CYS",
+          "GLN",
+          "GLU",
+          "GLY",
+          "HIS",
+          "ILE",
+          "LEU",
+          "LYS",
+          "MET",
+          "PHE",
+          "PRO",
+          "SER",
+          "THR",
+          "TRP",
+          "TYR",
+          "VAL"
+        ]
+      }
+    },
+    "legacy_label_VHL_is_true_VHL": false,
+    "legacy_Kinase_matches_expected_POI": true,
+    "sequence_identified_VHL": {
+      "uniprot": "P40337",
+      "identity": 1.0,
+      "observed_CA_coverage": 1.0,
+      "canonical_first": 62,
+      "canonical_last": 202,
+      "moltype": "Protein_chain_C",
+      "CA_atoms": 140,
+      "atoms": 2300,
+      "atom_index_first_one_based": 8420,
+      "atom_index_last_one_based": 10719,
+      "contiguous_indices": true
+    },
+    "sequence_identified_POI": {
+      "uniprot": "Q16539",
+      "identity": 0.9881305637982196,
+      "observed_CA_coverage": 1.0,
+      "canonical_first": 4,
+      "canonical_last": 352,
+      "moltype": "Protein_chain_D",
+      "CA_atoms": 337,
+      "atoms": 5448,
+      "atom_index_first_one_based": 1604,
+      "atom_index_last_one_based": 7051,
+      "contiguous_indices": true
+    }
+  },
+  {
+    "poi": "MAPK14_full",
+    "pose_id": "pose016",
+    "source_sha256": {
+      "tpr": "b483bc9dc6e3d9f563132c4cb8a19468dc748a6d80b164304336e66af614d582",
+      "index": "183afa2100d4d2fa2291032046e6835418b7d785ebc14a903a5874d0d5f29e9d"
+    },
+    "proteins": {
+      "Protein_chain_A": {
+        "uniprot": "Q15370",
+        "identity": 1.0,
+        "observed_CA_coverage": 1.0,
+        "canonical_first": 1,
+        "canonical_last": 103,
+        "moltype": "Protein_chain_A",
+        "CA_atoms": 101,
+        "atoms": 1603,
+        "atom_index_first_one_based": 1,
+        "atom_index_last_one_based": 1603,
+        "contiguous_indices": true
+      },
+      "Protein_chain_B": {
+        "uniprot": "Q15369",
+        "identity": 1.0,
+        "observed_CA_coverage": 1.0,
+        "canonical_first": 17,
+        "canonical_last": 111,
+        "moltype": "Protein_chain_B",
+        "CA_atoms": 85,
+        "atoms": 1368,
+        "atom_index_first_one_based": 7052,
+        "atom_index_last_one_based": 8419,
+        "contiguous_indices": true
+      },
+      "Protein_chain_C": {
+        "uniprot": "P40337",
+        "identity": 1.0,
+        "observed_CA_coverage": 1.0,
+        "canonical_first": 62,
+        "canonical_last": 202,
+        "moltype": "Protein_chain_C",
+        "CA_atoms": 140,
+        "atoms": 2300,
+        "atom_index_first_one_based": 8420,
+        "atom_index_last_one_based": 10719,
+        "contiguous_indices": true
+      },
+      "Protein_chain_D": {
+        "uniprot": "Q16539",
+        "identity": 0.9881305637982196,
+        "observed_CA_coverage": 1.0,
+        "canonical_first": 4,
+        "canonical_last": 352,
+        "moltype": "Protein_chain_D",
+        "CA_atoms": 337,
+        "atoms": 5448,
+        "atom_index_first_one_based": 1604,
+        "atom_index_last_one_based": 7051,
+        "contiguous_indices": true
+      }
+    },
+    "legacy_index_groups": {
+      "Other": {
+        "atoms": 144,
+        "hydrogen_mass_count": 65,
+        "moltypes": [
+          "SJF8240_3d"
+        ],
+        "identified_protein": null,
+        "resnames": [
+          "UNL"
+        ]
+      },
+      "VHL": {
+        "atoms": 1603,
+        "hydrogen_mass_count": 801,
+        "moltypes": [
+          "Protein_chain_A"
+        ],
+        "identified_protein": {
+          "uniprot": "Q15370",
+          "identity": 1.0,
+          "observed_CA_coverage": 1.0,
+          "canonical_first": 1,
+          "canonical_last": 103,
+          "moltype": "Protein_chain_A",
+          "CA_atoms": 101,
+          "atoms": 1603,
+          "atom_index_first_one_based": 1,
+          "atom_index_last_one_based": 1603,
+          "contiguous_indices": true
+        },
+        "resnames": [
+          "ALA",
+          "ARG",
+          "ASP",
+          "GLN",
+          "GLU",
+          "GLY",
+          "HIS",
+          "ILE",
+          "LEU",
+          "LYS",
+          "MET",
+          "PHE",
+          "PRO",
+          "SER",
+          "THR",
+          "TYR",
+          "VAL"
+        ]
+      },
+      "Kinase": {
+        "atoms": 5448,
+        "hydrogen_mass_count": 2728,
+        "moltypes": [
+          "Protein_chain_D"
+        ],
+        "identified_protein": {
+          "uniprot": "Q16539",
+          "identity": 0.9881305637982196,
+          "observed_CA_coverage": 1.0,
+          "canonical_first": 4,
+          "canonical_last": 352,
+          "moltype": "Protein_chain_D",
+          "CA_atoms": 337,
+          "atoms": 5448,
+          "atom_index_first_one_based": 1604,
+          "atom_index_last_one_based": 7051,
+          "contiguous_indices": true
+        },
+        "resnames": [
+          "ALA",
+          "ARG",
+          "ASN",
+          "ASP",
+          "CYS",
+          "GLN",
+          "GLU",
+          "GLY",
+          "HIS",
+          "ILE",
+          "LEU",
+          "LYS",
+          "MET",
+          "PHE",
+          "PRO",
+          "SER",
+          "THR",
+          "TRP",
+          "TYR",
+          "VAL"
+        ]
+      }
+    },
+    "legacy_label_VHL_is_true_VHL": false,
+    "legacy_Kinase_matches_expected_POI": true,
+    "sequence_identified_VHL": {
+      "uniprot": "P40337",
+      "identity": 1.0,
+      "observed_CA_coverage": 1.0,
+      "canonical_first": 62,
+      "canonical_last": 202,
+      "moltype": "Protein_chain_C",
+      "CA_atoms": 140,
+      "atoms": 2300,
+      "atom_index_first_one_based": 8420,
+      "atom_index_last_one_based": 10719,
+      "contiguous_indices": true
+    },
+    "sequence_identified_POI": {
+      "uniprot": "Q16539",
+      "identity": 0.9881305637982196,
+      "observed_CA_coverage": 1.0,
+      "canonical_first": 4,
+      "canonical_last": 352,
+      "moltype": "Protein_chain_D",
+      "CA_atoms": 337,
+      "atoms": 5448,
+      "atom_index_first_one_based": 1604,
+      "atom_index_last_one_based": 7051,
+      "contiguous_indices": true
+    }
+  },
+  {
+    "poi": "MAPK14_full",
+    "pose_id": "pose017",
+    "source_sha256": {
+      "tpr": "a60ea1968a3d243176a46ca32283e2de3db1ba66105a45b7d3ed865a40e8bb6e",
+      "index": "c0828a3dc46da13a1c8fc47500738d9a2ed097d217415d264b6c5a866c3d4b5d"
+    },
+    "proteins": {
+      "Protein_chain_A": {
+        "uniprot": "Q15370",
+        "identity": 1.0,
+        "observed_CA_coverage": 1.0,
+        "canonical_first": 1,
+        "canonical_last": 103,
+        "moltype": "Protein_chain_A",
+        "CA_atoms": 101,
+        "atoms": 1603,
+        "atom_index_first_one_based": 1,
+        "atom_index_last_one_based": 1603,
+        "contiguous_indices": true
+      },
+      "Protein_chain_B": {
+        "uniprot": "Q15369",
+        "identity": 1.0,
+        "observed_CA_coverage": 1.0,
+        "canonical_first": 17,
+        "canonical_last": 111,
+        "moltype": "Protein_chain_B",
+        "CA_atoms": 85,
+        "atoms": 1368,
+        "atom_index_first_one_based": 7052,
+        "atom_index_last_one_based": 8419,
+        "contiguous_indices": true
+      },
+      "Protein_chain_C": {
+        "uniprot": "P40337",
+        "identity": 1.0,
+        "observed_CA_coverage": 1.0,
+        "canonical_first": 62,
+        "canonical_last": 202,
+        "moltype": "Protein_chain_C",
+        "CA_atoms": 140,
+        "atoms": 2300,
+        "atom_index_first_one_based": 8420,
+        "atom_index_last_one_based": 10719,
+        "contiguous_indices": true
+      },
+      "Protein_chain_D": {
+        "uniprot": "Q16539",
+        "identity": 0.9881305637982196,
+        "observed_CA_coverage": 1.0,
+        "canonical_first": 4,
+        "canonical_last": 352,
+        "moltype": "Protein_chain_D",
+        "CA_atoms": 337,
+        "atoms": 5448,
+        "atom_index_first_one_based": 1604,
+        "atom_index_last_one_based": 7051,
+        "contiguous_indices": true
+      }
+    },
+    "legacy_index_groups": {
+      "Other": {
+        "atoms": 144,
+        "hydrogen_mass_count": 65,
+        "moltypes": [
+          "SJF8240_3d"
+        ],
+        "identified_protein": null,
+        "resnames": [
+          "UNL"
+        ]
+      },
+      "VHL": {
+        "atoms": 1603,
+        "hydrogen_mass_count": 801,
+        "moltypes": [
+          "Protein_chain_A"
+        ],
+        "identified_protein": {
+          "uniprot": "Q15370",
+          "identity": 1.0,
+          "observed_CA_coverage": 1.0,
+          "canonical_first": 1,
+          "canonical_last": 103,
+          "moltype": "Protein_chain_A",
+          "CA_atoms": 101,
+          "atoms": 1603,
+          "atom_index_first_one_based": 1,
+          "atom_index_last_one_based": 1603,
+          "contiguous_indices": true
+        },
+        "resnames": [
+          "ALA",
+          "ARG",
+          "ASP",
+          "GLN",
+          "GLU",
+          "GLY",
+          "HIS",
+          "ILE",
+          "LEU",
+          "LYS",
+          "MET",
+          "PHE",
+          "PRO",
+          "SER",
+          "THR",
+          "TYR",
+          "VAL"
+        ]
+      },
+      "Kinase": {
+        "atoms": 5448,
+        "hydrogen_mass_count": 2728,
+        "moltypes": [
+          "Protein_chain_D"
+        ],
+        "identified_protein": {
+          "uniprot": "Q16539",
+          "identity": 0.9881305637982196,
+          "observed_CA_coverage": 1.0,
+          "canonical_first": 4,
+          "canonical_last": 352,
+          "moltype": "Protein_chain_D",
+          "CA_atoms": 337,
+          "atoms": 5448,
+          "atom_index_first_one_based": 1604,
+          "atom_index_last_one_based": 7051,
+          "contiguous_indices": true
+        },
+        "resnames": [
+          "ALA",
+          "ARG",
+          "ASN",
+          "ASP",
+          "CYS",
+          "GLN",
+          "GLU",
+          "GLY",
+          "HIS",
+          "ILE",
+          "LEU",
+          "LYS",
+          "MET",
+          "PHE",
+          "PRO",
+          "SER",
+          "THR",
+          "TRP",
+          "TYR",
+          "VAL"
+        ]
+      }
+    },
+    "legacy_label_VHL_is_true_VHL": false,
+    "legacy_Kinase_matches_expected_POI": true,
+    "sequence_identified_VHL": {
+      "uniprot": "P40337",
+      "identity": 1.0,
+      "observed_CA_coverage": 1.0,
+      "canonical_first": 62,
+      "canonical_last": 202,
+      "moltype": "Protein_chain_C",
+      "CA_atoms": 140,
+      "atoms": 2300,
+      "atom_index_first_one_based": 8420,
+      "atom_index_last_one_based": 10719,
+      "contiguous_indices": true
+    },
+    "sequence_identified_POI": {
+      "uniprot": "Q16539",
+      "identity": 0.9881305637982196,
+      "observed_CA_coverage": 1.0,
+      "canonical_first": 4,
+      "canonical_last": 352,
+      "moltype": "Protein_chain_D",
+      "CA_atoms": 337,
+      "atoms": 5448,
+      "atom_index_first_one_based": 1604,
+      "atom_index_last_one_based": 7051,
+      "contiguous_indices": true
+    }
+  },
+  {
+    "poi": "MAPK14_full",
+    "pose_id": "pose018",
+    "source_sha256": {
+      "tpr": "5f58c5d91cf5cca815ddee2bb26fe7f85fb78cb04d92613ede6ce98881425ab5",
+      "index": "33f546b4298df9afbea617d26bee660769e4a503aab3b8994cdd63ca3c8b85ae"
+    },
+    "proteins": {
+      "Protein_chain_A": {
+        "uniprot": "Q15370",
+        "identity": 1.0,
+        "observed_CA_coverage": 1.0,
+        "canonical_first": 1,
+        "canonical_last": 103,
+        "moltype": "Protein_chain_A",
+        "CA_atoms": 101,
+        "atoms": 1603,
+        "atom_index_first_one_based": 1,
+        "atom_index_last_one_based": 1603,
+        "contiguous_indices": true
+      },
+      "Protein_chain_B": {
+        "uniprot": "Q15369",
+        "identity": 1.0,
+        "observed_CA_coverage": 1.0,
+        "canonical_first": 17,
+        "canonical_last": 111,
+        "moltype": "Protein_chain_B",
+        "CA_atoms": 85,
+        "atoms": 1368,
+        "atom_index_first_one_based": 7052,
+        "atom_index_last_one_based": 8419,
+        "contiguous_indices": true
+      },
+      "Protein_chain_C": {
+        "uniprot": "P40337",
+        "identity": 1.0,
+        "observed_CA_coverage": 1.0,
+        "canonical_first": 62,
+        "canonical_last": 202,
+        "moltype": "Protein_chain_C",
+        "CA_atoms": 140,
+        "atoms": 2300,
+        "atom_index_first_one_based": 8420,
+        "atom_index_last_one_based": 10719,
+        "contiguous_indices": true
+      },
+      "Protein_chain_D": {
+        "uniprot": "Q16539",
+        "identity": 0.9881305637982196,
+        "observed_CA_coverage": 1.0,
+        "canonical_first": 4,
+        "canonical_last": 352,
+        "moltype": "Protein_chain_D",
+        "CA_atoms": 337,
+        "atoms": 5448,
+        "atom_index_first_one_based": 1604,
+        "atom_index_last_one_based": 7051,
+        "contiguous_indices": true
+      }
+    },
+    "legacy_index_groups": {
+      "Other": {
+        "atoms": 144,
+        "hydrogen_mass_count": 65,
+        "moltypes": [
+          "SJF8240_3d"
+        ],
+        "identified_protein": null,
+        "resnames": [
+          "UNL"
+        ]
+      },
+      "VHL": {
+        "atoms": 1603,
+        "hydrogen_mass_count": 801,
+        "moltypes": [
+          "Protein_chain_A"
+        ],
+        "identified_protein": {
+          "uniprot": "Q15370",
+          "identity": 1.0,
+          "observed_CA_coverage": 1.0,
+          "canonical_first": 1,
+          "canonical_last": 103,
+          "moltype": "Protein_chain_A",
+          "CA_atoms": 101,
+          "atoms": 1603,
+          "atom_index_first_one_based": 1,
+          "atom_index_last_one_based": 1603,
+          "contiguous_indices": true
+        },
+        "resnames": [
+          "ALA",
+          "ARG",
+          "ASP",
+          "GLN",
+          "GLU",
+          "GLY",
+          "HIS",
+          "ILE",
+          "LEU",
+          "LYS",
+          "MET",
+          "PHE",
+          "PRO",
+          "SER",
+          "THR",
+          "TYR",
+          "VAL"
+        ]
+      },
+      "Kinase": {
+        "atoms": 5448,
+        "hydrogen_mass_count": 2728,
+        "moltypes": [
+          "Protein_chain_D"
+        ],
+        "identified_protein": {
+          "uniprot": "Q16539",
+          "identity": 0.9881305637982196,
+          "observed_CA_coverage": 1.0,
+          "canonical_first": 4,
+          "canonical_last": 352,
+          "moltype": "Protein_chain_D",
+          "CA_atoms": 337,
+          "atoms": 5448,
+          "atom_index_first_one_based": 1604,
+          "atom_index_last_one_based": 7051,
+          "contiguous_indices": true
+        },
+        "resnames": [
+          "ALA",
+          "ARG",
+          "ASN",
+          "ASP",
+          "CYS",
+          "GLN",
+          "GLU",
+          "GLY",
+          "HIS",
+          "ILE",
+          "LEU",
+          "LYS",
+          "MET",
+          "PHE",
+          "PRO",
+          "SER",
+          "THR",
+          "TRP",
+          "TYR",
+          "VAL"
+        ]
+      }
+    },
+    "legacy_label_VHL_is_true_VHL": false,
+    "legacy_Kinase_matches_expected_POI": true,
+    "sequence_identified_VHL": {
+      "uniprot": "P40337",
+      "identity": 1.0,
+      "observed_CA_coverage": 1.0,
+      "canonical_first": 62,
+      "canonical_last": 202,
+      "moltype": "Protein_chain_C",
+      "CA_atoms": 140,
+      "atoms": 2300,
+      "atom_index_first_one_based": 8420,
+      "atom_index_last_one_based": 10719,
+      "contiguous_indices": true
+    },
+    "sequence_identified_POI": {
+      "uniprot": "Q16539",
+      "identity": 0.9881305637982196,
+      "observed_CA_coverage": 1.0,
+      "canonical_first": 4,
+      "canonical_last": 352,
+      "moltype": "Protein_chain_D",
+      "CA_atoms": 337,
+      "atoms": 5448,
+      "atom_index_first_one_based": 1604,
+      "atom_index_last_one_based": 7051,
+      "contiguous_indices": true
+    }
+  },
+  {
+    "poi": "MAPK14_full",
+    "pose_id": "pose020",
+    "source_sha256": {
+      "tpr": "6bb6ef917f2999a42d342069b2a55d253ebf91aefb2e144818b225eeb87339b5",
+      "index": "a93641f45398d7e57caf7cf536797818bfe0bee6725a675e302f0a959865e739"
+    },
+    "proteins": {
+      "Protein_chain_A": {
+        "uniprot": "Q15370",
+        "identity": 1.0,
+        "observed_CA_coverage": 1.0,
+        "canonical_first": 1,
+        "canonical_last": 103,
+        "moltype": "Protein_chain_A",
+        "CA_atoms": 101,
+        "atoms": 1603,
+        "atom_index_first_one_based": 1,
+        "atom_index_last_one_based": 1603,
+        "contiguous_indices": true
+      },
+      "Protein_chain_B": {
+        "uniprot": "Q15369",
+        "identity": 1.0,
+        "observed_CA_coverage": 1.0,
+        "canonical_first": 17,
+        "canonical_last": 111,
+        "moltype": "Protein_chain_B",
+        "CA_atoms": 85,
+        "atoms": 1368,
+        "atom_index_first_one_based": 7052,
+        "atom_index_last_one_based": 8419,
+        "contiguous_indices": true
+      },
+      "Protein_chain_C": {
+        "uniprot": "P40337",
+        "identity": 1.0,
+        "observed_CA_coverage": 1.0,
+        "canonical_first": 62,
+        "canonical_last": 202,
+        "moltype": "Protein_chain_C",
+        "CA_atoms": 140,
+        "atoms": 2300,
+        "atom_index_first_one_based": 8420,
+        "atom_index_last_one_based": 10719,
+        "contiguous_indices": true
+      },
+      "Protein_chain_D": {
+        "uniprot": "Q16539",
+        "identity": 0.9881305637982196,
+        "observed_CA_coverage": 1.0,
+        "canonical_first": 4,
+        "canonical_last": 352,
+        "moltype": "Protein_chain_D",
+        "CA_atoms": 337,
+        "atoms": 5448,
+        "atom_index_first_one_based": 1604,
+        "atom_index_last_one_based": 7051,
+        "contiguous_indices": true
+      }
+    },
+    "legacy_index_groups": {
+      "Other": {
+        "atoms": 144,
+        "hydrogen_mass_count": 65,
+        "moltypes": [
+          "SJF8240_3d"
+        ],
+        "identified_protein": null,
+        "resnames": [
+          "UNL"
+        ]
+      },
+      "VHL": {
+        "atoms": 1603,
+        "hydrogen_mass_count": 801,
+        "moltypes": [
+          "Protein_chain_A"
+        ],
+        "identified_protein": {
+          "uniprot": "Q15370",
+          "identity": 1.0,
+          "observed_CA_coverage": 1.0,
+          "canonical_first": 1,
+          "canonical_last": 103,
+          "moltype": "Protein_chain_A",
+          "CA_atoms": 101,
+          "atoms": 1603,
+          "atom_index_first_one_based": 1,
+          "atom_index_last_one_based": 1603,
+          "contiguous_indices": true
+        },
+        "resnames": [
+          "ALA",
+          "ARG",
+          "ASP",
+          "GLN",
+          "GLU",
+          "GLY",
+          "HIS",
+          "ILE",
+          "LEU",
+          "LYS",
+          "MET",
+          "PHE",
+          "PRO",
+          "SER",
+          "THR",
+          "TYR",
+          "VAL"
+        ]
+      },
+      "Kinase": {
+        "atoms": 5448,
+        "hydrogen_mass_count": 2728,
+        "moltypes": [
+          "Protein_chain_D"
+        ],
+        "identified_protein": {
+          "uniprot": "Q16539",
+          "identity": 0.9881305637982196,
+          "observed_CA_coverage": 1.0,
+          "canonical_first": 4,
+          "canonical_last": 352,
+          "moltype": "Protein_chain_D",
+          "CA_atoms": 337,
+          "atoms": 5448,
+          "atom_index_first_one_based": 1604,
+          "atom_index_last_one_based": 7051,
+          "contiguous_indices": true
+        },
+        "resnames": [
+          "ALA",
+          "ARG",
+          "ASN",
+          "ASP",
+          "CYS",
+          "GLN",
+          "GLU",
+          "GLY",
+          "HIS",
+          "ILE",
+          "LEU",
+          "LYS",
+          "MET",
+          "PHE",
+          "PRO",
+          "SER",
+          "THR",
+          "TRP",
+          "TYR",
+          "VAL"
+        ]
+      }
+    },
+    "legacy_label_VHL_is_true_VHL": false,
+    "legacy_Kinase_matches_expected_POI": true,
+    "sequence_identified_VHL": {
+      "uniprot": "P40337",
+      "identity": 1.0,
+      "observed_CA_coverage": 1.0,
+      "canonical_first": 62,
+      "canonical_last": 202,
+      "moltype": "Protein_chain_C",
+      "CA_atoms": 140,
+      "atoms": 2300,
+      "atom_index_first_one_based": 8420,
+      "atom_index_last_one_based": 10719,
+      "contiguous_indices": true
+    },
+    "sequence_identified_POI": {
+      "uniprot": "Q16539",
+      "identity": 0.9881305637982196,
+      "observed_CA_coverage": 1.0,
+      "canonical_first": 4,
+      "canonical_last": 352,
+      "moltype": "Protein_chain_D",
+      "CA_atoms": 337,
+      "atoms": 5448,
+      "atom_index_first_one_based": 1604,
+      "atom_index_last_one_based": 7051,
+      "contiguous_indices": true
+    }
+  }
+]

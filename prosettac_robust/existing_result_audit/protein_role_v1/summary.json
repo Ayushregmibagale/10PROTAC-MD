@@ -1,0 +1,193 @@
+{
+  "status": "INCOMPLETE_ROLE_AUDIT",
+  "poses_requested": 141,
+  "poses_identified": 106,
+  "legacy_VHL_label_matches": 0,
+  "legacy_VHL_label_mismatches": 106,
+  "legacy_POI_matches": 106,
+  "failures": [
+    {
+      "poi": "RIPK2_full",
+      "pose_id": "pose001",
+      "reason": "'RIPK2'"
+    },
+    {
+      "poi": "RIPK2_full",
+      "pose_id": "pose003",
+      "reason": "'RIPK2'"
+    },
+    {
+      "poi": "RIPK2_full",
+      "pose_id": "pose004",
+      "reason": "'RIPK2'"
+    },
+    {
+      "poi": "RIPK2_full",
+      "pose_id": "pose005",
+      "reason": "'RIPK2'"
+    },
+    {
+      "poi": "RIPK2_full",
+      "pose_id": "pose006",
+      "reason": "'RIPK2'"
+    },
+    {
+      "poi": "RIPK2_full",
+      "pose_id": "pose007",
+      "reason": "'RIPK2'"
+    },
+    {
+      "poi": "RIPK2_full",
+      "pose_id": "pose008",
+      "reason": "'RIPK2'"
+    },
+    {
+      "poi": "RIPK2_full",
+      "pose_id": "pose009",
+      "reason": "'RIPK2'"
+    },
+    {
+      "poi": "RIPK2_full",
+      "pose_id": "pose010",
+      "reason": "'RIPK2'"
+    },
+    {
+      "poi": "RIPK2_full",
+      "pose_id": "pose011",
+      "reason": "'RIPK2'"
+    },
+    {
+      "poi": "RIPK2_full",
+      "pose_id": "pose012",
+      "reason": "'RIPK2'"
+    },
+    {
+      "poi": "RIPK2_full",
+      "pose_id": "pose015",
+      "reason": "'RIPK2'"
+    },
+    {
+      "poi": "RIPK2_full",
+      "pose_id": "pose016",
+      "reason": "'RIPK2'"
+    },
+    {
+      "poi": "RIPK2_full",
+      "pose_id": "pose017",
+      "reason": "'RIPK2'"
+    },
+    {
+      "poi": "RIPK2_full",
+      "pose_id": "pose018",
+      "reason": "'RIPK2'"
+    },
+    {
+      "poi": "RIPK2_full",
+      "pose_id": "pose019",
+      "reason": "'RIPK2'"
+    },
+    {
+      "poi": "RIPK2_full",
+      "pose_id": "pose020",
+      "reason": "'RIPK2'"
+    },
+    {
+      "poi": "MAPK14_full",
+      "pose_id": "pose001",
+      "reason": "'MAPK14'"
+    },
+    {
+      "poi": "MAPK14_full",
+      "pose_id": "pose002",
+      "reason": "'MAPK14'"
+    },
+    {
+      "poi": "MAPK14_full",
+      "pose_id": "pose003",
+      "reason": "'MAPK14'"
+    },
+    {
+      "poi": "MAPK14_full",
+      "pose_id": "pose004",
+      "reason": "'MAPK14'"
+    },
+    {
+      "poi": "MAPK14_full",
+      "pose_id": "pose005",
+      "reason": "'MAPK14'"
+    },
+    {
+      "poi": "MAPK14_full",
+      "pose_id": "pose006",
+      "reason": "'MAPK14'"
+    },
+    {
+      "poi": "MAPK14_full",
+      "pose_id": "pose007",
+      "reason": "'MAPK14'"
+    },
+    {
+      "poi": "MAPK14_full",
+      "pose_id": "pose008",
+      "reason": "'MAPK14'"
+    },
+    {
+      "poi": "MAPK14_full",
+      "pose_id": "pose009",
+      "reason": "'MAPK14'"
+    },
+    {
+      "poi": "MAPK14_full",
+      "pose_id": "pose010",
+      "reason": "'MAPK14'"
+    },
+    {
+      "poi": "MAPK14_full",
+      "pose_id": "pose011",
+      "reason": "'MAPK14'"
+    },
+    {
+      "poi": "MAPK14_full",
+      "pose_id": "pose012",
+      "reason": "'MAPK14'"
+    },
+    {
+      "poi": "MAPK14_full",
+      "pose_id": "pose013",
+      "reason": "'MAPK14'"
+    },
+    {
+      "poi": "MAPK14_full",
+      "pose_id": "pose015",
+      "reason": "'MAPK14'"
+    },
+    {
+      "poi": "MAPK14_full",
+      "pose_id": "pose016",
+      "reason": "'MAPK14'"
+    },
+    {
+      "poi": "MAPK14_full",
+      "pose_id": "pose017",
+      "reason": "'MAPK14'"
+    },
+    {
+      "poi": "MAPK14_full",
+      "pose_id": "pose018",
+      "reason": "'MAPK14'"
+    },
+    {
+      "poi": "MAPK14_full",
+      "pose_id": "pose020",
+      "reason": "'MAPK14'"
+    }
+  ],
+  "original_files_modified": false,
+  "new_MD_or_docking_executed": false,
+  "sequences_sha256": "bad81965bbf853328ae2b8617cc5f03337762be87d71c0df2cc202203ad7f57d",
+  "roster_sha256": "66d35ec68420696bce89ba470790d468566b5ea96d4d20cc1e6e1efdffe29a5f",
+  "source_sha256": "5aedbd17d47a7e989ebce45d9540764eef482b64703cdd72affad1ae34e3ce57",
+  "records_sha256": "e370c7e03089dd5c56d32673a8752f2037c7bcc4acba788b7b9f718e9e23877a",
+  "MDAnalysis_version": "2.10.0",
+  "interpretation": "This identifies actual proteins in the existing compiled systems. Reproducing a legacy metric does not validate its biological role labels. Correcting analysis selections can reuse existing trajectories; no MD rerun is inferred."
+}

@@ -1,0 +1,18 @@
+{
+  "status": "REPRESENTATIVE_STATIC_ROLE_AUDIT",
+  "targets_requested": 17,
+  "targets_found": 17,
+  "legacy_selected_UID_counts": {
+    "P40337": 0,
+    "Q15369": 0,
+    "Q15370": 17
+  },
+  "records": 17,
+  "source_script_sha256": "be1ba711f7599766c867c64ef2f59926a1931ec60b73543f214e345f733ffa04",
+  "audit_source_sha256": "4dc2e8097f8cd75494583b1a3c2dd491eec6acedb6e1c8c64d3f6f9009042d62",
+  "sequence_cache_sha256": "bad81965bbf853328ae2b8617cc5f03337762be87d71c0df2cc202203ad7f57d",
+  "records_sha256": "d8d2d160be55baf3b0422a8325e9444710dd963bc72736fbf67865aeb92e56bf",
+  "original_files_modified": false,
+  "new_PRosettaC_or_MD_executed": false,
+  "limitation": "One retained structure per target verifies these representatives; this is not an exhaustive audit of every retained pose."
+}

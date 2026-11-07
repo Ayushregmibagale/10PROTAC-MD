@@ -1,37 +1,35 @@
-# Corrected SJF8240 workflow and retained historical results
+# Existing SJF8240: robust scripts and retained results
 
 Run from `prosettac_robust/workflow`. All output directories must be fresh.
 The original projects are read-only references. Current release requirements are
 in `../sjf8240_review/publication_readiness.json`; no production/training release
-has been issued. The other compounds are deferred.
+has been issued. The other compounds are deferred. The current user scope is reuse of existing structures/results, not a new study campaign. Read `../USER_REQUIREMENTS.md` first. The old rerun manifest and corrected-chemistry campaign proposal are historical planning artifacts, not execution instructions.
 
 ```mermaid
 flowchart LR
-  A[Verified Tocris SJF8240 graph] --> B[Recorded docking search]
-  B --> C[Chemistry and full-complex QC]
-  C --> D[New MD systems and independent replicas]
-  D --> E[Mapped periodic features and E2 descriptors]
-  E --> F[Frozen-cohort GNN evaluation]
-  G[Assay-specific experimental labels] --> F
+  A[Existing structures and completed outputs] --> B[Hash and protein-role audit]
+  B --> C[Read-only contact and cutoff re-analysis]
+  C --> D[Versioned descriptor interpretation]
+  D --> E[Trace original GNN results and justified claims]
+  F[Reviewed assay and chemical identity] --> E
 ```
 
-## Preserve and recompute
+## Preserve and re-analyse existing results
 
 Keep historical runs, model files, predictions, source structures and all failure
 records. The compiled historical SJF8240 systems have different connectivity;
 do not edit old ITPs and resume old TPR/checkpoint files as corrected systems.
-Revalidate any reused protein candidate geometry independently. Regenerate the
-chemical pose, topology, production trajectory and chemistry-dependent features.
-Use `../sjf8240_review/sjf8240_rerun_manifest.tsv` to trace the historical targets.
+The current task audits and re-analyses the actual retained systems. If a later study claims simulations of a different, verified chemical structure, its required new data must be decided separately; do not reinterpret an old TPR as a different molecule or automatically launch a replacement campaign.
+Use `../sjf8240_review/sjf8240_rerun_manifest.tsv` only to trace the historical targets; it is not the current execution plan.
 
 Freeze the experimental assay, compound identity, concentrations, time, controls,
 endpoint and label evidence independently of model output. The historical
 17-target cohort is a reference, not a newly certified label set. Do not treat
 missing assay data, absent graphs or a failed finite search as a negative label.
 
-## Docking and MD
+## Optional future docking/MD controls
 
-Use the repaired controller's `--plan` and bounded `--run --pilot` modes with
+For a separately chosen future control, the repaired controller has `--plan` and bounded `--run --pilot` modes with
 explicit Python, seed and budgets. The `baseline_engine` directory retains the
 working adapter sequence: randomized constrained global orientations, local
 Rosetta docking, full two-head constrained linker construction and actual scoring.
@@ -43,9 +41,9 @@ conformers unattempted; the per-pose ledger records attempted/unattempted search
 The requested conformer cap does not certify exhaustive sampling or 100 failed
 independent feasibility searches. Adequacy must be measured before campaign use.
 
-For each QC-valid selected pose, `06_prepare_md.py` creates a fresh mapped system
+For future explicitly chosen poses, `06_prepare_md.py` can create a fresh mapped system
 from verified SJF8240 `neutral_reference` parameters. The corresponding
-`07_run_md_stage.py` completes EM, NVT, restrained NPT, unrestrained NPT and then
+`07_run_md_stage.py` completes EM, NVT, restrained NPT, NPT with ligand restraints released, and then
 production using immutable stage receipts. Check independent replicas and
 convergence rather than assuming a fixed duration proves stability.
 
@@ -125,3 +123,8 @@ python3 /home/ayushregmibagale/10PROTAC-MD/prosettac_robust/workflow/scripts/00_
 ```
 
 This prepends the preserved overlay and inherits it in child processes. The base `/home/ayushregmibagale/miniconda3/envs/deepternary/bin/python` and its fallback packages remain external dependencies; this is not a self-contained portable environment. Bare base Python uses an older RDKit and must not be substituted. Verified overlay versions: Python 3.10.22, RDKit 2025.09.5 with `SetCoordMap`, NumPy 2.2.6, OpenMM 8.4; PyRosetta imports from the preserved private path. Do not upload licensed binaries/database to GitHub or assume this local layout exists on Ernie.
+
+
+### Future GNN checkpoints
+
+The isolated runner writes a training intent before any future approved evaluation and one tensor-only checkpoint per held-out fold. Checkpoints retain weights, architecture, training-only scalar reference rows and the held-out normalized vector/score; `weights_only=True` restoration can replay inference without retraining. Prediction scores retain full precision. A completion receipt, not an intent/partial checkpoint, marks success. Existing historical predictions remain unchanged. Corrected role/periodic/joint features must be versioned and reviewed separately before any new evaluation; no SJF8240 training was started for these software checks.

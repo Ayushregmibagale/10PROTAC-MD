@@ -1,0 +1,117 @@
+{
+  "status": "INVALID_DO_NOT_USE",
+  "reason": "GROMACS sorts selected energy terms by internal index, not selection-request order. Initial audit assigned numeric columns incorrectly. Superseded using explicit XVG legends.",
+  "invalid_result": {
+    "status": "DESCRIPTIVE_CONTROL_STATISTICS_NOT_CONVERGENCE",
+    "stages": [
+      {
+        "stage": "nvt",
+        "window_ps": [
+          100.0,
+          200.0
+        ],
+        "samples": 51,
+        "statistics": {
+          "Temperature": {
+            "mean": -4284447.0,
+            "sample_std": 2205.5150894972357
+          },
+          "Pressure": {
+            "mean": 299.98083317647064,
+            "sample_std": 0.5809005090853927
+          },
+          "Potential": {
+            "mean": -189.34890935294118,
+            "sample_std": 110.01156412547424
+          }
+        },
+        "units": {
+          "Temperature": "K",
+          "Pressure": "bar",
+          "Density": "kg/m^3",
+          "Potential": "kJ/mol"
+        },
+        "source_edr_sha256": "baf0b414e7b8bb304c0bdd73c89eb875002b4973f1d3079936a65e68fccf2f4e",
+        "parent_receipt_sha256": "46c5c3978e8e1c02ee2fa7d5c1d6dcb0e87d528098f7447bb03523dd1e0b7685",
+        "xvg_sha256": "8da100b1080c84a5baa435d9e744f585e85577fa4ec44c1e26afd6c509384a55",
+        "gmx_sha256": "9286cccea1befcb1a867c64a1b7c21ac6e456e1b221831dd81f544fe4f74b748",
+        "purpose": "Descriptive last-half stage diagnostic; samples are correlated and no equilibrium/convergence claim is made"
+      },
+      {
+        "stage": "npt_restrained",
+        "window_ps": [
+          250.0,
+          500.0
+        ],
+        "samples": 126,
+        "statistics": {
+          "Temperature": {
+            "mean": -4295288.531746032,
+            "sample_std": 1847.3533335515779
+          },
+          "Pressure": {
+            "mean": 299.9426204126985,
+            "sample_std": 0.5610360878173614
+          },
+          "Density": {
+            "mean": -11.517821333333334,
+            "sample_std": 54.69112347551256
+          },
+          "Potential": {
+            "mean": 1001.4149746190478,
+            "sample_std": 0.9249997716800374
+          }
+        },
+        "units": {
+          "Temperature": "K",
+          "Pressure": "bar",
+          "Density": "kg/m^3",
+          "Potential": "kJ/mol"
+        },
+        "source_edr_sha256": "8f4c2b3792060a814deb04a3d83fb3f172723e0e380338bc34efc0f42d2ad234",
+        "parent_receipt_sha256": "74678457a6d66a2c86a3bfe32a07736e1308467f985c0bf380a41f4bec4e5295",
+        "xvg_sha256": "b78b58c1a15eb1f5f85b077f40043ea07db80b6738124698b3193f4aad4b0eeb",
+        "gmx_sha256": "9286cccea1befcb1a867c64a1b7c21ac6e456e1b221831dd81f544fe4f74b748",
+        "purpose": "Descriptive last-half stage diagnostic; samples are correlated and no equilibrium/convergence claim is made"
+      },
+      {
+        "stage": "npt",
+        "window_ps": [
+          250.0,
+          500.0
+        ],
+        "samples": 126,
+        "statistics": {
+          "Temperature": {
+            "mean": -4295725.51984127,
+            "sample_std": 1809.1194835065967
+          },
+          "Pressure": {
+            "mean": 299.96863034126983,
+            "sample_std": 0.49131839990588905
+          },
+          "Density": {
+            "mean": -3.623332039682539,
+            "sample_std": 48.44512124911775
+          },
+          "Potential": {
+            "mean": 1001.3264576904762,
+            "sample_std": 0.9069130621532954
+          }
+        },
+        "units": {
+          "Temperature": "K",
+          "Pressure": "bar",
+          "Density": "kg/m^3",
+          "Potential": "kJ/mol"
+        },
+        "source_edr_sha256": "010802d35f76d670cdb601c34c6b4a4f440b4f6d86d50377124bffb59d22df5c",
+        "parent_receipt_sha256": "0f3babaa71c839f8beb0c655f7a00c36767d14b4d6d425d5992d35851f708883",
+        "xvg_sha256": "e79535c623978d5030d0d1347d0f4c8f3948eccd20daac9928dcf20bd59aabbf",
+        "gmx_sha256": "9286cccea1befcb1a867c64a1b7c21ac6e456e1b221831dd81f544fe4f74b748",
+        "purpose": "Descriptive last-half stage diagnostic; samples are correlated and no equilibrium/convergence claim is made"
+      }
+    ],
+    "source_sha256": "711f57ab9c7c7ef4a69664f6b86c1f8bff885adc67a7f4c958cf0a265cfaac5b"
+  }
+}

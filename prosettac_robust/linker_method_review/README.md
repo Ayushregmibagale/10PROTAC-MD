@@ -1,6 +1,8 @@
-# Experimental linker-method review
+# Linker-method qualification record
 
-Status: EXPLORATORY_NOT_ADOPTED. Default workflow is unchanged.
+Current local software choice: centered ETKDGv3, retain experimental torsion preferences, disable basic-knowledge preferences, exact fixed heads and UFF refinement. This corrects the previous default in `workflow/`. Scientific production release remains pending. The frozen candidate directories retain their original exploratory status as historical snapshots.
+
+The properly manifested torsion-preserving SJF8240 control produced 19 valid poses from the same 50 local protein arrangements (29 feasible/scored); broader DG yielded 15 and baseline yielded zero. Native-frame GSK integration retained 2.209 Å VHL RMSD and 0.75 native contacts. A retrospective check of three previously accepted global GSK arrangements at three seeds succeeded for both variants (18/18). These are local qualification controls, not prospective biological validation.
 
 `candidate_workflow` contains the frozen source variant. Center both head coordinate sets, disable ETKDG experimental torsion and basic-knowledge preferences, preserve all exact-head/stereochemical and full-complex checks, restore the original protein frame. `tests` contains three geometry controls. `paired_comparison.json` binds the comparison to 50 exactly identical local protein arrangements. `evidence` retains compact terminal receipts and focused controls. Full local run directories are deliberately Git-ignored.
 

@@ -209,3 +209,113 @@ The manually copied torsion-candidate v1 source trees omitted `source_manifest.j
 The benchmark recorder now validates any supplied source snapshot and campaign manifest binding before starting a worker. Added a counterexample proving that a missing source manifest cannot start a process or create an attempt record. This turns the observed setup error into an inexpensive pre-execution failure for future runs. Existing recorded controls remain unchanged.
 
 The corrected-chemistry SJF8240/MET MD integration system passed full EM: 5,273 steps, Fmax 172.44859 kJ/mol/nm (<500), with a verified completion receipt and compiled-input/output hashes. Started the full configured 200 ps restrained NVT stage on the local GPU. This is the first corrected-chemistry SJF8240 EM handoff in the isolated workflow; it does not validate the modeled loop conformations, candidate docking method or production convergence.
+
+
+## 17. Select the minimal qualified linker correction for local software validation
+
+**What:** Adopted the centered, torsion-preserving variant in the isolated active workflow; scientific production is still gated separately.
+**How:** Retain ETKDGv3 experimental torsion preferences, disable only basic-knowledge preferences, center exact bound heads before embedding, refine with fixed-head UFF and restore original coordinates. Global/local protein sampling, stereochemical identity, raw scores, clash cutoffs and head-preservation checks are unchanged. The properly snapshotted v2 SJF control independently verifies: same 50 local protein frames, 29 linkers/scored, 19 full-QC valid. The GSK native-frame control retains 2.209 Å RMSD / 0.75 native contacts. Both variants succeed for all three previously accepted global GSK arrangements at all three seeds (18/18 checks total); that retrospective selection is not independent validation. Added real SJF bound-head fixtures and two default-workflow regressions for native and translated coordinates.
+**Why:** Centering removes coordinate-origin dependence. Retaining experimental torsion preferences changes fewer modeling assumptions than disabling both preference sets. Successful typed/stereochemical/fixed-head controls, not degradation labels or model accuracy, justify the software correction. The broader candidate and all failed baseline runs remain available for comparison. Exact-input scientific validation, independent sampling and microstate decisions remain necessary before production.
+
+The ongoing MD control starts from the first broader-DG candidate; no claim is made that it is byte-identical to a torsion-preserving output. Its chemical identity and topology handoff are valid integration checks, while method-specific validation is tracked separately.
+
+
+## 18. Corrected-chemistry static graph and actual encoder integration
+
+**What:** Built and packed a graph from all 15 QC-valid broader-DG SJF8240/MET poses and exercised the real static encoder.
+**How:** Independent docking receipt/chemistry verification precedes graph creation. The resulting graph has 497 nodes and 2,052 directed edges with the versioned 9-node/3-edge-feature schema. Label stays -1 (unknown). Hash-bound packing and the untrained native-CPU encoder produce a finite 1×128 embedding at fixed seed 7919. No loss, training, degradation probability or biological prediction is produced. Compact receipts are versioned; raw graph packets remain local.
+**Why:** Synthetic tensor tests cannot alone establish that real corrected-chemistry structures produce compatible model inputs. This checks the actual handoff without converting a diagnostic into an accuracy claim or importing historical labels.
+
+## 19. Audit the chemical states actually used by the MD control
+
+**What:** Recorded protein charges, all titratable residues, 19 histidine tautomer choices, disulfide topology and ion counts from the immutable prepared topologies.
+**How:** Verify the preparation hashes, parse actual per-atom topology charges/bonds and sum the complete system. Protein charge is -5 e; neutral SJF8240 plus 291 Na+ and 286 Cl- yields net zero; water count is 99,872. State assignment is the GROMACS standard-state/geometry-based default. No pKa calculation or pH-dependent microstate validation is implied.
+**Why:** A neutral vendor drawing does not establish the dominant solution microstate, and automatic histidine choices must be visible for scientific review. This audit records the exact control without changing a running system; protein/ligand microstates remain part of the scientific production review.
+
+The broader-DG MD control has completed 200 ps NVT and 500 ps restrained NPT with proper receipts. Its next 500 ps stage releases ligand restraints while retaining protein restraints. The final planned 20 ps unrestrained production remains a diagnostic, not a converged study.
+
+
+## 20. Remove stale graph assumptions from the active MD feature producer
+
+**What:** Removed unused historical residue-jump heuristics, original-project default paths and hardcoded assay labels; corrected feature documentation.
+**How:** Execution still uses the mapped periodic implementation. The module now has no implicit screen directory or biological labels. Documentation states the actual dynamic definition: 5 Å ligand-heavy-to-protein-Cα proximity; VHL–POI edges use observed same-frame joint proximity and mean distances over sampled frames. Node features are three-dimensional, and equal per-pose aggregation is explicit. No graph algorithm, threshold or model architecture changed. A regression check prevents implicit source-directory or label selection.
+**Why:** Historical comments incorrectly described six node features, all-heavy-atom contacts, product-of-marginals edges and thermodynamic stability. Those statements do not describe the repaired implementation and could cause incorrect manuscript methods or reuse of original data.
+
+The first lexicographic QC-valid pose from the selected torsion-preserving method (`combined_10_1_0001`) passed the current sequence/gap/interchain/ligand repair checks and corrected-chemistry topology preparation. Its ligand–protein minimum separation is 2.435 Å and observed protein atoms remained fixed. A separate local EM is underway; this is tracked separately from the broader-DG MD system.
+
+
+## 21. Named-column thermodynamic diagnostics and a caught audit bug
+
+**What:** Added descriptive last-half temperature/pressure/density/potential diagnostics for completed control stages; fixed an error in the first audit implementation.
+**How:** The first audit assumed GROMACS emits energy columns in request order. It actually sorts by internal energy index, yielding visibly nonphysical reported temperatures. Retained that result as `md_thermodynamics_initial_INVALID_column_order.json` with an explicit INVALID status. A new named-column reader requires unique indexed XVG legends, finite increasing-time data and positive temperature/density. Regression tests demonstrate reordered terms and reject unlabelled/nonphysical series. Regenerated in a fresh `energy_audits_v2` folder; no raw EDR or MD system changed.
+**Why:** Finite numbers and matching dimensions do not prove semantic column identity. Publication analyses must bind names to data rather than infer order from a command. Valid final-NPT last-half values are mean T 299.969 K (sample SD 0.491), density 1001.326 kg/m³ (SD 0.907), pressure -3.623 bar (SD 48.445). Samples are correlated; these descriptive statistics are not confidence intervals or evidence of equilibrium/convergence.
+
+The broader-DG control completed the second 500 ps NPT stage and began the prespecified 20 ps unrestrained integration segment. It remains excluded from any scientific training/release cohort.
+
+
+## 22. User scope clarification and persistent requirements
+
+The user clarified that the existing SJF8240 structures and completed PRosettaC/MD/GNN results should be retained and reused, with primary attention on robust scripts and the correctness of rationales such as bridging <5 Å. A wholesale repeat of the expensive experiment is not wanted. They requested that all instructions be saved persistently. Created `USER_REQUIREMENTS.md` and agent-readable `AGENTS.md`, covering preservation, location, Tocris reference evidence, scientific interpretation, compute, Git, detailed notes and communications.
+
+Stopped only the new torsion-control local GROMACS minimization by SIGTERM when this clarification arrived; no original job or result was touched. The user then allowed helpful work/diagnostics to continue, asked about the minimization's purpose and explicitly said to continue. A fresh bounded minimization retry will test the same diagnostic system while preserving the interrupted attempt. This is local software integration validation, not a rerun of the completed experiment or a study release.
+
+
+## 23. Audit the completed experiment's bridging definition without rerunning it
+
+**What:** Added a read-only producer for existing distance-table, index-group and cutoff-sensitivity audits. Reused the existing SJF8240 outputs rather than generating new study data.
+**How:** The initial full-manifest audit reconciled 140 cases, rejected a duplicate-time AXL series, and explicitly recorded 33 prediction-target cases without the expected local XVG files. A separate, explicitly scoped core audit reconciles 141/141 original CSV/header results, then removes only the exact identical duplicate in AXL/pose011 and analyzes a common 0–20 ns window. That AXL record actually extends to 100 ns. All cases use 201 stored samples at 0.1 ns spacing in the common window. Counterexamples reject timestamp mismatch, truncation, wrong units, conflicting duplicates and confusion between joint occupancy and a product of marginals. Prespecified cutoffs 3.5–6 Å are evaluated without labels or performance-based selection; 5 Å remains the inherited primary rule.
+**Why:** The scientific rationale depends on what is measured, not just the numeric threshold. Actual saved ligand groups include 65 hydrogens among 144 atoms. The pose-screen, MD and dynamic GNN contact definitions differ. The manuscript must distinguish these, avoid calling proximity a degradation probability, and report threshold/duration sensitivity. Full explanation and primary-source references are in `existing_result_audit/BRIDGING_RATIONALE_AUDIT.md`. Original coordinates, trajectories, metrics and predictions remain unchanged. Reprocessing stored XVGs is not an MD rerun.
+
+## 24. Close the explicitly authorized minimization diagnostic
+
+The fresh selected-method EM retry completed in 5,468 steps with Fmax 455.493 kJ/mol/nm (<500). The interrupted attempt is retained separately. This confirms a bounded local preparation/minimization handoff for that diagnostic pose. No subsequent MD stages were automatically started for this retry, and it does not replace or require repeating any completed SJF8240 trajectory.
+
+The resulting active software checkpoint passes 117 tests in each of the analysis Python 3.13 and approved-overlay Python 3.10 environments. This is software verification, not a scientific-release or journal-acceptance claim. Existing results and historical source snapshots remain separate from future-method controls.
+
+
+## 25. Independent protein-sequence check reveals a legacy role-label error
+
+**What:** Compared the proteins actually present in the first existing DDR2 production TPR against the cached canonical sequences, rather than trusting chain/index names.
+**How:** Protein_chain_A has 101 Cα residues and matches Elongin B/Q15370 with 100% identity and observed-sequence coverage. Protein_chain_B matches Elongin C/Q15369 (85 Cα), while Protein_chain_C matches VHL/P40337 (140 Cα), both at 100%. The existing group named VHL selects Protein_chain_A. The POI chain matches DDR2 with 98.5% identity/coverage. Started a read-only compiled-TPR role audit across all 141 core cases before generalizing this result.
+**Why:** Reproducing a metric proves implementation consistency, not biological label correctness. The all-atom contact table must currently be described as legacy-named group proximity. True VHL is present in the simulation, so corrected analysis selections can reuse existing trajectories. No original index, topology, trajectory, metric or model result is overwritten; no MD rerun is inferred.
+
+
+## 26. Complete the 141-system protein-role audit and begin contact re-analysis
+
+The first sequence audit identified 106 systems and left 35 unresolved because the auditor stripped `_full` from target names whose canonical cohort keys retain it. Preserved that incomplete report and its exact script; fixed exact-key lookup and processed only those remaining 35 cases. Combined hash-bound reports identify all 141 systems: every legacy `VHL` group is Elongin B/Q15370; true VHL/P40337 is Protein_chain_C at 100% identity and observed sequence coverage. All 141 POI groups match their expected targets. No simulated protein is substituted or removed.
+
+A direct re-analysis of the first DDR2 trajectory reproduces old periodic GROMACS distances to within 0.000014 Å. At 5 Å, the old Elongin-B-labelled metric is 1.99%, while true-VHL/POI occupancy is 100% (also 100% for heavy-only true-VHL/POI at this cutoff). This is one case, not a cohort or degradation conclusion.
+
+The initial trajectory check rejected time alignment at an overly literal floating-point tolerance: four XVG timestamps differ from XTC times by 0.000001 ns plus binary rounding. Preserved the diagnostic failure. The qualified reader uses the precision of seven-significant-digit XVG times (5.1e-6 ns tolerance for this 20 ns window), far below the 0.1 ns sampling interval. It still requires equal frame counts, increasing aligned times and finite data; no truncation or interpolation is allowed.
+
+MDAnalysis's default reader attempted an offset/lock sidecar in the original directory; the read-only sandbox prevented the write. Added a read-only XTC reader that bypasses sidecar creation, including refresh mode, and tests that input hashes/directory contents remain unchanged. Future re-analysis uses that reader explicitly.
+
+Froze a 141-case, two-worker, common-20-ns re-analysis plan and all executable/helper/config/sequence source bytes in `existing_result_audit/contact_core_v1`. This recomputes distances and proxy definitions from existing trajectories; it executes no docking, parameterization, minimization or MD. Active batch files are excluded from installation until terminal completion. Original results and models remain untouched, and corrected analyses will be separate outputs.
+
+
+## 27. Static graph role audit and bounded interpretation
+
+Read the original static graph configuration through Python AST/literal data only, never importing its executable top-level code. One retained combined PDB per core target (17/17) identifies the old chain-A/residue-1–103 selection as Elongin B/Q15370. These representatives support the role-label finding; no claim is made to have reprocessed every static pose or rerun docking. Source PDB/script/cache hashes and selection rules are retained.
+
+Checked the existing corrected E2 script separately: it explicitly aligns sequence-verified Elongin C, chain B/85 Cα. That anchor choice agrees with the sequence audit. Do not infer that every old E2 coordinate transformation is wrong merely from the mislabeled chain-A contact descriptor. The conditional bridging masks and biological meaning of reachability scores still require explicit definitions. Saved `existing_result_audit/METRIC_GLOSSARY.md` to distinguish legacy scaffold proximity, true-VHL contact occupancy, pocket engagement, E2 geometry and degradation labels/probabilities.
+
+
+## 28. Complete contact re-analysis on all 141 existing trajectories
+
+**What:** Recomputed the legacy-named, true-VHL all-atom and true-VHL heavy-only contact definitions on the completed original MD, preserving all old outputs.
+**How:** Frozen source/plan, two analysis workers, common 0–20 ns windows, 201 samples/case, explicit sequence identities and strict read-only XTC input. All 141 cases complete; all 28,341 sampled frame records are retained in the stated windows. Periodic stored-group distances reproduce GROMACS to maxima 0.00002093 Å (legacy Elongin-B label) and 0.00002114 Å (POI). Independently checked every per-case success flag before aggregation. Produced per-pose/per-target cutoff tables plus vector PDF/SVG and PNG review figures with input/source hashes. Runtime about 499 s; no docking or molecular simulation was executed.
+**Why:** The user wanted defensible rationales without repeating the computational experiment. True-VHL and heavy-only definitions change occupancy substantially, so the old descriptor must be named and interpreted as E3-scaffold proximity. High sampled proximity is not a degradation probability. Corrected analysis results are explicit derivatives, not silent replacements for old metrics or model inputs.
+
+Updated the runbook/readiness metadata to prioritize reuse of existing results. Retained the old corrected-chemistry campaign requirements as a historical/conditional proposal, explicitly not authorization to execute a campaign. Existing chemical-identity and assay-label concerns remain scientific findings that code tests or contact re-analysis cannot erase.
+
+
+## 29. Future GNN fold replay without repeating training
+
+**What:** Added per-fold model-state checkpoints and full-precision score retention to the isolated GNN runner; no existing GNN was retrained or overwritten.
+**How:** Save tensor-only model state, architecture, held-out/training identities, fold seed, exact training-only scalar reference rows, normalized held-out scalars, full score and source/contract hashes. Loadable with `torch.load(..., weights_only=True)`. Numeric fold filenames avoid target-name path issues; original-project destinations, overwrites and held-out/training overlap are rejected. A training-intent file records inputs/settings before computation, and only the terminal receipt certifies a completed evaluation. Final receipts hash checkpoint artifacts as well as prediction/summary tables. Invalid hidden/head dimensions and nonfinite learning rates fail before training. Console display remains concise, while tabular scores are no longer rounded before AUROC/metrics.
+**Why:** Saved prediction tables alone cannot replay a model or recover discarded score precision. Checkpoints let future fold inference be reproduced without repeating training, while preserving the old outputs. Regression tests restore a saved model and reproduce its exact score; a four-case, one-epoch synthetic check verifies each held-out fold and score/checkpoint binding. These tests use synthetic tensors, not the SJF8240 dataset, and establish no biological performance.
+
+
+## 30. Durable resume checkpoint after the session limit
+
+The requested final save had not completed before the interruption: the last pushed commit remained 3dfbdae, and later work was partly staged. On 2026-11-07, checked actual files/Git status and created `RESUME_STATE.md` with scope, findings, exact artifact/runtime locations, remaining tasks and the incomplete-save history. The three new GNN tests require PyG, which is absent from the docking environment. They now explicitly skip there rather than failing or implying unsupported validation. Analysis-environment tests still require them to pass. No dependencies were installed into the original environments, no study data was retrained and no molecular simulation restarted.

@@ -1,0 +1,46 @@
+{
+  "status": "COMPLETE_READ_ONLY_EXISTING_OUTPUT_AUDIT",
+  "original_project": "/home/ayushregmibagale/protac-md",
+  "manifest_sha256": "d4f652807c68df20d089c3562be4cbfbc1b6c5bd63932dbf4489a2fa27b78fe1",
+  "all_manifest_completed_poses": 174,
+  "selected_targets": [
+    "DDR2",
+    "RIPK2_full",
+    "MAPK14_full",
+    "MET",
+    "EPHB2",
+    "ABL1",
+    "AXL",
+    "EPHA2"
+  ],
+  "identical_duplicate_policy": "drop exact repeats in derivative only",
+  "time_end_ns": 20.0,
+  "declared_completed_poses": 141,
+  "audited_poses": 141,
+  "failures": [],
+  "primary_rule": "(min ligand-to-VHL distance <5 \u00c5) AND (min ligand-to-POI distance <5 \u00c5) at aligned timestamps",
+  "cutoff_sensitivity_A": [
+    3.5,
+    4.0,
+    4.5,
+    5.0,
+    5.5,
+    6.0
+  ],
+  "original_outputs_modified": false,
+  "new_PRosettaC_or_MD_executed": false,
+  "labels_used_for_cutoff_selection": false,
+  "contact_scope": "Actual stored Other/VHL/Kinase index groups; composition recorded, not silently redefined as heavy atoms",
+  "limitations": [
+    "Reuses stored distances; does not independently recompute periodic distances or prove correct index-to-TPR correspondence.",
+    "GRO hydrogen counts use atom names; topology is needed for exact element/mass identity.",
+    "Pose-sampled frame occupancy is not equilibrium binding probability, degradation probability or a free energy.",
+    "Correlated frames and bridge-selected starting poses preclude treating every frame/pose as an independent biological replicate."
+  ],
+  "source_sha256": "f8ee479b76843d137203df193eab4c3bc156f748f88397b6f8238c8fb6876254",
+  "outputs_sha256": {
+    "per_target_cutoff.tsv": "06eeb8b21f8744517cc813e1f15468833e93126e7eb4edb5fc5be7038135cf2c",
+    "per_pose_cutoff.tsv": "16d2c3a6494ec21f6cab8ab08778b402c1293670ade06af813229a97dd539c5c",
+    "pose_provenance.json": "66d35ec68420696bce89ba470790d468566b5ea96d4d20cc1e6e1efdffe29a5f"
+  }
+}

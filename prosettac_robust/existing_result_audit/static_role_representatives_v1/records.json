@@ -1,0 +1,592 @@
+[
+  {
+    "poi": "DDR2",
+    "status": "LEGACY_SELECTED_COMPONENT_IDENTIFIED",
+    "representative_selection": "First available configured retained combined PDB; chosen for sequence audit without labels/geometry optimization",
+    "pose": "/mnt/d/PROTAC degradation Prediction/pRosettaC/runs/high_affinity_degraders/DDR2/Patchdock_Results/combined_100_1.pdb",
+    "pdb_sha256": "80182a7fc8ea8b9a1d0ca878cd18bc8df82fb4db2e2cbf60e6b75c4181d39dd1",
+    "legacy_static_VHL_CA_count": 101,
+    "legacy_static_selected_protein": {
+      "uniprot": "Q15370",
+      "identity": 1.0,
+      "observed_CA_coverage": 1.0,
+      "canonical_first": 1,
+      "canonical_last": 103
+    },
+    "independently_identified_E3_chains": {
+      "B": {
+        "uniprot": "Q15369",
+        "identity": 1.0,
+        "observed_CA_coverage": 1.0,
+        "canonical_first": 17,
+        "canonical_last": 111
+      },
+      "C": {
+        "uniprot": "P40337",
+        "identity": 1.0,
+        "observed_CA_coverage": 1.0,
+        "canonical_first": 62,
+        "canonical_last": 202
+      }
+    }
+  },
+  {
+    "poi": "RIPK2_full",
+    "status": "LEGACY_SELECTED_COMPONENT_IDENTIFIED",
+    "representative_selection": "First available configured retained combined PDB; chosen for sequence audit without labels/geometry optimization",
+    "pose": "/mnt/d/PROTAC degradation Prediction/pRosettaC/runs/high_affinity_degraders/RIPK2_full/Patchdock_Results/combined_100_1.pdb",
+    "pdb_sha256": "004a572f5a84f67726a60700fb9586a5a514fc71c5bf75429d34a3ce8dfe143e",
+    "legacy_static_VHL_CA_count": 101,
+    "legacy_static_selected_protein": {
+      "uniprot": "Q15370",
+      "identity": 1.0,
+      "observed_CA_coverage": 1.0,
+      "canonical_first": 1,
+      "canonical_last": 103
+    },
+    "independently_identified_E3_chains": {
+      "B": {
+        "uniprot": "Q15369",
+        "identity": 1.0,
+        "observed_CA_coverage": 1.0,
+        "canonical_first": 17,
+        "canonical_last": 111
+      },
+      "C": {
+        "uniprot": "P40337",
+        "identity": 1.0,
+        "observed_CA_coverage": 1.0,
+        "canonical_first": 62,
+        "canonical_last": 202
+      }
+    }
+  },
+  {
+    "poi": "MAPK14_full",
+    "status": "LEGACY_SELECTED_COMPONENT_IDENTIFIED",
+    "representative_selection": "First available configured retained combined PDB; chosen for sequence audit without labels/geometry optimization",
+    "pose": "/mnt/d/PROTAC degradation Prediction/pRosettaC/runs/high_affinity_degraders/MAPK14_full/Patchdock_Results/combined_100_1.pdb",
+    "pdb_sha256": "e0c75584965949e5d07e65964affff5c557a2e731319f9162d29b45a1a87c891",
+    "legacy_static_VHL_CA_count": 101,
+    "legacy_static_selected_protein": {
+      "uniprot": "Q15370",
+      "identity": 1.0,
+      "observed_CA_coverage": 1.0,
+      "canonical_first": 1,
+      "canonical_last": 103
+    },
+    "independently_identified_E3_chains": {
+      "B": {
+        "uniprot": "Q15369",
+        "identity": 1.0,
+        "observed_CA_coverage": 1.0,
+        "canonical_first": 17,
+        "canonical_last": 111
+      },
+      "C": {
+        "uniprot": "P40337",
+        "identity": 1.0,
+        "observed_CA_coverage": 1.0,
+        "canonical_first": 62,
+        "canonical_last": 202
+      }
+    }
+  },
+  {
+    "poi": "MET",
+    "status": "LEGACY_SELECTED_COMPONENT_IDENTIFIED",
+    "representative_selection": "First available configured retained combined PDB; chosen for sequence audit without labels/geometry optimization",
+    "pose": "/mnt/d/PROTAC degradation Prediction/pRosettaC/runs/high_affinity_degraders/MET/Patchdock_Results/combined_10_1.pdb",
+    "pdb_sha256": "06888051a65779c9280fc2ec27bca57d7b6f9c5c3fca0112a70029b0a146ce1f",
+    "legacy_static_VHL_CA_count": 101,
+    "legacy_static_selected_protein": {
+      "uniprot": "Q15370",
+      "identity": 1.0,
+      "observed_CA_coverage": 1.0,
+      "canonical_first": 1,
+      "canonical_last": 103
+    },
+    "independently_identified_E3_chains": {
+      "B": {
+        "uniprot": "Q15369",
+        "identity": 1.0,
+        "observed_CA_coverage": 1.0,
+        "canonical_first": 17,
+        "canonical_last": 111
+      },
+      "C": {
+        "uniprot": "P40337",
+        "identity": 1.0,
+        "observed_CA_coverage": 1.0,
+        "canonical_first": 62,
+        "canonical_last": 202
+      }
+    }
+  },
+  {
+    "poi": "EPHB2",
+    "status": "LEGACY_SELECTED_COMPONENT_IDENTIFIED",
+    "representative_selection": "First available configured retained combined PDB; chosen for sequence audit without labels/geometry optimization",
+    "pose": "/mnt/d/PROTAC degradation Prediction/pRosettaC/runs/high_affinity_degraders/EPHB2/Patchdock_Results/combined_100_1.pdb",
+    "pdb_sha256": "f83cde88db5b121d50997f1c355b308d2fc18cb07a985de1226750e65df70089",
+    "legacy_static_VHL_CA_count": 101,
+    "legacy_static_selected_protein": {
+      "uniprot": "Q15370",
+      "identity": 1.0,
+      "observed_CA_coverage": 1.0,
+      "canonical_first": 1,
+      "canonical_last": 103
+    },
+    "independently_identified_E3_chains": {
+      "B": {
+        "uniprot": "Q15369",
+        "identity": 1.0,
+        "observed_CA_coverage": 1.0,
+        "canonical_first": 17,
+        "canonical_last": 111
+      },
+      "C": {
+        "uniprot": "P40337",
+        "identity": 1.0,
+        "observed_CA_coverage": 1.0,
+        "canonical_first": 62,
+        "canonical_last": 202
+      }
+    }
+  },
+  {
+    "poi": "ABL1",
+    "status": "LEGACY_SELECTED_COMPONENT_IDENTIFIED",
+    "representative_selection": "First available configured retained combined PDB; chosen for sequence audit without labels/geometry optimization",
+    "pose": "/mnt/d/PROTAC degradation Prediction/pRosettaC/runs/high_affinity_no_degradation/ABL1/Patchdock_Results/combined_100_1.pdb",
+    "pdb_sha256": "323b453bf4bb8aca67af91abae4bc89c1596592bbfa24b4d2d25fea323b1d483",
+    "legacy_static_VHL_CA_count": 101,
+    "legacy_static_selected_protein": {
+      "uniprot": "Q15370",
+      "identity": 1.0,
+      "observed_CA_coverage": 1.0,
+      "canonical_first": 1,
+      "canonical_last": 103
+    },
+    "independently_identified_E3_chains": {
+      "B": {
+        "uniprot": "Q15369",
+        "identity": 1.0,
+        "observed_CA_coverage": 1.0,
+        "canonical_first": 17,
+        "canonical_last": 111
+      },
+      "C": {
+        "uniprot": "P40337",
+        "identity": 1.0,
+        "observed_CA_coverage": 1.0,
+        "canonical_first": 62,
+        "canonical_last": 202
+      }
+    }
+  },
+  {
+    "poi": "AXL",
+    "status": "LEGACY_SELECTED_COMPONENT_IDENTIFIED",
+    "representative_selection": "First available configured retained combined PDB; chosen for sequence audit without labels/geometry optimization",
+    "pose": "/mnt/d/PROTAC degradation Prediction/pRosettaC/runs/high_affinity_no_degradation/AXL/Patchdock_Results/combined_100_1.pdb",
+    "pdb_sha256": "d2191cda0e8c458e7e6b7daba97a8744a1f8a94e778d3bd2fc2390b0d57723f3",
+    "legacy_static_VHL_CA_count": 101,
+    "legacy_static_selected_protein": {
+      "uniprot": "Q15370",
+      "identity": 1.0,
+      "observed_CA_coverage": 1.0,
+      "canonical_first": 1,
+      "canonical_last": 103
+    },
+    "independently_identified_E3_chains": {
+      "B": {
+        "uniprot": "Q15369",
+        "identity": 1.0,
+        "observed_CA_coverage": 1.0,
+        "canonical_first": 17,
+        "canonical_last": 111
+      },
+      "C": {
+        "uniprot": "P40337",
+        "identity": 1.0,
+        "observed_CA_coverage": 1.0,
+        "canonical_first": 62,
+        "canonical_last": 202
+      }
+    }
+  },
+  {
+    "poi": "EPHA2",
+    "status": "LEGACY_SELECTED_COMPONENT_IDENTIFIED",
+    "representative_selection": "First available configured retained combined PDB; chosen for sequence audit without labels/geometry optimization",
+    "pose": "/mnt/d/PROTAC degradation Prediction/pRosettaC/runs/high_affinity_no_degradation/EPHA2/Patchdock_Results/combined_100_1.pdb",
+    "pdb_sha256": "4dc37b88c9ab95c09aa345b3561530c79c03b31fb9d6eba8e33d04b81c9d99dc",
+    "legacy_static_VHL_CA_count": 101,
+    "legacy_static_selected_protein": {
+      "uniprot": "Q15370",
+      "identity": 1.0,
+      "observed_CA_coverage": 1.0,
+      "canonical_first": 1,
+      "canonical_last": 103
+    },
+    "independently_identified_E3_chains": {
+      "B": {
+        "uniprot": "Q15369",
+        "identity": 1.0,
+        "observed_CA_coverage": 1.0,
+        "canonical_first": 17,
+        "canonical_last": 111
+      },
+      "C": {
+        "uniprot": "P40337",
+        "identity": 1.0,
+        "observed_CA_coverage": 1.0,
+        "canonical_first": 62,
+        "canonical_last": 202
+      }
+    }
+  },
+  {
+    "poi": "MAP4K5",
+    "status": "LEGACY_SELECTED_COMPONENT_IDENTIFIED",
+    "representative_selection": "First available configured retained combined PDB; chosen for sequence audit without labels/geometry optimization",
+    "pose": "/mnt/d/PROTAC degradation Prediction/pRosettaC/runs/high_affinity_no_degradation/MAP4K5/Results/cluster1/combined_27_17_0001.pdb",
+    "pdb_sha256": "dbcca967b8d774cbcd1c5e3b948e00ff98d309b13e09cd226eb04ade9ab3a051",
+    "legacy_static_VHL_CA_count": 101,
+    "legacy_static_selected_protein": {
+      "uniprot": "Q15370",
+      "identity": 1.0,
+      "observed_CA_coverage": 1.0,
+      "canonical_first": 1,
+      "canonical_last": 103
+    },
+    "independently_identified_E3_chains": {
+      "A": {
+        "uniprot": "Q15370",
+        "identity": 1.0,
+        "observed_CA_coverage": 1.0,
+        "canonical_first": 1,
+        "canonical_last": 103
+      },
+      "B": {
+        "uniprot": "Q15369",
+        "identity": 1.0,
+        "observed_CA_coverage": 1.0,
+        "canonical_first": 17,
+        "canonical_last": 111
+      },
+      "C": {
+        "uniprot": "P40337",
+        "identity": 1.0,
+        "observed_CA_coverage": 1.0,
+        "canonical_first": 62,
+        "canonical_last": 202
+      }
+    }
+  },
+  {
+    "poi": "SLK",
+    "status": "LEGACY_SELECTED_COMPONENT_IDENTIFIED",
+    "representative_selection": "First available configured retained combined PDB; chosen for sequence audit without labels/geometry optimization",
+    "pose": "/mnt/d/PROTAC degradation Prediction/pRosettaC/runs/high_affinity_no_degradation/SLK/Results/cluster1/combined_130_2_0001.pdb",
+    "pdb_sha256": "41a697e319943f54d641cbfe574a4674a2f4c4d4a09a7f692c867300b78dc373",
+    "legacy_static_VHL_CA_count": 101,
+    "legacy_static_selected_protein": {
+      "uniprot": "Q15370",
+      "identity": 1.0,
+      "observed_CA_coverage": 1.0,
+      "canonical_first": 1,
+      "canonical_last": 103
+    },
+    "independently_identified_E3_chains": {
+      "A": {
+        "uniprot": "Q15370",
+        "identity": 1.0,
+        "observed_CA_coverage": 1.0,
+        "canonical_first": 1,
+        "canonical_last": 103
+      },
+      "B": {
+        "uniprot": "Q15369",
+        "identity": 1.0,
+        "observed_CA_coverage": 1.0,
+        "canonical_first": 17,
+        "canonical_last": 111
+      },
+      "C": {
+        "uniprot": "P40337",
+        "identity": 1.0,
+        "observed_CA_coverage": 1.0,
+        "canonical_first": 62,
+        "canonical_last": 202
+      }
+    }
+  },
+  {
+    "poi": "CDK17",
+    "status": "LEGACY_SELECTED_COMPONENT_IDENTIFIED",
+    "representative_selection": "First available configured retained combined PDB; chosen for sequence audit without labels/geometry optimization",
+    "pose": "/mnt/d/PROTAC degradation Prediction/pRosettaC/runs/low_affinity_degraders/CDK17/Patchdock_Results/combined_10_1.pdb",
+    "pdb_sha256": "6df7dd16d4f573e151031e5cfa9488dabccc70f6c85a5e26def63bd2d40a84ce",
+    "legacy_static_VHL_CA_count": 101,
+    "legacy_static_selected_protein": {
+      "uniprot": "Q15370",
+      "identity": 1.0,
+      "observed_CA_coverage": 1.0,
+      "canonical_first": 1,
+      "canonical_last": 103
+    },
+    "independently_identified_E3_chains": {
+      "A": {
+        "uniprot": "Q15370",
+        "identity": 1.0,
+        "observed_CA_coverage": 1.0,
+        "canonical_first": 1,
+        "canonical_last": 103
+      },
+      "B": {
+        "uniprot": "Q15369",
+        "identity": 1.0,
+        "observed_CA_coverage": 1.0,
+        "canonical_first": 17,
+        "canonical_last": 111
+      },
+      "C": {
+        "uniprot": "P40337",
+        "identity": 1.0,
+        "observed_CA_coverage": 1.0,
+        "canonical_first": 62,
+        "canonical_last": 202
+      }
+    }
+  },
+  {
+    "poi": "CDK2",
+    "status": "LEGACY_SELECTED_COMPONENT_IDENTIFIED",
+    "representative_selection": "First available configured retained combined PDB; chosen for sequence audit without labels/geometry optimization",
+    "pose": "/mnt/d/PROTAC degradation Prediction/pRosettaC/runs/low_affinity_no_degradation/CDK2/Patchdock_Results/combined_100_1.pdb",
+    "pdb_sha256": "f91e7efaaec569c87ee4047b73898a66a07a1265d19bfddaf94f0ac4b7bf3a0c",
+    "legacy_static_VHL_CA_count": 101,
+    "legacy_static_selected_protein": {
+      "uniprot": "Q15370",
+      "identity": 1.0,
+      "observed_CA_coverage": 1.0,
+      "canonical_first": 1,
+      "canonical_last": 103
+    },
+    "independently_identified_E3_chains": {
+      "A": {
+        "uniprot": "Q15370",
+        "identity": 1.0,
+        "observed_CA_coverage": 1.0,
+        "canonical_first": 1,
+        "canonical_last": 103
+      },
+      "B": {
+        "uniprot": "Q15369",
+        "identity": 1.0,
+        "observed_CA_coverage": 1.0,
+        "canonical_first": 17,
+        "canonical_last": 111
+      },
+      "C": {
+        "uniprot": "P40337",
+        "identity": 1.0,
+        "observed_CA_coverage": 1.0,
+        "canonical_first": 62,
+        "canonical_last": 202
+      }
+    }
+  },
+  {
+    "poi": "CDK4",
+    "status": "LEGACY_SELECTED_COMPONENT_IDENTIFIED",
+    "representative_selection": "First available configured retained combined PDB; chosen for sequence audit without labels/geometry optimization",
+    "pose": "/mnt/d/PROTAC degradation Prediction/pRosettaC/runs/low_affinity_no_degradation/CDK4/Patchdock_Results/combined_100_1.pdb",
+    "pdb_sha256": "24e836515d6ef4cd831d9b73a6126c630f3c6c8c8dcafb9647d6b985556b8897",
+    "legacy_static_VHL_CA_count": 101,
+    "legacy_static_selected_protein": {
+      "uniprot": "Q15370",
+      "identity": 1.0,
+      "observed_CA_coverage": 1.0,
+      "canonical_first": 1,
+      "canonical_last": 103
+    },
+    "independently_identified_E3_chains": {
+      "A": {
+        "uniprot": "Q15370",
+        "identity": 1.0,
+        "observed_CA_coverage": 1.0,
+        "canonical_first": 1,
+        "canonical_last": 103
+      },
+      "B": {
+        "uniprot": "Q15369",
+        "identity": 1.0,
+        "observed_CA_coverage": 1.0,
+        "canonical_first": 17,
+        "canonical_last": 111
+      },
+      "C": {
+        "uniprot": "P40337",
+        "identity": 1.0,
+        "observed_CA_coverage": 1.0,
+        "canonical_first": 62,
+        "canonical_last": 202
+      }
+    }
+  },
+  {
+    "poi": "CDK6",
+    "status": "LEGACY_SELECTED_COMPONENT_IDENTIFIED",
+    "representative_selection": "First available configured retained combined PDB; chosen for sequence audit without labels/geometry optimization",
+    "pose": "/mnt/d/PROTAC degradation Prediction/pRosettaC/runs/low_affinity_no_degradation/CDK6/Patchdock_Results/combined_100_1.pdb",
+    "pdb_sha256": "c29faa6b5483d2d62c00a7fb165f980a9dd827dca1b22e1b05d654eb312d0707",
+    "legacy_static_VHL_CA_count": 101,
+    "legacy_static_selected_protein": {
+      "uniprot": "Q15370",
+      "identity": 1.0,
+      "observed_CA_coverage": 1.0,
+      "canonical_first": 1,
+      "canonical_last": 103
+    },
+    "independently_identified_E3_chains": {
+      "A": {
+        "uniprot": "Q15370",
+        "identity": 1.0,
+        "observed_CA_coverage": 1.0,
+        "canonical_first": 1,
+        "canonical_last": 103
+      },
+      "B": {
+        "uniprot": "Q15369",
+        "identity": 1.0,
+        "observed_CA_coverage": 1.0,
+        "canonical_first": 17,
+        "canonical_last": 111
+      },
+      "C": {
+        "uniprot": "P40337",
+        "identity": 1.0,
+        "observed_CA_coverage": 1.0,
+        "canonical_first": 62,
+        "canonical_last": 202
+      }
+    }
+  },
+  {
+    "poi": "DAPK1",
+    "status": "LEGACY_SELECTED_COMPONENT_IDENTIFIED",
+    "representative_selection": "First available configured retained combined PDB; chosen for sequence audit without labels/geometry optimization",
+    "pose": "/mnt/d/PROTAC degradation Prediction/pRosettaC/runs/low_affinity_no_degradation/DAPK1/Patchdock_Results/combined_100_1.pdb",
+    "pdb_sha256": "6b4b2d2730bb4138aef73d7e8ea87d069e20f7e4c760bd6a49e18ee616bc1d47",
+    "legacy_static_VHL_CA_count": 101,
+    "legacy_static_selected_protein": {
+      "uniprot": "Q15370",
+      "identity": 1.0,
+      "observed_CA_coverage": 1.0,
+      "canonical_first": 1,
+      "canonical_last": 103
+    },
+    "independently_identified_E3_chains": {
+      "A": {
+        "uniprot": "Q15370",
+        "identity": 1.0,
+        "observed_CA_coverage": 1.0,
+        "canonical_first": 1,
+        "canonical_last": 103
+      },
+      "B": {
+        "uniprot": "Q15369",
+        "identity": 1.0,
+        "observed_CA_coverage": 1.0,
+        "canonical_first": 17,
+        "canonical_last": 111
+      },
+      "C": {
+        "uniprot": "P40337",
+        "identity": 1.0,
+        "observed_CA_coverage": 1.0,
+        "canonical_first": 62,
+        "canonical_last": 202
+      }
+    }
+  },
+  {
+    "poi": "IRAK1",
+    "status": "LEGACY_SELECTED_COMPONENT_IDENTIFIED",
+    "representative_selection": "First available configured retained combined PDB; chosen for sequence audit without labels/geometry optimization",
+    "pose": "/mnt/d/PROTAC degradation Prediction/pRosettaC/runs/low_affinity_no_degradation/IRAK1/Patchdock_Results/combined_100_1.pdb",
+    "pdb_sha256": "1df3fab152989ca67d8b959a33537f18b0c33944bc2513deda25e0ad33d0bd64",
+    "legacy_static_VHL_CA_count": 101,
+    "legacy_static_selected_protein": {
+      "uniprot": "Q15370",
+      "identity": 1.0,
+      "observed_CA_coverage": 1.0,
+      "canonical_first": 1,
+      "canonical_last": 103
+    },
+    "independently_identified_E3_chains": {
+      "A": {
+        "uniprot": "Q15370",
+        "identity": 1.0,
+        "observed_CA_coverage": 1.0,
+        "canonical_first": 1,
+        "canonical_last": 103
+      },
+      "B": {
+        "uniprot": "Q15369",
+        "identity": 1.0,
+        "observed_CA_coverage": 1.0,
+        "canonical_first": 17,
+        "canonical_last": 111
+      },
+      "C": {
+        "uniprot": "P40337",
+        "identity": 1.0,
+        "observed_CA_coverage": 1.0,
+        "canonical_first": 62,
+        "canonical_last": 202
+      }
+    }
+  },
+  {
+    "poi": "TLK2",
+    "status": "LEGACY_SELECTED_COMPONENT_IDENTIFIED",
+    "representative_selection": "First available configured retained combined PDB; chosen for sequence audit without labels/geometry optimization",
+    "pose": "/mnt/d/PROTAC degradation Prediction/pRosettaC/runs/low_affinity_no_degradation/TLK2/Patchdock_Results/combined_100_1.pdb",
+    "pdb_sha256": "a9b80de91bd0d054b10c60abbe2d9a5f4045aa93a233e79460d0d326fe6bfce7",
+    "legacy_static_VHL_CA_count": 101,
+    "legacy_static_selected_protein": {
+      "uniprot": "Q15370",
+      "identity": 1.0,
+      "observed_CA_coverage": 1.0,
+      "canonical_first": 1,
+      "canonical_last": 103
+    },
+    "independently_identified_E3_chains": {
+      "A": {
+        "uniprot": "Q15370",
+        "identity": 1.0,
+        "observed_CA_coverage": 1.0,
+        "canonical_first": 1,
+        "canonical_last": 103
+      },
+      "B": {
+        "uniprot": "Q15369",
+        "identity": 1.0,
+        "observed_CA_coverage": 1.0,
+        "canonical_first": 17,
+        "canonical_last": 111
+      },
+      "C": {
+        "uniprot": "P40337",
+        "identity": 1.0,
+        "observed_CA_coverage": 1.0,
+        "canonical_first": 62,
+        "canonical_last": 202
+      }
+    }
+  }
+]

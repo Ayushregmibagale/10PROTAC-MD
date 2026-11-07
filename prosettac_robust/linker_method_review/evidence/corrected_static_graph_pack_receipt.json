@@ -1,0 +1,13 @@
+{
+  "status": "GRAPH_PACKET_REQUIRES_REVIEW",
+  "feature_schema": "SJF8240-periodic-contacts-v1",
+  "poi": [
+    "MET"
+  ],
+  "source_receipts_sha256": {
+    "/tmp/10protac_finish/prosettac_robust/linker_method_review/static_graph_DG_control/receipt.json": "a069504acc76c206b287f2ce9833f785dd0d5e584a0aebce75ebb8e6cfdab60b"
+  },
+  "output_sha256": "bcf014c9ee1f6756e06cd5bacb995696c9b2c7edd1815c3d1f2e2d9df8a03456",
+  "source_sha256": "3da6364158efcd2126c3a241c66b8792c31b66154b316f77ef0d6ee3c60ca010",
+  "automatic_training_release": false
+}

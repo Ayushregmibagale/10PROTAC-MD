@@ -1,0 +1,19 @@
+{
+  "status": "GRAPH_PACKET_REQUIRES_REVIEW",
+  "feature_schema": "SJF8240-periodic-contacts-v1",
+  "component": "static",
+  "poi": "MET",
+  "label": -1,
+  "n_poses": 15,
+  "nodes": 497,
+  "directed_edges": 2052,
+  "contact_cutoff_A": 8.0,
+  "edge_frequency_threshold": 0.005,
+  "mean_distance": "Conditional on contact, nm",
+  "normalization": "Within-role residue range; ligand sorted unique atom names",
+  "source_sha256": "5aa742bab16147e9c8bbe00ecfc5d0bff9bf2247fc411953f6388dff6d7d546d",
+  "completion_sha256": "e4db2c1ca3a9de13e83eeac96bcccfdccc9a4566642c467911e352ae3f0f93e7",
+  "selection_sha256": "35d269763795f0e8585f3bf9a171037528820bc9443de00a2bf97a0836ba563e",
+  "graph_sha256": "7e67b02d3ade78999ba7a0b168ef1a358f37f5094207d11a19df9945f61c12a8",
+  "automatic_training_release": false
+}

@@ -1,0 +1,13 @@
+{
+  "status": "FROZEN_RETROSPECTIVE_ANALYSIS_SOURCES",
+  "files_sha256": {
+    "existing_result_audit/review_tools/recheck_existing_trajectory_contacts.py": "7469a19811d53d9bbf951f146264662ddfee35f7d8a4dff7c30a6af2f0485503",
+    "existing_result_audit/review_tools/audit_existing_protein_roles.py": "bfbe73c720ab1666e4ada74faf7acffeee7c15ecf2b42ae9c1b1edeb0989a02f",
+    "workflow/scripts/02_analysis/07_audit_existing_bridge_metrics.py": "f8ee479b76843d137203df193eab4c3bc156f748f88397b6f8238c8fb6876254",
+    "workflow/scripts/lib/protac_qc.py": "b7faca900f0a3c441f3d7fccb9835e7ae138f1198f480101145b9e6363ccf632",
+    "workflow/scripts/lib/gromacs_energy.py": "28234912de3a17d0b88b4e86f3d2eec3561406071889266eaae5b3dfedc059e0",
+    "workflow/scripts/lib/read_only_trajectory.py": "231645da4027fd0f9e7e2ad49e7f5d942a12e768a5e1995b58a88fd505e55edb",
+    "workflow/config/sjf8240_publication_cohort.json": "7964f77822f62627fe7813b937335c357bf1e1849e9678864bf9124cf3e580e8",
+    "workflow/sequence_provenance/uniprot_batches/sjf8240_reference_cohort.json": "bad81965bbf853328ae2b8617cc5f03337762be87d71c0df2cc202203ad7f57d"
+  }
+}

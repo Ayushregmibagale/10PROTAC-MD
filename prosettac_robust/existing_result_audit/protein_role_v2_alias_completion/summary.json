@@ -1,0 +1,17 @@
+{
+  "status": "COMPLETE_RETROSPECTIVE_ROLE_AUDIT",
+  "poses_requested": 35,
+  "poses_identified": 35,
+  "legacy_VHL_label_matches": 0,
+  "legacy_VHL_label_mismatches": 35,
+  "legacy_POI_matches": 35,
+  "failures": [],
+  "original_files_modified": false,
+  "new_MD_or_docking_executed": false,
+  "sequences_sha256": "bad81965bbf853328ae2b8617cc5f03337762be87d71c0df2cc202203ad7f57d",
+  "roster_sha256": "8718e9ec2345e841148b737d953b907745f59d44a0f74f2c97292dce36b694fa",
+  "source_sha256": "bfbe73c720ab1666e4ada74faf7acffeee7c15ecf2b42ae9c1b1edeb0989a02f",
+  "records_sha256": "c1243cfd4f9ec4da2a95e23e8043e3a89c11ef9fd6923536c27c789db16a936b",
+  "MDAnalysis_version": "2.10.0",
+  "interpretation": "This identifies actual proteins in the existing compiled systems. Reproducing a legacy metric does not validate its biological role labels. Correcting analysis selections can reuse existing trajectories; no MD rerun is inferred."
+}

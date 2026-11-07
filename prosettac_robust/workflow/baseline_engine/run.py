@@ -26,7 +26,8 @@ def main():
     if min(a.n_dock,a.n_local,a.conformers,a.workers,a.max_global_trials)<1 or a.n_local>50 or a.conformers>100:
         raise ValidationError('Invalid baseline sampling budget')
     report={'schema_version':2,'status':'RUNNING','score_role':'raw','seed':a.seed,
-        'engine_kind':'existing_pRosettaC_baseline_repaired','protocol':a.protocol,
+        'engine_kind':'existing_pRosettaC_centered_fixed_head_ETKDG_no_basic_knowledge','protocol':a.protocol,
+        'linker_method':'CENTERED_TORSION_DG_FIXED_HEADS_UFF',
         'docking_microstate':'supplier_neutral_reference','started_unix':time.time(),'stages':{},
         'engine_sha256':engine_source_hashes(ROOT),
         'settings':{k:str(v) if isinstance(v,Path) else v for k,v in vars(a).items()}}

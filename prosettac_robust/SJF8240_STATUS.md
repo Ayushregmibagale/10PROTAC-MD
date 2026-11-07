@@ -1,10 +1,10 @@
 # SJF8240 publication work: current status
 
-The identified software corrections and artifact trace are implemented in this separate derivative. Scientific release remains pending.
+Current priority: preserve/reuse the existing SJF8240 structures and completed PRosettaC/MD/GNN results; harden scripts and audit scientific rationales. Helpful bounded diagnostics are authorized, but a wholesale experiment rerun is not. Read `USER_REQUIREMENTS.md` and `AGENTS.md`. Scientific claims remain under review.
 The original D: project, original protac-md, original MD/GNN results, and the
 previous top-level 10PROTAC-MD workflow are unchanged.
 
-**Validation:** 105 tests passed in each of Python 3.10 and Python 3.13. The current native-CPU GNN architecture also passes its forward/backward check. Installed and clean-checkout checks are recorded separately.
+**Validation:** 122 tests pass in the Python 3.13 analysis environment. The Python 3.10 docking environment passes 119, with three GNN replay tests explicitly skipped because PyG is absent. Actual logs are retained; these are software checks, not scientific-release certification.
 
 ## Findings established from retained artifacts
 
@@ -69,9 +69,21 @@ still required before a scientific campaign.
 
 ### 2026-11-06 experimental linker/MD checkpoint
 
-- Default workflow is still isolated and unchanged by the candidate linker method.
+- The active isolated workflow now uses the centered, torsion-preserving fixed-head correction; the earlier default and both comparison variants remain in Git history and frozen controls.
 - Paired 50-frame diagnostic: baseline 0 valid, centered-DG candidate 15 full-QC valid, identical local protein coordinates and 0 Å head-core displacement.
 - GSK215 candidate integration check: 2.209 Å VHL RMSD, 0.75 native-contact fraction.
-- Candidate-specific geometry tests: 3 passed in both runtimes. Active workflow now has 108 tests, including parameter-bundle completeness and modeled-loop interchain overlap rejection; the 105-test software checkpoint is historical.
-- Selected corrected-chemistry SJF8240/MET protein repair and topology preparation passed. Full EM passed (5,273 steps; Fmax 172.45 <500 kJ/mol/nm). NVT is running; no production convergence or biological accuracy claim yet.
+- Candidate-specific geometry tests: 3 passed in both runtimes. Active workflow now has 119 tests, including parameter-bundle completeness and modeled-loop interchain overlap rejection; the 105-test software checkpoint is historical.
+- The broader-DG MD control passed repair, topology, EM (Fmax 172.45 <500), 200 ps NVT and 500 ps restrained NPT. The subsequent 500 ps stage with ligand restraints released is running. Exact selected-method handoff is being tested separately. No production convergence or biological accuracy claim is made.
 - All immutable parameter-generation artifacts restored; validated docking overlay preserved privately inside the derivative folder. Base conda dependencies remain external.
+
+
+### Existing-results audit after user scope clarification
+
+The read-only cutoff/selection audit reconciles all 141 core completed MD cases to their original saved CSVs/headers. A separate derivative sensitivity audit uses common 0–20 ns windows and explicitly removes one identical duplicate in the extended AXL/pose011 record. Actual historical MD groups contain hydrogens. The sequence audit confirms that the recorded group labelled VHL is Elongin B in all 141 core systems; true VHL is chain C. The old table reproduces legacy-labelled group proximity, not VHL retention. Corrected contact re-analysis uses the same trajectories. Five angstroms is an operational cutoff, not a universal binding/degradation criterion. See `existing_result_audit/BRIDGING_RATIONALE_AUDIT.md` for exact definitions, cutoff tables, references and limitations. All original results remain unchanged.
+
+The user-authorized selected-method minimization retry passed in 5,468 steps (Fmax 455.493 <500 kJ/mol/nm). No following MD stages were started for that retry. The earlier broader-DG control completed its staged MD plus a 20 ps diagnostic segment; neither control replaces the historical study.
+
+
+### Completed existing-trajectory correction checkpoint
+
+All 141 core trajectories were re-analysed without new MD. Sequence-identified true VHL is Protein_chain_C; every old group labelled VHL is Elongin B. All original GROMACS distance checks reproduce within 0.000022 Å. Separate legacy/all-atom/true-VHL/heavy-only definitions, cutoff tables and review figures are in `existing_result_audit/contact_core_v1/`. Original metrics and GNN predictions are preserved. One retained static structure per core target (17/17 representatives) has the same legacy Elongin-B selector; this is not an exhaustive per-pose static audit. The corrected E2 script's Elongin-C alignment anchor is consistent with the sequence check; its conditional metric semantics still need precise descriptions.

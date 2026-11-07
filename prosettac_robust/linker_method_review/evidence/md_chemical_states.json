@@ -1,0 +1,2984 @@
+{
+  "status": "TOPOLOGY_CHEMICAL_STATE_AUDIT_NOT_PH_VALIDATION",
+  "protein_chains": [
+    {
+      "chain": "A",
+      "topology_charge_e": 1.0000000000000044,
+      "disulfide_bonds": []
+    },
+    {
+      "chain": "B",
+      "topology_charge_e": -4.9999999999999964,
+      "disulfide_bonds": []
+    },
+    {
+      "chain": "C",
+      "topology_charge_e": -3.9999999999999956,
+      "disulfide_bonds": []
+    },
+    {
+      "chain": "D",
+      "topology_charge_e": 3.000000000000013,
+      "disulfide_bonds": []
+    }
+  ],
+  "titratable_residues": [
+    {
+      "chain": "A",
+      "topology_residue": "64",
+      "resname": "ARG",
+      "residue_charge_e": 0.9999999999999999,
+      "hydrogen_names": [
+        "H",
+        "HA",
+        "HB1",
+        "HB2",
+        "HD1",
+        "HD2",
+        "HE",
+        "HG1",
+        "HG2",
+        "HH11",
+        "HH12",
+        "HH21",
+        "HH22"
+      ]
+    },
+    {
+      "chain": "A",
+      "topology_residue": "69",
+      "resname": "ARG",
+      "residue_charge_e": 0.9999999999999999,
+      "hydrogen_names": [
+        "H",
+        "HA",
+        "HB1",
+        "HB2",
+        "HD1",
+        "HD2",
+        "HE",
+        "HG1",
+        "HG2",
+        "HH11",
+        "HH12",
+        "HH21",
+        "HH22"
+      ]
+    },
+    {
+      "chain": "A",
+      "topology_residue": "70",
+      "resname": "GLU",
+      "residue_charge_e": -0.9999999999999999,
+      "hydrogen_names": [
+        "H",
+        "HA",
+        "HB1",
+        "HB2",
+        "HG1",
+        "HG2"
+      ]
+    },
+    {
+      "chain": "A",
+      "topology_residue": "77",
+      "resname": "CYS",
+      "residue_charge_e": 2.7755575615628914e-17,
+      "hydrogen_names": [
+        "H",
+        "HA",
+        "HB1",
+        "HB2",
+        "HG"
+      ]
+    },
+    {
+      "chain": "A",
+      "topology_residue": "79",
+      "resname": "ARG",
+      "residue_charge_e": 0.9999999999999999,
+      "hydrogen_names": [
+        "H",
+        "HA",
+        "HB1",
+        "HB2",
+        "HD1",
+        "HD2",
+        "HE",
+        "HG1",
+        "HG2",
+        "HH11",
+        "HH12",
+        "HH21",
+        "HH22"
+      ]
+    },
+    {
+      "chain": "A",
+      "topology_residue": "82",
+      "resname": "ARG",
+      "residue_charge_e": 0.9999999999999999,
+      "hydrogen_names": [
+        "H",
+        "HA",
+        "HB1",
+        "HB2",
+        "HD1",
+        "HD2",
+        "HE",
+        "HG1",
+        "HG2",
+        "HH11",
+        "HH12",
+        "HH21",
+        "HH22"
+      ]
+    },
+    {
+      "chain": "A",
+      "topology_residue": "92",
+      "resname": "ASP",
+      "residue_charge_e": -1.0,
+      "hydrogen_names": [
+        "H",
+        "HA",
+        "HB1",
+        "HB2"
+      ]
+    },
+    {
+      "chain": "A",
+      "topology_residue": "94",
+      "resname": "GLU",
+      "residue_charge_e": -0.9999999999999999,
+      "hydrogen_names": [
+        "H",
+        "HA",
+        "HB1",
+        "HB2",
+        "HG1",
+        "HG2"
+      ]
+    },
+    {
+      "chain": "A",
+      "topology_residue": "107",
+      "resname": "ARG",
+      "residue_charge_e": 0.9999999999999999,
+      "hydrogen_names": [
+        "H",
+        "HA",
+        "HB1",
+        "HB2",
+        "HD1",
+        "HD2",
+        "HE",
+        "HG1",
+        "HG2",
+        "HH11",
+        "HH12",
+        "HH21",
+        "HH22"
+      ]
+    },
+    {
+      "chain": "A",
+      "topology_residue": "108",
+      "resname": "ARG",
+      "residue_charge_e": 0.9999999999999999,
+      "hydrogen_names": [
+        "H",
+        "HA",
+        "HB1",
+        "HB2",
+        "HD1",
+        "HD2",
+        "HE",
+        "HG1",
+        "HG2",
+        "HH11",
+        "HH12",
+        "HH21",
+        "HH22"
+      ]
+    },
+    {
+      "chain": "A",
+      "topology_residue": "110",
+      "resname": "HIS",
+      "residue_charge_e": -1.0408340855860843e-17,
+      "hydrogen_names": [
+        "H",
+        "HA",
+        "HB1",
+        "HB2",
+        "HD2",
+        "HE1",
+        "HE2"
+      ],
+      "histidine_state": "epsilon"
+    },
+    {
+      "chain": "A",
+      "topology_residue": "113",
+      "resname": "ARG",
+      "residue_charge_e": 0.9999999999999999,
+      "hydrogen_names": [
+        "H",
+        "HA",
+        "HB1",
+        "HB2",
+        "HD1",
+        "HD2",
+        "HE",
+        "HG1",
+        "HG2",
+        "HH11",
+        "HH12",
+        "HH21",
+        "HH22"
+      ]
+    },
+    {
+      "chain": "A",
+      "topology_residue": "115",
+      "resname": "HIS",
+      "residue_charge_e": -1.0408340855860843e-17,
+      "hydrogen_names": [
+        "H",
+        "HA",
+        "HB1",
+        "HB2",
+        "HD2",
+        "HE1",
+        "HE2"
+      ],
+      "histidine_state": "epsilon"
+    },
+    {
+      "chain": "A",
+      "topology_residue": "120",
+      "resname": "ARG",
+      "residue_charge_e": 0.9999999999999999,
+      "hydrogen_names": [
+        "H",
+        "HA",
+        "HB1",
+        "HB2",
+        "HD1",
+        "HD2",
+        "HE",
+        "HG1",
+        "HG2",
+        "HH11",
+        "HH12",
+        "HH21",
+        "HH22"
+      ]
+    },
+    {
+      "chain": "A",
+      "topology_residue": "121",
+      "resname": "ASP",
+      "residue_charge_e": -1.0,
+      "hydrogen_names": [
+        "H",
+        "HA",
+        "HB1",
+        "HB2"
+      ]
+    },
+    {
+      "chain": "A",
+      "topology_residue": "125",
+      "resname": "HIS",
+      "residue_charge_e": -1.0408340855860843e-17,
+      "hydrogen_names": [
+        "H",
+        "HA",
+        "HB1",
+        "HB2",
+        "HD2",
+        "HE1",
+        "HE2"
+      ],
+      "histidine_state": "epsilon"
+    },
+    {
+      "chain": "A",
+      "topology_residue": "126",
+      "resname": "ASP",
+      "residue_charge_e": -1.0,
+      "hydrogen_names": [
+        "H",
+        "HA",
+        "HB1",
+        "HB2"
+      ]
+    },
+    {
+      "chain": "A",
+      "topology_residue": "134",
+      "resname": "GLU",
+      "residue_charge_e": -0.9999999999999999,
+      "hydrogen_names": [
+        "H",
+        "HA",
+        "HB1",
+        "HB2",
+        "HG1",
+        "HG2"
+      ]
+    },
+    {
+      "chain": "A",
+      "topology_residue": "143",
+      "resname": "ASP",
+      "residue_charge_e": -1.0,
+      "hydrogen_names": [
+        "H",
+        "HA",
+        "HB1",
+        "HB2"
+      ]
+    },
+    {
+      "chain": "A",
+      "topology_residue": "159",
+      "resname": "LYS",
+      "residue_charge_e": 1.0,
+      "hydrogen_names": [
+        "H",
+        "HA",
+        "HB1",
+        "HB2",
+        "HD1",
+        "HD2",
+        "HE1",
+        "HE2",
+        "HG1",
+        "HG2",
+        "HZ1",
+        "HZ2",
+        "HZ3"
+      ]
+    },
+    {
+      "chain": "A",
+      "topology_residue": "160",
+      "resname": "GLU",
+      "residue_charge_e": -0.9999999999999999,
+      "hydrogen_names": [
+        "H",
+        "HA",
+        "HB1",
+        "HB2",
+        "HG1",
+        "HG2"
+      ]
+    },
+    {
+      "chain": "A",
+      "topology_residue": "161",
+      "resname": "ARG",
+      "residue_charge_e": 0.9999999999999999,
+      "hydrogen_names": [
+        "H",
+        "HA",
+        "HB1",
+        "HB2",
+        "HD1",
+        "HD2",
+        "HE",
+        "HG1",
+        "HG2",
+        "HH11",
+        "HH12",
+        "HH21",
+        "HH22"
+      ]
+    },
+    {
+      "chain": "A",
+      "topology_residue": "162",
+      "resname": "CYS",
+      "residue_charge_e": 2.7755575615628914e-17,
+      "hydrogen_names": [
+        "H",
+        "HA",
+        "HB1",
+        "HB2",
+        "HG"
+      ]
+    },
+    {
+      "chain": "A",
+      "topology_residue": "167",
+      "resname": "ARG",
+      "residue_charge_e": 0.9999999999999999,
+      "hydrogen_names": [
+        "H",
+        "HA",
+        "HB1",
+        "HB2",
+        "HD1",
+        "HD2",
+        "HE",
+        "HG1",
+        "HG2",
+        "HH11",
+        "HH12",
+        "HH21",
+        "HH22"
+      ]
+    },
+    {
+      "chain": "A",
+      "topology_residue": "171",
+      "resname": "LYS",
+      "residue_charge_e": 1.0,
+      "hydrogen_names": [
+        "H",
+        "HA",
+        "HB1",
+        "HB2",
+        "HD1",
+        "HD2",
+        "HE1",
+        "HE2",
+        "HG1",
+        "HG2",
+        "HZ1",
+        "HZ2",
+        "HZ3"
+      ]
+    },
+    {
+      "chain": "A",
+      "topology_residue": "173",
+      "resname": "GLU",
+      "residue_charge_e": -0.9999999999999999,
+      "hydrogen_names": [
+        "H",
+        "HA",
+        "HB1",
+        "HB2",
+        "HG1",
+        "HG2"
+      ]
+    },
+    {
+      "chain": "A",
+      "topology_residue": "176",
+      "resname": "ARG",
+      "residue_charge_e": 0.9999999999999999,
+      "hydrogen_names": [
+        "H",
+        "HA",
+        "HB1",
+        "HB2",
+        "HD1",
+        "HD2",
+        "HE",
+        "HG1",
+        "HG2",
+        "HH11",
+        "HH12",
+        "HH21",
+        "HH22"
+      ]
+    },
+    {
+      "chain": "A",
+      "topology_residue": "177",
+      "resname": "ARG",
+      "residue_charge_e": 0.9999999999999999,
+      "hydrogen_names": [
+        "H",
+        "HA",
+        "HB1",
+        "HB2",
+        "HD1",
+        "HD2",
+        "HE",
+        "HG1",
+        "HG2",
+        "HH11",
+        "HH12",
+        "HH21",
+        "HH22"
+      ]
+    },
+    {
+      "chain": "A",
+      "topology_residue": "179",
+      "resname": "ASP",
+      "residue_charge_e": -1.0,
+      "hydrogen_names": [
+        "H",
+        "HA",
+        "HB1",
+        "HB2"
+      ]
+    },
+    {
+      "chain": "A",
+      "topology_residue": "182",
+      "resname": "ARG",
+      "residue_charge_e": 0.9999999999999999,
+      "hydrogen_names": [
+        "H",
+        "HA",
+        "HB1",
+        "HB2",
+        "HD1",
+        "HD2",
+        "HE",
+        "HG1",
+        "HG2",
+        "HH11",
+        "HH12",
+        "HH21",
+        "HH22"
+      ]
+    },
+    {
+      "chain": "A",
+      "topology_residue": "186",
+      "resname": "GLU",
+      "residue_charge_e": -0.9999999999999999,
+      "hydrogen_names": [
+        "H",
+        "HA",
+        "HB1",
+        "HB2",
+        "HG1",
+        "HG2"
+      ]
+    },
+    {
+      "chain": "A",
+      "topology_residue": "187",
+      "resname": "ASP",
+      "residue_charge_e": -1.0,
+      "hydrogen_names": [
+        "H",
+        "HA",
+        "HB1",
+        "HB2"
+      ]
+    },
+    {
+      "chain": "A",
+      "topology_residue": "189",
+      "resname": "GLU",
+      "residue_charge_e": -0.9999999999999999,
+      "hydrogen_names": [
+        "H",
+        "HA",
+        "HB1",
+        "HB2",
+        "HG1",
+        "HG2"
+      ]
+    },
+    {
+      "chain": "A",
+      "topology_residue": "190",
+      "resname": "ASP",
+      "residue_charge_e": -1.0,
+      "hydrogen_names": [
+        "H",
+        "HA",
+        "HB1",
+        "HB2"
+      ]
+    },
+    {
+      "chain": "A",
+      "topology_residue": "191",
+      "resname": "HIS",
+      "residue_charge_e": 6.591949208711867e-17,
+      "hydrogen_names": [
+        "H",
+        "HA",
+        "HB1",
+        "HB2",
+        "HD1",
+        "HD2",
+        "HE1"
+      ],
+      "histidine_state": "delta"
+    },
+    {
+      "chain": "A",
+      "topology_residue": "196",
+      "resname": "LYS",
+      "residue_charge_e": 1.0,
+      "hydrogen_names": [
+        "H",
+        "HA",
+        "HB1",
+        "HB2",
+        "HD1",
+        "HD2",
+        "HE1",
+        "HE2",
+        "HG1",
+        "HG2",
+        "HZ1",
+        "HZ2",
+        "HZ3"
+      ]
+    },
+    {
+      "chain": "A",
+      "topology_residue": "197",
+      "resname": "ASP",
+      "residue_charge_e": -1.0,
+      "hydrogen_names": [
+        "H",
+        "HA",
+        "HB1",
+        "HB2"
+      ]
+    },
+    {
+      "chain": "A",
+      "topology_residue": "199",
+      "resname": "GLU",
+      "residue_charge_e": -0.9999999999999999,
+      "hydrogen_names": [
+        "H",
+        "HA",
+        "HB1",
+        "HB2",
+        "HG1",
+        "HG2"
+      ]
+    },
+    {
+      "chain": "A",
+      "topology_residue": "200",
+      "resname": "ARG",
+      "residue_charge_e": 0.9999999999999999,
+      "hydrogen_names": [
+        "H",
+        "HA",
+        "HB1",
+        "HB2",
+        "HD1",
+        "HD2",
+        "HE",
+        "HG1",
+        "HG2",
+        "HH11",
+        "HH12",
+        "HH21",
+        "HH22"
+      ]
+    },
+    {
+      "chain": "B",
+      "topology_residue": "2",
+      "resname": "ASP",
+      "residue_charge_e": -1.0,
+      "hydrogen_names": [
+        "H",
+        "HA",
+        "HB1",
+        "HB2"
+      ]
+    },
+    {
+      "chain": "B",
+      "topology_residue": "8",
+      "resname": "ARG",
+      "residue_charge_e": 0.9999999999999999,
+      "hydrogen_names": [
+        "H",
+        "HA",
+        "HB1",
+        "HB2",
+        "HD1",
+        "HD2",
+        "HE",
+        "HG1",
+        "HG2",
+        "HH11",
+        "HH12",
+        "HH21",
+        "HH22"
+      ]
+    },
+    {
+      "chain": "B",
+      "topology_residue": "9",
+      "resname": "ARG",
+      "residue_charge_e": 0.9999999999999999,
+      "hydrogen_names": [
+        "H",
+        "HA",
+        "HB1",
+        "HB2",
+        "HD1",
+        "HD2",
+        "HE",
+        "HG1",
+        "HG2",
+        "HH11",
+        "HH12",
+        "HH21",
+        "HH22"
+      ]
+    },
+    {
+      "chain": "B",
+      "topology_residue": "10",
+      "resname": "HIS",
+      "residue_charge_e": -1.0408340855860843e-17,
+      "hydrogen_names": [
+        "H",
+        "HA",
+        "HB1",
+        "HB2",
+        "HD2",
+        "HE1",
+        "HE2"
+      ],
+      "histidine_state": "epsilon"
+    },
+    {
+      "chain": "B",
+      "topology_residue": "11",
+      "resname": "LYS",
+      "residue_charge_e": 1.0,
+      "hydrogen_names": [
+        "H",
+        "HA",
+        "HB1",
+        "HB2",
+        "HD1",
+        "HD2",
+        "HE1",
+        "HE2",
+        "HG1",
+        "HG2",
+        "HZ1",
+        "HZ2",
+        "HZ3"
+      ]
+    },
+    {
+      "chain": "B",
+      "topology_residue": "17",
+      "resname": "ASP",
+      "residue_charge_e": -1.0,
+      "hydrogen_names": [
+        "H",
+        "HA",
+        "HB1",
+        "HB2"
+      ]
+    },
+    {
+      "chain": "B",
+      "topology_residue": "19",
+      "resname": "LYS",
+      "residue_charge_e": 1.0,
+      "hydrogen_names": [
+        "H",
+        "HA",
+        "HB1",
+        "HB2",
+        "HD1",
+        "HD2",
+        "HE1",
+        "HE2",
+        "HG1",
+        "HG2",
+        "HZ1",
+        "HZ2",
+        "HZ3"
+      ]
+    },
+    {
+      "chain": "B",
+      "topology_residue": "20",
+      "resname": "GLU",
+      "residue_charge_e": -0.9999999999999999,
+      "hydrogen_names": [
+        "H",
+        "HA",
+        "HB1",
+        "HB2",
+        "HG1",
+        "HG2"
+      ]
+    },
+    {
+      "chain": "B",
+      "topology_residue": "26",
+      "resname": "GLU",
+      "residue_charge_e": -0.9999999999999999,
+      "hydrogen_names": [
+        "H",
+        "HA",
+        "HB1",
+        "HB2",
+        "HG1",
+        "HG2"
+      ]
+    },
+    {
+      "chain": "B",
+      "topology_residue": "28",
+      "resname": "LYS",
+      "residue_charge_e": 1.0,
+      "hydrogen_names": [
+        "H",
+        "HA",
+        "HB1",
+        "HB2",
+        "HD1",
+        "HD2",
+        "HE1",
+        "HE2",
+        "HG1",
+        "HG2",
+        "HZ1",
+        "HZ2",
+        "HZ3"
+      ]
+    },
+    {
+      "chain": "B",
+      "topology_residue": "29",
+      "resname": "ARG",
+      "residue_charge_e": 0.9999999999999999,
+      "hydrogen_names": [
+        "H",
+        "HA",
+        "HB1",
+        "HB2",
+        "HD1",
+        "HD2",
+        "HE",
+        "HG1",
+        "HG2",
+        "HH11",
+        "HH12",
+        "HH21",
+        "HH22"
+      ]
+    },
+    {
+      "chain": "B",
+      "topology_residue": "32",
+      "resname": "GLU",
+      "residue_charge_e": -0.9999999999999999,
+      "hydrogen_names": [
+        "H",
+        "HA",
+        "HB1",
+        "HB2",
+        "HG1",
+        "HG2"
+      ]
+    },
+    {
+      "chain": "B",
+      "topology_residue": "36",
+      "resname": "LYS",
+      "residue_charge_e": 1.0,
+      "hydrogen_names": [
+        "H",
+        "HA",
+        "HB1",
+        "HB2",
+        "HD1",
+        "HD2",
+        "HE1",
+        "HE2",
+        "HG1",
+        "HG2",
+        "HZ1",
+        "HZ2",
+        "HZ3"
+      ]
+    },
+    {
+      "chain": "B",
+      "topology_residue": "37",
+      "resname": "ARG",
+      "residue_charge_e": 0.9999999999999999,
+      "hydrogen_names": [
+        "H",
+        "HA",
+        "HB1",
+        "HB2",
+        "HD1",
+        "HD2",
+        "HE",
+        "HG1",
+        "HG2",
+        "HH11",
+        "HH12",
+        "HH21",
+        "HH22"
+      ]
+    },
+    {
+      "chain": "B",
+      "topology_residue": "40",
+      "resname": "ASP",
+      "residue_charge_e": -1.0,
+      "hydrogen_names": [
+        "H",
+        "HA",
+        "HB1",
+        "HB2"
+      ]
+    },
+    {
+      "chain": "B",
+      "topology_residue": "41",
+      "resname": "GLU",
+      "residue_charge_e": -0.9999999999999999,
+      "hydrogen_names": [
+        "H",
+        "HA",
+        "HB1",
+        "HB2",
+        "HG1",
+        "HG2"
+      ]
+    },
+    {
+      "chain": "B",
+      "topology_residue": "43",
+      "resname": "ARG",
+      "residue_charge_e": 0.9999999999999999,
+      "hydrogen_names": [
+        "H",
+        "HA",
+        "HB1",
+        "HB2",
+        "HD1",
+        "HD2",
+        "HE",
+        "HG1",
+        "HG2",
+        "HH11",
+        "HH12",
+        "HH21",
+        "HH22"
+      ]
+    },
+    {
+      "chain": "B",
+      "topology_residue": "46",
+      "resname": "LYS",
+      "residue_charge_e": 1.0,
+      "hydrogen_names": [
+        "H",
+        "HA",
+        "HB1",
+        "HB2",
+        "HD1",
+        "HD2",
+        "HE1",
+        "HE2",
+        "HG1",
+        "HG2",
+        "HZ1",
+        "HZ2",
+        "HZ3"
+      ]
+    },
+    {
+      "chain": "B",
+      "topology_residue": "47",
+      "resname": "ASP",
+      "residue_charge_e": -1.0,
+      "hydrogen_names": [
+        "H",
+        "HA",
+        "HB1",
+        "HB2"
+      ]
+    },
+    {
+      "chain": "B",
+      "topology_residue": "48",
+      "resname": "ASP",
+      "residue_charge_e": -1.0,
+      "hydrogen_names": [
+        "H",
+        "HA",
+        "HB1",
+        "HB2"
+      ]
+    },
+    {
+      "chain": "B",
+      "topology_residue": "52",
+      "resname": "ASP",
+      "residue_charge_e": -1.0,
+      "hydrogen_names": [
+        "H",
+        "HA",
+        "HB1",
+        "HB2"
+      ]
+    },
+    {
+      "chain": "B",
+      "topology_residue": "53",
+      "resname": "ASP",
+      "residue_charge_e": -1.0,
+      "hydrogen_names": [
+        "H",
+        "HA",
+        "HB1",
+        "HB2"
+      ]
+    },
+    {
+      "chain": "B",
+      "topology_residue": "55",
+      "resname": "LYS",
+      "residue_charge_e": 1.0,
+      "hydrogen_names": [
+        "H",
+        "HA",
+        "HB1",
+        "HB2",
+        "HD1",
+        "HD2",
+        "HE1",
+        "HE2",
+        "HG1",
+        "HG2",
+        "HZ1",
+        "HZ2",
+        "HZ3"
+      ]
+    },
+    {
+      "chain": "B",
+      "topology_residue": "59",
+      "resname": "GLU",
+      "residue_charge_e": -0.9999999999999999,
+      "hydrogen_names": [
+        "H",
+        "HA",
+        "HB1",
+        "HB2",
+        "HG1",
+        "HG2"
+      ]
+    },
+    {
+      "chain": "B",
+      "topology_residue": "60",
+      "resname": "CYS",
+      "residue_charge_e": 2.7755575615628914e-17,
+      "hydrogen_names": [
+        "H",
+        "HA",
+        "HB1",
+        "HB2",
+        "HG"
+      ]
+    },
+    {
+      "chain": "B",
+      "topology_residue": "68",
+      "resname": "ARG",
+      "residue_charge_e": 0.9999999999999999,
+      "hydrogen_names": [
+        "H",
+        "HA",
+        "HB1",
+        "HB2",
+        "HD1",
+        "HD2",
+        "HE",
+        "HG1",
+        "HG2",
+        "HH11",
+        "HH12",
+        "HH21",
+        "HH22"
+      ]
+    },
+    {
+      "chain": "B",
+      "topology_residue": "80",
+      "resname": "ARG",
+      "residue_charge_e": 0.9999999999999999,
+      "hydrogen_names": [
+        "H",
+        "HA",
+        "HB1",
+        "HB2",
+        "HD1",
+        "HD2",
+        "HE",
+        "HG1",
+        "HG2",
+        "HH11",
+        "HH12",
+        "HH21",
+        "HH22"
+      ]
+    },
+    {
+      "chain": "B",
+      "topology_residue": "82",
+      "resname": "ASP",
+      "residue_charge_e": -1.0,
+      "hydrogen_names": [
+        "H",
+        "HA",
+        "HB1",
+        "HB2"
+      ]
+    },
+    {
+      "chain": "B",
+      "topology_residue": "83",
+      "resname": "ASP",
+      "residue_charge_e": -1.0,
+      "hydrogen_names": [
+        "H",
+        "HA",
+        "HB1",
+        "HB2"
+      ]
+    },
+    {
+      "chain": "B",
+      "topology_residue": "86",
+      "resname": "GLU",
+      "residue_charge_e": -0.9999999999999999,
+      "hydrogen_names": [
+        "H",
+        "HA",
+        "HB1",
+        "HB2",
+        "HG1",
+        "HG2"
+      ]
+    },
+    {
+      "chain": "B",
+      "topology_residue": "89",
+      "resname": "CYS",
+      "residue_charge_e": 2.7755575615628914e-17,
+      "hydrogen_names": [
+        "H",
+        "HA",
+        "HB1",
+        "HB2",
+        "HG"
+      ]
+    },
+    {
+      "chain": "B",
+      "topology_residue": "91",
+      "resname": "GLU",
+      "residue_charge_e": -0.9999999999999999,
+      "hydrogen_names": [
+        "H",
+        "HA",
+        "HB1",
+        "HB2",
+        "HG1",
+        "HG2"
+      ]
+    },
+    {
+      "chain": "B",
+      "topology_residue": "98",
+      "resname": "GLU",
+      "residue_charge_e": -0.9999999999999999,
+      "hydrogen_names": [
+        "H",
+        "HA",
+        "HB1",
+        "HB2",
+        "HG1",
+        "HG2"
+      ]
+    },
+    {
+      "chain": "B",
+      "topology_residue": "101",
+      "resname": "ASP",
+      "residue_charge_e": -1.0,
+      "hydrogen_names": [
+        "H",
+        "HA",
+        "HB1",
+        "HB2"
+      ]
+    },
+    {
+      "chain": "C",
+      "topology_residue": "20",
+      "resname": "LYS",
+      "residue_charge_e": 1.0,
+      "hydrogen_names": [
+        "H",
+        "HA",
+        "HB1",
+        "HB2",
+        "HD1",
+        "HD2",
+        "HE1",
+        "HE2",
+        "HG1",
+        "HG2",
+        "HZ1",
+        "HZ2",
+        "HZ3"
+      ]
+    },
+    {
+      "chain": "C",
+      "topology_residue": "25",
+      "resname": "ASP",
+      "residue_charge_e": -1.0,
+      "hydrogen_names": [
+        "H",
+        "HA",
+        "HB1",
+        "HB2"
+      ]
+    },
+    {
+      "chain": "C",
+      "topology_residue": "27",
+      "resname": "HIS",
+      "residue_charge_e": -1.0408340855860843e-17,
+      "hydrogen_names": [
+        "H",
+        "HA",
+        "HB1",
+        "HB2",
+        "HD2",
+        "HE1",
+        "HE2"
+      ],
+      "histidine_state": "epsilon"
+    },
+    {
+      "chain": "C",
+      "topology_residue": "28",
+      "resname": "GLU",
+      "residue_charge_e": -0.9999999999999999,
+      "hydrogen_names": [
+        "H",
+        "HA",
+        "HB1",
+        "HB2",
+        "HG1",
+        "HG2"
+      ]
+    },
+    {
+      "chain": "C",
+      "topology_residue": "32",
+      "resname": "LYS",
+      "residue_charge_e": 1.0,
+      "hydrogen_names": [
+        "H",
+        "HA",
+        "HB1",
+        "HB2",
+        "HD1",
+        "HD2",
+        "HE1",
+        "HE2",
+        "HG1",
+        "HG2",
+        "HZ1",
+        "HZ2",
+        "HZ3"
+      ]
+    },
+    {
+      "chain": "C",
+      "topology_residue": "33",
+      "resname": "ARG",
+      "residue_charge_e": 0.9999999999999999,
+      "hydrogen_names": [
+        "H",
+        "HA",
+        "HB1",
+        "HB2",
+        "HD1",
+        "HD2",
+        "HE",
+        "HG1",
+        "HG2",
+        "HH11",
+        "HH12",
+        "HH21",
+        "HH22"
+      ]
+    },
+    {
+      "chain": "C",
+      "topology_residue": "34",
+      "resname": "GLU",
+      "residue_charge_e": -0.9999999999999999,
+      "hydrogen_names": [
+        "H",
+        "HA",
+        "HB1",
+        "HB2",
+        "HG1",
+        "HG2"
+      ]
+    },
+    {
+      "chain": "C",
+      "topology_residue": "35",
+      "resname": "HIS",
+      "residue_charge_e": -1.0408340855860843e-17,
+      "hydrogen_names": [
+        "H",
+        "HA",
+        "HB1",
+        "HB2",
+        "HD2",
+        "HE1",
+        "HE2"
+      ],
+      "histidine_state": "epsilon"
+    },
+    {
+      "chain": "C",
+      "topology_residue": "43",
+      "resname": "LYS",
+      "residue_charge_e": 1.0,
+      "hydrogen_names": [
+        "H",
+        "HA",
+        "HB1",
+        "HB2",
+        "HD1",
+        "HD2",
+        "HE1",
+        "HE2",
+        "HG1",
+        "HG2",
+        "HZ1",
+        "HZ2",
+        "HZ3"
+      ]
+    },
+    {
+      "chain": "C",
+      "topology_residue": "54",
+      "resname": "GLU",
+      "residue_charge_e": -0.9999999999999999,
+      "hydrogen_names": [
+        "H",
+        "HA",
+        "HB1",
+        "HB2",
+        "HG1",
+        "HG2"
+      ]
+    },
+    {
+      "chain": "C",
+      "topology_residue": "56",
+      "resname": "GLU",
+      "residue_charge_e": -0.9999999999999999,
+      "hydrogen_names": [
+        "H",
+        "HA",
+        "HB1",
+        "HB2",
+        "HG1",
+        "HG2"
+      ]
+    },
+    {
+      "chain": "C",
+      "topology_residue": "59",
+      "resname": "GLU",
+      "residue_charge_e": -0.9999999999999999,
+      "hydrogen_names": [
+        "H",
+        "HA",
+        "HB1",
+        "HB2",
+        "HG1",
+        "HG2"
+      ]
+    },
+    {
+      "chain": "C",
+      "topology_residue": "63",
+      "resname": "ARG",
+      "residue_charge_e": 0.9999999999999999,
+      "hydrogen_names": [
+        "H",
+        "HA",
+        "HB1",
+        "HB2",
+        "HD1",
+        "HD2",
+        "HE",
+        "HG1",
+        "HG2",
+        "HH11",
+        "HH12",
+        "HH21",
+        "HH22"
+      ]
+    },
+    {
+      "chain": "C",
+      "topology_residue": "64",
+      "resname": "GLU",
+      "residue_charge_e": -0.9999999999999999,
+      "hydrogen_names": [
+        "H",
+        "HA",
+        "HB1",
+        "HB2",
+        "HG1",
+        "HG2"
+      ]
+    },
+    {
+      "chain": "C",
+      "topology_residue": "68",
+      "resname": "HIS",
+      "residue_charge_e": -1.0408340855860843e-17,
+      "hydrogen_names": [
+        "H",
+        "HA",
+        "HB1",
+        "HB2",
+        "HD2",
+        "HE1",
+        "HE2"
+      ],
+      "histidine_state": "epsilon"
+    },
+    {
+      "chain": "C",
+      "topology_residue": "72",
+      "resname": "LYS",
+      "residue_charge_e": 1.0,
+      "hydrogen_names": [
+        "H",
+        "HA",
+        "HB1",
+        "HB2",
+        "HD1",
+        "HD2",
+        "HE1",
+        "HE2",
+        "HG1",
+        "HG2",
+        "HZ1",
+        "HZ2",
+        "HZ3"
+      ]
+    },
+    {
+      "chain": "C",
+      "topology_residue": "74",
+      "resname": "CYS",
+      "residue_charge_e": 2.7755575615628914e-17,
+      "hydrogen_names": [
+        "H",
+        "HA",
+        "HB1",
+        "HB2",
+        "HG"
+      ]
+    },
+    {
+      "chain": "C",
+      "topology_residue": "80",
+      "resname": "LYS",
+      "residue_charge_e": 1.0,
+      "hydrogen_names": [
+        "H",
+        "HA",
+        "HB1",
+        "HB2",
+        "HD1",
+        "HD2",
+        "HE1",
+        "HE2",
+        "HG1",
+        "HG2",
+        "HZ1",
+        "HZ2",
+        "HZ3"
+      ]
+    },
+    {
+      "chain": "C",
+      "topology_residue": "82",
+      "resname": "ARG",
+      "residue_charge_e": 0.9999999999999999,
+      "hydrogen_names": [
+        "H",
+        "HA",
+        "HB1",
+        "HB2",
+        "HD1",
+        "HD2",
+        "HE",
+        "HG1",
+        "HG2",
+        "HH11",
+        "HH12",
+        "HH21",
+        "HH22"
+      ]
+    },
+    {
+      "chain": "C",
+      "topology_residue": "89",
+      "resname": "GLU",
+      "residue_charge_e": -0.9999999999999999,
+      "hydrogen_names": [
+        "H",
+        "HA",
+        "HB1",
+        "HB2",
+        "HG1",
+        "HG2"
+      ]
+    },
+    {
+      "chain": "C",
+      "topology_residue": "92",
+      "resname": "GLU",
+      "residue_charge_e": -0.9999999999999999,
+      "hydrogen_names": [
+        "H",
+        "HA",
+        "HB1",
+        "HB2",
+        "HG1",
+        "HG2"
+      ]
+    },
+    {
+      "chain": "C",
+      "topology_residue": "98",
+      "resname": "GLU",
+      "residue_charge_e": -0.9999999999999999,
+      "hydrogen_names": [
+        "H",
+        "HA",
+        "HB1",
+        "HB2",
+        "HG1",
+        "HG2"
+      ]
+    },
+    {
+      "chain": "C",
+      "topology_residue": "102",
+      "resname": "GLU",
+      "residue_charge_e": -0.9999999999999999,
+      "hydrogen_names": [
+        "H",
+        "HA",
+        "HB1",
+        "HB2",
+        "HG1",
+        "HG2"
+      ]
+    },
+    {
+      "chain": "C",
+      "topology_residue": "111",
+      "resname": "ASP",
+      "residue_charge_e": -2.0,
+      "hydrogen_names": [
+        "H",
+        "HA",
+        "HB1",
+        "HB2"
+      ]
+    },
+    {
+      "chain": "D",
+      "topology_residue": "1054",
+      "resname": "ASP",
+      "residue_charge_e": -1.0,
+      "hydrogen_names": [
+        "H",
+        "HA",
+        "HB1",
+        "HB2"
+      ]
+    },
+    {
+      "chain": "D",
+      "topology_residue": "1061",
+      "resname": "GLU",
+      "residue_charge_e": -0.9999999999999999,
+      "hydrogen_names": [
+        "H",
+        "HA",
+        "HB1",
+        "HB2",
+        "HG1",
+        "HG2"
+      ]
+    },
+    {
+      "chain": "D",
+      "topology_residue": "1068",
+      "resname": "HIS",
+      "residue_charge_e": -1.0408340855860843e-17,
+      "hydrogen_names": [
+        "H",
+        "HA",
+        "HB1",
+        "HB2",
+        "HD2",
+        "HE1",
+        "HE2"
+      ],
+      "histidine_state": "epsilon"
+    },
+    {
+      "chain": "D",
+      "topology_residue": "1079",
+      "resname": "HIS",
+      "residue_charge_e": -1.0408340855860843e-17,
+      "hydrogen_names": [
+        "H",
+        "HA",
+        "HB1",
+        "HB2",
+        "HD2",
+        "HE1",
+        "HE2"
+      ],
+      "histidine_state": "epsilon"
+    },
+    {
+      "chain": "D",
+      "topology_residue": "1082",
+      "resname": "GLU",
+      "residue_charge_e": -0.9999999999999999,
+      "hydrogen_names": [
+        "H",
+        "HA",
+        "HB1",
+        "HB2",
+        "HG1",
+        "HG2"
+      ]
+    },
+    {
+      "chain": "D",
+      "topology_residue": "1086",
+      "resname": "ARG",
+      "residue_charge_e": 0.9999999999999999,
+      "hydrogen_names": [
+        "H",
+        "HA",
+        "HB1",
+        "HB2",
+        "HD1",
+        "HD2",
+        "HE",
+        "HG1",
+        "HG2",
+        "HH11",
+        "HH12",
+        "HH21",
+        "HH22"
+      ]
+    },
+    {
+      "chain": "D",
+      "topology_residue": "1088",
+      "resname": "HIS",
+      "residue_charge_e": -1.0408340855860843e-17,
+      "hydrogen_names": [
+        "H",
+        "HA",
+        "HB1",
+        "HB2",
+        "HD2",
+        "HE1",
+        "HE2"
+      ],
+      "histidine_state": "epsilon"
+    },
+    {
+      "chain": "D",
+      "topology_residue": "1091",
+      "resname": "CYS",
+      "residue_charge_e": 2.7755575615628914e-17,
+      "hydrogen_names": [
+        "H",
+        "HA",
+        "HB1",
+        "HB2",
+        "HG"
+      ]
+    },
+    {
+      "chain": "D",
+      "topology_residue": "1094",
+      "resname": "HIS",
+      "residue_charge_e": -1.0408340855860843e-17,
+      "hydrogen_names": [
+        "H",
+        "HA",
+        "HB1",
+        "HB2",
+        "HD2",
+        "HE1",
+        "HE2"
+      ],
+      "histidine_state": "epsilon"
+    },
+    {
+      "chain": "D",
+      "topology_residue": "1099",
+      "resname": "ASP",
+      "residue_charge_e": -1.0,
+      "hydrogen_names": [
+        "H",
+        "HA",
+        "HB1",
+        "HB2"
+      ]
+    },
+    {
+      "chain": "D",
+      "topology_residue": "1101",
+      "resname": "ASP",
+      "residue_charge_e": -1.0,
+      "hydrogen_names": [
+        "H",
+        "HA",
+        "HB1",
+        "HB2"
+      ]
+    },
+    {
+      "chain": "D",
+      "topology_residue": "1103",
+      "resname": "LYS",
+      "residue_charge_e": 1.0,
+      "hydrogen_names": [
+        "H",
+        "HA",
+        "HB1",
+        "HB2",
+        "HD1",
+        "HD2",
+        "HE1",
+        "HE2",
+        "HG1",
+        "HG2",
+        "HZ1",
+        "HZ2",
+        "HZ3"
+      ]
+    },
+    {
+      "chain": "D",
+      "topology_residue": "1104",
+      "resname": "LYS",
+      "residue_charge_e": 1.0,
+      "hydrogen_names": [
+        "H",
+        "HA",
+        "HB1",
+        "HB2",
+        "HD1",
+        "HD2",
+        "HE1",
+        "HE2",
+        "HG1",
+        "HG2",
+        "HZ1",
+        "HZ2",
+        "HZ3"
+      ]
+    },
+    {
+      "chain": "D",
+      "topology_residue": "1106",
+      "resname": "HIS",
+      "residue_charge_e": -1.0408340855860843e-17,
+      "hydrogen_names": [
+        "H",
+        "HA",
+        "HB1",
+        "HB2",
+        "HD2",
+        "HE1",
+        "HE2"
+      ],
+      "histidine_state": "epsilon"
+    },
+    {
+      "chain": "D",
+      "topology_residue": "1107",
+      "resname": "CYS",
+      "residue_charge_e": 2.7755575615628914e-17,
+      "hydrogen_names": [
+        "H",
+        "HA",
+        "HB1",
+        "HB2",
+        "HG"
+      ]
+    },
+    {
+      "chain": "D",
+      "topology_residue": "1110",
+      "resname": "LYS",
+      "residue_charge_e": 1.0,
+      "hydrogen_names": [
+        "H",
+        "HA",
+        "HB1",
+        "HB2",
+        "HD1",
+        "HD2",
+        "HE1",
+        "HE2",
+        "HG1",
+        "HG2",
+        "HZ1",
+        "HZ2",
+        "HZ3"
+      ]
+    },
+    {
+      "chain": "D",
+      "topology_residue": "1114",
+      "resname": "ARG",
+      "residue_charge_e": 0.9999999999999999,
+      "hydrogen_names": [
+        "H",
+        "HA",
+        "HB1",
+        "HB2",
+        "HD1",
+        "HD2",
+        "HE",
+        "HG1",
+        "HG2",
+        "HH11",
+        "HH12",
+        "HH21",
+        "HH22"
+      ]
+    },
+    {
+      "chain": "D",
+      "topology_residue": "1117",
+      "resname": "ASP",
+      "residue_charge_e": -1.0,
+      "hydrogen_names": [
+        "H",
+        "HA",
+        "HB1",
+        "HB2"
+      ]
+    },
+    {
+      "chain": "D",
+      "topology_residue": "1120",
+      "resname": "GLU",
+      "residue_charge_e": -0.9999999999999999,
+      "hydrogen_names": [
+        "H",
+        "HA",
+        "HB1",
+        "HB2",
+        "HG1",
+        "HG2"
+      ]
+    },
+    {
+      "chain": "D",
+      "topology_residue": "1127",
+      "resname": "GLU",
+      "residue_charge_e": -0.9999999999999999,
+      "hydrogen_names": [
+        "H",
+        "HA",
+        "HB1",
+        "HB2",
+        "HG1",
+        "HG2"
+      ]
+    },
+    {
+      "chain": "D",
+      "topology_residue": "1132",
+      "resname": "LYS",
+      "residue_charge_e": 1.0,
+      "hydrogen_names": [
+        "H",
+        "HA",
+        "HB1",
+        "HB2",
+        "HD1",
+        "HD2",
+        "HE1",
+        "HE2",
+        "HG1",
+        "HG2",
+        "HZ1",
+        "HZ2",
+        "HZ3"
+      ]
+    },
+    {
+      "chain": "D",
+      "topology_residue": "1133",
+      "resname": "ASP",
+      "residue_charge_e": -1.0,
+      "hydrogen_names": [
+        "H",
+        "HA",
+        "HB1",
+        "HB2"
+      ]
+    },
+    {
+      "chain": "D",
+      "topology_residue": "1136",
+      "resname": "HIS",
+      "residue_charge_e": -1.0408340855860843e-17,
+      "hydrogen_names": [
+        "H",
+        "HA",
+        "HB1",
+        "HB2",
+        "HD2",
+        "HE1",
+        "HE2"
+      ],
+      "histidine_state": "epsilon"
+    },
+    {
+      "chain": "D",
+      "topology_residue": "1146",
+      "resname": "CYS",
+      "residue_charge_e": 2.7755575615628914e-17,
+      "hydrogen_names": [
+        "H",
+        "HA",
+        "HB1",
+        "HB2",
+        "HG"
+      ]
+    },
+    {
+      "chain": "D",
+      "topology_residue": "1148",
+      "resname": "ARG",
+      "residue_charge_e": 0.9999999999999999,
+      "hydrogen_names": [
+        "H",
+        "HA",
+        "HB1",
+        "HB2",
+        "HD1",
+        "HD2",
+        "HE",
+        "HG1",
+        "HG2",
+        "HH11",
+        "HH12",
+        "HH21",
+        "HH22"
+      ]
+    },
+    {
+      "chain": "D",
+      "topology_residue": "1150",
+      "resname": "GLU",
+      "residue_charge_e": -0.9999999999999999,
+      "hydrogen_names": [
+        "H",
+        "HA",
+        "HB1",
+        "HB2",
+        "HG1",
+        "HG2"
+      ]
+    },
+    {
+      "chain": "D",
+      "topology_residue": "1161",
+      "resname": "LYS",
+      "residue_charge_e": 1.0,
+      "hydrogen_names": [
+        "H",
+        "HA",
+        "HB1",
+        "HB2",
+        "HD1",
+        "HD2",
+        "HE1",
+        "HE2",
+        "HG1",
+        "HG2",
+        "HZ1",
+        "HZ2",
+        "HZ3"
+      ]
+    },
+    {
+      "chain": "D",
+      "topology_residue": "1162",
+      "resname": "HIS",
+      "residue_charge_e": -1.0408340855860843e-17,
+      "hydrogen_names": [
+        "H",
+        "HA",
+        "HB1",
+        "HB2",
+        "HD2",
+        "HE1",
+        "HE2"
+      ],
+      "histidine_state": "epsilon"
+    },
+    {
+      "chain": "D",
+      "topology_residue": "1164",
+      "resname": "ASP",
+      "residue_charge_e": -1.0,
+      "hydrogen_names": [
+        "H",
+        "HA",
+        "HB1",
+        "HB2"
+      ]
+    },
+    {
+      "chain": "D",
+      "topology_residue": "1166",
+      "resname": "ARG",
+      "residue_charge_e": 0.9999999999999999,
+      "hydrogen_names": [
+        "H",
+        "HA",
+        "HB1",
+        "HB2",
+        "HD1",
+        "HD2",
+        "HE",
+        "HG1",
+        "HG2",
+        "HH11",
+        "HH12",
+        "HH21",
+        "HH22"
+      ]
+    },
+    {
+      "chain": "D",
+      "topology_residue": "1170",
+      "resname": "ARG",
+      "residue_charge_e": 0.9999999999999999,
+      "hydrogen_names": [
+        "H",
+        "HA",
+        "HB1",
+        "HB2",
+        "HD1",
+        "HD2",
+        "HE",
+        "HG1",
+        "HG2",
+        "HH11",
+        "HH12",
+        "HH21",
+        "HH22"
+      ]
+    },
+    {
+      "chain": "D",
+      "topology_residue": "1172",
+      "resname": "GLU",
+      "residue_charge_e": -0.9999999999999999,
+      "hydrogen_names": [
+        "H",
+        "HA",
+        "HB1",
+        "HB2",
+        "HG1",
+        "HG2"
+      ]
+    },
+    {
+      "chain": "D",
+      "topology_residue": "1174",
+      "resname": "HIS",
+      "residue_charge_e": -1.0408340855860843e-17,
+      "hydrogen_names": [
+        "H",
+        "HA",
+        "HB1",
+        "HB2",
+        "HD2",
+        "HE1",
+        "HE2"
+      ],
+      "histidine_state": "epsilon"
+    },
+    {
+      "chain": "D",
+      "topology_residue": "1179",
+      "resname": "LYS",
+      "residue_charge_e": 1.0,
+      "hydrogen_names": [
+        "H",
+        "HA",
+        "HB1",
+        "HB2",
+        "HD1",
+        "HD2",
+        "HE1",
+        "HE2",
+        "HG1",
+        "HG2",
+        "HZ1",
+        "HZ2",
+        "HZ3"
+      ]
+    },
+    {
+      "chain": "D",
+      "topology_residue": "1180",
+      "resname": "ASP",
+      "residue_charge_e": -1.0,
+      "hydrogen_names": [
+        "H",
+        "HA",
+        "HB1",
+        "HB2"
+      ]
+    },
+    {
+      "chain": "D",
+      "topology_residue": "1190",
+      "resname": "LYS",
+      "residue_charge_e": 1.0,
+      "hydrogen_names": [
+        "H",
+        "HA",
+        "HB1",
+        "HB2",
+        "HD1",
+        "HD2",
+        "HE1",
+        "HE2",
+        "HG1",
+        "HG2",
+        "HZ1",
+        "HZ2",
+        "HZ3"
+      ]
+    },
+    {
+      "chain": "D",
+      "topology_residue": "1193",
+      "resname": "LYS",
+      "residue_charge_e": 1.0,
+      "hydrogen_names": [
+        "H",
+        "HA",
+        "HB1",
+        "HB2",
+        "HD1",
+        "HD2",
+        "HE1",
+        "HE2",
+        "HG1",
+        "HG2",
+        "HZ1",
+        "HZ2",
+        "HZ3"
+      ]
+    },
+    {
+      "chain": "D",
+      "topology_residue": "1198",
+      "resname": "LYS",
+      "residue_charge_e": 1.0,
+      "hydrogen_names": [
+        "H",
+        "HA",
+        "HB1",
+        "HB2",
+        "HD1",
+        "HD2",
+        "HE1",
+        "HE2",
+        "HG1",
+        "HG2",
+        "HZ1",
+        "HZ2",
+        "HZ3"
+      ]
+    },
+    {
+      "chain": "D",
+      "topology_residue": "1199",
+      "resname": "LYS",
+      "residue_charge_e": 1.0,
+      "hydrogen_names": [
+        "H",
+        "HA",
+        "HB1",
+        "HB2",
+        "HD1",
+        "HD2",
+        "HE1",
+        "HE2",
+        "HG1",
+        "HG2",
+        "HZ1",
+        "HZ2",
+        "HZ3"
+      ]
+    },
+    {
+      "chain": "D",
+      "topology_residue": "1202",
+      "resname": "HIS",
+      "residue_charge_e": -1.0408340855860843e-17,
+      "hydrogen_names": [
+        "H",
+        "HA",
+        "HB1",
+        "HB2",
+        "HD2",
+        "HE1",
+        "HE2"
+      ],
+      "histidine_state": "epsilon"
+    },
+    {
+      "chain": "D",
+      "topology_residue": "1203",
+      "resname": "ARG",
+      "residue_charge_e": 0.9999999999999999,
+      "hydrogen_names": [
+        "H",
+        "HA",
+        "HB1",
+        "HB2",
+        "HD1",
+        "HD2",
+        "HE",
+        "HG1",
+        "HG2",
+        "HH11",
+        "HH12",
+        "HH21",
+        "HH22"
+      ]
+    },
+    {
+      "chain": "D",
+      "topology_residue": "1204",
+      "resname": "ASP",
+      "residue_charge_e": -1.0,
+      "hydrogen_names": [
+        "H",
+        "HA",
+        "HB1",
+        "HB2"
+      ]
+    },
+    {
+      "chain": "D",
+      "topology_residue": "1208",
+      "resname": "ARG",
+      "residue_charge_e": 0.9999999999999999,
+      "hydrogen_names": [
+        "H",
+        "HA",
+        "HB1",
+        "HB2",
+        "HD1",
+        "HD2",
+        "HE",
+        "HG1",
+        "HG2",
+        "HH11",
+        "HH12",
+        "HH21",
+        "HH22"
+      ]
+    },
+    {
+      "chain": "D",
+      "topology_residue": "1210",
+      "resname": "CYS",
+      "residue_charge_e": 2.7755575615628914e-17,
+      "hydrogen_names": [
+        "H",
+        "HA",
+        "HB1",
+        "HB2",
+        "HG"
+      ]
+    },
+    {
+      "chain": "D",
+      "topology_residue": "1213",
+      "resname": "ASP",
+      "residue_charge_e": -1.0,
+      "hydrogen_names": [
+        "H",
+        "HA",
+        "HB1",
+        "HB2"
+      ]
+    },
+    {
+      "chain": "D",
+      "topology_residue": "1214",
+      "resname": "GLU",
+      "residue_charge_e": -0.9999999999999999,
+      "hydrogen_names": [
+        "H",
+        "HA",
+        "HB1",
+        "HB2",
+        "HG1",
+        "HG2"
+      ]
+    },
+    {
+      "chain": "D",
+      "topology_residue": "1215",
+      "resname": "LYS",
+      "residue_charge_e": 1.0,
+      "hydrogen_names": [
+        "H",
+        "HA",
+        "HB1",
+        "HB2",
+        "HD1",
+        "HD2",
+        "HE1",
+        "HE2",
+        "HG1",
+        "HG2",
+        "HZ1",
+        "HZ2",
+        "HZ3"
+      ]
+    },
+    {
+      "chain": "D",
+      "topology_residue": "1219",
+      "resname": "LYS",
+      "residue_charge_e": 1.0,
+      "hydrogen_names": [
+        "H",
+        "HA",
+        "HB1",
+        "HB2",
+        "HD1",
+        "HD2",
+        "HE1",
+        "HE2",
+        "HG1",
+        "HG2",
+        "HZ1",
+        "HZ2",
+        "HZ3"
+      ]
+    },
+    {
+      "chain": "D",
+      "topology_residue": "1222",
+      "resname": "ASP",
+      "residue_charge_e": -1.0,
+      "hydrogen_names": [
+        "H",
+        "HA",
+        "HB1",
+        "HB2"
+      ]
+    },
+    {
+      "chain": "D",
+      "topology_residue": "1227",
+      "resname": "ARG",
+      "residue_charge_e": 0.9999999999999999,
+      "hydrogen_names": [
+        "H",
+        "HA",
+        "HB1",
+        "HB2",
+        "HD1",
+        "HD2",
+        "HE",
+        "HG1",
+        "HG2",
+        "HH11",
+        "HH12",
+        "HH21",
+        "HH22"
+      ]
+    },
+    {
+      "chain": "D",
+      "topology_residue": "1228",
+      "resname": "ASP",
+      "residue_charge_e": -1.0,
+      "hydrogen_names": [
+        "H",
+        "HA",
+        "HB1",
+        "HB2"
+      ]
+    },
+    {
+      "chain": "D",
+      "topology_residue": "1231",
+      "resname": "ASP",
+      "residue_charge_e": -1.0,
+      "hydrogen_names": [
+        "H",
+        "HA",
+        "HB1",
+        "HB2"
+      ]
+    },
+    {
+      "chain": "D",
+      "topology_residue": "1232",
+      "resname": "LYS",
+      "residue_charge_e": 1.0,
+      "hydrogen_names": [
+        "H",
+        "HA",
+        "HB1",
+        "HB2",
+        "HD1",
+        "HD2",
+        "HE1",
+        "HE2",
+        "HG1",
+        "HG2",
+        "HZ1",
+        "HZ2",
+        "HZ3"
+      ]
+    },
+    {
+      "chain": "D",
+      "topology_residue": "1233",
+      "resname": "GLU",
+      "residue_charge_e": -0.9999999999999999,
+      "hydrogen_names": [
+        "H",
+        "HA",
+        "HB1",
+        "HB2",
+        "HG1",
+        "HG2"
+      ]
+    },
+    {
+      "chain": "D",
+      "topology_residue": "1238",
+      "resname": "HIS",
+      "residue_charge_e": -1.0408340855860843e-17,
+      "hydrogen_names": [
+        "H",
+        "HA",
+        "HB1",
+        "HB2",
+        "HD2",
+        "HE1",
+        "HE2"
+      ],
+      "histidine_state": "epsilon"
+    },
+    {
+      "chain": "D",
+      "topology_residue": "1240",
+      "resname": "LYS",
+      "residue_charge_e": 1.0,
+      "hydrogen_names": [
+        "H",
+        "HA",
+        "HB1",
+        "HB2",
+        "HD1",
+        "HD2",
+        "HE1",
+        "HE2",
+        "HG1",
+        "HG2",
+        "HZ1",
+        "HZ2",
+        "HZ3"
+      ]
+    },
+    {
+      "chain": "D",
+      "topology_residue": "1244",
+      "resname": "LYS",
+      "residue_charge_e": 1.0,
+      "hydrogen_names": [
+        "H",
+        "HA",
+        "HB1",
+        "HB2",
+        "HD1",
+        "HD2",
+        "HE1",
+        "HE2",
+        "HG1",
+        "HG2",
+        "HZ1",
+        "HZ2",
+        "HZ3"
+      ]
+    },
+    {
+      "chain": "D",
+      "topology_residue": "1248",
+      "resname": "LYS",
+      "residue_charge_e": 1.0,
+      "hydrogen_names": [
+        "H",
+        "HA",
+        "HB1",
+        "HB2",
+        "HD1",
+        "HD2",
+        "HE1",
+        "HE2",
+        "HG1",
+        "HG2",
+        "HZ1",
+        "HZ2",
+        "HZ3"
+      ]
+    },
+    {
+      "chain": "D",
+      "topology_residue": "1253",
+      "resname": "GLU",
+      "residue_charge_e": -0.9999999999999999,
+      "hydrogen_names": [
+        "H",
+        "HA",
+        "HB1",
+        "HB2",
+        "HG1",
+        "HG2"
+      ]
+    },
+    {
+      "chain": "D",
+      "topology_residue": "1259",
+      "resname": "LYS",
+      "residue_charge_e": 1.0,
+      "hydrogen_names": [
+        "H",
+        "HA",
+        "HB1",
+        "HB2",
+        "HD1",
+        "HD2",
+        "HE1",
+        "HE2",
+        "HG1",
+        "HG2",
+        "HZ1",
+        "HZ2",
+        "HZ3"
+      ]
+    },
+    {
+      "chain": "D",
+      "topology_residue": "1263",
+      "resname": "LYS",
+      "residue_charge_e": 1.0,
+      "hydrogen_names": [
+        "H",
+        "HA",
+        "HB1",
+        "HB2",
+        "HD1",
+        "HD2",
+        "HE1",
+        "HE2",
+        "HG1",
+        "HG2",
+        "HZ1",
+        "HZ2",
+        "HZ3"
+      ]
+    },
+    {
+      "chain": "D",
+      "topology_residue": "1265",
+      "resname": "ASP",
+      "residue_charge_e": -1.0,
+      "hydrogen_names": [
+        "H",
+        "HA",
+        "HB1",
+        "HB2"
+      ]
+    },
+    {
+      "chain": "D",
+      "topology_residue": "1275",
+      "resname": "GLU",
+      "residue_charge_e": -0.9999999999999999,
+      "hydrogen_names": [
+        "H",
+        "HA",
+        "HB1",
+        "HB2",
+        "HG1",
+        "HG2"
+      ]
+    },
+    {
+      "chain": "D",
+      "topology_residue": "1279",
+      "resname": "ARG",
+      "residue_charge_e": 0.9999999999999999,
+      "hydrogen_names": [
+        "H",
+        "HA",
+        "HB1",
+        "HB2",
+        "HD1",
+        "HD2",
+        "HE",
+        "HG1",
+        "HG2",
+        "HH11",
+        "HH12",
+        "HH21",
+        "HH22"
+      ]
+    },
+    {
+      "chain": "D",
+      "topology_residue": "1286",
+      "resname": "ASP",
+      "residue_charge_e": -1.0,
+      "hydrogen_names": [
+        "H",
+        "HA",
+        "HB1",
+        "HB2"
+      ]
+    },
+    {
+      "chain": "D",
+      "topology_residue": "1291",
+      "resname": "ASP",
+      "residue_charge_e": -1.0,
+      "hydrogen_names": [
+        "H",
+        "HA",
+        "HB1",
+        "HB2"
+      ]
+    },
+    {
+      "chain": "D",
+      "topology_residue": "1300",
+      "resname": "ARG",
+      "residue_charge_e": 0.9999999999999999,
+      "hydrogen_names": [
+        "H",
+        "HA",
+        "HB1",
+        "HB2",
+        "HD1",
+        "HD2",
+        "HE",
+        "HG1",
+        "HG2",
+        "HH11",
+        "HH12",
+        "HH21",
+        "HH22"
+      ]
+    },
+    {
+      "chain": "D",
+      "topology_residue": "1301",
+      "resname": "ARG",
+      "residue_charge_e": 0.9999999999999999,
+      "hydrogen_names": [
+        "H",
+        "HA",
+        "HB1",
+        "HB2",
+        "HD1",
+        "HD2",
+        "HE",
+        "HG1",
+        "HG2",
+        "HH11",
+        "HH12",
+        "HH21",
+        "HH22"
+      ]
+    },
+    {
+      "chain": "D",
+      "topology_residue": "1306",
+      "resname": "GLU",
+      "residue_charge_e": -0.9999999999999999,
+      "hydrogen_names": [
+        "H",
+        "HA",
+        "HB1",
+        "HB2",
+        "HG1",
+        "HG2"
+      ]
+    },
+    {
+      "chain": "D",
+      "topology_residue": "1308",
+      "resname": "CYS",
+      "residue_charge_e": 2.7755575615628914e-17,
+      "hydrogen_names": [
+        "H",
+        "HA",
+        "HB1",
+        "HB2",
+        "HG"
+      ]
+    },
+    {
+      "chain": "D",
+      "topology_residue": "1310",
+      "resname": "ASP",
+      "residue_charge_e": -1.0,
+      "hydrogen_names": [
+        "H",
+        "HA",
+        "HB1",
+        "HB2"
+      ]
+    },
+    {
+      "chain": "D",
+      "topology_residue": "1314",
+      "resname": "GLU",
+      "residue_charge_e": -0.9999999999999999,
+      "hydrogen_names": [
+        "H",
+        "HA",
+        "HB1",
+        "HB2",
+        "HG1",
+        "HG2"
+      ]
+    },
+    {
+      "chain": "D",
+      "topology_residue": "1318",
+      "resname": "LYS",
+      "residue_charge_e": 1.0,
+      "hydrogen_names": [
+        "H",
+        "HA",
+        "HB1",
+        "HB2",
+        "HD1",
+        "HD2",
+        "HE1",
+        "HE2",
+        "HG1",
+        "HG2",
+        "HZ1",
+        "HZ2",
+        "HZ3"
+      ]
+    },
+    {
+      "chain": "D",
+      "topology_residue": "1319",
+      "resname": "CYS",
+      "residue_charge_e": 2.7755575615628914e-17,
+      "hydrogen_names": [
+        "H",
+        "HA",
+        "HB1",
+        "HB2",
+        "HG"
+      ]
+    },
+    {
+      "chain": "D",
+      "topology_residue": "1321",
+      "resname": "HIS",
+      "residue_charge_e": -1.0408340855860843e-17,
+      "hydrogen_names": [
+        "H",
+        "HA",
+        "HB1",
+        "HB2",
+        "HD2",
+        "HE1",
+        "HE2"
+      ],
+      "histidine_state": "epsilon"
+    },
+    {
+      "chain": "D",
+      "topology_residue": "1323",
+      "resname": "LYS",
+      "residue_charge_e": 1.0,
+      "hydrogen_names": [
+        "H",
+        "HA",
+        "HB1",
+        "HB2",
+        "HD1",
+        "HD2",
+        "HE1",
+        "HE2",
+        "HG1",
+        "HG2",
+        "HZ1",
+        "HZ2",
+        "HZ3"
+      ]
+    },
+    {
+      "chain": "D",
+      "topology_residue": "1325",
+      "resname": "GLU",
+      "residue_charge_e": -0.9999999999999999,
+      "hydrogen_names": [
+        "H",
+        "HA",
+        "HB1",
+        "HB2",
+        "HG1",
+        "HG2"
+      ]
+    },
+    {
+      "chain": "D",
+      "topology_residue": "1327",
+      "resname": "ARG",
+      "residue_charge_e": 0.9999999999999999,
+      "hydrogen_names": [
+        "H",
+        "HA",
+        "HB1",
+        "HB2",
+        "HD1",
+        "HD2",
+        "HE",
+        "HG1",
+        "HG2",
+        "HH11",
+        "HH12",
+        "HH21",
+        "HH22"
+      ]
+    },
+    {
+      "chain": "D",
+      "topology_residue": "1332",
+      "resname": "GLU",
+      "residue_charge_e": -0.9999999999999999,
+      "hydrogen_names": [
+        "H",
+        "HA",
+        "HB1",
+        "HB2",
+        "HG1",
+        "HG2"
+      ]
+    },
+    {
+      "chain": "D",
+      "topology_residue": "1336",
+      "resname": "ARG",
+      "residue_charge_e": 0.9999999999999999,
+      "hydrogen_names": [
+        "H",
+        "HA",
+        "HB1",
+        "HB2",
+        "HD1",
+        "HD2",
+        "HE",
+        "HG1",
+        "HG2",
+        "HH11",
+        "HH12",
+        "HH21",
+        "HH22"
+      ]
+    }
+  ],
+  "ligand_state": "supplier_neutral_reference",
+  "ligand_formal_charge_e": 0,
+  "molecule_counts": {
+    "Protein_chain_A": 1,
+    "Protein_chain_B": 1,
+    "Protein_chain_C": 1,
+    "Protein_chain_D": 1,
+    "SJF8240": 1,
+    "SOL": 99872,
+    "NA": 291,
+    "CL": 286
+  },
+  "system_charge_balance_e": 0.0,
+  "protein_state_assignment": "GROMACS pdb2gmx default standard residue states and geometry-based histidine choices; no explicit titration/pKa study performed",
+  "limitations": [
+    "Neutral supplier ligand is a reference microstate, not a demonstrated dominant solution state.",
+    "Histidine tautomer choices and terminal/domain protonation need scientific review before a production release.",
+    "This audit reports the topology used; it does not modify this control."
+  ],
+  "md_preparation_sha256": "dbfb73ddce53ed0dd02e67615537095be35e3ee6b292729982b1d1563bc4318d",
+  "protein_topology_sha256": {
+    "topol_Protein_chain_A.itp": "326faa940b278cc9f0316f32b4d85f2285719b102b7281bf9649c04206fdce98",
+    "topol_Protein_chain_B.itp": "ade17a7774e549f6fcf3d62b2d50b99c850b734036d952238d05ed13807de656",
+    "topol_Protein_chain_C.itp": "e7fe73afa0b4ff7aef4d7ab5ec84df9a39b5c7151e08c159faeb55e7edb5ed80",
+    "topol_Protein_chain_D.itp": "89e25da6dbf86eef760693690b2b80eb4f7bb2c8be004be35a5792c62277beed"
+  },
+  "audit_source_sha256": "6c04b7b363ed4363603d1468abce4bbc19eec30925dc5cdb9f375f8db474db13"
+}
