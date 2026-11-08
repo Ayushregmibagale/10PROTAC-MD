@@ -132,5 +132,13 @@
     "coherent_image_sensitivity_completed": true,
     "production_checkpoint_20ns_confirmed": 174,
     "unconditional_scientific_signoff": false
+  },
+  "RPE1_experimental_evidence": {
+    "report": "RPE1_EXPERIMENTAL_EVIDENCE_REVIEW.md",
+    "LF_named_new_target_coverage": 19,
+    "PS_light_coverage": 15,
+    "PS_heavy_coverage": 17,
+    "labels_released": false,
+    "as_run_version_resolved": false
   }
 }

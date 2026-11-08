@@ -62,3 +62,9 @@ All current numerical batches finished. New audit roots: ligand_connected_e2_coh
 **Latest 2026-11-08 reporting check:** 141 analysis tests pass; docking 137 passed / four PyG-only skips. Subgroup AUROC now evaluates independently and records undefined single-class results. Retained E2 scores yield overall AUROC 0.800, MD-only 0.600; no-MD AUROC is undefined. The current dual-GNN TSV does not reconstruct the older 0.850 baseline. Accession checks confirm the CDK17 abundance row cannot be assigned to the retained CDK14 structure. See [GNN_REPORTING_AND_ASSAY_RECONCILIATION.md](GNN_REPORTING_AND_ASSAY_RECONCILIATION.md). No original data, labels or predictions changed.
 
 Completed gnn_reporting_v1 and assay_accession_v1; do not repeat. Read remediation section 39. No new biological model was fitted.
+
+## User experimental evidence — latest
+
+**Latest experimental evidence:** user-supplied RPE1 LF/PS data have been inspected (500 nM, 12 h; heavy=newly synthesized pool). LF `_new` provides matched results for all19 targets; five historical positive targets show reduced abundance in that saved version. Multiple result versions and weak/ambiguous evidence remain explicit; no label release or model refit. See [RPE1_EXPERIMENTAL_EVIDENCE_REVIEW.md](RPE1_EXPERIMENTAL_EVIDENCE_REVIEW.md).
+
+Original sources /home/ayushregmibagale/SJF8240_LF_and_PS/E250916_LF and E260106_PS are read-only. Both audits completed; do not automatically repeat raw multi-GB reports or run original R scripts. Conditions are confirmed by user. Detailed provenance and remaining version/peptide/identity issues in remediation section40. GNN results unchanged.

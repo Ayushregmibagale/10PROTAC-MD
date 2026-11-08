@@ -1,0 +1,5 @@
+{
+  "status": "STOPPED_ON_AMBIGUOUS_CANONICAL_ISOFORM_RESULTS",
+  "reason": "MAPK14 has separate Q16539 and Q16539-2 groups in earlier LF result versions. Preserve both; do not collapse isoforms by canonical accession.",
+  "original_sources_changed": false
+}

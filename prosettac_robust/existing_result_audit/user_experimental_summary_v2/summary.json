@@ -1,0 +1,52 @@
+{
+  "status": "VERSION_EXPLICIT_DESCRIPTIVE_SUMMARY_NOT_LABEL_RELEASE",
+  "LF_old_result_copy_in_PS_folder_identical_sha256": true,
+  "selected_display_tables_not_declared_authoritative": [
+    [
+      "LF_saved_new",
+      "E250916_LF",
+      "LIMMA_results_DMSO_vs_SJF8240_Foretinib_new.csv.gz"
+    ],
+    [
+      "PS_LIGHT_saved",
+      "E260106_PS",
+      "LIMMA_LIGHT_results_all_contrasts.csv.gz"
+    ],
+    [
+      "PS_HEAVY_saved",
+      "E260106_PS",
+      "LIMMA_HEAVY_results_all_contrasts.csv.gz"
+    ]
+  ],
+  "canonical_available_counts": {
+    "LF_saved_new": 19,
+    "PS_LIGHT_saved": 15,
+    "PS_HEAVY_saved": 17
+  },
+  "display_threshold": {
+    "BH_adjusted_P_lt": 0.05,
+    "log2FC_le": -0.3,
+    "purpose": "Explicit descriptive annotation, not chosen training labels"
+  },
+  "source_sha256": {
+    "/tmp/10protac_finish/prosettac_robust/existing_result_audit/user_experimental_evidence_v1/summary.json": "108f65f5952e0826d153d441f9897bbdb3862a733eff83ef27882fe66aeedfd8",
+    "/tmp/10protac_finish/prosettac_robust/existing_result_audit/user_experimental_evidence_v1/target_differential_results.tsv": "747f47f7418cf1b470e2948e0038b5761f12c7a3741ac26a34d63a9766cdd2d2",
+    "/tmp/10protac_finish/prosettac_robust/existing_result_audit/user_experimental_evidence_v1/target_quantification.tsv": "667a95e7c12589f0ceaa52f9ab385ee0b3de7af9d216bf56595cdc819d6947ba"
+  },
+  "audit_sha256": "e3350aa7eadc895315a12cb7d23cd18d0b9b46fce59c34af2190fbb27c1049c4",
+  "as_run_LF_version_resolved": false,
+  "original_files_modified": false,
+  "labels_released": false,
+  "limits": [
+    "All LF versions remain visible; selecting a favorable version by performance is prohibited.",
+    "A matching accession is not proof of unique peptide specificity; raw precursor validation is not completed.",
+    "Saved result FDR thresholds vary across scripts (raw P<0.05 versus BH 0.20); descriptive table uses its stated threshold only.",
+    "LF script comment says two samples per condition while its filter is total rows >=4; this does not enforce per-condition support.",
+    "A copied LF result inside PS folder must not be counted as independent experimental replication."
+  ],
+  "output_sha256": {
+    "named_saved_tables_SJF_vs_DMSO.tsv": "572abd3820c1dc91cc2ffbc5a54b19601508aaec18091f3821992761c749bedf",
+    "target_sample_support.tsv": "7fe930b767446fb58346fb6808f24a2485e94fdafdfc193e939003322a3296b6",
+    "canonical_results_all_versions.tsv": "3fa863890bb6462e406bb3560d2847a26c6099cfe1653c5320092d5f3f6e6fe3"
+  }
+}

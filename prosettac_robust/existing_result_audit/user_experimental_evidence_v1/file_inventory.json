@@ -1,0 +1,898 @@
+[
+  {
+    "experiment": "E250916_LF",
+    "path": "/home/ayushregmibagale/SJF8240_LF_and_PS/E250916_LF/CheckAtThePrecurosrLevelAXL.R",
+    "bytes": 2219,
+    "mtime_ns": 1769527166000000000,
+    "hashed": true
+  },
+  {
+    "experiment": "E250916_LF",
+    "path": "/home/ayushregmibagale/SJF8240_LF_and_PS/E250916_LF/CrossContrast_PROTAC_vs_Foretinib_scatter.png",
+    "bytes": 346650,
+    "mtime_ns": 1762795938000000000,
+    "hashed": false
+  },
+  {
+    "experiment": "E250916_LF",
+    "path": "/home/ayushregmibagale/SJF8240_LF_and_PS/E250916_LF/CrossContrast_gene_categories.csv",
+    "bytes": 912399,
+    "mtime_ns": 1762795940000000000,
+    "hashed": false
+  },
+  {
+    "experiment": "E250916_LF",
+    "path": "/home/ayushregmibagale/SJF8240_LF_and_PS/E250916_LF/DAAPROTACvsDMSOandForetinbvsDMSO.R",
+    "bytes": 9212,
+    "mtime_ns": 1768859758000000000,
+    "hashed": true
+  },
+  {
+    "experiment": "E250916_LF",
+    "path": "/home/ayushregmibagale/SJF8240_LF_and_PS/E250916_LF/DAA_PROTACvsFORETINIB.R",
+    "bytes": 6873,
+    "mtime_ns": 1769181888000000000,
+    "hashed": true
+  },
+  {
+    "experiment": "E250916_LF",
+    "path": "/home/ayushregmibagale/SJF8240_LF_and_PS/E250916_LF/Diann_protein_quant_LF_E250916_new.R",
+    "bytes": 14205,
+    "mtime_ns": 1769181606000000000,
+    "hashed": true
+  },
+  {
+    "experiment": "E250916_LF",
+    "path": "/home/ayushregmibagale/SJF8240_LF_and_PS/E250916_LF/E250916.Rproj",
+    "bytes": 205,
+    "mtime_ns": 1765493322000000000,
+    "hashed": false
+  },
+  {
+    "experiment": "E250916_LF",
+    "path": "/home/ayushregmibagale/SJF8240_LF_and_PS/E250916_LF/Foretinib_transmembrane_receptor_kinase_barplot.png",
+    "bytes": 73120,
+    "mtime_ns": 1764883304000000000,
+    "hashed": false
+  },
+  {
+    "experiment": "E250916_LF",
+    "path": "/home/ayushregmibagale/SJF8240_LF_and_PS/E250916_LF/Foretinib_transmembrane_receptor_kinase_genes.csv",
+    "bytes": 2654,
+    "mtime_ns": 1764883302000000000,
+    "hashed": false
+  },
+  {
+    "experiment": "E250916_LF",
+    "path": "/home/ayushregmibagale/SJF8240_LF_and_PS/E250916_LF/Foretinib_transmembrane_receptor_tyr_kinase_barplot.png",
+    "bytes": 72710,
+    "mtime_ns": 1764883304000000000,
+    "hashed": false
+  },
+  {
+    "experiment": "E250916_LF",
+    "path": "/home/ayushregmibagale/SJF8240_LF_and_PS/E250916_LF/Foretinib_transmembrane_receptor_tyr_kinase_genes.csv",
+    "bytes": 2528,
+    "mtime_ns": 1764883302000000000,
+    "hashed": false
+  },
+  {
+    "experiment": "E250916_LF",
+    "path": "/home/ayushregmibagale/SJF8240_LF_and_PS/E250916_LF/FourHunKinases.R",
+    "bytes": 11415,
+    "mtime_ns": 1762783270000000000,
+    "hashed": true
+  },
+  {
+    "experiment": "E250916_LF",
+    "path": "/home/ayushregmibagale/SJF8240_LF_and_PS/E250916_LF/Functional1.R",
+    "bytes": 11315,
+    "mtime_ns": 1762797564000000000,
+    "hashed": true
+  },
+  {
+    "experiment": "E250916_LF",
+    "path": "/home/ayushregmibagale/SJF8240_LF_and_PS/E250916_LF/GSEA_Dotplot_Foretinib_vs_DMSO.pdf",
+    "bytes": 9361,
+    "mtime_ns": 1764881508000000000,
+    "hashed": false
+  },
+  {
+    "experiment": "E250916_LF",
+    "path": "/home/ayushregmibagale/SJF8240_LF_and_PS/E250916_LF/GSEA_Dotplot_Foretinib_vs_DMSO.png",
+    "bytes": 332491,
+    "mtime_ns": 1764881504000000000,
+    "hashed": false
+  },
+  {
+    "experiment": "E250916_LF",
+    "path": "/home/ayushregmibagale/SJF8240_LF_and_PS/E250916_LF/GSEA_Dotplot_SJF8240_vs_DMSO.pdf",
+    "bytes": 8716,
+    "mtime_ns": 1764881506000000000,
+    "hashed": false
+  },
+  {
+    "experiment": "E250916_LF",
+    "path": "/home/ayushregmibagale/SJF8240_LF_and_PS/E250916_LF/GSEA_Dotplot_SJF8240_vs_DMSO.png",
+    "bytes": 288760,
+    "mtime_ns": 1764881504000000000,
+    "hashed": false
+  },
+  {
+    "experiment": "E250916_LF",
+    "path": "/home/ayushregmibagale/SJF8240_LF_and_PS/E250916_LF/GSEA_results_Foretinib_vs_DMSO.csv",
+    "bytes": 47797,
+    "mtime_ns": 1764881502000000000,
+    "hashed": false
+  },
+  {
+    "experiment": "E250916_LF",
+    "path": "/home/ayushregmibagale/SJF8240_LF_and_PS/E250916_LF/GSEA_results_SJF8240_vs_DMSO.csv",
+    "bytes": 62284,
+    "mtime_ns": 1764881502000000000,
+    "hashed": false
+  },
+  {
+    "experiment": "E250916_LF",
+    "path": "/home/ayushregmibagale/SJF8240_LF_and_PS/E250916_LF/GenesFromFuncEnrichment.R",
+    "bytes": 10307,
+    "mtime_ns": 1764883300000000000,
+    "hashed": true
+  },
+  {
+    "experiment": "E250916_LF",
+    "path": "/home/ayushregmibagale/SJF8240_LF_and_PS/E250916_LF/Kinase_genes_comparison.csv",
+    "bytes": 206,
+    "mtime_ns": 1764883306000000000,
+    "hashed": false
+  },
+  {
+    "experiment": "E250916_LF",
+    "path": "/home/ayushregmibagale/SJF8240_LF_and_PS/E250916_LF/LIMMA_labelFree_DMSO_vs_SJF8240_Foretinib.csv.gz",
+    "bytes": 938167,
+    "mtime_ns": 1761732762000000000,
+    "hashed": true
+  },
+  {
+    "experiment": "E250916_LF",
+    "path": "/home/ayushregmibagale/SJF8240_LF_and_PS/E250916_LF/LIMMA_results_DMSO_vs_SJF8240_Foretinib.csv.gz",
+    "bytes": 1029102,
+    "mtime_ns": 1764879720000000000,
+    "hashed": true
+  },
+  {
+    "experiment": "E250916_LF",
+    "path": "/home/ayushregmibagale/SJF8240_LF_and_PS/E250916_LF/LIMMA_results_DMSO_vs_SJF8240_Foretinib_new.csv.gz",
+    "bytes": 1351758,
+    "mtime_ns": 1768859768000000000,
+    "hashed": true
+  },
+  {
+    "experiment": "E250916_LF",
+    "path": "/home/ayushregmibagale/SJF8240_LF_and_PS/E250916_LF/LIMMA_results_SJF8240_vs_Foretinib.csv.gz",
+    "bytes": 738265,
+    "mtime_ns": 1769181846000000000,
+    "hashed": true
+  },
+  {
+    "experiment": "E250916_LF",
+    "path": "/home/ayushregmibagale/SJF8240_LF_and_PS/E250916_LF/Plot4_Heatmap_Top100_by_Affinity.png",
+    "bytes": 316502,
+    "mtime_ns": 1762796724000000000,
+    "hashed": false
+  },
+  {
+    "experiment": "E250916_LF",
+    "path": "/home/ayushregmibagale/SJF8240_LF_and_PS/E250916_LF/Plot6_Abundance_Distribution.png",
+    "bytes": 167359,
+    "mtime_ns": 1762785880000000000,
+    "hashed": false
+  },
+  {
+    "experiment": "E250916_LF",
+    "path": "/home/ayushregmibagale/SJF8240_LF_and_PS/E250916_LF/QC_mean_variance_trend.pdf",
+    "bytes": 446972,
+    "mtime_ns": 1761661954000000000,
+    "hashed": false
+  },
+  {
+    "experiment": "E250916_LF",
+    "path": "/home/ayushregmibagale/SJF8240_LF_and_PS/E250916_LF/QC_pvalue_distributions.pdf",
+    "bytes": 5696,
+    "mtime_ns": 1761661954000000000,
+    "hashed": false
+  },
+  {
+    "experiment": "E250916_LF",
+    "path": "/home/ayushregmibagale/SJF8240_LF_and_PS/E250916_LF/SJF8240_kinase_activity_barplot.png",
+    "bytes": 100034,
+    "mtime_ns": 1764883304000000000,
+    "hashed": false
+  },
+  {
+    "experiment": "E250916_LF",
+    "path": "/home/ayushregmibagale/SJF8240_LF_and_PS/E250916_LF/SJF8240_kinase_activity_genes.csv",
+    "bytes": 14910,
+    "mtime_ns": 1764883302000000000,
+    "hashed": false
+  },
+  {
+    "experiment": "E250916_LF",
+    "path": "/home/ayushregmibagale/SJF8240_LF_and_PS/E250916_LF/SeparateGSEAforPROTACvsDMSOandForetinibvsDMSOCLAUDE.R",
+    "bytes": 8711,
+    "mtime_ns": 1764881326000000000,
+    "hashed": true
+  },
+  {
+    "experiment": "E250916_LF",
+    "path": "/home/ayushregmibagale/SJF8240_LF_and_PS/E250916_LF/Slopegraphforall.R",
+    "bytes": 6285,
+    "mtime_ns": 1762785726000000000,
+    "hashed": true
+  },
+  {
+    "experiment": "E250916_LF",
+    "path": "/home/ayushregmibagale/SJF8240_LF_and_PS/E250916_LF/SpecificDegradationlog2FC1.R",
+    "bytes": 8725,
+    "mtime_ns": 1762795722000000000,
+    "hashed": true
+  },
+  {
+    "experiment": "E250916_LF",
+    "path": "/home/ayushregmibagale/SJF8240_LF_and_PS/E250916_LF/SpecificDegradationloghalf.R",
+    "bytes": 8729,
+    "mtime_ns": 1762795936000000000,
+    "hashed": true
+  },
+  {
+    "experiment": "E250916_LF",
+    "path": "/home/ayushregmibagale/SJF8240_LF_and_PS/E250916_LF/Untitled.ipynb",
+    "bytes": 617,
+    "mtime_ns": 1764758940000000000,
+    "hashed": false
+  },
+  {
+    "experiment": "E250916_LF",
+    "path": "/home/ayushregmibagale/SJF8240_LF_and_PS/E250916_LF/Volcano_Combined.png",
+    "bytes": 1464465,
+    "mtime_ns": 1768859776000000000,
+    "hashed": false
+  },
+  {
+    "experiment": "E250916_LF",
+    "path": "/home/ayushregmibagale/SJF8240_LF_and_PS/E250916_LF/Volcano_DMSO_vs_SJF8240_Foretinib.png",
+    "bytes": 255651,
+    "mtime_ns": 1761662048000000000,
+    "hashed": false
+  },
+  {
+    "experiment": "E250916_LF",
+    "path": "/home/ayushregmibagale/SJF8240_LF_and_PS/E250916_LF/Volcano_Foretinib_adj.png",
+    "bytes": 575355,
+    "mtime_ns": 1769181864000000000,
+    "hashed": false
+  },
+  {
+    "experiment": "E250916_LF",
+    "path": "/home/ayushregmibagale/SJF8240_LF_and_PS/E250916_LF/Volcano_Foretinib_raw.png",
+    "bytes": 561995,
+    "mtime_ns": 1769181862000000000,
+    "hashed": false
+  },
+  {
+    "experiment": "E250916_LF",
+    "path": "/home/ayushregmibagale/SJF8240_LF_and_PS/E250916_LF/Volcano_Foretinib_vs_DMSO.png",
+    "bytes": 907603,
+    "mtime_ns": 1768859772000000000,
+    "hashed": false
+  },
+  {
+    "experiment": "E250916_LF",
+    "path": "/home/ayushregmibagale/SJF8240_LF_and_PS/E250916_LF/Volcano_SJF8240_adj.png",
+    "bytes": 343321,
+    "mtime_ns": 1769181860000000000,
+    "hashed": false
+  },
+  {
+    "experiment": "E250916_LF",
+    "path": "/home/ayushregmibagale/SJF8240_LF_and_PS/E250916_LF/Volcano_SJF8240_raw.png",
+    "bytes": 394923,
+    "mtime_ns": 1769181858000000000,
+    "hashed": false
+  },
+  {
+    "experiment": "E250916_LF",
+    "path": "/home/ayushregmibagale/SJF8240_LF_and_PS/E250916_LF/Volcano_SJF8240_vs_DMSO.png",
+    "bytes": 557496,
+    "mtime_ns": 1768859770000000000,
+    "hashed": false
+  },
+  {
+    "experiment": "E250916_LF",
+    "path": "/home/ayushregmibagale/SJF8240_LF_and_PS/E250916_LF/Volcano_adjPvalue.R",
+    "bytes": 5999,
+    "mtime_ns": 1768859936000000000,
+    "hashed": true
+  },
+  {
+    "experiment": "E250916_LF",
+    "path": "/home/ayushregmibagale/SJF8240_LF_and_PS/E250916_LF/Volcano_raw_vs_adj_combined.png",
+    "bytes": 1797826,
+    "mtime_ns": 1769181870000000000,
+    "hashed": false
+  },
+  {
+    "experiment": "E250916_LF",
+    "path": "/home/ayushregmibagale/SJF8240_LF_and_PS/E250916_LF/Volcano_with_GeneLabels_DMSO_vs_SJF8240_Foretinib.png",
+    "bytes": 120343,
+    "mtime_ns": 1761732970000000000,
+    "hashed": false
+  },
+  {
+    "experiment": "E250916_LF",
+    "path": "/home/ayushregmibagale/SJF8240_LF_and_PS/E250916_LF/Volcano_with_GeneLabels_MAPK14_DMSO_vs_SJF8240_Foretinib.png",
+    "bytes": 102247,
+    "mtime_ns": 1761662804000000000,
+    "hashed": false
+  },
+  {
+    "experiment": "E250916_LF",
+    "path": "/home/ayushregmibagale/SJF8240_LF_and_PS/E250916_LF/correlation analysis.R",
+    "bytes": 10510,
+    "mtime_ns": 1769196296000000000,
+    "hashed": true
+  },
+  {
+    "experiment": "E250916_LF",
+    "path": "/home/ayushregmibagale/SJF8240_LF_and_PS/E250916_LF/diann_protein_quant_LF_E250916.R",
+    "bytes": 14417,
+    "mtime_ns": 1761732226000000000,
+    "hashed": true
+  },
+  {
+    "experiment": "E250916_LF",
+    "path": "/home/ayushregmibagale/SJF8240_LF_and_PS/E250916_LF/hs_SP_iso_09June25.fasta",
+    "bytes": 29312982,
+    "mtime_ns": 1749493536000000000,
+    "hashed": false
+  },
+  {
+    "experiment": "E250916_LF",
+    "path": "/home/ayushregmibagale/SJF8240_LF_and_PS/E250916_LF/hs_SP_iso_09June25_OxAc.log.txt",
+    "bytes": 3042,
+    "mtime_ns": 1749494058000000000,
+    "hashed": false
+  },
+  {
+    "experiment": "E250916_LF",
+    "path": "/home/ayushregmibagale/SJF8240_LF_and_PS/E250916_LF/hs_SP_iso_09June25_OxAc.predicted.speclib",
+    "bytes": 1743462897,
+    "mtime_ns": 1749494052000000000,
+    "hashed": false
+  },
+  {
+    "experiment": "E250916_LF",
+    "path": "/home/ayushregmibagale/SJF8240_LF_and_PS/E250916_LF/protein_quant.csv.gz",
+    "bytes": 2161387,
+    "mtime_ns": 1761658588000000000,
+    "hashed": true
+  },
+  {
+    "experiment": "E250916_LF",
+    "path": "/home/ayushregmibagale/SJF8240_LF_and_PS/E250916_LF/protein_quant_new.csv.gz",
+    "bytes": 2077377,
+    "mtime_ns": 1768859610000000000,
+    "hashed": true
+  },
+  {
+    "experiment": "E250916_LF",
+    "path": "/home/ayushregmibagale/SJF8240_LF_and_PS/E250916_LF/protein_quant_plot.pdf",
+    "bytes": 289987,
+    "mtime_ns": 1761732176000000000,
+    "hashed": false
+  },
+  {
+    "experiment": "E250916_LF",
+    "path": "/home/ayushregmibagale/SJF8240_LF_and_PS/E250916_LF/protein_quant_plot_new.pdf",
+    "bytes": 235483,
+    "mtime_ns": 1768859630000000000,
+    "hashed": false
+  },
+  {
+    "experiment": "E250916_LF",
+    "path": "/home/ayushregmibagale/SJF8240_LF_and_PS/E250916_LF/report (copy 1).tsv",
+    "bytes": 723709136,
+    "mtime_ns": 1768591388000000000,
+    "hashed": false
+  },
+  {
+    "experiment": "E250916_LF",
+    "path": "/home/ayushregmibagale/SJF8240_LF_and_PS/E250916_LF/report.tsv",
+    "bytes": 1144862614,
+    "mtime_ns": 1761651930000000000,
+    "hashed": false
+  },
+  {
+    "experiment": "E260106_PS",
+    "path": "/home/ayushregmibagale/SJF8240_LF_and_PS/E260106_PS/2FinalPRMprecursorsAndPeptides.R",
+    "bytes": 17405,
+    "mtime_ns": 1771421238000000000,
+    "hashed": true
+  },
+  {
+    "experiment": "E260106_PS",
+    "path": "/home/ayushregmibagale/SJF8240_LF_and_PS/E260106_PS/2Top10degradedProteinsPRM.R",
+    "bytes": 13346,
+    "mtime_ns": 1771414490000000000,
+    "hashed": true
+  },
+  {
+    "experiment": "E260106_PS",
+    "path": "/home/ayushregmibagale/SJF8240_LF_and_PS/E260106_PS/CheckAtPrecurLevelTNIKRemoveDMSOR2andSJF8240R1.R",
+    "bytes": 4678,
+    "mtime_ns": 1769611618000000000,
+    "hashed": true
+  },
+  {
+    "experiment": "E260106_PS",
+    "path": "/home/ayushregmibagale/SJF8240_LF_and_PS/E260106_PS/CheckAtThePrecurosrLevelAXL.R",
+    "bytes": 2223,
+    "mtime_ns": 1769611640000000000,
+    "hashed": true
+  },
+  {
+    "experiment": "E260106_PS",
+    "path": "/home/ayushregmibagale/SJF8240_LF_and_PS/E260106_PS/CheckAtThePrecursorsLevelAXLRemoveDMSOR2.R",
+    "bytes": 2486,
+    "mtime_ns": 1769611628000000000,
+    "hashed": true
+  },
+  {
+    "experiment": "E260106_PS",
+    "path": "/home/ayushregmibagale/SJF8240_LF_and_PS/E260106_PS/CompletePRMallProteins.R",
+    "bytes": 19158,
+    "mtime_ns": 1771419500000000000,
+    "hashed": true
+  },
+  {
+    "experiment": "E260106_PS",
+    "path": "/home/ayushregmibagale/SJF8240_LF_and_PS/E260106_PS/CorrelationPlot.R",
+    "bytes": 13872,
+    "mtime_ns": 1769195028000000000,
+    "hashed": true
+  },
+  {
+    "experiment": "E260106_PS",
+    "path": "/home/ayushregmibagale/SJF8240_LF_and_PS/E260106_PS/DAA_HEAVY.R",
+    "bytes": 16745,
+    "mtime_ns": 1769187352000000000,
+    "hashed": true
+  },
+  {
+    "experiment": "E260106_PS",
+    "path": "/home/ayushregmibagale/SJF8240_LF_and_PS/E260106_PS/DAA_HEAVY_for_SJF8240_vs_DMSO_FORETINIB_vs_DMSO_p_value.R",
+    "bytes": 20393,
+    "mtime_ns": 1772065758000000000,
+    "hashed": true
+  },
+  {
+    "experiment": "E260106_PS",
+    "path": "/home/ayushregmibagale/SJF8240_LF_and_PS/E260106_PS/DAA_LIGHT.R",
+    "bytes": 16584,
+    "mtime_ns": 1772058698000000000,
+    "hashed": true
+  },
+  {
+    "experiment": "E260106_PS",
+    "path": "/home/ayushregmibagale/SJF8240_LF_and_PS/E260106_PS/DAA_LIGHT_for_SJF8240_vs_DMSO_FORETINIB_vs_DMSO_P_value.R",
+    "bytes": 20393,
+    "mtime_ns": 1772064918000000000,
+    "hashed": true
+  },
+  {
+    "experiment": "E260106_PS",
+    "path": "/home/ayushregmibagale/SJF8240_LF_and_PS/E260106_PS/DAA_LIGHT_for_SJF8240_vs_DMSO_Foretinib_vs_DMSO_FDR.R",
+    "bytes": 19965,
+    "mtime_ns": 1772063996000000000,
+    "hashed": true
+  },
+  {
+    "experiment": "E260106_PS",
+    "path": "/home/ayushregmibagale/SJF8240_LF_and_PS/E260106_PS/DIANN_protein_quant.R",
+    "bytes": 23320,
+    "mtime_ns": 1771411672000000000,
+    "hashed": true
+  },
+  {
+    "experiment": "E260106_PS",
+    "path": "/home/ayushregmibagale/SJF8240_LF_and_PS/E260106_PS/DIANNprotein_quant_plot_LARGE.png",
+    "bytes": 941709,
+    "mtime_ns": 1767967534000000000,
+    "hashed": false
+  },
+  {
+    "experiment": "E260106_PS",
+    "path": "/home/ayushregmibagale/SJF8240_LF_and_PS/E260106_PS/GSEA_HEAVY_Dotplot_Foretinib_vs_DMSO.pdf",
+    "bytes": 9680,
+    "mtime_ns": 1768580684000000000,
+    "hashed": false
+  },
+  {
+    "experiment": "E260106_PS",
+    "path": "/home/ayushregmibagale/SJF8240_LF_and_PS/E260106_PS/GSEA_HEAVY_Dotplot_Foretinib_vs_DMSO.png",
+    "bytes": 358790,
+    "mtime_ns": 1768580684000000000,
+    "hashed": false
+  },
+  {
+    "experiment": "E260106_PS",
+    "path": "/home/ayushregmibagale/SJF8240_LF_and_PS/E260106_PS/GSEA_HEAVY_Dotplot_SJF8240_vs_DMSO.pdf",
+    "bytes": 9683,
+    "mtime_ns": 1768580684000000000,
+    "hashed": false
+  },
+  {
+    "experiment": "E260106_PS",
+    "path": "/home/ayushregmibagale/SJF8240_LF_and_PS/E260106_PS/GSEA_HEAVY_Dotplot_SJF8240_vs_DMSO.png",
+    "bytes": 336268,
+    "mtime_ns": 1768580682000000000,
+    "hashed": false
+  },
+  {
+    "experiment": "E260106_PS",
+    "path": "/home/ayushregmibagale/SJF8240_LF_and_PS/E260106_PS/GSEA_HEAVY_results_Foretinib_vs_DMSO.csv",
+    "bytes": 86826,
+    "mtime_ns": 1768580682000000000,
+    "hashed": false
+  },
+  {
+    "experiment": "E260106_PS",
+    "path": "/home/ayushregmibagale/SJF8240_LF_and_PS/E260106_PS/GSEA_HEAVY_results_SJF8240_vs_DMSO.csv",
+    "bytes": 129631,
+    "mtime_ns": 1768580682000000000,
+    "hashed": false
+  },
+  {
+    "experiment": "E260106_PS",
+    "path": "/home/ayushregmibagale/SJF8240_LF_and_PS/E260106_PS/GSEA_LIGHT_Dotplot_Foretinib_vs_DMSO.pdf",
+    "bytes": 9512,
+    "mtime_ns": 1768579336000000000,
+    "hashed": false
+  },
+  {
+    "experiment": "E260106_PS",
+    "path": "/home/ayushregmibagale/SJF8240_LF_and_PS/E260106_PS/GSEA_LIGHT_Dotplot_Foretinib_vs_DMSO.png",
+    "bytes": 327912,
+    "mtime_ns": 1768579336000000000,
+    "hashed": false
+  },
+  {
+    "experiment": "E260106_PS",
+    "path": "/home/ayushregmibagale/SJF8240_LF_and_PS/E260106_PS/GSEA_LIGHT_Dotplot_SJF8240_vs_DMSO.pdf",
+    "bytes": 9600,
+    "mtime_ns": 1768579336000000000,
+    "hashed": false
+  },
+  {
+    "experiment": "E260106_PS",
+    "path": "/home/ayushregmibagale/SJF8240_LF_and_PS/E260106_PS/GSEA_LIGHT_Dotplot_SJF8240_vs_DMSO.png",
+    "bytes": 331192,
+    "mtime_ns": 1768579334000000000,
+    "hashed": false
+  },
+  {
+    "experiment": "E260106_PS",
+    "path": "/home/ayushregmibagale/SJF8240_LF_and_PS/E260106_PS/GSEA_LIGHT_results_Foretinib_vs_DMSO.csv",
+    "bytes": 167079,
+    "mtime_ns": 1768579334000000000,
+    "hashed": false
+  },
+  {
+    "experiment": "E260106_PS",
+    "path": "/home/ayushregmibagale/SJF8240_LF_and_PS/E260106_PS/GSEA_LIGHT_results_SJF8240_vs_DMSO.csv",
+    "bytes": 192805,
+    "mtime_ns": 1768579334000000000,
+    "hashed": false
+  },
+  {
+    "experiment": "E260106_PS",
+    "path": "/home/ayushregmibagale/SJF8240_LF_and_PS/E260106_PS/GSEA_for_HEAVY_Channel.R",
+    "bytes": 8534,
+    "mtime_ns": 1768580562000000000,
+    "hashed": true
+  },
+  {
+    "experiment": "E260106_PS",
+    "path": "/home/ayushregmibagale/SJF8240_LF_and_PS/E260106_PS/GSEA_for_LIGHT_Channel.R",
+    "bytes": 8507,
+    "mtime_ns": 1768579640000000000,
+    "hashed": true
+  },
+  {
+    "experiment": "E260106_PS",
+    "path": "/home/ayushregmibagale/SJF8240_LF_and_PS/E260106_PS/HEAVYCheckAtThePrecursorLevelTNIK.R",
+    "bytes": 2297,
+    "mtime_ns": 1769611574000000000,
+    "hashed": true
+  },
+  {
+    "experiment": "E260106_PS",
+    "path": "/home/ayushregmibagale/SJF8240_LF_and_PS/E260106_PS/LIGHTCheckAtThePrecursorLevelTNIK.R",
+    "bytes": 2239,
+    "mtime_ns": 1769611582000000000,
+    "hashed": true
+  },
+  {
+    "experiment": "E260106_PS",
+    "path": "/home/ayushregmibagale/SJF8240_LF_and_PS/E260106_PS/LIMMA_HEAVY_SJF8240_vs_Foretinib.csv.gz",
+    "bytes": 465780,
+    "mtime_ns": 1772065762000000000,
+    "hashed": true
+  },
+  {
+    "experiment": "E260106_PS",
+    "path": "/home/ayushregmibagale/SJF8240_LF_and_PS/E260106_PS/LIMMA_HEAVY_results_all_contrasts.csv.gz",
+    "bytes": 995989,
+    "mtime_ns": 1772065762000000000,
+    "hashed": true
+  },
+  {
+    "experiment": "E260106_PS",
+    "path": "/home/ayushregmibagale/SJF8240_LF_and_PS/E260106_PS/LIMMA_LIGHT_SJF8240_vs_Foretinib.csv.gz",
+    "bytes": 473225,
+    "mtime_ns": 1772064922000000000,
+    "hashed": true
+  },
+  {
+    "experiment": "E260106_PS",
+    "path": "/home/ayushregmibagale/SJF8240_LF_and_PS/E260106_PS/LIMMA_LIGHT_results_all_contrasts.csv.gz",
+    "bytes": 1016103,
+    "mtime_ns": 1772064922000000000,
+    "hashed": true
+  },
+  {
+    "experiment": "E260106_PS",
+    "path": "/home/ayushregmibagale/SJF8240_LF_and_PS/E260106_PS/LIMMA_results_DMSO_vs_SJF8240_Foretinib.csv.gz",
+    "bytes": 1029102,
+    "mtime_ns": 1768586522000000000,
+    "hashed": true
+  },
+  {
+    "experiment": "E260106_PS",
+    "path": "/home/ayushregmibagale/SJF8240_LF_and_PS/E260106_PS/PRM_targets_ALL2667_SJF8240_vs_DMSO_LIGHT.tsv",
+    "bytes": 1441668,
+    "mtime_ns": 1771413918000000000,
+    "hashed": false
+  },
+  {
+    "experiment": "E260106_PS",
+    "path": "/home/ayushregmibagale/SJF8240_LF_and_PS/E260106_PS/PRM_targets_TOP10_SJF8240_vs_DMSO_LIGHT.tsv",
+    "bytes": 5722,
+    "mtime_ns": 1771413918000000000,
+    "hashed": false
+  },
+  {
+    "experiment": "E260106_PS",
+    "path": "/home/ayushregmibagale/SJF8240_LF_and_PS/E260106_PS/PlusSign_Scatter_LIGHT_SJF8240_vs_Foretinib.png",
+    "bytes": 355327,
+    "mtime_ns": 1772059356000000000,
+    "hashed": false
+  },
+  {
+    "experiment": "E260106_PS",
+    "path": "/home/ayushregmibagale/SJF8240_LF_and_PS/E260106_PS/QuadrantScatter_LIGHT_SJF8240_vs_Foretinib.png",
+    "bytes": 139641,
+    "mtime_ns": 1772060130000000000,
+    "hashed": false
+  },
+  {
+    "experiment": "E260106_PS",
+    "path": "/home/ayushregmibagale/SJF8240_LF_and_PS/E260106_PS/QuadrantScatter_table_LIGHT_SJF8240_vs_Foretinib.csv.gz",
+    "bytes": 445817,
+    "mtime_ns": 1772060132000000000,
+    "hashed": true
+  },
+  {
+    "experiment": "E260106_PS",
+    "path": "/home/ayushregmibagale/SJF8240_LF_and_PS/E260106_PS/Ribosomal_Heavy_vs_Steady_scatter.png",
+    "bytes": 195582,
+    "mtime_ns": 1768586598000000000,
+    "hashed": false
+  },
+  {
+    "experiment": "E260106_PS",
+    "path": "/home/ayushregmibagale/SJF8240_LF_and_PS/E260106_PS/Ribosomal_Heavy_vs_Steady_scatter_4class.png",
+    "bytes": 236840,
+    "mtime_ns": 1768588464000000000,
+    "hashed": false
+  },
+  {
+    "experiment": "E260106_PS",
+    "path": "/home/ayushregmibagale/SJF8240_LF_and_PS/E260106_PS/Ribosomal_Heavy_vs_Steady_scatter_4class_facet.png",
+    "bytes": 254731,
+    "mtime_ns": 1768588746000000000,
+    "hashed": false
+  },
+  {
+    "experiment": "E260106_PS",
+    "path": "/home/ayushregmibagale/SJF8240_LF_and_PS/E260106_PS/Ribosomal_Heavy_vs_Steady_scatter_4class_lines.png",
+    "bytes": 255240,
+    "mtime_ns": 1768588744000000000,
+    "hashed": false
+  },
+  {
+    "experiment": "E260106_PS",
+    "path": "/home/ayushregmibagale/SJF8240_LF_and_PS/E260106_PS/Ribosomal_Heavy_vs_Steady_scatter_colored.png",
+    "bytes": 218931,
+    "mtime_ns": 1768587906000000000,
+    "hashed": false
+  },
+  {
+    "experiment": "E260106_PS",
+    "path": "/home/ayushregmibagale/SJF8240_LF_and_PS/E260106_PS/SE_Distribution_HEAVY.png",
+    "bytes": 137911,
+    "mtime_ns": 1769187356000000000,
+    "hashed": false
+  },
+  {
+    "experiment": "E260106_PS",
+    "path": "/home/ayushregmibagale/SJF8240_LF_and_PS/E260106_PS/SE_Distribution_LIGHT.png",
+    "bytes": 120740,
+    "mtime_ns": 1769187292000000000,
+    "hashed": false
+  },
+  {
+    "experiment": "E260106_PS",
+    "path": "/home/ayushregmibagale/SJF8240_LF_and_PS/E260106_PS/ScatterPlot.R",
+    "bytes": 3851,
+    "mtime_ns": 1768588460000000000,
+    "hashed": true
+  },
+  {
+    "experiment": "E260106_PS",
+    "path": "/home/ayushregmibagale/SJF8240_LF_and_PS/E260106_PS/ScatterPlot2.R",
+    "bytes": 5178,
+    "mtime_ns": 1768588740000000000,
+    "hashed": true
+  },
+  {
+    "experiment": "E260106_PS",
+    "path": "/home/ayushregmibagale/SJF8240_LF_and_PS/E260106_PS/Selective_Degraded_Increased_HEAVY_labeled.png",
+    "bytes": 1020728,
+    "mtime_ns": 1772065764000000000,
+    "hashed": false
+  },
+  {
+    "experiment": "E260106_PS",
+    "path": "/home/ayushregmibagale/SJF8240_LF_and_PS/E260106_PS/Selective_Degraded_Increased_LIGHT.png",
+    "bytes": 390751,
+    "mtime_ns": 1772060610000000000,
+    "hashed": false
+  },
+  {
+    "experiment": "E260106_PS",
+    "path": "/home/ayushregmibagale/SJF8240_LF_and_PS/E260106_PS/Selective_Degraded_Increased_LIGHT_labeled.png",
+    "bytes": 890206,
+    "mtime_ns": 1772064926000000000,
+    "hashed": false
+  },
+  {
+    "experiment": "E260106_PS",
+    "path": "/home/ayushregmibagale/SJF8240_LF_and_PS/E260106_PS/Selective_Degraded_Increased_table_HEAVY_scored.csv.gz",
+    "bytes": 654097,
+    "mtime_ns": 1772065764000000000,
+    "hashed": true
+  },
+  {
+    "experiment": "E260106_PS",
+    "path": "/home/ayushregmibagale/SJF8240_LF_and_PS/E260106_PS/Selective_Degraded_Increased_table_LIGHT.csv.gz",
+    "bytes": 344614,
+    "mtime_ns": 1772060610000000000,
+    "hashed": true
+  },
+  {
+    "experiment": "E260106_PS",
+    "path": "/home/ayushregmibagale/SJF8240_LF_and_PS/E260106_PS/Selective_Degraded_Increased_table_LIGHT_scored.csv.gz",
+    "bytes": 672638,
+    "mtime_ns": 1772064926000000000,
+    "hashed": true
+  },
+  {
+    "experiment": "E260106_PS",
+    "path": "/home/ayushregmibagale/SJF8240_LF_and_PS/E260106_PS/Skyline.R",
+    "bytes": 3108,
+    "mtime_ns": 1771423684000000000,
+    "hashed": true
+  },
+  {
+    "experiment": "E260106_PS",
+    "path": "/home/ayushregmibagale/SJF8240_LF_and_PS/E260106_PS/TNIK_PRM_Complete_Analysis.R",
+    "bytes": 15168,
+    "mtime_ns": 1769685482000000000,
+    "hashed": true
+  },
+  {
+    "experiment": "E260106_PS",
+    "path": "/home/ayushregmibagale/SJF8240_LF_and_PS/E260106_PS/TNIK_lowSignal_CLAUDE.R",
+    "bytes": 33881,
+    "mtime_ns": 1769611594000000000,
+    "hashed": true
+  },
+  {
+    "experiment": "E260106_PS",
+    "path": "/home/ayushregmibagale/SJF8240_LF_and_PS/E260106_PS/TNIK_lowsignal_vs_Inference_vs_Mapping.R",
+    "bytes": 10016,
+    "mtime_ns": 1769611604000000000,
+    "hashed": true
+  },
+  {
+    "experiment": "E260106_PS",
+    "path": "/home/ayushregmibagale/SJF8240_LF_and_PS/E260106_PS/TNIK_score_barplot.pdf",
+    "bytes": 5960,
+    "mtime_ns": 1771413496000000000,
+    "hashed": false
+  },
+  {
+    "experiment": "E260106_PS",
+    "path": "/home/ayushregmibagale/SJF8240_LF_and_PS/E260106_PS/TNIK_score_barplot.png",
+    "bytes": 100175,
+    "mtime_ns": 1771413496000000000,
+    "hashed": false
+  },
+  {
+    "experiment": "E260106_PS",
+    "path": "/home/ayushregmibagale/SJF8240_LF_and_PS/E260106_PS/TNIK_volcano_diagnostic.pdf",
+    "bytes": 328890,
+    "mtime_ns": 1771413494000000000,
+    "hashed": false
+  },
+  {
+    "experiment": "E260106_PS",
+    "path": "/home/ayushregmibagale/SJF8240_LF_and_PS/E260106_PS/TNIK_volcano_diagnostic.png",
+    "bytes": 161145,
+    "mtime_ns": 1771413496000000000,
+    "hashed": false
+  },
+  {
+    "experiment": "E260106_PS",
+    "path": "/home/ayushregmibagale/SJF8240_LF_and_PS/E260106_PS/Volcano33.R",
+    "bytes": 17515,
+    "mtime_ns": 1769191970000000000,
+    "hashed": true
+  },
+  {
+    "experiment": "E260106_PS",
+    "path": "/home/ayushregmibagale/SJF8240_LF_and_PS/E260106_PS/VolcanoPlot.R",
+    "bytes": 8911,
+    "mtime_ns": 1769186640000000000,
+    "hashed": true
+  },
+  {
+    "experiment": "E260106_PS",
+    "path": "/home/ayushregmibagale/SJF8240_LF_and_PS/E260106_PS/VolcanoPlot22.R",
+    "bytes": 12992,
+    "mtime_ns": 1769190890000000000,
+    "hashed": true
+  },
+  {
+    "experiment": "E260106_PS",
+    "path": "/home/ayushregmibagale/SJF8240_LF_and_PS/E260106_PS/protein_quant.csv.gz",
+    "bytes": 4592545,
+    "mtime_ns": 1767967418000000000,
+    "hashed": true
+  },
+  {
+    "experiment": "E260106_PS",
+    "path": "/home/ayushregmibagale/SJF8240_LF_and_PS/E260106_PS/report.tsv",
+    "bytes": 2628631019,
+    "mtime_ns": 1767965246000000000,
+    "hashed": false
+  },
+  {
+    "experiment": "E260106_PS",
+    "path": "/home/ayushregmibagale/SJF8240_LF_and_PS/E260106_PS/reportfile.tsv",
+    "bytes": 543793927,
+    "mtime_ns": 1771411754000000000,
+    "hashed": false
+  }
+]
