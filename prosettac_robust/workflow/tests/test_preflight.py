@@ -1491,3 +1491,20 @@ def test_ligand_connected_image_path_uses_one_whole_ligand_and_preserves_box_inv
     assert moved['VHL_ligand_min_A']==pytest.approx(original['VHL_ligand_min_A'])
     assert moved['ligand_POI_min_A']==pytest.approx(original['ligand_POI_min_A'])
     assert not moved['automatic_training_release']
+
+
+def test_gnn_subgroup_auroc_keeps_defined_group_when_other_has_one_class():
+    from gnn_contract import subgroup_aurocs
+    result=subgroup_aurocs([0,1,0,0],[.1,.9,.2,.3],{'md':np.array([True,True,False,False]),'nonmd':np.array([False,False,True,True]),'empty':np.zeros(4,dtype=bool)})
+    assert result['md']['auroc']==1.
+    assert result['nonmd']['auroc'] is None and result['nonmd']['positive']==0
+    assert result['nonmd']['negative']==2 and result['empty']['auroc'] is None
+    assert result['empty']['auroc_status']=='UNDEFINED_REQUIRES_BOTH_CLASSES'
+
+
+def test_gnn_subgroup_auroc_rejects_misaligned_or_nonfinite_inputs():
+    from gnn_contract import subgroup_aurocs
+    with pytest.raises(ValidationError,match='boolean subgroup'):
+        subgroup_aurocs([0,1],[.1,.9],{'bad':np.array([True])})
+    with pytest.raises(ValidationError,match='Finite matched'):
+        subgroup_aurocs([0,1],[.1,float('nan')],{})

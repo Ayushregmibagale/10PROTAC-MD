@@ -29,7 +29,7 @@ import json,random
 import sys
 from pathlib import Path
 sys.path.insert(0,str(Path(__file__).resolve().parents[1]/'lib'))
-from gnn_contract import verify_gnn_release,select_training_graphs,normalize_fold_scalars,fold_seed,validate_feature_graph
+from gnn_contract import verify_gnn_release,select_training_graphs,normalize_fold_scalars,fold_seed,validate_feature_graph,subgroup_aurocs
 from protac_qc import ValidationError,sha256
 from gnn_contract import configure_native_pyg
 DISABLED_OPTIONAL_GNN_BACKENDS=configure_native_pyg()
@@ -322,11 +322,12 @@ def run_lopo(static_graphs, dynamic_map, e2_df, args):
 
     md_mask  = pred_df['has_md'] == 1
     nmd_mask = pred_df['has_md'] == 0
-    try:
-        auroc_md  = roc_auc_score(labels[md_mask],  probs[md_mask])
-        auroc_nmd = roc_auc_score(labels[nmd_mask], probs[nmd_mask])
-    except Exception:
-        auroc_md = auroc_nmd = float('nan')
+    subgroup_metrics=subgroup_aurocs(labels,probs,{'md':md_mask.to_numpy(),'nonmd':nmd_mask.to_numpy()})
+    auroc_md=subgroup_metrics['md']['auroc']
+    auroc_nmd=subgroup_metrics['nonmd']['auroc']
+    # Preserve the TSV NaN convention while recording why a metric is undefined.
+    auroc_md=float('nan') if auroc_md is None else auroc_md
+    auroc_nmd=float('nan') if auroc_nmd is None else auroc_nmd
 
     print(f"\n{'='*60}")
     print(f"E2-SCALAR GNN LOPO-CV RESULTS")
@@ -354,6 +355,7 @@ def run_lopo(static_graphs, dynamic_map, e2_df, args):
         'auroc_md_pois': round(auroc_md, 4),
         'auroc_nonmd_pois': round(auroc_nmd, 4),
         'e2_cols': '+'.join(E2_COLS),
+        **{f'{group}_{key}':value for group,values in subgroup_metrics.items() for key,value in values.items() if key!='auroc'},
     }])
 
     return pred_df, summ_df

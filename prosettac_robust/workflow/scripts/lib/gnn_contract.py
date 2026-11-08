@@ -127,3 +127,21 @@ def validate_feature_graph(graph,width,schema='SJF8240-periodic-contacts-v1'):
         raise ValidationError('Invalid or nonfinite GNN graph tensors')
     if not np.issubdtype(ei.dtype,np.integer) or (ei.size and (ei.min()<0 or ei.max()>=len(x))):
         raise ValidationError('GNN graph index outside node range')
+
+
+def subgroup_aurocs(labels, scores, masks):
+    """Compute each group's AUROC independently; single-class groups are undefined."""
+    from sklearn.metrics import roc_auc_score
+    labels=np.asarray(labels);scores=np.asarray(scores,dtype=float)
+    if labels.ndim!=1 or scores.shape!=labels.shape or not np.isin(labels,[0,1]).all() or not np.isfinite(scores).all():
+        raise ValidationError('Finite matched binary labels and scores required')
+    results={}
+    for name,mask in masks.items():
+        mask=np.asarray(mask)
+        if mask.dtype!=np.bool_ or mask.shape!=labels.shape:
+            raise ValidationError('Matched boolean subgroup mask required')
+        y=labels[mask];n_positive=int((y==1).sum());n_negative=int((y==0).sum())
+        results[name]={'n':len(y),'positive':n_positive,'negative':n_negative,
+            'auroc':float(roc_auc_score(y,scores[mask])) if n_positive and n_negative else None,
+            'auroc_status':'DEFINED' if n_positive and n_negative else 'UNDEFINED_REQUIRES_BOTH_CLASSES'}
+    return results

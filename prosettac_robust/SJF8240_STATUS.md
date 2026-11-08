@@ -1,5 +1,8 @@
 # SJF8240 publication work: current status
 
+**Latest 2026-11-08 reporting check:** 141 analysis tests pass; docking 137 passed / four PyG-only skips. Subgroup AUROC now evaluates independently and records undefined single-class results. Retained E2 scores yield overall AUROC 0.800, MD-only 0.600; no-MD AUROC is undefined. The current dual-GNN TSV does not reconstruct the older 0.850 baseline. Accession checks confirm the CDK17 abundance row cannot be assigned to the retained CDK14 structure. See [GNN_REPORTING_AND_ASSAY_RECONCILIATION.md](GNN_REPORTING_AND_ASSAY_RECONCILIATION.md). No original data, labels or predictions changed.
+
+
 **2026-11-08 update:** completed the full 141-pose coherent E2 imaging sensitivity and retained stage/checkpoint audits. All 174 production checkpoints reach 20 ns. All 22,753 true-heavy bridging frames agree across three imaging conventions; 16 differences are nonbridging. One EM force-tolerance exception is disclosed. Analysis tests: 139 passed; docking: 135 passed / four PyG-only skips. See [COHERENT_E2_REANALYSIS.md](COHERENT_E2_REANALYSIS.md), [METHODS_DRAFT_RECONCILIATION.md](METHODS_DRAFT_RECONCILIATION.md), [RETAINED_GNN_MODEL_PROVENANCE.md](RETAINED_GNN_MODEL_PROVENANCE.md) and [PROTEIN_PANEL_19.md](PROTEIN_PANEL_19.md). Original results unchanged; unconditional biological/predictive sign-off remains withheld. Earlier dated counts below are historical checkpoints.
 
 

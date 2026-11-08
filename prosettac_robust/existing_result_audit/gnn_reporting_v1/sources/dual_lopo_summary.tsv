@@ -1,0 +1,2 @@
+split	n_folds	n_correct	accuracy	auroc_overall	auroc_md_pois	auroc_nonmd_pois
+dual-encoder LOPO-CV	45	12	0.2667			

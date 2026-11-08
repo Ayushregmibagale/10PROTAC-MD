@@ -21,7 +21,7 @@ Original /home/ayushregmibagale/protac-md, /mnt/d/PROTAC degradation Prediction 
 
 ## Current verification
 
-139 analysis tests passed. Docking overlay: 135 passed, four PyG-only tests skipped. software_checkpoint_v9.json contains logs and all active script hashes. Installed checks run during guarded save; inspect newest installation receipt/log and actual Git history rather than assuming a partial save completed.
+141 analysis tests passed. Docking overlay: 137 passed, four PyG-only tests skipped. software_checkpoint_v10.json contains logs and all active script hashes. Installed checks run during guarded save; inspect newest installation receipt/log and actual Git history rather than assuming a partial save completed.
 
 E2 geometry reconstruction preserves root images, uses periodic bonded spanning-tree reconstruction and checks all bonds with original fallback. Four real coordinate comparisons max 0.000016 A; six original complete cases /1,206 rows max numeric descriptor difference below 0.000027. Original v1 and ineffective guarded v2 audit attempts were stopped and retained; v3 completed. Do not restart them. Exact source snapshots and termination records are preserved.
 
@@ -56,3 +56,9 @@ No project simulation or analysis batch remains running after the completed revi
 
 
 All current numerical batches finished. New audit roots: ligand_connected_e2_cohort_v1, coherent_e2_publication_v1, retained_stage_evidence_v1, retained_checkpoint_times_v1, retained_gnn_weights_v1. Do not repeat these completed sweeps. Read remediation section 38. Main historical outputs remain unchanged; corrected imaging has no automatic training release. Check actual git/installation receipts for durable-save state.
+
+## Latest reporting/assay supplement
+
+**Latest 2026-11-08 reporting check:** 141 analysis tests pass; docking 137 passed / four PyG-only skips. Subgroup AUROC now evaluates independently and records undefined single-class results. Retained E2 scores yield overall AUROC 0.800, MD-only 0.600; no-MD AUROC is undefined. The current dual-GNN TSV does not reconstruct the older 0.850 baseline. Accession checks confirm the CDK17 abundance row cannot be assigned to the retained CDK14 structure. See [GNN_REPORTING_AND_ASSAY_RECONCILIATION.md](GNN_REPORTING_AND_ASSAY_RECONCILIATION.md). No original data, labels or predictions changed.
+
+Completed gnn_reporting_v1 and assay_accession_v1; do not repeat. Read remediation section 39. No new biological model was fitted.

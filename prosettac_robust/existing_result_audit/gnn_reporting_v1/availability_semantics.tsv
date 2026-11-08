@@ -1,0 +1,18 @@
+poi	label	has_md	has_e2_saved_flag	saved_mean_E2_is_finite	interpretation
+MAP4K5	0	0	1	False	has_e2 is not a per-field finite-value certificate
+SLK	0	0	1	False	has_e2 is not a per-field finite-value certificate
+DDR2	1	1	1	True	has_e2 is not a per-field finite-value certificate
+RIPK2_full	1	1	1	True	has_e2 is not a per-field finite-value certificate
+MAPK14_full	1	1	1	True	has_e2 is not a per-field finite-value certificate
+MET	1	1	1	True	has_e2 is not a per-field finite-value certificate
+EPHB2	1	1	1	True	has_e2 is not a per-field finite-value certificate
+ABL1	0	1	1	True	has_e2 is not a per-field finite-value certificate
+AXL	0	1	1	True	has_e2 is not a per-field finite-value certificate
+EPHA2	0	1	1	True	has_e2 is not a per-field finite-value certificate
+CDK17	0	0	0	False	has_e2 is not a per-field finite-value certificate
+CDK2	0	0	0	False	has_e2 is not a per-field finite-value certificate
+CDK4	0	0	0	False	has_e2 is not a per-field finite-value certificate
+CDK6	0	0	0	False	has_e2 is not a per-field finite-value certificate
+DAPK1	0	0	0	False	has_e2 is not a per-field finite-value certificate
+IRAK1	0	0	0	False	has_e2 is not a per-field finite-value certificate
+TLK2	0	0	0	False	has_e2 is not a per-field finite-value certificate

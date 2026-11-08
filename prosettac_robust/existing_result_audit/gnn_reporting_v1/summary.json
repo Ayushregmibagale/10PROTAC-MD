@@ -1,0 +1,109 @@
+{
+  "status": "RETAINED_SCORE_REPORTING_RECONCILED_NOT_NEW_VALIDATION",
+  "E2_saved_score_metrics": {
+    "all": {
+      "n": 17,
+      "positive": 5,
+      "negative": 12,
+      "auroc": 0.8,
+      "auroc_status": "DEFINED",
+      "correct": 15,
+      "accuracy": 0.8823529411764706,
+      "targets": [
+        "MAP4K5",
+        "SLK",
+        "DDR2",
+        "RIPK2_full",
+        "MAPK14_full",
+        "MET",
+        "EPHB2",
+        "ABL1",
+        "AXL",
+        "EPHA2",
+        "CDK17",
+        "CDK2",
+        "CDK4",
+        "CDK6",
+        "DAPK1",
+        "IRAK1",
+        "TLK2"
+      ]
+    },
+    "md": {
+      "n": 8,
+      "positive": 5,
+      "negative": 3,
+      "auroc": 0.6000000000000001,
+      "auroc_status": "DEFINED",
+      "correct": 6,
+      "accuracy": 0.75,
+      "targets": [
+        "DDR2",
+        "RIPK2_full",
+        "MAPK14_full",
+        "MET",
+        "EPHB2",
+        "ABL1",
+        "AXL",
+        "EPHA2"
+      ]
+    },
+    "nonmd": {
+      "n": 9,
+      "positive": 0,
+      "negative": 9,
+      "auroc": null,
+      "auroc_status": "UNDEFINED_REQUIRES_BOTH_CLASSES",
+      "correct": 9,
+      "accuracy": 1.0,
+      "targets": [
+        "MAP4K5",
+        "SLK",
+        "CDK17",
+        "CDK2",
+        "CDK4",
+        "CDK6",
+        "DAPK1",
+        "IRAK1",
+        "TLK2"
+      ]
+    }
+  },
+  "current_dual_table": {
+    "rows": 45,
+    "reviewed_cohort_rows": 17,
+    "unknown_label_rows": 28,
+    "reviewed_cohort_unique_scores": [
+      0.0
+    ],
+    "reviewed_cohort_has_md_counts": {
+      "0": 17
+    },
+    "reviewed_cohort_AUROC_from_current_scores": 0.5,
+    "reviewed_cohort_accuracy_from_current_predictions": 0.7058823529411765
+  },
+  "not_supported": [
+    "A no-MD AUROC of 1.000: this subgroup has no positive labels, so AUROC is undefined.",
+    "A paired reconstruction of the older 04d AUROC=0.850 versus 04g AUROC=0.800 using the current dual TSV: its scores and cohort have changed.",
+    "A generalization guarantee from nine correct negative calls or a fixed sample-size threshold.",
+    "Claiming that adding E2 improves biology or is causal solely from the selected 17-target score table.",
+    "Calling a finite docking search failure an experimental negative, or attributing assay disagreement to an experimental false negative from model output."
+  ],
+  "source_sha256": {
+    "/home/ayushregmibagale/protac-md/analysis/gnn/e2gnn_lopo_results.tsv": "d9243bcff04203ea8a69a3b8e5bb8570db56dd30551f9ffb667cabd9bb8f749e",
+    "/home/ayushregmibagale/protac-md/analysis/gnn/e2gnn_lopo_summary.tsv": "a6aedfa4183b46bab37a31454bf69a167ee2e6cd67e8ec2b2b5daa98219a8c4b",
+    "/home/ayushregmibagale/protac-md/analysis/gnn/dual_lopo_results.tsv": "e0c7354cb6d995f75abf0764606c25c4be8bce64f1bb772f7b4cd8547874f3b3",
+    "/home/ayushregmibagale/protac-md/analysis/gnn/dual_lopo_summary.tsv": "62e53a6433661e3912bce62b8f78edb40d75da2059b29edab47e809939f413f3",
+    "/home/ayushregmibagale/protac-md/docs/gnn_robustness_requirements.md": "9e0df38c5489d291530884ad416a03c56e78e22c3d5472f8d0de4fdc6c46a0cb",
+    "/home/ayushregmibagale/protac-md/docs/paper_ml_results.md": "8e4927eeb5a677a3af6d49141ffd48cabe60a039e4c128945860e99651672f07"
+  },
+  "audit_sha256": "a8b3f5a848eddcb25026fbaec2b32dbb9e56885a72e1972d6415ad033e3f501c",
+  "new_training_or_MD": false,
+  "original_outputs_modified": false,
+  "limits": [
+    "Scores are retained rounded values, not reconstructed unrounded fold predictions.",
+    "Labels are historical and unresolved assay/target correspondence is unchanged.",
+    "Availability confounding was audited separately; this report fits no metadata model.",
+    "No author-selected assay hierarchy, experimental relabeling or performance-improving case deletion."
+  ]
+}
