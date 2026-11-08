@@ -1,0 +1,13 @@
+                 :-) GROMACS - gmx dump, 2025.4-conda_forge (-:
+
+Executable:   /home/ayushregmibagale/.conda/envs/gromacs/bin.AVX2_256/gmx
+Data prefix:  /home/ayushregmibagale/.conda/envs/gromacs
+Working dir:  /mnt/c/Users/Ayush Regmi Bagale
+Command line:
+  gmx dump -s /home/ayushregmibagale/protac-md/random_screen/AXL/pose008/em/em.tpr -om /tmp/10protac_finish/prosettac_robust/existing_result_audit/retained_stage_evidence_v1/inputrec/AXL/pose008/em_inspection.mdp
+
+Reading file /home/ayushregmibagale/protac-md/random_screen/AXL/pose008/em/em.tpr, VERSION 2025.4-conda_forge (single precision)
+Reading file /home/ayushregmibagale/protac-md/random_screen/AXL/pose008/em/em.tpr, VERSION 2025.4-conda_forge (single precision)
+
+GROMACS reminds you: "I Caught It In the Face" (P.J. Harvey)
+

@@ -1,0 +1,13 @@
+                 :-) GROMACS - gmx dump, 2025.4-conda_forge (-:
+
+Executable:   /home/ayushregmibagale/.conda/envs/gromacs/bin.AVX2_256/gmx
+Data prefix:  /home/ayushregmibagale/.conda/envs/gromacs
+Working dir:  /mnt/c/Users/Ayush Regmi Bagale
+Command line:
+  gmx dump -s /home/ayushregmibagale/protac-md/random_screen/EPHA2/pose002/nvt/nvt.tpr -om /tmp/10protac_finish/prosettac_robust/existing_result_audit/retained_stage_evidence_v1/inputrec/EPHA2/pose002/nvt_inspection.mdp
+
+Reading file /home/ayushregmibagale/protac-md/random_screen/EPHA2/pose002/nvt/nvt.tpr, VERSION 2025.4-conda_forge (single precision)
+Reading file /home/ayushregmibagale/protac-md/random_screen/EPHA2/pose002/nvt/nvt.tpr, VERSION 2025.4-conda_forge (single precision)
+
+GROMACS reminds you: "Take what you want, but just what you need for survival" (Joe Jackson)
+

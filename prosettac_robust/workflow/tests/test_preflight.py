@@ -1452,3 +1452,42 @@ def test_retained_e2_summary_requires_explicit_duplicate_window_and_image_policy
     result=summarize_frames(*args,duplicates='identical',image_policy='audit-only');assert result['status']=='IMAGE_REVIEW_REQUIRED_AUDIT_ONLY'
     with pytest.raises(ValidationError,match='endpoints'):
         summarize_frames(*args[:-1],3.,duplicates='identical',image_policy='audit-only')
+
+
+def test_coherent_image_conventions_are_invariant_to_independent_lattice_translations():
+    from coherent_images import assemble,cell_vectors
+    box=[30.,35.,40.,75.,85.,65.];vectors=cell_vectors(box)
+    anchor=np.array([[1.,1.,1.],[3.,1.,1.],[1.,3.,1.],[1.,1.,3.]])
+    vhl=anchor+[4.,0.,0.];poi=anchor+[8.,0.,0.]
+    expected=assemble(anchor,vhl,poi,anchor,vhl,poi,box)
+    a_shift=np.array([1,-1,2])@vectors
+    shifted=assemble(anchor+a_shift,vhl+np.array([-2,1,0])@vectors,poi+np.array([2,2,-1])@vectors,anchor,vhl,poi,box)
+    np.testing.assert_allclose(shifted['vhl']-a_shift,expected['vhl'],atol=2e-5)
+    np.testing.assert_allclose(shifted['poi']-a_shift,expected['poi'],atol=2e-5)
+    assert shifted['POI_image_methods_agree'] and not shifted['automatic_training_release']
+    np.testing.assert_allclose(np.diff(shifted['poi'],axis=0),np.diff(poi,axis=0),atol=1e-12)
+
+
+def test_coherent_images_reject_invalid_cells_and_expose_image_method_disagreement():
+    from coherent_images import assemble,cell_vectors
+    for box in ([10,10,10,0,90,90],[10,10,10,120,120,120],[10,10,10,10,10,170]):
+        with pytest.raises(ValidationError):cell_vectors(box)
+    anchor=np.array([[0.,0.,0.],[1.,0.,0.],[0.,1.,0.],[0.,0.,1.]])
+    # Reference prior and nearest-contact convention intentionally prefer different images.
+    result=assemble(anchor,anchor+[4.,0.,0.],anchor+[8.,0.,0.],anchor,anchor+[4.,0.,0.],anchor-[8.,0.,0.],[20.,20.,20.,90.,90.,90.])
+    assert not result['POI_image_methods_agree']
+
+
+def test_ligand_connected_image_path_uses_one_whole_ligand_and_preserves_box_invariance():
+    from coherent_images import ligand_connected_images
+    box=[20.,20.,20.,90.,90.,90.]
+    vhl=np.array([[0.,1.,1.],[1.,1.,1.]])
+    ligand=np.array([[3.,1.,1.],[7.,1.,1.]])
+    poi=np.array([[9.,1.,1.],[10.,1.,1.]])
+    original=ligand_connected_images(vhl,ligand,poi,[0.,0.,0.],box)
+    moved=ligand_connected_images(vhl+[20.,0.,0.],ligand-[20.,0.,0.],poi+[0.,20.,0.],[-20.,0.,0.],box)
+    np.testing.assert_allclose(ligand-[20.,0.,0.]+moved['ligand_shift_A'],ligand)
+    np.testing.assert_allclose(poi+[0.,20.,0.]+moved['poi_shift_A'],poi)
+    assert moved['VHL_ligand_min_A']==pytest.approx(original['VHL_ligand_min_A'])
+    assert moved['ligand_POI_min_A']==pytest.approx(original['ligand_POI_min_A'])
+    assert not moved['automatic_training_release']

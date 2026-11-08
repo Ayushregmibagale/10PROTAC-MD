@@ -1,0 +1,20 @@
+{
+  "status": "RETAINED_PRETRAINING_WEIGHTS_AUDITED_NOT_HISTORICAL_E2_FOLD_REPLAY",
+  "checkpoints": 2,
+  "tensor_readable": 2,
+  "declared_pretraining_model": "MGDB InterfaceGNN, 24-dimensional node inputs and 1-dimensional edge inputs; used by separate 04f adapter experiment",
+  "main_E2_model": "04g E2DualEncoderGNN has separate 9-feature static/3-feature dynamic encoders plus four E2 scalars; no pretrained-checkpoint load in that source",
+  "interpretation": "These saved pretrained weights exist and must not be described as missing, but they do not supply the missing trained per-fold states for the historical 17-row E2 GNN evaluation. No model was instantiated or fitted.",
+  "source_sha256": {
+    "/home/ayushregmibagale/protac-md/gnn/models/pretrain_best.pt": "e5763fa44230f8db94e60bc1e22f4d78f7b9c87d5b80e618fa4a607607aa4649",
+    "/home/ayushregmibagale/protac-md/gnn/models/pretrain_final.pt": "f0b29ddd8b773c1dc8d08b559591376a4d00b69700243a0905983b6148420be2",
+    "/home/ayushregmibagale/protac-md/gnn/models/training_log.tsv": "4ee4c2f615800ca41952ba783f74fe0a90c7a4970bdfc68c3137b5891b069ef4",
+    "/home/ayushregmibagale/protac-md/scripts/04_gnn/03_pretrain_gnn.py": "46eefdea311719ef90238727471396bc747c3c15954452aa335484b62dba928d",
+    "/home/ayushregmibagale/protac-md/scripts/02_analysis/04f_finetune_from_mgdb.py": "5d2881a41bda2da24d6782f5eb0a322037649b869febe1c67f2b65a35fdfecd9",
+    "/home/ayushregmibagale/protac-md/scripts/02_analysis/04g_e2_scalar_gnn.py": "50bac9583da2db4e256b872bfa80bfc495a0f808f8b55ee782a3aaf62c105a18"
+  },
+  "audit_sha256": "2713c4a63563d74fc76e9260d1cb082db609b662d09565655b519b7a0d32ca79",
+  "records_sha256": "54a3c036a76c75ab728c0f864422817c6ad2adf0b70162b8487dec989e41f49c",
+  "original_files_modified": false,
+  "new_GNN_training": false
+}

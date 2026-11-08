@@ -125,5 +125,12 @@
     "expected_POI_matches": 18,
     "CDK17_source_identity": "CDK14/O94921",
     "no_new_MD_or_biological_GNN_training": true
+  },
+  "supplement_20261108": {
+    "report": "COHERENT_E2_REANALYSIS.md",
+    "software_checkpoint": "validation_controls/software_checkpoint_v9.json",
+    "coherent_image_sensitivity_completed": true,
+    "production_checkpoint_20ns_confirmed": 174,
+    "unconditional_scientific_signoff": false
   }
 }

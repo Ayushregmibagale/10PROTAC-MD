@@ -1,0 +1,31 @@
+{
+  "status": "COMPLETE_CANDIDATE_SENSITIVITY_NOT_SCIENTIFIC_RELEASE",
+  "cases_requested": 13,
+  "cases_completed": 13,
+  "frames": 2613,
+  "failures": [],
+  "cases_with_complete_POI_image_method_agreement": 12,
+  "frames_with_POI_image_method_disagreement": 10,
+  "maximum_periodic_distance_preservation_error_A": 1.8716049613232144e-05,
+  "maximum_translation_invariance_error_A": 8.242295734817162e-13,
+  "box_translation_frames_tested": 75,
+  "elapsed_s": 70.7763338983059,
+  "original_files_modified": false,
+  "new_MD_or_GNN_training": false,
+  "automatic_training_release": false,
+  "source_sha256": {
+    "/tmp/10protac_finish/prosettac_robust/existing_result_audit/review_tools/probe_ligand_connected_e2.py": "363c577284b350977efdd060f4d3fe06f5cfd3f808f337118c2d393a6721c624",
+    "/tmp/10protac_finish/prosettac_robust/workflow/scripts/lib/coherent_images.py": "ef8e7a36e38d337ded98d78bd3ab3b98d2a315e0d89742cb94791348938d4888",
+    "/tmp/10protac_finish/prosettac_robust/workflow/scripts/lib/e2_geometry.py": "7deee629aae416fad2916e64a75df0e822ffdcac9d09da10cc349040be23c70d",
+    "/tmp/10protac_finish/prosettac_robust/workflow/scripts/lib/read_only_trajectory.py": "231645da4027fd0f9e7e2ad49e7f5d942a12e768a5e1995b58a88fd505e55edb",
+    "/tmp/10protac_finish/prosettac_robust/existing_result_audit/e2_full_frames_v3/per_pose_summary.json": "34bd8249539c06c7410c5ec84523cd49cd5c44147a546e3acc051e211504cd1a",
+    "/home/ayushregmibagale/protac-md/scripts/02_analysis/16_all_poi_e2_reachability.py": "fd4e2286f7476f7f94a4cba659e951d7e6400ff9d18dff95e7c19d8275c2eb21",
+    "/home/ayushregmibagale/protac-md/reference_structures/e2_c85_ensemble.json": "9dac98e05fdd384bb77fc147e3e61d9de3dcdfe028355d4cccb833d3d9f73f15"
+  },
+  "records_sha256": "9ac622b1473e5fa8206ba00626d4df4e0a04516934803ae0ed1e871d66c3aa9d",
+  "limitations": [
+    "Retrospective all-flagged-case diagnostic plus one previously inspected control, not independent validation.",
+    "Reference and nearest-contact conventions are explicit geometric choices; agreement does not establish a productive E2 or catalytic probability.",
+    "A dissociated or image-ambiguous assembly requires separate interpretation; no model scores are changed here."
+  ]
+}

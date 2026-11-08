@@ -1,0 +1,2792 @@
+{
+  "scope": "Retained include names, not reconstruction of external include-file versions",
+  "protein_ff_amber99sb_ildn_count": 174,
+  "TIP3P_include_count": 174,
+  "records": [
+    {
+      "poi": "DDR2",
+      "pose_id": "pose001",
+      "source": "/home/ayushregmibagale/protac-md/random_screen/DDR2/pose001/topol/topol.top",
+      "sha256": "ee1774c6d0626a73cad9c77987b79375fbc82de5b5cb274d6d7b51e36751b60f",
+      "includes": [
+        "#include \"amber99sb-ildn.ff/forcefield.itp\"",
+        "#include \"SJF8240.itp\"",
+        "#include \"topol_Protein_chain_A.itp\"",
+        "#include \"topol_Protein_chain_D.itp\"",
+        "#include \"topol_Protein_chain_B.itp\"",
+        "#include \"topol_Protein_chain_C.itp\"",
+        "#include \"amber99sb-ildn.ff/tip3p.itp\"",
+        "#include \"amber99sb-ildn.ff/ions.itp\""
+      ]
+    },
+    {
+      "poi": "DDR2",
+      "pose_id": "pose002",
+      "source": "/home/ayushregmibagale/protac-md/random_screen/DDR2/pose002/topol/topol.top",
+      "sha256": "70c68d4628cf44acc56d20a7900087aa8645a3cf698fd1cf8206c1a659fd9618",
+      "includes": [
+        "#include \"amber99sb-ildn.ff/forcefield.itp\"",
+        "#include \"SJF8240.itp\"",
+        "#include \"topol_Protein_chain_A.itp\"",
+        "#include \"topol_Protein_chain_D.itp\"",
+        "#include \"topol_Protein_chain_B.itp\"",
+        "#include \"topol_Protein_chain_C.itp\"",
+        "#include \"amber99sb-ildn.ff/tip3p.itp\"",
+        "#include \"amber99sb-ildn.ff/ions.itp\""
+      ]
+    },
+    {
+      "poi": "DDR2",
+      "pose_id": "pose003",
+      "source": "/home/ayushregmibagale/protac-md/random_screen/DDR2/pose003/topol/topol.top",
+      "sha256": "b5eb71ed41f9cce2e39437816158f97847ffacbf57e9f5149a6334203c4774f1",
+      "includes": [
+        "#include \"amber99sb-ildn.ff/forcefield.itp\"",
+        "#include \"SJF8240.itp\"",
+        "#include \"topol_Protein_chain_A.itp\"",
+        "#include \"topol_Protein_chain_D.itp\"",
+        "#include \"topol_Protein_chain_B.itp\"",
+        "#include \"topol_Protein_chain_C.itp\"",
+        "#include \"amber99sb-ildn.ff/tip3p.itp\"",
+        "#include \"amber99sb-ildn.ff/ions.itp\""
+      ]
+    },
+    {
+      "poi": "DDR2",
+      "pose_id": "pose004",
+      "source": "/home/ayushregmibagale/protac-md/random_screen/DDR2/pose004/topol/topol.top",
+      "sha256": "f9bb2defd0497635df708fa0482dce13d0bf97181ccaf26b45cf4d020e630880",
+      "includes": [
+        "#include \"amber99sb-ildn.ff/forcefield.itp\"",
+        "#include \"SJF8240.itp\"",
+        "#include \"topol_Protein_chain_A.itp\"",
+        "#include \"topol_Protein_chain_D.itp\"",
+        "#include \"topol_Protein_chain_B.itp\"",
+        "#include \"topol_Protein_chain_C.itp\"",
+        "#include \"amber99sb-ildn.ff/tip3p.itp\"",
+        "#include \"amber99sb-ildn.ff/ions.itp\""
+      ]
+    },
+    {
+      "poi": "DDR2",
+      "pose_id": "pose005",
+      "source": "/home/ayushregmibagale/protac-md/random_screen/DDR2/pose005/topol/topol.top",
+      "sha256": "83ec42d2e44545ea97c979626a185c9cb5231a7600110e54226941646275c038",
+      "includes": [
+        "#include \"amber99sb-ildn.ff/forcefield.itp\"",
+        "#include \"SJF8240.itp\"",
+        "#include \"topol_Protein_chain_A.itp\"",
+        "#include \"topol_Protein_chain_D.itp\"",
+        "#include \"topol_Protein_chain_B.itp\"",
+        "#include \"topol_Protein_chain_C.itp\"",
+        "#include \"amber99sb-ildn.ff/tip3p.itp\"",
+        "#include \"amber99sb-ildn.ff/ions.itp\""
+      ]
+    },
+    {
+      "poi": "DDR2",
+      "pose_id": "pose006",
+      "source": "/home/ayushregmibagale/protac-md/random_screen/DDR2/pose006/topol/topol.top",
+      "sha256": "fadbaedaf040443f55fc2a52ea06bd70c0ca2a936985edc8b646951d1ae628bf",
+      "includes": [
+        "#include \"amber99sb-ildn.ff/forcefield.itp\"",
+        "#include \"SJF8240.itp\"",
+        "#include \"topol_Protein_chain_A.itp\"",
+        "#include \"topol_Protein_chain_D.itp\"",
+        "#include \"topol_Protein_chain_B.itp\"",
+        "#include \"topol_Protein_chain_C.itp\"",
+        "#include \"amber99sb-ildn.ff/tip3p.itp\"",
+        "#include \"amber99sb-ildn.ff/ions.itp\""
+      ]
+    },
+    {
+      "poi": "DDR2",
+      "pose_id": "pose007",
+      "source": "/home/ayushregmibagale/protac-md/random_screen/DDR2/pose007/topol/topol.top",
+      "sha256": "6c644f7152eda693cdf51b39fdea698a93bd04edfd6d72ec9eb8b28768afae38",
+      "includes": [
+        "#include \"amber99sb-ildn.ff/forcefield.itp\"",
+        "#include \"SJF8240.itp\"",
+        "#include \"topol_Protein_chain_A.itp\"",
+        "#include \"topol_Protein_chain_D.itp\"",
+        "#include \"topol_Protein_chain_B.itp\"",
+        "#include \"topol_Protein_chain_C.itp\"",
+        "#include \"amber99sb-ildn.ff/tip3p.itp\"",
+        "#include \"amber99sb-ildn.ff/ions.itp\""
+      ]
+    },
+    {
+      "poi": "DDR2",
+      "pose_id": "pose008",
+      "source": "/home/ayushregmibagale/protac-md/random_screen/DDR2/pose008/topol/topol.top",
+      "sha256": "aa53d5a4eb9646c8e8108c63246a1494c43982c06023921db216c3dcc66502b7",
+      "includes": [
+        "#include \"amber99sb-ildn.ff/forcefield.itp\"",
+        "#include \"SJF8240.itp\"",
+        "#include \"topol_Protein_chain_A.itp\"",
+        "#include \"topol_Protein_chain_D.itp\"",
+        "#include \"topol_Protein_chain_B.itp\"",
+        "#include \"topol_Protein_chain_C.itp\"",
+        "#include \"amber99sb-ildn.ff/tip3p.itp\"",
+        "#include \"amber99sb-ildn.ff/ions.itp\""
+      ]
+    },
+    {
+      "poi": "DDR2",
+      "pose_id": "pose010",
+      "source": "/home/ayushregmibagale/protac-md/random_screen/DDR2/pose010/topol/topol.top",
+      "sha256": "d62721ca3bed364afac9e0a1126068207d335811d9f81febbf509b427609ef1f",
+      "includes": [
+        "#include \"amber99sb-ildn.ff/forcefield.itp\"",
+        "#include \"SJF8240.itp\"",
+        "#include \"topol_Protein_chain_A.itp\"",
+        "#include \"topol_Protein_chain_D.itp\"",
+        "#include \"topol_Protein_chain_B.itp\"",
+        "#include \"topol_Protein_chain_C.itp\"",
+        "#include \"amber99sb-ildn.ff/tip3p.itp\"",
+        "#include \"amber99sb-ildn.ff/ions.itp\""
+      ]
+    },
+    {
+      "poi": "DDR2",
+      "pose_id": "pose011",
+      "source": "/home/ayushregmibagale/protac-md/random_screen/DDR2/pose011/topol/topol.top",
+      "sha256": "dd196592078fa09d6968645d5cb6ce74eda3c9798fdd5c52f7c0151bd5debe08",
+      "includes": [
+        "#include \"amber99sb-ildn.ff/forcefield.itp\"",
+        "#include \"SJF8240.itp\"",
+        "#include \"topol_Protein_chain_A.itp\"",
+        "#include \"topol_Protein_chain_D.itp\"",
+        "#include \"topol_Protein_chain_B.itp\"",
+        "#include \"topol_Protein_chain_C.itp\"",
+        "#include \"amber99sb-ildn.ff/tip3p.itp\"",
+        "#include \"amber99sb-ildn.ff/ions.itp\""
+      ]
+    },
+    {
+      "poi": "DDR2",
+      "pose_id": "pose013",
+      "source": "/home/ayushregmibagale/protac-md/random_screen/DDR2/pose013/topol/topol.top",
+      "sha256": "9010cc53afaf40124dd146a9bb19ec385764743303563879933d0693911041e4",
+      "includes": [
+        "#include \"amber99sb-ildn.ff/forcefield.itp\"",
+        "#include \"SJF8240.itp\"",
+        "#include \"topol_Protein_chain_A.itp\"",
+        "#include \"topol_Protein_chain_D.itp\"",
+        "#include \"topol_Protein_chain_B.itp\"",
+        "#include \"topol_Protein_chain_C.itp\"",
+        "#include \"amber99sb-ildn.ff/tip3p.itp\"",
+        "#include \"amber99sb-ildn.ff/ions.itp\""
+      ]
+    },
+    {
+      "poi": "DDR2",
+      "pose_id": "pose014",
+      "source": "/home/ayushregmibagale/protac-md/random_screen/DDR2/pose014/topol/topol.top",
+      "sha256": "557267f187c7081d2a4f30067814d8dc30dfdd945a5f6bf2c0be49d2a13952ca",
+      "includes": [
+        "#include \"amber99sb-ildn.ff/forcefield.itp\"",
+        "#include \"SJF8240.itp\"",
+        "#include \"topol_Protein_chain_A.itp\"",
+        "#include \"topol_Protein_chain_D.itp\"",
+        "#include \"topol_Protein_chain_B.itp\"",
+        "#include \"topol_Protein_chain_C.itp\"",
+        "#include \"amber99sb-ildn.ff/tip3p.itp\"",
+        "#include \"amber99sb-ildn.ff/ions.itp\""
+      ]
+    },
+    {
+      "poi": "DDR2",
+      "pose_id": "pose015",
+      "source": "/home/ayushregmibagale/protac-md/random_screen/DDR2/pose015/topol/topol.top",
+      "sha256": "c6a71be4ce8358245059d9dddfc88f524e70df5ec6356fcc4b42570d0efe6ba0",
+      "includes": [
+        "#include \"amber99sb-ildn.ff/forcefield.itp\"",
+        "#include \"SJF8240.itp\"",
+        "#include \"topol_Protein_chain_A.itp\"",
+        "#include \"topol_Protein_chain_D.itp\"",
+        "#include \"topol_Protein_chain_B.itp\"",
+        "#include \"topol_Protein_chain_C.itp\"",
+        "#include \"amber99sb-ildn.ff/tip3p.itp\"",
+        "#include \"amber99sb-ildn.ff/ions.itp\""
+      ]
+    },
+    {
+      "poi": "DDR2",
+      "pose_id": "pose016",
+      "source": "/home/ayushregmibagale/protac-md/random_screen/DDR2/pose016/topol/topol.top",
+      "sha256": "aa0b548b656b16efe8c133cb3f9c6bf051d5615ae47c081a73ca4d10a5a7766c",
+      "includes": [
+        "#include \"amber99sb-ildn.ff/forcefield.itp\"",
+        "#include \"SJF8240.itp\"",
+        "#include \"topol_Protein_chain_A.itp\"",
+        "#include \"topol_Protein_chain_D.itp\"",
+        "#include \"topol_Protein_chain_B.itp\"",
+        "#include \"topol_Protein_chain_C.itp\"",
+        "#include \"amber99sb-ildn.ff/tip3p.itp\"",
+        "#include \"amber99sb-ildn.ff/ions.itp\""
+      ]
+    },
+    {
+      "poi": "DDR2",
+      "pose_id": "pose017",
+      "source": "/home/ayushregmibagale/protac-md/random_screen/DDR2/pose017/topol/topol.top",
+      "sha256": "c21ef8cd9809a613e28c8469a7ac10280bb8fbc78b9bfb91b724f550324de08c",
+      "includes": [
+        "#include \"amber99sb-ildn.ff/forcefield.itp\"",
+        "#include \"SJF8240.itp\"",
+        "#include \"topol_Protein_chain_A.itp\"",
+        "#include \"topol_Protein_chain_D.itp\"",
+        "#include \"topol_Protein_chain_B.itp\"",
+        "#include \"topol_Protein_chain_C.itp\"",
+        "#include \"amber99sb-ildn.ff/tip3p.itp\"",
+        "#include \"amber99sb-ildn.ff/ions.itp\""
+      ]
+    },
+    {
+      "poi": "DDR2",
+      "pose_id": "pose018",
+      "source": "/home/ayushregmibagale/protac-md/random_screen/DDR2/pose018/topol/topol.top",
+      "sha256": "4e292894251b6e92cc3f9edfd09f022b0afd174570c570f7ec768be47fa121ce",
+      "includes": [
+        "#include \"amber99sb-ildn.ff/forcefield.itp\"",
+        "#include \"SJF8240.itp\"",
+        "#include \"topol_Protein_chain_A.itp\"",
+        "#include \"topol_Protein_chain_D.itp\"",
+        "#include \"topol_Protein_chain_B.itp\"",
+        "#include \"topol_Protein_chain_C.itp\"",
+        "#include \"amber99sb-ildn.ff/tip3p.itp\"",
+        "#include \"amber99sb-ildn.ff/ions.itp\""
+      ]
+    },
+    {
+      "poi": "DDR2",
+      "pose_id": "pose019",
+      "source": "/home/ayushregmibagale/protac-md/random_screen/DDR2/pose019/topol/topol.top",
+      "sha256": "6876b509418529849b82df18907c192c9e92f8db42b51a69d20a290b4b52ffec",
+      "includes": [
+        "#include \"amber99sb-ildn.ff/forcefield.itp\"",
+        "#include \"SJF8240.itp\"",
+        "#include \"topol_Protein_chain_A.itp\"",
+        "#include \"topol_Protein_chain_D.itp\"",
+        "#include \"topol_Protein_chain_B.itp\"",
+        "#include \"topol_Protein_chain_C.itp\"",
+        "#include \"amber99sb-ildn.ff/tip3p.itp\"",
+        "#include \"amber99sb-ildn.ff/ions.itp\""
+      ]
+    },
+    {
+      "poi": "DDR2",
+      "pose_id": "pose020",
+      "source": "/home/ayushregmibagale/protac-md/random_screen/DDR2/pose020/topol/topol.top",
+      "sha256": "9b3278a373f5ccaf10c48c8686ec0091d5b73c85f6ebcd38d339f3ec749f350a",
+      "includes": [
+        "#include \"amber99sb-ildn.ff/forcefield.itp\"",
+        "#include \"SJF8240.itp\"",
+        "#include \"topol_Protein_chain_A.itp\"",
+        "#include \"topol_Protein_chain_D.itp\"",
+        "#include \"topol_Protein_chain_B.itp\"",
+        "#include \"topol_Protein_chain_C.itp\"",
+        "#include \"amber99sb-ildn.ff/tip3p.itp\"",
+        "#include \"amber99sb-ildn.ff/ions.itp\""
+      ]
+    },
+    {
+      "poi": "RIPK2_full",
+      "pose_id": "pose001",
+      "source": "/home/ayushregmibagale/protac-md/random_screen/RIPK2_full/pose001/topol/topol.top",
+      "sha256": "c6877ef880e96b036491ec4042dbae71efaafb7c099c140ac60fff90155683f6",
+      "includes": [
+        "#include \"amber99sb-ildn.ff/forcefield.itp\"",
+        "#include \"SJF8240.itp\"",
+        "#include \"topol_Protein_chain_A.itp\"",
+        "#include \"topol_Protein_chain_D.itp\"",
+        "#include \"topol_Protein_chain_B.itp\"",
+        "#include \"topol_Protein_chain_C.itp\"",
+        "#include \"amber99sb-ildn.ff/tip3p.itp\"",
+        "#include \"amber99sb-ildn.ff/ions.itp\""
+      ]
+    },
+    {
+      "poi": "RIPK2_full",
+      "pose_id": "pose003",
+      "source": "/home/ayushregmibagale/protac-md/random_screen/RIPK2_full/pose003/topol/topol.top",
+      "sha256": "46c36a2894fcdd1afbab85ce3bfa28865feb9442a40393394f9560478c31fa4e",
+      "includes": [
+        "#include \"amber99sb-ildn.ff/forcefield.itp\"",
+        "#include \"SJF8240.itp\"",
+        "#include \"topol_Protein_chain_A.itp\"",
+        "#include \"topol_Protein_chain_D.itp\"",
+        "#include \"topol_Protein_chain_B.itp\"",
+        "#include \"topol_Protein_chain_C.itp\"",
+        "#include \"amber99sb-ildn.ff/tip3p.itp\"",
+        "#include \"amber99sb-ildn.ff/ions.itp\""
+      ]
+    },
+    {
+      "poi": "RIPK2_full",
+      "pose_id": "pose004",
+      "source": "/home/ayushregmibagale/protac-md/random_screen/RIPK2_full/pose004/topol/topol.top",
+      "sha256": "29feac0c9dd9a0ed5f1861af4e5cb66dea4f59adb2ef2b0ba7407bc63781b4a3",
+      "includes": [
+        "#include \"amber99sb-ildn.ff/forcefield.itp\"",
+        "#include \"SJF8240.itp\"",
+        "#include \"topol_Protein_chain_A.itp\"",
+        "#include \"topol_Protein_chain_D.itp\"",
+        "#include \"topol_Protein_chain_B.itp\"",
+        "#include \"topol_Protein_chain_C.itp\"",
+        "#include \"amber99sb-ildn.ff/tip3p.itp\"",
+        "#include \"amber99sb-ildn.ff/ions.itp\""
+      ]
+    },
+    {
+      "poi": "RIPK2_full",
+      "pose_id": "pose005",
+      "source": "/home/ayushregmibagale/protac-md/random_screen/RIPK2_full/pose005/topol/topol.top",
+      "sha256": "da9878f3b6e205b40575926f3b570176d8416e92a936ea10b796ab4b89433c7e",
+      "includes": [
+        "#include \"amber99sb-ildn.ff/forcefield.itp\"",
+        "#include \"SJF8240.itp\"",
+        "#include \"topol_Protein_chain_A.itp\"",
+        "#include \"topol_Protein_chain_D.itp\"",
+        "#include \"topol_Protein_chain_B.itp\"",
+        "#include \"topol_Protein_chain_C.itp\"",
+        "#include \"amber99sb-ildn.ff/tip3p.itp\"",
+        "#include \"amber99sb-ildn.ff/ions.itp\""
+      ]
+    },
+    {
+      "poi": "RIPK2_full",
+      "pose_id": "pose006",
+      "source": "/home/ayushregmibagale/protac-md/random_screen/RIPK2_full/pose006/topol/topol.top",
+      "sha256": "271bc8ca2d4c56e8e07279b7a2bea16d82d564086436895c16f4b305052e5cf1",
+      "includes": [
+        "#include \"amber99sb-ildn.ff/forcefield.itp\"",
+        "#include \"SJF8240.itp\"",
+        "#include \"topol_Protein_chain_A.itp\"",
+        "#include \"topol_Protein_chain_D.itp\"",
+        "#include \"topol_Protein_chain_B.itp\"",
+        "#include \"topol_Protein_chain_C.itp\"",
+        "#include \"amber99sb-ildn.ff/tip3p.itp\"",
+        "#include \"amber99sb-ildn.ff/ions.itp\""
+      ]
+    },
+    {
+      "poi": "RIPK2_full",
+      "pose_id": "pose007",
+      "source": "/home/ayushregmibagale/protac-md/random_screen/RIPK2_full/pose007/topol/topol.top",
+      "sha256": "95185aa69dad06bb184d5ac4d1dc56e41dbb444b0836d70cbe5019f57013304d",
+      "includes": [
+        "#include \"amber99sb-ildn.ff/forcefield.itp\"",
+        "#include \"SJF8240.itp\"",
+        "#include \"topol_Protein_chain_A.itp\"",
+        "#include \"topol_Protein_chain_D.itp\"",
+        "#include \"topol_Protein_chain_B.itp\"",
+        "#include \"topol_Protein_chain_C.itp\"",
+        "#include \"amber99sb-ildn.ff/tip3p.itp\"",
+        "#include \"amber99sb-ildn.ff/ions.itp\""
+      ]
+    },
+    {
+      "poi": "RIPK2_full",
+      "pose_id": "pose008",
+      "source": "/home/ayushregmibagale/protac-md/random_screen/RIPK2_full/pose008/topol/topol.top",
+      "sha256": "aad4bd559df95835764f6d678ff43c2501c4b2925997235bd34055f0c03c493c",
+      "includes": [
+        "#include \"amber99sb-ildn.ff/forcefield.itp\"",
+        "#include \"SJF8240.itp\"",
+        "#include \"topol_Protein_chain_A.itp\"",
+        "#include \"topol_Protein_chain_D.itp\"",
+        "#include \"topol_Protein_chain_B.itp\"",
+        "#include \"topol_Protein_chain_C.itp\"",
+        "#include \"amber99sb-ildn.ff/tip3p.itp\"",
+        "#include \"amber99sb-ildn.ff/ions.itp\""
+      ]
+    },
+    {
+      "poi": "RIPK2_full",
+      "pose_id": "pose009",
+      "source": "/home/ayushregmibagale/protac-md/random_screen/RIPK2_full/pose009/topol/topol.top",
+      "sha256": "ca468af25a0801c5d60f6172579eefb1a1a13a903c6114ee729761126e9b3d5c",
+      "includes": [
+        "#include \"amber99sb-ildn.ff/forcefield.itp\"",
+        "#include \"SJF8240.itp\"",
+        "#include \"topol_Protein_chain_A.itp\"",
+        "#include \"topol_Protein_chain_D.itp\"",
+        "#include \"topol_Protein_chain_B.itp\"",
+        "#include \"topol_Protein_chain_C.itp\"",
+        "#include \"amber99sb-ildn.ff/tip3p.itp\"",
+        "#include \"amber99sb-ildn.ff/ions.itp\""
+      ]
+    },
+    {
+      "poi": "RIPK2_full",
+      "pose_id": "pose010",
+      "source": "/home/ayushregmibagale/protac-md/random_screen/RIPK2_full/pose010/topol/topol.top",
+      "sha256": "07f24a3b1b449cbbfbbacb2682208666b902447787c8cd57ad01a4f1147ce5b8",
+      "includes": [
+        "#include \"amber99sb-ildn.ff/forcefield.itp\"",
+        "#include \"SJF8240.itp\"",
+        "#include \"topol_Protein_chain_A.itp\"",
+        "#include \"topol_Protein_chain_D.itp\"",
+        "#include \"topol_Protein_chain_B.itp\"",
+        "#include \"topol_Protein_chain_C.itp\"",
+        "#include \"amber99sb-ildn.ff/tip3p.itp\"",
+        "#include \"amber99sb-ildn.ff/ions.itp\""
+      ]
+    },
+    {
+      "poi": "RIPK2_full",
+      "pose_id": "pose011",
+      "source": "/home/ayushregmibagale/protac-md/random_screen/RIPK2_full/pose011/topol/topol.top",
+      "sha256": "45058428a939fb8f5ce9c2e9896fbf6a9f976f882c036cf4e1bb998aa09e21c6",
+      "includes": [
+        "#include \"amber99sb-ildn.ff/forcefield.itp\"",
+        "#include \"SJF8240.itp\"",
+        "#include \"topol_Protein_chain_A.itp\"",
+        "#include \"topol_Protein_chain_D.itp\"",
+        "#include \"topol_Protein_chain_B.itp\"",
+        "#include \"topol_Protein_chain_C.itp\"",
+        "#include \"amber99sb-ildn.ff/tip3p.itp\"",
+        "#include \"amber99sb-ildn.ff/ions.itp\""
+      ]
+    },
+    {
+      "poi": "RIPK2_full",
+      "pose_id": "pose012",
+      "source": "/home/ayushregmibagale/protac-md/random_screen/RIPK2_full/pose012/topol/topol.top",
+      "sha256": "6a2ca125838ffd1c3348f708ba39d5230289b19d1e0ae8542be4d7edf5824f44",
+      "includes": [
+        "#include \"amber99sb-ildn.ff/forcefield.itp\"",
+        "#include \"SJF8240.itp\"",
+        "#include \"topol_Protein_chain_A.itp\"",
+        "#include \"topol_Protein_chain_D.itp\"",
+        "#include \"topol_Protein_chain_B.itp\"",
+        "#include \"topol_Protein_chain_C.itp\"",
+        "#include \"amber99sb-ildn.ff/tip3p.itp\"",
+        "#include \"amber99sb-ildn.ff/ions.itp\""
+      ]
+    },
+    {
+      "poi": "RIPK2_full",
+      "pose_id": "pose015",
+      "source": "/home/ayushregmibagale/protac-md/random_screen/RIPK2_full/pose015/topol/topol.top",
+      "sha256": "436f57114a540909c3eea9e4abc6aa86ea236482e6705761ec66cc74171deeb9",
+      "includes": [
+        "#include \"amber99sb-ildn.ff/forcefield.itp\"",
+        "#include \"SJF8240.itp\"",
+        "#include \"topol_Protein_chain_A.itp\"",
+        "#include \"topol_Protein_chain_D.itp\"",
+        "#include \"topol_Protein_chain_B.itp\"",
+        "#include \"topol_Protein_chain_C.itp\"",
+        "#include \"amber99sb-ildn.ff/tip3p.itp\"",
+        "#include \"amber99sb-ildn.ff/ions.itp\""
+      ]
+    },
+    {
+      "poi": "RIPK2_full",
+      "pose_id": "pose016",
+      "source": "/home/ayushregmibagale/protac-md/random_screen/RIPK2_full/pose016/topol/topol.top",
+      "sha256": "2ba7a4274e20b49c63e0a906a0bf811e4591245243c6fbbb59132cfdf1311dd7",
+      "includes": [
+        "#include \"amber99sb-ildn.ff/forcefield.itp\"",
+        "#include \"SJF8240.itp\"",
+        "#include \"topol_Protein_chain_A.itp\"",
+        "#include \"topol_Protein_chain_D.itp\"",
+        "#include \"topol_Protein_chain_B.itp\"",
+        "#include \"topol_Protein_chain_C.itp\"",
+        "#include \"amber99sb-ildn.ff/tip3p.itp\"",
+        "#include \"amber99sb-ildn.ff/ions.itp\""
+      ]
+    },
+    {
+      "poi": "RIPK2_full",
+      "pose_id": "pose017",
+      "source": "/home/ayushregmibagale/protac-md/random_screen/RIPK2_full/pose017/topol/topol.top",
+      "sha256": "b9fd417a5421fe433a422fe7ea6a606d815787eec85bde90e4f59c3ee5774d0c",
+      "includes": [
+        "#include \"amber99sb-ildn.ff/forcefield.itp\"",
+        "#include \"SJF8240.itp\"",
+        "#include \"topol_Protein_chain_A.itp\"",
+        "#include \"topol_Protein_chain_D.itp\"",
+        "#include \"topol_Protein_chain_B.itp\"",
+        "#include \"topol_Protein_chain_C.itp\"",
+        "#include \"amber99sb-ildn.ff/tip3p.itp\"",
+        "#include \"amber99sb-ildn.ff/ions.itp\""
+      ]
+    },
+    {
+      "poi": "RIPK2_full",
+      "pose_id": "pose018",
+      "source": "/home/ayushregmibagale/protac-md/random_screen/RIPK2_full/pose018/topol/topol.top",
+      "sha256": "54fcfc853aa813d244a6d69266d33a958c6b971f86651a1322d8c95d2da122a3",
+      "includes": [
+        "#include \"amber99sb-ildn.ff/forcefield.itp\"",
+        "#include \"SJF8240.itp\"",
+        "#include \"topol_Protein_chain_A.itp\"",
+        "#include \"topol_Protein_chain_D.itp\"",
+        "#include \"topol_Protein_chain_B.itp\"",
+        "#include \"topol_Protein_chain_C.itp\"",
+        "#include \"amber99sb-ildn.ff/tip3p.itp\"",
+        "#include \"amber99sb-ildn.ff/ions.itp\""
+      ]
+    },
+    {
+      "poi": "RIPK2_full",
+      "pose_id": "pose019",
+      "source": "/home/ayushregmibagale/protac-md/random_screen/RIPK2_full/pose019/topol/topol.top",
+      "sha256": "b7e19edc620f9850abd1db66b960ab42bde47c5c308602abe447571d58269df0",
+      "includes": [
+        "#include \"amber99sb-ildn.ff/forcefield.itp\"",
+        "#include \"SJF8240.itp\"",
+        "#include \"topol_Protein_chain_A.itp\"",
+        "#include \"topol_Protein_chain_D.itp\"",
+        "#include \"topol_Protein_chain_B.itp\"",
+        "#include \"topol_Protein_chain_C.itp\"",
+        "#include \"amber99sb-ildn.ff/tip3p.itp\"",
+        "#include \"amber99sb-ildn.ff/ions.itp\""
+      ]
+    },
+    {
+      "poi": "RIPK2_full",
+      "pose_id": "pose020",
+      "source": "/home/ayushregmibagale/protac-md/random_screen/RIPK2_full/pose020/topol/topol.top",
+      "sha256": "bf59dc0921e846caaf301a63461809bf67efec17d063c1067f6c05c2a3d26fdb",
+      "includes": [
+        "#include \"amber99sb-ildn.ff/forcefield.itp\"",
+        "#include \"SJF8240.itp\"",
+        "#include \"topol_Protein_chain_A.itp\"",
+        "#include \"topol_Protein_chain_D.itp\"",
+        "#include \"topol_Protein_chain_B.itp\"",
+        "#include \"topol_Protein_chain_C.itp\"",
+        "#include \"amber99sb-ildn.ff/tip3p.itp\"",
+        "#include \"amber99sb-ildn.ff/ions.itp\""
+      ]
+    },
+    {
+      "poi": "MAPK14_full",
+      "pose_id": "pose001",
+      "source": "/home/ayushregmibagale/protac-md/random_screen/MAPK14_full/pose001/topol/topol.top",
+      "sha256": "df936e3da2dceaf5c46d81ffce595349d609aaf4b5ed155353b45a0726823b75",
+      "includes": [
+        "#include \"amber99sb-ildn.ff/forcefield.itp\"",
+        "#include \"SJF8240.itp\"",
+        "#include \"topol_Protein_chain_A.itp\"",
+        "#include \"topol_Protein_chain_D.itp\"",
+        "#include \"topol_Protein_chain_B.itp\"",
+        "#include \"topol_Protein_chain_C.itp\"",
+        "#include \"amber99sb-ildn.ff/tip3p.itp\"",
+        "#include \"amber99sb-ildn.ff/ions.itp\""
+      ]
+    },
+    {
+      "poi": "MAPK14_full",
+      "pose_id": "pose002",
+      "source": "/home/ayushregmibagale/protac-md/random_screen/MAPK14_full/pose002/topol/topol.top",
+      "sha256": "b1c482386c631b6b328dcc227dc565147cb82577c9d0382b8de86ab2069ee45c",
+      "includes": [
+        "#include \"amber99sb-ildn.ff/forcefield.itp\"",
+        "#include \"SJF8240.itp\"",
+        "#include \"topol_Protein_chain_A.itp\"",
+        "#include \"topol_Protein_chain_D.itp\"",
+        "#include \"topol_Protein_chain_B.itp\"",
+        "#include \"topol_Protein_chain_C.itp\"",
+        "#include \"amber99sb-ildn.ff/tip3p.itp\"",
+        "#include \"amber99sb-ildn.ff/ions.itp\""
+      ]
+    },
+    {
+      "poi": "MAPK14_full",
+      "pose_id": "pose003",
+      "source": "/home/ayushregmibagale/protac-md/random_screen/MAPK14_full/pose003/topol/topol.top",
+      "sha256": "6b77e48d9f1b8323615001079007cf23a686b7dbdf5f753cb9b14be26b3a4d63",
+      "includes": [
+        "#include \"amber99sb-ildn.ff/forcefield.itp\"",
+        "#include \"SJF8240.itp\"",
+        "#include \"topol_Protein_chain_A.itp\"",
+        "#include \"topol_Protein_chain_D.itp\"",
+        "#include \"topol_Protein_chain_B.itp\"",
+        "#include \"topol_Protein_chain_C.itp\"",
+        "#include \"amber99sb-ildn.ff/tip3p.itp\"",
+        "#include \"amber99sb-ildn.ff/ions.itp\""
+      ]
+    },
+    {
+      "poi": "MAPK14_full",
+      "pose_id": "pose004",
+      "source": "/home/ayushregmibagale/protac-md/random_screen/MAPK14_full/pose004/topol/topol.top",
+      "sha256": "dc3bc2e1eb75a47d5c97388946c21825bb5ee2cb8bf5e83ab0257b805226e241",
+      "includes": [
+        "#include \"amber99sb-ildn.ff/forcefield.itp\"",
+        "#include \"SJF8240.itp\"",
+        "#include \"topol_Protein_chain_A.itp\"",
+        "#include \"topol_Protein_chain_D.itp\"",
+        "#include \"topol_Protein_chain_B.itp\"",
+        "#include \"topol_Protein_chain_C.itp\"",
+        "#include \"amber99sb-ildn.ff/tip3p.itp\"",
+        "#include \"amber99sb-ildn.ff/ions.itp\""
+      ]
+    },
+    {
+      "poi": "MAPK14_full",
+      "pose_id": "pose005",
+      "source": "/home/ayushregmibagale/protac-md/random_screen/MAPK14_full/pose005/topol/topol.top",
+      "sha256": "cfe147393d3e5f1ce2700524eed0ac0321b2ca722a4230c447afa8579450b5b9",
+      "includes": [
+        "#include \"amber99sb-ildn.ff/forcefield.itp\"",
+        "#include \"SJF8240.itp\"",
+        "#include \"topol_Protein_chain_A.itp\"",
+        "#include \"topol_Protein_chain_D.itp\"",
+        "#include \"topol_Protein_chain_B.itp\"",
+        "#include \"topol_Protein_chain_C.itp\"",
+        "#include \"amber99sb-ildn.ff/tip3p.itp\"",
+        "#include \"amber99sb-ildn.ff/ions.itp\""
+      ]
+    },
+    {
+      "poi": "MAPK14_full",
+      "pose_id": "pose006",
+      "source": "/home/ayushregmibagale/protac-md/random_screen/MAPK14_full/pose006/topol/topol.top",
+      "sha256": "2b8d3a01d7997215ce4c5294ff221c76e5d83ec0b81f1e91c05992a004289107",
+      "includes": [
+        "#include \"amber99sb-ildn.ff/forcefield.itp\"",
+        "#include \"SJF8240.itp\"",
+        "#include \"topol_Protein_chain_A.itp\"",
+        "#include \"topol_Protein_chain_D.itp\"",
+        "#include \"topol_Protein_chain_B.itp\"",
+        "#include \"topol_Protein_chain_C.itp\"",
+        "#include \"amber99sb-ildn.ff/tip3p.itp\"",
+        "#include \"amber99sb-ildn.ff/ions.itp\""
+      ]
+    },
+    {
+      "poi": "MAPK14_full",
+      "pose_id": "pose007",
+      "source": "/home/ayushregmibagale/protac-md/random_screen/MAPK14_full/pose007/topol/topol.top",
+      "sha256": "7952f8e9f3cb10271a6b46713eed225b37f5023bae517b6d106ba735a4cfc616",
+      "includes": [
+        "#include \"amber99sb-ildn.ff/forcefield.itp\"",
+        "#include \"SJF8240.itp\"",
+        "#include \"topol_Protein_chain_A.itp\"",
+        "#include \"topol_Protein_chain_D.itp\"",
+        "#include \"topol_Protein_chain_B.itp\"",
+        "#include \"topol_Protein_chain_C.itp\"",
+        "#include \"amber99sb-ildn.ff/tip3p.itp\"",
+        "#include \"amber99sb-ildn.ff/ions.itp\""
+      ]
+    },
+    {
+      "poi": "MAPK14_full",
+      "pose_id": "pose008",
+      "source": "/home/ayushregmibagale/protac-md/random_screen/MAPK14_full/pose008/topol/topol.top",
+      "sha256": "dd0f4154dee3e31f9d9650b0cd01c6ea0359bfac627de5324ab9423d470f9ac5",
+      "includes": [
+        "#include \"amber99sb-ildn.ff/forcefield.itp\"",
+        "#include \"SJF8240.itp\"",
+        "#include \"topol_Protein_chain_A.itp\"",
+        "#include \"topol_Protein_chain_D.itp\"",
+        "#include \"topol_Protein_chain_B.itp\"",
+        "#include \"topol_Protein_chain_C.itp\"",
+        "#include \"amber99sb-ildn.ff/tip3p.itp\"",
+        "#include \"amber99sb-ildn.ff/ions.itp\""
+      ]
+    },
+    {
+      "poi": "MAPK14_full",
+      "pose_id": "pose009",
+      "source": "/home/ayushregmibagale/protac-md/random_screen/MAPK14_full/pose009/topol/topol.top",
+      "sha256": "e2529637109de154f5d8d935899b0e594f9e1ec39f141e33eb76546475983fbb",
+      "includes": [
+        "#include \"amber99sb-ildn.ff/forcefield.itp\"",
+        "#include \"SJF8240.itp\"",
+        "#include \"topol_Protein_chain_A.itp\"",
+        "#include \"topol_Protein_chain_D.itp\"",
+        "#include \"topol_Protein_chain_B.itp\"",
+        "#include \"topol_Protein_chain_C.itp\"",
+        "#include \"amber99sb-ildn.ff/tip3p.itp\"",
+        "#include \"amber99sb-ildn.ff/ions.itp\""
+      ]
+    },
+    {
+      "poi": "MAPK14_full",
+      "pose_id": "pose010",
+      "source": "/home/ayushregmibagale/protac-md/random_screen/MAPK14_full/pose010/topol/topol.top",
+      "sha256": "04cae7de8685fbde17c46c4b8b9d040b5e624ac3cd49f37b9819b4bb25ceb0d1",
+      "includes": [
+        "#include \"amber99sb-ildn.ff/forcefield.itp\"",
+        "#include \"SJF8240.itp\"",
+        "#include \"topol_Protein_chain_A.itp\"",
+        "#include \"topol_Protein_chain_D.itp\"",
+        "#include \"topol_Protein_chain_B.itp\"",
+        "#include \"topol_Protein_chain_C.itp\"",
+        "#include \"amber99sb-ildn.ff/tip3p.itp\"",
+        "#include \"amber99sb-ildn.ff/ions.itp\""
+      ]
+    },
+    {
+      "poi": "MAPK14_full",
+      "pose_id": "pose011",
+      "source": "/home/ayushregmibagale/protac-md/random_screen/MAPK14_full/pose011/topol/topol.top",
+      "sha256": "0469a3dc8993578273bb319eeb3f2f8870e27dd7e5f2857344bc0b644c571916",
+      "includes": [
+        "#include \"amber99sb-ildn.ff/forcefield.itp\"",
+        "#include \"SJF8240.itp\"",
+        "#include \"topol_Protein_chain_A.itp\"",
+        "#include \"topol_Protein_chain_D.itp\"",
+        "#include \"topol_Protein_chain_B.itp\"",
+        "#include \"topol_Protein_chain_C.itp\"",
+        "#include \"amber99sb-ildn.ff/tip3p.itp\"",
+        "#include \"amber99sb-ildn.ff/ions.itp\""
+      ]
+    },
+    {
+      "poi": "MAPK14_full",
+      "pose_id": "pose012",
+      "source": "/home/ayushregmibagale/protac-md/random_screen/MAPK14_full/pose012/topol/topol.top",
+      "sha256": "c51a2a0866edf6dc9f56ea45fba1f9f26491684f0ea31070094d106eeffa4987",
+      "includes": [
+        "#include \"amber99sb-ildn.ff/forcefield.itp\"",
+        "#include \"SJF8240.itp\"",
+        "#include \"topol_Protein_chain_A.itp\"",
+        "#include \"topol_Protein_chain_D.itp\"",
+        "#include \"topol_Protein_chain_B.itp\"",
+        "#include \"topol_Protein_chain_C.itp\"",
+        "#include \"amber99sb-ildn.ff/tip3p.itp\"",
+        "#include \"amber99sb-ildn.ff/ions.itp\""
+      ]
+    },
+    {
+      "poi": "MAPK14_full",
+      "pose_id": "pose013",
+      "source": "/home/ayushregmibagale/protac-md/random_screen/MAPK14_full/pose013/topol/topol.top",
+      "sha256": "f75fd81aac7b3aaab454baad1cecb4c49b76ecd642931685432ed652b7d9f6c6",
+      "includes": [
+        "#include \"amber99sb-ildn.ff/forcefield.itp\"",
+        "#include \"SJF8240.itp\"",
+        "#include \"topol_Protein_chain_A.itp\"",
+        "#include \"topol_Protein_chain_D.itp\"",
+        "#include \"topol_Protein_chain_B.itp\"",
+        "#include \"topol_Protein_chain_C.itp\"",
+        "#include \"amber99sb-ildn.ff/tip3p.itp\"",
+        "#include \"amber99sb-ildn.ff/ions.itp\""
+      ]
+    },
+    {
+      "poi": "MAPK14_full",
+      "pose_id": "pose015",
+      "source": "/home/ayushregmibagale/protac-md/random_screen/MAPK14_full/pose015/topol/topol.top",
+      "sha256": "b670c9689b46fe056c902ccb5736ac341881fc028edba8260f2065543ef921bf",
+      "includes": [
+        "#include \"amber99sb-ildn.ff/forcefield.itp\"",
+        "#include \"SJF8240.itp\"",
+        "#include \"topol_Protein_chain_A.itp\"",
+        "#include \"topol_Protein_chain_D.itp\"",
+        "#include \"topol_Protein_chain_B.itp\"",
+        "#include \"topol_Protein_chain_C.itp\"",
+        "#include \"amber99sb-ildn.ff/tip3p.itp\"",
+        "#include \"amber99sb-ildn.ff/ions.itp\""
+      ]
+    },
+    {
+      "poi": "MAPK14_full",
+      "pose_id": "pose016",
+      "source": "/home/ayushregmibagale/protac-md/random_screen/MAPK14_full/pose016/topol/topol.top",
+      "sha256": "2b02f7f73f6984278661082f5056f741eb672eb1bc00ef3ed2cb56f6038fbbf1",
+      "includes": [
+        "#include \"amber99sb-ildn.ff/forcefield.itp\"",
+        "#include \"SJF8240.itp\"",
+        "#include \"topol_Protein_chain_A.itp\"",
+        "#include \"topol_Protein_chain_D.itp\"",
+        "#include \"topol_Protein_chain_B.itp\"",
+        "#include \"topol_Protein_chain_C.itp\"",
+        "#include \"amber99sb-ildn.ff/tip3p.itp\"",
+        "#include \"amber99sb-ildn.ff/ions.itp\""
+      ]
+    },
+    {
+      "poi": "MAPK14_full",
+      "pose_id": "pose017",
+      "source": "/home/ayushregmibagale/protac-md/random_screen/MAPK14_full/pose017/topol/topol.top",
+      "sha256": "65a7d28dbd08b9caae618988e0fdfa527350b98286f5479d73b6a528940efbc3",
+      "includes": [
+        "#include \"amber99sb-ildn.ff/forcefield.itp\"",
+        "#include \"SJF8240.itp\"",
+        "#include \"topol_Protein_chain_A.itp\"",
+        "#include \"topol_Protein_chain_D.itp\"",
+        "#include \"topol_Protein_chain_B.itp\"",
+        "#include \"topol_Protein_chain_C.itp\"",
+        "#include \"amber99sb-ildn.ff/tip3p.itp\"",
+        "#include \"amber99sb-ildn.ff/ions.itp\""
+      ]
+    },
+    {
+      "poi": "MAPK14_full",
+      "pose_id": "pose018",
+      "source": "/home/ayushregmibagale/protac-md/random_screen/MAPK14_full/pose018/topol/topol.top",
+      "sha256": "d3c35f2f2c082aaf2a4f4497b9b1d5ac5464b1bc8d28bfecebd2f2c4eed53ed1",
+      "includes": [
+        "#include \"amber99sb-ildn.ff/forcefield.itp\"",
+        "#include \"SJF8240.itp\"",
+        "#include \"topol_Protein_chain_A.itp\"",
+        "#include \"topol_Protein_chain_D.itp\"",
+        "#include \"topol_Protein_chain_B.itp\"",
+        "#include \"topol_Protein_chain_C.itp\"",
+        "#include \"amber99sb-ildn.ff/tip3p.itp\"",
+        "#include \"amber99sb-ildn.ff/ions.itp\""
+      ]
+    },
+    {
+      "poi": "MAPK14_full",
+      "pose_id": "pose020",
+      "source": "/home/ayushregmibagale/protac-md/random_screen/MAPK14_full/pose020/topol/topol.top",
+      "sha256": "87ef218a81cce6cc4595964ac1ba7f5c98be04bd4dd9af98061d4b07055a54b7",
+      "includes": [
+        "#include \"amber99sb-ildn.ff/forcefield.itp\"",
+        "#include \"SJF8240.itp\"",
+        "#include \"topol_Protein_chain_A.itp\"",
+        "#include \"topol_Protein_chain_D.itp\"",
+        "#include \"topol_Protein_chain_B.itp\"",
+        "#include \"topol_Protein_chain_C.itp\"",
+        "#include \"amber99sb-ildn.ff/tip3p.itp\"",
+        "#include \"amber99sb-ildn.ff/ions.itp\""
+      ]
+    },
+    {
+      "poi": "MET",
+      "pose_id": "pose002",
+      "source": "/home/ayushregmibagale/protac-md/random_screen/MET/pose002/topol/topol.top",
+      "sha256": "8893986abf032de3ef15cf13b1343998272dce823dd9bfa390f7676a81f3eb12",
+      "includes": [
+        "#include \"amber99sb-ildn.ff/forcefield.itp\"",
+        "#include \"SJF8240.itp\"",
+        "#include \"topol_Protein_chain_A.itp\"",
+        "#include \"topol_Protein_chain_D.itp\"",
+        "#include \"topol_Protein_chain_B.itp\"",
+        "#include \"topol_Protein_chain_C.itp\"",
+        "#include \"amber99sb-ildn.ff/tip3p.itp\"",
+        "#include \"amber99sb-ildn.ff/ions.itp\""
+      ]
+    },
+    {
+      "poi": "MET",
+      "pose_id": "pose003",
+      "source": "/home/ayushregmibagale/protac-md/random_screen/MET/pose003/topol/topol.top",
+      "sha256": "d58ffdeceaa10933a391b5cd10e4c4f82f2539974fb019cfe15fdf08c6562ef0",
+      "includes": [
+        "#include \"amber99sb-ildn.ff/forcefield.itp\"",
+        "#include \"SJF8240.itp\"",
+        "#include \"topol_Protein_chain_A.itp\"",
+        "#include \"topol_Protein_chain_D.itp\"",
+        "#include \"topol_Protein_chain_B.itp\"",
+        "#include \"topol_Protein_chain_C.itp\"",
+        "#include \"amber99sb-ildn.ff/tip3p.itp\"",
+        "#include \"amber99sb-ildn.ff/ions.itp\""
+      ]
+    },
+    {
+      "poi": "MET",
+      "pose_id": "pose004",
+      "source": "/home/ayushregmibagale/protac-md/random_screen/MET/pose004/topol/topol.top",
+      "sha256": "417dd86f662bc2138215465f9b7475e3091c07527083ca4c5044fc9e8023c6da",
+      "includes": [
+        "#include \"amber99sb-ildn.ff/forcefield.itp\"",
+        "#include \"SJF8240.itp\"",
+        "#include \"topol_Protein_chain_A.itp\"",
+        "#include \"topol_Protein_chain_D.itp\"",
+        "#include \"topol_Protein_chain_B.itp\"",
+        "#include \"topol_Protein_chain_C.itp\"",
+        "#include \"amber99sb-ildn.ff/tip3p.itp\"",
+        "#include \"amber99sb-ildn.ff/ions.itp\""
+      ]
+    },
+    {
+      "poi": "MET",
+      "pose_id": "pose005",
+      "source": "/home/ayushregmibagale/protac-md/random_screen/MET/pose005/topol/topol.top",
+      "sha256": "c93395c2953c026159c7199ce67d7df6b4e80f416bbccf304fefda2541807365",
+      "includes": [
+        "#include \"amber99sb-ildn.ff/forcefield.itp\"",
+        "#include \"SJF8240.itp\"",
+        "#include \"topol_Protein_chain_A.itp\"",
+        "#include \"topol_Protein_chain_D.itp\"",
+        "#include \"topol_Protein_chain_B.itp\"",
+        "#include \"topol_Protein_chain_C.itp\"",
+        "#include \"amber99sb-ildn.ff/tip3p.itp\"",
+        "#include \"amber99sb-ildn.ff/ions.itp\""
+      ]
+    },
+    {
+      "poi": "MET",
+      "pose_id": "pose006",
+      "source": "/home/ayushregmibagale/protac-md/random_screen/MET/pose006/topol/topol.top",
+      "sha256": "43cba4c5ca072128bdc6b159459ba8b4359c05255cb0a1e387c9706187917886",
+      "includes": [
+        "#include \"amber99sb-ildn.ff/forcefield.itp\"",
+        "#include \"SJF8240.itp\"",
+        "#include \"topol_Protein_chain_A.itp\"",
+        "#include \"topol_Protein_chain_D.itp\"",
+        "#include \"topol_Protein_chain_B.itp\"",
+        "#include \"topol_Protein_chain_C.itp\"",
+        "#include \"amber99sb-ildn.ff/tip3p.itp\"",
+        "#include \"amber99sb-ildn.ff/ions.itp\""
+      ]
+    },
+    {
+      "poi": "MET",
+      "pose_id": "pose007",
+      "source": "/home/ayushregmibagale/protac-md/random_screen/MET/pose007/topol/topol.top",
+      "sha256": "5eaa14d80f593b6dc5080a446c17acdb51c3df4e6170580a329e7514b16639df",
+      "includes": [
+        "#include \"amber99sb-ildn.ff/forcefield.itp\"",
+        "#include \"SJF8240.itp\"",
+        "#include \"topol_Protein_chain_A.itp\"",
+        "#include \"topol_Protein_chain_D.itp\"",
+        "#include \"topol_Protein_chain_B.itp\"",
+        "#include \"topol_Protein_chain_C.itp\"",
+        "#include \"amber99sb-ildn.ff/tip3p.itp\"",
+        "#include \"amber99sb-ildn.ff/ions.itp\""
+      ]
+    },
+    {
+      "poi": "MET",
+      "pose_id": "pose008",
+      "source": "/home/ayushregmibagale/protac-md/random_screen/MET/pose008/topol/topol.top",
+      "sha256": "67f044f9c1232930c2850df5418d9816466534b9888ff5baf8523de2fc99d081",
+      "includes": [
+        "#include \"amber99sb-ildn.ff/forcefield.itp\"",
+        "#include \"SJF8240.itp\"",
+        "#include \"topol_Protein_chain_A.itp\"",
+        "#include \"topol_Protein_chain_D.itp\"",
+        "#include \"topol_Protein_chain_B.itp\"",
+        "#include \"topol_Protein_chain_C.itp\"",
+        "#include \"amber99sb-ildn.ff/tip3p.itp\"",
+        "#include \"amber99sb-ildn.ff/ions.itp\""
+      ]
+    },
+    {
+      "poi": "MET",
+      "pose_id": "pose009",
+      "source": "/home/ayushregmibagale/protac-md/random_screen/MET/pose009/topol/topol.top",
+      "sha256": "a5bbf6425c7cd38f51dd1a487500f0bbeb23626bfc9895d6123728eb6d773322",
+      "includes": [
+        "#include \"amber99sb-ildn.ff/forcefield.itp\"",
+        "#include \"SJF8240.itp\"",
+        "#include \"topol_Protein_chain_A.itp\"",
+        "#include \"topol_Protein_chain_D.itp\"",
+        "#include \"topol_Protein_chain_B.itp\"",
+        "#include \"topol_Protein_chain_C.itp\"",
+        "#include \"amber99sb-ildn.ff/tip3p.itp\"",
+        "#include \"amber99sb-ildn.ff/ions.itp\""
+      ]
+    },
+    {
+      "poi": "MET",
+      "pose_id": "pose011",
+      "source": "/home/ayushregmibagale/protac-md/random_screen/MET/pose011/topol/topol.top",
+      "sha256": "8c89cf2448ff738ea5fa1cc04f46672dd25f1a966b7bda5160247cbc75147ebc",
+      "includes": [
+        "#include \"amber99sb-ildn.ff/forcefield.itp\"",
+        "#include \"SJF8240.itp\"",
+        "#include \"topol_Protein_chain_A.itp\"",
+        "#include \"topol_Protein_chain_D.itp\"",
+        "#include \"topol_Protein_chain_B.itp\"",
+        "#include \"topol_Protein_chain_C.itp\"",
+        "#include \"amber99sb-ildn.ff/tip3p.itp\"",
+        "#include \"amber99sb-ildn.ff/ions.itp\""
+      ]
+    },
+    {
+      "poi": "MET",
+      "pose_id": "pose012",
+      "source": "/home/ayushregmibagale/protac-md/random_screen/MET/pose012/topol/topol.top",
+      "sha256": "420d013305c4d179a5dd7d20002adc1b776234f3589254e1914cf87497712af1",
+      "includes": [
+        "#include \"amber99sb-ildn.ff/forcefield.itp\"",
+        "#include \"SJF8240.itp\"",
+        "#include \"topol_Protein_chain_A.itp\"",
+        "#include \"topol_Protein_chain_D.itp\"",
+        "#include \"topol_Protein_chain_B.itp\"",
+        "#include \"topol_Protein_chain_C.itp\"",
+        "#include \"amber99sb-ildn.ff/tip3p.itp\"",
+        "#include \"amber99sb-ildn.ff/ions.itp\""
+      ]
+    },
+    {
+      "poi": "MET",
+      "pose_id": "pose013",
+      "source": "/home/ayushregmibagale/protac-md/random_screen/MET/pose013/topol/topol.top",
+      "sha256": "1ddb2fbf8ee72a1564c5009ff3dced98ea152d7da779abcb6f49db309fddfc15",
+      "includes": [
+        "#include \"amber99sb-ildn.ff/forcefield.itp\"",
+        "#include \"SJF8240.itp\"",
+        "#include \"topol_Protein_chain_A.itp\"",
+        "#include \"topol_Protein_chain_D.itp\"",
+        "#include \"topol_Protein_chain_B.itp\"",
+        "#include \"topol_Protein_chain_C.itp\"",
+        "#include \"amber99sb-ildn.ff/tip3p.itp\"",
+        "#include \"amber99sb-ildn.ff/ions.itp\""
+      ]
+    },
+    {
+      "poi": "MET",
+      "pose_id": "pose014",
+      "source": "/home/ayushregmibagale/protac-md/random_screen/MET/pose014/topol/topol.top",
+      "sha256": "c31757bde651969829817bbf6fd97270365be8a86b845b76fb5ea747f02e595c",
+      "includes": [
+        "#include \"amber99sb-ildn.ff/forcefield.itp\"",
+        "#include \"SJF8240.itp\"",
+        "#include \"topol_Protein_chain_A.itp\"",
+        "#include \"topol_Protein_chain_D.itp\"",
+        "#include \"topol_Protein_chain_B.itp\"",
+        "#include \"topol_Protein_chain_C.itp\"",
+        "#include \"amber99sb-ildn.ff/tip3p.itp\"",
+        "#include \"amber99sb-ildn.ff/ions.itp\""
+      ]
+    },
+    {
+      "poi": "MET",
+      "pose_id": "pose017",
+      "source": "/home/ayushregmibagale/protac-md/random_screen/MET/pose017/topol/topol.top",
+      "sha256": "dd55e34677d6cd2c612b6716761c00cb84c06125f08dbd15f8fbb6e79ebebfe5",
+      "includes": [
+        "#include \"amber99sb-ildn.ff/forcefield.itp\"",
+        "#include \"SJF8240.itp\"",
+        "#include \"topol_Protein_chain_A.itp\"",
+        "#include \"topol_Protein_chain_D.itp\"",
+        "#include \"topol_Protein_chain_B.itp\"",
+        "#include \"topol_Protein_chain_C.itp\"",
+        "#include \"amber99sb-ildn.ff/tip3p.itp\"",
+        "#include \"amber99sb-ildn.ff/ions.itp\""
+      ]
+    },
+    {
+      "poi": "MET",
+      "pose_id": "pose018",
+      "source": "/home/ayushregmibagale/protac-md/random_screen/MET/pose018/topol/topol.top",
+      "sha256": "b9280ae7174fa712bc0e3778f03bb2a03deaa52da74a8f2c2c5e1d353088dc16",
+      "includes": [
+        "#include \"amber99sb-ildn.ff/forcefield.itp\"",
+        "#include \"SJF8240.itp\"",
+        "#include \"topol_Protein_chain_A.itp\"",
+        "#include \"topol_Protein_chain_D.itp\"",
+        "#include \"topol_Protein_chain_B.itp\"",
+        "#include \"topol_Protein_chain_C.itp\"",
+        "#include \"amber99sb-ildn.ff/tip3p.itp\"",
+        "#include \"amber99sb-ildn.ff/ions.itp\""
+      ]
+    },
+    {
+      "poi": "MET",
+      "pose_id": "pose019",
+      "source": "/home/ayushregmibagale/protac-md/random_screen/MET/pose019/topol/topol.top",
+      "sha256": "e2c3125ad33a1e51ba7cde6d665dbeff089f40ca3499248245433503deafe9c4",
+      "includes": [
+        "#include \"amber99sb-ildn.ff/forcefield.itp\"",
+        "#include \"SJF8240.itp\"",
+        "#include \"topol_Protein_chain_A.itp\"",
+        "#include \"topol_Protein_chain_D.itp\"",
+        "#include \"topol_Protein_chain_B.itp\"",
+        "#include \"topol_Protein_chain_C.itp\"",
+        "#include \"amber99sb-ildn.ff/tip3p.itp\"",
+        "#include \"amber99sb-ildn.ff/ions.itp\""
+      ]
+    },
+    {
+      "poi": "MET",
+      "pose_id": "pose020",
+      "source": "/home/ayushregmibagale/protac-md/random_screen/MET/pose020/topol/topol.top",
+      "sha256": "2bfcb94b4a92af44303c3102f969912363766995c8256244f6829c1a678d70c0",
+      "includes": [
+        "#include \"amber99sb-ildn.ff/forcefield.itp\"",
+        "#include \"SJF8240.itp\"",
+        "#include \"topol_Protein_chain_A.itp\"",
+        "#include \"topol_Protein_chain_D.itp\"",
+        "#include \"topol_Protein_chain_B.itp\"",
+        "#include \"topol_Protein_chain_C.itp\"",
+        "#include \"amber99sb-ildn.ff/tip3p.itp\"",
+        "#include \"amber99sb-ildn.ff/ions.itp\""
+      ]
+    },
+    {
+      "poi": "EPHB2",
+      "pose_id": "pose001",
+      "source": "/home/ayushregmibagale/protac-md/random_screen/EPHB2/pose001/topol/topol.top",
+      "sha256": "81c0620101dcd65e9044803699ff457e2cf77087729266e328b9774880b5261a",
+      "includes": [
+        "#include \"amber99sb-ildn.ff/forcefield.itp\"",
+        "#include \"SJF8240.itp\"",
+        "#include \"topol_Protein_chain_A.itp\"",
+        "#include \"topol_Protein_chain_D.itp\"",
+        "#include \"topol_Protein_chain_B.itp\"",
+        "#include \"topol_Protein_chain_C.itp\"",
+        "#include \"amber99sb-ildn.ff/tip3p.itp\"",
+        "#include \"amber99sb-ildn.ff/ions.itp\""
+      ]
+    },
+    {
+      "poi": "EPHB2",
+      "pose_id": "pose002",
+      "source": "/home/ayushregmibagale/protac-md/random_screen/EPHB2/pose002/topol/topol.top",
+      "sha256": "4b21a53e4d5fb7b49ea8d9af1ea3b5e30a222d99d8093aab1ea4afac383d95df",
+      "includes": [
+        "#include \"amber99sb-ildn.ff/forcefield.itp\"",
+        "#include \"SJF8240.itp\"",
+        "#include \"topol_Protein_chain_A.itp\"",
+        "#include \"topol_Protein_chain_D.itp\"",
+        "#include \"topol_Protein_chain_B.itp\"",
+        "#include \"topol_Protein_chain_C.itp\"",
+        "#include \"amber99sb-ildn.ff/tip3p.itp\"",
+        "#include \"amber99sb-ildn.ff/ions.itp\""
+      ]
+    },
+    {
+      "poi": "EPHB2",
+      "pose_id": "pose003",
+      "source": "/home/ayushregmibagale/protac-md/random_screen/EPHB2/pose003/topol/topol.top",
+      "sha256": "4201bfc3f431c4c671a743c967509307412ef5cae73b4a538ed29adb51b941b1",
+      "includes": [
+        "#include \"amber99sb-ildn.ff/forcefield.itp\"",
+        "#include \"SJF8240.itp\"",
+        "#include \"topol_Protein_chain_A.itp\"",
+        "#include \"topol_Protein_chain_D.itp\"",
+        "#include \"topol_Protein_chain_B.itp\"",
+        "#include \"topol_Protein_chain_C.itp\"",
+        "#include \"amber99sb-ildn.ff/tip3p.itp\"",
+        "#include \"amber99sb-ildn.ff/ions.itp\""
+      ]
+    },
+    {
+      "poi": "EPHB2",
+      "pose_id": "pose004",
+      "source": "/home/ayushregmibagale/protac-md/random_screen/EPHB2/pose004/topol/topol.top",
+      "sha256": "99dfd3ba15ced72d2d8f86ba2a8b1212327ab182f825639318e204ccab09c2e7",
+      "includes": [
+        "#include \"amber99sb-ildn.ff/forcefield.itp\"",
+        "#include \"SJF8240.itp\"",
+        "#include \"topol_Protein_chain_A.itp\"",
+        "#include \"topol_Protein_chain_D.itp\"",
+        "#include \"topol_Protein_chain_B.itp\"",
+        "#include \"topol_Protein_chain_C.itp\"",
+        "#include \"amber99sb-ildn.ff/tip3p.itp\"",
+        "#include \"amber99sb-ildn.ff/ions.itp\""
+      ]
+    },
+    {
+      "poi": "EPHB2",
+      "pose_id": "pose005",
+      "source": "/home/ayushregmibagale/protac-md/random_screen/EPHB2/pose005/topol/topol.top",
+      "sha256": "88632173e2e0b10b723484355906d9aaca15c0ca7f359f9918dbc04df1ff18cc",
+      "includes": [
+        "#include \"amber99sb-ildn.ff/forcefield.itp\"",
+        "#include \"SJF8240.itp\"",
+        "#include \"topol_Protein_chain_A.itp\"",
+        "#include \"topol_Protein_chain_D.itp\"",
+        "#include \"topol_Protein_chain_B.itp\"",
+        "#include \"topol_Protein_chain_C.itp\"",
+        "#include \"amber99sb-ildn.ff/tip3p.itp\"",
+        "#include \"amber99sb-ildn.ff/ions.itp\""
+      ]
+    },
+    {
+      "poi": "EPHB2",
+      "pose_id": "pose006",
+      "source": "/home/ayushregmibagale/protac-md/random_screen/EPHB2/pose006/topol/topol.top",
+      "sha256": "d2a187f49b84ec3a6d035fef2ecfa9350253b02fbcd24ec86acb8bb1b4b7d918",
+      "includes": [
+        "#include \"amber99sb-ildn.ff/forcefield.itp\"",
+        "#include \"SJF8240.itp\"",
+        "#include \"topol_Protein_chain_A.itp\"",
+        "#include \"topol_Protein_chain_D.itp\"",
+        "#include \"topol_Protein_chain_B.itp\"",
+        "#include \"topol_Protein_chain_C.itp\"",
+        "#include \"amber99sb-ildn.ff/tip3p.itp\"",
+        "#include \"amber99sb-ildn.ff/ions.itp\""
+      ]
+    },
+    {
+      "poi": "EPHB2",
+      "pose_id": "pose007",
+      "source": "/home/ayushregmibagale/protac-md/random_screen/EPHB2/pose007/topol/topol.top",
+      "sha256": "aebdcf63f668e5a7a0d1199ac01942063d73b98c982cb53a9c4aee7b1aa643b8",
+      "includes": [
+        "#include \"amber99sb-ildn.ff/forcefield.itp\"",
+        "#include \"SJF8240.itp\"",
+        "#include \"topol_Protein_chain_A.itp\"",
+        "#include \"topol_Protein_chain_D.itp\"",
+        "#include \"topol_Protein_chain_B.itp\"",
+        "#include \"topol_Protein_chain_C.itp\"",
+        "#include \"amber99sb-ildn.ff/tip3p.itp\"",
+        "#include \"amber99sb-ildn.ff/ions.itp\""
+      ]
+    },
+    {
+      "poi": "EPHB2",
+      "pose_id": "pose008",
+      "source": "/home/ayushregmibagale/protac-md/random_screen/EPHB2/pose008/topol/topol.top",
+      "sha256": "fe1d867c5875ecdb2d0b57ce174b73095248848d7cd16201a5e1793735bb5bf8",
+      "includes": [
+        "#include \"amber99sb-ildn.ff/forcefield.itp\"",
+        "#include \"SJF8240.itp\"",
+        "#include \"topol_Protein_chain_A.itp\"",
+        "#include \"topol_Protein_chain_D.itp\"",
+        "#include \"topol_Protein_chain_B.itp\"",
+        "#include \"topol_Protein_chain_C.itp\"",
+        "#include \"amber99sb-ildn.ff/tip3p.itp\"",
+        "#include \"amber99sb-ildn.ff/ions.itp\""
+      ]
+    },
+    {
+      "poi": "EPHB2",
+      "pose_id": "pose009",
+      "source": "/home/ayushregmibagale/protac-md/random_screen/EPHB2/pose009/topol/topol.top",
+      "sha256": "98c01be6d6bccb8b7787a5099f91be26665beb7c6ba75fcf3ff83e42e1cac9ad",
+      "includes": [
+        "#include \"amber99sb-ildn.ff/forcefield.itp\"",
+        "#include \"SJF8240.itp\"",
+        "#include \"topol_Protein_chain_A.itp\"",
+        "#include \"topol_Protein_chain_D.itp\"",
+        "#include \"topol_Protein_chain_B.itp\"",
+        "#include \"topol_Protein_chain_C.itp\"",
+        "#include \"amber99sb-ildn.ff/tip3p.itp\"",
+        "#include \"amber99sb-ildn.ff/ions.itp\""
+      ]
+    },
+    {
+      "poi": "EPHB2",
+      "pose_id": "pose010",
+      "source": "/home/ayushregmibagale/protac-md/random_screen/EPHB2/pose010/topol/topol.top",
+      "sha256": "0dded86f96b173156e40df1d72ab41675f7558566dc40e7f3980ab3a5f8dfdd1",
+      "includes": [
+        "#include \"amber99sb-ildn.ff/forcefield.itp\"",
+        "#include \"SJF8240.itp\"",
+        "#include \"topol_Protein_chain_A.itp\"",
+        "#include \"topol_Protein_chain_D.itp\"",
+        "#include \"topol_Protein_chain_B.itp\"",
+        "#include \"topol_Protein_chain_C.itp\"",
+        "#include \"amber99sb-ildn.ff/tip3p.itp\"",
+        "#include \"amber99sb-ildn.ff/ions.itp\""
+      ]
+    },
+    {
+      "poi": "EPHB2",
+      "pose_id": "pose011",
+      "source": "/home/ayushregmibagale/protac-md/random_screen/EPHB2/pose011/topol/topol.top",
+      "sha256": "9e92437c1f8345f549c544481183bfc43e625678d3503d6f6206dc78e18c74ef",
+      "includes": [
+        "#include \"amber99sb-ildn.ff/forcefield.itp\"",
+        "#include \"SJF8240.itp\"",
+        "#include \"topol_Protein_chain_A.itp\"",
+        "#include \"topol_Protein_chain_D.itp\"",
+        "#include \"topol_Protein_chain_B.itp\"",
+        "#include \"topol_Protein_chain_C.itp\"",
+        "#include \"amber99sb-ildn.ff/tip3p.itp\"",
+        "#include \"amber99sb-ildn.ff/ions.itp\""
+      ]
+    },
+    {
+      "poi": "EPHB2",
+      "pose_id": "pose013",
+      "source": "/home/ayushregmibagale/protac-md/random_screen/EPHB2/pose013/topol/topol.top",
+      "sha256": "0f41cc57bece59ea9af5fa118123577861257c948b35801a8671b50a5418005e",
+      "includes": [
+        "#include \"amber99sb-ildn.ff/forcefield.itp\"",
+        "#include \"SJF8240.itp\"",
+        "#include \"topol_Protein_chain_A.itp\"",
+        "#include \"topol_Protein_chain_D.itp\"",
+        "#include \"topol_Protein_chain_B.itp\"",
+        "#include \"topol_Protein_chain_C.itp\"",
+        "#include \"amber99sb-ildn.ff/tip3p.itp\"",
+        "#include \"amber99sb-ildn.ff/ions.itp\""
+      ]
+    },
+    {
+      "poi": "EPHB2",
+      "pose_id": "pose014",
+      "source": "/home/ayushregmibagale/protac-md/random_screen/EPHB2/pose014/topol/topol.top",
+      "sha256": "d6a53498015e8946eabc48ac0b34dc2bc8bcf9a5adcfbafe35c9e31aa8928afe",
+      "includes": [
+        "#include \"amber99sb-ildn.ff/forcefield.itp\"",
+        "#include \"SJF8240.itp\"",
+        "#include \"topol_Protein_chain_A.itp\"",
+        "#include \"topol_Protein_chain_D.itp\"",
+        "#include \"topol_Protein_chain_B.itp\"",
+        "#include \"topol_Protein_chain_C.itp\"",
+        "#include \"amber99sb-ildn.ff/tip3p.itp\"",
+        "#include \"amber99sb-ildn.ff/ions.itp\""
+      ]
+    },
+    {
+      "poi": "EPHB2",
+      "pose_id": "pose015",
+      "source": "/home/ayushregmibagale/protac-md/random_screen/EPHB2/pose015/topol/topol.top",
+      "sha256": "3446a17cabe7bf43d2832b08dcbcdfa73e8252e9e2fa91872be1b3d29cca5f48",
+      "includes": [
+        "#include \"amber99sb-ildn.ff/forcefield.itp\"",
+        "#include \"SJF8240.itp\"",
+        "#include \"topol_Protein_chain_A.itp\"",
+        "#include \"topol_Protein_chain_D.itp\"",
+        "#include \"topol_Protein_chain_B.itp\"",
+        "#include \"topol_Protein_chain_C.itp\"",
+        "#include \"amber99sb-ildn.ff/tip3p.itp\"",
+        "#include \"amber99sb-ildn.ff/ions.itp\""
+      ]
+    },
+    {
+      "poi": "EPHB2",
+      "pose_id": "pose016",
+      "source": "/home/ayushregmibagale/protac-md/random_screen/EPHB2/pose016/topol/topol.top",
+      "sha256": "4cf611f0635bd033423ca988e1471b9ff3f0a4ee3d69146662762ede9becf1d5",
+      "includes": [
+        "#include \"amber99sb-ildn.ff/forcefield.itp\"",
+        "#include \"SJF8240.itp\"",
+        "#include \"topol_Protein_chain_A.itp\"",
+        "#include \"topol_Protein_chain_D.itp\"",
+        "#include \"topol_Protein_chain_B.itp\"",
+        "#include \"topol_Protein_chain_C.itp\"",
+        "#include \"amber99sb-ildn.ff/tip3p.itp\"",
+        "#include \"amber99sb-ildn.ff/ions.itp\""
+      ]
+    },
+    {
+      "poi": "EPHB2",
+      "pose_id": "pose017",
+      "source": "/home/ayushregmibagale/protac-md/random_screen/EPHB2/pose017/topol/topol.top",
+      "sha256": "97353629f2ae100a1b29eb9d6c9f6643d9662e94aa634559dee2da5c0145b6e4",
+      "includes": [
+        "#include \"amber99sb-ildn.ff/forcefield.itp\"",
+        "#include \"SJF8240.itp\"",
+        "#include \"topol_Protein_chain_A.itp\"",
+        "#include \"topol_Protein_chain_D.itp\"",
+        "#include \"topol_Protein_chain_B.itp\"",
+        "#include \"topol_Protein_chain_C.itp\"",
+        "#include \"amber99sb-ildn.ff/tip3p.itp\"",
+        "#include \"amber99sb-ildn.ff/ions.itp\""
+      ]
+    },
+    {
+      "poi": "EPHB2",
+      "pose_id": "pose018",
+      "source": "/home/ayushregmibagale/protac-md/random_screen/EPHB2/pose018/topol/topol.top",
+      "sha256": "2239b5fddff6d62e0c765952b67dd80eba39e1bf0af0132d9545a16d8dc17275",
+      "includes": [
+        "#include \"amber99sb-ildn.ff/forcefield.itp\"",
+        "#include \"SJF8240.itp\"",
+        "#include \"topol_Protein_chain_A.itp\"",
+        "#include \"topol_Protein_chain_D.itp\"",
+        "#include \"topol_Protein_chain_B.itp\"",
+        "#include \"topol_Protein_chain_C.itp\"",
+        "#include \"amber99sb-ildn.ff/tip3p.itp\"",
+        "#include \"amber99sb-ildn.ff/ions.itp\""
+      ]
+    },
+    {
+      "poi": "EPHB2",
+      "pose_id": "pose019",
+      "source": "/home/ayushregmibagale/protac-md/random_screen/EPHB2/pose019/topol/topol.top",
+      "sha256": "907ee7dd4962c32322c79eaf0e984c5ae1221d33b158f28fc811091a8eab378f",
+      "includes": [
+        "#include \"amber99sb-ildn.ff/forcefield.itp\"",
+        "#include \"SJF8240.itp\"",
+        "#include \"topol_Protein_chain_A.itp\"",
+        "#include \"topol_Protein_chain_D.itp\"",
+        "#include \"topol_Protein_chain_B.itp\"",
+        "#include \"topol_Protein_chain_C.itp\"",
+        "#include \"amber99sb-ildn.ff/tip3p.itp\"",
+        "#include \"amber99sb-ildn.ff/ions.itp\""
+      ]
+    },
+    {
+      "poi": "EPHB2",
+      "pose_id": "pose020",
+      "source": "/home/ayushregmibagale/protac-md/random_screen/EPHB2/pose020/topol/topol.top",
+      "sha256": "15c127120ecdfe09ac9a17e2245408576fb0dd1a5224bc1e084a87abd5ed22ee",
+      "includes": [
+        "#include \"amber99sb-ildn.ff/forcefield.itp\"",
+        "#include \"SJF8240.itp\"",
+        "#include \"topol_Protein_chain_A.itp\"",
+        "#include \"topol_Protein_chain_D.itp\"",
+        "#include \"topol_Protein_chain_B.itp\"",
+        "#include \"topol_Protein_chain_C.itp\"",
+        "#include \"amber99sb-ildn.ff/tip3p.itp\"",
+        "#include \"amber99sb-ildn.ff/ions.itp\""
+      ]
+    },
+    {
+      "poi": "ABL1",
+      "pose_id": "pose001",
+      "source": "/home/ayushregmibagale/protac-md/random_screen/ABL1/pose001/topol/topol.top",
+      "sha256": "f9ca3dde6d25bc2f98237abdd0f615a97f3cae90a3c1472875ec6995e170d7d8",
+      "includes": [
+        "#include \"amber99sb-ildn.ff/forcefield.itp\"",
+        "#include \"SJF8240.itp\"",
+        "#include \"topol_Protein_chain_A.itp\"",
+        "#include \"topol_Protein_chain_D.itp\"",
+        "#include \"topol_Protein_chain_B.itp\"",
+        "#include \"topol_Protein_chain_C.itp\"",
+        "#include \"amber99sb-ildn.ff/tip3p.itp\"",
+        "#include \"amber99sb-ildn.ff/ions.itp\""
+      ]
+    },
+    {
+      "poi": "ABL1",
+      "pose_id": "pose003",
+      "source": "/home/ayushregmibagale/protac-md/random_screen/ABL1/pose003/topol/topol.top",
+      "sha256": "c2965b3a1694d9592128c6aea95d5c4c1d21ac895f9778febe3be3fc2c131861",
+      "includes": [
+        "#include \"amber99sb-ildn.ff/forcefield.itp\"",
+        "#include \"SJF8240.itp\"",
+        "#include \"topol_Protein_chain_A.itp\"",
+        "#include \"topol_Protein_chain_D.itp\"",
+        "#include \"topol_Protein_chain_B.itp\"",
+        "#include \"topol_Protein_chain_C.itp\"",
+        "#include \"amber99sb-ildn.ff/tip3p.itp\"",
+        "#include \"amber99sb-ildn.ff/ions.itp\""
+      ]
+    },
+    {
+      "poi": "ABL1",
+      "pose_id": "pose004",
+      "source": "/home/ayushregmibagale/protac-md/random_screen/ABL1/pose004/topol/topol.top",
+      "sha256": "86e1de6e463f80c11163eeef99b8094ba0de03e049f2c28b7e70dee84c297619",
+      "includes": [
+        "#include \"amber99sb-ildn.ff/forcefield.itp\"",
+        "#include \"SJF8240.itp\"",
+        "#include \"topol_Protein_chain_A.itp\"",
+        "#include \"topol_Protein_chain_D.itp\"",
+        "#include \"topol_Protein_chain_B.itp\"",
+        "#include \"topol_Protein_chain_C.itp\"",
+        "#include \"amber99sb-ildn.ff/tip3p.itp\"",
+        "#include \"amber99sb-ildn.ff/ions.itp\""
+      ]
+    },
+    {
+      "poi": "ABL1",
+      "pose_id": "pose005",
+      "source": "/home/ayushregmibagale/protac-md/random_screen/ABL1/pose005/topol/topol.top",
+      "sha256": "65e6cb9c10f2f5daa253eebda3a7fb48cbf88cf70c2aa7963f202426fed0c7d4",
+      "includes": [
+        "#include \"amber99sb-ildn.ff/forcefield.itp\"",
+        "#include \"SJF8240.itp\"",
+        "#include \"topol_Protein_chain_A.itp\"",
+        "#include \"topol_Protein_chain_D.itp\"",
+        "#include \"topol_Protein_chain_B.itp\"",
+        "#include \"topol_Protein_chain_C.itp\"",
+        "#include \"amber99sb-ildn.ff/tip3p.itp\"",
+        "#include \"amber99sb-ildn.ff/ions.itp\""
+      ]
+    },
+    {
+      "poi": "ABL1",
+      "pose_id": "pose006",
+      "source": "/home/ayushregmibagale/protac-md/random_screen/ABL1/pose006/topol/topol.top",
+      "sha256": "e91b00e6ed0df6c6d8fae2e292cd1edd368656a91d5633cdc80d55b2a3d129a8",
+      "includes": [
+        "#include \"amber99sb-ildn.ff/forcefield.itp\"",
+        "#include \"SJF8240.itp\"",
+        "#include \"topol_Protein_chain_A.itp\"",
+        "#include \"topol_Protein_chain_D.itp\"",
+        "#include \"topol_Protein_chain_B.itp\"",
+        "#include \"topol_Protein_chain_C.itp\"",
+        "#include \"amber99sb-ildn.ff/tip3p.itp\"",
+        "#include \"amber99sb-ildn.ff/ions.itp\""
+      ]
+    },
+    {
+      "poi": "ABL1",
+      "pose_id": "pose008",
+      "source": "/home/ayushregmibagale/protac-md/random_screen/ABL1/pose008/topol/topol.top",
+      "sha256": "527a7bfb65d5cab5e1457cead6920a03fb638b2d7fdaed74d12c978852468ffb",
+      "includes": [
+        "#include \"amber99sb-ildn.ff/forcefield.itp\"",
+        "#include \"SJF8240.itp\"",
+        "#include \"topol_Protein_chain_A.itp\"",
+        "#include \"topol_Protein_chain_D.itp\"",
+        "#include \"topol_Protein_chain_B.itp\"",
+        "#include \"topol_Protein_chain_C.itp\"",
+        "#include \"amber99sb-ildn.ff/tip3p.itp\"",
+        "#include \"amber99sb-ildn.ff/ions.itp\""
+      ]
+    },
+    {
+      "poi": "ABL1",
+      "pose_id": "pose009",
+      "source": "/home/ayushregmibagale/protac-md/random_screen/ABL1/pose009/topol/topol.top",
+      "sha256": "9f746154215404348ed520aeb533b0ef3fda867d3babb61c2e4582ee0cb91da6",
+      "includes": [
+        "#include \"amber99sb-ildn.ff/forcefield.itp\"",
+        "#include \"SJF8240.itp\"",
+        "#include \"topol_Protein_chain_A.itp\"",
+        "#include \"topol_Protein_chain_D.itp\"",
+        "#include \"topol_Protein_chain_B.itp\"",
+        "#include \"topol_Protein_chain_C.itp\"",
+        "#include \"amber99sb-ildn.ff/tip3p.itp\"",
+        "#include \"amber99sb-ildn.ff/ions.itp\""
+      ]
+    },
+    {
+      "poi": "ABL1",
+      "pose_id": "pose010",
+      "source": "/home/ayushregmibagale/protac-md/random_screen/ABL1/pose010/topol/topol.top",
+      "sha256": "20e4bf0b5384398a661df6d11c2d6e1c9675724caee95849d5cca329b7f5d31f",
+      "includes": [
+        "#include \"amber99sb-ildn.ff/forcefield.itp\"",
+        "#include \"SJF8240.itp\"",
+        "#include \"topol_Protein_chain_A.itp\"",
+        "#include \"topol_Protein_chain_D.itp\"",
+        "#include \"topol_Protein_chain_B.itp\"",
+        "#include \"topol_Protein_chain_C.itp\"",
+        "#include \"amber99sb-ildn.ff/tip3p.itp\"",
+        "#include \"amber99sb-ildn.ff/ions.itp\""
+      ]
+    },
+    {
+      "poi": "ABL1",
+      "pose_id": "pose011",
+      "source": "/home/ayushregmibagale/protac-md/random_screen/ABL1/pose011/topol/topol.top",
+      "sha256": "1495412da145997d68bcd1024e254fc006d7ab89a62dc722d9197ae6466a3f2d",
+      "includes": [
+        "#include \"amber99sb-ildn.ff/forcefield.itp\"",
+        "#include \"SJF8240.itp\"",
+        "#include \"topol_Protein_chain_A.itp\"",
+        "#include \"topol_Protein_chain_D.itp\"",
+        "#include \"topol_Protein_chain_B.itp\"",
+        "#include \"topol_Protein_chain_C.itp\"",
+        "#include \"amber99sb-ildn.ff/tip3p.itp\"",
+        "#include \"amber99sb-ildn.ff/ions.itp\""
+      ]
+    },
+    {
+      "poi": "ABL1",
+      "pose_id": "pose013",
+      "source": "/home/ayushregmibagale/protac-md/random_screen/ABL1/pose013/topol/topol.top",
+      "sha256": "3b18f411e68c3cb85b3da5f7ab83fc910f0dd00bbf371e2b1b27ce688e6b27f9",
+      "includes": [
+        "#include \"amber99sb-ildn.ff/forcefield.itp\"",
+        "#include \"SJF8240.itp\"",
+        "#include \"topol_Protein_chain_A.itp\"",
+        "#include \"topol_Protein_chain_D.itp\"",
+        "#include \"topol_Protein_chain_B.itp\"",
+        "#include \"topol_Protein_chain_C.itp\"",
+        "#include \"amber99sb-ildn.ff/tip3p.itp\"",
+        "#include \"amber99sb-ildn.ff/ions.itp\""
+      ]
+    },
+    {
+      "poi": "ABL1",
+      "pose_id": "pose014",
+      "source": "/home/ayushregmibagale/protac-md/random_screen/ABL1/pose014/topol/topol.top",
+      "sha256": "4c61ebf694f05092a11035bcb14c3d6b9f7c6facd4bdabc10866fcd2b555914a",
+      "includes": [
+        "#include \"amber99sb-ildn.ff/forcefield.itp\"",
+        "#include \"SJF8240.itp\"",
+        "#include \"topol_Protein_chain_A.itp\"",
+        "#include \"topol_Protein_chain_D.itp\"",
+        "#include \"topol_Protein_chain_B.itp\"",
+        "#include \"topol_Protein_chain_C.itp\"",
+        "#include \"amber99sb-ildn.ff/tip3p.itp\"",
+        "#include \"amber99sb-ildn.ff/ions.itp\""
+      ]
+    },
+    {
+      "poi": "ABL1",
+      "pose_id": "pose015",
+      "source": "/home/ayushregmibagale/protac-md/random_screen/ABL1/pose015/topol/topol.top",
+      "sha256": "537040877e68f58819631b37c8b02cca61fe53fab0b36d00c91c11436cbc99ac",
+      "includes": [
+        "#include \"amber99sb-ildn.ff/forcefield.itp\"",
+        "#include \"SJF8240.itp\"",
+        "#include \"topol_Protein_chain_A.itp\"",
+        "#include \"topol_Protein_chain_D.itp\"",
+        "#include \"topol_Protein_chain_B.itp\"",
+        "#include \"topol_Protein_chain_C.itp\"",
+        "#include \"amber99sb-ildn.ff/tip3p.itp\"",
+        "#include \"amber99sb-ildn.ff/ions.itp\""
+      ]
+    },
+    {
+      "poi": "ABL1",
+      "pose_id": "pose016",
+      "source": "/home/ayushregmibagale/protac-md/random_screen/ABL1/pose016/topol/topol.top",
+      "sha256": "9e9fe01d31a8ee33067f2a5490ab67226a416ef6a15610f2478adf662ad20787",
+      "includes": [
+        "#include \"amber99sb-ildn.ff/forcefield.itp\"",
+        "#include \"SJF8240.itp\"",
+        "#include \"topol_Protein_chain_A.itp\"",
+        "#include \"topol_Protein_chain_D.itp\"",
+        "#include \"topol_Protein_chain_B.itp\"",
+        "#include \"topol_Protein_chain_C.itp\"",
+        "#include \"amber99sb-ildn.ff/tip3p.itp\"",
+        "#include \"amber99sb-ildn.ff/ions.itp\""
+      ]
+    },
+    {
+      "poi": "ABL1",
+      "pose_id": "pose017",
+      "source": "/home/ayushregmibagale/protac-md/random_screen/ABL1/pose017/topol/topol.top",
+      "sha256": "2fe518593085a3e625b657db96fac6ee97b45983378f3d029ddb533864c4c738",
+      "includes": [
+        "#include \"amber99sb-ildn.ff/forcefield.itp\"",
+        "#include \"SJF8240.itp\"",
+        "#include \"topol_Protein_chain_A.itp\"",
+        "#include \"topol_Protein_chain_D.itp\"",
+        "#include \"topol_Protein_chain_B.itp\"",
+        "#include \"topol_Protein_chain_C.itp\"",
+        "#include \"amber99sb-ildn.ff/tip3p.itp\"",
+        "#include \"amber99sb-ildn.ff/ions.itp\""
+      ]
+    },
+    {
+      "poi": "ABL1",
+      "pose_id": "pose018",
+      "source": "/home/ayushregmibagale/protac-md/random_screen/ABL1/pose018/topol/topol.top",
+      "sha256": "c614384e50ea29741df984da3760b919db1e1f593ee55d83b58efac70449a84e",
+      "includes": [
+        "#include \"amber99sb-ildn.ff/forcefield.itp\"",
+        "#include \"SJF8240.itp\"",
+        "#include \"topol_Protein_chain_A.itp\"",
+        "#include \"topol_Protein_chain_D.itp\"",
+        "#include \"topol_Protein_chain_B.itp\"",
+        "#include \"topol_Protein_chain_C.itp\"",
+        "#include \"amber99sb-ildn.ff/tip3p.itp\"",
+        "#include \"amber99sb-ildn.ff/ions.itp\""
+      ]
+    },
+    {
+      "poi": "ABL1",
+      "pose_id": "pose019",
+      "source": "/home/ayushregmibagale/protac-md/random_screen/ABL1/pose019/topol/topol.top",
+      "sha256": "2d40e39a8f4ecb043e7f916a9621825cb9e2600a1d5508b523f3ff9e3e54b9c4",
+      "includes": [
+        "#include \"amber99sb-ildn.ff/forcefield.itp\"",
+        "#include \"SJF8240.itp\"",
+        "#include \"topol_Protein_chain_A.itp\"",
+        "#include \"topol_Protein_chain_D.itp\"",
+        "#include \"topol_Protein_chain_B.itp\"",
+        "#include \"topol_Protein_chain_C.itp\"",
+        "#include \"amber99sb-ildn.ff/tip3p.itp\"",
+        "#include \"amber99sb-ildn.ff/ions.itp\""
+      ]
+    },
+    {
+      "poi": "ABL1",
+      "pose_id": "pose020",
+      "source": "/home/ayushregmibagale/protac-md/random_screen/ABL1/pose020/topol/topol.top",
+      "sha256": "37632f532ac2b35ae10a9148fc73801137678c87d33cf84fd3e771c7f6ffbb07",
+      "includes": [
+        "#include \"amber99sb-ildn.ff/forcefield.itp\"",
+        "#include \"SJF8240.itp\"",
+        "#include \"topol_Protein_chain_A.itp\"",
+        "#include \"topol_Protein_chain_D.itp\"",
+        "#include \"topol_Protein_chain_B.itp\"",
+        "#include \"topol_Protein_chain_C.itp\"",
+        "#include \"amber99sb-ildn.ff/tip3p.itp\"",
+        "#include \"amber99sb-ildn.ff/ions.itp\""
+      ]
+    },
+    {
+      "poi": "AXL",
+      "pose_id": "pose001",
+      "source": "/home/ayushregmibagale/protac-md/random_screen/AXL/pose001/topol/topol.top",
+      "sha256": "f401b25b1355ea27cb6f8f9906d95f5de349dc1037a658dde478debae723f65c",
+      "includes": [
+        "#include \"amber99sb-ildn.ff/forcefield.itp\"",
+        "#include \"SJF8240.itp\"",
+        "#include \"topol_Protein_chain_A.itp\"",
+        "#include \"topol_Protein_chain_D.itp\"",
+        "#include \"topol_Protein_chain_B.itp\"",
+        "#include \"topol_Protein_chain_C.itp\"",
+        "#include \"amber99sb-ildn.ff/tip3p.itp\"",
+        "#include \"amber99sb-ildn.ff/ions.itp\""
+      ]
+    },
+    {
+      "poi": "AXL",
+      "pose_id": "pose002",
+      "source": "/home/ayushregmibagale/protac-md/random_screen/AXL/pose002/topol/topol.top",
+      "sha256": "29f0e41c42c7f280aa5bfbb584d2119db1f40f1ad2d13b50471b708571de1760",
+      "includes": [
+        "#include \"amber99sb-ildn.ff/forcefield.itp\"",
+        "#include \"SJF8240.itp\"",
+        "#include \"topol_Protein_chain_A.itp\"",
+        "#include \"topol_Protein_chain_D.itp\"",
+        "#include \"topol_Protein_chain_B.itp\"",
+        "#include \"topol_Protein_chain_C.itp\"",
+        "#include \"amber99sb-ildn.ff/tip3p.itp\"",
+        "#include \"amber99sb-ildn.ff/ions.itp\""
+      ]
+    },
+    {
+      "poi": "AXL",
+      "pose_id": "pose004",
+      "source": "/home/ayushregmibagale/protac-md/random_screen/AXL/pose004/topol/topol.top",
+      "sha256": "8b31abe8bc4755c22b00c7465f2041f8d472e9abc2a798f5198073ff8171cbd6",
+      "includes": [
+        "#include \"amber99sb-ildn.ff/forcefield.itp\"",
+        "#include \"SJF8240.itp\"",
+        "#include \"topol_Protein_chain_A.itp\"",
+        "#include \"topol_Protein_chain_D.itp\"",
+        "#include \"topol_Protein_chain_B.itp\"",
+        "#include \"topol_Protein_chain_C.itp\"",
+        "#include \"amber99sb-ildn.ff/tip3p.itp\"",
+        "#include \"amber99sb-ildn.ff/ions.itp\""
+      ]
+    },
+    {
+      "poi": "AXL",
+      "pose_id": "pose005",
+      "source": "/home/ayushregmibagale/protac-md/random_screen/AXL/pose005/topol/topol.top",
+      "sha256": "3e7ef8358ce7be4b5f6b2372a9657c944f09354bc9af010be03d555b43c110c3",
+      "includes": [
+        "#include \"amber99sb-ildn.ff/forcefield.itp\"",
+        "#include \"SJF8240.itp\"",
+        "#include \"topol_Protein_chain_A.itp\"",
+        "#include \"topol_Protein_chain_D.itp\"",
+        "#include \"topol_Protein_chain_B.itp\"",
+        "#include \"topol_Protein_chain_C.itp\"",
+        "#include \"amber99sb-ildn.ff/tip3p.itp\"",
+        "#include \"amber99sb-ildn.ff/ions.itp\""
+      ]
+    },
+    {
+      "poi": "AXL",
+      "pose_id": "pose006",
+      "source": "/home/ayushregmibagale/protac-md/random_screen/AXL/pose006/topol/topol.top",
+      "sha256": "07d7712703327ea45fcd554edf5332c45c40fd6275db39943429c1744faf7d13",
+      "includes": [
+        "#include \"amber99sb-ildn.ff/forcefield.itp\"",
+        "#include \"SJF8240.itp\"",
+        "#include \"topol_Protein_chain_A.itp\"",
+        "#include \"topol_Protein_chain_D.itp\"",
+        "#include \"topol_Protein_chain_B.itp\"",
+        "#include \"topol_Protein_chain_C.itp\"",
+        "#include \"amber99sb-ildn.ff/tip3p.itp\"",
+        "#include \"amber99sb-ildn.ff/ions.itp\""
+      ]
+    },
+    {
+      "poi": "AXL",
+      "pose_id": "pose007",
+      "source": "/home/ayushregmibagale/protac-md/random_screen/AXL/pose007/topol/topol.top",
+      "sha256": "1dc2037f18ff667ecab245be775ab2290b314bc179de1fcbdffe43e132d713f1",
+      "includes": [
+        "#include \"amber99sb-ildn.ff/forcefield.itp\"",
+        "#include \"SJF8240.itp\"",
+        "#include \"topol_Protein_chain_A.itp\"",
+        "#include \"topol_Protein_chain_D.itp\"",
+        "#include \"topol_Protein_chain_B.itp\"",
+        "#include \"topol_Protein_chain_C.itp\"",
+        "#include \"amber99sb-ildn.ff/tip3p.itp\"",
+        "#include \"amber99sb-ildn.ff/ions.itp\""
+      ]
+    },
+    {
+      "poi": "AXL",
+      "pose_id": "pose008",
+      "source": "/home/ayushregmibagale/protac-md/random_screen/AXL/pose008/topol/topol.top",
+      "sha256": "8bfb7518f2ff9630881f2e40c09ab33b07bba9a012cb4548b2a582c10915893a",
+      "includes": [
+        "#include \"amber99sb-ildn.ff/forcefield.itp\"",
+        "#include \"SJF8240.itp\"",
+        "#include \"topol_Protein_chain_A.itp\"",
+        "#include \"topol_Protein_chain_D.itp\"",
+        "#include \"topol_Protein_chain_B.itp\"",
+        "#include \"topol_Protein_chain_C.itp\"",
+        "#include \"amber99sb-ildn.ff/tip3p.itp\"",
+        "#include \"amber99sb-ildn.ff/ions.itp\""
+      ]
+    },
+    {
+      "poi": "AXL",
+      "pose_id": "pose009",
+      "source": "/home/ayushregmibagale/protac-md/random_screen/AXL/pose009/topol/topol.top",
+      "sha256": "91675b345c9a8510c2c24889162792523d0149fd8dd52c94e72f1fb70732a5c4",
+      "includes": [
+        "#include \"amber99sb-ildn.ff/forcefield.itp\"",
+        "#include \"SJF8240.itp\"",
+        "#include \"topol_Protein_chain_A.itp\"",
+        "#include \"topol_Protein_chain_D.itp\"",
+        "#include \"topol_Protein_chain_B.itp\"",
+        "#include \"topol_Protein_chain_C.itp\"",
+        "#include \"amber99sb-ildn.ff/tip3p.itp\"",
+        "#include \"amber99sb-ildn.ff/ions.itp\""
+      ]
+    },
+    {
+      "poi": "AXL",
+      "pose_id": "pose010",
+      "source": "/home/ayushregmibagale/protac-md/random_screen/AXL/pose010/topol/topol.top",
+      "sha256": "63fd3f22558ba519615a9871d268f0c4d723fd6f3a2234b04a1ff7b882f155b2",
+      "includes": [
+        "#include \"amber99sb-ildn.ff/forcefield.itp\"",
+        "#include \"SJF8240.itp\"",
+        "#include \"topol_Protein_chain_A.itp\"",
+        "#include \"topol_Protein_chain_D.itp\"",
+        "#include \"topol_Protein_chain_B.itp\"",
+        "#include \"topol_Protein_chain_C.itp\"",
+        "#include \"amber99sb-ildn.ff/tip3p.itp\"",
+        "#include \"amber99sb-ildn.ff/ions.itp\""
+      ]
+    },
+    {
+      "poi": "AXL",
+      "pose_id": "pose011",
+      "source": "/home/ayushregmibagale/protac-md/random_screen/AXL/pose011/topol/topol.top",
+      "sha256": "b1cc5d5d87f60702d93ce69206cdbab4157690db73dade58737d41104645c2ec",
+      "includes": [
+        "#include \"amber99sb-ildn.ff/forcefield.itp\"",
+        "#include \"SJF8240.itp\"",
+        "#include \"topol_Protein_chain_A.itp\"",
+        "#include \"topol_Protein_chain_D.itp\"",
+        "#include \"topol_Protein_chain_B.itp\"",
+        "#include \"topol_Protein_chain_C.itp\"",
+        "#include \"amber99sb-ildn.ff/tip3p.itp\"",
+        "#include \"amber99sb-ildn.ff/ions.itp\""
+      ]
+    },
+    {
+      "poi": "AXL",
+      "pose_id": "pose012",
+      "source": "/home/ayushregmibagale/protac-md/random_screen/AXL/pose012/topol/topol.top",
+      "sha256": "6ec7fbb33e7e657e2fbeaafe2e224f853f5c37e6cf53c019c5f8713ee8989dbe",
+      "includes": [
+        "#include \"amber99sb-ildn.ff/forcefield.itp\"",
+        "#include \"SJF8240.itp\"",
+        "#include \"topol_Protein_chain_A.itp\"",
+        "#include \"topol_Protein_chain_D.itp\"",
+        "#include \"topol_Protein_chain_B.itp\"",
+        "#include \"topol_Protein_chain_C.itp\"",
+        "#include \"amber99sb-ildn.ff/tip3p.itp\"",
+        "#include \"amber99sb-ildn.ff/ions.itp\""
+      ]
+    },
+    {
+      "poi": "AXL",
+      "pose_id": "pose013",
+      "source": "/home/ayushregmibagale/protac-md/random_screen/AXL/pose013/topol/topol.top",
+      "sha256": "3bded78ad7f90595af4474637293cb87c962d6ef955426f2db31bc62ea374664",
+      "includes": [
+        "#include \"amber99sb-ildn.ff/forcefield.itp\"",
+        "#include \"SJF8240.itp\"",
+        "#include \"topol_Protein_chain_A.itp\"",
+        "#include \"topol_Protein_chain_D.itp\"",
+        "#include \"topol_Protein_chain_B.itp\"",
+        "#include \"topol_Protein_chain_C.itp\"",
+        "#include \"amber99sb-ildn.ff/tip3p.itp\"",
+        "#include \"amber99sb-ildn.ff/ions.itp\""
+      ]
+    },
+    {
+      "poi": "AXL",
+      "pose_id": "pose015",
+      "source": "/home/ayushregmibagale/protac-md/random_screen/AXL/pose015/topol/topol.top",
+      "sha256": "b4c608eca63dd48b06254a2eba65c6601d4172c8e918f7529013a7aceb91e4a5",
+      "includes": [
+        "#include \"amber99sb-ildn.ff/forcefield.itp\"",
+        "#include \"SJF8240.itp\"",
+        "#include \"topol_Protein_chain_A.itp\"",
+        "#include \"topol_Protein_chain_D.itp\"",
+        "#include \"topol_Protein_chain_B.itp\"",
+        "#include \"topol_Protein_chain_C.itp\"",
+        "#include \"amber99sb-ildn.ff/tip3p.itp\"",
+        "#include \"amber99sb-ildn.ff/ions.itp\""
+      ]
+    },
+    {
+      "poi": "AXL",
+      "pose_id": "pose016",
+      "source": "/home/ayushregmibagale/protac-md/random_screen/AXL/pose016/topol/topol.top",
+      "sha256": "2936edd26ff15c23c0aea6a41f8d73927986d5a648fdcd7024670167d2415711",
+      "includes": [
+        "#include \"amber99sb-ildn.ff/forcefield.itp\"",
+        "#include \"SJF8240.itp\"",
+        "#include \"topol_Protein_chain_A.itp\"",
+        "#include \"topol_Protein_chain_D.itp\"",
+        "#include \"topol_Protein_chain_B.itp\"",
+        "#include \"topol_Protein_chain_C.itp\"",
+        "#include \"amber99sb-ildn.ff/tip3p.itp\"",
+        "#include \"amber99sb-ildn.ff/ions.itp\""
+      ]
+    },
+    {
+      "poi": "AXL",
+      "pose_id": "pose017",
+      "source": "/home/ayushregmibagale/protac-md/random_screen/AXL/pose017/topol/topol.top",
+      "sha256": "fab3ad87ade69eda074a910d01f290febf43765796a1f41797771fe0da20df63",
+      "includes": [
+        "#include \"amber99sb-ildn.ff/forcefield.itp\"",
+        "#include \"SJF8240.itp\"",
+        "#include \"topol_Protein_chain_A.itp\"",
+        "#include \"topol_Protein_chain_D.itp\"",
+        "#include \"topol_Protein_chain_B.itp\"",
+        "#include \"topol_Protein_chain_C.itp\"",
+        "#include \"amber99sb-ildn.ff/tip3p.itp\"",
+        "#include \"amber99sb-ildn.ff/ions.itp\""
+      ]
+    },
+    {
+      "poi": "AXL",
+      "pose_id": "pose018",
+      "source": "/home/ayushregmibagale/protac-md/random_screen/AXL/pose018/topol/topol.top",
+      "sha256": "2aa0f59a786ca99b21875788dc3c0ce4aa6195ee10eb593af3c10ca91177b714",
+      "includes": [
+        "#include \"amber99sb-ildn.ff/forcefield.itp\"",
+        "#include \"SJF8240.itp\"",
+        "#include \"topol_Protein_chain_A.itp\"",
+        "#include \"topol_Protein_chain_D.itp\"",
+        "#include \"topol_Protein_chain_B.itp\"",
+        "#include \"topol_Protein_chain_C.itp\"",
+        "#include \"amber99sb-ildn.ff/tip3p.itp\"",
+        "#include \"amber99sb-ildn.ff/ions.itp\""
+      ]
+    },
+    {
+      "poi": "AXL",
+      "pose_id": "pose019",
+      "source": "/home/ayushregmibagale/protac-md/random_screen/AXL/pose019/topol/topol.top",
+      "sha256": "09afdfbf737c57b9d68ff09cd61248df8d5f21b198e651caf346f6918a3b80a5",
+      "includes": [
+        "#include \"amber99sb-ildn.ff/forcefield.itp\"",
+        "#include \"SJF8240.itp\"",
+        "#include \"topol_Protein_chain_A.itp\"",
+        "#include \"topol_Protein_chain_D.itp\"",
+        "#include \"topol_Protein_chain_B.itp\"",
+        "#include \"topol_Protein_chain_C.itp\"",
+        "#include \"amber99sb-ildn.ff/tip3p.itp\"",
+        "#include \"amber99sb-ildn.ff/ions.itp\""
+      ]
+    },
+    {
+      "poi": "AXL",
+      "pose_id": "pose020",
+      "source": "/home/ayushregmibagale/protac-md/random_screen/AXL/pose020/topol/topol.top",
+      "sha256": "686e9ea011499469132b8d90cabde46c71fdf3705f7d6b1695fb48144c3a60bd",
+      "includes": [
+        "#include \"amber99sb-ildn.ff/forcefield.itp\"",
+        "#include \"SJF8240.itp\"",
+        "#include \"topol_Protein_chain_A.itp\"",
+        "#include \"topol_Protein_chain_D.itp\"",
+        "#include \"topol_Protein_chain_B.itp\"",
+        "#include \"topol_Protein_chain_C.itp\"",
+        "#include \"amber99sb-ildn.ff/tip3p.itp\"",
+        "#include \"amber99sb-ildn.ff/ions.itp\""
+      ]
+    },
+    {
+      "poi": "EPHA2",
+      "pose_id": "pose001",
+      "source": "/home/ayushregmibagale/protac-md/random_screen/EPHA2/pose001/topol/topol.top",
+      "sha256": "946ed9796f36779a850ef08714161338b104c9a27eca9a0e81fd8ff1567bc9e2",
+      "includes": [
+        "#include \"amber99sb-ildn.ff/forcefield.itp\"",
+        "#include \"SJF8240.itp\"",
+        "#include \"topol_Protein_chain_A.itp\"",
+        "#include \"topol_Protein_chain_D.itp\"",
+        "#include \"topol_Protein_chain_B.itp\"",
+        "#include \"topol_Protein_chain_C.itp\"",
+        "#include \"amber99sb-ildn.ff/tip3p.itp\"",
+        "#include \"amber99sb-ildn.ff/ions.itp\""
+      ]
+    },
+    {
+      "poi": "EPHA2",
+      "pose_id": "pose002",
+      "source": "/home/ayushregmibagale/protac-md/random_screen/EPHA2/pose002/topol/topol.top",
+      "sha256": "b3374e862a54898aebaf85583961c974e1f44467b36b5a70c90384bcdda7119b",
+      "includes": [
+        "#include \"amber99sb-ildn.ff/forcefield.itp\"",
+        "#include \"SJF8240.itp\"",
+        "#include \"topol_Protein_chain_A.itp\"",
+        "#include \"topol_Protein_chain_D.itp\"",
+        "#include \"topol_Protein_chain_B.itp\"",
+        "#include \"topol_Protein_chain_C.itp\"",
+        "#include \"amber99sb-ildn.ff/tip3p.itp\"",
+        "#include \"amber99sb-ildn.ff/ions.itp\""
+      ]
+    },
+    {
+      "poi": "EPHA2",
+      "pose_id": "pose003",
+      "source": "/home/ayushregmibagale/protac-md/random_screen/EPHA2/pose003/topol/topol.top",
+      "sha256": "5279e31c3281fc2716a01a102e776d2aff5f4c30d66072711395b7ed231d1296",
+      "includes": [
+        "#include \"amber99sb-ildn.ff/forcefield.itp\"",
+        "#include \"SJF8240.itp\"",
+        "#include \"topol_Protein_chain_A.itp\"",
+        "#include \"topol_Protein_chain_D.itp\"",
+        "#include \"topol_Protein_chain_B.itp\"",
+        "#include \"topol_Protein_chain_C.itp\"",
+        "#include \"amber99sb-ildn.ff/tip3p.itp\"",
+        "#include \"amber99sb-ildn.ff/ions.itp\""
+      ]
+    },
+    {
+      "poi": "EPHA2",
+      "pose_id": "pose004",
+      "source": "/home/ayushregmibagale/protac-md/random_screen/EPHA2/pose004/topol/topol.top",
+      "sha256": "8b9db1f1a2609f28d854efa45ea7093f641c6bf20efe28b0d8d85277aea14372",
+      "includes": [
+        "#include \"amber99sb-ildn.ff/forcefield.itp\"",
+        "#include \"SJF8240.itp\"",
+        "#include \"topol_Protein_chain_A.itp\"",
+        "#include \"topol_Protein_chain_D.itp\"",
+        "#include \"topol_Protein_chain_B.itp\"",
+        "#include \"topol_Protein_chain_C.itp\"",
+        "#include \"amber99sb-ildn.ff/tip3p.itp\"",
+        "#include \"amber99sb-ildn.ff/ions.itp\""
+      ]
+    },
+    {
+      "poi": "EPHA2",
+      "pose_id": "pose005",
+      "source": "/home/ayushregmibagale/protac-md/random_screen/EPHA2/pose005/topol/topol.top",
+      "sha256": "051daf30e11c50b7191e243b1b2f60b2a590ef4284373d6e82d7a2b9c3263370",
+      "includes": [
+        "#include \"amber99sb-ildn.ff/forcefield.itp\"",
+        "#include \"SJF8240.itp\"",
+        "#include \"topol_Protein_chain_A.itp\"",
+        "#include \"topol_Protein_chain_D.itp\"",
+        "#include \"topol_Protein_chain_B.itp\"",
+        "#include \"topol_Protein_chain_C.itp\"",
+        "#include \"amber99sb-ildn.ff/tip3p.itp\"",
+        "#include \"amber99sb-ildn.ff/ions.itp\""
+      ]
+    },
+    {
+      "poi": "EPHA2",
+      "pose_id": "pose006",
+      "source": "/home/ayushregmibagale/protac-md/random_screen/EPHA2/pose006/topol/topol.top",
+      "sha256": "e35d2e00de14a7a4d9fe7b99da56eda35da27e7f857ab1b51083d10f8ae5d601",
+      "includes": [
+        "#include \"amber99sb-ildn.ff/forcefield.itp\"",
+        "#include \"SJF8240.itp\"",
+        "#include \"topol_Protein_chain_A.itp\"",
+        "#include \"topol_Protein_chain_D.itp\"",
+        "#include \"topol_Protein_chain_B.itp\"",
+        "#include \"topol_Protein_chain_C.itp\"",
+        "#include \"amber99sb-ildn.ff/tip3p.itp\"",
+        "#include \"amber99sb-ildn.ff/ions.itp\""
+      ]
+    },
+    {
+      "poi": "EPHA2",
+      "pose_id": "pose007",
+      "source": "/home/ayushregmibagale/protac-md/random_screen/EPHA2/pose007/topol/topol.top",
+      "sha256": "d80b08d7cb3cf164f75a55f9cdb362b70de85c84128e4a5f1f0229d1ec353d32",
+      "includes": [
+        "#include \"amber99sb-ildn.ff/forcefield.itp\"",
+        "#include \"SJF8240.itp\"",
+        "#include \"topol_Protein_chain_A.itp\"",
+        "#include \"topol_Protein_chain_D.itp\"",
+        "#include \"topol_Protein_chain_B.itp\"",
+        "#include \"topol_Protein_chain_C.itp\"",
+        "#include \"amber99sb-ildn.ff/tip3p.itp\"",
+        "#include \"amber99sb-ildn.ff/ions.itp\""
+      ]
+    },
+    {
+      "poi": "EPHA2",
+      "pose_id": "pose008",
+      "source": "/home/ayushregmibagale/protac-md/random_screen/EPHA2/pose008/topol/topol.top",
+      "sha256": "410465bfbbdee40c5d02b2e87f703737d3301fe66506ce45122e1aeae30820d1",
+      "includes": [
+        "#include \"amber99sb-ildn.ff/forcefield.itp\"",
+        "#include \"SJF8240.itp\"",
+        "#include \"topol_Protein_chain_A.itp\"",
+        "#include \"topol_Protein_chain_D.itp\"",
+        "#include \"topol_Protein_chain_B.itp\"",
+        "#include \"topol_Protein_chain_C.itp\"",
+        "#include \"amber99sb-ildn.ff/tip3p.itp\"",
+        "#include \"amber99sb-ildn.ff/ions.itp\""
+      ]
+    },
+    {
+      "poi": "EPHA2",
+      "pose_id": "pose009",
+      "source": "/home/ayushregmibagale/protac-md/random_screen/EPHA2/pose009/topol/topol.top",
+      "sha256": "4bd996a39c6103032903fe1caea232bce24b13b953ba5d664c3ae455beb577c6",
+      "includes": [
+        "#include \"amber99sb-ildn.ff/forcefield.itp\"",
+        "#include \"SJF8240.itp\"",
+        "#include \"topol_Protein_chain_A.itp\"",
+        "#include \"topol_Protein_chain_D.itp\"",
+        "#include \"topol_Protein_chain_B.itp\"",
+        "#include \"topol_Protein_chain_C.itp\"",
+        "#include \"amber99sb-ildn.ff/tip3p.itp\"",
+        "#include \"amber99sb-ildn.ff/ions.itp\""
+      ]
+    },
+    {
+      "poi": "EPHA2",
+      "pose_id": "pose010",
+      "source": "/home/ayushregmibagale/protac-md/random_screen/EPHA2/pose010/topol/topol.top",
+      "sha256": "3f331072f6f510de33895c1fc2fdafcae259ee1a6bf8c830fe8f2a63c953ea85",
+      "includes": [
+        "#include \"amber99sb-ildn.ff/forcefield.itp\"",
+        "#include \"SJF8240.itp\"",
+        "#include \"topol_Protein_chain_A.itp\"",
+        "#include \"topol_Protein_chain_D.itp\"",
+        "#include \"topol_Protein_chain_B.itp\"",
+        "#include \"topol_Protein_chain_C.itp\"",
+        "#include \"amber99sb-ildn.ff/tip3p.itp\"",
+        "#include \"amber99sb-ildn.ff/ions.itp\""
+      ]
+    },
+    {
+      "poi": "EPHA2",
+      "pose_id": "pose011",
+      "source": "/home/ayushregmibagale/protac-md/random_screen/EPHA2/pose011/topol/topol.top",
+      "sha256": "715672a48e1eae2cfc6a52ab87b953f808423687779dfdf49711e0e51861e7e0",
+      "includes": [
+        "#include \"amber99sb-ildn.ff/forcefield.itp\"",
+        "#include \"SJF8240.itp\"",
+        "#include \"topol_Protein_chain_A.itp\"",
+        "#include \"topol_Protein_chain_D.itp\"",
+        "#include \"topol_Protein_chain_B.itp\"",
+        "#include \"topol_Protein_chain_C.itp\"",
+        "#include \"amber99sb-ildn.ff/tip3p.itp\"",
+        "#include \"amber99sb-ildn.ff/ions.itp\""
+      ]
+    },
+    {
+      "poi": "EPHA2",
+      "pose_id": "pose012",
+      "source": "/home/ayushregmibagale/protac-md/random_screen/EPHA2/pose012/topol/topol.top",
+      "sha256": "4c7368782c7bca6945cb09187c36654985075731fd16c5b223a30893566d3852",
+      "includes": [
+        "#include \"amber99sb-ildn.ff/forcefield.itp\"",
+        "#include \"SJF8240.itp\"",
+        "#include \"topol_Protein_chain_A.itp\"",
+        "#include \"topol_Protein_chain_D.itp\"",
+        "#include \"topol_Protein_chain_B.itp\"",
+        "#include \"topol_Protein_chain_C.itp\"",
+        "#include \"amber99sb-ildn.ff/tip3p.itp\"",
+        "#include \"amber99sb-ildn.ff/ions.itp\""
+      ]
+    },
+    {
+      "poi": "EPHA2",
+      "pose_id": "pose013",
+      "source": "/home/ayushregmibagale/protac-md/random_screen/EPHA2/pose013/topol/topol.top",
+      "sha256": "549fc99ff636ab76675aaf28da5c5743bda13ea2902036b86e8c9556b6696a62",
+      "includes": [
+        "#include \"amber99sb-ildn.ff/forcefield.itp\"",
+        "#include \"SJF8240.itp\"",
+        "#include \"topol_Protein_chain_A.itp\"",
+        "#include \"topol_Protein_chain_D.itp\"",
+        "#include \"topol_Protein_chain_B.itp\"",
+        "#include \"topol_Protein_chain_C.itp\"",
+        "#include \"amber99sb-ildn.ff/tip3p.itp\"",
+        "#include \"amber99sb-ildn.ff/ions.itp\""
+      ]
+    },
+    {
+      "poi": "EPHA2",
+      "pose_id": "pose015",
+      "source": "/home/ayushregmibagale/protac-md/random_screen/EPHA2/pose015/topol/topol.top",
+      "sha256": "2f14d2ed71d08b3f41831f4af99385f68035d32ff16a0157fc4eb70aa0eacd41",
+      "includes": [
+        "#include \"amber99sb-ildn.ff/forcefield.itp\"",
+        "#include \"SJF8240.itp\"",
+        "#include \"topol_Protein_chain_A.itp\"",
+        "#include \"topol_Protein_chain_D.itp\"",
+        "#include \"topol_Protein_chain_B.itp\"",
+        "#include \"topol_Protein_chain_C.itp\"",
+        "#include \"amber99sb-ildn.ff/tip3p.itp\"",
+        "#include \"amber99sb-ildn.ff/ions.itp\""
+      ]
+    },
+    {
+      "poi": "EPHA2",
+      "pose_id": "pose017",
+      "source": "/home/ayushregmibagale/protac-md/random_screen/EPHA2/pose017/topol/topol.top",
+      "sha256": "b3b9e97425c9ada7e1988e3a17b8ff71750bd30323055ffa99562a294c4dc551",
+      "includes": [
+        "#include \"amber99sb-ildn.ff/forcefield.itp\"",
+        "#include \"SJF8240.itp\"",
+        "#include \"topol_Protein_chain_A.itp\"",
+        "#include \"topol_Protein_chain_D.itp\"",
+        "#include \"topol_Protein_chain_B.itp\"",
+        "#include \"topol_Protein_chain_C.itp\"",
+        "#include \"amber99sb-ildn.ff/tip3p.itp\"",
+        "#include \"amber99sb-ildn.ff/ions.itp\""
+      ]
+    },
+    {
+      "poi": "EPHA2",
+      "pose_id": "pose018",
+      "source": "/home/ayushregmibagale/protac-md/random_screen/EPHA2/pose018/topol/topol.top",
+      "sha256": "9d0a1d83ab05b2ef116f5cabe834d376de72c11a95e406298aa805ecc7843064",
+      "includes": [
+        "#include \"amber99sb-ildn.ff/forcefield.itp\"",
+        "#include \"SJF8240.itp\"",
+        "#include \"topol_Protein_chain_A.itp\"",
+        "#include \"topol_Protein_chain_D.itp\"",
+        "#include \"topol_Protein_chain_B.itp\"",
+        "#include \"topol_Protein_chain_C.itp\"",
+        "#include \"amber99sb-ildn.ff/tip3p.itp\"",
+        "#include \"amber99sb-ildn.ff/ions.itp\""
+      ]
+    },
+    {
+      "poi": "EPHA2",
+      "pose_id": "pose019",
+      "source": "/home/ayushregmibagale/protac-md/random_screen/EPHA2/pose019/topol/topol.top",
+      "sha256": "820652ede9de31eaa9f06a356c086ce2eb43aa0ab430254b570ce8934aadbf07",
+      "includes": [
+        "#include \"amber99sb-ildn.ff/forcefield.itp\"",
+        "#include \"SJF8240.itp\"",
+        "#include \"topol_Protein_chain_A.itp\"",
+        "#include \"topol_Protein_chain_D.itp\"",
+        "#include \"topol_Protein_chain_B.itp\"",
+        "#include \"topol_Protein_chain_C.itp\"",
+        "#include \"amber99sb-ildn.ff/tip3p.itp\"",
+        "#include \"amber99sb-ildn.ff/ions.itp\""
+      ]
+    },
+    {
+      "poi": "EPHA2",
+      "pose_id": "pose020",
+      "source": "/home/ayushregmibagale/protac-md/random_screen/EPHA2/pose020/topol/topol.top",
+      "sha256": "7da9544adae3eddf1c3ad65124955f0fe8a2e17be5e14e261287dd537cfa5e6c",
+      "includes": [
+        "#include \"amber99sb-ildn.ff/forcefield.itp\"",
+        "#include \"SJF8240.itp\"",
+        "#include \"topol_Protein_chain_A.itp\"",
+        "#include \"topol_Protein_chain_D.itp\"",
+        "#include \"topol_Protein_chain_B.itp\"",
+        "#include \"topol_Protein_chain_C.itp\"",
+        "#include \"amber99sb-ildn.ff/tip3p.itp\"",
+        "#include \"amber99sb-ildn.ff/ions.itp\""
+      ]
+    },
+    {
+      "poi": "SIK3",
+      "pose_id": "pose002",
+      "source": "/home/ayushregmibagale/protac-md/random_screen/SIK3/pose002/topol/topol.top",
+      "sha256": "a7371e58f461cc77bf9b220f39927cd0ae765c6a047ae0cd3399f1b26febfeaa",
+      "includes": [
+        "#include \"amber99sb-ildn.ff/forcefield.itp\"",
+        "#include \"SJF8240.itp\"",
+        "#include \"topol_Protein_chain_A.itp\"",
+        "#include \"topol_Protein_chain_D.itp\"",
+        "#include \"topol_Protein_chain_B.itp\"",
+        "#include \"topol_Protein_chain_C.itp\"",
+        "#include \"amber99sb-ildn.ff/tip3p.itp\"",
+        "#include \"amber99sb-ildn.ff/ions.itp\""
+      ]
+    },
+    {
+      "poi": "SIK3",
+      "pose_id": "pose003",
+      "source": "/home/ayushregmibagale/protac-md/random_screen/SIK3/pose003/topol/topol.top",
+      "sha256": "8d86a99f65b89ad865c7e8c0a6178b25eb5500e0dfb87ff4401e6bf1c3385502",
+      "includes": [
+        "#include \"amber99sb-ildn.ff/forcefield.itp\"",
+        "#include \"SJF8240.itp\"",
+        "#include \"topol_Protein_chain_A.itp\"",
+        "#include \"topol_Protein_chain_D.itp\"",
+        "#include \"topol_Protein_chain_B.itp\"",
+        "#include \"topol_Protein_chain_C.itp\"",
+        "#include \"amber99sb-ildn.ff/tip3p.itp\"",
+        "#include \"amber99sb-ildn.ff/ions.itp\""
+      ]
+    },
+    {
+      "poi": "SIK3",
+      "pose_id": "pose006",
+      "source": "/home/ayushregmibagale/protac-md/random_screen/SIK3/pose006/topol/topol.top",
+      "sha256": "e98203d888907c4286b447e57e6775660b1b66401848490bbba9b3e73209b9f2",
+      "includes": [
+        "#include \"amber99sb-ildn.ff/forcefield.itp\"",
+        "#include \"SJF8240.itp\"",
+        "#include \"topol_Protein_chain_A.itp\"",
+        "#include \"topol_Protein_chain_D.itp\"",
+        "#include \"topol_Protein_chain_B.itp\"",
+        "#include \"topol_Protein_chain_C.itp\"",
+        "#include \"amber99sb-ildn.ff/tip3p.itp\"",
+        "#include \"amber99sb-ildn.ff/ions.itp\""
+      ]
+    },
+    {
+      "poi": "SIK3",
+      "pose_id": "pose008",
+      "source": "/home/ayushregmibagale/protac-md/random_screen/SIK3/pose008/topol/topol.top",
+      "sha256": "8f53201421cdda706cd54c6202d2bd34dbe05b958b15ceed7913737dd04298ba",
+      "includes": [
+        "#include \"amber99sb-ildn.ff/forcefield.itp\"",
+        "#include \"SJF8240.itp\"",
+        "#include \"topol_Protein_chain_A.itp\"",
+        "#include \"topol_Protein_chain_D.itp\"",
+        "#include \"topol_Protein_chain_B.itp\"",
+        "#include \"topol_Protein_chain_C.itp\"",
+        "#include \"amber99sb-ildn.ff/tip3p.itp\"",
+        "#include \"amber99sb-ildn.ff/ions.itp\""
+      ]
+    },
+    {
+      "poi": "SIK3",
+      "pose_id": "pose009",
+      "source": "/home/ayushregmibagale/protac-md/random_screen/SIK3/pose009/topol/topol.top",
+      "sha256": "d54d7a325607ed5ff6014c5066939729d1357d4bfb13a6cb00379731dee26060",
+      "includes": [
+        "#include \"amber99sb-ildn.ff/forcefield.itp\"",
+        "#include \"SJF8240.itp\"",
+        "#include \"topol_Protein_chain_A.itp\"",
+        "#include \"topol_Protein_chain_D.itp\"",
+        "#include \"topol_Protein_chain_B.itp\"",
+        "#include \"topol_Protein_chain_C.itp\"",
+        "#include \"amber99sb-ildn.ff/tip3p.itp\"",
+        "#include \"amber99sb-ildn.ff/ions.itp\""
+      ]
+    },
+    {
+      "poi": "SIK3",
+      "pose_id": "pose010",
+      "source": "/home/ayushregmibagale/protac-md/random_screen/SIK3/pose010/topol/topol.top",
+      "sha256": "442cc977c68eeffa101116f02e8a49487fbd371832d5575eadd7f64cddf59196",
+      "includes": [
+        "#include \"amber99sb-ildn.ff/forcefield.itp\"",
+        "#include \"SJF8240.itp\"",
+        "#include \"topol_Protein_chain_A.itp\"",
+        "#include \"topol_Protein_chain_D.itp\"",
+        "#include \"topol_Protein_chain_B.itp\"",
+        "#include \"topol_Protein_chain_C.itp\"",
+        "#include \"amber99sb-ildn.ff/tip3p.itp\"",
+        "#include \"amber99sb-ildn.ff/ions.itp\""
+      ]
+    },
+    {
+      "poi": "SIK3",
+      "pose_id": "pose011",
+      "source": "/home/ayushregmibagale/protac-md/random_screen/SIK3/pose011/topol/topol.top",
+      "sha256": "3cf5b4dd03366715dd900cf85fb19f6cbabc0dfea5bfebee333181685d5f555e",
+      "includes": [
+        "#include \"amber99sb-ildn.ff/forcefield.itp\"",
+        "#include \"SJF8240.itp\"",
+        "#include \"topol_Protein_chain_A.itp\"",
+        "#include \"topol_Protein_chain_D.itp\"",
+        "#include \"topol_Protein_chain_B.itp\"",
+        "#include \"topol_Protein_chain_C.itp\"",
+        "#include \"amber99sb-ildn.ff/tip3p.itp\"",
+        "#include \"amber99sb-ildn.ff/ions.itp\""
+      ]
+    },
+    {
+      "poi": "SIK3",
+      "pose_id": "pose012",
+      "source": "/home/ayushregmibagale/protac-md/random_screen/SIK3/pose012/topol/topol.top",
+      "sha256": "8ccab41a67daed5f40bdfbe7b1423b3a4de683f0cae4f3defd224ffa747f5102",
+      "includes": [
+        "#include \"amber99sb-ildn.ff/forcefield.itp\"",
+        "#include \"SJF8240.itp\"",
+        "#include \"topol_Protein_chain_A.itp\"",
+        "#include \"topol_Protein_chain_D.itp\"",
+        "#include \"topol_Protein_chain_B.itp\"",
+        "#include \"topol_Protein_chain_C.itp\"",
+        "#include \"amber99sb-ildn.ff/tip3p.itp\"",
+        "#include \"amber99sb-ildn.ff/ions.itp\""
+      ]
+    },
+    {
+      "poi": "SIK3",
+      "pose_id": "pose013",
+      "source": "/home/ayushregmibagale/protac-md/random_screen/SIK3/pose013/topol/topol.top",
+      "sha256": "ece458e7caea376ece3561e4653a2a2e8ff366302f385605f96804f7810492c2",
+      "includes": [
+        "#include \"amber99sb-ildn.ff/forcefield.itp\"",
+        "#include \"SJF8240.itp\"",
+        "#include \"topol_Protein_chain_A.itp\"",
+        "#include \"topol_Protein_chain_D.itp\"",
+        "#include \"topol_Protein_chain_B.itp\"",
+        "#include \"topol_Protein_chain_C.itp\"",
+        "#include \"amber99sb-ildn.ff/tip3p.itp\"",
+        "#include \"amber99sb-ildn.ff/ions.itp\""
+      ]
+    },
+    {
+      "poi": "SIK3",
+      "pose_id": "pose014",
+      "source": "/home/ayushregmibagale/protac-md/random_screen/SIK3/pose014/topol/topol.top",
+      "sha256": "541149b26ff0f3c4067ba1975ec5c592be9720bae8f67a9dd241f2e34df5ea75",
+      "includes": [
+        "#include \"amber99sb-ildn.ff/forcefield.itp\"",
+        "#include \"SJF8240.itp\"",
+        "#include \"topol_Protein_chain_A.itp\"",
+        "#include \"topol_Protein_chain_D.itp\"",
+        "#include \"topol_Protein_chain_B.itp\"",
+        "#include \"topol_Protein_chain_C.itp\"",
+        "#include \"amber99sb-ildn.ff/tip3p.itp\"",
+        "#include \"amber99sb-ildn.ff/ions.itp\""
+      ]
+    },
+    {
+      "poi": "SIK3",
+      "pose_id": "pose015",
+      "source": "/home/ayushregmibagale/protac-md/random_screen/SIK3/pose015/topol/topol.top",
+      "sha256": "7fd3f48da1820cb567e9c521cdd2ec7b8db81886794e1aa8b13067484f0e4e09",
+      "includes": [
+        "#include \"amber99sb-ildn.ff/forcefield.itp\"",
+        "#include \"SJF8240.itp\"",
+        "#include \"topol_Protein_chain_A.itp\"",
+        "#include \"topol_Protein_chain_D.itp\"",
+        "#include \"topol_Protein_chain_B.itp\"",
+        "#include \"topol_Protein_chain_C.itp\"",
+        "#include \"amber99sb-ildn.ff/tip3p.itp\"",
+        "#include \"amber99sb-ildn.ff/ions.itp\""
+      ]
+    },
+    {
+      "poi": "SIK3",
+      "pose_id": "pose016",
+      "source": "/home/ayushregmibagale/protac-md/random_screen/SIK3/pose016/topol/topol.top",
+      "sha256": "d07440d7d75c9a8bf444a3debc3041aa44a090aaa413a211c5d439bb9e1c2c85",
+      "includes": [
+        "#include \"amber99sb-ildn.ff/forcefield.itp\"",
+        "#include \"SJF8240.itp\"",
+        "#include \"topol_Protein_chain_A.itp\"",
+        "#include \"topol_Protein_chain_D.itp\"",
+        "#include \"topol_Protein_chain_B.itp\"",
+        "#include \"topol_Protein_chain_C.itp\"",
+        "#include \"amber99sb-ildn.ff/tip3p.itp\"",
+        "#include \"amber99sb-ildn.ff/ions.itp\""
+      ]
+    },
+    {
+      "poi": "SIK3",
+      "pose_id": "pose017",
+      "source": "/home/ayushregmibagale/protac-md/random_screen/SIK3/pose017/topol/topol.top",
+      "sha256": "bdff36e9ea9cee8cd28c1527d2673a56d4b45d3b97b2539182ae70178b72c87b",
+      "includes": [
+        "#include \"amber99sb-ildn.ff/forcefield.itp\"",
+        "#include \"SJF8240.itp\"",
+        "#include \"topol_Protein_chain_A.itp\"",
+        "#include \"topol_Protein_chain_D.itp\"",
+        "#include \"topol_Protein_chain_B.itp\"",
+        "#include \"topol_Protein_chain_C.itp\"",
+        "#include \"amber99sb-ildn.ff/tip3p.itp\"",
+        "#include \"amber99sb-ildn.ff/ions.itp\""
+      ]
+    },
+    {
+      "poi": "SIK3",
+      "pose_id": "pose019",
+      "source": "/home/ayushregmibagale/protac-md/random_screen/SIK3/pose019/topol/topol.top",
+      "sha256": "9bb431b9df3b8bb88d70b5a5796e1f15ad734ce53a987b1737ac025c20b1a69e",
+      "includes": [
+        "#include \"amber99sb-ildn.ff/forcefield.itp\"",
+        "#include \"SJF8240.itp\"",
+        "#include \"topol_Protein_chain_A.itp\"",
+        "#include \"topol_Protein_chain_D.itp\"",
+        "#include \"topol_Protein_chain_B.itp\"",
+        "#include \"topol_Protein_chain_C.itp\"",
+        "#include \"amber99sb-ildn.ff/tip3p.itp\"",
+        "#include \"amber99sb-ildn.ff/ions.itp\""
+      ]
+    },
+    {
+      "poi": "SIK3",
+      "pose_id": "pose020",
+      "source": "/home/ayushregmibagale/protac-md/random_screen/SIK3/pose020/topol/topol.top",
+      "sha256": "2bc33d78629ab0f3c332e12d09010b946e16b49a9e3a3125d0b46c222f4a883f",
+      "includes": [
+        "#include \"amber99sb-ildn.ff/forcefield.itp\"",
+        "#include \"SJF8240.itp\"",
+        "#include \"topol_Protein_chain_A.itp\"",
+        "#include \"topol_Protein_chain_D.itp\"",
+        "#include \"topol_Protein_chain_B.itp\"",
+        "#include \"topol_Protein_chain_C.itp\"",
+        "#include \"amber99sb-ildn.ff/tip3p.itp\"",
+        "#include \"amber99sb-ildn.ff/ions.itp\""
+      ]
+    },
+    {
+      "poi": "RPS6KB2",
+      "pose_id": "pose001",
+      "source": "/home/ayushregmibagale/protac-md/random_screen/RPS6KB2/pose001/topol/topol.top",
+      "sha256": "6a65c5ecc52232e2244f093af7049d94f4c9eaac8cf860fb46249be5c6c4caab",
+      "includes": [
+        "#include \"amber99sb-ildn.ff/forcefield.itp\"",
+        "#include \"SJF8240.itp\"",
+        "#include \"topol_Protein_chain_A.itp\"",
+        "#include \"topol_Protein_chain_D.itp\"",
+        "#include \"topol_Protein_chain_B.itp\"",
+        "#include \"topol_Protein_chain_C.itp\"",
+        "#include \"amber99sb-ildn.ff/tip3p.itp\"",
+        "#include \"amber99sb-ildn.ff/ions.itp\""
+      ]
+    },
+    {
+      "poi": "RPS6KB2",
+      "pose_id": "pose002",
+      "source": "/home/ayushregmibagale/protac-md/random_screen/RPS6KB2/pose002/topol/topol.top",
+      "sha256": "6e434f986d861def72b6dd478af68849670a8384e900bef6e7e0a06259bd9b29",
+      "includes": [
+        "#include \"amber99sb-ildn.ff/forcefield.itp\"",
+        "#include \"SJF8240.itp\"",
+        "#include \"topol_Protein_chain_A.itp\"",
+        "#include \"topol_Protein_chain_D.itp\"",
+        "#include \"topol_Protein_chain_B.itp\"",
+        "#include \"topol_Protein_chain_C.itp\"",
+        "#include \"amber99sb-ildn.ff/tip3p.itp\"",
+        "#include \"amber99sb-ildn.ff/ions.itp\""
+      ]
+    },
+    {
+      "poi": "RPS6KB2",
+      "pose_id": "pose003",
+      "source": "/home/ayushregmibagale/protac-md/random_screen/RPS6KB2/pose003/topol/topol.top",
+      "sha256": "c4ff075f5b0e292da5ff22c2c488ec7738bd9e783a949680cd28a34af7acb0be",
+      "includes": [
+        "#include \"amber99sb-ildn.ff/forcefield.itp\"",
+        "#include \"SJF8240.itp\"",
+        "#include \"topol_Protein_chain_A.itp\"",
+        "#include \"topol_Protein_chain_D.itp\"",
+        "#include \"topol_Protein_chain_B.itp\"",
+        "#include \"topol_Protein_chain_C.itp\"",
+        "#include \"amber99sb-ildn.ff/tip3p.itp\"",
+        "#include \"amber99sb-ildn.ff/ions.itp\""
+      ]
+    },
+    {
+      "poi": "RPS6KB2",
+      "pose_id": "pose004",
+      "source": "/home/ayushregmibagale/protac-md/random_screen/RPS6KB2/pose004/topol/topol.top",
+      "sha256": "64a13fac9b8dd1686f324713ccbea200e1f31fa6c4fe8096af57860211672130",
+      "includes": [
+        "#include \"amber99sb-ildn.ff/forcefield.itp\"",
+        "#include \"SJF8240.itp\"",
+        "#include \"topol_Protein_chain_A.itp\"",
+        "#include \"topol_Protein_chain_D.itp\"",
+        "#include \"topol_Protein_chain_B.itp\"",
+        "#include \"topol_Protein_chain_C.itp\"",
+        "#include \"amber99sb-ildn.ff/tip3p.itp\"",
+        "#include \"amber99sb-ildn.ff/ions.itp\""
+      ]
+    },
+    {
+      "poi": "RPS6KB2",
+      "pose_id": "pose005",
+      "source": "/home/ayushregmibagale/protac-md/random_screen/RPS6KB2/pose005/topol/topol.top",
+      "sha256": "b90b65ae0cf4a14499fb53dbfba46f27d67009c8ede44526b1a5c7adab423b30",
+      "includes": [
+        "#include \"amber99sb-ildn.ff/forcefield.itp\"",
+        "#include \"SJF8240.itp\"",
+        "#include \"topol_Protein_chain_A.itp\"",
+        "#include \"topol_Protein_chain_D.itp\"",
+        "#include \"topol_Protein_chain_B.itp\"",
+        "#include \"topol_Protein_chain_C.itp\"",
+        "#include \"amber99sb-ildn.ff/tip3p.itp\"",
+        "#include \"amber99sb-ildn.ff/ions.itp\""
+      ]
+    },
+    {
+      "poi": "RPS6KB2",
+      "pose_id": "pose006",
+      "source": "/home/ayushregmibagale/protac-md/random_screen/RPS6KB2/pose006/topol/topol.top",
+      "sha256": "4dd0ac02f9a51ea620b91b792bb501103756e401416c4c4d48eeb30aada3e44e",
+      "includes": [
+        "#include \"amber99sb-ildn.ff/forcefield.itp\"",
+        "#include \"SJF8240.itp\"",
+        "#include \"topol_Protein_chain_A.itp\"",
+        "#include \"topol_Protein_chain_D.itp\"",
+        "#include \"topol_Protein_chain_B.itp\"",
+        "#include \"topol_Protein_chain_C.itp\"",
+        "#include \"amber99sb-ildn.ff/tip3p.itp\"",
+        "#include \"amber99sb-ildn.ff/ions.itp\""
+      ]
+    },
+    {
+      "poi": "RPS6KB2",
+      "pose_id": "pose008",
+      "source": "/home/ayushregmibagale/protac-md/random_screen/RPS6KB2/pose008/topol/topol.top",
+      "sha256": "fa4752d36ef49d59cb9a28fbec7286b2ee27a0ff035f8f6a56a885862ff9496d",
+      "includes": [
+        "#include \"amber99sb-ildn.ff/forcefield.itp\"",
+        "#include \"SJF8240.itp\"",
+        "#include \"topol_Protein_chain_A.itp\"",
+        "#include \"topol_Protein_chain_D.itp\"",
+        "#include \"topol_Protein_chain_B.itp\"",
+        "#include \"topol_Protein_chain_C.itp\"",
+        "#include \"amber99sb-ildn.ff/tip3p.itp\"",
+        "#include \"amber99sb-ildn.ff/ions.itp\""
+      ]
+    },
+    {
+      "poi": "RPS6KB2",
+      "pose_id": "pose009",
+      "source": "/home/ayushregmibagale/protac-md/random_screen/RPS6KB2/pose009/topol/topol.top",
+      "sha256": "e78b8682d7d296536c74e6a8d02c8e20b5a9458d85434d5989840988bfa0e1a9",
+      "includes": [
+        "#include \"amber99sb-ildn.ff/forcefield.itp\"",
+        "#include \"SJF8240.itp\"",
+        "#include \"topol_Protein_chain_A.itp\"",
+        "#include \"topol_Protein_chain_D.itp\"",
+        "#include \"topol_Protein_chain_B.itp\"",
+        "#include \"topol_Protein_chain_C.itp\"",
+        "#include \"amber99sb-ildn.ff/tip3p.itp\"",
+        "#include \"amber99sb-ildn.ff/ions.itp\""
+      ]
+    },
+    {
+      "poi": "RPS6KB2",
+      "pose_id": "pose010",
+      "source": "/home/ayushregmibagale/protac-md/random_screen/RPS6KB2/pose010/topol/topol.top",
+      "sha256": "53b51052137a2c8fadeb2c23bde6b7ac7dd5a87fc8f94b2123d47f3e9ec6e43c",
+      "includes": [
+        "#include \"amber99sb-ildn.ff/forcefield.itp\"",
+        "#include \"SJF8240.itp\"",
+        "#include \"topol_Protein_chain_A.itp\"",
+        "#include \"topol_Protein_chain_D.itp\"",
+        "#include \"topol_Protein_chain_B.itp\"",
+        "#include \"topol_Protein_chain_C.itp\"",
+        "#include \"amber99sb-ildn.ff/tip3p.itp\"",
+        "#include \"amber99sb-ildn.ff/ions.itp\""
+      ]
+    },
+    {
+      "poi": "RPS6KB2",
+      "pose_id": "pose011",
+      "source": "/home/ayushregmibagale/protac-md/random_screen/RPS6KB2/pose011/topol/topol.top",
+      "sha256": "3ab9802c4eaebc6a494032cb6912cfee8f88de33064edec4ebaf1ca3b7c80177",
+      "includes": [
+        "#include \"amber99sb-ildn.ff/forcefield.itp\"",
+        "#include \"SJF8240.itp\"",
+        "#include \"topol_Protein_chain_A.itp\"",
+        "#include \"topol_Protein_chain_D.itp\"",
+        "#include \"topol_Protein_chain_B.itp\"",
+        "#include \"topol_Protein_chain_C.itp\"",
+        "#include \"amber99sb-ildn.ff/tip3p.itp\"",
+        "#include \"amber99sb-ildn.ff/ions.itp\""
+      ]
+    },
+    {
+      "poi": "RPS6KB2",
+      "pose_id": "pose012",
+      "source": "/home/ayushregmibagale/protac-md/random_screen/RPS6KB2/pose012/topol/topol.top",
+      "sha256": "32addc307bd28cb437bd8193179e15c1562d633ccc94e5c57dcdcf194fd3006a",
+      "includes": [
+        "#include \"amber99sb-ildn.ff/forcefield.itp\"",
+        "#include \"SJF8240.itp\"",
+        "#include \"topol_Protein_chain_A.itp\"",
+        "#include \"topol_Protein_chain_D.itp\"",
+        "#include \"topol_Protein_chain_B.itp\"",
+        "#include \"topol_Protein_chain_C.itp\"",
+        "#include \"amber99sb-ildn.ff/tip3p.itp\"",
+        "#include \"amber99sb-ildn.ff/ions.itp\""
+      ]
+    },
+    {
+      "poi": "RPS6KB2",
+      "pose_id": "pose013",
+      "source": "/home/ayushregmibagale/protac-md/random_screen/RPS6KB2/pose013/topol/topol.top",
+      "sha256": "2f26293971e8d3ef5e1e1f1a2c4e172eecf2773201c9d8e00637a613c369a2d2",
+      "includes": [
+        "#include \"amber99sb-ildn.ff/forcefield.itp\"",
+        "#include \"SJF8240.itp\"",
+        "#include \"topol_Protein_chain_A.itp\"",
+        "#include \"topol_Protein_chain_D.itp\"",
+        "#include \"topol_Protein_chain_B.itp\"",
+        "#include \"topol_Protein_chain_C.itp\"",
+        "#include \"amber99sb-ildn.ff/tip3p.itp\"",
+        "#include \"amber99sb-ildn.ff/ions.itp\""
+      ]
+    },
+    {
+      "poi": "RPS6KB2",
+      "pose_id": "pose014",
+      "source": "/home/ayushregmibagale/protac-md/random_screen/RPS6KB2/pose014/topol/topol.top",
+      "sha256": "4470cab2d9b62dd8ce232671cb6bc533a73ca399e0c42dfae0c82420ba5d3b16",
+      "includes": [
+        "#include \"amber99sb-ildn.ff/forcefield.itp\"",
+        "#include \"SJF8240.itp\"",
+        "#include \"topol_Protein_chain_A.itp\"",
+        "#include \"topol_Protein_chain_D.itp\"",
+        "#include \"topol_Protein_chain_B.itp\"",
+        "#include \"topol_Protein_chain_C.itp\"",
+        "#include \"amber99sb-ildn.ff/tip3p.itp\"",
+        "#include \"amber99sb-ildn.ff/ions.itp\""
+      ]
+    },
+    {
+      "poi": "RPS6KB2",
+      "pose_id": "pose015",
+      "source": "/home/ayushregmibagale/protac-md/random_screen/RPS6KB2/pose015/topol/topol.top",
+      "sha256": "d10ed8dba228c46e6a9a87496c15059c50e7f6c09940f8e0d7d2c4d4badcfe98",
+      "includes": [
+        "#include \"amber99sb-ildn.ff/forcefield.itp\"",
+        "#include \"SJF8240.itp\"",
+        "#include \"topol_Protein_chain_A.itp\"",
+        "#include \"topol_Protein_chain_D.itp\"",
+        "#include \"topol_Protein_chain_B.itp\"",
+        "#include \"topol_Protein_chain_C.itp\"",
+        "#include \"amber99sb-ildn.ff/tip3p.itp\"",
+        "#include \"amber99sb-ildn.ff/ions.itp\""
+      ]
+    },
+    {
+      "poi": "RPS6KB2",
+      "pose_id": "pose017",
+      "source": "/home/ayushregmibagale/protac-md/random_screen/RPS6KB2/pose017/topol/topol.top",
+      "sha256": "35bf42e4a714230d8836e9667e81f1a0a50832ac4f42a92592f049660127c9a3",
+      "includes": [
+        "#include \"amber99sb-ildn.ff/forcefield.itp\"",
+        "#include \"SJF8240.itp\"",
+        "#include \"topol_Protein_chain_A.itp\"",
+        "#include \"topol_Protein_chain_D.itp\"",
+        "#include \"topol_Protein_chain_B.itp\"",
+        "#include \"topol_Protein_chain_C.itp\"",
+        "#include \"amber99sb-ildn.ff/tip3p.itp\"",
+        "#include \"amber99sb-ildn.ff/ions.itp\""
+      ]
+    },
+    {
+      "poi": "RPS6KB2",
+      "pose_id": "pose018",
+      "source": "/home/ayushregmibagale/protac-md/random_screen/RPS6KB2/pose018/topol/topol.top",
+      "sha256": "843d01a5b51cf0655bfb250f063cd741fd93343c3b754fa95ce608471285566d",
+      "includes": [
+        "#include \"amber99sb-ildn.ff/forcefield.itp\"",
+        "#include \"SJF8240.itp\"",
+        "#include \"topol_Protein_chain_A.itp\"",
+        "#include \"topol_Protein_chain_D.itp\"",
+        "#include \"topol_Protein_chain_B.itp\"",
+        "#include \"topol_Protein_chain_C.itp\"",
+        "#include \"amber99sb-ildn.ff/tip3p.itp\"",
+        "#include \"amber99sb-ildn.ff/ions.itp\""
+      ]
+    },
+    {
+      "poi": "RPS6KB2",
+      "pose_id": "pose019",
+      "source": "/home/ayushregmibagale/protac-md/random_screen/RPS6KB2/pose019/topol/topol.top",
+      "sha256": "f109dcf151011b107bfbb723afad6639ac1e75077ad5a2871b8b4e68ebd4989c",
+      "includes": [
+        "#include \"amber99sb-ildn.ff/forcefield.itp\"",
+        "#include \"SJF8240.itp\"",
+        "#include \"topol_Protein_chain_A.itp\"",
+        "#include \"topol_Protein_chain_D.itp\"",
+        "#include \"topol_Protein_chain_B.itp\"",
+        "#include \"topol_Protein_chain_C.itp\"",
+        "#include \"amber99sb-ildn.ff/tip3p.itp\"",
+        "#include \"amber99sb-ildn.ff/ions.itp\""
+      ]
+    },
+    {
+      "poi": "RPS6KB2",
+      "pose_id": "pose020",
+      "source": "/home/ayushregmibagale/protac-md/random_screen/RPS6KB2/pose020/topol/topol.top",
+      "sha256": "deb78f6198d2caa34f6368433a7dd877eaba529095aac0d26755438a4b9ed2e4",
+      "includes": [
+        "#include \"amber99sb-ildn.ff/forcefield.itp\"",
+        "#include \"SJF8240.itp\"",
+        "#include \"topol_Protein_chain_A.itp\"",
+        "#include \"topol_Protein_chain_D.itp\"",
+        "#include \"topol_Protein_chain_B.itp\"",
+        "#include \"topol_Protein_chain_C.itp\"",
+        "#include \"amber99sb-ildn.ff/tip3p.itp\"",
+        "#include \"amber99sb-ildn.ff/ions.itp\""
+      ]
+    }
+  ],
+  "original_files_modified": false
+}

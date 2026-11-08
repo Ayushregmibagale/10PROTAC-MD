@@ -21,7 +21,7 @@ Original /home/ayushregmibagale/protac-md, /mnt/d/PROTAC degradation Prediction 
 
 ## Current verification
 
-136 analysis tests passed. Docking overlay: 132 passed, four PyG-only tests skipped. software_checkpoint_v8.json contains logs and all active script hashes. Installed checks run during guarded save; inspect newest installation receipt/log and actual Git history rather than assuming a partial save completed.
+139 analysis tests passed. Docking overlay: 135 passed, four PyG-only tests skipped. software_checkpoint_v9.json contains logs and all active script hashes. Installed checks run during guarded save; inspect newest installation receipt/log and actual Git history rather than assuming a partial save completed.
 
 E2 geometry reconstruction preserves root images, uses periodic bonded spanning-tree reconstruction and checks all bonds with original fallback. Four real coordinate comparisons max 0.000016 A; six original complete cases /1,206 rows max numeric descriptor difference below 0.000027. Original v1 and ineffective guarded v2 audit attempts were stopped and retained; v3 completed. Do not restart them. Exact source snapshots and termination records are preserved.
 
@@ -38,7 +38,7 @@ E2 geometry reconstruction preserves root images, uses periodic bonded spanning-
 
 ## Scientific decisions/evidence still outstanding
 
-Unconditional biological/predictive sign-off is withheld. Code cannot resolve the CDK17/CDK14 experimental-target correspondence, a physical coherent-assembly policy for flagged E2 cases, assay endpoint/label missingness and discordance, absent exact historical fold weights/input snapshots, or independent generalization/calibration. Preserve the original historical labels and findings; do not silently exclude cases to improve results or relabel simulations as supplier-equivalent. No further original-study computation is inferred from these limitations.
+Unconditional biological/predictive sign-off is withheld. Code cannot resolve the CDK17/CDK14 experimental-target correspondence, assay endpoint/label missingness and discordance, absent exact historical fold weights/input snapshots, or independent generalization/calibration. Preserve the original historical labels and findings; do not silently exclude cases to improve results or relabel simulations as supplier-equivalent. No further original-study computation is inferred from these limitations.
 
 The supplier connectivity difference is retained provenance, not a prerequisite to continue the requested retained-structure review. MAPK14's scalar paired/unpaired estimator discrepancy and investigation patch remain documented; do not execute original scripts that upsert old tables.
 
@@ -49,3 +49,10 @@ Generate the guarded plan with python3 /tmp/update_isolated_prosettac.py; wait f
 Compatible historical TPR reader: /home/ayushregmibagale/.conda/envs/gromacs/bin/gmx (2025.4). The 2024.3 PLUMED binary cannot read the historical 2025.4 TPR format. Private Python 3.10 docking overlay and licensed binaries remain excluded from Git. Analysis environment has native PyG; docking overlay does not.
 
 No project simulation or analysis batch remains running after the completed review. Checkpoint installation/tests may run during saving. Do not imply work continues after an inactive session.
+
+## 2026-11-08 completed supplement
+
+**2026-11-08 update:** completed the full 141-pose coherent E2 imaging sensitivity and retained stage/checkpoint audits. All 174 production checkpoints reach 20 ns. All 22,753 true-heavy bridging frames agree across three imaging conventions; 16 differences are nonbridging. One EM force-tolerance exception is disclosed. Analysis tests: 139 passed; docking: 135 passed / four PyG-only skips. See [COHERENT_E2_REANALYSIS.md](COHERENT_E2_REANALYSIS.md), [METHODS_DRAFT_RECONCILIATION.md](METHODS_DRAFT_RECONCILIATION.md), [RETAINED_GNN_MODEL_PROVENANCE.md](RETAINED_GNN_MODEL_PROVENANCE.md) and [PROTEIN_PANEL_19.md](PROTEIN_PANEL_19.md). Original results unchanged; unconditional biological/predictive sign-off remains withheld. Earlier dated counts below are historical checkpoints.
+
+
+All current numerical batches finished. New audit roots: ligand_connected_e2_cohort_v1, coherent_e2_publication_v1, retained_stage_evidence_v1, retained_checkpoint_times_v1, retained_gnn_weights_v1. Do not repeat these completed sweeps. Read remediation section 38. Main historical outputs remain unchanged; corrected imaging has no automatic training release. Check actual git/installation receipts for durable-save state.

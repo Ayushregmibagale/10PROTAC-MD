@@ -1,0 +1,49 @@
+{
+  "status": "COMPLETE_RETAINED_CHECKPOINT_TIME_AUDIT",
+  "cases_requested": 174,
+  "stages": {
+    "nvt": {
+      "checkpoint_available": 99,
+      "checkpoint_reaches_requested_time": 99,
+      "observed_time_ps_counts": {
+        "200.0": 99
+      }
+    },
+    "npt_restrained": {
+      "checkpoint_available": 99,
+      "checkpoint_reaches_requested_time": 99,
+      "observed_time_ps_counts": {
+        "500.0": 99
+      }
+    },
+    "npt": {
+      "checkpoint_available": 99,
+      "checkpoint_reaches_requested_time": 99,
+      "observed_time_ps_counts": {
+        "500.0": 99
+      }
+    },
+    "prod": {
+      "checkpoint_available": 174,
+      "checkpoint_reaches_requested_time": 174,
+      "observed_time_ps_counts": {
+        "20000.0": 174
+      }
+    }
+  },
+  "failures": [],
+  "elapsed_s": 8.352327670902014,
+  "source_sha256": {
+    "/tmp/10protac_finish/prosettac_robust/sjf8240_review/md_graph_pose_lineage.json": "334a2fa8e79b1f423ddf7fb0b40ed6a296fb59671ce7b61ba3bbd703d94ef395",
+    "/home/ayushregmibagale/.conda/envs/gromacs/bin/gmx": "cf56503aceaa25bffb42b9f16a0a5a3c9a02ede05f98d0c39dd57a87cc7a1c03",
+    "/tmp/10protac_finish/prosettac_robust/existing_result_audit/review_tools/audit_retained_checkpoint_times.py": "e7253a4ef526a5f9a26854288ab158cadcc87cd048e9ed10258636f945eb5e31"
+  },
+  "records_sha256": "178c792885f9aabab5b24a3bb7d0fdcc0e0c01889999feadd6470135fe831270",
+  "original_files_modified": false,
+  "new_MD_executed": false,
+  "limitations": [
+    "Checkpoint time/parse evidence is not a conformational-convergence certificate or independent biological replicate.",
+    "File paths and hashes describe retained artifacts; no missing historical generation receipt is fabricated.",
+    "Absent intermediate checkpoint files do not prove a stage was omitted."
+  ]
+}

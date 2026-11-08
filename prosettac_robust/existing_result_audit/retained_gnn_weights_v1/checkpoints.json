@@ -1,0 +1,265 @@
+[
+  {
+    "path": "/home/ayushregmibagale/protac-md/gnn/models/pretrain_best.pt",
+    "sha256": "e5763fa44230f8db94e60bc1e22f4d78f7b9c87d5b80e618fa4a607607aa4649",
+    "bytes": 253089,
+    "status": "TENSOR_ONLY_CHECKPOINT_READABLE",
+    "epoch": 59,
+    "tensor_shapes": {
+      "conv1.att_src": [
+        1,
+        4,
+        128
+      ],
+      "conv1.att_dst": [
+        1,
+        4,
+        128
+      ],
+      "conv1.att_edge": [
+        1,
+        4,
+        128
+      ],
+      "conv1.bias": [
+        512
+      ],
+      "conv1.lin.weight": [
+        512,
+        24
+      ],
+      "conv1.lin_edge.weight": [
+        512,
+        1
+      ],
+      "conv2.att_src": [
+        1,
+        1,
+        64
+      ],
+      "conv2.att_dst": [
+        1,
+        1,
+        64
+      ],
+      "conv2.att_edge": [
+        1,
+        1,
+        64
+      ],
+      "conv2.bias": [
+        64
+      ],
+      "conv2.lin.weight": [
+        64,
+        512
+      ],
+      "conv2.lin_edge.weight": [
+        64,
+        1
+      ],
+      "bn1.weight": [
+        512
+      ],
+      "bn1.bias": [
+        512
+      ],
+      "bn1.running_mean": [
+        512
+      ],
+      "bn1.running_var": [
+        512
+      ],
+      "bn1.num_batches_tracked": [],
+      "bn2.weight": [
+        64
+      ],
+      "bn2.bias": [
+        64
+      ],
+      "bn2.running_mean": [
+        64
+      ],
+      "bn2.running_var": [
+        64
+      ],
+      "bn2.num_batches_tracked": [],
+      "classifier.0.weight": [
+        32,
+        64
+      ],
+      "classifier.0.bias": [
+        32
+      ],
+      "classifier.3.weight": [
+        1,
+        32
+      ],
+      "classifier.3.bias": [
+        1
+      ],
+      "edge_decoder.0.weight": [
+        64,
+        128
+      ],
+      "edge_decoder.0.bias": [
+        64
+      ],
+      "edge_decoder.2.weight": [
+        1,
+        64
+      ],
+      "edge_decoder.2.bias": [
+        1
+      ]
+    },
+    "tensor_entries": 60676,
+    "metadata_keys": [
+      "args",
+      "epoch",
+      "model_state",
+      "val_auroc",
+      "val_loss"
+    ],
+    "args": {
+      "epochs": 100,
+      "batch_size": 64,
+      "lr": 0.001,
+      "hidden": 128,
+      "embed_dim": 64,
+      "heads": 4,
+      "lambda_recon": 0.5
+    }
+  },
+  {
+    "path": "/home/ayushregmibagale/protac-md/gnn/models/pretrain_final.pt",
+    "sha256": "f0b29ddd8b773c1dc8d08b559591376a4d00b69700243a0905983b6148420be2",
+    "bytes": 253125,
+    "status": "TENSOR_ONLY_CHECKPOINT_READABLE",
+    "epoch": 100,
+    "tensor_shapes": {
+      "conv1.att_src": [
+        1,
+        4,
+        128
+      ],
+      "conv1.att_dst": [
+        1,
+        4,
+        128
+      ],
+      "conv1.att_edge": [
+        1,
+        4,
+        128
+      ],
+      "conv1.bias": [
+        512
+      ],
+      "conv1.lin.weight": [
+        512,
+        24
+      ],
+      "conv1.lin_edge.weight": [
+        512,
+        1
+      ],
+      "conv2.att_src": [
+        1,
+        1,
+        64
+      ],
+      "conv2.att_dst": [
+        1,
+        1,
+        64
+      ],
+      "conv2.att_edge": [
+        1,
+        1,
+        64
+      ],
+      "conv2.bias": [
+        64
+      ],
+      "conv2.lin.weight": [
+        64,
+        512
+      ],
+      "conv2.lin_edge.weight": [
+        64,
+        1
+      ],
+      "bn1.weight": [
+        512
+      ],
+      "bn1.bias": [
+        512
+      ],
+      "bn1.running_mean": [
+        512
+      ],
+      "bn1.running_var": [
+        512
+      ],
+      "bn1.num_batches_tracked": [],
+      "bn2.weight": [
+        64
+      ],
+      "bn2.bias": [
+        64
+      ],
+      "bn2.running_mean": [
+        64
+      ],
+      "bn2.running_var": [
+        64
+      ],
+      "bn2.num_batches_tracked": [],
+      "classifier.0.weight": [
+        32,
+        64
+      ],
+      "classifier.0.bias": [
+        32
+      ],
+      "classifier.3.weight": [
+        1,
+        32
+      ],
+      "classifier.3.bias": [
+        1
+      ],
+      "edge_decoder.0.weight": [
+        64,
+        128
+      ],
+      "edge_decoder.0.bias": [
+        64
+      ],
+      "edge_decoder.2.weight": [
+        1,
+        64
+      ],
+      "edge_decoder.2.bias": [
+        1
+      ]
+    },
+    "tensor_entries": 60676,
+    "metadata_keys": [
+      "args",
+      "epoch",
+      "model_state",
+      "val_loss"
+    ],
+    "args": {
+      "epochs": 100,
+      "batch_size": 64,
+      "lr": 0.001,
+      "hidden": 128,
+      "embed_dim": 64,
+      "heads": 4,
+      "lambda_recon": 0.5
+    }
+  }
+]

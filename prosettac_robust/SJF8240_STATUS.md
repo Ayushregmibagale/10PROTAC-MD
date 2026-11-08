@@ -1,5 +1,8 @@
 # SJF8240 publication work: current status
 
+**2026-11-08 update:** completed the full 141-pose coherent E2 imaging sensitivity and retained stage/checkpoint audits. All 174 production checkpoints reach 20 ns. All 22,753 true-heavy bridging frames agree across three imaging conventions; 16 differences are nonbridging. One EM force-tolerance exception is disclosed. Analysis tests: 139 passed; docking: 135 passed / four PyG-only skips. See [COHERENT_E2_REANALYSIS.md](COHERENT_E2_REANALYSIS.md), [METHODS_DRAFT_RECONCILIATION.md](METHODS_DRAFT_RECONCILIATION.md), [RETAINED_GNN_MODEL_PROVENANCE.md](RETAINED_GNN_MODEL_PROVENANCE.md) and [PROTEIN_PANEL_19.md](PROTEIN_PANEL_19.md). Original results unchanged; unconditional biological/predictive sign-off remains withheld. Earlier dated counts below are historical checkpoints.
+
+
 **Requested remaining review checks have executed.** Start with INTEGRATION_REVIEW_RESULTS.md. All 141 E2 trajectories (29,142 frames) have aligned timestamps; 12 cases need image review. All 19 static target representatives were examined: 18 expected matches and a CDK17-labelled/CDK14-structure mismatch. Code passes 136 analysis tests; docking 132 passed/4 PyG-only skips. No unconditional scientific sign-off or replacement experiment has been issued. Earlier sections below describe historical checkpoints.
 
 **Current task:** retain the exact old structures and results; review/harden scripts and rationale. Read HISTORICAL_METHODS_AND_RATIONALE.md. Supplier replacement or repeating MD is not the active task.

@@ -30,3 +30,5 @@ core.*
 # Compact read-only inspection logs are part of the scientific evidence.
 !existing_result_audit/compiled_md_protocol_v1/**/dump.log
 !existing_result_audit/historical_methods_v1/*.log
+
+!existing_result_audit/retained_stage_evidence_v1/**/*_inspection.log

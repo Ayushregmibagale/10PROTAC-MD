@@ -1,0 +1,103 @@
+{
+  "status": "GEOMETRIC_CONVENTION_SENSITIVITY_ONLY",
+  "cases": [
+    {
+      "poi": "ABL1",
+      "pose_id": "pose001",
+      "role": "all_previously_flagged_cases",
+      "focus_frame": 185
+    },
+    {
+      "poi": "ABL1",
+      "pose_id": "pose009",
+      "role": "all_previously_flagged_cases",
+      "focus_frame": 200
+    },
+    {
+      "poi": "ABL1",
+      "pose_id": "pose016",
+      "role": "all_previously_flagged_cases",
+      "focus_frame": 4
+    },
+    {
+      "poi": "ABL1",
+      "pose_id": "pose020",
+      "role": "all_previously_flagged_cases",
+      "focus_frame": 200
+    },
+    {
+      "poi": "AXL",
+      "pose_id": "pose016",
+      "role": "all_previously_flagged_cases",
+      "focus_frame": 2
+    },
+    {
+      "poi": "DDR2",
+      "pose_id": "pose005",
+      "role": "all_previously_flagged_cases",
+      "focus_frame": 136
+    },
+    {
+      "poi": "DDR2",
+      "pose_id": "pose014",
+      "role": "all_previously_flagged_cases",
+      "focus_frame": 101
+    },
+    {
+      "poi": "EPHA2",
+      "pose_id": "pose007",
+      "role": "all_previously_flagged_cases",
+      "focus_frame": 156
+    },
+    {
+      "poi": "EPHA2",
+      "pose_id": "pose012",
+      "role": "all_previously_flagged_cases",
+      "focus_frame": 79
+    },
+    {
+      "poi": "EPHB2",
+      "pose_id": "pose003",
+      "role": "all_previously_flagged_cases",
+      "focus_frame": 187
+    },
+    {
+      "poi": "MAPK14_full",
+      "pose_id": "pose013",
+      "role": "all_previously_flagged_cases",
+      "focus_frame": 168
+    },
+    {
+      "poi": "MAPK14_full",
+      "pose_id": "pose020",
+      "role": "all_previously_flagged_cases",
+      "focus_frame": 78
+    },
+    {
+      "poi": "MET",
+      "pose_id": "pose002",
+      "role": "prespecified_clear_control_not_independent_benchmark",
+      "focus_frame": 0
+    }
+  ],
+  "PID": 4,
+  "workers": 2,
+  "input_sha256": {
+    "/tmp/10protac_finish/prosettac_robust/existing_result_audit/review_tools/probe_ligand_connected_e2.py": "363c577284b350977efdd060f4d3fe06f5cfd3f808f337118c2d393a6721c624",
+    "/tmp/10protac_finish/prosettac_robust/workflow/scripts/lib/coherent_images.py": "ef8e7a36e38d337ded98d78bd3ab3b98d2a315e0d89742cb94791348938d4888",
+    "/tmp/10protac_finish/prosettac_robust/workflow/scripts/lib/e2_geometry.py": "7deee629aae416fad2916e64a75df0e822ffdcac9d09da10cc349040be23c70d",
+    "/tmp/10protac_finish/prosettac_robust/workflow/scripts/lib/read_only_trajectory.py": "231645da4027fd0f9e7e2ad49e7f5d942a12e768a5e1995b58a88fd505e55edb",
+    "/tmp/10protac_finish/prosettac_robust/existing_result_audit/e2_full_frames_v3/per_pose_summary.json": "34bd8249539c06c7410c5ec84523cd49cd5c44147a546e3acc051e211504cd1a",
+    "/home/ayushregmibagale/protac-md/scripts/02_analysis/16_all_poi_e2_reachability.py": "fd4e2286f7476f7f94a4cba659e951d7e6400ff9d18dff95e7c19d8275c2eb21",
+    "/home/ayushregmibagale/protac-md/reference_structures/e2_c85_ensemble.json": "9dac98e05fdd384bb77fc147e3e61d9de3dcdfe028355d4cccb833d3d9f73f15"
+  },
+  "rules": [
+    "ELOC fit anchors E3 reference image",
+    "VHL shifted to nearest reference-predicted centroid image",
+    "POI shifted by closest periodic VHL/POI CA pair",
+    "Independent initial-reference-pose POI image is compared, not silently adopted",
+    "Additional path: VHL to one whole covalent PROTAC to target, using heavy-atom closest periodic pairs",
+    "Gaussian virtual points are not wrapped",
+    "No experimental labels used to select images"
+  ]
+}

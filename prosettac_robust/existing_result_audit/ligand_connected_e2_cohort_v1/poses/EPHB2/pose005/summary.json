@@ -1,0 +1,157 @@
+{
+  "status": "CANDIDATE_IMAGING_SENSITIVITY_NOT_A_TRAINING_RELEASE",
+  "poi": "EPHB2",
+  "pose_id": "pose005",
+  "role": "previously_clear_core_case",
+  "frames": 201,
+  "ligand_contact_image_agree_frames": 201,
+  "ligand_reference_image_agree_frames": 201,
+  "max_ligand_path_saved_contact_error_A": 0.0,
+  "max_ligand_translation_invariance_error_A": 6.252776074688882e-13,
+  "POI_image_conventions_agree_frames": 201,
+  "max_VHL_reference_fit_RMSD_A": 8.342259274803494,
+  "max_candidate_CA_direct_minus_periodic_A": 0.0,
+  "max_periodic_distance_preservation_error_A": 0.0,
+  "box_translation_test_frames": 5,
+  "max_translation_invariance_error_A": 6.252776074688882e-13,
+  "reachability_translation_change_frames": 0,
+  "old_descriptor_replay_max_error_A": 0.0,
+  "comparisons": {
+    "old": {
+      "mean_min_E2_A": 68.60764186906513,
+      "conditional": {
+        "legacy_ELOB_POI": {
+          "bridge_frames": 91,
+          "nonbridge_frames": 110,
+          "reach_50A_bridge": 0.0,
+          "reach_50A_nonbridge": 0.0,
+          "delta_50A_paired": 0.0,
+          "reach_80A_bridge": 0.02283990519284636,
+          "reach_80A_nonbridge": 0.018894830659536534,
+          "delta_80A_paired": 0.003945074533309827,
+          "reach_100A_bridge": 0.21094591682826977,
+          "reach_100A_nonbridge": 0.14919786096256682,
+          "delta_100A_paired": 0.06174805586570295
+        },
+        "true_VHL_POI_heavy": {
+          "bridge_frames": 201,
+          "nonbridge_frames": 0,
+          "reach_50A_bridge": 0.0,
+          "reach_50A_nonbridge": null,
+          "delta_50A_paired": null,
+          "reach_80A_bridge": 0.020680909179592227,
+          "reach_80A_nonbridge": null,
+          "delta_80A_paired": null,
+          "reach_100A_bridge": 0.17715344844405426,
+          "reach_100A_nonbridge": null,
+          "delta_100A_paired": null
+        }
+      }
+    },
+    "contact_image": {
+      "mean_min_E2_A": 68.60764186906513,
+      "conditional": {
+        "legacy_ELOB_POI": {
+          "bridge_frames": 91,
+          "nonbridge_frames": 110,
+          "reach_50A_bridge": 0.0,
+          "reach_50A_nonbridge": 0.0,
+          "delta_50A_paired": 0.0,
+          "reach_80A_bridge": 0.02283990519284636,
+          "reach_80A_nonbridge": 0.018894830659536534,
+          "delta_80A_paired": 0.003945074533309827,
+          "reach_100A_bridge": 0.21094591682826977,
+          "reach_100A_nonbridge": 0.14919786096256682,
+          "delta_100A_paired": 0.06174805586570295
+        },
+        "true_VHL_POI_heavy": {
+          "bridge_frames": 201,
+          "nonbridge_frames": 0,
+          "reach_50A_bridge": 0.0,
+          "reach_50A_nonbridge": null,
+          "delta_50A_paired": null,
+          "reach_80A_bridge": 0.020680909179592227,
+          "reach_80A_nonbridge": null,
+          "delta_80A_paired": null,
+          "reach_100A_bridge": 0.17715344844405426,
+          "reach_100A_nonbridge": null,
+          "delta_100A_paired": null
+        }
+      }
+    },
+    "reference_image": {
+      "mean_min_E2_A": 68.60764186906513,
+      "conditional": {
+        "legacy_ELOB_POI": {
+          "bridge_frames": 91,
+          "nonbridge_frames": 110,
+          "reach_50A_bridge": 0.0,
+          "reach_50A_nonbridge": 0.0,
+          "delta_50A_paired": 0.0,
+          "reach_80A_bridge": 0.02283990519284636,
+          "reach_80A_nonbridge": 0.018894830659536534,
+          "delta_80A_paired": 0.003945074533309827,
+          "reach_100A_bridge": 0.21094591682826977,
+          "reach_100A_nonbridge": 0.14919786096256682,
+          "delta_100A_paired": 0.06174805586570295
+        },
+        "true_VHL_POI_heavy": {
+          "bridge_frames": 201,
+          "nonbridge_frames": 0,
+          "reach_50A_bridge": 0.0,
+          "reach_50A_nonbridge": null,
+          "delta_50A_paired": null,
+          "reach_80A_bridge": 0.020680909179592227,
+          "reach_80A_nonbridge": null,
+          "delta_80A_paired": null,
+          "reach_100A_bridge": 0.17715344844405426,
+          "reach_100A_nonbridge": null,
+          "delta_100A_paired": null
+        }
+      }
+    },
+    "ligand_image": {
+      "mean_min_E2_A": 68.60764186906513,
+      "conditional": {
+        "legacy_ELOB_POI": {
+          "bridge_frames": 91,
+          "nonbridge_frames": 110,
+          "reach_50A_bridge": 0.0,
+          "reach_50A_nonbridge": 0.0,
+          "delta_50A_paired": 0.0,
+          "reach_80A_bridge": 0.02283990519284636,
+          "reach_80A_nonbridge": 0.018894830659536534,
+          "delta_80A_paired": 0.003945074533309827,
+          "reach_100A_bridge": 0.21094591682826977,
+          "reach_100A_nonbridge": 0.14919786096256682,
+          "delta_100A_paired": 0.06174805586570295
+        },
+        "true_VHL_POI_heavy": {
+          "bridge_frames": 201,
+          "nonbridge_frames": 0,
+          "reach_50A_bridge": 0.0,
+          "reach_50A_nonbridge": null,
+          "delta_50A_paired": null,
+          "reach_80A_bridge": 0.020680909179592227,
+          "reach_80A_nonbridge": null,
+          "delta_80A_paired": null,
+          "reach_100A_bridge": 0.17715344844405426,
+          "reach_100A_nonbridge": null,
+          "delta_100A_paired": null
+        }
+      }
+    }
+  },
+  "source_input_sha256": {
+    "/home/ayushregmibagale/protac-md/random_screen/EPHB2/pose005/prod/prod.tpr": "213a88b4e650502e40c5f66330fb92c1f2ee0f194e3d8982ecf774edb6fdae9f",
+    "/home/ayushregmibagale/protac-md/analysis/random_screen/EPHB2/pose005/prod_nojump.xtc": "9312d80bbc4cd881a5ecfad6d1f6779263b9474ae9daff7784a9347aef23696a",
+    "/home/ayushregmibagale/protac-md/random_screen/EPHB2/pose005/structure/complex_protein.pdb": "0521c2252401afcd2684964de16eeadb7b47153fcc7472529276aff0b48bee6f",
+    "/home/ayushregmibagale/protac-md/analysis/random_screen/EPHB2/pose005/metrics.csv": "c0f71a6c2595cc402310add0abe965c5be791b98b9674cab97b1bef36360a92b",
+    "/tmp/10protac_finish/prosettac_robust/existing_result_audit/e2_full_frames_v3/poses/EPHB2/pose005/frames.tsv": "f9875ed1408b7969bdc32b229a2cfb7fb7bbb9f28e71657bfb2231dbdb518b57",
+    "/tmp/10protac_finish/prosettac_robust/existing_result_audit/contact_core_v1/poses/EPHB2/pose005/contacts_A.tsv": "781d8646c66515e9b63d17166193e5429276b6992861edfc4c7d2b60abee180d",
+    "/tmp/10protac_finish/prosettac_robust/existing_result_audit/e2_full_frames_v3/poses/EPHB2/pose005/summary.json": "f8663fbb3c00d9a115ca9d215119660f6dbf8fc219ec566ea7be7273080e2a5c"
+  },
+  "frames_sha256": "590485d99be41c70215d22b1a122e1b3456251610185decdba0261e708a1fa71",
+  "automatic_training_release": false,
+  "new_MD_or_GNN_training": false
+}

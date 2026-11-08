@@ -1,0 +1,157 @@
+{
+  "status": "CANDIDATE_IMAGING_SENSITIVITY_NOT_A_TRAINING_RELEASE",
+  "poi": "MAPK14_full",
+  "pose_id": "pose009",
+  "role": "previously_clear_core_case",
+  "frames": 201,
+  "ligand_contact_image_agree_frames": 201,
+  "ligand_reference_image_agree_frames": 201,
+  "max_ligand_path_saved_contact_error_A": 0.0,
+  "max_ligand_translation_invariance_error_A": 4.973799150320701e-13,
+  "POI_image_conventions_agree_frames": 201,
+  "max_VHL_reference_fit_RMSD_A": 5.971666927402383,
+  "max_candidate_CA_direct_minus_periodic_A": 0.0,
+  "max_periodic_distance_preservation_error_A": 0.0,
+  "box_translation_test_frames": 5,
+  "max_translation_invariance_error_A": 4.973799150320701e-13,
+  "reachability_translation_change_frames": 0,
+  "old_descriptor_replay_max_error_A": 0.0,
+  "comparisons": {
+    "old": {
+      "mean_min_E2_A": 39.29690757447515,
+      "conditional": {
+        "legacy_ELOB_POI": {
+          "bridge_frames": 1,
+          "nonbridge_frames": 200,
+          "reach_50A_bridge": 0.0196078431372549,
+          "reach_50A_nonbridge": 0.019607843137254898,
+          "delta_50A_paired": 3.469446951953614e-18,
+          "reach_80A_bridge": 0.17647058823529413,
+          "reach_80A_nonbridge": 0.3491176470588235,
+          "delta_80A_paired": -0.17264705882352935,
+          "reach_100A_bridge": 0.6078431372549019,
+          "reach_100A_nonbridge": 0.7857843137254902,
+          "delta_100A_paired": -0.17794117647058827
+        },
+        "true_VHL_POI_heavy": {
+          "bridge_frames": 201,
+          "nonbridge_frames": 0,
+          "reach_50A_bridge": 0.019607843137254895,
+          "reach_50A_nonbridge": null,
+          "delta_50A_paired": null,
+          "reach_80A_bridge": 0.3482587064676617,
+          "reach_80A_nonbridge": null,
+          "delta_80A_paired": null,
+          "reach_100A_bridge": 0.7848990342405618,
+          "reach_100A_nonbridge": null,
+          "delta_100A_paired": null
+        }
+      }
+    },
+    "contact_image": {
+      "mean_min_E2_A": 39.29690757447515,
+      "conditional": {
+        "legacy_ELOB_POI": {
+          "bridge_frames": 1,
+          "nonbridge_frames": 200,
+          "reach_50A_bridge": 0.0196078431372549,
+          "reach_50A_nonbridge": 0.019607843137254898,
+          "delta_50A_paired": 3.469446951953614e-18,
+          "reach_80A_bridge": 0.17647058823529413,
+          "reach_80A_nonbridge": 0.3491176470588235,
+          "delta_80A_paired": -0.17264705882352935,
+          "reach_100A_bridge": 0.6078431372549019,
+          "reach_100A_nonbridge": 0.7857843137254902,
+          "delta_100A_paired": -0.17794117647058827
+        },
+        "true_VHL_POI_heavy": {
+          "bridge_frames": 201,
+          "nonbridge_frames": 0,
+          "reach_50A_bridge": 0.019607843137254895,
+          "reach_50A_nonbridge": null,
+          "delta_50A_paired": null,
+          "reach_80A_bridge": 0.3482587064676617,
+          "reach_80A_nonbridge": null,
+          "delta_80A_paired": null,
+          "reach_100A_bridge": 0.7848990342405618,
+          "reach_100A_nonbridge": null,
+          "delta_100A_paired": null
+        }
+      }
+    },
+    "reference_image": {
+      "mean_min_E2_A": 39.29690757447515,
+      "conditional": {
+        "legacy_ELOB_POI": {
+          "bridge_frames": 1,
+          "nonbridge_frames": 200,
+          "reach_50A_bridge": 0.0196078431372549,
+          "reach_50A_nonbridge": 0.019607843137254898,
+          "delta_50A_paired": 3.469446951953614e-18,
+          "reach_80A_bridge": 0.17647058823529413,
+          "reach_80A_nonbridge": 0.3491176470588235,
+          "delta_80A_paired": -0.17264705882352935,
+          "reach_100A_bridge": 0.6078431372549019,
+          "reach_100A_nonbridge": 0.7857843137254902,
+          "delta_100A_paired": -0.17794117647058827
+        },
+        "true_VHL_POI_heavy": {
+          "bridge_frames": 201,
+          "nonbridge_frames": 0,
+          "reach_50A_bridge": 0.019607843137254895,
+          "reach_50A_nonbridge": null,
+          "delta_50A_paired": null,
+          "reach_80A_bridge": 0.3482587064676617,
+          "reach_80A_nonbridge": null,
+          "delta_80A_paired": null,
+          "reach_100A_bridge": 0.7848990342405618,
+          "reach_100A_nonbridge": null,
+          "delta_100A_paired": null
+        }
+      }
+    },
+    "ligand_image": {
+      "mean_min_E2_A": 39.29690757447515,
+      "conditional": {
+        "legacy_ELOB_POI": {
+          "bridge_frames": 1,
+          "nonbridge_frames": 200,
+          "reach_50A_bridge": 0.0196078431372549,
+          "reach_50A_nonbridge": 0.019607843137254898,
+          "delta_50A_paired": 3.469446951953614e-18,
+          "reach_80A_bridge": 0.17647058823529413,
+          "reach_80A_nonbridge": 0.3491176470588235,
+          "delta_80A_paired": -0.17264705882352935,
+          "reach_100A_bridge": 0.6078431372549019,
+          "reach_100A_nonbridge": 0.7857843137254902,
+          "delta_100A_paired": -0.17794117647058827
+        },
+        "true_VHL_POI_heavy": {
+          "bridge_frames": 201,
+          "nonbridge_frames": 0,
+          "reach_50A_bridge": 0.019607843137254895,
+          "reach_50A_nonbridge": null,
+          "delta_50A_paired": null,
+          "reach_80A_bridge": 0.3482587064676617,
+          "reach_80A_nonbridge": null,
+          "delta_80A_paired": null,
+          "reach_100A_bridge": 0.7848990342405618,
+          "reach_100A_nonbridge": null,
+          "delta_100A_paired": null
+        }
+      }
+    }
+  },
+  "source_input_sha256": {
+    "/home/ayushregmibagale/protac-md/random_screen/MAPK14_full/pose009/prod/prod.tpr": "5f742275abf36787a6e42d8bb7c7d706b994aa53d93dbaec0f9ce7b43a7f1052",
+    "/home/ayushregmibagale/protac-md/analysis/random_screen/MAPK14_full/pose009/prod_nojump.xtc": "0fd7a6dc5d8b60e503184d1cd9cfd8d6e404dbc8ca42e474b281ff652df44f9f",
+    "/home/ayushregmibagale/protac-md/random_screen/MAPK14_full/pose009/structure/complex_protein.pdb": "c61cbe1d6f6e6daed5510db33962b5ea939e333e00351a88ad2bfb8f463b818e",
+    "/home/ayushregmibagale/protac-md/analysis/random_screen/MAPK14_full/pose009/metrics.csv": "d4a7f046bd4b7308c530831f3ce20f96e1efbfc6c209a588591aa0733d625fd6",
+    "/tmp/10protac_finish/prosettac_robust/existing_result_audit/e2_full_frames_v3/poses/MAPK14_full/pose009/frames.tsv": "68fc501485c806456f94f94d6411aa1f7ca01cb7cb1f53c5b7a5a528ac52fdee",
+    "/tmp/10protac_finish/prosettac_robust/existing_result_audit/contact_core_v1/poses/MAPK14_full/pose009/contacts_A.tsv": "a540c9efb8bef904e23c9bdced3f5c3e9f133ffc80178635d6ef2e457d525b68",
+    "/tmp/10protac_finish/prosettac_robust/existing_result_audit/e2_full_frames_v3/poses/MAPK14_full/pose009/summary.json": "ff692ee882842eea3bbc67193702a1c512c60b06347939215aa7f64ce725bf96"
+  },
+  "frames_sha256": "3cd7d024290e4c69fa356ba63860f6e46079ccf775fff823020c3fc677d6feab",
+  "automatic_training_release": false,
+  "new_MD_or_GNN_training": false
+}

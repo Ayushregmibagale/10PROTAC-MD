@@ -1,0 +1,79 @@
+{
+  "status": "COMPLETE_STAGE_EVIDENCE_AUDIT",
+  "cases": 174,
+  "per_stage": {
+    "em": {
+      "requested": 174,
+      "compiled_TPR_available": 174,
+      "stage_log_available": 174,
+      "nominal_duration_ps_counts": {
+        "None": 174
+      },
+      "ref_t_counts": {
+        "0": 174
+      },
+      "positive_EM_convergence_statements": 173
+    },
+    "nvt": {
+      "requested": 174,
+      "compiled_TPR_available": 99,
+      "stage_log_available": 99,
+      "nominal_duration_ps_counts": {
+        "200.0": 99
+      },
+      "ref_t_counts": {
+        "300 300 300": 99
+      },
+      "positive_EM_convergence_statements": null
+    },
+    "npt_restrained": {
+      "requested": 174,
+      "compiled_TPR_available": 99,
+      "stage_log_available": 99,
+      "nominal_duration_ps_counts": {
+        "500.0": 99
+      },
+      "ref_t_counts": {
+        "300 300 300": 99
+      },
+      "positive_EM_convergence_statements": null
+    },
+    "npt": {
+      "requested": 174,
+      "compiled_TPR_available": 99,
+      "stage_log_available": 99,
+      "nominal_duration_ps_counts": {
+        "500.0": 99
+      },
+      "ref_t_counts": {
+        "300 300 300": 99
+      },
+      "positive_EM_convergence_statements": null
+    }
+  },
+  "production_log_available": 174,
+  "production_finished_markers": 141,
+  "production_last_step_counts": {
+    "10000000": 141,
+    "None": 33
+  },
+  "production_cases_with_LINCS_warnings": 0,
+  "production_cases_with_fatal_error_marker": 0,
+  "failures": [],
+  "elapsed_s": 14.64238765835762,
+  "source_sha256": {
+    "/tmp/10protac_finish/prosettac_robust/sjf8240_review/md_graph_pose_lineage.json": "334a2fa8e79b1f423ddf7fb0b40ed6a296fb59671ce7b61ba3bbd703d94ef395",
+    "/tmp/10protac_finish/prosettac_robust/existing_result_audit/review_tools/audit_retained_stage_evidence.py": "1158a95838ed465705d92df5610e3062325b7db43aa2da4747332874de27f78c",
+    "/home/ayushregmibagale/.conda/envs/gromacs/bin/gmx": "cf56503aceaa25bffb42b9f16a0a5a3c9a02ede05f98d0c39dd57a87cc7a1c03"
+  },
+  "stage_records_sha256": "8e1b0fc704d5423ba6a9f7b54c49d29b00edee34b794debe60f0f31cf82f9aec",
+  "production_records_sha256": "49c54ff57691a9bc4ea1337d02dec66c71d712d49d753b1f8061d0a070631d90",
+  "original_files_modified": false,
+  "new_MD_executed": false,
+  "limitations": [
+    "Absent intermediate files in this retained layout do not establish that equilibration was omitted.",
+    "Requested TPR steps and log completion markers are evidence of execution, not conformational convergence or independent replicas.",
+    "Log warnings require case review; neither accepting nor discarding a biological label follows automatically.",
+    "Inputrec inspection files are not reusable grompp inputs."
+  ]
+}
