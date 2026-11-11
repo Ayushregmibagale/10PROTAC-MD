@@ -1,0 +1,3 @@
+# Corrected MD-only run
+
+Latest user instruction authorizes corrected-label GNN fitting on retained MD graphs to distinguish six degraded binders from ABL1/AXL. This version uses original 04h MD-only architecture, superseding the parent folder dual-encoder architecture requirement for this version. Preserve all preceding runs and original graphs, labels, structures and trajectories. No new docking/MD. Freeze protocol before fitting; no changes based on scores. User labels, not predictions, define the classes. Always hold out the entire target. Save all weights, source/input hashes, replay checks and failures. All eight evaluation targets have MD. Prediction-only extension scores are not validation.
