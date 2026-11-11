@@ -8,11 +8,18 @@ from temporal_model import TemporalEncoder
 
 def main():
  p=config();summary=[];pairs=[];targets=[];checks=[]
+ extraction=json.loads((ROOT/'analysis/lysines/completion.json').read_text());require(extraction['cases']==141 and len(extraction['records'])==141,'Incomplete lysine cohort')
+ require(len({(r['poi'],r['pose']) for r in extraction['records']})==141,'Duplicate lysine pose')
+ for r in extraction['records']:
+  require(r['poi'] in p['cohort'] and r['frames']==41 and r['script_sha256']==sha(ROOT/'scripts/extract_lysines.py'),'Lysine source/cohort drift')
+  require(sha(ROOT/'analysis/lysines/poses'/r['poi']/r['pose']/'packet.npz')==r['packet_sha256'],'Lysine packet drift')
+ atomic_json(ROOT/'provenance/lysine_case_lineage.json',extraction)
+ replay=json.loads((ROOT/'validation/trajectory_replay.json').read_text());require(replay['status']=='PASS' and replay['cases']==8,'Trajectory replay missing')
  for stage,sourcefile in [('baseline','pair_source_hashes.json'),('temporal','temporal_source_hashes.json')]:
   frozen=json.loads((ROOT/'config'/sourcefile).read_text())
   for path,digest in frozen.items():require(sha(ROOT/path)==digest,'Frozen drift '+path)
   for role in ['elob','vhl']:
-   out=ROOT/'analysis'/stage/role;cpu=json.loads((out/'independent_cpu_verification.json').read_text());done=json.loads((out/'completion.json').read_text());require(cpu['verified_cpu'] and cpu['max_replay_error']<=1e-5,'CPU failure');records=[]
+   out=ROOT/'analysis'/stage/role;cpu=json.loads((out/'independent_cpu_verification.json').read_text());done=json.loads((out/'completion.json').read_text());atomic_json(ROOT/'validation'/(stage+'_'+role+'_CPU.json'),cpu);require(cpu['verified_cpu'] and cpu['max_replay_error']<=1e-5,'CPU failure');records=[]
    expected=list(itertools.product([x for x in p['cohort'] if p['labels'][x]],['ABL1','AXL']))
    for pos,neg in expected:
     name=pos+'__'+neg;receipt=json.loads((out/(name+'.json')).read_text());checkpoint=out/(name+'.pt');require(sha(checkpoint)==receipt['checkpoint_sha256'],'Checkpoint drift');state=torch.load(checkpoint,map_location='cpu',weights_only=True);train=[x for x in p['cohort'] if x not in [pos,neg]]

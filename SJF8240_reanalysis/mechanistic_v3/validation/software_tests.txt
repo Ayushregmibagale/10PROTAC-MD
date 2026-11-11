@@ -1,0 +1,17 @@
+....                                                                     [100%]
+=============================== warnings summary ===============================
+../../../../home/ayushregmibagale/miniconda3/lib/python3.13/site-packages/torch/jit/_script.py:1488
+../../../../home/ayushregmibagale/miniconda3/lib/python3.13/site-packages/torch/jit/_script.py:1488
+  /home/ayushregmibagale/miniconda3/lib/python3.13/site-packages/torch/jit/_script.py:1488: DeprecationWarning: `torch.jit.script` is deprecated. Please switch to `torch.compile` or `torch.export`.
+    warnings.warn(
+
+SJF8240_mechanistic_v3/scripts/test_contracts.py::test_sasa_occluder_and_translation
+  /home/ayushregmibagale/miniconda3/lib/python3.13/site-packages/mdtraj/core/selection.py:47: PyparsingDeprecationWarning: 'enablePackrat' deprecated - use 'enable_packrat'
+    ParserElement.enablePackrat(cache_size_limit=304)
+
+SJF8240_mechanistic_v3/scripts/test_contracts.py: 36 warnings
+  /home/ayushregmibagale/miniconda3/lib/python3.13/site-packages/torch_geometric/inspector.py:433: DeprecationWarning: Failing to pass a value to the 'type_params' parameter of 'typing._eval_type' is deprecated, as it leads to incorrect behaviour when calling typing._eval_type on a stringified annotation that references a PEP 695 type parameter. It will be disallowed in Python 3.15.
+    return typing._eval_type(value, _globals, None)  # type: ignore
+
+-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html
+4 passed, 39 warnings in 3.99s

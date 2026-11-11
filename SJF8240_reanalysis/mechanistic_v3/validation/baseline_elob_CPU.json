@@ -1,0 +1,22 @@
+{
+  "role": "elob",
+  "matched_pair_AUROC": 0.5,
+  "balanced_accuracy": 0.5,
+  "sensitivity": 1.0,
+  "specificity": 0.0,
+  "pairs": 12,
+  "independent_negative_targets": 2,
+  "max_replay_error": 5.960464477539063e-08,
+  "verified_cpu": true,
+  "source_hashes": {
+    "lib/common.py": "9124c5f836b7c19e2c1b33d6a8e3865aba090653c2f14a101596ab1a13bec864",
+    "lib/gnn_contract.py": "aa10cf1d4f7bc4534663944f2c2bc6a3cc9b0f16e62fdc5de17d8d0b9fdb92eb",
+    "lib/model.py": "0ef0a143aaca33238f86f78ebd7b607c665bf350838e0cdaf0d1e723a828b981",
+    "lib/protac_qc.py": "b7faca900f0a3c441f3d7fccb9835e7ae138f1198f480101145b9e6363ccf632",
+    "scripts/pair_train.py": "39387f291161bb0dec89c26eef82372f981fb0a0e521f932238cb6df136a598b",
+    "config/input_manifest.json": "10783d90a0d1cc6c1b634df61059709200a573febadf940b60f29c4b3b43ba24",
+    "config/protocol.json": "d9d5e42f1e6e306747a8573219503cfcbec8dc9e7dc3d7cba06f3a748c83900e",
+    "config/study_plan.json": "65f17e4e2d279ee936422407fa4892d6136eb4577d3748f53a68b960eac1806c",
+    "config/user_labels.json": "5f999e61afba0563f93891b21790359535b9c5e6e707d5721c6fcab22742b34b"
+  }
+}

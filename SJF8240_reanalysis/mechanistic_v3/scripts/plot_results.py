@@ -16,3 +16,6 @@ if p.exists():
  for ax,role in zip(axes,['elob','vhl']):
   d=data[data.role==role];grid=d.pivot(index='pair',columns='stage',values='margin')[['baseline','temporal']];bound=max(abs(grid.to_numpy()).max(),1e-6);im=ax.imshow(grid,cmap='RdBu',vmin=-bound,vmax=bound,aspect='auto');ax.set(xticks=[0,1],xticklabels=['Original','Enriched'],yticks=np.arange(12),yticklabels=grid.index,title=role.upper());fig.colorbar(im,ax=ax,label='Held-out degrader score − non-degrader score')
  fig.suptitle('Matched held-out scores: blue = correctly ordered pair');fig.savefig(dest/'pair_margins.png',dpi=180);fig.savefig(dest/'pair_margins.svg');plt.close(fig)
+
+for path in dest.glob("*.svg"):
+ path.write_text("\n".join(line.rstrip() for line in path.read_text().splitlines())+"\n")

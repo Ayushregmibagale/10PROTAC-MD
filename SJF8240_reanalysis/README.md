@@ -1,6 +1,14 @@
 # SJF8240 retained-structure GNN experiments
 
-Latest: [corrected_md_only_v2 hypothesis test](corrected_md_only_v2/RESULTS.md), using the exact v1 MD-only architecture, hyperparameters, 300 epochs, base seed 42 and unweighted loss. The six degraded labels are unchanged. SIK3_full and RPS6KB2_full are added as assumed negative targets alongside ABL1/AXL, giving 6:4. Their real experimental degradation labels remain unknown. No graphs were geometrically rebuilt and no new docking/MD was run.
+Latest completed analysis: [matched holdouts and lysine-aware GNN](mechanistic_v3/RESULTS.md). All 48 weights independently replayed on CPU. Original versus enriched matched-pair ranking: VHL 7/12 to 9/12 (0.583 to 0.750); ELOB 6/12 to 1/12 (0.500 to 0.083). Specificity remains zero at 0.5 in both enriched arms; VHL balanced accuracy is 0.458. This is a limited ranking gain, not useful binary discrimination or external validation.
+
+Per-lysine SASA analysis covers 141 existing poses and 5,781 sampled frames. ABL1 bridge-frame exposure is approximately 98.4%; the earlier claim that all 18 lysines were buried was unsupported. SIK3/RPS6KB2 remain experimentally unknown and excluded from these new training/evaluation folds.
+
+Complete step-by-step history: [Word document](mechanistic_v3/docs/STEP_BY_STEP.docx) or [Markdown](mechanistic_v3/docs/STEP_BY_STEP.md). [All held-out scores](mechanistic_v3/results/target_held_out_scores.tsv). No new docking/MD; previous studies preserved.
+
+## Previous hypothesis cohort
+
+Previous: [corrected_md_only_v2 hypothesis test](corrected_md_only_v2/RESULTS.md), using the exact v1 MD-only architecture, hyperparameters, 300 epochs, base seed 42 and unweighted loss. The six degraded labels are unchanged. SIK3_full and RPS6KB2_full are added as assumed negative targets alongside ABL1/AXL, giving 6:4. Their real experimental degradation labels remain unknown. No graphs were geometrically rebuilt and no new docking/MD was run.
 
 | v2 arm | AUROC | Balanced accuracy | Sensitivity | Specificity |
 |---|---:|---:|---:|---:|

@@ -14,8 +14,20 @@ n=len(list((ROOT/'analysis/lysines/poses').glob('*/*/receipt.json')));s+=f'\nLys
 if (ROOT/'analysis/lysines/completion.json').exists():s+='Complete: 5,781 sampled frames.\n'
 else:s+='In progress.\n'
 if (ROOT/'RESULTS.md').exists():s+='\n'+(ROOT/'RESULTS.md').read_text()
-p.write_text(s);d=Document()
+
+if (ROOT/'validation/final_review.json').exists():
+ s=s.replace('New three-stage investigation is IN PROGRESS','New three-stage investigation is COMPLETE').replace('— pending','— completed')
+p.write_text(s);d=Document();d.core_properties.title='SJF8240: step-by-step analysis and verified results'
+table=None
 for line in s.splitlines():
+ if line.startswith('|'):
+  cells=[x.strip() for x in line.strip().strip('|').split('|')]
+  if all(set(x)<=set('-: ') for x in cells):continue
+  if table is None:table=d.add_table(rows=0, cols=len(cells));table.style='Table Grid'
+  row=table.add_row().cells
+  for cell,value in zip(row,cells):cell.text=value
+  continue
+ table=None
  if line.startswith('# '):d.add_heading(line[2:],0)
  elif line.startswith('## '):d.add_heading(line[3:],1)
  elif line.startswith('### '):d.add_heading(line[4:],2)

@@ -1,0 +1,730 @@
+{
+  "status": "PASS",
+  "models": 48,
+  "records": [
+    {
+      "stage": "baseline",
+      "role": "elob",
+      "pair": "DDR2__ABL1",
+      "weight_sha256": "f78d69ec3689f6bfe12b0b84cefc5f2b7a1417e2bb1ae0ebb239e3d870194587",
+      "receipt_sha256": "3095199dfa7170aa57dd47f5769ca46d176dd6ed0837ab054a883721c4550763",
+      "training_targets": [
+        "AXL",
+        "EPHA2",
+        "EPHB2",
+        "MAPK14_full",
+        "MET",
+        "RIPK2_full"
+      ]
+    },
+    {
+      "stage": "baseline",
+      "role": "elob",
+      "pair": "DDR2__AXL",
+      "weight_sha256": "d3ed3ab164c2166deb7ecf57ee8cced7dfdb0ae20c828a59b044a4b59410a1da",
+      "receipt_sha256": "98a2e8c7fa7eebbfdaa51c9044f635f725066b2dc434f1af4c8cca9f0a371ae6",
+      "training_targets": [
+        "ABL1",
+        "EPHA2",
+        "EPHB2",
+        "MAPK14_full",
+        "MET",
+        "RIPK2_full"
+      ]
+    },
+    {
+      "stage": "baseline",
+      "role": "elob",
+      "pair": "EPHA2__ABL1",
+      "weight_sha256": "a5edbbbee9261609c8d8cdfb2deaca931dc6f81a9f4a6e56886b60174c39005d",
+      "receipt_sha256": "684e4cabfc73511acbcd7f304bf4510c0c2c0542ceb01d68abf99f0d1c968c34",
+      "training_targets": [
+        "AXL",
+        "DDR2",
+        "EPHB2",
+        "MAPK14_full",
+        "MET",
+        "RIPK2_full"
+      ]
+    },
+    {
+      "stage": "baseline",
+      "role": "elob",
+      "pair": "EPHA2__AXL",
+      "weight_sha256": "6ef4dd16868f88393141d91db01d097e14ead22ca52a36cae82de152c77f836a",
+      "receipt_sha256": "7b88ed2aafba5e75181fc8141652aaa34945c3125b7fbba0a5c5cd45773c49f7",
+      "training_targets": [
+        "ABL1",
+        "DDR2",
+        "EPHB2",
+        "MAPK14_full",
+        "MET",
+        "RIPK2_full"
+      ]
+    },
+    {
+      "stage": "baseline",
+      "role": "elob",
+      "pair": "EPHB2__ABL1",
+      "weight_sha256": "3740a260a4c047f54f2c8a3d59fb4af1f13610dbafb11840d86a8d7f9fb771b0",
+      "receipt_sha256": "adf3555a95c90a6b30422d71bc63dddc41c72c0190b2baeeed8dc46d29028822",
+      "training_targets": [
+        "AXL",
+        "DDR2",
+        "EPHA2",
+        "MAPK14_full",
+        "MET",
+        "RIPK2_full"
+      ]
+    },
+    {
+      "stage": "baseline",
+      "role": "elob",
+      "pair": "EPHB2__AXL",
+      "weight_sha256": "4eac21306acbc4833e1b6b76365e5cfe4b832289a8262883534477746e4e277f",
+      "receipt_sha256": "956c27579126d66c35a2574bdce8517ed95a0948796893442021136154e0628d",
+      "training_targets": [
+        "ABL1",
+        "DDR2",
+        "EPHA2",
+        "MAPK14_full",
+        "MET",
+        "RIPK2_full"
+      ]
+    },
+    {
+      "stage": "baseline",
+      "role": "elob",
+      "pair": "MAPK14_full__ABL1",
+      "weight_sha256": "11c6186c385f25e9057425cced73dcec06cf342acd72411f8699efe56b9b6cab",
+      "receipt_sha256": "b8ef9690919e927f6fe40d7ba4b4418e9d19787592df5c607d948ff3f5014075",
+      "training_targets": [
+        "AXL",
+        "DDR2",
+        "EPHA2",
+        "EPHB2",
+        "MET",
+        "RIPK2_full"
+      ]
+    },
+    {
+      "stage": "baseline",
+      "role": "elob",
+      "pair": "MAPK14_full__AXL",
+      "weight_sha256": "34fcefd8b7ea86dec3c30f93fa6170bbe8309856026bb72af605dc9b0446938d",
+      "receipt_sha256": "bf1b346579cfcb4d00afc4791cbadd4c2b6c47eb2cefd69128347394b0e64afe",
+      "training_targets": [
+        "ABL1",
+        "DDR2",
+        "EPHA2",
+        "EPHB2",
+        "MET",
+        "RIPK2_full"
+      ]
+    },
+    {
+      "stage": "baseline",
+      "role": "elob",
+      "pair": "MET__ABL1",
+      "weight_sha256": "39d1b47c19d01a303962c51453e4fa4293425374c40129c133dfc27a6799ad90",
+      "receipt_sha256": "30de0ae3ca54a53ae202af80dc299a26de2e228645532b067c177c922f6738f1",
+      "training_targets": [
+        "AXL",
+        "DDR2",
+        "EPHA2",
+        "EPHB2",
+        "MAPK14_full",
+        "RIPK2_full"
+      ]
+    },
+    {
+      "stage": "baseline",
+      "role": "elob",
+      "pair": "MET__AXL",
+      "weight_sha256": "9f34c3854b78223b0ae5061b2219d1fed0a905d06fd8a5a89990daaeeb73eb0c",
+      "receipt_sha256": "a7c90764cd36a48dd9f88e1a6e377b83766637ffa775aaee4e4d6a9fa6eca99d",
+      "training_targets": [
+        "ABL1",
+        "DDR2",
+        "EPHA2",
+        "EPHB2",
+        "MAPK14_full",
+        "RIPK2_full"
+      ]
+    },
+    {
+      "stage": "baseline",
+      "role": "elob",
+      "pair": "RIPK2_full__ABL1",
+      "weight_sha256": "696d4895762877f0eb2ec7ad40466eff1ed8189f2f4f6c34ffc5103a93f513f1",
+      "receipt_sha256": "f5cf17b476c161b244db0afade37e29438a8936accc75d1a3c3843b368ce13ce",
+      "training_targets": [
+        "AXL",
+        "DDR2",
+        "EPHA2",
+        "EPHB2",
+        "MAPK14_full",
+        "MET"
+      ]
+    },
+    {
+      "stage": "baseline",
+      "role": "elob",
+      "pair": "RIPK2_full__AXL",
+      "weight_sha256": "60e3d65abfec1d9456d93c4edede0b0221eb7d3b9e953604a4b840078e092f8a",
+      "receipt_sha256": "096dfb8375c4f91902e10bd83599acb5c32d3c30504a3d8f3086adeaa83dba04",
+      "training_targets": [
+        "ABL1",
+        "DDR2",
+        "EPHA2",
+        "EPHB2",
+        "MAPK14_full",
+        "MET"
+      ]
+    },
+    {
+      "stage": "baseline",
+      "role": "vhl",
+      "pair": "DDR2__ABL1",
+      "weight_sha256": "f1ee7f92521ff570f6ceabc68ad14797e3e033de8961f8bf78d3f51c9b137a3b",
+      "receipt_sha256": "40f18801e7bc562433c66a827852edffdec890964b800715e95853ff62f1bf83",
+      "training_targets": [
+        "AXL",
+        "EPHA2",
+        "EPHB2",
+        "MAPK14_full",
+        "MET",
+        "RIPK2_full"
+      ]
+    },
+    {
+      "stage": "baseline",
+      "role": "vhl",
+      "pair": "DDR2__AXL",
+      "weight_sha256": "fdc2e212c4e0c7f564e66a79219e3ed3e97a34b37a211849c4dc4f67b115a175",
+      "receipt_sha256": "7abc3be89aacd9727e1518e514479be0b4019a37d497afce21c46ba45ac95553",
+      "training_targets": [
+        "ABL1",
+        "EPHA2",
+        "EPHB2",
+        "MAPK14_full",
+        "MET",
+        "RIPK2_full"
+      ]
+    },
+    {
+      "stage": "baseline",
+      "role": "vhl",
+      "pair": "EPHA2__ABL1",
+      "weight_sha256": "bf8acd7fe5e8941bd4aa1e22057d73b73f2531a22efff24997747c0cfc937578",
+      "receipt_sha256": "14708da9268007b2f4fe48ce5e6fae71d942c46d56150fcc78cd12477f801b7f",
+      "training_targets": [
+        "AXL",
+        "DDR2",
+        "EPHB2",
+        "MAPK14_full",
+        "MET",
+        "RIPK2_full"
+      ]
+    },
+    {
+      "stage": "baseline",
+      "role": "vhl",
+      "pair": "EPHA2__AXL",
+      "weight_sha256": "1100d583482c78dcede7762cb83da0d3ecc68e11c6cb5e53f1e4c0aa8bf1355a",
+      "receipt_sha256": "da69d7391ee3462f61e0a88e1e138e3e938c6f8c3d648414276087752c3a66ae",
+      "training_targets": [
+        "ABL1",
+        "DDR2",
+        "EPHB2",
+        "MAPK14_full",
+        "MET",
+        "RIPK2_full"
+      ]
+    },
+    {
+      "stage": "baseline",
+      "role": "vhl",
+      "pair": "EPHB2__ABL1",
+      "weight_sha256": "9ea26ed3e27ce95d542fd9f53ef4f860a4457b2d1adc1d124b83b11d4c9f885a",
+      "receipt_sha256": "5032ad18e7eed9f6efdb12c7568d2a619f3e8f881e444888805c8ae4e9180577",
+      "training_targets": [
+        "AXL",
+        "DDR2",
+        "EPHA2",
+        "MAPK14_full",
+        "MET",
+        "RIPK2_full"
+      ]
+    },
+    {
+      "stage": "baseline",
+      "role": "vhl",
+      "pair": "EPHB2__AXL",
+      "weight_sha256": "769a07cabe113ef8c10bb14ea785f31dcc17699971077f9272ee9f094199d779",
+      "receipt_sha256": "80b1e66969a0bc0f7dfcb3cef4e583fed75036409fa508973c7a0a178c1dd08e",
+      "training_targets": [
+        "ABL1",
+        "DDR2",
+        "EPHA2",
+        "MAPK14_full",
+        "MET",
+        "RIPK2_full"
+      ]
+    },
+    {
+      "stage": "baseline",
+      "role": "vhl",
+      "pair": "MAPK14_full__ABL1",
+      "weight_sha256": "843fd479e1fd77813c9baf18a28e66bafc8ad4d4964d41b903ba6bad393e1cbf",
+      "receipt_sha256": "861b3d9287c9d59e2fed092b7878c6eb62b229af99a11b792cf601bb952d298a",
+      "training_targets": [
+        "AXL",
+        "DDR2",
+        "EPHA2",
+        "EPHB2",
+        "MET",
+        "RIPK2_full"
+      ]
+    },
+    {
+      "stage": "baseline",
+      "role": "vhl",
+      "pair": "MAPK14_full__AXL",
+      "weight_sha256": "5fe7d73aa94b85b7531f6f32545756ca3f6f20fcd8f70931af253789a4d28c2b",
+      "receipt_sha256": "ee36d91b9b34eae30dc9b310c6ef91b3bedbca6b19a5f2adaf179022c9e62fc7",
+      "training_targets": [
+        "ABL1",
+        "DDR2",
+        "EPHA2",
+        "EPHB2",
+        "MET",
+        "RIPK2_full"
+      ]
+    },
+    {
+      "stage": "baseline",
+      "role": "vhl",
+      "pair": "MET__ABL1",
+      "weight_sha256": "2236a131a7f8e5ae73721d474151b8be2c43b677cd37597e70f8dd1f5f646c59",
+      "receipt_sha256": "7f158409ac2261e59c19a7881a075367435ddbab77084c4a449bba8eb0dcd22f",
+      "training_targets": [
+        "AXL",
+        "DDR2",
+        "EPHA2",
+        "EPHB2",
+        "MAPK14_full",
+        "RIPK2_full"
+      ]
+    },
+    {
+      "stage": "baseline",
+      "role": "vhl",
+      "pair": "MET__AXL",
+      "weight_sha256": "f2887c0fb137ea851279f768246153c1d1efadf4220b91e2e3e284d7d0c3a547",
+      "receipt_sha256": "096f69323e0cdb46ed3dfdaf519338d981643a356029ffdc910d971a5711a374",
+      "training_targets": [
+        "ABL1",
+        "DDR2",
+        "EPHA2",
+        "EPHB2",
+        "MAPK14_full",
+        "RIPK2_full"
+      ]
+    },
+    {
+      "stage": "baseline",
+      "role": "vhl",
+      "pair": "RIPK2_full__ABL1",
+      "weight_sha256": "6f611c3f3add99b6454d020447ef52c458a42cba6b4132697fdb4f57529c8627",
+      "receipt_sha256": "c6b1c6361953220020cd24866200a95ef55e6c45f61fcdc4093d1d2556f52588",
+      "training_targets": [
+        "AXL",
+        "DDR2",
+        "EPHA2",
+        "EPHB2",
+        "MAPK14_full",
+        "MET"
+      ]
+    },
+    {
+      "stage": "baseline",
+      "role": "vhl",
+      "pair": "RIPK2_full__AXL",
+      "weight_sha256": "e448216ca3b7fab0ff6ad03f1133df5555cafcfba8f838d04d811a6ab60bc118",
+      "receipt_sha256": "65b2224ccff1a71afdfa9dc73ec8b079fde69a049ea35c9d0e9027eee384414a",
+      "training_targets": [
+        "ABL1",
+        "DDR2",
+        "EPHA2",
+        "EPHB2",
+        "MAPK14_full",
+        "MET"
+      ]
+    },
+    {
+      "stage": "temporal",
+      "role": "elob",
+      "pair": "DDR2__ABL1",
+      "weight_sha256": "5c47bfd0138d69966bc978231ec6550bb50b86b4956f25752784e33d09b859e4",
+      "receipt_sha256": "878a745c8dca9342f6205608369f9c55ab284b5b7c475c61eb04fb0550f56a1a",
+      "training_targets": [
+        "AXL",
+        "EPHA2",
+        "EPHB2",
+        "MAPK14_full",
+        "MET",
+        "RIPK2_full"
+      ]
+    },
+    {
+      "stage": "temporal",
+      "role": "elob",
+      "pair": "DDR2__AXL",
+      "weight_sha256": "e745173b09306a209579557c1be5cd1b8c9ef7cdec7b0d051724aa4a23ee58b8",
+      "receipt_sha256": "de9a28d89322307f713e85ccf7c7fe416f0b5cf9fe91932d1ffccd0adc43d0b2",
+      "training_targets": [
+        "ABL1",
+        "EPHA2",
+        "EPHB2",
+        "MAPK14_full",
+        "MET",
+        "RIPK2_full"
+      ]
+    },
+    {
+      "stage": "temporal",
+      "role": "elob",
+      "pair": "EPHA2__ABL1",
+      "weight_sha256": "299be9159bfcc0859582ab09697afd6e9bcae6c9dc7a76e5ff5eabd508374477",
+      "receipt_sha256": "957146d773de38e2d8a0d45ad2ffa5897648944aab59ecb585df6b7e5912cb47",
+      "training_targets": [
+        "AXL",
+        "DDR2",
+        "EPHB2",
+        "MAPK14_full",
+        "MET",
+        "RIPK2_full"
+      ]
+    },
+    {
+      "stage": "temporal",
+      "role": "elob",
+      "pair": "EPHA2__AXL",
+      "weight_sha256": "99a58668f608c3d692e55647c55e24909bb34be1665bb465a3c6116b2b85a1f7",
+      "receipt_sha256": "f599987ae47a38eab726cfacffa16757b4adc346e281c9c9a88f2e37d09dd3c7",
+      "training_targets": [
+        "ABL1",
+        "DDR2",
+        "EPHB2",
+        "MAPK14_full",
+        "MET",
+        "RIPK2_full"
+      ]
+    },
+    {
+      "stage": "temporal",
+      "role": "elob",
+      "pair": "EPHB2__ABL1",
+      "weight_sha256": "6e1c5963db6f121f25fc809a8228559d6a40c548e1b5c7d2b8b2a1b0a44810e4",
+      "receipt_sha256": "a0d21517d94c9176937f93b6755171ec98d1a4a47e7ee0b6457f749e38033137",
+      "training_targets": [
+        "AXL",
+        "DDR2",
+        "EPHA2",
+        "MAPK14_full",
+        "MET",
+        "RIPK2_full"
+      ]
+    },
+    {
+      "stage": "temporal",
+      "role": "elob",
+      "pair": "EPHB2__AXL",
+      "weight_sha256": "94d1ae5aac67fbc4cf6f556520560abae9cebfb5f7e98d7fb19f3d37fcddc199",
+      "receipt_sha256": "d05a2f2fec9ac5e12b40596bcbbbd88734bb6d4e1cc7e5669add6ce20b09895e",
+      "training_targets": [
+        "ABL1",
+        "DDR2",
+        "EPHA2",
+        "MAPK14_full",
+        "MET",
+        "RIPK2_full"
+      ]
+    },
+    {
+      "stage": "temporal",
+      "role": "elob",
+      "pair": "MAPK14_full__ABL1",
+      "weight_sha256": "bbc884d99864a4b161318c3239aa006109469717c5c5680e342d3c2bb54bed36",
+      "receipt_sha256": "976fedf1ae704c133f425c3e2f6e5343bdb89e8ac08b0420a5aa8b511079033f",
+      "training_targets": [
+        "AXL",
+        "DDR2",
+        "EPHA2",
+        "EPHB2",
+        "MET",
+        "RIPK2_full"
+      ]
+    },
+    {
+      "stage": "temporal",
+      "role": "elob",
+      "pair": "MAPK14_full__AXL",
+      "weight_sha256": "d2013e47ebd9fd75281e941204ffe5d41f1b92d7663cdac105069477caccb133",
+      "receipt_sha256": "3d92ad6d68e91578503d027235f7f00e8cb4940b0e06e9344c7cff0e3e76e7c6",
+      "training_targets": [
+        "ABL1",
+        "DDR2",
+        "EPHA2",
+        "EPHB2",
+        "MET",
+        "RIPK2_full"
+      ]
+    },
+    {
+      "stage": "temporal",
+      "role": "elob",
+      "pair": "MET__ABL1",
+      "weight_sha256": "c3f1201eb2a05e9bb0c78d6611648f3820cc1c032a182af1a4fd32c8b9b1f4ff",
+      "receipt_sha256": "92701640cea6f5c50b9d5dad7a4304115dd995f8d377c7d7cca2aa1dc648f791",
+      "training_targets": [
+        "AXL",
+        "DDR2",
+        "EPHA2",
+        "EPHB2",
+        "MAPK14_full",
+        "RIPK2_full"
+      ]
+    },
+    {
+      "stage": "temporal",
+      "role": "elob",
+      "pair": "MET__AXL",
+      "weight_sha256": "ca4a1fd527e7032e7e823e3215095f281a2929f819c087ec8fa8253c38add1e5",
+      "receipt_sha256": "e319b1b4f10dfb72da6b8f5cdf1ffe642a461f38977452415f79aab315a4e6c3",
+      "training_targets": [
+        "ABL1",
+        "DDR2",
+        "EPHA2",
+        "EPHB2",
+        "MAPK14_full",
+        "RIPK2_full"
+      ]
+    },
+    {
+      "stage": "temporal",
+      "role": "elob",
+      "pair": "RIPK2_full__ABL1",
+      "weight_sha256": "fd74050d7f0640188db4f8fe8d0032e05fd174847133ec69fb68061691c50d14",
+      "receipt_sha256": "1602ba454f9e55e08ff1f5615a5df16a075d1d6e2426bb5bd748f475138b0c69",
+      "training_targets": [
+        "AXL",
+        "DDR2",
+        "EPHA2",
+        "EPHB2",
+        "MAPK14_full",
+        "MET"
+      ]
+    },
+    {
+      "stage": "temporal",
+      "role": "elob",
+      "pair": "RIPK2_full__AXL",
+      "weight_sha256": "302f9789401dcdc2575bf533df7965cde7511d16f8e4aad01e5f051cbf5cd489",
+      "receipt_sha256": "f30ef9591885b9184d451f0d94519cc1004b52d2e930ed0da54c65ce4a367aac",
+      "training_targets": [
+        "ABL1",
+        "DDR2",
+        "EPHA2",
+        "EPHB2",
+        "MAPK14_full",
+        "MET"
+      ]
+    },
+    {
+      "stage": "temporal",
+      "role": "vhl",
+      "pair": "DDR2__ABL1",
+      "weight_sha256": "12ac87ee29beb934df209fb74f4b89287acb3e8f2086829f23f807adc07a0d2c",
+      "receipt_sha256": "574387d56ff2c0b69fd218c8f6eaee2bb0a7ec593467d0f4a11f28250fbab8a8",
+      "training_targets": [
+        "AXL",
+        "EPHA2",
+        "EPHB2",
+        "MAPK14_full",
+        "MET",
+        "RIPK2_full"
+      ]
+    },
+    {
+      "stage": "temporal",
+      "role": "vhl",
+      "pair": "DDR2__AXL",
+      "weight_sha256": "91d10f5b006d4c55ac4df6b58c6b2113cb02d029c7c8d2b2116eb98dfaf5b77a",
+      "receipt_sha256": "f4759272f994eb20cc2e7efaeff253aeb97da8e43ff23c439e07aa6981bbe089",
+      "training_targets": [
+        "ABL1",
+        "EPHA2",
+        "EPHB2",
+        "MAPK14_full",
+        "MET",
+        "RIPK2_full"
+      ]
+    },
+    {
+      "stage": "temporal",
+      "role": "vhl",
+      "pair": "EPHA2__ABL1",
+      "weight_sha256": "d80cec1b69e1dcbe7a10d25b6cd93e559114db856c4d043c4835a894e328fc61",
+      "receipt_sha256": "73ea60aa2de20ce2c0a099f5d521fc2b272c83c70ad9ea5875f7d02159846040",
+      "training_targets": [
+        "AXL",
+        "DDR2",
+        "EPHB2",
+        "MAPK14_full",
+        "MET",
+        "RIPK2_full"
+      ]
+    },
+    {
+      "stage": "temporal",
+      "role": "vhl",
+      "pair": "EPHA2__AXL",
+      "weight_sha256": "85ec57c0add29b1266364c4fad07511d853e1ed4e7b6f5b6c23dd648088e8342",
+      "receipt_sha256": "12e622b6371a27a969afeca0dd5bf3a23f84b782b241cf8e21229daf31850135",
+      "training_targets": [
+        "ABL1",
+        "DDR2",
+        "EPHB2",
+        "MAPK14_full",
+        "MET",
+        "RIPK2_full"
+      ]
+    },
+    {
+      "stage": "temporal",
+      "role": "vhl",
+      "pair": "EPHB2__ABL1",
+      "weight_sha256": "88b10b386c27189f0ff9c6f46dcb2b91135275d240e74347cc136a0fac990cab",
+      "receipt_sha256": "4827afd0fb7681be87f319d7c41a7af5b2587a2abe4a689423af61d07912f7f8",
+      "training_targets": [
+        "AXL",
+        "DDR2",
+        "EPHA2",
+        "MAPK14_full",
+        "MET",
+        "RIPK2_full"
+      ]
+    },
+    {
+      "stage": "temporal",
+      "role": "vhl",
+      "pair": "EPHB2__AXL",
+      "weight_sha256": "f30ba4933bc56c579016d24aa1416481ac76083551bc91f85356d44572cbd65a",
+      "receipt_sha256": "84618dea4656d57f46d1ce783bac636a45bf4560126a98eaadd77f901e737437",
+      "training_targets": [
+        "ABL1",
+        "DDR2",
+        "EPHA2",
+        "MAPK14_full",
+        "MET",
+        "RIPK2_full"
+      ]
+    },
+    {
+      "stage": "temporal",
+      "role": "vhl",
+      "pair": "MAPK14_full__ABL1",
+      "weight_sha256": "b9de0e8935935394f2a022b1786eedcf9f14c06d5e915c4e6365de7747606ba4",
+      "receipt_sha256": "2f97677525c3ed41645d1ae6985099309238878185097e1f60560183e4118510",
+      "training_targets": [
+        "AXL",
+        "DDR2",
+        "EPHA2",
+        "EPHB2",
+        "MET",
+        "RIPK2_full"
+      ]
+    },
+    {
+      "stage": "temporal",
+      "role": "vhl",
+      "pair": "MAPK14_full__AXL",
+      "weight_sha256": "98192ad75b55f4c4d7cbaa9f15ce4ecdbb11f350c1df6400ba864108b285cba5",
+      "receipt_sha256": "7223387a539626486c81e7150cf19f0983c5cd65423c17904dbc0c3f45e78e5f",
+      "training_targets": [
+        "ABL1",
+        "DDR2",
+        "EPHA2",
+        "EPHB2",
+        "MET",
+        "RIPK2_full"
+      ]
+    },
+    {
+      "stage": "temporal",
+      "role": "vhl",
+      "pair": "MET__ABL1",
+      "weight_sha256": "d32ba5d1ce3f2c91b13b2f5bf9611194ec3959ce0d6427d5c98de81b11e0c9fc",
+      "receipt_sha256": "1fb933092b6cb1eb1041ec4c0ac7c9f9f63e46e5a72b458d1f30b2c553ca6cc4",
+      "training_targets": [
+        "AXL",
+        "DDR2",
+        "EPHA2",
+        "EPHB2",
+        "MAPK14_full",
+        "RIPK2_full"
+      ]
+    },
+    {
+      "stage": "temporal",
+      "role": "vhl",
+      "pair": "MET__AXL",
+      "weight_sha256": "1900bb14339453113120883b9e2ed4cb88813d6e5e2079edf488e36900aed8b2",
+      "receipt_sha256": "7bd1eed5549aa41b63534579035b03948eb37a570e7cc26c778db832274878a4",
+      "training_targets": [
+        "ABL1",
+        "DDR2",
+        "EPHA2",
+        "EPHB2",
+        "MAPK14_full",
+        "RIPK2_full"
+      ]
+    },
+    {
+      "stage": "temporal",
+      "role": "vhl",
+      "pair": "RIPK2_full__ABL1",
+      "weight_sha256": "8d5eb21663b1eaf4590af6729847a8d66a982a4b423a3ed40b24bbcc0ded7db1",
+      "receipt_sha256": "b853fabc002de2ac785f2bf1cf5d60b7f2c16683750e9a0e589b09351c419326",
+      "training_targets": [
+        "AXL",
+        "DDR2",
+        "EPHA2",
+        "EPHB2",
+        "MAPK14_full",
+        "MET"
+      ]
+    },
+    {
+      "stage": "temporal",
+      "role": "vhl",
+      "pair": "RIPK2_full__AXL",
+      "weight_sha256": "7b2c4d87b658b66ba22d126e8da463572de723d62c16d3e1d21edcc92c62f8ac",
+      "receipt_sha256": "4c268cc6cfe625f8492c965b601bf3d1640e596d5672797096af9f4cf574d99f",
+      "training_targets": [
+        "ABL1",
+        "DDR2",
+        "EPHA2",
+        "EPHB2",
+        "MAPK14_full",
+        "MET"
+      ]
+    }
+  ],
+  "parameter_counts": {
+    "baseline": 21825,
+    "temporal": 39873
+  }
+}

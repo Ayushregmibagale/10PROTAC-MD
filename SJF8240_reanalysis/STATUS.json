@@ -14,7 +14,7 @@
   "full_reanalysis_complete": true,
   "independent_artifact_review_complete": true,
   "independent_biological_validation": false,
-  "active_job": true,
+  "active_job": false,
   "results": "corrected_md_only_v2/RESULTS.md",
   "report_recovery_receipt": "recovery/report_recovery_resolution_20261111.json",
   "final_review_sha256": "b492f70292aa4e88a78a9a33149a043a64e3d199bb2491768eadf44b0edbded9",
@@ -64,6 +64,8 @@
   "current_model_E2_scalar_branch": false,
   "current_model_class_weighted": false,
   "latest_analysis": "mechanistic_v3",
-  "latest_analysis_status": "IN_PROGRESS",
-  "latest_document": "mechanistic_v3/docs/STEP_BY_STEP.docx"
+  "latest_analysis_status": "COMPLETE",
+  "latest_document": "mechanistic_v3/docs/STEP_BY_STEP.docx",
+  "latest_report": "mechanistic_v3/RESULTS.md",
+  "latest_models_independently_verified": 48
 }

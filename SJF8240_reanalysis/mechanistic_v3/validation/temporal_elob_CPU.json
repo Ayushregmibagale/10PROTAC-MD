@@ -1,0 +1,25 @@
+{
+  "role": "elob",
+  "matched_pair_AUROC": 0.08333333333333333,
+  "balanced_accuracy": 0.5,
+  "sensitivity": 1.0,
+  "specificity": 0.0,
+  "pairs": 12,
+  "independent_negative_targets": 2,
+  "max_replay_error": 5.960464477539063e-08,
+  "verified_cpu": true,
+  "source_hashes": {
+    "lib/common.py": "9124c5f836b7c19e2c1b33d6a8e3865aba090653c2f14a101596ab1a13bec864",
+    "lib/gnn_contract.py": "aa10cf1d4f7bc4534663944f2c2bc6a3cc9b0f16e62fdc5de17d8d0b9fdb92eb",
+    "lib/model.py": "0ef0a143aaca33238f86f78ebd7b607c665bf350838e0cdaf0d1e723a828b981",
+    "lib/protac_qc.py": "b7faca900f0a3c441f3d7fccb9835e7ae138f1198f480101145b9e6363ccf632",
+    "lib/temporal_model.py": "d88a3284a1022d9a12e3c4b5b66183d709dabb1a69b1dd5a5991e5c45d4b00a3",
+    "scripts/temporal_train.py": "4a8bab95678515aedc7f91ab2f1a32153d41e1ab0a931163b83d5ccd71987c77",
+    "scripts/build_temporal.py": "481dcdfdb35208f8151deed7954b7fe52e69b5664cc98e377012c58d8be50331",
+    "scripts/extract_lysines.py": "f39a165933c7fbf0b96c3d36691a106e872f60f9af951546f5e37f01c3cb2111",
+    "config/study_plan.json": "65f17e4e2d279ee936422407fa4892d6136eb4577d3748f53a68b960eac1806c",
+    "config/protocol.json": "d9d5e42f1e6e306747a8573219503cfcbec8dc9e7dc3d7cba06f3a748c83900e",
+    "config/user_labels.json": "5f999e61afba0563f93891b21790359535b9c5e6e707d5721c6fcab22742b34b",
+    "config/temporal_input_manifest.json": "c53410011f581913a835f2dd87bbe60aff4ff5a0f1faa4a426f388f78c707cde"
+  }
+}
