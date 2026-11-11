@@ -1,14 +1,14 @@
-# Current SJF8240 MD labels — user correction
+# Current SJF8240 MD labels and completed corrected run
 
-EPHA2 is degraded (label 1), as explicitly confirmed by the user on 11 November 2026 after the completed historical-label run. In the eight-target MD comparison, ABL1 and AXL are the only non-degraded targets.
+The user confirmed EPHA2 is degraded. In the eight-target MD comparison:
 
-| Label | Targets |
+| Class | Targets |
 |---|---|
-| Degraded / 1 | DDR2, EPHA2, EPHB2, MAPK14_full, MET, RIPK2_full |
-| Not degraded / 0 | ABL1, AXL |
+| Degraded /1 | DDR2, EPHA2, EPHB2, MAPK14_full, MET, RIPK2_full |
+| Not degraded /0 | ABL1, AXL |
 
-The actual retained system name remains MAPK14_full. This correction applies to the MD comparison; labels for other non-MD targets and original LF/PS assay measurements are not inferred or changed.
+The actual retained system is MAPK14_full. Labels for the other non-MD targets and LF/PS measurements are not inferred or changed. The immutable user-label map is config/current_md_labels.json. Its training flag records the state when that label snapshot was created; current completion is in STATUS.json.
 
-The current label map is `config/current_md_labels.json`. Versioned EPHA2 static and dynamic graph copies, for both ELOB and VHL, contain label 1 with all non-label arrays exactly preserved. `label_updates/20261111_epha2/manifest.json` binds the source and derivative hashes and references the unchanged graphs for the other seven targets. Overlay paths in that manifest are relative to its version folder. The builder accepts explicit source, label-map and output paths and refuses to overwrite an existing overlay.
+The corrected-label MD-only LOPO run is now complete in corrected_md_only_v1/. Both ELOB and true-VHL arms finished8folds with the original MD-only architecture,300epochs and seed42; all targets have MD graphs. Both arms have AUROC0.0,75% accuracy,50% balanced accuracy and0% specificity. All targets were called degraded, including ABL1/AXL. This run therefore does not distinguish degraded and non-degraded binders. The small cohort contains only2negative targets, and these exploratory results do not establish independent biological validation.
 
-The frozen protocol, original graph files, saved weights, predictions, metrics and reviewed results from checkpoint d5c34f1 remain unchanged as historical artifacts. They used EPHA2 = 0. Their reported aggregate AUROC 0.727 and MD-subgroup AUROC 0.0 do not describe the user-corrected label set. Most LOPO training folds included EPHA2, so merely changing its label in a prediction table would not produce corrected-label LOPO results. A separately versioned fit/evaluation is needed. No new training, docking or MD has been executed for this label update.
+All16 saved models and32 prediction-only scores passed independent CPU replay, with maximum score difference5.96e-8. Current findings: corrected_md_only_v1/RESULTS.md. The earlier16-target dual encoder, EPHA2=0 labels, weights and metrics remain historical artifacts and were not overwritten. No new docking/MD or assay changes occurred.

@@ -1,0 +1,12 @@
+{
+  "status": "CPU_ENVIRONMENT_REVIEW_RECOVERED_NO_RETRAINING",
+  "UTC": "2026-11-11T16:30:14.559204+00:00",
+  "cause": "The Python3.13 CPU verifier inherited the Python3.10 GPU package overlay, which has no Python3.13 xxhash binary.",
+  "fix": "Run the identical frozen CPU verification script with PYTHONPATH removed. GPU study fitting and all frozen code/inputs remain unchanged.",
+  "frozen_execution_manifest_sha256": "8fd3643afdb74d2c4047499613c0f628e1318c9231cb4a64793a36b979b55f54",
+  "original_launcher_sha256": "ffad44d38582b1f6d9eb9f7e8c6eefe697d9d949e1449863dd7cae78456e1bfc",
+  "corrected_environment_launcher_sha256": "a0e32f93fc20476da3f06afd683622ea0b31a3579f774ed7bf310163a01376f0",
+  "recovery_launcher_sha256": "bb451be7de00ea3f110df3603db75a04741dddd6e3fd0f094f817dd80612d6f6",
+  "final_review_sha256": "8c6f2a94a2ec0106dee8bd186509c078fddbbfe32139d3324d192a175c91fd30",
+  "new_training_executed_during_recovery": false
+}

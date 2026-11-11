@@ -1,24 +1,21 @@
 {
-  "updated_UTC": "2026-11-11T16:26:53.661720+00:00",
-  "phase": "train.py",
-  "pid": 25985,
+  "updated_UTC": "2026-11-11T16:30:14.573574+00:00",
+  "phase": "COMPLETE",
   "work_root": "/mnt/c/Users/Ayush Regmi Bagale/SJF8240_corrected_md_only_v1",
   "cohort_size": 8,
   "positive_count": 6,
   "negative_count": 2,
   "EPHA2_degraded": true,
+  "all_evaluation_targets_have_MD": true,
   "folds_complete": {
     "elob": 8,
-    "vhl": 5
+    "vhl": 8
   },
-  "full_reanalysis_complete": false,
-  "active_job": true,
-  "child_pid": 26207,
-  "arguments": [
-    "--role",
-    "vhl",
-    "--device",
-    "cuda"
-  ],
-  "log": "logs/train_vhl.log"
+  "full_reanalysis_complete": true,
+  "active_job": false,
+  "independent_artifact_review_complete": true,
+  "independent_biological_validation": false,
+  "results": "RESULTS.md",
+  "final_review_sha256": "8c6f2a94a2ec0106dee8bd186509c078fddbbfe32139d3324d192a175c91fd30",
+  "runtime_review_recovery": "recovery/resolution.json"
 }

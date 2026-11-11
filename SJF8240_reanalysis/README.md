@@ -1,15 +1,9 @@
-# SJF8240 corrected-feature reanalysis
+# SJF8240 retained-structure reanalysis
 
-**Current label correction:** EPHA2 is degraded. For the MD comparison, only ABL1 and AXL are non-degraded. See [CURRENT_LABELS.md](CURRENT_LABELS.md) and [the current label map](config/current_md_labels.json). The completed results below used the previous EPHA2 = 0 label and have not been retrained with this correction.
+The latest completed run is the [corrected-label MD-only GNN](corrected_md_only_v1/RESULTS.md). It evaluates eight MD targets: six degraded binders including EPHA2, and two non-degraded binders, ABL1/AXL. All targets have MD. The original 04h MD-only model was run for300epochs with seed42, no tuning, and paired ELOB/true-VHL roles.
 
-Completed 11 November 2026: all 19 static targets, 174 MD cases and both 16-fold model arms are finished and independently checked. Read [REVIEWED_RESULTS.md](REVIEWED_RESULTS.md) and [the actual methods](docs/ACTUAL_GRAPH_METHODS_20261111.md). Both overall AUROCs are 0.7273; both MD-subgroup AUROCs are 0.0. The aggregate result does not establish a reliable degradation predictor. Original data and historical results remain preserved. `config/protocol.json` records the protocol frozen before fitting; `STATUS.json` records current completion.
+Both arms return AUROC0.0,75% accuracy,50% balanced accuracy and0% specificity: every held-out target was called degraded. This equals the all-degraded accuracy reference and does not distinguish the two classes in this run. All16 saved fold models and32 prediction-only inferences passed independent CPU replay; protocol/source/input hashes and held-out membership were verified. No new docking or MD was run.
 
-Separate derivative of the original protac-md workflow, created at the user's explicit request. Existing docking structures and MD trajectories are reused; no new docking or MD.
+Current labels and interpretation: [CURRENT_LABELS.md](CURRENT_LABELS.md). Latest paired scores: [corrected_md_only_v1/results/paired_predictions.tsv](corrected_md_only_v1/results/paired_predictions.tsv). The label-map JSON records provenance as of its creation; STATUS.json gives current training completion.
 
-Folders: `config/` frozen protocol and source lists; `experimental_data/` LF/PS input tables and version-explicit target exports; `analysis/static/` rebuilt pose graphs; `analysis/dynamic/` rebuilt MD graphs; `analysis/e2/` existing corrected E2 summaries; `analysis/gnn/` new paired LOPO results; `scripts/` extraction/model tools; `logs/` progress and controls; `docs/` what/how/why notes.
-
-Main comparison: 16 identity-matched historical targets, original 04d raw-graph dual encoder, paired ELOB and true-VHL selections within the repaired graph pipeline, 400 epochs, seed42, no tuning. CDK17-labelled/CDK14 structure is preserved but excluded before scores; SIK3/RPS6KB2 remain prediction-only. Experimental RPE1 conditions: 500 nM, 12 h; PS heavy marks newly synthesized proteins. Historical labels remain exploratory; experimental versions and uncertainty are explicit.
-
-The ELOB control is a NEW same-pipeline rerun, not reconstruction of missing old weights or the 0.850 claim. Main graph-only model does not consume E2 scalars. Corrected E2 summaries are kept separately.
-
-Check `logs/` and completion receipts for actual progress. A launched process is not a completed result. Licensed software, private runtime and bulky inputs are excluded from Git.
+The previous16-target static-plus-MD dual encoder remains frozen in the top-level config/protocol.json, analysis/gnn/, REVIEWED_RESULTS.md and results/paired_20261111/. That historical run used EPHA2=0 and its metrics do not describe the corrected label set. The new run changes cohort, architecture and labels together; comparisons with the old run cannot isolate a label-only effect. All old structures, graphs, models, predictions, assays and reports remain preserved.

@@ -1,0 +1,165 @@
+{
+  "status": "INDEPENDENT_CPU_REPLAY_AND_METRICS_PASS",
+  "role": "vhl",
+  "folds": 8,
+  "prediction_only_inferences": 16,
+  "maximum_absolute_CPU_score_difference": 5.960464477539063e-08,
+  "CPU_tolerance": 1e-05,
+  "original_GPU_tolerance": 1e-07,
+  "CPU_torch": "2.12.0+cu126",
+  "completion_sha256": "51168a849723051aa84a7ad5e982424c9b5cadfd3609c681c2a3933eda3f1e6e",
+  "execution_manifest_sha256": "8fd3643afdb74d2c4047499613c0f628e1318c9231cb4a64793a36b979b55f54",
+  "metrics": {
+    "AUROC": 0.0,
+    "accuracy": 0.75,
+    "balanced_accuracy": 0.5,
+    "average_precision": 0.594047619047619,
+    "sensitivity": 1.0,
+    "specificity": 0.0,
+    "confusion_matrix_labels_0_1": [
+      [
+        0,
+        2
+      ],
+      [
+        0,
+        6
+      ]
+    ],
+    "positive_count": 6,
+    "negative_count": 2,
+    "majority_class_accuracy_reference": 0.75
+  },
+  "folds_replayed": [
+    {
+      "poi": "ABL1",
+      "GPU_score": 0.6263881921768188,
+      "CPU_score": 0.6263881921768188,
+      "absolute_difference": 0.0,
+      "checkpoint_sha256": "fa58c163ea1bed1130b31720fd85197334456a2d64a76f5e535b64f088349191",
+      "training_targets": [
+        "AXL",
+        "DDR2",
+        "EPHA2",
+        "EPHB2",
+        "MAPK14_full",
+        "MET",
+        "RIPK2_full"
+      ]
+    },
+    {
+      "poi": "AXL",
+      "GPU_score": 0.6346070170402527,
+      "CPU_score": 0.6346070170402527,
+      "absolute_difference": 0.0,
+      "checkpoint_sha256": "eb79941e5971269be8e825a6a1b47a765435d7d5a8e8cb01e82397bdcbabb721",
+      "training_targets": [
+        "ABL1",
+        "DDR2",
+        "EPHA2",
+        "EPHB2",
+        "MAPK14_full",
+        "MET",
+        "RIPK2_full"
+      ]
+    },
+    {
+      "poi": "DDR2",
+      "GPU_score": 0.5456060767173767,
+      "CPU_score": 0.5456060767173767,
+      "absolute_difference": 0.0,
+      "checkpoint_sha256": "25283152d31b79ea0e1e5a9535cff588a08671d48c1a51f036a13ded8fa896de",
+      "training_targets": [
+        "ABL1",
+        "AXL",
+        "EPHA2",
+        "EPHB2",
+        "MAPK14_full",
+        "MET",
+        "RIPK2_full"
+      ]
+    },
+    {
+      "poi": "EPHA2",
+      "GPU_score": 0.566921055316925,
+      "CPU_score": 0.566921055316925,
+      "absolute_difference": 0.0,
+      "checkpoint_sha256": "0bf77422004159a6bd133876421f61d7485253247129a3bb8e3276d444de775a",
+      "training_targets": [
+        "ABL1",
+        "AXL",
+        "DDR2",
+        "EPHB2",
+        "MAPK14_full",
+        "MET",
+        "RIPK2_full"
+      ]
+    },
+    {
+      "poi": "EPHB2",
+      "GPU_score": 0.6024389266967773,
+      "CPU_score": 0.6024389266967773,
+      "absolute_difference": 0.0,
+      "checkpoint_sha256": "2296e013e7904ce466cdbb51b2053f58e0be98c8167f7ccddb8185a881d4b2e0",
+      "training_targets": [
+        "ABL1",
+        "AXL",
+        "DDR2",
+        "EPHA2",
+        "MAPK14_full",
+        "MET",
+        "RIPK2_full"
+      ]
+    },
+    {
+      "poi": "MAPK14_full",
+      "GPU_score": 0.568040668964386,
+      "CPU_score": 0.568040668964386,
+      "absolute_difference": 0.0,
+      "checkpoint_sha256": "3d0177be8579702a556291a3cf44d7727f30db9d3b7e9c5a789cf9d771671d59",
+      "training_targets": [
+        "ABL1",
+        "AXL",
+        "DDR2",
+        "EPHA2",
+        "EPHB2",
+        "MET",
+        "RIPK2_full"
+      ]
+    },
+    {
+      "poi": "MET",
+      "GPU_score": 0.5538915395736694,
+      "CPU_score": 0.5538915395736694,
+      "absolute_difference": 0.0,
+      "checkpoint_sha256": "c98fb355a6311d123a25756fdd6f8b0054d29eeee23cea693b3ad4342e5579c8",
+      "training_targets": [
+        "ABL1",
+        "AXL",
+        "DDR2",
+        "EPHA2",
+        "EPHB2",
+        "MAPK14_full",
+        "RIPK2_full"
+      ]
+    },
+    {
+      "poi": "RIPK2_full",
+      "GPU_score": 0.5394389629364014,
+      "CPU_score": 0.5394389629364014,
+      "absolute_difference": 0.0,
+      "checkpoint_sha256": "b9542c27ef9fcdb57341ff7d81310a2774eaf41cfdbeddc8988eada3ddf09e3e",
+      "training_targets": [
+        "ABL1",
+        "AXL",
+        "DDR2",
+        "EPHA2",
+        "EPHB2",
+        "MAPK14_full",
+        "MET"
+      ]
+    }
+  ],
+  "new_training_in_review": false,
+  "validator_sha256": "113e8c4edf83017bb02061e4f019085b12da933633b09851e215606e5fe92cd9"
+}
