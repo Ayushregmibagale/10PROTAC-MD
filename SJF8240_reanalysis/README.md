@@ -1,5 +1,7 @@
 # SJF8240 corrected-feature reanalysis
 
+**Current label correction:** EPHA2 is degraded. For the MD comparison, only ABL1 and AXL are non-degraded. See [CURRENT_LABELS.md](CURRENT_LABELS.md) and [the current label map](config/current_md_labels.json). The completed results below used the previous EPHA2 = 0 label and have not been retrained with this correction.
+
 Completed 11 November 2026: all 19 static targets, 174 MD cases and both 16-fold model arms are finished and independently checked. Read [REVIEWED_RESULTS.md](REVIEWED_RESULTS.md) and [the actual methods](docs/ACTUAL_GRAPH_METHODS_20261111.md). Both overall AUROCs are 0.7273; both MD-subgroup AUROCs are 0.0. The aggregate result does not establish a reliable degradation predictor. Original data and historical results remain preserved. `config/protocol.json` records the protocol frozen before fitting; `STATUS.json` records current completion.
 
 Separate derivative of the original protac-md workflow, created at the user's explicit request. Existing docking structures and MD trajectories are reused; no new docking or MD.
