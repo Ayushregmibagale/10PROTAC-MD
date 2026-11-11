@@ -1,0 +1,28 @@
+{
+  "updated_UTC": "2026-11-11T17:24:03.194846+00:00",
+  "phase": "train.py",
+  "pid": 30140,
+  "work_root": "/mnt/c/Users/Ayush Regmi Bagale/SJF8240_corrected_md_only_v2",
+  "cohort_size": 10,
+  "positive_count": 6,
+  "negative_count": 4,
+  "EPHA2_degraded": true,
+  "hypothetical_negative_targets": [
+    "SIK3_full",
+    "RPS6KB2_full"
+  ],
+  "folds_complete": {
+    "elob": 7,
+    "vhl": 0
+  },
+  "full_reanalysis_complete": false,
+  "active_job": true,
+  "child_pid": 30217,
+  "arguments": [
+    "--role",
+    "elob",
+    "--device",
+    "cuda"
+  ],
+  "log": "logs/train_elob.log"
+}

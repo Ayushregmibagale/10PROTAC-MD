@@ -1,0 +1,38 @@
+{
+  "version": "v2_exploratory_hypothetical_negatives",
+  "recorded_UTC": "2026-11-11T17:14:20.258646+00:00",
+  "labels": {
+    "ABL1": 0,
+    "AXL": 0,
+    "DDR2": 1,
+    "EPHA2": 1,
+    "EPHB2": 1,
+    "MAPK14_full": 1,
+    "MET": 1,
+    "RIPK2_full": 1,
+    "SIK3_full": 0,
+    "RPS6KB2_full": 0
+  },
+  "hypothetical_targets": [
+    "SIK3_full",
+    "RPS6KB2_full"
+  ],
+  "label_status": {
+    "ABL1": "user_confirmed_degradation_label",
+    "AXL": "user_confirmed_degradation_label",
+    "DDR2": "user_confirmed_degradation_label",
+    "EPHA2": "user_confirmed_degradation_label",
+    "EPHB2": "user_confirmed_degradation_label",
+    "MAPK14_full": "user_confirmed_degradation_label",
+    "MET": "user_confirmed_degradation_label",
+    "RIPK2_full": "user_confirmed_degradation_label",
+    "SIK3_full": "hypothetical_non_degrader_no_confirmed_experimental_label",
+    "RPS6KB2_full": "hypothetical_non_degrader_no_confirmed_experimental_label"
+  },
+  "experimental_label_for_hypothetical_targets": {
+    "SIK3_full": null,
+    "RPS6KB2_full": null
+  },
+  "source": "Explicit user instruction: exploratory hypothesis test, not experimental validation",
+  "scope": "This version only; confirmed labels and source prediction-only graph metadata remain unchanged."
+}

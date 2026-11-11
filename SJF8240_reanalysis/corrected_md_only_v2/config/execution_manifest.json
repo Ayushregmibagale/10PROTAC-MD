@@ -1,0 +1,21 @@
+{
+  "config/input_manifest.json": "39f45e42784e582a6c0f2061167a4f483bc76bd69a351cf85437592398185d52",
+  "config/protocol.json": "74d4faf1ab038d6110766d402669e7a20a665b7183f849fd4704a376d1042259",
+  "config/user_labels.json": "c2c87ba4be6d9097311d0bdd4792eb1ad85203839c7ce10b341e3371ed10f46b",
+  "lib/common.py": "c77e1a2e977293a4b28dc4735be22f594734e6a4637c03e54e4481c4fd922934",
+  "lib/gnn_contract.py": "aa10cf1d4f7bc4534663944f2c2bc6a3cc9b0f16e62fdc5de17d8d0b9fdb92eb",
+  "lib/model.py": "0ef0a143aaca33238f86f78ebd7b607c665bf350838e0cdaf0d1e723a828b981",
+  "lib/protac_qc.py": "b7faca900f0a3c441f3d7fccb9835e7ae138f1198f480101145b9e6363ccf632",
+  "provenance/04h_md_only_ablation_original.py": "7c4c37da521057ac6683708a136eea5bf960ebf4904d79fa09589a28e0725fe7",
+  "provenance/parent_status_before_run.json": "52cdeb766c64cb02d15961716555096118152c61e8d4d0ed97e88cfe2032d06f",
+  "provenance/v1_elob_completion.json": "aee85810ebcc76cd02175779edf7d8111ea0de7031983800553ac80dcf1cffc2",
+  "provenance/v1_elob_predictions.tsv": "8eeb4ceedbf974d48cde7cc8e7aa375fc1d3dec32db44be75021e2893cc432ff",
+  "provenance/v1_model.py": "0ef0a143aaca33238f86f78ebd7b607c665bf350838e0cdaf0d1e723a828b981",
+  "provenance/v1_protocol.json": "d9d5e42f1e6e306747a8573219503cfcbec8dc9e7dc3d7cba06f3a748c83900e",
+  "provenance/v1_vhl_completion.json": "51168a849723051aa84a7ad5e982424c9b5cadfd3609c681c2a3933eda3f1e6e",
+  "provenance/v1_vhl_predictions.tsv": "cf96bf85a56fd7412b54dff524a8cb44d417a1696e6b037111a47a3aa543440b",
+  "scripts/preflight.py": "8710233f646e13efb47623fe15ec9b705cdb339a1d1902f2204791721b19a10a",
+  "scripts/run_pipeline.py": "13abe091c82d165ed7e7f545f002ab33dde0f85aae258890a7ccc2851697d326",
+  "scripts/train.py": "5b6b98f1c5a333b5930ffad616ef463da52d58c38595abe7e1a1d8011056b5a5",
+  "scripts/verify_and_report.py": "cf28e6b6360ee530b17d34e3662c40189af11c1cd4f455edadfbc1fd9642fc2c"
+}

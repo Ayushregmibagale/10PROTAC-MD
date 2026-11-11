@@ -1,0 +1,95 @@
+{
+  "status": "CORRECTED_MD_ONLY_LOPO_COMPLETE",
+  "role": "elob",
+  "cases": 8,
+  "settings": {
+    "role": "elob",
+    "device": "cuda",
+    "protocol_sha256": "d9d5e42f1e6e306747a8573219503cfcbec8dc9e7dc3d7cba06f3a748c83900e",
+    "execution_manifest_sha256": "8fd3643afdb74d2c4047499613c0f628e1318c9231cb4a64793a36b979b55f54",
+    "input_manifest_sha256": "10783d90a0d1cc6c1b634df61059709200a573febadf940b60f29c4b3b43ba24",
+    "label_map_sha256": "5f999e61afba0563f93891b21790359535b9c5e6e707d5721c6fcab22742b34b",
+    "torch": "2.10.0+cu128",
+    "cohort": [
+      "ABL1",
+      "AXL",
+      "DDR2",
+      "EPHA2",
+      "EPHB2",
+      "MAPK14_full",
+      "MET",
+      "RIPK2_full"
+    ],
+    "labels": {
+      "ABL1": 0,
+      "AXL": 0,
+      "DDR2": 1,
+      "EPHA2": 1,
+      "EPHB2": 1,
+      "MAPK14_full": 1,
+      "MET": 1,
+      "RIPK2_full": 1
+    },
+    "epochs": 300,
+    "seed": 42,
+    "architecture": "original_04h_MDEncoder_AST",
+    "all_evaluation_targets_have_MD": true,
+    "deterministic_algorithms": true,
+    "disabled_optional_backends": [
+      "pyg_lib",
+      "torch_scatter",
+      "torch_sparse",
+      "torch_cluster",
+      "torch_spline_conv",
+      "torch_frame",
+      "intel_extension_for_pytorch"
+    ]
+  },
+  "metrics": {
+    "AUROC": 0.0,
+    "accuracy": 0.75,
+    "balanced_accuracy": 0.5,
+    "average_precision": 0.594047619047619,
+    "sensitivity": 1.0,
+    "specificity": 0.0,
+    "confusion_matrix_labels_0_1": [
+      [
+        0,
+        2
+      ],
+      [
+        0,
+        6
+      ]
+    ],
+    "positive_count": 6,
+    "negative_count": 2,
+    "majority_class_accuracy_reference": 0.75
+  },
+  "all_evaluation_targets_have_MD": true,
+  "EPHA2_degraded": true,
+  "static_graphs_used": false,
+  "new_MD_or_docking": false,
+  "independent_biological_validation": false,
+  "outputs_sha256": {
+    "intent.json": "dd9a499c9fa351aa2872fe35d909410a923498991ae8ca8ff2989f7d331d9374",
+    "predictions.tsv": "8eeb4ceedbf974d48cde7cc8e7aa375fc1d3dec32db44be75021e2893cc432ff",
+    "prediction_only_fold_scores.tsv": "c8267a9326c8600a6183466bd97cb19adf67c8269fea5629d7cf5eed3fbafc3e",
+    "fold_ABL1.pt": "5c35f0d95667b1f6f8a2c3effe61d8f2ba2a1cac96ed67bdc7fc0a2672e83ce0",
+    "fold_ABL1.json": "aaed80453b7888e412751f92acb9d106b8866f1aed95459973b9a104b63757ca",
+    "fold_AXL.pt": "245e78e20e7c9c66bcfc4011d83cf809be8b382308531681e994b420f54a983b",
+    "fold_AXL.json": "eb738cff579c224123de42e8e8f98c5a2ecfc05b7ade33163981e93ada1ad5d9",
+    "fold_DDR2.pt": "275e5b06b7e12a602924b8db33c5f107523cbfebfe02f3d13dd89ff7e2500674",
+    "fold_DDR2.json": "a008ca3487548ef133a27914b9ff6e3025de12cdecb62e1b55ca341558a9a814",
+    "fold_EPHA2.pt": "6f682be8468663caf35e2ce49ab13419a574b633a28430b56b30e1cc263197d0",
+    "fold_EPHA2.json": "fc1d5a0b3f36823e8a76d3713ba706944045a7e1f383ba52f86c8b9f5ca39fbf",
+    "fold_EPHB2.pt": "154cab23f0830ca9e19658146b4b74c469f89d81b9ab36bd0f9d0d02d8d22f1b",
+    "fold_EPHB2.json": "d986796c1134437cd88805a13b017757b846fd7b44f1f86bedaa37e5d328daaf",
+    "fold_MAPK14_full.pt": "cbd86d1619becbe911216a1729f4802c5bf6053d13d3bfac8b3925b581880797",
+    "fold_MAPK14_full.json": "50ae1bfcc52124a37345ee55508e47f8a5532277a0b818024215dfe0af6fe958",
+    "fold_MET.pt": "a3735593da32b9d25ee70ac9f1b415d2bb626164bb5c85dea1a0e15cb66a93ee",
+    "fold_MET.json": "223674b126dd91e8a34365050c6b38a1938bf91253ec3339a2f68fa424633cfd",
+    "fold_RIPK2_full.pt": "e80394a6ff41feaf05b5f666f959fd705c9b50e837ee63bfc8d8b655b018d36e",
+    "fold_RIPK2_full.json": "8528aa4fe478292474d61b07d2c7c2bce30db9e31d2b5a81715300676e20802b"
+  }
+}
