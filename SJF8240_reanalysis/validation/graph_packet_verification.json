@@ -1,0 +1,204 @@
+{
+  "status": "RETAINED_GRAPH_PACKET_AUDIT_PASS",
+  "checked_UTC": "2026-11-11T14:15:17.785451+00:00",
+  "validator_sha256": "fc4876405f08f9aee93e47b5ed4e35a25d521d82b8d57bf483fa812adb9134ee",
+  "static_targets": 19,
+  "configured_source_files": 307770,
+  "accepted_complete_source_files": 307767,
+  "excluded_unusable_source_files": 3,
+  "per_target": [
+    {
+      "poi": "MAP4K5",
+      "configured_files": 200,
+      "accepted_complete_files": 200,
+      "excluded_files": 0,
+      "coordinate_overflow_records": 0,
+      "exact_duplicate_content_files_beyond_first": 0,
+      "receipt_sha256": "7c46229191fe2d1e7281158a4646f4fd6f50b66b89de29dc366e2f8cb66bde46"
+    },
+    {
+      "poi": "SLK",
+      "configured_files": 200,
+      "accepted_complete_files": 200,
+      "excluded_files": 0,
+      "coordinate_overflow_records": 0,
+      "exact_duplicate_content_files_beyond_first": 0,
+      "receipt_sha256": "edff7a1a6db40b4eab498cd5418621797434f2233bce665fe75d8654e6788650"
+    },
+    {
+      "poi": "DDR2",
+      "configured_files": 20000,
+      "accepted_complete_files": 20000,
+      "excluded_files": 0,
+      "coordinate_overflow_records": 0,
+      "exact_duplicate_content_files_beyond_first": 0,
+      "receipt_sha256": "76e36a9b4c613a020618a92279ccd040960bd7fd364dcbcf21f16ff9887bffb6"
+    },
+    {
+      "poi": "RIPK2_full",
+      "configured_files": 20000,
+      "accepted_complete_files": 20000,
+      "excluded_files": 0,
+      "coordinate_overflow_records": 79,
+      "exact_duplicate_content_files_beyond_first": 0,
+      "receipt_sha256": "08da8e77ba086909584ff4f5849f749a9ef20f372826cfe15927c14ec3660f94"
+    },
+    {
+      "poi": "MAPK14_full",
+      "configured_files": 20000,
+      "accepted_complete_files": 20000,
+      "excluded_files": 0,
+      "coordinate_overflow_records": 0,
+      "exact_duplicate_content_files_beyond_first": 0,
+      "receipt_sha256": "d6c5d3910db6691a7e0916054ab375baf26715f0d6239d84a7e9a66b372482f2"
+    },
+    {
+      "poi": "MET",
+      "configured_files": 5892,
+      "accepted_complete_files": 5892,
+      "excluded_files": 0,
+      "coordinate_overflow_records": 0,
+      "exact_duplicate_content_files_beyond_first": 0,
+      "receipt_sha256": "49e1cdcd6c499a01bf53aff65d8da9b43296951ba88959019401a4f9f110e8eb"
+    },
+    {
+      "poi": "EPHB2",
+      "configured_files": 20000,
+      "accepted_complete_files": 20000,
+      "excluded_files": 0,
+      "coordinate_overflow_records": 0,
+      "exact_duplicate_content_files_beyond_first": 0,
+      "receipt_sha256": "f7c0f6b901b5f396a4a4826f7b3ca4f43cb7c915ed7da48a47816b9c6a5ed65b"
+    },
+    {
+      "poi": "ABL1",
+      "configured_files": 20000,
+      "accepted_complete_files": 20000,
+      "excluded_files": 0,
+      "coordinate_overflow_records": 0,
+      "exact_duplicate_content_files_beyond_first": 0,
+      "receipt_sha256": "861ce932585ca44a72d266b829427de453337a9fcc14c2c172cd57c4dab4817f"
+    },
+    {
+      "poi": "AXL",
+      "configured_files": 20000,
+      "accepted_complete_files": 20000,
+      "excluded_files": 0,
+      "coordinate_overflow_records": 0,
+      "exact_duplicate_content_files_beyond_first": 0,
+      "receipt_sha256": "82b71de51671131d73b00c881ca69f16a2bc50a6a68f16904147f45f85ff21f8"
+    },
+    {
+      "poi": "EPHA2",
+      "configured_files": 20000,
+      "accepted_complete_files": 20000,
+      "excluded_files": 0,
+      "coordinate_overflow_records": 0,
+      "exact_duplicate_content_files_beyond_first": 0,
+      "receipt_sha256": "19073269b74179b72ce2ff985464e297be9ddc2dc2936b5d9402093a56aaf1b9"
+    },
+    {
+      "poi": "CDK17",
+      "configured_files": 1500,
+      "accepted_complete_files": 1500,
+      "excluded_files": 0,
+      "coordinate_overflow_records": 0,
+      "exact_duplicate_content_files_beyond_first": 0,
+      "receipt_sha256": "e15a8aee8b76e0a0c97028554e9078f79c594db1c2a1b04250559dfe6abef8e8"
+    },
+    {
+      "poi": "CDK2",
+      "configured_files": 19992,
+      "accepted_complete_files": 19991,
+      "excluded_files": 1,
+      "coordinate_overflow_records": 0,
+      "exact_duplicate_content_files_beyond_first": 0,
+      "receipt_sha256": "356fbba9fda042907e7952f4ece62ad8a0122cd98019ebbb0ced37926c9195b6"
+    },
+    {
+      "poi": "CDK4",
+      "configured_files": 19996,
+      "accepted_complete_files": 19996,
+      "excluded_files": 0,
+      "coordinate_overflow_records": 0,
+      "exact_duplicate_content_files_beyond_first": 0,
+      "receipt_sha256": "85d9addea53942b2031c8716e1d67726edb3f617e0b64ceb3310c6e5227d6b62"
+    },
+    {
+      "poi": "CDK6",
+      "configured_files": 19996,
+      "accepted_complete_files": 19996,
+      "excluded_files": 0,
+      "coordinate_overflow_records": 0,
+      "exact_duplicate_content_files_beyond_first": 0,
+      "receipt_sha256": "eb915728488162ee0f6cd9a9aef3137cf993c73bfcaff9439ad0e2266c5fecec"
+    },
+    {
+      "poi": "DAPK1",
+      "configured_files": 20000,
+      "accepted_complete_files": 19998,
+      "excluded_files": 2,
+      "coordinate_overflow_records": 0,
+      "exact_duplicate_content_files_beyond_first": 0,
+      "receipt_sha256": "15a324c96ce67d3aac57f05c0cd3d9fe9c498999c28e5c92962fe17202779eaa"
+    },
+    {
+      "poi": "IRAK1",
+      "configured_files": 20000,
+      "accepted_complete_files": 20000,
+      "excluded_files": 0,
+      "coordinate_overflow_records": 0,
+      "exact_duplicate_content_files_beyond_first": 0,
+      "receipt_sha256": "f28a302e4b18abb94b619d554befb3c65933f71eef707c26f8145ea8bc2a8631"
+    },
+    {
+      "poi": "TLK2",
+      "configured_files": 19994,
+      "accepted_complete_files": 19994,
+      "excluded_files": 0,
+      "coordinate_overflow_records": 0,
+      "exact_duplicate_content_files_beyond_first": 0,
+      "receipt_sha256": "b815d0f468e9d20e2c0e1f75d45cc22d6376482820f29c334d8d38aa2bf0f9d7"
+    },
+    {
+      "poi": "SIK3_full",
+      "configured_files": 20000,
+      "accepted_complete_files": 20000,
+      "excluded_files": 0,
+      "coordinate_overflow_records": 0,
+      "exact_duplicate_content_files_beyond_first": 0,
+      "receipt_sha256": "ab16e9113c2c075a3b9f9ec1d5fdee37b7846dbf51fde1bba04540dd2ff261a7"
+    },
+    {
+      "poi": "RPS6KB2_full",
+      "configured_files": 20000,
+      "accepted_complete_files": 20000,
+      "excluded_files": 0,
+      "coordinate_overflow_records": 0,
+      "exact_duplicate_content_files_beyond_first": 0,
+      "receipt_sha256": "38bda5f8a8572ac2349b73affeeef816bade0fb0c5cfbcb8d822b7b40d36d91e"
+    }
+  ],
+  "dynamic_cases": 174,
+  "dynamic_targets": 10,
+  "dynamic_case_counts": {
+    "DDR2": 18,
+    "RIPK2_full": 17,
+    "MAPK14_full": 18,
+    "MET": 16,
+    "EPHB2": 19,
+    "ABL1": 17,
+    "AXL": 18,
+    "EPHA2": 18,
+    "SIK3": 15,
+    "RPS6KB2": 18
+  },
+  "dynamic_frames_per_case": 201,
+  "dynamic_case_frames_total": 34974,
+  "dynamic_completion_sha256": "fbab5becad213220c808e7cf849860bd16493cc39d711b8c9c13370437d75f72",
+  "full_original_trajectory_rehash_performed": false,
+  "all_derived_graphs_hash_checked": true,
+  "dynamic_target_aggregation_independently_reproduced": true,
+  "contact_packet_joint_marginal_bounds_checked": true,
+  "new_simulation_or_training": false
+}

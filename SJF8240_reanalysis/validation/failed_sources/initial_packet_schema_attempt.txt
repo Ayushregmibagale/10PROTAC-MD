@@ -1,0 +1,13 @@
+Traceback (most recent call last):
+  File "/mnt/c/Users/Ayush Regmi Bagale/SJF8240_reanalysis_work/validation/verify_graph_artifacts.py", line 53, in <module>
+    if __name__=='__main__':main()
+                            ~~~~^^
+  File "/mnt/c/Users/Ayush Regmi Bagale/SJF8240_reanalysis_work/validation/verify_graph_artifacts.py", line 47, in main
+    for name,digest in row['outputs_sha256'].items():require(Path(name).name==name and sha(folder/name)==digest,'Dynamic pose graph drift');validate_npz(folder/name,3)
+                                                                                                                                            ~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/Ayush Regmi Bagale/SJF8240_reanalysis_work/validation/verify_graph_artifacts.py", line 15, in validate_npz
+    x=d['x'];ei=d['edge_index'];ea=d['edge_attr']
+      ~^^^^^
+  File "/home/ayushregmibagale/miniconda3/lib/python3.13/site-packages/numpy/lib/_npyio_impl.py", line 243, in __getitem__
+    raise KeyError(f"{key} is not a file in the archive") from None
+KeyError: 'x is not a file in the archive'

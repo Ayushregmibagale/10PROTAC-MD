@@ -1,0 +1,29 @@
+# Actual retained-structure graph methods
+
+This note describes the frozen source that generated the new paired comparison. It does not redescribe historical results as if this pipeline generated them. The two arms use identical retained source structures, MD trajectories, historical target labels, inclusion policy and model settings; the selected E3 role is ELOB versus true VHL. ELOB is Q15370 and true VHL is P40337. The historical VHL-labelled selector was ELOB; true VHL was present in the original systems, so correcting the analysis role does not require new MD.
+
+The panel contains 19 static targets. Sixteen identity-matched targets enter primary LOPO evaluation. The CDK17-labelled structure matches CDK14 and remains preserved under its historical identity exception, excluded from primary fitting before scores. SIK3 and RPS6KB2 remain prediction-only. Labels are the frozen historical exploratory labels, not newly optimized labels or a universal LF/PS experimental endpoint.
+
+## Static ensemble branch
+
+All 307,770 configured retained PDB files are enumerated and hashed. Three unusable files are excluded from both arms under the recorded pretraining input-validity amendment: one empty CDK2 file and two incomplete DAPK1 files. The 307,767 complete files retain their actual target-specific counts; no uniform 20,000-pose claim is made. Complete node identities must equal the independently sequence-verified first reference pose. The input audit found no exact duplicate-content accepted files. This is a file-content statement, not proof that all poses are geometrically independent.
+
+Protein nodes are selected C-alpha atoms; ligand nodes are the 79 retained heavy atoms. Each node has nine explicit features: three role indicators, within-role normalized residue position (sorted atom position for ligand nodes), and five element indicators (C/N/O/F/S). These features do not encode amino-acid identity. The model learns graph embeddings from these tensors; it does not ingest coordinates without preprocessing.
+
+Cross-role contacts use strict distance <8 Å. A directed edge is retained when its frequency across accepted poses is at least 0.005. Its three attributes are contact frequency, mean distance conditional on contact, and minimum contacting distance; distances are converted to nm. Noncontact distances do not enter the static conditional mean. Original coordinates and source bytes are unchanged. The one overflowing historical PDB record set is parsed unambiguously and logged; no coordinates are imputed, translated or replaced from sibling files.
+
+## Dynamic branch
+
+The 174 retained systems cover ten targets: eight primary-evaluation targets and two prediction-only targets. Each case supplies 201 unique frames on the 0–20 ns grid (100 ps spacing). This gives 34,974 selected case-frames, not 174 independent proteins or biological replicates. Core cases use retained processed trajectories; the two extension targets explicitly use retained raw production trajectories because processed nojump files are absent. Periodic distance calculations are used in both layouts.
+
+For each frame and protein C-alpha node, calculate its minimum periodic distance to ligand heavy atoms. A dynamic E3–POI edge event occurs only when both minima are strictly <5 Å in the same frame. This joint event frequency replaces products of marginal frequencies. Target summaries give each retained pose equal weight, and retain edges with joint frequency at least 0.01. Node features are E3/POI indicators and within-role normalized residue position (three channels). There are no ligand nodes in this dynamic graph. Edge attributes are joint frequency and the two unconditional mean ligand-to-C-alpha distances in nm. The periodic CA proximity event is a geometric proxy, not a heavy-protein-atom contact, degradation rate, free energy or proof of complex stability.
+
+Saved packet audits verify 201-frame event-count granularity, joint/marginal probability bounds, residue correspondence, all derived hashes and exact reproduction of the target graph aggregation. The raw trajectories are not rerun during review. Original MD protocol differences remain unchanged; this reanalysis does not standardize the original simulation campaign.
+
+## Frozen GNN and verification
+
+The architecture is the retained original 04d DualEncoderGNN class definition. Both arms use hidden size 64, four heads, dropout 0.3, Adam learning rate 0.001, weight decay 0.0001, a 400-epoch cosine schedule and seed 42 with target-bound fold seeds. No pretrained weight transfer, E2 scalar branch, hyperparameter tuning, relabelling or additional model arm is introduced. Each primary target is held out completely from fitting; all 15 other primary targets are listed in its checkpoint.
+
+Each fold saves weights and replays inference before its completion receipt is written. The original same-runtime GPU replay tolerance remains 1e-7. A separate CPU inference review checks the saved weights using a different Torch build, with a declared absolute tolerance of 1e-5; this does not relax the original training gate and executes no fitting. Source/input hashes, prediction tables, subgroup metrics and held-out membership are independently checked.
+
+All five positive labels and three negative labels occur in the MD subgroup. The remaining eight targets have no dynamic graph and are all negative. Consequently, MD availability is associated with labels, and an aggregate AUROC alone cannot establish the model's biological discrimination. Report MD-subgroup AUROC and the undefined single-class non-MD AUROC alongside aggregate performance. Prediction-only fold means remain uncalibrated scores, separate from experimental labels. LF abundance, PS light and PS heavy endpoint exports are preserved as distinct observations.
