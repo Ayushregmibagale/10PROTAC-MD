@@ -1,0 +1,365 @@
+[
+  {
+    "experiment": "E250916_LF",
+    "file": "LIMMA_labelFree_DMSO_vs_SJF8240_Foretinib.csv.gz",
+    "rows": 15826,
+    "columns": [
+      "Protein_group",
+      "logFC",
+      "AveExpr",
+      "t",
+      "P.Value",
+      "adj_P_Val",
+      "B",
+      "Contrast",
+      "Genes",
+      "Protein_description"
+    ],
+    "contrast_counts": {
+      "SJF8240_vs_DMSO": 7913,
+      "Foretinib_vs_DMSO": 7913
+    }
+  },
+  {
+    "experiment": "E250916_LF",
+    "file": "LIMMA_results_DMSO_vs_SJF8240_Foretinib.csv.gz",
+    "rows": 15712,
+    "columns": [
+      "Protein_group",
+      "Genes",
+      "Protein_description",
+      "Contrast",
+      "logFC",
+      "AveExpr",
+      "t",
+      "P.Value",
+      "adj.P.Val",
+      "B"
+    ],
+    "contrast_counts": {
+      "SJF8240_vs_DMSO": 7856,
+      "Foretinib_vs_DMSO": 7856
+    }
+  },
+  {
+    "experiment": "E250916_LF",
+    "file": "LIMMA_results_DMSO_vs_SJF8240_Foretinib_new.csv.gz",
+    "rows": 21666,
+    "columns": [
+      "Protein_group",
+      "Genes",
+      "Protein_description",
+      "Contrast",
+      "logFC",
+      "AveExpr",
+      "t",
+      "P.Value",
+      "adj.P.Val",
+      "B"
+    ],
+    "contrast_counts": {
+      "SJF8240_vs_DMSO": 10833,
+      "Foretinib_vs_DMSO": 10833
+    }
+  },
+  {
+    "experiment": "E250916_LF",
+    "file": "LIMMA_results_SJF8240_vs_Foretinib.csv.gz",
+    "rows": 10358,
+    "columns": [
+      "Protein_group",
+      "Genes",
+      "Protein_description",
+      "Contrast",
+      "logFC",
+      "AveExpr",
+      "t",
+      "P.Value",
+      "adj.P.Val",
+      "B"
+    ],
+    "contrast_counts": {
+      "SJF8240_vs_Foretinib": 10358
+    }
+  },
+  {
+    "experiment": "E250916_LF",
+    "file": "protein_quant.csv.gz",
+    "rows": 92403,
+    "columns": [
+      "Run",
+      "Protein_group",
+      "Protein_description",
+      "Genes",
+      "LFQ",
+      "Intensity",
+      "N_precursors",
+      "N_precursors_proteotypic",
+      "Sample",
+      "Condition",
+      "Replicate"
+    ]
+  },
+  {
+    "experiment": "E250916_LF",
+    "file": "protein_quant_new.csv.gz",
+    "rows": 95552,
+    "columns": [
+      "Run",
+      "Protein_group",
+      "Protein_description",
+      "Genes",
+      "LFQ",
+      "Intensity",
+      "N_precursors",
+      "N_precursors_proteotypic",
+      "Sample",
+      "Condition",
+      "Replicate"
+    ]
+  },
+  {
+    "experiment": "E260106_PS",
+    "file": "LIMMA_HEAVY_SJF8240_vs_Foretinib.csv.gz",
+    "rows": 5579,
+    "columns": [
+      "Feature",
+      "logFC",
+      "AveExpr",
+      "SE",
+      "SE_model",
+      "SE_empirical",
+      "t",
+      "P.Value",
+      "adj_P_Val",
+      "Contrast",
+      "Genes",
+      "Protein_group",
+      "Protein_description"
+    ],
+    "contrast_counts": {
+      "SJF8240_vs_Foretinib": 5579
+    }
+  },
+  {
+    "experiment": "E260106_PS",
+    "file": "LIMMA_HEAVY_results_all_contrasts.csv.gz",
+    "rows": 16737,
+    "columns": [
+      "Feature",
+      "logFC",
+      "AveExpr",
+      "SE",
+      "SE_model",
+      "SE_empirical",
+      "t",
+      "P.Value",
+      "adj_P_Val",
+      "Contrast",
+      "Genes",
+      "Protein_group",
+      "Protein_description"
+    ],
+    "contrast_counts": {
+      "Foretinib_vs_DMSO": 5579,
+      "SJF8240_vs_DMSO": 5579,
+      "SJF8240_vs_Foretinib": 5579
+    }
+  },
+  {
+    "experiment": "E260106_PS",
+    "file": "LIMMA_LIGHT_SJF8240_vs_Foretinib.csv.gz",
+    "rows": 5718,
+    "columns": [
+      "Feature",
+      "logFC",
+      "AveExpr",
+      "SE",
+      "SE_model",
+      "SE_empirical",
+      "t",
+      "P.Value",
+      "adj_P_Val",
+      "Contrast",
+      "Genes",
+      "Protein_group",
+      "Protein_description"
+    ],
+    "contrast_counts": {
+      "SJF8240_vs_Foretinib": 5718
+    }
+  },
+  {
+    "experiment": "E260106_PS",
+    "file": "LIMMA_LIGHT_results_all_contrasts.csv.gz",
+    "rows": 17154,
+    "columns": [
+      "Feature",
+      "logFC",
+      "AveExpr",
+      "SE",
+      "SE_model",
+      "SE_empirical",
+      "t",
+      "P.Value",
+      "adj_P_Val",
+      "Contrast",
+      "Genes",
+      "Protein_group",
+      "Protein_description"
+    ],
+    "contrast_counts": {
+      "Foretinib_vs_DMSO": 5718,
+      "SJF8240_vs_DMSO": 5718,
+      "SJF8240_vs_Foretinib": 5718
+    }
+  },
+  {
+    "experiment": "E260106_PS",
+    "file": "LIMMA_results_DMSO_vs_SJF8240_Foretinib.csv.gz",
+    "rows": 15712,
+    "columns": [
+      "Protein_group",
+      "Genes",
+      "Protein_description",
+      "Contrast",
+      "logFC",
+      "AveExpr",
+      "t",
+      "P.Value",
+      "adj.P.Val",
+      "B"
+    ],
+    "contrast_counts": {
+      "SJF8240_vs_DMSO": 7856,
+      "Foretinib_vs_DMSO": 7856
+    }
+  },
+  {
+    "experiment": "E260106_PS",
+    "file": "QuadrantScatter_table_LIGHT_SJF8240_vs_Foretinib.csv.gz",
+    "rows": 5472,
+    "columns": [
+      "Feature",
+      "mean_SJF",
+      "mean_Fore",
+      "grand_mean",
+      "x_SJF_centered",
+      "y_Fore_centered",
+      "Genes",
+      "Protein_group",
+      "Protein_description",
+      "Quadrant",
+      "logFC",
+      "adj_P_Val"
+    ]
+  },
+  {
+    "experiment": "E260106_PS",
+    "file": "Selective_Degraded_Increased_table_HEAVY_scored.csv.gz",
+    "rows": 5579,
+    "columns": [
+      "Feature",
+      "Genes",
+      "Protein_group",
+      "Protein_description",
+      "logFC_Fore",
+      "logFC_SJF",
+      "P_Fore",
+      "P_SJF",
+      "FDR_Fore",
+      "FDR_SJF",
+      "Fore_down",
+      "Fore_up",
+      "SJF_down",
+      "SJF_up",
+      "Fore_not_affected",
+      "SJF_not_affected",
+      "Category",
+      "P_SJF_safe",
+      "P_Fore_safe",
+      "Score_SJF",
+      "Score_Fore",
+      "SelectivityScore",
+      "SelectiveSignificant",
+      "Label"
+    ]
+  },
+  {
+    "experiment": "E260106_PS",
+    "file": "Selective_Degraded_Increased_table_LIGHT.csv.gz",
+    "rows": 5718,
+    "columns": [
+      "Feature",
+      "Genes",
+      "Protein_group",
+      "Protein_description",
+      "logFC_Fore",
+      "logFC_SJF",
+      "FDR_Fore",
+      "FDR_SJF",
+      "Fore_down",
+      "Fore_up",
+      "SJF_down",
+      "SJF_up",
+      "Category"
+    ]
+  },
+  {
+    "experiment": "E260106_PS",
+    "file": "Selective_Degraded_Increased_table_LIGHT_scored.csv.gz",
+    "rows": 5718,
+    "columns": [
+      "Feature",
+      "Genes",
+      "Protein_group",
+      "Protein_description",
+      "logFC_Fore",
+      "logFC_SJF",
+      "P_Fore",
+      "P_SJF",
+      "FDR_Fore",
+      "FDR_SJF",
+      "Fore_down",
+      "Fore_up",
+      "SJF_down",
+      "SJF_up",
+      "Fore_not_affected",
+      "SJF_not_affected",
+      "Category",
+      "P_SJF_safe",
+      "P_Fore_safe",
+      "Score_SJF",
+      "Score_Fore",
+      "SelectivityScore",
+      "SelectiveSignificant",
+      "Label"
+    ]
+  },
+  {
+    "experiment": "E260106_PS",
+    "file": "protein_quant.csv.gz",
+    "rows": 68155,
+    "columns": [
+      "Run",
+      "Sample",
+      "Condition",
+      "Replicate",
+      "Protein_group",
+      "Protein_description",
+      "Genes",
+      "LFQ",
+      "LFQ_H",
+      "LFQ_L",
+      "Intensity",
+      "Intensity_H",
+      "Intensity_L",
+      "log2_HL_ratio",
+      "N_ratios",
+      "N_precursors_H",
+      "N_precursors_L",
+      "N_precursors_proteotypic_H",
+      "N_precursors_proteotypic_L"
+    ]
+  }
+]

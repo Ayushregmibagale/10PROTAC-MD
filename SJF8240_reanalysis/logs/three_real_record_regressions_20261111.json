@@ -1,0 +1,23 @@
+[
+  {
+    "target": "RIPK2_full",
+    "path": "/mnt/d/PROTAC degradation Prediction/pRosettaC/runs/high_affinity_degraders/RIPK2_full/Patchdock_Results/combined_139_49.pdb",
+    "sha256": "1d261af4c61a06fab8a0f509010ed218001c771fd024fb1933b38e8a4d7cbc0a",
+    "recovered_records": 79,
+    "node_identity_and_accumulation": "PASS"
+  },
+  {
+    "target": "RIPK2_full",
+    "path": "/mnt/d/PROTAC degradation Prediction/pRosettaC/runs/high_affinity_degraders/RIPK2_full/Patchdock_Results/combined_139_49_0001.pdb",
+    "sha256": "c764b763f889d26c303057a3a1d7b676755854afb94fe65988bd8a020237cc07",
+    "recovered_records": 0,
+    "node_identity_and_accumulation": "PASS"
+  },
+  {
+    "target": "ABL1",
+    "path": "/mnt/d/PROTAC degradation Prediction/pRosettaC/runs/high_affinity_no_degradation/ABL1/Patchdock_Results/combined_167_19_0001.pdb",
+    "sha256": "634ebea0ec2fdf6d111d8695184c65f6617862295ce8299383f2bc728c246a36",
+    "recovered_records": 0,
+    "node_identity_and_accumulation": "PASS"
+  }
+]

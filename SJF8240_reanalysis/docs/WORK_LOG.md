@@ -1,0 +1,33 @@
+# What / how / why log
+
+## New authorization and protocol
+
+User explicitly requested a clean folder inside 10PROTAC-MD with retained SJF8240 experimental data, corrected graph feature extraction and new LOPO GNN results. The earlier audit-only/no-training restriction is superseded for this new derivative. Original work remains unchanged. The primary model is original 04d raw-graph dual encoder, not XGBoost or an E2-scalar model. Frozen protocol is config/protocol.json.
+
+Source inventory found 307,770 retained docking poses over19 targets. All available configured poses are used, including 200 each for chain-D MAP4K5/SLK and5892 for MET; no fictional uniform20k claim. Static full extraction hashes every original PDB and verifies stable node identity across poses. First pose per target is independently sequence-checked, then residue/atom keys must stay identical. ELOB and VHL graphs use the same fixed algorithm, so the role comparison is controlled; historical scores remain separate.
+
+Dynamic extraction reads original trajectories with offset-sidecar writing disabled. All174 existing systems have now completed paired feature extraction on201 unique0–20ns frames. Core uses retained processed trajectories; prediction extensions explicitly use original raw prod.xtc because their processed nojump files are absent in the current layout. Periodic contact calculations do not require nojump imaging. Each case binds compiled role evidence and original TPR/XTC hashes. Joint ligand-heavy to protein-CA contacts replace products of marginal frequencies, with equal-pose target aggregation. This remains a CA proximity proxy, not a protein-heavy-atom contact or degradation probability.
+
+The initial static launch failed because Python3.13 lacks Executor.map buffersize; source/log retained and replaced with bounded deque prefetch. Two new graph tests pass. Initial dynamic batch completed core cases then stopped on missing prediction nojump paths; source/log retained. Explicit raw extension source fixed the layout, and all174 cases completed without repeating MD.
+
+CUDA probe: base Torch2.12+cu126 sees GPU only outside sandbox and lacks RTX5090 sm120 support. Existing boltz2 environment has Torch2.10+cu128/sm120. Two pinned packages (PyG2.8.0,xxhash3.6.0) installed in a private project target, leaving existing environments unchanged. A bounded20-step real-MET graph execution/replay control tests this runtime before full training; its result receipt determines pass/fail. No old study model weights are reused.
+
+Experimental compact LF/PS tables copied into local source_tables directories and excluded from Git; source hashes and target summaries are versioned. Raw multi-GB DIA-NN reports remain referenced in place. Conditions user-confirmed RPE1,500nM,12h; heavy=newly synthesized pool. No endpoint or nonsignificant result is silently converted into a training label.
+
+All full graph extraction and model jobs must report explicit completion; do not call current progress publication sign-off.
+
+GPU control initially stopped before training on missing graph-schema metadata. The distinct retained-paired schema, integer raw-index checks, label checks and explicit9/3 widths were added; the repaired20-step control passed with zero saved-state replay error and deterministic algorithms enabled. Completed control metadata is logs/gpu_runtime_control.json.
+
+## 2026-11-11 recovery and hardening
+
+The referenced /tmp working directory and private runtime were absent after the prior session. Recovered the 119 MB retained snapshot to a persistent staging directory in the Windows workspace. Eleven static targets and 174 dynamic cases were saved; no completed GNN arms were present. The static log records an extraction failure, not a clean pause.
+
+RIPK2_full/combined_139_49.pdb contains `420.195-1083.518-174.581`: an overflowing coordinate field from the historical writer. The strict fallback reads exactly three three-decimal coordinate tokens with a fully validated occupancy/B-factor/element suffix, rejects ambiguous records, preserves source bytes and records every recovery in per-pose provenance. Five graph/parser tests pass. Completed static graph hashes and provenance are verified before reuse. Diagnostic output routing is separated before completion checks.
+
+Restored pinned PyG 2.8.0 and xxhash 3.6.0 privately for the existing Torch 2.10.0+cu128 runtime. GPU probe confirms RTX 5090 support. No system environment replaced. Training now checks exact frozen cohort and labels, raw label values, static graph/provenance hashes and dynamic target receipts; completion JSON uses atomic writes. Protocol, model architecture, epochs, seed, labels and original data remain unchanged.
+
+The first resumed static attempt was stopped after a targeted check showed the coordinate overflow also shifts the element column. That attempt produced no new completed static target receipts. The final parser extracts the validated trailing element, and all role/node identity keys in the exact failing RIPK2 structure match its reference pose; 79 recovered records are explicitly recorded. The integration receipt preserves the source path and SHA256. Eight parser/graph/training-input tests pass; the GPU replay control passes (20 steps, zero replay error). Static extraction v2 resumes only incomplete targets.
+
+The persistent staged work root is `/mnt/c/Users/Ayush Regmi Bagale/SJF8240_reanalysis_work`. `scripts/07_continue_reanalysis.py` monitors this extraction, checks the frozen execution source manifest, runs the GPU control, then ELOB and VHL LOPO arms sequentially and the paired report. It stops on failures; it does not repeat docking or MD. JSON status records actual completed target/fold/arm counts. The supervisor saves the isolated derivative back to 10PROTAC-MD with backups of replaced files. New fold weights remain durably stored in the persistent work root during each arm. A launched supervisor is not a completed result.
+
+A further strict-parser compatibility check identified valid fixed-width large coordinates stored with two decimal places in `_0001` structures. These parse unambiguously within their original fields; the parser now accepts two or three decimal places in standard fields while the overflow fallback still requires exactly three. Source bytes and recorded precision are preserved. Added a regression test; nine tests pass. Stopped v1/v2 attempts and exact executable source snapshots are retained separately. The supervisor now owns the static subprocess directly, so its exit code gates all training; it no longer infers success from a possibly orphaned process.

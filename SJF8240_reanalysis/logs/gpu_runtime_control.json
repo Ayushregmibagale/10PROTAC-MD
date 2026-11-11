@@ -1,0 +1,13 @@
+{
+  "status": "BOUNDED_GPU_CONTROL_PASS_NOT_STUDY_RESULT",
+  "training_steps": 20,
+  "elapsed_s": 1.349085900999853,
+  "step_mean_s": 0.06745429504999265,
+  "score_replay_error": 0.0,
+  "torch": "2.10.0+cu128",
+  "gpu": "NVIDIA GeForce RTX 5090",
+  "peak_GPU_memory_bytes": 283171840,
+  "deterministic_algorithms": true,
+  "inputs": "Retained MET corrected graphs; not an experimental evaluation",
+  "new_MD_or_docking": false
+}

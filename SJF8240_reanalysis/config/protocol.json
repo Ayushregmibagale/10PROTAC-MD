@@ -1,0 +1,108 @@
+{
+  "status": "FROZEN_BEFORE_STUDY_MODEL_TRAINING",
+  "authorization": "User explicitly accepted creating a new retained-structure corrected-feature reanalysis and new LOPO GNN results; supersedes earlier audit-only/no-training scope for this new folder.",
+  "source_structures": "Exact historical molecules and docking poses, unchanged",
+  "primary_cohort": [
+    "ABL1",
+    "AXL",
+    "CDK2",
+    "CDK4",
+    "CDK6",
+    "DAPK1",
+    "DDR2",
+    "EPHA2",
+    "EPHB2",
+    "IRAK1",
+    "MAP4K5",
+    "MAPK14_full",
+    "MET",
+    "RIPK2_full",
+    "SLK",
+    "TLK2"
+  ],
+  "historical_labels": {
+    "MAP4K5": 0,
+    "SLK": 0,
+    "DDR2": 1,
+    "RIPK2_full": 1,
+    "MAPK14_full": 1,
+    "MET": 1,
+    "EPHB2": 1,
+    "ABL1": 0,
+    "AXL": 0,
+    "EPHA2": 0,
+    "CDK2": 0,
+    "CDK4": 0,
+    "CDK6": 0,
+    "DAPK1": 0,
+    "IRAK1": 0,
+    "TLK2": 0
+  },
+  "CDK17_policy": "Preserve structure under historical name, observed CDK14 identity explicit; exclude from primary training/evaluation before scores.",
+  "prediction_only": [
+    "SIK3_full",
+    "RPS6KB2_full"
+  ],
+  "arms": [
+    "elob",
+    "vhl"
+  ],
+  "comparison": "Paired ELOB versus VHL within same repaired graph pipeline, not exact historical model replay.",
+  "static_graph": {
+    "poses": "All retained configured combined PDBs; no score-based selection",
+    "strict_contact_A": 8.0,
+    "edge_frequency_ge": 0.005,
+    "node_features": 9,
+    "edge_features": [
+      "contact_frequency",
+      "conditional_mean_distance_nm",
+      "minimum_contact_distance_nm"
+    ],
+    "normalization": "Within-role residue range; sorted ligand atom identifiers"
+  },
+  "dynamic_graph": {
+    "poses": 174,
+    "time_window_ns": [
+      0,
+      20
+    ],
+    "unique_frames_per_pose": 201,
+    "contact_A_strict": 5.0,
+    "protein_nodes": "Sequence-identified protein C-alpha; ligand-heavy proximity proxy",
+    "edge_frequency_ge": 0.01,
+    "edge_statistic": "Observed simultaneous contacts, periodic distances, equal-pose aggregation",
+    "node_features": 3,
+    "edge_features": [
+      "joint_frequency",
+      "unconditional_mean_ligand_to_E3_CA_nm",
+      "unconditional_mean_ligand_to_POI_CA_nm"
+    ]
+  },
+  "training": {
+    "model": "Original 04d DualEncoderGNN AST classes",
+    "epochs": 400,
+    "hidden": 64,
+    "heads": 4,
+    "dropout": 0.3,
+    "lr": 0.001,
+    "weight_decay": 0.0001,
+    "scheduler": "CosineAnnealingLR over 400 epochs",
+    "seed": 42,
+    "fold_seed": "SHA256(base_seed|held_out_target)",
+    "hyperparameter_tuning": false,
+    "tabular_XGBoost_features": false,
+    "E2_scalar_branch": false,
+    "pretrained_weight_transfer": false,
+    "save_and_replay_all_folds": true
+  },
+  "E2": "Corrected retained E2 summaries exported separately; not used by raw-graph 04d main model.",
+  "experimental_evaluation": "RPE1 LF/PS endpoints stay separate; no nonsignificant=negative relabeling; retrospective exploratory comparison only.",
+  "new_docking_or_MD": false,
+  "not_certified": [
+    "Independent predictive validation",
+    "Experimental label universality",
+    "Calibrated degradation probability",
+    "Supplier equivalence",
+    "Nature publication acceptance"
+  ]
+}

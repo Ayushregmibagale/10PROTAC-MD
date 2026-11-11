@@ -1,0 +1,9 @@
+{
+  "python": "/home/ayushregmibagale/miniconda3/envs/boltz2/bin/python",
+  "torch": "2.10.0+cu128",
+  "torch_geometric": "2.8.0",
+  "xxhash": "3.6.0",
+  "private_overlay": ".runtime/py310",
+  "GPU": "RTX5090 sm120",
+  "existing_environments_modified": false
+}

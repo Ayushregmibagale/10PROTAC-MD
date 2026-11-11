@@ -1,0 +1,15 @@
+{
+  "status": "OVERFLOW_ROLE_AND_ATOM_IDENTITY_PASS",
+  "overflow_source": "/mnt/d/PROTAC degradation Prediction/pRosettaC/runs/high_affinity_degraders/RIPK2_full/Patchdock_Results/combined_139_49.pdb",
+  "source_sha256": "1d261af4c61a06fab8a0f509010ed218001c771fd024fb1933b38e8a4d7cbc0a",
+  "recovered_records": 79,
+  "first_record": {
+    "record": "HETATM    1  C1  PTC X   1     420.195-1083.518-174.581  1.00  0.00           C  ",
+    "xyz_A": [
+      420.195,
+      -1083.518,
+      -174.581
+    ]
+  },
+  "all_roles_node_keys_match": true
+}
