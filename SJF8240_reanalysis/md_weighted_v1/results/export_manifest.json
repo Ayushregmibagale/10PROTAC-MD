@@ -1,0 +1,32 @@
+{
+  "files_sha256": {
+    "prediction_only_ensemble.tsv": "79a6cfab0c2297b533ef56c5d0656685a4d98d2fbbcc9ab64151c43bd6f7f148",
+    "completion.json": "0c9ec3ea087b522b9ce7d27b8809575b8e135c8282846ea0756d6dba0a06da36",
+    "paired_predictions.tsv": "c652b0ffed4e8c8220dbcd47e6927187c10ca2c45e7aa68a7a8ade19499321dc",
+    "gnn/elob/fold_EPHB2.json": "25769ed4d2bbfd6be6b30c87e4d4cbb0f95f69c7ced30f60d62f8b7d29d5f51a",
+    "gnn/elob/completion.json": "36407f3d72bd79ad7fc062fb394216b25fa80f7db64727ec558ed0654c191e1f",
+    "gnn/elob/fold_DDR2.json": "8ff2a58180bfb04a269d06eb00bbd93db1c4f0d229c8b3043631e15fa6ae2f6e",
+    "gnn/elob/fold_MAPK14_full.json": "df08f88334f3643bb3d965703d077fbbcd12dc7b354bf17307f2ea50cc8447d7",
+    "gnn/elob/prediction_only_fold_scores.tsv": "7a2b0a8044b30781b2d39d829c154c80f52bf5e1553310a28b5d4ec3d28d08e2",
+    "gnn/elob/fold_ABL1.json": "3d9a4f867e50cf4b7da1cede69e4f179a4ff2133fb98a685633cfa6b1fbe92f1",
+    "gnn/elob/intent.json": "2463aa3e2397e4e869ec4c15a530c13dacd790f990122cec83cbef6e6356019e",
+    "gnn/elob/fold_AXL.json": "36f4d9fae3f7df7b58abf6fb7e9ca25f5933e92bd38b7c7cd52d23bdec45eabf",
+    "gnn/elob/predictions.tsv": "5656dcffcbbc9c67c81c8a9e810b3894869127d82b68ac847dacdc3bc80a57bb",
+    "gnn/elob/fold_MET.json": "e3905691da0dab04dcaf3af2bc2040d37b0eed2d1089ac1b74cd891f7d81aa14",
+    "gnn/elob/fold_EPHA2.json": "e3e551780bd7a0807247c9c06ec70f1488853ebd651ccfa282d7842848911b5b",
+    "gnn/elob/fold_RIPK2_full.json": "203e43942250b8deb96d7d7161c3103262277131baa67353f5da7e371d6d62cf",
+    "gnn/vhl/fold_EPHB2.json": "6d76d381546a60444142eca40292f759af18afce1122023c99a3cdc15c47c7a5",
+    "gnn/vhl/completion.json": "50669c6adf88208256d79f8a1204e2e8ce5bb170366fa27117f677831c2bf66c",
+    "gnn/vhl/fold_DDR2.json": "990833d2e8426ad23133989a802d3cb2a3f7925a3599b79cb27aee194e6960f6",
+    "gnn/vhl/fold_MAPK14_full.json": "41be258d5cce6cb73d5b0d8d55a986134c4c705da1a3d1fafd6d37937115923a",
+    "gnn/vhl/prediction_only_fold_scores.tsv": "f5bc856b63753573740c721990717b146b418588efb5dbd68fc12de84b0045d2",
+    "gnn/vhl/fold_ABL1.json": "4a53438c0df1711568c32da7e028cbecba9aaa923d5b519f5102e2f98278eeb5",
+    "gnn/vhl/intent.json": "4dd38ca16ee7c78017b2943a8d4e870b8012515e337a488bb40fba5d8ac9ac27",
+    "gnn/vhl/fold_AXL.json": "2646451c685dfd4598bb54db2e2d9fdd0c753a9338045ad61b8f62e4bb08c8f9",
+    "gnn/vhl/predictions.tsv": "265d0356e52e9d15abebbcfe0b5fe70b237a447f4c9f6927ac498ce2bcd065c7",
+    "gnn/vhl/fold_MET.json": "99f1a57c4a8d0d801406d2252a7d873e7feebad410bf25927b8d6daa351181c0",
+    "gnn/vhl/fold_EPHA2.json": "6f0c0e6423cc17bc2ea4fe229a283e9db1c4f40d37aab0f461a0dd13964aa7ab",
+    "gnn/vhl/fold_RIPK2_full.json": "680781e584e644f8fc654d42991ee39571bc5d7fe01d99c284ef1c915d832d2f"
+  },
+  "review_sha256": "a741bf97a1886db452ab3ad647fe4f6ffc5f1b5f7a5eb73d3d455e4bcc1bf49c"
+}

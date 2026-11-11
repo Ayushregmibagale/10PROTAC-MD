@@ -1,0 +1,45 @@
+{
+  "status": "FOLD_COMPLETE",
+  "prediction": {
+    "poi": "DDR2",
+    "label": 1,
+    "score": 0.5048014521598816,
+    "pred": 1,
+    "fold_seed": 669215838,
+    "has_MD": true
+  },
+  "prediction_only": [
+    {
+      "held_out": "DDR2",
+      "poi": "SIK3_full",
+      "score": 0.5048527121543884,
+      "experimental_label": null
+    },
+    {
+      "held_out": "DDR2",
+      "poi": "RPS6KB2_full",
+      "score": 0.5045786499977112,
+      "experimental_label": null
+    }
+  ],
+  "training_targets": [
+    "ABL1",
+    "AXL",
+    "EPHA2",
+    "EPHB2",
+    "MAPK14_full",
+    "MET",
+    "RIPK2_full"
+  ],
+  "class_weights": {
+    "0": 1.75,
+    "1": 0.7
+  },
+  "training_class_counts": {
+    "positive": 5,
+    "negative": 2
+  },
+  "checkpoint_sha256": "19b8c9b1c370278613813b6454de41643d56841c8cfec65ef06c39ac259c2bcb",
+  "replayed_score": 0.5048014521598816,
+  "elapsed_s": 17.799874437001563
+}

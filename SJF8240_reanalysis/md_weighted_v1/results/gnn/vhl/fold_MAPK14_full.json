@@ -1,0 +1,45 @@
+{
+  "status": "FOLD_COMPLETE",
+  "prediction": {
+    "poi": "MAPK14_full",
+    "label": 1,
+    "score": 0.5045532584190369,
+    "pred": 1,
+    "fold_seed": 888918689,
+    "has_MD": true
+  },
+  "prediction_only": [
+    {
+      "held_out": "MAPK14_full",
+      "poi": "SIK3_full",
+      "score": 0.5056533813476562,
+      "experimental_label": null
+    },
+    {
+      "held_out": "MAPK14_full",
+      "poi": "RPS6KB2_full",
+      "score": 0.5081295967102051,
+      "experimental_label": null
+    }
+  ],
+  "training_targets": [
+    "ABL1",
+    "AXL",
+    "DDR2",
+    "EPHA2",
+    "EPHB2",
+    "MET",
+    "RIPK2_full"
+  ],
+  "class_weights": {
+    "0": 1.75,
+    "1": 0.7
+  },
+  "training_class_counts": {
+    "positive": 5,
+    "negative": 2
+  },
+  "checkpoint_sha256": "df69ce50a51c9b63600350ad33b9eff292233e22f05699638f944a151337543d",
+  "replayed_score": 0.5045532584190369,
+  "elapsed_s": 17.92230447499969
+}

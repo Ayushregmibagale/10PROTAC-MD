@@ -1,0 +1,66 @@
+{
+  "version": "md_weighted_v1",
+  "frozen_UTC": "2026-11-11T16:42:51.430005+00:00",
+  "purpose": "Distinguish user-confirmed degraded binders from non-degraded binders using MD contact graphs only",
+  "cohort": [
+    "ABL1",
+    "AXL",
+    "DDR2",
+    "EPHA2",
+    "EPHB2",
+    "MAPK14_full",
+    "MET",
+    "RIPK2_full"
+  ],
+  "labels": {
+    "ABL1": 0,
+    "AXL": 0,
+    "DDR2": 1,
+    "EPHA2": 1,
+    "EPHB2": 1,
+    "MAPK14_full": 1,
+    "MET": 1,
+    "RIPK2_full": 1
+  },
+  "negative_targets": [
+    "ABL1",
+    "AXL"
+  ],
+  "prediction_only": [
+    "SIK3_full",
+    "RPS6KB2_full"
+  ],
+  "arms": [
+    "elob",
+    "vhl"
+  ],
+  "primary_arm": "vhl",
+  "model": "Exact original 04h MDEncoder AST including its classifier head",
+  "original_model_source_sha256": "7c4c37da521057ac6683708a136eea5bf960ebf4904d79fa09589a28e0725fe7",
+  "model_class_AST_sha256": "35fce182988772858178085578aaf74da1a85d74899d0ed7fa723237dbb5792a",
+  "epochs": 300,
+  "hidden": 64,
+  "heads": 4,
+  "dropout": 0.3,
+  "learning_rate": 0.001,
+  "weight_decay": 0.0001,
+  "optimizer": "Adam",
+  "scheduler": "CosineAnnealingLR(300)",
+  "loss": "fold-local balanced BCEWithLogits: weight(y)=N_train/(2*N_train_class)",
+  "seed": 42,
+  "fold_seed": "SHA256(base_seed|held_out_target), existing fold_seed helper",
+  "decision_threshold": 0.5,
+  "hyperparameter_tuning": false,
+  "early_stopping": false,
+  "static_graph_branch": false,
+  "E2_scalar_branch": false,
+  "pretrained_weights": false,
+  "all_evaluation_targets_have_MD": true,
+  "input_manifest_sha256": "10783d90a0d1cc6c1b634df61059709200a573febadf940b60f29c4b3b43ba24",
+  "label_map_sha256": "5f999e61afba0563f93891b21790359535b9c5e6e707d5721c6fcab22742b34b",
+  "new_docking_or_MD": false,
+  "independent_validation": false,
+  "comparison_to_previous_run": "Same eight MD graphs, labels, original MD-only architecture, seed and 300-epoch schedule as corrected_md_only_v1; only loss weighting changes.",
+  "class_weights_fitted_on": "Seven training targets only, excluding held-out target",
+  "pos_weight_3_not_used": "With degrader=1 this would upweight positives; explicit balanced sample weights emphasize the minority negative class instead."
+}

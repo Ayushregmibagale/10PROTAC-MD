@@ -1,0 +1,72 @@
+{
+  "version": "md_weighted_e2_v1",
+  "frozen_UTC": "2026-11-11T16:48:31.298559+00:00",
+  "purpose": "Distinguish user-confirmed degraded binders from non-degraded binders using MD contact graphs only",
+  "cohort": [
+    "ABL1",
+    "AXL",
+    "DDR2",
+    "EPHA2",
+    "EPHB2",
+    "MAPK14_full",
+    "MET",
+    "RIPK2_full"
+  ],
+  "labels": {
+    "ABL1": 0,
+    "AXL": 0,
+    "DDR2": 1,
+    "EPHA2": 1,
+    "EPHB2": 1,
+    "MAPK14_full": 1,
+    "MET": 1,
+    "RIPK2_full": 1
+  },
+  "negative_targets": [
+    "ABL1",
+    "AXL"
+  ],
+  "prediction_only": [],
+  "arms": [
+    "elob",
+    "vhl"
+  ],
+  "primary_arm": "vhl",
+  "model": "Original MD GAT backbone + two normalized E2 graph scalars before classifier head",
+  "original_model_source_sha256": "7c4c37da521057ac6683708a136eea5bf960ebf4904d79fa09589a28e0725fe7",
+  "model_class_AST_sha256": "21bf451ce4a0c40f50fcea6222d4a3d4032a3ce3b191fe3012035037e0fff1ed",
+  "epochs": 300,
+  "hidden": 64,
+  "heads": 4,
+  "dropout": 0.3,
+  "learning_rate": 0.001,
+  "weight_decay": 0.0001,
+  "optimizer": "Adam",
+  "scheduler": "CosineAnnealingLR(300)",
+  "loss": "fold-local balanced BCEWithLogits: weight(y)=N_train/(2*N_train_class)",
+  "seed": 42,
+  "fold_seed": "SHA256(base_seed|held_out_target), existing fold_seed helper",
+  "decision_threshold": 0.5,
+  "hyperparameter_tuning": false,
+  "early_stopping": false,
+  "static_graph_branch": false,
+  "E2_scalar_branch": true,
+  "pretrained_weights": false,
+  "all_evaluation_targets_have_MD": true,
+  "input_manifest_sha256": "2f83c2e56a66da5d8d109878b0b3fc0dc2be1cf9472d9933682b5e7d2fd61692",
+  "label_map_sha256": "5f999e61afba0563f93891b21790359535b9c5e6e707d5721c6fcab22742b34b",
+  "new_docking_or_MD": false,
+  "independent_validation": false,
+  "comparison_to_previous_run": "Versus md_weighted_v1, add two audited E2 geometry descriptors and expand classifier first layer by two inputs. Same eight MD targets, labels, fold-local class weights and fixed training schedule; paired role controls use identical scalar values.",
+  "class_weights_fitted_on": "Seven training targets only, excluding held-out target",
+  "pos_weight_3_not_used": "With degrader=1 this would upweight positives; explicit balanced sample weights emphasize the minority negative class instead.",
+  "E2_columns": [
+    "e2_mean_min_dist_A",
+    "delta_reach_80A"
+  ],
+  "E2_features_sha256": "5a5934f7a52a219939311937af28c59fbb4d2b46b868fb8b00b530b5baa8d6ec",
+  "E2_provenance_sha256": "859fc520590c5ebe97a6c14f14eae9387bd23f3bb6b5e79caf88029bdfa5ffe5",
+  "E2_normalization": "Training-fold mean/std only; population std; zero-variance scale1. No missing primary-target features allowed.",
+  "E2_definition": "Ligand-connected coherent images; mean minimum distance over all frames/poses, within-pose paired true-VHL heavy-contact reach80 contrast averaged over paired-state poses. Same descriptors for both role graphs.",
+  "prediction_only_policy": "Corrected E2 descriptors for extension targets are unavailable; do not fabricate zero scalars or claim extension predictions."
+}

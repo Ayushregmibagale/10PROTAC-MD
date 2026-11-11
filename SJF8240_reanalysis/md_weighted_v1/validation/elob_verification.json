@@ -1,0 +1,165 @@
+{
+  "status": "INDEPENDENT_CPU_REPLAY_AND_METRICS_PASS",
+  "role": "elob",
+  "folds": 8,
+  "prediction_only_inferences": 16,
+  "maximum_absolute_CPU_score_difference": 5.960464477539063e-08,
+  "CPU_tolerance": 1e-05,
+  "original_GPU_tolerance": 1e-07,
+  "CPU_torch": "2.12.0+cu126",
+  "completion_sha256": "36407f3d72bd79ad7fc062fb394216b25fa80f7db64727ec558ed0654c191e1f",
+  "execution_manifest_sha256": "5e6f1ca1b9991df4cb0c2217165d389d019679c97c59e78fbef21e7dd625655a",
+  "metrics": {
+    "AUROC": 0.3333333333333333,
+    "accuracy": 0.25,
+    "balanced_accuracy": 0.3333333333333333,
+    "average_precision": 0.6968253968253968,
+    "sensitivity": 0.16666666666666666,
+    "specificity": 0.5,
+    "confusion_matrix_labels_0_1": [
+      [
+        1,
+        1
+      ],
+      [
+        5,
+        1
+      ]
+    ],
+    "positive_count": 6,
+    "negative_count": 2,
+    "majority_class_accuracy_reference": 0.75
+  },
+  "folds_replayed": [
+    {
+      "poi": "ABL1",
+      "GPU_score": 0.48379355669021606,
+      "CPU_score": 0.4837935268878937,
+      "absolute_difference": 2.9802322387695312e-08,
+      "checkpoint_sha256": "1e753d48f2cc8d90e32851e86f282fd097a1c6a26ecde0b47fe425770733856a",
+      "training_targets": [
+        "AXL",
+        "DDR2",
+        "EPHA2",
+        "EPHB2",
+        "MAPK14_full",
+        "MET",
+        "RIPK2_full"
+      ]
+    },
+    {
+      "poi": "AXL",
+      "GPU_score": 0.5313253402709961,
+      "CPU_score": 0.5313253402709961,
+      "absolute_difference": 0.0,
+      "checkpoint_sha256": "0eca81c4650d9f3fb3ceffcad99cb5c6c3bf22a716f63bf116165d358492934e",
+      "training_targets": [
+        "ABL1",
+        "DDR2",
+        "EPHA2",
+        "EPHB2",
+        "MAPK14_full",
+        "MET",
+        "RIPK2_full"
+      ]
+    },
+    {
+      "poi": "DDR2",
+      "GPU_score": 0.5079753994941711,
+      "CPU_score": 0.5079753994941711,
+      "absolute_difference": 0.0,
+      "checkpoint_sha256": "a567312014ec6cee0e097eb7827127be2471e805f7690768335bf860c6175b05",
+      "training_targets": [
+        "ABL1",
+        "AXL",
+        "EPHA2",
+        "EPHB2",
+        "MAPK14_full",
+        "MET",
+        "RIPK2_full"
+      ]
+    },
+    {
+      "poi": "EPHA2",
+      "GPU_score": 0.4967961013317108,
+      "CPU_score": 0.49679604172706604,
+      "absolute_difference": 5.960464477539063e-08,
+      "checkpoint_sha256": "9e791fb669e3e9760e5f39eed03fe9328845e9b85850cf2c86ab622a89aa9a4a",
+      "training_targets": [
+        "ABL1",
+        "AXL",
+        "DDR2",
+        "EPHB2",
+        "MAPK14_full",
+        "MET",
+        "RIPK2_full"
+      ]
+    },
+    {
+      "poi": "EPHB2",
+      "GPU_score": 0.4755061864852905,
+      "CPU_score": 0.4755061864852905,
+      "absolute_difference": 0.0,
+      "checkpoint_sha256": "6dc892a1fda342712100b5dc5dffd0e344639e510208a9f9548a1d058e063d96",
+      "training_targets": [
+        "ABL1",
+        "AXL",
+        "DDR2",
+        "EPHA2",
+        "MAPK14_full",
+        "MET",
+        "RIPK2_full"
+      ]
+    },
+    {
+      "poi": "MAPK14_full",
+      "GPU_score": 0.4883444309234619,
+      "CPU_score": 0.4883444905281067,
+      "absolute_difference": 5.960464477539063e-08,
+      "checkpoint_sha256": "cfc622e29b3e8df96cfd23172fda6cab7198fdcf5ab76f7e3ee1f9a9af59795b",
+      "training_targets": [
+        "ABL1",
+        "AXL",
+        "DDR2",
+        "EPHA2",
+        "EPHB2",
+        "MET",
+        "RIPK2_full"
+      ]
+    },
+    {
+      "poi": "MET",
+      "GPU_score": 0.49057453870773315,
+      "CPU_score": 0.49057453870773315,
+      "absolute_difference": 0.0,
+      "checkpoint_sha256": "8eb4aa5ee3a25fe32d4bcb96e731c036338319ee25ddbb3dfb858371887bfae7",
+      "training_targets": [
+        "ABL1",
+        "AXL",
+        "DDR2",
+        "EPHA2",
+        "EPHB2",
+        "MAPK14_full",
+        "RIPK2_full"
+      ]
+    },
+    {
+      "poi": "RIPK2_full",
+      "GPU_score": 0.45328056812286377,
+      "CPU_score": 0.4532805383205414,
+      "absolute_difference": 2.9802322387695312e-08,
+      "checkpoint_sha256": "10abe724b8e6324b3ad7a8e073af999bc45ac8ac521a1a4bf0f87545973ea209",
+      "training_targets": [
+        "ABL1",
+        "AXL",
+        "DDR2",
+        "EPHA2",
+        "EPHB2",
+        "MAPK14_full",
+        "MET"
+      ]
+    }
+  ],
+  "new_training_in_review": false,
+  "validator_sha256": "129da46853c8b2f4bc1564a6c955c319e26751dd93152e3633ed5efd5b10b91c"
+}

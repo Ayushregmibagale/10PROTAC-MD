@@ -1,0 +1,96 @@
+{
+  "status": "CORRECTED_MD_ONLY_LOPO_COMPLETE",
+  "role": "vhl",
+  "cases": 8,
+  "settings": {
+    "role": "vhl",
+    "device": "cuda",
+    "protocol_sha256": "57993b30474edf6b811c0fa91e8aefc71cad5fd33b46851b2879ad8b8cd66867",
+    "execution_manifest_sha256": "5e6f1ca1b9991df4cb0c2217165d389d019679c97c59e78fbef21e7dd625655a",
+    "input_manifest_sha256": "10783d90a0d1cc6c1b634df61059709200a573febadf940b60f29c4b3b43ba24",
+    "label_map_sha256": "5f999e61afba0563f93891b21790359535b9c5e6e707d5721c6fcab22742b34b",
+    "torch": "2.10.0+cu128",
+    "cohort": [
+      "ABL1",
+      "AXL",
+      "DDR2",
+      "EPHA2",
+      "EPHB2",
+      "MAPK14_full",
+      "MET",
+      "RIPK2_full"
+    ],
+    "labels": {
+      "ABL1": 0,
+      "AXL": 0,
+      "DDR2": 1,
+      "EPHA2": 1,
+      "EPHB2": 1,
+      "MAPK14_full": 1,
+      "MET": 1,
+      "RIPK2_full": 1
+    },
+    "epochs": 300,
+    "seed": 42,
+    "architecture": "original_04h_MDEncoder_AST",
+    "loss": "fold-local balanced BCEWithLogits: weight(y)=N_train/(2*N_train_class)",
+    "all_evaluation_targets_have_MD": true,
+    "deterministic_algorithms": true,
+    "disabled_optional_backends": [
+      "pyg_lib",
+      "torch_scatter",
+      "torch_sparse",
+      "torch_cluster",
+      "torch_spline_conv",
+      "torch_frame",
+      "intel_extension_for_pytorch"
+    ]
+  },
+  "metrics": {
+    "AUROC": 0.08333333333333333,
+    "accuracy": 0.375,
+    "balanced_accuracy": 0.25,
+    "average_precision": 0.6218253968253968,
+    "sensitivity": 0.5,
+    "specificity": 0.0,
+    "confusion_matrix_labels_0_1": [
+      [
+        0,
+        2
+      ],
+      [
+        3,
+        3
+      ]
+    ],
+    "positive_count": 6,
+    "negative_count": 2,
+    "majority_class_accuracy_reference": 0.75
+  },
+  "all_evaluation_targets_have_MD": true,
+  "EPHA2_degraded": true,
+  "static_graphs_used": false,
+  "new_MD_or_docking": false,
+  "independent_biological_validation": false,
+  "outputs_sha256": {
+    "intent.json": "4dd38ca16ee7c78017b2943a8d4e870b8012515e337a488bb40fba5d8ac9ac27",
+    "predictions.tsv": "265d0356e52e9d15abebbcfe0b5fe70b237a447f4c9f6927ac498ce2bcd065c7",
+    "prediction_only_fold_scores.tsv": "f5bc856b63753573740c721990717b146b418588efb5dbd68fc12de84b0045d2",
+    "fold_ABL1.pt": "89f4366eb703ae78e9d988464615850e0af8b2b71d7c395a0f091004a25b0e66",
+    "fold_ABL1.json": "4a53438c0df1711568c32da7e028cbecba9aaa923d5b519f5102e2f98278eeb5",
+    "fold_AXL.pt": "99df309ab737c9a9c2a7b345ce0db2fc289928967c6e6dde4944830157675746",
+    "fold_AXL.json": "2646451c685dfd4598bb54db2e2d9fdd0c753a9338045ad61b8f62e4bb08c8f9",
+    "fold_DDR2.pt": "19b8c9b1c370278613813b6454de41643d56841c8cfec65ef06c39ac259c2bcb",
+    "fold_DDR2.json": "990833d2e8426ad23133989a802d3cb2a3f7925a3599b79cb27aee194e6960f6",
+    "fold_EPHA2.pt": "30f7117f5dbdcf40c67b9a37059db25be5bd5022e46864434eb6002874d2936f",
+    "fold_EPHA2.json": "6f0c0e6423cc17bc2ea4fe229a283e9db1c4f40d37aab0f461a0dd13964aa7ab",
+    "fold_EPHB2.pt": "9baefa8b7f037b28e601775201c79175129b7f8cdd2fd1389eba8413d88dbb3a",
+    "fold_EPHB2.json": "6d76d381546a60444142eca40292f759af18afce1122023c99a3cdc15c47c7a5",
+    "fold_MAPK14_full.pt": "df69ce50a51c9b63600350ad33b9eff292233e22f05699638f944a151337543d",
+    "fold_MAPK14_full.json": "41be258d5cce6cb73d5b0d8d55a986134c4c705da1a3d1fafd6d37937115923a",
+    "fold_MET.pt": "d28a99efeedb60af837730a6a1c260c8bfccaf45873dcf48d49f3abe63f66556",
+    "fold_MET.json": "99f1a57c4a8d0d801406d2252a7d873e7feebad410bf25927b8d6daa351181c0",
+    "fold_RIPK2_full.pt": "447b7caa7190e2553778bf3adf4cc10087d067fe848cd855e7d7cf6bd0165c57",
+    "fold_RIPK2_full.json": "680781e584e644f8fc654d42991ee39571bc5d7fe01d99c284ef1c915d832d2f"
+  }
+}

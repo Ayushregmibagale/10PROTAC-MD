@@ -1,0 +1,90 @@
+{
+  "status": "CORRECTED_MD_ONLY_PAIRED_ANALYSIS_COMPLETE",
+  "completed_UTC": "2026-11-11T16:50:15.720276+00:00",
+  "cohort": [
+    "ABL1",
+    "AXL",
+    "DDR2",
+    "EPHA2",
+    "EPHB2",
+    "MAPK14_full",
+    "MET",
+    "RIPK2_full"
+  ],
+  "labels": {
+    "ABL1": 0,
+    "AXL": 0,
+    "DDR2": 1,
+    "EPHA2": 1,
+    "EPHB2": 1,
+    "MAPK14_full": 1,
+    "MET": 1,
+    "RIPK2_full": 1
+  },
+  "cases": 8,
+  "positive_count": 6,
+  "negative_count": 2,
+  "EPHA2_degraded": true,
+  "all_evaluation_targets_have_MD": true,
+  "static_graphs_used": false,
+  "training_protocol_sha256": "57993b30474edf6b811c0fa91e8aefc71cad5fd33b46851b2879ad8b8cd66867",
+  "execution_manifest_sha256": "5e6f1ca1b9991df4cb0c2217165d389d019679c97c59e78fbef21e7dd625655a",
+  "metrics": {
+    "elob": {
+      "AUROC": 0.3333333333333333,
+      "accuracy": 0.25,
+      "balanced_accuracy": 0.3333333333333333,
+      "average_precision": 0.6968253968253968,
+      "sensitivity": 0.16666666666666666,
+      "specificity": 0.5,
+      "confusion_matrix_labels_0_1": [
+        [
+          1,
+          1
+        ],
+        [
+          5,
+          1
+        ]
+      ],
+      "positive_count": 6,
+      "negative_count": 2,
+      "majority_class_accuracy_reference": 0.75
+    },
+    "vhl": {
+      "AUROC": 0.08333333333333333,
+      "accuracy": 0.375,
+      "balanced_accuracy": 0.25,
+      "average_precision": 0.6218253968253968,
+      "sensitivity": 0.5,
+      "specificity": 0.0,
+      "confusion_matrix_labels_0_1": [
+        [
+          0,
+          2
+        ],
+        [
+          3,
+          3
+        ]
+      ],
+      "positive_count": 6,
+      "negative_count": 2,
+      "majority_class_accuracy_reference": 0.75
+    }
+  },
+  "model_completion_sha256": {
+    "elob": "36407f3d72bd79ad7fc062fb394216b25fa80f7db64727ec558ed0654c191e1f",
+    "vhl": "50669c6adf88208256d79f8a1204e2e8ce5bb170366fa27117f677831c2bf66c"
+  },
+  "independent_verification_sha256": {
+    "elob": "41f06a606b98f5ac9caa8a4fbd476da00d7a05382eebcc40865637ea4dd3aa8d",
+    "vhl": "d688698b57d8408ca7b44ff84c97abf2e86f722d04fdd1ac8ce946b9d930e543"
+  },
+  "outputs_sha256": {
+    "paired_predictions.tsv": "c652b0ffed4e8c8220dbcd47e6927187c10ca2c45e7aa68a7a8ade19499321dc",
+    "prediction_only_ensemble.tsv": "79a6cfab0c2297b533ef56c5d0656685a4d98d2fbbcc9ab64151c43bd6f7f148"
+  },
+  "new_docking_or_MD": false,
+  "independent_biological_validation": false
+}

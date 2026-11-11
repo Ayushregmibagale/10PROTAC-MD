@@ -1,0 +1,19 @@
+{
+  "updated_UTC": "2026-11-11T16:50:22.314594+00:00",
+  "phase": "COMPLETE",
+  "pid": 27894,
+  "work_root": "/mnt/c/Users/Ayush Regmi Bagale/SJF8240_md_weighted_v1",
+  "cohort_size": 8,
+  "positive_count": 6,
+  "negative_count": 2,
+  "EPHA2_degraded": true,
+  "folds_complete": {
+    "elob": 8,
+    "vhl": 8
+  },
+  "full_reanalysis_complete": true,
+  "active_job": false,
+  "independent_artifact_review_complete": true,
+  "independent_biological_validation": false,
+  "results": "RESULTS.md"
+}

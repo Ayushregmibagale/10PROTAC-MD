@@ -1,0 +1,1 @@
+User explicitly requested class imbalance correction before adding E2 features. Preserve all earlier runs. Freeze loss, protocol and source before fitting. Weight negative targets correctly with degrader=1; pos_weight=3 is the wrong direction. No tuning after results. Use only retained graphs and user-confirmed labels.

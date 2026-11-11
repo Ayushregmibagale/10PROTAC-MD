@@ -1,0 +1,18 @@
+{
+  "config/e2_features_snapshot.tsv": "5a5934f7a52a219939311937af28c59fbb4d2b46b868fb8b00b530b5baa8d6ec",
+  "config/input_manifest.json": "2f83c2e56a66da5d8d109878b0b3fc0dc2be1cf9472d9933682b5e7d2fd61692",
+  "config/protocol.json": "bc2fe312f0d22bb23848e1ca4a56d7c0c3192cfaf1336b3d5f0b8bfe18a0b9c5",
+  "config/user_labels.json": "5f999e61afba0563f93891b21790359535b9c5e6e707d5721c6fcab22742b34b",
+  "lib/common.py": "44d1227c4028d6c1a4f668ec85e139182ca77addd65dc39842c01daa4d7832dc",
+  "lib/gnn_contract.py": "aa10cf1d4f7bc4534663944f2c2bc6a3cc9b0f16e62fdc5de17d8d0b9fdb92eb",
+  "lib/model.py": "673ad3604a96dea012ddc9de5dd8eaa84931bfed6485d8fd98ee0c8e50bf419a",
+  "lib/protac_qc.py": "b7faca900f0a3c441f3d7fccb9835e7ae138f1198f480101145b9e6363ccf632",
+  "provenance/04h_md_only_ablation_original.py": "7c4c37da521057ac6683708a136eea5bf960ebf4904d79fa09589a28e0725fe7",
+  "provenance/build_e2_features.py": "ec856889378acbffccc0ac2d5ee3546b173a141fe736db26d2dbfedbec5c9aaa",
+  "provenance/e2_feature_provenance.json": "859fc520590c5ebe97a6c14f14eae9387bd23f3bb6b5e79caf88029bdfa5ffe5",
+  "provenance/model_before_E2.py": "0ef0a143aaca33238f86f78ebd7b607c665bf350838e0cdaf0d1e723a828b981",
+  "scripts/preflight.py": "837aef6d9534a6be5d17a1fb9cbeb9fd2bc798c8300b9fad202abf10e13e7aa5",
+  "scripts/run_pipeline.py": "8fc185f34a2fc501e37d6404804471b417009a653d7c1cbc7c75a35a41596145",
+  "scripts/train.py": "58e7685a3f7304fddee361a22ac317ed7a46270ff95313ac00d1cd186485d46c",
+  "scripts/verify_and_report.py": "25a3de39adc37976f9c930e326b814fbe172444f795c90a66f624c5681ddf70f"
+}
