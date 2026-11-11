@@ -1,5 +1,7 @@
 # Current MD labels and evaluated interventions
 
+Latest experiment: corrected_md_only_v2 adds SIK3_full and RPS6KB2_full as hypothetical negatives only. Their experimental labels remain unknown. This does not change the confirmed eight-target label map below. Both ten-target LOPO arms completed; neither arm predicts either hypothetical target as a non-degrader. See corrected_md_only_v2/RESULTS.md for assumption-scoped metrics and held-out scores.
+
 | Class | Targets |
 |---|---|
 | Degraded / 1 | DDR2, EPHA2, EPHB2, MAPK14_full, MET, RIPK2_full |

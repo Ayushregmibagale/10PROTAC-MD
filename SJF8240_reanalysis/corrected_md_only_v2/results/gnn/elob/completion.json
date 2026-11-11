@@ -1,0 +1,109 @@
+{
+  "status": "CORRECTED_MD_ONLY_LOPO_COMPLETE",
+  "role": "elob",
+  "cases": 10,
+  "settings": {
+    "role": "elob",
+    "device": "cuda",
+    "protocol_sha256": "74d4faf1ab038d6110766d402669e7a20a665b7183f849fd4704a376d1042259",
+    "execution_manifest_sha256": "30692d7da226b9ab08b2a133885efa1f04a099ca3a713f532b015fc770a86eef",
+    "input_manifest_sha256": "39f45e42784e582a6c0f2061167a4f483bc76bd69a351cf85437592398185d52",
+    "label_map_sha256": "c2c87ba4be6d9097311d0bdd4792eb1ad85203839c7ce10b341e3371ed10f46b",
+    "torch": "2.10.0+cu128",
+    "cohort": [
+      "ABL1",
+      "AXL",
+      "DDR2",
+      "EPHA2",
+      "EPHB2",
+      "MAPK14_full",
+      "MET",
+      "RIPK2_full",
+      "RPS6KB2_full",
+      "SIK3_full"
+    ],
+    "labels": {
+      "ABL1": 0,
+      "AXL": 0,
+      "DDR2": 1,
+      "EPHA2": 1,
+      "EPHB2": 1,
+      "MAPK14_full": 1,
+      "MET": 1,
+      "RIPK2_full": 1,
+      "SIK3_full": 0,
+      "RPS6KB2_full": 0
+    },
+    "epochs": 300,
+    "seed": 42,
+    "architecture": "original_04h_MDEncoder_AST",
+    "loss": "unweighted BCEWithLogits",
+    "hypothetical_targets": [
+      "SIK3_full",
+      "RPS6KB2_full"
+    ],
+    "all_evaluation_targets_have_MD": true,
+    "deterministic_algorithms": true,
+    "disabled_optional_backends": [
+      "pyg_lib",
+      "torch_scatter",
+      "torch_sparse",
+      "torch_cluster",
+      "torch_spline_conv",
+      "torch_frame",
+      "intel_extension_for_pytorch"
+    ]
+  },
+  "metrics": {
+    "AUROC": 0.041666666666666664,
+    "accuracy": 0.5,
+    "balanced_accuracy": 0.4166666666666667,
+    "average_precision": 0.4445767195767196,
+    "sensitivity": 0.8333333333333334,
+    "specificity": 0.0,
+    "confusion_matrix_labels_0_1": [
+      [
+        0,
+        4
+      ],
+      [
+        1,
+        5
+      ]
+    ],
+    "positive_count": 6,
+    "negative_count": 4,
+    "majority_class_accuracy_reference": 0.6
+  },
+  "all_evaluation_targets_have_MD": true,
+  "EPHA2_degraded": true,
+  "static_graphs_used": false,
+  "new_MD_or_docking": false,
+  "hypothetical_negative_labels_included": true,
+  "independent_biological_validation": false,
+  "outputs_sha256": {
+    "intent.json": "16d5ab1f8dff2fa095340e11b9363c414803d441b1f3be2f87c3f66002cf3dee",
+    "predictions.tsv": "8be39cb3e7e649419373f64d5f7060ce3c3a86ca4310d663f5dbb51d1d2e8097",
+    "prediction_only_fold_scores.tsv": "1f45fae0fd11a5ecb9895cfca2bfd655089ed05dc756611ff3c37091184378d9",
+    "fold_ABL1.pt": "ee4c67d7ce6ea38a8c91ade46d5b1973d8458fd72e690c9121fe616ac3721761",
+    "fold_ABL1.json": "adf804ff10b1171601aad8466e102f2078146f5ae0328e0b7af0f851757bfd6c",
+    "fold_AXL.pt": "7f9ecf5c32e9d75868c1df213042bb75eeda8a6a5898651620060001f802a778",
+    "fold_AXL.json": "0fce35ca6f1e8cd1a27b35474816a8ab3d7a85ca6194f162ea0b8112d81a82bb",
+    "fold_DDR2.pt": "3261c6b04cf4052c852915c824dee49449e2c17dba45b02a18cfd514b44c7391",
+    "fold_DDR2.json": "f8ac72dad38a35d65b82d339967c29225573a5c80b1cd40d79e1e33e6a95568d",
+    "fold_EPHA2.pt": "59ea8cc6847261640402469cc0d3a6e40d03cc0503211e50f76ae4c9d6f76cd2",
+    "fold_EPHA2.json": "11d58a969584cd9b1f7c495e53b4d15416ce7a65f7650b339cf36a48cfd3eb8a",
+    "fold_EPHB2.pt": "66ef48a8c9e6c2051ba4b843efe0f34266619e9c126f87959951b1076379c9c8",
+    "fold_EPHB2.json": "d5f52c8e45c44624ae977359da13a4541b6230d4779789e15fcc947e8a3e4614",
+    "fold_MAPK14_full.pt": "2295f763604a397802059c694022ca14c2afcb38a27e5218cccc0cec64a64c0a",
+    "fold_MAPK14_full.json": "250805afd9d145ba4d1bf6a68f1daee7f7b3b84c3df39b91f7c92c556fb5493b",
+    "fold_MET.pt": "7584f4600f7341f252d338aebdade886ab135448213ac843e73ab0860eed0a2f",
+    "fold_MET.json": "fbc47e08f0d38cba0b7d85b3de6dc9dc52f0b712db04fb4a5c8912421a89906d",
+    "fold_RIPK2_full.pt": "badebe661e39b257603b6fb95657e269339299237ff26d0f0baff7a25228c24b",
+    "fold_RIPK2_full.json": "9f1dd05ba1b4bf64fc89b19a9ff16f6305be4be8bf5f0c4508dc704eeff6c28e",
+    "fold_RPS6KB2_full.pt": "929dbb8998e1c490107208da0914e73e4dcd612c639a18bd3a14e437b52367a0",
+    "fold_RPS6KB2_full.json": "3e65a29757f72d115b1994eb6ac84adfddf56554c86b4a4020d4c0e5eccb8953",
+    "fold_SIK3_full.pt": "f11f68cfdffa9f2d19d25e17b87278890505f51eaa1cb5c5b5037c5ced6d83b5",
+    "fold_SIK3_full.json": "fd401394f0ffebbb1259f5dacb00404a7b5a86292b5280972744164ef617c901"
+  }
+}

@@ -1,0 +1,222 @@
+{
+  "status": "INDEPENDENT_CPU_REPLAY_AND_METRICS_PASS",
+  "role": "elob",
+  "folds": 10,
+  "prediction_only_inferences": 0,
+  "maximum_absolute_CPU_score_difference": 5.960464477539063e-08,
+  "CPU_tolerance": 1e-05,
+  "original_GPU_tolerance": 1e-07,
+  "CPU_torch": "2.12.0+cu126",
+  "completion_sha256": "e0bb41ea4bfd5a74b55558d083e9f8569a6af6d9a4af6f1918531f6afebb484c",
+  "execution_manifest_sha256": "30692d7da226b9ab08b2a133885efa1f04a099ca3a713f532b015fc770a86eef",
+  "metrics": {
+    "AUROC": 0.041666666666666664,
+    "accuracy": 0.5,
+    "balanced_accuracy": 0.4166666666666667,
+    "average_precision": 0.4445767195767196,
+    "sensitivity": 0.8333333333333334,
+    "specificity": 0.0,
+    "confusion_matrix_labels_0_1": [
+      [
+        0,
+        4
+      ],
+      [
+        1,
+        5
+      ]
+    ],
+    "positive_count": 6,
+    "negative_count": 4,
+    "majority_class_accuracy_reference": 0.6
+  },
+  "folds_replayed": [
+    {
+      "poi": "ABL1",
+      "GPU_score": 0.5528414249420166,
+      "CPU_score": 0.5528413653373718,
+      "absolute_difference": 5.960464477539063e-08,
+      "checkpoint_sha256": "ee4c67d7ce6ea38a8c91ade46d5b1973d8458fd72e690c9121fe616ac3721761",
+      "training_targets": [
+        "AXL",
+        "DDR2",
+        "EPHA2",
+        "EPHB2",
+        "MAPK14_full",
+        "MET",
+        "RIPK2_full",
+        "RPS6KB2_full",
+        "SIK3_full"
+      ]
+    },
+    {
+      "poi": "AXL",
+      "GPU_score": 0.6026414632797241,
+      "CPU_score": 0.6026415228843689,
+      "absolute_difference": 5.960464477539063e-08,
+      "checkpoint_sha256": "7f9ecf5c32e9d75868c1df213042bb75eeda8a6a5898651620060001f802a778",
+      "training_targets": [
+        "ABL1",
+        "DDR2",
+        "EPHA2",
+        "EPHB2",
+        "MAPK14_full",
+        "MET",
+        "RIPK2_full",
+        "RPS6KB2_full",
+        "SIK3_full"
+      ]
+    },
+    {
+      "poi": "DDR2",
+      "GPU_score": 0.5097614526748657,
+      "CPU_score": 0.5097614526748657,
+      "absolute_difference": 0.0,
+      "checkpoint_sha256": "3261c6b04cf4052c852915c824dee49449e2c17dba45b02a18cfd514b44c7391",
+      "training_targets": [
+        "ABL1",
+        "AXL",
+        "EPHA2",
+        "EPHB2",
+        "MAPK14_full",
+        "MET",
+        "RIPK2_full",
+        "RPS6KB2_full",
+        "SIK3_full"
+      ]
+    },
+    {
+      "poi": "EPHA2",
+      "GPU_score": 0.511574387550354,
+      "CPU_score": 0.5115744471549988,
+      "absolute_difference": 5.960464477539063e-08,
+      "checkpoint_sha256": "59ea8cc6847261640402469cc0d3a6e40d03cc0503211e50f76ae4c9d6f76cd2",
+      "training_targets": [
+        "ABL1",
+        "AXL",
+        "DDR2",
+        "EPHB2",
+        "MAPK14_full",
+        "MET",
+        "RIPK2_full",
+        "RPS6KB2_full",
+        "SIK3_full"
+      ]
+    },
+    {
+      "poi": "EPHB2",
+      "GPU_score": 0.4369390606880188,
+      "CPU_score": 0.4369390606880188,
+      "absolute_difference": 0.0,
+      "checkpoint_sha256": "66ef48a8c9e6c2051ba4b843efe0f34266619e9c126f87959951b1076379c9c8",
+      "training_targets": [
+        "ABL1",
+        "AXL",
+        "DDR2",
+        "EPHA2",
+        "MAPK14_full",
+        "MET",
+        "RIPK2_full",
+        "RPS6KB2_full",
+        "SIK3_full"
+      ]
+    },
+    {
+      "poi": "MAPK14_full",
+      "GPU_score": 0.5309752225875854,
+      "CPU_score": 0.5309752821922302,
+      "absolute_difference": 5.960464477539063e-08,
+      "checkpoint_sha256": "2295f763604a397802059c694022ca14c2afcb38a27e5218cccc0cec64a64c0a",
+      "training_targets": [
+        "ABL1",
+        "AXL",
+        "DDR2",
+        "EPHA2",
+        "EPHB2",
+        "MET",
+        "RIPK2_full",
+        "RPS6KB2_full",
+        "SIK3_full"
+      ]
+    },
+    {
+      "poi": "MET",
+      "GPU_score": 0.5237099528312683,
+      "CPU_score": 0.5237099528312683,
+      "absolute_difference": 0.0,
+      "checkpoint_sha256": "7584f4600f7341f252d338aebdade886ab135448213ac843e73ab0860eed0a2f",
+      "training_targets": [
+        "ABL1",
+        "AXL",
+        "DDR2",
+        "EPHA2",
+        "EPHB2",
+        "MAPK14_full",
+        "RIPK2_full",
+        "RPS6KB2_full",
+        "SIK3_full"
+      ]
+    },
+    {
+      "poi": "RIPK2_full",
+      "GPU_score": 0.5132614374160767,
+      "CPU_score": 0.5132614374160767,
+      "absolute_difference": 0.0,
+      "checkpoint_sha256": "badebe661e39b257603b6fb95657e269339299237ff26d0f0baff7a25228c24b",
+      "training_targets": [
+        "ABL1",
+        "AXL",
+        "DDR2",
+        "EPHA2",
+        "EPHB2",
+        "MAPK14_full",
+        "MET",
+        "RPS6KB2_full",
+        "SIK3_full"
+      ]
+    },
+    {
+      "poi": "RPS6KB2_full",
+      "GPU_score": 0.5555912852287292,
+      "CPU_score": 0.5555912852287292,
+      "absolute_difference": 0.0,
+      "checkpoint_sha256": "929dbb8998e1c490107208da0914e73e4dcd612c639a18bd3a14e437b52367a0",
+      "training_targets": [
+        "ABL1",
+        "AXL",
+        "DDR2",
+        "EPHA2",
+        "EPHB2",
+        "MAPK14_full",
+        "MET",
+        "RIPK2_full",
+        "SIK3_full"
+      ]
+    },
+    {
+      "poi": "SIK3_full",
+      "GPU_score": 0.5250675678253174,
+      "CPU_score": 0.5250675678253174,
+      "absolute_difference": 0.0,
+      "checkpoint_sha256": "f11f68cfdffa9f2d19d25e17b87278890505f51eaa1cb5c5b5037c5ced6d83b5",
+      "training_targets": [
+        "ABL1",
+        "AXL",
+        "DDR2",
+        "EPHA2",
+        "EPHB2",
+        "MAPK14_full",
+        "MET",
+        "RIPK2_full",
+        "RPS6KB2_full"
+      ]
+    }
+  ],
+  "hypothetical_targets_explicitly_held_out": [
+    "SIK3_full",
+    "RPS6KB2_full"
+  ],
+  "no_hypothetical_label_is_experimental_validation": true,
+  "new_training_in_review": false,
+  "validator_sha256": "cf28e6b6360ee530b17d34e3662c40189af11c1cd4f455edadfbc1fd9642fc2c"
+}

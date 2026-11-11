@@ -1,0 +1,13 @@
+{
+  "status": "MD_ONLY_GPU_PREFLIGHT_PASS_NOT_STUDY_RESULT",
+  "steps": 20,
+  "elapsed_s": 1.0346745839997311,
+  "saved_state_replay_difference": 0.0,
+  "architecture_AST_matches_original_04h": true,
+  "all_ten_evaluation_targets_have_MD": true,
+  "two_labels_hypothetical_not_experimental": true,
+  "EPHA2_label": 1,
+  "torch": "2.10.0+cu128",
+  "GPU": "NVIDIA GeForce RTX 5090",
+  "source_manifest_sha256": "30692d7da226b9ab08b2a133885efa1f04a099ca3a713f532b015fc770a86eef"
+}

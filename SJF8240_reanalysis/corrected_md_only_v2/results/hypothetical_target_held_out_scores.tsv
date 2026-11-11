@@ -1,0 +1,5 @@
+role	poi	assumed_label	confirmed_experimental_label	held_out_score	predicted_class	predicted_as_hypothesized_non_degrader	fully_excluded_from_own_training	training_targets	experimental_validation
+elob	RPS6KB2_full	0		0.5555912852287292	1	False	True	ABL1;AXL;DDR2;EPHA2;EPHB2;MAPK14_full;MET;RIPK2_full;SIK3_full	False
+elob	SIK3_full	0		0.5250675678253174	1	False	True	ABL1;AXL;DDR2;EPHA2;EPHB2;MAPK14_full;MET;RIPK2_full;RPS6KB2_full	False
+vhl	RPS6KB2_full	0		0.5244598388671875	1	False	True	ABL1;AXL;DDR2;EPHA2;EPHB2;MAPK14_full;MET;RIPK2_full;SIK3_full	False
+vhl	SIK3_full	0		0.5587795376777649	1	False	True	ABL1;AXL;DDR2;EPHA2;EPHB2;MAPK14_full;MET;RIPK2_full;RPS6KB2_full	False

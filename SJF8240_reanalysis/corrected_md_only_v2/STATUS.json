@@ -1,6 +1,6 @@
 {
-  "updated_UTC": "2026-11-11T17:24:03.194846+00:00",
-  "phase": "train.py",
+  "updated_UTC": "2026-11-11T17:29:36.227330+00:00",
+  "phase": "COMPLETE",
   "pid": 30140,
   "work_root": "/mnt/c/Users/Ayush Regmi Bagale/SJF8240_corrected_md_only_v2",
   "cohort_size": 10,
@@ -12,17 +12,12 @@
     "RPS6KB2_full"
   ],
   "folds_complete": {
-    "elob": 7,
-    "vhl": 0
+    "elob": 10,
+    "vhl": 10
   },
-  "full_reanalysis_complete": false,
-  "active_job": true,
-  "child_pid": 30217,
-  "arguments": [
-    "--role",
-    "elob",
-    "--device",
-    "cuda"
-  ],
-  "log": "logs/train_elob.log"
+  "full_reanalysis_complete": true,
+  "active_job": false,
+  "independent_artifact_review_complete": true,
+  "independent_biological_validation": false,
+  "results": "RESULTS.md"
 }

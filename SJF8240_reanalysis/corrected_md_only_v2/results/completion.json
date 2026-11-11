@@ -1,0 +1,142 @@
+{
+  "status": "V2_EXPLORATORY_TEN_TARGET_LOPO_COMPLETE",
+  "completed_UTC": "2026-11-11T17:29:31.785976+00:00",
+  "cohort": [
+    "ABL1",
+    "AXL",
+    "DDR2",
+    "EPHA2",
+    "EPHB2",
+    "MAPK14_full",
+    "MET",
+    "RIPK2_full",
+    "RPS6KB2_full",
+    "SIK3_full"
+  ],
+  "labels": {
+    "ABL1": 0,
+    "AXL": 0,
+    "DDR2": 1,
+    "EPHA2": 1,
+    "EPHB2": 1,
+    "MAPK14_full": 1,
+    "MET": 1,
+    "RIPK2_full": 1,
+    "SIK3_full": 0,
+    "RPS6KB2_full": 0
+  },
+  "cases": 10,
+  "positive_count": 6,
+  "negative_count": 4,
+  "hypothetical_negative_targets": [
+    "SIK3_full",
+    "RPS6KB2_full"
+  ],
+  "hypothetical_labels_are_experimental_validation": false,
+  "metrics": {
+    "elob": {
+      "AUROC": 0.041666666666666664,
+      "accuracy": 0.5,
+      "balanced_accuracy": 0.4166666666666667,
+      "average_precision": 0.4445767195767196,
+      "sensitivity": 0.8333333333333334,
+      "specificity": 0.0,
+      "confusion_matrix_labels_0_1": [
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          5
+        ]
+      ],
+      "positive_count": 6,
+      "negative_count": 4,
+      "majority_class_accuracy_reference": 0.6
+    },
+    "vhl": {
+      "AUROC": 0.16666666666666666,
+      "accuracy": 0.1,
+      "balanced_accuracy": 0.125,
+      "average_precision": 0.47949735449735453,
+      "sensitivity": 0.0,
+      "specificity": 0.25,
+      "confusion_matrix_labels_0_1": [
+        [
+          1,
+          3
+        ],
+        [
+          6,
+          0
+        ]
+      ],
+      "positive_count": 6,
+      "negative_count": 4,
+      "majority_class_accuracy_reference": 0.6
+    }
+  },
+  "original_eight_subset_metrics": {
+    "elob": {
+      "AUROC": 0.0,
+      "accuracy": 0.625,
+      "balanced_accuracy": 0.4166666666666667,
+      "average_precision": 0.594047619047619,
+      "sensitivity": 0.8333333333333334,
+      "specificity": 0.0,
+      "confusion_matrix_labels_0_1": [
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          5
+        ]
+      ],
+      "positive_count": 6,
+      "negative_count": 2,
+      "majority_class_accuracy_reference": 0.75
+    },
+    "vhl": {
+      "AUROC": 0.3333333333333333,
+      "accuracy": 0.125,
+      "balanced_accuracy": 0.25,
+      "average_precision": 0.6968253968253968,
+      "sensitivity": 0.0,
+      "specificity": 0.5,
+      "confusion_matrix_labels_0_1": [
+        [
+          1,
+          1
+        ],
+        [
+          6,
+          0
+        ]
+      ],
+      "positive_count": 6,
+      "negative_count": 2,
+      "majority_class_accuracy_reference": 0.75
+    }
+  },
+  "training_protocol_sha256": "74d4faf1ab038d6110766d402669e7a20a665b7183f849fd4704a376d1042259",
+  "execution_manifest_sha256": "30692d7da226b9ab08b2a133885efa1f04a099ca3a713f532b015fc770a86eef",
+  "model_completion_sha256": {
+    "elob": "e0bb41ea4bfd5a74b55558d083e9f8569a6af6d9a4af6f1918531f6afebb484c",
+    "vhl": "929630bb1056624902f5c71eddaf8325b0edf0ce50fd5f9e6df2dc4ffc11f5e1"
+  },
+  "independent_verification_sha256": {
+    "elob": "f53d6b9914cebad45a8a06c675450f62adab4c17e3716c3d6701a66ddaefdade",
+    "vhl": "745d8ffb6e48da0f1a91c6572d84ec84a6a8e801f6c3c0d255f9e2340f144c3e"
+  },
+  "outputs_sha256": {
+    "hypothetical_target_held_out_scores.tsv": "43a9d77ae816f3b61d7e0edf1b3a307d8ef29b033ad9ed218d858f30534535db",
+    "paired_predictions.tsv": "449e293aa4fabfd68728939b5a7d8962173e3958d3944765aa13264369b1e120",
+    "rank_pair_decomposition.tsv": "840e0659e5e9c0118cc804f79eccbacec18ee78bce5320ed9e7b60fef3e1ef2f",
+    "v1_v2_comparison.tsv": "0663b05b87ad0f25ab5c9880aa4338d9918627892dfa822381558150b2f39c32"
+  },
+  "new_docking_or_MD": false,
+  "independent_biological_validation": false
+}

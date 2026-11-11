@@ -1,0 +1,8 @@
+{
+  "status": "V2_TEN_TARGET_HYPOTHESIS_RESULTS_REVIEWED",
+  "results_sha256": "b3119172911c60e158590c4ea9fc22d778f897d823954627bd72201d89136ef0",
+  "completion_sha256": "4a31779a4ba75f5f037ff466cfe6e22ceea3e40e2a11d99995355afc2fb5df24",
+  "validator_sha256": "cf28e6b6360ee530b17d34e3662c40189af11c1cd4f455edadfbc1fd9642fc2c",
+  "hypothetical_labels_are_experimental_validation": false,
+  "no_new_training_during_review": true
+}

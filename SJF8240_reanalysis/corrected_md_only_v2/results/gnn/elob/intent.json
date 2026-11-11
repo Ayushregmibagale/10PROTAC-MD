@@ -1,0 +1,52 @@
+{
+  "role": "elob",
+  "device": "cuda",
+  "protocol_sha256": "74d4faf1ab038d6110766d402669e7a20a665b7183f849fd4704a376d1042259",
+  "execution_manifest_sha256": "30692d7da226b9ab08b2a133885efa1f04a099ca3a713f532b015fc770a86eef",
+  "input_manifest_sha256": "39f45e42784e582a6c0f2061167a4f483bc76bd69a351cf85437592398185d52",
+  "label_map_sha256": "c2c87ba4be6d9097311d0bdd4792eb1ad85203839c7ce10b341e3371ed10f46b",
+  "torch": "2.10.0+cu128",
+  "cohort": [
+    "ABL1",
+    "AXL",
+    "DDR2",
+    "EPHA2",
+    "EPHB2",
+    "MAPK14_full",
+    "MET",
+    "RIPK2_full",
+    "RPS6KB2_full",
+    "SIK3_full"
+  ],
+  "labels": {
+    "ABL1": 0,
+    "AXL": 0,
+    "DDR2": 1,
+    "EPHA2": 1,
+    "EPHB2": 1,
+    "MAPK14_full": 1,
+    "MET": 1,
+    "RIPK2_full": 1,
+    "SIK3_full": 0,
+    "RPS6KB2_full": 0
+  },
+  "epochs": 300,
+  "seed": 42,
+  "architecture": "original_04h_MDEncoder_AST",
+  "loss": "unweighted BCEWithLogits",
+  "hypothetical_targets": [
+    "SIK3_full",
+    "RPS6KB2_full"
+  ],
+  "all_evaluation_targets_have_MD": true,
+  "deterministic_algorithms": true,
+  "disabled_optional_backends": [
+    "pyg_lib",
+    "torch_scatter",
+    "torch_sparse",
+    "torch_cluster",
+    "torch_spline_conv",
+    "torch_frame",
+    "intel_extension_for_pytorch"
+  ]
+}

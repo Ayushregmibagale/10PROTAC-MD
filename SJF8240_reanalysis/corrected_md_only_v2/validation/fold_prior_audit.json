@@ -1,0 +1,9 @@
+{
+  "status": "DESCRIPTIVE_FOLD_COUNTS_VERIFIED",
+  "new_predictive_model_fitted": false,
+  "rows": 20,
+  "fold_prior_table_sha256": "581cae37189118d72b360077542339ee064e295d1e4d80cbe3124769aad9fb20",
+  "interpretation_sha256": "defc50b7bdd2e4762983acf4b0d12e400494f69049ae9ef2579901b36c404f8c",
+  "script_sha256": "abe0d815ff050211b28c6974fcf31d475573cc87767c867246a7c68e16e99805",
+  "outcome_summary_added_without_fitting": true
+}

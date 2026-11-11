@@ -1,0 +1,5 @@
+role	scope	positive_negative_pairs	correctly_ordered_pairs	ties
+elob	confirmed_negatives_ABL1_AXL	12	0	0
+elob	hypothetical_negatives	12	1	0
+vhl	confirmed_negatives_ABL1_AXL	12	4	0
+vhl	hypothetical_negatives	12	0	0
