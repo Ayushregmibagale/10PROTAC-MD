@@ -1,0 +1,64 @@
+{
+  "status": "PASS",
+  "cases": 8,
+  "selection": "first lexicographic pose per confirmed target, no score-based selection",
+  "records": [
+    {
+      "target": "ABL1",
+      "pose": "pose001",
+      "max_error": 0.0,
+      "arrays": 19,
+      "packet_identical": true
+    },
+    {
+      "target": "AXL",
+      "pose": "pose001",
+      "max_error": 0.0,
+      "arrays": 19,
+      "packet_identical": true
+    },
+    {
+      "target": "DDR2",
+      "pose": "pose001",
+      "max_error": 0.0,
+      "arrays": 19,
+      "packet_identical": true
+    },
+    {
+      "target": "EPHA2",
+      "pose": "pose001",
+      "max_error": 0.0,
+      "arrays": 19,
+      "packet_identical": true
+    },
+    {
+      "target": "EPHB2",
+      "pose": "pose001",
+      "max_error": 0.0,
+      "arrays": 19,
+      "packet_identical": true
+    },
+    {
+      "target": "MAPK14_full",
+      "pose": "pose001",
+      "max_error": 0.0,
+      "arrays": 19,
+      "packet_identical": true
+    },
+    {
+      "target": "MET",
+      "pose": "pose002",
+      "max_error": 0.0,
+      "arrays": 19,
+      "packet_identical": true
+    },
+    {
+      "target": "RIPK2_full",
+      "pose": "pose001",
+      "max_error": 0.0,
+      "arrays": 19,
+      "packet_identical": true
+    }
+  ],
+  "method": "fresh read and recomputation using frozen extraction implementation; not independent physical method"
+}

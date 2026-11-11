@@ -1,0 +1,14 @@
+{
+  "config/input_manifest.json": "10783d90a0d1cc6c1b634df61059709200a573febadf940b60f29c4b3b43ba24",
+  "config/protocol.json": "d9d5e42f1e6e306747a8573219503cfcbec8dc9e7dc3d7cba06f3a748c83900e",
+  "config/user_labels.json": "5f999e61afba0563f93891b21790359535b9c5e6e707d5721c6fcab22742b34b",
+  "lib/common.py": "9124c5f836b7c19e2c1b33d6a8e3865aba090653c2f14a101596ab1a13bec864",
+  "lib/gnn_contract.py": "aa10cf1d4f7bc4534663944f2c2bc6a3cc9b0f16e62fdc5de17d8d0b9fdb92eb",
+  "lib/model.py": "0ef0a143aaca33238f86f78ebd7b607c665bf350838e0cdaf0d1e723a828b981",
+  "lib/protac_qc.py": "b7faca900f0a3c441f3d7fccb9835e7ae138f1198f480101145b9e6363ccf632",
+  "provenance/04h_md_only_ablation_original.py": "7c4c37da521057ac6683708a136eea5bf960ebf4904d79fa09589a28e0725fe7",
+  "scripts/preflight.py": "972827bd747375069d39b1c97059d3465748620604664cacca53c44daa30a279",
+  "scripts/run_pipeline.py": "ffad44d38582b1f6d9eb9f7e8c6eefe697d9d949e1449863dd7cae78456e1bfc",
+  "scripts/train.py": "41543485e5e0b0819cacb2243bae20a9a7c8db6742036c8366930e41b0c65864",
+  "scripts/verify_and_report.py": "113e8c4edf83017bb02061e4f019085b12da933633b09851e215606e5fe92cd9"
+}
