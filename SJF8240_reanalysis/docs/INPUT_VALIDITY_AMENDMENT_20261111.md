@@ -1,0 +1,11 @@
+# Pretraining input-validity amendment
+
+No new GNN fold has been trained or scored. The original frozen protocol and configured pose lists remain preserved. The new file-integrity policy is defined before any fitting and applies identically to ELOB and VHL. It changes which files can supply a complete graph, not molecular coordinates, historical labels, model architecture, optimization settings, target cohort, or docking/MD results.
+
+The original DAPK1 combined_181_41.pdb ends mid-atom record; its _0001 sibling also lacks the complete reference node set. CDK2 combined_176_33_0001.pdb is zero bytes. The complete CDK2 sibling is a separate retained input, not an authorized replacement for the empty file. Their hashes and outcomes are recorded in logs/invalid_input_policy_real_cases_20261111.json. No source is overwritten or inferred from a sibling.
+
+For every configured file, keep its path, byte count, SHA256 and inclusion outcome. Exclude empty files, truncated atomic records and strict subsets of the independently sequence-verified reference node set from both graph arms. Unexpected atom identities, new nodes, duplicate nodes and ambiguous coordinate records remain fatal errors. All accepted poses must share the complete reference identities; no selection uses scores, predictions or labels. Each new target receipt binds the exclusion ledger and gives configured, accepted and excluded counts. Existing successfully completed graph receipts remain unchanged.
+
+This is an input-validity amendment to a prospective computational comparison, not an exact replay of the historical study. Preserve the old protocol hash and source snapshots before activation. A one-time recovery monitor waits for the current extraction to exit, then installs the tested candidate and amended protocol only if no fold result exists. It reuses all verified completed graphs. Fourteen unit tests and four real-file classifications pass. Coverage counts and fractions must be exported in the final paired report; exclusions do not establish biological negatives or independent validation.
+
+At this checkpoint, fifteen static targets and all 174 dynamic cases are complete. The remaining extraction and GNN fitting are still in progress/pending. Source checkpoint a293faa is saved in Git.

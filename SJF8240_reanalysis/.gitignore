@@ -20,3 +20,7 @@ __pycache__/
 *.pt
 *.log
 logs/continuation.lock
+
+candidate_scripts_v4/
+candidate_tests_v4/
+recovery/*.lock

@@ -1,0 +1,30 @@
+[
+  {
+    "path": "/mnt/d/PROTAC degradation Prediction/pRosettaC/runs/low_affinity_no_degradation/DAPK1/Patchdock_Results/combined_181_41.pdb",
+    "bytes": 139264,
+    "sha256": "d939d31b245b0a18b945e2488f3e5ba7b9c66720ad5b26516f4a3074e0cef4ec",
+    "exclusion_reason": "TRUNCATED_ATOM_RECORD",
+    "included": false
+  },
+  {
+    "path": "/mnt/d/PROTAC degradation Prediction/pRosettaC/runs/low_affinity_no_degradation/DAPK1/Patchdock_Results/combined_181_41_0001.pdb",
+    "bytes": 161065,
+    "sha256": "2a1dc09c3b9a45b5d6a206fac69069e03a7375a570ce08826260bd7723cbf158",
+    "exclusion_reason": "INCOMPLETE_REFERENCE_NODE_SET",
+    "included": false
+  },
+  {
+    "path": "/mnt/d/PROTAC degradation Prediction/pRosettaC/runs/low_affinity_no_degradation/CDK2/Patchdock_Results/combined_176_33_0001.pdb",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "exclusion_reason": "EMPTY_FILE",
+    "included": false
+  },
+  {
+    "path": "/mnt/d/PROTAC degradation Prediction/pRosettaC/runs/low_affinity_no_degradation/CDK2/Patchdock_Results/combined_176_33.pdb",
+    "bytes": 824179,
+    "sha256": "cdb1f1626cd6be1f91d9a86fe10816ec0918a62acbd38d1ac3e2bcd6b5d2e889",
+    "exclusion_reason": null,
+    "included": true
+  }
+]

@@ -1,0 +1,27 @@
+{
+  "status": "REVIEWED_PRETRAINING_INPUT_VALIDITY_AMENDMENT",
+  "original_protocol_sha256": "ffcf6dd10ae39357ffd99d0a6f39891ea1e4ea9799120c8c10c47773f4d8b62a",
+  "candidate_sha256": {
+    "candidate_scripts_v4/01_build_static_graphs.py": "40691d664609b55caaf04727b02e2afc6d496fd54a4f99d099403f85c2e4206b",
+    "candidate_scripts_v4/04_train_dual_lopo.py": "4ed4413e9a617383d92a33130dd5f28fda4aa5bc6b41a23e1f66b0350f8e5542",
+    "candidate_scripts_v4/07_continue_reanalysis.py": "1d034a22c8c3b53cfe62f9fd16704d03e1465f467a516e5cc0b3020ac1e2cdc6",
+    "candidate_tests_v4/test_static_integrity.py": "9c38d44ed791fafa2b0ff8b355e3805a4bc2b275a2a2e4dcd23258a0ea07c406",
+    "candidate_scripts_v4/06_make_comparison.py": "f157f08d7388c34132ec5aab0edd45782910c515109221e786037334dd2cbcbc"
+  },
+  "input_validity_policy": {
+    "id": "pretraining_file_integrity_v1",
+    "frozen_before_any_model_training": true,
+    "retain_source_bytes_and_full_configured_pose_lists": true,
+    "excluded_from_both_arms": [
+      "EMPTY_FILE",
+      "TRUNCATED_ATOM_RECORD",
+      "INCOMPLETE_REFERENCE_NODE_SET"
+    ],
+    "unrecognized_coordinate_or_identity_changes": "STOP_FOR_REVIEW",
+    "selection_uses_predictions_labels_or_docking_scores": false,
+    "replace_from_alternate_pose_or_redock": false,
+    "per_file_path_hash_and_reason_required": true,
+    "accepted_and_excluded_counts_required_per_target": true,
+    "rationale": "Raw graphs require a complete common node set. Empty, truncated, or strict-subset input files cannot represent that pose. Keep their provenance and exclude them symmetrically; do not impute or substitute coordinates."
+  }
+}
