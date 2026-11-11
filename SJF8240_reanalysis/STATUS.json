@@ -1,6 +1,6 @@
 {
-  "updated_UTC": "2026-11-11T16:32:14.372705+00:00",
-  "phase": "CORRECTED_MD_ONLY_COMPLETE",
+  "updated_UTC": "2026-11-11T17:01:41.888280+00:00",
+  "phase": "CLASS_WEIGHT_AND_E2_FIXES_COMPLETE",
   "active_work_root": "/mnt/c/Users/Ayush Regmi Bagale/SJF8240_reanalysis_work",
   "static_targets_complete": 19,
   "static_targets_expected": 19,
@@ -15,9 +15,9 @@
   "independent_artifact_review_complete": true,
   "independent_biological_validation": false,
   "active_job": false,
-  "results": "corrected_md_only_v1/RESULTS.md",
+  "results": "fix_comparison_20261111/COMPARISON.md",
   "report_recovery_receipt": "recovery/report_recovery_resolution_20261111.json",
-  "final_review_sha256": "8c6f2a94a2ec0106dee8bd186509c078fddbbfe32139d3324d192a175c91fd30",
+  "final_review_sha256": "10976fd1239184a0ca18e61705a1280cc6c6a503c0d0381099e6913888cb5a76",
   "original_docking_MD_or_labels_modified": false,
   "current_md_label_version": "user_confirmed_md_labels_20261111",
   "current_md_label_map": "config/current_md_labels.json",
@@ -26,12 +26,26 @@
   "current_label_reanalysis_complete": true,
   "historical_run_label_for_EPHA2": 0,
   "current_label_for_EPHA2": 1,
-  "current_findings": "corrected_md_only_v1/RESULTS.md",
-  "current_run": "corrected_md_only_v1",
-  "current_run_work_root": "/mnt/c/Users/Ayush Regmi Bagale/SJF8240_corrected_md_only_v1",
+  "current_findings": "fix_comparison_20261111/COMPARISON.md",
+  "current_run": "md_weighted_e2_v1",
+  "current_run_work_root": "/mnt/c/Users/Ayush Regmi Bagale/SJF8240_md_weighted_e2_v1",
   "corrected_label_training_complete": true,
   "current_evaluation_target_count": 8,
   "static_graphs_used_in_current_model": false,
   "all_current_evaluation_targets_have_MD": true,
-  "historical_dual_encoder_review_sha256": "167929256d7a7bd36e8f960e0e866fcb47803b1b899e50086a51513d1ceaf698"
+  "historical_dual_encoder_review_sha256": "167929256d7a7bd36e8f960e0e866fcb47803b1b899e50086a51513d1ceaf698",
+  "completed_fix_model_arms": 4,
+  "fix_folds_complete": {
+    "md_weighted_v1": {
+      "elob": 8,
+      "vhl": 8
+    },
+    "md_weighted_e2_v1": {
+      "elob": 8,
+      "vhl": 8
+    }
+  },
+  "class_balance_fix_implemented": true,
+  "E2_graph_feature_fix_implemented": true,
+  "comparison_verification_sha256": "10976fd1239184a0ca18e61705a1280cc6c6a503c0d0381099e6913888cb5a76"
 }

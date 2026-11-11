@@ -1,0 +1,56 @@
+{
+  "status": "FOLD_COMPLETE",
+  "prediction": {
+    "poi": "MET",
+    "label": 1,
+    "score": 0.5427446365356445,
+    "pred": 1,
+    "fold_seed": 630499109,
+    "has_MD": true
+  },
+  "prediction_only": [],
+  "training_targets": [
+    "ABL1",
+    "AXL",
+    "DDR2",
+    "EPHA2",
+    "EPHB2",
+    "MAPK14_full",
+    "RIPK2_full"
+  ],
+  "class_weights": {
+    "0": 1.75,
+    "1": 0.7
+  },
+  "e2_normalization": {
+    "training_targets": [
+      "ABL1",
+      "AXL",
+      "DDR2",
+      "EPHA2",
+      "EPHB2",
+      "MAPK14_full",
+      "RIPK2_full"
+    ],
+    "mean": [
+      60.941496222010755,
+      -0.014621868949633314
+    ],
+    "scale": [
+      3.942601087300944,
+      0.010866932382289732
+    ],
+    "feature_columns": [
+      "e2_mean_min_dist_A",
+      "delta_reach_80A"
+    ],
+    "feature_source_sha256": "5a5934f7a52a219939311937af28c59fbb4d2b46b868fb8b00b530b5baa8d6ec"
+  },
+  "training_class_counts": {
+    "positive": 5,
+    "negative": 2
+  },
+  "checkpoint_sha256": "06304268c565b51d16f4a1608c437733691716edc89e1d84c28c9b961fd10c05",
+  "replayed_score": 0.5427446365356445,
+  "elapsed_s": 17.95568917499986
+}

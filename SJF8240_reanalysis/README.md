@@ -1,9 +1,15 @@
-# SJF8240 retained-structure reanalysis
+# SJF8240 retained-structure GNN experiments
 
-The latest completed run is the [corrected-label MD-only GNN](corrected_md_only_v1/RESULTS.md). It evaluates eight MD targets: six degraded binders including EPHA2, and two non-degraded binders, ABL1/AXL. All targets have MD. The original 04h MD-only model was run for300epochs with seed42, no tuning, and paired ELOB/true-VHL roles.
+The latest requested interventions are complete: [class weighting and E2 comparison](fix_comparison_20261111/COMPARISON.md). All experiments use the user-corrected eight-target MD cohort: six degraded binders including EPHA2; ABL1/AXL are the two non-degraded binders. Every target has MD.
 
-Both arms return AUROC0.0,75% accuracy,50% balanced accuracy and0% specificity: every held-out target was called degraded. This equals the all-degraded accuracy reference and does not distinguish the two classes in this run. All16 saved fold models and32 prediction-only inferences passed independent CPU replay; protocol/source/input hashes and held-out membership were verified. No new docking or MD was run.
+| Primary true-VHL variant | AUROC | Balanced accuracy | Specificity |
+|---|---:|---:|---:|
+| Corrected-label MD-only baseline | 0.0000 | 50.0% | 0.0% |
+| Balanced class loss | 0.0833 | 25.0% | 0.0% |
+| Balanced loss + audited E2 descriptors | 0.0000 | 16.7% | 0.0% |
 
-Current labels and interpretation: [CURRENT_LABELS.md](CURRENT_LABELS.md). Latest paired scores: [corrected_md_only_v1/results/paired_predictions.tsv](corrected_md_only_v1/results/paired_predictions.tsv). The label-map JSON records provenance as of its creation; STATUS.json gives current training completion.
+Neither intervention provides useful discrimination in this small retrospective cohort. The protocol, labels, graph inputs, epochs (300), seed (42), optimizer and threshold were fixed; E2 adds two normalized graph scalars at the classifier head. No outcome-based tuning, score inversion, conventional predictive model, new docking or MD was run. All 32 newly saved models pass independent CPU replay, including class-weight and E2 normalization provenance checks.
 
-The previous16-target static-plus-MD dual encoder remains frozen in the top-level config/protocol.json, analysis/gnn/, REVIEWED_RESULTS.md and results/paired_20261111/. That historical run used EPHA2=0 and its metrics do not describe the corrected label set. The new run changes cohort, architecture and labels together; comparisons with the old run cannot isolate a label-only effect. All old structures, graphs, models, predictions, assays and reports remain preserved.
+Versioned reports: corrected_md_only_v1/RESULTS.md, md_weighted_v1/RESULTS.md and md_weighted_e2_v1/RESULTS.md. ELOB role controls, full target scores, metrics/confusion matrices and independent receipts are retained. The comparison reports identical primary raw graph hashes across versions.
+
+Current class definitions are in [CURRENT_LABELS.md](CURRENT_LABELS.md). The immutable label-map JSON records provenance when created; STATUS.json gives current completion. The original 16-target dual encoder, old EPHA2=0 labels and all earlier results remain frozen under the top-level config/protocol.json and historical report folders. They are not current corrected-label performance results.

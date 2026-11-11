@@ -1,0 +1,44 @@
+{
+  "role": "vhl",
+  "device": "cuda",
+  "protocol_sha256": "bc2fe312f0d22bb23848e1ca4a56d7c0c3192cfaf1336b3d5f0b8bfe18a0b9c5",
+  "execution_manifest_sha256": "f06c545383f32a4cbe97a794fb519092ab3e76e744574c6d56cf7878cbafe1b6",
+  "input_manifest_sha256": "2f83c2e56a66da5d8d109878b0b3fc0dc2be1cf9472d9933682b5e7d2fd61692",
+  "label_map_sha256": "5f999e61afba0563f93891b21790359535b9c5e6e707d5721c6fcab22742b34b",
+  "torch": "2.10.0+cu128",
+  "cohort": [
+    "ABL1",
+    "AXL",
+    "DDR2",
+    "EPHA2",
+    "EPHB2",
+    "MAPK14_full",
+    "MET",
+    "RIPK2_full"
+  ],
+  "labels": {
+    "ABL1": 0,
+    "AXL": 0,
+    "DDR2": 1,
+    "EPHA2": 1,
+    "EPHB2": 1,
+    "MAPK14_full": 1,
+    "MET": 1,
+    "RIPK2_full": 1
+  },
+  "epochs": 300,
+  "seed": 42,
+  "architecture": "MD_GAT_backbone_plus_two_graph_E2_scalars",
+  "loss": "fold-local balanced BCEWithLogits: weight(y)=N_train/(2*N_train_class)",
+  "all_evaluation_targets_have_MD": true,
+  "deterministic_algorithms": true,
+  "disabled_optional_backends": [
+    "pyg_lib",
+    "torch_scatter",
+    "torch_sparse",
+    "torch_cluster",
+    "torch_spline_conv",
+    "torch_frame",
+    "intel_extension_for_pytorch"
+  ]
+}

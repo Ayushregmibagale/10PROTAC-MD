@@ -1,0 +1,21 @@
+{
+  "status": "THREE_METHOD_COMPARISON_VERIFIED",
+  "labels": {
+    "ABL1": 0,
+    "AXL": 0,
+    "DDR2": 1,
+    "EPHA2": 1,
+    "EPHB2": 1,
+    "MAPK14_full": 1,
+    "MET": 1,
+    "RIPK2_full": 1
+  },
+  "same16_evaluation_graph_hashes": true,
+  "same_class_weights_for_weighted_and_E2": true,
+  "same_cohort_seed_epoch_schedule": true,
+  "metrics_sha256": "64d0addd1dfe7e45b1ded1e01466d5b7b7ca658b04819e1710a38329868fad74",
+  "per_target_predictions_sha256": "cd9815ae2fd9f42cc6af93cdc760f6e4877f24f7d2de5692cb4c6cba90ffeb81",
+  "report_sha256": "44562fc363a784f1c998aa5dff70b0daa4979b653d112f0a3713f56fa2462fb7",
+  "comparison_script_sha256": "6b3bff03cc72f43420d85b1e75e9c22a7cb66c6df1eac67ea831996eac686ac4",
+  "new_fitting_executed": false
+}

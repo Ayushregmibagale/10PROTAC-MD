@@ -1,0 +1,97 @@
+{
+  "status": "CORRECTED_MD_ONLY_LOPO_COMPLETE",
+  "role": "elob",
+  "cases": 8,
+  "settings": {
+    "role": "elob",
+    "device": "cuda",
+    "protocol_sha256": "bc2fe312f0d22bb23848e1ca4a56d7c0c3192cfaf1336b3d5f0b8bfe18a0b9c5",
+    "execution_manifest_sha256": "f06c545383f32a4cbe97a794fb519092ab3e76e744574c6d56cf7878cbafe1b6",
+    "input_manifest_sha256": "2f83c2e56a66da5d8d109878b0b3fc0dc2be1cf9472d9933682b5e7d2fd61692",
+    "label_map_sha256": "5f999e61afba0563f93891b21790359535b9c5e6e707d5721c6fcab22742b34b",
+    "torch": "2.10.0+cu128",
+    "cohort": [
+      "ABL1",
+      "AXL",
+      "DDR2",
+      "EPHA2",
+      "EPHB2",
+      "MAPK14_full",
+      "MET",
+      "RIPK2_full"
+    ],
+    "labels": {
+      "ABL1": 0,
+      "AXL": 0,
+      "DDR2": 1,
+      "EPHA2": 1,
+      "EPHB2": 1,
+      "MAPK14_full": 1,
+      "MET": 1,
+      "RIPK2_full": 1
+    },
+    "epochs": 300,
+    "seed": 42,
+    "architecture": "MD_GAT_backbone_plus_two_graph_E2_scalars",
+    "loss": "fold-local balanced BCEWithLogits: weight(y)=N_train/(2*N_train_class)",
+    "all_evaluation_targets_have_MD": true,
+    "deterministic_algorithms": true,
+    "disabled_optional_backends": [
+      "pyg_lib",
+      "torch_scatter",
+      "torch_sparse",
+      "torch_cluster",
+      "torch_spline_conv",
+      "torch_frame",
+      "intel_extension_for_pytorch"
+    ]
+  },
+  "metrics": {
+    "AUROC": 0.0,
+    "accuracy": 0.125,
+    "balanced_accuracy": 0.08333333333333333,
+    "average_precision": 0.594047619047619,
+    "sensitivity": 0.16666666666666666,
+    "specificity": 0.0,
+    "confusion_matrix_labels_0_1": [
+      [
+        0,
+        2
+      ],
+      [
+        5,
+        1
+      ]
+    ],
+    "positive_count": 6,
+    "negative_count": 2,
+    "majority_class_accuracy_reference": 0.75
+  },
+  "all_evaluation_targets_have_MD": true,
+  "EPHA2_degraded": true,
+  "E2_features_used": true,
+  "static_graphs_used": false,
+  "new_MD_or_docking": false,
+  "independent_biological_validation": false,
+  "outputs_sha256": {
+    "intent.json": "b3eaa5d72aed34078e57c8c30dd5a7cb376f560a8cf9aada679b411006c563f3",
+    "predictions.tsv": "2828b7ca454b7ead715d1f2aad6dc297f66efab7922b63120cebeb79d5bbb739",
+    "prediction_only_fold_scores.tsv": "1f45fae0fd11a5ecb9895cfca2bfd655089ed05dc756611ff3c37091184378d9",
+    "fold_ABL1.pt": "aeab839670e7ea0bcec7a0a1b51bbdff4ccafd3ed1e9dc0e243ffe8cc42837d5",
+    "fold_ABL1.json": "964384c56d28ac42bad0f85b06d6048a77c05499f2bc43c4462651ed89fdde1b",
+    "fold_AXL.pt": "b1430b134d7867e0913982f25c8ae472640dc6dee902cbbef9051474fa2540b2",
+    "fold_AXL.json": "fc2bed6e038ce4df7d1424d7dc2926ca7dac8ea622b21212fae2fe58af4ca764",
+    "fold_DDR2.pt": "fcc81d8d584cf8fade50351d2092ce4493185370d3258b121b4c26aa2c5544d7",
+    "fold_DDR2.json": "b82231d92649d36e682affbaefea808e02fd75a843262e6b6ebd2204c9fa4a2f",
+    "fold_EPHA2.pt": "12702cbd1f6ecab1e4288a8d09f1651e480d7608ab86b54d378420b98a0194fd",
+    "fold_EPHA2.json": "2619dc59267ace6a1c15a603c7efbea4ff2ff4176e576f88b03175aab447bbb0",
+    "fold_EPHB2.pt": "6ad0491080e473c82927a3b16071cbcc859f08628eb7fdb3f65e573ba93e1f86",
+    "fold_EPHB2.json": "5b293a31d3ee52b0c9d7fa0dd27a4faee1bd6137cd1a7c33fad73dfcfd4a3551",
+    "fold_MAPK14_full.pt": "692af56e5576ef938461109e6debf00dd27168d4ab67e03e6abd62c4c8c9b9b7",
+    "fold_MAPK14_full.json": "212ea982d06159c98192271d3188aab6e82e8ff43f7baa80f58751c79e3240ca",
+    "fold_MET.pt": "06304268c565b51d16f4a1608c437733691716edc89e1d84c28c9b961fd10c05",
+    "fold_MET.json": "cf6203ce9e8f33083303e32270d9af630ca0059cdfbc6ed25d7f7dd1fbe1a2bf",
+    "fold_RIPK2_full.pt": "2376e9a3023256e635ad630e140aa9bc598c7d695d1ee8e49ab4a7d768a08dd3",
+    "fold_RIPK2_full.json": "4251344058002cd972ff2a8571a67b097af7677d423472df221c5e782209cb58"
+  }
+}

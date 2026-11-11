@@ -1,0 +1,7 @@
+{
+  "status": "CORRECTED_MD_ONLY_RESULTS_REVIEWED",
+  "results_sha256": "2c32b72349e5b5a6df45342f0e7d5c7876b9b76e92c95e9c8c80e40c98899ae6",
+  "completion_sha256": "4328c58736073fe10b16bedfa7e11348e289898fbfb3704af3e07da986490b10",
+  "validator_sha256": "25a3de39adc37976f9c930e326b814fbe172444f795c90a66f624c5681ddf70f",
+  "no_new_training_during_review": true
+}
