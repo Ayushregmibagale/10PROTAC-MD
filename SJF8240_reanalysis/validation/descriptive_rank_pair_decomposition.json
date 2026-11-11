@@ -1,0 +1,33 @@
+{
+  "purpose": "Post-run descriptive audit of aggregate AUROC; no fitting or selection",
+  "pairs": [
+    {
+      "role": "elob",
+      "comparison": "five MD-positive targets versus MD negatives",
+      "positive_negative_pairs": 15,
+      "correctly_ordered_pairs": 0,
+      "tied_pairs": 0
+    },
+    {
+      "role": "elob",
+      "comparison": "five MD-positive targets versus non-MD negatives",
+      "positive_negative_pairs": 40,
+      "correctly_ordered_pairs": 40,
+      "tied_pairs": 0
+    },
+    {
+      "role": "vhl",
+      "comparison": "five MD-positive targets versus MD negatives",
+      "positive_negative_pairs": 15,
+      "correctly_ordered_pairs": 0,
+      "tied_pairs": 0
+    },
+    {
+      "role": "vhl",
+      "comparison": "five MD-positive targets versus non-MD negatives",
+      "positive_negative_pairs": 40,
+      "correctly_ordered_pairs": 40,
+      "tied_pairs": 0
+    }
+  ]
+}

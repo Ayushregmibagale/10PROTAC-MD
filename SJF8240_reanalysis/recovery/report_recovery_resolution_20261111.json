@@ -1,0 +1,16 @@
+{
+  "status": "REPORT_ONLY_FAILURE_RESOLVED_WITHOUT_TRAINING",
+  "UTC": "2026-11-11T14:51:15.055244+00:00",
+  "cause": "Report SHA helper received __file__ as a string; normalized Path input.",
+  "original_report_source_sha256": "f157f08d7388c34132ec5aab0edd45782910c515109221e786037334dd2cbcbc",
+  "recovered_report_source_sha256": "5088d5e06753620f44ca69203130fd163d2dca2451d53f1fcd0bc6ec6a36752e",
+  "same_original_runtime_used_for_export": true,
+  "all_four_TSVs_byte_identical_to_original_partial_export": true,
+  "table_equivalence_receipt_sha256": "71db2bd16507688cd68544f186b644e8ff9c5a19839b9531c5d02d3be1719677",
+  "final_independent_review_sha256": "167929256d7a7bd36e8f960e0e866fcb47803b1b899e50086a51513d1ceaf698",
+  "model_completion_sha256": {
+    "elob": "756dad564418fe2c4973cc44c9daaa1385522d5024a5509db737f2d0a023cdb1",
+    "vhl": "f64c4bc867c6c867c990f36d8ac274da79063a1cdc7b882719127b25e5fa5dae"
+  },
+  "new_training_or_MD": false
+}

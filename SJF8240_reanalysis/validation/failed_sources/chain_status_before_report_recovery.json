@@ -1,0 +1,18 @@
+{
+  "updated_UTC": "2026-11-11T14:33:52.303637+00:00",
+  "phase": "STOPPED_ON_ERROR",
+  "pid": 7977,
+  "active_work_root": "/mnt/c/Users/Ayush Regmi Bagale/SJF8240_reanalysis_work",
+  "static_targets_complete": 19,
+  "static_targets_expected": 19,
+  "dynamic_cases_complete": 174,
+  "dynamic_cases_expected": 174,
+  "folds_complete": {
+    "elob": 16,
+    "vhl": 16
+  },
+  "completed_model_arms": 2,
+  "full_reanalysis_complete": false,
+  "error": "RuntimeError('06_make_comparison.py failed with exit 1; see logs/paired_comparison_20261111_v4.log')",
+  "traceback": "Traceback (most recent call last):\n  File \"/mnt/c/Users/Ayush Regmi Bagale/SJF8240_reanalysis_work/scripts/07_continue_reanalysis.py\", line 56, in <module>\n    try:main()\n        ~~~~^^\n  File \"/mnt/c/Users/Ayush Regmi Bagale/SJF8240_reanalysis_work/scripts/07_continue_reanalysis.py\", line 53, in main\n    execute('06_make_comparison.py',[],'paired_comparison_20261111_v4.log',manifest)\n    ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mnt/c/Users/Ayush Regmi Bagale/SJF8240_reanalysis_work/scripts/07_continue_reanalysis.py\", line 41, in execute\n    if process.returncode:raise RuntimeError(script+' failed with exit '+str(process.returncode)+'; see logs/'+log)\n                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nRuntimeError: 06_make_comparison.py failed with exit 1; see logs/paired_comparison_20261111_v4.log\n"
+}

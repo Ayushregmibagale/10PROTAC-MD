@@ -1,0 +1,30 @@
+{
+  "status": "FOLD_COMPLETE",
+  "prediction": {
+    "poi": "IRAK1",
+    "label": 0,
+    "score": 3.3633923521847464e-06,
+    "pred": 0,
+    "has_md": false,
+    "fold_seed": 957430753
+  },
+  "external_predictions": [
+    {
+      "held_out": "IRAK1",
+      "poi": "SIK3_full",
+      "score": 0.6489159464836121,
+      "experimental_label": null,
+      "purpose": "Prediction-only fold ensemble; not independent LOPO validation"
+    },
+    {
+      "held_out": "IRAK1",
+      "poi": "RPS6KB2_full",
+      "score": 0.6471778750419617,
+      "experimental_label": null,
+      "purpose": "Prediction-only fold ensemble; not independent LOPO validation"
+    }
+  ],
+  "checkpoint_sha256": "82d8b7893d335783fcaf80a237f60a3f65ac7ef0fd574a5a6037b8be5ecf20d4",
+  "replayed_score": 3.3633923521847464e-06,
+  "elapsed_s": 124.8871047399989
+}

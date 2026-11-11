@@ -1,0 +1,185 @@
+{
+  "status": "PAIRED_NEW_REANALYSIS_COMPLETE",
+  "static_input_validity": [
+    {
+      "poi": "MAP4K5",
+      "configured_files": 200,
+      "included_complete_poses": 200,
+      "excluded_unusable_files": 0,
+      "included_fraction": 1.0
+    },
+    {
+      "poi": "SLK",
+      "configured_files": 200,
+      "included_complete_poses": 200,
+      "excluded_unusable_files": 0,
+      "included_fraction": 1.0
+    },
+    {
+      "poi": "DDR2",
+      "configured_files": 20000,
+      "included_complete_poses": 20000,
+      "excluded_unusable_files": 0,
+      "included_fraction": 1.0
+    },
+    {
+      "poi": "RIPK2_full",
+      "configured_files": 20000,
+      "included_complete_poses": 20000,
+      "excluded_unusable_files": 0,
+      "included_fraction": 1.0
+    },
+    {
+      "poi": "MAPK14_full",
+      "configured_files": 20000,
+      "included_complete_poses": 20000,
+      "excluded_unusable_files": 0,
+      "included_fraction": 1.0
+    },
+    {
+      "poi": "MET",
+      "configured_files": 5892,
+      "included_complete_poses": 5892,
+      "excluded_unusable_files": 0,
+      "included_fraction": 1.0
+    },
+    {
+      "poi": "EPHB2",
+      "configured_files": 20000,
+      "included_complete_poses": 20000,
+      "excluded_unusable_files": 0,
+      "included_fraction": 1.0
+    },
+    {
+      "poi": "ABL1",
+      "configured_files": 20000,
+      "included_complete_poses": 20000,
+      "excluded_unusable_files": 0,
+      "included_fraction": 1.0
+    },
+    {
+      "poi": "AXL",
+      "configured_files": 20000,
+      "included_complete_poses": 20000,
+      "excluded_unusable_files": 0,
+      "included_fraction": 1.0
+    },
+    {
+      "poi": "EPHA2",
+      "configured_files": 20000,
+      "included_complete_poses": 20000,
+      "excluded_unusable_files": 0,
+      "included_fraction": 1.0
+    },
+    {
+      "poi": "CDK17",
+      "configured_files": 1500,
+      "included_complete_poses": 1500,
+      "excluded_unusable_files": 0,
+      "included_fraction": 1.0
+    },
+    {
+      "poi": "CDK2",
+      "configured_files": 19992,
+      "included_complete_poses": 19991,
+      "excluded_unusable_files": 1,
+      "included_fraction": 0.9999499799919968
+    },
+    {
+      "poi": "CDK4",
+      "configured_files": 19996,
+      "included_complete_poses": 19996,
+      "excluded_unusable_files": 0,
+      "included_fraction": 1.0
+    },
+    {
+      "poi": "CDK6",
+      "configured_files": 19996,
+      "included_complete_poses": 19996,
+      "excluded_unusable_files": 0,
+      "included_fraction": 1.0
+    },
+    {
+      "poi": "DAPK1",
+      "configured_files": 20000,
+      "included_complete_poses": 19998,
+      "excluded_unusable_files": 2,
+      "included_fraction": 0.9999
+    },
+    {
+      "poi": "IRAK1",
+      "configured_files": 20000,
+      "included_complete_poses": 20000,
+      "excluded_unusable_files": 0,
+      "included_fraction": 1.0
+    },
+    {
+      "poi": "TLK2",
+      "configured_files": 19994,
+      "included_complete_poses": 19994,
+      "excluded_unusable_files": 0,
+      "included_fraction": 1.0
+    },
+    {
+      "poi": "SIK3_full",
+      "configured_files": 20000,
+      "included_complete_poses": 20000,
+      "excluded_unusable_files": 0,
+      "included_fraction": 1.0
+    },
+    {
+      "poi": "RPS6KB2_full",
+      "configured_files": 20000,
+      "included_complete_poses": 20000,
+      "excluded_unusable_files": 0,
+      "included_fraction": 1.0
+    }
+  ],
+  "models": {
+    "elob": {
+      "AUROC": 0.7272727272727273,
+      "accuracy": 0.75,
+      "cases": 16
+    },
+    "vhl": {
+      "AUROC": 0.7272727272727273,
+      "accuracy": 0.6875,
+      "cases": 16
+    }
+  },
+  "cohort": [
+    "ABL1",
+    "AXL",
+    "CDK2",
+    "CDK4",
+    "CDK6",
+    "DAPK1",
+    "DDR2",
+    "EPHA2",
+    "EPHB2",
+    "IRAK1",
+    "MAP4K5",
+    "MAPK14_full",
+    "MET",
+    "RIPK2_full",
+    "SLK",
+    "TLK2"
+  ],
+  "CDK17_identity_exclusion_prespecified": true,
+  "not_historical_run_replay": true,
+  "experimental_labels_not_changed": true,
+  "new_docking_or_MD": false,
+  "independent_validation_certified": false,
+  "protocol_sha256": "f88bc06c255105205aad564c0b7f8d3924d0a583c5a3ec8334bdd067bee2634e",
+  "source_model_receipts_sha256": {
+    "elob": "756dad564418fe2c4973cc44c9daaa1385522d5024a5509db737f2d0a023cdb1",
+    "vhl": "f64c4bc867c6c867c990f36d8ac274da79063a1cdc7b882719127b25e5fa5dae"
+  },
+  "report_script_sha256": "5088d5e06753620f44ca69203130fd163d2dca2451d53f1fcd0bc6ec6a36752e",
+  "outputs_sha256": {
+    "experimental_endpoint_comparison.tsv": "558a092b742d5e5efa73da74ae270abd958a160968a9cdafe90c63aea8a56a02",
+    "paired_predictions.tsv": "3a3972aa2a2d88fbf56ee525de7832fb0a21e92bb5ddff4d036d541b45770dfc",
+    "prediction_only_ensemble.tsv": "e8f1042ca5520356e582f6c41922438e09a740e0422afff3d3e06aad20a0d626",
+    "static_input_validity.tsv": "a5798080b5d04ffdee258674c98f0fd5f8dc184028f14f017add22081c57adfc"
+  }
+}

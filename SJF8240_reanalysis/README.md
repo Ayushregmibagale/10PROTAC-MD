@@ -1,5 +1,7 @@
 # SJF8240 corrected-feature reanalysis
 
+Completed 11 November 2026: all 19 static targets, 174 MD cases and both 16-fold model arms are finished and independently checked. Read [REVIEWED_RESULTS.md](REVIEWED_RESULTS.md) and [the actual methods](docs/ACTUAL_GRAPH_METHODS_20261111.md). Both overall AUROCs are 0.7273; both MD-subgroup AUROCs are 0.0. The aggregate result does not establish a reliable degradation predictor. Original data and historical results remain preserved. `config/protocol.json` records the protocol frozen before fitting; `STATUS.json` records current completion.
+
 Separate derivative of the original protac-md workflow, created at the user's explicit request. Existing docking structures and MD trajectories are reused; no new docking or MD.
 
 Folders: `config/` frozen protocol and source lists; `experimental_data/` LF/PS input tables and version-explicit target exports; `analysis/static/` rebuilt pose graphs; `analysis/dynamic/` rebuilt MD graphs; `analysis/e2/` existing corrected E2 summaries; `analysis/gnn/` new paired LOPO results; `scripts/` extraction/model tools; `logs/` progress and controls; `docs/` what/how/why notes.

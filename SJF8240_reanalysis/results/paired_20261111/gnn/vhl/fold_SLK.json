@@ -1,0 +1,30 @@
+{
+  "status": "FOLD_COMPLETE",
+  "prediction": {
+    "poi": "SLK",
+    "label": 0,
+    "score": 6.559433131769765e-06,
+    "pred": 0,
+    "has_md": false,
+    "fold_seed": 1995493959
+  },
+  "external_predictions": [
+    {
+      "held_out": "SLK",
+      "poi": "SIK3_full",
+      "score": 0.6329145431518555,
+      "experimental_label": null,
+      "purpose": "Prediction-only fold ensemble; not independent LOPO validation"
+    },
+    {
+      "held_out": "SLK",
+      "poi": "RPS6KB2_full",
+      "score": 0.6307281851768494,
+      "experimental_label": null,
+      "purpose": "Prediction-only fold ensemble; not independent LOPO validation"
+    }
+  ],
+  "checkpoint_sha256": "240220b361270ecc3b993242192828970abaf2ac161195b999ef110e9f2ce03c",
+  "replayed_score": 6.559433131769765e-06,
+  "elapsed_s": 94.77916631500011
+}

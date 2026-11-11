@@ -1,0 +1,30 @@
+{
+  "status": "FOLD_COMPLETE",
+  "prediction": {
+    "poi": "DDR2",
+    "label": 1,
+    "score": 0.5738634467124939,
+    "pred": 1,
+    "has_md": true,
+    "fold_seed": 669215838
+  },
+  "external_predictions": [
+    {
+      "held_out": "DDR2",
+      "poi": "SIK3_full",
+      "score": 0.5737718939781189,
+      "experimental_label": null,
+      "purpose": "Prediction-only fold ensemble; not independent LOPO validation"
+    },
+    {
+      "held_out": "DDR2",
+      "poi": "RPS6KB2_full",
+      "score": 0.5738467574119568,
+      "experimental_label": null,
+      "purpose": "Prediction-only fold ensemble; not independent LOPO validation"
+    }
+  ],
+  "checkpoint_sha256": "64e737344c5fe3b7a5b4a5c5960d3c3d3a96e1f7620b6f85247ec1e6761d404b",
+  "replayed_score": 0.5738634467124939,
+  "elapsed_s": 89.85365479999928
+}

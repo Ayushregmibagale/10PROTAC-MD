@@ -1,0 +1,20 @@
+[
+  {
+    "path": "/mnt/d/PROTAC degradation Prediction/pRosettaC/runs/low_affinity_no_degradation/DAPK1/Patchdock_Results/combined_181_41.pdb",
+    "bytes": 139264,
+    "mtime_ns": 1785756320000000000,
+    "sha256": "d939d31b245b0a18b945e2488f3e5ba7b9c66720ad5b26516f4a3074e0cef4ec",
+    "coordinate_overflow_records": [],
+    "included": false,
+    "exclusion_reason": "TRUNCATED_ATOM_RECORD"
+  },
+  {
+    "path": "/mnt/d/PROTAC degradation Prediction/pRosettaC/runs/low_affinity_no_degradation/DAPK1/Patchdock_Results/combined_181_41_0001.pdb",
+    "bytes": 161065,
+    "mtime_ns": 1785756324000000000,
+    "sha256": "2a1dc09c3b9a45b5d6a206fac69069e03a7375a570ce08826260bd7723cbf158",
+    "coordinate_overflow_records": [],
+    "included": false,
+    "exclusion_reason": "INCOMPLETE_REFERENCE_NODE_SET"
+  }
+]

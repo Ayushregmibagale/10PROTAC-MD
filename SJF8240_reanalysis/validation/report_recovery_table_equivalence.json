@@ -1,0 +1,18 @@
+{
+  "experimental_endpoint_comparison.tsv": {
+    "byte_identical_to_original_runtime_partial_export": true,
+    "sha256": "558a092b742d5e5efa73da74ae270abd958a160968a9cdafe90c63aea8a56a02"
+  },
+  "paired_predictions.tsv": {
+    "byte_identical_to_original_runtime_partial_export": true,
+    "sha256": "3a3972aa2a2d88fbf56ee525de7832fb0a21e92bb5ddff4d036d541b45770dfc"
+  },
+  "prediction_only_ensemble.tsv": {
+    "byte_identical_to_original_runtime_partial_export": true,
+    "sha256": "e8f1042ca5520356e582f6c41922438e09a740e0422afff3d3e06aad20a0d626"
+  },
+  "static_input_validity.tsv": {
+    "byte_identical_to_original_runtime_partial_export": true,
+    "sha256": "a5798080b5d04ffdee258674c98f0fd5f8dc184028f14f017add22081c57adfc"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "status": "PAIRED_RESULTS_INDEPENDENTLY_REVIEWED",
+  "checked_UTC": "2026-11-11T14:49:17.705706+00:00",
+  "validator_sha256": "00cd3f5cb0e01c8660bc5fa84bd18b38555326e8389ea1322ac47ccb9c946911",
+  "paired_completion_sha256": "86a8a6cf6aea783578eeeb26358f7aaa4098f7230a83793940b385a741a052ab",
+  "graph_verification_sha256": "07f9f3c876adb9f865c3af0c87086d494f4e2af14421e5e87bbad324444104ce",
+  "model_verification_sha256": {
+    "elob": "af2017539e8544b7b4ce2656e4c6c7c1dc944d9af5a0177ff8aeb4fcf9919235",
+    "vhl": "6fffb6b1e5d9288d53802b54cd90740db7710baa3339531dfbb6824941560d3b"
+  },
+  "reviewed_metrics_sha256": "58c3d21ed4ccc03d59843a82e4fb94f14aedfcf3d91926d38593bb4a646cb6b4",
+  "reviewed_results_sha256": "3e2ff747ee7e4c2f42c2074f9b8fef9185a8fcca157ca4f19a104fa92ccc4ff5",
+  "experimental_endpoint_rows_preserved": 60,
+  "independent_biological_validation": false,
+  "new_training_during_review": false
+}

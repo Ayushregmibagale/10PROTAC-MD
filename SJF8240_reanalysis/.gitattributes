@@ -1,3 +1,5 @@
 experimental_data/** -text whitespace=-blank-at-eol,-blank-at-eof
 logs/** -text whitespace=-blank-at-eol,-blank-at-eof
 analysis/** -text whitespace=-blank-at-eol,-blank-at-eof
+results/**/*.tsv -text whitespace=-blank-at-eol,-blank-at-eof
+validation/**/*.tsv -text whitespace=-blank-at-eol,-blank-at-eof

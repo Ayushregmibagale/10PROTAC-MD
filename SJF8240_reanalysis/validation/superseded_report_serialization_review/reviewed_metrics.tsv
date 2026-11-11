@@ -1,0 +1,7 @@
+role	group	n	positive	negative	auroc	auroc_status	overall_accuracy
+elob	overall	16	5	11	0.7272727272727273	DEFINED	0.75
+elob	md	8	5	3	0.0	DEFINED	
+elob	nonmd	8	0	8		UNDEFINED_REQUIRES_BOTH_CLASSES	
+vhl	overall	16	5	11	0.7272727272727273	DEFINED	0.6875
+vhl	md	8	5	3	0.0	DEFINED	
+vhl	nonmd	8	0	8		UNDEFINED_REQUIRES_BOTH_CLASSES	

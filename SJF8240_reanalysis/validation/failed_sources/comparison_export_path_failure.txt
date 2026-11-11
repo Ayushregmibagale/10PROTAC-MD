@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "/mnt/c/Users/Ayush Regmi Bagale/SJF8240_reanalysis_work/scripts/06_make_comparison.py", line 46, in <module>
+    if __name__=='__main__':main()
+  File "/mnt/c/Users/Ayush Regmi Bagale/SJF8240_reanalysis_work/scripts/06_make_comparison.py", line 42, in main
+    report={'status':'PAIRED_NEW_REANALYSIS_COMPLETE','static_input_validity':coverage,'models':{role:{'AUROC':data[1]['AUROC'],'accuracy':data[1]['accuracy'],'cases':data[1]['cases']} for role,data in outputs.items()},'cohort':sa['cohort'],'CDK17_identity_exclusion_prespecified':True,'not_historical_run_replay':True,'experimental_labels_not_changed':True,'new_docking_or_MD':False,'independent_validation_certified':False,'protocol_sha256':sha(ROOT/'config/protocol.json'),'source_model_receipts_sha256':{role:sha(ROOT/'analysis/gnn'/role/'seed_42/completion.json') for role in outputs},'report_script_sha256':sha(__file__),'outputs_sha256':{p.name:sha(p) for p in out.iterdir() if p.is_file()}}
+  File "/mnt/c/Users/Ayush Regmi Bagale/SJF8240_reanalysis_work/scripts/06_make_comparison.py", line 6, in sha
+    def sha(p):return hashlib.sha256(p.read_bytes()).hexdigest()
+AttributeError: 'str' object has no attribute 'read_bytes'

@@ -3,7 +3,7 @@ from pathlib import Path
 import json,hashlib
 import pandas as pd
 ROOT=Path(__file__).resolve().parents[1]
-def sha(p):return hashlib.sha256(p.read_bytes()).hexdigest()
+def sha(p):return hashlib.sha256(Path(p).read_bytes()).hexdigest()
 def main():
  outputs={}
  protocol=json.loads((ROOT/'config/protocol.json').read_text())
