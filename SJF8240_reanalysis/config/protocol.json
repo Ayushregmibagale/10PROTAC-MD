@@ -58,7 +58,23 @@
       "conditional_mean_distance_nm",
       "minimum_contact_distance_nm"
     ],
-    "normalization": "Within-role residue range; sorted ligand atom identifiers"
+    "normalization": "Within-role residue range; sorted ligand atom identifiers",
+    "input_validity_policy": {
+      "id": "pretraining_file_integrity_v1",
+      "frozen_before_any_model_training": true,
+      "retain_source_bytes_and_full_configured_pose_lists": true,
+      "excluded_from_both_arms": [
+        "EMPTY_FILE",
+        "TRUNCATED_ATOM_RECORD",
+        "INCOMPLETE_REFERENCE_NODE_SET"
+      ],
+      "unrecognized_coordinate_or_identity_changes": "STOP_FOR_REVIEW",
+      "selection_uses_predictions_labels_or_docking_scores": false,
+      "replace_from_alternate_pose_or_redock": false,
+      "per_file_path_hash_and_reason_required": true,
+      "accepted_and_excluded_counts_required_per_target": true,
+      "rationale": "Raw graphs require a complete common node set. Empty, truncated, or strict-subset input files cannot represent that pose. Keep their provenance and exclude them symmetrically; do not impute or substitute coordinates."
+    }
   },
   "dynamic_graph": {
     "poses": 174,

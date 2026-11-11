@@ -20,7 +20,7 @@ def coordinates(line):
  if match is None:raise ValidationError('Ambiguous/malformed PDB coordinate record: '+repr(line))
  return [float(x) for x in match.groups()],True
 
-def parse(data,cfg,recoveries=None):
+def parse(data,cfg,recoveries=None,allow_missing=False):
  groups={k:[] for k in ['elob','vhl','poi','ligand']}
  for line in PATTERN.findall(data):
   name=line[12:16].strip().decode();chain=chr(line[21]);res=int(line[22:26]);resname=line[17:20].strip().decode();icode=chr(line[26]);element_match=re.search(rb'\s([A-Z][a-z]?)\s*(?:[0-9][+-])?\s*$',line[54:]);element=element_match.group(1).decode() if element_match else (line[76:78].strip().decode() if len(line)>=78 else name[0])
@@ -34,11 +34,13 @@ def parse(data,cfg,recoveries=None):
   groups[role].append(((chain,res,icode,name,element,resname),xyz))
  for key in groups:
   groups[key].sort(key=lambda x:x[0])
-  if not groups[key]:raise ValidationError('Empty role '+key)
+  if not groups[key]:
+   if allow_missing:continue
+   raise ValidationError('Empty role '+key)
   keys=[x[0] for x in groups[key]]
   if len(set(keys))!=len(keys):raise ValidationError('Duplicate node identifiers '+key)
   if not np.isfinite(np.array([x[1] for x in groups[key]])).all():raise ValidationError('Nonfinite coordinates')
- if len(groups['ligand'])!=79:raise ValidationError('Historical ligand heavy-atom count differs from 79')
+ if len(groups['ligand'])!=79 and not (allow_missing and len(groups['ligand'])<79):raise ValidationError('Historical ligand heavy-atom count differs from 79')
  return groups
 
 def validate_roles(groups,poi):
@@ -80,6 +82,18 @@ class Accumulator:
   edge=np.column_stack([freq[i,j],self.total[i,j]/self.count[i,j]/10,self.minimum[i,j]/10]).astype(np.float32)
   np.savez_compressed(dest/'graph.npz',x=self.x,edge_index=np.array([i,j],dtype=np.int64),edge_attr=edge,label=np.array([label]),poi=np.array([poi]),node_identifiers=np.array([json.dumps(x) for x in self.keys]))
   return {'poses':self.n,'nodes_by_role':self.sizes,'nodes':len(self.keys),'directed_edges':len(i),'graph_sha256':sha(dest/'graph.npz')}
+def validated_pose(data,cfg,expected):
+ g=None;recoveries=[];reason=None
+ if not data:reason='EMPTY_FILE'
+ elif any(len(line)<54 for line in data.splitlines() if line.startswith((b'ATOM  ',b'HETATM'))):reason='TRUNCATED_ATOM_RECORD'
+ else:
+  g=parse(data,cfg,recoveries,allow_missing=True)
+  actual={role:[x[0] for x in atoms] for role,atoms in g.items()}
+  if actual!=expected:
+   if all(set(actual[role]).issubset(expected[role]) for role in expected):reason='INCOMPLETE_REFERENCE_NODE_SET'
+   else:raise ValidationError('Unexpected atom/residue identity change')
+ return g,recoveries,reason
+
 def build(cfg,limit=None):
  poi=cfg['poi'];out=ROOT/('analysis/static' if limit is None else 'analysis/static_diagnostic')/poi
  if limit is None and (out/'receipt.json').exists():
@@ -89,13 +103,18 @@ def build(cfg,limit=None):
   provenance=json.loads((out/'pose_provenance.json').read_text())
   if sha(ROOT/cfg['pose_list'])!=cfg['pose_list_sha256'] or [p['path'] for p in provenance]!=(ROOT/cfg['pose_list']).read_text().splitlines():raise ValidationError('Completed pose list drift: '+poi)
   for role in ['elob','vhl']:
-   if receipt['outputs'][role]['poses']!=len(provenance) or sha(out/role/'graph.npz')!=receipt['outputs'][role]['graph_sha256']:raise ValidationError('Completed graph drift: '+poi)
+   if receipt['outputs'][role]['poses']!=sum(p.get('included',True) for p in provenance) or sha(out/role/'graph.npz')!=receipt['outputs'][role]['graph_sha256']:raise ValidationError('Completed graph drift: '+poi)
   print(poi+' verified complete',flush=True);return
  if out.exists():raise ValidationError('Partial output requires explicit review: '+str(out))
  paths=[Path(x) for x in (ROOT/cfg['pose_list']).read_text().splitlines()]
  if sha(ROOT/cfg['pose_list'])!=cfg['pose_list_sha256']:raise ValidationError('Pose list drift')
  if limit is not None:paths=paths[:limit]
- started=time.monotonic();acc=None;provenance=[]
+ started=time.monotonic();provenance=[];excluded=[]
+ reference_bytes=paths[0].read_bytes()
+ if limit is None and sha(paths[0])!=cfg['first_pose_sha256']:raise ValidationError('Reference pose drift')
+ reference=parse(reference_bytes,cfg);proof=validate_roles(reference,poi)
+ expected={role:[x[0] for x in atoms] for role,atoms in reference.items()}
+ acc={role:Accumulator(reference,role) for role in ['elob','vhl']}
  from concurrent.futures import ThreadPoolExecutor
  def read(p):
   before=p.stat();data=p.read_bytes();after=p.stat()
@@ -114,21 +133,23 @@ def build(cfg,limit=None):
    if p is not None:pending.append(pool.submit(read,p))
    yield result
  for n,(p,data,after) in enumerate(buffered(),1):
-  recoveries=[]
-  try:g=parse(data,cfg,recoveries)
+  try:g,recoveries,reason=validated_pose(data,cfg,expected)
   except (ValueError,IndexError) as exc:raise ValidationError(str(p)+': '+str(exc)) from exc
-  if acc is None:
-   proof=validate_roles(g,cfg['poi'])
-   acc={role:Accumulator(g,role) for role in ['elob','vhl']}
-  for x in acc.values():x.add(g)
-  provenance.append({'path':str(p),'bytes':len(data),'mtime_ns':after.st_mtime_ns,'sha256':hashlib.sha256(data).hexdigest(),'coordinate_overflow_records':recoveries})
+  record={'path':str(p),'bytes':len(data),'mtime_ns':after.st_mtime_ns,'sha256':hashlib.sha256(data).hexdigest(),'coordinate_overflow_records':recoveries,'included':reason is None}
+  if reason is not None:
+   record['exclusion_reason']=reason;excluded.append(record)
+  else:
+   for x in acc.values():x.add(g)
+  provenance.append(record)
   if n%1000==0:print(json.dumps({'poi':poi,'processed':n,'total':len(paths),'elapsed_s':round(time.monotonic()-started,1)}),flush=True)
  pool.shutdown()
+ if not acc['vhl'].n:raise ValidationError('No complete retained poses for '+poi)
  out.mkdir(parents=True,exist_ok=False)
+ (out/'excluded_poses.json').write_text(json.dumps(excluded,indent=2)+'\n')
  label=cfg['historical_label'] if cfg['historical_label'] is not None else -1
  outputs={role:x.save(out/role,poi,label) for role,x in acc.items()}
  (out/'pose_provenance.json').write_text(json.dumps(provenance,separators=(',',':'))+'\n')
- receipt={'status':'STATIC_PAIRED_COMPLETE' if limit is None else 'DIAGNOSTIC_ONLY','poi':poi,'outputs':outputs,'sequence_role_proof':proof,'role_control':'elob and vhl use same pipeline, different E3 role; not exact historical replay','pose_provenance_sha256':sha(out/'pose_provenance.json'),'source_sha256':sha(__file__),'elapsed_s':time.monotonic()-started,'new_docking':False,'coordinate_overflow_records':sum(len(p['coordinate_overflow_records']) for p in provenance)}
+ receipt={'status':'STATIC_PAIRED_COMPLETE' if limit is None else 'DIAGNOSTIC_ONLY','poi':poi,'outputs':outputs,'sequence_role_proof':proof,'role_control':'elob and vhl use same pipeline, different E3 role; not exact historical replay','pose_provenance_sha256':sha(out/'pose_provenance.json'),'source_sha256':sha(__file__),'elapsed_s':time.monotonic()-started,'new_docking':False,'input_pose_count':len(provenance),'included_pose_count':acc['vhl'].n,'excluded_pose_count':len(excluded),'excluded_poses_sha256':sha(out/'excluded_poses.json'),'validity_policy':'pretraining_file_integrity_v1_no_score_or_label_selection','coordinate_overflow_records':sum(len(p['coordinate_overflow_records']) for p in provenance)}
  (out/'receipt.json').write_text(json.dumps(receipt,indent=2)+'\n');print(json.dumps(receipt),flush=True)
 def guarded_build(cfg):
  try:return build(cfg)

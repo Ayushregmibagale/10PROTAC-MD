@@ -38,9 +38,11 @@ def run(args):
  for r in records:
   folder=ROOT/'analysis/static'/r['poi'];receipt=json.loads((folder/'receipt.json').read_text())
   if receipt.get('status')!='STATIC_PAIRED_COMPLETE' or receipt.get('poi')!=r['poi'] or sha(folder/'pose_provenance.json')!=receipt['pose_provenance_sha256']:raise ValidationError('Static receipt/provenance mismatch')
+  if receipt.get('excluded_pose_count',0) and cfg['static_graph'].get('input_validity_policy',{}).get('id')!='pretraining_file_integrity_v1':raise ValidationError('Exclusion policy not frozen before training')
+  if receipt.get('excluded_pose_count',0) and sha(folder/'excluded_poses.json')!=receipt.get('excluded_poses_sha256'):raise ValidationError('Exclusion ledger drift')
   if sha(ROOT/r['pose_list'])!=r['pose_list_sha256']:raise ValidationError('Pose list drift')
   for role in ['elob','vhl']:
-   if receipt['outputs'][role]['poses']!=r['poses'] or sha(folder/role/'graph.npz')!=receipt['outputs'][role]['graph_sha256']:raise ValidationError('Static graph hash/count drift')
+   if receipt['outputs'][role]['poses']+receipt.get('excluded_pose_count',0)!=r['poses'] or sha(folder/role/'graph.npz')!=receipt['outputs'][role]['graph_sha256']:raise ValidationError('Static graph hash/count drift')
  dynamic=json.loads((ROOT/'analysis/dynamic/completion.json').read_text())
  if dynamic.get('status')!='DYNAMIC_COMPLETE' or dynamic.get('cases')!=174 or len(dynamic['records'])!=174:raise ValidationError('Dynamic completion mismatch')
  device=args.device
@@ -50,7 +52,10 @@ def run(args):
  for relative in ['config/source_inventory.json','config/role_reference.json','scripts/lib/gnn_contract.py','scripts/lib/protac_qc.py','analysis/dynamic/completion.json']:
   path=ROOT/relative;inputs[str(path)]=sha(path)
  for r in records:
-  path=ROOT/'analysis/static'/r['poi']/'receipt.json';inputs[str(path)]=sha(path)
+  folder=ROOT/'analysis/static'/r['poi']
+  for name in ['receipt.json','pose_provenance.json']:
+   path=folder/name;inputs[str(path)]=sha(path)
+  if (folder/'excluded_poses.json').exists():path=folder/'excluded_poses.json';inputs[str(path)]=sha(path)
  prediction_targets=['SIK3_full','RPS6KB2_full']
  for poi in cohort+prediction_targets:
   label=labels.get(poi,-1);path=ROOT/'analysis/static'/poi/args.role/'graph.npz';inputs[str(path)]=sha(path);sg[poi]=load_graph(path,poi,label,9).to(device)

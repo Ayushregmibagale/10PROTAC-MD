@@ -22,7 +22,15 @@ def main():
  paired=a.merge(b,on=['poi','label'],suffixes=('_elob','_vhl'),validate='one_to_one');
  if len(paired)!=16:raise ValueError('Paired label/cohort mismatch')
  paired['score_change_vhl_minus_elob']=paired.score_vhl-paired.score_elob
- out=ROOT/'analysis/comparison';out.mkdir(exist_ok=False);paired.to_csv(out/'paired_predictions.tsv',sep='\t',index=False)
+ out=ROOT/'analysis/comparison';out.mkdir(exist_ok=False)
+ coverage=[]
+ for record in json.loads((ROOT/'config/source_inventory.json').read_text())['records']:
+  receipt=json.loads((ROOT/'analysis/static'/record['poi']/'receipt.json').read_text())
+  included=receipt['outputs']['vhl']['poses'];excluded=receipt.get('excluded_pose_count',0)
+  if included+excluded!=record['poses'] or receipt['outputs']['elob']['poses']!=included:raise ValueError('Static validity accounting mismatch')
+  coverage.append({'poi':record['poi'],'configured_files':record['poses'],'included_complete_poses':included,'excluded_unusable_files':excluded,'included_fraction':included/record['poses']})
+ pd.DataFrame(coverage).to_csv(out/'static_input_validity.tsv',sep='\t',index=False)
+ paired.to_csv(out/'paired_predictions.tsv',sep='\t',index=False)
  experimental=pd.read_csv(ROOT/'experimental_data/target_exports/user_experimental_summary_v2/named_saved_tables_SJF_vs_DMSO.tsv',sep='\t')
  # Preserve all three endpoints; make no new binary label from significance.
  experimental.merge(paired,on='poi',how='left').to_csv(out/'experimental_endpoint_comparison.tsv',sep='\t',index=False)
@@ -31,8 +39,8 @@ def main():
   p=ROOT/'analysis/gnn'/role/'seed_42/prediction_only_fold_scores.tsv';df=pd.read_csv(p,sep='\t')
   for poi,g in df.groupby('poi'):unknown.append({'role':role,'poi':poi,'mean_fold_score':float(g.score.mean()),'min_fold_score':float(g.score.min()),'max_fold_score':float(g.score.max()),'folds':len(g),'experimental_negative_inferred':False})
  pd.DataFrame(unknown).to_csv(out/'prediction_only_ensemble.tsv',sep='\t',index=False)
- report={'status':'PAIRED_NEW_REANALYSIS_COMPLETE','models':{role:{'AUROC':data[1]['AUROC'],'accuracy':data[1]['accuracy'],'cases':data[1]['cases']} for role,data in outputs.items()},'cohort':sa['cohort'],'CDK17_identity_exclusion_prespecified':True,'not_historical_run_replay':True,'experimental_labels_not_changed':True,'new_docking_or_MD':False,'independent_validation_certified':False,'protocol_sha256':sha(ROOT/'config/protocol.json'),'source_model_receipts_sha256':{role:sha(ROOT/'analysis/gnn'/role/'seed_42/completion.json') for role in outputs},'report_script_sha256':sha(__file__),'outputs_sha256':{p.name:sha(p) for p in out.iterdir() if p.is_file()}}
+ report={'status':'PAIRED_NEW_REANALYSIS_COMPLETE','static_input_validity':coverage,'models':{role:{'AUROC':data[1]['AUROC'],'accuracy':data[1]['accuracy'],'cases':data[1]['cases']} for role,data in outputs.items()},'cohort':sa['cohort'],'CDK17_identity_exclusion_prespecified':True,'not_historical_run_replay':True,'experimental_labels_not_changed':True,'new_docking_or_MD':False,'independent_validation_certified':False,'protocol_sha256':sha(ROOT/'config/protocol.json'),'source_model_receipts_sha256':{role:sha(ROOT/'analysis/gnn'/role/'seed_42/completion.json') for role in outputs},'report_script_sha256':sha(__file__),'outputs_sha256':{p.name:sha(p) for p in out.iterdir() if p.is_file()}}
  (out/'completion.json').write_text(json.dumps(report,indent=2)+'\n')
- (ROOT/'RESULTS.md').write_text('# New paired raw-graph reanalysis results\n\n'+f"Completed16-target exploratory LOPO. ELOB control AUROC {sa['AUROC']:.4f}, accuracy {sa['accuracy']:.4f}; true-VHL AUROC {sb['AUROC']:.4f}, accuracy {sb['accuracy']:.4f}.\n\n"+'Both arms use the same repaired pipeline, retained structures, historical labels and fixed400-epoch protocol. They are new runs, not recovery of the missing historical0.850 model. CDK17/CDK14 was excluded before scores. RPE1 endpoints and prediction-only fold ensembles are separate exports. No independent validation, calibrated degradation probability or publication sign-off is inferred. Source hashes, per-fold saved weights and replay checks are retained. No new docking or MD.\n')
+ (ROOT/'RESULTS.md').write_text('# New paired raw-graph reanalysis results\n\n'+f"Completed16-target exploratory LOPO. ELOB control AUROC {sa['AUROC']:.4f}, accuracy {sa['accuracy']:.4f}; true-VHL AUROC {sb['AUROC']:.4f}, accuracy {sb['accuracy']:.4f}.\n\n"+f"Excluded {sum(row['excluded_unusable_files'] for row in coverage)} unusable source files before fitting; per-target counts are in static_input_validity.tsv. Original files and exclusion ledgers are preserved.\n\n"+'Both arms use the same repaired pipeline, retained structures, historical labels and fixed400-epoch protocol. They are new runs, not recovery of the missing historical0.850 model. CDK17/CDK14 was excluded before scores. RPE1 endpoints and prediction-only fold ensembles are separate exports. No independent validation, calibrated degradation probability or publication sign-off is inferred. Source hashes, per-fold saved weights and replay checks are retained. No new docking or MD.\n')
  print(json.dumps(report),flush=True)
 if __name__=='__main__':main()

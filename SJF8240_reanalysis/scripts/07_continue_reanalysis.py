@@ -19,10 +19,10 @@ def status(phase,**extra):
  print(json.dumps(record),flush=True)
 def sync():
  """Save only this derivative, preserving replaced artifacts in dated backups."""
- backup=CANONICAL/'recovery_backups_20261111'
+ backup=CANONICAL/'recovery_backups_20261111_v4'
  for source in ROOT.rglob('*'):
   relative=source.relative_to(ROOT)
-  if not source.is_file() or any(x in {'runtime','__pycache__','.pytest_cache'} for x in relative.parts):continue
+  if not source.is_file() or any(x in {'runtime','.runtime','.save_history','candidate_scripts_v4','candidate_tests_v4','__pycache__','.pytest_cache'} for x in relative.parts):continue
   target=CANONICAL/relative
   if target.exists() and sha(source)==sha(target):continue
   if target.exists():
@@ -45,12 +45,12 @@ def main():
  import fcntl
  lock=(ROOT/'logs/continuation.lock').open('a');fcntl.flock(lock,fcntl.LOCK_EX|fcntl.LOCK_NB)
  manifest={str(p.relative_to(ROOT)):sha(p) for folder in ['scripts','config'] for p in (ROOT/folder).rglob('*') if p.is_file() and '__pycache__' not in p.parts}
- atomic_json(ROOT/'logs/continuation_source_manifest_20261111.json',manifest)
- sync();execute('01_build_static_graphs.py',['--workers','4'],'static_build_resume_v3_20261111.log',manifest)
- sync();execute('05_check_model_runtime.py',[],'gpu_runtime_resume_20261111.log',manifest)
+ atomic_json(ROOT/'logs/continuation_source_manifest_20261111_v4.json',manifest)
+ sync();execute('01_build_static_graphs.py',['--workers','4'],'static_build_resume_v4_20261111_v4.log',manifest)
+ sync();execute('05_check_model_runtime.py',[],'gpu_runtime_resume_20261111_v4.log',manifest)
  for role in ['elob','vhl']:
-  execute('04_train_dual_lopo.py',['--role',role,'--device','cuda'],'train_'+role+'_20261111.log',manifest);sync()
- execute('06_make_comparison.py',[],'paired_comparison_20261111.log',manifest)
+  execute('04_train_dual_lopo.py',['--role',role,'--device','cuda'],'train_'+role+'_20261111_v4.log',manifest);sync()
+ execute('06_make_comparison.py',[],'paired_comparison_20261111_v4.log',manifest)
  status('PAIRED_REANALYSIS_COMPLETE');sync()
 if __name__=='__main__':
  try:main()
