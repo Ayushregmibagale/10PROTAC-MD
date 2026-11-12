@@ -1,0 +1,6 @@
+{
+  "original": "/home/ayushregmibagale/10PROTAC-MD/SJF8240_reanalysis/mechanistic_v3/scripts/test_contracts.py",
+  "original_sha256": "da2760c91d74b7e460fe06e08366b168d40ed6468a58ba6ee5386108d2a90c56",
+  "portable_test_sha256": "1c543d898764b9f3d2af6a6503364c93dfe31c01b6c9229c2fdeb9788229d900",
+  "change": "Canonical sibling path and explicit fixture root only; original frozen source preserved. Training/model/data unchanged."
+}

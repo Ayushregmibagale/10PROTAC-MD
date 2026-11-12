@@ -1,3 +1,7 @@
 # SJF8240 retained-structure reanalysis
 
 The user explicitly authorized this NEW corrected-feature reanalysis and new GNN LOPO results. This supersedes the prior audit-only/no-training restriction for this folder. Read config/protocol.json and docs/WORK_LOG.md. Preserve every original project, structure, trajectory, label and result. No new docking or MD is authorized. Rebuild raw graph features from retained structures with sequence-identified ELOB/VHL comparison, then train original raw-graph dual encoder. No tabular ML path. Historical labels are exploratory references, not a newly validated biological release. CDK17 identity exception must never be concealed or relabelled. Store source hashes, failed attempts, progress, checkpoints and replay receipts. Do not change protocol/hyperparameters after seeing results.
+
+## Folder audit and future compounds — 2026-11-12
+
+For new analyses use RUN_ANALYSIS.py and folder_audit_20261112/robust_analysis_v1. Read folder_audit_20261112/AUDIT.md before reusing any old script. Do not remove exploratory CLI guards or silently reuse a frozen SJF8240 cohort, ligand selection or E2 prior for another compound. Preserve historical source snapshots/results and their protocol scope. Hypothetical degradation labels are not confirmed evidence. New or changed source requires an updated audit registry after review/tests. Generic extraction currently covers original MD contact graphs for VHL/ELOB; enriched graph production for a new compound requires separate reviewed calibration.

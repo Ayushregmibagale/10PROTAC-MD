@@ -1,0 +1,2 @@
+# Preserve raw test transcripts, including the original failure trace.
+*.txt -text whitespace=-blank-at-eol,-blank-at-eof

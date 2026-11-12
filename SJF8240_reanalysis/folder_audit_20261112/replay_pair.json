@@ -1,0 +1,342 @@
+{
+  "status": "PASS",
+  "models": 48,
+  "records": [
+    {
+      "stage": "baseline",
+      "role": "elob",
+      "fold": "DDR2__ABL1",
+      "max_error": 5.960464477539063e-08,
+      "checkpoint_sha256": "f78d69ec3689f6bfe12b0b84cefc5f2b7a1417e2bb1ae0ebb239e3d870194587"
+    },
+    {
+      "stage": "baseline",
+      "role": "elob",
+      "fold": "DDR2__AXL",
+      "max_error": 0.0,
+      "checkpoint_sha256": "d3ed3ab164c2166deb7ecf57ee8cced7dfdb0ae20c828a59b044a4b59410a1da"
+    },
+    {
+      "stage": "baseline",
+      "role": "elob",
+      "fold": "EPHA2__ABL1",
+      "max_error": 5.960464477539063e-08,
+      "checkpoint_sha256": "a5edbbbee9261609c8d8cdfb2deaca931dc6f81a9f4a6e56886b60174c39005d"
+    },
+    {
+      "stage": "baseline",
+      "role": "elob",
+      "fold": "EPHA2__AXL",
+      "max_error": 0.0,
+      "checkpoint_sha256": "6ef4dd16868f88393141d91db01d097e14ead22ca52a36cae82de152c77f836a"
+    },
+    {
+      "stage": "baseline",
+      "role": "elob",
+      "fold": "EPHB2__ABL1",
+      "max_error": 5.960464477539063e-08,
+      "checkpoint_sha256": "3740a260a4c047f54f2c8a3d59fb4af1f13610dbafb11840d86a8d7f9fb771b0"
+    },
+    {
+      "stage": "baseline",
+      "role": "elob",
+      "fold": "EPHB2__AXL",
+      "max_error": 5.960464477539063e-08,
+      "checkpoint_sha256": "4eac21306acbc4833e1b6b76365e5cfe4b832289a8262883534477746e4e277f"
+    },
+    {
+      "stage": "baseline",
+      "role": "elob",
+      "fold": "MAPK14_full__ABL1",
+      "max_error": 5.960464477539063e-08,
+      "checkpoint_sha256": "11c6186c385f25e9057425cced73dcec06cf342acd72411f8699efe56b9b6cab"
+    },
+    {
+      "stage": "baseline",
+      "role": "elob",
+      "fold": "MAPK14_full__AXL",
+      "max_error": 0.0,
+      "checkpoint_sha256": "34fcefd8b7ea86dec3c30f93fa6170bbe8309856026bb72af605dc9b0446938d"
+    },
+    {
+      "stage": "baseline",
+      "role": "elob",
+      "fold": "MET__ABL1",
+      "max_error": 5.960464477539063e-08,
+      "checkpoint_sha256": "39d1b47c19d01a303962c51453e4fa4293425374c40129c133dfc27a6799ad90"
+    },
+    {
+      "stage": "baseline",
+      "role": "elob",
+      "fold": "MET__AXL",
+      "max_error": 5.960464477539063e-08,
+      "checkpoint_sha256": "9f34c3854b78223b0ae5061b2219d1fed0a905d06fd8a5a89990daaeeb73eb0c"
+    },
+    {
+      "stage": "baseline",
+      "role": "elob",
+      "fold": "RIPK2_full__ABL1",
+      "max_error": 0.0,
+      "checkpoint_sha256": "696d4895762877f0eb2ec7ad40466eff1ed8189f2f4f6c34ffc5103a93f513f1"
+    },
+    {
+      "stage": "baseline",
+      "role": "elob",
+      "fold": "RIPK2_full__AXL",
+      "max_error": 5.960464477539063e-08,
+      "checkpoint_sha256": "60e3d65abfec1d9456d93c4edede0b0221eb7d3b9e953604a4b840078e092f8a"
+    },
+    {
+      "stage": "baseline",
+      "role": "vhl",
+      "fold": "DDR2__ABL1",
+      "max_error": 5.960464477539063e-08,
+      "checkpoint_sha256": "f1ee7f92521ff570f6ceabc68ad14797e3e033de8961f8bf78d3f51c9b137a3b"
+    },
+    {
+      "stage": "baseline",
+      "role": "vhl",
+      "fold": "DDR2__AXL",
+      "max_error": 5.960464477539063e-08,
+      "checkpoint_sha256": "fdc2e212c4e0c7f564e66a79219e3ed3e97a34b37a211849c4dc4f67b115a175"
+    },
+    {
+      "stage": "baseline",
+      "role": "vhl",
+      "fold": "EPHA2__ABL1",
+      "max_error": 5.960464477539063e-08,
+      "checkpoint_sha256": "bf8acd7fe5e8941bd4aa1e22057d73b73f2531a22efff24997747c0cfc937578"
+    },
+    {
+      "stage": "baseline",
+      "role": "vhl",
+      "fold": "EPHA2__AXL",
+      "max_error": 0.0,
+      "checkpoint_sha256": "1100d583482c78dcede7762cb83da0d3ecc68e11c6cb5e53f1e4c0aa8bf1355a"
+    },
+    {
+      "stage": "baseline",
+      "role": "vhl",
+      "fold": "EPHB2__ABL1",
+      "max_error": 5.960464477539063e-08,
+      "checkpoint_sha256": "9ea26ed3e27ce95d542fd9f53ef4f860a4457b2d1adc1d124b83b11d4c9f885a"
+    },
+    {
+      "stage": "baseline",
+      "role": "vhl",
+      "fold": "EPHB2__AXL",
+      "max_error": 0.0,
+      "checkpoint_sha256": "769a07cabe113ef8c10bb14ea785f31dcc17699971077f9272ee9f094199d779"
+    },
+    {
+      "stage": "baseline",
+      "role": "vhl",
+      "fold": "MAPK14_full__ABL1",
+      "max_error": 5.960464477539063e-08,
+      "checkpoint_sha256": "843fd479e1fd77813c9baf18a28e66bafc8ad4d4964d41b903ba6bad393e1cbf"
+    },
+    {
+      "stage": "baseline",
+      "role": "vhl",
+      "fold": "MAPK14_full__AXL",
+      "max_error": 0.0,
+      "checkpoint_sha256": "5fe7d73aa94b85b7531f6f32545756ca3f6f20fcd8f70931af253789a4d28c2b"
+    },
+    {
+      "stage": "baseline",
+      "role": "vhl",
+      "fold": "MET__ABL1",
+      "max_error": 0.0,
+      "checkpoint_sha256": "2236a131a7f8e5ae73721d474151b8be2c43b677cd37597e70f8dd1f5f646c59"
+    },
+    {
+      "stage": "baseline",
+      "role": "vhl",
+      "fold": "MET__AXL",
+      "max_error": 0.0,
+      "checkpoint_sha256": "f2887c0fb137ea851279f768246153c1d1efadf4220b91e2e3e284d7d0c3a547"
+    },
+    {
+      "stage": "baseline",
+      "role": "vhl",
+      "fold": "RIPK2_full__ABL1",
+      "max_error": 0.0,
+      "checkpoint_sha256": "6f611c3f3add99b6454d020447ef52c458a42cba6b4132697fdb4f57529c8627"
+    },
+    {
+      "stage": "baseline",
+      "role": "vhl",
+      "fold": "RIPK2_full__AXL",
+      "max_error": 0.0,
+      "checkpoint_sha256": "e448216ca3b7fab0ff6ad03f1133df5555cafcfba8f838d04d811a6ab60bc118"
+    },
+    {
+      "stage": "temporal",
+      "role": "elob",
+      "fold": "DDR2__ABL1",
+      "max_error": 0.0,
+      "checkpoint_sha256": "5c47bfd0138d69966bc978231ec6550bb50b86b4956f25752784e33d09b859e4"
+    },
+    {
+      "stage": "temporal",
+      "role": "elob",
+      "fold": "DDR2__AXL",
+      "max_error": 0.0,
+      "checkpoint_sha256": "e745173b09306a209579557c1be5cd1b8c9ef7cdec7b0d051724aa4a23ee58b8"
+    },
+    {
+      "stage": "temporal",
+      "role": "elob",
+      "fold": "EPHA2__ABL1",
+      "max_error": 0.0,
+      "checkpoint_sha256": "299be9159bfcc0859582ab09697afd6e9bcae6c9dc7a76e5ff5eabd508374477"
+    },
+    {
+      "stage": "temporal",
+      "role": "elob",
+      "fold": "EPHA2__AXL",
+      "max_error": 0.0,
+      "checkpoint_sha256": "99a58668f608c3d692e55647c55e24909bb34be1665bb465a3c6116b2b85a1f7"
+    },
+    {
+      "stage": "temporal",
+      "role": "elob",
+      "fold": "EPHB2__ABL1",
+      "max_error": 0.0,
+      "checkpoint_sha256": "6e1c5963db6f121f25fc809a8228559d6a40c548e1b5c7d2b8b2a1b0a44810e4"
+    },
+    {
+      "stage": "temporal",
+      "role": "elob",
+      "fold": "EPHB2__AXL",
+      "max_error": 5.960464477539063e-08,
+      "checkpoint_sha256": "94d1ae5aac67fbc4cf6f556520560abae9cebfb5f7e98d7fb19f3d37fcddc199"
+    },
+    {
+      "stage": "temporal",
+      "role": "elob",
+      "fold": "MAPK14_full__ABL1",
+      "max_error": 0.0,
+      "checkpoint_sha256": "bbc884d99864a4b161318c3239aa006109469717c5c5680e342d3c2bb54bed36"
+    },
+    {
+      "stage": "temporal",
+      "role": "elob",
+      "fold": "MAPK14_full__AXL",
+      "max_error": 0.0,
+      "checkpoint_sha256": "d2013e47ebd9fd75281e941204ffe5d41f1b92d7663cdac105069477caccb133"
+    },
+    {
+      "stage": "temporal",
+      "role": "elob",
+      "fold": "MET__ABL1",
+      "max_error": 0.0,
+      "checkpoint_sha256": "c3f1201eb2a05e9bb0c78d6611648f3820cc1c032a182af1a4fd32c8b9b1f4ff"
+    },
+    {
+      "stage": "temporal",
+      "role": "elob",
+      "fold": "MET__AXL",
+      "max_error": 5.960464477539063e-08,
+      "checkpoint_sha256": "ca4a1fd527e7032e7e823e3215095f281a2929f819c087ec8fa8253c38add1e5"
+    },
+    {
+      "stage": "temporal",
+      "role": "elob",
+      "fold": "RIPK2_full__ABL1",
+      "max_error": 5.960464477539063e-08,
+      "checkpoint_sha256": "fd74050d7f0640188db4f8fe8d0032e05fd174847133ec69fb68061691c50d14"
+    },
+    {
+      "stage": "temporal",
+      "role": "elob",
+      "fold": "RIPK2_full__AXL",
+      "max_error": 0.0,
+      "checkpoint_sha256": "302f9789401dcdc2575bf533df7965cde7511d16f8e4aad01e5f051cbf5cd489"
+    },
+    {
+      "stage": "temporal",
+      "role": "vhl",
+      "fold": "DDR2__ABL1",
+      "max_error": 5.960464477539063e-08,
+      "checkpoint_sha256": "12ac87ee29beb934df209fb74f4b89287acb3e8f2086829f23f807adc07a0d2c"
+    },
+    {
+      "stage": "temporal",
+      "role": "vhl",
+      "fold": "DDR2__AXL",
+      "max_error": 5.960464477539063e-08,
+      "checkpoint_sha256": "91d10f5b006d4c55ac4df6b58c6b2113cb02d029c7c8d2b2116eb98dfaf5b77a"
+    },
+    {
+      "stage": "temporal",
+      "role": "vhl",
+      "fold": "EPHA2__ABL1",
+      "max_error": 5.960464477539063e-08,
+      "checkpoint_sha256": "d80cec1b69e1dcbe7a10d25b6cd93e559114db856c4d043c4835a894e328fc61"
+    },
+    {
+      "stage": "temporal",
+      "role": "vhl",
+      "fold": "EPHA2__AXL",
+      "max_error": 1.1920928955078125e-07,
+      "checkpoint_sha256": "85ec57c0add29b1266364c4fad07511d853e1ed4e7b6f5b6c23dd648088e8342"
+    },
+    {
+      "stage": "temporal",
+      "role": "vhl",
+      "fold": "EPHB2__ABL1",
+      "max_error": 5.960464477539063e-08,
+      "checkpoint_sha256": "88b10b386c27189f0ff9c6f46dcb2b91135275d240e74347cc136a0fac990cab"
+    },
+    {
+      "stage": "temporal",
+      "role": "vhl",
+      "fold": "EPHB2__AXL",
+      "max_error": 1.1920928955078125e-07,
+      "checkpoint_sha256": "f30ba4933bc56c579016d24aa1416481ac76083551bc91f85356d44572cbd65a"
+    },
+    {
+      "stage": "temporal",
+      "role": "vhl",
+      "fold": "MAPK14_full__ABL1",
+      "max_error": 5.960464477539063e-08,
+      "checkpoint_sha256": "b9de0e8935935394f2a022b1786eedcf9f14c06d5e915c4e6365de7747606ba4"
+    },
+    {
+      "stage": "temporal",
+      "role": "vhl",
+      "fold": "MAPK14_full__AXL",
+      "max_error": 1.1920928955078125e-07,
+      "checkpoint_sha256": "98192ad75b55f4c4d7cbaa9f15ce4ecdbb11f350c1df6400ba864108b285cba5"
+    },
+    {
+      "stage": "temporal",
+      "role": "vhl",
+      "fold": "MET__ABL1",
+      "max_error": 1.1920928955078125e-07,
+      "checkpoint_sha256": "d32ba5d1ce3f2c91b13b2f5bf9611194ec3959ce0d6427d5c98de81b11e0c9fc"
+    },
+    {
+      "stage": "temporal",
+      "role": "vhl",
+      "fold": "MET__AXL",
+      "max_error": 0.0,
+      "checkpoint_sha256": "1900bb14339453113120883b9e2ed4cb88813d6e5e2079edf488e36900aed8b2"
+    },
+    {
+      "stage": "temporal",
+      "role": "vhl",
+      "fold": "RIPK2_full__ABL1",
+      "max_error": 1.1920928955078125e-07,
+      "checkpoint_sha256": "8d5eb21663b1eaf4590af6729847a8d66a982a4b423a3ed40b24bbcc0ded7db1"
+    },
+    {
+      "stage": "temporal",
+      "role": "vhl",
+      "fold": "RIPK2_full__AXL",
+      "max_error": 1.1920928955078125e-07,
+      "checkpoint_sha256": "7b2c4d87b658b66ba22d126e8da463572de723d62c16d3e1d21edcc92c62f8ac"
+    }
+  ]
+}

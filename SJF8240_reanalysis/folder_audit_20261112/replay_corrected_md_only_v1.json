@@ -1,0 +1,103 @@
+{
+  "status": "PASS",
+  "version": "corrected_md_only_v1",
+  "models": 16,
+  "records": [
+    {
+      "role": "elob",
+      "held_out": "ABL1",
+      "max_abs_error": 5.960464477539063e-08,
+      "checkpoint_sha256": "5c35f0d95667b1f6f8a2c3effe61d8f2ba2a1cac96ed67bdc7fc0a2672e83ce0"
+    },
+    {
+      "role": "elob",
+      "held_out": "AXL",
+      "max_abs_error": 0.0,
+      "checkpoint_sha256": "245e78e20e7c9c66bcfc4011d83cf809be8b382308531681e994b420f54a983b"
+    },
+    {
+      "role": "elob",
+      "held_out": "DDR2",
+      "max_abs_error": 0.0,
+      "checkpoint_sha256": "275e5b06b7e12a602924b8db33c5f107523cbfebfe02f3d13dd89ff7e2500674"
+    },
+    {
+      "role": "elob",
+      "held_out": "EPHA2",
+      "max_abs_error": 0.0,
+      "checkpoint_sha256": "6f682be8468663caf35e2ce49ab13419a574b633a28430b56b30e1cc263197d0"
+    },
+    {
+      "role": "elob",
+      "held_out": "EPHB2",
+      "max_abs_error": 5.960464477539063e-08,
+      "checkpoint_sha256": "154cab23f0830ca9e19658146b4b74c469f89d81b9ab36bd0f9d0d02d8d22f1b"
+    },
+    {
+      "role": "elob",
+      "held_out": "MAPK14_full",
+      "max_abs_error": 5.960464477539063e-08,
+      "checkpoint_sha256": "cbd86d1619becbe911216a1729f4802c5bf6053d13d3bfac8b3925b581880797"
+    },
+    {
+      "role": "elob",
+      "held_out": "MET",
+      "max_abs_error": 0.0,
+      "checkpoint_sha256": "a3735593da32b9d25ee70ac9f1b415d2bb626164bb5c85dea1a0e15cb66a93ee"
+    },
+    {
+      "role": "elob",
+      "held_out": "RIPK2_full",
+      "max_abs_error": 0.0,
+      "checkpoint_sha256": "e80394a6ff41feaf05b5f666f959fd705c9b50e837ee63bfc8d8b655b018d36e"
+    },
+    {
+      "role": "vhl",
+      "held_out": "ABL1",
+      "max_abs_error": 0.0,
+      "checkpoint_sha256": "fa58c163ea1bed1130b31720fd85197334456a2d64a76f5e535b64f088349191"
+    },
+    {
+      "role": "vhl",
+      "held_out": "AXL",
+      "max_abs_error": 0.0,
+      "checkpoint_sha256": "eb79941e5971269be8e825a6a1b47a765435d7d5a8e8cb01e82397bdcbabb721"
+    },
+    {
+      "role": "vhl",
+      "held_out": "DDR2",
+      "max_abs_error": 0.0,
+      "checkpoint_sha256": "25283152d31b79ea0e1e5a9535cff588a08671d48c1a51f036a13ded8fa896de"
+    },
+    {
+      "role": "vhl",
+      "held_out": "EPHA2",
+      "max_abs_error": 0.0,
+      "checkpoint_sha256": "0bf77422004159a6bd133876421f61d7485253247129a3bb8e3276d444de775a"
+    },
+    {
+      "role": "vhl",
+      "held_out": "EPHB2",
+      "max_abs_error": 0.0,
+      "checkpoint_sha256": "2296e013e7904ce466cdbb51b2053f58e0be98c8167f7ccddb8185a881d4b2e0"
+    },
+    {
+      "role": "vhl",
+      "held_out": "MAPK14_full",
+      "max_abs_error": 0.0,
+      "checkpoint_sha256": "3d0177be8579702a556291a3cf44d7727f30db9d3b7e9c5a789cf9d771671d59"
+    },
+    {
+      "role": "vhl",
+      "held_out": "MET",
+      "max_abs_error": 0.0,
+      "checkpoint_sha256": "c98fb355a6311d123a25756fdd6f8b0054d29eeee23cea693b3ad4342e5579c8"
+    },
+    {
+      "role": "vhl",
+      "held_out": "RIPK2_full",
+      "max_abs_error": 0.0,
+      "checkpoint_sha256": "b9542c27ef9fcdb57341ff7d81310a2774eaf41cfdbeddc8988eada3ddf09e3e"
+    }
+  ]
+}

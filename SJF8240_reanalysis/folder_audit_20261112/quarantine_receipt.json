@@ -1,0 +1,77 @@
+{
+  "retired_entrypoints": 12,
+  "records": [
+    {
+      "path": "geometric_gnn/01_extract_ca_positions.py",
+      "original_sha256": "c1115799e321de48d65595297a89fd8013e32d26c9def65f3d81e5fee7fde30f",
+      "guarded_sha256": "cb70d71ab4f1354cea454f6547c938226a42d5f6a5080341efb6a9bb950b664c",
+      "action": "CLI guard only; original code and prior outputs preserved"
+    },
+    {
+      "path": "geometric_gnn/02_run_geometric_models.py",
+      "original_sha256": "59f98739f96902c54cbd97cf1e21bf3b46abd5ba2f4344824d4641e4d8a4b4c0",
+      "guarded_sha256": "eedef715f9446bea64a64d1ecd80d29e04d1e0a70d92a0cf66c65f93efe93d84",
+      "action": "CLI guard only; original code and prior outputs preserved"
+    },
+    {
+      "path": "geometric_gnn/03_run_visnet.py",
+      "original_sha256": "6cef4094d649d461306810f50acdcc05b6a1e96af996a25903644f2a4815bf4e",
+      "guarded_sha256": "c5923b82759d9571f66e1f4ebae8419923b4b8ebb27f75ac3f41a024bfe92f7a",
+      "action": "CLI guard only; original code and prior outputs preserved"
+    },
+    {
+      "path": "geometric_gnn/04_build_per_pose_and_bridge_graphs.py",
+      "original_sha256": "731e0d27051a1ee67c7295a6c2cb012428720bbbf3bf9da49835e7c489d54e20",
+      "guarded_sha256": "b1ef1e8a70dc2f94948df2e0f7e6d19ae59a7209fd9731d2019b7187dc5633e1",
+      "action": "CLI guard only; original code and prior outputs preserved"
+    },
+    {
+      "path": "geometric_gnn/05_all_gnn_experiments.py",
+      "original_sha256": "e5c4974d636e8a6d6e88dfd8064ca3320976ec30bd8c1ccb93585dfd113a073c",
+      "guarded_sha256": "9ab2c6ac2c6621847fb2094a33d4e0de05a60e7a3b8fce9aa6389e52eed9d914",
+      "action": "CLI guard only; original code and prior outputs preserved"
+    },
+    {
+      "path": "geometric_gnn/06_e3_e4_e5.py",
+      "original_sha256": "dbfc40a7ce4e37cb90de3abdda1b112896e0f2c9999569df8fbde8dcffd7e768",
+      "guarded_sha256": "f489df258ee33de0c38ec0f195dd99602fc6f07904878193265aa3ab1a7e0170",
+      "action": "CLI guard only; original code and prior outputs preserved"
+    },
+    {
+      "path": "e2_geometry/01_e2_geometry_analysis.py",
+      "original_sha256": "dcba629ebf8be2a11f5b1c56052244c0fdb9a4da51887dfd5df620b5ee419ee0",
+      "guarded_sha256": "7bac065e46974518713d06a4cbfe19f450341e5813c41cad3a8c138170286f08",
+      "action": "CLI guard only; original code and prior outputs preserved"
+    },
+    {
+      "path": "e2_geometry/02_pose_ensemble_geometry.py",
+      "original_sha256": "82ebc40a07cdaef2f6637795ebe9184d4b432ac23e022ceb79f149adc52c256b",
+      "guarded_sha256": "31bb3cc33550b6d1fc1024037d2a6212c66b3e032b8b18e0e7f2ac483f13e3f8",
+      "action": "CLI guard only; original code and prior outputs preserved"
+    },
+    {
+      "path": "e2_geometry/03_per_lysine_analysis.py",
+      "original_sha256": "35f98d66cc85f1c29429a3c9831437964b6777d4dc9582ed612879598c60fcf9",
+      "guarded_sha256": "14dd877311d56ae829dda04464a50a02245326ad124f67c3de668fe6f7368770",
+      "action": "CLI guard only; original code and prior outputs preserved"
+    },
+    {
+      "path": "e2_geometry/04_crl2_clash.py",
+      "original_sha256": "191e7714ae530034f7bca57318fbbb912a801b068cccb3844f3303facdb6a27c",
+      "guarded_sha256": "03a11024bcfe9487c2ed43fe33be7358850ffdc7c3b02f4ece1ec084aa378bd0",
+      "action": "CLI guard only; original code and prior outputs preserved"
+    },
+    {
+      "path": "e2_geometry/05_bridging_kinetics.py",
+      "original_sha256": "14de3bf78fcb34233872a5a45c31401c7a3181053b0e61e01ecce2931aa241a8",
+      "guarded_sha256": "8ed3f416bd9cca9633123424c432cac7734e8b3a300a9648c9babbf33a5da631",
+      "action": "CLI guard only; original code and prior outputs preserved"
+    },
+    {
+      "path": "e2_geometry/06_activation_loop.py",
+      "original_sha256": "891c8b6ac39d7514e27fedbd8eedec728aaca29b01065f955f9170260d42a87b",
+      "guarded_sha256": "895d1b8b4fae5c094fd28da4aa650106f69588193c306c5eec00f3f1709e1022",
+      "action": "CLI guard only; original code and prior outputs preserved"
+    }
+  ]
+}

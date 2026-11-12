@@ -1,0 +1,26 @@
+[
+  {
+    "path": "e2_geometry/03_per_lysine_analysis.py",
+    "sha256": "35f98d66cc85f1c29429a3c9831437964b6777d4dc9582ed612879598c60fcf9",
+    "lines": 158,
+    "disposition": "retire after source review; original snapshot and existing outputs preserved"
+  },
+  {
+    "path": "e2_geometry/04_crl2_clash.py",
+    "sha256": "191e7714ae530034f7bca57318fbbb912a801b068cccb3844f3303facdb6a27c",
+    "lines": 245,
+    "disposition": "retire after source review; original snapshot and existing outputs preserved"
+  },
+  {
+    "path": "e2_geometry/05_bridging_kinetics.py",
+    "sha256": "14de3bf78fcb34233872a5a45c31401c7a3181053b0e61e01ecce2931aa241a8",
+    "lines": 165,
+    "disposition": "retire after source review; original snapshot and existing outputs preserved"
+  },
+  {
+    "path": "e2_geometry/06_activation_loop.py",
+    "sha256": "891c8b6ac39d7514e27fedbd8eedec728aaca29b01065f955f9170260d42a87b",
+    "lines": 286,
+    "disposition": "retire after source review; original snapshot and existing outputs preserved"
+  }
+]

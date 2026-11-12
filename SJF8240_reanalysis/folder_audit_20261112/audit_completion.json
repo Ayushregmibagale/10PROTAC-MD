@@ -1,0 +1,20 @@
+{
+  "status": "COMPLETE",
+  "initial_project_python_sources": 125,
+  "late_project_sources": 4,
+  "reviewed_existing_sources": 129,
+  "retired_entrypoints": 12,
+  "current_route_tests_passed": 76,
+  "original_canonical_mechanistic_test_failure_retained": 1,
+  "fresh_model_CPU_replays": 148,
+  "max_prediction_error": 1.1920928955078125e-07,
+  "trajectory_cases_replayed": 141,
+  "frames_replayed": 28341,
+  "target_graphs_reproduced": 16,
+  "max_graph_feature_error": 0.0,
+  "historical_training_sources_results_labels_and_weights_preserved": true,
+  "new_scientific_model_fits": false,
+  "other_nine_compounds_run": false,
+  "generic_enriched_E2_extraction_for_other_compounds_certified": false,
+  "public_entrypoint": "../RUN_ANALYSIS.py"
+}

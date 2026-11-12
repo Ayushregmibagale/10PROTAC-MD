@@ -1,0 +1,13 @@
+......                                                                   [100%]
+=============================== warnings summary ===============================
+../../../../home/ayushregmibagale/miniconda3/lib/python3.13/site-packages/torch/jit/_script.py:1488
+../../../../home/ayushregmibagale/miniconda3/lib/python3.13/site-packages/torch/jit/_script.py:1488
+  /home/ayushregmibagale/miniconda3/lib/python3.13/site-packages/torch/jit/_script.py:1488: DeprecationWarning: `torch.jit.script` is deprecated. Please switch to `torch.compile` or `torch.export`.
+    warnings.warn(
+
+../../../../home/ayushregmibagale/miniconda3/lib/python3.13/site-packages/_pytest/cacheprovider.py:469
+  /home/ayushregmibagale/miniconda3/lib/python3.13/site-packages/_pytest/cacheprovider.py:469: PytestCacheWarning: could not create cache path /home/ayushregmibagale/10PROTAC-MD/SJF8240_reanalysis/corrected_md_only_v2/tests/.pytest_cache/v/cache/nodeids: [Errno 30] Read-only file system: '/home/ayushregmibagale/10PROTAC-MD/SJF8240_reanalysis/corrected_md_only_v2/tests/pytest-cache-files-y8iff9et'
+    config.cache.set("cache/nodeids", sorted(self.cached_nodeids))
+
+-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html
+6 passed, 3 warnings in 4.83s

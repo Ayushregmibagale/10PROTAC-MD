@@ -1,0 +1,17 @@
+...........                                                              [100%]
+=============================== warnings summary ===============================
+../../../../home/ayushregmibagale/miniconda3/lib/python3.13/site-packages/torch/jit/_script.py:1488
+../../../../home/ayushregmibagale/miniconda3/lib/python3.13/site-packages/torch/jit/_script.py:1488
+  /home/ayushregmibagale/miniconda3/lib/python3.13/site-packages/torch/jit/_script.py:1488: DeprecationWarning: `torch.jit.script` is deprecated. Please switch to `torch.compile` or `torch.export`.
+    warnings.warn(
+
+test_contracts.py: 36 warnings
+  /home/ayushregmibagale/miniconda3/lib/python3.13/site-packages/torch_geometric/inspector.py:433: DeprecationWarning: Failing to pass a value to the 'type_params' parameter of 'typing._eval_type' is deprecated, as it leads to incorrect behaviour when calling typing._eval_type on a stringified annotation that references a PEP 695 type parameter. It will be disallowed in Python 3.15.
+    return typing._eval_type(value, _globals, None)  # type: ignore
+
+../../../../home/ayushregmibagale/miniconda3/lib/python3.13/site-packages/_pytest/cacheprovider.py:469
+  /home/ayushregmibagale/miniconda3/lib/python3.13/site-packages/_pytest/cacheprovider.py:469: PytestCacheWarning: could not create cache path /home/ayushregmibagale/10PROTAC-MD/SJF8240_reanalysis/md_weighted_e2_v1/tests/.pytest_cache/v/cache/nodeids: [Errno 30] Read-only file system: '/home/ayushregmibagale/10PROTAC-MD/SJF8240_reanalysis/md_weighted_e2_v1/tests/pytest-cache-files-k28ov8r6'
+    config.cache.set("cache/nodeids", sorted(self.cached_nodeids))
+
+-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html
+11 passed, 39 warnings in 4.88s

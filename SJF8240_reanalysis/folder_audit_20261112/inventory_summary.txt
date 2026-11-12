@@ -1,0 +1,89 @@
+Scripts 782 unique sources 736 total lines 128619
+  65 corrected_md_only_v1/lib/common.py 
+ 147 corrected_md_only_v1/lib/gnn_contract.py silent_skip
+  32 corrected_md_only_v1/lib/model.py 
+ 287 corrected_md_only_v1/lib/protac_qc.py silent_skip
+   7 corrected_md_only_v1/recovery/run_cpu_review.py hardcoded_home
+  33 corrected_md_only_v1/recovery/run_pipeline_fixed_CPU_environment.py hardcoded_home
+  15 corrected_md_only_v1/scripts/preflight.py save_weights
+  30 corrected_md_only_v1/scripts/run_pipeline.py hardcoded_home
+  53 corrected_md_only_v1/scripts/train.py silent_skip,save_weights
+  63 corrected_md_only_v1/scripts/verify_and_report.py 
+  23 corrected_md_only_v1/tests/test_contracts.py uses_assert
+  71 corrected_md_only_v2/lib/common.py 
+ 147 corrected_md_only_v2/lib/gnn_contract.py silent_skip
+  32 corrected_md_only_v2/lib/model.py 
+ 287 corrected_md_only_v2/lib/protac_qc.py silent_skip
+  15 corrected_md_only_v2/scripts/preflight.py save_weights
+  33 corrected_md_only_v2/scripts/run_pipeline.py hardcoded_home
+  53 corrected_md_only_v2/scripts/train.py silent_skip,save_weights
+  64 corrected_md_only_v2/scripts/verify_and_report.py 
+  23 corrected_md_only_v2/tests/test_contracts.py uses_assert
+  19 corrected_md_only_v2/tests/test_hypothetical_scope.py silent_skip,uses_assert
+  23 corrected_md_only_v2/validation/interpret_fold_priors.py uses_assert
+  16 corrected_md_only_v2/validation/render_target_scores.py uses_assert
+ 194 e2_geometry/01_e2_geometry_analysis.py hardcoded_home,silent_skip
+ 202 e2_geometry/02_pose_ensemble_geometry.py hardcoded_home,silent_skip,blanket_warnings
+  62 fix_comparison_20261111/compare.py uses_assert
+ 115 geometric_gnn/01_extract_ca_positions.py hardcoded_home,silent_skip
+ 580 geometric_gnn/02_run_geometric_models.py silent_skip,blanket_warnings,pos_weight3,uses_assert,dropout_train_once
+ 166 geometric_gnn/03_run_visnet.py blanket_warnings,pos_weight3,historical_EPHA2_0,dropout_train_once
+ 368 geometric_gnn/04_build_per_pose_and_bridge_graphs.py hardcoded_home,silent_skip
+ 648 geometric_gnn/05_all_gnn_experiments.py hardcoded_home,silent_skip,blanket_warnings,pos_weight3,weights_only_false,graph_zero_imputation,dropout_train_once
+ 487 geometric_gnn/06_e3_e4_e5.py hardcoded_home,silent_skip,blanket_warnings,pos_weight3,weights_only_false,historical_EPHA2_0,graph_zero_imputation,dropout_train_once
+  42 label_updates/20261111_epha2/build_label_overlay.py hardcoded_home,uses_assert
+ 107 md_weighted_e2_v1/lib/common.py 
+ 147 md_weighted_e2_v1/lib/gnn_contract.py silent_skip
+  32 md_weighted_e2_v1/lib/model.py 
+ 287 md_weighted_e2_v1/lib/protac_qc.py silent_skip
+  14 md_weighted_e2_v1/scripts/preflight.py save_weights
+  33 md_weighted_e2_v1/scripts/run_pipeline.py hardcoded_home
+  53 md_weighted_e2_v1/scripts/train.py silent_skip,save_weights
+  64 md_weighted_e2_v1/scripts/verify_and_report.py 
+  18 md_weighted_e2_v1/tests/test_class_balance.py uses_assert
+  23 md_weighted_e2_v1/tests/test_contracts.py uses_assert
+  16 md_weighted_e2_v1/tests/test_e2_scaling.py uses_assert
+  75 md_weighted_v1/lib/common.py 
+ 147 md_weighted_v1/lib/gnn_contract.py silent_skip
+  32 md_weighted_v1/lib/model.py 
+ 287 md_weighted_v1/lib/protac_qc.py silent_skip
+  15 md_weighted_v1/scripts/preflight.py save_weights
+  33 md_weighted_v1/scripts/run_pipeline.py hardcoded_home
+  53 md_weighted_v1/scripts/train.py silent_skip,save_weights
+  63 md_weighted_v1/scripts/verify_and_report.py 
+  18 md_weighted_v1/tests/test_class_balance.py uses_assert
+  23 md_weighted_v1/tests/test_contracts.py uses_assert
+  65 mechanistic_v3/lib/common.py 
+ 147 mechanistic_v3/lib/gnn_contract.py silent_skip
+  32 mechanistic_v3/lib/model.py 
+ 287 mechanistic_v3/lib/protac_qc.py silent_skip
+  12 mechanistic_v3/lib/temporal_model.py uses_assert
+  49 mechanistic_v3/scripts/build_temporal.py uses_assert
+  71 mechanistic_v3/scripts/extract_lysines.py hardcoded_home
+  75 mechanistic_v3/scripts/final_report.py 
+  37 mechanistic_v3/scripts/mechanistic_report.py 
+  43 mechanistic_v3/scripts/pair_train.py save_weights
+  21 mechanistic_v3/scripts/plot_results.py 
+  19 mechanistic_v3/scripts/replay_lysines.py uses_assert
+  56 mechanistic_v3/scripts/temporal_train.py silent_skip,save_weights
+  34 mechanistic_v3/scripts/test_contracts.py uses_assert
+  40 mechanistic_v3/scripts/update_document.py 
+  44 recovery/activate_input_validity_v4.py hardcoded_home,silent_skip
+  24 scripts/00_inventory.py hardcoded_home
+ 170 scripts/01_build_static_graphs.py hardcoded_home,silent_skip
+ 107 scripts/02_build_dynamic_graphs.py hardcoded_home,silent_skip
+ 114 scripts/04_train_dual_lopo.py silent_skip,save_weights,dropout_train_once
+  15 scripts/05_check_model_runtime.py 
+  46 scripts/06_make_comparison.py 
+  58 scripts/07_continue_reanalysis.py hardcoded_home,silent_skip
+  87 scripts/lib/dual_encoder_model.py 
+ 147 scripts/lib/gnn_contract.py silent_skip
+ 287 scripts/lib/protac_qc.py silent_skip
+  13 scripts/lib/read_only_trajectory.py 
+  36 tests/test_graphs.py uses_assert
+  19 tests/test_static_build_contract.py uses_assert
+  35 tests/test_static_integrity.py uses_assert
+  24 tests/test_training_contract.py uses_assert
+  62 validation/review_completed_comparison.py 
+  82 validation/verify_graph_artifacts.py 
+  64 validation/verify_model_arm.py 

@@ -67,5 +67,14 @@
   "latest_analysis_status": "COMPLETE",
   "latest_document": "mechanistic_v3/docs/STEP_BY_STEP.docx",
   "latest_report": "mechanistic_v3/RESULTS.md",
-  "latest_models_independently_verified": 48
+  "latest_models_independently_verified": 48,
+  "folder_audit": {
+    "status": "COMPLETE",
+    "report": "folder_audit_20261112/AUDIT.md",
+    "word_document": "folder_audit_20261112/AUDIT.docx",
+    "models_replayed": 148,
+    "current_route_tests_passed": 76,
+    "retired_entrypoints": 12,
+    "public_entrypoint": "RUN_ANALYSIS.py"
+  }
 }

@@ -1,0 +1,245 @@
+{
+  "schema_version": 1,
+  "compound_id": "SJF8240",
+  "units": {
+    "coordinates": "angstrom",
+    "time": "ns"
+  },
+  "model": "lysine_temporal",
+  "evaluation": "leave_pair_out",
+  "training": {
+    "epochs": 300,
+    "seed": 42,
+    "lr": 0.001,
+    "weight_decay": 0.0001,
+    "loss": "unweighted",
+    "threshold": 0.5
+  },
+  "roles": {
+    "vhl": {
+      "uniprot": "P40337",
+      "identity_evidence": {
+        "path": "/home/ayushregmibagale/10PROTAC-MD/prosettac_robust/existing_result_audit/protein_roles_core_complete/per_pose_roles.json",
+        "sha256": "58424dcef7fab12723789c597fc6e947a5b15ea236843fdeeb7dd5fb262f51b8"
+      }
+    },
+    "elob": {
+      "uniprot": "Q15370",
+      "identity_evidence": {
+        "path": "/home/ayushregmibagale/10PROTAC-MD/prosettac_robust/existing_result_audit/protein_roles_core_complete/per_pose_roles.json",
+        "sha256": "58424dcef7fab12723789c597fc6e947a5b15ea236843fdeeb7dd5fb262f51b8"
+      }
+    }
+  },
+  "targets": [
+    {
+      "target_id": "ABL1",
+      "protein_group": "ABL1",
+      "label": 0,
+      "label_status": "confirmed_user",
+      "label_evidence": {
+        "path": "/home/ayushregmibagale/10PROTAC-MD/SJF8240_reanalysis/config/current_md_labels.json",
+        "sha256": "5f999e61afba0563f93891b21790359535b9c5e6e707d5721c6fcab22742b34b"
+      },
+      "graphs": {
+        "vhl": {
+          "path": "/home/ayushregmibagale/10PROTAC-MD/SJF8240_reanalysis/mechanistic_v3/inputs/temporal/vhl/ABL1.npz",
+          "sha256": "e680488e38f104449860f75db9727cace32f41f6303616c65f8a82cdf831a74c",
+          "compound_id": "SJF8240",
+          "target_id": "ABL1",
+          "role": "vhl"
+        },
+        "elob": {
+          "path": "/home/ayushregmibagale/10PROTAC-MD/SJF8240_reanalysis/mechanistic_v3/inputs/temporal/elob/ABL1.npz",
+          "sha256": "5adc7ebc8f7a7ec9b28117fcebcd30d6cd52d22efacfb2579c52d8f08a81401a",
+          "compound_id": "SJF8240",
+          "target_id": "ABL1",
+          "role": "elob"
+        }
+      }
+    },
+    {
+      "target_id": "AXL",
+      "protein_group": "AXL",
+      "label": 0,
+      "label_status": "confirmed_user",
+      "label_evidence": {
+        "path": "/home/ayushregmibagale/10PROTAC-MD/SJF8240_reanalysis/config/current_md_labels.json",
+        "sha256": "5f999e61afba0563f93891b21790359535b9c5e6e707d5721c6fcab22742b34b"
+      },
+      "graphs": {
+        "vhl": {
+          "path": "/home/ayushregmibagale/10PROTAC-MD/SJF8240_reanalysis/mechanistic_v3/inputs/temporal/vhl/AXL.npz",
+          "sha256": "5243b75e38f92820cd9322ca4803abab72fb49bd6c8f11e3cac6ea2fc8c9a8c7",
+          "compound_id": "SJF8240",
+          "target_id": "AXL",
+          "role": "vhl"
+        },
+        "elob": {
+          "path": "/home/ayushregmibagale/10PROTAC-MD/SJF8240_reanalysis/mechanistic_v3/inputs/temporal/elob/AXL.npz",
+          "sha256": "682040cf826916a1fdd85fa01b7c6d685e6fd2c709c0cce9769856cff2107e80",
+          "compound_id": "SJF8240",
+          "target_id": "AXL",
+          "role": "elob"
+        }
+      }
+    },
+    {
+      "target_id": "DDR2",
+      "protein_group": "DDR2",
+      "label": 1,
+      "label_status": "confirmed_user",
+      "label_evidence": {
+        "path": "/home/ayushregmibagale/10PROTAC-MD/SJF8240_reanalysis/config/current_md_labels.json",
+        "sha256": "5f999e61afba0563f93891b21790359535b9c5e6e707d5721c6fcab22742b34b"
+      },
+      "graphs": {
+        "vhl": {
+          "path": "/home/ayushregmibagale/10PROTAC-MD/SJF8240_reanalysis/mechanistic_v3/inputs/temporal/vhl/DDR2.npz",
+          "sha256": "f1b9f32d7389dd400cf7b33847da095a1b273d86dd133d99f56a43f5438da855",
+          "compound_id": "SJF8240",
+          "target_id": "DDR2",
+          "role": "vhl"
+        },
+        "elob": {
+          "path": "/home/ayushregmibagale/10PROTAC-MD/SJF8240_reanalysis/mechanistic_v3/inputs/temporal/elob/DDR2.npz",
+          "sha256": "e9c8fabf9f86a13adf0588ec35afbca791797c93b6cd787c3990b1132187b754",
+          "compound_id": "SJF8240",
+          "target_id": "DDR2",
+          "role": "elob"
+        }
+      }
+    },
+    {
+      "target_id": "EPHA2",
+      "protein_group": "EPHA2",
+      "label": 1,
+      "label_status": "confirmed_user",
+      "label_evidence": {
+        "path": "/home/ayushregmibagale/10PROTAC-MD/SJF8240_reanalysis/config/current_md_labels.json",
+        "sha256": "5f999e61afba0563f93891b21790359535b9c5e6e707d5721c6fcab22742b34b"
+      },
+      "graphs": {
+        "vhl": {
+          "path": "/home/ayushregmibagale/10PROTAC-MD/SJF8240_reanalysis/mechanistic_v3/inputs/temporal/vhl/EPHA2.npz",
+          "sha256": "4488afc56b57bd0f3bf0488d65fd69d1e80d25b3ce8e547a7b2e9a2a9c612d3e",
+          "compound_id": "SJF8240",
+          "target_id": "EPHA2",
+          "role": "vhl"
+        },
+        "elob": {
+          "path": "/home/ayushregmibagale/10PROTAC-MD/SJF8240_reanalysis/mechanistic_v3/inputs/temporal/elob/EPHA2.npz",
+          "sha256": "e6734be7a3c540afdbecc3cf6a14ce4ad5429c6d0e6f95b57ba8c62bef092de6",
+          "compound_id": "SJF8240",
+          "target_id": "EPHA2",
+          "role": "elob"
+        }
+      }
+    },
+    {
+      "target_id": "EPHB2",
+      "protein_group": "EPHB2",
+      "label": 1,
+      "label_status": "confirmed_user",
+      "label_evidence": {
+        "path": "/home/ayushregmibagale/10PROTAC-MD/SJF8240_reanalysis/config/current_md_labels.json",
+        "sha256": "5f999e61afba0563f93891b21790359535b9c5e6e707d5721c6fcab22742b34b"
+      },
+      "graphs": {
+        "vhl": {
+          "path": "/home/ayushregmibagale/10PROTAC-MD/SJF8240_reanalysis/mechanistic_v3/inputs/temporal/vhl/EPHB2.npz",
+          "sha256": "ae947125fc9bbdbaaaf5a344e216a007e6c3f4e2541487353caf2325816e7cba",
+          "compound_id": "SJF8240",
+          "target_id": "EPHB2",
+          "role": "vhl"
+        },
+        "elob": {
+          "path": "/home/ayushregmibagale/10PROTAC-MD/SJF8240_reanalysis/mechanistic_v3/inputs/temporal/elob/EPHB2.npz",
+          "sha256": "b755f4ff20672b9866e83debc43cee0dfd0e675d849e9b8d6f711a899d36ecf9",
+          "compound_id": "SJF8240",
+          "target_id": "EPHB2",
+          "role": "elob"
+        }
+      }
+    },
+    {
+      "target_id": "MAPK14_full",
+      "protein_group": "MAPK14_full",
+      "label": 1,
+      "label_status": "confirmed_user",
+      "label_evidence": {
+        "path": "/home/ayushregmibagale/10PROTAC-MD/SJF8240_reanalysis/config/current_md_labels.json",
+        "sha256": "5f999e61afba0563f93891b21790359535b9c5e6e707d5721c6fcab22742b34b"
+      },
+      "graphs": {
+        "vhl": {
+          "path": "/home/ayushregmibagale/10PROTAC-MD/SJF8240_reanalysis/mechanistic_v3/inputs/temporal/vhl/MAPK14_full.npz",
+          "sha256": "e3a2b0c203ee916e8ac1508525837df66ed71e6eba146e97920dd5dc3850796b",
+          "compound_id": "SJF8240",
+          "target_id": "MAPK14_full",
+          "role": "vhl"
+        },
+        "elob": {
+          "path": "/home/ayushregmibagale/10PROTAC-MD/SJF8240_reanalysis/mechanistic_v3/inputs/temporal/elob/MAPK14_full.npz",
+          "sha256": "d9d9e12e3b42936177e12e86017c3ed9f2022b484617847b90c2416fbd57a5f3",
+          "compound_id": "SJF8240",
+          "target_id": "MAPK14_full",
+          "role": "elob"
+        }
+      }
+    },
+    {
+      "target_id": "MET",
+      "protein_group": "MET",
+      "label": 1,
+      "label_status": "confirmed_user",
+      "label_evidence": {
+        "path": "/home/ayushregmibagale/10PROTAC-MD/SJF8240_reanalysis/config/current_md_labels.json",
+        "sha256": "5f999e61afba0563f93891b21790359535b9c5e6e707d5721c6fcab22742b34b"
+      },
+      "graphs": {
+        "vhl": {
+          "path": "/home/ayushregmibagale/10PROTAC-MD/SJF8240_reanalysis/mechanistic_v3/inputs/temporal/vhl/MET.npz",
+          "sha256": "4716c090af2d3ce285950807eafa38676256c50f65e6bd94636dd95151429d3d",
+          "compound_id": "SJF8240",
+          "target_id": "MET",
+          "role": "vhl"
+        },
+        "elob": {
+          "path": "/home/ayushregmibagale/10PROTAC-MD/SJF8240_reanalysis/mechanistic_v3/inputs/temporal/elob/MET.npz",
+          "sha256": "1bd2f45530a4e3bc797379c1f31c1a9fdbdbe3e696e1b79cfaff609758c0d4b3",
+          "compound_id": "SJF8240",
+          "target_id": "MET",
+          "role": "elob"
+        }
+      }
+    },
+    {
+      "target_id": "RIPK2_full",
+      "protein_group": "RIPK2_full",
+      "label": 1,
+      "label_status": "confirmed_user",
+      "label_evidence": {
+        "path": "/home/ayushregmibagale/10PROTAC-MD/SJF8240_reanalysis/config/current_md_labels.json",
+        "sha256": "5f999e61afba0563f93891b21790359535b9c5e6e707d5721c6fcab22742b34b"
+      },
+      "graphs": {
+        "vhl": {
+          "path": "/home/ayushregmibagale/10PROTAC-MD/SJF8240_reanalysis/mechanistic_v3/inputs/temporal/vhl/RIPK2_full.npz",
+          "sha256": "268e75ad88922746fc23b739b14ac903b7262f69f6884c6d907bf0f17ecbf577",
+          "compound_id": "SJF8240",
+          "target_id": "RIPK2_full",
+          "role": "vhl"
+        },
+        "elob": {
+          "path": "/home/ayushregmibagale/10PROTAC-MD/SJF8240_reanalysis/mechanistic_v3/inputs/temporal/elob/RIPK2_full.npz",
+          "sha256": "ec562f5927a274376074de91f57097396f444cb8c68b5085d3f4a117ceb31dd4",
+          "compound_id": "SJF8240",
+          "target_id": "RIPK2_full",
+          "role": "elob"
+        }
+      }
+    }
+  ],
+  "purpose": "Reusable protocol example; no new scientific training has been performed by this adapter."
+}

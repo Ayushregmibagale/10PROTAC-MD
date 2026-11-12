@@ -1,0 +1,8 @@
+validation/extraction_shard_*/poses/
+validation/extraction_shard_*/targets/
+*.log
+__pycache__/
+.pytest_cache/
+*.pt
+validation/extraction_final_*/poses/
+validation/extraction_final_*/targets/

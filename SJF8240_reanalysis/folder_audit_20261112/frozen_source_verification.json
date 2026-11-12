@@ -1,0 +1,38 @@
+[
+  {
+    "version": "corrected_md_only_v1",
+    "manifest": "execution_manifest.json",
+    "files": 12,
+    "errors": []
+  },
+  {
+    "version": "corrected_md_only_v2",
+    "manifest": "execution_manifest.json",
+    "files": 19,
+    "errors": []
+  },
+  {
+    "version": "md_weighted_v1",
+    "manifest": "execution_manifest.json",
+    "files": 12,
+    "errors": []
+  },
+  {
+    "version": "md_weighted_e2_v1",
+    "manifest": "execution_manifest.json",
+    "files": 16,
+    "errors": []
+  },
+  {
+    "version": "mechanistic_v3",
+    "manifest": "pair_source_hashes.json",
+    "files": 9,
+    "errors": []
+  },
+  {
+    "version": "mechanistic_v3",
+    "manifest": "temporal_source_hashes.json",
+    "files": 12,
+    "errors": []
+  }
+]

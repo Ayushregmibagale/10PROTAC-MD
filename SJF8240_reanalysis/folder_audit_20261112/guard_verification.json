@@ -1,0 +1,66 @@
+{
+  "status": "PASS",
+  "entrypoints": 12,
+  "records": [
+    {
+      "path": "geometric_gnn/01_extract_ca_positions.py",
+      "guard_blocks_execution": true,
+      "original_preserved": true
+    },
+    {
+      "path": "geometric_gnn/02_run_geometric_models.py",
+      "guard_blocks_execution": true,
+      "original_preserved": true
+    },
+    {
+      "path": "geometric_gnn/03_run_visnet.py",
+      "guard_blocks_execution": true,
+      "original_preserved": true
+    },
+    {
+      "path": "geometric_gnn/04_build_per_pose_and_bridge_graphs.py",
+      "guard_blocks_execution": true,
+      "original_preserved": true
+    },
+    {
+      "path": "geometric_gnn/05_all_gnn_experiments.py",
+      "guard_blocks_execution": true,
+      "original_preserved": true
+    },
+    {
+      "path": "geometric_gnn/06_e3_e4_e5.py",
+      "guard_blocks_execution": true,
+      "original_preserved": true
+    },
+    {
+      "path": "e2_geometry/01_e2_geometry_analysis.py",
+      "guard_blocks_execution": true,
+      "original_preserved": true
+    },
+    {
+      "path": "e2_geometry/02_pose_ensemble_geometry.py",
+      "guard_blocks_execution": true,
+      "original_preserved": true
+    },
+    {
+      "path": "e2_geometry/03_per_lysine_analysis.py",
+      "guard_blocks_execution": true,
+      "original_preserved": true
+    },
+    {
+      "path": "e2_geometry/04_crl2_clash.py",
+      "guard_blocks_execution": true,
+      "original_preserved": true
+    },
+    {
+      "path": "e2_geometry/05_bridging_kinetics.py",
+      "guard_blocks_execution": true,
+      "original_preserved": true
+    },
+    {
+      "path": "e2_geometry/06_activation_loop.py",
+      "guard_blocks_execution": true,
+      "original_preserved": true
+    }
+  ]
+}

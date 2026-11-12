@@ -1,0 +1,57 @@
+.F..                                                                     [100%]
+=================================== FAILURES ===================================
+___________________________ test_baseline_unchanged ____________________________
+
+    def test_baseline_unchanged():
+>    source=ROOT.parent/'SJF8240_corrected_md_only_v1';assert (ROOT/'lib/model.py').read_bytes()==(source/'lib/model.py').read_bytes()
+                                                                                                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+/home/ayushregmibagale/10PROTAC-MD/SJF8240_reanalysis/mechanistic_v3/scripts/test_contracts.py:13: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+/home/ayushregmibagale/miniconda3/lib/python3.13/pathlib/_abc.py:625: in read_bytes
+    with self.open(mode='rb') as f:
+         ^^^^^^^^^^^^^^^^^^^^
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+self = PosixPath('/home/ayushregmibagale/10PROTAC-MD/SJF8240_reanalysis/SJF8240_corrected_md_only_v1/lib/model.py')
+mode = 'rb', buffering = -1, encoding = None, errors = None, newline = None
+
+    def open(self, mode='r', buffering=-1, encoding=None,
+             errors=None, newline=None):
+        """
+        Open the file pointed to by this path and return a file object, as
+        the built-in open() function does.
+        """
+        if "b" not in mode:
+            encoding = io.text_encoding(encoding)
+>       return io.open(self, mode, buffering, encoding, errors, newline)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+E       FileNotFoundError: [Errno 2] No such file or directory: '/home/ayushregmibagale/10PROTAC-MD/SJF8240_reanalysis/SJF8240_corrected_md_only_v1/lib/model.py'
+
+/home/ayushregmibagale/miniconda3/lib/python3.13/pathlib/_local.py:537: FileNotFoundError
+=============================== warnings summary ===============================
+../../../../home/ayushregmibagale/miniconda3/lib/python3.13/site-packages/torch/jit/_script.py:1488
+../../../../home/ayushregmibagale/miniconda3/lib/python3.13/site-packages/torch/jit/_script.py:1488
+  /home/ayushregmibagale/miniconda3/lib/python3.13/site-packages/torch/jit/_script.py:1488: DeprecationWarning: `torch.jit.script` is deprecated. Please switch to `torch.compile` or `torch.export`.
+    warnings.warn(
+
+test_contracts.py::test_sasa_occluder_and_translation
+  /home/ayushregmibagale/miniconda3/lib/python3.13/site-packages/mdtraj/core/selection.py:47: PyparsingDeprecationWarning: 'enablePackrat' deprecated - use 'enable_packrat'
+    ParserElement.enablePackrat(cache_size_limit=304)
+
+test_contracts.py: 36 warnings
+  /home/ayushregmibagale/miniconda3/lib/python3.13/site-packages/torch_geometric/inspector.py:433: DeprecationWarning: Failing to pass a value to the 'type_params' parameter of 'typing._eval_type' is deprecated, as it leads to incorrect behaviour when calling typing._eval_type on a stringified annotation that references a PEP 695 type parameter. It will be disallowed in Python 3.15.
+    return typing._eval_type(value, _globals, None)  # type: ignore
+
+../../../../home/ayushregmibagale/miniconda3/lib/python3.13/site-packages/_pytest/cacheprovider.py:469
+  /home/ayushregmibagale/miniconda3/lib/python3.13/site-packages/_pytest/cacheprovider.py:469: PytestCacheWarning: could not create cache path /home/ayushregmibagale/10PROTAC-MD/SJF8240_reanalysis/mechanistic_v3/scripts/.pytest_cache/v/cache/nodeids: [Errno 30] Read-only file system: '/home/ayushregmibagale/10PROTAC-MD/SJF8240_reanalysis/mechanistic_v3/scripts/pytest-cache-files-ub1yy59p'
+    config.cache.set("cache/nodeids", sorted(self.cached_nodeids))
+
+../../../../home/ayushregmibagale/miniconda3/lib/python3.13/site-packages/_pytest/cacheprovider.py:423
+  /home/ayushregmibagale/miniconda3/lib/python3.13/site-packages/_pytest/cacheprovider.py:423: PytestCacheWarning: could not create cache path /home/ayushregmibagale/10PROTAC-MD/SJF8240_reanalysis/mechanistic_v3/scripts/.pytest_cache/v/cache/lastfailed: [Errno 30] Read-only file system: '/home/ayushregmibagale/10PROTAC-MD/SJF8240_reanalysis/mechanistic_v3/scripts/pytest-cache-files-ptips_bi'
+    config.cache.set("cache/lastfailed", self.lastfailed)
+
+-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html
+=========================== short test summary info ============================
+FAILED ../../../../home/ayushregmibagale/10PROTAC-MD/SJF8240_reanalysis/mechanistic_v3/scripts/test_contracts.py::test_baseline_unchanged
+1 failed, 3 passed, 41 warnings in 5.01s

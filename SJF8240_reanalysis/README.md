@@ -1,5 +1,11 @@
 # SJF8240 retained-structure GNN experiments
 
+## Folder-wide audit and supported reuse path
+
+The 12 November audit found critical regressions in exploratory chain selection, contact definitions and validation. Twelve exploratory entry points are retired with original sources archived. [Audit report](folder_audit_20261112/AUDIT.md) · [Word copy](folder_audit_20261112/AUDIT.docx) · [Reusable workflow](folder_audit_20261112/robust_analysis_v1/README.md).
+
+Use `RUN_ANALYSIS.py` and per-compound manifests for new work. All148 reviewed saved models passed fresh CPU replay; the configurable contact extractor reproduced141 SJF8240 cases and16 role graphs. The documented verification route has76 passing tests, including a portable amendment for a historical test-path failure. Other compounds still need their own verified labels, protein identities, chemistry/MD provenance and feature calibration; similar results are not assumed. Frozen SJF8240 studies below remain preserved.
+
 Latest completed analysis: [matched holdouts and lysine-aware GNN](mechanistic_v3/RESULTS.md). All 48 weights independently replayed on CPU. Original versus enriched matched-pair ranking: VHL 7/12 to 9/12 (0.583 to 0.750); ELOB 6/12 to 1/12 (0.500 to 0.083). Specificity remains zero at 0.5 in both enriched arms; VHL balanced accuracy is 0.458. This is a limited ranking gain, not useful binary discrimination or external validation.
 
 Per-lysine SASA analysis covers 141 existing poses and 5,781 sampled frames. ABL1 bridge-frame exposure is approximately 98.4%; the earlier claim that all 18 lysines were buried was unsupported. SIK3/RPS6KB2 remain experimentally unknown and excluded from these new training/evaluation folds.

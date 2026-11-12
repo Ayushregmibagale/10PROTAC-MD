@@ -1,0 +1,15 @@
+{
+  "expected_compound_ids": [
+    "SJF8240"
+  ],
+  "studies": [
+    {
+      "path": "original_md.json",
+      "sha256": "672de2850bfcd8d2e97f0a3afe3e2ef9e2e30bfe28f7c4a9277f21e3a533ce0b"
+    },
+    {
+      "path": "lysine_temporal.json",
+      "sha256": "ae292e76449bbead543f7e8bdc2f29fd35eb28b803de0952925e1e43e512acb2"
+    }
+  ]
+}

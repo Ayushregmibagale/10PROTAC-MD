@@ -1,0 +1,18 @@
+{
+  "status": "PASS",
+  "initial_python_files": 782,
+  "late_sources": 4,
+  "changed_initial_sources": [
+    "e2_geometry/01_e2_geometry_analysis.py",
+    "e2_geometry/02_pose_ensemble_geometry.py",
+    "geometric_gnn/01_extract_ca_positions.py",
+    "geometric_gnn/02_run_geometric_models.py",
+    "geometric_gnn/03_run_visnet.py",
+    "geometric_gnn/04_build_per_pose_and_bridge_graphs.py",
+    "geometric_gnn/05_all_gnn_experiments.py",
+    "geometric_gnn/06_e3_e4_e5.py"
+  ],
+  "changes_are_documented_CLI_guards_only": true,
+  "all_other_initial_python_sources_unchanged": true,
+  "all_retired_originals_preserved": true
+}

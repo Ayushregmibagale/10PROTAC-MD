@@ -1,0 +1,2400 @@
+{
+  "compound_id": "SJF8240",
+  "units": {
+    "coordinates": "angstrom",
+    "time": "ns"
+  },
+  "raw_trajectory_time_unit": "ps",
+  "reference_sequences": {
+    "path": "/home/ayushregmibagale/10PROTAC-MD/SJF8240_reanalysis/config/role_reference.json",
+    "sha256": "bd440f5193ee4fb896d24af249754e4edaa1b2790f46061e17ca7b526991878f"
+  },
+  "target_uniprot": {
+    "ABL1": "P00519",
+    "AXL": "P30530",
+    "DDR2": "Q16832",
+    "EPHA2": "P29317",
+    "EPHB2": "P29323",
+    "MAPK14_full": "Q16539",
+    "MET": "P08581",
+    "RIPK2_full": "O43353"
+  },
+  "expected_times_ns": [
+    0.0,
+    0.1,
+    0.2,
+    0.3,
+    0.4,
+    0.5,
+    0.6,
+    0.7,
+    0.8,
+    0.9,
+    1.0,
+    1.1,
+    1.2,
+    1.3,
+    1.4,
+    1.5,
+    1.6,
+    1.7,
+    1.8,
+    1.9,
+    2.0,
+    2.1,
+    2.2,
+    2.3,
+    2.4,
+    2.5,
+    2.6,
+    2.7,
+    2.8,
+    2.9,
+    3.0,
+    3.1,
+    3.2,
+    3.3,
+    3.4,
+    3.5,
+    3.6,
+    3.7,
+    3.8,
+    3.9,
+    4.0,
+    4.1,
+    4.2,
+    4.3,
+    4.4,
+    4.5,
+    4.6,
+    4.7,
+    4.8,
+    4.9,
+    5.0,
+    5.1,
+    5.2,
+    5.3,
+    5.4,
+    5.5,
+    5.6,
+    5.7,
+    5.8,
+    5.9,
+    6.0,
+    6.1,
+    6.2,
+    6.3,
+    6.4,
+    6.5,
+    6.6,
+    6.7,
+    6.8,
+    6.9,
+    7.0,
+    7.1,
+    7.2,
+    7.3,
+    7.4,
+    7.5,
+    7.6,
+    7.7,
+    7.8,
+    7.9,
+    8.0,
+    8.1,
+    8.2,
+    8.3,
+    8.4,
+    8.5,
+    8.6,
+    8.7,
+    8.8,
+    8.9,
+    9.0,
+    9.1,
+    9.2,
+    9.3,
+    9.4,
+    9.5,
+    9.6,
+    9.7,
+    9.8,
+    9.9,
+    10.0,
+    10.1,
+    10.2,
+    10.3,
+    10.4,
+    10.5,
+    10.6,
+    10.7,
+    10.8,
+    10.9,
+    11.0,
+    11.1,
+    11.2,
+    11.3,
+    11.4,
+    11.5,
+    11.6,
+    11.7,
+    11.8,
+    11.9,
+    12.0,
+    12.1,
+    12.2,
+    12.3,
+    12.4,
+    12.5,
+    12.6,
+    12.7,
+    12.8,
+    12.9,
+    13.0,
+    13.1,
+    13.2,
+    13.3,
+    13.4,
+    13.5,
+    13.6,
+    13.7,
+    13.8,
+    13.9,
+    14.0,
+    14.1,
+    14.2,
+    14.3,
+    14.4,
+    14.5,
+    14.6,
+    14.7,
+    14.8,
+    14.9,
+    15.0,
+    15.1,
+    15.2,
+    15.3,
+    15.4,
+    15.5,
+    15.6,
+    15.7,
+    15.8,
+    15.9,
+    16.0,
+    16.1,
+    16.2,
+    16.3,
+    16.4,
+    16.5,
+    16.6,
+    16.7,
+    16.8,
+    16.9,
+    17.0,
+    17.1,
+    17.2,
+    17.3,
+    17.4,
+    17.5,
+    17.6,
+    17.7,
+    17.8,
+    17.9,
+    18.0,
+    18.1,
+    18.2,
+    18.3,
+    18.4,
+    18.5,
+    18.6,
+    18.7,
+    18.8,
+    18.9,
+    19.0,
+    19.1,
+    19.2,
+    19.3,
+    19.4,
+    19.5,
+    19.6,
+    19.7,
+    19.8,
+    19.9,
+    20.0
+  ],
+  "duplicate_policy": "identical_only",
+  "contact_A": 5.0,
+  "edge_frequency_min": 0.01,
+  "cases": [
+    {
+      "target_id": "RIPK2_full",
+      "pose_id": "pose001",
+      "tpr": {
+        "path": "/home/ayushregmibagale/protac-md/random_screen/RIPK2_full/pose001/prod/prod.tpr",
+        "sha256": "f78af8d9bbc5c6fcd1f7e47f85d0b47a08479060a371f0be7e6f020eb39794dc"
+      },
+      "xtc": {
+        "path": "/home/ayushregmibagale/protac-md/analysis/random_screen/RIPK2_full/pose001/prod_nojump.xtc",
+        "sha256": "8a1548ac99a9658ec2b9755917954badce3a06235d6673f5b785240a2e2f2c33"
+      },
+      "protein_roles": {
+        "elob": {
+          "selection": "moltype Protein_chain_A and name CA",
+          "uniprot": "Q15370",
+          "model_sequence": "MDVFLMIRRHKTTIFTDAKESSTVFELKRIVEGILKRPPDEQRLYKDDQLLDDGKTLGEGFTSQTARPQAPATVGLAFRADDTFEALIEPFSSPPELPDVM"
+        },
+        "vhl": {
+          "selection": "moltype Protein_chain_C and name CA",
+          "uniprot": "P40337",
+          "model_sequence": "VLRSVNSREPSQVIFNRSPRVVLPVWLNFDGEPQPYPTLPPGTGRRIHSYRGHLWLFRDAGTHDGLLVNQTELFVPSLNVDGQPIFANITLPVYTLKERCLQVVRSLVKPENYRRLDIVRSLYEDLEDHPNVQKDLERLT"
+        },
+        "poi": {
+          "selection": "moltype Protein_chain_D and name CA",
+          "uniprot": "O43353",
+          "model_sequence": "SALPTIPYHKLADLRYLSRGASGTVSSARHADWRVQVAVKHLHIHTPLLDSERKDVLREAEILHKARFSYILPILGICNEPEFLGIVTEYMPNGSLNELLHRKTEYPDVAWPLRFRILHEIALGVNYLHNMTPPLLHHDLKTQNILLDNEFHVKIADFGTIIYMPPENYSIKHDIYSYAVITWEVLSRKQPFEDVTNPLQIMYSVSQGHRPVINEESLPYDIPHRARMISLIESGWAQNPDERPSFLKCLIELEPVLRTFEEITFLEAVIQLKKTKLQS"
+        }
+      },
+      "ligand_selection": "resname UNL",
+      "ligand_heavy_atoms": 79
+    },
+    {
+      "target_id": "RIPK2_full",
+      "pose_id": "pose003",
+      "tpr": {
+        "path": "/home/ayushregmibagale/protac-md/random_screen/RIPK2_full/pose003/prod/prod.tpr",
+        "sha256": "8dde09121cefd2b3baaedf52dee7e40a0385b5c34a10ec9ac4ddcd003d5068d2"
+      },
+      "xtc": {
+        "path": "/home/ayushregmibagale/protac-md/analysis/random_screen/RIPK2_full/pose003/prod_nojump.xtc",
+        "sha256": "aafd751c40c3e9df60bf4e85b18251be30f767b99ab97990b34023df8f8f14cc"
+      },
+      "protein_roles": {
+        "elob": {
+          "selection": "moltype Protein_chain_A and name CA",
+          "uniprot": "Q15370",
+          "model_sequence": "MDVFLMIRRHKTTIFTDAKESSTVFELKRIVEGILKRPPDEQRLYKDDQLLDDGKTLGEGFTSQTARPQAPATVGLAFRADDTFEALIEPFSSPPELPDVM"
+        },
+        "vhl": {
+          "selection": "moltype Protein_chain_C and name CA",
+          "uniprot": "P40337",
+          "model_sequence": "VLRSVNSREPSQVIFNRSPRVVLPVWLNFDGEPQPYPTLPPGTGRRIHSYRGHLWLFRDAGTHDGLLVNQTELFVPSLNVDGQPIFANITLPVYTLKERCLQVVRSLVKPENYRRLDIVRSLYEDLEDHPNVQKDLERLT"
+        },
+        "poi": {
+          "selection": "moltype Protein_chain_D and name CA",
+          "uniprot": "O43353",
+          "model_sequence": "SALPTIPYHKLADLRYLSRGASGTVSSARHADWRVQVAVKHLHIHTPLLDSERKDVLREAEILHKARFSYILPILGICNEPEFLGIVTEYMPNGSLNELLHRKTEYPDVAWPLRFRILHEIALGVNYLHNMTPPLLHHDLKTQNILLDNEFHVKIADFGTIIYMPPENYSIKHDIYSYAVITWEVLSRKQPFEDVTNPLQIMYSVSQGHRPVINEESLPYDIPHRARMISLIESGWAQNPDERPSFLKCLIELEPVLRTFEEITFLEAVIQLKKTKLQS"
+        }
+      },
+      "ligand_selection": "resname UNL",
+      "ligand_heavy_atoms": 79
+    },
+    {
+      "target_id": "RIPK2_full",
+      "pose_id": "pose004",
+      "tpr": {
+        "path": "/home/ayushregmibagale/protac-md/random_screen/RIPK2_full/pose004/prod/prod.tpr",
+        "sha256": "274cf0a81ec1a641d587107f4532edc63eda49cda01d262b3a1d566bb52b7470"
+      },
+      "xtc": {
+        "path": "/home/ayushregmibagale/protac-md/analysis/random_screen/RIPK2_full/pose004/prod_nojump.xtc",
+        "sha256": "ae44b0d51a1de45dac6c3f1ea79b5e3d7a33508d277fef31a181b5e6ef168246"
+      },
+      "protein_roles": {
+        "elob": {
+          "selection": "moltype Protein_chain_A and name CA",
+          "uniprot": "Q15370",
+          "model_sequence": "MDVFLMIRRHKTTIFTDAKESSTVFELKRIVEGILKRPPDEQRLYKDDQLLDDGKTLGEGFTSQTARPQAPATVGLAFRADDTFEALIEPFSSPPELPDVM"
+        },
+        "vhl": {
+          "selection": "moltype Protein_chain_C and name CA",
+          "uniprot": "P40337",
+          "model_sequence": "VLRSVNSREPSQVIFNRSPRVVLPVWLNFDGEPQPYPTLPPGTGRRIHSYRGHLWLFRDAGTHDGLLVNQTELFVPSLNVDGQPIFANITLPVYTLKERCLQVVRSLVKPENYRRLDIVRSLYEDLEDHPNVQKDLERLT"
+        },
+        "poi": {
+          "selection": "moltype Protein_chain_D and name CA",
+          "uniprot": "O43353",
+          "model_sequence": "SALPTIPYHKLADLRYLSRGASGTVSSARHADWRVQVAVKHLHIHTPLLDSERKDVLREAEILHKARFSYILPILGICNEPEFLGIVTEYMPNGSLNELLHRKTEYPDVAWPLRFRILHEIALGVNYLHNMTPPLLHHDLKTQNILLDNEFHVKIADFGTIIYMPPENYSIKHDIYSYAVITWEVLSRKQPFEDVTNPLQIMYSVSQGHRPVINEESLPYDIPHRARMISLIESGWAQNPDERPSFLKCLIELEPVLRTFEEITFLEAVIQLKKTKLQS"
+        }
+      },
+      "ligand_selection": "resname UNL",
+      "ligand_heavy_atoms": 79
+    },
+    {
+      "target_id": "RIPK2_full",
+      "pose_id": "pose005",
+      "tpr": {
+        "path": "/home/ayushregmibagale/protac-md/random_screen/RIPK2_full/pose005/prod/prod.tpr",
+        "sha256": "67b336a69a1fcb220963152ee2e33594c367f374dbfd98350314c89057857523"
+      },
+      "xtc": {
+        "path": "/home/ayushregmibagale/protac-md/analysis/random_screen/RIPK2_full/pose005/prod_nojump.xtc",
+        "sha256": "ef1af141ae5fbf2ca3b1bf4fb9872a173b25b5217718ff7ab62f90a5f54babb2"
+      },
+      "protein_roles": {
+        "elob": {
+          "selection": "moltype Protein_chain_A and name CA",
+          "uniprot": "Q15370",
+          "model_sequence": "MDVFLMIRRHKTTIFTDAKESSTVFELKRIVEGILKRPPDEQRLYKDDQLLDDGKTLGEGFTSQTARPQAPATVGLAFRADDTFEALIEPFSSPPELPDVM"
+        },
+        "vhl": {
+          "selection": "moltype Protein_chain_C and name CA",
+          "uniprot": "P40337",
+          "model_sequence": "VLRSVNSREPSQVIFNRSPRVVLPVWLNFDGEPQPYPTLPPGTGRRIHSYRGHLWLFRDAGTHDGLLVNQTELFVPSLNVDGQPIFANITLPVYTLKERCLQVVRSLVKPENYRRLDIVRSLYEDLEDHPNVQKDLERLT"
+        },
+        "poi": {
+          "selection": "moltype Protein_chain_D and name CA",
+          "uniprot": "O43353",
+          "model_sequence": "SALPTIPYHKLADLRYLSRGASGTVSSARHADWRVQVAVKHLHIHTPLLDSERKDVLREAEILHKARFSYILPILGICNEPEFLGIVTEYMPNGSLNELLHRKTEYPDVAWPLRFRILHEIALGVNYLHNMTPPLLHHDLKTQNILLDNEFHVKIADFGTIIYMPPENYSIKHDIYSYAVITWEVLSRKQPFEDVTNPLQIMYSVSQGHRPVINEESLPYDIPHRARMISLIESGWAQNPDERPSFLKCLIELEPVLRTFEEITFLEAVIQLKKTKLQS"
+        }
+      },
+      "ligand_selection": "resname UNL",
+      "ligand_heavy_atoms": 79
+    },
+    {
+      "target_id": "RIPK2_full",
+      "pose_id": "pose006",
+      "tpr": {
+        "path": "/home/ayushregmibagale/protac-md/random_screen/RIPK2_full/pose006/prod/prod.tpr",
+        "sha256": "2e2786c27fd17f7733a867d7995749fc1be4c62b71cfb4268ccf72c8f4fceda4"
+      },
+      "xtc": {
+        "path": "/home/ayushregmibagale/protac-md/analysis/random_screen/RIPK2_full/pose006/prod_nojump.xtc",
+        "sha256": "4fcc56c3857d54cc3feb521c8a77b1787f0fbe40335a08ff52ba9dc38f84ea4b"
+      },
+      "protein_roles": {
+        "elob": {
+          "selection": "moltype Protein_chain_A and name CA",
+          "uniprot": "Q15370",
+          "model_sequence": "MDVFLMIRRHKTTIFTDAKESSTVFELKRIVEGILKRPPDEQRLYKDDQLLDDGKTLGEGFTSQTARPQAPATVGLAFRADDTFEALIEPFSSPPELPDVM"
+        },
+        "vhl": {
+          "selection": "moltype Protein_chain_C and name CA",
+          "uniprot": "P40337",
+          "model_sequence": "VLRSVNSREPSQVIFNRSPRVVLPVWLNFDGEPQPYPTLPPGTGRRIHSYRGHLWLFRDAGTHDGLLVNQTELFVPSLNVDGQPIFANITLPVYTLKERCLQVVRSLVKPENYRRLDIVRSLYEDLEDHPNVQKDLERLT"
+        },
+        "poi": {
+          "selection": "moltype Protein_chain_D and name CA",
+          "uniprot": "O43353",
+          "model_sequence": "SALPTIPYHKLADLRYLSRGASGTVSSARHADWRVQVAVKHLHIHTPLLDSERKDVLREAEILHKARFSYILPILGICNEPEFLGIVTEYMPNGSLNELLHRKTEYPDVAWPLRFRILHEIALGVNYLHNMTPPLLHHDLKTQNILLDNEFHVKIADFGTIIYMPPENYSIKHDIYSYAVITWEVLSRKQPFEDVTNPLQIMYSVSQGHRPVINEESLPYDIPHRARMISLIESGWAQNPDERPSFLKCLIELEPVLRTFEEITFLEAVIQLKKTKLQS"
+        }
+      },
+      "ligand_selection": "resname UNL",
+      "ligand_heavy_atoms": 79
+    },
+    {
+      "target_id": "RIPK2_full",
+      "pose_id": "pose007",
+      "tpr": {
+        "path": "/home/ayushregmibagale/protac-md/random_screen/RIPK2_full/pose007/prod/prod.tpr",
+        "sha256": "2869ff438958f5197aefc1d2fa53cedfadc3d5c67400d10ac63e4a14cf4d74a9"
+      },
+      "xtc": {
+        "path": "/home/ayushregmibagale/protac-md/analysis/random_screen/RIPK2_full/pose007/prod_nojump.xtc",
+        "sha256": "975f87f01e4132b89b9fcb69b8f14ee0f879d6633e53c8055a83dd915fae301f"
+      },
+      "protein_roles": {
+        "elob": {
+          "selection": "moltype Protein_chain_A and name CA",
+          "uniprot": "Q15370",
+          "model_sequence": "MDVFLMIRRHKTTIFTDAKESSTVFELKRIVEGILKRPPDEQRLYKDDQLLDDGKTLGEGFTSQTARPQAPATVGLAFRADDTFEALIEPFSSPPELPDVM"
+        },
+        "vhl": {
+          "selection": "moltype Protein_chain_C and name CA",
+          "uniprot": "P40337",
+          "model_sequence": "VLRSVNSREPSQVIFNRSPRVVLPVWLNFDGEPQPYPTLPPGTGRRIHSYRGHLWLFRDAGTHDGLLVNQTELFVPSLNVDGQPIFANITLPVYTLKERCLQVVRSLVKPENYRRLDIVRSLYEDLEDHPNVQKDLERLT"
+        },
+        "poi": {
+          "selection": "moltype Protein_chain_D and name CA",
+          "uniprot": "O43353",
+          "model_sequence": "SALPTIPYHKLADLRYLSRGASGTVSSARHADWRVQVAVKHLHIHTPLLDSERKDVLREAEILHKARFSYILPILGICNEPEFLGIVTEYMPNGSLNELLHRKTEYPDVAWPLRFRILHEIALGVNYLHNMTPPLLHHDLKTQNILLDNEFHVKIADFGTIIYMPPENYSIKHDIYSYAVITWEVLSRKQPFEDVTNPLQIMYSVSQGHRPVINEESLPYDIPHRARMISLIESGWAQNPDERPSFLKCLIELEPVLRTFEEITFLEAVIQLKKTKLQS"
+        }
+      },
+      "ligand_selection": "resname UNL",
+      "ligand_heavy_atoms": 79
+    },
+    {
+      "target_id": "RIPK2_full",
+      "pose_id": "pose008",
+      "tpr": {
+        "path": "/home/ayushregmibagale/protac-md/random_screen/RIPK2_full/pose008/prod/prod.tpr",
+        "sha256": "ea1181f072eab2a7304965f5924e443b3fe2faed7ae9c9a3064246f55bb078ac"
+      },
+      "xtc": {
+        "path": "/home/ayushregmibagale/protac-md/analysis/random_screen/RIPK2_full/pose008/prod_nojump.xtc",
+        "sha256": "cc0271cdf0d569f4fd74d1ccbe122535875dc6d7721807094d5a17928de270fa"
+      },
+      "protein_roles": {
+        "elob": {
+          "selection": "moltype Protein_chain_A and name CA",
+          "uniprot": "Q15370",
+          "model_sequence": "MDVFLMIRRHKTTIFTDAKESSTVFELKRIVEGILKRPPDEQRLYKDDQLLDDGKTLGEGFTSQTARPQAPATVGLAFRADDTFEALIEPFSSPPELPDVM"
+        },
+        "vhl": {
+          "selection": "moltype Protein_chain_C and name CA",
+          "uniprot": "P40337",
+          "model_sequence": "VLRSVNSREPSQVIFNRSPRVVLPVWLNFDGEPQPYPTLPPGTGRRIHSYRGHLWLFRDAGTHDGLLVNQTELFVPSLNVDGQPIFANITLPVYTLKERCLQVVRSLVKPENYRRLDIVRSLYEDLEDHPNVQKDLERLT"
+        },
+        "poi": {
+          "selection": "moltype Protein_chain_D and name CA",
+          "uniprot": "O43353",
+          "model_sequence": "SALPTIPYHKLADLRYLSRGASGTVSSARHADWRVQVAVKHLHIHTPLLDSERKDVLREAEILHKARFSYILPILGICNEPEFLGIVTEYMPNGSLNELLHRKTEYPDVAWPLRFRILHEIALGVNYLHNMTPPLLHHDLKTQNILLDNEFHVKIADFGTIIYMPPENYSIKHDIYSYAVITWEVLSRKQPFEDVTNPLQIMYSVSQGHRPVINEESLPYDIPHRARMISLIESGWAQNPDERPSFLKCLIELEPVLRTFEEITFLEAVIQLKKTKLQS"
+        }
+      },
+      "ligand_selection": "resname UNL",
+      "ligand_heavy_atoms": 79
+    },
+    {
+      "target_id": "RIPK2_full",
+      "pose_id": "pose009",
+      "tpr": {
+        "path": "/home/ayushregmibagale/protac-md/random_screen/RIPK2_full/pose009/prod/prod.tpr",
+        "sha256": "b579a0947f7964c9d3df8e16e93e54c28307369bcf4421d1ed9d14bbeb5a6a9e"
+      },
+      "xtc": {
+        "path": "/home/ayushregmibagale/protac-md/analysis/random_screen/RIPK2_full/pose009/prod_nojump.xtc",
+        "sha256": "3b818fd08ff585071babe308fef98692d76d86b2d36f88f2a332dca00fae1732"
+      },
+      "protein_roles": {
+        "elob": {
+          "selection": "moltype Protein_chain_A and name CA",
+          "uniprot": "Q15370",
+          "model_sequence": "MDVFLMIRRHKTTIFTDAKESSTVFELKRIVEGILKRPPDEQRLYKDDQLLDDGKTLGEGFTSQTARPQAPATVGLAFRADDTFEALIEPFSSPPELPDVM"
+        },
+        "vhl": {
+          "selection": "moltype Protein_chain_C and name CA",
+          "uniprot": "P40337",
+          "model_sequence": "VLRSVNSREPSQVIFNRSPRVVLPVWLNFDGEPQPYPTLPPGTGRRIHSYRGHLWLFRDAGTHDGLLVNQTELFVPSLNVDGQPIFANITLPVYTLKERCLQVVRSLVKPENYRRLDIVRSLYEDLEDHPNVQKDLERLT"
+        },
+        "poi": {
+          "selection": "moltype Protein_chain_D and name CA",
+          "uniprot": "O43353",
+          "model_sequence": "SALPTIPYHKLADLRYLSRGASGTVSSARHADWRVQVAVKHLHIHTPLLDSERKDVLREAEILHKARFSYILPILGICNEPEFLGIVTEYMPNGSLNELLHRKTEYPDVAWPLRFRILHEIALGVNYLHNMTPPLLHHDLKTQNILLDNEFHVKIADFGTIIYMPPENYSIKHDIYSYAVITWEVLSRKQPFEDVTNPLQIMYSVSQGHRPVINEESLPYDIPHRARMISLIESGWAQNPDERPSFLKCLIELEPVLRTFEEITFLEAVIQLKKTKLQS"
+        }
+      },
+      "ligand_selection": "resname UNL",
+      "ligand_heavy_atoms": 79
+    },
+    {
+      "target_id": "RIPK2_full",
+      "pose_id": "pose010",
+      "tpr": {
+        "path": "/home/ayushregmibagale/protac-md/random_screen/RIPK2_full/pose010/prod/prod.tpr",
+        "sha256": "07a1c1f49b3fdb16eaf245a0cc784c8461a1954cde7595eeb74dd4e935032789"
+      },
+      "xtc": {
+        "path": "/home/ayushregmibagale/protac-md/analysis/random_screen/RIPK2_full/pose010/prod_nojump.xtc",
+        "sha256": "387c161067c36fce4e09e3c622abda7a5cb27bc2b99cfb5163ed7f7263834b27"
+      },
+      "protein_roles": {
+        "elob": {
+          "selection": "moltype Protein_chain_A and name CA",
+          "uniprot": "Q15370",
+          "model_sequence": "MDVFLMIRRHKTTIFTDAKESSTVFELKRIVEGILKRPPDEQRLYKDDQLLDDGKTLGEGFTSQTARPQAPATVGLAFRADDTFEALIEPFSSPPELPDVM"
+        },
+        "vhl": {
+          "selection": "moltype Protein_chain_C and name CA",
+          "uniprot": "P40337",
+          "model_sequence": "VLRSVNSREPSQVIFNRSPRVVLPVWLNFDGEPQPYPTLPPGTGRRIHSYRGHLWLFRDAGTHDGLLVNQTELFVPSLNVDGQPIFANITLPVYTLKERCLQVVRSLVKPENYRRLDIVRSLYEDLEDHPNVQKDLERLT"
+        },
+        "poi": {
+          "selection": "moltype Protein_chain_D and name CA",
+          "uniprot": "O43353",
+          "model_sequence": "SALPTIPYHKLADLRYLSRGASGTVSSARHADWRVQVAVKHLHIHTPLLDSERKDVLREAEILHKARFSYILPILGICNEPEFLGIVTEYMPNGSLNELLHRKTEYPDVAWPLRFRILHEIALGVNYLHNMTPPLLHHDLKTQNILLDNEFHVKIADFGTIIYMPPENYSIKHDIYSYAVITWEVLSRKQPFEDVTNPLQIMYSVSQGHRPVINEESLPYDIPHRARMISLIESGWAQNPDERPSFLKCLIELEPVLRTFEEITFLEAVIQLKKTKLQS"
+        }
+      },
+      "ligand_selection": "resname UNL",
+      "ligand_heavy_atoms": 79
+    },
+    {
+      "target_id": "RIPK2_full",
+      "pose_id": "pose011",
+      "tpr": {
+        "path": "/home/ayushregmibagale/protac-md/random_screen/RIPK2_full/pose011/prod/prod.tpr",
+        "sha256": "48db67d4111c036297c91a8fb5328877f6cbd40d1d1eddd91f011446666ca2a9"
+      },
+      "xtc": {
+        "path": "/home/ayushregmibagale/protac-md/analysis/random_screen/RIPK2_full/pose011/prod_nojump.xtc",
+        "sha256": "e251b049f9e9db64285f3f17d0cdc4e5d81da8c166c09c1c67817a6f71f9c31a"
+      },
+      "protein_roles": {
+        "elob": {
+          "selection": "moltype Protein_chain_A and name CA",
+          "uniprot": "Q15370",
+          "model_sequence": "MDVFLMIRRHKTTIFTDAKESSTVFELKRIVEGILKRPPDEQRLYKDDQLLDDGKTLGEGFTSQTARPQAPATVGLAFRADDTFEALIEPFSSPPELPDVM"
+        },
+        "vhl": {
+          "selection": "moltype Protein_chain_C and name CA",
+          "uniprot": "P40337",
+          "model_sequence": "VLRSVNSREPSQVIFNRSPRVVLPVWLNFDGEPQPYPTLPPGTGRRIHSYRGHLWLFRDAGTHDGLLVNQTELFVPSLNVDGQPIFANITLPVYTLKERCLQVVRSLVKPENYRRLDIVRSLYEDLEDHPNVQKDLERLT"
+        },
+        "poi": {
+          "selection": "moltype Protein_chain_D and name CA",
+          "uniprot": "O43353",
+          "model_sequence": "SALPTIPYHKLADLRYLSRGASGTVSSARHADWRVQVAVKHLHIHTPLLDSERKDVLREAEILHKARFSYILPILGICNEPEFLGIVTEYMPNGSLNELLHRKTEYPDVAWPLRFRILHEIALGVNYLHNMTPPLLHHDLKTQNILLDNEFHVKIADFGTIIYMPPENYSIKHDIYSYAVITWEVLSRKQPFEDVTNPLQIMYSVSQGHRPVINEESLPYDIPHRARMISLIESGWAQNPDERPSFLKCLIELEPVLRTFEEITFLEAVIQLKKTKLQS"
+        }
+      },
+      "ligand_selection": "resname UNL",
+      "ligand_heavy_atoms": 79
+    },
+    {
+      "target_id": "RIPK2_full",
+      "pose_id": "pose012",
+      "tpr": {
+        "path": "/home/ayushregmibagale/protac-md/random_screen/RIPK2_full/pose012/prod/prod.tpr",
+        "sha256": "26794a37de7860487866849f8f6ea5e1ea94ec11136d18f98ceba847dcb78f5e"
+      },
+      "xtc": {
+        "path": "/home/ayushregmibagale/protac-md/analysis/random_screen/RIPK2_full/pose012/prod_nojump.xtc",
+        "sha256": "694e76ed2d799b0f6d28c92a342b538127b92695ae3b33dba64dc3407d0a5b81"
+      },
+      "protein_roles": {
+        "elob": {
+          "selection": "moltype Protein_chain_A and name CA",
+          "uniprot": "Q15370",
+          "model_sequence": "MDVFLMIRRHKTTIFTDAKESSTVFELKRIVEGILKRPPDEQRLYKDDQLLDDGKTLGEGFTSQTARPQAPATVGLAFRADDTFEALIEPFSSPPELPDVM"
+        },
+        "vhl": {
+          "selection": "moltype Protein_chain_C and name CA",
+          "uniprot": "P40337",
+          "model_sequence": "VLRSVNSREPSQVIFNRSPRVVLPVWLNFDGEPQPYPTLPPGTGRRIHSYRGHLWLFRDAGTHDGLLVNQTELFVPSLNVDGQPIFANITLPVYTLKERCLQVVRSLVKPENYRRLDIVRSLYEDLEDHPNVQKDLERLT"
+        },
+        "poi": {
+          "selection": "moltype Protein_chain_D and name CA",
+          "uniprot": "O43353",
+          "model_sequence": "SALPTIPYHKLADLRYLSRGASGTVSSARHADWRVQVAVKHLHIHTPLLDSERKDVLREAEILHKARFSYILPILGICNEPEFLGIVTEYMPNGSLNELLHRKTEYPDVAWPLRFRILHEIALGVNYLHNMTPPLLHHDLKTQNILLDNEFHVKIADFGTIIYMPPENYSIKHDIYSYAVITWEVLSRKQPFEDVTNPLQIMYSVSQGHRPVINEESLPYDIPHRARMISLIESGWAQNPDERPSFLKCLIELEPVLRTFEEITFLEAVIQLKKTKLQS"
+        }
+      },
+      "ligand_selection": "resname UNL",
+      "ligand_heavy_atoms": 79
+    },
+    {
+      "target_id": "RIPK2_full",
+      "pose_id": "pose015",
+      "tpr": {
+        "path": "/home/ayushregmibagale/protac-md/random_screen/RIPK2_full/pose015/prod/prod.tpr",
+        "sha256": "fbec2b61f4ce1e6c4bc36a7576dc9d1e0d430bd49ba81781617696392811001d"
+      },
+      "xtc": {
+        "path": "/home/ayushregmibagale/protac-md/analysis/random_screen/RIPK2_full/pose015/prod_nojump.xtc",
+        "sha256": "6683c8422748b87edd2ad79f69846e78c66aae1a6e6e2b07fb638be1c0670cb2"
+      },
+      "protein_roles": {
+        "elob": {
+          "selection": "moltype Protein_chain_A and name CA",
+          "uniprot": "Q15370",
+          "model_sequence": "MDVFLMIRRHKTTIFTDAKESSTVFELKRIVEGILKRPPDEQRLYKDDQLLDDGKTLGEGFTSQTARPQAPATVGLAFRADDTFEALIEPFSSPPELPDVM"
+        },
+        "vhl": {
+          "selection": "moltype Protein_chain_C and name CA",
+          "uniprot": "P40337",
+          "model_sequence": "VLRSVNSREPSQVIFNRSPRVVLPVWLNFDGEPQPYPTLPPGTGRRIHSYRGHLWLFRDAGTHDGLLVNQTELFVPSLNVDGQPIFANITLPVYTLKERCLQVVRSLVKPENYRRLDIVRSLYEDLEDHPNVQKDLERLT"
+        },
+        "poi": {
+          "selection": "moltype Protein_chain_D and name CA",
+          "uniprot": "O43353",
+          "model_sequence": "SALPTIPYHKLADLRYLSRGASGTVSSARHADWRVQVAVKHLHIHTPLLDSERKDVLREAEILHKARFSYILPILGICNEPEFLGIVTEYMPNGSLNELLHRKTEYPDVAWPLRFRILHEIALGVNYLHNMTPPLLHHDLKTQNILLDNEFHVKIADFGTIIYMPPENYSIKHDIYSYAVITWEVLSRKQPFEDVTNPLQIMYSVSQGHRPVINEESLPYDIPHRARMISLIESGWAQNPDERPSFLKCLIELEPVLRTFEEITFLEAVIQLKKTKLQS"
+        }
+      },
+      "ligand_selection": "resname UNL",
+      "ligand_heavy_atoms": 79
+    },
+    {
+      "target_id": "RIPK2_full",
+      "pose_id": "pose016",
+      "tpr": {
+        "path": "/home/ayushregmibagale/protac-md/random_screen/RIPK2_full/pose016/prod/prod.tpr",
+        "sha256": "8ac0e03c115fe0aa94c19d5fa661799eab548ad31255fcbf7b3a02c601ffa97a"
+      },
+      "xtc": {
+        "path": "/home/ayushregmibagale/protac-md/analysis/random_screen/RIPK2_full/pose016/prod_nojump.xtc",
+        "sha256": "645544d633caecde1a77648bc7b9aa6c96e44a1cc6f0e4571b07c87fc84b0bc9"
+      },
+      "protein_roles": {
+        "elob": {
+          "selection": "moltype Protein_chain_A and name CA",
+          "uniprot": "Q15370",
+          "model_sequence": "MDVFLMIRRHKTTIFTDAKESSTVFELKRIVEGILKRPPDEQRLYKDDQLLDDGKTLGEGFTSQTARPQAPATVGLAFRADDTFEALIEPFSSPPELPDVM"
+        },
+        "vhl": {
+          "selection": "moltype Protein_chain_C and name CA",
+          "uniprot": "P40337",
+          "model_sequence": "VLRSVNSREPSQVIFNRSPRVVLPVWLNFDGEPQPYPTLPPGTGRRIHSYRGHLWLFRDAGTHDGLLVNQTELFVPSLNVDGQPIFANITLPVYTLKERCLQVVRSLVKPENYRRLDIVRSLYEDLEDHPNVQKDLERLT"
+        },
+        "poi": {
+          "selection": "moltype Protein_chain_D and name CA",
+          "uniprot": "O43353",
+          "model_sequence": "SALPTIPYHKLADLRYLSRGASGTVSSARHADWRVQVAVKHLHIHTPLLDSERKDVLREAEILHKARFSYILPILGICNEPEFLGIVTEYMPNGSLNELLHRKTEYPDVAWPLRFRILHEIALGVNYLHNMTPPLLHHDLKTQNILLDNEFHVKIADFGTIIYMPPENYSIKHDIYSYAVITWEVLSRKQPFEDVTNPLQIMYSVSQGHRPVINEESLPYDIPHRARMISLIESGWAQNPDERPSFLKCLIELEPVLRTFEEITFLEAVIQLKKTKLQS"
+        }
+      },
+      "ligand_selection": "resname UNL",
+      "ligand_heavy_atoms": 79
+    },
+    {
+      "target_id": "RIPK2_full",
+      "pose_id": "pose017",
+      "tpr": {
+        "path": "/home/ayushregmibagale/protac-md/random_screen/RIPK2_full/pose017/prod/prod.tpr",
+        "sha256": "e84dd61ddd0972cd5f6aff3104e12e339d04d2876c25752c33222a2249605906"
+      },
+      "xtc": {
+        "path": "/home/ayushregmibagale/protac-md/analysis/random_screen/RIPK2_full/pose017/prod_nojump.xtc",
+        "sha256": "70fa936b379bac9eaaf5fb1dd05e033543338324e30945860e270b78c2388a3c"
+      },
+      "protein_roles": {
+        "elob": {
+          "selection": "moltype Protein_chain_A and name CA",
+          "uniprot": "Q15370",
+          "model_sequence": "MDVFLMIRRHKTTIFTDAKESSTVFELKRIVEGILKRPPDEQRLYKDDQLLDDGKTLGEGFTSQTARPQAPATVGLAFRADDTFEALIEPFSSPPELPDVM"
+        },
+        "vhl": {
+          "selection": "moltype Protein_chain_C and name CA",
+          "uniprot": "P40337",
+          "model_sequence": "VLRSVNSREPSQVIFNRSPRVVLPVWLNFDGEPQPYPTLPPGTGRRIHSYRGHLWLFRDAGTHDGLLVNQTELFVPSLNVDGQPIFANITLPVYTLKERCLQVVRSLVKPENYRRLDIVRSLYEDLEDHPNVQKDLERLT"
+        },
+        "poi": {
+          "selection": "moltype Protein_chain_D and name CA",
+          "uniprot": "O43353",
+          "model_sequence": "SALPTIPYHKLADLRYLSRGASGTVSSARHADWRVQVAVKHLHIHTPLLDSERKDVLREAEILHKARFSYILPILGICNEPEFLGIVTEYMPNGSLNELLHRKTEYPDVAWPLRFRILHEIALGVNYLHNMTPPLLHHDLKTQNILLDNEFHVKIADFGTIIYMPPENYSIKHDIYSYAVITWEVLSRKQPFEDVTNPLQIMYSVSQGHRPVINEESLPYDIPHRARMISLIESGWAQNPDERPSFLKCLIELEPVLRTFEEITFLEAVIQLKKTKLQS"
+        }
+      },
+      "ligand_selection": "resname UNL",
+      "ligand_heavy_atoms": 79
+    },
+    {
+      "target_id": "RIPK2_full",
+      "pose_id": "pose018",
+      "tpr": {
+        "path": "/home/ayushregmibagale/protac-md/random_screen/RIPK2_full/pose018/prod/prod.tpr",
+        "sha256": "26f729dc120e1e93b8d85ca60b5b1114f5b7c4daa72af12a3d988a855a3af6fa"
+      },
+      "xtc": {
+        "path": "/home/ayushregmibagale/protac-md/analysis/random_screen/RIPK2_full/pose018/prod_nojump.xtc",
+        "sha256": "c568581d21fd8e587da4387e8bdeef45e371758530dfc551261566f4954b9070"
+      },
+      "protein_roles": {
+        "elob": {
+          "selection": "moltype Protein_chain_A and name CA",
+          "uniprot": "Q15370",
+          "model_sequence": "MDVFLMIRRHKTTIFTDAKESSTVFELKRIVEGILKRPPDEQRLYKDDQLLDDGKTLGEGFTSQTARPQAPATVGLAFRADDTFEALIEPFSSPPELPDVM"
+        },
+        "vhl": {
+          "selection": "moltype Protein_chain_C and name CA",
+          "uniprot": "P40337",
+          "model_sequence": "VLRSVNSREPSQVIFNRSPRVVLPVWLNFDGEPQPYPTLPPGTGRRIHSYRGHLWLFRDAGTHDGLLVNQTELFVPSLNVDGQPIFANITLPVYTLKERCLQVVRSLVKPENYRRLDIVRSLYEDLEDHPNVQKDLERLT"
+        },
+        "poi": {
+          "selection": "moltype Protein_chain_D and name CA",
+          "uniprot": "O43353",
+          "model_sequence": "SALPTIPYHKLADLRYLSRGASGTVSSARHADWRVQVAVKHLHIHTPLLDSERKDVLREAEILHKARFSYILPILGICNEPEFLGIVTEYMPNGSLNELLHRKTEYPDVAWPLRFRILHEIALGVNYLHNMTPPLLHHDLKTQNILLDNEFHVKIADFGTIIYMPPENYSIKHDIYSYAVITWEVLSRKQPFEDVTNPLQIMYSVSQGHRPVINEESLPYDIPHRARMISLIESGWAQNPDERPSFLKCLIELEPVLRTFEEITFLEAVIQLKKTKLQS"
+        }
+      },
+      "ligand_selection": "resname UNL",
+      "ligand_heavy_atoms": 79
+    },
+    {
+      "target_id": "RIPK2_full",
+      "pose_id": "pose019",
+      "tpr": {
+        "path": "/home/ayushregmibagale/protac-md/random_screen/RIPK2_full/pose019/prod/prod.tpr",
+        "sha256": "a5925ef5f51ec1b3c82e526749db2276b59e6a066339b56d1eaef9482c1f10f6"
+      },
+      "xtc": {
+        "path": "/home/ayushregmibagale/protac-md/analysis/random_screen/RIPK2_full/pose019/prod_nojump.xtc",
+        "sha256": "fe0423012dfafcbab85696b3306fb9faa2f4055e1db62c7ed59cac1b0323edd3"
+      },
+      "protein_roles": {
+        "elob": {
+          "selection": "moltype Protein_chain_A and name CA",
+          "uniprot": "Q15370",
+          "model_sequence": "MDVFLMIRRHKTTIFTDAKESSTVFELKRIVEGILKRPPDEQRLYKDDQLLDDGKTLGEGFTSQTARPQAPATVGLAFRADDTFEALIEPFSSPPELPDVM"
+        },
+        "vhl": {
+          "selection": "moltype Protein_chain_C and name CA",
+          "uniprot": "P40337",
+          "model_sequence": "VLRSVNSREPSQVIFNRSPRVVLPVWLNFDGEPQPYPTLPPGTGRRIHSYRGHLWLFRDAGTHDGLLVNQTELFVPSLNVDGQPIFANITLPVYTLKERCLQVVRSLVKPENYRRLDIVRSLYEDLEDHPNVQKDLERLT"
+        },
+        "poi": {
+          "selection": "moltype Protein_chain_D and name CA",
+          "uniprot": "O43353",
+          "model_sequence": "SALPTIPYHKLADLRYLSRGASGTVSSARHADWRVQVAVKHLHIHTPLLDSERKDVLREAEILHKARFSYILPILGICNEPEFLGIVTEYMPNGSLNELLHRKTEYPDVAWPLRFRILHEIALGVNYLHNMTPPLLHHDLKTQNILLDNEFHVKIADFGTIIYMPPENYSIKHDIYSYAVITWEVLSRKQPFEDVTNPLQIMYSVSQGHRPVINEESLPYDIPHRARMISLIESGWAQNPDERPSFLKCLIELEPVLRTFEEITFLEAVIQLKKTKLQS"
+        }
+      },
+      "ligand_selection": "resname UNL",
+      "ligand_heavy_atoms": 79
+    },
+    {
+      "target_id": "RIPK2_full",
+      "pose_id": "pose020",
+      "tpr": {
+        "path": "/home/ayushregmibagale/protac-md/random_screen/RIPK2_full/pose020/prod/prod.tpr",
+        "sha256": "1dbec3ba34d897b64b28323d8944ae5a19cfb4da95e662af4dd4171aa1ca6763"
+      },
+      "xtc": {
+        "path": "/home/ayushregmibagale/protac-md/analysis/random_screen/RIPK2_full/pose020/prod_nojump.xtc",
+        "sha256": "695724b7bfa63b8c0f3acae08a936c0a81661033db814373011d5f585b8e08f4"
+      },
+      "protein_roles": {
+        "elob": {
+          "selection": "moltype Protein_chain_A and name CA",
+          "uniprot": "Q15370",
+          "model_sequence": "MDVFLMIRRHKTTIFTDAKESSTVFELKRIVEGILKRPPDEQRLYKDDQLLDDGKTLGEGFTSQTARPQAPATVGLAFRADDTFEALIEPFSSPPELPDVM"
+        },
+        "vhl": {
+          "selection": "moltype Protein_chain_C and name CA",
+          "uniprot": "P40337",
+          "model_sequence": "VLRSVNSREPSQVIFNRSPRVVLPVWLNFDGEPQPYPTLPPGTGRRIHSYRGHLWLFRDAGTHDGLLVNQTELFVPSLNVDGQPIFANITLPVYTLKERCLQVVRSLVKPENYRRLDIVRSLYEDLEDHPNVQKDLERLT"
+        },
+        "poi": {
+          "selection": "moltype Protein_chain_D and name CA",
+          "uniprot": "O43353",
+          "model_sequence": "SALPTIPYHKLADLRYLSRGASGTVSSARHADWRVQVAVKHLHIHTPLLDSERKDVLREAEILHKARFSYILPILGICNEPEFLGIVTEYMPNGSLNELLHRKTEYPDVAWPLRFRILHEIALGVNYLHNMTPPLLHHDLKTQNILLDNEFHVKIADFGTIIYMPPENYSIKHDIYSYAVITWEVLSRKQPFEDVTNPLQIMYSVSQGHRPVINEESLPYDIPHRARMISLIESGWAQNPDERPSFLKCLIELEPVLRTFEEITFLEAVIQLKKTKLQS"
+        }
+      },
+      "ligand_selection": "resname UNL",
+      "ligand_heavy_atoms": 79
+    },
+    {
+      "target_id": "MAPK14_full",
+      "pose_id": "pose001",
+      "tpr": {
+        "path": "/home/ayushregmibagale/protac-md/random_screen/MAPK14_full/pose001/prod/prod.tpr",
+        "sha256": "6a9bd9a4bdc140d440ee698bad9c682fcacc90bbca753db44ec868535d8dff21"
+      },
+      "xtc": {
+        "path": "/home/ayushregmibagale/protac-md/analysis/random_screen/MAPK14_full/pose001/prod_nojump.xtc",
+        "sha256": "95fee4e0deebba5ddbc4d1872dbfd67e7ed2db4ee81eb422bddfaeb4397207d3"
+      },
+      "protein_roles": {
+        "elob": {
+          "selection": "moltype Protein_chain_A and name CA",
+          "uniprot": "Q15370",
+          "model_sequence": "MDVFLMIRRHKTTIFTDAKESSTVFELKRIVEGILKRPPDEQRLYKDDQLLDDGKTLGEGFTSQTARPQAPATVGLAFRADDTFEALIEPFSSPPELPDVM"
+        },
+        "vhl": {
+          "selection": "moltype Protein_chain_C and name CA",
+          "uniprot": "P40337",
+          "model_sequence": "VLRSVNSREPSQVIFNRSPRVVLPVWLNFDGEPQPYPTLPPGTGRRIHSYRGHLWLFRDAGTHDGLLVNQTELFVPSLNVDGQPIFANITLPVYTLKERCLQVVRSLVKPENYRRLDIVRSLYEDLEDHPNVQKDLERLT"
+        },
+        "poi": {
+          "selection": "moltype Protein_chain_D and name CA",
+          "uniprot": "Q16539",
+          "model_sequence": "ERPTFYRQELNKTIWEVPERYQNLSPVGSGAYGSVCAAFDTKTGLRVAVKKLSRPFQSIIHAKRTYRELRLLKHMKHENVIGLLDVFTPARSLEEFNDVYLVTHLMGADLNNIVKSQKLTDDHVQFLIYQILRGLKYIHSADIIHRDLKPSNLAVNEDSELKILDFGLCTRWYRAPEIMLNWMHYNQTVDIWSVGCIMAELLTGRTLFPGTDHIDQLKLILRLVGTPGAELLKKISSESARNYIQSLTQMPKMNFANVFIGANPLAVDLLEKMLVLDSDKRITAAQALAHAYFAQYHDPDDEPVADPYDQSLESRDLLIDEWKSLTYDEVISFVPPP"
+        }
+      },
+      "ligand_selection": "resname UNL",
+      "ligand_heavy_atoms": 79
+    },
+    {
+      "target_id": "MAPK14_full",
+      "pose_id": "pose002",
+      "tpr": {
+        "path": "/home/ayushregmibagale/protac-md/random_screen/MAPK14_full/pose002/prod/prod.tpr",
+        "sha256": "a37615b2d14841458810ce1379ed09b7546ff4ac009d90dd00a1f2029b36ee93"
+      },
+      "xtc": {
+        "path": "/home/ayushregmibagale/protac-md/analysis/random_screen/MAPK14_full/pose002/prod_nojump.xtc",
+        "sha256": "39ce663aabf35d52c720c81912c3f6bdbae0afab2a17c48a8e6b4cba6b83167e"
+      },
+      "protein_roles": {
+        "elob": {
+          "selection": "moltype Protein_chain_A and name CA",
+          "uniprot": "Q15370",
+          "model_sequence": "MDVFLMIRRHKTTIFTDAKESSTVFELKRIVEGILKRPPDEQRLYKDDQLLDDGKTLGEGFTSQTARPQAPATVGLAFRADDTFEALIEPFSSPPELPDVM"
+        },
+        "vhl": {
+          "selection": "moltype Protein_chain_C and name CA",
+          "uniprot": "P40337",
+          "model_sequence": "VLRSVNSREPSQVIFNRSPRVVLPVWLNFDGEPQPYPTLPPGTGRRIHSYRGHLWLFRDAGTHDGLLVNQTELFVPSLNVDGQPIFANITLPVYTLKERCLQVVRSLVKPENYRRLDIVRSLYEDLEDHPNVQKDLERLT"
+        },
+        "poi": {
+          "selection": "moltype Protein_chain_D and name CA",
+          "uniprot": "Q16539",
+          "model_sequence": "ERPTFYRQELNKTIWEVPERYQNLSPVGSGAYGSVCAAFDTKTGLRVAVKKLSRPFQSIIHAKRTYRELRLLKHMKHENVIGLLDVFTPARSLEEFNDVYLVTHLMGADLNNIVKSQKLTDDHVQFLIYQILRGLKYIHSADIIHRDLKPSNLAVNEDSELKILDFGLCTRWYRAPEIMLNWMHYNQTVDIWSVGCIMAELLTGRTLFPGTDHIDQLKLILRLVGTPGAELLKKISSESARNYIQSLTQMPKMNFANVFIGANPLAVDLLEKMLVLDSDKRITAAQALAHAYFAQYHDPDDEPVADPYDQSLESRDLLIDEWKSLTYDEVISFVPPP"
+        }
+      },
+      "ligand_selection": "resname UNL",
+      "ligand_heavy_atoms": 79
+    },
+    {
+      "target_id": "MAPK14_full",
+      "pose_id": "pose003",
+      "tpr": {
+        "path": "/home/ayushregmibagale/protac-md/random_screen/MAPK14_full/pose003/prod/prod.tpr",
+        "sha256": "cb10b277b9e90a1a86ed4d6147c5aca319ac8d5a50abe8096c9f30d9c320482a"
+      },
+      "xtc": {
+        "path": "/home/ayushregmibagale/protac-md/analysis/random_screen/MAPK14_full/pose003/prod_nojump.xtc",
+        "sha256": "8c6e125fcb1269232aa74bcaa1ca4fb527cb2344b16eca99470ecd040997dfa1"
+      },
+      "protein_roles": {
+        "elob": {
+          "selection": "moltype Protein_chain_A and name CA",
+          "uniprot": "Q15370",
+          "model_sequence": "MDVFLMIRRHKTTIFTDAKESSTVFELKRIVEGILKRPPDEQRLYKDDQLLDDGKTLGEGFTSQTARPQAPATVGLAFRADDTFEALIEPFSSPPELPDVM"
+        },
+        "vhl": {
+          "selection": "moltype Protein_chain_C and name CA",
+          "uniprot": "P40337",
+          "model_sequence": "VLRSVNSREPSQVIFNRSPRVVLPVWLNFDGEPQPYPTLPPGTGRRIHSYRGHLWLFRDAGTHDGLLVNQTELFVPSLNVDGQPIFANITLPVYTLKERCLQVVRSLVKPENYRRLDIVRSLYEDLEDHPNVQKDLERLT"
+        },
+        "poi": {
+          "selection": "moltype Protein_chain_D and name CA",
+          "uniprot": "Q16539",
+          "model_sequence": "ERPTFYRQELNKTIWEVPERYQNLSPVGSGAYGSVCAAFDTKTGLRVAVKKLSRPFQSIIHAKRTYRELRLLKHMKHENVIGLLDVFTPARSLEEFNDVYLVTHLMGADLNNIVKSQKLTDDHVQFLIYQILRGLKYIHSADIIHRDLKPSNLAVNEDSELKILDFGLCTRWYRAPEIMLNWMHYNQTVDIWSVGCIMAELLTGRTLFPGTDHIDQLKLILRLVGTPGAELLKKISSESARNYIQSLTQMPKMNFANVFIGANPLAVDLLEKMLVLDSDKRITAAQALAHAYFAQYHDPDDEPVADPYDQSLESRDLLIDEWKSLTYDEVISFVPPP"
+        }
+      },
+      "ligand_selection": "resname UNL",
+      "ligand_heavy_atoms": 79
+    },
+    {
+      "target_id": "MAPK14_full",
+      "pose_id": "pose004",
+      "tpr": {
+        "path": "/home/ayushregmibagale/protac-md/random_screen/MAPK14_full/pose004/prod/prod.tpr",
+        "sha256": "57be33a50afc253620b5e4587c3098c422a5677150835fa5b49e4414083526d2"
+      },
+      "xtc": {
+        "path": "/home/ayushregmibagale/protac-md/analysis/random_screen/MAPK14_full/pose004/prod_nojump.xtc",
+        "sha256": "eb9b0f26a3be9ceba98b830cbdcc145fd21838b45646fffe3d306224d01b8a7b"
+      },
+      "protein_roles": {
+        "elob": {
+          "selection": "moltype Protein_chain_A and name CA",
+          "uniprot": "Q15370",
+          "model_sequence": "MDVFLMIRRHKTTIFTDAKESSTVFELKRIVEGILKRPPDEQRLYKDDQLLDDGKTLGEGFTSQTARPQAPATVGLAFRADDTFEALIEPFSSPPELPDVM"
+        },
+        "vhl": {
+          "selection": "moltype Protein_chain_C and name CA",
+          "uniprot": "P40337",
+          "model_sequence": "VLRSVNSREPSQVIFNRSPRVVLPVWLNFDGEPQPYPTLPPGTGRRIHSYRGHLWLFRDAGTHDGLLVNQTELFVPSLNVDGQPIFANITLPVYTLKERCLQVVRSLVKPENYRRLDIVRSLYEDLEDHPNVQKDLERLT"
+        },
+        "poi": {
+          "selection": "moltype Protein_chain_D and name CA",
+          "uniprot": "Q16539",
+          "model_sequence": "ERPTFYRQELNKTIWEVPERYQNLSPVGSGAYGSVCAAFDTKTGLRVAVKKLSRPFQSIIHAKRTYRELRLLKHMKHENVIGLLDVFTPARSLEEFNDVYLVTHLMGADLNNIVKSQKLTDDHVQFLIYQILRGLKYIHSADIIHRDLKPSNLAVNEDSELKILDFGLCTRWYRAPEIMLNWMHYNQTVDIWSVGCIMAELLTGRTLFPGTDHIDQLKLILRLVGTPGAELLKKISSESARNYIQSLTQMPKMNFANVFIGANPLAVDLLEKMLVLDSDKRITAAQALAHAYFAQYHDPDDEPVADPYDQSLESRDLLIDEWKSLTYDEVISFVPPP"
+        }
+      },
+      "ligand_selection": "resname UNL",
+      "ligand_heavy_atoms": 79
+    },
+    {
+      "target_id": "MAPK14_full",
+      "pose_id": "pose005",
+      "tpr": {
+        "path": "/home/ayushregmibagale/protac-md/random_screen/MAPK14_full/pose005/prod/prod.tpr",
+        "sha256": "27717625ebddc01c0f85bb76789c78e968e42c68d9c88e0a99a590134b5d7b4f"
+      },
+      "xtc": {
+        "path": "/home/ayushregmibagale/protac-md/analysis/random_screen/MAPK14_full/pose005/prod_nojump.xtc",
+        "sha256": "8136f2f00a196427c758cec3677fda7d99088dce5f6cdbde701be8f03cad5c79"
+      },
+      "protein_roles": {
+        "elob": {
+          "selection": "moltype Protein_chain_A and name CA",
+          "uniprot": "Q15370",
+          "model_sequence": "MDVFLMIRRHKTTIFTDAKESSTVFELKRIVEGILKRPPDEQRLYKDDQLLDDGKTLGEGFTSQTARPQAPATVGLAFRADDTFEALIEPFSSPPELPDVM"
+        },
+        "vhl": {
+          "selection": "moltype Protein_chain_C and name CA",
+          "uniprot": "P40337",
+          "model_sequence": "VLRSVNSREPSQVIFNRSPRVVLPVWLNFDGEPQPYPTLPPGTGRRIHSYRGHLWLFRDAGTHDGLLVNQTELFVPSLNVDGQPIFANITLPVYTLKERCLQVVRSLVKPENYRRLDIVRSLYEDLEDHPNVQKDLERLT"
+        },
+        "poi": {
+          "selection": "moltype Protein_chain_D and name CA",
+          "uniprot": "Q16539",
+          "model_sequence": "ERPTFYRQELNKTIWEVPERYQNLSPVGSGAYGSVCAAFDTKTGLRVAVKKLSRPFQSIIHAKRTYRELRLLKHMKHENVIGLLDVFTPARSLEEFNDVYLVTHLMGADLNNIVKSQKLTDDHVQFLIYQILRGLKYIHSADIIHRDLKPSNLAVNEDSELKILDFGLCTRWYRAPEIMLNWMHYNQTVDIWSVGCIMAELLTGRTLFPGTDHIDQLKLILRLVGTPGAELLKKISSESARNYIQSLTQMPKMNFANVFIGANPLAVDLLEKMLVLDSDKRITAAQALAHAYFAQYHDPDDEPVADPYDQSLESRDLLIDEWKSLTYDEVISFVPPP"
+        }
+      },
+      "ligand_selection": "resname UNL",
+      "ligand_heavy_atoms": 79
+    },
+    {
+      "target_id": "MAPK14_full",
+      "pose_id": "pose006",
+      "tpr": {
+        "path": "/home/ayushregmibagale/protac-md/random_screen/MAPK14_full/pose006/prod/prod.tpr",
+        "sha256": "dcf49263c4012192aace5b17215c5cf08032780f9e04d47f03261b200a1b5377"
+      },
+      "xtc": {
+        "path": "/home/ayushregmibagale/protac-md/analysis/random_screen/MAPK14_full/pose006/prod_nojump.xtc",
+        "sha256": "6b76963736bdbdb227154026b7a11e73a42430bb9d839c155aaada1f49c77ff7"
+      },
+      "protein_roles": {
+        "elob": {
+          "selection": "moltype Protein_chain_A and name CA",
+          "uniprot": "Q15370",
+          "model_sequence": "MDVFLMIRRHKTTIFTDAKESSTVFELKRIVEGILKRPPDEQRLYKDDQLLDDGKTLGEGFTSQTARPQAPATVGLAFRADDTFEALIEPFSSPPELPDVM"
+        },
+        "vhl": {
+          "selection": "moltype Protein_chain_C and name CA",
+          "uniprot": "P40337",
+          "model_sequence": "VLRSVNSREPSQVIFNRSPRVVLPVWLNFDGEPQPYPTLPPGTGRRIHSYRGHLWLFRDAGTHDGLLVNQTELFVPSLNVDGQPIFANITLPVYTLKERCLQVVRSLVKPENYRRLDIVRSLYEDLEDHPNVQKDLERLT"
+        },
+        "poi": {
+          "selection": "moltype Protein_chain_D and name CA",
+          "uniprot": "Q16539",
+          "model_sequence": "ERPTFYRQELNKTIWEVPERYQNLSPVGSGAYGSVCAAFDTKTGLRVAVKKLSRPFQSIIHAKRTYRELRLLKHMKHENVIGLLDVFTPARSLEEFNDVYLVTHLMGADLNNIVKSQKLTDDHVQFLIYQILRGLKYIHSADIIHRDLKPSNLAVNEDSELKILDFGLCTRWYRAPEIMLNWMHYNQTVDIWSVGCIMAELLTGRTLFPGTDHIDQLKLILRLVGTPGAELLKKISSESARNYIQSLTQMPKMNFANVFIGANPLAVDLLEKMLVLDSDKRITAAQALAHAYFAQYHDPDDEPVADPYDQSLESRDLLIDEWKSLTYDEVISFVPPP"
+        }
+      },
+      "ligand_selection": "resname UNL",
+      "ligand_heavy_atoms": 79
+    },
+    {
+      "target_id": "MAPK14_full",
+      "pose_id": "pose007",
+      "tpr": {
+        "path": "/home/ayushregmibagale/protac-md/random_screen/MAPK14_full/pose007/prod/prod.tpr",
+        "sha256": "d79a1b2cbd3ec970b651094b066817191dc02358653d56f47a01dc0a4077b4d6"
+      },
+      "xtc": {
+        "path": "/home/ayushregmibagale/protac-md/analysis/random_screen/MAPK14_full/pose007/prod_nojump.xtc",
+        "sha256": "56b299530d29aa7edbb83e31b04fb4b88a6ea01f871cdb91b406a7f11f8514c3"
+      },
+      "protein_roles": {
+        "elob": {
+          "selection": "moltype Protein_chain_A and name CA",
+          "uniprot": "Q15370",
+          "model_sequence": "MDVFLMIRRHKTTIFTDAKESSTVFELKRIVEGILKRPPDEQRLYKDDQLLDDGKTLGEGFTSQTARPQAPATVGLAFRADDTFEALIEPFSSPPELPDVM"
+        },
+        "vhl": {
+          "selection": "moltype Protein_chain_C and name CA",
+          "uniprot": "P40337",
+          "model_sequence": "VLRSVNSREPSQVIFNRSPRVVLPVWLNFDGEPQPYPTLPPGTGRRIHSYRGHLWLFRDAGTHDGLLVNQTELFVPSLNVDGQPIFANITLPVYTLKERCLQVVRSLVKPENYRRLDIVRSLYEDLEDHPNVQKDLERLT"
+        },
+        "poi": {
+          "selection": "moltype Protein_chain_D and name CA",
+          "uniprot": "Q16539",
+          "model_sequence": "ERPTFYRQELNKTIWEVPERYQNLSPVGSGAYGSVCAAFDTKTGLRVAVKKLSRPFQSIIHAKRTYRELRLLKHMKHENVIGLLDVFTPARSLEEFNDVYLVTHLMGADLNNIVKSQKLTDDHVQFLIYQILRGLKYIHSADIIHRDLKPSNLAVNEDSELKILDFGLCTRWYRAPEIMLNWMHYNQTVDIWSVGCIMAELLTGRTLFPGTDHIDQLKLILRLVGTPGAELLKKISSESARNYIQSLTQMPKMNFANVFIGANPLAVDLLEKMLVLDSDKRITAAQALAHAYFAQYHDPDDEPVADPYDQSLESRDLLIDEWKSLTYDEVISFVPPP"
+        }
+      },
+      "ligand_selection": "resname UNL",
+      "ligand_heavy_atoms": 79
+    },
+    {
+      "target_id": "MAPK14_full",
+      "pose_id": "pose008",
+      "tpr": {
+        "path": "/home/ayushregmibagale/protac-md/random_screen/MAPK14_full/pose008/prod/prod.tpr",
+        "sha256": "c89d2dde376f1de3dbeae03af2eea35d67e7fb24667938a2f96203e3444b6b55"
+      },
+      "xtc": {
+        "path": "/home/ayushregmibagale/protac-md/analysis/random_screen/MAPK14_full/pose008/prod_nojump.xtc",
+        "sha256": "6743372c0e7fb33fcd3bb1529388bd6bdc377158ad3b9c0fb6525bf6fffaeac2"
+      },
+      "protein_roles": {
+        "elob": {
+          "selection": "moltype Protein_chain_A and name CA",
+          "uniprot": "Q15370",
+          "model_sequence": "MDVFLMIRRHKTTIFTDAKESSTVFELKRIVEGILKRPPDEQRLYKDDQLLDDGKTLGEGFTSQTARPQAPATVGLAFRADDTFEALIEPFSSPPELPDVM"
+        },
+        "vhl": {
+          "selection": "moltype Protein_chain_C and name CA",
+          "uniprot": "P40337",
+          "model_sequence": "VLRSVNSREPSQVIFNRSPRVVLPVWLNFDGEPQPYPTLPPGTGRRIHSYRGHLWLFRDAGTHDGLLVNQTELFVPSLNVDGQPIFANITLPVYTLKERCLQVVRSLVKPENYRRLDIVRSLYEDLEDHPNVQKDLERLT"
+        },
+        "poi": {
+          "selection": "moltype Protein_chain_D and name CA",
+          "uniprot": "Q16539",
+          "model_sequence": "ERPTFYRQELNKTIWEVPERYQNLSPVGSGAYGSVCAAFDTKTGLRVAVKKLSRPFQSIIHAKRTYRELRLLKHMKHENVIGLLDVFTPARSLEEFNDVYLVTHLMGADLNNIVKSQKLTDDHVQFLIYQILRGLKYIHSADIIHRDLKPSNLAVNEDSELKILDFGLCTRWYRAPEIMLNWMHYNQTVDIWSVGCIMAELLTGRTLFPGTDHIDQLKLILRLVGTPGAELLKKISSESARNYIQSLTQMPKMNFANVFIGANPLAVDLLEKMLVLDSDKRITAAQALAHAYFAQYHDPDDEPVADPYDQSLESRDLLIDEWKSLTYDEVISFVPPP"
+        }
+      },
+      "ligand_selection": "resname UNL",
+      "ligand_heavy_atoms": 79
+    },
+    {
+      "target_id": "MAPK14_full",
+      "pose_id": "pose009",
+      "tpr": {
+        "path": "/home/ayushregmibagale/protac-md/random_screen/MAPK14_full/pose009/prod/prod.tpr",
+        "sha256": "5f742275abf36787a6e42d8bb7c7d706b994aa53d93dbaec0f9ce7b43a7f1052"
+      },
+      "xtc": {
+        "path": "/home/ayushregmibagale/protac-md/analysis/random_screen/MAPK14_full/pose009/prod_nojump.xtc",
+        "sha256": "0fd7a6dc5d8b60e503184d1cd9cfd8d6e404dbc8ca42e474b281ff652df44f9f"
+      },
+      "protein_roles": {
+        "elob": {
+          "selection": "moltype Protein_chain_A and name CA",
+          "uniprot": "Q15370",
+          "model_sequence": "MDVFLMIRRHKTTIFTDAKESSTVFELKRIVEGILKRPPDEQRLYKDDQLLDDGKTLGEGFTSQTARPQAPATVGLAFRADDTFEALIEPFSSPPELPDVM"
+        },
+        "vhl": {
+          "selection": "moltype Protein_chain_C and name CA",
+          "uniprot": "P40337",
+          "model_sequence": "VLRSVNSREPSQVIFNRSPRVVLPVWLNFDGEPQPYPTLPPGTGRRIHSYRGHLWLFRDAGTHDGLLVNQTELFVPSLNVDGQPIFANITLPVYTLKERCLQVVRSLVKPENYRRLDIVRSLYEDLEDHPNVQKDLERLT"
+        },
+        "poi": {
+          "selection": "moltype Protein_chain_D and name CA",
+          "uniprot": "Q16539",
+          "model_sequence": "ERPTFYRQELNKTIWEVPERYQNLSPVGSGAYGSVCAAFDTKTGLRVAVKKLSRPFQSIIHAKRTYRELRLLKHMKHENVIGLLDVFTPARSLEEFNDVYLVTHLMGADLNNIVKSQKLTDDHVQFLIYQILRGLKYIHSADIIHRDLKPSNLAVNEDSELKILDFGLCTRWYRAPEIMLNWMHYNQTVDIWSVGCIMAELLTGRTLFPGTDHIDQLKLILRLVGTPGAELLKKISSESARNYIQSLTQMPKMNFANVFIGANPLAVDLLEKMLVLDSDKRITAAQALAHAYFAQYHDPDDEPVADPYDQSLESRDLLIDEWKSLTYDEVISFVPPP"
+        }
+      },
+      "ligand_selection": "resname UNL",
+      "ligand_heavy_atoms": 79
+    },
+    {
+      "target_id": "MAPK14_full",
+      "pose_id": "pose010",
+      "tpr": {
+        "path": "/home/ayushregmibagale/protac-md/random_screen/MAPK14_full/pose010/prod/prod.tpr",
+        "sha256": "a3d7b115b9a4f4fd2c43996bd0ecd51f3f6860853e1b0d485a368d2663b5862a"
+      },
+      "xtc": {
+        "path": "/home/ayushregmibagale/protac-md/analysis/random_screen/MAPK14_full/pose010/prod_nojump.xtc",
+        "sha256": "b92f287b2411b2a25d8d0983a97fb20cfca47d031ab6b51bc47dadb18e22e1ed"
+      },
+      "protein_roles": {
+        "elob": {
+          "selection": "moltype Protein_chain_A and name CA",
+          "uniprot": "Q15370",
+          "model_sequence": "MDVFLMIRRHKTTIFTDAKESSTVFELKRIVEGILKRPPDEQRLYKDDQLLDDGKTLGEGFTSQTARPQAPATVGLAFRADDTFEALIEPFSSPPELPDVM"
+        },
+        "vhl": {
+          "selection": "moltype Protein_chain_C and name CA",
+          "uniprot": "P40337",
+          "model_sequence": "VLRSVNSREPSQVIFNRSPRVVLPVWLNFDGEPQPYPTLPPGTGRRIHSYRGHLWLFRDAGTHDGLLVNQTELFVPSLNVDGQPIFANITLPVYTLKERCLQVVRSLVKPENYRRLDIVRSLYEDLEDHPNVQKDLERLT"
+        },
+        "poi": {
+          "selection": "moltype Protein_chain_D and name CA",
+          "uniprot": "Q16539",
+          "model_sequence": "ERPTFYRQELNKTIWEVPERYQNLSPVGSGAYGSVCAAFDTKTGLRVAVKKLSRPFQSIIHAKRTYRELRLLKHMKHENVIGLLDVFTPARSLEEFNDVYLVTHLMGADLNNIVKSQKLTDDHVQFLIYQILRGLKYIHSADIIHRDLKPSNLAVNEDSELKILDFGLCTRWYRAPEIMLNWMHYNQTVDIWSVGCIMAELLTGRTLFPGTDHIDQLKLILRLVGTPGAELLKKISSESARNYIQSLTQMPKMNFANVFIGANPLAVDLLEKMLVLDSDKRITAAQALAHAYFAQYHDPDDEPVADPYDQSLESRDLLIDEWKSLTYDEVISFVPPP"
+        }
+      },
+      "ligand_selection": "resname UNL",
+      "ligand_heavy_atoms": 79
+    },
+    {
+      "target_id": "MAPK14_full",
+      "pose_id": "pose011",
+      "tpr": {
+        "path": "/home/ayushregmibagale/protac-md/random_screen/MAPK14_full/pose011/prod/prod.tpr",
+        "sha256": "a0c5fb4c913996eafa021a98f1284c42b913f82e54efd20696c484e8c8701503"
+      },
+      "xtc": {
+        "path": "/home/ayushregmibagale/protac-md/analysis/random_screen/MAPK14_full/pose011/prod_nojump.xtc",
+        "sha256": "663a8b7fd0dbe45dfd7795a3b9e5ac0dc4c9d160eeb1e8658a8493b345148253"
+      },
+      "protein_roles": {
+        "elob": {
+          "selection": "moltype Protein_chain_A and name CA",
+          "uniprot": "Q15370",
+          "model_sequence": "MDVFLMIRRHKTTIFTDAKESSTVFELKRIVEGILKRPPDEQRLYKDDQLLDDGKTLGEGFTSQTARPQAPATVGLAFRADDTFEALIEPFSSPPELPDVM"
+        },
+        "vhl": {
+          "selection": "moltype Protein_chain_C and name CA",
+          "uniprot": "P40337",
+          "model_sequence": "VLRSVNSREPSQVIFNRSPRVVLPVWLNFDGEPQPYPTLPPGTGRRIHSYRGHLWLFRDAGTHDGLLVNQTELFVPSLNVDGQPIFANITLPVYTLKERCLQVVRSLVKPENYRRLDIVRSLYEDLEDHPNVQKDLERLT"
+        },
+        "poi": {
+          "selection": "moltype Protein_chain_D and name CA",
+          "uniprot": "Q16539",
+          "model_sequence": "ERPTFYRQELNKTIWEVPERYQNLSPVGSGAYGSVCAAFDTKTGLRVAVKKLSRPFQSIIHAKRTYRELRLLKHMKHENVIGLLDVFTPARSLEEFNDVYLVTHLMGADLNNIVKSQKLTDDHVQFLIYQILRGLKYIHSADIIHRDLKPSNLAVNEDSELKILDFGLCTRWYRAPEIMLNWMHYNQTVDIWSVGCIMAELLTGRTLFPGTDHIDQLKLILRLVGTPGAELLKKISSESARNYIQSLTQMPKMNFANVFIGANPLAVDLLEKMLVLDSDKRITAAQALAHAYFAQYHDPDDEPVADPYDQSLESRDLLIDEWKSLTYDEVISFVPPP"
+        }
+      },
+      "ligand_selection": "resname UNL",
+      "ligand_heavy_atoms": 79
+    },
+    {
+      "target_id": "MAPK14_full",
+      "pose_id": "pose012",
+      "tpr": {
+        "path": "/home/ayushregmibagale/protac-md/random_screen/MAPK14_full/pose012/prod/prod.tpr",
+        "sha256": "f653235f574ba06b5dbed8722ea7a322f203d38eceb60b9de1c0c30cd9da3c5a"
+      },
+      "xtc": {
+        "path": "/home/ayushregmibagale/protac-md/analysis/random_screen/MAPK14_full/pose012/prod_nojump.xtc",
+        "sha256": "2d6a3f2e7b7d8961210e7907dfdfd1f9588a4f895003328a3d4cf1f5bdb14700"
+      },
+      "protein_roles": {
+        "elob": {
+          "selection": "moltype Protein_chain_A and name CA",
+          "uniprot": "Q15370",
+          "model_sequence": "MDVFLMIRRHKTTIFTDAKESSTVFELKRIVEGILKRPPDEQRLYKDDQLLDDGKTLGEGFTSQTARPQAPATVGLAFRADDTFEALIEPFSSPPELPDVM"
+        },
+        "vhl": {
+          "selection": "moltype Protein_chain_C and name CA",
+          "uniprot": "P40337",
+          "model_sequence": "VLRSVNSREPSQVIFNRSPRVVLPVWLNFDGEPQPYPTLPPGTGRRIHSYRGHLWLFRDAGTHDGLLVNQTELFVPSLNVDGQPIFANITLPVYTLKERCLQVVRSLVKPENYRRLDIVRSLYEDLEDHPNVQKDLERLT"
+        },
+        "poi": {
+          "selection": "moltype Protein_chain_D and name CA",
+          "uniprot": "Q16539",
+          "model_sequence": "ERPTFYRQELNKTIWEVPERYQNLSPVGSGAYGSVCAAFDTKTGLRVAVKKLSRPFQSIIHAKRTYRELRLLKHMKHENVIGLLDVFTPARSLEEFNDVYLVTHLMGADLNNIVKSQKLTDDHVQFLIYQILRGLKYIHSADIIHRDLKPSNLAVNEDSELKILDFGLCTRWYRAPEIMLNWMHYNQTVDIWSVGCIMAELLTGRTLFPGTDHIDQLKLILRLVGTPGAELLKKISSESARNYIQSLTQMPKMNFANVFIGANPLAVDLLEKMLVLDSDKRITAAQALAHAYFAQYHDPDDEPVADPYDQSLESRDLLIDEWKSLTYDEVISFVPPP"
+        }
+      },
+      "ligand_selection": "resname UNL",
+      "ligand_heavy_atoms": 79
+    },
+    {
+      "target_id": "MAPK14_full",
+      "pose_id": "pose013",
+      "tpr": {
+        "path": "/home/ayushregmibagale/protac-md/random_screen/MAPK14_full/pose013/prod/prod.tpr",
+        "sha256": "f95ce57793f85a6fe0857cde0f166fa513a45bff805a156256e0f6e116192d3d"
+      },
+      "xtc": {
+        "path": "/home/ayushregmibagale/protac-md/analysis/random_screen/MAPK14_full/pose013/prod_nojump.xtc",
+        "sha256": "1fd93b594f7d2106080bed2182037b108baba916803f8d8e8cac73e3dad3d738"
+      },
+      "protein_roles": {
+        "elob": {
+          "selection": "moltype Protein_chain_A and name CA",
+          "uniprot": "Q15370",
+          "model_sequence": "MDVFLMIRRHKTTIFTDAKESSTVFELKRIVEGILKRPPDEQRLYKDDQLLDDGKTLGEGFTSQTARPQAPATVGLAFRADDTFEALIEPFSSPPELPDVM"
+        },
+        "vhl": {
+          "selection": "moltype Protein_chain_C and name CA",
+          "uniprot": "P40337",
+          "model_sequence": "VLRSVNSREPSQVIFNRSPRVVLPVWLNFDGEPQPYPTLPPGTGRRIHSYRGHLWLFRDAGTHDGLLVNQTELFVPSLNVDGQPIFANITLPVYTLKERCLQVVRSLVKPENYRRLDIVRSLYEDLEDHPNVQKDLERLT"
+        },
+        "poi": {
+          "selection": "moltype Protein_chain_D and name CA",
+          "uniprot": "Q16539",
+          "model_sequence": "ERPTFYRQELNKTIWEVPERYQNLSPVGSGAYGSVCAAFDTKTGLRVAVKKLSRPFQSIIHAKRTYRELRLLKHMKHENVIGLLDVFTPARSLEEFNDVYLVTHLMGADLNNIVKSQKLTDDHVQFLIYQILRGLKYIHSADIIHRDLKPSNLAVNEDSELKILDFGLCTRWYRAPEIMLNWMHYNQTVDIWSVGCIMAELLTGRTLFPGTDHIDQLKLILRLVGTPGAELLKKISSESARNYIQSLTQMPKMNFANVFIGANPLAVDLLEKMLVLDSDKRITAAQALAHAYFAQYHDPDDEPVADPYDQSLESRDLLIDEWKSLTYDEVISFVPPP"
+        }
+      },
+      "ligand_selection": "resname UNL",
+      "ligand_heavy_atoms": 79
+    },
+    {
+      "target_id": "MAPK14_full",
+      "pose_id": "pose015",
+      "tpr": {
+        "path": "/home/ayushregmibagale/protac-md/random_screen/MAPK14_full/pose015/prod/prod.tpr",
+        "sha256": "3f71ed1dc67af3dac5ee15a11c77abb386616522bf31343c41709372ff95f328"
+      },
+      "xtc": {
+        "path": "/home/ayushregmibagale/protac-md/analysis/random_screen/MAPK14_full/pose015/prod_nojump.xtc",
+        "sha256": "a7b8b6c55f6d0b2bc07df9b413ef142bb2013639ea3e22b99fa548ab75f97d7e"
+      },
+      "protein_roles": {
+        "elob": {
+          "selection": "moltype Protein_chain_A and name CA",
+          "uniprot": "Q15370",
+          "model_sequence": "MDVFLMIRRHKTTIFTDAKESSTVFELKRIVEGILKRPPDEQRLYKDDQLLDDGKTLGEGFTSQTARPQAPATVGLAFRADDTFEALIEPFSSPPELPDVM"
+        },
+        "vhl": {
+          "selection": "moltype Protein_chain_C and name CA",
+          "uniprot": "P40337",
+          "model_sequence": "VLRSVNSREPSQVIFNRSPRVVLPVWLNFDGEPQPYPTLPPGTGRRIHSYRGHLWLFRDAGTHDGLLVNQTELFVPSLNVDGQPIFANITLPVYTLKERCLQVVRSLVKPENYRRLDIVRSLYEDLEDHPNVQKDLERLT"
+        },
+        "poi": {
+          "selection": "moltype Protein_chain_D and name CA",
+          "uniprot": "Q16539",
+          "model_sequence": "ERPTFYRQELNKTIWEVPERYQNLSPVGSGAYGSVCAAFDTKTGLRVAVKKLSRPFQSIIHAKRTYRELRLLKHMKHENVIGLLDVFTPARSLEEFNDVYLVTHLMGADLNNIVKSQKLTDDHVQFLIYQILRGLKYIHSADIIHRDLKPSNLAVNEDSELKILDFGLCTRWYRAPEIMLNWMHYNQTVDIWSVGCIMAELLTGRTLFPGTDHIDQLKLILRLVGTPGAELLKKISSESARNYIQSLTQMPKMNFANVFIGANPLAVDLLEKMLVLDSDKRITAAQALAHAYFAQYHDPDDEPVADPYDQSLESRDLLIDEWKSLTYDEVISFVPPP"
+        }
+      },
+      "ligand_selection": "resname UNL",
+      "ligand_heavy_atoms": 79
+    },
+    {
+      "target_id": "MAPK14_full",
+      "pose_id": "pose016",
+      "tpr": {
+        "path": "/home/ayushregmibagale/protac-md/random_screen/MAPK14_full/pose016/prod/prod.tpr",
+        "sha256": "b483bc9dc6e3d9f563132c4cb8a19468dc748a6d80b164304336e66af614d582"
+      },
+      "xtc": {
+        "path": "/home/ayushregmibagale/protac-md/analysis/random_screen/MAPK14_full/pose016/prod_nojump.xtc",
+        "sha256": "8019e34ee1591925d32a53e134fcdb4b60cb3e3ab383acb40659caf42033ba25"
+      },
+      "protein_roles": {
+        "elob": {
+          "selection": "moltype Protein_chain_A and name CA",
+          "uniprot": "Q15370",
+          "model_sequence": "MDVFLMIRRHKTTIFTDAKESSTVFELKRIVEGILKRPPDEQRLYKDDQLLDDGKTLGEGFTSQTARPQAPATVGLAFRADDTFEALIEPFSSPPELPDVM"
+        },
+        "vhl": {
+          "selection": "moltype Protein_chain_C and name CA",
+          "uniprot": "P40337",
+          "model_sequence": "VLRSVNSREPSQVIFNRSPRVVLPVWLNFDGEPQPYPTLPPGTGRRIHSYRGHLWLFRDAGTHDGLLVNQTELFVPSLNVDGQPIFANITLPVYTLKERCLQVVRSLVKPENYRRLDIVRSLYEDLEDHPNVQKDLERLT"
+        },
+        "poi": {
+          "selection": "moltype Protein_chain_D and name CA",
+          "uniprot": "Q16539",
+          "model_sequence": "ERPTFYRQELNKTIWEVPERYQNLSPVGSGAYGSVCAAFDTKTGLRVAVKKLSRPFQSIIHAKRTYRELRLLKHMKHENVIGLLDVFTPARSLEEFNDVYLVTHLMGADLNNIVKSQKLTDDHVQFLIYQILRGLKYIHSADIIHRDLKPSNLAVNEDSELKILDFGLCTRWYRAPEIMLNWMHYNQTVDIWSVGCIMAELLTGRTLFPGTDHIDQLKLILRLVGTPGAELLKKISSESARNYIQSLTQMPKMNFANVFIGANPLAVDLLEKMLVLDSDKRITAAQALAHAYFAQYHDPDDEPVADPYDQSLESRDLLIDEWKSLTYDEVISFVPPP"
+        }
+      },
+      "ligand_selection": "resname UNL",
+      "ligand_heavy_atoms": 79
+    },
+    {
+      "target_id": "MAPK14_full",
+      "pose_id": "pose017",
+      "tpr": {
+        "path": "/home/ayushregmibagale/protac-md/random_screen/MAPK14_full/pose017/prod/prod.tpr",
+        "sha256": "a60ea1968a3d243176a46ca32283e2de3db1ba66105a45b7d3ed865a40e8bb6e"
+      },
+      "xtc": {
+        "path": "/home/ayushregmibagale/protac-md/analysis/random_screen/MAPK14_full/pose017/prod_nojump.xtc",
+        "sha256": "ce48a4b651e3853f19e5783569e33b2cf495597306c98f1a38f3ef9f0b6c3229"
+      },
+      "protein_roles": {
+        "elob": {
+          "selection": "moltype Protein_chain_A and name CA",
+          "uniprot": "Q15370",
+          "model_sequence": "MDVFLMIRRHKTTIFTDAKESSTVFELKRIVEGILKRPPDEQRLYKDDQLLDDGKTLGEGFTSQTARPQAPATVGLAFRADDTFEALIEPFSSPPELPDVM"
+        },
+        "vhl": {
+          "selection": "moltype Protein_chain_C and name CA",
+          "uniprot": "P40337",
+          "model_sequence": "VLRSVNSREPSQVIFNRSPRVVLPVWLNFDGEPQPYPTLPPGTGRRIHSYRGHLWLFRDAGTHDGLLVNQTELFVPSLNVDGQPIFANITLPVYTLKERCLQVVRSLVKPENYRRLDIVRSLYEDLEDHPNVQKDLERLT"
+        },
+        "poi": {
+          "selection": "moltype Protein_chain_D and name CA",
+          "uniprot": "Q16539",
+          "model_sequence": "ERPTFYRQELNKTIWEVPERYQNLSPVGSGAYGSVCAAFDTKTGLRVAVKKLSRPFQSIIHAKRTYRELRLLKHMKHENVIGLLDVFTPARSLEEFNDVYLVTHLMGADLNNIVKSQKLTDDHVQFLIYQILRGLKYIHSADIIHRDLKPSNLAVNEDSELKILDFGLCTRWYRAPEIMLNWMHYNQTVDIWSVGCIMAELLTGRTLFPGTDHIDQLKLILRLVGTPGAELLKKISSESARNYIQSLTQMPKMNFANVFIGANPLAVDLLEKMLVLDSDKRITAAQALAHAYFAQYHDPDDEPVADPYDQSLESRDLLIDEWKSLTYDEVISFVPPP"
+        }
+      },
+      "ligand_selection": "resname UNL",
+      "ligand_heavy_atoms": 79
+    },
+    {
+      "target_id": "MAPK14_full",
+      "pose_id": "pose018",
+      "tpr": {
+        "path": "/home/ayushregmibagale/protac-md/random_screen/MAPK14_full/pose018/prod/prod.tpr",
+        "sha256": "5f58c5d91cf5cca815ddee2bb26fe7f85fb78cb04d92613ede6ce98881425ab5"
+      },
+      "xtc": {
+        "path": "/home/ayushregmibagale/protac-md/analysis/random_screen/MAPK14_full/pose018/prod_nojump.xtc",
+        "sha256": "a2b09012ec00c43f9c09687172d04d8669981183745c39944d4c8bdbc8b411a1"
+      },
+      "protein_roles": {
+        "elob": {
+          "selection": "moltype Protein_chain_A and name CA",
+          "uniprot": "Q15370",
+          "model_sequence": "MDVFLMIRRHKTTIFTDAKESSTVFELKRIVEGILKRPPDEQRLYKDDQLLDDGKTLGEGFTSQTARPQAPATVGLAFRADDTFEALIEPFSSPPELPDVM"
+        },
+        "vhl": {
+          "selection": "moltype Protein_chain_C and name CA",
+          "uniprot": "P40337",
+          "model_sequence": "VLRSVNSREPSQVIFNRSPRVVLPVWLNFDGEPQPYPTLPPGTGRRIHSYRGHLWLFRDAGTHDGLLVNQTELFVPSLNVDGQPIFANITLPVYTLKERCLQVVRSLVKPENYRRLDIVRSLYEDLEDHPNVQKDLERLT"
+        },
+        "poi": {
+          "selection": "moltype Protein_chain_D and name CA",
+          "uniprot": "Q16539",
+          "model_sequence": "ERPTFYRQELNKTIWEVPERYQNLSPVGSGAYGSVCAAFDTKTGLRVAVKKLSRPFQSIIHAKRTYRELRLLKHMKHENVIGLLDVFTPARSLEEFNDVYLVTHLMGADLNNIVKSQKLTDDHVQFLIYQILRGLKYIHSADIIHRDLKPSNLAVNEDSELKILDFGLCTRWYRAPEIMLNWMHYNQTVDIWSVGCIMAELLTGRTLFPGTDHIDQLKLILRLVGTPGAELLKKISSESARNYIQSLTQMPKMNFANVFIGANPLAVDLLEKMLVLDSDKRITAAQALAHAYFAQYHDPDDEPVADPYDQSLESRDLLIDEWKSLTYDEVISFVPPP"
+        }
+      },
+      "ligand_selection": "resname UNL",
+      "ligand_heavy_atoms": 79
+    },
+    {
+      "target_id": "MAPK14_full",
+      "pose_id": "pose020",
+      "tpr": {
+        "path": "/home/ayushregmibagale/protac-md/random_screen/MAPK14_full/pose020/prod/prod.tpr",
+        "sha256": "6bb6ef917f2999a42d342069b2a55d253ebf91aefb2e144818b225eeb87339b5"
+      },
+      "xtc": {
+        "path": "/home/ayushregmibagale/protac-md/analysis/random_screen/MAPK14_full/pose020/prod_nojump.xtc",
+        "sha256": "37dea6e7698435780a2e91eb4876650742b8bf0237ccadeb4da9acbc1902d0b4"
+      },
+      "protein_roles": {
+        "elob": {
+          "selection": "moltype Protein_chain_A and name CA",
+          "uniprot": "Q15370",
+          "model_sequence": "MDVFLMIRRHKTTIFTDAKESSTVFELKRIVEGILKRPPDEQRLYKDDQLLDDGKTLGEGFTSQTARPQAPATVGLAFRADDTFEALIEPFSSPPELPDVM"
+        },
+        "vhl": {
+          "selection": "moltype Protein_chain_C and name CA",
+          "uniprot": "P40337",
+          "model_sequence": "VLRSVNSREPSQVIFNRSPRVVLPVWLNFDGEPQPYPTLPPGTGRRIHSYRGHLWLFRDAGTHDGLLVNQTELFVPSLNVDGQPIFANITLPVYTLKERCLQVVRSLVKPENYRRLDIVRSLYEDLEDHPNVQKDLERLT"
+        },
+        "poi": {
+          "selection": "moltype Protein_chain_D and name CA",
+          "uniprot": "Q16539",
+          "model_sequence": "ERPTFYRQELNKTIWEVPERYQNLSPVGSGAYGSVCAAFDTKTGLRVAVKKLSRPFQSIIHAKRTYRELRLLKHMKHENVIGLLDVFTPARSLEEFNDVYLVTHLMGADLNNIVKSQKLTDDHVQFLIYQILRGLKYIHSADIIHRDLKPSNLAVNEDSELKILDFGLCTRWYRAPEIMLNWMHYNQTVDIWSVGCIMAELLTGRTLFPGTDHIDQLKLILRLVGTPGAELLKKISSESARNYIQSLTQMPKMNFANVFIGANPLAVDLLEKMLVLDSDKRITAAQALAHAYFAQYHDPDDEPVADPYDQSLESRDLLIDEWKSLTYDEVISFVPPP"
+        }
+      },
+      "ligand_selection": "resname UNL",
+      "ligand_heavy_atoms": 79
+    },
+    {
+      "target_id": "MET",
+      "pose_id": "pose002",
+      "tpr": {
+        "path": "/home/ayushregmibagale/protac-md/random_screen/MET/pose002/prod/prod.tpr",
+        "sha256": "08c2ffc58ce8d38a2a7a36e095fd206e684f48ef4f522e8bf4d528b562132f83"
+      },
+      "xtc": {
+        "path": "/home/ayushregmibagale/protac-md/analysis/random_screen/MET/pose002/prod_nojump.xtc",
+        "sha256": "13697b73025e12bb5ef067001e38b82a6e6d0018a5ae862f05cafb49e1568152"
+      },
+      "protein_roles": {
+        "elob": {
+          "selection": "moltype Protein_chain_A and name CA",
+          "uniprot": "Q15370",
+          "model_sequence": "MDVFLMIRRHKTTIFTDAKESSTVFELKRIVEGILKRPPDEQRLYKDDQLLDDGKTLGEGFTSQTARPQAPATVGLAFRADDTFEALIEPFSSPPELPDVM"
+        },
+        "vhl": {
+          "selection": "moltype Protein_chain_C and name CA",
+          "uniprot": "P40337",
+          "model_sequence": "VLRSVNSREPSQVIFNRSPRVVLPVWLNFDGEPQPYPTLPPGTGRRIHSYRGHLWLFRDAGTHDGLLVNQTELFVPSLNVDGQPIFANITLPVYTLKERCLQVVRSLVKPENYRRLDIVRSLYEDLEDHPNVQKDLERLT"
+        },
+        "poi": {
+          "selection": "moltype Protein_chain_D and name CA",
+          "uniprot": "P08581",
+          "model_sequence": "IDLSALNPELVQAVQHVVIGPSSLIVHFNEVIGRGHFGCVYHGTLLDNDGKKIHCAVKSLNRIGEVSQFLTEGIIMKDFSHPNVLSLLGICLSPLVVLPYMKHGDLRNFIRNETHNPTVKDLIGFGLQVAKGMKYLASKKFVHRDLAARNCMLDEKFTVKVADFGLARDDKEYYSAKLPVKWMALESLQTQKFTTKSDVWSFGVLLWELMTRGAPPYPDVNTFDITVYLLQGRRLLQPEYCPDPLYEVMLKCWHPKAEMRPSFSELVSRISAIFSTFI"
+        }
+      },
+      "ligand_selection": "resname UNL",
+      "ligand_heavy_atoms": 79
+    },
+    {
+      "target_id": "MET",
+      "pose_id": "pose003",
+      "tpr": {
+        "path": "/home/ayushregmibagale/protac-md/random_screen/MET/pose003/prod/prod.tpr",
+        "sha256": "ad0187acc23fe6098d30002daef209410ea7a05dc1f8800c08a2386d56418325"
+      },
+      "xtc": {
+        "path": "/home/ayushregmibagale/protac-md/analysis/random_screen/MET/pose003/prod_nojump.xtc",
+        "sha256": "e481f169b263bb8bc87ab1f89cd4556428c5f33d0d21d6e094fbb5eab2fbe9a8"
+      },
+      "protein_roles": {
+        "elob": {
+          "selection": "moltype Protein_chain_A and name CA",
+          "uniprot": "Q15370",
+          "model_sequence": "MDVFLMIRRHKTTIFTDAKESSTVFELKRIVEGILKRPPDEQRLYKDDQLLDDGKTLGEGFTSQTARPQAPATVGLAFRADDTFEALIEPFSSPPELPDVM"
+        },
+        "vhl": {
+          "selection": "moltype Protein_chain_C and name CA",
+          "uniprot": "P40337",
+          "model_sequence": "VLRSVNSREPSQVIFNRSPRVVLPVWLNFDGEPQPYPTLPPGTGRRIHSYRGHLWLFRDAGTHDGLLVNQTELFVPSLNVDGQPIFANITLPVYTLKERCLQVVRSLVKPENYRRLDIVRSLYEDLEDHPNVQKDLERLT"
+        },
+        "poi": {
+          "selection": "moltype Protein_chain_D and name CA",
+          "uniprot": "P08581",
+          "model_sequence": "IDLSALNPELVQAVQHVVIGPSSLIVHFNEVIGRGHFGCVYHGTLLDNDGKKIHCAVKSLNRIGEVSQFLTEGIIMKDFSHPNVLSLLGICLSPLVVLPYMKHGDLRNFIRNETHNPTVKDLIGFGLQVAKGMKYLASKKFVHRDLAARNCMLDEKFTVKVADFGLARDDKEYYSAKLPVKWMALESLQTQKFTTKSDVWSFGVLLWELMTRGAPPYPDVNTFDITVYLLQGRRLLQPEYCPDPLYEVMLKCWHPKAEMRPSFSELVSRISAIFSTFI"
+        }
+      },
+      "ligand_selection": "resname UNL",
+      "ligand_heavy_atoms": 79
+    },
+    {
+      "target_id": "MET",
+      "pose_id": "pose004",
+      "tpr": {
+        "path": "/home/ayushregmibagale/protac-md/random_screen/MET/pose004/prod/prod.tpr",
+        "sha256": "983ab25b4df6d84fa0caa017f075702f527d425d12ef38382476278985119503"
+      },
+      "xtc": {
+        "path": "/home/ayushregmibagale/protac-md/analysis/random_screen/MET/pose004/prod_nojump.xtc",
+        "sha256": "bea760da565201024ebc93d16f3d492910e4647c40e287c4cf4fc18032cff205"
+      },
+      "protein_roles": {
+        "elob": {
+          "selection": "moltype Protein_chain_A and name CA",
+          "uniprot": "Q15370",
+          "model_sequence": "MDVFLMIRRHKTTIFTDAKESSTVFELKRIVEGILKRPPDEQRLYKDDQLLDDGKTLGEGFTSQTARPQAPATVGLAFRADDTFEALIEPFSSPPELPDVM"
+        },
+        "vhl": {
+          "selection": "moltype Protein_chain_C and name CA",
+          "uniprot": "P40337",
+          "model_sequence": "VLRSVNSREPSQVIFNRSPRVVLPVWLNFDGEPQPYPTLPPGTGRRIHSYRGHLWLFRDAGTHDGLLVNQTELFVPSLNVDGQPIFANITLPVYTLKERCLQVVRSLVKPENYRRLDIVRSLYEDLEDHPNVQKDLERLT"
+        },
+        "poi": {
+          "selection": "moltype Protein_chain_D and name CA",
+          "uniprot": "P08581",
+          "model_sequence": "IDLSALNPELVQAVQHVVIGPSSLIVHFNEVIGRGHFGCVYHGTLLDNDGKKIHCAVKSLNRIGEVSQFLTEGIIMKDFSHPNVLSLLGICLSPLVVLPYMKHGDLRNFIRNETHNPTVKDLIGFGLQVAKGMKYLASKKFVHRDLAARNCMLDEKFTVKVADFGLARDDKEYYSAKLPVKWMALESLQTQKFTTKSDVWSFGVLLWELMTRGAPPYPDVNTFDITVYLLQGRRLLQPEYCPDPLYEVMLKCWHPKAEMRPSFSELVSRISAIFSTFI"
+        }
+      },
+      "ligand_selection": "resname UNL",
+      "ligand_heavy_atoms": 79
+    },
+    {
+      "target_id": "MET",
+      "pose_id": "pose005",
+      "tpr": {
+        "path": "/home/ayushregmibagale/protac-md/random_screen/MET/pose005/prod/prod.tpr",
+        "sha256": "6bd4b0f955d63a7fc44c53af2446c36a160ca0bb5fc50e274089bb6ce95a003d"
+      },
+      "xtc": {
+        "path": "/home/ayushregmibagale/protac-md/analysis/random_screen/MET/pose005/prod_nojump.xtc",
+        "sha256": "01601821da6022bcca3cafdaf09a9ac6aa02afc4d6f81ab78f0acbbf2db8cda5"
+      },
+      "protein_roles": {
+        "elob": {
+          "selection": "moltype Protein_chain_A and name CA",
+          "uniprot": "Q15370",
+          "model_sequence": "MDVFLMIRRHKTTIFTDAKESSTVFELKRIVEGILKRPPDEQRLYKDDQLLDDGKTLGEGFTSQTARPQAPATVGLAFRADDTFEALIEPFSSPPELPDVM"
+        },
+        "vhl": {
+          "selection": "moltype Protein_chain_C and name CA",
+          "uniprot": "P40337",
+          "model_sequence": "VLRSVNSREPSQVIFNRSPRVVLPVWLNFDGEPQPYPTLPPGTGRRIHSYRGHLWLFRDAGTHDGLLVNQTELFVPSLNVDGQPIFANITLPVYTLKERCLQVVRSLVKPENYRRLDIVRSLYEDLEDHPNVQKDLERLT"
+        },
+        "poi": {
+          "selection": "moltype Protein_chain_D and name CA",
+          "uniprot": "P08581",
+          "model_sequence": "IDLSALNPELVQAVQHVVIGPSSLIVHFNEVIGRGHFGCVYHGTLLDNDGKKIHCAVKSLNRIGEVSQFLTEGIIMKDFSHPNVLSLLGICLSPLVVLPYMKHGDLRNFIRNETHNPTVKDLIGFGLQVAKGMKYLASKKFVHRDLAARNCMLDEKFTVKVADFGLARDDKEYYSAKLPVKWMALESLQTQKFTTKSDVWSFGVLLWELMTRGAPPYPDVNTFDITVYLLQGRRLLQPEYCPDPLYEVMLKCWHPKAEMRPSFSELVSRISAIFSTFI"
+        }
+      },
+      "ligand_selection": "resname UNL",
+      "ligand_heavy_atoms": 79
+    },
+    {
+      "target_id": "MET",
+      "pose_id": "pose006",
+      "tpr": {
+        "path": "/home/ayushregmibagale/protac-md/random_screen/MET/pose006/prod/prod.tpr",
+        "sha256": "818c10476be80c36f31e74e5651df421ca12d1325612d98547816cb41e352681"
+      },
+      "xtc": {
+        "path": "/home/ayushregmibagale/protac-md/analysis/random_screen/MET/pose006/prod_nojump.xtc",
+        "sha256": "337bcc719b7268c1380fe399888d165d77a9dea595a308531d2240cb3260230a"
+      },
+      "protein_roles": {
+        "elob": {
+          "selection": "moltype Protein_chain_A and name CA",
+          "uniprot": "Q15370",
+          "model_sequence": "MDVFLMIRRHKTTIFTDAKESSTVFELKRIVEGILKRPPDEQRLYKDDQLLDDGKTLGEGFTSQTARPQAPATVGLAFRADDTFEALIEPFSSPPELPDVM"
+        },
+        "vhl": {
+          "selection": "moltype Protein_chain_C and name CA",
+          "uniprot": "P40337",
+          "model_sequence": "VLRSVNSREPSQVIFNRSPRVVLPVWLNFDGEPQPYPTLPPGTGRRIHSYRGHLWLFRDAGTHDGLLVNQTELFVPSLNVDGQPIFANITLPVYTLKERCLQVVRSLVKPENYRRLDIVRSLYEDLEDHPNVQKDLERLT"
+        },
+        "poi": {
+          "selection": "moltype Protein_chain_D and name CA",
+          "uniprot": "P08581",
+          "model_sequence": "IDLSALNPELVQAVQHVVIGPSSLIVHFNEVIGRGHFGCVYHGTLLDNDGKKIHCAVKSLNRIGEVSQFLTEGIIMKDFSHPNVLSLLGICLSPLVVLPYMKHGDLRNFIRNETHNPTVKDLIGFGLQVAKGMKYLASKKFVHRDLAARNCMLDEKFTVKVADFGLARDDKEYYSAKLPVKWMALESLQTQKFTTKSDVWSFGVLLWELMTRGAPPYPDVNTFDITVYLLQGRRLLQPEYCPDPLYEVMLKCWHPKAEMRPSFSELVSRISAIFSTFI"
+        }
+      },
+      "ligand_selection": "resname UNL",
+      "ligand_heavy_atoms": 79
+    },
+    {
+      "target_id": "MET",
+      "pose_id": "pose007",
+      "tpr": {
+        "path": "/home/ayushregmibagale/protac-md/random_screen/MET/pose007/prod/prod.tpr",
+        "sha256": "cf825792f3b239e4b8758fe0ff323a838c5887f458b13f140d41c9f4632cbf27"
+      },
+      "xtc": {
+        "path": "/home/ayushregmibagale/protac-md/analysis/random_screen/MET/pose007/prod_nojump.xtc",
+        "sha256": "9b3f6cd9478fcd9dc3d3522da6543e41d4e91d01284d812098a00810fe04939a"
+      },
+      "protein_roles": {
+        "elob": {
+          "selection": "moltype Protein_chain_A and name CA",
+          "uniprot": "Q15370",
+          "model_sequence": "MDVFLMIRRHKTTIFTDAKESSTVFELKRIVEGILKRPPDEQRLYKDDQLLDDGKTLGEGFTSQTARPQAPATVGLAFRADDTFEALIEPFSSPPELPDVM"
+        },
+        "vhl": {
+          "selection": "moltype Protein_chain_C and name CA",
+          "uniprot": "P40337",
+          "model_sequence": "VLRSVNSREPSQVIFNRSPRVVLPVWLNFDGEPQPYPTLPPGTGRRIHSYRGHLWLFRDAGTHDGLLVNQTELFVPSLNVDGQPIFANITLPVYTLKERCLQVVRSLVKPENYRRLDIVRSLYEDLEDHPNVQKDLERLT"
+        },
+        "poi": {
+          "selection": "moltype Protein_chain_D and name CA",
+          "uniprot": "P08581",
+          "model_sequence": "IDLSALNPELVQAVQHVVIGPSSLIVHFNEVIGRGHFGCVYHGTLLDNDGKKIHCAVKSLNRIGEVSQFLTEGIIMKDFSHPNVLSLLGICLSPLVVLPYMKHGDLRNFIRNETHNPTVKDLIGFGLQVAKGMKYLASKKFVHRDLAARNCMLDEKFTVKVADFGLARDDKEYYSAKLPVKWMALESLQTQKFTTKSDVWSFGVLLWELMTRGAPPYPDVNTFDITVYLLQGRRLLQPEYCPDPLYEVMLKCWHPKAEMRPSFSELVSRISAIFSTFI"
+        }
+      },
+      "ligand_selection": "resname UNL",
+      "ligand_heavy_atoms": 79
+    },
+    {
+      "target_id": "MET",
+      "pose_id": "pose008",
+      "tpr": {
+        "path": "/home/ayushregmibagale/protac-md/random_screen/MET/pose008/prod/prod.tpr",
+        "sha256": "2e864233f6ef532158d9fb2f2d9cc81bb0899f1d6aa8d13bc8d552d00baf4967"
+      },
+      "xtc": {
+        "path": "/home/ayushregmibagale/protac-md/analysis/random_screen/MET/pose008/prod_nojump.xtc",
+        "sha256": "15541ae245d89a18c6a4fd681572003c808e744f3579ab50e490bd33b46d4f90"
+      },
+      "protein_roles": {
+        "elob": {
+          "selection": "moltype Protein_chain_A and name CA",
+          "uniprot": "Q15370",
+          "model_sequence": "MDVFLMIRRHKTTIFTDAKESSTVFELKRIVEGILKRPPDEQRLYKDDQLLDDGKTLGEGFTSQTARPQAPATVGLAFRADDTFEALIEPFSSPPELPDVM"
+        },
+        "vhl": {
+          "selection": "moltype Protein_chain_C and name CA",
+          "uniprot": "P40337",
+          "model_sequence": "VLRSVNSREPSQVIFNRSPRVVLPVWLNFDGEPQPYPTLPPGTGRRIHSYRGHLWLFRDAGTHDGLLVNQTELFVPSLNVDGQPIFANITLPVYTLKERCLQVVRSLVKPENYRRLDIVRSLYEDLEDHPNVQKDLERLT"
+        },
+        "poi": {
+          "selection": "moltype Protein_chain_D and name CA",
+          "uniprot": "P08581",
+          "model_sequence": "IDLSALNPELVQAVQHVVIGPSSLIVHFNEVIGRGHFGCVYHGTLLDNDGKKIHCAVKSLNRIGEVSQFLTEGIIMKDFSHPNVLSLLGICLSPLVVLPYMKHGDLRNFIRNETHNPTVKDLIGFGLQVAKGMKYLASKKFVHRDLAARNCMLDEKFTVKVADFGLARDDKEYYSAKLPVKWMALESLQTQKFTTKSDVWSFGVLLWELMTRGAPPYPDVNTFDITVYLLQGRRLLQPEYCPDPLYEVMLKCWHPKAEMRPSFSELVSRISAIFSTFI"
+        }
+      },
+      "ligand_selection": "resname UNL",
+      "ligand_heavy_atoms": 79
+    },
+    {
+      "target_id": "MET",
+      "pose_id": "pose009",
+      "tpr": {
+        "path": "/home/ayushregmibagale/protac-md/random_screen/MET/pose009/prod/prod.tpr",
+        "sha256": "20a4ace09829feee2eab52fe253dcc7a7acd3fec9c755c06011056ddba6a67ae"
+      },
+      "xtc": {
+        "path": "/home/ayushregmibagale/protac-md/analysis/random_screen/MET/pose009/prod_nojump.xtc",
+        "sha256": "43948b4015d19bbe8250b2e92d415a95481a43bd414765629b2378c1246c1fc6"
+      },
+      "protein_roles": {
+        "elob": {
+          "selection": "moltype Protein_chain_A and name CA",
+          "uniprot": "Q15370",
+          "model_sequence": "MDVFLMIRRHKTTIFTDAKESSTVFELKRIVEGILKRPPDEQRLYKDDQLLDDGKTLGEGFTSQTARPQAPATVGLAFRADDTFEALIEPFSSPPELPDVM"
+        },
+        "vhl": {
+          "selection": "moltype Protein_chain_C and name CA",
+          "uniprot": "P40337",
+          "model_sequence": "VLRSVNSREPSQVIFNRSPRVVLPVWLNFDGEPQPYPTLPPGTGRRIHSYRGHLWLFRDAGTHDGLLVNQTELFVPSLNVDGQPIFANITLPVYTLKERCLQVVRSLVKPENYRRLDIVRSLYEDLEDHPNVQKDLERLT"
+        },
+        "poi": {
+          "selection": "moltype Protein_chain_D and name CA",
+          "uniprot": "P08581",
+          "model_sequence": "IDLSALNPELVQAVQHVVIGPSSLIVHFNEVIGRGHFGCVYHGTLLDNDGKKIHCAVKSLNRIGEVSQFLTEGIIMKDFSHPNVLSLLGICLSPLVVLPYMKHGDLRNFIRNETHNPTVKDLIGFGLQVAKGMKYLASKKFVHRDLAARNCMLDEKFTVKVADFGLARDDKEYYSAKLPVKWMALESLQTQKFTTKSDVWSFGVLLWELMTRGAPPYPDVNTFDITVYLLQGRRLLQPEYCPDPLYEVMLKCWHPKAEMRPSFSELVSRISAIFSTFI"
+        }
+      },
+      "ligand_selection": "resname UNL",
+      "ligand_heavy_atoms": 79
+    },
+    {
+      "target_id": "MET",
+      "pose_id": "pose011",
+      "tpr": {
+        "path": "/home/ayushregmibagale/protac-md/random_screen/MET/pose011/prod/prod.tpr",
+        "sha256": "0c91ecdeee1a339ff5e8888989388a989860d4d7f408852e7538615f18df9d36"
+      },
+      "xtc": {
+        "path": "/home/ayushregmibagale/protac-md/analysis/random_screen/MET/pose011/prod_nojump.xtc",
+        "sha256": "ed4d2c84ba7bd273b9a9a845e9c3b44f4ce4f42996eef84ef346e00e8a70aa8d"
+      },
+      "protein_roles": {
+        "elob": {
+          "selection": "moltype Protein_chain_A and name CA",
+          "uniprot": "Q15370",
+          "model_sequence": "MDVFLMIRRHKTTIFTDAKESSTVFELKRIVEGILKRPPDEQRLYKDDQLLDDGKTLGEGFTSQTARPQAPATVGLAFRADDTFEALIEPFSSPPELPDVM"
+        },
+        "vhl": {
+          "selection": "moltype Protein_chain_C and name CA",
+          "uniprot": "P40337",
+          "model_sequence": "VLRSVNSREPSQVIFNRSPRVVLPVWLNFDGEPQPYPTLPPGTGRRIHSYRGHLWLFRDAGTHDGLLVNQTELFVPSLNVDGQPIFANITLPVYTLKERCLQVVRSLVKPENYRRLDIVRSLYEDLEDHPNVQKDLERLT"
+        },
+        "poi": {
+          "selection": "moltype Protein_chain_D and name CA",
+          "uniprot": "P08581",
+          "model_sequence": "IDLSALNPELVQAVQHVVIGPSSLIVHFNEVIGRGHFGCVYHGTLLDNDGKKIHCAVKSLNRIGEVSQFLTEGIIMKDFSHPNVLSLLGICLSPLVVLPYMKHGDLRNFIRNETHNPTVKDLIGFGLQVAKGMKYLASKKFVHRDLAARNCMLDEKFTVKVADFGLARDDKEYYSAKLPVKWMALESLQTQKFTTKSDVWSFGVLLWELMTRGAPPYPDVNTFDITVYLLQGRRLLQPEYCPDPLYEVMLKCWHPKAEMRPSFSELVSRISAIFSTFI"
+        }
+      },
+      "ligand_selection": "resname UNL",
+      "ligand_heavy_atoms": 79
+    },
+    {
+      "target_id": "MET",
+      "pose_id": "pose012",
+      "tpr": {
+        "path": "/home/ayushregmibagale/protac-md/random_screen/MET/pose012/prod/prod.tpr",
+        "sha256": "5cfe640a5ed8d8bc40faf03ebb05f5780f9a931c93a674267bc9f18b50f9fc7f"
+      },
+      "xtc": {
+        "path": "/home/ayushregmibagale/protac-md/analysis/random_screen/MET/pose012/prod_nojump.xtc",
+        "sha256": "231d42a75aad29fc308dd3cdcf0815415a7620c8842041480d2ef0c1fa575701"
+      },
+      "protein_roles": {
+        "elob": {
+          "selection": "moltype Protein_chain_A and name CA",
+          "uniprot": "Q15370",
+          "model_sequence": "MDVFLMIRRHKTTIFTDAKESSTVFELKRIVEGILKRPPDEQRLYKDDQLLDDGKTLGEGFTSQTARPQAPATVGLAFRADDTFEALIEPFSSPPELPDVM"
+        },
+        "vhl": {
+          "selection": "moltype Protein_chain_C and name CA",
+          "uniprot": "P40337",
+          "model_sequence": "VLRSVNSREPSQVIFNRSPRVVLPVWLNFDGEPQPYPTLPPGTGRRIHSYRGHLWLFRDAGTHDGLLVNQTELFVPSLNVDGQPIFANITLPVYTLKERCLQVVRSLVKPENYRRLDIVRSLYEDLEDHPNVQKDLERLT"
+        },
+        "poi": {
+          "selection": "moltype Protein_chain_D and name CA",
+          "uniprot": "P08581",
+          "model_sequence": "IDLSALNPELVQAVQHVVIGPSSLIVHFNEVIGRGHFGCVYHGTLLDNDGKKIHCAVKSLNRIGEVSQFLTEGIIMKDFSHPNVLSLLGICLSPLVVLPYMKHGDLRNFIRNETHNPTVKDLIGFGLQVAKGMKYLASKKFVHRDLAARNCMLDEKFTVKVADFGLARDDKEYYSAKLPVKWMALESLQTQKFTTKSDVWSFGVLLWELMTRGAPPYPDVNTFDITVYLLQGRRLLQPEYCPDPLYEVMLKCWHPKAEMRPSFSELVSRISAIFSTFI"
+        }
+      },
+      "ligand_selection": "resname UNL",
+      "ligand_heavy_atoms": 79
+    },
+    {
+      "target_id": "MET",
+      "pose_id": "pose013",
+      "tpr": {
+        "path": "/home/ayushregmibagale/protac-md/random_screen/MET/pose013/prod/prod.tpr",
+        "sha256": "79246214fc57041e51eba369d0475132409db81b909e6d729a6eb117db169210"
+      },
+      "xtc": {
+        "path": "/home/ayushregmibagale/protac-md/analysis/random_screen/MET/pose013/prod_nojump.xtc",
+        "sha256": "75186c06cce98538581341ea6f81ab677a2d92a93d68001832be7281de054aac"
+      },
+      "protein_roles": {
+        "elob": {
+          "selection": "moltype Protein_chain_A and name CA",
+          "uniprot": "Q15370",
+          "model_sequence": "MDVFLMIRRHKTTIFTDAKESSTVFELKRIVEGILKRPPDEQRLYKDDQLLDDGKTLGEGFTSQTARPQAPATVGLAFRADDTFEALIEPFSSPPELPDVM"
+        },
+        "vhl": {
+          "selection": "moltype Protein_chain_C and name CA",
+          "uniprot": "P40337",
+          "model_sequence": "VLRSVNSREPSQVIFNRSPRVVLPVWLNFDGEPQPYPTLPPGTGRRIHSYRGHLWLFRDAGTHDGLLVNQTELFVPSLNVDGQPIFANITLPVYTLKERCLQVVRSLVKPENYRRLDIVRSLYEDLEDHPNVQKDLERLT"
+        },
+        "poi": {
+          "selection": "moltype Protein_chain_D and name CA",
+          "uniprot": "P08581",
+          "model_sequence": "IDLSALNPELVQAVQHVVIGPSSLIVHFNEVIGRGHFGCVYHGTLLDNDGKKIHCAVKSLNRIGEVSQFLTEGIIMKDFSHPNVLSLLGICLSPLVVLPYMKHGDLRNFIRNETHNPTVKDLIGFGLQVAKGMKYLASKKFVHRDLAARNCMLDEKFTVKVADFGLARDDKEYYSAKLPVKWMALESLQTQKFTTKSDVWSFGVLLWELMTRGAPPYPDVNTFDITVYLLQGRRLLQPEYCPDPLYEVMLKCWHPKAEMRPSFSELVSRISAIFSTFI"
+        }
+      },
+      "ligand_selection": "resname UNL",
+      "ligand_heavy_atoms": 79
+    },
+    {
+      "target_id": "MET",
+      "pose_id": "pose014",
+      "tpr": {
+        "path": "/home/ayushregmibagale/protac-md/random_screen/MET/pose014/prod/prod.tpr",
+        "sha256": "c91d8b402372ae6b1371bbf3141c8686b6ecf396a34deab0d341d7932538a531"
+      },
+      "xtc": {
+        "path": "/home/ayushregmibagale/protac-md/analysis/random_screen/MET/pose014/prod_nojump.xtc",
+        "sha256": "baa2c16503fdc5d40d8f5dd6b9e928fe1ddb71693cedf010e7b9d9a7742f0466"
+      },
+      "protein_roles": {
+        "elob": {
+          "selection": "moltype Protein_chain_A and name CA",
+          "uniprot": "Q15370",
+          "model_sequence": "MDVFLMIRRHKTTIFTDAKESSTVFELKRIVEGILKRPPDEQRLYKDDQLLDDGKTLGEGFTSQTARPQAPATVGLAFRADDTFEALIEPFSSPPELPDVM"
+        },
+        "vhl": {
+          "selection": "moltype Protein_chain_C and name CA",
+          "uniprot": "P40337",
+          "model_sequence": "VLRSVNSREPSQVIFNRSPRVVLPVWLNFDGEPQPYPTLPPGTGRRIHSYRGHLWLFRDAGTHDGLLVNQTELFVPSLNVDGQPIFANITLPVYTLKERCLQVVRSLVKPENYRRLDIVRSLYEDLEDHPNVQKDLERLT"
+        },
+        "poi": {
+          "selection": "moltype Protein_chain_D and name CA",
+          "uniprot": "P08581",
+          "model_sequence": "IDLSALNPELVQAVQHVVIGPSSLIVHFNEVIGRGHFGCVYHGTLLDNDGKKIHCAVKSLNRIGEVSQFLTEGIIMKDFSHPNVLSLLGICLSPLVVLPYMKHGDLRNFIRNETHNPTVKDLIGFGLQVAKGMKYLASKKFVHRDLAARNCMLDEKFTVKVADFGLARDDKEYYSAKLPVKWMALESLQTQKFTTKSDVWSFGVLLWELMTRGAPPYPDVNTFDITVYLLQGRRLLQPEYCPDPLYEVMLKCWHPKAEMRPSFSELVSRISAIFSTFI"
+        }
+      },
+      "ligand_selection": "resname UNL",
+      "ligand_heavy_atoms": 79
+    },
+    {
+      "target_id": "MET",
+      "pose_id": "pose017",
+      "tpr": {
+        "path": "/home/ayushregmibagale/protac-md/random_screen/MET/pose017/prod/prod.tpr",
+        "sha256": "eaa1c5620f1ff0b6d8981f488b65b6c0c6cc6a127d12563e8e7142ec84215b5c"
+      },
+      "xtc": {
+        "path": "/home/ayushregmibagale/protac-md/analysis/random_screen/MET/pose017/prod_nojump.xtc",
+        "sha256": "2dd6fddecb120c599f3a6ea4820839a50fa672065871ad5fe280715e93722b3a"
+      },
+      "protein_roles": {
+        "elob": {
+          "selection": "moltype Protein_chain_A and name CA",
+          "uniprot": "Q15370",
+          "model_sequence": "MDVFLMIRRHKTTIFTDAKESSTVFELKRIVEGILKRPPDEQRLYKDDQLLDDGKTLGEGFTSQTARPQAPATVGLAFRADDTFEALIEPFSSPPELPDVM"
+        },
+        "vhl": {
+          "selection": "moltype Protein_chain_C and name CA",
+          "uniprot": "P40337",
+          "model_sequence": "VLRSVNSREPSQVIFNRSPRVVLPVWLNFDGEPQPYPTLPPGTGRRIHSYRGHLWLFRDAGTHDGLLVNQTELFVPSLNVDGQPIFANITLPVYTLKERCLQVVRSLVKPENYRRLDIVRSLYEDLEDHPNVQKDLERLT"
+        },
+        "poi": {
+          "selection": "moltype Protein_chain_D and name CA",
+          "uniprot": "P08581",
+          "model_sequence": "IDLSALNPELVQAVQHVVIGPSSLIVHFNEVIGRGHFGCVYHGTLLDNDGKKIHCAVKSLNRIGEVSQFLTEGIIMKDFSHPNVLSLLGICLSPLVVLPYMKHGDLRNFIRNETHNPTVKDLIGFGLQVAKGMKYLASKKFVHRDLAARNCMLDEKFTVKVADFGLARDDKEYYSAKLPVKWMALESLQTQKFTTKSDVWSFGVLLWELMTRGAPPYPDVNTFDITVYLLQGRRLLQPEYCPDPLYEVMLKCWHPKAEMRPSFSELVSRISAIFSTFI"
+        }
+      },
+      "ligand_selection": "resname UNL",
+      "ligand_heavy_atoms": 79
+    },
+    {
+      "target_id": "MET",
+      "pose_id": "pose018",
+      "tpr": {
+        "path": "/home/ayushregmibagale/protac-md/random_screen/MET/pose018/prod/prod.tpr",
+        "sha256": "ce229f8b7626fec0d172e85c784c5e0f31336848c7172feb471ecbbd5922d40f"
+      },
+      "xtc": {
+        "path": "/home/ayushregmibagale/protac-md/analysis/random_screen/MET/pose018/prod_nojump.xtc",
+        "sha256": "e8809f6dc86ff1a74beae31a2f9fba54323c7fb3f550d5acb22ea0c4f647e5dd"
+      },
+      "protein_roles": {
+        "elob": {
+          "selection": "moltype Protein_chain_A and name CA",
+          "uniprot": "Q15370",
+          "model_sequence": "MDVFLMIRRHKTTIFTDAKESSTVFELKRIVEGILKRPPDEQRLYKDDQLLDDGKTLGEGFTSQTARPQAPATVGLAFRADDTFEALIEPFSSPPELPDVM"
+        },
+        "vhl": {
+          "selection": "moltype Protein_chain_C and name CA",
+          "uniprot": "P40337",
+          "model_sequence": "VLRSVNSREPSQVIFNRSPRVVLPVWLNFDGEPQPYPTLPPGTGRRIHSYRGHLWLFRDAGTHDGLLVNQTELFVPSLNVDGQPIFANITLPVYTLKERCLQVVRSLVKPENYRRLDIVRSLYEDLEDHPNVQKDLERLT"
+        },
+        "poi": {
+          "selection": "moltype Protein_chain_D and name CA",
+          "uniprot": "P08581",
+          "model_sequence": "IDLSALNPELVQAVQHVVIGPSSLIVHFNEVIGRGHFGCVYHGTLLDNDGKKIHCAVKSLNRIGEVSQFLTEGIIMKDFSHPNVLSLLGICLSPLVVLPYMKHGDLRNFIRNETHNPTVKDLIGFGLQVAKGMKYLASKKFVHRDLAARNCMLDEKFTVKVADFGLARDDKEYYSAKLPVKWMALESLQTQKFTTKSDVWSFGVLLWELMTRGAPPYPDVNTFDITVYLLQGRRLLQPEYCPDPLYEVMLKCWHPKAEMRPSFSELVSRISAIFSTFI"
+        }
+      },
+      "ligand_selection": "resname UNL",
+      "ligand_heavy_atoms": 79
+    },
+    {
+      "target_id": "MET",
+      "pose_id": "pose019",
+      "tpr": {
+        "path": "/home/ayushregmibagale/protac-md/random_screen/MET/pose019/prod/prod.tpr",
+        "sha256": "40737b64072c48112d7e4dcca1df7200ec3884ecfaf6329eb89208498484e2c9"
+      },
+      "xtc": {
+        "path": "/home/ayushregmibagale/protac-md/analysis/random_screen/MET/pose019/prod_nojump.xtc",
+        "sha256": "8ab57ee3fd1f078e7795ea45ad1da86d30764615719174f755c941f07614b5b7"
+      },
+      "protein_roles": {
+        "elob": {
+          "selection": "moltype Protein_chain_A and name CA",
+          "uniprot": "Q15370",
+          "model_sequence": "MDVFLMIRRHKTTIFTDAKESSTVFELKRIVEGILKRPPDEQRLYKDDQLLDDGKTLGEGFTSQTARPQAPATVGLAFRADDTFEALIEPFSSPPELPDVM"
+        },
+        "vhl": {
+          "selection": "moltype Protein_chain_C and name CA",
+          "uniprot": "P40337",
+          "model_sequence": "VLRSVNSREPSQVIFNRSPRVVLPVWLNFDGEPQPYPTLPPGTGRRIHSYRGHLWLFRDAGTHDGLLVNQTELFVPSLNVDGQPIFANITLPVYTLKERCLQVVRSLVKPENYRRLDIVRSLYEDLEDHPNVQKDLERLT"
+        },
+        "poi": {
+          "selection": "moltype Protein_chain_D and name CA",
+          "uniprot": "P08581",
+          "model_sequence": "IDLSALNPELVQAVQHVVIGPSSLIVHFNEVIGRGHFGCVYHGTLLDNDGKKIHCAVKSLNRIGEVSQFLTEGIIMKDFSHPNVLSLLGICLSPLVVLPYMKHGDLRNFIRNETHNPTVKDLIGFGLQVAKGMKYLASKKFVHRDLAARNCMLDEKFTVKVADFGLARDDKEYYSAKLPVKWMALESLQTQKFTTKSDVWSFGVLLWELMTRGAPPYPDVNTFDITVYLLQGRRLLQPEYCPDPLYEVMLKCWHPKAEMRPSFSELVSRISAIFSTFI"
+        }
+      },
+      "ligand_selection": "resname UNL",
+      "ligand_heavy_atoms": 79
+    },
+    {
+      "target_id": "MET",
+      "pose_id": "pose020",
+      "tpr": {
+        "path": "/home/ayushregmibagale/protac-md/random_screen/MET/pose020/prod/prod.tpr",
+        "sha256": "4559ad1253ec2f81f6d37e835d01b0bef3cf8f1159edf56221f742ee148499f5"
+      },
+      "xtc": {
+        "path": "/home/ayushregmibagale/protac-md/analysis/random_screen/MET/pose020/prod_nojump.xtc",
+        "sha256": "88d4d808d46aa47328833b3e4f4393a507fecb19175a4535ffba673f94f5f15a"
+      },
+      "protein_roles": {
+        "elob": {
+          "selection": "moltype Protein_chain_A and name CA",
+          "uniprot": "Q15370",
+          "model_sequence": "MDVFLMIRRHKTTIFTDAKESSTVFELKRIVEGILKRPPDEQRLYKDDQLLDDGKTLGEGFTSQTARPQAPATVGLAFRADDTFEALIEPFSSPPELPDVM"
+        },
+        "vhl": {
+          "selection": "moltype Protein_chain_C and name CA",
+          "uniprot": "P40337",
+          "model_sequence": "VLRSVNSREPSQVIFNRSPRVVLPVWLNFDGEPQPYPTLPPGTGRRIHSYRGHLWLFRDAGTHDGLLVNQTELFVPSLNVDGQPIFANITLPVYTLKERCLQVVRSLVKPENYRRLDIVRSLYEDLEDHPNVQKDLERLT"
+        },
+        "poi": {
+          "selection": "moltype Protein_chain_D and name CA",
+          "uniprot": "P08581",
+          "model_sequence": "IDLSALNPELVQAVQHVVIGPSSLIVHFNEVIGRGHFGCVYHGTLLDNDGKKIHCAVKSLNRIGEVSQFLTEGIIMKDFSHPNVLSLLGICLSPLVVLPYMKHGDLRNFIRNETHNPTVKDLIGFGLQVAKGMKYLASKKFVHRDLAARNCMLDEKFTVKVADFGLARDDKEYYSAKLPVKWMALESLQTQKFTTKSDVWSFGVLLWELMTRGAPPYPDVNTFDITVYLLQGRRLLQPEYCPDPLYEVMLKCWHPKAEMRPSFSELVSRISAIFSTFI"
+        }
+      },
+      "ligand_selection": "resname UNL",
+      "ligand_heavy_atoms": 79
+    },
+    {
+      "target_id": "EPHB2",
+      "pose_id": "pose001",
+      "tpr": {
+        "path": "/home/ayushregmibagale/protac-md/random_screen/EPHB2/pose001/prod/prod.tpr",
+        "sha256": "f36071ca7a1b1acab70910afe586624c6cb0a6906a451c5757fd52e5312974de"
+      },
+      "xtc": {
+        "path": "/home/ayushregmibagale/protac-md/analysis/random_screen/EPHB2/pose001/prod_nojump.xtc",
+        "sha256": "d9e80200b526cb1c398ecfa17e120bda8a03a4079bc8c9b7a6a6cbe10d7cd253"
+      },
+      "protein_roles": {
+        "elob": {
+          "selection": "moltype Protein_chain_A and name CA",
+          "uniprot": "Q15370",
+          "model_sequence": "MDVFLMIRRHKTTIFTDAKESSTVFELKRIVEGILKRPPDEQRLYKDDQLLDDGKTLGEGFTSQTARPQAPATVGLAFRADDTFEALIEPFSSPPELPDVM"
+        },
+        "vhl": {
+          "selection": "moltype Protein_chain_C and name CA",
+          "uniprot": "P40337",
+          "model_sequence": "VLRSVNSREPSQVIFNRSPRVVLPVWLNFDGEPQPYPTLPPGTGRRIHSYRGHLWLFRDAGTHDGLLVNQTELFVPSLNVDGQPIFANITLPVYTLKERCLQVVRSLVKPENYRRLDIVRSLYEDLEDHPNVQKDLERLT"
+        },
+        "poi": {
+          "selection": "moltype Protein_chain_D and name CA",
+          "uniprot": "P29323",
+          "model_sequence": "EIDISCVKIEQVIFGEVCSGHLKLPGKREIFVAIKTLTEKQRRDFLSEASIMGQFDHPNVIHLEGVVTKSTPVMIITEFMENGSLDSFLRQNDGQFTVIQLVGMLRGIAAGMKYLADMNYVHRDLAARNILVNSNLVCKVSDFPIRWTAPEAIQYRKFTSASDVWSYGIVMWEVMSYGERPYWDMTNQDVINAIEQDYRLPPPMDCPSALHQLMLDCWQKDRNHRPKFGQIVNTLDKMIRNPNSLKAM"
+        }
+      },
+      "ligand_selection": "resname UNL",
+      "ligand_heavy_atoms": 79
+    },
+    {
+      "target_id": "EPHB2",
+      "pose_id": "pose002",
+      "tpr": {
+        "path": "/home/ayushregmibagale/protac-md/random_screen/EPHB2/pose002/prod/prod.tpr",
+        "sha256": "d76f6cb6b646bb740d9a7ff2f161e61227f4087bb1c00eefd5807613ceda725d"
+      },
+      "xtc": {
+        "path": "/home/ayushregmibagale/protac-md/analysis/random_screen/EPHB2/pose002/prod_nojump.xtc",
+        "sha256": "7e43e62601cafd040237c8cfbfb299bee2f5a6459dcdda0454e05be8071fc71e"
+      },
+      "protein_roles": {
+        "elob": {
+          "selection": "moltype Protein_chain_A and name CA",
+          "uniprot": "Q15370",
+          "model_sequence": "MDVFLMIRRHKTTIFTDAKESSTVFELKRIVEGILKRPPDEQRLYKDDQLLDDGKTLGEGFTSQTARPQAPATVGLAFRADDTFEALIEPFSSPPELPDVM"
+        },
+        "vhl": {
+          "selection": "moltype Protein_chain_C and name CA",
+          "uniprot": "P40337",
+          "model_sequence": "VLRSVNSREPSQVIFNRSPRVVLPVWLNFDGEPQPYPTLPPGTGRRIHSYRGHLWLFRDAGTHDGLLVNQTELFVPSLNVDGQPIFANITLPVYTLKERCLQVVRSLVKPENYRRLDIVRSLYEDLEDHPNVQKDLERLT"
+        },
+        "poi": {
+          "selection": "moltype Protein_chain_D and name CA",
+          "uniprot": "P29323",
+          "model_sequence": "EIDISCVKIEQVIFGEVCSGHLKLPGKREIFVAIKTLTEKQRRDFLSEASIMGQFDHPNVIHLEGVVTKSTPVMIITEFMENGSLDSFLRQNDGQFTVIQLVGMLRGIAAGMKYLADMNYVHRDLAARNILVNSNLVCKVSDFPIRWTAPEAIQYRKFTSASDVWSYGIVMWEVMSYGERPYWDMTNQDVINAIEQDYRLPPPMDCPSALHQLMLDCWQKDRNHRPKFGQIVNTLDKMIRNPNSLKAM"
+        }
+      },
+      "ligand_selection": "resname UNL",
+      "ligand_heavy_atoms": 79
+    },
+    {
+      "target_id": "EPHB2",
+      "pose_id": "pose003",
+      "tpr": {
+        "path": "/home/ayushregmibagale/protac-md/random_screen/EPHB2/pose003/prod/prod.tpr",
+        "sha256": "d9652d8ea399a020c9e9c707e24f26de3121848f49faa4f40e5f9bf30166173e"
+      },
+      "xtc": {
+        "path": "/home/ayushregmibagale/protac-md/analysis/random_screen/EPHB2/pose003/prod_nojump.xtc",
+        "sha256": "14134b60354c32935fe7084428a9ae3a0bd1292850aa7ddef24f3f65e6f9ccd5"
+      },
+      "protein_roles": {
+        "elob": {
+          "selection": "moltype Protein_chain_A and name CA",
+          "uniprot": "Q15370",
+          "model_sequence": "MDVFLMIRRHKTTIFTDAKESSTVFELKRIVEGILKRPPDEQRLYKDDQLLDDGKTLGEGFTSQTARPQAPATVGLAFRADDTFEALIEPFSSPPELPDVM"
+        },
+        "vhl": {
+          "selection": "moltype Protein_chain_C and name CA",
+          "uniprot": "P40337",
+          "model_sequence": "VLRSVNSREPSQVIFNRSPRVVLPVWLNFDGEPQPYPTLPPGTGRRIHSYRGHLWLFRDAGTHDGLLVNQTELFVPSLNVDGQPIFANITLPVYTLKERCLQVVRSLVKPENYRRLDIVRSLYEDLEDHPNVQKDLERLT"
+        },
+        "poi": {
+          "selection": "moltype Protein_chain_D and name CA",
+          "uniprot": "P29323",
+          "model_sequence": "EIDISCVKIEQVIFGEVCSGHLKLPGKREIFVAIKTLTEKQRRDFLSEASIMGQFDHPNVIHLEGVVTKSTPVMIITEFMENGSLDSFLRQNDGQFTVIQLVGMLRGIAAGMKYLADMNYVHRDLAARNILVNSNLVCKVSDFPIRWTAPEAIQYRKFTSASDVWSYGIVMWEVMSYGERPYWDMTNQDVINAIEQDYRLPPPMDCPSALHQLMLDCWQKDRNHRPKFGQIVNTLDKMIRNPNSLKAM"
+        }
+      },
+      "ligand_selection": "resname UNL",
+      "ligand_heavy_atoms": 79
+    },
+    {
+      "target_id": "EPHB2",
+      "pose_id": "pose004",
+      "tpr": {
+        "path": "/home/ayushregmibagale/protac-md/random_screen/EPHB2/pose004/prod/prod.tpr",
+        "sha256": "51cf13c39d0793dae205c3d9b14d1669c07f47c99f4e239ddb13b6de383b5476"
+      },
+      "xtc": {
+        "path": "/home/ayushregmibagale/protac-md/analysis/random_screen/EPHB2/pose004/prod_nojump.xtc",
+        "sha256": "2acc3be6177c5d7549f64032544c51f9ffb7e341998d5feda31f39b6a2cea638"
+      },
+      "protein_roles": {
+        "elob": {
+          "selection": "moltype Protein_chain_A and name CA",
+          "uniprot": "Q15370",
+          "model_sequence": "MDVFLMIRRHKTTIFTDAKESSTVFELKRIVEGILKRPPDEQRLYKDDQLLDDGKTLGEGFTSQTARPQAPATVGLAFRADDTFEALIEPFSSPPELPDVM"
+        },
+        "vhl": {
+          "selection": "moltype Protein_chain_C and name CA",
+          "uniprot": "P40337",
+          "model_sequence": "VLRSVNSREPSQVIFNRSPRVVLPVWLNFDGEPQPYPTLPPGTGRRIHSYRGHLWLFRDAGTHDGLLVNQTELFVPSLNVDGQPIFANITLPVYTLKERCLQVVRSLVKPENYRRLDIVRSLYEDLEDHPNVQKDLERLT"
+        },
+        "poi": {
+          "selection": "moltype Protein_chain_D and name CA",
+          "uniprot": "P29323",
+          "model_sequence": "EIDISCVKIEQVIFGEVCSGHLKLPGKREIFVAIKTLTEKQRRDFLSEASIMGQFDHPNVIHLEGVVTKSTPVMIITEFMENGSLDSFLRQNDGQFTVIQLVGMLRGIAAGMKYLADMNYVHRDLAARNILVNSNLVCKVSDFPIRWTAPEAIQYRKFTSASDVWSYGIVMWEVMSYGERPYWDMTNQDVINAIEQDYRLPPPMDCPSALHQLMLDCWQKDRNHRPKFGQIVNTLDKMIRNPNSLKAM"
+        }
+      },
+      "ligand_selection": "resname UNL",
+      "ligand_heavy_atoms": 79
+    },
+    {
+      "target_id": "EPHB2",
+      "pose_id": "pose005",
+      "tpr": {
+        "path": "/home/ayushregmibagale/protac-md/random_screen/EPHB2/pose005/prod/prod.tpr",
+        "sha256": "213a88b4e650502e40c5f66330fb92c1f2ee0f194e3d8982ecf774edb6fdae9f"
+      },
+      "xtc": {
+        "path": "/home/ayushregmibagale/protac-md/analysis/random_screen/EPHB2/pose005/prod_nojump.xtc",
+        "sha256": "9312d80bbc4cd881a5ecfad6d1f6779263b9474ae9daff7784a9347aef23696a"
+      },
+      "protein_roles": {
+        "elob": {
+          "selection": "moltype Protein_chain_A and name CA",
+          "uniprot": "Q15370",
+          "model_sequence": "MDVFLMIRRHKTTIFTDAKESSTVFELKRIVEGILKRPPDEQRLYKDDQLLDDGKTLGEGFTSQTARPQAPATVGLAFRADDTFEALIEPFSSPPELPDVM"
+        },
+        "vhl": {
+          "selection": "moltype Protein_chain_C and name CA",
+          "uniprot": "P40337",
+          "model_sequence": "VLRSVNSREPSQVIFNRSPRVVLPVWLNFDGEPQPYPTLPPGTGRRIHSYRGHLWLFRDAGTHDGLLVNQTELFVPSLNVDGQPIFANITLPVYTLKERCLQVVRSLVKPENYRRLDIVRSLYEDLEDHPNVQKDLERLT"
+        },
+        "poi": {
+          "selection": "moltype Protein_chain_D and name CA",
+          "uniprot": "P29323",
+          "model_sequence": "EIDISCVKIEQVIFGEVCSGHLKLPGKREIFVAIKTLTEKQRRDFLSEASIMGQFDHPNVIHLEGVVTKSTPVMIITEFMENGSLDSFLRQNDGQFTVIQLVGMLRGIAAGMKYLADMNYVHRDLAARNILVNSNLVCKVSDFPIRWTAPEAIQYRKFTSASDVWSYGIVMWEVMSYGERPYWDMTNQDVINAIEQDYRLPPPMDCPSALHQLMLDCWQKDRNHRPKFGQIVNTLDKMIRNPNSLKAM"
+        }
+      },
+      "ligand_selection": "resname UNL",
+      "ligand_heavy_atoms": 79
+    },
+    {
+      "target_id": "EPHB2",
+      "pose_id": "pose006",
+      "tpr": {
+        "path": "/home/ayushregmibagale/protac-md/random_screen/EPHB2/pose006/prod/prod.tpr",
+        "sha256": "fbc2d1d611a4e02b397564ac2c00740840392423bcc2966f649b72614f1ee0b3"
+      },
+      "xtc": {
+        "path": "/home/ayushregmibagale/protac-md/analysis/random_screen/EPHB2/pose006/prod_nojump.xtc",
+        "sha256": "df2303dcb8169eca40f65c411a6a60893cb0d3af2063e02730e3290c174fb04c"
+      },
+      "protein_roles": {
+        "elob": {
+          "selection": "moltype Protein_chain_A and name CA",
+          "uniprot": "Q15370",
+          "model_sequence": "MDVFLMIRRHKTTIFTDAKESSTVFELKRIVEGILKRPPDEQRLYKDDQLLDDGKTLGEGFTSQTARPQAPATVGLAFRADDTFEALIEPFSSPPELPDVM"
+        },
+        "vhl": {
+          "selection": "moltype Protein_chain_C and name CA",
+          "uniprot": "P40337",
+          "model_sequence": "VLRSVNSREPSQVIFNRSPRVVLPVWLNFDGEPQPYPTLPPGTGRRIHSYRGHLWLFRDAGTHDGLLVNQTELFVPSLNVDGQPIFANITLPVYTLKERCLQVVRSLVKPENYRRLDIVRSLYEDLEDHPNVQKDLERLT"
+        },
+        "poi": {
+          "selection": "moltype Protein_chain_D and name CA",
+          "uniprot": "P29323",
+          "model_sequence": "EIDISCVKIEQVIFGEVCSGHLKLPGKREIFVAIKTLTEKQRRDFLSEASIMGQFDHPNVIHLEGVVTKSTPVMIITEFMENGSLDSFLRQNDGQFTVIQLVGMLRGIAAGMKYLADMNYVHRDLAARNILVNSNLVCKVSDFPIRWTAPEAIQYRKFTSASDVWSYGIVMWEVMSYGERPYWDMTNQDVINAIEQDYRLPPPMDCPSALHQLMLDCWQKDRNHRPKFGQIVNTLDKMIRNPNSLKAM"
+        }
+      },
+      "ligand_selection": "resname UNL",
+      "ligand_heavy_atoms": 79
+    },
+    {
+      "target_id": "EPHB2",
+      "pose_id": "pose007",
+      "tpr": {
+        "path": "/home/ayushregmibagale/protac-md/random_screen/EPHB2/pose007/prod/prod.tpr",
+        "sha256": "f3dfb6e1f03511fb739db60da17351907bc1f09a9a19c478c3a87af45e882c5f"
+      },
+      "xtc": {
+        "path": "/home/ayushregmibagale/protac-md/analysis/random_screen/EPHB2/pose007/prod_nojump.xtc",
+        "sha256": "ccfba4626c4c2a14e99cc43e706553b2cbc23465409bbcd2bd0ffa12fc3e337f"
+      },
+      "protein_roles": {
+        "elob": {
+          "selection": "moltype Protein_chain_A and name CA",
+          "uniprot": "Q15370",
+          "model_sequence": "MDVFLMIRRHKTTIFTDAKESSTVFELKRIVEGILKRPPDEQRLYKDDQLLDDGKTLGEGFTSQTARPQAPATVGLAFRADDTFEALIEPFSSPPELPDVM"
+        },
+        "vhl": {
+          "selection": "moltype Protein_chain_C and name CA",
+          "uniprot": "P40337",
+          "model_sequence": "VLRSVNSREPSQVIFNRSPRVVLPVWLNFDGEPQPYPTLPPGTGRRIHSYRGHLWLFRDAGTHDGLLVNQTELFVPSLNVDGQPIFANITLPVYTLKERCLQVVRSLVKPENYRRLDIVRSLYEDLEDHPNVQKDLERLT"
+        },
+        "poi": {
+          "selection": "moltype Protein_chain_D and name CA",
+          "uniprot": "P29323",
+          "model_sequence": "EIDISCVKIEQVIFGEVCSGHLKLPGKREIFVAIKTLTEKQRRDFLSEASIMGQFDHPNVIHLEGVVTKSTPVMIITEFMENGSLDSFLRQNDGQFTVIQLVGMLRGIAAGMKYLADMNYVHRDLAARNILVNSNLVCKVSDFPIRWTAPEAIQYRKFTSASDVWSYGIVMWEVMSYGERPYWDMTNQDVINAIEQDYRLPPPMDCPSALHQLMLDCWQKDRNHRPKFGQIVNTLDKMIRNPNSLKAM"
+        }
+      },
+      "ligand_selection": "resname UNL",
+      "ligand_heavy_atoms": 79
+    },
+    {
+      "target_id": "EPHB2",
+      "pose_id": "pose008",
+      "tpr": {
+        "path": "/home/ayushregmibagale/protac-md/random_screen/EPHB2/pose008/prod/prod.tpr",
+        "sha256": "7d89374273d9b91d206febaf698ed70212e95c1f33861f92439c940f73588d5a"
+      },
+      "xtc": {
+        "path": "/home/ayushregmibagale/protac-md/analysis/random_screen/EPHB2/pose008/prod_nojump.xtc",
+        "sha256": "7de5c01667223c8dba741313e54e5279e038aa94879b03b1078ebfa6586767a6"
+      },
+      "protein_roles": {
+        "elob": {
+          "selection": "moltype Protein_chain_A and name CA",
+          "uniprot": "Q15370",
+          "model_sequence": "MDVFLMIRRHKTTIFTDAKESSTVFELKRIVEGILKRPPDEQRLYKDDQLLDDGKTLGEGFTSQTARPQAPATVGLAFRADDTFEALIEPFSSPPELPDVM"
+        },
+        "vhl": {
+          "selection": "moltype Protein_chain_C and name CA",
+          "uniprot": "P40337",
+          "model_sequence": "VLRSVNSREPSQVIFNRSPRVVLPVWLNFDGEPQPYPTLPPGTGRRIHSYRGHLWLFRDAGTHDGLLVNQTELFVPSLNVDGQPIFANITLPVYTLKERCLQVVRSLVKPENYRRLDIVRSLYEDLEDHPNVQKDLERLT"
+        },
+        "poi": {
+          "selection": "moltype Protein_chain_D and name CA",
+          "uniprot": "P29323",
+          "model_sequence": "EIDISCVKIEQVIFGEVCSGHLKLPGKREIFVAIKTLTEKQRRDFLSEASIMGQFDHPNVIHLEGVVTKSTPVMIITEFMENGSLDSFLRQNDGQFTVIQLVGMLRGIAAGMKYLADMNYVHRDLAARNILVNSNLVCKVSDFPIRWTAPEAIQYRKFTSASDVWSYGIVMWEVMSYGERPYWDMTNQDVINAIEQDYRLPPPMDCPSALHQLMLDCWQKDRNHRPKFGQIVNTLDKMIRNPNSLKAM"
+        }
+      },
+      "ligand_selection": "resname UNL",
+      "ligand_heavy_atoms": 79
+    },
+    {
+      "target_id": "EPHB2",
+      "pose_id": "pose009",
+      "tpr": {
+        "path": "/home/ayushregmibagale/protac-md/random_screen/EPHB2/pose009/prod/prod.tpr",
+        "sha256": "0aea28f70d71be636778537b75fc5e5931021adaa6ac4f5cf76659b5dd910e8a"
+      },
+      "xtc": {
+        "path": "/home/ayushregmibagale/protac-md/analysis/random_screen/EPHB2/pose009/prod_nojump.xtc",
+        "sha256": "768122dda5c1fdf6e58f6ccdbcef08afdc24dde99c91fc70bc00f69c31887086"
+      },
+      "protein_roles": {
+        "elob": {
+          "selection": "moltype Protein_chain_A and name CA",
+          "uniprot": "Q15370",
+          "model_sequence": "MDVFLMIRRHKTTIFTDAKESSTVFELKRIVEGILKRPPDEQRLYKDDQLLDDGKTLGEGFTSQTARPQAPATVGLAFRADDTFEALIEPFSSPPELPDVM"
+        },
+        "vhl": {
+          "selection": "moltype Protein_chain_C and name CA",
+          "uniprot": "P40337",
+          "model_sequence": "VLRSVNSREPSQVIFNRSPRVVLPVWLNFDGEPQPYPTLPPGTGRRIHSYRGHLWLFRDAGTHDGLLVNQTELFVPSLNVDGQPIFANITLPVYTLKERCLQVVRSLVKPENYRRLDIVRSLYEDLEDHPNVQKDLERLT"
+        },
+        "poi": {
+          "selection": "moltype Protein_chain_D and name CA",
+          "uniprot": "P29323",
+          "model_sequence": "EIDISCVKIEQVIFGEVCSGHLKLPGKREIFVAIKTLTEKQRRDFLSEASIMGQFDHPNVIHLEGVVTKSTPVMIITEFMENGSLDSFLRQNDGQFTVIQLVGMLRGIAAGMKYLADMNYVHRDLAARNILVNSNLVCKVSDFPIRWTAPEAIQYRKFTSASDVWSYGIVMWEVMSYGERPYWDMTNQDVINAIEQDYRLPPPMDCPSALHQLMLDCWQKDRNHRPKFGQIVNTLDKMIRNPNSLKAM"
+        }
+      },
+      "ligand_selection": "resname UNL",
+      "ligand_heavy_atoms": 79
+    },
+    {
+      "target_id": "EPHB2",
+      "pose_id": "pose010",
+      "tpr": {
+        "path": "/home/ayushregmibagale/protac-md/random_screen/EPHB2/pose010/prod/prod.tpr",
+        "sha256": "28ae9c47d98a1f3882564989115ebf2a6d7f83793c326da91286827e20ccd4d7"
+      },
+      "xtc": {
+        "path": "/home/ayushregmibagale/protac-md/analysis/random_screen/EPHB2/pose010/prod_nojump.xtc",
+        "sha256": "222ec5e635293f4c177c6c164a9cd7a370322d20359db0b61b035ce03743244b"
+      },
+      "protein_roles": {
+        "elob": {
+          "selection": "moltype Protein_chain_A and name CA",
+          "uniprot": "Q15370",
+          "model_sequence": "MDVFLMIRRHKTTIFTDAKESSTVFELKRIVEGILKRPPDEQRLYKDDQLLDDGKTLGEGFTSQTARPQAPATVGLAFRADDTFEALIEPFSSPPELPDVM"
+        },
+        "vhl": {
+          "selection": "moltype Protein_chain_C and name CA",
+          "uniprot": "P40337",
+          "model_sequence": "VLRSVNSREPSQVIFNRSPRVVLPVWLNFDGEPQPYPTLPPGTGRRIHSYRGHLWLFRDAGTHDGLLVNQTELFVPSLNVDGQPIFANITLPVYTLKERCLQVVRSLVKPENYRRLDIVRSLYEDLEDHPNVQKDLERLT"
+        },
+        "poi": {
+          "selection": "moltype Protein_chain_D and name CA",
+          "uniprot": "P29323",
+          "model_sequence": "EIDISCVKIEQVIFGEVCSGHLKLPGKREIFVAIKTLTEKQRRDFLSEASIMGQFDHPNVIHLEGVVTKSTPVMIITEFMENGSLDSFLRQNDGQFTVIQLVGMLRGIAAGMKYLADMNYVHRDLAARNILVNSNLVCKVSDFPIRWTAPEAIQYRKFTSASDVWSYGIVMWEVMSYGERPYWDMTNQDVINAIEQDYRLPPPMDCPSALHQLMLDCWQKDRNHRPKFGQIVNTLDKMIRNPNSLKAM"
+        }
+      },
+      "ligand_selection": "resname UNL",
+      "ligand_heavy_atoms": 79
+    },
+    {
+      "target_id": "EPHB2",
+      "pose_id": "pose011",
+      "tpr": {
+        "path": "/home/ayushregmibagale/protac-md/random_screen/EPHB2/pose011/prod/prod.tpr",
+        "sha256": "4f7eedb638d7736c94139bae6b9eddee678ea212a43d089b401f17eefb3678ea"
+      },
+      "xtc": {
+        "path": "/home/ayushregmibagale/protac-md/analysis/random_screen/EPHB2/pose011/prod_nojump.xtc",
+        "sha256": "6f0911cd5173406527cca7e9df5cd9e775efa64781b88cf8d5fe9fd605d6a2ac"
+      },
+      "protein_roles": {
+        "elob": {
+          "selection": "moltype Protein_chain_A and name CA",
+          "uniprot": "Q15370",
+          "model_sequence": "MDVFLMIRRHKTTIFTDAKESSTVFELKRIVEGILKRPPDEQRLYKDDQLLDDGKTLGEGFTSQTARPQAPATVGLAFRADDTFEALIEPFSSPPELPDVM"
+        },
+        "vhl": {
+          "selection": "moltype Protein_chain_C and name CA",
+          "uniprot": "P40337",
+          "model_sequence": "VLRSVNSREPSQVIFNRSPRVVLPVWLNFDGEPQPYPTLPPGTGRRIHSYRGHLWLFRDAGTHDGLLVNQTELFVPSLNVDGQPIFANITLPVYTLKERCLQVVRSLVKPENYRRLDIVRSLYEDLEDHPNVQKDLERLT"
+        },
+        "poi": {
+          "selection": "moltype Protein_chain_D and name CA",
+          "uniprot": "P29323",
+          "model_sequence": "EIDISCVKIEQVIFGEVCSGHLKLPGKREIFVAIKTLTEKQRRDFLSEASIMGQFDHPNVIHLEGVVTKSTPVMIITEFMENGSLDSFLRQNDGQFTVIQLVGMLRGIAAGMKYLADMNYVHRDLAARNILVNSNLVCKVSDFPIRWTAPEAIQYRKFTSASDVWSYGIVMWEVMSYGERPYWDMTNQDVINAIEQDYRLPPPMDCPSALHQLMLDCWQKDRNHRPKFGQIVNTLDKMIRNPNSLKAM"
+        }
+      },
+      "ligand_selection": "resname UNL",
+      "ligand_heavy_atoms": 79
+    },
+    {
+      "target_id": "EPHB2",
+      "pose_id": "pose013",
+      "tpr": {
+        "path": "/home/ayushregmibagale/protac-md/random_screen/EPHB2/pose013/prod/prod.tpr",
+        "sha256": "018bfa596beb3c5c111fc41f2216e6461c5a2dd6a83f3dbbba812bf63daa98b4"
+      },
+      "xtc": {
+        "path": "/home/ayushregmibagale/protac-md/analysis/random_screen/EPHB2/pose013/prod_nojump.xtc",
+        "sha256": "b3a4fad8657117589fac3258fcc00f815423d72fa44d6f660cfa70e409e748cf"
+      },
+      "protein_roles": {
+        "elob": {
+          "selection": "moltype Protein_chain_A and name CA",
+          "uniprot": "Q15370",
+          "model_sequence": "MDVFLMIRRHKTTIFTDAKESSTVFELKRIVEGILKRPPDEQRLYKDDQLLDDGKTLGEGFTSQTARPQAPATVGLAFRADDTFEALIEPFSSPPELPDVM"
+        },
+        "vhl": {
+          "selection": "moltype Protein_chain_C and name CA",
+          "uniprot": "P40337",
+          "model_sequence": "VLRSVNSREPSQVIFNRSPRVVLPVWLNFDGEPQPYPTLPPGTGRRIHSYRGHLWLFRDAGTHDGLLVNQTELFVPSLNVDGQPIFANITLPVYTLKERCLQVVRSLVKPENYRRLDIVRSLYEDLEDHPNVQKDLERLT"
+        },
+        "poi": {
+          "selection": "moltype Protein_chain_D and name CA",
+          "uniprot": "P29323",
+          "model_sequence": "EIDISCVKIEQVIFGEVCSGHLKLPGKREIFVAIKTLTEKQRRDFLSEASIMGQFDHPNVIHLEGVVTKSTPVMIITEFMENGSLDSFLRQNDGQFTVIQLVGMLRGIAAGMKYLADMNYVHRDLAARNILVNSNLVCKVSDFPIRWTAPEAIQYRKFTSASDVWSYGIVMWEVMSYGERPYWDMTNQDVINAIEQDYRLPPPMDCPSALHQLMLDCWQKDRNHRPKFGQIVNTLDKMIRNPNSLKAM"
+        }
+      },
+      "ligand_selection": "resname UNL",
+      "ligand_heavy_atoms": 79
+    },
+    {
+      "target_id": "EPHB2",
+      "pose_id": "pose014",
+      "tpr": {
+        "path": "/home/ayushregmibagale/protac-md/random_screen/EPHB2/pose014/prod/prod.tpr",
+        "sha256": "7a56b699e50ea23f7c02b3b0dfac28d31d8577e82d445daea87f09078b9a46b8"
+      },
+      "xtc": {
+        "path": "/home/ayushregmibagale/protac-md/analysis/random_screen/EPHB2/pose014/prod_nojump.xtc",
+        "sha256": "5c772743609affeb5df19c71cdcb499dca9bbb29c6f0c4f955ccc8fe637e8edf"
+      },
+      "protein_roles": {
+        "elob": {
+          "selection": "moltype Protein_chain_A and name CA",
+          "uniprot": "Q15370",
+          "model_sequence": "MDVFLMIRRHKTTIFTDAKESSTVFELKRIVEGILKRPPDEQRLYKDDQLLDDGKTLGEGFTSQTARPQAPATVGLAFRADDTFEALIEPFSSPPELPDVM"
+        },
+        "vhl": {
+          "selection": "moltype Protein_chain_C and name CA",
+          "uniprot": "P40337",
+          "model_sequence": "VLRSVNSREPSQVIFNRSPRVVLPVWLNFDGEPQPYPTLPPGTGRRIHSYRGHLWLFRDAGTHDGLLVNQTELFVPSLNVDGQPIFANITLPVYTLKERCLQVVRSLVKPENYRRLDIVRSLYEDLEDHPNVQKDLERLT"
+        },
+        "poi": {
+          "selection": "moltype Protein_chain_D and name CA",
+          "uniprot": "P29323",
+          "model_sequence": "EIDISCVKIEQVIFGEVCSGHLKLPGKREIFVAIKTLTEKQRRDFLSEASIMGQFDHPNVIHLEGVVTKSTPVMIITEFMENGSLDSFLRQNDGQFTVIQLVGMLRGIAAGMKYLADMNYVHRDLAARNILVNSNLVCKVSDFPIRWTAPEAIQYRKFTSASDVWSYGIVMWEVMSYGERPYWDMTNQDVINAIEQDYRLPPPMDCPSALHQLMLDCWQKDRNHRPKFGQIVNTLDKMIRNPNSLKAM"
+        }
+      },
+      "ligand_selection": "resname UNL",
+      "ligand_heavy_atoms": 79
+    },
+    {
+      "target_id": "EPHB2",
+      "pose_id": "pose015",
+      "tpr": {
+        "path": "/home/ayushregmibagale/protac-md/random_screen/EPHB2/pose015/prod/prod.tpr",
+        "sha256": "e7533af23028d66d90f2959ae6bab071d6c9d77c43c16d7ed30be1f6beb0874a"
+      },
+      "xtc": {
+        "path": "/home/ayushregmibagale/protac-md/analysis/random_screen/EPHB2/pose015/prod_nojump.xtc",
+        "sha256": "512a96355005b34682d0017d8c12107584adaea78b62d0a007463530bd44487f"
+      },
+      "protein_roles": {
+        "elob": {
+          "selection": "moltype Protein_chain_A and name CA",
+          "uniprot": "Q15370",
+          "model_sequence": "MDVFLMIRRHKTTIFTDAKESSTVFELKRIVEGILKRPPDEQRLYKDDQLLDDGKTLGEGFTSQTARPQAPATVGLAFRADDTFEALIEPFSSPPELPDVM"
+        },
+        "vhl": {
+          "selection": "moltype Protein_chain_C and name CA",
+          "uniprot": "P40337",
+          "model_sequence": "VLRSVNSREPSQVIFNRSPRVVLPVWLNFDGEPQPYPTLPPGTGRRIHSYRGHLWLFRDAGTHDGLLVNQTELFVPSLNVDGQPIFANITLPVYTLKERCLQVVRSLVKPENYRRLDIVRSLYEDLEDHPNVQKDLERLT"
+        },
+        "poi": {
+          "selection": "moltype Protein_chain_D and name CA",
+          "uniprot": "P29323",
+          "model_sequence": "EIDISCVKIEQVIFGEVCSGHLKLPGKREIFVAIKTLTEKQRRDFLSEASIMGQFDHPNVIHLEGVVTKSTPVMIITEFMENGSLDSFLRQNDGQFTVIQLVGMLRGIAAGMKYLADMNYVHRDLAARNILVNSNLVCKVSDFPIRWTAPEAIQYRKFTSASDVWSYGIVMWEVMSYGERPYWDMTNQDVINAIEQDYRLPPPMDCPSALHQLMLDCWQKDRNHRPKFGQIVNTLDKMIRNPNSLKAM"
+        }
+      },
+      "ligand_selection": "resname UNL",
+      "ligand_heavy_atoms": 79
+    },
+    {
+      "target_id": "EPHB2",
+      "pose_id": "pose016",
+      "tpr": {
+        "path": "/home/ayushregmibagale/protac-md/random_screen/EPHB2/pose016/prod/prod.tpr",
+        "sha256": "bbc9f76b10e35ad86c95784e7b6f0ee15f4d40ef6ad4a16d67fd4ad5ab66c687"
+      },
+      "xtc": {
+        "path": "/home/ayushregmibagale/protac-md/analysis/random_screen/EPHB2/pose016/prod_nojump.xtc",
+        "sha256": "79b9837f32c68fefa94a816458a189167fac614bf19eec53b990c418043d5f44"
+      },
+      "protein_roles": {
+        "elob": {
+          "selection": "moltype Protein_chain_A and name CA",
+          "uniprot": "Q15370",
+          "model_sequence": "MDVFLMIRRHKTTIFTDAKESSTVFELKRIVEGILKRPPDEQRLYKDDQLLDDGKTLGEGFTSQTARPQAPATVGLAFRADDTFEALIEPFSSPPELPDVM"
+        },
+        "vhl": {
+          "selection": "moltype Protein_chain_C and name CA",
+          "uniprot": "P40337",
+          "model_sequence": "VLRSVNSREPSQVIFNRSPRVVLPVWLNFDGEPQPYPTLPPGTGRRIHSYRGHLWLFRDAGTHDGLLVNQTELFVPSLNVDGQPIFANITLPVYTLKERCLQVVRSLVKPENYRRLDIVRSLYEDLEDHPNVQKDLERLT"
+        },
+        "poi": {
+          "selection": "moltype Protein_chain_D and name CA",
+          "uniprot": "P29323",
+          "model_sequence": "EIDISCVKIEQVIFGEVCSGHLKLPGKREIFVAIKTLTEKQRRDFLSEASIMGQFDHPNVIHLEGVVTKSTPVMIITEFMENGSLDSFLRQNDGQFTVIQLVGMLRGIAAGMKYLADMNYVHRDLAARNILVNSNLVCKVSDFPIRWTAPEAIQYRKFTSASDVWSYGIVMWEVMSYGERPYWDMTNQDVINAIEQDYRLPPPMDCPSALHQLMLDCWQKDRNHRPKFGQIVNTLDKMIRNPNSLKAM"
+        }
+      },
+      "ligand_selection": "resname UNL",
+      "ligand_heavy_atoms": 79
+    },
+    {
+      "target_id": "EPHB2",
+      "pose_id": "pose017",
+      "tpr": {
+        "path": "/home/ayushregmibagale/protac-md/random_screen/EPHB2/pose017/prod/prod.tpr",
+        "sha256": "a04947db94db05eb03227af8c1621b3ce19e17c4fdf80bc9916f1d0262e8dca2"
+      },
+      "xtc": {
+        "path": "/home/ayushregmibagale/protac-md/analysis/random_screen/EPHB2/pose017/prod_nojump.xtc",
+        "sha256": "91cd737b678075e052cd29a0347de7ca1ea3dfe3d7f30638427787543f2ca029"
+      },
+      "protein_roles": {
+        "elob": {
+          "selection": "moltype Protein_chain_A and name CA",
+          "uniprot": "Q15370",
+          "model_sequence": "MDVFLMIRRHKTTIFTDAKESSTVFELKRIVEGILKRPPDEQRLYKDDQLLDDGKTLGEGFTSQTARPQAPATVGLAFRADDTFEALIEPFSSPPELPDVM"
+        },
+        "vhl": {
+          "selection": "moltype Protein_chain_C and name CA",
+          "uniprot": "P40337",
+          "model_sequence": "VLRSVNSREPSQVIFNRSPRVVLPVWLNFDGEPQPYPTLPPGTGRRIHSYRGHLWLFRDAGTHDGLLVNQTELFVPSLNVDGQPIFANITLPVYTLKERCLQVVRSLVKPENYRRLDIVRSLYEDLEDHPNVQKDLERLT"
+        },
+        "poi": {
+          "selection": "moltype Protein_chain_D and name CA",
+          "uniprot": "P29323",
+          "model_sequence": "EIDISCVKIEQVIFGEVCSGHLKLPGKREIFVAIKTLTEKQRRDFLSEASIMGQFDHPNVIHLEGVVTKSTPVMIITEFMENGSLDSFLRQNDGQFTVIQLVGMLRGIAAGMKYLADMNYVHRDLAARNILVNSNLVCKVSDFPIRWTAPEAIQYRKFTSASDVWSYGIVMWEVMSYGERPYWDMTNQDVINAIEQDYRLPPPMDCPSALHQLMLDCWQKDRNHRPKFGQIVNTLDKMIRNPNSLKAM"
+        }
+      },
+      "ligand_selection": "resname UNL",
+      "ligand_heavy_atoms": 79
+    },
+    {
+      "target_id": "EPHB2",
+      "pose_id": "pose018",
+      "tpr": {
+        "path": "/home/ayushregmibagale/protac-md/random_screen/EPHB2/pose018/prod/prod.tpr",
+        "sha256": "67234bd40ceca652a9995e6baf6a0de0dc3ccf7aec3c779227c2cefc0c953c98"
+      },
+      "xtc": {
+        "path": "/home/ayushregmibagale/protac-md/analysis/random_screen/EPHB2/pose018/prod_nojump.xtc",
+        "sha256": "ecf46e4df92ded17df93a3ceec2641b80daffab22e58fb2ca546e8b1e3186b88"
+      },
+      "protein_roles": {
+        "elob": {
+          "selection": "moltype Protein_chain_A and name CA",
+          "uniprot": "Q15370",
+          "model_sequence": "MDVFLMIRRHKTTIFTDAKESSTVFELKRIVEGILKRPPDEQRLYKDDQLLDDGKTLGEGFTSQTARPQAPATVGLAFRADDTFEALIEPFSSPPELPDVM"
+        },
+        "vhl": {
+          "selection": "moltype Protein_chain_C and name CA",
+          "uniprot": "P40337",
+          "model_sequence": "VLRSVNSREPSQVIFNRSPRVVLPVWLNFDGEPQPYPTLPPGTGRRIHSYRGHLWLFRDAGTHDGLLVNQTELFVPSLNVDGQPIFANITLPVYTLKERCLQVVRSLVKPENYRRLDIVRSLYEDLEDHPNVQKDLERLT"
+        },
+        "poi": {
+          "selection": "moltype Protein_chain_D and name CA",
+          "uniprot": "P29323",
+          "model_sequence": "EIDISCVKIEQVIFGEVCSGHLKLPGKREIFVAIKTLTEKQRRDFLSEASIMGQFDHPNVIHLEGVVTKSTPVMIITEFMENGSLDSFLRQNDGQFTVIQLVGMLRGIAAGMKYLADMNYVHRDLAARNILVNSNLVCKVSDFPIRWTAPEAIQYRKFTSASDVWSYGIVMWEVMSYGERPYWDMTNQDVINAIEQDYRLPPPMDCPSALHQLMLDCWQKDRNHRPKFGQIVNTLDKMIRNPNSLKAM"
+        }
+      },
+      "ligand_selection": "resname UNL",
+      "ligand_heavy_atoms": 79
+    },
+    {
+      "target_id": "EPHB2",
+      "pose_id": "pose019",
+      "tpr": {
+        "path": "/home/ayushregmibagale/protac-md/random_screen/EPHB2/pose019/prod/prod.tpr",
+        "sha256": "6185e8564a8e8ca4654fcbc157e6f9077971ce62b34f4853d591ffb42b5a9702"
+      },
+      "xtc": {
+        "path": "/home/ayushregmibagale/protac-md/analysis/random_screen/EPHB2/pose019/prod_nojump.xtc",
+        "sha256": "3987e1d42b85380629c20219159b923a8b4a1331d9b862267d42245df8fbc85b"
+      },
+      "protein_roles": {
+        "elob": {
+          "selection": "moltype Protein_chain_A and name CA",
+          "uniprot": "Q15370",
+          "model_sequence": "MDVFLMIRRHKTTIFTDAKESSTVFELKRIVEGILKRPPDEQRLYKDDQLLDDGKTLGEGFTSQTARPQAPATVGLAFRADDTFEALIEPFSSPPELPDVM"
+        },
+        "vhl": {
+          "selection": "moltype Protein_chain_C and name CA",
+          "uniprot": "P40337",
+          "model_sequence": "VLRSVNSREPSQVIFNRSPRVVLPVWLNFDGEPQPYPTLPPGTGRRIHSYRGHLWLFRDAGTHDGLLVNQTELFVPSLNVDGQPIFANITLPVYTLKERCLQVVRSLVKPENYRRLDIVRSLYEDLEDHPNVQKDLERLT"
+        },
+        "poi": {
+          "selection": "moltype Protein_chain_D and name CA",
+          "uniprot": "P29323",
+          "model_sequence": "EIDISCVKIEQVIFGEVCSGHLKLPGKREIFVAIKTLTEKQRRDFLSEASIMGQFDHPNVIHLEGVVTKSTPVMIITEFMENGSLDSFLRQNDGQFTVIQLVGMLRGIAAGMKYLADMNYVHRDLAARNILVNSNLVCKVSDFPIRWTAPEAIQYRKFTSASDVWSYGIVMWEVMSYGERPYWDMTNQDVINAIEQDYRLPPPMDCPSALHQLMLDCWQKDRNHRPKFGQIVNTLDKMIRNPNSLKAM"
+        }
+      },
+      "ligand_selection": "resname UNL",
+      "ligand_heavy_atoms": 79
+    },
+    {
+      "target_id": "EPHB2",
+      "pose_id": "pose020",
+      "tpr": {
+        "path": "/home/ayushregmibagale/protac-md/random_screen/EPHB2/pose020/prod/prod.tpr",
+        "sha256": "1e684bf0c25409986a3860d6ce1b59b3787cf46349c254354184e7e0f852802d"
+      },
+      "xtc": {
+        "path": "/home/ayushregmibagale/protac-md/analysis/random_screen/EPHB2/pose020/prod_nojump.xtc",
+        "sha256": "40e1d45db88dce45641656babeb4d34c1b8b8a15ffc1083464ef3949b626bdba"
+      },
+      "protein_roles": {
+        "elob": {
+          "selection": "moltype Protein_chain_A and name CA",
+          "uniprot": "Q15370",
+          "model_sequence": "MDVFLMIRRHKTTIFTDAKESSTVFELKRIVEGILKRPPDEQRLYKDDQLLDDGKTLGEGFTSQTARPQAPATVGLAFRADDTFEALIEPFSSPPELPDVM"
+        },
+        "vhl": {
+          "selection": "moltype Protein_chain_C and name CA",
+          "uniprot": "P40337",
+          "model_sequence": "VLRSVNSREPSQVIFNRSPRVVLPVWLNFDGEPQPYPTLPPGTGRRIHSYRGHLWLFRDAGTHDGLLVNQTELFVPSLNVDGQPIFANITLPVYTLKERCLQVVRSLVKPENYRRLDIVRSLYEDLEDHPNVQKDLERLT"
+        },
+        "poi": {
+          "selection": "moltype Protein_chain_D and name CA",
+          "uniprot": "P29323",
+          "model_sequence": "EIDISCVKIEQVIFGEVCSGHLKLPGKREIFVAIKTLTEKQRRDFLSEASIMGQFDHPNVIHLEGVVTKSTPVMIITEFMENGSLDSFLRQNDGQFTVIQLVGMLRGIAAGMKYLADMNYVHRDLAARNILVNSNLVCKVSDFPIRWTAPEAIQYRKFTSASDVWSYGIVMWEVMSYGERPYWDMTNQDVINAIEQDYRLPPPMDCPSALHQLMLDCWQKDRNHRPKFGQIVNTLDKMIRNPNSLKAM"
+        }
+      },
+      "ligand_selection": "resname UNL",
+      "ligand_heavy_atoms": 79
+    }
+  ]
+}

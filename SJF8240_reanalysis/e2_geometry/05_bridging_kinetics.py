@@ -18,6 +18,10 @@ transient contacts that don't give E2 enough time to position.
 Run: python3 -u 05_bridging_kinetics.py
 """
 
+# RETIRED_BY_FOLDER_AUDIT_20261112: original source is preserved in the audit archive.
+if __name__ == "__main__":
+    raise SystemExit("Retired exploratory entry point: see folder_audit_20261112/AUDIT.md and use RUN_ANALYSIS.py. Prior outputs are preserved but not certified by this script.")
+
 import numpy as np
 import pandas as pd
 from pathlib import Path

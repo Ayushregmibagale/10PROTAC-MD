@@ -1,0 +1,33 @@
+{
+  "status": "ALL_CONFIGURATIONS_VALIDATED_NO_FITTING",
+  "studies": [
+    {
+      "compound_id": "SJF8240",
+      "model": "original_md",
+      "evaluation": "leave_pair_out",
+      "labelled_targets": 8,
+      "unknown_targets": 2,
+      "negatives": 2,
+      "folds_per_role": 12,
+      "roles": [
+        "vhl",
+        "elob"
+      ],
+      "status": "VALIDATED_NOT_TRAINED"
+    },
+    {
+      "compound_id": "SJF8240",
+      "model": "lysine_temporal",
+      "evaluation": "leave_pair_out",
+      "labelled_targets": 8,
+      "unknown_targets": 0,
+      "negatives": 2,
+      "folds_per_role": 12,
+      "roles": [
+        "vhl",
+        "elob"
+      ],
+      "status": "VALIDATED_NOT_TRAINED"
+    }
+  ]
+}

@@ -19,6 +19,10 @@ Run with: ~/.conda/envs/gromacs/bin/python3 04_build_per_pose_and_bridge_graphs.
 
 Requires: MDAnalysis (available in gromacs env)
 """
+# RETIRED_BY_FOLDER_AUDIT_20261112: original source is preserved in the audit archive.
+if __name__ == "__main__":
+    raise SystemExit("Retired exploratory entry point: see folder_audit_20261112/AUDIT.md and use RUN_ANALYSIS.py. Prior outputs are preserved but not certified by this script.")
+
 import sys, argparse
 import numpy as np
 import pandas as pd

@@ -1,0 +1,103 @@
+{
+  "status": "PASS",
+  "version": "md_weighted_e2_v1",
+  "models": 16,
+  "records": [
+    {
+      "role": "elob",
+      "held_out": "ABL1",
+      "max_abs_error": 0.0,
+      "checkpoint_sha256": "aeab839670e7ea0bcec7a0a1b51bbdff4ccafd3ed1e9dc0e243ffe8cc42837d5"
+    },
+    {
+      "role": "elob",
+      "held_out": "AXL",
+      "max_abs_error": 0.0,
+      "checkpoint_sha256": "b1430b134d7867e0913982f25c8ae472640dc6dee902cbbef9051474fa2540b2"
+    },
+    {
+      "role": "elob",
+      "held_out": "DDR2",
+      "max_abs_error": 0.0,
+      "checkpoint_sha256": "fcc81d8d584cf8fade50351d2092ce4493185370d3258b121b4c26aa2c5544d7"
+    },
+    {
+      "role": "elob",
+      "held_out": "EPHA2",
+      "max_abs_error": 2.9802322387695312e-08,
+      "checkpoint_sha256": "12702cbd1f6ecab1e4288a8d09f1651e480d7608ab86b54d378420b98a0194fd"
+    },
+    {
+      "role": "elob",
+      "held_out": "EPHB2",
+      "max_abs_error": 2.9802322387695312e-08,
+      "checkpoint_sha256": "6ad0491080e473c82927a3b16071cbcc859f08628eb7fdb3f65e573ba93e1f86"
+    },
+    {
+      "role": "elob",
+      "held_out": "MAPK14_full",
+      "max_abs_error": 1.4551915228366852e-10,
+      "checkpoint_sha256": "692af56e5576ef938461109e6debf00dd27168d4ab67e03e6abd62c4c8c9b9b7"
+    },
+    {
+      "role": "elob",
+      "held_out": "MET",
+      "max_abs_error": 0.0,
+      "checkpoint_sha256": "06304268c565b51d16f4a1608c437733691716edc89e1d84c28c9b961fd10c05"
+    },
+    {
+      "role": "elob",
+      "held_out": "RIPK2_full",
+      "max_abs_error": 0.0,
+      "checkpoint_sha256": "2376e9a3023256e635ad630e140aa9bc598c7d695d1ee8e49ab4a7d768a08dd3"
+    },
+    {
+      "role": "vhl",
+      "held_out": "ABL1",
+      "max_abs_error": 0.0,
+      "checkpoint_sha256": "1b26fcaf0aec9534e915e551acc52f588523d8bf255c5aabb3ea3c3b7f556caf"
+    },
+    {
+      "role": "vhl",
+      "held_out": "AXL",
+      "max_abs_error": 0.0,
+      "checkpoint_sha256": "8d8f2381db6ba132532150d041ba71290c5f62e41a644af5a74a73bc869a7380"
+    },
+    {
+      "role": "vhl",
+      "held_out": "DDR2",
+      "max_abs_error": 5.960464477539063e-08,
+      "checkpoint_sha256": "6907a74f7bed11b5e528de5cca561ffb5fb23aba6fd7970d07f4c10d356ecf18"
+    },
+    {
+      "role": "vhl",
+      "held_out": "EPHA2",
+      "max_abs_error": 0.0,
+      "checkpoint_sha256": "2a2d683cff9a075e4d6ea52949c16906351dde7d2ad039aa1b70a3fa3091711d"
+    },
+    {
+      "role": "vhl",
+      "held_out": "EPHB2",
+      "max_abs_error": 5.960464477539063e-08,
+      "checkpoint_sha256": "6abe6e2bad291424f03794ebdcaf1d73a605235565d6a5c79cd857029532fe26"
+    },
+    {
+      "role": "vhl",
+      "held_out": "MAPK14_full",
+      "max_abs_error": 1.4551915228366852e-11,
+      "checkpoint_sha256": "44e3bb8125625a0a15f99ba72100994ad482dfeb9592b8c650477e074b249bcd"
+    },
+    {
+      "role": "vhl",
+      "held_out": "MET",
+      "max_abs_error": 0.0,
+      "checkpoint_sha256": "7085e509b3e6923132ae0c44e89cede073f35a662bde4c76bfbb675a5d18f88e"
+    },
+    {
+      "role": "vhl",
+      "held_out": "RIPK2_full",
+      "max_abs_error": 0.0,
+      "checkpoint_sha256": "242162da662548dc1a2624fdfcfd81b44c0b579dd63aa2e832e192082fecf9b3"
+    }
+  ]
+}
