@@ -1,0 +1,9 @@
+poi	label	best_lys	best_reach50_br	best_known_ubi	worst_lys	worst_delta	n_lys	mean_delta	n_negative_delta
+DDR2	1	117	0.1206	False	152	-0.0292	14	0.001	6
+ABL1	0	270	0.0978	False	130	-0.0821	18	-0.0196	18
+AXL	0	327	0.1349	False	116	-0.034	16	-0.0168	14
+EPHA2	1	374	0.1042	False	185	-0.0487	20	-0.0069	11
+EPHB2	1	321	0.083	False	258	-0.0018	13	0.0018	2
+MAPK14_full	1	113	0.5045	False	319	-0.0266	19	0.0162	4
+MET	1	221	0.0357	False	153	-0.0036	19	0.0022	1
+RIPK2_full	1	290	0.1292	False	349	-0.0236	13	-0.0041	6

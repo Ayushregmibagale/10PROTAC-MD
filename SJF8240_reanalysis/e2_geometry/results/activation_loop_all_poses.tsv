@@ -1,0 +1,142 @@
+poi	label	pose_id	dfg_resid	frac_bridging	aloop_rmsd_bridging	aloop_rmsd_nonbr	aloop_delta_rmsd	n_br_frames	n_frames
+DDR2	1	pose001	737.0	0.0				0	21
+DDR2	1	pose002	737.0	0.0				0	21
+DDR2	1	pose003	737.0	0.8571				18	21
+DDR2	1	pose004	737.0	0.0				0	21
+DDR2	1	pose005	737.0	0.0				0	21
+DDR2	1	pose006	737.0	0.0				0	21
+DDR2	1	pose007	737.0	0.0				0	21
+DDR2	1	pose008	737.0	0.0				0	21
+DDR2	1	pose010	737.0	0.0				0	21
+DDR2	1	pose011	737.0	0.0				0	21
+DDR2	1	pose013	737.0	0.0				0	21
+DDR2	1	pose014	737.0	0.0				0	21
+DDR2	1	pose015	737.0	0.0				0	21
+DDR2	1	pose016	737.0	0.8571				18	21
+DDR2	1	pose017	737.0	0.0				0	21
+DDR2	1	pose018	737.0	0.0				0	21
+DDR2	1	pose019	737.0	0.0				0	21
+DDR2	1	pose020	737.0	0.5714				12	21
+ABL1	0	pose001	381.0	0.0				0	21
+ABL1	0	pose003	381.0	0.0				0	21
+ABL1	0	pose004	381.0	0.0				0	21
+ABL1	0	pose005	381.0	0.6667				14	21
+ABL1	0	pose006	381.0	0.0				0	21
+ABL1	0	pose008	381.0	0.0				0	21
+ABL1	0	pose009	381.0	0.0				0	21
+ABL1	0	pose010	381.0	0.0				0	21
+ABL1	0	pose011	381.0	0.0				0	21
+ABL1	0	pose013	381.0	0.4286				9	21
+ABL1	0	pose014	381.0	0.0				0	21
+ABL1	0	pose015	381.0	0.0				0	21
+ABL1	0	pose016	381.0	0.7619				16	21
+ABL1	0	pose017	381.0	0.0				0	21
+ABL1	0	pose018	381.0	0.381				8	21
+ABL1	0	pose019	381.0	0.0				0	21
+ABL1	0	pose020	381.0	1.0				21	21
+AXL	0	pose001	690.0	0.0				0	21
+AXL	0	pose002	690.0	0.0				0	21
+AXL	0	pose004	690.0	0.0				0	21
+AXL	0	pose005	690.0	0.0				0	21
+AXL	0	pose006	690.0	0.0				0	21
+AXL	0	pose007	690.0	0.2381				5	21
+AXL	0	pose008	690.0	0.0				0	21
+AXL	0	pose009	690.0	0.0				0	21
+AXL	0	pose010	690.0	0.0				0	21
+AXL	0	pose011	690.0	0.1089				11	101
+AXL	0	pose012	690.0	0.0				0	21
+AXL	0	pose013	690.0	0.0				0	21
+AXL	0	pose015	690.0	0.0				0	21
+AXL	0	pose016	690.0	0.4286				9	21
+AXL	0	pose017	690.0	0.3333				7	21
+AXL	0	pose018	690.0	0.0				0	21
+AXL	0	pose019	690.0	0.3333				7	21
+AXL	0	pose020	690.0	0.3333				7	21
+EPHA2	1	pose001	757.0	0.0				0	21
+EPHA2	1	pose002	757.0	0.6667				14	21
+EPHA2	1	pose003	757.0	0.0952				2	21
+EPHA2	1	pose004	757.0	0.0				0	21
+EPHA2	1	pose005	757.0	0.0				0	21
+EPHA2	1	pose006	757.0	0.0				0	21
+EPHA2	1	pose007	757.0	0.0476				1	21
+EPHA2	1	pose008	757.0	0.0				0	21
+EPHA2	1	pose009	757.0	0.0				0	21
+EPHA2	1	pose010	757.0	0.0				0	21
+EPHA2	1	pose011	757.0	0.0				0	21
+EPHA2	1	pose012	757.0	0.0				0	21
+EPHA2	1	pose013	757.0	0.2381				5	21
+EPHA2	1	pose015	757.0	0.381				8	21
+EPHA2	1	pose017	757.0	0.0				0	21
+EPHA2	1	pose018	757.0	0.0952				2	21
+EPHA2	1	pose019	757.0	0.4286				9	21
+EPHA2	1	pose020	757.0	0.0				0	21
+EPHB2	1	pose001		0.0				0	21
+EPHB2	1	pose002		0.0				0	21
+EPHB2	1	pose003		0.0				0	21
+EPHB2	1	pose004		0.0				0	21
+EPHB2	1	pose005		0.0476				1	21
+EPHB2	1	pose006		0.0				0	21
+EPHB2	1	pose007		0.0				0	21
+EPHB2	1	pose008		0.0				0	21
+EPHB2	1	pose009		0.0				0	21
+EPHB2	1	pose010		0.0				0	21
+EPHB2	1	pose011		0.0				0	21
+EPHB2	1	pose013		0.0				0	21
+EPHB2	1	pose014		0.0				0	21
+EPHB2	1	pose015		0.0				0	21
+EPHB2	1	pose016		0.0				0	21
+EPHB2	1	pose017		0.2381				5	21
+EPHB2	1	pose018		0.0				0	21
+EPHB2	1	pose019		0.0				0	21
+EPHB2	1	pose020		0.0952				2	21
+MAPK14_full	1	pose001	364.0	0.1905	12.522	28.114	-15.593	4	21
+MAPK14_full	1	pose002	364.0	0.0		9.235		0	21
+MAPK14_full	1	pose003	364.0	0.0476	0.0	16.244	-16.244	1	21
+MAPK14_full	1	pose004	364.0	0.0		24.762		0	21
+MAPK14_full	1	pose005	364.0	0.5714	15.38	13.991	1.39	12	21
+MAPK14_full	1	pose006	364.0	0.0		12.107		0	21
+MAPK14_full	1	pose007	364.0	0.0		23.923		0	21
+MAPK14_full	1	pose008	364.0	0.0		34.742		0	21
+MAPK14_full	1	pose009	364.0	0.0		12.807		0	21
+MAPK14_full	1	pose010	364.0	0.7143	20.056	11.99	8.066	15	21
+MAPK14_full	1	pose011	364.0	0.0476	11.24	26.406	-15.166	1	21
+MAPK14_full	1	pose012	364.0	0.9524	17.467	19.191	-1.724	20	21
+MAPK14_full	1	pose013	364.0	0.0		28.256		0	21
+MAPK14_full	1	pose015	364.0	0.4286	12.789	18.764	-5.975	9	21
+MAPK14_full	1	pose016	364.0	0.4286	19.013	21.414	-2.401	9	21
+MAPK14_full	1	pose017	364.0	0.0		20.582		0	21
+MAPK14_full	1	pose018	364.0	0.0476	0.0	21.126	-21.126	1	21
+MAPK14_full	1	pose020	364.0	0.1429	6.649	22.405	-15.756	3	21
+MET	1	pose002	1222.0	0.1905				4	21
+MET	1	pose003	1222.0	0.0952				2	21
+MET	1	pose004	1222.0	0.0				0	21
+MET	1	pose005	1222.0	0.3333				7	21
+MET	1	pose006	1222.0	0.0				0	21
+MET	1	pose007	1222.0	0.0952				2	21
+MET	1	pose008	1222.0	0.0				0	21
+MET	1	pose009	1222.0	0.0476				1	21
+MET	1	pose011	1222.0	0.0				0	21
+MET	1	pose012	1222.0	0.1429				3	21
+MET	1	pose013	1222.0	0.0				0	21
+MET	1	pose014	1222.0	0.0476				1	21
+MET	1	pose017	1222.0	0.0				0	21
+MET	1	pose018	1222.0	0.1429				3	21
+MET	1	pose019	1222.0	0.0				0	21
+MET	1	pose020	1222.0	0.0				0	21
+RIPK2_full	1	pose001		0.0				0	21
+RIPK2_full	1	pose003		0.0				0	21
+RIPK2_full	1	pose004		0.0				0	21
+RIPK2_full	1	pose005		0.2381				5	21
+RIPK2_full	1	pose006		0.2381				5	21
+RIPK2_full	1	pose007		0.0				0	21
+RIPK2_full	1	pose008		0.0				0	21
+RIPK2_full	1	pose009		0.1429				3	21
+RIPK2_full	1	pose010		0.0				0	21
+RIPK2_full	1	pose011		0.9524				20	21
+RIPK2_full	1	pose012		0.619				13	21
+RIPK2_full	1	pose015		0.0				0	21
+RIPK2_full	1	pose016		0.0				0	21
+RIPK2_full	1	pose017		0.0				0	21
+RIPK2_full	1	pose018		0.0				0	21
+RIPK2_full	1	pose019		1.0				21	21
+RIPK2_full	1	pose020		0.0				0	21
