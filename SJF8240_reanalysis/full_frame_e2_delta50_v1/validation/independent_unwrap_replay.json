@@ -1,0 +1,129 @@
+{
+  "status": "PASS",
+  "cases": 8,
+  "frames": 1608,
+  "selection": "First lexicographic retained pose per target, selected without score access",
+  "scope": "Fresh read with standard MDAnalysis unwrap; shared reviewed Kabsch/imaging helpers. Numerical cross-check, not biological validation.",
+  "records": [
+    {
+      "poi": "ABL1",
+      "pose": "pose001",
+      "frames": 201,
+      "distance_errors_A": {
+        "legacy_min_e2_A": 1.791566656095256e-05,
+        "corrected_min_e2_A": 1.054603180250524e-05
+      },
+      "threshold_classification_changes": {
+        "legacy_min_e2_A": 0,
+        "corrected_min_e2_A": 0
+      },
+      "main_packet_sha256": "8334b083ec532d1c950dec9ab96a778174c071d8ca39f5bda1eadca200b87be2",
+      "replay_packet_sha256": "fd4f8304c27f573c4a0f171b1d2849d905fa7ad7aff4d96c91a79476e23c76e1"
+    },
+    {
+      "poi": "AXL",
+      "pose": "pose001",
+      "frames": 201,
+      "distance_errors_A": {
+        "legacy_min_e2_A": 1.4111466882127388e-05,
+        "corrected_min_e2_A": 1.4111466882127388e-05
+      },
+      "threshold_classification_changes": {
+        "legacy_min_e2_A": 0,
+        "corrected_min_e2_A": 0
+      },
+      "main_packet_sha256": "74756ebabb90450d22ce4b4d34cc23d1607666842411c32c20b55de87865ff19",
+      "replay_packet_sha256": "c277b8669aa9607b52b8fdfe302da2bc4572c6f992756c51063bf2c571adfc15"
+    },
+    {
+      "poi": "DDR2",
+      "pose": "pose001",
+      "frames": 201,
+      "distance_errors_A": {
+        "legacy_min_e2_A": 1.520594361181793e-05,
+        "corrected_min_e2_A": 1.520594361181793e-05
+      },
+      "threshold_classification_changes": {
+        "legacy_min_e2_A": 0,
+        "corrected_min_e2_A": 0
+      },
+      "main_packet_sha256": "78c6b09573551d1ffab1e01ca45a270b34800ef4c6f5ab7b46ba767ef839ea85",
+      "replay_packet_sha256": "58009088a36c39fe38336b8b03d1544625b79551540d6d90383a736adc68e932"
+    },
+    {
+      "poi": "EPHA2",
+      "pose": "pose001",
+      "frames": 201,
+      "distance_errors_A": {
+        "legacy_min_e2_A": 1.1414175730806164e-05,
+        "corrected_min_e2_A": 1.1414175730806164e-05
+      },
+      "threshold_classification_changes": {
+        "legacy_min_e2_A": 0,
+        "corrected_min_e2_A": 0
+      },
+      "main_packet_sha256": "6907d2bc58170b4c97294839d483e6d4495bb6de5344458f3b2f2da4bfb62a4f",
+      "replay_packet_sha256": "5781e4e1f3d3b59cd382c3c2696fbaea8034dcbcb403affbc6edb27781ac5997"
+    },
+    {
+      "poi": "EPHB2",
+      "pose": "pose001",
+      "frames": 201,
+      "distance_errors_A": {
+        "legacy_min_e2_A": 1.2781629166624953e-05,
+        "corrected_min_e2_A": 1.2781629166624953e-05
+      },
+      "threshold_classification_changes": {
+        "legacy_min_e2_A": 0,
+        "corrected_min_e2_A": 0
+      },
+      "main_packet_sha256": "ec24307adc2084751882f8dc9c69639904ff691b3f20dd597e1c08a456d2f000",
+      "replay_packet_sha256": "84b677a755be7a4f81f2574cf95887d69dc91f4704fe9c177a586668ef5fbcdb"
+    },
+    {
+      "poi": "MAPK14_full",
+      "pose": "pose001",
+      "frames": 201,
+      "distance_errors_A": {
+        "legacy_min_e2_A": 1.4784905076226096e-05,
+        "corrected_min_e2_A": 1.4784905076226096e-05
+      },
+      "threshold_classification_changes": {
+        "legacy_min_e2_A": 0,
+        "corrected_min_e2_A": 0
+      },
+      "main_packet_sha256": "36c730d76982bf23334f973bd5d756f362a755b03f7dca85dab5aa5a39e2f47d",
+      "replay_packet_sha256": "573a58939fa5369e2946d99120c9c0b665d7bde6e04a433c3ea6716d9a84fb2c"
+    },
+    {
+      "poi": "MET",
+      "pose": "pose002",
+      "frames": 201,
+      "distance_errors_A": {
+        "legacy_min_e2_A": 1.3007744286142042e-05,
+        "corrected_min_e2_A": 1.3007744286142042e-05
+      },
+      "threshold_classification_changes": {
+        "legacy_min_e2_A": 0,
+        "corrected_min_e2_A": 0
+      },
+      "main_packet_sha256": "cdd726d44cd919c3de85c90023f6bb009e17828ede3f16211464a2c041547d8f",
+      "replay_packet_sha256": "184c329bd304f2cd541f24918be0a14bfa4b2a43daff498c9bf7a666b55e1d14"
+    },
+    {
+      "poi": "RIPK2_full",
+      "pose": "pose001",
+      "frames": 201,
+      "distance_errors_A": {
+        "legacy_min_e2_A": 1.4084851045481628e-05,
+        "corrected_min_e2_A": 1.4084851045481628e-05
+      },
+      "threshold_classification_changes": {
+        "legacy_min_e2_A": 0,
+        "corrected_min_e2_A": 0
+      },
+      "main_packet_sha256": "1762691175dde66ddf4de265c15d588956b350ca2f381c20028906a2e3b6bfce",
+      "replay_packet_sha256": "291a94eebeebc9b21f12fe186d7c1510fbfe3aa95ebe06fc7444da54b92b384b"
+    }
+  ]
+}

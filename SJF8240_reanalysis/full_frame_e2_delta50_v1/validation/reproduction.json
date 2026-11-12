@@ -1,0 +1,12 @@
+{
+  "status": "PASS",
+  "cases": 141,
+  "frames": 28341,
+  "per_lysine_rows": 132,
+  "max_legacy_per_pose_delta_error": 4.973544973546455e-05,
+  "max_published_legacy_delta_error": 4.969205630970738e-05,
+  "max_coarse_distance_error_A": 0.0,
+  "oldpose_sha256": "c8a4084b0db18a60000f89429ed7efbec5942f61d7a5d0199b272fd83109a77d",
+  "oldsummary_sha256": "56fb32e2dbd7b5bd273065901454ff906bcd8ab1394308401d4ef939fd2846e1",
+  "source_manifest_sha256": "aabf1a1b2964153b0997db79487942cd8e53d2648dda0216b6c84c1c24b67391"
+}

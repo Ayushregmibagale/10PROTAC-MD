@@ -1,0 +1,10 @@
+{
+  "status": "PASS",
+  "new_study_files_verified": 34,
+  "case_packets_verified": 141,
+  "new_source_files_reviewed": 9,
+  "other_unregistered_sources_not_used_or_approved": [
+    "e2_geometry/plot_3d_structural.py",
+    "e2_geometry/plot_per_lysine_delta.py"
+  ]
+}

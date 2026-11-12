@@ -1,5 +1,11 @@
 # SJF8240 retained-structure GNN experiments
 
+## Full-frame true-VHL reach50 check — 12 November
+
+[Plain-language findings](full_frame_e2_delta50_v1/INTERPRETATION.md) · [Full methods/results](full_frame_e2_delta50_v1/RESULTS.md) · [Step-by-step Word report](full_frame_e2_delta50_v1/FULL_FRAME_CHECK.docx).
+
+All141 poses /28,341 frames were recomputed. Legacy values reproduce to rounding precision. With corrected imaging and true VHL, the positive-lysine fractions overlap: DDR2, EPHA2 and MET also have0 positives. Mean-delta rank p=0.286; fraction-positive p=0.714. A weaker within-cohort mean ranking remains (5/6 degraders above both negatives; MAPK14 is the exception), not a validated classifier. No new GNN or MD; earlier results are preserved.
+
 ## Folder-wide audit and supported reuse path
 
 The 12 November audit found critical regressions in exploratory chain selection, contact definitions and validation. Twelve exploratory entry points are retired with original sources archived. [Audit report](folder_audit_20261112/AUDIT.md) · [Word copy](folder_audit_20261112/AUDIT.docx) · [Reusable workflow](folder_audit_20261112/robust_analysis_v1/README.md).

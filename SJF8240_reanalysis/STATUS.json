@@ -76,5 +76,13 @@
     "current_route_tests_passed": 76,
     "retired_entrypoints": 12,
     "public_entrypoint": "RUN_ANALYSIS.py"
+  },
+  "latest_feature_check": {
+    "version": "full_frame_e2_delta50_v1",
+    "status": "COMPLETE",
+    "cases": 141,
+    "frames": 28341,
+    "report": "full_frame_e2_delta50_v1/INTERPRETATION.md",
+    "new_GNN": false
   }
 }

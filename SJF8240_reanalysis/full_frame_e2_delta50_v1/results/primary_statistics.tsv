@@ -1,0 +1,3 @@
+variant	summary	rank_U	rank_two_sided_exact_p	positive_mean	negative_mean	difference	abs_difference_permutation_p	label_allocations	Holm_adjusted_two_summary_p
+corrected_geometry_true_VHL	mean_delta	10.0	0.2857142857142857	-0.008403824573449877	-0.011010514528902912	0.002606689955453035	0.6071428571428571	28	0.5714285714285714
+corrected_geometry_true_VHL	fraction_positive	7.5	0.7142857142857143	0.06477732793522267	0.03125	0.03352732793522267	0.5357142857142857	28	0.7142857142857143

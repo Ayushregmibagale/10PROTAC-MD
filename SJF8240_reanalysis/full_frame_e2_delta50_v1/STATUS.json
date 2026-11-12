@@ -1,0 +1,8 @@
+{
+  "phase": "COMPLETE",
+  "active_job": false,
+  "cases": 141,
+  "frames": 28341,
+  "report": "INTERPRETATION.md",
+  "verification": "validation/final_review.json"
+}

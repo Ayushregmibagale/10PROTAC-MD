@@ -1,0 +1,9 @@
+variant_legacy	poi	label	lysines_legacy	positive_lysines_legacy	negative_lysines_legacy	zero_lysines_legacy	positive_after_1e12_tolerance_legacy	fraction_positive_legacy	mean_delta_legacy	paired_poses_legacy	variant_corrected	lysines_corrected	positive_lysines_corrected	negative_lysines_corrected	zero_lysines_corrected	positive_after_1e12_tolerance_corrected	fraction_positive_corrected	mean_delta_corrected	paired_poses_corrected
+legacy_geometry_legacy_mask	ABL1	0	18	0	18	0	0	0.0	-0.019646498882247745	15	corrected_geometry_true_VHL	18	0	6	12	0	0.0	-0.011685375292672303	9
+legacy_geometry_legacy_mask	AXL	0	16	2	14	0	2	0.125	-0.01676269865203433	16	corrected_geometry_true_VHL	16	1	4	11	1	0.0625	-0.010335653765133521	8
+legacy_geometry_legacy_mask	DDR2	1	14	8	6	0	8	0.5714285714285714	0.001006202150299875	16	corrected_geometry_true_VHL	14	0	2	12	0	0.0	-0.007717683958604056	7
+legacy_geometry_legacy_mask	EPHA2	1	20	9	11	0	9	0.45	-0.00686009505323415	14	corrected_geometry_true_VHL	20	0	4	16	0	0.0	-0.007145132411614967	10
+legacy_geometry_legacy_mask	EPHB2	1	13	5	2	6	5	0.38461538461538464	0.0017811794341510037	14	corrected_geometry_true_VHL	13	2	4	7	2	0.15384615384615385	-0.005428076512147309	6
+legacy_geometry_legacy_mask	MAPK14_full	1	19	15	4	0	15	0.7894736842105263	0.016151897582021513	16	corrected_geometry_true_VHL	19	3	8	8	3	0.15789473684210525	-0.022266625139616664	4
+legacy_geometry_legacy_mask	MET	1	19	2	1	16	2	0.10526315789473684	0.0021859641263173015	14	corrected_geometry_true_VHL	19	0	1	18	0	0.0	-0.0006578947368421052	4
+legacy_geometry_legacy_mask	RIPK2_full	1	13	1	6	6	1	0.07692307692307693	-0.004088755733426748	12	corrected_geometry_true_VHL	13	1	6	6	1	0.07692307692307693	-0.007207534681874162	7

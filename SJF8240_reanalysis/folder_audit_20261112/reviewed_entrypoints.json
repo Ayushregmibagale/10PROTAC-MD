@@ -169,7 +169,16 @@
     "analysis/e2/ligand_connected_e2_cohort_v1/sources/7_e2_summary.py": "4a2fe790661f765962f7fed6a85759cafcee211a49ce9e155e3a6819b4edd097",
     "analysis/e2/ligand_connected_e2_cohort_v1/sources/3_read_only_trajectory.py": "231645da4027fd0f9e7e2ad49e7f5d942a12e768a5e1995b58a88fd505e55edb",
     "analysis/e2/ligand_connected_e2_cohort_v1/sources/2_e2_geometry.py": "7deee629aae416fad2916e64a75df0e822ffdcac9d09da10cc349040be23c70d",
-    "analysis/e2/ligand_connected_e2_cohort_v1/sources/5_16_all_poi_e2_reachability.py": "fd4e2286f7476f7f94a4cba659e951d7e6400ff9d18dff95e7c19d8275c2eb21"
+    "analysis/e2/ligand_connected_e2_cohort_v1/sources/5_16_all_poi_e2_reachability.py": "fd4e2286f7476f7f94a4cba659e951d7e6400ff9d18dff95e7c19d8275c2eb21",
+    "full_frame_e2_delta50_v1/scripts/analyze.py": "96753adf9f06b91a5d476eeb8b7ae8d46d7a53d3278016b773e34d345793452d",
+    "full_frame_e2_delta50_v1/scripts/test_full_frame.py": "36f6d31cb538e2197808580d79f3433b72c9eeb83ad159a7e0581aa526534005",
+    "full_frame_e2_delta50_v1/scripts/verify_replays.py": "c7bf2e7e51ee01d5441d1444f0a1d6e9a968a05b1ea4167558940cd6c48f6578",
+    "full_frame_e2_delta50_v1/scripts/check_inputs.py": "25f76f20937151af21722552127f8f16d37fa8ad8882577389272ae791732f3d",
+    "full_frame_e2_delta50_v1/scripts/extract.py": "d833ab7c3ade2f4ddbc7162c701401b3ec35d1dcdc1368ae59ae6e138f40757e",
+    "full_frame_e2_delta50_v1/lib/read_only_trajectory.py": "231645da4027fd0f9e7e2ad49e7f5d942a12e768a5e1995b58a88fd505e55edb",
+    "full_frame_e2_delta50_v1/lib/e2_geometry.py": "7deee629aae416fad2916e64a75df0e822ffdcac9d09da10cc349040be23c70d",
+    "full_frame_e2_delta50_v1/lib/coherent_images.py": "ef8e7a36e38d337ded98d78bd3ab3b98d2a315e0d89742cb94791348938d4888",
+    "full_frame_e2_delta50_v1/lib/protac_qc.py": "b7faca900f0a3c441f3d7fccb9835e7ae138f1198f480101145b9e6363ccf632"
   },
   "retired_entrypoints": [
     "geometric_gnn/01_extract_ca_positions.py",
