@@ -1,0 +1,64 @@
+{
+  "legacy_table_sha256": "56fb32e2dbd7b5bd273065901454ff906bcd8ab1394308401d4ef939fd2846e1",
+  "legacy_statistics": {
+    "fraction_positive": {
+      "difference_degrader_minus_nondegrader": 0.32187921727395413,
+      "protein_MW_two_sided_exact_p": 0.2857142857142857,
+      "protein_MW_method": "exhaustive 28 label allocations of averaged ranks; twice smaller inclusive tail, capped at one",
+      "exact_label_permutation_abs_difference_p": 0.21428571428571427,
+      "exact_label_permutation_greater_p": 0.10714285714285714,
+      "label_assignments": 28
+    },
+    "mean_delta": {
+      "difference_degrader_minus_nondegrader": 0.019903734135017028,
+      "protein_MW_two_sided_exact_p": 0.07142857142857142,
+      "protein_MW_method": "exhaustive 28 label allocations of averaged ranks; twice smaller inclusive tail, capped at one",
+      "exact_label_permutation_abs_difference_p": 0.03571428571428571,
+      "exact_label_permutation_greater_p": 0.03571428571428571,
+      "label_assignments": 28
+    },
+    "legacy_style_lysine_level_MW_not_independent": {
+      "U": 2800.0,
+      "p": 3.030637600329807e-09,
+      "n_lysines_by_label": {
+        "0": 34,
+        "1": 98
+      }
+    }
+  },
+  "corrected_41_frame_statistics": {
+    "fraction_positive": {
+      "difference_degrader_minus_nondegrader": 0.027888230190861778,
+      "protein_MW_two_sided_exact_p": 0.6428571428571429,
+      "protein_MW_method": "exhaustive 28 label allocations of averaged ranks; twice smaller inclusive tail, capped at one",
+      "exact_label_permutation_abs_difference_p": 0.6071428571428571,
+      "exact_label_permutation_greater_p": 0.32142857142857145,
+      "label_assignments": 28
+    },
+    "mean_delta": {
+      "difference_degrader_minus_nondegrader": 0.005291871164762707,
+      "protein_MW_two_sided_exact_p": 0.42857142857142855,
+      "protein_MW_method": "exhaustive 28 label allocations of averaged ranks; twice smaller inclusive tail, capped at one",
+      "exact_label_permutation_abs_difference_p": 0.5,
+      "exact_label_permutation_greater_p": 0.25,
+      "label_assignments": 28
+    },
+    "legacy_style_lysine_level_MW_not_independent": {
+      "U": 1923.0,
+      "p": 0.06895736085677986,
+      "n_lysines_by_label": {
+        "0": 34,
+        "1": 98
+      }
+    }
+  },
+  "corrected_limitations": "41 sampled frames per pose; true-VHL heavy-contact state and ligand-connected coherent E2/lysine images; equal-pose paired-state contrasts. Not an isolated change relative to 201-frame legacy data. No new features/model fitted. Post hoc checks, not independent validation.",
+  "sources_sha256": {
+    "/home/ayushregmibagale/protac-md/analysis/per_lysine_e2_summary.tsv": "56fb32e2dbd7b5bd273065901454ff906bcd8ab1394308401d4ef939fd2846e1",
+    "/home/ayushregmibagale/10PROTAC-MD/SJF8240_reanalysis/e2_geometry/results/per_lys_full_annotated.tsv": "6fc487b69d0b02bb0e6d070b797a9829879e7360a5aa5b2d3cf6e6e9ca0d5209",
+    "/home/ayushregmibagale/protac-md/scripts/02_analysis/20_per_lysine_e2_distance.py": "20e6037d89cd52149a892443e05833f89676f2ac43906a8ba2739a5e7df53392",
+    "/home/ayushregmibagale/10PROTAC-MD/SJF8240_reanalysis/e2_geometry/03_per_lysine_analysis.py": "14dd877311d56ae829dda04464a50a02245326ad124f67c3de668fe6f7368770",
+    "/home/ayushregmibagale/10PROTAC-MD/SJF8240_reanalysis/mechanistic_v3/analysis/lysines/completion.json": "6d737e45e2ddf2c6702dc160c43c37d40039846d48943f7d9fa2f5aa971a223a",
+    "/mnt/c/Users/Ayush Regmi Bagale/SJF8240_per_lysine_claim_check_20261112/check.py": "80bb32069b075b478ed20a39990cd7148444d66dea68198f51542c1e708c739d"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "source": "/home/ayushregmibagale/protac-md/reference_structures/e2_c85_ensemble.json",
+  "sha256": "9dac98e05fdd384bb77fc147e3e61d9de3dcdfe028355d4cccb833d3d9f73f15",
+  "keys": 13,
+  "concatenated_rows": 663,
+  "unique_coordinate_rows": 51,
+  "arrays_all_identical": true,
+  "duplicate_points_do_not_change_nearest_point_distance": true
+}
