@@ -1,0 +1,6 @@
+exp	auroc	n_correct	n_total	note
+E1_DualEncoder_17POI	0.1667	6	8	from prior run
+E2_PerPoseAugment		0	8	skipped (>100h runtime)
+E3_BridgeView	0.5833	6	8	
+E4_RichFeatures	0.2500	6	8	
+E5_Combined	0.0833	6	8	
