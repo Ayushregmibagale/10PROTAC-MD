@@ -1,0 +1,15 @@
+{
+  "source_project": "/home/ayushregmibagale/10PROTAC-MD/SJF8240_reanalysis",
+  "compound_id": "SJF8240",
+  "scope": "Ordered reviewed SJF8240 workflow; original source/results remain external read-only dependencies",
+  "models": [
+    "original_md",
+    "lysine_temporal"
+  ],
+  "unknown_targets": [
+    "SIK3_full",
+    "RPS6KB2_full"
+  ],
+  "default_graph_source": "existing",
+  "no_analysis_started_by_packaging": true
+}

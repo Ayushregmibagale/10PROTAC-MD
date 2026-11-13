@@ -1,0 +1,17 @@
+# What the full-frame check found
+
+The original clean-looking reach50 separation does not survive the corrected true-VHL analysis. This conclusion now uses all201 frames from all141 retained poses, not the earlier41-frame subset.
+
+ABL1 has0/18 lysines with positive delta and AXL1/16. However, the confirmed/user-labelled degraders DDR2, EPHA2 and MET also have0 positive lysines. EPHB2 has2/13, MAPK14_full3/19 and RIPK2_full1/13. These fractions overlap the non-degraders, so they do not supply a clean degradation rule.
+
+A weaker descriptive ranking remains: five of the six degraders have a mean delta above both non-degraders; MAPK14_full is the exception and falls below both. This is10/12 within-cohort positive/negative rank comparisons, not a held-out classifier result. All8 target mean deltas are negative. The corrected protein-level mean-delta rank p is0.286; the fraction-positive rank p is0.714. The two-summary Holm-adjusted values are0.571 and0.714. The cohort has only2 negative proteins; these tests do not prove that MD has no useful information. Indeed, with6 versus2 targets a perfectly separated untied two-sided exact rank test cannot attain p<0.05. We rely on the observed overlap and protocol sensitivity, not a nonsignificant p-value alone.
+
+The four-way control confirms that the appearance of separation depends on the contact/imaging convention. On identical paired-state pose support, the primary corrected result still overlaps and gives the same rank p-values. We do not attribute the difference to one subcomponent: the mask changes both protein identity and atom policy, while the geometry convention changes reference/image placement.
+
+The legacy per-pose and published summaries were reproduced within0.00005, consistent with their4-decimal rounding. In the full-precision legacy replay, DDR2 has8 positive lysines rather than7 in the rounded published table: residue215 has delta approximately+0.000023 and had been printed as0.0000. This is a rounding effect, not a relabelled result.
+
+Delta measures an improvement relative to nonbridge frames, not absolute access or solvent burial. As an interpretation check, corrected_reach50_components.tsv retains both fractions that make up each delta on the same paired poses. MAPK14_full has the largest mean bridge reach50 of the8 targets (about9.1% across lysines/paired poses), even though its mean delta is the most negative. A negative delta therefore cannot be interpreted as no E2 access or no possible degradation. These remain modeled point-cloud proxies, not catalytic measurements.
+
+Validation:141 cases /28,341 frames complete;132 lysines; all four analysis variants;6 software tests pass; eight freshly read201-frame poses reproduce the results using standard MDAnalysis unwrap with no50-A threshold classification changes. All earlier trajectories, labels, model weights and results are preserved. No new GNN was fitted, and this feature check does not replace or validate the earlier0.750 temporal-GNN result.
+
+Files: RESULTS.md gives the full method/table. results/primary_statistics.tsv gives the two primary protein tests; results/protein_statistics.tsv and matched_support_statistics.tsv retain all controls. results/per_lysine.tsv and corrected_reach50_components.tsv retain every lysine. validation/reproduction.json and independent_unwrap_replay.json bind the replay evidence. FULL_FRAME_CHECK.docx is the step-by-step Word report.

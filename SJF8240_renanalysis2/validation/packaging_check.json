@@ -1,0 +1,66 @@
+{
+  "status": "PASS",
+  "numbered_launchers": 13,
+  "help_checks": 13,
+  "dry_run_checks": 13,
+  "reviewed_backend_files": 27,
+  "prepared_models": [
+    "original_md",
+    "lysine_temporal"
+  ],
+  "new_training_or_trajectory_extraction_started": false,
+  "original_project_modified": false,
+  "setup_checks": [
+    {
+      "script": "13_check_workflow.py",
+      "arguments": [],
+      "exit": 0,
+      "stdout": "Ordered workflow source checks passed.\n",
+      "stderr": ""
+    },
+    {
+      "script": "01_prepare_inputs.py",
+      "arguments": [],
+      "exit": 0,
+      "stdout": "Inputs prepared; no trajectory extraction or GNN fitting run.\n",
+      "stderr": ""
+    },
+    {
+      "script": "05_prepare_gnn_study.py",
+      "arguments": [
+        "--model",
+        "original_md"
+      ],
+      "exit": 0,
+      "stdout": "Validated two explicit SJF8240 example manifests; other compounds need their own labels, graphs and role evidence.\n{\"status\": \"VALIDATED_NOT_TRAINED\", \"compound_id\": \"SJF8240\", \"model\": \"original_md\", \"labelled_targets\": 8, \"prediction_only_targets\": 2, \"negative_targets\": 2, \"roles\": [\"vhl\", \"elob\"], \"folds_per_role\": 12}\nPrepared /home/ayushregmibagale/10PROTAC-MD/SJF8240_renanalysis2/config/studies/original_md.json\n",
+      "stderr": ""
+    },
+    {
+      "script": "05_prepare_gnn_study.py",
+      "arguments": [
+        "--model",
+        "lysine_temporal"
+      ],
+      "exit": 0,
+      "stdout": "Validated two explicit SJF8240 example manifests; other compounds need their own labels, graphs and role evidence.\n{\"status\": \"VALIDATED_NOT_TRAINED\", \"compound_id\": \"SJF8240\", \"model\": \"lysine_temporal\", \"labelled_targets\": 8, \"prediction_only_targets\": 0, \"negative_targets\": 2, \"roles\": [\"vhl\", \"elob\"], \"folds_per_role\": 12}\nPrepared /home/ayushregmibagale/10PROTAC-MD/SJF8240_renanalysis2/config/studies/lysine_temporal.json\n",
+      "stderr": ""
+    },
+    {
+      "script": "06_validate_gnn_studies.py",
+      "arguments": [],
+      "exit": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "script": "12_write_summary.py",
+      "arguments": [],
+      "exit": 0,
+      "stdout": "/home/ayushregmibagale/10PROTAC-MD/SJF8240_renanalysis2/outputs/SUMMARY.md\n",
+      "stderr": ""
+    }
+  ],
+  "fresh_copy_without_outputs_check": "PASS",
+  "final_source_checks": "PASS",
+  "final_cli_checks": 26
+}

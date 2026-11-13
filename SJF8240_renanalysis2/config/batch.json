@@ -1,0 +1,15 @@
+{
+  "expected_compound_ids": [
+    "SJF8240"
+  ],
+  "studies": [
+    {
+      "path": "/home/ayushregmibagale/10PROTAC-MD/SJF8240_renanalysis2/config/studies/lysine_temporal.json",
+      "sha256": "e4e88b151a8bdf11590dbffea9d58a6e7d0581fb42e854e32fab1419bf470ae0"
+    },
+    {
+      "path": "/home/ayushregmibagale/10PROTAC-MD/SJF8240_renanalysis2/config/studies/original_md.json",
+      "sha256": "4b389b1fffab04fb339a74c9cc394a54c8c2290bb1addcdf4bbc21d0eb29f186"
+    }
+  ]
+}
