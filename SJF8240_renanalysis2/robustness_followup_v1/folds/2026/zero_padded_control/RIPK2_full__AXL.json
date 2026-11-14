@@ -1,0 +1,33 @@
+{
+  "base_seed": 2026,
+  "variant": "zero_padded_control",
+  "pair": "RIPK2_full__AXL",
+  "positive": "RIPK2_full",
+  "negative": "AXL",
+  "training": [
+    "ABL1",
+    "DDR2",
+    "EPHA2",
+    "EPHB2",
+    "MAPK14_full",
+    "MET"
+  ],
+  "scores": {
+    "ABL1": 0.49637672305107117,
+    "AXL": 0.9297776222229004,
+    "DDR2": 0.9365370273590088,
+    "EPHA2": 0.9413941502571106,
+    "EPHB2": 0.948974609375,
+    "MAPK14_full": 0.9604164958000183,
+    "MET": 0.9594451189041138,
+    "RIPK2_full": 0.8945446610450745
+  },
+  "training_only_threshold": 0.71645687520504,
+  "threshold_fit": "resubstitution_on_six_training_proteins_not_inner_CV",
+  "initial_digest": "413c273afca7b8fdde0da7f0c8c819ecc045a5d11e09d1bcc5723a7bcbbb979b",
+  "weight_sha256": "93a152762251abb7d17dc52eb6962e3e09874f287d66463004eb7b71aa5acc94",
+  "manifest_sha256": "1e7de426b7771c8a45d3091908a7cde23d9f727c984a3a525c05e8955e0d74d3",
+  "seconds": 30.602903935010545,
+  "epochs": 300,
+  "steps": 1800
+}

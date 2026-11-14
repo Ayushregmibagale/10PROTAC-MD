@@ -1,0 +1,847 @@
+{
+  "status": "PASS",
+  "models": 120,
+  "scores_replayed": 960,
+  "records": [
+    {
+      "seed": 42,
+      "variant": "native_features",
+      "pair": "DDR2__AXL",
+      "maximum_error": 0.0,
+      "checkpoint_sha256": "126b2b972c9a8213b05447ba42dc9145bf37eabc2765840997e272b5d1e763eb"
+    },
+    {
+      "seed": 42,
+      "variant": "zero_padded_control",
+      "pair": "DDR2__AXL",
+      "maximum_error": 0.0,
+      "checkpoint_sha256": "225a5a44eb01b4f44ae31da222212b1fc4c284a9e42c1af5a0a4f0d1ce7880b0"
+    },
+    {
+      "seed": 42,
+      "variant": "zero_padded_control",
+      "pair": "DDR2__ABL1",
+      "maximum_error": 0.0,
+      "checkpoint_sha256": "98ae03c92fa15f2c3d2fea747f8a80544deacf86b835c5c3649b2a87d2b50b1e"
+    },
+    {
+      "seed": 42,
+      "variant": "native_features",
+      "pair": "DDR2__ABL1",
+      "maximum_error": 0.0,
+      "checkpoint_sha256": "20ba954ca5b666a8aeae04224bf7db591ba86ce17d9c00c61ac629f12d844d98"
+    },
+    {
+      "seed": 42,
+      "variant": "zero_padded_control",
+      "pair": "EPHA2__ABL1",
+      "maximum_error": 0.0,
+      "checkpoint_sha256": "0fd189107e24a973de0f0daef5e261997e9c78847b3a0be5e063e37abadc68a2"
+    },
+    {
+      "seed": 42,
+      "variant": "zero_padded_control",
+      "pair": "EPHA2__AXL",
+      "maximum_error": 0.0,
+      "checkpoint_sha256": "d7f37eba90d8c2b63eef569c48ff1e76692f7f637cb5150b90dad3c66e1fa28a"
+    },
+    {
+      "seed": 42,
+      "variant": "native_features",
+      "pair": "EPHA2__AXL",
+      "maximum_error": 0.0,
+      "checkpoint_sha256": "77f1e76cba0ee1ff0f9a3048e655888a4018ecd24e075a1f2b697a583fc46fe7"
+    },
+    {
+      "seed": 42,
+      "variant": "native_features",
+      "pair": "EPHA2__ABL1",
+      "maximum_error": 0.0,
+      "checkpoint_sha256": "f740e5da37ff1e0b694c4092a7490741b5a9c5111d0875a6d7b142cc7c080089"
+    },
+    {
+      "seed": 42,
+      "variant": "zero_padded_control",
+      "pair": "EPHB2__ABL1",
+      "maximum_error": 0.0,
+      "checkpoint_sha256": "c1b2e249cdc53825df2ffb53ea855cdb897bed6c48474a85ce2286e5b0b2f3e7"
+    },
+    {
+      "seed": 42,
+      "variant": "zero_padded_control",
+      "pair": "EPHB2__AXL",
+      "maximum_error": 0.0,
+      "checkpoint_sha256": "6d3a1bd62e3ec2867c620de69259ed4af5c9dc027606006b9aa92f2c0cb6ce3d"
+    },
+    {
+      "seed": 42,
+      "variant": "native_features",
+      "pair": "EPHB2__ABL1",
+      "maximum_error": 0.0,
+      "checkpoint_sha256": "596638cf99a074fcaba445fb8890cb5e77d898f4ce337d8caac9802536ac48db"
+    },
+    {
+      "seed": 42,
+      "variant": "native_features",
+      "pair": "EPHB2__AXL",
+      "maximum_error": 0.0,
+      "checkpoint_sha256": "af5d6d09cb9648026fe7da82506756069d047352edd724c8e78d54e9a150f12b"
+    },
+    {
+      "seed": 42,
+      "variant": "zero_padded_control",
+      "pair": "MAPK14_full__ABL1",
+      "maximum_error": 0.0,
+      "checkpoint_sha256": "de7cd55a4acc914a3f5bba904bc1b4b8935470b2c162667a894153645643d7d9"
+    },
+    {
+      "seed": 42,
+      "variant": "zero_padded_control",
+      "pair": "MAPK14_full__AXL",
+      "maximum_error": 0.0,
+      "checkpoint_sha256": "cb7437ae6a54bf659de79cf7cb426f0b095835060e8cf1d7547eafa0a9cb872e"
+    },
+    {
+      "seed": 42,
+      "variant": "native_features",
+      "pair": "MAPK14_full__ABL1",
+      "maximum_error": 0.0,
+      "checkpoint_sha256": "fe6edf935e874ce8c34e351640900512355e5c5eb97d25a53e85f0647e83a947"
+    },
+    {
+      "seed": 42,
+      "variant": "native_features",
+      "pair": "MAPK14_full__AXL",
+      "maximum_error": 0.0,
+      "checkpoint_sha256": "2cbba67c47ac32a88d2371e196f1d54a9b99e170ea6cde9e853590eb92c1d6de"
+    },
+    {
+      "seed": 42,
+      "variant": "zero_padded_control",
+      "pair": "MET__AXL",
+      "maximum_error": 0.0,
+      "checkpoint_sha256": "7897dd70b34c09c5aca232dfe92c54d2832c7980208c01f74f7137a6edfc9cda"
+    },
+    {
+      "seed": 42,
+      "variant": "native_features",
+      "pair": "MET__ABL1",
+      "maximum_error": 0.0,
+      "checkpoint_sha256": "2d76cbcdc0a9501f2b2958c600cb17c1c5007d145baf4ce69737131251819acf"
+    },
+    {
+      "seed": 42,
+      "variant": "zero_padded_control",
+      "pair": "MET__ABL1",
+      "maximum_error": 0.0,
+      "checkpoint_sha256": "f93d76fb53dc68dacc6af4e9dc9578e10a62f857e33b4c7c39427d4283edf9fb"
+    },
+    {
+      "seed": 42,
+      "variant": "native_features",
+      "pair": "MET__AXL",
+      "maximum_error": 0.0,
+      "checkpoint_sha256": "be0c763d47b91c75e4c6ac83f20be83a4d242b4e0606dced523c19172f76c0cb"
+    },
+    {
+      "seed": 42,
+      "variant": "zero_padded_control",
+      "pair": "RIPK2_full__AXL",
+      "maximum_error": 0.0,
+      "checkpoint_sha256": "d381cb791ba1138251645979aeb8b9cee51cda8ec077e01c110de5af76138203"
+    },
+    {
+      "seed": 42,
+      "variant": "zero_padded_control",
+      "pair": "RIPK2_full__ABL1",
+      "maximum_error": 0.0,
+      "checkpoint_sha256": "0129db4befc31329f5ead52c08da2e214c96e5237394a04af1d986e0ca428a12"
+    },
+    {
+      "seed": 42,
+      "variant": "native_features",
+      "pair": "RIPK2_full__ABL1",
+      "maximum_error": 0.0,
+      "checkpoint_sha256": "87495d4c9d8601c24e2784b1838cc3d940a53082f2e51033d5b1b8ed80b18273"
+    },
+    {
+      "seed": 42,
+      "variant": "native_features",
+      "pair": "RIPK2_full__AXL",
+      "maximum_error": 0.0,
+      "checkpoint_sha256": "abf89fa7dfff8030834314bdc5950be2731851b7353f797ec2179fca43e379d3"
+    },
+    {
+      "seed": 7,
+      "variant": "zero_padded_control",
+      "pair": "DDR2__ABL1",
+      "maximum_error": 0.0,
+      "checkpoint_sha256": "36d061c0cd2dcb63dc585a1343b17b6855248f973b1fbe606f44aaded4d62aa9"
+    },
+    {
+      "seed": 7,
+      "variant": "zero_padded_control",
+      "pair": "DDR2__AXL",
+      "maximum_error": 0.0,
+      "checkpoint_sha256": "8a46a8547dd092d89932b6a3d71e357ab7ad97b57b577df7f344a078e97e0695"
+    },
+    {
+      "seed": 7,
+      "variant": "native_features",
+      "pair": "DDR2__ABL1",
+      "maximum_error": 0.0,
+      "checkpoint_sha256": "02f6c6860fbb831c8adc44f2631ca961456d9ad4bca673c78d0eaf22ff6b0124"
+    },
+    {
+      "seed": 7,
+      "variant": "native_features",
+      "pair": "DDR2__AXL",
+      "maximum_error": 0.0,
+      "checkpoint_sha256": "243090256f3f748f14de86a68d493973225cfc6c7f12f6205d810492d0bbae66"
+    },
+    {
+      "seed": 7,
+      "variant": "zero_padded_control",
+      "pair": "EPHA2__ABL1",
+      "maximum_error": 0.0,
+      "checkpoint_sha256": "706fb8143b8ed150fa046c7f11e2b481eda2e243989c7b22418a59c6dfeda4a5"
+    },
+    {
+      "seed": 7,
+      "variant": "native_features",
+      "pair": "EPHA2__ABL1",
+      "maximum_error": 0.0,
+      "checkpoint_sha256": "03f57704c4f4179193642dca7c1fc789a656c21222ea49e6eeed31d57552fe50"
+    },
+    {
+      "seed": 7,
+      "variant": "zero_padded_control",
+      "pair": "EPHA2__AXL",
+      "maximum_error": 0.0,
+      "checkpoint_sha256": "247fe8976c966d45be305feea81563b8b8111946032efc1961a20c4b2e702cf2"
+    },
+    {
+      "seed": 7,
+      "variant": "native_features",
+      "pair": "EPHA2__AXL",
+      "maximum_error": 0.0,
+      "checkpoint_sha256": "9d89cf4299560b7dc84d463d3bb311711edf968a29016920210bb938d05dad7d"
+    },
+    {
+      "seed": 7,
+      "variant": "zero_padded_control",
+      "pair": "EPHB2__ABL1",
+      "maximum_error": 0.0,
+      "checkpoint_sha256": "1078129d731f2f4164b58a80c6feeb5b452ae67c3cbe8f33c684c9350e2dd5cd"
+    },
+    {
+      "seed": 7,
+      "variant": "zero_padded_control",
+      "pair": "EPHB2__AXL",
+      "maximum_error": 0.0,
+      "checkpoint_sha256": "2036691175834dd5c593747e41138160ad1e8a3ecb77f2a3f484b7de5ba2f27c"
+    },
+    {
+      "seed": 7,
+      "variant": "native_features",
+      "pair": "EPHB2__ABL1",
+      "maximum_error": 0.0,
+      "checkpoint_sha256": "ecb30a9ae05cb891414108328dc6b571f94b0d4df904624fe2229f7fa6289512"
+    },
+    {
+      "seed": 7,
+      "variant": "native_features",
+      "pair": "EPHB2__AXL",
+      "maximum_error": 0.0,
+      "checkpoint_sha256": "f0233ca10a1573a451b0a58db562dd45ac366b74f5d497aa5f6f1f9ae38370d6"
+    },
+    {
+      "seed": 7,
+      "variant": "zero_padded_control",
+      "pair": "MAPK14_full__ABL1",
+      "maximum_error": 0.0,
+      "checkpoint_sha256": "431d732c373e858b0243bd5b7d9a70f14400f28ebeb049089a639b2b4008a4d4"
+    },
+    {
+      "seed": 7,
+      "variant": "zero_padded_control",
+      "pair": "MAPK14_full__AXL",
+      "maximum_error": 0.0,
+      "checkpoint_sha256": "45e7fa46dcb2acf8e491e6f967c053020953c218317142145377e4e8781c324d"
+    },
+    {
+      "seed": 7,
+      "variant": "native_features",
+      "pair": "MAPK14_full__ABL1",
+      "maximum_error": 0.0,
+      "checkpoint_sha256": "d972a3b0b928d766d4152ba7a9940825cb9d6d21c4bc49146f0343b61275daf1"
+    },
+    {
+      "seed": 7,
+      "variant": "native_features",
+      "pair": "MAPK14_full__AXL",
+      "maximum_error": 0.0,
+      "checkpoint_sha256": "1676f8849113fa1887b2d464f2bd3d5fb73e4dbf40cf89849af8e015f5c22777"
+    },
+    {
+      "seed": 7,
+      "variant": "zero_padded_control",
+      "pair": "MET__ABL1",
+      "maximum_error": 0.0,
+      "checkpoint_sha256": "c88963f7024b9fc9b24c443ce3afe2b3135e3c7db2ae50fcf3c777072e5f8874"
+    },
+    {
+      "seed": 7,
+      "variant": "native_features",
+      "pair": "MET__ABL1",
+      "maximum_error": 0.0,
+      "checkpoint_sha256": "bd11db794a15ab5553854d402f0698f2958412bca256b5066580f172206f2bde"
+    },
+    {
+      "seed": 7,
+      "variant": "zero_padded_control",
+      "pair": "MET__AXL",
+      "maximum_error": 0.0,
+      "checkpoint_sha256": "2a71de3194307d792289402c7126ed422c59e1778f4c6ac4cb1e65c97f587d7a"
+    },
+    {
+      "seed": 7,
+      "variant": "native_features",
+      "pair": "MET__AXL",
+      "maximum_error": 0.0,
+      "checkpoint_sha256": "fe4a70e058e597d0fefb67c9a6161618024b0c26049106954c33a40581d8ae97"
+    },
+    {
+      "seed": 7,
+      "variant": "zero_padded_control",
+      "pair": "RIPK2_full__ABL1",
+      "maximum_error": 0.0,
+      "checkpoint_sha256": "9655a78fcc1e17583656fa4e41772e24f2dc23415b811c3e1f58f9d974676db2"
+    },
+    {
+      "seed": 7,
+      "variant": "zero_padded_control",
+      "pair": "RIPK2_full__AXL",
+      "maximum_error": 0.0,
+      "checkpoint_sha256": "0213b07f007ae832b61817fdb9cf2790b2a8a74e0ccd57cd06a3fe6f5633af49"
+    },
+    {
+      "seed": 7,
+      "variant": "native_features",
+      "pair": "RIPK2_full__ABL1",
+      "maximum_error": 0.0,
+      "checkpoint_sha256": "907a678b06ae396132d255535fe289d8aacc64fdf20229ebb9317b5b7bedec48"
+    },
+    {
+      "seed": 7,
+      "variant": "native_features",
+      "pair": "RIPK2_full__AXL",
+      "maximum_error": 0.0,
+      "checkpoint_sha256": "895004137c7d10750146bcd24fd0bb6a05404e279ed13ced03ebb06533e41907"
+    },
+    {
+      "seed": 123,
+      "variant": "zero_padded_control",
+      "pair": "DDR2__AXL",
+      "maximum_error": 0.0,
+      "checkpoint_sha256": "8b59efc64ea75e9fbf5eb63db9570c40c88961e44ec2432085f1f2e29baf1eb5"
+    },
+    {
+      "seed": 123,
+      "variant": "zero_padded_control",
+      "pair": "DDR2__ABL1",
+      "maximum_error": 0.0,
+      "checkpoint_sha256": "907a3bba1f7263d7cc369fb1b485f94c5ea5a042d6489f0707108ecb4dc59885"
+    },
+    {
+      "seed": 123,
+      "variant": "native_features",
+      "pair": "DDR2__ABL1",
+      "maximum_error": 0.0,
+      "checkpoint_sha256": "5d214b6c1bb57f295b475d68ff55c9b1420b55ab80e770c6f3635e93ddb5843e"
+    },
+    {
+      "seed": 123,
+      "variant": "native_features",
+      "pair": "DDR2__AXL",
+      "maximum_error": 0.0,
+      "checkpoint_sha256": "24677d6d6aa28aad759e0b0c5bc0df9573979afa1d6ce02d0de20b2ce6d02bb9"
+    },
+    {
+      "seed": 123,
+      "variant": "zero_padded_control",
+      "pair": "EPHA2__ABL1",
+      "maximum_error": 0.0,
+      "checkpoint_sha256": "01d83ef149e1aefb886a3d3c4d1bba6845f95d4a0f6622aebaa1a5ba87e80d09"
+    },
+    {
+      "seed": 123,
+      "variant": "native_features",
+      "pair": "EPHA2__ABL1",
+      "maximum_error": 0.0,
+      "checkpoint_sha256": "3c5ad732660c10a23840b253a82cac4713e93520b7d6e38bbc260c12e1e95de5"
+    },
+    {
+      "seed": 123,
+      "variant": "zero_padded_control",
+      "pair": "EPHA2__AXL",
+      "maximum_error": 0.0,
+      "checkpoint_sha256": "ac14041261a1f46693f5511597f37e2d78bcf96cdaaf0dcf8237257be13f2ba1"
+    },
+    {
+      "seed": 123,
+      "variant": "native_features",
+      "pair": "EPHA2__AXL",
+      "maximum_error": 0.0,
+      "checkpoint_sha256": "6abf52e5469a4b802ced4ffee493642720a4372994045ae11973fbe6e42d8553"
+    },
+    {
+      "seed": 123,
+      "variant": "zero_padded_control",
+      "pair": "EPHB2__ABL1",
+      "maximum_error": 0.0,
+      "checkpoint_sha256": "cb1755e687da74104b759831ca325f6dde2051b3e235a5874d58681f9a47ce92"
+    },
+    {
+      "seed": 123,
+      "variant": "zero_padded_control",
+      "pair": "EPHB2__AXL",
+      "maximum_error": 0.0,
+      "checkpoint_sha256": "392d74ac5f280ba9726a4901881a958ff778bc67756405e674b356b2caa8abad"
+    },
+    {
+      "seed": 123,
+      "variant": "native_features",
+      "pair": "EPHB2__ABL1",
+      "maximum_error": 0.0,
+      "checkpoint_sha256": "04d126e946e492b25b7c288c68f33d293a2c743857df52f1dc635c944397cd59"
+    },
+    {
+      "seed": 123,
+      "variant": "native_features",
+      "pair": "EPHB2__AXL",
+      "maximum_error": 0.0,
+      "checkpoint_sha256": "56c16077d8c2fbf59ff9708bf5bc2b0c5ca400f698d25926c4a5735b5de640a9"
+    },
+    {
+      "seed": 123,
+      "variant": "zero_padded_control",
+      "pair": "MAPK14_full__ABL1",
+      "maximum_error": 0.0,
+      "checkpoint_sha256": "7fbbd87ee8e942ff0c1a12c19d07e6bd9d47e3299b756800e479f7704388d59a"
+    },
+    {
+      "seed": 123,
+      "variant": "zero_padded_control",
+      "pair": "MAPK14_full__AXL",
+      "maximum_error": 0.0,
+      "checkpoint_sha256": "57a05cb69ba8ecaa0cb21002fac8c0e86d2f48370ace87e1cce2ed1cf0254377"
+    },
+    {
+      "seed": 123,
+      "variant": "native_features",
+      "pair": "MAPK14_full__ABL1",
+      "maximum_error": 0.0,
+      "checkpoint_sha256": "5834b08f1ab01666d73a24f589e0868750bcc230ac8cbf49c520d508db36c5b6"
+    },
+    {
+      "seed": 123,
+      "variant": "native_features",
+      "pair": "MAPK14_full__AXL",
+      "maximum_error": 0.0,
+      "checkpoint_sha256": "4e0eaa9a27e5c468f6f0a5436ce6440db5a70756a64023c6b55c8a9f57626859"
+    },
+    {
+      "seed": 123,
+      "variant": "zero_padded_control",
+      "pair": "MET__ABL1",
+      "maximum_error": 0.0,
+      "checkpoint_sha256": "790688f4788baf9bd60902ed59aa341b3e9a63cdb143f7583e5c650f9698acb2"
+    },
+    {
+      "seed": 123,
+      "variant": "zero_padded_control",
+      "pair": "MET__AXL",
+      "maximum_error": 0.0,
+      "checkpoint_sha256": "4a572dc5904b440983128d0ec287431250ec26dbbb7c4b61af232d7612e52757"
+    },
+    {
+      "seed": 123,
+      "variant": "native_features",
+      "pair": "MET__ABL1",
+      "maximum_error": 0.0,
+      "checkpoint_sha256": "e8c5325ff4d7899fd67e827a65dcd793ce06ee548cf6ced5b2cc7dc78c6549d0"
+    },
+    {
+      "seed": 123,
+      "variant": "native_features",
+      "pair": "MET__AXL",
+      "maximum_error": 0.0,
+      "checkpoint_sha256": "7c16a254faa64fdad15e3743510d2d7c1139e72e701ef6248179282a1dadfc14"
+    },
+    {
+      "seed": 123,
+      "variant": "zero_padded_control",
+      "pair": "RIPK2_full__AXL",
+      "maximum_error": 0.0,
+      "checkpoint_sha256": "d7f22512b9b6b8c037e3758a4cd44d2c450826343aa1c1cab9c226b57a8ea89e"
+    },
+    {
+      "seed": 123,
+      "variant": "zero_padded_control",
+      "pair": "RIPK2_full__ABL1",
+      "maximum_error": 0.0,
+      "checkpoint_sha256": "0ae13c88979ac2fb619e47b2263e74abb53c3ca00bd0c4c9d713276cb6d1b525"
+    },
+    {
+      "seed": 123,
+      "variant": "native_features",
+      "pair": "RIPK2_full__ABL1",
+      "maximum_error": 0.0,
+      "checkpoint_sha256": "3b6f0eed11294870abd01deed7b5812f708e2fce853399bdb2db870300baafbe"
+    },
+    {
+      "seed": 123,
+      "variant": "native_features",
+      "pair": "RIPK2_full__AXL",
+      "maximum_error": 0.0,
+      "checkpoint_sha256": "999bd033695d57b9b3d0c41af89c23ad30414ba70252f00941742aa358a8db8b"
+    },
+    {
+      "seed": 2026,
+      "variant": "zero_padded_control",
+      "pair": "DDR2__ABL1",
+      "maximum_error": 0.0,
+      "checkpoint_sha256": "574e036178f456f5718b20415cc08882d9486a79d74ed846b0eb9c89c1fcd0a9"
+    },
+    {
+      "seed": 2026,
+      "variant": "native_features",
+      "pair": "DDR2__ABL1",
+      "maximum_error": 0.0,
+      "checkpoint_sha256": "b4c01928a73c1974f43bc4aaa943eb98ce0e139ac37df29312eca5566148e69e"
+    },
+    {
+      "seed": 2026,
+      "variant": "zero_padded_control",
+      "pair": "DDR2__AXL",
+      "maximum_error": 0.0,
+      "checkpoint_sha256": "d038751cafc3e7c3766dfe13ce8ebb965fa08eb65d57fb3cbf91863b7f86eb28"
+    },
+    {
+      "seed": 2026,
+      "variant": "native_features",
+      "pair": "DDR2__AXL",
+      "maximum_error": 0.0,
+      "checkpoint_sha256": "7203af1fe9cc336a898567ef26b10e21f0a1610defd4e1d5c34b8f0d7c3a5c66"
+    },
+    {
+      "seed": 2026,
+      "variant": "zero_padded_control",
+      "pair": "EPHA2__ABL1",
+      "maximum_error": 0.0,
+      "checkpoint_sha256": "ef39f2b308235a532a63acfcfdd1b1db3297df7f4184a4eb1d0ddf26ed6fe7ae"
+    },
+    {
+      "seed": 2026,
+      "variant": "native_features",
+      "pair": "EPHA2__ABL1",
+      "maximum_error": 0.0,
+      "checkpoint_sha256": "7142a8c4ab7920da0ec79f6ba8ab0db6d955e713863da15b79dc454b27abd43f"
+    },
+    {
+      "seed": 2026,
+      "variant": "zero_padded_control",
+      "pair": "EPHA2__AXL",
+      "maximum_error": 0.0,
+      "checkpoint_sha256": "cac2be7fc16ec46b6162ad8287da904f5055c33d2a88a7c8d8f435523338cf4a"
+    },
+    {
+      "seed": 2026,
+      "variant": "native_features",
+      "pair": "EPHA2__AXL",
+      "maximum_error": 0.0,
+      "checkpoint_sha256": "1160c4886f436180be68fbeefda5ebac994e83b3ba96c01bd58f04714574aeca"
+    },
+    {
+      "seed": 2026,
+      "variant": "zero_padded_control",
+      "pair": "EPHB2__AXL",
+      "maximum_error": 0.0,
+      "checkpoint_sha256": "8d86c81b767374ff2216ebabc2870c7cdb25b0cc822d9e501362297872d6c61f"
+    },
+    {
+      "seed": 2026,
+      "variant": "zero_padded_control",
+      "pair": "EPHB2__ABL1",
+      "maximum_error": 0.0,
+      "checkpoint_sha256": "80859d53c138b497e2f341633eb0e578d901a4aba0d4c9de738e50c2874a38ad"
+    },
+    {
+      "seed": 2026,
+      "variant": "native_features",
+      "pair": "EPHB2__ABL1",
+      "maximum_error": 0.0,
+      "checkpoint_sha256": "5fd207d4e6f0bd5e2d7939c0f2d34004ba667192cb082f6d53e51ac0ab39abcb"
+    },
+    {
+      "seed": 2026,
+      "variant": "native_features",
+      "pair": "EPHB2__AXL",
+      "maximum_error": 0.0,
+      "checkpoint_sha256": "a9b8be67eff1a5e91cab9c1fd4acd17316bde444655a78c1067e6d49307b3bc5"
+    },
+    {
+      "seed": 2026,
+      "variant": "zero_padded_control",
+      "pair": "MAPK14_full__ABL1",
+      "maximum_error": 0.0,
+      "checkpoint_sha256": "7724b16f78c79ff221575becc9ad0ba840624bd0d2eca681fccc4674c961ded3"
+    },
+    {
+      "seed": 2026,
+      "variant": "zero_padded_control",
+      "pair": "MAPK14_full__AXL",
+      "maximum_error": 0.0,
+      "checkpoint_sha256": "b48e984da512053c5fbc25116943b9c8114f08cd5da033d480034f4d023bbd67"
+    },
+    {
+      "seed": 2026,
+      "variant": "native_features",
+      "pair": "MAPK14_full__ABL1",
+      "maximum_error": 0.0,
+      "checkpoint_sha256": "030a5de0f7506d365eabe4c94d84134a244501801529466f3ce1749c2eb0d727"
+    },
+    {
+      "seed": 2026,
+      "variant": "native_features",
+      "pair": "MAPK14_full__AXL",
+      "maximum_error": 0.0,
+      "checkpoint_sha256": "ac32d710925ea7180de1e8e6a73b4c844bedbdebfa430e8a7ab31e620ca206ee"
+    },
+    {
+      "seed": 2026,
+      "variant": "zero_padded_control",
+      "pair": "MET__AXL",
+      "maximum_error": 0.0,
+      "checkpoint_sha256": "fa462c29695f1fd973883bc52892ff03c66368002fd4407a3335127dff5f2347"
+    },
+    {
+      "seed": 2026,
+      "variant": "native_features",
+      "pair": "MET__ABL1",
+      "maximum_error": 0.0,
+      "checkpoint_sha256": "1407b7045695123144f494dcd07475bbe98cb13bfde10702ebeb70b0622a3f14"
+    },
+    {
+      "seed": 2026,
+      "variant": "zero_padded_control",
+      "pair": "MET__ABL1",
+      "maximum_error": 0.0,
+      "checkpoint_sha256": "e4dd79ffa1ea0c520392e21bd62c1f36ca236dcbf04fddd3bbb9ad84b0254f9c"
+    },
+    {
+      "seed": 2026,
+      "variant": "native_features",
+      "pair": "MET__AXL",
+      "maximum_error": 0.0,
+      "checkpoint_sha256": "172f34d2d463027c3cbec612637f80fd711693bca80e9a5a0f8f3accbb2abc2d"
+    },
+    {
+      "seed": 2026,
+      "variant": "zero_padded_control",
+      "pair": "RIPK2_full__ABL1",
+      "maximum_error": 0.0,
+      "checkpoint_sha256": "e78bc6e118e5bb62c8e677eb7d25385b6d67fa2940d3d7b7c7ab6311af5e3ce4"
+    },
+    {
+      "seed": 2026,
+      "variant": "native_features",
+      "pair": "RIPK2_full__ABL1",
+      "maximum_error": 0.0,
+      "checkpoint_sha256": "3713c9fcbb36b8fcad310e54d161bc5154b1775337dbb9976de91ad260bc78a0"
+    },
+    {
+      "seed": 2026,
+      "variant": "zero_padded_control",
+      "pair": "RIPK2_full__AXL",
+      "maximum_error": 0.0,
+      "checkpoint_sha256": "93a152762251abb7d17dc52eb6962e3e09874f287d66463004eb7b71aa5acc94"
+    },
+    {
+      "seed": 2026,
+      "variant": "native_features",
+      "pair": "RIPK2_full__AXL",
+      "maximum_error": 0.0,
+      "checkpoint_sha256": "75328620ace4abd7df0a350caba5f1b3a3efbd3741176ef588e18f9b834b7916"
+    },
+    {
+      "seed": 31415,
+      "variant": "zero_padded_control",
+      "pair": "DDR2__ABL1",
+      "maximum_error": 0.0,
+      "checkpoint_sha256": "21820408e5e2d5962fa5a32e34b5f570602a426b0c643b1074bf0df4e0ba8893"
+    },
+    {
+      "seed": 31415,
+      "variant": "native_features",
+      "pair": "DDR2__ABL1",
+      "maximum_error": 0.0,
+      "checkpoint_sha256": "b55acfd39b9c1bde0a5eb12ca71217b6b706f6245b1da373c6cfa35a740b38af"
+    },
+    {
+      "seed": 31415,
+      "variant": "zero_padded_control",
+      "pair": "DDR2__AXL",
+      "maximum_error": 0.0,
+      "checkpoint_sha256": "724b992256853251884a83736e0d47b41d86c2bbb5346a03c23483ecf33fbd0d"
+    },
+    {
+      "seed": 31415,
+      "variant": "native_features",
+      "pair": "DDR2__AXL",
+      "maximum_error": 0.0,
+      "checkpoint_sha256": "e79ddcf5385e7b59a9433134b90ec5952d3b124b3261dc6ecb1d6bcf53a1f96b"
+    },
+    {
+      "seed": 31415,
+      "variant": "zero_padded_control",
+      "pair": "EPHA2__AXL",
+      "maximum_error": 0.0,
+      "checkpoint_sha256": "56576f6af5494a5e15b323b844bc8af21331f951b80d6d3e521c61d31d05f93a"
+    },
+    {
+      "seed": 31415,
+      "variant": "zero_padded_control",
+      "pair": "EPHA2__ABL1",
+      "maximum_error": 0.0,
+      "checkpoint_sha256": "f4a861be9d8844796420f903c4069abbe43c94316ec77b9d6a73a0ee073a2801"
+    },
+    {
+      "seed": 31415,
+      "variant": "native_features",
+      "pair": "EPHA2__ABL1",
+      "maximum_error": 0.0,
+      "checkpoint_sha256": "14653da6ae39d6ef1f12c760fd5a1eab0c473e65b11e108f5a6dd804202d4204"
+    },
+    {
+      "seed": 31415,
+      "variant": "native_features",
+      "pair": "EPHA2__AXL",
+      "maximum_error": 0.0,
+      "checkpoint_sha256": "ec3d1df41ca8e3469426c979e5b9f0dc5633bc953b52df4ea777f0c8378aa5bc"
+    },
+    {
+      "seed": 31415,
+      "variant": "zero_padded_control",
+      "pair": "EPHB2__AXL",
+      "maximum_error": 0.0,
+      "checkpoint_sha256": "e9ad7251a72a9051a6c6fc062adf4204dff83c1a68bac260b9962acf9113679c"
+    },
+    {
+      "seed": 31415,
+      "variant": "native_features",
+      "pair": "EPHB2__ABL1",
+      "maximum_error": 0.0,
+      "checkpoint_sha256": "7a8d7029396e8c02d1000dc8ccc808550f02259699960298732e9a3ef9279b16"
+    },
+    {
+      "seed": 31415,
+      "variant": "zero_padded_control",
+      "pair": "EPHB2__ABL1",
+      "maximum_error": 0.0,
+      "checkpoint_sha256": "1d40d781bcae4a5c013e5771efe710e64eb57d55e5bdc978781fb1bb89ede239"
+    },
+    {
+      "seed": 31415,
+      "variant": "native_features",
+      "pair": "EPHB2__AXL",
+      "maximum_error": 0.0,
+      "checkpoint_sha256": "1c7feed47f12399af3a243b10c9ef1546fe7551ff15eaf2002652a3350ba7f54"
+    },
+    {
+      "seed": 31415,
+      "variant": "zero_padded_control",
+      "pair": "MAPK14_full__ABL1",
+      "maximum_error": 0.0,
+      "checkpoint_sha256": "cecc02b7d209b563d60b231c62566642aa1ac38c0982c11cc81e1905bff75638"
+    },
+    {
+      "seed": 31415,
+      "variant": "native_features",
+      "pair": "MAPK14_full__ABL1",
+      "maximum_error": 0.0,
+      "checkpoint_sha256": "abc879d6f4ddb5f3582f5fe162b63708e0e66056e497ef9d6ef6bd45a8afba5f"
+    },
+    {
+      "seed": 31415,
+      "variant": "zero_padded_control",
+      "pair": "MAPK14_full__AXL",
+      "maximum_error": 0.0,
+      "checkpoint_sha256": "f3e30db52460a4ed6671e9106795be2a14138f56998ab044345767a0b938cf2e"
+    },
+    {
+      "seed": 31415,
+      "variant": "native_features",
+      "pair": "MAPK14_full__AXL",
+      "maximum_error": 0.0,
+      "checkpoint_sha256": "13de9813bd84149bfa69b5ed4dc9e051d040ff6fc39a452adaf748bbfea78d25"
+    },
+    {
+      "seed": 31415,
+      "variant": "zero_padded_control",
+      "pair": "MET__AXL",
+      "maximum_error": 0.0,
+      "checkpoint_sha256": "63780fd5a128a89be5afc42d41f2c4d04a038118a74f109f9fa08a82d9f856f7"
+    },
+    {
+      "seed": 31415,
+      "variant": "zero_padded_control",
+      "pair": "MET__ABL1",
+      "maximum_error": 0.0,
+      "checkpoint_sha256": "487b62679881bd35aa2f15fb12338102b4c64cd78c282f20d8cb283993ae4782"
+    },
+    {
+      "seed": 31415,
+      "variant": "native_features",
+      "pair": "MET__ABL1",
+      "maximum_error": 0.0,
+      "checkpoint_sha256": "85635beecfe6db79afd0ed6d1c715c9d9057d06e6a852c4212da4dcd0a0d2dc5"
+    },
+    {
+      "seed": 31415,
+      "variant": "native_features",
+      "pair": "MET__AXL",
+      "maximum_error": 0.0,
+      "checkpoint_sha256": "7781d5d88c59b79a5997be9c19cb119c322a956fe19bf82e9274354c37a6e6d3"
+    },
+    {
+      "seed": 31415,
+      "variant": "zero_padded_control",
+      "pair": "RIPK2_full__AXL",
+      "maximum_error": 0.0,
+      "checkpoint_sha256": "ab4e5a3baab749fac28fc1c3e679f29fdcba0fda1c98f701d90ef27e207629e8"
+    },
+    {
+      "seed": 31415,
+      "variant": "native_features",
+      "pair": "RIPK2_full__AXL",
+      "maximum_error": 0.0,
+      "checkpoint_sha256": "8eb965c85b822eac594a9f7d7f7dcebe1da4876fea8769941b0feebae4de7435"
+    },
+    {
+      "seed": 31415,
+      "variant": "zero_padded_control",
+      "pair": "RIPK2_full__ABL1",
+      "maximum_error": 0.0,
+      "checkpoint_sha256": "ef4ebc54fe52c9eaf02c046e7dc1c6d701189ca1210427df5e7d6ccd989bfc25"
+    },
+    {
+      "seed": 31415,
+      "variant": "native_features",
+      "pair": "RIPK2_full__ABL1",
+      "maximum_error": 0.0,
+      "checkpoint_sha256": "c9a44f5200953cd11afef28964085e08792cfb16efdc95ab9e0c44b575b95ef7"
+    }
+  ]
+}

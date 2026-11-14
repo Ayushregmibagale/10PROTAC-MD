@@ -1,0 +1,5 @@
+model	role	unknown_target	mean_score	min_score	max_score	degrader_vote_fraction
+legacy_corrected_md_only_v1	elob	RPS6KB2_full	0.5622676387429237	0.5230298042297363	0.6598929762840271	1.0
+legacy_corrected_md_only_v1	elob	SIK3_full	0.561902791261673	0.5237856507301331	0.6594039797782898	1.0
+legacy_corrected_md_only_v1	vhl	RPS6KB2_full	0.5797513723373413	0.5411047339439392	0.6346723437309265	1.0
+legacy_corrected_md_only_v1	vhl	SIK3_full	0.5797714069485664	0.5405864715576172	0.6345668435096741	1.0

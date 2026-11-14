@@ -1,0 +1,9 @@
+{
+  "baseline_saved_parameter_replay_max_error": 3.036448281701354e-08,
+  "GNN_models": 120,
+  "GNN_CPU_replay": "PASS",
+  "unknown_predictions_replayed": 32,
+  "all_original_labels_preserved": true,
+  "EPHA2_label": 1,
+  "unknowns_used_in_training": false
+}
