@@ -1,0 +1,7 @@
+__pycache__/
+*.pyc
+/logs/
+/results/poses/
+/results/primary_frame_summary.tsv
+/validation/probe_archive/
+/references/*.cif

@@ -1,0 +1,60 @@
+{
+  "version": "prospective_protocol_before_MD_scoring_20261114",
+  "primary": {
+    "distance_NZ_to_modeled_G76C_A": 20.0,
+    "NZ_exposed_sphere_fraction": 0.1,
+    "sidechain_outward_cosine": 0.0,
+    "maximum_target_new_scaffold_overlap_A": 0.8,
+    "true_VHL_bridge_contact_A": 5.0,
+    "anchor": "VHL",
+    "scaffold": "closed_observed",
+    "maximum_anchor_fit_RMSD_A": 3.0
+  },
+  "sensitivity": {
+    "distance_A": [
+      12,
+      16,
+      20,
+      24,
+      30
+    ],
+    "exposure": [
+      0.05,
+      0.1,
+      0.2
+    ],
+    "orientation_cosine": [
+      0.0,
+      0.5
+    ],
+    "anchor": [
+      "VHL",
+      "ELOC"
+    ],
+    "scaffold": [
+      "closed_observed",
+      "open_RBX1_transferred_module"
+    ],
+    "valid_G76_tail_fits": [
+      74,
+      75
+    ],
+    "internal_reference_assembly_gate": "Experimental closed model retained as deposited; open module is an explicit modeled sensitivity. No missing sidechains rebuilt."
+  },
+  "frames_per_pose": 201,
+  "frame_grid_ns": "0,0.1,...,20",
+  "sasa_model": "NZ solvent accessible sphere fraction,180 deterministic Fibonacci points,1.4A probe; Bondi heavy radii; occlusion by whole ternary proteins and ligand. Normalized area fraction, not residue rSASA.",
+  "scaffold_clashes": "New CUL2/RBX1/NEDD8/E2/Ub deposited heavy atoms only versus target atoms; missing sidechains not invented. This is an incomplete-atom lower-bound steric audit.",
+  "unit_of_inference": "8 targets; equal-pose aggregation; frames,lysines andtemplates are not independent labelled samples.",
+  "denominators": "All201 frames and every declared retained endpoint; target-induced scaffold clash counted unproductive. Report joint bridge/geometry fraction and conditional-on-bridge fraction. Malformed/failed inputs separate missing QC.",
+  "labels": "6 confirmed-user degraders,ABL1/AXL negatives; SIK3/RPS6KB2 unknown excluded.",
+  "method_limits": [
+    "Historical simulated chemistry is retained; not supplier-equivalent validation.",
+    "Bridging uses any ligand atom and is not atom-mapped cognate-head engagement.",
+    "Missing donor Gly76 modeled from1UBQ,not observed.",
+    "E2 UBE2R1 trapped mutant,not proof of SJF8240 physiological E2 choice.",
+    "Open module transfer is modeled; RING-domain fit gate3A before MD scoring.",
+    "No new MD,GNN training,binding free energy or catalytic reaction simulation."
+  ],
+  "outcome_tuning": false
+}

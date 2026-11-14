@@ -1,0 +1,23 @@
+{
+  "status": "COMPLETE",
+  "cases": 141,
+  "frames": 28341,
+  "independent_targets": 8,
+  "positive_targets": 6,
+  "negative_targets": 2,
+  "analysis_script_sha256": "58bb1055e460ed9f107dfbcb8c2cbf082336d6d8424819f203592f3b1d69de70",
+  "extraction_manifest_sha256": "5f98d63e4f9aa9dbcb3ac62cc3fac2349092f86becd746386eb3fcb198ab11a9",
+  "outputs_sha256": {
+    "metrics.tsv": "1746b50989e7716af97e499638b70d3d219f277d6e2d6e7a02d4014e9304184c",
+    "pose_scores.tsv": "d22a681aff803400e6ff0d275d7fa3644dda4ce028b770c873131ad3f3df137f",
+    "primary_frame_summary.tsv": "865793da76dccf9806f2377364b3d44af1d298dff518ab97f4b78d90642c8377",
+    "primary_target_scores.tsv": "3c4f093eb892325810f1c70e9a0cd779e79cc185960d53b4976ce749cea36559",
+    "sensitivity_metrics.tsv": "887cf9f971dcbd134adab7c3c5af8d0502e015786cb2d4915a725f175a6e3bf9",
+    "sensitivity_target_scores.tsv": "b42d977a3f76c1c8cc6d6ed38875e893bfe021bda1217a1ac5f8f7fb2848e58f",
+    "target_scores_all_variants.tsv": "bbaf7c1f11e67eff1fc6b09175aa8c0c52a4c23ececaecfedaf64b7fe85951eb"
+  },
+  "no_GNN_training": true,
+  "hypothetical_negatives_used": false,
+  "primary_score_prespecified": "closed_observed,VHL anchor,20A,exposure>=0.1,outward cosine>=0,max scaffold overlap<=0.8A,anchor fit<=3A,trueVHL bridge<5A",
+  "retrospective_historical_chemistry": true
+}

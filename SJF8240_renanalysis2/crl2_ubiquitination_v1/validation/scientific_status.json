@@ -1,0 +1,11 @@
+{
+  "extraction_complete": true,
+  "software_numerical_verification": "PASS",
+  "native_primary_distance_orientation_control_pass": false,
+  "biological_validation": false,
+  "validated_degradation_classifier": false,
+  "automatic_GNN_training_release": false,
+  "primary_AUROC": 0.75,
+  "exact_two_sided_AUROC_permutation_p": 0.42857142857142855,
+  "historical_simulated_chemistry": true
+}

@@ -1,0 +1,18 @@
+{
+  "1UBQ": {
+    "url": "https://files.rcsb.org/download/1UBQ.cif",
+    "sha256": "056f98710cb2b36f633c45e41902a02eb446e82871da21ff2dd44f74a56ca0f6"
+  },
+  "5T35": {
+    "url": "https://files.rcsb.org/download/5T35.cif",
+    "sha256": "003a7b37998f5eded4e4c74b03c18b713c27906e253651a503acfac8d66f42f7"
+  },
+  "8RWZ": {
+    "url": "https://files.rcsb.org/download/8RWZ.cif",
+    "sha256": "6e18423d33392891c9a3815d8f50028492c4efd64461722721f3485c9d6f20ee"
+  },
+  "8RX0": {
+    "url": "https://files.rcsb.org/download/8RX0.cif",
+    "sha256": "ffc065bf018f321d62f82a64a8314b56dc55835527a2e67c9d98e2280ed6d71f"
+  }
+}

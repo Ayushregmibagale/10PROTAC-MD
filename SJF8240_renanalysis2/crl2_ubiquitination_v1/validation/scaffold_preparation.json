@@ -1,0 +1,176 @@
+{
+  "sources_sha256": {
+    "1UBQ.cif": "056f98710cb2b36f633c45e41902a02eb446e82871da21ff2dd44f74a56ca0f6",
+    "5T35.cif": "003a7b37998f5eded4e4c74b03c18b713c27906e253651a503acfac8d66f42f7",
+    "8RWZ.cif": "6e18423d33392891c9a3815d8f50028492c4efd64461722721f3485c9d6f20ee",
+    "8RX0.cif": "ffc065bf018f321d62f82a64a8314b56dc55835527a2e67c9d98e2280ed6d71f"
+  },
+  "observed_missing": "8RX0 donor ubiquitin modeled only through Gly75; E2 and several catalytic components lack sidechain heavy atoms. Open scaffold lacks resolved E2/Ub/NEDD8 module.",
+  "endpoint_model": "1UBQ terminal backbone fitted to8RX0 Ub locally, retained only when G75C-G76N1.1\u20131.6A; all terminal estimates are modeled, not observed catalytic atoms.",
+  "endpoint_attempts": [
+    {
+      "name": "ub_tail_fit_70",
+      "xyz": [
+        [
+          192.02221441983056,
+          147.57400842346917,
+          192.72282550607193
+        ],
+        [
+          191.76953502036497,
+          148.8198369947758,
+          191.98415095498675
+        ],
+        [
+          192.8985455017545,
+          149.01440546190346,
+          190.95915016245146
+        ],
+        [
+          193.36344704531845,
+          150.16715748485686,
+          190.86041848890565
+        ]
+      ],
+      "fit_RMSD_A": 1.4883381406334824,
+      "G75C_G76N_distance_A": 3.0044676848634246,
+      "modeled": true
+    },
+    {
+      "name": "ub_tail_fit_72",
+      "xyz": [
+        [
+          189.23999648082756,
+          145.90110484881944,
+          193.38004387766668
+        ],
+        [
+          187.79465397623727,
+          145.6772478220111,
+          193.2302143866032
+        ],
+        [
+          187.32659500297854,
+          146.37147341061498,
+          191.94098213062082
+        ],
+        [
+          186.2575554087731,
+          147.0092030591487,
+          192.0129116544245
+        ]
+      ],
+      "fit_RMSD_A": 1.321464968561158,
+      "G75C_G76N_distance_A": 1.8883374141860239,
+      "modeled": true
+    },
+    {
+      "name": "ub_tail_fit_73",
+      "xyz": [
+        [
+          190.0236661366906,
+          146.68192435179674,
+          192.65660674805534
+        ],
+        [
+          188.7804195846139,
+          147.26593884295806,
+          192.13235405585237
+        ],
+        [
+          189.05766811224473,
+          147.81422826165382,
+          190.72321951740028
+        ],
+        [
+          188.57497247999314,
+          148.93341144236945,
+          190.46025079378288
+        ]
+      ],
+      "fit_RMSD_A": 1.18069028117603,
+      "G75C_G76N_distance_A": 2.048984754342732,
+      "modeled": true
+    },
+    {
+      "name": "ub_tail_fit_74",
+      "xyz": [
+        [
+          190.85048491001868,
+          145.37780277359872,
+          191.81433230063848
+        ],
+        [
+          189.74882932191042,
+          145.50330561669958,
+          190.8488377113308
+        ],
+        [
+          190.3485289528058,
+          145.78070641723303,
+          189.46083290991504
+        ],
+        [
+          189.78277880463006,
+          146.65813806583793,
+          188.77910049403758
+        ]
+      ],
+      "fit_RMSD_A": 0.6363141197190991,
+      "G75C_G76N_distance_A": 1.4693359273704922,
+      "modeled": true
+    },
+    {
+      "name": "ub_tail_fit_75",
+      "xyz": [
+        [
+          190.02265292651154,
+          145.63751461004173,
+          192.4462281555646
+        ],
+        [
+          188.74091635693526,
+          145.21767970880984,
+          191.86102236070477
+        ],
+        [
+          188.07808045910946,
+          146.44379904722422,
+          191.21261807269798
+        ],
+        [
+          186.85529955500118,
+          146.58246837265358,
+          191.41335744035055
+        ]
+      ],
+      "fit_RMSD_A": 0.013937531264136438,
+      "G75C_G76N_distance_A": 1.3291664337002018,
+      "modeled": true
+    }
+  ],
+  "scaffolds": [
+    {
+      "name": "closed_observed",
+      "module_RBX1_fit_RMSD_A": 0.0,
+      "module_fit_domain": "RBX1 residue40\u2013104 RING region",
+      "module_fit_accepted": true,
+      "model_based_module_transfer": false,
+      "heavy_atoms": 5572,
+      "endpoint_count": 2,
+      "file_sha256": "970fd4875c50ce3db2284f1d28dde0f0030d8555f0b43cb60230fe88a02dc8ee"
+    },
+    {
+      "name": "open_RBX1_transferred_module",
+      "module_RBX1_fit_RMSD_A": 2.8985557860103603,
+      "module_fit_domain": "RBX1 residue40\u2013104 RING region",
+      "module_fit_accepted": true,
+      "model_based_module_transfer": true,
+      "heavy_atoms": 3948,
+      "endpoint_count": 2,
+      "file_sha256": "8b2a47afba7cbde0d13a05d6364b18048e8ba0b1b2885e947e721ccc0458ec15"
+    }
+  ],
+  "atomic_sterics_complete": false,
+  "reaction_probability": false
+}

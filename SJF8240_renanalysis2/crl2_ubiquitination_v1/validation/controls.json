@@ -1,0 +1,235 @@
+{
+  "software_controls": "PASS",
+  "isolated_NZ_exposure": 1,
+  "buried_NZ_exposure": 0,
+  "proper_rotation_and_inverse": "PASS",
+  "translated_far_negative": "PASS",
+  "native_MZ1_projection": [
+    {
+      "crystal_copy": "A",
+      "resid": 355,
+      "VHL_fit_RMSD_A": 1.6563352477704718,
+      "distance_to_two_modeled_G76C_A": [
+        40.72410265745241,
+        38.344222599905635
+      ],
+      "outward_cosines": [
+        -0.2300468023780811,
+        -0.18987240301890448
+      ]
+    },
+    {
+      "crystal_copy": "A",
+      "resid": 368,
+      "VHL_fit_RMSD_A": 1.6563352477704718,
+      "distance_to_two_modeled_G76C_A": [
+        19.082431927264494,
+        17.261938803063735
+      ],
+      "outward_cosines": [
+        -0.2189658647687058,
+        -0.12086204526868126
+      ]
+    },
+    {
+      "crystal_copy": "A",
+      "resid": 378,
+      "VHL_fit_RMSD_A": 1.6563352477704718,
+      "distance_to_two_modeled_G76C_A": [
+        39.22539709111917,
+        38.26736589168791
+      ],
+      "outward_cosines": [
+        -0.20120713081415006,
+        -0.2239525671885696
+      ]
+    },
+    {
+      "crystal_copy": "A",
+      "resid": 404,
+      "VHL_fit_RMSD_A": 1.6563352477704718,
+      "distance_to_two_modeled_G76C_A": [
+        37.28000503979474,
+        35.608656713796485
+      ],
+      "outward_cosines": [
+        0.4863040301832001,
+        0.4809514243246872
+      ]
+    },
+    {
+      "crystal_copy": "A",
+      "resid": 406,
+      "VHL_fit_RMSD_A": 1.6563352477704718,
+      "distance_to_two_modeled_G76C_A": [
+        44.993328952315444,
+        43.71825355608793
+      ],
+      "outward_cosines": [
+        -0.00011101061225887338,
+        -0.04947856336985427
+      ]
+    },
+    {
+      "crystal_copy": "A",
+      "resid": 431,
+      "VHL_fit_RMSD_A": 1.6563352477704718,
+      "distance_to_two_modeled_G76C_A": [
+        45.217957080988825,
+        45.03614784472882
+      ],
+      "outward_cosines": [
+        -0.29137459027367996,
+        -0.26401307880905317
+      ]
+    },
+    {
+      "crystal_copy": "A",
+      "resid": 445,
+      "VHL_fit_RMSD_A": 1.6563352477704718,
+      "distance_to_two_modeled_G76C_A": [
+        21.776221105651768,
+        22.00788374602913
+      ],
+      "outward_cosines": [
+        -0.1099359129438363,
+        -0.17467526169712597
+      ]
+    },
+    {
+      "crystal_copy": "A",
+      "resid": 456,
+      "VHL_fit_RMSD_A": 1.6563352477704718,
+      "distance_to_two_modeled_G76C_A": [
+        24.994869150386673,
+        23.405755690970437
+      ],
+      "outward_cosines": [
+        -0.4262832742332671,
+        -0.49924858960909735
+      ]
+    },
+    {
+      "crystal_copy": "E",
+      "resid": 355,
+      "VHL_fit_RMSD_A": 1.6553876188205328,
+      "distance_to_two_modeled_G76C_A": [
+        39.723767340819535,
+        37.278670559905365
+      ],
+      "outward_cosines": [
+        -0.22406073027865778,
+        -0.18517774081486116
+      ]
+    },
+    {
+      "crystal_copy": "E",
+      "resid": 368,
+      "VHL_fit_RMSD_A": 1.6553876188205328,
+      "distance_to_two_modeled_G76C_A": [
+        18.189825440431193,
+        16.29146087333182
+      ],
+      "outward_cosines": [
+        -0.21996162406370892,
+        -0.11896082544327138
+      ]
+    },
+    {
+      "crystal_copy": "E",
+      "resid": 378,
+      "VHL_fit_RMSD_A": 1.6553876188205328,
+      "distance_to_two_modeled_G76C_A": [
+        38.556102662680125,
+        37.55244401950523
+      ],
+      "outward_cosines": [
+        -0.22984954665701282,
+        -0.25493087713284507
+      ]
+    },
+    {
+      "crystal_copy": "E",
+      "resid": 395,
+      "VHL_fit_RMSD_A": 1.6553876188205328,
+      "distance_to_two_modeled_G76C_A": [
+        51.857371478328886,
+        51.520918284893
+      ],
+      "outward_cosines": [
+        -0.9413691341683368,
+        -0.949056704945611
+      ]
+    },
+    {
+      "crystal_copy": "E",
+      "resid": 404,
+      "VHL_fit_RMSD_A": 1.6553876188205328,
+      "distance_to_two_modeled_G76C_A": [
+        36.44631864287142,
+        34.713241878719344
+      ],
+      "outward_cosines": [
+        0.467809515876486,
+        0.46099259352332667
+      ]
+    },
+    {
+      "crystal_copy": "E",
+      "resid": 406,
+      "VHL_fit_RMSD_A": 1.6553876188205328,
+      "distance_to_two_modeled_G76C_A": [
+        44.03714112232131,
+        42.6951294542078
+      ],
+      "outward_cosines": [
+        0.003655978856944416,
+        -0.04634378276522239
+      ]
+    },
+    {
+      "crystal_copy": "E",
+      "resid": 431,
+      "VHL_fit_RMSD_A": 1.6553876188205328,
+      "distance_to_two_modeled_G76C_A": [
+        44.32031415511354,
+        44.09007728769764
+      ],
+      "outward_cosines": [
+        -0.2813123472626533,
+        -0.2535911201359075
+      ]
+    },
+    {
+      "crystal_copy": "E",
+      "resid": 445,
+      "VHL_fit_RMSD_A": 1.6553876188205328,
+      "distance_to_two_modeled_G76C_A": [
+        21.054076477564667,
+        21.282991793948668
+      ],
+      "outward_cosines": [
+        -0.1418038438504184,
+        -0.20663566131631747
+      ]
+    },
+    {
+      "crystal_copy": "E",
+      "resid": 456,
+      "VHL_fit_RMSD_A": 1.6553876188205328,
+      "distance_to_two_modeled_G76C_A": [
+        24.14388693079513,
+        22.521851697183457
+      ],
+      "outward_cosines": [
+        -0.4480369390806169,
+        -0.5246670954528273
+      ]
+    }
+  ],
+  "native_control_is_supplier_SJF8240": false,
+  "endpoint_observed": false,
+  "known_positive_primary_distance_orientation_pass": false,
+  "known_K456_primary_distance_pass": false,
+  "note": "Native MZ1 structural projection tests geometry and endpoint sensitivity, not a calibration to SJF8240 labels. K456 is tracked explicitly; missing donorG76 means reported distances are modeled."
+}

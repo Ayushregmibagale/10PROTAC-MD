@@ -1,0 +1,33 @@
+{
+  "cases": 1,
+  "frames": 201,
+  "records": [
+    {
+      "poi": "ABL1",
+      "pose": "pose001",
+      "frames": 201,
+      "lysines": 18,
+      "specs": [
+        "closed_observed__VHL",
+        "closed_observed__ELOC",
+        "open_RBX1_transferred_module__VHL",
+        "open_RBX1_transferred_module__ELOC"
+      ],
+      "endpoint_count": 2,
+      "input_sha256": {
+        "/home/ayushregmibagale/protac-md/random_screen/ABL1/pose001/prod/prod.tpr": "f9228e3e573644840af08941f321cff25a3e8e124677c53cb9d681a5b7ec000c",
+        "/home/ayushregmibagale/protac-md/analysis/random_screen/ABL1/pose001/prod_nojump.xtc": "bf8d6d1a82197f0d64efca4c2f757aab3d95e73883d0ac7e2df2d76f397af133",
+        "/home/ayushregmibagale/protac-md/random_screen/ABL1/pose001/structure/complex_protein.pdb": "1bf750c6540e6d49ef3b3e2a3f9c7e2f75a26a3cd5de660f3f6dc2dc5f3eec33",
+        "/home/ayushregmibagale/10PROTAC-MD/SJF8240_reanalysis/full_frame_e2_delta50_v1/analysis/poses/ABL1/pose001/packet.npz": "8334b083ec532d1c950dec9ab96a778174c071d8ca39f5bda1eadca200b87be2",
+        "/home/ayushregmibagale/10PROTAC-MD/SJF8240_reanalysis/full_frame_e2_delta50_v1/analysis/poses/ABL1/pose001/receipt.json": "dc9c981a82421deb709fdda00af8664b429f417e60a2dc629608e9e3bac6bb0d"
+      },
+      "source_manifest_sha256": "79ee365a16dcd01c732d8137a0a126b9e99acd671705a052c102d9d900c63b36",
+      "packet_sha256": "b3ada145d7640d2ce8e11fe10b2f4e449fd979915f4370435220092e8bf0f725",
+      "max_contact_replay_error_A": 0.0,
+      "seconds": 5.053904225991573,
+      "historical_chemistry": true,
+      "catalysis_validated": false
+    }
+  ],
+  "source_manifest_sha256": "79ee365a16dcd01c732d8137a0a126b9e99acd671705a052c102d9d900c63b36"
+}

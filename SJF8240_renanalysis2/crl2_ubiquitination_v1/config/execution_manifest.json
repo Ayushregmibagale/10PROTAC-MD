@@ -1,0 +1,12 @@
+{
+  "scripts/01_prepare_scaffolds.py": "ddba41e613a9235e217ea8f62e0fa7469779fa53f17fa060f6badc675953c938",
+  "scripts/02_extract_md_compatibility.py": "2a167a95fb05771aa97a77064365270b0debedaff5317a8d305c851adcee164f",
+  "lib/coherent_images.py": "ef8e7a36e38d337ded98d78bd3ab3b98d2a315e0d89742cb94791348938d4888",
+  "lib/e2_geometry.py": "7deee629aae416fad2916e64a75df0e822ffdcac9d09da10cc349040be23c70d",
+  "lib/protac_qc.py": "b7faca900f0a3c441f3d7fccb9835e7ae138f1198f480101145b9e6363ccf632",
+  "lib/read_only_trajectory.py": "231645da4027fd0f9e7e2ad49e7f5d942a12e768a5e1995b58a88fd505e55edb",
+  "config/labels.json": "5f999e61afba0563f93891b21790359535b9c5e6e707d5721c6fcab22742b34b",
+  "config/protocol.json": "1009ca1137a7763e7ff8a0107675f8b883cf942554fe3a8a852b57426f1f6033",
+  "references/closed_observed.npz": "970fd4875c50ce3db2284f1d28dde0f0030d8555f0b43cb60230fe88a02dc8ee",
+  "references/open_RBX1_transferred_module.npz": "8b2a47afba7cbde0d13a05d6364b18048e8ba0b1b2885e947e721ccc0458ec15"
+}
