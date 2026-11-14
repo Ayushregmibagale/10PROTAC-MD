@@ -1,0 +1,3 @@
+variant	matched_pair_AUROC	ranking_wins_equivalent	pairs	sensitivity_at05	specificity_at05	balanced_accuracy_at05	mean_heldout_margin	independent_targets	independent_negative_targets
+native_features	0.8333333333333334	10.0	12	1.0	0.0	0.5	0.0041501522064208984	8	2
+zero_padded_control	0.75	9.0	12	1.0	0.0	0.5	0.01894962787628174	8	2

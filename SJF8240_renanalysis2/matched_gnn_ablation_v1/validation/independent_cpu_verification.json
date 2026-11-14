@@ -1,0 +1,230 @@
+{
+  "status": "PASS",
+  "models": 24,
+  "heldout_scores": 48,
+  "records": [
+    {
+      "pair": "DDR2__ABL1",
+      "variant": "zero_padded_control",
+      "status": "CPU_VERIFIED",
+      "max_score_error": 0.0,
+      "checkpoint_sha256": "520a2ba79dd91b5d93c0b16dbcf9fc5e57c34b4533dff3e03763b9a769430836",
+      "same_seed_and_initial_state": true,
+      "train_heldout_disjoint": true
+    },
+    {
+      "pair": "DDR2__ABL1",
+      "variant": "native_features",
+      "status": "CPU_VERIFIED",
+      "max_score_error": 0.0,
+      "checkpoint_sha256": "0f603846703ddaa26be37bc778b6fda777019d48eb1d723ac7e13b36698b1804",
+      "same_seed_and_initial_state": true,
+      "train_heldout_disjoint": true
+    },
+    {
+      "pair": "DDR2__AXL",
+      "variant": "zero_padded_control",
+      "status": "CPU_VERIFIED",
+      "max_score_error": 0.0,
+      "checkpoint_sha256": "52fbdfb66447304f6dbc6f8201989e33cd183eff15801e6494bb72833a89c980",
+      "same_seed_and_initial_state": true,
+      "train_heldout_disjoint": true
+    },
+    {
+      "pair": "DDR2__AXL",
+      "variant": "native_features",
+      "status": "CPU_VERIFIED",
+      "max_score_error": 0.0,
+      "checkpoint_sha256": "d48590f67d874a8f9bf6bd79e77644b520b7f8cbf8b2b68b433d265c5d126af6",
+      "same_seed_and_initial_state": true,
+      "train_heldout_disjoint": true
+    },
+    {
+      "pair": "EPHA2__ABL1",
+      "variant": "zero_padded_control",
+      "status": "CPU_VERIFIED",
+      "max_score_error": 0.0,
+      "checkpoint_sha256": "1fa3e9d9ce7bbc642a85860c5d3166a617cc8abafafe297406f5d8c34eb6fe1c",
+      "same_seed_and_initial_state": true,
+      "train_heldout_disjoint": true
+    },
+    {
+      "pair": "EPHA2__ABL1",
+      "variant": "native_features",
+      "status": "CPU_VERIFIED",
+      "max_score_error": 0.0,
+      "checkpoint_sha256": "5ffa30818eac1649d642b41ecf4209e03e32070ada2c9ac2373d1da495e97bb0",
+      "same_seed_and_initial_state": true,
+      "train_heldout_disjoint": true
+    },
+    {
+      "pair": "EPHA2__AXL",
+      "variant": "zero_padded_control",
+      "status": "CPU_VERIFIED",
+      "max_score_error": 0.0,
+      "checkpoint_sha256": "60b8e3122b6558e71375c3f97451b7cd71dd863f506047a2e4dab2d8df0e1c72",
+      "same_seed_and_initial_state": true,
+      "train_heldout_disjoint": true
+    },
+    {
+      "pair": "EPHA2__AXL",
+      "variant": "native_features",
+      "status": "CPU_VERIFIED",
+      "max_score_error": 0.0,
+      "checkpoint_sha256": "00749be426182cdb5ed0b1ec7c5dff07c281178498354400ad51d45e8a1698ca",
+      "same_seed_and_initial_state": true,
+      "train_heldout_disjoint": true
+    },
+    {
+      "pair": "EPHB2__ABL1",
+      "variant": "zero_padded_control",
+      "status": "CPU_VERIFIED",
+      "max_score_error": 0.0,
+      "checkpoint_sha256": "215aca18f692bb16b3d41ab9b44c91816faf11c61a48380c64a936507bba5b35",
+      "same_seed_and_initial_state": true,
+      "train_heldout_disjoint": true
+    },
+    {
+      "pair": "EPHB2__ABL1",
+      "variant": "native_features",
+      "status": "CPU_VERIFIED",
+      "max_score_error": 0.0,
+      "checkpoint_sha256": "c5cb7ceb81d844ab81fe1eaed8727705c00d9f6d0a5a3f1f32d15e9a433a0dc9",
+      "same_seed_and_initial_state": true,
+      "train_heldout_disjoint": true
+    },
+    {
+      "pair": "EPHB2__AXL",
+      "variant": "zero_padded_control",
+      "status": "CPU_VERIFIED",
+      "max_score_error": 0.0,
+      "checkpoint_sha256": "880541ae9361f957956b733371ebabb04206415d42a4d1e8e71e90de7377c4b6",
+      "same_seed_and_initial_state": true,
+      "train_heldout_disjoint": true
+    },
+    {
+      "pair": "EPHB2__AXL",
+      "variant": "native_features",
+      "status": "CPU_VERIFIED",
+      "max_score_error": 0.0,
+      "checkpoint_sha256": "a848088f9a6557466f792aa1bb541c07592c54ffe94d38bdbe5780452dcef081",
+      "same_seed_and_initial_state": true,
+      "train_heldout_disjoint": true
+    },
+    {
+      "pair": "MAPK14_full__ABL1",
+      "variant": "zero_padded_control",
+      "status": "CPU_VERIFIED",
+      "max_score_error": 0.0,
+      "checkpoint_sha256": "82cf66b958778e1fdf62b844e880a56d8dc92dd75a16e7d8050adca83c6f8ce3",
+      "same_seed_and_initial_state": true,
+      "train_heldout_disjoint": true
+    },
+    {
+      "pair": "MAPK14_full__ABL1",
+      "variant": "native_features",
+      "status": "CPU_VERIFIED",
+      "max_score_error": 0.0,
+      "checkpoint_sha256": "dae252c5a20f5ca3ef760e3d09558d91ed7a6ab846a49ee1c8a09bad6fd27135",
+      "same_seed_and_initial_state": true,
+      "train_heldout_disjoint": true
+    },
+    {
+      "pair": "MAPK14_full__AXL",
+      "variant": "zero_padded_control",
+      "status": "CPU_VERIFIED",
+      "max_score_error": 0.0,
+      "checkpoint_sha256": "bc4bb8a1a46ae0c6eecf9307a9f6c51ed17c38c5a57797435268e8569979ca92",
+      "same_seed_and_initial_state": true,
+      "train_heldout_disjoint": true
+    },
+    {
+      "pair": "MAPK14_full__AXL",
+      "variant": "native_features",
+      "status": "CPU_VERIFIED",
+      "max_score_error": 0.0,
+      "checkpoint_sha256": "697edd331fb225cf7cbb9265205dafd111d5280cb20493e827a673d2223d2aec",
+      "same_seed_and_initial_state": true,
+      "train_heldout_disjoint": true
+    },
+    {
+      "pair": "MET__ABL1",
+      "variant": "zero_padded_control",
+      "status": "CPU_VERIFIED",
+      "max_score_error": 0.0,
+      "checkpoint_sha256": "5ffa3f295c1661c88bfad30fce9b6ba96cde6971c43908d046887e5198a3cd18",
+      "same_seed_and_initial_state": true,
+      "train_heldout_disjoint": true
+    },
+    {
+      "pair": "MET__ABL1",
+      "variant": "native_features",
+      "status": "CPU_VERIFIED",
+      "max_score_error": 0.0,
+      "checkpoint_sha256": "2f9d42b3c7cc17bd0e9b4f167e064ecbaf7ce0bf0aef30f3be9e0826d3f018d0",
+      "same_seed_and_initial_state": true,
+      "train_heldout_disjoint": true
+    },
+    {
+      "pair": "MET__AXL",
+      "variant": "zero_padded_control",
+      "status": "CPU_VERIFIED",
+      "max_score_error": 0.0,
+      "checkpoint_sha256": "7da1827b0e1bdf2cc35bd97842cbcaa5a2aec4ed75f58e5e8c0000a9d04693d8",
+      "same_seed_and_initial_state": true,
+      "train_heldout_disjoint": true
+    },
+    {
+      "pair": "MET__AXL",
+      "variant": "native_features",
+      "status": "CPU_VERIFIED",
+      "max_score_error": 0.0,
+      "checkpoint_sha256": "ab9cdfdaeb02ec48627353239e68d9c4f2671418bba7d3667aba42f661fee994",
+      "same_seed_and_initial_state": true,
+      "train_heldout_disjoint": true
+    },
+    {
+      "pair": "RIPK2_full__ABL1",
+      "variant": "zero_padded_control",
+      "status": "CPU_VERIFIED",
+      "max_score_error": 0.0,
+      "checkpoint_sha256": "e8f8cd3edb43b07e7b9ac8283f5a8df46a8527e569e08123434434b922c14cd6",
+      "same_seed_and_initial_state": true,
+      "train_heldout_disjoint": true
+    },
+    {
+      "pair": "RIPK2_full__ABL1",
+      "variant": "native_features",
+      "status": "CPU_VERIFIED",
+      "max_score_error": 0.0,
+      "checkpoint_sha256": "515a788f5ab11b80c693d7834a15eec0ed2b03680192c417c5a7708d5f3a453b",
+      "same_seed_and_initial_state": true,
+      "train_heldout_disjoint": true
+    },
+    {
+      "pair": "RIPK2_full__AXL",
+      "variant": "zero_padded_control",
+      "status": "CPU_VERIFIED",
+      "max_score_error": 0.0,
+      "checkpoint_sha256": "6deb6336f6439d45da52ee77e2ca85c1c6b3aec0dbe5900fc99b18fdcb7fd4cd",
+      "same_seed_and_initial_state": true,
+      "train_heldout_disjoint": true
+    },
+    {
+      "pair": "RIPK2_full__AXL",
+      "variant": "native_features",
+      "status": "CPU_VERIFIED",
+      "max_score_error": 0.0,
+      "checkpoint_sha256": "971951b028698f6a1903fb63c03523b3d571b139b52075e157c1391a4f71b4df",
+      "same_seed_and_initial_state": true,
+      "train_heldout_disjoint": true
+    }
+  ],
+  "max_score_error": 0.0,
+  "same_initialization_all12_pairs": true,
+  "source_manifest_sha256": "2f631f1fdd726ae16e7d8144ff468aa4e6a420c240062d715cac6a19fff6fe4a",
+  "verification_script_sha256": "a08837a5ce03f03634e1d904e81b47cb6e70679d37bd343e7543aa9e7c002ff5",
+  "labelled_targets": 8,
+  "independent_negative_targets": 2,
+  "biological_validation": false
+}

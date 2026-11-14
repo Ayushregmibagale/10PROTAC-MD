@@ -1,0 +1,5 @@
+variant	negative_target	matched_pair_AUROC	ranking_wins_equivalent	comparisons	nondegrader_predictions_at05	mean_negative_score
+native_features	ABL1	0.8333333333333334	5.0	6	0	0.7725101312001547
+native_features	AXL	0.8333333333333334	5.0	6	0	0.7765621443589529
+zero_padded_control	ABL1	0.6666666666666666	4.0	6	0	0.8072593708833059
+zero_padded_control	AXL	0.8333333333333334	5.0	6	0	0.834979514280955

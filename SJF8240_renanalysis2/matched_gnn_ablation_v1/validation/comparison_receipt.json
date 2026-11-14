@@ -1,0 +1,25 @@
+{
+  "status": "COMPLETE",
+  "primary_AUROC_delta": 0.08333333333333337,
+  "balanced_accuracy_delta": 0.0,
+  "specificity_delta": 0.0,
+  "improved_pairs": 2,
+  "worsened_pairs": 1,
+  "unchanged_pairs": 9,
+  "fold_initial_weights_matched": true,
+  "best_threshold_selection": false,
+  "no_claim12_independent_pairs": true,
+  "code_sha256": "73f883c431b59618d849b561ef3e2f0a55b53e2301ef8f201c3a05c33449f694",
+  "source_manifest_sha256": "2f631f1fdd726ae16e7d8144ff468aa4e6a420c240062d715cac6a19fff6fe4a",
+  "result_sha256": {
+    "all_fold_predictions.tsv": "9d5f6fc13b639faab82430cb68461e219dbc116598b8c0a6ff0d07954f5314f5",
+    "experimental_all_saved_versions.tsv": "2873c9137fb64ba916e5d209f1e32fd36c520aa7a4fbfb2bcb580bccd60256bc",
+    "experimental_evidence_eight_targets.tsv": "08842fe740f9437bb9f649469d544607aea0a613744358f0f9dea2d4915f01e7",
+    "heldout_individual_predictions.tsv": "c2bd6083e180e67ad827d5a39d85e26f9a3a6f903b387cbb1ee66653aabcdf10",
+    "metrics.tsv": "f57348af81e48b1bde710b477c4ad1c1c122f1aa9c47a14e39667344e6ca8f99",
+    "paired_changes.tsv": "b05db8a8c2aa94abdf5df8cf07de5ca18f3522b8da729fef9af96df74f5d88b9",
+    "per_negative_target.tsv": "0ed7c4a383f37e57efdd2059202f54423fe1f7eaa197286164324baef5d4b752",
+    "per_target_scores.tsv": "c3e2479d748e5a061455ee9593c45a27bc9aa4ec73c630f7df5f7747a3ac692d"
+  },
+  "biological_validation": false
+}

@@ -1,0 +1,7 @@
+{
+  "original_model_path": "/home/ayushregmibagale/10PROTAC-MD/SJF8240_reanalysis/mechanistic_v3/lib/temporal_model.py",
+  "original_model_sha256": "d88a3284a1022d9a12e3c4b5b66183d709dabb1a69b1dd5a5991e5c45d4b00a3",
+  "change": "OnlyfirstGATConvinputwidth29to34;identicalmodelsourceforbothvariants",
+  "runtime_guard_source": "/home/ayushregmibagale/10PROTAC-MD/SJF8240_reanalysis/mechanistic_v3/lib/gnn_contract.py",
+  "runtime_guard_source_sha256": "aa10cf1d4f7bc4534663944f2c2bc6a3cc9b0f16e62fdc5de17d8d0b9fdb92eb"
+}

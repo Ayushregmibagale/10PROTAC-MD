@@ -1,0 +1,14 @@
+{
+  "status": "READ_ONLY_REVIEW_COMPLETE",
+  "source_sha256": {
+    "/home/ayushregmibagale/SJF8240_LF_and_PS/E250916_LF/LIMMA_results_DMSO_vs_SJF8240_Foretinib_new.csv.gz": "663eb3764f3e6ff0f802c0f88495d824d23d754c26e1b6f062a0da35cf1ed996",
+    "/home/ayushregmibagale/SJF8240_LF_and_PS/E260106_PS/LIMMA_LIGHT_results_all_contrasts.csv.gz": "7ebd64790ab3441f586dda9d86f4e1a77135b476d45fff08b10b79a0fc727b36",
+    "/home/ayushregmibagale/SJF8240_LF_and_PS/E260106_PS/LIMMA_HEAVY_results_all_contrasts.csv.gz": "05f1757496fcfd145b9e91ea0af80fe23f758b6d885dd525f9b7c5591540b91b",
+    "/home/ayushregmibagale/10PROTAC-MD/prosettac_robust/existing_result_audit/user_experimental_summary_v2/canonical_results_all_versions.tsv": "3fa863890bb6462e406bb3560d2847a26c6099cfe1653c5320092d5f3f6e6fe3"
+  },
+  "labels_changed": false,
+  "new_differential_fit": false,
+  "replication_assumptions_not_inferred": true,
+  "LFprior_reproduction_max_error": 0.0,
+  "review_script_sha256": "7eec3ce40f447f859f6499caee8eadbc3f0f7ff8720156ff79c3271b49002dd1"
+}

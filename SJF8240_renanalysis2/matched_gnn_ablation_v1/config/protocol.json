@@ -1,0 +1,238 @@
+{
+  "name": "matched_34feature_temporal_GNN_ablation_v1",
+  "authorization": "User explicitly accepted the controlled GNN ablation on2026-11-14;prior no-training review status is not treated as a permanent prohibition.",
+  "cohort": [
+    "ABL1",
+    "AXL",
+    "DDR2",
+    "EPHA2",
+    "EPHB2",
+    "MAPK14_full",
+    "MET",
+    "RIPK2_full"
+  ],
+  "labels": {
+    "ABL1": 0,
+    "AXL": 0,
+    "DDR2": 1,
+    "EPHA2": 1,
+    "EPHB2": 1,
+    "MAPK14_full": 1,
+    "MET": 1,
+    "RIPK2_full": 1
+  },
+  "unknown_targets_excluded": [
+    "SIK3_full",
+    "RPS6KB2_full"
+  ],
+  "variants": [
+    "zero_padded_control",
+    "native_features"
+  ],
+  "input_width": 34,
+  "base_graph": "Original temporalVHL graphs,29 original features and all edges preserved",
+  "added_features": [
+    "mean_NZ_to_SY8C3_A/100",
+    "NZ_reachable20_fraction",
+    "NZ_exposed_fraction",
+    "exposed_reachable_scaffold_compatible_fraction",
+    "joint_trueVHLbridge_productive_fraction"
+  ],
+  "role": "trueVHL",
+  "windows": 4,
+  "architecture": "Existing TemporalEncoder;GAT1input29to34only,bothvariantsidentical34input;edgeprojection3to64,twoGATlayers,mean/maxpool,windowmean/std/trendpool,384to64to1head",
+  "hidden": 64,
+  "heads": 4,
+  "dropout": 0.3,
+  "epochs": 300,
+  "optimizer": "Adam",
+  "learning_rate": 0.001,
+  "weight_decay": 0.0001,
+  "scheduler": "CosineAnnealingLR(T_max=300)",
+  "loss": "unweighted binary_cross_entropy_with_logits",
+  "seed": 42,
+  "fold_seed": "SHA256(str(42)+|+pair),first4bytes,big-endian modulo2147483647;identicalpairedvariants",
+  "training_order": [
+    "ABL1",
+    "AXL",
+    "DDR2",
+    "EPHA2",
+    "EPHB2",
+    "MAPK14_full",
+    "MET",
+    "RIPK2_full"
+  ],
+  "folds": [
+    {
+      "pair": "DDR2__ABL1",
+      "held_out_positive": "DDR2",
+      "held_out_negative": "ABL1",
+      "training": [
+        "AXL",
+        "EPHA2",
+        "EPHB2",
+        "MAPK14_full",
+        "MET",
+        "RIPK2_full"
+      ]
+    },
+    {
+      "pair": "DDR2__AXL",
+      "held_out_positive": "DDR2",
+      "held_out_negative": "AXL",
+      "training": [
+        "ABL1",
+        "EPHA2",
+        "EPHB2",
+        "MAPK14_full",
+        "MET",
+        "RIPK2_full"
+      ]
+    },
+    {
+      "pair": "EPHA2__ABL1",
+      "held_out_positive": "EPHA2",
+      "held_out_negative": "ABL1",
+      "training": [
+        "AXL",
+        "DDR2",
+        "EPHB2",
+        "MAPK14_full",
+        "MET",
+        "RIPK2_full"
+      ]
+    },
+    {
+      "pair": "EPHA2__AXL",
+      "held_out_positive": "EPHA2",
+      "held_out_negative": "AXL",
+      "training": [
+        "ABL1",
+        "DDR2",
+        "EPHB2",
+        "MAPK14_full",
+        "MET",
+        "RIPK2_full"
+      ]
+    },
+    {
+      "pair": "EPHB2__ABL1",
+      "held_out_positive": "EPHB2",
+      "held_out_negative": "ABL1",
+      "training": [
+        "AXL",
+        "DDR2",
+        "EPHA2",
+        "MAPK14_full",
+        "MET",
+        "RIPK2_full"
+      ]
+    },
+    {
+      "pair": "EPHB2__AXL",
+      "held_out_positive": "EPHB2",
+      "held_out_negative": "AXL",
+      "training": [
+        "ABL1",
+        "DDR2",
+        "EPHA2",
+        "MAPK14_full",
+        "MET",
+        "RIPK2_full"
+      ]
+    },
+    {
+      "pair": "MAPK14_full__ABL1",
+      "held_out_positive": "MAPK14_full",
+      "held_out_negative": "ABL1",
+      "training": [
+        "AXL",
+        "DDR2",
+        "EPHA2",
+        "EPHB2",
+        "MET",
+        "RIPK2_full"
+      ]
+    },
+    {
+      "pair": "MAPK14_full__AXL",
+      "held_out_positive": "MAPK14_full",
+      "held_out_negative": "AXL",
+      "training": [
+        "ABL1",
+        "DDR2",
+        "EPHA2",
+        "EPHB2",
+        "MET",
+        "RIPK2_full"
+      ]
+    },
+    {
+      "pair": "MET__ABL1",
+      "held_out_positive": "MET",
+      "held_out_negative": "ABL1",
+      "training": [
+        "AXL",
+        "DDR2",
+        "EPHA2",
+        "EPHB2",
+        "MAPK14_full",
+        "RIPK2_full"
+      ]
+    },
+    {
+      "pair": "MET__AXL",
+      "held_out_positive": "MET",
+      "held_out_negative": "AXL",
+      "training": [
+        "ABL1",
+        "DDR2",
+        "EPHA2",
+        "EPHB2",
+        "MAPK14_full",
+        "RIPK2_full"
+      ]
+    },
+    {
+      "pair": "RIPK2_full__ABL1",
+      "held_out_positive": "RIPK2_full",
+      "held_out_negative": "ABL1",
+      "training": [
+        "AXL",
+        "DDR2",
+        "EPHA2",
+        "EPHB2",
+        "MAPK14_full",
+        "MET"
+      ]
+    },
+    {
+      "pair": "RIPK2_full__AXL",
+      "held_out_positive": "RIPK2_full",
+      "held_out_negative": "AXL",
+      "training": [
+        "ABL1",
+        "DDR2",
+        "EPHA2",
+        "EPHB2",
+        "MAPK14_full",
+        "MET"
+      ]
+    }
+  ],
+  "primary_metric": "Matched-pair ranking AUROC,meanof12 heldoutpositive-vs-heldoutnegative comparisons;not pooled probabilities fromdifferentfittedmodels",
+  "secondary_metrics": "paired sensitivity,specificity,balancedaccuracy atfixed0.5;per-target heldoutscore summaries descriptive",
+  "decision_threshold": 0.5,
+  "feature_scaling": "Only fixedpredeclared unit scaling inpreparedgraph;no cohort-derivednormalization",
+  "hyperparameter_tuning": false,
+  "early_stopping": false,
+  "validation_selection": false,
+  "device": "CPU,deterministicnativePyG",
+  "heldout_training_leakage_allowed": false,
+  "save_all_weights_receipts": true,
+  "independent_cpu_replay": true,
+  "historical_chemistry": true,
+  "supplier_SJF8240_equivalent": false,
+  "biological_validation": false,
+  "experimental_evidence_review": "Read-only parallel review,notusedtorelabeltheeighttargetsormodifythisrun"
+}

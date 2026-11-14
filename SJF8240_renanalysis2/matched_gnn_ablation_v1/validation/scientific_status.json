@@ -1,0 +1,14 @@
+{
+  "training_complete": true,
+  "models": 24,
+  "heldout_scores": 48,
+  "CPU_replay": "PASS",
+  "AUROC_delta": 0.08333333333333337,
+  "specificity_control": 0.0,
+  "specificity_augmented": 0.0,
+  "experimental_labels_changed": false,
+  "historical_chemistry": true,
+  "supplier_equivalence": false,
+  "independent_biological_validation": false,
+  "production_degrader_classifier_release": false
+}

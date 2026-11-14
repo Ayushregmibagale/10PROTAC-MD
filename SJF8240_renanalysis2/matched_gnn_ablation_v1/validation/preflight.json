@@ -1,0 +1,14 @@
+{
+  "status": "PASS",
+  "graphs": 16,
+  "targets": 8,
+  "pairs_per_variant": 12,
+  "training_counts_each_fold": {
+    "positive": 5,
+    "negative": 1
+  },
+  "initial_seed_pairing_required": true,
+  "source_manifest_sha256": "2f631f1fdd726ae16e7d8144ff468aa4e6a420c240062d715cac6a19fff6fe4a",
+  "metadata_labels_used_for_training_only": true,
+  "source_experiment_modified": false
+}
