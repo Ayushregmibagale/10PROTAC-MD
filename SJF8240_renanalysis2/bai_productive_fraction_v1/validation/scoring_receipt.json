@@ -1,0 +1,17 @@
+{
+  "source_cohort_sha256": "e3e4995e6ffc601642e34955ce9254ed407e4598a91b28718e62fd4e07e3b97e",
+  "source_extraction_manifest_sha256": "5f98d63e4f9aa9dbcb3ac62cc3fac2349092f86becd746386eb3fcb198ab11a9",
+  "cases": 141,
+  "frames": 28341,
+  "targets": 8,
+  "script_sha256": "8ce10656233d65a31edebf1058f6b0ad2f30dee8aa42c1b4367d1811b58b1ffe",
+  "protocol_sha256": "89ed3462f063f7d89eb6ae1e34eb3fca32b587a24d1d123b5387ff3a4efd6317",
+  "outputs_sha256": {
+    "frame0_pose_flags.tsv": "ef10685214f773a1805a59cb99e7e3a80060530d903ba2d859b082e2ff24fe77",
+    "metrics.tsv": "76db3ed67d6b375bf9c58dc52349c63f4f8675ad99e96c3e442434f09dbdbf72",
+    "pose_scores.tsv": "7659721f4472e75e2d6df951e2ff2b959ac300983dff1ec0984ab622fc36c466",
+    "primary_target_scores.tsv": "667f7416b22a6eef7efaac58009be60b4869d149ab26de53b3e796e51ba970f9",
+    "target_scores_all_variants.tsv": "ccb58493ab5c99dbead9844e2b0bf087c0003d9b6d5d48a3f1698fe1ce8f6796"
+  },
+  "literal_paper_reproduction": false
+}

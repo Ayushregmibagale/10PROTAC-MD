@@ -1,0 +1,44 @@
+{
+  "rule": "At least one exposed lysineNZ <=16A from modeled donorUbG76 carbonylC and no target/new-scaffold heavy-atom overlap>0.8A. Productive if any declared scaffold supports it.",
+  "primary": {
+    "tail": "fit75",
+    "exposure_fraction": 0.1,
+    "scaffold_scope": "closed_plus_modeled_open",
+    "distance_A": 16,
+    "orientation_filter": false,
+    "bridge_filter": false
+  },
+  "sensitivity": {
+    "tail": [
+      "fit74",
+      "fit75"
+    ],
+    "exposure_fraction": [
+      0.05,
+      0.1,
+      0.2
+    ],
+    "distance_A": [
+      16,
+      20
+    ],
+    "scaffold_scope": [
+      "closed_only",
+      "closed_plus_modeled_open"
+    ],
+    "anchor_fit_3A": "separately reported QC sensitivity,not an extra biological criterion"
+  },
+  "independent_unit": "8 user-labelled targets; SIK3/RPS6KB2 unknown and excluded",
+  "denominator": "All evaluated retained frames; also production-frame0 representative per retained MD pose; real scaffold clashes remain unproductive.",
+  "no_outcome_selection": "Rules fixed before reading this new variant scores. Previously evaluated labels/results are known; this is retrospective.",
+  "literal_reproduction": false,
+  "gaps": [
+    "VHL/CRL2 rather than CRBN/CRL4A",
+    "141 retained MD poses,not full clustered Rosetta ensemble",
+    "UbG76 modeled; catalytic sidechain atoms incomplete",
+    "Paper does not specify quantitative exposure or clash atom rules sufficiently to reproduce them exactly",
+    "Paper does not specify exact PyMOL lysine/Ub atom selection in available methods; ours is explicit",
+    "Open catalytic-module placement modeled",
+    "Archived chemical graph is not supplier-equivalent"
+  ]
+}

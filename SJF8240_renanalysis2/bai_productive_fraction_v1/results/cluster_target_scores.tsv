@@ -1,0 +1,17 @@
+poi	label	scaffold_scope	retained_poses	clusters_3A	productive_clusters	cluster_representative_productive_fraction	member_weighted_productive_fraction	unclustered_frame0_fraction
+ABL1	0	closed_only	17	15	0	0.0	0.0	0.0
+ABL1	0	closed_plus_modeled_open	17	15	0	0.0	0.0	0.0
+AXL	0	closed_only	18	17	0	0.0	0.0	0.0
+AXL	0	closed_plus_modeled_open	18	17	0	0.0	0.0	0.0
+DDR2	1	closed_only	18	14	0	0.0	0.0	0.0
+DDR2	1	closed_plus_modeled_open	18	14	0	0.0	0.0	0.0
+EPHA2	1	closed_only	18	17	0	0.0	0.0	0.0
+EPHA2	1	closed_plus_modeled_open	18	17	1	0.058823529411764705	0.05555555555555555	0.05555555555555555
+EPHB2	1	closed_only	19	17	0	0.0	0.0	0.0
+EPHB2	1	closed_plus_modeled_open	19	17	0	0.0	0.0	0.0
+MAPK14_full	1	closed_only	18	10	0	0.0	0.0	0.0
+MAPK14_full	1	closed_plus_modeled_open	18	10	0	0.0	0.0	0.0
+MET	1	closed_only	16	13	0	0.0	0.0	0.0
+MET	1	closed_plus_modeled_open	16	13	0	0.0	0.0	0.0
+RIPK2_full	1	closed_only	17	15	0	0.0	0.0	0.0
+RIPK2_full	1	closed_plus_modeled_open	17	15	0	0.0	0.0	0.0

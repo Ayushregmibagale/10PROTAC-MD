@@ -1,0 +1,1130 @@
+[
+  {
+    "poi": "ABL1",
+    "pose": "pose001",
+    "input_sha256": {
+      "/home/ayushregmibagale/protac-md/random_screen/ABL1/pose001/prod/prod.tpr": "f9228e3e573644840af08941f321cff25a3e8e124677c53cb9d681a5b7ec000c",
+      "/home/ayushregmibagale/protac-md/analysis/random_screen/ABL1/pose001/prod_nojump.xtc": "bf8d6d1a82197f0d64efca4c2f757aab3d95e73883d0ac7e2df2d76f397af133"
+    }
+  },
+  {
+    "poi": "ABL1",
+    "pose": "pose003",
+    "input_sha256": {
+      "/home/ayushregmibagale/protac-md/random_screen/ABL1/pose003/prod/prod.tpr": "825a5ad1d5a4a2783a6bc01de3aefe3cd5469cc00ad1b97ca3881c9d8cf04d42",
+      "/home/ayushregmibagale/protac-md/analysis/random_screen/ABL1/pose003/prod_nojump.xtc": "df9146efd57b24d0fd3cbda26f2263102c2e4e6d816592c2feed1b3935dc42fc"
+    }
+  },
+  {
+    "poi": "ABL1",
+    "pose": "pose004",
+    "input_sha256": {
+      "/home/ayushregmibagale/protac-md/random_screen/ABL1/pose004/prod/prod.tpr": "e4827d247436d4fc895822bb82c2d22da6c7a7928d5e1ba28df278b636c746ad",
+      "/home/ayushregmibagale/protac-md/analysis/random_screen/ABL1/pose004/prod_nojump.xtc": "8c333bebe256864a7d434b5a152ef64e198658b9f348631a675f3b8a6fd39c1d"
+    }
+  },
+  {
+    "poi": "ABL1",
+    "pose": "pose005",
+    "input_sha256": {
+      "/home/ayushregmibagale/protac-md/random_screen/ABL1/pose005/prod/prod.tpr": "27033950b8310b6c613d7be24734ef3f0da848d2b168c75003a6404af0096115",
+      "/home/ayushregmibagale/protac-md/analysis/random_screen/ABL1/pose005/prod_nojump.xtc": "3359af0c21b51483c200bf8c98ae2c3b02043e089088021c8db02ec8bd45a92e"
+    }
+  },
+  {
+    "poi": "ABL1",
+    "pose": "pose006",
+    "input_sha256": {
+      "/home/ayushregmibagale/protac-md/random_screen/ABL1/pose006/prod/prod.tpr": "404b64af39855bb92cb22b035d0300d64a4d81179d4b2c6f9c7d8ddb6ba88388",
+      "/home/ayushregmibagale/protac-md/analysis/random_screen/ABL1/pose006/prod_nojump.xtc": "eac44379ee31b41b983f2b83d5ec274f1416eeabe10d7da2d41047b2a7a27ad0"
+    }
+  },
+  {
+    "poi": "ABL1",
+    "pose": "pose008",
+    "input_sha256": {
+      "/home/ayushregmibagale/protac-md/random_screen/ABL1/pose008/prod/prod.tpr": "7a5975ddfb7d91e829131654ddf0b3300bf196a38093947c00db1e3318fd7f1b",
+      "/home/ayushregmibagale/protac-md/analysis/random_screen/ABL1/pose008/prod_nojump.xtc": "056adef2986fe832bc7c5e14ed9d4057cd4da8258e54b077e312b532a755e915"
+    }
+  },
+  {
+    "poi": "ABL1",
+    "pose": "pose009",
+    "input_sha256": {
+      "/home/ayushregmibagale/protac-md/random_screen/ABL1/pose009/prod/prod.tpr": "22ecc594dcb4bd15e4abc7b07e660078836e0797ea813c734eae92e475a28773",
+      "/home/ayushregmibagale/protac-md/analysis/random_screen/ABL1/pose009/prod_nojump.xtc": "454ac324424697d1c795461dba03081824d014500509d558b346127d39000e01"
+    }
+  },
+  {
+    "poi": "ABL1",
+    "pose": "pose010",
+    "input_sha256": {
+      "/home/ayushregmibagale/protac-md/random_screen/ABL1/pose010/prod/prod.tpr": "361836176106b66982b9e4fbf56bca11be6a91103f1bb79a3044a09c6a93bb78",
+      "/home/ayushregmibagale/protac-md/analysis/random_screen/ABL1/pose010/prod_nojump.xtc": "265f85de943538d8d2e07de2edce82cf8055e89ab9805c436259c214953c8820"
+    }
+  },
+  {
+    "poi": "ABL1",
+    "pose": "pose011",
+    "input_sha256": {
+      "/home/ayushregmibagale/protac-md/random_screen/ABL1/pose011/prod/prod.tpr": "50a5617a8708f226bcb5b9c46a27bb6098c2c318f7abd1278fe15e01cdb47ae2",
+      "/home/ayushregmibagale/protac-md/analysis/random_screen/ABL1/pose011/prod_nojump.xtc": "b457ff9279a19e9d2d00c85ea4063972b53bf40ff326bc23ee2c72326031c000"
+    }
+  },
+  {
+    "poi": "ABL1",
+    "pose": "pose013",
+    "input_sha256": {
+      "/home/ayushregmibagale/protac-md/random_screen/ABL1/pose013/prod/prod.tpr": "41b9f7a85552e4efbe56e0aa8cb1bde730d48d4562c1dc95ae0a099c21d8c299",
+      "/home/ayushregmibagale/protac-md/analysis/random_screen/ABL1/pose013/prod_nojump.xtc": "02842ee98b98df00a9ff8f49f9896bcc55f92a430e685137e03ae7e490615d46"
+    }
+  },
+  {
+    "poi": "ABL1",
+    "pose": "pose014",
+    "input_sha256": {
+      "/home/ayushregmibagale/protac-md/random_screen/ABL1/pose014/prod/prod.tpr": "69f8b63c8a98c3156957476d0c7e4a59bcd8b54f567a3adfc27ff49942713fc9",
+      "/home/ayushregmibagale/protac-md/analysis/random_screen/ABL1/pose014/prod_nojump.xtc": "ab208ee31fb539e2b9573e4f9c2ccbbb04ec25ace0cf7ce09c8668b2d15e041a"
+    }
+  },
+  {
+    "poi": "ABL1",
+    "pose": "pose015",
+    "input_sha256": {
+      "/home/ayushregmibagale/protac-md/random_screen/ABL1/pose015/prod/prod.tpr": "984e5e696fd15297dec23d0eeb43033646b1eb839117fb885cf4f7fd5b640a29",
+      "/home/ayushregmibagale/protac-md/analysis/random_screen/ABL1/pose015/prod_nojump.xtc": "1d89eb48b263c84fe14094479f4d0a3e138162d2a0b0c249a0056d0842dc87cf"
+    }
+  },
+  {
+    "poi": "ABL1",
+    "pose": "pose016",
+    "input_sha256": {
+      "/home/ayushregmibagale/protac-md/random_screen/ABL1/pose016/prod/prod.tpr": "5019ab3c97196545f9c20fe00bc7a74719285810026f5f2bda2613bf64dc9d1a",
+      "/home/ayushregmibagale/protac-md/analysis/random_screen/ABL1/pose016/prod_nojump.xtc": "f4f6a1f4c9da207ef51e3e96845149e42e8e5130d8098230bb6e1aae2f857adc"
+    }
+  },
+  {
+    "poi": "ABL1",
+    "pose": "pose017",
+    "input_sha256": {
+      "/home/ayushregmibagale/protac-md/random_screen/ABL1/pose017/prod/prod.tpr": "273da24952681bf5c4f9ae5ed8a05d205f257c0005b9f6f7ce08726dfb6cdec2",
+      "/home/ayushregmibagale/protac-md/analysis/random_screen/ABL1/pose017/prod_nojump.xtc": "3bdcc9e8f00b7cc50daadf53a49a1f751851733d5dcd338da16ff18bc5a572af"
+    }
+  },
+  {
+    "poi": "ABL1",
+    "pose": "pose018",
+    "input_sha256": {
+      "/home/ayushregmibagale/protac-md/random_screen/ABL1/pose018/prod/prod.tpr": "c1e42d301391d8f9068a7e3e273f057f8e4cf13eb53b16fbca7ec078b33d59f2",
+      "/home/ayushregmibagale/protac-md/analysis/random_screen/ABL1/pose018/prod_nojump.xtc": "6a51507463e92fcbf4f2620acabfab35f1b30e7f604d780459ec0a600c548939"
+    }
+  },
+  {
+    "poi": "ABL1",
+    "pose": "pose019",
+    "input_sha256": {
+      "/home/ayushregmibagale/protac-md/random_screen/ABL1/pose019/prod/prod.tpr": "2581870fbb7ab9d4574a39e4ce86303e85bacdca1ebf6b59af0b6ec852289b9a",
+      "/home/ayushregmibagale/protac-md/analysis/random_screen/ABL1/pose019/prod_nojump.xtc": "b1633fc00623d1385538d3beaf829dafd53c078c794e55bc16308405efc27a9c"
+    }
+  },
+  {
+    "poi": "ABL1",
+    "pose": "pose020",
+    "input_sha256": {
+      "/home/ayushregmibagale/protac-md/random_screen/ABL1/pose020/prod/prod.tpr": "b8155ed56796c56f77a158305c25cb6f87c6600f8903ca9240e7f5bb6a31e6cb",
+      "/home/ayushregmibagale/protac-md/analysis/random_screen/ABL1/pose020/prod_nojump.xtc": "0bbe40ed8bb0fb3c9eecb64507a4fd8b24a328aa8b1a5585ef583b65d25a3145"
+    }
+  },
+  {
+    "poi": "AXL",
+    "pose": "pose001",
+    "input_sha256": {
+      "/home/ayushregmibagale/protac-md/random_screen/AXL/pose001/prod/prod.tpr": "f0d3cf24ce0097561aa8d87508b76c646ee36a647e96ad37b16edcc1da14eee8",
+      "/home/ayushregmibagale/protac-md/analysis/random_screen/AXL/pose001/prod_nojump.xtc": "d23d128acc49f74f40147c1f94d3e23fc9faa065b250ffa67248be4e2c871a59"
+    }
+  },
+  {
+    "poi": "AXL",
+    "pose": "pose002",
+    "input_sha256": {
+      "/home/ayushregmibagale/protac-md/random_screen/AXL/pose002/prod/prod.tpr": "59c7395012a604d0cb823d9fb5d5b3d725f4e6f1fb504432c18244c3cdbea26e",
+      "/home/ayushregmibagale/protac-md/analysis/random_screen/AXL/pose002/prod_nojump.xtc": "752894d79bbea342ae2639d3d6bd0299c52eea3a62d110c889407e93903adec2"
+    }
+  },
+  {
+    "poi": "AXL",
+    "pose": "pose004",
+    "input_sha256": {
+      "/home/ayushregmibagale/protac-md/random_screen/AXL/pose004/prod/prod.tpr": "4bd8967e4ca754671ccf404e671d82d4299a24d8042eb83b4482b63cefba09bb",
+      "/home/ayushregmibagale/protac-md/analysis/random_screen/AXL/pose004/prod_nojump.xtc": "ce7281d3fe9d4ceade3b43b5a9d5028706d19ec415d789df876f05e6cf9941d1"
+    }
+  },
+  {
+    "poi": "AXL",
+    "pose": "pose005",
+    "input_sha256": {
+      "/home/ayushregmibagale/protac-md/random_screen/AXL/pose005/prod/prod.tpr": "b40516dffd26c733bcbe31a4a884690214b6beec58f8215f94274c5ad782dfff",
+      "/home/ayushregmibagale/protac-md/analysis/random_screen/AXL/pose005/prod_nojump.xtc": "2bae6671b78d9730322b43a6a15d5f39da0ebd08f9c9e03b79f5a8ba46cfdbc9"
+    }
+  },
+  {
+    "poi": "AXL",
+    "pose": "pose006",
+    "input_sha256": {
+      "/home/ayushregmibagale/protac-md/random_screen/AXL/pose006/prod/prod.tpr": "7d6603a741a8155a7bc55e43a68fbcdf2042021d97d4e3fad117d6211d512a92",
+      "/home/ayushregmibagale/protac-md/analysis/random_screen/AXL/pose006/prod_nojump.xtc": "b0ca7dc97f07b2575c8d3839e5d94f88730527456d0bf9f9ee68d6884790f847"
+    }
+  },
+  {
+    "poi": "AXL",
+    "pose": "pose007",
+    "input_sha256": {
+      "/home/ayushregmibagale/protac-md/random_screen/AXL/pose007/prod/prod.tpr": "aef2caf1fe3b2c197c51c8603ecb15b8f61cbf6c2132125ee8d8410a07d3b776",
+      "/home/ayushregmibagale/protac-md/analysis/random_screen/AXL/pose007/prod_nojump.xtc": "8e761f3c5e4d14cac4728ed8bc6370853e372135f42a25331b7f90b2692c87a4"
+    }
+  },
+  {
+    "poi": "AXL",
+    "pose": "pose008",
+    "input_sha256": {
+      "/home/ayushregmibagale/protac-md/random_screen/AXL/pose008/prod/prod.tpr": "c6a962df1f03c082b8b4bb78680b10ce905d08175318b47c195b0cdaef6faeb0",
+      "/home/ayushregmibagale/protac-md/analysis/random_screen/AXL/pose008/prod_nojump.xtc": "8a70e4dc9158a54456d20b537a787fa42027f410c753c9618a7d21ae57d3f0cf"
+    }
+  },
+  {
+    "poi": "AXL",
+    "pose": "pose009",
+    "input_sha256": {
+      "/home/ayushregmibagale/protac-md/random_screen/AXL/pose009/prod/prod.tpr": "6aa87c8079c624fbbbad9c4686482d3bdc56469fb7bde6d936282220ce39251f",
+      "/home/ayushregmibagale/protac-md/analysis/random_screen/AXL/pose009/prod_nojump.xtc": "35dc31abd6102c47e665b87db4965bb08b190d31e7828c47d72b93f606b70dda"
+    }
+  },
+  {
+    "poi": "AXL",
+    "pose": "pose010",
+    "input_sha256": {
+      "/home/ayushregmibagale/protac-md/random_screen/AXL/pose010/prod/prod.tpr": "b500c36aa2fb8893a20de3d3325f456e697300bf8b66ffa597b2ebfac22df345",
+      "/home/ayushregmibagale/protac-md/analysis/random_screen/AXL/pose010/prod_nojump.xtc": "7f452ea797fb7b85505dd65cf3aeb8c3407e166eedf963beb1bb173328eb9656"
+    }
+  },
+  {
+    "poi": "AXL",
+    "pose": "pose011",
+    "input_sha256": {
+      "/home/ayushregmibagale/protac-md/random_screen/AXL/pose011/prod/prod.tpr": "d4c31bda16d0a0d3306f1371b119f1ffd28b1ccff8d217a1210d1c511a55ce6b",
+      "/home/ayushregmibagale/protac-md/analysis/random_screen/AXL/pose011/prod_nojump.xtc": "fa9849f7fc0e00bbd2e055596f9b7eb46c30877fe4aa3f5e29fd8d5c9ccc1119"
+    }
+  },
+  {
+    "poi": "AXL",
+    "pose": "pose012",
+    "input_sha256": {
+      "/home/ayushregmibagale/protac-md/random_screen/AXL/pose012/prod/prod.tpr": "ab5fa03a530b30ed2672dd7433602dbf81d47c13ee8596d6c751f83e6e08d3cf",
+      "/home/ayushregmibagale/protac-md/analysis/random_screen/AXL/pose012/prod_nojump.xtc": "57bc210dbf782862461d315639191a50a407c1794da222a10e0e9aa93ec40690"
+    }
+  },
+  {
+    "poi": "AXL",
+    "pose": "pose013",
+    "input_sha256": {
+      "/home/ayushregmibagale/protac-md/random_screen/AXL/pose013/prod/prod.tpr": "efd26d621f4f5bca132337bf87e6ae01e1d55e1e70d4f4d9c7d9f4021ecc7333",
+      "/home/ayushregmibagale/protac-md/analysis/random_screen/AXL/pose013/prod_nojump.xtc": "09421827f85c0c7eb858092c3abc69045fd5d232b6c6ccc88dfc6e4270d30d9e"
+    }
+  },
+  {
+    "poi": "AXL",
+    "pose": "pose015",
+    "input_sha256": {
+      "/home/ayushregmibagale/protac-md/random_screen/AXL/pose015/prod/prod.tpr": "30f91db9b151dcb5b91976e48c06ed66bbf804504b8369df0c5fcd85001b10f5",
+      "/home/ayushregmibagale/protac-md/analysis/random_screen/AXL/pose015/prod_nojump.xtc": "58e5d73e6ec14c2d843ed8defd8b5e3862d2f40e88bae79ba20ff34be9ba9226"
+    }
+  },
+  {
+    "poi": "AXL",
+    "pose": "pose016",
+    "input_sha256": {
+      "/home/ayushregmibagale/protac-md/random_screen/AXL/pose016/prod/prod.tpr": "062e2f59f9d2ba7d46b051ddef60c07d20ed0d72febcd2c579e4d021b5cd019f",
+      "/home/ayushregmibagale/protac-md/analysis/random_screen/AXL/pose016/prod_nojump.xtc": "bf3a0b5755b457d54f6b48f36247a2dd14184dc9fbad2b2060279ef69cc9ed26"
+    }
+  },
+  {
+    "poi": "AXL",
+    "pose": "pose017",
+    "input_sha256": {
+      "/home/ayushregmibagale/protac-md/random_screen/AXL/pose017/prod/prod.tpr": "bb8528b0ff3d79e8f2f5bf819bd44a74fec1bf7b913d2bef27819e9fd61195e3",
+      "/home/ayushregmibagale/protac-md/analysis/random_screen/AXL/pose017/prod_nojump.xtc": "7abc5d496ba8bbfdb4c5384043e26d3efb2ffd2d74ed95e1fedc8fe92508d3d9"
+    }
+  },
+  {
+    "poi": "AXL",
+    "pose": "pose018",
+    "input_sha256": {
+      "/home/ayushregmibagale/protac-md/random_screen/AXL/pose018/prod/prod.tpr": "e9e8522f276b9fc18ad706b0090deccc86c371a3eead4a14f488ecaabee271f0",
+      "/home/ayushregmibagale/protac-md/analysis/random_screen/AXL/pose018/prod_nojump.xtc": "d80499ef4208ee99b0fc6b71c5568013748fe81a9c196f879cbbbcbf2137b6e1"
+    }
+  },
+  {
+    "poi": "AXL",
+    "pose": "pose019",
+    "input_sha256": {
+      "/home/ayushregmibagale/protac-md/random_screen/AXL/pose019/prod/prod.tpr": "ee742b6f634ced6dad63455dc57897ddaf0e11bd350022323da13366a1fee114",
+      "/home/ayushregmibagale/protac-md/analysis/random_screen/AXL/pose019/prod_nojump.xtc": "9c40df8e70a9d73b2e939de386681fd702456d184fc76c2623090ab8263d8b51"
+    }
+  },
+  {
+    "poi": "AXL",
+    "pose": "pose020",
+    "input_sha256": {
+      "/home/ayushregmibagale/protac-md/random_screen/AXL/pose020/prod/prod.tpr": "a97184ce94ec6cdb0ecbd250233e8d4533362a2f38342e6cc781394a192c0ddf",
+      "/home/ayushregmibagale/protac-md/analysis/random_screen/AXL/pose020/prod_nojump.xtc": "462dc763a7a8c004c00433ee27eacdef3d71c85c0f99dd977159339233661a77"
+    }
+  },
+  {
+    "poi": "DDR2",
+    "pose": "pose001",
+    "input_sha256": {
+      "/home/ayushregmibagale/protac-md/random_screen/DDR2/pose001/prod/prod.tpr": "ddee6fdf1abf6045f4dc462bfaf5c1a95e2665a1072e680f6729b3400c1f4d6b",
+      "/home/ayushregmibagale/protac-md/analysis/random_screen/DDR2/pose001/prod_nojump.xtc": "e9978732e144e446fb0f1d71e4af0759c53d89dcc24d1d730669ac74da49c2cd"
+    }
+  },
+  {
+    "poi": "DDR2",
+    "pose": "pose002",
+    "input_sha256": {
+      "/home/ayushregmibagale/protac-md/random_screen/DDR2/pose002/prod/prod.tpr": "002927ead3677017a0f00745a7d0a515e419f72d03e7c38297d9f94ee67e2c15",
+      "/home/ayushregmibagale/protac-md/analysis/random_screen/DDR2/pose002/prod_nojump.xtc": "d5a45b15122c769772669cc4ab66ea1371de988cb3fd6100048abd1ab81d0c99"
+    }
+  },
+  {
+    "poi": "DDR2",
+    "pose": "pose003",
+    "input_sha256": {
+      "/home/ayushregmibagale/protac-md/random_screen/DDR2/pose003/prod/prod.tpr": "f27d83bf07090cec411a1e1129f387eb1c5624a416ad5d7ea793f8dd459b4b69",
+      "/home/ayushregmibagale/protac-md/analysis/random_screen/DDR2/pose003/prod_nojump.xtc": "3ba1023112ca20e532107f98a09c35c8c8d524acd72f46922dd77fa1779be063"
+    }
+  },
+  {
+    "poi": "DDR2",
+    "pose": "pose004",
+    "input_sha256": {
+      "/home/ayushregmibagale/protac-md/random_screen/DDR2/pose004/prod/prod.tpr": "42341a5b50b98494ee014d70f416014e8aed659b97e73151303304bdc59bf67e",
+      "/home/ayushregmibagale/protac-md/analysis/random_screen/DDR2/pose004/prod_nojump.xtc": "861ddb4eeba906356257aa81e65680d1ac6e38ed79e1b80b5fc3daec6b0da167"
+    }
+  },
+  {
+    "poi": "DDR2",
+    "pose": "pose005",
+    "input_sha256": {
+      "/home/ayushregmibagale/protac-md/random_screen/DDR2/pose005/prod/prod.tpr": "c2ca1b610841bc316b8b1c5852e0b85fb8b3515dff48c103789af755b4cd3c14",
+      "/home/ayushregmibagale/protac-md/analysis/random_screen/DDR2/pose005/prod_nojump.xtc": "8b11e0d37e864c63b9486547c64dc27651243b480e86c89134f4428f05b74c53"
+    }
+  },
+  {
+    "poi": "DDR2",
+    "pose": "pose006",
+    "input_sha256": {
+      "/home/ayushregmibagale/protac-md/random_screen/DDR2/pose006/prod/prod.tpr": "9740dcb63dbb0617ab0a5fffde11a243ad0d9c36c8e451f1890b5855fddfc75a",
+      "/home/ayushregmibagale/protac-md/analysis/random_screen/DDR2/pose006/prod_nojump.xtc": "c40acceb6f04ea1c77e17013c1c64ebd5fb891ddb34eedc03098ae93ad1525b2"
+    }
+  },
+  {
+    "poi": "DDR2",
+    "pose": "pose007",
+    "input_sha256": {
+      "/home/ayushregmibagale/protac-md/random_screen/DDR2/pose007/prod/prod.tpr": "399c9545be74c51a88b4f5da7d07b81657951d5556708e64ae83b37eee75a4f5",
+      "/home/ayushregmibagale/protac-md/analysis/random_screen/DDR2/pose007/prod_nojump.xtc": "9e604eb3ee9262eee8e6b9dfdbb595ea5b11542e16660b7cee708f442186df30"
+    }
+  },
+  {
+    "poi": "DDR2",
+    "pose": "pose008",
+    "input_sha256": {
+      "/home/ayushregmibagale/protac-md/random_screen/DDR2/pose008/prod/prod.tpr": "5e4faf732137d09cb222b81282fbcc56f451c2aee20304a014ee5a626a32e381",
+      "/home/ayushregmibagale/protac-md/analysis/random_screen/DDR2/pose008/prod_nojump.xtc": "423e6c36c3477ef99eab6ef08958acfad89e01307f9b21de3854864d00150b9e"
+    }
+  },
+  {
+    "poi": "DDR2",
+    "pose": "pose010",
+    "input_sha256": {
+      "/home/ayushregmibagale/protac-md/random_screen/DDR2/pose010/prod/prod.tpr": "ef5f3c2e3c1aa286fadec7717b6fa28a27d35b6bce4210341f7db43e29421070",
+      "/home/ayushregmibagale/protac-md/analysis/random_screen/DDR2/pose010/prod_nojump.xtc": "cc618e9f8795584ee60f15ab4b09df563c33ea88b738c495f4543cc557f1d09f"
+    }
+  },
+  {
+    "poi": "DDR2",
+    "pose": "pose011",
+    "input_sha256": {
+      "/home/ayushregmibagale/protac-md/random_screen/DDR2/pose011/prod/prod.tpr": "360d69369702b78573af0cd38df647785ae462dc9966262b3108eb8ed7a1d918",
+      "/home/ayushregmibagale/protac-md/analysis/random_screen/DDR2/pose011/prod_nojump.xtc": "ed30d78e192ad2b524da43b18dbe7ed38fd4b067a70d9913e7cfabc6e0a891ce"
+    }
+  },
+  {
+    "poi": "DDR2",
+    "pose": "pose013",
+    "input_sha256": {
+      "/home/ayushregmibagale/protac-md/random_screen/DDR2/pose013/prod/prod.tpr": "f1233aae0ebf8b7e15286428b52c52820789b201a19ba6126544867bf2dea283",
+      "/home/ayushregmibagale/protac-md/analysis/random_screen/DDR2/pose013/prod_nojump.xtc": "f32f0098979ee1d38c8f45af703713af1c82d1fc7a6c3bfc82c0a7714fe42689"
+    }
+  },
+  {
+    "poi": "DDR2",
+    "pose": "pose014",
+    "input_sha256": {
+      "/home/ayushregmibagale/protac-md/random_screen/DDR2/pose014/prod/prod.tpr": "b89fb3d72cdc55692629d72a7fffbfa7bea25456b40aa4380a33729aeeac36bc",
+      "/home/ayushregmibagale/protac-md/analysis/random_screen/DDR2/pose014/prod_nojump.xtc": "12fb3fcd752504aa956182f330b1e549d49fbfe1f6b7cd78d16eba4385193303"
+    }
+  },
+  {
+    "poi": "DDR2",
+    "pose": "pose015",
+    "input_sha256": {
+      "/home/ayushregmibagale/protac-md/random_screen/DDR2/pose015/prod/prod.tpr": "f503655a7be00134bd65d6a007fb07328e2d37a0b83fca25e75329e2827b4938",
+      "/home/ayushregmibagale/protac-md/analysis/random_screen/DDR2/pose015/prod_nojump.xtc": "9c7d69d4ef1bdbeb7b826f9ab42d022ad89cd5a5ca0cc0c41569607236c18c6f"
+    }
+  },
+  {
+    "poi": "DDR2",
+    "pose": "pose016",
+    "input_sha256": {
+      "/home/ayushregmibagale/protac-md/random_screen/DDR2/pose016/prod/prod.tpr": "4054047674c1f24a038f3100f74493bba248e56c553b9abedf4ee7da2abbc43b",
+      "/home/ayushregmibagale/protac-md/analysis/random_screen/DDR2/pose016/prod_nojump.xtc": "7288868226df000c9a2ea9fd7ddea45c0ebf97ca4dc62f95e41118a1c365e0d2"
+    }
+  },
+  {
+    "poi": "DDR2",
+    "pose": "pose017",
+    "input_sha256": {
+      "/home/ayushregmibagale/protac-md/random_screen/DDR2/pose017/prod/prod.tpr": "77d1246df560ea670c2953a371854a8a3f7c9be2c913f8d5fe1187a4d827f8c8",
+      "/home/ayushregmibagale/protac-md/analysis/random_screen/DDR2/pose017/prod_nojump.xtc": "4ea35cecf9823bad77a0edbd28a5c9a8518d8d36816269e12ec94a19fb52770a"
+    }
+  },
+  {
+    "poi": "DDR2",
+    "pose": "pose018",
+    "input_sha256": {
+      "/home/ayushregmibagale/protac-md/random_screen/DDR2/pose018/prod/prod.tpr": "772edb4c8c23d4c75077e0aa8366c095506b16344e22854adf01e3b1029038a9",
+      "/home/ayushregmibagale/protac-md/analysis/random_screen/DDR2/pose018/prod_nojump.xtc": "37251f62c4b3cb99f2c22f97945195fd30c1ea5685d343948766532e870d03b2"
+    }
+  },
+  {
+    "poi": "DDR2",
+    "pose": "pose019",
+    "input_sha256": {
+      "/home/ayushregmibagale/protac-md/random_screen/DDR2/pose019/prod/prod.tpr": "26c75c95f0ea17f87f693bd950eeea5c90aebec4dfe11b0d9823d675d788b03f",
+      "/home/ayushregmibagale/protac-md/analysis/random_screen/DDR2/pose019/prod_nojump.xtc": "adbc4d5ec24bc0febf2d7e5d195cd0955f78bbfea83be3c95991c545128f11fe"
+    }
+  },
+  {
+    "poi": "DDR2",
+    "pose": "pose020",
+    "input_sha256": {
+      "/home/ayushregmibagale/protac-md/random_screen/DDR2/pose020/prod/prod.tpr": "cd001433ab5239bd6f0871b6ac46bdd7978e9535ebce17c9256616d17448a5c0",
+      "/home/ayushregmibagale/protac-md/analysis/random_screen/DDR2/pose020/prod_nojump.xtc": "cd0705b38f6bcff2dbc9e7d9913bbd09b4399cf52c2858b9aae7580177b83eb1"
+    }
+  },
+  {
+    "poi": "EPHA2",
+    "pose": "pose001",
+    "input_sha256": {
+      "/home/ayushregmibagale/protac-md/random_screen/EPHA2/pose001/prod/prod.tpr": "f702a475a8510d7cdf03019ba0ebced9d01efb35822a0643c09fb936d5e66431",
+      "/home/ayushregmibagale/protac-md/analysis/random_screen/EPHA2/pose001/prod_nojump.xtc": "6bdc70f1b8d9b31388453d3ee2e6123ab305c0d2917d8e123aba8145d88748b3"
+    }
+  },
+  {
+    "poi": "EPHA2",
+    "pose": "pose002",
+    "input_sha256": {
+      "/home/ayushregmibagale/protac-md/random_screen/EPHA2/pose002/prod/prod.tpr": "c56c85dcd52373af6d4bee13b08cf879bed9ed70eb8eb4b5dd1080f4c406cee6",
+      "/home/ayushregmibagale/protac-md/analysis/random_screen/EPHA2/pose002/prod_nojump.xtc": "9e9c0b3644106b238e984cad2533ef0c23e8e0c6a90eb7475b43a11fedf058ed"
+    }
+  },
+  {
+    "poi": "EPHA2",
+    "pose": "pose003",
+    "input_sha256": {
+      "/home/ayushregmibagale/protac-md/random_screen/EPHA2/pose003/prod/prod.tpr": "bda4d7a9ab09e75d414f7a68c9b064e2f777f2062e2fe398f79a6cae681063e5",
+      "/home/ayushregmibagale/protac-md/analysis/random_screen/EPHA2/pose003/prod_nojump.xtc": "a8306a2d46cfc63348bb4a2b735da80abc358fa6a111f7f15d03d8bf0325650d"
+    }
+  },
+  {
+    "poi": "EPHA2",
+    "pose": "pose004",
+    "input_sha256": {
+      "/home/ayushregmibagale/protac-md/random_screen/EPHA2/pose004/prod/prod.tpr": "d219c3dba6a4bd3e8b6a961eb626b2f5e484aefdf506ea08d8d22c6d297b65f2",
+      "/home/ayushregmibagale/protac-md/analysis/random_screen/EPHA2/pose004/prod_nojump.xtc": "fa71cd7aadb5d16717cefc6a5e22a6ae5e57644adfb5261a866c812d377fcfdf"
+    }
+  },
+  {
+    "poi": "EPHA2",
+    "pose": "pose005",
+    "input_sha256": {
+      "/home/ayushregmibagale/protac-md/random_screen/EPHA2/pose005/prod/prod.tpr": "8f21599f4f145f184f0691c4bebfb1a0ed28a6ee5b5514d487cb4b756e179253",
+      "/home/ayushregmibagale/protac-md/analysis/random_screen/EPHA2/pose005/prod_nojump.xtc": "203f81cfa608a740a7e7babcba51ac0cda4a367b18f5c0107a41937c36431457"
+    }
+  },
+  {
+    "poi": "EPHA2",
+    "pose": "pose006",
+    "input_sha256": {
+      "/home/ayushregmibagale/protac-md/random_screen/EPHA2/pose006/prod/prod.tpr": "42e5a84616b2aa594e6fb15e9f72519e834c6bcea9a97dce2a10e7e35a93d856",
+      "/home/ayushregmibagale/protac-md/analysis/random_screen/EPHA2/pose006/prod_nojump.xtc": "78ee864868287b553dbc1dfa28bedab428ead776938fc62ad8c9f77e5ef70c7c"
+    }
+  },
+  {
+    "poi": "EPHA2",
+    "pose": "pose007",
+    "input_sha256": {
+      "/home/ayushregmibagale/protac-md/random_screen/EPHA2/pose007/prod/prod.tpr": "7ec3dda7fd45e8e01e9642ce47761e1bfbff673bbb8101bf239fb906e33e4d79",
+      "/home/ayushregmibagale/protac-md/analysis/random_screen/EPHA2/pose007/prod_nojump.xtc": "e692fb65471c60830c3c28970677bc20af1ba48d2675c43e5d6d5cbefd9bc62a"
+    }
+  },
+  {
+    "poi": "EPHA2",
+    "pose": "pose008",
+    "input_sha256": {
+      "/home/ayushregmibagale/protac-md/random_screen/EPHA2/pose008/prod/prod.tpr": "7e47e4cf4025bf8796fe79bf2d7f3b12885e453af2fe02675523120bf5b7e8b3",
+      "/home/ayushregmibagale/protac-md/analysis/random_screen/EPHA2/pose008/prod_nojump.xtc": "1bf07687614e1e89177bf1eb5b2ffbbda830147036b1de57ec00de54ecb59c6a"
+    }
+  },
+  {
+    "poi": "EPHA2",
+    "pose": "pose009",
+    "input_sha256": {
+      "/home/ayushregmibagale/protac-md/random_screen/EPHA2/pose009/prod/prod.tpr": "862ea3cc0236a5b711dc7c2464d8d009272290294124cc5d7884c94f45b072e3",
+      "/home/ayushregmibagale/protac-md/analysis/random_screen/EPHA2/pose009/prod_nojump.xtc": "1f4c2fa7a35271de24d0fb7254d67a43820e6ea4f64f399b3fbfd2d66c529837"
+    }
+  },
+  {
+    "poi": "EPHA2",
+    "pose": "pose010",
+    "input_sha256": {
+      "/home/ayushregmibagale/protac-md/random_screen/EPHA2/pose010/prod/prod.tpr": "871fb55b0706ece261954d76d77f14c99d778ab2d12596aeddf193227f48a2e7",
+      "/home/ayushregmibagale/protac-md/analysis/random_screen/EPHA2/pose010/prod_nojump.xtc": "4012f2e00f9d758a8bc87bf2ac4b19b044efe3fccb87cfad9fff43d2e06b407b"
+    }
+  },
+  {
+    "poi": "EPHA2",
+    "pose": "pose011",
+    "input_sha256": {
+      "/home/ayushregmibagale/protac-md/random_screen/EPHA2/pose011/prod/prod.tpr": "cff8a1a564c616e948b26738a89d998084c46d9524ffc5f1f4f26fec38288c0a",
+      "/home/ayushregmibagale/protac-md/analysis/random_screen/EPHA2/pose011/prod_nojump.xtc": "f6210f1c7440c248bcc241e3d95bde9904a0d0babcadc1547a43e2019582d27a"
+    }
+  },
+  {
+    "poi": "EPHA2",
+    "pose": "pose012",
+    "input_sha256": {
+      "/home/ayushregmibagale/protac-md/random_screen/EPHA2/pose012/prod/prod.tpr": "0de34c03c21524ed4221eaed3bcb95c1296e51c1d01554857ded9454178b16f8",
+      "/home/ayushregmibagale/protac-md/analysis/random_screen/EPHA2/pose012/prod_nojump.xtc": "0d8ce67ba9c8ff1feaa9d548d2c4f7f9be3aa0175d13275fb423771dc774c13f"
+    }
+  },
+  {
+    "poi": "EPHA2",
+    "pose": "pose013",
+    "input_sha256": {
+      "/home/ayushregmibagale/protac-md/random_screen/EPHA2/pose013/prod/prod.tpr": "9a88b06eed8d029520d1c5192a774b6c2d64fa7389c8e80aa658462dcf4b70bb",
+      "/home/ayushregmibagale/protac-md/analysis/random_screen/EPHA2/pose013/prod_nojump.xtc": "31501c67b33ad6ef6d256a40f514725a9e840cb5ace853033c488fa671f802bb"
+    }
+  },
+  {
+    "poi": "EPHA2",
+    "pose": "pose015",
+    "input_sha256": {
+      "/home/ayushregmibagale/protac-md/random_screen/EPHA2/pose015/prod/prod.tpr": "e0e826c8846218a48236175a0c2906425ac583130dee89547b83f796228afc4e",
+      "/home/ayushregmibagale/protac-md/analysis/random_screen/EPHA2/pose015/prod_nojump.xtc": "c28744c3a23da38ed0089e26c0719ebb838e4cd8a12192a7b3ac6445041d0657"
+    }
+  },
+  {
+    "poi": "EPHA2",
+    "pose": "pose017",
+    "input_sha256": {
+      "/home/ayushregmibagale/protac-md/random_screen/EPHA2/pose017/prod/prod.tpr": "fcba58c9498409da67236a3dc890c1e92f995fa9336b16ff8ec792a30bf173b7",
+      "/home/ayushregmibagale/protac-md/analysis/random_screen/EPHA2/pose017/prod_nojump.xtc": "4b49d0d67397b81e4192db25b33232731797167c74dec62d4edb05ede5a21c58"
+    }
+  },
+  {
+    "poi": "EPHA2",
+    "pose": "pose018",
+    "input_sha256": {
+      "/home/ayushregmibagale/protac-md/random_screen/EPHA2/pose018/prod/prod.tpr": "9f855d366e40c7765dce4071bf7364586f35259fc7f2b7288bc9a1416491c275",
+      "/home/ayushregmibagale/protac-md/analysis/random_screen/EPHA2/pose018/prod_nojump.xtc": "8f97707550ae107507b9b0bfe629b327f79e356eeabdf493187c43cfa2c0aeba"
+    }
+  },
+  {
+    "poi": "EPHA2",
+    "pose": "pose019",
+    "input_sha256": {
+      "/home/ayushregmibagale/protac-md/random_screen/EPHA2/pose019/prod/prod.tpr": "04c850dbe2fb01645028b15f471b598598b685c7f43cde76c2a5c774d7e15a03",
+      "/home/ayushregmibagale/protac-md/analysis/random_screen/EPHA2/pose019/prod_nojump.xtc": "4e557001714610b871c90788ce7ab63a104bda48c9bf780a653efa944531c55b"
+    }
+  },
+  {
+    "poi": "EPHA2",
+    "pose": "pose020",
+    "input_sha256": {
+      "/home/ayushregmibagale/protac-md/random_screen/EPHA2/pose020/prod/prod.tpr": "79aada36ef81b1f78cd6383cea9a156470a5ba726c6a623d7e70a4da89cbb514",
+      "/home/ayushregmibagale/protac-md/analysis/random_screen/EPHA2/pose020/prod_nojump.xtc": "db6c5623cb1e748da7c724430f1e40bc429e8d4f36855e2089d0b3e0cba6838a"
+    }
+  },
+  {
+    "poi": "EPHB2",
+    "pose": "pose001",
+    "input_sha256": {
+      "/home/ayushregmibagale/protac-md/random_screen/EPHB2/pose001/prod/prod.tpr": "f36071ca7a1b1acab70910afe586624c6cb0a6906a451c5757fd52e5312974de",
+      "/home/ayushregmibagale/protac-md/analysis/random_screen/EPHB2/pose001/prod_nojump.xtc": "d9e80200b526cb1c398ecfa17e120bda8a03a4079bc8c9b7a6a6cbe10d7cd253"
+    }
+  },
+  {
+    "poi": "EPHB2",
+    "pose": "pose002",
+    "input_sha256": {
+      "/home/ayushregmibagale/protac-md/random_screen/EPHB2/pose002/prod/prod.tpr": "d76f6cb6b646bb740d9a7ff2f161e61227f4087bb1c00eefd5807613ceda725d",
+      "/home/ayushregmibagale/protac-md/analysis/random_screen/EPHB2/pose002/prod_nojump.xtc": "7e43e62601cafd040237c8cfbfb299bee2f5a6459dcdda0454e05be8071fc71e"
+    }
+  },
+  {
+    "poi": "EPHB2",
+    "pose": "pose003",
+    "input_sha256": {
+      "/home/ayushregmibagale/protac-md/random_screen/EPHB2/pose003/prod/prod.tpr": "d9652d8ea399a020c9e9c707e24f26de3121848f49faa4f40e5f9bf30166173e",
+      "/home/ayushregmibagale/protac-md/analysis/random_screen/EPHB2/pose003/prod_nojump.xtc": "14134b60354c32935fe7084428a9ae3a0bd1292850aa7ddef24f3f65e6f9ccd5"
+    }
+  },
+  {
+    "poi": "EPHB2",
+    "pose": "pose004",
+    "input_sha256": {
+      "/home/ayushregmibagale/protac-md/random_screen/EPHB2/pose004/prod/prod.tpr": "51cf13c39d0793dae205c3d9b14d1669c07f47c99f4e239ddb13b6de383b5476",
+      "/home/ayushregmibagale/protac-md/analysis/random_screen/EPHB2/pose004/prod_nojump.xtc": "2acc3be6177c5d7549f64032544c51f9ffb7e341998d5feda31f39b6a2cea638"
+    }
+  },
+  {
+    "poi": "EPHB2",
+    "pose": "pose005",
+    "input_sha256": {
+      "/home/ayushregmibagale/protac-md/random_screen/EPHB2/pose005/prod/prod.tpr": "213a88b4e650502e40c5f66330fb92c1f2ee0f194e3d8982ecf774edb6fdae9f",
+      "/home/ayushregmibagale/protac-md/analysis/random_screen/EPHB2/pose005/prod_nojump.xtc": "9312d80bbc4cd881a5ecfad6d1f6779263b9474ae9daff7784a9347aef23696a"
+    }
+  },
+  {
+    "poi": "EPHB2",
+    "pose": "pose006",
+    "input_sha256": {
+      "/home/ayushregmibagale/protac-md/random_screen/EPHB2/pose006/prod/prod.tpr": "fbc2d1d611a4e02b397564ac2c00740840392423bcc2966f649b72614f1ee0b3",
+      "/home/ayushregmibagale/protac-md/analysis/random_screen/EPHB2/pose006/prod_nojump.xtc": "df2303dcb8169eca40f65c411a6a60893cb0d3af2063e02730e3290c174fb04c"
+    }
+  },
+  {
+    "poi": "EPHB2",
+    "pose": "pose007",
+    "input_sha256": {
+      "/home/ayushregmibagale/protac-md/random_screen/EPHB2/pose007/prod/prod.tpr": "f3dfb6e1f03511fb739db60da17351907bc1f09a9a19c478c3a87af45e882c5f",
+      "/home/ayushregmibagale/protac-md/analysis/random_screen/EPHB2/pose007/prod_nojump.xtc": "ccfba4626c4c2a14e99cc43e706553b2cbc23465409bbcd2bd0ffa12fc3e337f"
+    }
+  },
+  {
+    "poi": "EPHB2",
+    "pose": "pose008",
+    "input_sha256": {
+      "/home/ayushregmibagale/protac-md/random_screen/EPHB2/pose008/prod/prod.tpr": "7d89374273d9b91d206febaf698ed70212e95c1f33861f92439c940f73588d5a",
+      "/home/ayushregmibagale/protac-md/analysis/random_screen/EPHB2/pose008/prod_nojump.xtc": "7de5c01667223c8dba741313e54e5279e038aa94879b03b1078ebfa6586767a6"
+    }
+  },
+  {
+    "poi": "EPHB2",
+    "pose": "pose009",
+    "input_sha256": {
+      "/home/ayushregmibagale/protac-md/random_screen/EPHB2/pose009/prod/prod.tpr": "0aea28f70d71be636778537b75fc5e5931021adaa6ac4f5cf76659b5dd910e8a",
+      "/home/ayushregmibagale/protac-md/analysis/random_screen/EPHB2/pose009/prod_nojump.xtc": "768122dda5c1fdf6e58f6ccdbcef08afdc24dde99c91fc70bc00f69c31887086"
+    }
+  },
+  {
+    "poi": "EPHB2",
+    "pose": "pose010",
+    "input_sha256": {
+      "/home/ayushregmibagale/protac-md/random_screen/EPHB2/pose010/prod/prod.tpr": "28ae9c47d98a1f3882564989115ebf2a6d7f83793c326da91286827e20ccd4d7",
+      "/home/ayushregmibagale/protac-md/analysis/random_screen/EPHB2/pose010/prod_nojump.xtc": "222ec5e635293f4c177c6c164a9cd7a370322d20359db0b61b035ce03743244b"
+    }
+  },
+  {
+    "poi": "EPHB2",
+    "pose": "pose011",
+    "input_sha256": {
+      "/home/ayushregmibagale/protac-md/random_screen/EPHB2/pose011/prod/prod.tpr": "4f7eedb638d7736c94139bae6b9eddee678ea212a43d089b401f17eefb3678ea",
+      "/home/ayushregmibagale/protac-md/analysis/random_screen/EPHB2/pose011/prod_nojump.xtc": "6f0911cd5173406527cca7e9df5cd9e775efa64781b88cf8d5fe9fd605d6a2ac"
+    }
+  },
+  {
+    "poi": "EPHB2",
+    "pose": "pose013",
+    "input_sha256": {
+      "/home/ayushregmibagale/protac-md/random_screen/EPHB2/pose013/prod/prod.tpr": "018bfa596beb3c5c111fc41f2216e6461c5a2dd6a83f3dbbba812bf63daa98b4",
+      "/home/ayushregmibagale/protac-md/analysis/random_screen/EPHB2/pose013/prod_nojump.xtc": "b3a4fad8657117589fac3258fcc00f815423d72fa44d6f660cfa70e409e748cf"
+    }
+  },
+  {
+    "poi": "EPHB2",
+    "pose": "pose014",
+    "input_sha256": {
+      "/home/ayushregmibagale/protac-md/random_screen/EPHB2/pose014/prod/prod.tpr": "7a56b699e50ea23f7c02b3b0dfac28d31d8577e82d445daea87f09078b9a46b8",
+      "/home/ayushregmibagale/protac-md/analysis/random_screen/EPHB2/pose014/prod_nojump.xtc": "5c772743609affeb5df19c71cdcb499dca9bbb29c6f0c4f955ccc8fe637e8edf"
+    }
+  },
+  {
+    "poi": "EPHB2",
+    "pose": "pose015",
+    "input_sha256": {
+      "/home/ayushregmibagale/protac-md/random_screen/EPHB2/pose015/prod/prod.tpr": "e7533af23028d66d90f2959ae6bab071d6c9d77c43c16d7ed30be1f6beb0874a",
+      "/home/ayushregmibagale/protac-md/analysis/random_screen/EPHB2/pose015/prod_nojump.xtc": "512a96355005b34682d0017d8c12107584adaea78b62d0a007463530bd44487f"
+    }
+  },
+  {
+    "poi": "EPHB2",
+    "pose": "pose016",
+    "input_sha256": {
+      "/home/ayushregmibagale/protac-md/random_screen/EPHB2/pose016/prod/prod.tpr": "bbc9f76b10e35ad86c95784e7b6f0ee15f4d40ef6ad4a16d67fd4ad5ab66c687",
+      "/home/ayushregmibagale/protac-md/analysis/random_screen/EPHB2/pose016/prod_nojump.xtc": "79b9837f32c68fefa94a816458a189167fac614bf19eec53b990c418043d5f44"
+    }
+  },
+  {
+    "poi": "EPHB2",
+    "pose": "pose017",
+    "input_sha256": {
+      "/home/ayushregmibagale/protac-md/random_screen/EPHB2/pose017/prod/prod.tpr": "a04947db94db05eb03227af8c1621b3ce19e17c4fdf80bc9916f1d0262e8dca2",
+      "/home/ayushregmibagale/protac-md/analysis/random_screen/EPHB2/pose017/prod_nojump.xtc": "91cd737b678075e052cd29a0347de7ca1ea3dfe3d7f30638427787543f2ca029"
+    }
+  },
+  {
+    "poi": "EPHB2",
+    "pose": "pose018",
+    "input_sha256": {
+      "/home/ayushregmibagale/protac-md/random_screen/EPHB2/pose018/prod/prod.tpr": "67234bd40ceca652a9995e6baf6a0de0dc3ccf7aec3c779227c2cefc0c953c98",
+      "/home/ayushregmibagale/protac-md/analysis/random_screen/EPHB2/pose018/prod_nojump.xtc": "ecf46e4df92ded17df93a3ceec2641b80daffab22e58fb2ca546e8b1e3186b88"
+    }
+  },
+  {
+    "poi": "EPHB2",
+    "pose": "pose019",
+    "input_sha256": {
+      "/home/ayushregmibagale/protac-md/random_screen/EPHB2/pose019/prod/prod.tpr": "6185e8564a8e8ca4654fcbc157e6f9077971ce62b34f4853d591ffb42b5a9702",
+      "/home/ayushregmibagale/protac-md/analysis/random_screen/EPHB2/pose019/prod_nojump.xtc": "3987e1d42b85380629c20219159b923a8b4a1331d9b862267d42245df8fbc85b"
+    }
+  },
+  {
+    "poi": "EPHB2",
+    "pose": "pose020",
+    "input_sha256": {
+      "/home/ayushregmibagale/protac-md/random_screen/EPHB2/pose020/prod/prod.tpr": "1e684bf0c25409986a3860d6ce1b59b3787cf46349c254354184e7e0f852802d",
+      "/home/ayushregmibagale/protac-md/analysis/random_screen/EPHB2/pose020/prod_nojump.xtc": "40e1d45db88dce45641656babeb4d34c1b8b8a15ffc1083464ef3949b626bdba"
+    }
+  },
+  {
+    "poi": "MAPK14_full",
+    "pose": "pose001",
+    "input_sha256": {
+      "/home/ayushregmibagale/protac-md/random_screen/MAPK14_full/pose001/prod/prod.tpr": "6a9bd9a4bdc140d440ee698bad9c682fcacc90bbca753db44ec868535d8dff21",
+      "/home/ayushregmibagale/protac-md/analysis/random_screen/MAPK14_full/pose001/prod_nojump.xtc": "95fee4e0deebba5ddbc4d1872dbfd67e7ed2db4ee81eb422bddfaeb4397207d3"
+    }
+  },
+  {
+    "poi": "MAPK14_full",
+    "pose": "pose002",
+    "input_sha256": {
+      "/home/ayushregmibagale/protac-md/random_screen/MAPK14_full/pose002/prod/prod.tpr": "a37615b2d14841458810ce1379ed09b7546ff4ac009d90dd00a1f2029b36ee93",
+      "/home/ayushregmibagale/protac-md/analysis/random_screen/MAPK14_full/pose002/prod_nojump.xtc": "39ce663aabf35d52c720c81912c3f6bdbae0afab2a17c48a8e6b4cba6b83167e"
+    }
+  },
+  {
+    "poi": "MAPK14_full",
+    "pose": "pose003",
+    "input_sha256": {
+      "/home/ayushregmibagale/protac-md/random_screen/MAPK14_full/pose003/prod/prod.tpr": "cb10b277b9e90a1a86ed4d6147c5aca319ac8d5a50abe8096c9f30d9c320482a",
+      "/home/ayushregmibagale/protac-md/analysis/random_screen/MAPK14_full/pose003/prod_nojump.xtc": "8c6e125fcb1269232aa74bcaa1ca4fb527cb2344b16eca99470ecd040997dfa1"
+    }
+  },
+  {
+    "poi": "MAPK14_full",
+    "pose": "pose004",
+    "input_sha256": {
+      "/home/ayushregmibagale/protac-md/random_screen/MAPK14_full/pose004/prod/prod.tpr": "57be33a50afc253620b5e4587c3098c422a5677150835fa5b49e4414083526d2",
+      "/home/ayushregmibagale/protac-md/analysis/random_screen/MAPK14_full/pose004/prod_nojump.xtc": "eb9b0f26a3be9ceba98b830cbdcc145fd21838b45646fffe3d306224d01b8a7b"
+    }
+  },
+  {
+    "poi": "MAPK14_full",
+    "pose": "pose005",
+    "input_sha256": {
+      "/home/ayushregmibagale/protac-md/random_screen/MAPK14_full/pose005/prod/prod.tpr": "27717625ebddc01c0f85bb76789c78e968e42c68d9c88e0a99a590134b5d7b4f",
+      "/home/ayushregmibagale/protac-md/analysis/random_screen/MAPK14_full/pose005/prod_nojump.xtc": "8136f2f00a196427c758cec3677fda7d99088dce5f6cdbde701be8f03cad5c79"
+    }
+  },
+  {
+    "poi": "MAPK14_full",
+    "pose": "pose006",
+    "input_sha256": {
+      "/home/ayushregmibagale/protac-md/random_screen/MAPK14_full/pose006/prod/prod.tpr": "dcf49263c4012192aace5b17215c5cf08032780f9e04d47f03261b200a1b5377",
+      "/home/ayushregmibagale/protac-md/analysis/random_screen/MAPK14_full/pose006/prod_nojump.xtc": "6b76963736bdbdb227154026b7a11e73a42430bb9d839c155aaada1f49c77ff7"
+    }
+  },
+  {
+    "poi": "MAPK14_full",
+    "pose": "pose007",
+    "input_sha256": {
+      "/home/ayushregmibagale/protac-md/random_screen/MAPK14_full/pose007/prod/prod.tpr": "d79a1b2cbd3ec970b651094b066817191dc02358653d56f47a01dc0a4077b4d6",
+      "/home/ayushregmibagale/protac-md/analysis/random_screen/MAPK14_full/pose007/prod_nojump.xtc": "56b299530d29aa7edbb83e31b04fb4b88a6ea01f871cdb91b406a7f11f8514c3"
+    }
+  },
+  {
+    "poi": "MAPK14_full",
+    "pose": "pose008",
+    "input_sha256": {
+      "/home/ayushregmibagale/protac-md/random_screen/MAPK14_full/pose008/prod/prod.tpr": "c89d2dde376f1de3dbeae03af2eea35d67e7fb24667938a2f96203e3444b6b55",
+      "/home/ayushregmibagale/protac-md/analysis/random_screen/MAPK14_full/pose008/prod_nojump.xtc": "6743372c0e7fb33fcd3bb1529388bd6bdc377158ad3b9c0fb6525bf6fffaeac2"
+    }
+  },
+  {
+    "poi": "MAPK14_full",
+    "pose": "pose009",
+    "input_sha256": {
+      "/home/ayushregmibagale/protac-md/random_screen/MAPK14_full/pose009/prod/prod.tpr": "5f742275abf36787a6e42d8bb7c7d706b994aa53d93dbaec0f9ce7b43a7f1052",
+      "/home/ayushregmibagale/protac-md/analysis/random_screen/MAPK14_full/pose009/prod_nojump.xtc": "0fd7a6dc5d8b60e503184d1cd9cfd8d6e404dbc8ca42e474b281ff652df44f9f"
+    }
+  },
+  {
+    "poi": "MAPK14_full",
+    "pose": "pose010",
+    "input_sha256": {
+      "/home/ayushregmibagale/protac-md/random_screen/MAPK14_full/pose010/prod/prod.tpr": "a3d7b115b9a4f4fd2c43996bd0ecd51f3f6860853e1b0d485a368d2663b5862a",
+      "/home/ayushregmibagale/protac-md/analysis/random_screen/MAPK14_full/pose010/prod_nojump.xtc": "b92f287b2411b2a25d8d0983a97fb20cfca47d031ab6b51bc47dadb18e22e1ed"
+    }
+  },
+  {
+    "poi": "MAPK14_full",
+    "pose": "pose011",
+    "input_sha256": {
+      "/home/ayushregmibagale/protac-md/random_screen/MAPK14_full/pose011/prod/prod.tpr": "a0c5fb4c913996eafa021a98f1284c42b913f82e54efd20696c484e8c8701503",
+      "/home/ayushregmibagale/protac-md/analysis/random_screen/MAPK14_full/pose011/prod_nojump.xtc": "663a8b7fd0dbe45dfd7795a3b9e5ac0dc4c9d160eeb1e8658a8493b345148253"
+    }
+  },
+  {
+    "poi": "MAPK14_full",
+    "pose": "pose012",
+    "input_sha256": {
+      "/home/ayushregmibagale/protac-md/random_screen/MAPK14_full/pose012/prod/prod.tpr": "f653235f574ba06b5dbed8722ea7a322f203d38eceb60b9de1c0c30cd9da3c5a",
+      "/home/ayushregmibagale/protac-md/analysis/random_screen/MAPK14_full/pose012/prod_nojump.xtc": "2d6a3f2e7b7d8961210e7907dfdfd1f9588a4f895003328a3d4cf1f5bdb14700"
+    }
+  },
+  {
+    "poi": "MAPK14_full",
+    "pose": "pose013",
+    "input_sha256": {
+      "/home/ayushregmibagale/protac-md/random_screen/MAPK14_full/pose013/prod/prod.tpr": "f95ce57793f85a6fe0857cde0f166fa513a45bff805a156256e0f6e116192d3d",
+      "/home/ayushregmibagale/protac-md/analysis/random_screen/MAPK14_full/pose013/prod_nojump.xtc": "1fd93b594f7d2106080bed2182037b108baba916803f8d8e8cac73e3dad3d738"
+    }
+  },
+  {
+    "poi": "MAPK14_full",
+    "pose": "pose015",
+    "input_sha256": {
+      "/home/ayushregmibagale/protac-md/random_screen/MAPK14_full/pose015/prod/prod.tpr": "3f71ed1dc67af3dac5ee15a11c77abb386616522bf31343c41709372ff95f328",
+      "/home/ayushregmibagale/protac-md/analysis/random_screen/MAPK14_full/pose015/prod_nojump.xtc": "a7b8b6c55f6d0b2bc07df9b413ef142bb2013639ea3e22b99fa548ab75f97d7e"
+    }
+  },
+  {
+    "poi": "MAPK14_full",
+    "pose": "pose016",
+    "input_sha256": {
+      "/home/ayushregmibagale/protac-md/random_screen/MAPK14_full/pose016/prod/prod.tpr": "b483bc9dc6e3d9f563132c4cb8a19468dc748a6d80b164304336e66af614d582",
+      "/home/ayushregmibagale/protac-md/analysis/random_screen/MAPK14_full/pose016/prod_nojump.xtc": "8019e34ee1591925d32a53e134fcdb4b60cb3e3ab383acb40659caf42033ba25"
+    }
+  },
+  {
+    "poi": "MAPK14_full",
+    "pose": "pose017",
+    "input_sha256": {
+      "/home/ayushregmibagale/protac-md/random_screen/MAPK14_full/pose017/prod/prod.tpr": "a60ea1968a3d243176a46ca32283e2de3db1ba66105a45b7d3ed865a40e8bb6e",
+      "/home/ayushregmibagale/protac-md/analysis/random_screen/MAPK14_full/pose017/prod_nojump.xtc": "ce48a4b651e3853f19e5783569e33b2cf495597306c98f1a38f3ef9f0b6c3229"
+    }
+  },
+  {
+    "poi": "MAPK14_full",
+    "pose": "pose018",
+    "input_sha256": {
+      "/home/ayushregmibagale/protac-md/random_screen/MAPK14_full/pose018/prod/prod.tpr": "5f58c5d91cf5cca815ddee2bb26fe7f85fb78cb04d92613ede6ce98881425ab5",
+      "/home/ayushregmibagale/protac-md/analysis/random_screen/MAPK14_full/pose018/prod_nojump.xtc": "a2b09012ec00c43f9c09687172d04d8669981183745c39944d4c8bdbc8b411a1"
+    }
+  },
+  {
+    "poi": "MAPK14_full",
+    "pose": "pose020",
+    "input_sha256": {
+      "/home/ayushregmibagale/protac-md/random_screen/MAPK14_full/pose020/prod/prod.tpr": "6bb6ef917f2999a42d342069b2a55d253ebf91aefb2e144818b225eeb87339b5",
+      "/home/ayushregmibagale/protac-md/analysis/random_screen/MAPK14_full/pose020/prod_nojump.xtc": "37dea6e7698435780a2e91eb4876650742b8bf0237ccadeb4da9acbc1902d0b4"
+    }
+  },
+  {
+    "poi": "MET",
+    "pose": "pose002",
+    "input_sha256": {
+      "/home/ayushregmibagale/protac-md/random_screen/MET/pose002/prod/prod.tpr": "08c2ffc58ce8d38a2a7a36e095fd206e684f48ef4f522e8bf4d528b562132f83",
+      "/home/ayushregmibagale/protac-md/analysis/random_screen/MET/pose002/prod_nojump.xtc": "13697b73025e12bb5ef067001e38b82a6e6d0018a5ae862f05cafb49e1568152"
+    }
+  },
+  {
+    "poi": "MET",
+    "pose": "pose003",
+    "input_sha256": {
+      "/home/ayushregmibagale/protac-md/random_screen/MET/pose003/prod/prod.tpr": "ad0187acc23fe6098d30002daef209410ea7a05dc1f8800c08a2386d56418325",
+      "/home/ayushregmibagale/protac-md/analysis/random_screen/MET/pose003/prod_nojump.xtc": "e481f169b263bb8bc87ab1f89cd4556428c5f33d0d21d6e094fbb5eab2fbe9a8"
+    }
+  },
+  {
+    "poi": "MET",
+    "pose": "pose004",
+    "input_sha256": {
+      "/home/ayushregmibagale/protac-md/random_screen/MET/pose004/prod/prod.tpr": "983ab25b4df6d84fa0caa017f075702f527d425d12ef38382476278985119503",
+      "/home/ayushregmibagale/protac-md/analysis/random_screen/MET/pose004/prod_nojump.xtc": "bea760da565201024ebc93d16f3d492910e4647c40e287c4cf4fc18032cff205"
+    }
+  },
+  {
+    "poi": "MET",
+    "pose": "pose005",
+    "input_sha256": {
+      "/home/ayushregmibagale/protac-md/random_screen/MET/pose005/prod/prod.tpr": "6bd4b0f955d63a7fc44c53af2446c36a160ca0bb5fc50e274089bb6ce95a003d",
+      "/home/ayushregmibagale/protac-md/analysis/random_screen/MET/pose005/prod_nojump.xtc": "01601821da6022bcca3cafdaf09a9ac6aa02afc4d6f81ab78f0acbbf2db8cda5"
+    }
+  },
+  {
+    "poi": "MET",
+    "pose": "pose006",
+    "input_sha256": {
+      "/home/ayushregmibagale/protac-md/random_screen/MET/pose006/prod/prod.tpr": "818c10476be80c36f31e74e5651df421ca12d1325612d98547816cb41e352681",
+      "/home/ayushregmibagale/protac-md/analysis/random_screen/MET/pose006/prod_nojump.xtc": "337bcc719b7268c1380fe399888d165d77a9dea595a308531d2240cb3260230a"
+    }
+  },
+  {
+    "poi": "MET",
+    "pose": "pose007",
+    "input_sha256": {
+      "/home/ayushregmibagale/protac-md/random_screen/MET/pose007/prod/prod.tpr": "cf825792f3b239e4b8758fe0ff323a838c5887f458b13f140d41c9f4632cbf27",
+      "/home/ayushregmibagale/protac-md/analysis/random_screen/MET/pose007/prod_nojump.xtc": "9b3f6cd9478fcd9dc3d3522da6543e41d4e91d01284d812098a00810fe04939a"
+    }
+  },
+  {
+    "poi": "MET",
+    "pose": "pose008",
+    "input_sha256": {
+      "/home/ayushregmibagale/protac-md/random_screen/MET/pose008/prod/prod.tpr": "2e864233f6ef532158d9fb2f2d9cc81bb0899f1d6aa8d13bc8d552d00baf4967",
+      "/home/ayushregmibagale/protac-md/analysis/random_screen/MET/pose008/prod_nojump.xtc": "15541ae245d89a18c6a4fd681572003c808e744f3579ab50e490bd33b46d4f90"
+    }
+  },
+  {
+    "poi": "MET",
+    "pose": "pose009",
+    "input_sha256": {
+      "/home/ayushregmibagale/protac-md/random_screen/MET/pose009/prod/prod.tpr": "20a4ace09829feee2eab52fe253dcc7a7acd3fec9c755c06011056ddba6a67ae",
+      "/home/ayushregmibagale/protac-md/analysis/random_screen/MET/pose009/prod_nojump.xtc": "43948b4015d19bbe8250b2e92d415a95481a43bd414765629b2378c1246c1fc6"
+    }
+  },
+  {
+    "poi": "MET",
+    "pose": "pose011",
+    "input_sha256": {
+      "/home/ayushregmibagale/protac-md/random_screen/MET/pose011/prod/prod.tpr": "0c91ecdeee1a339ff5e8888989388a989860d4d7f408852e7538615f18df9d36",
+      "/home/ayushregmibagale/protac-md/analysis/random_screen/MET/pose011/prod_nojump.xtc": "ed4d2c84ba7bd273b9a9a845e9c3b44f4ce4f42996eef84ef346e00e8a70aa8d"
+    }
+  },
+  {
+    "poi": "MET",
+    "pose": "pose012",
+    "input_sha256": {
+      "/home/ayushregmibagale/protac-md/random_screen/MET/pose012/prod/prod.tpr": "5cfe640a5ed8d8bc40faf03ebb05f5780f9a931c93a674267bc9f18b50f9fc7f",
+      "/home/ayushregmibagale/protac-md/analysis/random_screen/MET/pose012/prod_nojump.xtc": "231d42a75aad29fc308dd3cdcf0815415a7620c8842041480d2ef0c1fa575701"
+    }
+  },
+  {
+    "poi": "MET",
+    "pose": "pose013",
+    "input_sha256": {
+      "/home/ayushregmibagale/protac-md/random_screen/MET/pose013/prod/prod.tpr": "79246214fc57041e51eba369d0475132409db81b909e6d729a6eb117db169210",
+      "/home/ayushregmibagale/protac-md/analysis/random_screen/MET/pose013/prod_nojump.xtc": "75186c06cce98538581341ea6f81ab677a2d92a93d68001832be7281de054aac"
+    }
+  },
+  {
+    "poi": "MET",
+    "pose": "pose014",
+    "input_sha256": {
+      "/home/ayushregmibagale/protac-md/random_screen/MET/pose014/prod/prod.tpr": "c91d8b402372ae6b1371bbf3141c8686b6ecf396a34deab0d341d7932538a531",
+      "/home/ayushregmibagale/protac-md/analysis/random_screen/MET/pose014/prod_nojump.xtc": "baa2c16503fdc5d40d8f5dd6b9e928fe1ddb71693cedf010e7b9d9a7742f0466"
+    }
+  },
+  {
+    "poi": "MET",
+    "pose": "pose017",
+    "input_sha256": {
+      "/home/ayushregmibagale/protac-md/random_screen/MET/pose017/prod/prod.tpr": "eaa1c5620f1ff0b6d8981f488b65b6c0c6cc6a127d12563e8e7142ec84215b5c",
+      "/home/ayushregmibagale/protac-md/analysis/random_screen/MET/pose017/prod_nojump.xtc": "2dd6fddecb120c599f3a6ea4820839a50fa672065871ad5fe280715e93722b3a"
+    }
+  },
+  {
+    "poi": "MET",
+    "pose": "pose018",
+    "input_sha256": {
+      "/home/ayushregmibagale/protac-md/random_screen/MET/pose018/prod/prod.tpr": "ce229f8b7626fec0d172e85c784c5e0f31336848c7172feb471ecbbd5922d40f",
+      "/home/ayushregmibagale/protac-md/analysis/random_screen/MET/pose018/prod_nojump.xtc": "e8809f6dc86ff1a74beae31a2f9fba54323c7fb3f550d5acb22ea0c4f647e5dd"
+    }
+  },
+  {
+    "poi": "MET",
+    "pose": "pose019",
+    "input_sha256": {
+      "/home/ayushregmibagale/protac-md/random_screen/MET/pose019/prod/prod.tpr": "40737b64072c48112d7e4dcca1df7200ec3884ecfaf6329eb89208498484e2c9",
+      "/home/ayushregmibagale/protac-md/analysis/random_screen/MET/pose019/prod_nojump.xtc": "8ab57ee3fd1f078e7795ea45ad1da86d30764615719174f755c941f07614b5b7"
+    }
+  },
+  {
+    "poi": "MET",
+    "pose": "pose020",
+    "input_sha256": {
+      "/home/ayushregmibagale/protac-md/random_screen/MET/pose020/prod/prod.tpr": "4559ad1253ec2f81f6d37e835d01b0bef3cf8f1159edf56221f742ee148499f5",
+      "/home/ayushregmibagale/protac-md/analysis/random_screen/MET/pose020/prod_nojump.xtc": "88d4d808d46aa47328833b3e4f4393a507fecb19175a4535ffba673f94f5f15a"
+    }
+  },
+  {
+    "poi": "RIPK2_full",
+    "pose": "pose001",
+    "input_sha256": {
+      "/home/ayushregmibagale/protac-md/random_screen/RIPK2_full/pose001/prod/prod.tpr": "f78af8d9bbc5c6fcd1f7e47f85d0b47a08479060a371f0be7e6f020eb39794dc",
+      "/home/ayushregmibagale/protac-md/analysis/random_screen/RIPK2_full/pose001/prod_nojump.xtc": "8a1548ac99a9658ec2b9755917954badce3a06235d6673f5b785240a2e2f2c33"
+    }
+  },
+  {
+    "poi": "RIPK2_full",
+    "pose": "pose003",
+    "input_sha256": {
+      "/home/ayushregmibagale/protac-md/random_screen/RIPK2_full/pose003/prod/prod.tpr": "8dde09121cefd2b3baaedf52dee7e40a0385b5c34a10ec9ac4ddcd003d5068d2",
+      "/home/ayushregmibagale/protac-md/analysis/random_screen/RIPK2_full/pose003/prod_nojump.xtc": "aafd751c40c3e9df60bf4e85b18251be30f767b99ab97990b34023df8f8f14cc"
+    }
+  },
+  {
+    "poi": "RIPK2_full",
+    "pose": "pose004",
+    "input_sha256": {
+      "/home/ayushregmibagale/protac-md/random_screen/RIPK2_full/pose004/prod/prod.tpr": "274cf0a81ec1a641d587107f4532edc63eda49cda01d262b3a1d566bb52b7470",
+      "/home/ayushregmibagale/protac-md/analysis/random_screen/RIPK2_full/pose004/prod_nojump.xtc": "ae44b0d51a1de45dac6c3f1ea79b5e3d7a33508d277fef31a181b5e6ef168246"
+    }
+  },
+  {
+    "poi": "RIPK2_full",
+    "pose": "pose005",
+    "input_sha256": {
+      "/home/ayushregmibagale/protac-md/random_screen/RIPK2_full/pose005/prod/prod.tpr": "67b336a69a1fcb220963152ee2e33594c367f374dbfd98350314c89057857523",
+      "/home/ayushregmibagale/protac-md/analysis/random_screen/RIPK2_full/pose005/prod_nojump.xtc": "ef1af141ae5fbf2ca3b1bf4fb9872a173b25b5217718ff7ab62f90a5f54babb2"
+    }
+  },
+  {
+    "poi": "RIPK2_full",
+    "pose": "pose006",
+    "input_sha256": {
+      "/home/ayushregmibagale/protac-md/random_screen/RIPK2_full/pose006/prod/prod.tpr": "2e2786c27fd17f7733a867d7995749fc1be4c62b71cfb4268ccf72c8f4fceda4",
+      "/home/ayushregmibagale/protac-md/analysis/random_screen/RIPK2_full/pose006/prod_nojump.xtc": "4fcc56c3857d54cc3feb521c8a77b1787f0fbe40335a08ff52ba9dc38f84ea4b"
+    }
+  },
+  {
+    "poi": "RIPK2_full",
+    "pose": "pose007",
+    "input_sha256": {
+      "/home/ayushregmibagale/protac-md/random_screen/RIPK2_full/pose007/prod/prod.tpr": "2869ff438958f5197aefc1d2fa53cedfadc3d5c67400d10ac63e4a14cf4d74a9",
+      "/home/ayushregmibagale/protac-md/analysis/random_screen/RIPK2_full/pose007/prod_nojump.xtc": "975f87f01e4132b89b9fcb69b8f14ee0f879d6633e53c8055a83dd915fae301f"
+    }
+  },
+  {
+    "poi": "RIPK2_full",
+    "pose": "pose008",
+    "input_sha256": {
+      "/home/ayushregmibagale/protac-md/random_screen/RIPK2_full/pose008/prod/prod.tpr": "ea1181f072eab2a7304965f5924e443b3fe2faed7ae9c9a3064246f55bb078ac",
+      "/home/ayushregmibagale/protac-md/analysis/random_screen/RIPK2_full/pose008/prod_nojump.xtc": "cc0271cdf0d569f4fd74d1ccbe122535875dc6d7721807094d5a17928de270fa"
+    }
+  },
+  {
+    "poi": "RIPK2_full",
+    "pose": "pose009",
+    "input_sha256": {
+      "/home/ayushregmibagale/protac-md/random_screen/RIPK2_full/pose009/prod/prod.tpr": "b579a0947f7964c9d3df8e16e93e54c28307369bcf4421d1ed9d14bbeb5a6a9e",
+      "/home/ayushregmibagale/protac-md/analysis/random_screen/RIPK2_full/pose009/prod_nojump.xtc": "3b818fd08ff585071babe308fef98692d76d86b2d36f88f2a332dca00fae1732"
+    }
+  },
+  {
+    "poi": "RIPK2_full",
+    "pose": "pose010",
+    "input_sha256": {
+      "/home/ayushregmibagale/protac-md/random_screen/RIPK2_full/pose010/prod/prod.tpr": "07a1c1f49b3fdb16eaf245a0cc784c8461a1954cde7595eeb74dd4e935032789",
+      "/home/ayushregmibagale/protac-md/analysis/random_screen/RIPK2_full/pose010/prod_nojump.xtc": "387c161067c36fce4e09e3c622abda7a5cb27bc2b99cfb5163ed7f7263834b27"
+    }
+  },
+  {
+    "poi": "RIPK2_full",
+    "pose": "pose011",
+    "input_sha256": {
+      "/home/ayushregmibagale/protac-md/random_screen/RIPK2_full/pose011/prod/prod.tpr": "48db67d4111c036297c91a8fb5328877f6cbd40d1d1eddd91f011446666ca2a9",
+      "/home/ayushregmibagale/protac-md/analysis/random_screen/RIPK2_full/pose011/prod_nojump.xtc": "e251b049f9e9db64285f3f17d0cdc4e5d81da8c166c09c1c67817a6f71f9c31a"
+    }
+  },
+  {
+    "poi": "RIPK2_full",
+    "pose": "pose012",
+    "input_sha256": {
+      "/home/ayushregmibagale/protac-md/random_screen/RIPK2_full/pose012/prod/prod.tpr": "26794a37de7860487866849f8f6ea5e1ea94ec11136d18f98ceba847dcb78f5e",
+      "/home/ayushregmibagale/protac-md/analysis/random_screen/RIPK2_full/pose012/prod_nojump.xtc": "694e76ed2d799b0f6d28c92a342b538127b92695ae3b33dba64dc3407d0a5b81"
+    }
+  },
+  {
+    "poi": "RIPK2_full",
+    "pose": "pose015",
+    "input_sha256": {
+      "/home/ayushregmibagale/protac-md/random_screen/RIPK2_full/pose015/prod/prod.tpr": "fbec2b61f4ce1e6c4bc36a7576dc9d1e0d430bd49ba81781617696392811001d",
+      "/home/ayushregmibagale/protac-md/analysis/random_screen/RIPK2_full/pose015/prod_nojump.xtc": "6683c8422748b87edd2ad79f69846e78c66aae1a6e6e2b07fb638be1c0670cb2"
+    }
+  },
+  {
+    "poi": "RIPK2_full",
+    "pose": "pose016",
+    "input_sha256": {
+      "/home/ayushregmibagale/protac-md/random_screen/RIPK2_full/pose016/prod/prod.tpr": "8ac0e03c115fe0aa94c19d5fa661799eab548ad31255fcbf7b3a02c601ffa97a",
+      "/home/ayushregmibagale/protac-md/analysis/random_screen/RIPK2_full/pose016/prod_nojump.xtc": "645544d633caecde1a77648bc7b9aa6c96e44a1cc6f0e4571b07c87fc84b0bc9"
+    }
+  },
+  {
+    "poi": "RIPK2_full",
+    "pose": "pose017",
+    "input_sha256": {
+      "/home/ayushregmibagale/protac-md/random_screen/RIPK2_full/pose017/prod/prod.tpr": "e84dd61ddd0972cd5f6aff3104e12e339d04d2876c25752c33222a2249605906",
+      "/home/ayushregmibagale/protac-md/analysis/random_screen/RIPK2_full/pose017/prod_nojump.xtc": "70fa936b379bac9eaaf5fb1dd05e033543338324e30945860e270b78c2388a3c"
+    }
+  },
+  {
+    "poi": "RIPK2_full",
+    "pose": "pose018",
+    "input_sha256": {
+      "/home/ayushregmibagale/protac-md/random_screen/RIPK2_full/pose018/prod/prod.tpr": "26f729dc120e1e93b8d85ca60b5b1114f5b7c4daa72af12a3d988a855a3af6fa",
+      "/home/ayushregmibagale/protac-md/analysis/random_screen/RIPK2_full/pose018/prod_nojump.xtc": "c568581d21fd8e587da4387e8bdeef45e371758530dfc551261566f4954b9070"
+    }
+  },
+  {
+    "poi": "RIPK2_full",
+    "pose": "pose019",
+    "input_sha256": {
+      "/home/ayushregmibagale/protac-md/random_screen/RIPK2_full/pose019/prod/prod.tpr": "a5925ef5f51ec1b3c82e526749db2276b59e6a066339b56d1eaef9482c1f10f6",
+      "/home/ayushregmibagale/protac-md/analysis/random_screen/RIPK2_full/pose019/prod_nojump.xtc": "fe0423012dfafcbab85696b3306fb9faa2f4055e1db62c7ed59cac1b0323edd3"
+    }
+  },
+  {
+    "poi": "RIPK2_full",
+    "pose": "pose020",
+    "input_sha256": {
+      "/home/ayushregmibagale/protac-md/random_screen/RIPK2_full/pose020/prod/prod.tpr": "1dbec3ba34d897b64b28323d8944ae5a19cfb4da95e662af4dd4171aa1ca6763",
+      "/home/ayushregmibagale/protac-md/analysis/random_screen/RIPK2_full/pose020/prod_nojump.xtc": "695724b7bfa63b8c0f3acae08a936c0a81661033db814373011d5f585b8e08f4"
+    }
+  }
+]

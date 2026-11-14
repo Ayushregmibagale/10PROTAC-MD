@@ -1,0 +1,7 @@
+scaffold_scope	score	AUROC	independent_targets
+closed_only	cluster_representative_productive_fraction	0.5	8
+closed_only	member_weighted_productive_fraction	0.5	8
+closed_only	unclustered_frame0_fraction	0.5	8
+closed_plus_modeled_open	cluster_representative_productive_fraction	0.5833333333333334	8
+closed_plus_modeled_open	member_weighted_productive_fraction	0.5833333333333334	8
+closed_plus_modeled_open	unclustered_frame0_fraction	0.5833333333333334	8

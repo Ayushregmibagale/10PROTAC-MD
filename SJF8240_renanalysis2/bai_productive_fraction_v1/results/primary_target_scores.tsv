@@ -1,0 +1,9 @@
+poi	label	tail	exposure_fraction	distance_A	scaffold_scope	productive_frame_fraction	productive_frame_fraction_fit3_sensitivity	frame0_productive_fraction	frame0_productive_fraction_fit3	poses
+ABL1	0	tail_fit75	0.1	16.0	closed_plus_modeled_open	0.0	0.0	0.0	0.0	17
+AXL	0	tail_fit75	0.1	16.0	closed_plus_modeled_open	0.02377003869541183	0.0030403537866224434	0.0	0.0	18
+DDR2	1	tail_fit75	0.1	16.0	closed_plus_modeled_open	0.03095632946379215	0.004145936981757877	0.0	0.0	18
+EPHA2	1	tail_fit75	0.1	16.0	closed_plus_modeled_open	0.06357103372028744	0.02736318407960199	0.05555555555555555	0.05555555555555555	18
+EPHB2	1	tail_fit75	0.1	16.0	closed_plus_modeled_open	0.11783189316575018	0.07305577376276512	0.0	0.0	19
+MAPK14_full	1	tail_fit75	0.1	16.0	closed_plus_modeled_open	0.0	0.0	0.0	0.0	18
+MET	1	tail_fit75	0.1	16.0	closed_plus_modeled_open	0.010572139303482588	0.008706467661691543	0.0	0.0	16
+RIPK2_full	1	tail_fit75	0.1	16.0	closed_plus_modeled_open	0.019022534386889084	0.016095990635059995	0.0	0.0	17

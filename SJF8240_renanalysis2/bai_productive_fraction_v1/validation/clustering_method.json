@@ -1,0 +1,11 @@
+{
+  "RMSD_threshold_A": 3.0,
+  "alignment": "whole trueVHL C-alpha fit; matching target C-alpha sequence/order required",
+  "clustering": "complete-linkage,max pairwise RMSD within cluster<=3A",
+  "representative": "coordinate medoid,not minimum Rosetta interface energy",
+  "model_scope": "141 retained production-frame0 models,not originalfull Rosetta decoy pools",
+  "members_weighted": "Classify representative; propagate to original retained cluster members",
+  "not_literal_MMTSB_reproduction": true,
+  "cases": 141,
+  "script_sha256": "63f8c34465417cff9e29873bba3fa51b589aa02e91befb21362f75f5a991c5b6"
+}

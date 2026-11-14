@@ -1,0 +1,8 @@
+{
+  "scripts/01_score_productive_fraction.py": "8ce10656233d65a31edebf1058f6b0ad2f30dee8aa42c1b4367d1811b58b1ffe",
+  "scripts/02_cluster_retained_poses.py": "63f8c34465417cff9e29873bba3fa51b589aa02e91befb21362f75f5a991c5b6",
+  "scripts/03_verify_and_report.py": "a836e81e1af74f8a9e3383ed9bd94305707a96d9cbdbaca3279ead63a4e611b7",
+  "scripts/04_check_package.py": "2955de95a84a74668e0875197c6330e8458ceae84c47351f375c38abf3b75dc6",
+  "config/protocol.json": "89ed3462f063f7d89eb6ae1e34eb3fca32b587a24d1d123b5387ff3a4efd6317",
+  "README.md": "b6b782426876beb824b4a3636c4f83fe81ad23b1b0b9c7a047a673f0535af8a0"
+}
