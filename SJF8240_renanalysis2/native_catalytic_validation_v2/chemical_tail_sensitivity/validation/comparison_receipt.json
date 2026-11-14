@@ -1,0 +1,17 @@
+{
+  "cases": 141,
+  "frames": 28341,
+  "targets": 8,
+  "secondary": "chemically modeledG76,not replacement ofparent primary;20A exposed/no clash",
+  "script_sha256": "18c0b1ef0a03a04f2abd5d4cc218978b03c929c200c4b59f96a6df94d2c45473",
+  "protocol_sha256": "e573ddc2219fdaf1bb8f7dda56398fef52d40dcfe80a928d6eb28a6e437d21b8",
+  "outputs_sha256": {
+    "native_metrics.tsv": "85a6c5645d08842e424fa4e45538153fe9c176d403a25e2757b2e3402687de7c",
+    "pose_native_scores.tsv": "1e3aa122d466e290efb2f0eed03388a1480a9f73d5188fb702708a494f7e8711",
+    "primary_target_scores.tsv": "b1819a21c332cfca72a50fdf997f8f0142b89411171c67b7444a4715b0aa246a",
+    "sensitivity_metrics.tsv": "66bb06cbb3833d5cf97ba92cdf1e0e0c74bd8f5a580b19da24ccc15427913181",
+    "sensitivity_target_scores.tsv": "7de19438bccf724838466379a3cbacde50c24629355b32a3035146e564a4089f",
+    "target_native_scores.tsv": "da931c8b0069d242bc786201f90c5fa8c49f2913d37d53f2518d0756ebd09f87"
+  },
+  "no_training": true
+}

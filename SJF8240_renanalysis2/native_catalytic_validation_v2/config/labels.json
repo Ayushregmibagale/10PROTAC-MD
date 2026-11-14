@@ -1,0 +1,43 @@
+{
+  "version": "user_confirmed_md_labels_20261111",
+  "recorded_UTC": "2026-11-11T15:45:42.324187+00:00",
+  "scope": "Eight retained MD evaluation targets only; other targets and assay measurement tables are not relabelled",
+  "source": "Explicit user correction in conversation",
+  "user_statement": "EPHA2 is a degraded protein as well only AXL and ABL1 is not degraded so update",
+  "class_definition": {
+    "0": "binder, not degraded",
+    "1": "binder, degraded"
+  },
+  "labels": {
+    "ABL1": 0,
+    "AXL": 0,
+    "DDR2": 1,
+    "EPHA2": 1,
+    "EPHB2": 1,
+    "MAPK14_full": 1,
+    "MET": 1,
+    "RIPK2_full": 1
+  },
+  "positive_targets": [
+    "DDR2",
+    "EPHA2",
+    "EPHB2",
+    "MAPK14_full",
+    "MET",
+    "RIPK2_full"
+  ],
+  "negative_targets": [
+    "ABL1",
+    "AXL"
+  ],
+  "changes_from_completed_run": {
+    "EPHA2": {
+      "old": 0,
+      "new": 1
+    }
+  },
+  "retained_system_name": "MAPK14_full",
+  "old_protocol_sha256": "f88bc06c255105205aad564c0b7f8d3924d0a583c5a3ec8334bdd067bee2634e",
+  "historical_run": "d5c34f1",
+  "corrected_label_training_complete": false
+}

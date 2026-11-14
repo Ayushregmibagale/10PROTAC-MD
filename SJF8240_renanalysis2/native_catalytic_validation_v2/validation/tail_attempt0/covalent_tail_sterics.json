@@ -1,0 +1,41 @@
+{
+  "models": [
+    {
+      "reference": "8R5H",
+      "covalent_geometry_pass": true,
+      "C_to_E2SG_A": 1.79999999138506,
+      "maximum_nonbonded_core_overlap_A": 0.7822415976333716,
+      "nonbonded_steric_pass_08": true,
+      "worst_pair": {
+        "tail_atom": "CA",
+        "chain": "D",
+        "resid": 75,
+        "atom": "O",
+        "distance_A": 2.437758402366628
+      },
+      "target_coordinates_or_labels_used": false
+    },
+    {
+      "reference": "8RX0",
+      "covalent_geometry_pass": true,
+      "C_to_E2SG_A": 1.7999998593926267,
+      "maximum_nonbonded_core_overlap_A": 1.7604156222285448,
+      "nonbonded_steric_pass_08": false,
+      "worst_pair": {
+        "tail_atom": "CA",
+        "chain": "I",
+        "resid": 75,
+        "atom": "O",
+        "distance_A": 1.459584377771455
+      },
+      "target_coordinates_or_labels_used": false,
+      "old_tail_to_restored_SG_A": [
+        2.095838314306658,
+        0.9549927785956714
+      ]
+    }
+  ],
+  "bond_exclusion_basis": "covalent1-2/1-3 neighbors atG75 peptide andC93 thioester attachment excluded;allotherdeposited E2/Ub heavy atoms checked",
+  "missing_atoms_caveat": "Unresolved source atoms are not sterically modeled;not full molecular mechanics validation",
+  "source_script_sha256": "ab63cf810e6c68632a1b8accf178c8bc92d60aa331bd09b0a08082e619b80a2e"
+}

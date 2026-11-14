@@ -1,0 +1,97 @@
+{
+  "status": "PASS",
+  "frame_replays": [
+    {
+      "poi": "ABL1",
+      "pose": "pose001",
+      "frame": 0,
+      "distance_max_error_A": 3.643137418407605e-06,
+      "overlap_error_A": 0.0,
+      "exposure_max_error": 1.390775045129189e-08,
+      "protein_reconstruction": "independent MDAnalysis unwrap",
+      "rigid_fit": "independent Bio.SVDSuperimposer",
+      "distance_engine": "SciPy cdist,not KDTree"
+    },
+    {
+      "poi": "ABL1",
+      "pose": "pose001",
+      "frame": 100,
+      "distance_max_error_A": 2.982127270456658e-06,
+      "overlap_error_A": 0.0,
+      "exposure_max_error": 1.4570024298166118e-08,
+      "protein_reconstruction": "independent MDAnalysis unwrap",
+      "rigid_fit": "independent Bio.SVDSuperimposer",
+      "distance_engine": "SciPy cdist,not KDTree"
+    },
+    {
+      "poi": "ABL1",
+      "pose": "pose001",
+      "frame": 200,
+      "distance_max_error_A": 2.257064465993608e-06,
+      "overlap_error_A": 0.0,
+      "exposure_max_error": 1.4570024298166118e-08,
+      "protein_reconstruction": "independent MDAnalysis unwrap",
+      "rigid_fit": "independent Bio.SVDSuperimposer",
+      "distance_engine": "SciPy cdist,not KDTree"
+    },
+    {
+      "poi": "DDR2",
+      "pose": "pose001",
+      "frame": 0,
+      "distance_max_error_A": 3.7443095948219707e-06,
+      "overlap_error_A": 0.0,
+      "exposure_max_error": 2.9140048596332235e-08,
+      "protein_reconstruction": "independent MDAnalysis unwrap",
+      "rigid_fit": "independent Bio.SVDSuperimposer",
+      "distance_engine": "SciPy cdist,not KDTree"
+    },
+    {
+      "poi": "DDR2",
+      "pose": "pose001",
+      "frame": 100,
+      "distance_max_error_A": 2.0332810777290433e-06,
+      "overlap_error_A": 0.0,
+      "exposure_max_error": 2.781550090258378e-08,
+      "protein_reconstruction": "independent MDAnalysis unwrap",
+      "rigid_fit": "independent Bio.SVDSuperimposer",
+      "distance_engine": "SciPy cdist,not KDTree"
+    },
+    {
+      "poi": "DDR2",
+      "pose": "pose001",
+      "frame": 200,
+      "distance_max_error_A": 2.150733578787367e-06,
+      "overlap_error_A": 0.0,
+      "exposure_max_error": 2.781550090258378e-08,
+      "protein_reconstruction": "independent MDAnalysis unwrap",
+      "rigid_fit": "independent Bio.SVDSuperimposer",
+      "distance_engine": "SciPy cdist,not KDTree"
+    }
+  ],
+  "AUROC_replays": [
+    {
+      "score": "bridge_fraction",
+      "independent_pairwise_AUROC": 0.3333333333333333,
+      "independent_positive_negative_pairs": 12
+    },
+    {
+      "score": "productive_fraction",
+      "independent_pairwise_AUROC": 0.5,
+      "independent_positive_negative_pairs": 12
+    },
+    {
+      "score": "joint_bridge_productive_fraction",
+      "independent_pairwise_AUROC": 0.5,
+      "independent_positive_negative_pairs": 12
+    },
+    {
+      "score": "productive_conditional_on_bridge",
+      "independent_pairwise_AUROC": 0.4166666666666667,
+      "independent_positive_negative_pairs": 12
+    }
+  ],
+  "all_primary_outputs_hash_checked": true,
+  "independent_labelled_targets": 8,
+  "biological_validation": false,
+  "verification_script_sha256": "da4507a861054d97b218db5f8acfa7484b6faecff4dd4d4705bba2ccee78881e"
+}

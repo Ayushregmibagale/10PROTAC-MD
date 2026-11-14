@@ -1,0 +1,197 @@
+{
+  "graphs": [
+    {
+      "target": "ABL1",
+      "user_label": 0,
+      "variant": "native_features",
+      "path": "gnn_inputs/native_features/ABL1.npz",
+      "sha256": "56a093f03f153d8533b3a1ee76b8d7effd94143a4652b16b73eae9c2bce5dd63",
+      "source_graph_sha256": "e680488e38f104449860f75db9727cace32f41f6303616c65f8a82cdf831a74c",
+      "poses": 17,
+      "node_features": 34
+    },
+    {
+      "target": "ABL1",
+      "user_label": 0,
+      "variant": "zero_padded_control",
+      "path": "gnn_inputs/zero_padded_control/ABL1.npz",
+      "sha256": "58742f3f4d08b5862e4a19ff16ae825efd3fa4d751ff73d39e3cc2053ce465e0",
+      "source_graph_sha256": "e680488e38f104449860f75db9727cace32f41f6303616c65f8a82cdf831a74c",
+      "poses": 17,
+      "node_features": 34
+    },
+    {
+      "target": "AXL",
+      "user_label": 0,
+      "variant": "native_features",
+      "path": "gnn_inputs/native_features/AXL.npz",
+      "sha256": "fc93cf48a66888ebb49bec46da439233794c82b90747bfe153f2efe868110249",
+      "source_graph_sha256": "5243b75e38f92820cd9322ca4803abab72fb49bd6c8f11e3cac6ea2fc8c9a8c7",
+      "poses": 18,
+      "node_features": 34
+    },
+    {
+      "target": "AXL",
+      "user_label": 0,
+      "variant": "zero_padded_control",
+      "path": "gnn_inputs/zero_padded_control/AXL.npz",
+      "sha256": "0a5922e9a228e059a6a94d2fb80c6b29343857c79b4a9a04235cc7e97fc3fde7",
+      "source_graph_sha256": "5243b75e38f92820cd9322ca4803abab72fb49bd6c8f11e3cac6ea2fc8c9a8c7",
+      "poses": 18,
+      "node_features": 34
+    },
+    {
+      "target": "DDR2",
+      "user_label": 1,
+      "variant": "native_features",
+      "path": "gnn_inputs/native_features/DDR2.npz",
+      "sha256": "899c6f945d9ca6cfa8df790fd2088097569e8cda264fb8f1ae8143ea3a4e8bc6",
+      "source_graph_sha256": "f1b9f32d7389dd400cf7b33847da095a1b273d86dd133d99f56a43f5438da855",
+      "poses": 18,
+      "node_features": 34
+    },
+    {
+      "target": "DDR2",
+      "user_label": 1,
+      "variant": "zero_padded_control",
+      "path": "gnn_inputs/zero_padded_control/DDR2.npz",
+      "sha256": "95576ff47bc26b9a1e594ef6b416ddd07edb396c7318e49cb8757d2309256ded",
+      "source_graph_sha256": "f1b9f32d7389dd400cf7b33847da095a1b273d86dd133d99f56a43f5438da855",
+      "poses": 18,
+      "node_features": 34
+    },
+    {
+      "target": "EPHA2",
+      "user_label": 1,
+      "variant": "native_features",
+      "path": "gnn_inputs/native_features/EPHA2.npz",
+      "sha256": "19b31467228620d0c84c8075baa6a55e7a46271a9c1551eb4e3e6b0449ab91d0",
+      "source_graph_sha256": "4488afc56b57bd0f3bf0488d65fd69d1e80d25b3ce8e547a7b2e9a2a9c612d3e",
+      "poses": 18,
+      "node_features": 34
+    },
+    {
+      "target": "EPHA2",
+      "user_label": 1,
+      "variant": "zero_padded_control",
+      "path": "gnn_inputs/zero_padded_control/EPHA2.npz",
+      "sha256": "c95f9d2071731f151ea0a83801a743f5db2678f01c3815b5f84f2070eca0fbc6",
+      "source_graph_sha256": "4488afc56b57bd0f3bf0488d65fd69d1e80d25b3ce8e547a7b2e9a2a9c612d3e",
+      "poses": 18,
+      "node_features": 34
+    },
+    {
+      "target": "EPHB2",
+      "user_label": 1,
+      "variant": "native_features",
+      "path": "gnn_inputs/native_features/EPHB2.npz",
+      "sha256": "c278516c5725b43bd45f4ffc6d1c6e492ae30be6cfe4d580664003fdeb52c369",
+      "source_graph_sha256": "ae947125fc9bbdbaaaf5a344e216a007e6c3f4e2541487353caf2325816e7cba",
+      "poses": 19,
+      "node_features": 34
+    },
+    {
+      "target": "EPHB2",
+      "user_label": 1,
+      "variant": "zero_padded_control",
+      "path": "gnn_inputs/zero_padded_control/EPHB2.npz",
+      "sha256": "b5009d01a0b0e108cd0da972e7c070ba7865a3125211628a50585d283362ab60",
+      "source_graph_sha256": "ae947125fc9bbdbaaaf5a344e216a007e6c3f4e2541487353caf2325816e7cba",
+      "poses": 19,
+      "node_features": 34
+    },
+    {
+      "target": "MAPK14_full",
+      "user_label": 1,
+      "variant": "native_features",
+      "path": "gnn_inputs/native_features/MAPK14_full.npz",
+      "sha256": "0f5fdf8738e20d313640ab6dfa607621fa5ddfe51107ed9caf1387ee0a0e831c",
+      "source_graph_sha256": "e3a2b0c203ee916e8ac1508525837df66ed71e6eba146e97920dd5dc3850796b",
+      "poses": 18,
+      "node_features": 34
+    },
+    {
+      "target": "MAPK14_full",
+      "user_label": 1,
+      "variant": "zero_padded_control",
+      "path": "gnn_inputs/zero_padded_control/MAPK14_full.npz",
+      "sha256": "b20ac1ba340cb681ea491fdae2415f323e84dedaeccffe1170e5629fedad2687",
+      "source_graph_sha256": "e3a2b0c203ee916e8ac1508525837df66ed71e6eba146e97920dd5dc3850796b",
+      "poses": 18,
+      "node_features": 34
+    },
+    {
+      "target": "MET",
+      "user_label": 1,
+      "variant": "native_features",
+      "path": "gnn_inputs/native_features/MET.npz",
+      "sha256": "302c597a78eddac665166277db7b107a0fb38f0b6bac670e5b7d08fa778ca5c1",
+      "source_graph_sha256": "4716c090af2d3ce285950807eafa38676256c50f65e6bd94636dd95151429d3d",
+      "poses": 16,
+      "node_features": 34
+    },
+    {
+      "target": "MET",
+      "user_label": 1,
+      "variant": "zero_padded_control",
+      "path": "gnn_inputs/zero_padded_control/MET.npz",
+      "sha256": "585a9c04a0858f048dc695b497d19a4c9f493a33ccc7e2cf0c63d34ad0cfaacb",
+      "source_graph_sha256": "4716c090af2d3ce285950807eafa38676256c50f65e6bd94636dd95151429d3d",
+      "poses": 16,
+      "node_features": 34
+    },
+    {
+      "target": "RIPK2_full",
+      "user_label": 1,
+      "variant": "native_features",
+      "path": "gnn_inputs/native_features/RIPK2_full.npz",
+      "sha256": "4ec73002db84e12eea2073d8245913f7d37f5d71993ec7d389f124012618dc00",
+      "source_graph_sha256": "268e75ad88922746fc23b739b14ac903b7262f69f6884c6d907bf0f17ecbf577",
+      "poses": 17,
+      "node_features": 34
+    },
+    {
+      "target": "RIPK2_full",
+      "user_label": 1,
+      "variant": "zero_padded_control",
+      "path": "gnn_inputs/zero_padded_control/RIPK2_full.npz",
+      "sha256": "dc8df2c9de3225dde345e025ecf60835102e2e74b9db3478def60a55620d1e13",
+      "source_graph_sha256": "268e75ad88922746fc23b739b14ac903b7262f69f6884c6d907bf0f17ecbf577",
+      "poses": 17,
+      "node_features": 34
+    }
+  ],
+  "added_features": [
+    "mean_NZ_to_SY8C3_A/100",
+    "NZ_reachable20_fraction",
+    "NZ_exposed_fraction",
+    "exposed_reachable_scaffold_compatible_fraction",
+    "joint_trueVHLbridge_productive_fraction"
+  ],
+  "base29_features_and_edges_unchanged": true,
+  "matched_architecture_input_width": 34,
+  "windows_ns": [
+    [
+      0,
+      5
+    ],
+    [
+      5,
+      10
+    ],
+    [
+      10,
+      15
+    ],
+    [
+      15,
+      20
+    ]
+  ],
+  "full201frame_data": true,
+  "perlysine_equal_pose_weight": true,
+  "training_run": false,
+  "biological_release": false,
+  "label_based_feature_selection": false,
+  "note": "Provisional engineered lysine-node features; no full scaffold nodes added. Zero-padded control matches input dimensionality. Historical molecule provenance retained."
+}

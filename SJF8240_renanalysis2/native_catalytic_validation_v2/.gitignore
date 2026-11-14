@@ -1,0 +1,6 @@
+__pycache__/
+*.pyc
+/logs/
+/results/poses/
+/chemical_tail_sensitivity/logs/
+/chemical_tail_sensitivity/results/poses/

@@ -1,0 +1,9 @@
+{
+  "status": "PASS",
+  "global_nonbonded_E2Ub_overlap_A": 0.33260195167765216,
+  "G76C_E2SG_A": 1.8000095602548272,
+  "source_script_sha256": "079a8934b4ef3593d3b16258d9c2cbc7cd32a29d5a2092287b41860ca957c909",
+  "target_or_labels_used_in_tailfit": false,
+  "chemical_sensitivity_independent_verification": "PASS",
+  "physiological_reaction_validated": false
+}

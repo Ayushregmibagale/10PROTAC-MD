@@ -1,0 +1,3 @@
+# Native-control revision — 14 November 2026
+
+The earlier native MZ1 control used globally superposed crystallographic BRD4 sidechains rather than preserving the catalytic target backbone. That representation problem is corrected in ../native_catalytic_validation_v2/FINDINGS.md . The prior scores and source data remain unchanged historical results. This correction is not validation of the old AUROC0.750. The new independent primary reference gives AUROC0.500;the separately modeled,covalently checked tail gives0.625. No validated degradation classifier or supplier-chemistry equivalence is released.

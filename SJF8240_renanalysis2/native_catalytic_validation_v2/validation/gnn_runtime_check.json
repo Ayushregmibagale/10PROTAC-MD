@@ -1,0 +1,167 @@
+{
+  "status": "PASS",
+  "graphs": [
+    {
+      "target": "ABL1",
+      "variant": "native_features",
+      "windows": 4,
+      "nodes_per_window": 403,
+      "input_width": 34,
+      "base29_and_edges_unchanged": true,
+      "finite_untrained_forward": true
+    },
+    {
+      "target": "ABL1",
+      "variant": "zero_padded_control",
+      "windows": 4,
+      "nodes_per_window": 403,
+      "input_width": 34,
+      "base29_and_edges_unchanged": true,
+      "finite_untrained_forward": true
+    },
+    {
+      "target": "AXL",
+      "variant": "native_features",
+      "windows": 4,
+      "nodes_per_window": 410,
+      "input_width": 34,
+      "base29_and_edges_unchanged": true,
+      "finite_untrained_forward": true
+    },
+    {
+      "target": "AXL",
+      "variant": "zero_padded_control",
+      "windows": 4,
+      "nodes_per_window": 410,
+      "input_width": 34,
+      "base29_and_edges_unchanged": true,
+      "finite_untrained_forward": true
+    },
+    {
+      "target": "DDR2",
+      "variant": "native_features",
+      "windows": 4,
+      "nodes_per_window": 415,
+      "input_width": 34,
+      "base29_and_edges_unchanged": true,
+      "finite_untrained_forward": true
+    },
+    {
+      "target": "DDR2",
+      "variant": "zero_padded_control",
+      "windows": 4,
+      "nodes_per_window": 415,
+      "input_width": 34,
+      "base29_and_edges_unchanged": true,
+      "finite_untrained_forward": true
+    },
+    {
+      "target": "EPHA2",
+      "variant": "native_features",
+      "windows": 4,
+      "nodes_per_window": 427,
+      "input_width": 34,
+      "base29_and_edges_unchanged": true,
+      "finite_untrained_forward": true
+    },
+    {
+      "target": "EPHA2",
+      "variant": "zero_padded_control",
+      "windows": 4,
+      "nodes_per_window": 427,
+      "input_width": 34,
+      "base29_and_edges_unchanged": true,
+      "finite_untrained_forward": true
+    },
+    {
+      "target": "EPHB2",
+      "variant": "native_features",
+      "windows": 4,
+      "nodes_per_window": 388,
+      "input_width": 34,
+      "base29_and_edges_unchanged": true,
+      "finite_untrained_forward": true
+    },
+    {
+      "target": "EPHB2",
+      "variant": "zero_padded_control",
+      "windows": 4,
+      "nodes_per_window": 388,
+      "input_width": 34,
+      "base29_and_edges_unchanged": true,
+      "finite_untrained_forward": true
+    },
+    {
+      "target": "MAPK14_full",
+      "variant": "native_features",
+      "windows": 4,
+      "nodes_per_window": 477,
+      "input_width": 34,
+      "base29_and_edges_unchanged": true,
+      "finite_untrained_forward": true
+    },
+    {
+      "target": "MAPK14_full",
+      "variant": "zero_padded_control",
+      "windows": 4,
+      "nodes_per_window": 477,
+      "input_width": 34,
+      "base29_and_edges_unchanged": true,
+      "finite_untrained_forward": true
+    },
+    {
+      "target": "MET",
+      "variant": "native_features",
+      "windows": 4,
+      "nodes_per_window": 418,
+      "input_width": 34,
+      "base29_and_edges_unchanged": true,
+      "finite_untrained_forward": true
+    },
+    {
+      "target": "MET",
+      "variant": "zero_padded_control",
+      "windows": 4,
+      "nodes_per_window": 418,
+      "input_width": 34,
+      "base29_and_edges_unchanged": true,
+      "finite_untrained_forward": true
+    },
+    {
+      "target": "RIPK2_full",
+      "variant": "native_features",
+      "windows": 4,
+      "nodes_per_window": 419,
+      "input_width": 34,
+      "base29_and_edges_unchanged": true,
+      "finite_untrained_forward": true
+    },
+    {
+      "target": "RIPK2_full",
+      "variant": "zero_padded_control",
+      "windows": 4,
+      "nodes_per_window": 419,
+      "input_width": 34,
+      "base29_and_edges_unchanged": true,
+      "finite_untrained_forward": true
+    }
+  ],
+  "training_run": false,
+  "optimizer_steps": 0,
+  "trained_predictions_saved": false,
+  "parameters": 40193,
+  "architecture": "Existing TemporalEncoder,onlyGATConv input width29to34; identical34-input architecture forbothvariants",
+  "model_source_sha256": "d88a3284a1022d9a12e3c4b5b66183d709dabb1a69b1dd5a5991e5c45d4b00a3",
+  "runtime_guard_sha256": "aa10cf1d4f7bc4534663944f2c2bc6a3cc9b0f16e62fdc5de17d8d0b9fdb92eb",
+  "disabled_optional_native_modules": [
+    "pyg_lib",
+    "torch_scatter",
+    "torch_sparse",
+    "torch_cluster",
+    "torch_spline_conv",
+    "torch_frame",
+    "intel_extension_for_pytorch"
+  ],
+  "runtime_note": "An initial unguardedPyG import segfaulted due incompatible optional native extension. Existing process-local configure_native_pyg applied before import; no installed packages modified.",
+  "biological_validation": false
+}

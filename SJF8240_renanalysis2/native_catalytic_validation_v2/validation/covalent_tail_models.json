@@ -1,0 +1,546 @@
+{
+  "models": [
+    {
+      "reference": "8R5H",
+      "G76_atoms_N_CA_C_O": [
+        [
+          171.80083602746348,
+          184.8007674198179,
+          133.91162654986312
+        ],
+        [
+          170.68679542331043,
+          185.72915388004233,
+          133.87925558360536
+        ],
+        [
+          169.5785882985626,
+          185.2681110481212,
+          134.77217496281133
+        ],
+        [
+          168.43598779594163,
+          185.00867640856387,
+          134.39793253223462
+        ]
+      ],
+      "E2_C93_SG": [
+        170.20399475097656,
+        185.16799926757812,
+        136.4290008544922
+      ],
+      "chemistry_checks": {
+        "attempt": 3,
+        "optimizer_success": true,
+        "bond_lengths_A": [
+          1.3003470099004797,
+          1.450529478047997,
+          1.4959908228225467,
+          1.2299998526975202,
+          1.773760873023353
+        ],
+        "angles_deg": [
+          126.71591058318411,
+          104.48478490093365,
+          111.00017818881801,
+          124.85796669967942,
+          108.28406919873609,
+          126.85796410158449
+        ],
+        "omega_deg": -173.35339715324247,
+        "previous_O_C_N_angle_deg": 112.4799884968401,
+        "previous_carbonyl_plane_triple_A3": -0.00430046843115235,
+        "max_bond_error_A": 0.029652990099520382,
+        "max_angle_error_deg": 17.515215099066353,
+        "covalent_geometry_valid": false,
+        "objective": 76.2424185010644
+      },
+      "all_trials": [
+        {
+          "attempt": 0,
+          "optimizer_success": true,
+          "bond_lengths_A": [
+            1.3003470107723847,
+            1.4505294789641876,
+            1.4959908233153598,
+            1.229999852701902,
+            1.773760873642602
+          ],
+          "angles_deg": [
+            126.7159115573921,
+            104.48478512754296,
+            111.00017818715204,
+            124.85796655314148,
+            108.28406949108178,
+            126.85796395577674
+          ],
+          "omega_deg": -173.35340191094443,
+          "previous_O_C_N_angle_deg": 112.4799875231368,
+          "previous_carbonyl_plane_triple_A3": -0.004300460761150603,
+          "max_bond_error_A": 0.02965298922761539,
+          "max_angle_error_deg": 17.515214872457037,
+          "covalent_geometry_valid": false,
+          "objective": 76.24241850116414
+        },
+        {
+          "attempt": 1,
+          "optimizer_success": true,
+          "bond_lengths_A": [
+            1.3003470138388027,
+            1.4505294821714532,
+            1.4959908250305365,
+            1.22999985270793,
+            1.773760875789336
+          ],
+          "angles_deg": [
+            126.71591493989969,
+            104.48478591283916,
+            111.00017818800877,
+            124.85796604257055,
+            108.2840705125915,
+            126.85796344483798
+          ],
+          "omega_deg": -173.35341839908287,
+          "previous_O_C_N_angle_deg": 112.47998414238111,
+          "previous_carbonyl_plane_triple_A3": -0.004300434136673004,
+          "max_bond_error_A": 0.02965298616119738,
+          "max_angle_error_deg": 17.515214087160842,
+          "covalent_geometry_valid": false,
+          "objective": 76.242418501524
+        },
+        {
+          "attempt": 2,
+          "optimizer_success": true,
+          "bond_lengths_A": [
+            1.3003470117181897,
+            1.4505294799492188,
+            1.495990823845934,
+            1.2299998527043354,
+            1.7737608743093942
+          ],
+          "angles_deg": [
+            126.7159126063285,
+            104.48478537202443,
+            111.00017818345685,
+            124.85796639682769,
+            108.28406980441802,
+            126.85796379875428
+          ],
+          "omega_deg": -173.35340703356584,
+          "previous_O_C_N_angle_deg": 112.47998647474608,
+          "previous_carbonyl_plane_triple_A3": -0.00430045246797401,
+          "max_bond_error_A": 0.0296529882818104,
+          "max_angle_error_deg": 17.515214627975567,
+          "covalent_geometry_valid": false,
+          "objective": 76.24241850127353
+        },
+        {
+          "attempt": 3,
+          "optimizer_success": true,
+          "bond_lengths_A": [
+            1.3003470099004797,
+            1.450529478047997,
+            1.4959908228225467,
+            1.2299998526975202,
+            1.773760873023353
+          ],
+          "angles_deg": [
+            126.71591058318411,
+            104.48478490093365,
+            111.00017818881801,
+            124.85796669967942,
+            108.28406919873609,
+            126.85796410158449
+          ],
+          "omega_deg": -173.35339715324247,
+          "previous_O_C_N_angle_deg": 112.4799884968401,
+          "previous_carbonyl_plane_triple_A3": -0.00430046843115235,
+          "max_bond_error_A": 0.029652990099520382,
+          "max_angle_error_deg": 17.515215099066353,
+          "covalent_geometry_valid": false,
+          "objective": 76.2424185010644
+        },
+        {
+          "attempt": 4,
+          "optimizer_success": true,
+          "bond_lengths_A": [
+            1.3003470211455426,
+            1.4505294898048586,
+            1.495990829153697,
+            1.229999852720383,
+            1.7737608809467225
+          ],
+          "angles_deg": [
+            126.7159230399114,
+            104.4847877875858,
+            111.00017819026054,
+            124.85796482309443,
+            108.28407295224146,
+            126.8579622246641
+          ],
+          "omega_deg": -173.35345795563805,
+          "previous_O_C_N_angle_deg": 112.47997604657014,
+          "previous_carbonyl_plane_triple_A3": -0.004300370295445131,
+          "max_bond_error_A": 0.0296529788544575,
+          "max_angle_error_deg": 17.5152122124142,
+          "covalent_geometry_valid": false,
+          "objective": 76.242418502473
+        },
+        {
+          "attempt": 5,
+          "optimizer_success": true,
+          "bond_lengths_A": [
+            1.3003470129028825,
+            1.4505294811835097,
+            1.4959908245044597,
+            1.2299998527032006,
+            1.773760875122983
+          ],
+          "angles_deg": [
+            126.7159138949212,
+            104.48478566709277,
+            111.00017819349509,
+            124.8579661996471,
+            108.28407019917815,
+            126.85796360117476
+          ],
+          "omega_deg": -173.3534133152297,
+          "previous_O_C_N_angle_deg": 112.4799851868173,
+          "previous_carbonyl_plane_triple_A3": -0.0043004423785854345,
+          "max_bond_error_A": 0.02965298709711761,
+          "max_angle_error_deg": 17.515214332907235,
+          "covalent_geometry_valid": false,
+          "objective": 76.24241850141087
+        },
+        {
+          "attempt": 6,
+          "optimizer_success": true,
+          "bond_lengths_A": [
+            1.3003470182260204,
+            1.450529486736599,
+            1.4959908275034666,
+            1.229999852714061,
+            1.773760878881144
+          ],
+          "angles_deg": [
+            126.71591980207243,
+            104.4847870362264,
+            111.00017818908235,
+            124.85796531285777,
+            108.2840719718284,
+            126.85796271531385
+          ],
+          "omega_deg": -173.35344218214235,
+          "previous_O_C_N_angle_deg": 112.47997928273318,
+          "previous_carbonyl_plane_triple_A3": -0.0043003957656520715,
+          "max_bond_error_A": 0.02965298177397968,
+          "max_angle_error_deg": 17.515212963773607,
+          "covalent_geometry_valid": false,
+          "objective": 76.24241850207969
+        },
+        {
+          "attempt": 7,
+          "optimizer_success": true,
+          "bond_lengths_A": [
+            1.3003470164575905,
+            1.4505294849017094,
+            1.495990826511586,
+            1.2299998527115255,
+            1.7737608776446143
+          ],
+          "angles_deg": [
+            126.71591784496285,
+            104.48478658428287,
+            111.00017818844464,
+            124.85796560500476,
+            108.28407138732896,
+            126.85796300766627
+          ],
+          "omega_deg": -173.3534325921391,
+          "previous_O_C_N_angle_deg": 112.47998123882522,
+          "previous_carbonyl_plane_triple_A3": -0.004300411229816771,
+          "max_bond_error_A": 0.029652983542409528,
+          "max_angle_error_deg": 17.515213415717128,
+          "covalent_geometry_valid": false,
+          "objective": 76.24241850185048
+        }
+      ],
+      "target_coordinates_used": false,
+      "target_labels_used": false,
+      "endpoint_observed": false,
+      "description": "Constrained modeled native Gly76 thioester with fixedG75backbone andSG. Sidechain transfer for8RX0SG is modeled. No steric/energetic or reaction validation inferred."
+    },
+    {
+      "reference": "8RX0",
+      "G76_atoms_N_CA_C_O": [
+        [
+          190.7627924867487,
+          143.78483458664525,
+          192.45568042602298
+        ],
+        [
+          189.54642075122328,
+          143.8959402420364,
+          191.64056217007166
+        ],
+        [
+          188.85349062567116,
+          145.26949538746314,
+          191.85866136935493
+        ],
+        [
+          188.31824530019492,
+          145.45680904309782,
+          192.95014021777226
+        ]
+      ],
+      "E2_C93_SG": [
+        188.79198197731017,
+        146.60255469279286,
+        190.59849066370154
+      ],
+      "chemistry_checks": {
+        "attempt": 5,
+        "optimizer_success": true,
+        "bond_lengths_A": [
+          1.3082977032204988,
+          1.4684421802815932,
+          1.5538253303231824,
+          1.2300000164934155,
+          1.8354456223861118
+        ],
+        "angles_deg": [
+          124.57498598404709,
+          106.14551930637907,
+          111.00012434383524,
+          116.95138900347398,
+          124.09729220083561,
+          118.95131879569041
+        ],
+        "omega_deg": -147.566299930134,
+        "previous_O_C_N_angle_deg": 114.66807009642297,
+        "previous_carbonyl_plane_triple_A3": -0.023467761224957844,
+        "max_bond_error_A": 0.03544562238611171,
+        "max_angle_error_deg": 15.854480693620928,
+        "covalent_geometry_valid": false,
+        "objective": 106.2258698049923
+      },
+      "all_trials": [
+        {
+          "attempt": 0,
+          "optimizer_success": true,
+          "bond_lengths_A": [
+            1.3122558414064143,
+            1.464453677437285,
+            1.5483827813305366,
+            1.229999885904111,
+            1.82981521634331
+          ],
+          "angles_deg": [
+            63.83038702722666,
+            108.9668591294785,
+            111.00015549452678,
+            117.52704282127218,
+            122.9459366723804,
+            119.52702050634743
+          ],
+          "omega_deg": 150.67940025539238,
+          "previous_O_C_N_angle_deg": 56.9322340211113,
+          "previous_carbonyl_plane_triple_A3": -0.036394889759017,
+          "max_bond_error_A": 0.029815216343309858,
+          "max_angle_error_deg": 52.16961297277334,
+          "covalent_geometry_valid": false,
+          "objective": 857.5641416971068
+        },
+        {
+          "attempt": 1,
+          "optimizer_success": true,
+          "bond_lengths_A": [
+            1.3289583557691493,
+            1.4496852108737805,
+            1.5183594235696263,
+            1.229999969338287,
+            1.7982453535399208
+          ],
+          "angles_deg": [
+            178.65097710603692,
+            122.34879299204594,
+            110.99990684965343,
+            121.2306981815476,
+            115.5386442064627,
+            123.23065761198973
+          ],
+          "omega_deg": -177.4781637394194,
+          "previous_O_C_N_angle_deg": 58.5574812392344,
+          "previous_carbonyl_plane_triple_A3": 0.04295723543403341,
+          "max_bond_error_A": 0.0017546464600792788,
+          "max_angle_error_deg": 62.65097710603692,
+          "covalent_geometry_valid": false,
+          "objective": 902.4890818818378
+        },
+        {
+          "attempt": 2,
+          "optimizer_success": true,
+          "bond_lengths_A": [
+            1.3289583858599645,
+            1.449685221358452,
+            1.5183594676521563,
+            1.229999969307624,
+            1.7982454008312425
+          ],
+          "angles_deg": [
+            178.6509844475174,
+            122.34878166528799,
+            110.99990684993357,
+            121.23069184003116,
+            115.53865688939383,
+            123.23065127057502
+          ],
+          "omega_deg": -177.4782293072839,
+          "previous_O_C_N_angle_deg": 58.557483068622304,
+          "previous_carbonyl_plane_triple_A3": 0.04295696069386629,
+          "max_bond_error_A": 0.0017545991687575313,
+          "max_angle_error_deg": 62.6509844475174,
+          "covalent_geometry_valid": false,
+          "objective": 902.4890818802262
+        },
+        {
+          "attempt": 3,
+          "optimizer_success": true,
+          "bond_lengths_A": [
+            1.223464860768447,
+            1.4334645056346313,
+            1.60040248862425,
+            1.2549983999833225,
+            1.9037648179219309
+          ],
+          "angles_deg": [
+            172.4592926163665,
+            179.9957612705871,
+            96.38542296655774,
+            117.24860798408749,
+            126.59979304557085,
+            116.15157818434747
+          ],
+          "omega_deg": -179.56323162596814,
+          "previous_O_C_N_angle_deg": 58.69847460755877,
+          "previous_carbonyl_plane_triple_A3": -0.2558138176538911,
+          "max_bond_error_A": 0.106535139231553,
+          "max_angle_error_deg": 57.99576127058711,
+          "covalent_geometry_valid": false,
+          "objective": 1467.6334356738412
+        },
+        {
+          "attempt": 4,
+          "optimizer_success": true,
+          "bond_lengths_A": [
+            1.328958395808133,
+            1.449685224729799,
+            1.518359482552768,
+            1.2299999693005272,
+            1.798245416793811
+          ],
+          "angles_deg": [
+            178.65098599023278,
+            122.34877797825048,
+            110.99990684990932,
+            121.23068971750666,
+            115.53866113450388,
+            123.23064914798944
+          ],
+          "omega_deg": -177.47825163575015,
+          "previous_O_C_N_angle_deg": 58.557483226193305,
+          "previous_carbonyl_plane_triple_A3": 0.042956898026485564,
+          "max_bond_error_A": 0.001754583206189153,
+          "max_angle_error_deg": 62.65098599023278,
+          "covalent_geometry_valid": false,
+          "objective": 902.4890818798959
+        },
+        {
+          "attempt": 5,
+          "optimizer_success": true,
+          "bond_lengths_A": [
+            1.3082977032204988,
+            1.4684421802815932,
+            1.5538253303231824,
+            1.2300000164934155,
+            1.8354456223861118
+          ],
+          "angles_deg": [
+            124.57498598404709,
+            106.14551930637907,
+            111.00012434383524,
+            116.95138900347398,
+            124.09729220083561,
+            118.95131879569041
+          ],
+          "omega_deg": -147.566299930134,
+          "previous_O_C_N_angle_deg": 114.66807009642297,
+          "previous_carbonyl_plane_triple_A3": -0.023467761224957844,
+          "max_bond_error_A": 0.03544562238611171,
+          "max_angle_error_deg": 15.854480693620928,
+          "covalent_geometry_valid": false,
+          "objective": 106.2258698049923
+        },
+        {
+          "attempt": 6,
+          "optimizer_success": true,
+          "bond_lengths_A": [
+            1.3289583068150983,
+            1.4496851936737323,
+            1.5183593551061956,
+            1.2299999694165153,
+            1.7982452799806274
+          ],
+          "angles_deg": [
+            178.65096064750045,
+            122.34881133306563,
+            110.99990684971118,
+            121.23070814270817,
+            115.53862428401229,
+            123.23066757327958
+          ],
+          "omega_deg": -177.47806278455957,
+          "previous_O_C_N_angle_deg": 58.5574759161846,
+          "previous_carbonyl_plane_triple_A3": 0.04295782475172137,
+          "max_bond_error_A": 0.001754720019372602,
+          "max_angle_error_deg": 62.650960647500455,
+          "covalent_geometry_valid": false,
+          "objective": 902.489081886351
+        },
+        {
+          "attempt": 7,
+          "optimizer_success": true,
+          "bond_lengths_A": [
+            1.3122557615829318,
+            1.4644539028244021,
+            1.5483828989476622,
+            1.229999941273866,
+            1.8298153307923437
+          ],
+          "angles_deg": [
+            63.83034449289713,
+            108.96689615606998,
+            111.00016224478892,
+            117.52703930437399,
+            122.94594547131015,
+            119.52701522431587
+          ],
+          "omega_deg": 150.67934568941817,
+          "previous_O_C_N_angle_deg": 56.93227665789075,
+          "previous_carbonyl_plane_triple_A3": -0.036395080021150814,
+          "max_bond_error_A": 0.029815330792343664,
+          "max_angle_error_deg": 52.16965550710287,
+          "covalent_geometry_valid": false,
+          "objective": 857.5634870391686
+        }
+      ],
+      "target_coordinates_used": false,
+      "target_labels_used": false,
+      "endpoint_observed": false,
+      "description": "Constrained modeled native Gly76 thioester with fixedG75backbone andSG. Sidechain transfer for8RX0SG is modeled. No steric/energetic or reaction validation inferred."
+    }
+  ],
+  "label_independent": true,
+  "chemical_geometry_only": true
+}

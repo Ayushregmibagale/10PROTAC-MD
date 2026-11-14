@@ -1,0 +1,14 @@
+{
+  "scope": "Secondary sensitivity after native-only chemical geometry reconstruction;not a new primary selected on labels",
+  "source_endpoint": "8RX0 locally relaxed modeledG76 attachedtofixed transferredC93SG;G75O moves0.944A;allotherproteinbackbone fixed",
+  "modeling_inputs": "No target lysines or degradation labels used in endpointmodel",
+  "retained_thresholds": {
+    "distance_A": 20,
+    "NZ_exposure_fraction": 0.1,
+    "max_target_scaffold_overlap_A": 0.8,
+    "orientation_required": false,
+    "bridge_required": false
+  },
+  "missing_atoms": "UnresolvedE2sidechains remain missing;SG transferredfromE2R2active loop;notfull atomic validation",
+  "source_model_sha256": "e3131f346fc0989ac0227ed05ca82f7aaa83798d70ae393e8db977108f5f72c2"
+}

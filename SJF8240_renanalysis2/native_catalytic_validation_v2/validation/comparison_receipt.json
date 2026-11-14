@@ -1,0 +1,21 @@
+{
+  "cases": 141,
+  "frames": 28341,
+  "targets": 8,
+  "primary": "8R5H_observed_SY8,VHL anchor,20A,exposure>=0.1,clash<=0.8A,no orientation orbridge filter",
+  "script_sha256": "ac097dc2976316389800ff18dca866b949ab2126cd330ce059ebe637c68b4c8e",
+  "protocol_sha256": "33a8d79ecb048d8bbcf7194e15e4b358e5b4ced0e34ae14e6c4d32918b63868a",
+  "outputs_sha256": {
+    "kinome_pose_annotations.tsv": "b285231502f58666521c9c9c9fa677c0d1302d8ca0ca70cff190990db4423053",
+    "kinome_target_annotations.tsv": "cdc2e7607fe0eba1c362ca8cd8497e95a57331063b1fe3fcc39fe40ba93b0a6d",
+    "kinome_top10_DIAGNOSTIC_ONLY.tsv": "3f0819412d0d4ff9e178d257d20789622cea0b15bf924a6538471bc2e63670fb",
+    "native_controls.tsv": "fbbd1b31f45f7935e50e0f35a46d85efa834570a0c299b20b94e5376452d5958",
+    "native_metrics.tsv": "0a2e3dcc18e8c2bba8f3a41199a80e1145144c4d2e81e2ba594a2842c833e743",
+    "pose_native_scores.tsv": "8d1a0cf9186434ff5710f4f4d91d04bf26024268ff7de38783842ef3fd118014",
+    "primary_target_scores.tsv": "b54739c7ed238b3aa678809eb2851518c6966a87ea2c1202f040d4a14b559d17",
+    "sensitivity_metrics.tsv": "fff43c5b63b98a350d3fa697b3047f71badf3bd7fec583a72bfecd503d1c369f",
+    "sensitivity_target_scores.tsv": "c4f3c5114e0a1d49492f2771ea53705ace44457f698e92e51424107cbdae530b",
+    "target_native_scores.tsv": "7843b997c0c7bbe805a2b6b62491e0022cb0e38fccb7d32a00a7fbe93d3ec780"
+  },
+  "no_training": true
+}

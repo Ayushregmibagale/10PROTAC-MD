@@ -1,0 +1,5236 @@
+{
+  "sources_sha256": {
+    "/mnt/c/Users/Ayush Regmi Bagale/SJF8240_crl2_native_validation_v2/references/8R5H.cif": "ae76b4a06f21e353a2c56c77537dfa8162a3871e7f5dd735bed13793a41a5a55",
+    "/mnt/c/Users/Ayush Regmi Bagale/SJF8240_crl2_native_validation_v2/references/SY8.cif": "929984c3c31f2b353a304cd34afbcfd8d5a5f8a179184153163c61eb0116b500",
+    "/home/ayushregmibagale/10PROTAC-MD/SJF8240_renanalysis2/crl2_ubiquitination_v1/references/8RX0.cif": "ffc065bf018f321d62f82a64a8314b56dc55835527a2e67c9d98e2280ed6d71f",
+    "/home/ayushregmibagale/10PROTAC-MD/SJF8240_renanalysis2/crl2_ubiquitination_v1/references/5T35.cif": "003a7b37998f5eded4e4c74b03c18b713c27906e253651a503acfac8d66f42f7"
+  },
+  "SY8_chemical_bonds": [
+    [
+      "C3",
+      "C4",
+      "SING"
+    ],
+    [
+      "C3",
+      "C2",
+      "SING"
+    ],
+    [
+      "C4",
+      "N",
+      "SING"
+    ],
+    [
+      "C2",
+      "C1",
+      "SING"
+    ],
+    [
+      "C",
+      "C1",
+      "SING"
+    ],
+    [
+      "C1",
+      "O",
+      "DOUB"
+    ],
+    [
+      "N",
+      "H1",
+      "SING"
+    ],
+    [
+      "N",
+      "H2",
+      "SING"
+    ],
+    [
+      "C",
+      "H4",
+      "SING"
+    ],
+    [
+      "C",
+      "H5",
+      "SING"
+    ],
+    [
+      "C",
+      "H6",
+      "SING"
+    ],
+    [
+      "C2",
+      "H7",
+      "SING"
+    ],
+    [
+      "C2",
+      "H8",
+      "SING"
+    ],
+    [
+      "C3",
+      "H9",
+      "SING"
+    ],
+    [
+      "C3",
+      "H10",
+      "SING"
+    ],
+    [
+      "C4",
+      "H11",
+      "SING"
+    ],
+    [
+      "C4",
+      "H12",
+      "SING"
+    ]
+  ],
+  "SY8_covalent_links": [
+    {
+      "ptnr1_label_asym_id": "C",
+      "ptnr1_label_comp_id": "CYS",
+      "ptnr1_label_seq_id": "93",
+      "ptnr1_label_atom_id": "SG",
+      "pdbx_ptnr1_label_alt_id": "?",
+      "ptnr2_label_asym_id": "L",
+      "ptnr2_label_comp_id": "SY8",
+      "ptnr2_label_seq_id": ".",
+      "ptnr2_label_atom_id": "C3",
+      "pdbx_ptnr2_label_alt_id": "?",
+      "pdbx_ptnr3_label_atom_id": "?",
+      "pdbx_ptnr3_label_seq_id": "?",
+      "pdbx_ptnr3_label_comp_id": "?",
+      "pdbx_ptnr3_label_asym_id": "?",
+      "pdbx_ptnr3_label_alt_id": "?",
+      "pdbx_dist_value": "1.705"
+    },
+    {
+      "ptnr1_label_asym_id": "L",
+      "ptnr1_label_comp_id": "SY8",
+      "ptnr1_label_seq_id": ".",
+      "ptnr1_label_atom_id": "N",
+      "pdbx_ptnr1_label_alt_id": "?",
+      "ptnr2_label_asym_id": "D",
+      "ptnr2_label_comp_id": "GLY",
+      "ptnr2_label_seq_id": "75",
+      "ptnr2_label_atom_id": "C",
+      "pdbx_ptnr2_label_alt_id": "?",
+      "pdbx_ptnr3_label_atom_id": "?",
+      "pdbx_ptnr3_label_seq_id": "?",
+      "pdbx_ptnr3_label_comp_id": "?",
+      "pdbx_ptnr3_label_asym_id": "?",
+      "pdbx_ptnr3_label_alt_id": "?",
+      "pdbx_dist_value": "1.319"
+    },
+    {
+      "ptnr1_label_asym_id": "L",
+      "ptnr1_label_comp_id": "SY8",
+      "ptnr1_label_seq_id": ".",
+      "ptnr1_label_atom_id": "C",
+      "pdbx_ptnr1_label_alt_id": "?",
+      "ptnr2_label_asym_id": "F",
+      "ptnr2_label_comp_id": "CYS",
+      "ptnr2_label_seq_id": "23",
+      "ptnr2_label_atom_id": "SG",
+      "pdbx_ptnr2_label_alt_id": "?",
+      "pdbx_ptnr3_label_atom_id": "?",
+      "pdbx_ptnr3_label_seq_id": "?",
+      "pdbx_ptnr3_label_comp_id": "?",
+      "pdbx_ptnr3_label_asym_id": "?",
+      "pdbx_ptnr3_label_alt_id": "?",
+      "pdbx_dist_value": "1.705"
+    }
+  ],
+  "E2_active_loop_fit_RMSD_A": 0.5580963127412886,
+  "deposited_endpoint": "8R5H ligandSY8 atomC3; N-C4-C3 connectivity and covalent C93SG-C3 verified; stable-crosslink surrogate,not native Gly76 carbonyl",
+  "endpoint_types": [
+    "8R5H_observed_SY8",
+    "8RX0_G76_fit75",
+    "8RX0_E2_aligned_SY8"
+  ],
+  "missing_components": "8R5H has no modeled NEDD8 and lacks some density/sidechains;8RX0 catalytic module is backbone-only. Nothing is called complete atomic chemistry.",
+  "native_sidechain_method": "Observed catalytic-target backbone retained; missing heavy sidechains transferred through residue-specific N,CA,C fits from5T35 copiesA/E,matching amino acid only and RMSD<=0.25A. No donor-directed rotamer search.",
+  "earlier_control_issue": "Global VHL-superposition of crystal BRD4 retained the crystal distal backbone/rotamers instead of catalytic BRD4 geometry. New controls honor deposited target backbone.",
+  "mutated_Cys368": "Kept as depositedCYS,never scored as wild-type lysine.",
+  "sidechain_transfers": [
+    {
+      "template": "8R5H_observed_SY8",
+      "crystal_copy": "A",
+      "residues": [
+        {
+          "resid": 349,
+          "local_backbone_RMSD_A": 0.01950023292275083,
+          "transferred_sidechain_atoms": []
+        },
+        {
+          "resid": 350,
+          "local_backbone_RMSD_A": 0.01463834617274563,
+          "transferred_sidechain_atoms": []
+        },
+        {
+          "resid": 351,
+          "local_backbone_RMSD_A": 0.020554468407542634,
+          "transferred_sidechain_atoms": []
+        },
+        {
+          "resid": 352,
+          "local_backbone_RMSD_A": 0.007148310887214482,
+          "transferred_sidechain_atoms": []
+        },
+        {
+          "resid": 353,
+          "local_backbone_RMSD_A": 0.0018715044845132199,
+          "transferred_sidechain_atoms": []
+        },
+        {
+          "resid": 354,
+          "local_backbone_RMSD_A": 0.01925369630235214,
+          "transferred_sidechain_atoms": []
+        },
+        {
+          "resid": 355,
+          "local_backbone_RMSD_A": 0.005452535619855943,
+          "transferred_sidechain_atoms": []
+        },
+        {
+          "resid": 358,
+          "local_backbone_RMSD_A": 0.003323419559954145,
+          "transferred_sidechain_atoms": []
+        },
+        {
+          "resid": 359,
+          "local_backbone_RMSD_A": 0.007794944652400123,
+          "transferred_sidechain_atoms": []
+        },
+        {
+          "resid": 360,
+          "local_backbone_RMSD_A": 0.013812083892267863,
+          "transferred_sidechain_atoms": []
+        },
+        {
+          "resid": 361,
+          "local_backbone_RMSD_A": 0.004880678353836576,
+          "transferred_sidechain_atoms": []
+        },
+        {
+          "resid": 362,
+          "local_backbone_RMSD_A": 0.012984058924066571,
+          "transferred_sidechain_atoms": []
+        },
+        {
+          "resid": 363,
+          "local_backbone_RMSD_A": 0.008216660229010029,
+          "transferred_sidechain_atoms": []
+        },
+        {
+          "resid": 364,
+          "local_backbone_RMSD_A": 0.01292755873846611,
+          "transferred_sidechain_atoms": []
+        },
+        {
+          "resid": 365,
+          "local_backbone_RMSD_A": 0.049529352527796694,
+          "transferred_sidechain_atoms": []
+        },
+        {
+          "resid": 366,
+          "local_backbone_RMSD_A": 0.020598122569498067,
+          "transferred_sidechain_atoms": []
+        },
+        {
+          "resid": 367,
+          "local_backbone_RMSD_A": 0.00497657651512205,
+          "transferred_sidechain_atoms": []
+        },
+        {
+          "resid": 369,
+          "local_backbone_RMSD_A": 0.017836417059102935,
+          "transferred_sidechain_atoms": []
+        },
+        {
+          "resid": 370,
+          "local_backbone_RMSD_A": 0.02724795641866575,
+          "transferred_sidechain_atoms": []
+        },
+        {
+          "resid": 371,
+          "local_backbone_RMSD_A": 0.025428988796133735,
+          "transferred_sidechain_atoms": []
+        },
+        {
+          "resid": 372,
+          "local_backbone_RMSD_A": 0.011576210161175946,
+          "transferred_sidechain_atoms": []
+        },
+        {
+          "resid": 373,
+          "local_backbone_RMSD_A": 0.019322768363695692,
+          "transferred_sidechain_atoms": []
+        },
+        {
+          "resid": 374,
+          "local_backbone_RMSD_A": 0.02427363085732913,
+          "transferred_sidechain_atoms": []
+        },
+        {
+          "resid": 375,
+          "local_backbone_RMSD_A": 0.01806046942354739,
+          "transferred_sidechain_atoms": []
+        },
+        {
+          "resid": 376,
+          "local_backbone_RMSD_A": 0.00686743008961666,
+          "transferred_sidechain_atoms": []
+        },
+        {
+          "resid": 377,
+          "local_backbone_RMSD_A": 0.012834208717360225,
+          "transferred_sidechain_atoms": []
+        },
+        {
+          "resid": 378,
+          "local_backbone_RMSD_A": 0.016870549069500255,
+          "transferred_sidechain_atoms": []
+        },
+        {
+          "resid": 379,
+          "local_backbone_RMSD_A": 0.003500522903150984,
+          "transferred_sidechain_atoms": []
+        },
+        {
+          "resid": 380,
+          "local_backbone_RMSD_A": 0.007447566849805318,
+          "transferred_sidechain_atoms": []
+        },
+        {
+          "resid": 381,
+          "local_backbone_RMSD_A": 0.0176748121559232,
+          "transferred_sidechain_atoms": []
+        },
+        {
+          "resid": 382,
+          "local_backbone_RMSD_A": 0.01983387606258747,
+          "transferred_sidechain_atoms": []
+        },
+        {
+          "resid": 383,
+          "local_backbone_RMSD_A": 0.007903475855002067,
+          "transferred_sidechain_atoms": []
+        },
+        {
+          "resid": 384,
+          "local_backbone_RMSD_A": 0.008127036708578093,
+          "transferred_sidechain_atoms": []
+        },
+        {
+          "resid": 385,
+          "local_backbone_RMSD_A": 0.012861495532021644,
+          "transferred_sidechain_atoms": []
+        },
+        {
+          "resid": 386,
+          "local_backbone_RMSD_A": 0.009036169751580954,
+          "transferred_sidechain_atoms": []
+        },
+        {
+          "resid": 387,
+          "local_backbone_RMSD_A": 0.015547103289750898,
+          "transferred_sidechain_atoms": []
+        },
+        {
+          "resid": 388,
+          "local_backbone_RMSD_A": 0.0074214140807477595,
+          "transferred_sidechain_atoms": []
+        },
+        {
+          "resid": 389,
+          "local_backbone_RMSD_A": 0.0242744630042901,
+          "transferred_sidechain_atoms": []
+        },
+        {
+          "resid": 390,
+          "local_backbone_RMSD_A": 0.023534585603934073,
+          "transferred_sidechain_atoms": []
+        },
+        {
+          "resid": 392,
+          "local_backbone_RMSD_A": 0.008337213637493346,
+          "transferred_sidechain_atoms": []
+        },
+        {
+          "resid": 393,
+          "local_backbone_RMSD_A": 0.0029834661818762304,
+          "transferred_sidechain_atoms": []
+        },
+        {
+          "resid": 394,
+          "local_backbone_RMSD_A": 0.029185158514038582,
+          "transferred_sidechain_atoms": []
+        },
+        {
+          "resid": 395,
+          "local_backbone_RMSD_A": 0.00403780085792036,
+          "transferred_sidechain_atoms": []
+        },
+        {
+          "resid": 396,
+          "local_backbone_RMSD_A": 0.006087110116077133,
+          "transferred_sidechain_atoms": []
+        },
+        {
+          "resid": 397,
+          "local_backbone_RMSD_A": 0.013129030630094206,
+          "transferred_sidechain_atoms": []
+        },
+        {
+          "resid": 398,
+          "local_backbone_RMSD_A": 0.023409816134656942,
+          "transferred_sidechain_atoms": []
+        },
+        {
+          "resid": 399,
+          "local_backbone_RMSD_A": 0.02811901566943508,
+          "transferred_sidechain_atoms": []
+        },
+        {
+          "resid": 400,
+          "local_backbone_RMSD_A": 0.008136688610300898,
+          "transferred_sidechain_atoms": []
+        },
+        {
+          "resid": 401,
+          "local_backbone_RMSD_A": 0.006682841252721912,
+          "transferred_sidechain_atoms": []
+        },
+        {
+          "resid": 402,
+          "local_backbone_RMSD_A": 0.00761509082642512,
+          "transferred_sidechain_atoms": []
+        },
+        {
+          "resid": 403,
+          "local_backbone_RMSD_A": 0.01065055785409316,
+          "transferred_sidechain_atoms": []
+        },
+        {
+          "resid": 404,
+          "local_backbone_RMSD_A": 0.008121148982230519,
+          "transferred_sidechain_atoms": []
+        },
+        {
+          "resid": 405,
+          "local_backbone_RMSD_A": 0.006727588367676058,
+          "transferred_sidechain_atoms": []
+        },
+        {
+          "resid": 406,
+          "local_backbone_RMSD_A": 0.010233363579796163,
+          "transferred_sidechain_atoms": []
+        },
+        {
+          "resid": 407,
+          "local_backbone_RMSD_A": 0.002981099977295919,
+          "transferred_sidechain_atoms": []
+        },
+        {
+          "resid": 408,
+          "local_backbone_RMSD_A": 0.0019676323419652534,
+          "transferred_sidechain_atoms": []
+        },
+        {
+          "resid": 409,
+          "local_backbone_RMSD_A": 0.04519114719837644,
+          "transferred_sidechain_atoms": []
+        },
+        {
+          "resid": 410,
+          "local_backbone_RMSD_A": 0.029855909370668676,
+          "transferred_sidechain_atoms": []
+        },
+        {
+          "resid": 411,
+          "local_backbone_RMSD_A": 0.026567281604767956,
+          "transferred_sidechain_atoms": [
+            "CG",
+            "CD",
+            "OE1",
+            "OE2"
+          ]
+        },
+        {
+          "resid": 412,
+          "local_backbone_RMSD_A": 0.01680946702053951,
+          "transferred_sidechain_atoms": []
+        },
+        {
+          "resid": 413,
+          "local_backbone_RMSD_A": 0.01666498877136633,
+          "transferred_sidechain_atoms": []
+        },
+        {
+          "resid": 414,
+          "local_backbone_RMSD_A": 0.024721705912477503,
+          "transferred_sidechain_atoms": []
+        },
+        {
+          "resid": 415,
+          "local_backbone_RMSD_A": 0.018894186818706128,
+          "transferred_sidechain_atoms": []
+        },
+        {
+          "resid": 416,
+          "local_backbone_RMSD_A": 0.004559451967255721,
+          "transferred_sidechain_atoms": []
+        },
+        {
+          "resid": 417,
+          "local_backbone_RMSD_A": 0.0066321494915265915,
+          "transferred_sidechain_atoms": []
+        },
+        {
+          "resid": 418,
+          "local_backbone_RMSD_A": 0.007308041794620861,
+          "transferred_sidechain_atoms": []
+        },
+        {
+          "resid": 419,
+          "local_backbone_RMSD_A": 0.003664876368206239,
+          "transferred_sidechain_atoms": []
+        },
+        {
+          "resid": 420,
+          "local_backbone_RMSD_A": 0.019725853863129156,
+          "transferred_sidechain_atoms": []
+        },
+        {
+          "resid": 421,
+          "local_backbone_RMSD_A": 0.0023365128233347205,
+          "transferred_sidechain_atoms": []
+        },
+        {
+          "resid": 422,
+          "local_backbone_RMSD_A": 0.014893786845239754,
+          "transferred_sidechain_atoms": []
+        },
+        {
+          "resid": 423,
+          "local_backbone_RMSD_A": 0.012008111922684432,
+          "transferred_sidechain_atoms": []
+        },
+        {
+          "resid": 424,
+          "local_backbone_RMSD_A": 0.008326261027910512,
+          "transferred_sidechain_atoms": []
+        },
+        {
+          "resid": 425,
+          "local_backbone_RMSD_A": 0.009348372033385611,
+          "transferred_sidechain_atoms": []
+        },
+        {
+          "resid": 426,
+          "local_backbone_RMSD_A": 0.0038370655011088495,
+          "transferred_sidechain_atoms": []
+        },
+        {
+          "resid": 427,
+          "local_backbone_RMSD_A": 0.018512338477306874,
+          "transferred_sidechain_atoms": []
+        },
+        {
+          "resid": 428,
+          "local_backbone_RMSD_A": 0.013824166983299283,
+          "transferred_sidechain_atoms": []
+        },
+        {
+          "resid": 430,
+          "local_backbone_RMSD_A": 0.0036580553941129245,
+          "transferred_sidechain_atoms": []
+        },
+        {
+          "resid": 431,
+          "local_backbone_RMSD_A": 0.006900201772530016,
+          "transferred_sidechain_atoms": []
+        },
+        {
+          "resid": 432,
+          "local_backbone_RMSD_A": 0.01436725971496081,
+          "transferred_sidechain_atoms": []
+        },
+        {
+          "resid": 433,
+          "local_backbone_RMSD_A": 0.029077717980506294,
+          "transferred_sidechain_atoms": []
+        },
+        {
+          "resid": 434,
+          "local_backbone_RMSD_A": 0.018398341716911296,
+          "transferred_sidechain_atoms": []
+        },
+        {
+          "resid": 435,
+          "local_backbone_RMSD_A": 0.017133651666395314,
+          "transferred_sidechain_atoms": []
+        },
+        {
+          "resid": 436,
+          "local_backbone_RMSD_A": 0.04237986462090573,
+          "transferred_sidechain_atoms": []
+        },
+        {
+          "resid": 437,
+          "local_backbone_RMSD_A": 0.00877374343285928,
+          "transferred_sidechain_atoms": []
+        },
+        {
+          "resid": 438,
+          "local_backbone_RMSD_A": 0.019034960608114222,
+          "transferred_sidechain_atoms": []
+        },
+        {
+          "resid": 439,
+          "local_backbone_RMSD_A": 0.033480914492843634,
+          "transferred_sidechain_atoms": []
+        },
+        {
+          "resid": 440,
+          "local_backbone_RMSD_A": 0.01048817240075596,
+          "transferred_sidechain_atoms": []
+        },
+        {
+          "resid": 441,
+          "local_backbone_RMSD_A": 0.008007122066647722,
+          "transferred_sidechain_atoms": []
+        },
+        {
+          "resid": 442,
+          "local_backbone_RMSD_A": 0.0030245118221215563,
+          "transferred_sidechain_atoms": []
+        },
+        {
+          "resid": 443,
+          "local_backbone_RMSD_A": 0.010243461774798486,
+          "transferred_sidechain_atoms": []
+        },
+        {
+          "resid": 444,
+          "local_backbone_RMSD_A": 0.006120272091173077,
+          "transferred_sidechain_atoms": []
+        },
+        {
+          "resid": 445,
+          "local_backbone_RMSD_A": 0.00939165946018972,
+          "transferred_sidechain_atoms": []
+        },
+        {
+          "resid": 446,
+          "local_backbone_RMSD_A": 0.0034365359033204476,
+          "transferred_sidechain_atoms": []
+        },
+        {
+          "resid": 447,
+          "local_backbone_RMSD_A": 0.006211163870924908,
+          "transferred_sidechain_atoms": []
+        },
+        {
+          "resid": 448,
+          "local_backbone_RMSD_A": 0.0028629139457659217,
+          "transferred_sidechain_atoms": []
+        },
+        {
+          "resid": 449,
+          "local_backbone_RMSD_A": 0.0056163259385939145,
+          "transferred_sidechain_atoms": []
+        },
+        {
+          "resid": 450,
+          "local_backbone_RMSD_A": 0.004030921565915891,
+          "transferred_sidechain_atoms": []
+        },
+        {
+          "resid": 451,
+          "local_backbone_RMSD_A": 0.005411611248137858,
+          "transferred_sidechain_atoms": [
+            "CG",
+            "CD",
+            "OE1",
+            "OE2"
+          ]
+        },
+        {
+          "resid": 452,
+          "local_backbone_RMSD_A": 0.0072960412433787335,
+          "transferred_sidechain_atoms": [
+            "CG",
+            "SD",
+            "CE"
+          ]
+        },
+        {
+          "resid": 453,
+          "local_backbone_RMSD_A": 0.003444498364238286,
+          "transferred_sidechain_atoms": []
+        },
+        {
+          "resid": 454,
+          "local_backbone_RMSD_A": 0.008146573501243126,
+          "transferred_sidechain_atoms": []
+        },
+        {
+          "resid": 455,
+          "local_backbone_RMSD_A": 0.01730477815976929,
+          "transferred_sidechain_atoms": []
+        },
+        {
+          "resid": 456,
+          "local_backbone_RMSD_A": 0.01911487057700376,
+          "transferred_sidechain_atoms": [
+            "CG",
+            "CD",
+            "CE",
+            "NZ"
+          ]
+        },
+        {
+          "resid": 457,
+          "local_backbone_RMSD_A": 0.007086423696973665,
+          "transferred_sidechain_atoms": []
+        },
+        {
+          "resid": 458,
+          "local_backbone_RMSD_A": 0.0031391162220871334,
+          "transferred_sidechain_atoms": []
+        },
+        {
+          "resid": 459,
+          "local_backbone_RMSD_A": 0.01974883242694312,
+          "transferred_sidechain_atoms": [
+            "CG",
+            "OD1",
+            "OD2"
+          ]
+        }
+      ]
+    },
+    {
+      "template": "8R5H_observed_SY8",
+      "crystal_copy": "E",
+      "residues": [
+        {
+          "resid": 349,
+          "local_backbone_RMSD_A": 0.018470042921536225,
+          "transferred_sidechain_atoms": []
+        },
+        {
+          "resid": 350,
+          "local_backbone_RMSD_A": 0.012165404234805489,
+          "transferred_sidechain_atoms": []
+        },
+        {
+          "resid": 351,
+          "local_backbone_RMSD_A": 0.01963682063621661,
+          "transferred_sidechain_atoms": []
+        },
+        {
+          "resid": 352,
+          "local_backbone_RMSD_A": 0.006691805655470134,
+          "transferred_sidechain_atoms": []
+        },
+        {
+          "resid": 353,
+          "local_backbone_RMSD_A": 0.0023293668698261857,
+          "transferred_sidechain_atoms": []
+        },
+        {
+          "resid": 354,
+          "local_backbone_RMSD_A": 0.01841779391296392,
+          "transferred_sidechain_atoms": []
+        },
+        {
+          "resid": 355,
+          "local_backbone_RMSD_A": 0.004886726534181309,
+          "transferred_sidechain_atoms": []
+        },
+        {
+          "resid": 358,
+          "local_backbone_RMSD_A": 0.0030796693226091917,
+          "transferred_sidechain_atoms": []
+        },
+        {
+          "resid": 359,
+          "local_backbone_RMSD_A": 0.005772713521496935,
+          "transferred_sidechain_atoms": []
+        },
+        {
+          "resid": 360,
+          "local_backbone_RMSD_A": 0.008807072187291327,
+          "transferred_sidechain_atoms": []
+        },
+        {
+          "resid": 361,
+          "local_backbone_RMSD_A": 0.00634614330916508,
+          "transferred_sidechain_atoms": []
+        },
+        {
+          "resid": 362,
+          "local_backbone_RMSD_A": 0.016475323278483653,
+          "transferred_sidechain_atoms": []
+        },
+        {
+          "resid": 363,
+          "local_backbone_RMSD_A": 0.005037276989750224,
+          "transferred_sidechain_atoms": []
+        },
+        {
+          "resid": 364,
+          "local_backbone_RMSD_A": 0.01578369764067572,
+          "transferred_sidechain_atoms": []
+        },
+        {
+          "resid": 365,
+          "local_backbone_RMSD_A": 0.0531825132428634,
+          "transferred_sidechain_atoms": []
+        },
+        {
+          "resid": 366,
+          "local_backbone_RMSD_A": 0.020058889309161568,
+          "transferred_sidechain_atoms": []
+        },
+        {
+          "resid": 367,
+          "local_backbone_RMSD_A": 0.006235932090400939,
+          "transferred_sidechain_atoms": []
+        },
+        {
+          "resid": 369,
+          "local_backbone_RMSD_A": 0.01976328271785762,
+          "transferred_sidechain_atoms": []
+        },
+        {
+          "resid": 370,
+          "local_backbone_RMSD_A": 0.031287358382706194,
+          "transferred_sidechain_atoms": []
+        },
+        {
+          "resid": 371,
+          "local_backbone_RMSD_A": 0.027288610592140234,
+          "transferred_sidechain_atoms": []
+        },
+        {
+          "resid": 372,
+          "local_backbone_RMSD_A": 0.008641644270679143,
+          "transferred_sidechain_atoms": []
+        },
+        {
+          "resid": 373,
+          "local_backbone_RMSD_A": 0.016468368585807806,
+          "transferred_sidechain_atoms": []
+        },
+        {
+          "resid": 374,
+          "local_backbone_RMSD_A": 0.023597303987737427,
+          "transferred_sidechain_atoms": []
+        },
+        {
+          "resid": 375,
+          "local_backbone_RMSD_A": 0.017283849593885525,
+          "transferred_sidechain_atoms": []
+        },
+        {
+          "resid": 376,
+          "local_backbone_RMSD_A": 0.00472444184291705,
+          "transferred_sidechain_atoms": []
+        },
+        {
+          "resid": 377,
+          "local_backbone_RMSD_A": 0.011637874764723789,
+          "transferred_sidechain_atoms": []
+        },
+        {
+          "resid": 378,
+          "local_backbone_RMSD_A": 0.01920375931571189,
+          "transferred_sidechain_atoms": []
+        },
+        {
+          "resid": 379,
+          "local_backbone_RMSD_A": 0.007935442837857853,
+          "transferred_sidechain_atoms": []
+        },
+        {
+          "resid": 380,
+          "local_backbone_RMSD_A": 0.006504919388781239,
+          "transferred_sidechain_atoms": []
+        },
+        {
+          "resid": 381,
+          "local_backbone_RMSD_A": 0.02133665920809117,
+          "transferred_sidechain_atoms": []
+        },
+        {
+          "resid": 382,
+          "local_backbone_RMSD_A": 0.02469603548281821,
+          "transferred_sidechain_atoms": []
+        },
+        {
+          "resid": 383,
+          "local_backbone_RMSD_A": 0.007195038842248399,
+          "transferred_sidechain_atoms": []
+        },
+        {
+          "resid": 384,
+          "local_backbone_RMSD_A": 0.009735508417035969,
+          "transferred_sidechain_atoms": []
+        },
+        {
+          "resid": 385,
+          "local_backbone_RMSD_A": 0.01168796005706406,
+          "transferred_sidechain_atoms": []
+        },
+        {
+          "resid": 386,
+          "local_backbone_RMSD_A": 0.007494372721838223,
+          "transferred_sidechain_atoms": []
+        },
+        {
+          "resid": 387,
+          "local_backbone_RMSD_A": 0.007141623331504816,
+          "transferred_sidechain_atoms": []
+        },
+        {
+          "resid": 388,
+          "local_backbone_RMSD_A": 0.003934724350101518,
+          "transferred_sidechain_atoms": []
+        },
+        {
+          "resid": 389,
+          "local_backbone_RMSD_A": 0.020631034264934987,
+          "transferred_sidechain_atoms": []
+        },
+        {
+          "resid": 390,
+          "local_backbone_RMSD_A": 0.016948104641453594,
+          "transferred_sidechain_atoms": []
+        },
+        {
+          "resid": 392,
+          "local_backbone_RMSD_A": 0.014003037955455327,
+          "transferred_sidechain_atoms": []
+        },
+        {
+          "resid": 393,
+          "local_backbone_RMSD_A": 0.010323616920699946,
+          "transferred_sidechain_atoms": []
+        },
+        {
+          "resid": 394,
+          "local_backbone_RMSD_A": 0.036761012210978466,
+          "transferred_sidechain_atoms": []
+        },
+        {
+          "resid": 395,
+          "local_backbone_RMSD_A": 0.013657281238544951,
+          "transferred_sidechain_atoms": [
+            "CG",
+            "CD",
+            "CE",
+            "NZ"
+          ]
+        },
+        {
+          "resid": 396,
+          "local_backbone_RMSD_A": 0.014463793009488697,
+          "transferred_sidechain_atoms": []
+        },
+        {
+          "resid": 397,
+          "local_backbone_RMSD_A": 0.003000819139811242,
+          "transferred_sidechain_atoms": []
+        },
+        {
+          "resid": 398,
+          "local_backbone_RMSD_A": 0.022327541601709622,
+          "transferred_sidechain_atoms": []
+        },
+        {
+          "resid": 399,
+          "local_backbone_RMSD_A": 0.029965042466933503,
+          "transferred_sidechain_atoms": []
+        },
+        {
+          "resid": 400,
+          "local_backbone_RMSD_A": 0.010765986583557974,
+          "transferred_sidechain_atoms": []
+        },
+        {
+          "resid": 401,
+          "local_backbone_RMSD_A": 0.010293696771104715,
+          "transferred_sidechain_atoms": []
+        },
+        {
+          "resid": 402,
+          "local_backbone_RMSD_A": 0.006680316662262936,
+          "transferred_sidechain_atoms": []
+        },
+        {
+          "resid": 403,
+          "local_backbone_RMSD_A": 0.011024386710086303,
+          "transferred_sidechain_atoms": []
+        },
+        {
+          "resid": 404,
+          "local_backbone_RMSD_A": 0.009396255385586574,
+          "transferred_sidechain_atoms": []
+        },
+        {
+          "resid": 405,
+          "local_backbone_RMSD_A": 0.010544413347030301,
+          "transferred_sidechain_atoms": []
+        },
+        {
+          "resid": 406,
+          "local_backbone_RMSD_A": 0.009607860913916192,
+          "transferred_sidechain_atoms": []
+        },
+        {
+          "resid": 407,
+          "local_backbone_RMSD_A": 0.005151444684910781,
+          "transferred_sidechain_atoms": []
+        },
+        {
+          "resid": 408,
+          "local_backbone_RMSD_A": 0.0021197631094079187,
+          "transferred_sidechain_atoms": []
+        },
+        {
+          "resid": 409,
+          "local_backbone_RMSD_A": 0.04489133752495255,
+          "transferred_sidechain_atoms": []
+        },
+        {
+          "resid": 410,
+          "local_backbone_RMSD_A": 0.028584061775398004,
+          "transferred_sidechain_atoms": []
+        },
+        {
+          "resid": 411,
+          "local_backbone_RMSD_A": 0.029781430076492636,
+          "transferred_sidechain_atoms": [
+            "CG",
+            "CD",
+            "OE1",
+            "OE2"
+          ]
+        },
+        {
+          "resid": 412,
+          "local_backbone_RMSD_A": 0.018009794439814535,
+          "transferred_sidechain_atoms": []
+        },
+        {
+          "resid": 413,
+          "local_backbone_RMSD_A": 0.020817792845312443,
+          "transferred_sidechain_atoms": [
+            "CG",
+            "CD",
+            "NE",
+            "CZ",
+            "NH1",
+            "NH2"
+          ]
+        },
+        {
+          "resid": 414,
+          "local_backbone_RMSD_A": 0.020712266908192466,
+          "transferred_sidechain_atoms": []
+        },
+        {
+          "resid": 415,
+          "local_backbone_RMSD_A": 0.019860479244944933,
+          "transferred_sidechain_atoms": []
+        },
+        {
+          "resid": 416,
+          "local_backbone_RMSD_A": 0.0033411999706762074,
+          "transferred_sidechain_atoms": []
+        },
+        {
+          "resid": 417,
+          "local_backbone_RMSD_A": 0.003689033636563614,
+          "transferred_sidechain_atoms": []
+        },
+        {
+          "resid": 418,
+          "local_backbone_RMSD_A": 0.003867721965800714,
+          "transferred_sidechain_atoms": []
+        },
+        {
+          "resid": 419,
+          "local_backbone_RMSD_A": 0.005303998900205367,
+          "transferred_sidechain_atoms": []
+        },
+        {
+          "resid": 420,
+          "local_backbone_RMSD_A": 0.014848202614893042,
+          "transferred_sidechain_atoms": []
+        },
+        {
+          "resid": 421,
+          "local_backbone_RMSD_A": 0.0055636032041054264,
+          "transferred_sidechain_atoms": []
+        },
+        {
+          "resid": 422,
+          "local_backbone_RMSD_A": 0.011287020901665978,
+          "transferred_sidechain_atoms": []
+        },
+        {
+          "resid": 423,
+          "local_backbone_RMSD_A": 0.008649625126341943,
+          "transferred_sidechain_atoms": []
+        },
+        {
+          "resid": 424,
+          "local_backbone_RMSD_A": 0.012164874469403593,
+          "transferred_sidechain_atoms": []
+        },
+        {
+          "resid": 425,
+          "local_backbone_RMSD_A": 0.005804845869558788,
+          "transferred_sidechain_atoms": []
+        },
+        {
+          "resid": 426,
+          "local_backbone_RMSD_A": 0.00975014610756214,
+          "transferred_sidechain_atoms": []
+        },
+        {
+          "resid": 427,
+          "local_backbone_RMSD_A": 0.012507499324998837,
+          "transferred_sidechain_atoms": []
+        },
+        {
+          "resid": 428,
+          "local_backbone_RMSD_A": 0.01711736630585791,
+          "transferred_sidechain_atoms": []
+        },
+        {
+          "resid": 430,
+          "local_backbone_RMSD_A": 0.006774001479136619,
+          "transferred_sidechain_atoms": []
+        },
+        {
+          "resid": 431,
+          "local_backbone_RMSD_A": 0.008338443348311258,
+          "transferred_sidechain_atoms": []
+        },
+        {
+          "resid": 432,
+          "local_backbone_RMSD_A": 0.014748113816615163,
+          "transferred_sidechain_atoms": []
+        },
+        {
+          "resid": 433,
+          "local_backbone_RMSD_A": 0.032077596633335384,
+          "transferred_sidechain_atoms": []
+        },
+        {
+          "resid": 434,
+          "local_backbone_RMSD_A": 0.01669027887525978,
+          "transferred_sidechain_atoms": []
+        },
+        {
+          "resid": 435,
+          "local_backbone_RMSD_A": 0.018787147379776888,
+          "transferred_sidechain_atoms": []
+        },
+        {
+          "resid": 436,
+          "local_backbone_RMSD_A": 0.041722780602771264,
+          "transferred_sidechain_atoms": []
+        },
+        {
+          "resid": 437,
+          "local_backbone_RMSD_A": 0.006617929826804619,
+          "transferred_sidechain_atoms": []
+        },
+        {
+          "resid": 438,
+          "local_backbone_RMSD_A": 0.020691271502069477,
+          "transferred_sidechain_atoms": []
+        },
+        {
+          "resid": 439,
+          "local_backbone_RMSD_A": 0.0336483438172076,
+          "transferred_sidechain_atoms": []
+        },
+        {
+          "resid": 440,
+          "local_backbone_RMSD_A": 0.008375747035537099,
+          "transferred_sidechain_atoms": []
+        },
+        {
+          "resid": 441,
+          "local_backbone_RMSD_A": 0.009260303350269785,
+          "transferred_sidechain_atoms": []
+        },
+        {
+          "resid": 442,
+          "local_backbone_RMSD_A": 0.004612270006411194,
+          "transferred_sidechain_atoms": []
+        },
+        {
+          "resid": 443,
+          "local_backbone_RMSD_A": 0.01030625463942014,
+          "transferred_sidechain_atoms": []
+        },
+        {
+          "resid": 444,
+          "local_backbone_RMSD_A": 0.0019495245460201393,
+          "transferred_sidechain_atoms": []
+        },
+        {
+          "resid": 445,
+          "local_backbone_RMSD_A": 0.006768703703012644,
+          "transferred_sidechain_atoms": []
+        },
+        {
+          "resid": 446,
+          "local_backbone_RMSD_A": 0.003705076603307417,
+          "transferred_sidechain_atoms": []
+        },
+        {
+          "resid": 447,
+          "local_backbone_RMSD_A": 0.007919309676768673,
+          "transferred_sidechain_atoms": []
+        },
+        {
+          "resid": 448,
+          "local_backbone_RMSD_A": 0.005763500815024003,
+          "transferred_sidechain_atoms": []
+        },
+        {
+          "resid": 449,
+          "local_backbone_RMSD_A": 0.002628551472600116,
+          "transferred_sidechain_atoms": []
+        },
+        {
+          "resid": 450,
+          "local_backbone_RMSD_A": 0.006121129493652525,
+          "transferred_sidechain_atoms": []
+        },
+        {
+          "resid": 451,
+          "local_backbone_RMSD_A": 0.011576905015339716,
+          "transferred_sidechain_atoms": [
+            "CG",
+            "CD",
+            "OE1",
+            "OE2"
+          ]
+        },
+        {
+          "resid": 452,
+          "local_backbone_RMSD_A": 0.010528453163406655,
+          "transferred_sidechain_atoms": [
+            "CG",
+            "SD",
+            "CE"
+          ]
+        },
+        {
+          "resid": 453,
+          "local_backbone_RMSD_A": 0.004597860063301415,
+          "transferred_sidechain_atoms": []
+        },
+        {
+          "resid": 454,
+          "local_backbone_RMSD_A": 0.0044623191234370325,
+          "transferred_sidechain_atoms": []
+        },
+        {
+          "resid": 455,
+          "local_backbone_RMSD_A": 0.018930319936998292,
+          "transferred_sidechain_atoms": []
+        },
+        {
+          "resid": 456,
+          "local_backbone_RMSD_A": 0.017791311991824568,
+          "transferred_sidechain_atoms": [
+            "CG",
+            "CD",
+            "CE",
+            "NZ"
+          ]
+        },
+        {
+          "resid": 457,
+          "local_backbone_RMSD_A": 0.005397581970790801,
+          "transferred_sidechain_atoms": []
+        },
+        {
+          "resid": 458,
+          "local_backbone_RMSD_A": 0.0032455224653713884,
+          "transferred_sidechain_atoms": []
+        },
+        {
+          "resid": 459,
+          "local_backbone_RMSD_A": 0.013087505339823675,
+          "transferred_sidechain_atoms": [
+            "CG",
+            "OD1",
+            "OD2"
+          ]
+        }
+      ]
+    },
+    {
+      "template": "8RX0_G76_fit75",
+      "crystal_copy": "A",
+      "residues": [
+        {
+          "resid": 351,
+          "local_backbone_RMSD_A": 0.01529382153063108,
+          "transferred_sidechain_atoms": [
+            "CB",
+            "OG"
+          ]
+        },
+        {
+          "resid": 352,
+          "local_backbone_RMSD_A": 0.00664423836541447,
+          "transferred_sidechain_atoms": [
+            "CB",
+            "CG",
+            "CD",
+            "OE1",
+            "OE2"
+          ]
+        },
+        {
+          "resid": 353,
+          "local_backbone_RMSD_A": 0.002854590430417056,
+          "transferred_sidechain_atoms": [
+            "CB",
+            "CG",
+            "CD",
+            "OE1",
+            "NE2"
+          ]
+        },
+        {
+          "resid": 354,
+          "local_backbone_RMSD_A": 0.012664365565000321,
+          "transferred_sidechain_atoms": [
+            "CB",
+            "CG",
+            "CD1",
+            "CD2"
+          ]
+        },
+        {
+          "resid": 355,
+          "local_backbone_RMSD_A": 0.004742000705354696,
+          "transferred_sidechain_atoms": [
+            "CB",
+            "CG",
+            "CD",
+            "CE",
+            "NZ"
+          ]
+        },
+        {
+          "resid": 356,
+          "local_backbone_RMSD_A": 0.002581666544099159,
+          "transferred_sidechain_atoms": [
+            "CB",
+            "SG"
+          ]
+        },
+        {
+          "resid": 357,
+          "local_backbone_RMSD_A": 0.005406650365140113,
+          "transferred_sidechain_atoms": [
+            "CB",
+            "SG"
+          ]
+        },
+        {
+          "resid": 358,
+          "local_backbone_RMSD_A": 0.002468633419576446,
+          "transferred_sidechain_atoms": [
+            "CB",
+            "OG"
+          ]
+        },
+        {
+          "resid": 359,
+          "local_backbone_RMSD_A": 0.005461425077377292,
+          "transferred_sidechain_atoms": []
+        },
+        {
+          "resid": 360,
+          "local_backbone_RMSD_A": 0.009367782983884514,
+          "transferred_sidechain_atoms": [
+            "CB",
+            "CG1",
+            "CG2",
+            "CD1"
+          ]
+        },
+        {
+          "resid": 361,
+          "local_backbone_RMSD_A": 0.005080657975756693,
+          "transferred_sidechain_atoms": [
+            "CB",
+            "CG",
+            "CD1",
+            "CD2"
+          ]
+        },
+        {
+          "resid": 362,
+          "local_backbone_RMSD_A": 0.006622238751732434,
+          "transferred_sidechain_atoms": [
+            "CB",
+            "CG",
+            "CD"
+          ]
+        },
+        {
+          "resid": 363,
+          "local_backbone_RMSD_A": 0.009638494742368348,
+          "transferred_sidechain_atoms": [
+            "CB",
+            "CG",
+            "CD",
+            "OE1",
+            "OE2"
+          ]
+        },
+        {
+          "resid": 364,
+          "local_backbone_RMSD_A": 0.012139963285963649,
+          "transferred_sidechain_atoms": [
+            "CB",
+            "CG",
+            "SD",
+            "CE"
+          ]
+        },
+        {
+          "resid": 365,
+          "local_backbone_RMSD_A": 0.0169074662076578,
+          "transferred_sidechain_atoms": [
+            "CB",
+            "CG",
+            "CD1",
+            "CD2",
+            "CE1",
+            "CE2",
+            "CZ"
+          ]
+        },
+        {
+          "resid": 366,
+          "local_backbone_RMSD_A": 0.022132321906365937,
+          "transferred_sidechain_atoms": [
+            "CB"
+          ]
+        },
+        {
+          "resid": 367,
+          "local_backbone_RMSD_A": 0.004472388316748858,
+          "transferred_sidechain_atoms": [
+            "CB"
+          ]
+        },
+        {
+          "resid": 368,
+          "local_backbone_RMSD_A": 0.022892187637941194,
+          "transferred_sidechain_atoms": [
+            "CB",
+            "CG",
+            "CD",
+            "CE",
+            "NZ"
+          ]
+        },
+        {
+          "resid": 369,
+          "local_backbone_RMSD_A": 0.016443909240673574,
+          "transferred_sidechain_atoms": [
+            "CB",
+            "CG",
+            "ND1",
+            "CD2",
+            "CE1",
+            "NE2"
+          ]
+        },
+        {
+          "resid": 370,
+          "local_backbone_RMSD_A": 0.027191719840253727,
+          "transferred_sidechain_atoms": [
+            "CB"
+          ]
+        },
+        {
+          "resid": 371,
+          "local_backbone_RMSD_A": 0.02206193010905554,
+          "transferred_sidechain_atoms": [
+            "CB"
+          ]
+        },
+        {
+          "resid": 372,
+          "local_backbone_RMSD_A": 0.017220214028860408,
+          "transferred_sidechain_atoms": [
+            "CB",
+            "CG",
+            "CD1",
+            "CD2",
+            "CE1",
+            "CE2",
+            "CZ",
+            "OH"
+          ]
+        },
+        {
+          "resid": 373,
+          "local_backbone_RMSD_A": 0.025930327836563533,
+          "transferred_sidechain_atoms": [
+            "CB"
+          ]
+        },
+        {
+          "resid": 374,
+          "local_backbone_RMSD_A": 0.041244152022309195,
+          "transferred_sidechain_atoms": [
+            "CB",
+            "CG",
+            "CD1",
+            "CD2",
+            "NE1",
+            "CE2",
+            "CE3",
+            "CZ2",
+            "CZ3",
+            "CH2"
+          ]
+        },
+        {
+          "resid": 375,
+          "local_backbone_RMSD_A": 0.020218254418137162,
+          "transferred_sidechain_atoms": [
+            "CB",
+            "CG",
+            "CD"
+          ]
+        },
+        {
+          "resid": 376,
+          "local_backbone_RMSD_A": 0.008367402897757462,
+          "transferred_sidechain_atoms": [
+            "CB",
+            "CG",
+            "CD1",
+            "CD2",
+            "CE1",
+            "CE2",
+            "CZ"
+          ]
+        },
+        {
+          "resid": 377,
+          "local_backbone_RMSD_A": 0.015621392555004528,
+          "transferred_sidechain_atoms": [
+            "CB",
+            "CG",
+            "CD1",
+            "CD2",
+            "CE1",
+            "CE2",
+            "CZ",
+            "OH"
+          ]
+        },
+        {
+          "resid": 378,
+          "local_backbone_RMSD_A": 0.021563958398428566,
+          "transferred_sidechain_atoms": [
+            "CB",
+            "CG",
+            "CD",
+            "CE",
+            "NZ"
+          ]
+        },
+        {
+          "resid": 379,
+          "local_backbone_RMSD_A": 0.0021125029566592653,
+          "transferred_sidechain_atoms": [
+            "CB",
+            "CG",
+            "CD"
+          ]
+        },
+        {
+          "resid": 380,
+          "local_backbone_RMSD_A": 0.00875884131667964,
+          "transferred_sidechain_atoms": [
+            "CB",
+            "CG1",
+            "CG2"
+          ]
+        },
+        {
+          "resid": 381,
+          "local_backbone_RMSD_A": 0.014663351120425987,
+          "transferred_sidechain_atoms": [
+            "CB",
+            "CG",
+            "OD1",
+            "OD2"
+          ]
+        },
+        {
+          "resid": 382,
+          "local_backbone_RMSD_A": 0.015532609845927482,
+          "transferred_sidechain_atoms": [
+            "CB",
+            "CG1",
+            "CG2"
+          ]
+        },
+        {
+          "resid": 383,
+          "local_backbone_RMSD_A": 0.00993580334058723,
+          "transferred_sidechain_atoms": [
+            "CB",
+            "CG",
+            "CD",
+            "OE1",
+            "OE2"
+          ]
+        },
+        {
+          "resid": 384,
+          "local_backbone_RMSD_A": 0.016108111649699608,
+          "transferred_sidechain_atoms": [
+            "CB"
+          ]
+        },
+        {
+          "resid": 385,
+          "local_backbone_RMSD_A": 0.010592985559802402,
+          "transferred_sidechain_atoms": [
+            "CB",
+            "CG",
+            "CD1",
+            "CD2"
+          ]
+        },
+        {
+          "resid": 386,
+          "local_backbone_RMSD_A": 0.00755385911408244,
+          "transferred_sidechain_atoms": []
+        },
+        {
+          "resid": 387,
+          "local_backbone_RMSD_A": 0.027980858557981967,
+          "transferred_sidechain_atoms": [
+            "CB",
+            "CG",
+            "CD1",
+            "CD2"
+          ]
+        },
+        {
+          "resid": 388,
+          "local_backbone_RMSD_A": 0.013309050708560147,
+          "transferred_sidechain_atoms": [
+            "CB",
+            "CG",
+            "ND1",
+            "CD2",
+            "CE1",
+            "NE2"
+          ]
+        },
+        {
+          "resid": 389,
+          "local_backbone_RMSD_A": 0.022899464419857126,
+          "transferred_sidechain_atoms": [
+            "CB",
+            "CG",
+            "OD1",
+            "OD2"
+          ]
+        },
+        {
+          "resid": 390,
+          "local_backbone_RMSD_A": 0.023782605437658994,
+          "transferred_sidechain_atoms": [
+            "CB",
+            "CG",
+            "CD1",
+            "CD2",
+            "CE1",
+            "CE2",
+            "CZ",
+            "OH"
+          ]
+        },
+        {
+          "resid": 391,
+          "local_backbone_RMSD_A": 0.010091960951452242,
+          "transferred_sidechain_atoms": [
+            "CB",
+            "SG"
+          ]
+        },
+        {
+          "resid": 392,
+          "local_backbone_RMSD_A": 0.005901610567869615,
+          "transferred_sidechain_atoms": [
+            "CB",
+            "CG",
+            "OD1",
+            "OD2"
+          ]
+        },
+        {
+          "resid": 393,
+          "local_backbone_RMSD_A": 0.013169115312256764,
+          "transferred_sidechain_atoms": [
+            "CB",
+            "CG1",
+            "CG2",
+            "CD1"
+          ]
+        },
+        {
+          "resid": 394,
+          "local_backbone_RMSD_A": 0.026694212698508486,
+          "transferred_sidechain_atoms": [
+            "CB",
+            "CG1",
+            "CG2",
+            "CD1"
+          ]
+        },
+        {
+          "resid": 395,
+          "local_backbone_RMSD_A": 0.007839261670894628,
+          "transferred_sidechain_atoms": [
+            "CB"
+          ]
+        },
+        {
+          "resid": 396,
+          "local_backbone_RMSD_A": 0.011287535656302326,
+          "transferred_sidechain_atoms": [
+            "CB",
+            "CG",
+            "ND1",
+            "CD2",
+            "CE1",
+            "NE2"
+          ]
+        },
+        {
+          "resid": 397,
+          "local_backbone_RMSD_A": 0.015464637086094375,
+          "transferred_sidechain_atoms": [
+            "CB",
+            "CG",
+            "CD"
+          ]
+        },
+        {
+          "resid": 398,
+          "local_backbone_RMSD_A": 0.03376544737292376,
+          "transferred_sidechain_atoms": [
+            "CB",
+            "CG",
+            "SD",
+            "CE"
+          ]
+        },
+        {
+          "resid": 399,
+          "local_backbone_RMSD_A": 0.015755665940838846,
+          "transferred_sidechain_atoms": [
+            "CB",
+            "CG",
+            "OD1",
+            "OD2"
+          ]
+        },
+        {
+          "resid": 400,
+          "local_backbone_RMSD_A": 0.01742688920688558,
+          "transferred_sidechain_atoms": [
+            "CB",
+            "CG",
+            "SD",
+            "CE"
+          ]
+        },
+        {
+          "resid": 401,
+          "local_backbone_RMSD_A": 0.007174662632829185,
+          "transferred_sidechain_atoms": [
+            "CB",
+            "OG"
+          ]
+        },
+        {
+          "resid": 402,
+          "local_backbone_RMSD_A": 0.007313657902463241,
+          "transferred_sidechain_atoms": [
+            "CB",
+            "OG1",
+            "CG2"
+          ]
+        },
+        {
+          "resid": 403,
+          "local_backbone_RMSD_A": 0.009573529903133975,
+          "transferred_sidechain_atoms": [
+            "CB",
+            "CG1",
+            "CG2",
+            "CD1"
+          ]
+        },
+        {
+          "resid": 404,
+          "local_backbone_RMSD_A": 0.010278618972434391,
+          "transferred_sidechain_atoms": [
+            "CB",
+            "CG",
+            "CD",
+            "CE",
+            "NZ"
+          ]
+        },
+        {
+          "resid": 413,
+          "local_backbone_RMSD_A": 0.01619643395930257,
+          "transferred_sidechain_atoms": [
+            "CB"
+          ]
+        },
+        {
+          "resid": 414,
+          "local_backbone_RMSD_A": 0.03510242644896824,
+          "transferred_sidechain_atoms": [
+            "CB",
+            "CG",
+            "OD1",
+            "OD2"
+          ]
+        },
+        {
+          "resid": 415,
+          "local_backbone_RMSD_A": 0.01728473647446747,
+          "transferred_sidechain_atoms": [
+            "CB"
+          ]
+        },
+        {
+          "resid": 416,
+          "local_backbone_RMSD_A": 0.006383381918178093,
+          "transferred_sidechain_atoms": [
+            "CB",
+            "CG",
+            "CD",
+            "OE1",
+            "NE2"
+          ]
+        },
+        {
+          "resid": 417,
+          "local_backbone_RMSD_A": 0.005460784189186684,
+          "transferred_sidechain_atoms": [
+            "CB",
+            "CG",
+            "CD",
+            "OE1",
+            "OE2"
+          ]
+        },
+        {
+          "resid": 418,
+          "local_backbone_RMSD_A": 0.006197247157218975,
+          "transferred_sidechain_atoms": [
+            "CB",
+            "CG",
+            "CD1",
+            "CD2",
+            "CE1",
+            "CE2",
+            "CZ"
+          ]
+        },
+        {
+          "resid": 419,
+          "local_backbone_RMSD_A": 0.0027448564752179023,
+          "transferred_sidechain_atoms": []
+        },
+        {
+          "resid": 420,
+          "local_backbone_RMSD_A": 0.016653866767988475,
+          "transferred_sidechain_atoms": [
+            "CB"
+          ]
+        },
+        {
+          "resid": 421,
+          "local_backbone_RMSD_A": 0.0025745103534777092,
+          "transferred_sidechain_atoms": [
+            "CB",
+            "CG",
+            "OD1",
+            "OD2"
+          ]
+        },
+        {
+          "resid": 422,
+          "local_backbone_RMSD_A": 0.015447107107600019,
+          "transferred_sidechain_atoms": [
+            "CB",
+            "CG1",
+            "CG2"
+          ]
+        },
+        {
+          "resid": 423,
+          "local_backbone_RMSD_A": 0.012697367994622283,
+          "transferred_sidechain_atoms": [
+            "CB",
+            "CG",
+            "CD",
+            "NE",
+            "CZ",
+            "NH1",
+            "NH2"
+          ]
+        },
+        {
+          "resid": 424,
+          "local_backbone_RMSD_A": 0.00921341417851746,
+          "transferred_sidechain_atoms": [
+            "CB",
+            "CG",
+            "CD1",
+            "CD2"
+          ]
+        },
+        {
+          "resid": 425,
+          "local_backbone_RMSD_A": 0.006233334364339695,
+          "transferred_sidechain_atoms": [
+            "CB",
+            "CG",
+            "SD",
+            "CE"
+          ]
+        },
+        {
+          "resid": 426,
+          "local_backbone_RMSD_A": 0.009248825043062068,
+          "transferred_sidechain_atoms": [
+            "CB",
+            "CG",
+            "CD1",
+            "CD2",
+            "CE1",
+            "CE2",
+            "CZ"
+          ]
+        },
+        {
+          "resid": 427,
+          "local_backbone_RMSD_A": 0.020217195058625827,
+          "transferred_sidechain_atoms": [
+            "CB",
+            "OG"
+          ]
+        },
+        {
+          "resid": 428,
+          "local_backbone_RMSD_A": 0.016154388862103616,
+          "transferred_sidechain_atoms": [
+            "CB",
+            "CG",
+            "OD1",
+            "ND2"
+          ]
+        },
+        {
+          "resid": 429,
+          "local_backbone_RMSD_A": 0.01068538928622899,
+          "transferred_sidechain_atoms": [
+            "CB",
+            "SG"
+          ]
+        },
+        {
+          "resid": 430,
+          "local_backbone_RMSD_A": 0.0043257679752663905,
+          "transferred_sidechain_atoms": [
+            "CB",
+            "CG",
+            "CD1",
+            "CD2",
+            "CE1",
+            "CE2",
+            "CZ",
+            "OH"
+          ]
+        },
+        {
+          "resid": 431,
+          "local_backbone_RMSD_A": 0.007141248749791628,
+          "transferred_sidechain_atoms": [
+            "CB",
+            "CG",
+            "CD",
+            "CE",
+            "NZ"
+          ]
+        },
+        {
+          "resid": 432,
+          "local_backbone_RMSD_A": 0.012508090439559357,
+          "transferred_sidechain_atoms": [
+            "CB",
+            "CG",
+            "CD1",
+            "CD2",
+            "CE1",
+            "CE2",
+            "CZ",
+            "OH"
+          ]
+        },
+        {
+          "resid": 433,
+          "local_backbone_RMSD_A": 0.036032395446749604,
+          "transferred_sidechain_atoms": [
+            "CB",
+            "CG",
+            "OD1",
+            "ND2"
+          ]
+        },
+        {
+          "resid": 434,
+          "local_backbone_RMSD_A": 0.024647971275905643,
+          "transferred_sidechain_atoms": [
+            "CB",
+            "CG",
+            "CD"
+          ]
+        },
+        {
+          "resid": 435,
+          "local_backbone_RMSD_A": 0.020611153965886763,
+          "transferred_sidechain_atoms": [
+            "CB",
+            "CG",
+            "CD"
+          ]
+        },
+        {
+          "resid": 436,
+          "local_backbone_RMSD_A": 0.013872958034332477,
+          "transferred_sidechain_atoms": [
+            "CB",
+            "CG",
+            "OD1",
+            "OD2"
+          ]
+        },
+        {
+          "resid": 437,
+          "local_backbone_RMSD_A": 0.012034014397556005,
+          "transferred_sidechain_atoms": [
+            "CB",
+            "CG",
+            "ND1",
+            "CD2",
+            "CE1",
+            "NE2"
+          ]
+        },
+        {
+          "resid": 438,
+          "local_backbone_RMSD_A": 0.021729428499315265,
+          "transferred_sidechain_atoms": [
+            "CB",
+            "CG",
+            "CD",
+            "OE1",
+            "OE2"
+          ]
+        },
+        {
+          "resid": 439,
+          "local_backbone_RMSD_A": 0.030198152100364847,
+          "transferred_sidechain_atoms": [
+            "CB",
+            "CG1",
+            "CG2"
+          ]
+        },
+        {
+          "resid": 440,
+          "local_backbone_RMSD_A": 0.008902519976721424,
+          "transferred_sidechain_atoms": [
+            "CB",
+            "CG1",
+            "CG2"
+          ]
+        },
+        {
+          "resid": 441,
+          "local_backbone_RMSD_A": 0.011258295023617177,
+          "transferred_sidechain_atoms": [
+            "CB"
+          ]
+        },
+        {
+          "resid": 442,
+          "local_backbone_RMSD_A": 0.006641696163830411,
+          "transferred_sidechain_atoms": [
+            "CB",
+            "CG",
+            "SD",
+            "CE"
+          ]
+        },
+        {
+          "resid": 443,
+          "local_backbone_RMSD_A": 0.010791737806197365,
+          "transferred_sidechain_atoms": [
+            "CB"
+          ]
+        },
+        {
+          "resid": 444,
+          "local_backbone_RMSD_A": 0.007229704159258693,
+          "transferred_sidechain_atoms": [
+            "CB",
+            "CG",
+            "CD",
+            "NE",
+            "CZ",
+            "NH1",
+            "NH2"
+          ]
+        },
+        {
+          "resid": 445,
+          "local_backbone_RMSD_A": 0.012020767989170874,
+          "transferred_sidechain_atoms": [
+            "CB",
+            "CG",
+            "CD",
+            "CE",
+            "NZ"
+          ]
+        },
+        {
+          "resid": 446,
+          "local_backbone_RMSD_A": 0.003223506830063978,
+          "transferred_sidechain_atoms": [
+            "CB",
+            "CG",
+            "CD1",
+            "CD2"
+          ]
+        },
+        {
+          "resid": 447,
+          "local_backbone_RMSD_A": 0.006358696617957188,
+          "transferred_sidechain_atoms": [
+            "CB",
+            "CG",
+            "CD",
+            "OE1",
+            "NE2"
+          ]
+        },
+        {
+          "resid": 448,
+          "local_backbone_RMSD_A": 0.00264290176376966,
+          "transferred_sidechain_atoms": [
+            "CB",
+            "CG",
+            "OD1",
+            "OD2"
+          ]
+        },
+        {
+          "resid": 449,
+          "local_backbone_RMSD_A": 0.005435609433709457,
+          "transferred_sidechain_atoms": [
+            "CB",
+            "CG1",
+            "CG2"
+          ]
+        },
+        {
+          "resid": 450,
+          "local_backbone_RMSD_A": 0.004533160842519304,
+          "transferred_sidechain_atoms": [
+            "CB",
+            "CG",
+            "CD1",
+            "CD2",
+            "CE1",
+            "CE2",
+            "CZ"
+          ]
+        },
+        {
+          "resid": 451,
+          "local_backbone_RMSD_A": 0.005250109906720439,
+          "transferred_sidechain_atoms": [
+            "CB",
+            "CG",
+            "CD",
+            "OE1",
+            "OE2"
+          ]
+        },
+        {
+          "resid": 452,
+          "local_backbone_RMSD_A": 0.011006328872645237,
+          "transferred_sidechain_atoms": [
+            "CB",
+            "CG",
+            "SD",
+            "CE"
+          ]
+        },
+        {
+          "resid": 453,
+          "local_backbone_RMSD_A": 0.0036852121028018185,
+          "transferred_sidechain_atoms": [
+            "CB",
+            "CG",
+            "CD",
+            "NE",
+            "CZ",
+            "NH1",
+            "NH2"
+          ]
+        },
+        {
+          "resid": 454,
+          "local_backbone_RMSD_A": 0.006091220813968483,
+          "transferred_sidechain_atoms": [
+            "CB",
+            "CG",
+            "CD1",
+            "CD2",
+            "CE1",
+            "CE2",
+            "CZ"
+          ]
+        },
+        {
+          "resid": 455,
+          "local_backbone_RMSD_A": 0.007164356979940483,
+          "transferred_sidechain_atoms": [
+            "CB"
+          ]
+        },
+        {
+          "resid": 456,
+          "local_backbone_RMSD_A": 0.03453901052492038,
+          "transferred_sidechain_atoms": [
+            "CB",
+            "CG",
+            "CD",
+            "CE",
+            "NZ"
+          ]
+        }
+      ]
+    },
+    {
+      "template": "8RX0_G76_fit75",
+      "crystal_copy": "E",
+      "residues": [
+        {
+          "resid": 351,
+          "local_backbone_RMSD_A": 0.014362845449639814,
+          "transferred_sidechain_atoms": [
+            "CB",
+            "OG"
+          ]
+        },
+        {
+          "resid": 352,
+          "local_backbone_RMSD_A": 0.006172143735860175,
+          "transferred_sidechain_atoms": [
+            "CB",
+            "CG",
+            "CD",
+            "OE1",
+            "OE2"
+          ]
+        },
+        {
+          "resid": 353,
+          "local_backbone_RMSD_A": 0.0035328898316648186,
+          "transferred_sidechain_atoms": [
+            "CB",
+            "CG",
+            "CD",
+            "OE1",
+            "NE2"
+          ]
+        },
+        {
+          "resid": 354,
+          "local_backbone_RMSD_A": 0.011925840599580642,
+          "transferred_sidechain_atoms": [
+            "CB",
+            "CG",
+            "CD1",
+            "CD2"
+          ]
+        },
+        {
+          "resid": 355,
+          "local_backbone_RMSD_A": 0.004711539847731942,
+          "transferred_sidechain_atoms": [
+            "CB",
+            "CG",
+            "CD",
+            "CE",
+            "NZ"
+          ]
+        },
+        {
+          "resid": 356,
+          "local_backbone_RMSD_A": 0.003330830534082179,
+          "transferred_sidechain_atoms": [
+            "CB",
+            "SG"
+          ]
+        },
+        {
+          "resid": 357,
+          "local_backbone_RMSD_A": 0.009229279588019066,
+          "transferred_sidechain_atoms": [
+            "CB",
+            "SG"
+          ]
+        },
+        {
+          "resid": 358,
+          "local_backbone_RMSD_A": 0.0033495528864357894,
+          "transferred_sidechain_atoms": [
+            "CB",
+            "OG"
+          ]
+        },
+        {
+          "resid": 359,
+          "local_backbone_RMSD_A": 0.004108098709089746,
+          "transferred_sidechain_atoms": []
+        },
+        {
+          "resid": 360,
+          "local_backbone_RMSD_A": 0.00474009426213358,
+          "transferred_sidechain_atoms": [
+            "CB",
+            "CG1",
+            "CG2",
+            "CD1"
+          ]
+        },
+        {
+          "resid": 361,
+          "local_backbone_RMSD_A": 0.004970738051726526,
+          "transferred_sidechain_atoms": [
+            "CB",
+            "CG",
+            "CD1",
+            "CD2"
+          ]
+        },
+        {
+          "resid": 362,
+          "local_backbone_RMSD_A": 0.010128329559358403,
+          "transferred_sidechain_atoms": [
+            "CB",
+            "CG",
+            "CD"
+          ]
+        },
+        {
+          "resid": 363,
+          "local_backbone_RMSD_A": 0.00497981853074556,
+          "transferred_sidechain_atoms": [
+            "CB",
+            "CG",
+            "CD",
+            "OE1",
+            "OE2"
+          ]
+        },
+        {
+          "resid": 364,
+          "local_backbone_RMSD_A": 0.015114885399303439,
+          "transferred_sidechain_atoms": [
+            "CB",
+            "CG",
+            "SD",
+            "CE"
+          ]
+        },
+        {
+          "resid": 365,
+          "local_backbone_RMSD_A": 0.02045725230989058,
+          "transferred_sidechain_atoms": [
+            "CB",
+            "CG",
+            "CD1",
+            "CD2",
+            "CE1",
+            "CE2",
+            "CZ"
+          ]
+        },
+        {
+          "resid": 366,
+          "local_backbone_RMSD_A": 0.021562679673709728,
+          "transferred_sidechain_atoms": [
+            "CB"
+          ]
+        },
+        {
+          "resid": 367,
+          "local_backbone_RMSD_A": 0.005374814232625342,
+          "transferred_sidechain_atoms": [
+            "CB"
+          ]
+        },
+        {
+          "resid": 368,
+          "local_backbone_RMSD_A": 0.028046513742800577,
+          "transferred_sidechain_atoms": [
+            "CB",
+            "CG",
+            "CD",
+            "CE",
+            "NZ"
+          ]
+        },
+        {
+          "resid": 369,
+          "local_backbone_RMSD_A": 0.01822690030970736,
+          "transferred_sidechain_atoms": [
+            "CB",
+            "CG",
+            "ND1",
+            "CD2",
+            "CE1",
+            "NE2"
+          ]
+        },
+        {
+          "resid": 370,
+          "local_backbone_RMSD_A": 0.031308580447444306,
+          "transferred_sidechain_atoms": [
+            "CB"
+          ]
+        },
+        {
+          "resid": 371,
+          "local_backbone_RMSD_A": 0.023932282064331418,
+          "transferred_sidechain_atoms": [
+            "CB"
+          ]
+        },
+        {
+          "resid": 372,
+          "local_backbone_RMSD_A": 0.014042467310073208,
+          "transferred_sidechain_atoms": [
+            "CB",
+            "CG",
+            "CD1",
+            "CD2",
+            "CE1",
+            "CE2",
+            "CZ",
+            "OH"
+          ]
+        },
+        {
+          "resid": 373,
+          "local_backbone_RMSD_A": 0.02280425604023986,
+          "transferred_sidechain_atoms": [
+            "CB"
+          ]
+        },
+        {
+          "resid": 374,
+          "local_backbone_RMSD_A": 0.04058015301300109,
+          "transferred_sidechain_atoms": [
+            "CB",
+            "CG",
+            "CD1",
+            "CD2",
+            "NE1",
+            "CE2",
+            "CE3",
+            "CZ2",
+            "CZ3",
+            "CH2"
+          ]
+        },
+        {
+          "resid": 375,
+          "local_backbone_RMSD_A": 0.019559422869795694,
+          "transferred_sidechain_atoms": [
+            "CB",
+            "CG",
+            "CD"
+          ]
+        },
+        {
+          "resid": 376,
+          "local_backbone_RMSD_A": 0.006681254467952639,
+          "transferred_sidechain_atoms": [
+            "CB",
+            "CG",
+            "CD1",
+            "CD2",
+            "CE1",
+            "CE2",
+            "CZ"
+          ]
+        },
+        {
+          "resid": 377,
+          "local_backbone_RMSD_A": 0.014323128805073103,
+          "transferred_sidechain_atoms": [
+            "CB",
+            "CG",
+            "CD1",
+            "CD2",
+            "CE1",
+            "CE2",
+            "CZ",
+            "OH"
+          ]
+        },
+        {
+          "resid": 378,
+          "local_backbone_RMSD_A": 0.023356694311453804,
+          "transferred_sidechain_atoms": [
+            "CB",
+            "CG",
+            "CD",
+            "CE",
+            "NZ"
+          ]
+        },
+        {
+          "resid": 379,
+          "local_backbone_RMSD_A": 0.006693028855092569,
+          "transferred_sidechain_atoms": [
+            "CB",
+            "CG",
+            "CD"
+          ]
+        },
+        {
+          "resid": 380,
+          "local_backbone_RMSD_A": 0.008112560797710788,
+          "transferred_sidechain_atoms": [
+            "CB",
+            "CG1",
+            "CG2"
+          ]
+        },
+        {
+          "resid": 381,
+          "local_backbone_RMSD_A": 0.017836428996266713,
+          "transferred_sidechain_atoms": [
+            "CB",
+            "CG",
+            "OD1",
+            "OD2"
+          ]
+        },
+        {
+          "resid": 382,
+          "local_backbone_RMSD_A": 0.020343533497073206,
+          "transferred_sidechain_atoms": [
+            "CB",
+            "CG1",
+            "CG2"
+          ]
+        },
+        {
+          "resid": 383,
+          "local_backbone_RMSD_A": 0.00514316963212679,
+          "transferred_sidechain_atoms": [
+            "CB",
+            "CG",
+            "CD",
+            "OE1",
+            "OE2"
+          ]
+        },
+        {
+          "resid": 384,
+          "local_backbone_RMSD_A": 0.01714629059034014,
+          "transferred_sidechain_atoms": [
+            "CB"
+          ]
+        },
+        {
+          "resid": 385,
+          "local_backbone_RMSD_A": 0.009659026092625863,
+          "transferred_sidechain_atoms": [
+            "CB",
+            "CG",
+            "CD1",
+            "CD2"
+          ]
+        },
+        {
+          "resid": 386,
+          "local_backbone_RMSD_A": 0.008605843208648238,
+          "transferred_sidechain_atoms": []
+        },
+        {
+          "resid": 387,
+          "local_backbone_RMSD_A": 0.020168745768935997,
+          "transferred_sidechain_atoms": [
+            "CB",
+            "CG",
+            "CD1",
+            "CD2"
+          ]
+        },
+        {
+          "resid": 388,
+          "local_backbone_RMSD_A": 0.010494366678754169,
+          "transferred_sidechain_atoms": [
+            "CB",
+            "CG",
+            "ND1",
+            "CD2",
+            "CE1",
+            "NE2"
+          ]
+        },
+        {
+          "resid": 389,
+          "local_backbone_RMSD_A": 0.01922212803659659,
+          "transferred_sidechain_atoms": [
+            "CB",
+            "CG",
+            "OD1",
+            "OD2"
+          ]
+        },
+        {
+          "resid": 390,
+          "local_backbone_RMSD_A": 0.01719062641099457,
+          "transferred_sidechain_atoms": [
+            "CB",
+            "CG",
+            "CD1",
+            "CD2",
+            "CE1",
+            "CE2",
+            "CZ",
+            "OH"
+          ]
+        },
+        {
+          "resid": 391,
+          "local_backbone_RMSD_A": 0.013479553701988565,
+          "transferred_sidechain_atoms": [
+            "CB",
+            "SG"
+          ]
+        },
+        {
+          "resid": 392,
+          "local_backbone_RMSD_A": 0.011519483135580271,
+          "transferred_sidechain_atoms": [
+            "CB",
+            "CG",
+            "OD1",
+            "OD2"
+          ]
+        },
+        {
+          "resid": 393,
+          "local_backbone_RMSD_A": 0.019323214177068275,
+          "transferred_sidechain_atoms": [
+            "CB",
+            "CG1",
+            "CG2",
+            "CD1"
+          ]
+        },
+        {
+          "resid": 394,
+          "local_backbone_RMSD_A": 0.03418913914860651,
+          "transferred_sidechain_atoms": [
+            "CB",
+            "CG1",
+            "CG2",
+            "CD1"
+          ]
+        },
+        {
+          "resid": 395,
+          "local_backbone_RMSD_A": 0.00503255779014089,
+          "transferred_sidechain_atoms": [
+            "CB",
+            "CG",
+            "CD",
+            "CE",
+            "NZ"
+          ]
+        },
+        {
+          "resid": 396,
+          "local_backbone_RMSD_A": 0.0013566744450256925,
+          "transferred_sidechain_atoms": [
+            "CB",
+            "CG",
+            "ND1",
+            "CD2",
+            "CE1",
+            "NE2"
+          ]
+        },
+        {
+          "resid": 397,
+          "local_backbone_RMSD_A": 0.005328117801533248,
+          "transferred_sidechain_atoms": [
+            "CB",
+            "CG",
+            "CD"
+          ]
+        },
+        {
+          "resid": 398,
+          "local_backbone_RMSD_A": 0.032693200759743905,
+          "transferred_sidechain_atoms": [
+            "CB",
+            "CG",
+            "SD",
+            "CE"
+          ]
+        },
+        {
+          "resid": 399,
+          "local_backbone_RMSD_A": 0.012570541543008944,
+          "transferred_sidechain_atoms": [
+            "CB",
+            "CG",
+            "OD1",
+            "OD2"
+          ]
+        },
+        {
+          "resid": 400,
+          "local_backbone_RMSD_A": 0.01989557997633213,
+          "transferred_sidechain_atoms": [
+            "CB",
+            "CG",
+            "SD",
+            "CE"
+          ]
+        },
+        {
+          "resid": 401,
+          "local_backbone_RMSD_A": 0.010883235729878852,
+          "transferred_sidechain_atoms": [
+            "CB",
+            "OG"
+          ]
+        },
+        {
+          "resid": 402,
+          "local_backbone_RMSD_A": 0.006795337902595589,
+          "transferred_sidechain_atoms": [
+            "CB",
+            "OG1",
+            "CG2"
+          ]
+        },
+        {
+          "resid": 403,
+          "local_backbone_RMSD_A": 0.009897705432757526,
+          "transferred_sidechain_atoms": [
+            "CB",
+            "CG1",
+            "CG2",
+            "CD1"
+          ]
+        },
+        {
+          "resid": 404,
+          "local_backbone_RMSD_A": 0.011553544222526425,
+          "transferred_sidechain_atoms": [
+            "CB",
+            "CG",
+            "CD",
+            "CE",
+            "NZ"
+          ]
+        },
+        {
+          "resid": 413,
+          "local_backbone_RMSD_A": 0.020483095890017105,
+          "transferred_sidechain_atoms": [
+            "CB",
+            "CG",
+            "CD",
+            "NE",
+            "CZ",
+            "NH1",
+            "NH2"
+          ]
+        },
+        {
+          "resid": 414,
+          "local_backbone_RMSD_A": 0.0312435034315887,
+          "transferred_sidechain_atoms": [
+            "CB",
+            "CG",
+            "OD1",
+            "OD2"
+          ]
+        },
+        {
+          "resid": 415,
+          "local_backbone_RMSD_A": 0.018270444882216415,
+          "transferred_sidechain_atoms": [
+            "CB"
+          ]
+        },
+        {
+          "resid": 416,
+          "local_backbone_RMSD_A": 0.004911666059888547,
+          "transferred_sidechain_atoms": [
+            "CB",
+            "CG",
+            "CD",
+            "OE1",
+            "NE2"
+          ]
+        },
+        {
+          "resid": 417,
+          "local_backbone_RMSD_A": 0.0032423898921635046,
+          "transferred_sidechain_atoms": [
+            "CB",
+            "CG",
+            "CD",
+            "OE1",
+            "OE2"
+          ]
+        },
+        {
+          "resid": 418,
+          "local_backbone_RMSD_A": 0.003962597292283249,
+          "transferred_sidechain_atoms": [
+            "CB",
+            "CG",
+            "CD1",
+            "CD2",
+            "CE1",
+            "CE2",
+            "CZ"
+          ]
+        },
+        {
+          "resid": 419,
+          "local_backbone_RMSD_A": 0.008039983237077532,
+          "transferred_sidechain_atoms": []
+        },
+        {
+          "resid": 420,
+          "local_backbone_RMSD_A": 0.011545297361758293,
+          "transferred_sidechain_atoms": [
+            "CB"
+          ]
+        },
+        {
+          "resid": 421,
+          "local_backbone_RMSD_A": 0.005907068690006771,
+          "transferred_sidechain_atoms": [
+            "CB",
+            "CG",
+            "OD1",
+            "OD2"
+          ]
+        },
+        {
+          "resid": 422,
+          "local_backbone_RMSD_A": 0.011979013052145368,
+          "transferred_sidechain_atoms": [
+            "CB",
+            "CG1",
+            "CG2"
+          ]
+        },
+        {
+          "resid": 423,
+          "local_backbone_RMSD_A": 0.009353013364153544,
+          "transferred_sidechain_atoms": [
+            "CB",
+            "CG",
+            "CD",
+            "NE",
+            "CZ",
+            "NH1",
+            "NH2"
+          ]
+        },
+        {
+          "resid": 424,
+          "local_backbone_RMSD_A": 0.013137556924379915,
+          "transferred_sidechain_atoms": [
+            "CB",
+            "CG",
+            "CD1",
+            "CD2"
+          ]
+        },
+        {
+          "resid": 425,
+          "local_backbone_RMSD_A": 0.002737613630141466,
+          "transferred_sidechain_atoms": [
+            "CB",
+            "CG",
+            "SD",
+            "CE"
+          ]
+        },
+        {
+          "resid": 426,
+          "local_backbone_RMSD_A": 0.016115956518355075,
+          "transferred_sidechain_atoms": [
+            "CB",
+            "CG",
+            "CD1",
+            "CD2",
+            "CE1",
+            "CE2",
+            "CZ"
+          ]
+        },
+        {
+          "resid": 427,
+          "local_backbone_RMSD_A": 0.013563090536015655,
+          "transferred_sidechain_atoms": [
+            "CB",
+            "OG"
+          ]
+        },
+        {
+          "resid": 428,
+          "local_backbone_RMSD_A": 0.019401551764285468,
+          "transferred_sidechain_atoms": [
+            "CB",
+            "CG",
+            "OD1",
+            "ND2"
+          ]
+        },
+        {
+          "resid": 429,
+          "local_backbone_RMSD_A": 0.015104400398576117,
+          "transferred_sidechain_atoms": [
+            "CB",
+            "SG"
+          ]
+        },
+        {
+          "resid": 430,
+          "local_backbone_RMSD_A": 0.008541559768329095,
+          "transferred_sidechain_atoms": [
+            "CB",
+            "CG",
+            "CD1",
+            "CD2",
+            "CE1",
+            "CE2",
+            "CZ",
+            "OH"
+          ]
+        },
+        {
+          "resid": 431,
+          "local_backbone_RMSD_A": 0.008667582341230197,
+          "transferred_sidechain_atoms": [
+            "CB",
+            "CG",
+            "CD",
+            "CE",
+            "NZ"
+          ]
+        },
+        {
+          "resid": 432,
+          "local_backbone_RMSD_A": 0.012722055705828511,
+          "transferred_sidechain_atoms": [
+            "CB",
+            "CG",
+            "CD1",
+            "CD2",
+            "CE1",
+            "CE2",
+            "CZ",
+            "OH"
+          ]
+        },
+        {
+          "resid": 433,
+          "local_backbone_RMSD_A": 0.03907566239015584,
+          "transferred_sidechain_atoms": [
+            "CB",
+            "CG",
+            "OD1",
+            "ND2"
+          ]
+        },
+        {
+          "resid": 434,
+          "local_backbone_RMSD_A": 0.023333731965013874,
+          "transferred_sidechain_atoms": [
+            "CB",
+            "CG",
+            "CD"
+          ]
+        },
+        {
+          "resid": 435,
+          "local_backbone_RMSD_A": 0.022346294763218994,
+          "transferred_sidechain_atoms": [
+            "CB",
+            "CG",
+            "CD"
+          ]
+        },
+        {
+          "resid": 436,
+          "local_backbone_RMSD_A": 0.013096229038648316,
+          "transferred_sidechain_atoms": [
+            "CB",
+            "CG",
+            "OD1",
+            "OD2"
+          ]
+        },
+        {
+          "resid": 437,
+          "local_backbone_RMSD_A": 0.009461074997905269,
+          "transferred_sidechain_atoms": [
+            "CB",
+            "CG",
+            "ND1",
+            "CD2",
+            "CE1",
+            "NE2"
+          ]
+        },
+        {
+          "resid": 438,
+          "local_backbone_RMSD_A": 0.023330694851855002,
+          "transferred_sidechain_atoms": [
+            "CB",
+            "CG",
+            "CD",
+            "OE1",
+            "OE2"
+          ]
+        },
+        {
+          "resid": 439,
+          "local_backbone_RMSD_A": 0.030346009322660163,
+          "transferred_sidechain_atoms": [
+            "CB",
+            "CG1",
+            "CG2"
+          ]
+        },
+        {
+          "resid": 440,
+          "local_backbone_RMSD_A": 0.007377016248326599,
+          "transferred_sidechain_atoms": [
+            "CB",
+            "CG1",
+            "CG2"
+          ]
+        },
+        {
+          "resid": 441,
+          "local_backbone_RMSD_A": 0.012555046907315596,
+          "transferred_sidechain_atoms": [
+            "CB"
+          ]
+        },
+        {
+          "resid": 442,
+          "local_backbone_RMSD_A": 0.0053605568936456885,
+          "transferred_sidechain_atoms": [
+            "CB",
+            "CG",
+            "SD",
+            "CE"
+          ]
+        },
+        {
+          "resid": 443,
+          "local_backbone_RMSD_A": 0.01083248006792317,
+          "transferred_sidechain_atoms": [
+            "CB"
+          ]
+        },
+        {
+          "resid": 444,
+          "local_backbone_RMSD_A": 0.0022246466978675062,
+          "transferred_sidechain_atoms": [
+            "CB",
+            "CG",
+            "CD",
+            "NE",
+            "CZ",
+            "NH1",
+            "NH2"
+          ]
+        },
+        {
+          "resid": 445,
+          "local_backbone_RMSD_A": 0.010333883794588175,
+          "transferred_sidechain_atoms": [
+            "CB",
+            "CG",
+            "CD",
+            "CE",
+            "NZ"
+          ]
+        },
+        {
+          "resid": 446,
+          "local_backbone_RMSD_A": 0.0035140584612980367,
+          "transferred_sidechain_atoms": [
+            "CB",
+            "CG",
+            "CD1",
+            "CD2"
+          ]
+        },
+        {
+          "resid": 447,
+          "local_backbone_RMSD_A": 0.00860429561793609,
+          "transferred_sidechain_atoms": [
+            "CB",
+            "CG",
+            "CD",
+            "OE1",
+            "NE2"
+          ]
+        },
+        {
+          "resid": 448,
+          "local_backbone_RMSD_A": 0.006957663303543076,
+          "transferred_sidechain_atoms": [
+            "CB",
+            "CG",
+            "OD1",
+            "OD2"
+          ]
+        },
+        {
+          "resid": 449,
+          "local_backbone_RMSD_A": 0.003125630105935391,
+          "transferred_sidechain_atoms": [
+            "CB",
+            "CG1",
+            "CG2"
+          ]
+        },
+        {
+          "resid": 450,
+          "local_backbone_RMSD_A": 0.007888983927139786,
+          "transferred_sidechain_atoms": [
+            "CB",
+            "CG",
+            "CD1",
+            "CD2",
+            "CE1",
+            "CE2",
+            "CZ"
+          ]
+        },
+        {
+          "resid": 451,
+          "local_backbone_RMSD_A": 0.011544200776416828,
+          "transferred_sidechain_atoms": [
+            "CB",
+            "CG",
+            "CD",
+            "OE1",
+            "OE2"
+          ]
+        },
+        {
+          "resid": 452,
+          "local_backbone_RMSD_A": 0.014124164980248289,
+          "transferred_sidechain_atoms": [
+            "CB",
+            "CG",
+            "SD",
+            "CE"
+          ]
+        },
+        {
+          "resid": 453,
+          "local_backbone_RMSD_A": 0.003534837654763298,
+          "transferred_sidechain_atoms": [
+            "CB",
+            "CG",
+            "CD",
+            "NE",
+            "CZ",
+            "NH1",
+            "NH2"
+          ]
+        },
+        {
+          "resid": 454,
+          "local_backbone_RMSD_A": 0.0043229737749965825,
+          "transferred_sidechain_atoms": [
+            "CB",
+            "CG",
+            "CD1",
+            "CD2",
+            "CE1",
+            "CE2",
+            "CZ"
+          ]
+        },
+        {
+          "resid": 455,
+          "local_backbone_RMSD_A": 0.009146486680481892,
+          "transferred_sidechain_atoms": [
+            "CB"
+          ]
+        },
+        {
+          "resid": 456,
+          "local_backbone_RMSD_A": 0.03353895206385261,
+          "transferred_sidechain_atoms": [
+            "CB",
+            "CG",
+            "CD",
+            "CE",
+            "NZ"
+          ]
+        }
+      ]
+    },
+    {
+      "template": "8RX0_E2_aligned_SY8",
+      "crystal_copy": "A",
+      "residues": [
+        {
+          "resid": 351,
+          "local_backbone_RMSD_A": 0.01529382153063108,
+          "transferred_sidechain_atoms": [
+            "CB",
+            "OG"
+          ]
+        },
+        {
+          "resid": 352,
+          "local_backbone_RMSD_A": 0.00664423836541447,
+          "transferred_sidechain_atoms": [
+            "CB",
+            "CG",
+            "CD",
+            "OE1",
+            "OE2"
+          ]
+        },
+        {
+          "resid": 353,
+          "local_backbone_RMSD_A": 0.002854590430417056,
+          "transferred_sidechain_atoms": [
+            "CB",
+            "CG",
+            "CD",
+            "OE1",
+            "NE2"
+          ]
+        },
+        {
+          "resid": 354,
+          "local_backbone_RMSD_A": 0.012664365565000321,
+          "transferred_sidechain_atoms": [
+            "CB",
+            "CG",
+            "CD1",
+            "CD2"
+          ]
+        },
+        {
+          "resid": 355,
+          "local_backbone_RMSD_A": 0.004742000705354696,
+          "transferred_sidechain_atoms": [
+            "CB",
+            "CG",
+            "CD",
+            "CE",
+            "NZ"
+          ]
+        },
+        {
+          "resid": 356,
+          "local_backbone_RMSD_A": 0.002581666544099159,
+          "transferred_sidechain_atoms": [
+            "CB",
+            "SG"
+          ]
+        },
+        {
+          "resid": 357,
+          "local_backbone_RMSD_A": 0.005406650365140113,
+          "transferred_sidechain_atoms": [
+            "CB",
+            "SG"
+          ]
+        },
+        {
+          "resid": 358,
+          "local_backbone_RMSD_A": 0.002468633419576446,
+          "transferred_sidechain_atoms": [
+            "CB",
+            "OG"
+          ]
+        },
+        {
+          "resid": 359,
+          "local_backbone_RMSD_A": 0.005461425077377292,
+          "transferred_sidechain_atoms": []
+        },
+        {
+          "resid": 360,
+          "local_backbone_RMSD_A": 0.009367782983884514,
+          "transferred_sidechain_atoms": [
+            "CB",
+            "CG1",
+            "CG2",
+            "CD1"
+          ]
+        },
+        {
+          "resid": 361,
+          "local_backbone_RMSD_A": 0.005080657975756693,
+          "transferred_sidechain_atoms": [
+            "CB",
+            "CG",
+            "CD1",
+            "CD2"
+          ]
+        },
+        {
+          "resid": 362,
+          "local_backbone_RMSD_A": 0.006622238751732434,
+          "transferred_sidechain_atoms": [
+            "CB",
+            "CG",
+            "CD"
+          ]
+        },
+        {
+          "resid": 363,
+          "local_backbone_RMSD_A": 0.009638494742368348,
+          "transferred_sidechain_atoms": [
+            "CB",
+            "CG",
+            "CD",
+            "OE1",
+            "OE2"
+          ]
+        },
+        {
+          "resid": 364,
+          "local_backbone_RMSD_A": 0.012139963285963649,
+          "transferred_sidechain_atoms": [
+            "CB",
+            "CG",
+            "SD",
+            "CE"
+          ]
+        },
+        {
+          "resid": 365,
+          "local_backbone_RMSD_A": 0.0169074662076578,
+          "transferred_sidechain_atoms": [
+            "CB",
+            "CG",
+            "CD1",
+            "CD2",
+            "CE1",
+            "CE2",
+            "CZ"
+          ]
+        },
+        {
+          "resid": 366,
+          "local_backbone_RMSD_A": 0.022132321906365937,
+          "transferred_sidechain_atoms": [
+            "CB"
+          ]
+        },
+        {
+          "resid": 367,
+          "local_backbone_RMSD_A": 0.004472388316748858,
+          "transferred_sidechain_atoms": [
+            "CB"
+          ]
+        },
+        {
+          "resid": 368,
+          "local_backbone_RMSD_A": 0.022892187637941194,
+          "transferred_sidechain_atoms": [
+            "CB",
+            "CG",
+            "CD",
+            "CE",
+            "NZ"
+          ]
+        },
+        {
+          "resid": 369,
+          "local_backbone_RMSD_A": 0.016443909240673574,
+          "transferred_sidechain_atoms": [
+            "CB",
+            "CG",
+            "ND1",
+            "CD2",
+            "CE1",
+            "NE2"
+          ]
+        },
+        {
+          "resid": 370,
+          "local_backbone_RMSD_A": 0.027191719840253727,
+          "transferred_sidechain_atoms": [
+            "CB"
+          ]
+        },
+        {
+          "resid": 371,
+          "local_backbone_RMSD_A": 0.02206193010905554,
+          "transferred_sidechain_atoms": [
+            "CB"
+          ]
+        },
+        {
+          "resid": 372,
+          "local_backbone_RMSD_A": 0.017220214028860408,
+          "transferred_sidechain_atoms": [
+            "CB",
+            "CG",
+            "CD1",
+            "CD2",
+            "CE1",
+            "CE2",
+            "CZ",
+            "OH"
+          ]
+        },
+        {
+          "resid": 373,
+          "local_backbone_RMSD_A": 0.025930327836563533,
+          "transferred_sidechain_atoms": [
+            "CB"
+          ]
+        },
+        {
+          "resid": 374,
+          "local_backbone_RMSD_A": 0.041244152022309195,
+          "transferred_sidechain_atoms": [
+            "CB",
+            "CG",
+            "CD1",
+            "CD2",
+            "NE1",
+            "CE2",
+            "CE3",
+            "CZ2",
+            "CZ3",
+            "CH2"
+          ]
+        },
+        {
+          "resid": 375,
+          "local_backbone_RMSD_A": 0.020218254418137162,
+          "transferred_sidechain_atoms": [
+            "CB",
+            "CG",
+            "CD"
+          ]
+        },
+        {
+          "resid": 376,
+          "local_backbone_RMSD_A": 0.008367402897757462,
+          "transferred_sidechain_atoms": [
+            "CB",
+            "CG",
+            "CD1",
+            "CD2",
+            "CE1",
+            "CE2",
+            "CZ"
+          ]
+        },
+        {
+          "resid": 377,
+          "local_backbone_RMSD_A": 0.015621392555004528,
+          "transferred_sidechain_atoms": [
+            "CB",
+            "CG",
+            "CD1",
+            "CD2",
+            "CE1",
+            "CE2",
+            "CZ",
+            "OH"
+          ]
+        },
+        {
+          "resid": 378,
+          "local_backbone_RMSD_A": 0.021563958398428566,
+          "transferred_sidechain_atoms": [
+            "CB",
+            "CG",
+            "CD",
+            "CE",
+            "NZ"
+          ]
+        },
+        {
+          "resid": 379,
+          "local_backbone_RMSD_A": 0.0021125029566592653,
+          "transferred_sidechain_atoms": [
+            "CB",
+            "CG",
+            "CD"
+          ]
+        },
+        {
+          "resid": 380,
+          "local_backbone_RMSD_A": 0.00875884131667964,
+          "transferred_sidechain_atoms": [
+            "CB",
+            "CG1",
+            "CG2"
+          ]
+        },
+        {
+          "resid": 381,
+          "local_backbone_RMSD_A": 0.014663351120425987,
+          "transferred_sidechain_atoms": [
+            "CB",
+            "CG",
+            "OD1",
+            "OD2"
+          ]
+        },
+        {
+          "resid": 382,
+          "local_backbone_RMSD_A": 0.015532609845927482,
+          "transferred_sidechain_atoms": [
+            "CB",
+            "CG1",
+            "CG2"
+          ]
+        },
+        {
+          "resid": 383,
+          "local_backbone_RMSD_A": 0.00993580334058723,
+          "transferred_sidechain_atoms": [
+            "CB",
+            "CG",
+            "CD",
+            "OE1",
+            "OE2"
+          ]
+        },
+        {
+          "resid": 384,
+          "local_backbone_RMSD_A": 0.016108111649699608,
+          "transferred_sidechain_atoms": [
+            "CB"
+          ]
+        },
+        {
+          "resid": 385,
+          "local_backbone_RMSD_A": 0.010592985559802402,
+          "transferred_sidechain_atoms": [
+            "CB",
+            "CG",
+            "CD1",
+            "CD2"
+          ]
+        },
+        {
+          "resid": 386,
+          "local_backbone_RMSD_A": 0.00755385911408244,
+          "transferred_sidechain_atoms": []
+        },
+        {
+          "resid": 387,
+          "local_backbone_RMSD_A": 0.027980858557981967,
+          "transferred_sidechain_atoms": [
+            "CB",
+            "CG",
+            "CD1",
+            "CD2"
+          ]
+        },
+        {
+          "resid": 388,
+          "local_backbone_RMSD_A": 0.013309050708560147,
+          "transferred_sidechain_atoms": [
+            "CB",
+            "CG",
+            "ND1",
+            "CD2",
+            "CE1",
+            "NE2"
+          ]
+        },
+        {
+          "resid": 389,
+          "local_backbone_RMSD_A": 0.022899464419857126,
+          "transferred_sidechain_atoms": [
+            "CB",
+            "CG",
+            "OD1",
+            "OD2"
+          ]
+        },
+        {
+          "resid": 390,
+          "local_backbone_RMSD_A": 0.023782605437658994,
+          "transferred_sidechain_atoms": [
+            "CB",
+            "CG",
+            "CD1",
+            "CD2",
+            "CE1",
+            "CE2",
+            "CZ",
+            "OH"
+          ]
+        },
+        {
+          "resid": 391,
+          "local_backbone_RMSD_A": 0.010091960951452242,
+          "transferred_sidechain_atoms": [
+            "CB",
+            "SG"
+          ]
+        },
+        {
+          "resid": 392,
+          "local_backbone_RMSD_A": 0.005901610567869615,
+          "transferred_sidechain_atoms": [
+            "CB",
+            "CG",
+            "OD1",
+            "OD2"
+          ]
+        },
+        {
+          "resid": 393,
+          "local_backbone_RMSD_A": 0.013169115312256764,
+          "transferred_sidechain_atoms": [
+            "CB",
+            "CG1",
+            "CG2",
+            "CD1"
+          ]
+        },
+        {
+          "resid": 394,
+          "local_backbone_RMSD_A": 0.026694212698508486,
+          "transferred_sidechain_atoms": [
+            "CB",
+            "CG1",
+            "CG2",
+            "CD1"
+          ]
+        },
+        {
+          "resid": 395,
+          "local_backbone_RMSD_A": 0.007839261670894628,
+          "transferred_sidechain_atoms": [
+            "CB"
+          ]
+        },
+        {
+          "resid": 396,
+          "local_backbone_RMSD_A": 0.011287535656302326,
+          "transferred_sidechain_atoms": [
+            "CB",
+            "CG",
+            "ND1",
+            "CD2",
+            "CE1",
+            "NE2"
+          ]
+        },
+        {
+          "resid": 397,
+          "local_backbone_RMSD_A": 0.015464637086094375,
+          "transferred_sidechain_atoms": [
+            "CB",
+            "CG",
+            "CD"
+          ]
+        },
+        {
+          "resid": 398,
+          "local_backbone_RMSD_A": 0.03376544737292376,
+          "transferred_sidechain_atoms": [
+            "CB",
+            "CG",
+            "SD",
+            "CE"
+          ]
+        },
+        {
+          "resid": 399,
+          "local_backbone_RMSD_A": 0.015755665940838846,
+          "transferred_sidechain_atoms": [
+            "CB",
+            "CG",
+            "OD1",
+            "OD2"
+          ]
+        },
+        {
+          "resid": 400,
+          "local_backbone_RMSD_A": 0.01742688920688558,
+          "transferred_sidechain_atoms": [
+            "CB",
+            "CG",
+            "SD",
+            "CE"
+          ]
+        },
+        {
+          "resid": 401,
+          "local_backbone_RMSD_A": 0.007174662632829185,
+          "transferred_sidechain_atoms": [
+            "CB",
+            "OG"
+          ]
+        },
+        {
+          "resid": 402,
+          "local_backbone_RMSD_A": 0.007313657902463241,
+          "transferred_sidechain_atoms": [
+            "CB",
+            "OG1",
+            "CG2"
+          ]
+        },
+        {
+          "resid": 403,
+          "local_backbone_RMSD_A": 0.009573529903133975,
+          "transferred_sidechain_atoms": [
+            "CB",
+            "CG1",
+            "CG2",
+            "CD1"
+          ]
+        },
+        {
+          "resid": 404,
+          "local_backbone_RMSD_A": 0.010278618972434391,
+          "transferred_sidechain_atoms": [
+            "CB",
+            "CG",
+            "CD",
+            "CE",
+            "NZ"
+          ]
+        },
+        {
+          "resid": 413,
+          "local_backbone_RMSD_A": 0.01619643395930257,
+          "transferred_sidechain_atoms": [
+            "CB"
+          ]
+        },
+        {
+          "resid": 414,
+          "local_backbone_RMSD_A": 0.03510242644896824,
+          "transferred_sidechain_atoms": [
+            "CB",
+            "CG",
+            "OD1",
+            "OD2"
+          ]
+        },
+        {
+          "resid": 415,
+          "local_backbone_RMSD_A": 0.01728473647446747,
+          "transferred_sidechain_atoms": [
+            "CB"
+          ]
+        },
+        {
+          "resid": 416,
+          "local_backbone_RMSD_A": 0.006383381918178093,
+          "transferred_sidechain_atoms": [
+            "CB",
+            "CG",
+            "CD",
+            "OE1",
+            "NE2"
+          ]
+        },
+        {
+          "resid": 417,
+          "local_backbone_RMSD_A": 0.005460784189186684,
+          "transferred_sidechain_atoms": [
+            "CB",
+            "CG",
+            "CD",
+            "OE1",
+            "OE2"
+          ]
+        },
+        {
+          "resid": 418,
+          "local_backbone_RMSD_A": 0.006197247157218975,
+          "transferred_sidechain_atoms": [
+            "CB",
+            "CG",
+            "CD1",
+            "CD2",
+            "CE1",
+            "CE2",
+            "CZ"
+          ]
+        },
+        {
+          "resid": 419,
+          "local_backbone_RMSD_A": 0.0027448564752179023,
+          "transferred_sidechain_atoms": []
+        },
+        {
+          "resid": 420,
+          "local_backbone_RMSD_A": 0.016653866767988475,
+          "transferred_sidechain_atoms": [
+            "CB"
+          ]
+        },
+        {
+          "resid": 421,
+          "local_backbone_RMSD_A": 0.0025745103534777092,
+          "transferred_sidechain_atoms": [
+            "CB",
+            "CG",
+            "OD1",
+            "OD2"
+          ]
+        },
+        {
+          "resid": 422,
+          "local_backbone_RMSD_A": 0.015447107107600019,
+          "transferred_sidechain_atoms": [
+            "CB",
+            "CG1",
+            "CG2"
+          ]
+        },
+        {
+          "resid": 423,
+          "local_backbone_RMSD_A": 0.012697367994622283,
+          "transferred_sidechain_atoms": [
+            "CB",
+            "CG",
+            "CD",
+            "NE",
+            "CZ",
+            "NH1",
+            "NH2"
+          ]
+        },
+        {
+          "resid": 424,
+          "local_backbone_RMSD_A": 0.00921341417851746,
+          "transferred_sidechain_atoms": [
+            "CB",
+            "CG",
+            "CD1",
+            "CD2"
+          ]
+        },
+        {
+          "resid": 425,
+          "local_backbone_RMSD_A": 0.006233334364339695,
+          "transferred_sidechain_atoms": [
+            "CB",
+            "CG",
+            "SD",
+            "CE"
+          ]
+        },
+        {
+          "resid": 426,
+          "local_backbone_RMSD_A": 0.009248825043062068,
+          "transferred_sidechain_atoms": [
+            "CB",
+            "CG",
+            "CD1",
+            "CD2",
+            "CE1",
+            "CE2",
+            "CZ"
+          ]
+        },
+        {
+          "resid": 427,
+          "local_backbone_RMSD_A": 0.020217195058625827,
+          "transferred_sidechain_atoms": [
+            "CB",
+            "OG"
+          ]
+        },
+        {
+          "resid": 428,
+          "local_backbone_RMSD_A": 0.016154388862103616,
+          "transferred_sidechain_atoms": [
+            "CB",
+            "CG",
+            "OD1",
+            "ND2"
+          ]
+        },
+        {
+          "resid": 429,
+          "local_backbone_RMSD_A": 0.01068538928622899,
+          "transferred_sidechain_atoms": [
+            "CB",
+            "SG"
+          ]
+        },
+        {
+          "resid": 430,
+          "local_backbone_RMSD_A": 0.0043257679752663905,
+          "transferred_sidechain_atoms": [
+            "CB",
+            "CG",
+            "CD1",
+            "CD2",
+            "CE1",
+            "CE2",
+            "CZ",
+            "OH"
+          ]
+        },
+        {
+          "resid": 431,
+          "local_backbone_RMSD_A": 0.007141248749791628,
+          "transferred_sidechain_atoms": [
+            "CB",
+            "CG",
+            "CD",
+            "CE",
+            "NZ"
+          ]
+        },
+        {
+          "resid": 432,
+          "local_backbone_RMSD_A": 0.012508090439559357,
+          "transferred_sidechain_atoms": [
+            "CB",
+            "CG",
+            "CD1",
+            "CD2",
+            "CE1",
+            "CE2",
+            "CZ",
+            "OH"
+          ]
+        },
+        {
+          "resid": 433,
+          "local_backbone_RMSD_A": 0.036032395446749604,
+          "transferred_sidechain_atoms": [
+            "CB",
+            "CG",
+            "OD1",
+            "ND2"
+          ]
+        },
+        {
+          "resid": 434,
+          "local_backbone_RMSD_A": 0.024647971275905643,
+          "transferred_sidechain_atoms": [
+            "CB",
+            "CG",
+            "CD"
+          ]
+        },
+        {
+          "resid": 435,
+          "local_backbone_RMSD_A": 0.020611153965886763,
+          "transferred_sidechain_atoms": [
+            "CB",
+            "CG",
+            "CD"
+          ]
+        },
+        {
+          "resid": 436,
+          "local_backbone_RMSD_A": 0.013872958034332477,
+          "transferred_sidechain_atoms": [
+            "CB",
+            "CG",
+            "OD1",
+            "OD2"
+          ]
+        },
+        {
+          "resid": 437,
+          "local_backbone_RMSD_A": 0.012034014397556005,
+          "transferred_sidechain_atoms": [
+            "CB",
+            "CG",
+            "ND1",
+            "CD2",
+            "CE1",
+            "NE2"
+          ]
+        },
+        {
+          "resid": 438,
+          "local_backbone_RMSD_A": 0.021729428499315265,
+          "transferred_sidechain_atoms": [
+            "CB",
+            "CG",
+            "CD",
+            "OE1",
+            "OE2"
+          ]
+        },
+        {
+          "resid": 439,
+          "local_backbone_RMSD_A": 0.030198152100364847,
+          "transferred_sidechain_atoms": [
+            "CB",
+            "CG1",
+            "CG2"
+          ]
+        },
+        {
+          "resid": 440,
+          "local_backbone_RMSD_A": 0.008902519976721424,
+          "transferred_sidechain_atoms": [
+            "CB",
+            "CG1",
+            "CG2"
+          ]
+        },
+        {
+          "resid": 441,
+          "local_backbone_RMSD_A": 0.011258295023617177,
+          "transferred_sidechain_atoms": [
+            "CB"
+          ]
+        },
+        {
+          "resid": 442,
+          "local_backbone_RMSD_A": 0.006641696163830411,
+          "transferred_sidechain_atoms": [
+            "CB",
+            "CG",
+            "SD",
+            "CE"
+          ]
+        },
+        {
+          "resid": 443,
+          "local_backbone_RMSD_A": 0.010791737806197365,
+          "transferred_sidechain_atoms": [
+            "CB"
+          ]
+        },
+        {
+          "resid": 444,
+          "local_backbone_RMSD_A": 0.007229704159258693,
+          "transferred_sidechain_atoms": [
+            "CB",
+            "CG",
+            "CD",
+            "NE",
+            "CZ",
+            "NH1",
+            "NH2"
+          ]
+        },
+        {
+          "resid": 445,
+          "local_backbone_RMSD_A": 0.012020767989170874,
+          "transferred_sidechain_atoms": [
+            "CB",
+            "CG",
+            "CD",
+            "CE",
+            "NZ"
+          ]
+        },
+        {
+          "resid": 446,
+          "local_backbone_RMSD_A": 0.003223506830063978,
+          "transferred_sidechain_atoms": [
+            "CB",
+            "CG",
+            "CD1",
+            "CD2"
+          ]
+        },
+        {
+          "resid": 447,
+          "local_backbone_RMSD_A": 0.006358696617957188,
+          "transferred_sidechain_atoms": [
+            "CB",
+            "CG",
+            "CD",
+            "OE1",
+            "NE2"
+          ]
+        },
+        {
+          "resid": 448,
+          "local_backbone_RMSD_A": 0.00264290176376966,
+          "transferred_sidechain_atoms": [
+            "CB",
+            "CG",
+            "OD1",
+            "OD2"
+          ]
+        },
+        {
+          "resid": 449,
+          "local_backbone_RMSD_A": 0.005435609433709457,
+          "transferred_sidechain_atoms": [
+            "CB",
+            "CG1",
+            "CG2"
+          ]
+        },
+        {
+          "resid": 450,
+          "local_backbone_RMSD_A": 0.004533160842519304,
+          "transferred_sidechain_atoms": [
+            "CB",
+            "CG",
+            "CD1",
+            "CD2",
+            "CE1",
+            "CE2",
+            "CZ"
+          ]
+        },
+        {
+          "resid": 451,
+          "local_backbone_RMSD_A": 0.005250109906720439,
+          "transferred_sidechain_atoms": [
+            "CB",
+            "CG",
+            "CD",
+            "OE1",
+            "OE2"
+          ]
+        },
+        {
+          "resid": 452,
+          "local_backbone_RMSD_A": 0.011006328872645237,
+          "transferred_sidechain_atoms": [
+            "CB",
+            "CG",
+            "SD",
+            "CE"
+          ]
+        },
+        {
+          "resid": 453,
+          "local_backbone_RMSD_A": 0.0036852121028018185,
+          "transferred_sidechain_atoms": [
+            "CB",
+            "CG",
+            "CD",
+            "NE",
+            "CZ",
+            "NH1",
+            "NH2"
+          ]
+        },
+        {
+          "resid": 454,
+          "local_backbone_RMSD_A": 0.006091220813968483,
+          "transferred_sidechain_atoms": [
+            "CB",
+            "CG",
+            "CD1",
+            "CD2",
+            "CE1",
+            "CE2",
+            "CZ"
+          ]
+        },
+        {
+          "resid": 455,
+          "local_backbone_RMSD_A": 0.007164356979940483,
+          "transferred_sidechain_atoms": [
+            "CB"
+          ]
+        },
+        {
+          "resid": 456,
+          "local_backbone_RMSD_A": 0.03453901052492038,
+          "transferred_sidechain_atoms": [
+            "CB",
+            "CG",
+            "CD",
+            "CE",
+            "NZ"
+          ]
+        }
+      ]
+    },
+    {
+      "template": "8RX0_E2_aligned_SY8",
+      "crystal_copy": "E",
+      "residues": [
+        {
+          "resid": 351,
+          "local_backbone_RMSD_A": 0.014362845449639814,
+          "transferred_sidechain_atoms": [
+            "CB",
+            "OG"
+          ]
+        },
+        {
+          "resid": 352,
+          "local_backbone_RMSD_A": 0.006172143735860175,
+          "transferred_sidechain_atoms": [
+            "CB",
+            "CG",
+            "CD",
+            "OE1",
+            "OE2"
+          ]
+        },
+        {
+          "resid": 353,
+          "local_backbone_RMSD_A": 0.0035328898316648186,
+          "transferred_sidechain_atoms": [
+            "CB",
+            "CG",
+            "CD",
+            "OE1",
+            "NE2"
+          ]
+        },
+        {
+          "resid": 354,
+          "local_backbone_RMSD_A": 0.011925840599580642,
+          "transferred_sidechain_atoms": [
+            "CB",
+            "CG",
+            "CD1",
+            "CD2"
+          ]
+        },
+        {
+          "resid": 355,
+          "local_backbone_RMSD_A": 0.004711539847731942,
+          "transferred_sidechain_atoms": [
+            "CB",
+            "CG",
+            "CD",
+            "CE",
+            "NZ"
+          ]
+        },
+        {
+          "resid": 356,
+          "local_backbone_RMSD_A": 0.003330830534082179,
+          "transferred_sidechain_atoms": [
+            "CB",
+            "SG"
+          ]
+        },
+        {
+          "resid": 357,
+          "local_backbone_RMSD_A": 0.009229279588019066,
+          "transferred_sidechain_atoms": [
+            "CB",
+            "SG"
+          ]
+        },
+        {
+          "resid": 358,
+          "local_backbone_RMSD_A": 0.0033495528864357894,
+          "transferred_sidechain_atoms": [
+            "CB",
+            "OG"
+          ]
+        },
+        {
+          "resid": 359,
+          "local_backbone_RMSD_A": 0.004108098709089746,
+          "transferred_sidechain_atoms": []
+        },
+        {
+          "resid": 360,
+          "local_backbone_RMSD_A": 0.00474009426213358,
+          "transferred_sidechain_atoms": [
+            "CB",
+            "CG1",
+            "CG2",
+            "CD1"
+          ]
+        },
+        {
+          "resid": 361,
+          "local_backbone_RMSD_A": 0.004970738051726526,
+          "transferred_sidechain_atoms": [
+            "CB",
+            "CG",
+            "CD1",
+            "CD2"
+          ]
+        },
+        {
+          "resid": 362,
+          "local_backbone_RMSD_A": 0.010128329559358403,
+          "transferred_sidechain_atoms": [
+            "CB",
+            "CG",
+            "CD"
+          ]
+        },
+        {
+          "resid": 363,
+          "local_backbone_RMSD_A": 0.00497981853074556,
+          "transferred_sidechain_atoms": [
+            "CB",
+            "CG",
+            "CD",
+            "OE1",
+            "OE2"
+          ]
+        },
+        {
+          "resid": 364,
+          "local_backbone_RMSD_A": 0.015114885399303439,
+          "transferred_sidechain_atoms": [
+            "CB",
+            "CG",
+            "SD",
+            "CE"
+          ]
+        },
+        {
+          "resid": 365,
+          "local_backbone_RMSD_A": 0.02045725230989058,
+          "transferred_sidechain_atoms": [
+            "CB",
+            "CG",
+            "CD1",
+            "CD2",
+            "CE1",
+            "CE2",
+            "CZ"
+          ]
+        },
+        {
+          "resid": 366,
+          "local_backbone_RMSD_A": 0.021562679673709728,
+          "transferred_sidechain_atoms": [
+            "CB"
+          ]
+        },
+        {
+          "resid": 367,
+          "local_backbone_RMSD_A": 0.005374814232625342,
+          "transferred_sidechain_atoms": [
+            "CB"
+          ]
+        },
+        {
+          "resid": 368,
+          "local_backbone_RMSD_A": 0.028046513742800577,
+          "transferred_sidechain_atoms": [
+            "CB",
+            "CG",
+            "CD",
+            "CE",
+            "NZ"
+          ]
+        },
+        {
+          "resid": 369,
+          "local_backbone_RMSD_A": 0.01822690030970736,
+          "transferred_sidechain_atoms": [
+            "CB",
+            "CG",
+            "ND1",
+            "CD2",
+            "CE1",
+            "NE2"
+          ]
+        },
+        {
+          "resid": 370,
+          "local_backbone_RMSD_A": 0.031308580447444306,
+          "transferred_sidechain_atoms": [
+            "CB"
+          ]
+        },
+        {
+          "resid": 371,
+          "local_backbone_RMSD_A": 0.023932282064331418,
+          "transferred_sidechain_atoms": [
+            "CB"
+          ]
+        },
+        {
+          "resid": 372,
+          "local_backbone_RMSD_A": 0.014042467310073208,
+          "transferred_sidechain_atoms": [
+            "CB",
+            "CG",
+            "CD1",
+            "CD2",
+            "CE1",
+            "CE2",
+            "CZ",
+            "OH"
+          ]
+        },
+        {
+          "resid": 373,
+          "local_backbone_RMSD_A": 0.02280425604023986,
+          "transferred_sidechain_atoms": [
+            "CB"
+          ]
+        },
+        {
+          "resid": 374,
+          "local_backbone_RMSD_A": 0.04058015301300109,
+          "transferred_sidechain_atoms": [
+            "CB",
+            "CG",
+            "CD1",
+            "CD2",
+            "NE1",
+            "CE2",
+            "CE3",
+            "CZ2",
+            "CZ3",
+            "CH2"
+          ]
+        },
+        {
+          "resid": 375,
+          "local_backbone_RMSD_A": 0.019559422869795694,
+          "transferred_sidechain_atoms": [
+            "CB",
+            "CG",
+            "CD"
+          ]
+        },
+        {
+          "resid": 376,
+          "local_backbone_RMSD_A": 0.006681254467952639,
+          "transferred_sidechain_atoms": [
+            "CB",
+            "CG",
+            "CD1",
+            "CD2",
+            "CE1",
+            "CE2",
+            "CZ"
+          ]
+        },
+        {
+          "resid": 377,
+          "local_backbone_RMSD_A": 0.014323128805073103,
+          "transferred_sidechain_atoms": [
+            "CB",
+            "CG",
+            "CD1",
+            "CD2",
+            "CE1",
+            "CE2",
+            "CZ",
+            "OH"
+          ]
+        },
+        {
+          "resid": 378,
+          "local_backbone_RMSD_A": 0.023356694311453804,
+          "transferred_sidechain_atoms": [
+            "CB",
+            "CG",
+            "CD",
+            "CE",
+            "NZ"
+          ]
+        },
+        {
+          "resid": 379,
+          "local_backbone_RMSD_A": 0.006693028855092569,
+          "transferred_sidechain_atoms": [
+            "CB",
+            "CG",
+            "CD"
+          ]
+        },
+        {
+          "resid": 380,
+          "local_backbone_RMSD_A": 0.008112560797710788,
+          "transferred_sidechain_atoms": [
+            "CB",
+            "CG1",
+            "CG2"
+          ]
+        },
+        {
+          "resid": 381,
+          "local_backbone_RMSD_A": 0.017836428996266713,
+          "transferred_sidechain_atoms": [
+            "CB",
+            "CG",
+            "OD1",
+            "OD2"
+          ]
+        },
+        {
+          "resid": 382,
+          "local_backbone_RMSD_A": 0.020343533497073206,
+          "transferred_sidechain_atoms": [
+            "CB",
+            "CG1",
+            "CG2"
+          ]
+        },
+        {
+          "resid": 383,
+          "local_backbone_RMSD_A": 0.00514316963212679,
+          "transferred_sidechain_atoms": [
+            "CB",
+            "CG",
+            "CD",
+            "OE1",
+            "OE2"
+          ]
+        },
+        {
+          "resid": 384,
+          "local_backbone_RMSD_A": 0.01714629059034014,
+          "transferred_sidechain_atoms": [
+            "CB"
+          ]
+        },
+        {
+          "resid": 385,
+          "local_backbone_RMSD_A": 0.009659026092625863,
+          "transferred_sidechain_atoms": [
+            "CB",
+            "CG",
+            "CD1",
+            "CD2"
+          ]
+        },
+        {
+          "resid": 386,
+          "local_backbone_RMSD_A": 0.008605843208648238,
+          "transferred_sidechain_atoms": []
+        },
+        {
+          "resid": 387,
+          "local_backbone_RMSD_A": 0.020168745768935997,
+          "transferred_sidechain_atoms": [
+            "CB",
+            "CG",
+            "CD1",
+            "CD2"
+          ]
+        },
+        {
+          "resid": 388,
+          "local_backbone_RMSD_A": 0.010494366678754169,
+          "transferred_sidechain_atoms": [
+            "CB",
+            "CG",
+            "ND1",
+            "CD2",
+            "CE1",
+            "NE2"
+          ]
+        },
+        {
+          "resid": 389,
+          "local_backbone_RMSD_A": 0.01922212803659659,
+          "transferred_sidechain_atoms": [
+            "CB",
+            "CG",
+            "OD1",
+            "OD2"
+          ]
+        },
+        {
+          "resid": 390,
+          "local_backbone_RMSD_A": 0.01719062641099457,
+          "transferred_sidechain_atoms": [
+            "CB",
+            "CG",
+            "CD1",
+            "CD2",
+            "CE1",
+            "CE2",
+            "CZ",
+            "OH"
+          ]
+        },
+        {
+          "resid": 391,
+          "local_backbone_RMSD_A": 0.013479553701988565,
+          "transferred_sidechain_atoms": [
+            "CB",
+            "SG"
+          ]
+        },
+        {
+          "resid": 392,
+          "local_backbone_RMSD_A": 0.011519483135580271,
+          "transferred_sidechain_atoms": [
+            "CB",
+            "CG",
+            "OD1",
+            "OD2"
+          ]
+        },
+        {
+          "resid": 393,
+          "local_backbone_RMSD_A": 0.019323214177068275,
+          "transferred_sidechain_atoms": [
+            "CB",
+            "CG1",
+            "CG2",
+            "CD1"
+          ]
+        },
+        {
+          "resid": 394,
+          "local_backbone_RMSD_A": 0.03418913914860651,
+          "transferred_sidechain_atoms": [
+            "CB",
+            "CG1",
+            "CG2",
+            "CD1"
+          ]
+        },
+        {
+          "resid": 395,
+          "local_backbone_RMSD_A": 0.00503255779014089,
+          "transferred_sidechain_atoms": [
+            "CB",
+            "CG",
+            "CD",
+            "CE",
+            "NZ"
+          ]
+        },
+        {
+          "resid": 396,
+          "local_backbone_RMSD_A": 0.0013566744450256925,
+          "transferred_sidechain_atoms": [
+            "CB",
+            "CG",
+            "ND1",
+            "CD2",
+            "CE1",
+            "NE2"
+          ]
+        },
+        {
+          "resid": 397,
+          "local_backbone_RMSD_A": 0.005328117801533248,
+          "transferred_sidechain_atoms": [
+            "CB",
+            "CG",
+            "CD"
+          ]
+        },
+        {
+          "resid": 398,
+          "local_backbone_RMSD_A": 0.032693200759743905,
+          "transferred_sidechain_atoms": [
+            "CB",
+            "CG",
+            "SD",
+            "CE"
+          ]
+        },
+        {
+          "resid": 399,
+          "local_backbone_RMSD_A": 0.012570541543008944,
+          "transferred_sidechain_atoms": [
+            "CB",
+            "CG",
+            "OD1",
+            "OD2"
+          ]
+        },
+        {
+          "resid": 400,
+          "local_backbone_RMSD_A": 0.01989557997633213,
+          "transferred_sidechain_atoms": [
+            "CB",
+            "CG",
+            "SD",
+            "CE"
+          ]
+        },
+        {
+          "resid": 401,
+          "local_backbone_RMSD_A": 0.010883235729878852,
+          "transferred_sidechain_atoms": [
+            "CB",
+            "OG"
+          ]
+        },
+        {
+          "resid": 402,
+          "local_backbone_RMSD_A": 0.006795337902595589,
+          "transferred_sidechain_atoms": [
+            "CB",
+            "OG1",
+            "CG2"
+          ]
+        },
+        {
+          "resid": 403,
+          "local_backbone_RMSD_A": 0.009897705432757526,
+          "transferred_sidechain_atoms": [
+            "CB",
+            "CG1",
+            "CG2",
+            "CD1"
+          ]
+        },
+        {
+          "resid": 404,
+          "local_backbone_RMSD_A": 0.011553544222526425,
+          "transferred_sidechain_atoms": [
+            "CB",
+            "CG",
+            "CD",
+            "CE",
+            "NZ"
+          ]
+        },
+        {
+          "resid": 413,
+          "local_backbone_RMSD_A": 0.020483095890017105,
+          "transferred_sidechain_atoms": [
+            "CB",
+            "CG",
+            "CD",
+            "NE",
+            "CZ",
+            "NH1",
+            "NH2"
+          ]
+        },
+        {
+          "resid": 414,
+          "local_backbone_RMSD_A": 0.0312435034315887,
+          "transferred_sidechain_atoms": [
+            "CB",
+            "CG",
+            "OD1",
+            "OD2"
+          ]
+        },
+        {
+          "resid": 415,
+          "local_backbone_RMSD_A": 0.018270444882216415,
+          "transferred_sidechain_atoms": [
+            "CB"
+          ]
+        },
+        {
+          "resid": 416,
+          "local_backbone_RMSD_A": 0.004911666059888547,
+          "transferred_sidechain_atoms": [
+            "CB",
+            "CG",
+            "CD",
+            "OE1",
+            "NE2"
+          ]
+        },
+        {
+          "resid": 417,
+          "local_backbone_RMSD_A": 0.0032423898921635046,
+          "transferred_sidechain_atoms": [
+            "CB",
+            "CG",
+            "CD",
+            "OE1",
+            "OE2"
+          ]
+        },
+        {
+          "resid": 418,
+          "local_backbone_RMSD_A": 0.003962597292283249,
+          "transferred_sidechain_atoms": [
+            "CB",
+            "CG",
+            "CD1",
+            "CD2",
+            "CE1",
+            "CE2",
+            "CZ"
+          ]
+        },
+        {
+          "resid": 419,
+          "local_backbone_RMSD_A": 0.008039983237077532,
+          "transferred_sidechain_atoms": []
+        },
+        {
+          "resid": 420,
+          "local_backbone_RMSD_A": 0.011545297361758293,
+          "transferred_sidechain_atoms": [
+            "CB"
+          ]
+        },
+        {
+          "resid": 421,
+          "local_backbone_RMSD_A": 0.005907068690006771,
+          "transferred_sidechain_atoms": [
+            "CB",
+            "CG",
+            "OD1",
+            "OD2"
+          ]
+        },
+        {
+          "resid": 422,
+          "local_backbone_RMSD_A": 0.011979013052145368,
+          "transferred_sidechain_atoms": [
+            "CB",
+            "CG1",
+            "CG2"
+          ]
+        },
+        {
+          "resid": 423,
+          "local_backbone_RMSD_A": 0.009353013364153544,
+          "transferred_sidechain_atoms": [
+            "CB",
+            "CG",
+            "CD",
+            "NE",
+            "CZ",
+            "NH1",
+            "NH2"
+          ]
+        },
+        {
+          "resid": 424,
+          "local_backbone_RMSD_A": 0.013137556924379915,
+          "transferred_sidechain_atoms": [
+            "CB",
+            "CG",
+            "CD1",
+            "CD2"
+          ]
+        },
+        {
+          "resid": 425,
+          "local_backbone_RMSD_A": 0.002737613630141466,
+          "transferred_sidechain_atoms": [
+            "CB",
+            "CG",
+            "SD",
+            "CE"
+          ]
+        },
+        {
+          "resid": 426,
+          "local_backbone_RMSD_A": 0.016115956518355075,
+          "transferred_sidechain_atoms": [
+            "CB",
+            "CG",
+            "CD1",
+            "CD2",
+            "CE1",
+            "CE2",
+            "CZ"
+          ]
+        },
+        {
+          "resid": 427,
+          "local_backbone_RMSD_A": 0.013563090536015655,
+          "transferred_sidechain_atoms": [
+            "CB",
+            "OG"
+          ]
+        },
+        {
+          "resid": 428,
+          "local_backbone_RMSD_A": 0.019401551764285468,
+          "transferred_sidechain_atoms": [
+            "CB",
+            "CG",
+            "OD1",
+            "ND2"
+          ]
+        },
+        {
+          "resid": 429,
+          "local_backbone_RMSD_A": 0.015104400398576117,
+          "transferred_sidechain_atoms": [
+            "CB",
+            "SG"
+          ]
+        },
+        {
+          "resid": 430,
+          "local_backbone_RMSD_A": 0.008541559768329095,
+          "transferred_sidechain_atoms": [
+            "CB",
+            "CG",
+            "CD1",
+            "CD2",
+            "CE1",
+            "CE2",
+            "CZ",
+            "OH"
+          ]
+        },
+        {
+          "resid": 431,
+          "local_backbone_RMSD_A": 0.008667582341230197,
+          "transferred_sidechain_atoms": [
+            "CB",
+            "CG",
+            "CD",
+            "CE",
+            "NZ"
+          ]
+        },
+        {
+          "resid": 432,
+          "local_backbone_RMSD_A": 0.012722055705828511,
+          "transferred_sidechain_atoms": [
+            "CB",
+            "CG",
+            "CD1",
+            "CD2",
+            "CE1",
+            "CE2",
+            "CZ",
+            "OH"
+          ]
+        },
+        {
+          "resid": 433,
+          "local_backbone_RMSD_A": 0.03907566239015584,
+          "transferred_sidechain_atoms": [
+            "CB",
+            "CG",
+            "OD1",
+            "ND2"
+          ]
+        },
+        {
+          "resid": 434,
+          "local_backbone_RMSD_A": 0.023333731965013874,
+          "transferred_sidechain_atoms": [
+            "CB",
+            "CG",
+            "CD"
+          ]
+        },
+        {
+          "resid": 435,
+          "local_backbone_RMSD_A": 0.022346294763218994,
+          "transferred_sidechain_atoms": [
+            "CB",
+            "CG",
+            "CD"
+          ]
+        },
+        {
+          "resid": 436,
+          "local_backbone_RMSD_A": 0.013096229038648316,
+          "transferred_sidechain_atoms": [
+            "CB",
+            "CG",
+            "OD1",
+            "OD2"
+          ]
+        },
+        {
+          "resid": 437,
+          "local_backbone_RMSD_A": 0.009461074997905269,
+          "transferred_sidechain_atoms": [
+            "CB",
+            "CG",
+            "ND1",
+            "CD2",
+            "CE1",
+            "NE2"
+          ]
+        },
+        {
+          "resid": 438,
+          "local_backbone_RMSD_A": 0.023330694851855002,
+          "transferred_sidechain_atoms": [
+            "CB",
+            "CG",
+            "CD",
+            "OE1",
+            "OE2"
+          ]
+        },
+        {
+          "resid": 439,
+          "local_backbone_RMSD_A": 0.030346009322660163,
+          "transferred_sidechain_atoms": [
+            "CB",
+            "CG1",
+            "CG2"
+          ]
+        },
+        {
+          "resid": 440,
+          "local_backbone_RMSD_A": 0.007377016248326599,
+          "transferred_sidechain_atoms": [
+            "CB",
+            "CG1",
+            "CG2"
+          ]
+        },
+        {
+          "resid": 441,
+          "local_backbone_RMSD_A": 0.012555046907315596,
+          "transferred_sidechain_atoms": [
+            "CB"
+          ]
+        },
+        {
+          "resid": 442,
+          "local_backbone_RMSD_A": 0.0053605568936456885,
+          "transferred_sidechain_atoms": [
+            "CB",
+            "CG",
+            "SD",
+            "CE"
+          ]
+        },
+        {
+          "resid": 443,
+          "local_backbone_RMSD_A": 0.01083248006792317,
+          "transferred_sidechain_atoms": [
+            "CB"
+          ]
+        },
+        {
+          "resid": 444,
+          "local_backbone_RMSD_A": 0.0022246466978675062,
+          "transferred_sidechain_atoms": [
+            "CB",
+            "CG",
+            "CD",
+            "NE",
+            "CZ",
+            "NH1",
+            "NH2"
+          ]
+        },
+        {
+          "resid": 445,
+          "local_backbone_RMSD_A": 0.010333883794588175,
+          "transferred_sidechain_atoms": [
+            "CB",
+            "CG",
+            "CD",
+            "CE",
+            "NZ"
+          ]
+        },
+        {
+          "resid": 446,
+          "local_backbone_RMSD_A": 0.0035140584612980367,
+          "transferred_sidechain_atoms": [
+            "CB",
+            "CG",
+            "CD1",
+            "CD2"
+          ]
+        },
+        {
+          "resid": 447,
+          "local_backbone_RMSD_A": 0.00860429561793609,
+          "transferred_sidechain_atoms": [
+            "CB",
+            "CG",
+            "CD",
+            "OE1",
+            "NE2"
+          ]
+        },
+        {
+          "resid": 448,
+          "local_backbone_RMSD_A": 0.006957663303543076,
+          "transferred_sidechain_atoms": [
+            "CB",
+            "CG",
+            "OD1",
+            "OD2"
+          ]
+        },
+        {
+          "resid": 449,
+          "local_backbone_RMSD_A": 0.003125630105935391,
+          "transferred_sidechain_atoms": [
+            "CB",
+            "CG1",
+            "CG2"
+          ]
+        },
+        {
+          "resid": 450,
+          "local_backbone_RMSD_A": 0.007888983927139786,
+          "transferred_sidechain_atoms": [
+            "CB",
+            "CG",
+            "CD1",
+            "CD2",
+            "CE1",
+            "CE2",
+            "CZ"
+          ]
+        },
+        {
+          "resid": 451,
+          "local_backbone_RMSD_A": 0.011544200776416828,
+          "transferred_sidechain_atoms": [
+            "CB",
+            "CG",
+            "CD",
+            "OE1",
+            "OE2"
+          ]
+        },
+        {
+          "resid": 452,
+          "local_backbone_RMSD_A": 0.014124164980248289,
+          "transferred_sidechain_atoms": [
+            "CB",
+            "CG",
+            "SD",
+            "CE"
+          ]
+        },
+        {
+          "resid": 453,
+          "local_backbone_RMSD_A": 0.003534837654763298,
+          "transferred_sidechain_atoms": [
+            "CB",
+            "CG",
+            "CD",
+            "NE",
+            "CZ",
+            "NH1",
+            "NH2"
+          ]
+        },
+        {
+          "resid": 454,
+          "local_backbone_RMSD_A": 0.0043229737749965825,
+          "transferred_sidechain_atoms": [
+            "CB",
+            "CG",
+            "CD1",
+            "CD2",
+            "CE1",
+            "CE2",
+            "CZ"
+          ]
+        },
+        {
+          "resid": 455,
+          "local_backbone_RMSD_A": 0.009146486680481892,
+          "transferred_sidechain_atoms": [
+            "CB"
+          ]
+        },
+        {
+          "resid": 456,
+          "local_backbone_RMSD_A": 0.03353895206385261,
+          "transferred_sidechain_atoms": [
+            "CB",
+            "CG",
+            "CD",
+            "CE",
+            "NZ"
+          ]
+        }
+      ]
+    }
+  ],
+  "controls": "native_controls.tsv",
+  "biological_validation": false
+}

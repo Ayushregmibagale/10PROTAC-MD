@@ -1,0 +1,57 @@
+{
+  "version": "native_reference_v2_frozen_before_target_rescoring",
+  "primary_reference": "8R5H_observed_SY8",
+  "primary_anchor": "VHL",
+  "primary_rule": "Productive if anylysineNZ is within20A of depositedSY8C3 reaction-center surrogate, NZexposure>=0.1,and max target/new-scaffold heavy overlap<=0.8A. No orientation or perframe bridging filter.",
+  "primary_denominator": "All201 evaluable retained frames,then equal average across poses.",
+  "primary_distance_A": 20,
+  "primary_exposure_fraction": 0.1,
+  "maximum_clash_overlap_A": 0.8,
+  "endpoint_note": "SY8C3 is a trapped junction surrogate,not a native ubiquitinG76 carbonyl. Its N-C4-C3 peptide-connected path and Cys93SG-C3 bond are checked fromdeposition/CCD.",
+  "native_controls": "Catalytic BRD4 backbone retained; absent sidechain atoms locally transferred from5T35 without targeting donor or target labels. K445 in8R5H andK368/K456 in8RX0 within20A. Only declared crystal copiesA/E used as sensitivity.",
+  "counterfactuals": [
+    "500A target translation must fail reach",
+    "sidechains on true catalytic backbone versus globally superposed5T35 pose",
+    "observed8R5H surrogate versus modeled8RX0G76 andE2alignedSY8 proxies"
+  ],
+  "sensitivity": {
+    "distance_A": [
+      12,
+      16,
+      20,
+      24,
+      30
+    ],
+    "exposure": [
+      0.05,
+      0.1,
+      0.2
+    ],
+    "orientation_cosine": [
+      "none",
+      0.0
+    ],
+    "anchor": [
+      "VHL",
+      "ELOC"
+    ],
+    "reference": [
+      "8R5H_observed_SY8",
+      "8RX0_G76_fit75",
+      "8RX0_E2_aligned_SY8"
+    ],
+    "bridge": [
+      "none",
+      "joint_trueVHL_bridge"
+    ],
+    "fit3A": "QC sensitivity reported separately"
+  },
+  "label_units": "8 targets,6user degraders,ABL1/AXLnegatives;SIK3/RPS6KB2unknown excluded",
+  "historical_chemistry": true,
+  "supplier_equivalence": false,
+  "missing_atoms": "No claim of complete ligase;8R5H no resolvedNEDD8,8RX0 several backbone-only modules;no missing new sidechains invented for targetscoring",
+  "no_new_MD": true,
+  "GNN_scope": "Export provisional matched residue/window feature packets and assess compatibility with existinggraphs; training only if scientifically justified,not automatic release.",
+  "wide_kinome_scope": "Read-only retrospective geometry annotation of existingQC shortlist; no binding/degradationlabels inferred.",
+  "outcome_tuning": false
+}

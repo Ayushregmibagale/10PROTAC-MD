@@ -1,0 +1,10 @@
+{
+  "scripts/02_extract_chemical_tail_sensitivity.py": "86335bfc90121391d471b671aa3707bd524075c3eb5e4c7e4dde638809b820f1",
+  "lib/coherent_images.py": "ef8e7a36e38d337ded98d78bd3ab3b98d2a315e0d89742cb94791348938d4888",
+  "lib/e2_geometry.py": "7deee629aae416fad2916e64a75df0e822ffdcac9d09da10cc349040be23c70d",
+  "lib/protac_qc.py": "b7faca900f0a3c441f3d7fccb9835e7ae138f1198f480101145b9e6363ccf632",
+  "lib/read_only_trajectory.py": "231645da4027fd0f9e7e2ad49e7f5d942a12e768a5e1995b58a88fd505e55edb",
+  "config/labels.json": "5f999e61afba0563f93891b21790359535b9c5e6e707d5721c6fcab22742b34b",
+  "config/protocol.json": "e573ddc2219fdaf1bb8f7dda56398fef52d40dcfe80a928d6eb28a6e437d21b8",
+  "references/8RX0_relaxed_G76.npz": "9ab28e6f37b0ea69a84cc97e73138e8050ea3e5aa3d74f5ba9a379ec3d5d3691"
+}

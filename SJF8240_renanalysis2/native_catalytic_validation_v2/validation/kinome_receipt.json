@@ -1,0 +1,11 @@
+{
+  "poses": 723,
+  "accessions": 196,
+  "raw_geometry_productive": 89,
+  "scientifically_eligible": 0,
+  "source_table_sha256": "6403b942855fa067aa9dc8c3f030f08390f4278e1aed5b1e003f49657c993015",
+  "reference_sha256": "50fecc9fd857e7e145b2ce39b7b75114dfe4eecf42786d8d6706f21ec9fe96af",
+  "script_sha256": "813813c0b89d389b30e2cab9aff88337e767d7f3510c892a40c14188ef85d8ad",
+  "experimental_validation": false,
+  "unknown_targets_not_negatives": true
+}

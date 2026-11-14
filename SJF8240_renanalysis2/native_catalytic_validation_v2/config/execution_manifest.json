@@ -1,0 +1,13 @@
+{
+  "scripts/01_prepare_and_validate_native.py": "9ae1073c6aaff0e6c19efb786a761ebaaec36da145871d91e19d01e242389368",
+  "scripts/02_extract_md_native_references.py": "50db7b0290da1c4b2b885b5fed4a19f42fb40edc8f5854e1e71bdbdf49e1ae5f",
+  "lib/coherent_images.py": "ef8e7a36e38d337ded98d78bd3ab3b98d2a315e0d89742cb94791348938d4888",
+  "lib/e2_geometry.py": "7deee629aae416fad2916e64a75df0e822ffdcac9d09da10cc349040be23c70d",
+  "lib/protac_qc.py": "b7faca900f0a3c441f3d7fccb9835e7ae138f1198f480101145b9e6363ccf632",
+  "lib/read_only_trajectory.py": "231645da4027fd0f9e7e2ad49e7f5d942a12e768a5e1995b58a88fd505e55edb",
+  "config/labels.json": "5f999e61afba0563f93891b21790359535b9c5e6e707d5721c6fcab22742b34b",
+  "config/protocol.json": "33a8d79ecb048d8bbcf7194e15e4b358e5b4ced0e34ae14e6c4d32918b63868a",
+  "references/8R5H_observed_SY8.npz": "50fecc9fd857e7e145b2ce39b7b75114dfe4eecf42786d8d6706f21ec9fe96af",
+  "references/8RX0_E2_aligned_SY8.npz": "e367153c7e60e57f6e36458241a94b9f9dcc5c9e0ed8ba30f3235d87ee106389",
+  "references/8RX0_G76_fit75.npz": "3ffbbe8e7ce8ad53a8a9c4f8686facc436dbdb3fef3b932961ed21554fc884d9"
+}
