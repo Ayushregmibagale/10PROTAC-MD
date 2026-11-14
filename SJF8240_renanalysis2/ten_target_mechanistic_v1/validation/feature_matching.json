@@ -1,0 +1,225 @@
+{
+  "status": "PASS",
+  "same_definitions": true,
+  "eight_original_targets_reextracted": [
+    {
+      "target": "ABL1",
+      "pose": "pose001",
+      "errors": {
+        "base_times": 0.0,
+        "base_complex_sasa_A2": 0.0,
+        "base_isolated_sasa_A2": 0.0,
+        "base_burial_A2": 0.0,
+        "base_min_e2_A": 0.0,
+        "base_reach80_fraction": 0.0,
+        "base_elob_left": 0.0,
+        "base_elob_right": 0.0,
+        "base_vhl_left": 0.0,
+        "base_vhl_right": 0.0,
+        "native_times_ns": 0.0,
+        "native_donor_distance_A": 0.0,
+        "native_nz_exposed_fraction": 0.0,
+        "native_target_scaffold_max_overlap_A": 0.0,
+        "native_anchor_RMSD_A": 0.0,
+        "native_sidechain_outward_cosine": 0.0
+      }
+    },
+    {
+      "target": "AXL",
+      "pose": "pose001",
+      "errors": {
+        "base_times": 0.0,
+        "base_complex_sasa_A2": 0.0,
+        "base_isolated_sasa_A2": 0.0,
+        "base_burial_A2": 0.0,
+        "base_min_e2_A": 0.0,
+        "base_reach80_fraction": 0.0,
+        "base_elob_left": 0.0,
+        "base_elob_right": 0.0,
+        "base_vhl_left": 0.0,
+        "base_vhl_right": 0.0,
+        "native_times_ns": 0.0,
+        "native_donor_distance_A": 0.0,
+        "native_nz_exposed_fraction": 0.0,
+        "native_target_scaffold_max_overlap_A": 0.0,
+        "native_anchor_RMSD_A": 0.0,
+        "native_sidechain_outward_cosine": 0.0
+      }
+    },
+    {
+      "target": "DDR2",
+      "pose": "pose001",
+      "errors": {
+        "base_times": 0.0,
+        "base_complex_sasa_A2": 0.0,
+        "base_isolated_sasa_A2": 0.0,
+        "base_burial_A2": 0.0,
+        "base_min_e2_A": 0.0,
+        "base_reach80_fraction": 0.0,
+        "base_elob_left": 0.0,
+        "base_elob_right": 0.0,
+        "base_vhl_left": 0.0,
+        "base_vhl_right": 0.0,
+        "native_times_ns": 0.0,
+        "native_donor_distance_A": 0.0,
+        "native_nz_exposed_fraction": 0.0,
+        "native_target_scaffold_max_overlap_A": 0.0,
+        "native_anchor_RMSD_A": 0.0,
+        "native_sidechain_outward_cosine": 0.0
+      }
+    },
+    {
+      "target": "EPHA2",
+      "pose": "pose001",
+      "errors": {
+        "base_times": 0.0,
+        "base_complex_sasa_A2": 0.0,
+        "base_isolated_sasa_A2": 0.0,
+        "base_burial_A2": 0.0,
+        "base_min_e2_A": 0.0,
+        "base_reach80_fraction": 0.0,
+        "base_elob_left": 0.0,
+        "base_elob_right": 0.0,
+        "base_vhl_left": 0.0,
+        "base_vhl_right": 0.0,
+        "native_times_ns": 0.0,
+        "native_donor_distance_A": 0.0,
+        "native_nz_exposed_fraction": 0.0,
+        "native_target_scaffold_max_overlap_A": 0.0,
+        "native_anchor_RMSD_A": 0.0,
+        "native_sidechain_outward_cosine": 0.0
+      }
+    },
+    {
+      "target": "EPHB2",
+      "pose": "pose001",
+      "errors": {
+        "base_times": 0.0,
+        "base_complex_sasa_A2": 0.0,
+        "base_isolated_sasa_A2": 0.0,
+        "base_burial_A2": 0.0,
+        "base_min_e2_A": 0.0,
+        "base_reach80_fraction": 0.0,
+        "base_elob_left": 0.0,
+        "base_elob_right": 0.0,
+        "base_vhl_left": 0.0,
+        "base_vhl_right": 0.0,
+        "native_times_ns": 0.0,
+        "native_donor_distance_A": 0.0,
+        "native_nz_exposed_fraction": 0.0,
+        "native_target_scaffold_max_overlap_A": 0.0,
+        "native_anchor_RMSD_A": 0.0,
+        "native_sidechain_outward_cosine": 0.0
+      }
+    },
+    {
+      "target": "MAPK14_full",
+      "pose": "pose001",
+      "errors": {
+        "base_times": 0.0,
+        "base_complex_sasa_A2": 0.0,
+        "base_isolated_sasa_A2": 0.0,
+        "base_burial_A2": 0.0,
+        "base_min_e2_A": 0.0,
+        "base_reach80_fraction": 0.0,
+        "base_elob_left": 0.0,
+        "base_elob_right": 0.0,
+        "base_vhl_left": 0.0,
+        "base_vhl_right": 0.0,
+        "native_times_ns": 0.0,
+        "native_donor_distance_A": 0.0,
+        "native_nz_exposed_fraction": 0.0,
+        "native_target_scaffold_max_overlap_A": 0.0,
+        "native_anchor_RMSD_A": 0.0,
+        "native_sidechain_outward_cosine": 0.0
+      }
+    },
+    {
+      "target": "MET",
+      "pose": "pose002",
+      "errors": {
+        "base_times": 0.0,
+        "base_complex_sasa_A2": 0.0,
+        "base_isolated_sasa_A2": 0.0,
+        "base_burial_A2": 0.0,
+        "base_min_e2_A": 0.0,
+        "base_reach80_fraction": 0.0,
+        "base_elob_left": 0.0,
+        "base_elob_right": 0.0,
+        "base_vhl_left": 0.0,
+        "base_vhl_right": 0.0,
+        "native_times_ns": 0.0,
+        "native_donor_distance_A": 0.0,
+        "native_nz_exposed_fraction": 0.0,
+        "native_target_scaffold_max_overlap_A": 0.0,
+        "native_anchor_RMSD_A": 0.0,
+        "native_sidechain_outward_cosine": 0.0
+      }
+    },
+    {
+      "target": "RIPK2_full",
+      "pose": "pose001",
+      "errors": {
+        "base_times": 0.0,
+        "base_complex_sasa_A2": 0.0,
+        "base_isolated_sasa_A2": 0.0,
+        "base_burial_A2": 0.0,
+        "base_min_e2_A": 0.0,
+        "base_reach80_fraction": 0.0,
+        "base_elob_left": 0.0,
+        "base_elob_right": 0.0,
+        "base_vhl_left": 0.0,
+        "base_vhl_right": 0.0,
+        "native_times_ns": 0.0,
+        "native_donor_distance_A": 0.0,
+        "native_nz_exposed_fraction": 0.0,
+        "native_target_scaffold_max_overlap_A": 0.0,
+        "native_anchor_RMSD_A": 0.0,
+        "native_sidechain_outward_cosine": 0.0
+      }
+    }
+  ],
+  "unknown_graphs": [
+    {
+      "target": "SIK3_full",
+      "label": null,
+      "variant": "native_features",
+      "sha256": "46410a9fffa8bbe2040a72487b3c910822fa77390b94ff95881cd5e5631b95c1",
+      "path": "inputs/native_features/SIK3_full.npz",
+      "poses": 15,
+      "frames_per_pose": 201,
+      "node_width": 34
+    },
+    {
+      "target": "SIK3_full",
+      "label": null,
+      "variant": "zero_padded_control",
+      "sha256": "291703bcb29acccdb3bdcade8096ec86d50e5718da6f7acc88fbe14980395e8b",
+      "path": "inputs/zero_padded_control/SIK3_full.npz",
+      "poses": 15,
+      "frames_per_pose": 201,
+      "node_width": 34
+    },
+    {
+      "target": "RPS6KB2_full",
+      "label": null,
+      "variant": "native_features",
+      "sha256": "ca3887295df8469bb870af8104a2bd52e8d453d1e0de3f7fb14349c7d30edc2c",
+      "path": "inputs/native_features/RPS6KB2_full.npz",
+      "poses": 18,
+      "frames_per_pose": 201,
+      "node_width": 34
+    },
+    {
+      "target": "RPS6KB2_full",
+      "label": null,
+      "variant": "zero_padded_control",
+      "sha256": "ee9c2274eac8001dbf98143cd4ad0d2d065a996a9f791573dc84da297c29d040",
+      "path": "inputs/zero_padded_control/RPS6KB2_full.npz",
+      "poses": 18,
+      "frames_per_pose": 201,
+      "node_width": 34
+    }
+  ],
+  "training_performed": false
+}

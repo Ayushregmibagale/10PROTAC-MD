@@ -1,0 +1,5 @@
+target	variant	mean_score	min_score	max_score	fixed_degrader_vote_fraction	training_threshold_degrader_vote_fraction	models
+RPS6KB2_full	native_features	0.8059514214595159	0.6303367018699646	0.9667765498161316	1.0	1.0	60
+RPS6KB2_full	zero_padded_control	0.8430720786253612	0.6670042276382446	0.9740378856658936	1.0	1.0	60
+SIK3_full	native_features	0.8098406145970026	0.5858685374259949	0.9804746508598328	1.0	1.0	60
+SIK3_full	zero_padded_control	0.8395305385192235	0.6614949703216553	0.9793998599052429	1.0	1.0	60

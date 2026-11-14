@@ -1,0 +1,7 @@
+score	descriptive_eight_target_AUROC	positives	negatives	direction	unknowns_excluded
+bridge_fraction	0.3333333333333333	6	2	higher_is_degrader_prespecified	True
+any_lysine_reachable20_fraction	0.5	6	2	higher_is_degrader_prespecified	True
+any_lysine_exposed_reachable20_fraction	0.5	6	2	higher_is_degrader_prespecified	True
+scaffold_compatible_fraction	0.3333333333333333	6	2	higher_is_degrader_prespecified	True
+productive_any_lysine_fraction	0.5	6	2	higher_is_degrader_prespecified	True
+joint_bridge_productive_fraction	0.5	6	2	higher_is_degrader_prespecified	True

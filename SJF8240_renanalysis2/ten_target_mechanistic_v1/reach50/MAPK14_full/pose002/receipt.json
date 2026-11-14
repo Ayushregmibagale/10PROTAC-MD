@@ -1,0 +1,15 @@
+{
+  "target": "MAPK14_full",
+  "pose": "pose002",
+  "packet_sha256": "83e187f35d94c756c984d400444395d265b6d3431ac828d993f7b767d0a6880a",
+  "script_sha256": "10629ff569ea7d34d84495223ec901fbbe0ecb073e8c5b67093dc74bbe99152f",
+  "source_sha256": {
+    "/home/ayushregmibagale/protac-md/random_screen/MAPK14_full/pose002/prod/prod.tpr": "a37615b2d14841458810ce1379ed09b7546ff4ac009d90dd00a1f2029b36ee93",
+    "/home/ayushregmibagale/protac-md/analysis/random_screen/MAPK14_full/pose002/prod_nojump.xtc": "39ce663aabf35d52c720c81912c3f6bdbae0afab2a17c48a8e6b4cba6b83167e",
+    "/home/ayushregmibagale/protac-md/random_screen/MAPK14_full/pose002/structure/complex_protein.pdb": "2e15b6d5c339a2f10ea7a241259bf8a2189acca5665f76bb3d336f89c149e41a",
+    "/home/ayushregmibagale/10PROTAC-MD/SJF8240_reanalysis/full_frame_e2_delta50_v1/analysis/poses/MAPK14_full/pose002/packet.npz": "94112ce4aa4b5dc0c338d88c4efd070b7169a8f6b57190c79f3dcfeefb1e0012",
+    "/home/ayushregmibagale/protac-md/reference_structures/e2_c85_ensemble.json": "9dac98e05fdd384bb77fc147e3e61d9de3dcdfe028355d4cccb833d3d9f73f15"
+  },
+  "max_min_distance_replay_error_A": 0.0,
+  "ensemble_points": 51
+}

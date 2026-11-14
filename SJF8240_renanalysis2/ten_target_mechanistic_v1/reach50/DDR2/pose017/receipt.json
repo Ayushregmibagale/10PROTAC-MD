@@ -1,0 +1,15 @@
+{
+  "target": "DDR2",
+  "pose": "pose017",
+  "packet_sha256": "1978eb3243b6a4cb0580d38a09e8a343d2758e49c95faced83d602c79a7b3cb6",
+  "script_sha256": "10629ff569ea7d34d84495223ec901fbbe0ecb073e8c5b67093dc74bbe99152f",
+  "source_sha256": {
+    "/home/ayushregmibagale/protac-md/random_screen/DDR2/pose017/prod/prod.tpr": "77d1246df560ea670c2953a371854a8a3f7c9be2c913f8d5fe1187a4d827f8c8",
+    "/home/ayushregmibagale/protac-md/analysis/random_screen/DDR2/pose017/prod_nojump.xtc": "4ea35cecf9823bad77a0edbd28a5c9a8518d8d36816269e12ec94a19fb52770a",
+    "/home/ayushregmibagale/protac-md/random_screen/DDR2/pose017/structure/complex_protein.pdb": "241c8b36e4b490e558dd017462d2510f7865ce52ad3aa2eb6034327c59652d88",
+    "/home/ayushregmibagale/10PROTAC-MD/SJF8240_reanalysis/full_frame_e2_delta50_v1/analysis/poses/DDR2/pose017/packet.npz": "fd46d290081b67733dd8dbf54ad55ae5ca5b09cb587c733043474c2cc9403889",
+    "/home/ayushregmibagale/protac-md/reference_structures/e2_c85_ensemble.json": "9dac98e05fdd384bb77fc147e3e61d9de3dcdfe028355d4cccb833d3d9f73f15"
+  },
+  "max_min_distance_replay_error_A": 0.0,
+  "ensemble_points": 51
+}

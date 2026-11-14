@@ -1,0 +1,13 @@
+target	uniprot	topology_resid	canonical_resid	amino_acid	canonical_amino_acid	is_lysine	sequence_matches	ambiguous
+DDR2	Q16832	102		G		False	False	False
+DDR2	Q16832	103		P		False	False	False
+DDR2	Q16832	104		R		False	False	False
+DDR2	Q16832	105		V		False	False	False
+DDR2	Q16832	106		D		False	False	False
+DDR2	Q16832	206	670.0	Q	E	False	False	False
+DDR2	Q16832	353	826.0	E	K	False	False	False
+DDR2	Q16832	374	847.0	R	L	False	False	False
+MAPK14_full	Q16539	217	119.0	S	C	False	False	False
+MAPK14_full	Q16539	260	162.0	S	C	False	False	False
+MAPK14_full	Q16539	270		C	A	False	False	True
+MAPK14_full	Q16539	413	327.0	L	F	False	False	False

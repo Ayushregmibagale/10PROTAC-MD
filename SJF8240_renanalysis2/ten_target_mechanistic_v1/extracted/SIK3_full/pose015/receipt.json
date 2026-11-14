@@ -1,0 +1,25 @@
+{
+  "target": "SIK3_full",
+  "source_target": "SIK3",
+  "pose": "pose015",
+  "frames": 201,
+  "lysines": 20,
+  "seconds": 7.1863359060371295,
+  "max_contact_replay_error_A": 0.0,
+  "source_sha256": {
+    "/home/ayushregmibagale/10PROTAC-MD/SJF8240_reanalysis/analysis/dynamic/poses/SIK3/pose015/receipt.json": "5695ac550024293d668eeef2cacc4ab049ba3e316f6ba4ae0501c6c1cda67f3c",
+    "/home/ayushregmibagale/protac-md/random_screen/SIK3/pose015/prod/prod.tpr": "9ca4ab527949ad94fb3993b0f015ec59f2343e0f4af376a900b7caf1bf59bbff",
+    "/home/ayushregmibagale/protac-md/random_screen/SIK3/pose015/prod/prod.xtc": "95b9344a45c24487831494a58bdbe840148af1e1dcce6b3f9bd6f9edae529b80",
+    "/home/ayushregmibagale/protac-md/random_screen/SIK3/pose015/structure/complex_protein.pdb": "715c45380cf5f36c7c3684a0f005c87a7b5c089c409c5108c4bf4f02da27ec9a",
+    "/home/ayushregmibagale/10PROTAC-MD/prosettac_robust/existing_result_audit/prediction_compiled_roles_v3/per_pose_roles.json": "188549eec229ba0e30082e97d271cbc12e84cd4d086e10f8d7ac631f863ef143",
+    "/home/ayushregmibagale/protac-md/reference_structures/e2_c85_ensemble.json": "9dac98e05fdd384bb77fc147e3e61d9de3dcdfe028355d4cccb833d3d9f73f15",
+    "/home/ayushregmibagale/10PROTAC-MD/SJF8240_renanalysis2/native_catalytic_validation_v2/references/8R5H_observed_SY8.npz": "50fecc9fd857e7e145b2ce39b7b75114dfe4eecf42786d8d6706f21ec9fe96af",
+    "/home/ayushregmibagale/10PROTAC-MD/SJF8240_renanalysis2/native_catalytic_validation_v2/references/8RX0_G76_fit75.npz": "3ffbbe8e7ce8ad53a8a9c4f8686facc436dbdb3fef3b932961ed21554fc884d9",
+    "/home/ayushregmibagale/10PROTAC-MD/SJF8240_renanalysis2/native_catalytic_validation_v2/references/8RX0_E2_aligned_SY8.npz": "e367153c7e60e57f6e36458241a94b9f9dcc5c9e0ed8ba30f3235d87ee106389"
+  },
+  "manifest_sha256": "162dbac3890942fa7a397656f4dcd8592ce79577d8cb883ef28a45955930c393",
+  "outputs": {
+    "base_packet.npz": "1c209d56978cbe160489ef31fa11352437ddace42f345b145ac6fef57b7366e6",
+    "native_packet.npz": "d64d59400712305f7bf2701396275eed84fcee83799ff1aca5fe1dc91ce30704"
+  }
+}

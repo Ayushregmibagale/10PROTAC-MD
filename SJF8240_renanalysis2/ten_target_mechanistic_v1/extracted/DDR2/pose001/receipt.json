@@ -1,0 +1,25 @@
+{
+  "target": "DDR2",
+  "source_target": "DDR2",
+  "pose": "pose001",
+  "frames": 201,
+  "lysines": 14,
+  "seconds": 7.770100721041672,
+  "max_contact_replay_error_A": 0.0,
+  "source_sha256": {
+    "/home/ayushregmibagale/10PROTAC-MD/SJF8240_reanalysis/analysis/dynamic/poses/DDR2/pose001/receipt.json": "2211f1fcbddf0dd2b262b97d970320c65f48d0f485382fe06344337eebb89b57",
+    "/home/ayushregmibagale/protac-md/random_screen/DDR2/pose001/prod/prod.tpr": "ddee6fdf1abf6045f4dc462bfaf5c1a95e2665a1072e680f6729b3400c1f4d6b",
+    "/home/ayushregmibagale/protac-md/analysis/random_screen/DDR2/pose001/prod_nojump.xtc": "e9978732e144e446fb0f1d71e4af0759c53d89dcc24d1d730669ac74da49c2cd",
+    "/home/ayushregmibagale/protac-md/random_screen/DDR2/pose001/structure/complex_protein.pdb": "78d0cec9100984d373d8c4310a0223f4b2c3728253286e078b8f00fde2969539",
+    "/home/ayushregmibagale/10PROTAC-MD/prosettac_robust/existing_result_audit/protein_roles_core_complete/per_pose_roles.json": "58424dcef7fab12723789c597fc6e947a5b15ea236843fdeeb7dd5fb262f51b8",
+    "/home/ayushregmibagale/protac-md/reference_structures/e2_c85_ensemble.json": "9dac98e05fdd384bb77fc147e3e61d9de3dcdfe028355d4cccb833d3d9f73f15",
+    "/home/ayushregmibagale/10PROTAC-MD/SJF8240_renanalysis2/native_catalytic_validation_v2/references/8R5H_observed_SY8.npz": "50fecc9fd857e7e145b2ce39b7b75114dfe4eecf42786d8d6706f21ec9fe96af",
+    "/home/ayushregmibagale/10PROTAC-MD/SJF8240_renanalysis2/native_catalytic_validation_v2/references/8RX0_G76_fit75.npz": "3ffbbe8e7ce8ad53a8a9c4f8686facc436dbdb3fef3b932961ed21554fc884d9",
+    "/home/ayushregmibagale/10PROTAC-MD/SJF8240_renanalysis2/native_catalytic_validation_v2/references/8RX0_E2_aligned_SY8.npz": "e367153c7e60e57f6e36458241a94b9f9dcc5c9e0ed8ba30f3235d87ee106389"
+  },
+  "manifest_sha256": "162dbac3890942fa7a397656f4dcd8592ce79577d8cb883ef28a45955930c393",
+  "outputs": {
+    "base_packet.npz": "0b9c60758c1ae5a48b9547789a8927eb22ce1074bdfde3776778e04914afb1f0",
+    "native_packet.npz": "a25e36909f2de5b2f66bb8ad4daff0b37b61223bcf9a7f23ccb422d91042f6ef"
+  }
+}

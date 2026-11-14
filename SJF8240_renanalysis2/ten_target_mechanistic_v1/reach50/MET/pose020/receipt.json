@@ -1,0 +1,15 @@
+{
+  "target": "MET",
+  "pose": "pose020",
+  "packet_sha256": "4cb0edbda3d19ab8a82d58ffc0fa1e24f923b4008dbcac1af95d2710f47679b8",
+  "script_sha256": "10629ff569ea7d34d84495223ec901fbbe0ecb073e8c5b67093dc74bbe99152f",
+  "source_sha256": {
+    "/home/ayushregmibagale/protac-md/random_screen/MET/pose020/prod/prod.tpr": "4559ad1253ec2f81f6d37e835d01b0bef3cf8f1159edf56221f742ee148499f5",
+    "/home/ayushregmibagale/protac-md/analysis/random_screen/MET/pose020/prod_nojump.xtc": "88d4d808d46aa47328833b3e4f4393a507fecb19175a4535ffba673f94f5f15a",
+    "/home/ayushregmibagale/protac-md/random_screen/MET/pose020/structure/complex_protein.pdb": "0ad276a45fb6266e26577fe9397bceff30a422c529083e715894629267dd2fea",
+    "/home/ayushregmibagale/10PROTAC-MD/SJF8240_reanalysis/full_frame_e2_delta50_v1/analysis/poses/MET/pose020/packet.npz": "37fb02f2bb49f55ce4635e3040d7b72db4a92cdd0fe3f78d030a72ca685b78f2",
+    "/home/ayushregmibagale/protac-md/reference_structures/e2_c85_ensemble.json": "9dac98e05fdd384bb77fc147e3e61d9de3dcdfe028355d4cccb833d3d9f73f15"
+  },
+  "max_min_distance_replay_error_A": 0.0,
+  "ensemble_points": 51
+}

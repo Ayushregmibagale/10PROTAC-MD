@@ -1,0 +1,2522 @@
+[
+  {
+    "path": "/mnt/c/Users/Ayush Regmi Bagale/SJF8240_ten_target_mechanistic_v1/reach50/ABL1/pose001/packet.npz",
+    "sha256": "2d42bfa49411602b688db27e6931315361572cef9d899c06374025be5a400b76"
+  },
+  {
+    "path": "/home/ayushregmibagale/10PROTAC-MD/SJF8240_reanalysis/full_frame_e2_delta50_v1/analysis/poses/ABL1/pose001/packet.npz",
+    "sha256": "8334b083ec532d1c950dec9ab96a778174c071d8ca39f5bda1eadca200b87be2"
+  },
+  {
+    "path": "/home/ayushregmibagale/10PROTAC-MD/SJF8240_renanalysis2/native_catalytic_validation_v2/results/poses/ABL1/pose001/packet.npz",
+    "sha256": "f4832a657d900bb90a06793ca97728e7345f6eb5ecc61ce37227c4b8e23c63b4"
+  },
+  {
+    "path": "/home/ayushregmibagale/10PROTAC-MD/SJF8240_reanalysis/mechanistic_v3/analysis/lysines/poses/ABL1/pose001/packet.npz",
+    "sha256": "2fb8a92b302417306545b0cdc6a4d0f4056c526d3064d2725764e09477041310"
+  },
+  {
+    "path": "/mnt/c/Users/Ayush Regmi Bagale/SJF8240_ten_target_mechanistic_v1/reach50/ABL1/pose003/packet.npz",
+    "sha256": "39aa5a9b06ad880ba2655bb8703985342fbfbf58b518a90016af29aba9d9a3fe"
+  },
+  {
+    "path": "/home/ayushregmibagale/10PROTAC-MD/SJF8240_reanalysis/full_frame_e2_delta50_v1/analysis/poses/ABL1/pose003/packet.npz",
+    "sha256": "fe7e4814002fb905e6800d1be2d51001d2653aab9e385c6f1fbd4861f323735e"
+  },
+  {
+    "path": "/home/ayushregmibagale/10PROTAC-MD/SJF8240_renanalysis2/native_catalytic_validation_v2/results/poses/ABL1/pose003/packet.npz",
+    "sha256": "c00867b7a0765246fe96fc2e79fa8d3146c20caff73e5c9ac4f74893a6faded0"
+  },
+  {
+    "path": "/home/ayushregmibagale/10PROTAC-MD/SJF8240_reanalysis/mechanistic_v3/analysis/lysines/poses/ABL1/pose003/packet.npz",
+    "sha256": "49face9c27b0f1037dceb600a593b458c71ff7d680abd0e3d097fe0f05b39a50"
+  },
+  {
+    "path": "/mnt/c/Users/Ayush Regmi Bagale/SJF8240_ten_target_mechanistic_v1/reach50/ABL1/pose004/packet.npz",
+    "sha256": "f923af77111637f45989b1cfa84d1e6c92fa5fe5ec7b066be9b6c673e16fab87"
+  },
+  {
+    "path": "/home/ayushregmibagale/10PROTAC-MD/SJF8240_reanalysis/full_frame_e2_delta50_v1/analysis/poses/ABL1/pose004/packet.npz",
+    "sha256": "9ff032d7e6b49873a5989183ea4368b9d4395dc9d0b3c09ec53631db4fbd54a3"
+  },
+  {
+    "path": "/home/ayushregmibagale/10PROTAC-MD/SJF8240_renanalysis2/native_catalytic_validation_v2/results/poses/ABL1/pose004/packet.npz",
+    "sha256": "efe23e0a7c0d3dd750c2cf68400a4f835582a99f294cf541200b4bd4199df45d"
+  },
+  {
+    "path": "/home/ayushregmibagale/10PROTAC-MD/SJF8240_reanalysis/mechanistic_v3/analysis/lysines/poses/ABL1/pose004/packet.npz",
+    "sha256": "e591c706510c54800a139f7c049ed1f00e03778941228b6da594395490dab0a5"
+  },
+  {
+    "path": "/mnt/c/Users/Ayush Regmi Bagale/SJF8240_ten_target_mechanistic_v1/reach50/ABL1/pose005/packet.npz",
+    "sha256": "765479d68bef03bec138c141f5a131e5ba1b274260550fe75cf83f5bd549d294"
+  },
+  {
+    "path": "/home/ayushregmibagale/10PROTAC-MD/SJF8240_reanalysis/full_frame_e2_delta50_v1/analysis/poses/ABL1/pose005/packet.npz",
+    "sha256": "e2b14c59c875909448ee4bea75a9bb014ad225c190e01849a526d7de91f56d54"
+  },
+  {
+    "path": "/home/ayushregmibagale/10PROTAC-MD/SJF8240_renanalysis2/native_catalytic_validation_v2/results/poses/ABL1/pose005/packet.npz",
+    "sha256": "fd917eae3de2e325cb196f8c351756cc09307ea2ed93f8ec35cb23db3ed42833"
+  },
+  {
+    "path": "/home/ayushregmibagale/10PROTAC-MD/SJF8240_reanalysis/mechanistic_v3/analysis/lysines/poses/ABL1/pose005/packet.npz",
+    "sha256": "6b9957fe45beece1f0879755c8fe78259dba2c1b10ba8bffab1bc76efc18c64d"
+  },
+  {
+    "path": "/mnt/c/Users/Ayush Regmi Bagale/SJF8240_ten_target_mechanistic_v1/reach50/ABL1/pose006/packet.npz",
+    "sha256": "2d42bfa49411602b688db27e6931315361572cef9d899c06374025be5a400b76"
+  },
+  {
+    "path": "/home/ayushregmibagale/10PROTAC-MD/SJF8240_reanalysis/full_frame_e2_delta50_v1/analysis/poses/ABL1/pose006/packet.npz",
+    "sha256": "e8e283930de00f3e73e37cfb7265ff15ce6bea807f2a9680775b3f1d7799de85"
+  },
+  {
+    "path": "/home/ayushregmibagale/10PROTAC-MD/SJF8240_renanalysis2/native_catalytic_validation_v2/results/poses/ABL1/pose006/packet.npz",
+    "sha256": "4ce9f042be39243927a4793da65c149e36b0e1d98b1b0d6776cfeceb070ab423"
+  },
+  {
+    "path": "/home/ayushregmibagale/10PROTAC-MD/SJF8240_reanalysis/mechanistic_v3/analysis/lysines/poses/ABL1/pose006/packet.npz",
+    "sha256": "a7ae5fd58947b65a26f0ed65a23bcea5a9dbc2359a60d115a253e8cde230eac6"
+  },
+  {
+    "path": "/mnt/c/Users/Ayush Regmi Bagale/SJF8240_ten_target_mechanistic_v1/reach50/ABL1/pose008/packet.npz",
+    "sha256": "2d42bfa49411602b688db27e6931315361572cef9d899c06374025be5a400b76"
+  },
+  {
+    "path": "/home/ayushregmibagale/10PROTAC-MD/SJF8240_reanalysis/full_frame_e2_delta50_v1/analysis/poses/ABL1/pose008/packet.npz",
+    "sha256": "49ea6cc0159bf8678bf98a7b4a7943583cb05cbc831cc56bf208244b12238a0c"
+  },
+  {
+    "path": "/home/ayushregmibagale/10PROTAC-MD/SJF8240_renanalysis2/native_catalytic_validation_v2/results/poses/ABL1/pose008/packet.npz",
+    "sha256": "6bbd59c39f174cafa28bd4e4b996c1e5288609204a79d3d08167e241cc026415"
+  },
+  {
+    "path": "/home/ayushregmibagale/10PROTAC-MD/SJF8240_reanalysis/mechanistic_v3/analysis/lysines/poses/ABL1/pose008/packet.npz",
+    "sha256": "d6c3d2cd5892a1f28309660c4108a5d9d4c1ec58c61783e185bee928111a6395"
+  },
+  {
+    "path": "/mnt/c/Users/Ayush Regmi Bagale/SJF8240_ten_target_mechanistic_v1/reach50/ABL1/pose009/packet.npz",
+    "sha256": "403fc2b849719dc052738f16d9307fb5c72c193f6bc6f6004cbd33e06493670d"
+  },
+  {
+    "path": "/home/ayushregmibagale/10PROTAC-MD/SJF8240_reanalysis/full_frame_e2_delta50_v1/analysis/poses/ABL1/pose009/packet.npz",
+    "sha256": "280541f7387a8e4d6bcba3c7490428867383a52d0b51b348c917192b39de0f5c"
+  },
+  {
+    "path": "/home/ayushregmibagale/10PROTAC-MD/SJF8240_renanalysis2/native_catalytic_validation_v2/results/poses/ABL1/pose009/packet.npz",
+    "sha256": "210204929e599a7404eb682ba8ca1a11d1677bf646497afdee9e53d74efb37aa"
+  },
+  {
+    "path": "/home/ayushregmibagale/10PROTAC-MD/SJF8240_reanalysis/mechanistic_v3/analysis/lysines/poses/ABL1/pose009/packet.npz",
+    "sha256": "89b53f022d5c81debcea6c3daa12805c4edeecbe1e5df65b68828fdaa0d79dea"
+  },
+  {
+    "path": "/mnt/c/Users/Ayush Regmi Bagale/SJF8240_ten_target_mechanistic_v1/reach50/ABL1/pose010/packet.npz",
+    "sha256": "2d42bfa49411602b688db27e6931315361572cef9d899c06374025be5a400b76"
+  },
+  {
+    "path": "/home/ayushregmibagale/10PROTAC-MD/SJF8240_reanalysis/full_frame_e2_delta50_v1/analysis/poses/ABL1/pose010/packet.npz",
+    "sha256": "3c213cda5c4711534cc58ea7897f05df248131be4a81bea4647a1dee561a880a"
+  },
+  {
+    "path": "/home/ayushregmibagale/10PROTAC-MD/SJF8240_renanalysis2/native_catalytic_validation_v2/results/poses/ABL1/pose010/packet.npz",
+    "sha256": "779dc970e303020c561a287243e18aceb4475d34d68e9dd21bc62aeecb2be10e"
+  },
+  {
+    "path": "/home/ayushregmibagale/10PROTAC-MD/SJF8240_reanalysis/mechanistic_v3/analysis/lysines/poses/ABL1/pose010/packet.npz",
+    "sha256": "c5711cbab2bd8a4599334d0dbb90d6d752b40bd445c2f959e1fb4912b0a4a3ff"
+  },
+  {
+    "path": "/mnt/c/Users/Ayush Regmi Bagale/SJF8240_ten_target_mechanistic_v1/reach50/ABL1/pose011/packet.npz",
+    "sha256": "93d0c6abd3c62f22756ef1dce4cdef801553989dbb05549444f73d6db4c22093"
+  },
+  {
+    "path": "/home/ayushregmibagale/10PROTAC-MD/SJF8240_reanalysis/full_frame_e2_delta50_v1/analysis/poses/ABL1/pose011/packet.npz",
+    "sha256": "67e758743793d3f19481963f6276e434802766b57df4077c18e0cafe8f9b8eee"
+  },
+  {
+    "path": "/home/ayushregmibagale/10PROTAC-MD/SJF8240_renanalysis2/native_catalytic_validation_v2/results/poses/ABL1/pose011/packet.npz",
+    "sha256": "517c4cdaed7ddbd16767c61ba09f24a5e67730381f70b3006404c175a4ae506b"
+  },
+  {
+    "path": "/home/ayushregmibagale/10PROTAC-MD/SJF8240_reanalysis/mechanistic_v3/analysis/lysines/poses/ABL1/pose011/packet.npz",
+    "sha256": "8fc5a2e883687ff052ea0ccb1003f6766278edf1b1844259308b8c1421deb950"
+  },
+  {
+    "path": "/mnt/c/Users/Ayush Regmi Bagale/SJF8240_ten_target_mechanistic_v1/reach50/ABL1/pose013/packet.npz",
+    "sha256": "630deb9c504df4c5018eb1074fcd793873884d5c4bca24888ff4bd567e794ec3"
+  },
+  {
+    "path": "/home/ayushregmibagale/10PROTAC-MD/SJF8240_reanalysis/full_frame_e2_delta50_v1/analysis/poses/ABL1/pose013/packet.npz",
+    "sha256": "671c39fd3833936be7282eeaed46cc8bf868e3450c0765e8c1fce659d51bf77d"
+  },
+  {
+    "path": "/home/ayushregmibagale/10PROTAC-MD/SJF8240_renanalysis2/native_catalytic_validation_v2/results/poses/ABL1/pose013/packet.npz",
+    "sha256": "826d58705c267d55ced5f9331505bad1c1405add7c8f5e48bdfd376e8e58cc55"
+  },
+  {
+    "path": "/home/ayushregmibagale/10PROTAC-MD/SJF8240_reanalysis/mechanistic_v3/analysis/lysines/poses/ABL1/pose013/packet.npz",
+    "sha256": "499e3adba5a950c025446866df9f5fc69796a90a0aedee6ee3c89fc3cdb1d5b1"
+  },
+  {
+    "path": "/mnt/c/Users/Ayush Regmi Bagale/SJF8240_ten_target_mechanistic_v1/reach50/ABL1/pose014/packet.npz",
+    "sha256": "2d42bfa49411602b688db27e6931315361572cef9d899c06374025be5a400b76"
+  },
+  {
+    "path": "/home/ayushregmibagale/10PROTAC-MD/SJF8240_reanalysis/full_frame_e2_delta50_v1/analysis/poses/ABL1/pose014/packet.npz",
+    "sha256": "c8dd24b24f0758a3d7f1ccc010e60efcda382c761e691107ae738ae315d4b77f"
+  },
+  {
+    "path": "/home/ayushregmibagale/10PROTAC-MD/SJF8240_renanalysis2/native_catalytic_validation_v2/results/poses/ABL1/pose014/packet.npz",
+    "sha256": "ce030f6eb5d46b397a6ba8dd734fda1fb6d4724936cf85fde7665d6b55f43ff8"
+  },
+  {
+    "path": "/home/ayushregmibagale/10PROTAC-MD/SJF8240_reanalysis/mechanistic_v3/analysis/lysines/poses/ABL1/pose014/packet.npz",
+    "sha256": "644d2cd175cf8fffcad6075f6569ef0d4182c0ee10ae1b7299d5d6a3e79fd9ad"
+  },
+  {
+    "path": "/mnt/c/Users/Ayush Regmi Bagale/SJF8240_ten_target_mechanistic_v1/reach50/ABL1/pose015/packet.npz",
+    "sha256": "ab234588da595301c4162bfca009d832c10d50ec83c4fb54320e49b38c33b6ea"
+  },
+  {
+    "path": "/home/ayushregmibagale/10PROTAC-MD/SJF8240_reanalysis/full_frame_e2_delta50_v1/analysis/poses/ABL1/pose015/packet.npz",
+    "sha256": "6092f50109740c4908ec14fb4f3a4e953c744a87d375ee0b1954c9643af7d826"
+  },
+  {
+    "path": "/home/ayushregmibagale/10PROTAC-MD/SJF8240_renanalysis2/native_catalytic_validation_v2/results/poses/ABL1/pose015/packet.npz",
+    "sha256": "8e6c445cf644b654ef56637bd28c09169cdd64d67e77e9eddd5d8eaf4bebf177"
+  },
+  {
+    "path": "/home/ayushregmibagale/10PROTAC-MD/SJF8240_reanalysis/mechanistic_v3/analysis/lysines/poses/ABL1/pose015/packet.npz",
+    "sha256": "687c91b4bcfa62f51948f854eae32dc07d047ebd93efa232421d11f861eb48db"
+  },
+  {
+    "path": "/mnt/c/Users/Ayush Regmi Bagale/SJF8240_ten_target_mechanistic_v1/reach50/ABL1/pose016/packet.npz",
+    "sha256": "bdf9cd669f328877b874971ee28d38bf4f6ca8c2e6fd0b0cfc8c82c8a16102b0"
+  },
+  {
+    "path": "/home/ayushregmibagale/10PROTAC-MD/SJF8240_reanalysis/full_frame_e2_delta50_v1/analysis/poses/ABL1/pose016/packet.npz",
+    "sha256": "443da8280df6c841b6c1864baa0608e6027f6beec38d8283f9b4aba89897a474"
+  },
+  {
+    "path": "/home/ayushregmibagale/10PROTAC-MD/SJF8240_renanalysis2/native_catalytic_validation_v2/results/poses/ABL1/pose016/packet.npz",
+    "sha256": "743c3e40b10767c91b78180b5e8c97eacb175b1e93536f29c67c2d2c2248b34f"
+  },
+  {
+    "path": "/home/ayushregmibagale/10PROTAC-MD/SJF8240_reanalysis/mechanistic_v3/analysis/lysines/poses/ABL1/pose016/packet.npz",
+    "sha256": "db147866f611ed8457561259530f8f2aad11a57b585bf3788018ae71799b4b91"
+  },
+  {
+    "path": "/mnt/c/Users/Ayush Regmi Bagale/SJF8240_ten_target_mechanistic_v1/reach50/ABL1/pose017/packet.npz",
+    "sha256": "ff0aae4a50871f6d8f21f2d1b758e455381e1d8b0be3d8da94a9fcbb2d02d263"
+  },
+  {
+    "path": "/home/ayushregmibagale/10PROTAC-MD/SJF8240_reanalysis/full_frame_e2_delta50_v1/analysis/poses/ABL1/pose017/packet.npz",
+    "sha256": "1ddcc410bcf8286543696e9758b30ecbfcf7d93697f79846d91e86a4b8e8e78e"
+  },
+  {
+    "path": "/home/ayushregmibagale/10PROTAC-MD/SJF8240_renanalysis2/native_catalytic_validation_v2/results/poses/ABL1/pose017/packet.npz",
+    "sha256": "54c8770b92e88fef2d14d42701d568dbb0db71b23e2c2e741e7c003156932e7f"
+  },
+  {
+    "path": "/home/ayushregmibagale/10PROTAC-MD/SJF8240_reanalysis/mechanistic_v3/analysis/lysines/poses/ABL1/pose017/packet.npz",
+    "sha256": "d3f5bdab7ccd2d6e76daa5098a69c50ac02794eeba8644911c98fae5644d8bd2"
+  },
+  {
+    "path": "/mnt/c/Users/Ayush Regmi Bagale/SJF8240_ten_target_mechanistic_v1/reach50/ABL1/pose018/packet.npz",
+    "sha256": "8c751bdc7f37275b463ae43ca252bf0d8b066145ee7598fcef497de4f651adf5"
+  },
+  {
+    "path": "/home/ayushregmibagale/10PROTAC-MD/SJF8240_reanalysis/full_frame_e2_delta50_v1/analysis/poses/ABL1/pose018/packet.npz",
+    "sha256": "e695eca0b1ade2df83178072ebb371367e3fa3457a90445fd050592b77f2966f"
+  },
+  {
+    "path": "/home/ayushregmibagale/10PROTAC-MD/SJF8240_renanalysis2/native_catalytic_validation_v2/results/poses/ABL1/pose018/packet.npz",
+    "sha256": "75cbfe73f9b4894126d5eacb547dffb1aeb25e67a812d4a0941cdd83734e761d"
+  },
+  {
+    "path": "/home/ayushregmibagale/10PROTAC-MD/SJF8240_reanalysis/mechanistic_v3/analysis/lysines/poses/ABL1/pose018/packet.npz",
+    "sha256": "3a5782bf636bd51cfae125d0403e37a46a23503163811cd90cc8ee8990c9cc43"
+  },
+  {
+    "path": "/mnt/c/Users/Ayush Regmi Bagale/SJF8240_ten_target_mechanistic_v1/reach50/ABL1/pose019/packet.npz",
+    "sha256": "2d42bfa49411602b688db27e6931315361572cef9d899c06374025be5a400b76"
+  },
+  {
+    "path": "/home/ayushregmibagale/10PROTAC-MD/SJF8240_reanalysis/full_frame_e2_delta50_v1/analysis/poses/ABL1/pose019/packet.npz",
+    "sha256": "bcdde760be404732fc58885d9092a8f96b830991c00a072c4f40437c8ec2ca5f"
+  },
+  {
+    "path": "/home/ayushregmibagale/10PROTAC-MD/SJF8240_renanalysis2/native_catalytic_validation_v2/results/poses/ABL1/pose019/packet.npz",
+    "sha256": "fbad9413ce5b0e1e3b9912ad970ad2fbfa0389ed24b54fef8fbae20b247bc684"
+  },
+  {
+    "path": "/home/ayushregmibagale/10PROTAC-MD/SJF8240_reanalysis/mechanistic_v3/analysis/lysines/poses/ABL1/pose019/packet.npz",
+    "sha256": "24656a6be1dc049a23ec9c4da0ce9751192d94d7e800be7ea9645ed324a7d3ea"
+  },
+  {
+    "path": "/mnt/c/Users/Ayush Regmi Bagale/SJF8240_ten_target_mechanistic_v1/reach50/ABL1/pose020/packet.npz",
+    "sha256": "2d42bfa49411602b688db27e6931315361572cef9d899c06374025be5a400b76"
+  },
+  {
+    "path": "/home/ayushregmibagale/10PROTAC-MD/SJF8240_reanalysis/full_frame_e2_delta50_v1/analysis/poses/ABL1/pose020/packet.npz",
+    "sha256": "1957f388b4d66facee687f98489c4f6102c8a1b4002cfdc3e68bdfcc0930c380"
+  },
+  {
+    "path": "/home/ayushregmibagale/10PROTAC-MD/SJF8240_renanalysis2/native_catalytic_validation_v2/results/poses/ABL1/pose020/packet.npz",
+    "sha256": "92b3dceaf12972b4bf754fbe86fec2521997c79f01638fd69798551db2c702c5"
+  },
+  {
+    "path": "/home/ayushregmibagale/10PROTAC-MD/SJF8240_reanalysis/mechanistic_v3/analysis/lysines/poses/ABL1/pose020/packet.npz",
+    "sha256": "4351d52920d6caaedf5c76d72887d488065dae9c110f0a8d1aad16460825b53b"
+  },
+  {
+    "path": "/mnt/c/Users/Ayush Regmi Bagale/SJF8240_ten_target_mechanistic_v1/reach50/AXL/pose001/packet.npz",
+    "sha256": "f30bddb42b190fec6f24e63728f33eabf82558df6d7ceb67ac45877e8e891a05"
+  },
+  {
+    "path": "/home/ayushregmibagale/10PROTAC-MD/SJF8240_reanalysis/full_frame_e2_delta50_v1/analysis/poses/AXL/pose001/packet.npz",
+    "sha256": "74756ebabb90450d22ce4b4d34cc23d1607666842411c32c20b55de87865ff19"
+  },
+  {
+    "path": "/home/ayushregmibagale/10PROTAC-MD/SJF8240_renanalysis2/native_catalytic_validation_v2/results/poses/AXL/pose001/packet.npz",
+    "sha256": "e427682b3c231cebddf5f453cd79c424e839ff931619c05cd410bd51c1bb91c0"
+  },
+  {
+    "path": "/home/ayushregmibagale/10PROTAC-MD/SJF8240_reanalysis/mechanistic_v3/analysis/lysines/poses/AXL/pose001/packet.npz",
+    "sha256": "ac25f33aa499c83b0b2813c74bc86ec4c115c520074a9da0b363e0cc119b45ee"
+  },
+  {
+    "path": "/mnt/c/Users/Ayush Regmi Bagale/SJF8240_ten_target_mechanistic_v1/reach50/AXL/pose002/packet.npz",
+    "sha256": "517dd2e8d008ca07f75e46b97115f2f71e730ebf96b0e3e0041c0058d88fc092"
+  },
+  {
+    "path": "/home/ayushregmibagale/10PROTAC-MD/SJF8240_reanalysis/full_frame_e2_delta50_v1/analysis/poses/AXL/pose002/packet.npz",
+    "sha256": "b6747e38587c06293ceeb573669548e9395a55ea284af6a2af4aa97e07d2280d"
+  },
+  {
+    "path": "/home/ayushregmibagale/10PROTAC-MD/SJF8240_renanalysis2/native_catalytic_validation_v2/results/poses/AXL/pose002/packet.npz",
+    "sha256": "d9a62aa3c61703174cf4242b46eb00b5c257ffd3b2256d16a2b84648bb47f2af"
+  },
+  {
+    "path": "/home/ayushregmibagale/10PROTAC-MD/SJF8240_reanalysis/mechanistic_v3/analysis/lysines/poses/AXL/pose002/packet.npz",
+    "sha256": "d43ed8e7be0111beb1fbe9ad21148593340caa7b9dbed689a32bcd147b181d59"
+  },
+  {
+    "path": "/mnt/c/Users/Ayush Regmi Bagale/SJF8240_ten_target_mechanistic_v1/reach50/AXL/pose004/packet.npz",
+    "sha256": "20e959bd999ff8cbc362549f3e0c7cdde31ee029ddd9e1c60ff8e5c83020718d"
+  },
+  {
+    "path": "/home/ayushregmibagale/10PROTAC-MD/SJF8240_reanalysis/full_frame_e2_delta50_v1/analysis/poses/AXL/pose004/packet.npz",
+    "sha256": "d6580cacf47d6649813bc47725e1faa3a9dc731c479cdebcdff524ea4f381ac1"
+  },
+  {
+    "path": "/home/ayushregmibagale/10PROTAC-MD/SJF8240_renanalysis2/native_catalytic_validation_v2/results/poses/AXL/pose004/packet.npz",
+    "sha256": "8ccf99835571c33de297b82e0e7a6dcb4a94046229a93a5b8369b721b6fcc40e"
+  },
+  {
+    "path": "/home/ayushregmibagale/10PROTAC-MD/SJF8240_reanalysis/mechanistic_v3/analysis/lysines/poses/AXL/pose004/packet.npz",
+    "sha256": "b19d547795656991de2087b67def5b30d86cb47c32c433094b200864d684b943"
+  },
+  {
+    "path": "/mnt/c/Users/Ayush Regmi Bagale/SJF8240_ten_target_mechanistic_v1/reach50/AXL/pose005/packet.npz",
+    "sha256": "770b4dbfae31e4dfbe297c0c4e2195e0658de3c6343a05a4876344182e5b12d1"
+  },
+  {
+    "path": "/home/ayushregmibagale/10PROTAC-MD/SJF8240_reanalysis/full_frame_e2_delta50_v1/analysis/poses/AXL/pose005/packet.npz",
+    "sha256": "a60395f080fd9076ffef73158dd99e7e74218d9db48b48c229d96d583f15d5f5"
+  },
+  {
+    "path": "/home/ayushregmibagale/10PROTAC-MD/SJF8240_renanalysis2/native_catalytic_validation_v2/results/poses/AXL/pose005/packet.npz",
+    "sha256": "841db3506c165f0bdd5134defdaac7873c5b5a6cde97f4558b6bd750c9f729bf"
+  },
+  {
+    "path": "/home/ayushregmibagale/10PROTAC-MD/SJF8240_reanalysis/mechanistic_v3/analysis/lysines/poses/AXL/pose005/packet.npz",
+    "sha256": "11047a6aae325111707855894dc191ae16a919085865814b5c7e61d6e69fd225"
+  },
+  {
+    "path": "/mnt/c/Users/Ayush Regmi Bagale/SJF8240_ten_target_mechanistic_v1/reach50/AXL/pose006/packet.npz",
+    "sha256": "20e959bd999ff8cbc362549f3e0c7cdde31ee029ddd9e1c60ff8e5c83020718d"
+  },
+  {
+    "path": "/home/ayushregmibagale/10PROTAC-MD/SJF8240_reanalysis/full_frame_e2_delta50_v1/analysis/poses/AXL/pose006/packet.npz",
+    "sha256": "8105d0b1c061ab4f282410c79d365251d578c2f8db8471c5262e852099f2481e"
+  },
+  {
+    "path": "/home/ayushregmibagale/10PROTAC-MD/SJF8240_renanalysis2/native_catalytic_validation_v2/results/poses/AXL/pose006/packet.npz",
+    "sha256": "33367884c65948377e436fecfbe33dc1ec80f314e819cd67f1d8c5c16b26639e"
+  },
+  {
+    "path": "/home/ayushregmibagale/10PROTAC-MD/SJF8240_reanalysis/mechanistic_v3/analysis/lysines/poses/AXL/pose006/packet.npz",
+    "sha256": "9e039652be9b23021bf1893e13f866381b8775b6018a12fc8f2e64e7c046d769"
+  },
+  {
+    "path": "/mnt/c/Users/Ayush Regmi Bagale/SJF8240_ten_target_mechanistic_v1/reach50/AXL/pose007/packet.npz",
+    "sha256": "c18a3ea727f971c650b9e3fdf7607acb88c796386faffe8754e8cac24a2da07d"
+  },
+  {
+    "path": "/home/ayushregmibagale/10PROTAC-MD/SJF8240_reanalysis/full_frame_e2_delta50_v1/analysis/poses/AXL/pose007/packet.npz",
+    "sha256": "cef4b4cfece7fbd07d415e33752e2b43db7f5df0df34d9846d46fa23c378a2f9"
+  },
+  {
+    "path": "/home/ayushregmibagale/10PROTAC-MD/SJF8240_renanalysis2/native_catalytic_validation_v2/results/poses/AXL/pose007/packet.npz",
+    "sha256": "b6232022d70c974e16c4db0e42dc77a88fdf985fbef79baf7b33e925b8fa34e5"
+  },
+  {
+    "path": "/home/ayushregmibagale/10PROTAC-MD/SJF8240_reanalysis/mechanistic_v3/analysis/lysines/poses/AXL/pose007/packet.npz",
+    "sha256": "6783f44f365631fc3d198939ce920bf5db4c9919612f4ddb9523f2be254348f0"
+  },
+  {
+    "path": "/mnt/c/Users/Ayush Regmi Bagale/SJF8240_ten_target_mechanistic_v1/reach50/AXL/pose008/packet.npz",
+    "sha256": "20e959bd999ff8cbc362549f3e0c7cdde31ee029ddd9e1c60ff8e5c83020718d"
+  },
+  {
+    "path": "/home/ayushregmibagale/10PROTAC-MD/SJF8240_reanalysis/full_frame_e2_delta50_v1/analysis/poses/AXL/pose008/packet.npz",
+    "sha256": "531625ec3cb120257dd8bee83b5d23ec15660982853965409f717f633c952bfc"
+  },
+  {
+    "path": "/home/ayushregmibagale/10PROTAC-MD/SJF8240_renanalysis2/native_catalytic_validation_v2/results/poses/AXL/pose008/packet.npz",
+    "sha256": "ac02882c3a87cdfb0ec688769f0049548ef8e87395140e6f5b2dcbc8aeb9af9a"
+  },
+  {
+    "path": "/home/ayushregmibagale/10PROTAC-MD/SJF8240_reanalysis/mechanistic_v3/analysis/lysines/poses/AXL/pose008/packet.npz",
+    "sha256": "de868925b46dd23c21d45184f2f846c335c857bccd0b2193a4b0d6bead967ce3"
+  },
+  {
+    "path": "/mnt/c/Users/Ayush Regmi Bagale/SJF8240_ten_target_mechanistic_v1/reach50/AXL/pose009/packet.npz",
+    "sha256": "20e959bd999ff8cbc362549f3e0c7cdde31ee029ddd9e1c60ff8e5c83020718d"
+  },
+  {
+    "path": "/home/ayushregmibagale/10PROTAC-MD/SJF8240_reanalysis/full_frame_e2_delta50_v1/analysis/poses/AXL/pose009/packet.npz",
+    "sha256": "0e4c708477debe02b09c1913b394bada27ec93dbbceabdc411a9a587c91d54eb"
+  },
+  {
+    "path": "/home/ayushregmibagale/10PROTAC-MD/SJF8240_renanalysis2/native_catalytic_validation_v2/results/poses/AXL/pose009/packet.npz",
+    "sha256": "2476b262974bde386475f9097e9b638e5586b515079fa7427fddf9489355b33c"
+  },
+  {
+    "path": "/home/ayushregmibagale/10PROTAC-MD/SJF8240_reanalysis/mechanistic_v3/analysis/lysines/poses/AXL/pose009/packet.npz",
+    "sha256": "7b9754a0d30423ee335d780a74e4b286ca651e33dc3cf1b2ac54f3863af9fccb"
+  },
+  {
+    "path": "/mnt/c/Users/Ayush Regmi Bagale/SJF8240_ten_target_mechanistic_v1/reach50/AXL/pose010/packet.npz",
+    "sha256": "20e959bd999ff8cbc362549f3e0c7cdde31ee029ddd9e1c60ff8e5c83020718d"
+  },
+  {
+    "path": "/home/ayushregmibagale/10PROTAC-MD/SJF8240_reanalysis/full_frame_e2_delta50_v1/analysis/poses/AXL/pose010/packet.npz",
+    "sha256": "b67f4bf1c692948dcfd0a9bcf6ae837fe7dc71b6accb1f7568e52a00e7e3cf17"
+  },
+  {
+    "path": "/home/ayushregmibagale/10PROTAC-MD/SJF8240_renanalysis2/native_catalytic_validation_v2/results/poses/AXL/pose010/packet.npz",
+    "sha256": "caee2fd314e5f96988465621e556619878e2b9713e5b4725c4948fe05040b403"
+  },
+  {
+    "path": "/home/ayushregmibagale/10PROTAC-MD/SJF8240_reanalysis/mechanistic_v3/analysis/lysines/poses/AXL/pose010/packet.npz",
+    "sha256": "71f270e81560cd0ee01663c15f90f036bd3783e7ce3e0ea171d290eedcfb384f"
+  },
+  {
+    "path": "/mnt/c/Users/Ayush Regmi Bagale/SJF8240_ten_target_mechanistic_v1/reach50/AXL/pose011/packet.npz",
+    "sha256": "f0c15b025bd76f7920382aa3c88e6aa7f2ae5e5eb835f6b24e15664693036eee"
+  },
+  {
+    "path": "/home/ayushregmibagale/10PROTAC-MD/SJF8240_reanalysis/full_frame_e2_delta50_v1/analysis/poses/AXL/pose011/packet.npz",
+    "sha256": "22e672ec9f231226efe45d2b5919c0e8839c02e03ad7fbbb60ba33ca6dd1c170"
+  },
+  {
+    "path": "/home/ayushregmibagale/10PROTAC-MD/SJF8240_renanalysis2/native_catalytic_validation_v2/results/poses/AXL/pose011/packet.npz",
+    "sha256": "5ce0cafae14755476870aa0ceb42e38e01e6ced00e829e525b00ce1d5f080146"
+  },
+  {
+    "path": "/home/ayushregmibagale/10PROTAC-MD/SJF8240_reanalysis/mechanistic_v3/analysis/lysines/poses/AXL/pose011/packet.npz",
+    "sha256": "2687e53594422cedfa552b5a689b4733d241395879c00dd05f934156dad4f079"
+  },
+  {
+    "path": "/mnt/c/Users/Ayush Regmi Bagale/SJF8240_ten_target_mechanistic_v1/reach50/AXL/pose012/packet.npz",
+    "sha256": "2696b7fcd2fb22fa05a6acc4cd1b6da611c4e429f428507e5cbb32135e01f750"
+  },
+  {
+    "path": "/home/ayushregmibagale/10PROTAC-MD/SJF8240_reanalysis/full_frame_e2_delta50_v1/analysis/poses/AXL/pose012/packet.npz",
+    "sha256": "b5ad9ea0a41bb907695e4c8c3696f0c9c7c71bedfb1f4fe4a166ce984cfbd078"
+  },
+  {
+    "path": "/home/ayushregmibagale/10PROTAC-MD/SJF8240_renanalysis2/native_catalytic_validation_v2/results/poses/AXL/pose012/packet.npz",
+    "sha256": "32ee340b4e352c61e02b1e1392fd36b0f1b2e2d8f8738ec8a63821ee9e4a42b9"
+  },
+  {
+    "path": "/home/ayushregmibagale/10PROTAC-MD/SJF8240_reanalysis/mechanistic_v3/analysis/lysines/poses/AXL/pose012/packet.npz",
+    "sha256": "88a6cf01326498f4bf37cad4ddbf0f5f83a2373fb4813c4680b8022ae635daff"
+  },
+  {
+    "path": "/mnt/c/Users/Ayush Regmi Bagale/SJF8240_ten_target_mechanistic_v1/reach50/AXL/pose013/packet.npz",
+    "sha256": "20e959bd999ff8cbc362549f3e0c7cdde31ee029ddd9e1c60ff8e5c83020718d"
+  },
+  {
+    "path": "/home/ayushregmibagale/10PROTAC-MD/SJF8240_reanalysis/full_frame_e2_delta50_v1/analysis/poses/AXL/pose013/packet.npz",
+    "sha256": "4298e3382f07eccaf6da163d151a18eb23775466f0919d408df44a25fdac9e11"
+  },
+  {
+    "path": "/home/ayushregmibagale/10PROTAC-MD/SJF8240_renanalysis2/native_catalytic_validation_v2/results/poses/AXL/pose013/packet.npz",
+    "sha256": "8e625b839928a59edc2c1ac86b8e913e1007364ad1f31c28dd3f3a3a37a10a3d"
+  },
+  {
+    "path": "/home/ayushregmibagale/10PROTAC-MD/SJF8240_reanalysis/mechanistic_v3/analysis/lysines/poses/AXL/pose013/packet.npz",
+    "sha256": "b98f182dc8e1505555d02e623d05ba1a09c59fa3582bc8b2739b0767174810dc"
+  },
+  {
+    "path": "/mnt/c/Users/Ayush Regmi Bagale/SJF8240_ten_target_mechanistic_v1/reach50/AXL/pose015/packet.npz",
+    "sha256": "20e959bd999ff8cbc362549f3e0c7cdde31ee029ddd9e1c60ff8e5c83020718d"
+  },
+  {
+    "path": "/home/ayushregmibagale/10PROTAC-MD/SJF8240_reanalysis/full_frame_e2_delta50_v1/analysis/poses/AXL/pose015/packet.npz",
+    "sha256": "9cde1c8e0ae85c6d3bb598db06b7bd813603f34f6a9942d55ca23e1307fa7b63"
+  },
+  {
+    "path": "/home/ayushregmibagale/10PROTAC-MD/SJF8240_renanalysis2/native_catalytic_validation_v2/results/poses/AXL/pose015/packet.npz",
+    "sha256": "15144a00f15462942e1da217c925ef3e5d0f76b6f2ec3bb745f80f7cab07ecf3"
+  },
+  {
+    "path": "/home/ayushregmibagale/10PROTAC-MD/SJF8240_reanalysis/mechanistic_v3/analysis/lysines/poses/AXL/pose015/packet.npz",
+    "sha256": "725b385db9bdb787e90c3f2b57ad80d9aa43fd0c4403eab1495a9a78c612e62d"
+  },
+  {
+    "path": "/mnt/c/Users/Ayush Regmi Bagale/SJF8240_ten_target_mechanistic_v1/reach50/AXL/pose016/packet.npz",
+    "sha256": "20e959bd999ff8cbc362549f3e0c7cdde31ee029ddd9e1c60ff8e5c83020718d"
+  },
+  {
+    "path": "/home/ayushregmibagale/10PROTAC-MD/SJF8240_reanalysis/full_frame_e2_delta50_v1/analysis/poses/AXL/pose016/packet.npz",
+    "sha256": "c39b4f78587f2f6e8c7247746388f77dca57b886aa9499bb5bb588b5de1276a7"
+  },
+  {
+    "path": "/home/ayushregmibagale/10PROTAC-MD/SJF8240_renanalysis2/native_catalytic_validation_v2/results/poses/AXL/pose016/packet.npz",
+    "sha256": "8a50c8dc5ddd2a90ae977eb133a5a30175f8b54d1d0cddfcacd124b56ffca517"
+  },
+  {
+    "path": "/home/ayushregmibagale/10PROTAC-MD/SJF8240_reanalysis/mechanistic_v3/analysis/lysines/poses/AXL/pose016/packet.npz",
+    "sha256": "f0aefe2f310aaedcd55bb7f4d0c0fdce5572ac6083e356e4d30d6c8651b2e415"
+  },
+  {
+    "path": "/mnt/c/Users/Ayush Regmi Bagale/SJF8240_ten_target_mechanistic_v1/reach50/AXL/pose017/packet.npz",
+    "sha256": "64c1cb3c05a2eece25532057321580ad52a8150c366a6b07cb60e45c3a0cb0c5"
+  },
+  {
+    "path": "/home/ayushregmibagale/10PROTAC-MD/SJF8240_reanalysis/full_frame_e2_delta50_v1/analysis/poses/AXL/pose017/packet.npz",
+    "sha256": "89a7571c9195183b603ffb5fba0cc2e057dbcb4e1eb5cb6a304b88d3f7631363"
+  },
+  {
+    "path": "/home/ayushregmibagale/10PROTAC-MD/SJF8240_renanalysis2/native_catalytic_validation_v2/results/poses/AXL/pose017/packet.npz",
+    "sha256": "89f15c42627d8496abd66c0638461fd962255ef6885d9bfc297fdda6c5bff8f7"
+  },
+  {
+    "path": "/home/ayushregmibagale/10PROTAC-MD/SJF8240_reanalysis/mechanistic_v3/analysis/lysines/poses/AXL/pose017/packet.npz",
+    "sha256": "31283de943ad8a1a1b533c3904205abbaa22a2a112f8741440dacbc3093ac5cf"
+  },
+  {
+    "path": "/mnt/c/Users/Ayush Regmi Bagale/SJF8240_ten_target_mechanistic_v1/reach50/AXL/pose018/packet.npz",
+    "sha256": "308cd83525ea2a27ddc24a5777171494dcfd505b8c1ce756b2950e06a3c149c1"
+  },
+  {
+    "path": "/home/ayushregmibagale/10PROTAC-MD/SJF8240_reanalysis/full_frame_e2_delta50_v1/analysis/poses/AXL/pose018/packet.npz",
+    "sha256": "c395f1f3eddbc1c6956fc0472386eab9fd85b2b36f58ce7a439998f48a6cc038"
+  },
+  {
+    "path": "/home/ayushregmibagale/10PROTAC-MD/SJF8240_renanalysis2/native_catalytic_validation_v2/results/poses/AXL/pose018/packet.npz",
+    "sha256": "23bef01803e8cb41a7c7e966d7b1151830696340f330f763f86b6e00d708535a"
+  },
+  {
+    "path": "/home/ayushregmibagale/10PROTAC-MD/SJF8240_reanalysis/mechanistic_v3/analysis/lysines/poses/AXL/pose018/packet.npz",
+    "sha256": "77e8154c89494fe44b61ee1832baa0199c222d9fc3b047aa9e81ba2a4d3f4384"
+  },
+  {
+    "path": "/mnt/c/Users/Ayush Regmi Bagale/SJF8240_ten_target_mechanistic_v1/reach50/AXL/pose019/packet.npz",
+    "sha256": "20e959bd999ff8cbc362549f3e0c7cdde31ee029ddd9e1c60ff8e5c83020718d"
+  },
+  {
+    "path": "/home/ayushregmibagale/10PROTAC-MD/SJF8240_reanalysis/full_frame_e2_delta50_v1/analysis/poses/AXL/pose019/packet.npz",
+    "sha256": "3f5ddb5c592928acc766c0473633d5eb1e45e5267e84906f1076bc299289e6df"
+  },
+  {
+    "path": "/home/ayushregmibagale/10PROTAC-MD/SJF8240_renanalysis2/native_catalytic_validation_v2/results/poses/AXL/pose019/packet.npz",
+    "sha256": "38d151cd972bc1936e913061949022e4c61a1ca716b277786564e20904a07bde"
+  },
+  {
+    "path": "/home/ayushregmibagale/10PROTAC-MD/SJF8240_reanalysis/mechanistic_v3/analysis/lysines/poses/AXL/pose019/packet.npz",
+    "sha256": "e6caeb8b4fd126f4fc1d7954bbb4ece86f337888a197fe4f6075d79e653faca8"
+  },
+  {
+    "path": "/mnt/c/Users/Ayush Regmi Bagale/SJF8240_ten_target_mechanistic_v1/reach50/AXL/pose020/packet.npz",
+    "sha256": "20e959bd999ff8cbc362549f3e0c7cdde31ee029ddd9e1c60ff8e5c83020718d"
+  },
+  {
+    "path": "/home/ayushregmibagale/10PROTAC-MD/SJF8240_reanalysis/full_frame_e2_delta50_v1/analysis/poses/AXL/pose020/packet.npz",
+    "sha256": "a7290161ca0992c6ef26cbe8b968cf95c8dadd17a312df82efd505f72688bc99"
+  },
+  {
+    "path": "/home/ayushregmibagale/10PROTAC-MD/SJF8240_renanalysis2/native_catalytic_validation_v2/results/poses/AXL/pose020/packet.npz",
+    "sha256": "d91ad230e57515f23e1c82c61695258c95bf8a1a91d2e8e69fa7a6c2565b38ee"
+  },
+  {
+    "path": "/home/ayushregmibagale/10PROTAC-MD/SJF8240_reanalysis/mechanistic_v3/analysis/lysines/poses/AXL/pose020/packet.npz",
+    "sha256": "cd6f2992dbd3237eed77f27fb95e1c24806ab2ea9081d8fda3968e1d995ceb4b"
+  },
+  {
+    "path": "/mnt/c/Users/Ayush Regmi Bagale/SJF8240_ten_target_mechanistic_v1/reach50/DDR2/pose001/packet.npz",
+    "sha256": "64b5900825fac165a9c9bb85e43642b41918829f92715df85d03479fb2dd45d7"
+  },
+  {
+    "path": "/home/ayushregmibagale/10PROTAC-MD/SJF8240_reanalysis/full_frame_e2_delta50_v1/analysis/poses/DDR2/pose001/packet.npz",
+    "sha256": "78c6b09573551d1ffab1e01ca45a270b34800ef4c6f5ab7b46ba767ef839ea85"
+  },
+  {
+    "path": "/home/ayushregmibagale/10PROTAC-MD/SJF8240_renanalysis2/native_catalytic_validation_v2/results/poses/DDR2/pose001/packet.npz",
+    "sha256": "a71d1388099a8b88d0108ddbdedcac6a196caa38382528d0464d8d0ceed42760"
+  },
+  {
+    "path": "/home/ayushregmibagale/10PROTAC-MD/SJF8240_reanalysis/mechanistic_v3/analysis/lysines/poses/DDR2/pose001/packet.npz",
+    "sha256": "0b9c60758c1ae5a48b9547789a8927eb22ce1074bdfde3776778e04914afb1f0"
+  },
+  {
+    "path": "/mnt/c/Users/Ayush Regmi Bagale/SJF8240_ten_target_mechanistic_v1/reach50/DDR2/pose002/packet.npz",
+    "sha256": "ec0822b9d8b81e7cb5b46b2a2a0795d1a0e12c9bbf14865767a338a9af2a6f11"
+  },
+  {
+    "path": "/home/ayushregmibagale/10PROTAC-MD/SJF8240_reanalysis/full_frame_e2_delta50_v1/analysis/poses/DDR2/pose002/packet.npz",
+    "sha256": "964f52751614e43056e8ca2fe03f28668815e7123e4000721af4060b0361d379"
+  },
+  {
+    "path": "/home/ayushregmibagale/10PROTAC-MD/SJF8240_renanalysis2/native_catalytic_validation_v2/results/poses/DDR2/pose002/packet.npz",
+    "sha256": "1a76ecf904db8ff3aca477b27a4d0d8077315db9c7be7fc8a7eca061db9655c1"
+  },
+  {
+    "path": "/home/ayushregmibagale/10PROTAC-MD/SJF8240_reanalysis/mechanistic_v3/analysis/lysines/poses/DDR2/pose002/packet.npz",
+    "sha256": "c03536860539fda76551800d0cd3d3b373c7875516c628360e60384f18726d9d"
+  },
+  {
+    "path": "/mnt/c/Users/Ayush Regmi Bagale/SJF8240_ten_target_mechanistic_v1/reach50/DDR2/pose003/packet.npz",
+    "sha256": "64b5900825fac165a9c9bb85e43642b41918829f92715df85d03479fb2dd45d7"
+  },
+  {
+    "path": "/home/ayushregmibagale/10PROTAC-MD/SJF8240_reanalysis/full_frame_e2_delta50_v1/analysis/poses/DDR2/pose003/packet.npz",
+    "sha256": "bb4fa81c507dd677e3fd96c714eca3a1500501c863e5f58e8fbfdcca31fbdb24"
+  },
+  {
+    "path": "/home/ayushregmibagale/10PROTAC-MD/SJF8240_renanalysis2/native_catalytic_validation_v2/results/poses/DDR2/pose003/packet.npz",
+    "sha256": "856954c4a853e49994161f5713ad3c955aa573bcb8557891b26a799d12bb87ba"
+  },
+  {
+    "path": "/home/ayushregmibagale/10PROTAC-MD/SJF8240_reanalysis/mechanistic_v3/analysis/lysines/poses/DDR2/pose003/packet.npz",
+    "sha256": "32c5deb296c0b89c62d85e6ec137f35b265b1a20ec9cd2565bfe621e1a89a1b2"
+  },
+  {
+    "path": "/mnt/c/Users/Ayush Regmi Bagale/SJF8240_ten_target_mechanistic_v1/reach50/DDR2/pose004/packet.npz",
+    "sha256": "f92e78a07c735749650113cb56753b488e956f4b84896e55e7e8d00d2dbae114"
+  },
+  {
+    "path": "/home/ayushregmibagale/10PROTAC-MD/SJF8240_reanalysis/full_frame_e2_delta50_v1/analysis/poses/DDR2/pose004/packet.npz",
+    "sha256": "dff777a99d85339a55b610fa97d58b07c8b8ba1aab8687c72e844ff66368cdb9"
+  },
+  {
+    "path": "/home/ayushregmibagale/10PROTAC-MD/SJF8240_renanalysis2/native_catalytic_validation_v2/results/poses/DDR2/pose004/packet.npz",
+    "sha256": "80261e80bf16bbcb4d62a800e9feda32f6b070f9c9b2a241733749918f487541"
+  },
+  {
+    "path": "/home/ayushregmibagale/10PROTAC-MD/SJF8240_reanalysis/mechanistic_v3/analysis/lysines/poses/DDR2/pose004/packet.npz",
+    "sha256": "863f1395873051d29b911419e897e2597267b6a5571ac78ec8c9d904c618cc07"
+  },
+  {
+    "path": "/mnt/c/Users/Ayush Regmi Bagale/SJF8240_ten_target_mechanistic_v1/reach50/DDR2/pose005/packet.npz",
+    "sha256": "64b5900825fac165a9c9bb85e43642b41918829f92715df85d03479fb2dd45d7"
+  },
+  {
+    "path": "/home/ayushregmibagale/10PROTAC-MD/SJF8240_reanalysis/full_frame_e2_delta50_v1/analysis/poses/DDR2/pose005/packet.npz",
+    "sha256": "8160553e4e0b72a1385afad5b12a8ce2fb570d0e80e63ed7098d5107d746f4ba"
+  },
+  {
+    "path": "/home/ayushregmibagale/10PROTAC-MD/SJF8240_renanalysis2/native_catalytic_validation_v2/results/poses/DDR2/pose005/packet.npz",
+    "sha256": "d61a05766ccc4c873e42d5e82b8b611afcf0236a088621ad7e1ea33812a40808"
+  },
+  {
+    "path": "/home/ayushregmibagale/10PROTAC-MD/SJF8240_reanalysis/mechanistic_v3/analysis/lysines/poses/DDR2/pose005/packet.npz",
+    "sha256": "8202d3515d2076256640a2c1790cd169a68222d47308c72c4d8e49af0ff24a91"
+  },
+  {
+    "path": "/mnt/c/Users/Ayush Regmi Bagale/SJF8240_ten_target_mechanistic_v1/reach50/DDR2/pose006/packet.npz",
+    "sha256": "64b5900825fac165a9c9bb85e43642b41918829f92715df85d03479fb2dd45d7"
+  },
+  {
+    "path": "/home/ayushregmibagale/10PROTAC-MD/SJF8240_reanalysis/full_frame_e2_delta50_v1/analysis/poses/DDR2/pose006/packet.npz",
+    "sha256": "bb061e462e251f7267ed48d3ecabf161caa266d683db8f7b5fd683b525610d77"
+  },
+  {
+    "path": "/home/ayushregmibagale/10PROTAC-MD/SJF8240_renanalysis2/native_catalytic_validation_v2/results/poses/DDR2/pose006/packet.npz",
+    "sha256": "a9225e73bb2ab994326e33c66ca6bea446b8b6d22b46ffe9fe3e69e65aa4575d"
+  },
+  {
+    "path": "/home/ayushregmibagale/10PROTAC-MD/SJF8240_reanalysis/mechanistic_v3/analysis/lysines/poses/DDR2/pose006/packet.npz",
+    "sha256": "49b01f5d60ac5b267240f3b84db63c6fbeb5b812e3b97fc8cd55695ec8df8dc0"
+  },
+  {
+    "path": "/mnt/c/Users/Ayush Regmi Bagale/SJF8240_ten_target_mechanistic_v1/reach50/DDR2/pose007/packet.npz",
+    "sha256": "64b5900825fac165a9c9bb85e43642b41918829f92715df85d03479fb2dd45d7"
+  },
+  {
+    "path": "/home/ayushregmibagale/10PROTAC-MD/SJF8240_reanalysis/full_frame_e2_delta50_v1/analysis/poses/DDR2/pose007/packet.npz",
+    "sha256": "7c0785ebd8f72c0e1b7ef56d21ce29f53d129cfe16421856d60e5b3cd86b14fe"
+  },
+  {
+    "path": "/home/ayushregmibagale/10PROTAC-MD/SJF8240_renanalysis2/native_catalytic_validation_v2/results/poses/DDR2/pose007/packet.npz",
+    "sha256": "8ccc97fd142cf773657177938c081dbd64c26b34b97a03585fe89bc08f6b355b"
+  },
+  {
+    "path": "/home/ayushregmibagale/10PROTAC-MD/SJF8240_reanalysis/mechanistic_v3/analysis/lysines/poses/DDR2/pose007/packet.npz",
+    "sha256": "7acda02744ec4749b68c0baa3b1dfa068fcfd083044b234d8c361ec7f9097baa"
+  },
+  {
+    "path": "/mnt/c/Users/Ayush Regmi Bagale/SJF8240_ten_target_mechanistic_v1/reach50/DDR2/pose008/packet.npz",
+    "sha256": "8149b67d217911869e10f7e60e92aa436474e36b3930e9bde9eaec89588b7a53"
+  },
+  {
+    "path": "/home/ayushregmibagale/10PROTAC-MD/SJF8240_reanalysis/full_frame_e2_delta50_v1/analysis/poses/DDR2/pose008/packet.npz",
+    "sha256": "2fbab7b94dbadfe72ee036881db3bf89794d7b5a4505864dfd2fc311f078574d"
+  },
+  {
+    "path": "/home/ayushregmibagale/10PROTAC-MD/SJF8240_renanalysis2/native_catalytic_validation_v2/results/poses/DDR2/pose008/packet.npz",
+    "sha256": "c0a16b1c82080597957aa1dd295fed939240b156452361ffa6ea3f90f9e37780"
+  },
+  {
+    "path": "/home/ayushregmibagale/10PROTAC-MD/SJF8240_reanalysis/mechanistic_v3/analysis/lysines/poses/DDR2/pose008/packet.npz",
+    "sha256": "ed6b39593f94ff1fb0cc34dba83901d7d0a17386d41faf40c3afb6030c0a7161"
+  },
+  {
+    "path": "/mnt/c/Users/Ayush Regmi Bagale/SJF8240_ten_target_mechanistic_v1/reach50/DDR2/pose010/packet.npz",
+    "sha256": "13642b76ffff4399ed7ee5fe875fa4177134a4014359971e9c072e29a8e901c9"
+  },
+  {
+    "path": "/home/ayushregmibagale/10PROTAC-MD/SJF8240_reanalysis/full_frame_e2_delta50_v1/analysis/poses/DDR2/pose010/packet.npz",
+    "sha256": "e2a860a69c2df3032d36f8bb2ce275c6efed8a14316ca0deee2acca898b423d4"
+  },
+  {
+    "path": "/home/ayushregmibagale/10PROTAC-MD/SJF8240_renanalysis2/native_catalytic_validation_v2/results/poses/DDR2/pose010/packet.npz",
+    "sha256": "c02e48931e7c6e5efea6f2655260fe0fe5eb9f138cb20fbb10cc9d290393a92c"
+  },
+  {
+    "path": "/home/ayushregmibagale/10PROTAC-MD/SJF8240_reanalysis/mechanistic_v3/analysis/lysines/poses/DDR2/pose010/packet.npz",
+    "sha256": "96d420cb25d3b5b44b38d650eda635c2f53400e76d1d4bacf9ef4f0fb2dc2371"
+  },
+  {
+    "path": "/mnt/c/Users/Ayush Regmi Bagale/SJF8240_ten_target_mechanistic_v1/reach50/DDR2/pose011/packet.npz",
+    "sha256": "64b5900825fac165a9c9bb85e43642b41918829f92715df85d03479fb2dd45d7"
+  },
+  {
+    "path": "/home/ayushregmibagale/10PROTAC-MD/SJF8240_reanalysis/full_frame_e2_delta50_v1/analysis/poses/DDR2/pose011/packet.npz",
+    "sha256": "8eb75f7df824f9a7be306cc60ec3f43086cb764066c8854d706e82282cb6a73b"
+  },
+  {
+    "path": "/home/ayushregmibagale/10PROTAC-MD/SJF8240_renanalysis2/native_catalytic_validation_v2/results/poses/DDR2/pose011/packet.npz",
+    "sha256": "2c89fe8c8e5e76b5aba62f2dd03fd3424055e57beaf93611babd5f410e3de3e2"
+  },
+  {
+    "path": "/home/ayushregmibagale/10PROTAC-MD/SJF8240_reanalysis/mechanistic_v3/analysis/lysines/poses/DDR2/pose011/packet.npz",
+    "sha256": "29a607b7e80ece6ae0ea12fcaa51fd310378563867c066308af70701299b21aa"
+  },
+  {
+    "path": "/mnt/c/Users/Ayush Regmi Bagale/SJF8240_ten_target_mechanistic_v1/reach50/DDR2/pose013/packet.npz",
+    "sha256": "64b5900825fac165a9c9bb85e43642b41918829f92715df85d03479fb2dd45d7"
+  },
+  {
+    "path": "/home/ayushregmibagale/10PROTAC-MD/SJF8240_reanalysis/full_frame_e2_delta50_v1/analysis/poses/DDR2/pose013/packet.npz",
+    "sha256": "3ac458eb18ff135e1774c4481101ba4bd0fee98248474e4571f56b0e0cd74ae9"
+  },
+  {
+    "path": "/home/ayushregmibagale/10PROTAC-MD/SJF8240_renanalysis2/native_catalytic_validation_v2/results/poses/DDR2/pose013/packet.npz",
+    "sha256": "7273e73be3996428ae54d43c2e29ba9d11396cb62881db6f65a5f899f3c66d2d"
+  },
+  {
+    "path": "/home/ayushregmibagale/10PROTAC-MD/SJF8240_reanalysis/mechanistic_v3/analysis/lysines/poses/DDR2/pose013/packet.npz",
+    "sha256": "e18a02bc5f1780b20c43f7919cad10e0cd672322da5159afe7a886a9f974a303"
+  },
+  {
+    "path": "/mnt/c/Users/Ayush Regmi Bagale/SJF8240_ten_target_mechanistic_v1/reach50/DDR2/pose014/packet.npz",
+    "sha256": "e107ad21508c583a40a7fff865ac576b278311680632183e5449e2a12aed8e81"
+  },
+  {
+    "path": "/home/ayushregmibagale/10PROTAC-MD/SJF8240_reanalysis/full_frame_e2_delta50_v1/analysis/poses/DDR2/pose014/packet.npz",
+    "sha256": "66f3e00202e835901347d580c7f51bd2950bd621eedc6804ed54b23d10b45009"
+  },
+  {
+    "path": "/home/ayushregmibagale/10PROTAC-MD/SJF8240_renanalysis2/native_catalytic_validation_v2/results/poses/DDR2/pose014/packet.npz",
+    "sha256": "6db097319f726b502af62b40c7268486a8cec51f9ab25218a0742704a60635e0"
+  },
+  {
+    "path": "/home/ayushregmibagale/10PROTAC-MD/SJF8240_reanalysis/mechanistic_v3/analysis/lysines/poses/DDR2/pose014/packet.npz",
+    "sha256": "b939fed93cb0d935f5487be9b88bfca703195d620c4871da1717d415ddf730a6"
+  },
+  {
+    "path": "/mnt/c/Users/Ayush Regmi Bagale/SJF8240_ten_target_mechanistic_v1/reach50/DDR2/pose015/packet.npz",
+    "sha256": "ea56703ddb3cdd28a2173e87a35b0908858bd7c0b6f864b273f035f6950c3f21"
+  },
+  {
+    "path": "/home/ayushregmibagale/10PROTAC-MD/SJF8240_reanalysis/full_frame_e2_delta50_v1/analysis/poses/DDR2/pose015/packet.npz",
+    "sha256": "11e7a6fd4194dc6d1da765abd378e69779174ea3fa6ecb2c994c21249cf97b6c"
+  },
+  {
+    "path": "/home/ayushregmibagale/10PROTAC-MD/SJF8240_renanalysis2/native_catalytic_validation_v2/results/poses/DDR2/pose015/packet.npz",
+    "sha256": "ecfd3a8193a4223b58ca1f32ad29869efd69a1b0a18e1d52ffa01c35de7ef4e8"
+  },
+  {
+    "path": "/home/ayushregmibagale/10PROTAC-MD/SJF8240_reanalysis/mechanistic_v3/analysis/lysines/poses/DDR2/pose015/packet.npz",
+    "sha256": "fcda7853f78f72189976d0f0c7692d38b0655c4e23822382fc52b52240be470d"
+  },
+  {
+    "path": "/mnt/c/Users/Ayush Regmi Bagale/SJF8240_ten_target_mechanistic_v1/reach50/DDR2/pose016/packet.npz",
+    "sha256": "1dc773abd11442f3421bf6eead7cb169e09481de4d906db37ee8abda6a28a870"
+  },
+  {
+    "path": "/home/ayushregmibagale/10PROTAC-MD/SJF8240_reanalysis/full_frame_e2_delta50_v1/analysis/poses/DDR2/pose016/packet.npz",
+    "sha256": "9b82ec30111a75db4d26e57d7ef762b43bdd30c6b34fdb2bbea56347fc5302fb"
+  },
+  {
+    "path": "/home/ayushregmibagale/10PROTAC-MD/SJF8240_renanalysis2/native_catalytic_validation_v2/results/poses/DDR2/pose016/packet.npz",
+    "sha256": "4cc5564e52e7eef1e308658a7a4961d30437ff35e7d15a348e0ebf5ec0558ff2"
+  },
+  {
+    "path": "/home/ayushregmibagale/10PROTAC-MD/SJF8240_reanalysis/mechanistic_v3/analysis/lysines/poses/DDR2/pose016/packet.npz",
+    "sha256": "6d845c1194957347e06d0c9a8f4fdea136c9cacbbd652e709ac795adbc318c93"
+  },
+  {
+    "path": "/mnt/c/Users/Ayush Regmi Bagale/SJF8240_ten_target_mechanistic_v1/reach50/DDR2/pose017/packet.npz",
+    "sha256": "1978eb3243b6a4cb0580d38a09e8a343d2758e49c95faced83d602c79a7b3cb6"
+  },
+  {
+    "path": "/home/ayushregmibagale/10PROTAC-MD/SJF8240_reanalysis/full_frame_e2_delta50_v1/analysis/poses/DDR2/pose017/packet.npz",
+    "sha256": "fd46d290081b67733dd8dbf54ad55ae5ca5b09cb587c733043474c2cc9403889"
+  },
+  {
+    "path": "/home/ayushregmibagale/10PROTAC-MD/SJF8240_renanalysis2/native_catalytic_validation_v2/results/poses/DDR2/pose017/packet.npz",
+    "sha256": "80bfb1420b68e222fe64cb89e9e6c01f538bf8d1c05990894d2aa0957698fed3"
+  },
+  {
+    "path": "/home/ayushregmibagale/10PROTAC-MD/SJF8240_reanalysis/mechanistic_v3/analysis/lysines/poses/DDR2/pose017/packet.npz",
+    "sha256": "803a14eb124331857899d1b7b3c8ede5d93a27d68ac1a9dd1441ea7d37db6f0a"
+  },
+  {
+    "path": "/mnt/c/Users/Ayush Regmi Bagale/SJF8240_ten_target_mechanistic_v1/reach50/DDR2/pose018/packet.npz",
+    "sha256": "727faeef17e64429111fa970293a41468b8464d92047c72d1fc74ca43eb40d66"
+  },
+  {
+    "path": "/home/ayushregmibagale/10PROTAC-MD/SJF8240_reanalysis/full_frame_e2_delta50_v1/analysis/poses/DDR2/pose018/packet.npz",
+    "sha256": "80b27a67400ebd940ffe4939b4c1577e56e236ad36c693659917221cd89ee465"
+  },
+  {
+    "path": "/home/ayushregmibagale/10PROTAC-MD/SJF8240_renanalysis2/native_catalytic_validation_v2/results/poses/DDR2/pose018/packet.npz",
+    "sha256": "1221fa08f97e95ddd433b464fc60cde4b3b6d403c84993854ea633a9b0c4af43"
+  },
+  {
+    "path": "/home/ayushregmibagale/10PROTAC-MD/SJF8240_reanalysis/mechanistic_v3/analysis/lysines/poses/DDR2/pose018/packet.npz",
+    "sha256": "9bbfa03aa04e0d90df704f50d3718b15a73ad9c6a7f6f11d160b5e46f37a4d31"
+  },
+  {
+    "path": "/mnt/c/Users/Ayush Regmi Bagale/SJF8240_ten_target_mechanistic_v1/reach50/DDR2/pose019/packet.npz",
+    "sha256": "f7ca76c685c673757ef73aee8bb806214275982e7a663aff789605624f7b0b62"
+  },
+  {
+    "path": "/home/ayushregmibagale/10PROTAC-MD/SJF8240_reanalysis/full_frame_e2_delta50_v1/analysis/poses/DDR2/pose019/packet.npz",
+    "sha256": "f9e38313605bb580b8f3af73cc2e0d402d014dd0b0f54c6780915480d932ffb8"
+  },
+  {
+    "path": "/home/ayushregmibagale/10PROTAC-MD/SJF8240_renanalysis2/native_catalytic_validation_v2/results/poses/DDR2/pose019/packet.npz",
+    "sha256": "cc25790bd4efef04a37375f0dac65db68068df10882bfb4f8da3226b6570caa8"
+  },
+  {
+    "path": "/home/ayushregmibagale/10PROTAC-MD/SJF8240_reanalysis/mechanistic_v3/analysis/lysines/poses/DDR2/pose019/packet.npz",
+    "sha256": "958a279feae2145c27a2f64d8872e06f3c22f039bac2600c4f31f16dccca875d"
+  },
+  {
+    "path": "/mnt/c/Users/Ayush Regmi Bagale/SJF8240_ten_target_mechanistic_v1/reach50/DDR2/pose020/packet.npz",
+    "sha256": "64b5900825fac165a9c9bb85e43642b41918829f92715df85d03479fb2dd45d7"
+  },
+  {
+    "path": "/home/ayushregmibagale/10PROTAC-MD/SJF8240_reanalysis/full_frame_e2_delta50_v1/analysis/poses/DDR2/pose020/packet.npz",
+    "sha256": "af3a41f23d4155369de9cfb0d6931102e6fa3cbe4466b0986931fa14735fa946"
+  },
+  {
+    "path": "/home/ayushregmibagale/10PROTAC-MD/SJF8240_renanalysis2/native_catalytic_validation_v2/results/poses/DDR2/pose020/packet.npz",
+    "sha256": "275275952ea17fa37481c767359146aba4a2af39d6fc1f1bb9577af23061d2dc"
+  },
+  {
+    "path": "/home/ayushregmibagale/10PROTAC-MD/SJF8240_reanalysis/mechanistic_v3/analysis/lysines/poses/DDR2/pose020/packet.npz",
+    "sha256": "69f6875988a3bfa0435eae35109f6fbde4c8a2a6b146e79246d696c74728d2bc"
+  },
+  {
+    "path": "/mnt/c/Users/Ayush Regmi Bagale/SJF8240_ten_target_mechanistic_v1/reach50/EPHA2/pose001/packet.npz",
+    "sha256": "bc5f644f24feb0c7d5e59527b4fd7dca8a79b79063c7e8b6283b3708f08ef756"
+  },
+  {
+    "path": "/home/ayushregmibagale/10PROTAC-MD/SJF8240_reanalysis/full_frame_e2_delta50_v1/analysis/poses/EPHA2/pose001/packet.npz",
+    "sha256": "6907d2bc58170b4c97294839d483e6d4495bb6de5344458f3b2f2da4bfb62a4f"
+  },
+  {
+    "path": "/home/ayushregmibagale/10PROTAC-MD/SJF8240_renanalysis2/native_catalytic_validation_v2/results/poses/EPHA2/pose001/packet.npz",
+    "sha256": "00fe62f81c6d3552b9607f97d44b25a4ecd1382f69827918fda8ed49af6a1d16"
+  },
+  {
+    "path": "/home/ayushregmibagale/10PROTAC-MD/SJF8240_reanalysis/mechanistic_v3/analysis/lysines/poses/EPHA2/pose001/packet.npz",
+    "sha256": "54ea4955bc951d204949443d5b25cd797c7fa9ce8d7f6c4fa61f6f3c2b75af0e"
+  },
+  {
+    "path": "/mnt/c/Users/Ayush Regmi Bagale/SJF8240_ten_target_mechanistic_v1/reach50/EPHA2/pose002/packet.npz",
+    "sha256": "436f6aa325bac9738317ffa9fec2de8d1529d982a890e6ffa1756e5a95469bcc"
+  },
+  {
+    "path": "/home/ayushregmibagale/10PROTAC-MD/SJF8240_reanalysis/full_frame_e2_delta50_v1/analysis/poses/EPHA2/pose002/packet.npz",
+    "sha256": "754f6191f4870bc8a086ab8ed56adc0e5d651a592d4878a5b7e787f40125af46"
+  },
+  {
+    "path": "/home/ayushregmibagale/10PROTAC-MD/SJF8240_renanalysis2/native_catalytic_validation_v2/results/poses/EPHA2/pose002/packet.npz",
+    "sha256": "67c1d4c32a58a4edc25a8a3acd27caf249e92953aebb732c50adef7c103be3b7"
+  },
+  {
+    "path": "/home/ayushregmibagale/10PROTAC-MD/SJF8240_reanalysis/mechanistic_v3/analysis/lysines/poses/EPHA2/pose002/packet.npz",
+    "sha256": "1891127ec30841db4cb81b6a47715dd566836d8d1ea5f1b73ff065a06fea3d89"
+  },
+  {
+    "path": "/mnt/c/Users/Ayush Regmi Bagale/SJF8240_ten_target_mechanistic_v1/reach50/EPHA2/pose003/packet.npz",
+    "sha256": "436f6aa325bac9738317ffa9fec2de8d1529d982a890e6ffa1756e5a95469bcc"
+  },
+  {
+    "path": "/home/ayushregmibagale/10PROTAC-MD/SJF8240_reanalysis/full_frame_e2_delta50_v1/analysis/poses/EPHA2/pose003/packet.npz",
+    "sha256": "516ad512fc43683d7b6a989cb41826331d9575886d87ce0c756c52bfce6e8e08"
+  },
+  {
+    "path": "/home/ayushregmibagale/10PROTAC-MD/SJF8240_renanalysis2/native_catalytic_validation_v2/results/poses/EPHA2/pose003/packet.npz",
+    "sha256": "e5246f0ab177beb4e5223b944c08afe5c9a3d4aec7d111a4e50ef57f2d491dd5"
+  },
+  {
+    "path": "/home/ayushregmibagale/10PROTAC-MD/SJF8240_reanalysis/mechanistic_v3/analysis/lysines/poses/EPHA2/pose003/packet.npz",
+    "sha256": "1c002a9025a07f36b1f40b237328c0e9aa0ca9235f2e865ccde7b6126224b611"
+  },
+  {
+    "path": "/mnt/c/Users/Ayush Regmi Bagale/SJF8240_ten_target_mechanistic_v1/reach50/EPHA2/pose004/packet.npz",
+    "sha256": "ca918afd4a03bd214ed16582a5f8fd75089d3def67159052b81913475ddf6cb5"
+  },
+  {
+    "path": "/home/ayushregmibagale/10PROTAC-MD/SJF8240_reanalysis/full_frame_e2_delta50_v1/analysis/poses/EPHA2/pose004/packet.npz",
+    "sha256": "4eac63d097186e8301eae4e76be6d6ba7960947bc6cf1e9579b9f9edb6427343"
+  },
+  {
+    "path": "/home/ayushregmibagale/10PROTAC-MD/SJF8240_renanalysis2/native_catalytic_validation_v2/results/poses/EPHA2/pose004/packet.npz",
+    "sha256": "3dd637bd84b9d5bffe66698fada1133ff965cc6f5a6442cbad1ebe3395327522"
+  },
+  {
+    "path": "/home/ayushregmibagale/10PROTAC-MD/SJF8240_reanalysis/mechanistic_v3/analysis/lysines/poses/EPHA2/pose004/packet.npz",
+    "sha256": "205d5f1de78d82d34ed8cda66e9e68ef1e4ca26337b84f4f43562f3aa0750697"
+  },
+  {
+    "path": "/mnt/c/Users/Ayush Regmi Bagale/SJF8240_ten_target_mechanistic_v1/reach50/EPHA2/pose005/packet.npz",
+    "sha256": "749acf2985227e02d8ba1c4782b255bc4fbb4f05310021adf4f467b0ba3d70c8"
+  },
+  {
+    "path": "/home/ayushregmibagale/10PROTAC-MD/SJF8240_reanalysis/full_frame_e2_delta50_v1/analysis/poses/EPHA2/pose005/packet.npz",
+    "sha256": "f2756b44b4f75353ccfb203e5d327d8e16b5b665a0e036654400df63481c67c7"
+  },
+  {
+    "path": "/home/ayushregmibagale/10PROTAC-MD/SJF8240_renanalysis2/native_catalytic_validation_v2/results/poses/EPHA2/pose005/packet.npz",
+    "sha256": "e168d97219c447998971dfd03c255961ffeaf233e507466469c75b535eeb57a0"
+  },
+  {
+    "path": "/home/ayushregmibagale/10PROTAC-MD/SJF8240_reanalysis/mechanistic_v3/analysis/lysines/poses/EPHA2/pose005/packet.npz",
+    "sha256": "b83d47584002f97c49ae7e1bc2442d69efaad6e82637baacff7ae5199d4131a8"
+  },
+  {
+    "path": "/mnt/c/Users/Ayush Regmi Bagale/SJF8240_ten_target_mechanistic_v1/reach50/EPHA2/pose006/packet.npz",
+    "sha256": "de56c7eba0830fdad57de1c87cd52ad11311d49d7d678cc165ef6311e6ff1655"
+  },
+  {
+    "path": "/home/ayushregmibagale/10PROTAC-MD/SJF8240_reanalysis/full_frame_e2_delta50_v1/analysis/poses/EPHA2/pose006/packet.npz",
+    "sha256": "951722125996fa6fd0be4798cb74b102ba5495e95c381fc1a87b30203d005fb3"
+  },
+  {
+    "path": "/home/ayushregmibagale/10PROTAC-MD/SJF8240_renanalysis2/native_catalytic_validation_v2/results/poses/EPHA2/pose006/packet.npz",
+    "sha256": "48f3e32d49b926e755510371a5bcb981976e1ebecd425cd5f949b92259612ba6"
+  },
+  {
+    "path": "/home/ayushregmibagale/10PROTAC-MD/SJF8240_reanalysis/mechanistic_v3/analysis/lysines/poses/EPHA2/pose006/packet.npz",
+    "sha256": "d8d7a6e7fdb219fca63c12bffab69be638508212d99911f76280b39d1b123155"
+  },
+  {
+    "path": "/mnt/c/Users/Ayush Regmi Bagale/SJF8240_ten_target_mechanistic_v1/reach50/EPHA2/pose007/packet.npz",
+    "sha256": "e484f51efb613918d7235e7e4fac3987ad1f2fded47ae5ebc8071f409d133337"
+  },
+  {
+    "path": "/home/ayushregmibagale/10PROTAC-MD/SJF8240_reanalysis/full_frame_e2_delta50_v1/analysis/poses/EPHA2/pose007/packet.npz",
+    "sha256": "3ffba10b8e269e8770998278886adccb79e3164eb311190ba78a92eb39ffabd0"
+  },
+  {
+    "path": "/home/ayushregmibagale/10PROTAC-MD/SJF8240_renanalysis2/native_catalytic_validation_v2/results/poses/EPHA2/pose007/packet.npz",
+    "sha256": "35af3c497c91f15f41ebeeccd799f23621faa63e68de7877f1ebe9f21aca40df"
+  },
+  {
+    "path": "/home/ayushregmibagale/10PROTAC-MD/SJF8240_reanalysis/mechanistic_v3/analysis/lysines/poses/EPHA2/pose007/packet.npz",
+    "sha256": "425347a6d78ee01bdd5047c6bd9d6a96e32a98be72b3365aba1a1ee5963f97c8"
+  },
+  {
+    "path": "/mnt/c/Users/Ayush Regmi Bagale/SJF8240_ten_target_mechanistic_v1/reach50/EPHA2/pose008/packet.npz",
+    "sha256": "436f6aa325bac9738317ffa9fec2de8d1529d982a890e6ffa1756e5a95469bcc"
+  },
+  {
+    "path": "/home/ayushregmibagale/10PROTAC-MD/SJF8240_reanalysis/full_frame_e2_delta50_v1/analysis/poses/EPHA2/pose008/packet.npz",
+    "sha256": "238db329477102b106164a8d771b16d2b1562e60f0aa8cbcdf40f87d15674211"
+  },
+  {
+    "path": "/home/ayushregmibagale/10PROTAC-MD/SJF8240_renanalysis2/native_catalytic_validation_v2/results/poses/EPHA2/pose008/packet.npz",
+    "sha256": "09f6726e4c788223ad943a85a6e145261282fc0dce9c7c15e6e610ff57277689"
+  },
+  {
+    "path": "/home/ayushregmibagale/10PROTAC-MD/SJF8240_reanalysis/mechanistic_v3/analysis/lysines/poses/EPHA2/pose008/packet.npz",
+    "sha256": "7346bde50bb237ffc1ae9b843223e2a60ca434a53385530c99d6ecdccef2190c"
+  },
+  {
+    "path": "/mnt/c/Users/Ayush Regmi Bagale/SJF8240_ten_target_mechanistic_v1/reach50/EPHA2/pose009/packet.npz",
+    "sha256": "1eb152386a3c52bec38dd08971b24643d2c9abee812a866e15d1a4336c92bbd6"
+  },
+  {
+    "path": "/home/ayushregmibagale/10PROTAC-MD/SJF8240_reanalysis/full_frame_e2_delta50_v1/analysis/poses/EPHA2/pose009/packet.npz",
+    "sha256": "06b8b37581b8b3fb1a468fa4c0b187e1e5e5cf63da380d2e4777afead172eeb6"
+  },
+  {
+    "path": "/home/ayushregmibagale/10PROTAC-MD/SJF8240_renanalysis2/native_catalytic_validation_v2/results/poses/EPHA2/pose009/packet.npz",
+    "sha256": "4a5257f299e6dd57aba166c19c051020b7ec0f6f925779ede05d3b55543dddb4"
+  },
+  {
+    "path": "/home/ayushregmibagale/10PROTAC-MD/SJF8240_reanalysis/mechanistic_v3/analysis/lysines/poses/EPHA2/pose009/packet.npz",
+    "sha256": "a79f05d4288b0855664f2cd4be9ec8fe5e6b20fc292565037470f63887e74818"
+  },
+  {
+    "path": "/mnt/c/Users/Ayush Regmi Bagale/SJF8240_ten_target_mechanistic_v1/reach50/EPHA2/pose010/packet.npz",
+    "sha256": "193543b4fdd83b1af7b6964305927c135dee0bc9164e548e10b34579b053848f"
+  },
+  {
+    "path": "/home/ayushregmibagale/10PROTAC-MD/SJF8240_reanalysis/full_frame_e2_delta50_v1/analysis/poses/EPHA2/pose010/packet.npz",
+    "sha256": "0f2d7bcc3fca999b0533d8e24a30a32f0d5c42105b5e90658dcc68eccf20ba0e"
+  },
+  {
+    "path": "/home/ayushregmibagale/10PROTAC-MD/SJF8240_renanalysis2/native_catalytic_validation_v2/results/poses/EPHA2/pose010/packet.npz",
+    "sha256": "e87ab30972ea21a6344984a389be8552f20ddc0ce9e5565faeb37b5f2676415a"
+  },
+  {
+    "path": "/home/ayushregmibagale/10PROTAC-MD/SJF8240_reanalysis/mechanistic_v3/analysis/lysines/poses/EPHA2/pose010/packet.npz",
+    "sha256": "3bb8fb91e821137bae5b340567ef3b0530b146e6504e75353543f1069d7dc986"
+  },
+  {
+    "path": "/mnt/c/Users/Ayush Regmi Bagale/SJF8240_ten_target_mechanistic_v1/reach50/EPHA2/pose011/packet.npz",
+    "sha256": "e6d762502168665f28cd7e768409203c913487658777988a4d20524f1686e4fa"
+  },
+  {
+    "path": "/home/ayushregmibagale/10PROTAC-MD/SJF8240_reanalysis/full_frame_e2_delta50_v1/analysis/poses/EPHA2/pose011/packet.npz",
+    "sha256": "ad35098ad5efcf5d03239c670f0eeeb8e20247096d5ac06150284a251546f928"
+  },
+  {
+    "path": "/home/ayushregmibagale/10PROTAC-MD/SJF8240_renanalysis2/native_catalytic_validation_v2/results/poses/EPHA2/pose011/packet.npz",
+    "sha256": "0f376eda5f8489f6f48b60f23ac6abcb3972124babb89bd73c3a870929360c5a"
+  },
+  {
+    "path": "/home/ayushregmibagale/10PROTAC-MD/SJF8240_reanalysis/mechanistic_v3/analysis/lysines/poses/EPHA2/pose011/packet.npz",
+    "sha256": "1fa59befb481a83921397f7ea8f4badede2c56241724308ad4de016c1b6a1abf"
+  },
+  {
+    "path": "/mnt/c/Users/Ayush Regmi Bagale/SJF8240_ten_target_mechanistic_v1/reach50/EPHA2/pose012/packet.npz",
+    "sha256": "436f6aa325bac9738317ffa9fec2de8d1529d982a890e6ffa1756e5a95469bcc"
+  },
+  {
+    "path": "/home/ayushregmibagale/10PROTAC-MD/SJF8240_reanalysis/full_frame_e2_delta50_v1/analysis/poses/EPHA2/pose012/packet.npz",
+    "sha256": "9205b16c449c9399c28008f7fa75a6bad79d8bc0d854ffb20a2dd4345fc987d3"
+  },
+  {
+    "path": "/home/ayushregmibagale/10PROTAC-MD/SJF8240_renanalysis2/native_catalytic_validation_v2/results/poses/EPHA2/pose012/packet.npz",
+    "sha256": "8b95df6821a3cbdfbbfe8f48b16bea11f76b7ee80dfe8e68cadffd9b4cd61aa6"
+  },
+  {
+    "path": "/home/ayushregmibagale/10PROTAC-MD/SJF8240_reanalysis/mechanistic_v3/analysis/lysines/poses/EPHA2/pose012/packet.npz",
+    "sha256": "2bd9b9245b111c3fead11da0f125017d22d757556048498e6dc73f442f274fdc"
+  },
+  {
+    "path": "/mnt/c/Users/Ayush Regmi Bagale/SJF8240_ten_target_mechanistic_v1/reach50/EPHA2/pose013/packet.npz",
+    "sha256": "da3517fc1078be896e993eaf0f619f537366f1cb29153211ca35f183bb709819"
+  },
+  {
+    "path": "/home/ayushregmibagale/10PROTAC-MD/SJF8240_reanalysis/full_frame_e2_delta50_v1/analysis/poses/EPHA2/pose013/packet.npz",
+    "sha256": "a66d1df3385db86de869b75d2ca4bfafa6f86be62b4b64e1643599df77963383"
+  },
+  {
+    "path": "/home/ayushregmibagale/10PROTAC-MD/SJF8240_renanalysis2/native_catalytic_validation_v2/results/poses/EPHA2/pose013/packet.npz",
+    "sha256": "2527d1891fc57aafcdda11b53e79c29e97d21a644cad312c3632ef0474119891"
+  },
+  {
+    "path": "/home/ayushregmibagale/10PROTAC-MD/SJF8240_reanalysis/mechanistic_v3/analysis/lysines/poses/EPHA2/pose013/packet.npz",
+    "sha256": "0b4e83dcef03a71d02a6b00705f9c417925c0a478f86011df510b7eb4aac55e8"
+  },
+  {
+    "path": "/mnt/c/Users/Ayush Regmi Bagale/SJF8240_ten_target_mechanistic_v1/reach50/EPHA2/pose015/packet.npz",
+    "sha256": "5bce4413b697505cafcc13816a1a6196fb646d4443e7f5326e6e0971103842bb"
+  },
+  {
+    "path": "/home/ayushregmibagale/10PROTAC-MD/SJF8240_reanalysis/full_frame_e2_delta50_v1/analysis/poses/EPHA2/pose015/packet.npz",
+    "sha256": "9a6a5f17963a2727ca3627d61abb166e95e1c78ed38a78a0bcfd3f5db4bc3b31"
+  },
+  {
+    "path": "/home/ayushregmibagale/10PROTAC-MD/SJF8240_renanalysis2/native_catalytic_validation_v2/results/poses/EPHA2/pose015/packet.npz",
+    "sha256": "f4fb1f8c51155e6a8081b2d908d8c34ea3442c55de0bdb9024aa9ac9b28e49ff"
+  },
+  {
+    "path": "/home/ayushregmibagale/10PROTAC-MD/SJF8240_reanalysis/mechanistic_v3/analysis/lysines/poses/EPHA2/pose015/packet.npz",
+    "sha256": "ed64c73f1b82abbec0e8a805a95238d9d208ed51befeb82d8557113dfb85596b"
+  },
+  {
+    "path": "/mnt/c/Users/Ayush Regmi Bagale/SJF8240_ten_target_mechanistic_v1/reach50/EPHA2/pose017/packet.npz",
+    "sha256": "4bf932fc44cfdc4ddfc8870baeb003c3d85e6dbd0ba457f601567b7675a295f0"
+  },
+  {
+    "path": "/home/ayushregmibagale/10PROTAC-MD/SJF8240_reanalysis/full_frame_e2_delta50_v1/analysis/poses/EPHA2/pose017/packet.npz",
+    "sha256": "e13aae03a8d19c35f843e2ab634c5a75374df5903aa066aa730f38c803debf41"
+  },
+  {
+    "path": "/home/ayushregmibagale/10PROTAC-MD/SJF8240_renanalysis2/native_catalytic_validation_v2/results/poses/EPHA2/pose017/packet.npz",
+    "sha256": "5538bb304fcb56465c28eab18c36763f80eab617ba63472fe86d9eb98aa54ea0"
+  },
+  {
+    "path": "/home/ayushregmibagale/10PROTAC-MD/SJF8240_reanalysis/mechanistic_v3/analysis/lysines/poses/EPHA2/pose017/packet.npz",
+    "sha256": "883e5b1f0cda7e056020dd5a3f4351418a352d585508d4fbeb94a2b5241b5a75"
+  },
+  {
+    "path": "/mnt/c/Users/Ayush Regmi Bagale/SJF8240_ten_target_mechanistic_v1/reach50/EPHA2/pose018/packet.npz",
+    "sha256": "18728f280577c5a589a1e61f7a55af132ed12e815fa1964021fc5a75106ac69b"
+  },
+  {
+    "path": "/home/ayushregmibagale/10PROTAC-MD/SJF8240_reanalysis/full_frame_e2_delta50_v1/analysis/poses/EPHA2/pose018/packet.npz",
+    "sha256": "a641cec565fee6814a81ebd75e99f85e7c28600389c4a852c00fde87e87f0a83"
+  },
+  {
+    "path": "/home/ayushregmibagale/10PROTAC-MD/SJF8240_renanalysis2/native_catalytic_validation_v2/results/poses/EPHA2/pose018/packet.npz",
+    "sha256": "f6d92f6d26b562c75afd762cc335931aba32659078d63b19a226c2296a078237"
+  },
+  {
+    "path": "/home/ayushregmibagale/10PROTAC-MD/SJF8240_reanalysis/mechanistic_v3/analysis/lysines/poses/EPHA2/pose018/packet.npz",
+    "sha256": "f93d39421e46e0e9d7ce88386b90f0888ba29b4e33472e07d7eda3dc8252e9f2"
+  },
+  {
+    "path": "/mnt/c/Users/Ayush Regmi Bagale/SJF8240_ten_target_mechanistic_v1/reach50/EPHA2/pose019/packet.npz",
+    "sha256": "3bd941d93263ce361df037ca79d4195dba2291d1b2b4201df48a0555249b87c2"
+  },
+  {
+    "path": "/home/ayushregmibagale/10PROTAC-MD/SJF8240_reanalysis/full_frame_e2_delta50_v1/analysis/poses/EPHA2/pose019/packet.npz",
+    "sha256": "50e689c9fefeed698274184e1f8233e66a45616ca4fa62371722d096cf6bae21"
+  },
+  {
+    "path": "/home/ayushregmibagale/10PROTAC-MD/SJF8240_renanalysis2/native_catalytic_validation_v2/results/poses/EPHA2/pose019/packet.npz",
+    "sha256": "2854bf3702bdeb2563c0832015ab822a704a5dc493d834e7b8584e7d9c0d705b"
+  },
+  {
+    "path": "/home/ayushregmibagale/10PROTAC-MD/SJF8240_reanalysis/mechanistic_v3/analysis/lysines/poses/EPHA2/pose019/packet.npz",
+    "sha256": "d83e3d1d2f0f19059bea86ee9e61ea71ac6cf49adccc686947ee75a6d97bff17"
+  },
+  {
+    "path": "/mnt/c/Users/Ayush Regmi Bagale/SJF8240_ten_target_mechanistic_v1/reach50/EPHA2/pose020/packet.npz",
+    "sha256": "43b0bf2a557afc4df6c1251113c215baed8b209028b172e89823ecb59a02c52c"
+  },
+  {
+    "path": "/home/ayushregmibagale/10PROTAC-MD/SJF8240_reanalysis/full_frame_e2_delta50_v1/analysis/poses/EPHA2/pose020/packet.npz",
+    "sha256": "26dfd846eab7654cc7d20e0170a5ce40161b3908ed26eba54491dd5c3895db39"
+  },
+  {
+    "path": "/home/ayushregmibagale/10PROTAC-MD/SJF8240_renanalysis2/native_catalytic_validation_v2/results/poses/EPHA2/pose020/packet.npz",
+    "sha256": "b9908e1c1354f48c271131b075e6f4c83e027940d02f1679e2ca54efba2f539b"
+  },
+  {
+    "path": "/home/ayushregmibagale/10PROTAC-MD/SJF8240_reanalysis/mechanistic_v3/analysis/lysines/poses/EPHA2/pose020/packet.npz",
+    "sha256": "4934786aad33fec41e799e4cbf7eea0cbd0eb3ede83c8bdf8a2ee4f57e733ff5"
+  },
+  {
+    "path": "/mnt/c/Users/Ayush Regmi Bagale/SJF8240_ten_target_mechanistic_v1/reach50/EPHB2/pose001/packet.npz",
+    "sha256": "c458f659a0736cad06cb5c1ac57631903724652708032347b70be47296226ae9"
+  },
+  {
+    "path": "/home/ayushregmibagale/10PROTAC-MD/SJF8240_reanalysis/full_frame_e2_delta50_v1/analysis/poses/EPHB2/pose001/packet.npz",
+    "sha256": "ec24307adc2084751882f8dc9c69639904ff691b3f20dd597e1c08a456d2f000"
+  },
+  {
+    "path": "/home/ayushregmibagale/10PROTAC-MD/SJF8240_renanalysis2/native_catalytic_validation_v2/results/poses/EPHB2/pose001/packet.npz",
+    "sha256": "b0aeb7746f17cf03534e0896b0bc1c253c355531497e61a6347903cdaf534130"
+  },
+  {
+    "path": "/home/ayushregmibagale/10PROTAC-MD/SJF8240_reanalysis/mechanistic_v3/analysis/lysines/poses/EPHB2/pose001/packet.npz",
+    "sha256": "44ed5077ba4219f9fe2f51fb1b5e28086934fc9bce39f3516394d9c09b802286"
+  },
+  {
+    "path": "/mnt/c/Users/Ayush Regmi Bagale/SJF8240_ten_target_mechanistic_v1/reach50/EPHB2/pose002/packet.npz",
+    "sha256": "88b172c3e96e62ded2857f8a1d18ef8e104e218538005f8ada848d93034fe892"
+  },
+  {
+    "path": "/home/ayushregmibagale/10PROTAC-MD/SJF8240_reanalysis/full_frame_e2_delta50_v1/analysis/poses/EPHB2/pose002/packet.npz",
+    "sha256": "7e7a455128c9f6af89b230d5b071953768580f13d36c663ef0f0b48e22e0404e"
+  },
+  {
+    "path": "/home/ayushregmibagale/10PROTAC-MD/SJF8240_renanalysis2/native_catalytic_validation_v2/results/poses/EPHB2/pose002/packet.npz",
+    "sha256": "c30317ee7af17c023d752334b1d834e0b4217da12a91aca90e45923df8618bf8"
+  },
+  {
+    "path": "/home/ayushregmibagale/10PROTAC-MD/SJF8240_reanalysis/mechanistic_v3/analysis/lysines/poses/EPHB2/pose002/packet.npz",
+    "sha256": "b94508f4332500342b1b6779d3169968c5d2c015f1200b71bc01226a359cd3d2"
+  },
+  {
+    "path": "/mnt/c/Users/Ayush Regmi Bagale/SJF8240_ten_target_mechanistic_v1/reach50/EPHB2/pose003/packet.npz",
+    "sha256": "11c7e64e0a654408c779c6d4b8e43ee83503285231a152257743e8de7f70dc9f"
+  },
+  {
+    "path": "/home/ayushregmibagale/10PROTAC-MD/SJF8240_reanalysis/full_frame_e2_delta50_v1/analysis/poses/EPHB2/pose003/packet.npz",
+    "sha256": "5ffa63e0c0c6f1027d5a223a4295496b36bd062d1bb3367b542896f449be1c6f"
+  },
+  {
+    "path": "/home/ayushregmibagale/10PROTAC-MD/SJF8240_renanalysis2/native_catalytic_validation_v2/results/poses/EPHB2/pose003/packet.npz",
+    "sha256": "b7f4d774b3c090f5188d98b0d4e2e3f4e62331ebea7fd6860711a52fcb814416"
+  },
+  {
+    "path": "/home/ayushregmibagale/10PROTAC-MD/SJF8240_reanalysis/mechanistic_v3/analysis/lysines/poses/EPHB2/pose003/packet.npz",
+    "sha256": "290edef2989c3560349a062653b270a31a2cd514a868a363d988fc8c07c57709"
+  },
+  {
+    "path": "/mnt/c/Users/Ayush Regmi Bagale/SJF8240_ten_target_mechanistic_v1/reach50/EPHB2/pose004/packet.npz",
+    "sha256": "182dc14ab9d5d47e009088b2b15180c5377ff87183a8a6b4f894548f8ae17285"
+  },
+  {
+    "path": "/home/ayushregmibagale/10PROTAC-MD/SJF8240_reanalysis/full_frame_e2_delta50_v1/analysis/poses/EPHB2/pose004/packet.npz",
+    "sha256": "395e2321d663a3e613589e7fde85bfcef2267f3497290bec91eadb0467886e89"
+  },
+  {
+    "path": "/home/ayushregmibagale/10PROTAC-MD/SJF8240_renanalysis2/native_catalytic_validation_v2/results/poses/EPHB2/pose004/packet.npz",
+    "sha256": "84538db441cdf8a251fcc37597faf358e86b0b8f57293cf1715ae47ae938f5ea"
+  },
+  {
+    "path": "/home/ayushregmibagale/10PROTAC-MD/SJF8240_reanalysis/mechanistic_v3/analysis/lysines/poses/EPHB2/pose004/packet.npz",
+    "sha256": "56b6809d42f11a3400f8e593d64c2471f4156bce717ba6c519831c97d434763f"
+  },
+  {
+    "path": "/mnt/c/Users/Ayush Regmi Bagale/SJF8240_ten_target_mechanistic_v1/reach50/EPHB2/pose005/packet.npz",
+    "sha256": "88b172c3e96e62ded2857f8a1d18ef8e104e218538005f8ada848d93034fe892"
+  },
+  {
+    "path": "/home/ayushregmibagale/10PROTAC-MD/SJF8240_reanalysis/full_frame_e2_delta50_v1/analysis/poses/EPHB2/pose005/packet.npz",
+    "sha256": "c746c55321cf5c078b853c7ef93aed61769a753b0b77ded86a79b81fffeb2456"
+  },
+  {
+    "path": "/home/ayushregmibagale/10PROTAC-MD/SJF8240_renanalysis2/native_catalytic_validation_v2/results/poses/EPHB2/pose005/packet.npz",
+    "sha256": "e17fda075092745a22c365b3fa654336f2a3c5388164b60b7bd092a7649815f1"
+  },
+  {
+    "path": "/home/ayushregmibagale/10PROTAC-MD/SJF8240_reanalysis/mechanistic_v3/analysis/lysines/poses/EPHB2/pose005/packet.npz",
+    "sha256": "e8aa0892a81a1507f8b83577d0ca6d5c3353966ac9cdbe11da1ae41e676c3e72"
+  },
+  {
+    "path": "/mnt/c/Users/Ayush Regmi Bagale/SJF8240_ten_target_mechanistic_v1/reach50/EPHB2/pose006/packet.npz",
+    "sha256": "0eb2b232ee3b642bad6fca366c5a96d51aa2bacc56db9cd240c2229e18955613"
+  },
+  {
+    "path": "/home/ayushregmibagale/10PROTAC-MD/SJF8240_reanalysis/full_frame_e2_delta50_v1/analysis/poses/EPHB2/pose006/packet.npz",
+    "sha256": "80c0321f49c3f22cb44275cd5abffdb20d8dd97b9a341401010eee60402bb83e"
+  },
+  {
+    "path": "/home/ayushregmibagale/10PROTAC-MD/SJF8240_renanalysis2/native_catalytic_validation_v2/results/poses/EPHB2/pose006/packet.npz",
+    "sha256": "6443867a3c84c555fdd55e11185acdb9bea0480ca172c18ad4aded36c9c8a022"
+  },
+  {
+    "path": "/home/ayushregmibagale/10PROTAC-MD/SJF8240_reanalysis/mechanistic_v3/analysis/lysines/poses/EPHB2/pose006/packet.npz",
+    "sha256": "9e6c11bcecf69f610138fb2eb6031aa59f5a9990571bac5652b1e36e54402af8"
+  },
+  {
+    "path": "/mnt/c/Users/Ayush Regmi Bagale/SJF8240_ten_target_mechanistic_v1/reach50/EPHB2/pose007/packet.npz",
+    "sha256": "88b172c3e96e62ded2857f8a1d18ef8e104e218538005f8ada848d93034fe892"
+  },
+  {
+    "path": "/home/ayushregmibagale/10PROTAC-MD/SJF8240_reanalysis/full_frame_e2_delta50_v1/analysis/poses/EPHB2/pose007/packet.npz",
+    "sha256": "64519231c26f1b096395810ae7ba8071f59f1e6ad1717b6df273a759a31534ed"
+  },
+  {
+    "path": "/home/ayushregmibagale/10PROTAC-MD/SJF8240_renanalysis2/native_catalytic_validation_v2/results/poses/EPHB2/pose007/packet.npz",
+    "sha256": "861174c00836c1396b67c800319c9622cd3ec9f4aaaef8421cb035a0dc670345"
+  },
+  {
+    "path": "/home/ayushregmibagale/10PROTAC-MD/SJF8240_reanalysis/mechanistic_v3/analysis/lysines/poses/EPHB2/pose007/packet.npz",
+    "sha256": "1d692dcd09fa68fa571ad7f2da474df23eab724b2e06c4c8e3110a9ee2a235dd"
+  },
+  {
+    "path": "/mnt/c/Users/Ayush Regmi Bagale/SJF8240_ten_target_mechanistic_v1/reach50/EPHB2/pose008/packet.npz",
+    "sha256": "76a899023a7e22c3e0a4fd51356132f30129387545d0ebb6b2df692752a362b5"
+  },
+  {
+    "path": "/home/ayushregmibagale/10PROTAC-MD/SJF8240_reanalysis/full_frame_e2_delta50_v1/analysis/poses/EPHB2/pose008/packet.npz",
+    "sha256": "5d30c8dc4136440779c42187ead2d583d4c929547d0f19b26fe1e48fbb0f1a54"
+  },
+  {
+    "path": "/home/ayushregmibagale/10PROTAC-MD/SJF8240_renanalysis2/native_catalytic_validation_v2/results/poses/EPHB2/pose008/packet.npz",
+    "sha256": "b24f2aa9cb5fe5d68a544c8223dce21303ca396cb7b86fdc8b257bda2216d231"
+  },
+  {
+    "path": "/home/ayushregmibagale/10PROTAC-MD/SJF8240_reanalysis/mechanistic_v3/analysis/lysines/poses/EPHB2/pose008/packet.npz",
+    "sha256": "57b889fb30ead4a7a4017938eee12bf0e4d58634ae1c3b2bb2e67862093ff3c4"
+  },
+  {
+    "path": "/mnt/c/Users/Ayush Regmi Bagale/SJF8240_ten_target_mechanistic_v1/reach50/EPHB2/pose009/packet.npz",
+    "sha256": "c8b272459195fee34c87001de84c68805183487236b51d4a0247523ec5469bdb"
+  },
+  {
+    "path": "/home/ayushregmibagale/10PROTAC-MD/SJF8240_reanalysis/full_frame_e2_delta50_v1/analysis/poses/EPHB2/pose009/packet.npz",
+    "sha256": "0aa1122c5dcb4397e952de3025aab2b7e3f422728642663d4c8829787f8bc988"
+  },
+  {
+    "path": "/home/ayushregmibagale/10PROTAC-MD/SJF8240_renanalysis2/native_catalytic_validation_v2/results/poses/EPHB2/pose009/packet.npz",
+    "sha256": "e7326ac5c2a5213fae854ec50c06db2591d2955dd5ae08e0c3722c54810176d7"
+  },
+  {
+    "path": "/home/ayushregmibagale/10PROTAC-MD/SJF8240_reanalysis/mechanistic_v3/analysis/lysines/poses/EPHB2/pose009/packet.npz",
+    "sha256": "d613fec8b9baebb44f27b3945801c283660869a14bbb51483ab9518c9650affa"
+  },
+  {
+    "path": "/mnt/c/Users/Ayush Regmi Bagale/SJF8240_ten_target_mechanistic_v1/reach50/EPHB2/pose010/packet.npz",
+    "sha256": "88b172c3e96e62ded2857f8a1d18ef8e104e218538005f8ada848d93034fe892"
+  },
+  {
+    "path": "/home/ayushregmibagale/10PROTAC-MD/SJF8240_reanalysis/full_frame_e2_delta50_v1/analysis/poses/EPHB2/pose010/packet.npz",
+    "sha256": "ab8cb8875c03a16abcfe662292febcd878741aabc548a0126e197a9c8d1022d7"
+  },
+  {
+    "path": "/home/ayushregmibagale/10PROTAC-MD/SJF8240_renanalysis2/native_catalytic_validation_v2/results/poses/EPHB2/pose010/packet.npz",
+    "sha256": "8ace9f814adeed6a393c7ee517ce3a5af3b8e1120091c45271ac84dbe20dd518"
+  },
+  {
+    "path": "/home/ayushregmibagale/10PROTAC-MD/SJF8240_reanalysis/mechanistic_v3/analysis/lysines/poses/EPHB2/pose010/packet.npz",
+    "sha256": "679dec853bb2285a15d6ca4520d987d10223c9f0af373407bf5a1b2bc9e8688d"
+  },
+  {
+    "path": "/mnt/c/Users/Ayush Regmi Bagale/SJF8240_ten_target_mechanistic_v1/reach50/EPHB2/pose011/packet.npz",
+    "sha256": "88b172c3e96e62ded2857f8a1d18ef8e104e218538005f8ada848d93034fe892"
+  },
+  {
+    "path": "/home/ayushregmibagale/10PROTAC-MD/SJF8240_reanalysis/full_frame_e2_delta50_v1/analysis/poses/EPHB2/pose011/packet.npz",
+    "sha256": "d2a47ef3564dff5b79d04806b31e450772e2575d6f24b56b6e6f0c25e6c1b96f"
+  },
+  {
+    "path": "/home/ayushregmibagale/10PROTAC-MD/SJF8240_renanalysis2/native_catalytic_validation_v2/results/poses/EPHB2/pose011/packet.npz",
+    "sha256": "7e054d2597f1498ebb4e8d4e91401bc31c289fa586da38edbe639275772576ef"
+  },
+  {
+    "path": "/home/ayushregmibagale/10PROTAC-MD/SJF8240_reanalysis/mechanistic_v3/analysis/lysines/poses/EPHB2/pose011/packet.npz",
+    "sha256": "4e2171a481226ea12c2f4ed6ebde08e188ab1baa38d118daf22078bf7d34fd97"
+  },
+  {
+    "path": "/mnt/c/Users/Ayush Regmi Bagale/SJF8240_ten_target_mechanistic_v1/reach50/EPHB2/pose013/packet.npz",
+    "sha256": "88b172c3e96e62ded2857f8a1d18ef8e104e218538005f8ada848d93034fe892"
+  },
+  {
+    "path": "/home/ayushregmibagale/10PROTAC-MD/SJF8240_reanalysis/full_frame_e2_delta50_v1/analysis/poses/EPHB2/pose013/packet.npz",
+    "sha256": "919babb49e50aa5623b1a0a5d04f731f9b28530ffa3f57724d3c7ad869e00471"
+  },
+  {
+    "path": "/home/ayushregmibagale/10PROTAC-MD/SJF8240_renanalysis2/native_catalytic_validation_v2/results/poses/EPHB2/pose013/packet.npz",
+    "sha256": "f15801dc9ee4b0be9aeb5dc13a6c414ea09b50d6fc57f7f16e4516f6cdffb4b1"
+  },
+  {
+    "path": "/home/ayushregmibagale/10PROTAC-MD/SJF8240_reanalysis/mechanistic_v3/analysis/lysines/poses/EPHB2/pose013/packet.npz",
+    "sha256": "af8b6ca644b2d3e50df000c2e4e00afbd5df1f2a3019ba2b250cd214535ca274"
+  },
+  {
+    "path": "/mnt/c/Users/Ayush Regmi Bagale/SJF8240_ten_target_mechanistic_v1/reach50/EPHB2/pose014/packet.npz",
+    "sha256": "88b172c3e96e62ded2857f8a1d18ef8e104e218538005f8ada848d93034fe892"
+  },
+  {
+    "path": "/home/ayushregmibagale/10PROTAC-MD/SJF8240_reanalysis/full_frame_e2_delta50_v1/analysis/poses/EPHB2/pose014/packet.npz",
+    "sha256": "a01acddcf1b75745f7b20e83e71e4e803f7f42d9739fdefcb95767f549f55db5"
+  },
+  {
+    "path": "/home/ayushregmibagale/10PROTAC-MD/SJF8240_renanalysis2/native_catalytic_validation_v2/results/poses/EPHB2/pose014/packet.npz",
+    "sha256": "ecea052c02d4f16fbf4f13646770f875a913476d901c4031eee2a67bafe53891"
+  },
+  {
+    "path": "/home/ayushregmibagale/10PROTAC-MD/SJF8240_reanalysis/mechanistic_v3/analysis/lysines/poses/EPHB2/pose014/packet.npz",
+    "sha256": "b6228982adf49cc9c09a96b09d341f01ddfb0fb885aa3c8d4a087eac44e0d0eb"
+  },
+  {
+    "path": "/mnt/c/Users/Ayush Regmi Bagale/SJF8240_ten_target_mechanistic_v1/reach50/EPHB2/pose015/packet.npz",
+    "sha256": "a27cda2d51175e70137d02c58845179e76e5e63d1d9691a8ffd4348506fd818b"
+  },
+  {
+    "path": "/home/ayushregmibagale/10PROTAC-MD/SJF8240_reanalysis/full_frame_e2_delta50_v1/analysis/poses/EPHB2/pose015/packet.npz",
+    "sha256": "5a1e19f345abe2e3e218a81cde70e10e819d24d0d6740dcdab9dfcf0e7794a0b"
+  },
+  {
+    "path": "/home/ayushregmibagale/10PROTAC-MD/SJF8240_renanalysis2/native_catalytic_validation_v2/results/poses/EPHB2/pose015/packet.npz",
+    "sha256": "bd17ff3b502ae65a62d09e84ab6e324abfe08749393de6eeb7d50273a166ea07"
+  },
+  {
+    "path": "/home/ayushregmibagale/10PROTAC-MD/SJF8240_reanalysis/mechanistic_v3/analysis/lysines/poses/EPHB2/pose015/packet.npz",
+    "sha256": "068c9c70f4ba459d0c430e9f6f4827b09cb25754d87fd6576c320d52880f607a"
+  },
+  {
+    "path": "/mnt/c/Users/Ayush Regmi Bagale/SJF8240_ten_target_mechanistic_v1/reach50/EPHB2/pose016/packet.npz",
+    "sha256": "88b172c3e96e62ded2857f8a1d18ef8e104e218538005f8ada848d93034fe892"
+  },
+  {
+    "path": "/home/ayushregmibagale/10PROTAC-MD/SJF8240_reanalysis/full_frame_e2_delta50_v1/analysis/poses/EPHB2/pose016/packet.npz",
+    "sha256": "07af285da6e18721cf912f4129cb49dfb1bd049b841dc7ad7985c6f26812e027"
+  },
+  {
+    "path": "/home/ayushregmibagale/10PROTAC-MD/SJF8240_renanalysis2/native_catalytic_validation_v2/results/poses/EPHB2/pose016/packet.npz",
+    "sha256": "abc483318e97d8e504bdf7ab5b895717a1604504081634bc4a7e59e66558b695"
+  },
+  {
+    "path": "/home/ayushregmibagale/10PROTAC-MD/SJF8240_reanalysis/mechanistic_v3/analysis/lysines/poses/EPHB2/pose016/packet.npz",
+    "sha256": "192a9f870882a542f50a5c9023def0a04c2500a20451efc9c373db98ec2e8643"
+  },
+  {
+    "path": "/mnt/c/Users/Ayush Regmi Bagale/SJF8240_ten_target_mechanistic_v1/reach50/EPHB2/pose017/packet.npz",
+    "sha256": "88b172c3e96e62ded2857f8a1d18ef8e104e218538005f8ada848d93034fe892"
+  },
+  {
+    "path": "/home/ayushregmibagale/10PROTAC-MD/SJF8240_reanalysis/full_frame_e2_delta50_v1/analysis/poses/EPHB2/pose017/packet.npz",
+    "sha256": "07c34b8336d61ec67e20afa566e0e755d17341d4e68051497deb9a76b569f45e"
+  },
+  {
+    "path": "/home/ayushregmibagale/10PROTAC-MD/SJF8240_renanalysis2/native_catalytic_validation_v2/results/poses/EPHB2/pose017/packet.npz",
+    "sha256": "78d3e658a834932faf655526a42abcbc87c4c7c6cce772cc86bcd1837bd171ad"
+  },
+  {
+    "path": "/home/ayushregmibagale/10PROTAC-MD/SJF8240_reanalysis/mechanistic_v3/analysis/lysines/poses/EPHB2/pose017/packet.npz",
+    "sha256": "628fec3b85fb4a667d5cb615327e7360cec30a27aed74f21cc68bbf66337cd3b"
+  },
+  {
+    "path": "/mnt/c/Users/Ayush Regmi Bagale/SJF8240_ten_target_mechanistic_v1/reach50/EPHB2/pose018/packet.npz",
+    "sha256": "ac8d5870029653f1176bdd541bf1821e01bd0b8b901f357af4a4660ee5637c83"
+  },
+  {
+    "path": "/home/ayushregmibagale/10PROTAC-MD/SJF8240_reanalysis/full_frame_e2_delta50_v1/analysis/poses/EPHB2/pose018/packet.npz",
+    "sha256": "aaab766d31af86ff46093709d4b429b8442c441e75a4439cc9c3c577395886f6"
+  },
+  {
+    "path": "/home/ayushregmibagale/10PROTAC-MD/SJF8240_renanalysis2/native_catalytic_validation_v2/results/poses/EPHB2/pose018/packet.npz",
+    "sha256": "506f93a2c7c56766babe7a0c32b21000286b9b71e9e6754962e129e64ae2d56e"
+  },
+  {
+    "path": "/home/ayushregmibagale/10PROTAC-MD/SJF8240_reanalysis/mechanistic_v3/analysis/lysines/poses/EPHB2/pose018/packet.npz",
+    "sha256": "c2b17e90c43a84243cb250982b96617b140517ddd59a028095c8bf44e8c574e5"
+  },
+  {
+    "path": "/mnt/c/Users/Ayush Regmi Bagale/SJF8240_ten_target_mechanistic_v1/reach50/EPHB2/pose019/packet.npz",
+    "sha256": "338829066c7c856beb551b78dcf4f186eaed669d0e208fa4418a5455f42a9aaa"
+  },
+  {
+    "path": "/home/ayushregmibagale/10PROTAC-MD/SJF8240_reanalysis/full_frame_e2_delta50_v1/analysis/poses/EPHB2/pose019/packet.npz",
+    "sha256": "05b410bee3d4f14ae1daff497bea60b9243c7e89b986e54a21a8893fa42ce896"
+  },
+  {
+    "path": "/home/ayushregmibagale/10PROTAC-MD/SJF8240_renanalysis2/native_catalytic_validation_v2/results/poses/EPHB2/pose019/packet.npz",
+    "sha256": "96dc4033dab8e1eed5f20c544d7cf203fb9e4b2b155cfa0eafa2ce3f9501c747"
+  },
+  {
+    "path": "/home/ayushregmibagale/10PROTAC-MD/SJF8240_reanalysis/mechanistic_v3/analysis/lysines/poses/EPHB2/pose019/packet.npz",
+    "sha256": "911952b37f459daebf46a02e18c274a27c780dd367786f4658fe896cd9373d76"
+  },
+  {
+    "path": "/mnt/c/Users/Ayush Regmi Bagale/SJF8240_ten_target_mechanistic_v1/reach50/EPHB2/pose020/packet.npz",
+    "sha256": "eea3014cf68f27c5b9795dcd357ef908ae7520543eef1d3d16b4f63d5cdfb4e3"
+  },
+  {
+    "path": "/home/ayushregmibagale/10PROTAC-MD/SJF8240_reanalysis/full_frame_e2_delta50_v1/analysis/poses/EPHB2/pose020/packet.npz",
+    "sha256": "664c215e3718b29a9302d9c30be38930a2fdf2c73b13254d76f7c49faaef37e1"
+  },
+  {
+    "path": "/home/ayushregmibagale/10PROTAC-MD/SJF8240_renanalysis2/native_catalytic_validation_v2/results/poses/EPHB2/pose020/packet.npz",
+    "sha256": "2ebca3aff52cc904825ab14be406ba6637d7d21545f0c4a579b8191d008af0d3"
+  },
+  {
+    "path": "/home/ayushregmibagale/10PROTAC-MD/SJF8240_reanalysis/mechanistic_v3/analysis/lysines/poses/EPHB2/pose020/packet.npz",
+    "sha256": "3cb895466e35856c95f47a97b1aa3089ae04aafcdabacecededd6fbaf66decb0"
+  },
+  {
+    "path": "/mnt/c/Users/Ayush Regmi Bagale/SJF8240_ten_target_mechanistic_v1/reach50/MAPK14_full/pose001/packet.npz",
+    "sha256": "f83e02b63fdd159715274dcc1c6fb5490002c802ddb62745b7e7749f50aca763"
+  },
+  {
+    "path": "/home/ayushregmibagale/10PROTAC-MD/SJF8240_reanalysis/full_frame_e2_delta50_v1/analysis/poses/MAPK14_full/pose001/packet.npz",
+    "sha256": "36c730d76982bf23334f973bd5d756f362a755b03f7dca85dab5aa5a39e2f47d"
+  },
+  {
+    "path": "/home/ayushregmibagale/10PROTAC-MD/SJF8240_renanalysis2/native_catalytic_validation_v2/results/poses/MAPK14_full/pose001/packet.npz",
+    "sha256": "c3be460c0ac75a436e537180df19c7d9f4b015d6068aeec3c825e4c218011522"
+  },
+  {
+    "path": "/home/ayushregmibagale/10PROTAC-MD/SJF8240_reanalysis/mechanistic_v3/analysis/lysines/poses/MAPK14_full/pose001/packet.npz",
+    "sha256": "d116eeeed6d89ec3fd6929eda1f1c203132c7c1fc0f41f8dc287d1c21fe34e87"
+  },
+  {
+    "path": "/mnt/c/Users/Ayush Regmi Bagale/SJF8240_ten_target_mechanistic_v1/reach50/MAPK14_full/pose002/packet.npz",
+    "sha256": "83e187f35d94c756c984d400444395d265b6d3431ac828d993f7b767d0a6880a"
+  },
+  {
+    "path": "/home/ayushregmibagale/10PROTAC-MD/SJF8240_reanalysis/full_frame_e2_delta50_v1/analysis/poses/MAPK14_full/pose002/packet.npz",
+    "sha256": "94112ce4aa4b5dc0c338d88c4efd070b7169a8f6b57190c79f3dcfeefb1e0012"
+  },
+  {
+    "path": "/home/ayushregmibagale/10PROTAC-MD/SJF8240_renanalysis2/native_catalytic_validation_v2/results/poses/MAPK14_full/pose002/packet.npz",
+    "sha256": "0af3a25ce8d1ef022a2f06ecfeb9b16fb1f61bf6119def6f5f0b175aa4799dc4"
+  },
+  {
+    "path": "/home/ayushregmibagale/10PROTAC-MD/SJF8240_reanalysis/mechanistic_v3/analysis/lysines/poses/MAPK14_full/pose002/packet.npz",
+    "sha256": "d12c6ea793d4fd9a54d095b494316fef7474cb0d514c0427a6056c1998661dd0"
+  },
+  {
+    "path": "/mnt/c/Users/Ayush Regmi Bagale/SJF8240_ten_target_mechanistic_v1/reach50/MAPK14_full/pose003/packet.npz",
+    "sha256": "ce751308a41a16380b1d1f765f7a5d8decd8ae16310f2183438469ba583d3380"
+  },
+  {
+    "path": "/home/ayushregmibagale/10PROTAC-MD/SJF8240_reanalysis/full_frame_e2_delta50_v1/analysis/poses/MAPK14_full/pose003/packet.npz",
+    "sha256": "63323a5a2884a0b2b045ea6e0a472da1f525e2aa4e68b0e79b593a0515714f40"
+  },
+  {
+    "path": "/home/ayushregmibagale/10PROTAC-MD/SJF8240_renanalysis2/native_catalytic_validation_v2/results/poses/MAPK14_full/pose003/packet.npz",
+    "sha256": "ec2339051bd8063471360085e30bffa48712ec578c1736cccaadbff1289efa7f"
+  },
+  {
+    "path": "/home/ayushregmibagale/10PROTAC-MD/SJF8240_reanalysis/mechanistic_v3/analysis/lysines/poses/MAPK14_full/pose003/packet.npz",
+    "sha256": "8af3727cbab2f440708c625588055dae270959e63e53f4009975e1297f3267a7"
+  },
+  {
+    "path": "/mnt/c/Users/Ayush Regmi Bagale/SJF8240_ten_target_mechanistic_v1/reach50/MAPK14_full/pose004/packet.npz",
+    "sha256": "57e3429cd9fc825cf993d73aaeee4bc7a165fa81adc8da579616e25fcebfa4f4"
+  },
+  {
+    "path": "/home/ayushregmibagale/10PROTAC-MD/SJF8240_reanalysis/full_frame_e2_delta50_v1/analysis/poses/MAPK14_full/pose004/packet.npz",
+    "sha256": "96c834a269f3bcba1f33e4b518e3c99553d14f6d9536672f141efcbde6568fc3"
+  },
+  {
+    "path": "/home/ayushregmibagale/10PROTAC-MD/SJF8240_renanalysis2/native_catalytic_validation_v2/results/poses/MAPK14_full/pose004/packet.npz",
+    "sha256": "87f7b5282c0a97b905ba4cd01789ea4ed3cb1dc7e2343cb4525f21e911c82804"
+  },
+  {
+    "path": "/home/ayushregmibagale/10PROTAC-MD/SJF8240_reanalysis/mechanistic_v3/analysis/lysines/poses/MAPK14_full/pose004/packet.npz",
+    "sha256": "ee2d6679fd73b5a3688140b0d8ce7b281d41e9649740b8fc1eb000073fed072b"
+  },
+  {
+    "path": "/mnt/c/Users/Ayush Regmi Bagale/SJF8240_ten_target_mechanistic_v1/reach50/MAPK14_full/pose005/packet.npz",
+    "sha256": "1e8492630d161470eaf9d2e0b3bbf092d7d30a2532c287b41732370c9da8500a"
+  },
+  {
+    "path": "/home/ayushregmibagale/10PROTAC-MD/SJF8240_reanalysis/full_frame_e2_delta50_v1/analysis/poses/MAPK14_full/pose005/packet.npz",
+    "sha256": "4bee03f145e606c3a53f5faf1b3cd3ff347238a9d0fbb2a1f5484f6bacfd6a41"
+  },
+  {
+    "path": "/home/ayushregmibagale/10PROTAC-MD/SJF8240_renanalysis2/native_catalytic_validation_v2/results/poses/MAPK14_full/pose005/packet.npz",
+    "sha256": "c61615c923886168b007e5b21723fb067e291a1c5ce8890d9c5419d6550d4ba3"
+  },
+  {
+    "path": "/home/ayushregmibagale/10PROTAC-MD/SJF8240_reanalysis/mechanistic_v3/analysis/lysines/poses/MAPK14_full/pose005/packet.npz",
+    "sha256": "b7850b6815265ee7d86b5d05c535d2fee9c4acd77f5a194383635ad6bc434346"
+  },
+  {
+    "path": "/mnt/c/Users/Ayush Regmi Bagale/SJF8240_ten_target_mechanistic_v1/reach50/MAPK14_full/pose006/packet.npz",
+    "sha256": "2a3e74c471bbd2e1f08465b4926ecb8598b8b10f6f9deb481e941947ce242db6"
+  },
+  {
+    "path": "/home/ayushregmibagale/10PROTAC-MD/SJF8240_reanalysis/full_frame_e2_delta50_v1/analysis/poses/MAPK14_full/pose006/packet.npz",
+    "sha256": "2029e83b8c4384f3fc71f9a306303902cc6078151f239767a85a00ce62d3fd2b"
+  },
+  {
+    "path": "/home/ayushregmibagale/10PROTAC-MD/SJF8240_renanalysis2/native_catalytic_validation_v2/results/poses/MAPK14_full/pose006/packet.npz",
+    "sha256": "e5fb8f03808b8a4bc4d52fb64d574ba7ebebdf70db63d03b6e9027e505c8d208"
+  },
+  {
+    "path": "/home/ayushregmibagale/10PROTAC-MD/SJF8240_reanalysis/mechanistic_v3/analysis/lysines/poses/MAPK14_full/pose006/packet.npz",
+    "sha256": "3d07f5c6a8042d50deaec28c77875a556cb4428ef8a2d5404f4099f177dd7da9"
+  },
+  {
+    "path": "/mnt/c/Users/Ayush Regmi Bagale/SJF8240_ten_target_mechanistic_v1/reach50/MAPK14_full/pose007/packet.npz",
+    "sha256": "f3786dcac3e075b629176582bd0980aab1d8fa732864ad0e9325a4420eda28cf"
+  },
+  {
+    "path": "/home/ayushregmibagale/10PROTAC-MD/SJF8240_reanalysis/full_frame_e2_delta50_v1/analysis/poses/MAPK14_full/pose007/packet.npz",
+    "sha256": "f6cad89ad0590d27c8f38eadff3130793c1debe666a960dad8963106f59ecf0a"
+  },
+  {
+    "path": "/home/ayushregmibagale/10PROTAC-MD/SJF8240_renanalysis2/native_catalytic_validation_v2/results/poses/MAPK14_full/pose007/packet.npz",
+    "sha256": "841aa114d681f7935de70760c699d30a28d7d741cfaf5e09c9248ba1f3a308f5"
+  },
+  {
+    "path": "/home/ayushregmibagale/10PROTAC-MD/SJF8240_reanalysis/mechanistic_v3/analysis/lysines/poses/MAPK14_full/pose007/packet.npz",
+    "sha256": "5e0bbaba7cea341717d956416d957fd428f050ebab8b123f33c8a13173d1c264"
+  },
+  {
+    "path": "/mnt/c/Users/Ayush Regmi Bagale/SJF8240_ten_target_mechanistic_v1/reach50/MAPK14_full/pose008/packet.npz",
+    "sha256": "1e8492630d161470eaf9d2e0b3bbf092d7d30a2532c287b41732370c9da8500a"
+  },
+  {
+    "path": "/home/ayushregmibagale/10PROTAC-MD/SJF8240_reanalysis/full_frame_e2_delta50_v1/analysis/poses/MAPK14_full/pose008/packet.npz",
+    "sha256": "fedaafbc03957ba6a01591a09dabccb00f4ca44cb7f6fc78d98f0d01b13682f5"
+  },
+  {
+    "path": "/home/ayushregmibagale/10PROTAC-MD/SJF8240_renanalysis2/native_catalytic_validation_v2/results/poses/MAPK14_full/pose008/packet.npz",
+    "sha256": "513f7f62a9cd4e84195adc64b9fbbc2c84aff842a10407b8213810bffb9926f9"
+  },
+  {
+    "path": "/home/ayushregmibagale/10PROTAC-MD/SJF8240_reanalysis/mechanistic_v3/analysis/lysines/poses/MAPK14_full/pose008/packet.npz",
+    "sha256": "8bfb516a7061da47bef92db472e31c6d258369aedf2af135a321a8acda470c52"
+  },
+  {
+    "path": "/mnt/c/Users/Ayush Regmi Bagale/SJF8240_ten_target_mechanistic_v1/reach50/MAPK14_full/pose009/packet.npz",
+    "sha256": "e94ef9b567b1bacbaad97941e96b377b8eb727b593756552f24013baa79684b4"
+  },
+  {
+    "path": "/home/ayushregmibagale/10PROTAC-MD/SJF8240_reanalysis/full_frame_e2_delta50_v1/analysis/poses/MAPK14_full/pose009/packet.npz",
+    "sha256": "c511ef87b99c7def5a651c356f7d1ed821927fb3ab2ba4d120dbb25391379270"
+  },
+  {
+    "path": "/home/ayushregmibagale/10PROTAC-MD/SJF8240_renanalysis2/native_catalytic_validation_v2/results/poses/MAPK14_full/pose009/packet.npz",
+    "sha256": "b01b4c269c0d7d59c90c67ca90b24ccc73cf8aaaad76c0c3f6462510178b4e27"
+  },
+  {
+    "path": "/home/ayushregmibagale/10PROTAC-MD/SJF8240_reanalysis/mechanistic_v3/analysis/lysines/poses/MAPK14_full/pose009/packet.npz",
+    "sha256": "a91aaaeb22ca1a5ec407d0c8d2067c66c78925b6b39fb80d4dc19aecdbd02e45"
+  },
+  {
+    "path": "/mnt/c/Users/Ayush Regmi Bagale/SJF8240_ten_target_mechanistic_v1/reach50/MAPK14_full/pose010/packet.npz",
+    "sha256": "1e8492630d161470eaf9d2e0b3bbf092d7d30a2532c287b41732370c9da8500a"
+  },
+  {
+    "path": "/home/ayushregmibagale/10PROTAC-MD/SJF8240_reanalysis/full_frame_e2_delta50_v1/analysis/poses/MAPK14_full/pose010/packet.npz",
+    "sha256": "cb9a5d689123e69b53ba7bc5143f32a297dcbf6785afb30590c1a8bd8ffb74a6"
+  },
+  {
+    "path": "/home/ayushregmibagale/10PROTAC-MD/SJF8240_renanalysis2/native_catalytic_validation_v2/results/poses/MAPK14_full/pose010/packet.npz",
+    "sha256": "cd0c436b5d180fba20f999c4c2ca70f34250d3a086409c1b662b333a34ddd200"
+  },
+  {
+    "path": "/home/ayushregmibagale/10PROTAC-MD/SJF8240_reanalysis/mechanistic_v3/analysis/lysines/poses/MAPK14_full/pose010/packet.npz",
+    "sha256": "02b2f154502c6a7beec78c8fae421b960a680eef61852168494c17e27f65d7a8"
+  },
+  {
+    "path": "/mnt/c/Users/Ayush Regmi Bagale/SJF8240_ten_target_mechanistic_v1/reach50/MAPK14_full/pose011/packet.npz",
+    "sha256": "1e8492630d161470eaf9d2e0b3bbf092d7d30a2532c287b41732370c9da8500a"
+  },
+  {
+    "path": "/home/ayushregmibagale/10PROTAC-MD/SJF8240_reanalysis/full_frame_e2_delta50_v1/analysis/poses/MAPK14_full/pose011/packet.npz",
+    "sha256": "e73585636458efb3288b3287627acadf37fe4401fccc9ce64e40718c7c873463"
+  },
+  {
+    "path": "/home/ayushregmibagale/10PROTAC-MD/SJF8240_renanalysis2/native_catalytic_validation_v2/results/poses/MAPK14_full/pose011/packet.npz",
+    "sha256": "4ed146a5743f26644ddd79ef08c56773cc990b6aaf51b6be0e572808227f2b60"
+  },
+  {
+    "path": "/home/ayushregmibagale/10PROTAC-MD/SJF8240_reanalysis/mechanistic_v3/analysis/lysines/poses/MAPK14_full/pose011/packet.npz",
+    "sha256": "933dbd740a63df997a014b5db504d957e8083eff1d94811b0c770b926c343d51"
+  },
+  {
+    "path": "/mnt/c/Users/Ayush Regmi Bagale/SJF8240_ten_target_mechanistic_v1/reach50/MAPK14_full/pose012/packet.npz",
+    "sha256": "4f45cf36fb611e2b3f8227a3782482d402e0033f6250f6e7fdcc8e2c4af7f83b"
+  },
+  {
+    "path": "/home/ayushregmibagale/10PROTAC-MD/SJF8240_reanalysis/full_frame_e2_delta50_v1/analysis/poses/MAPK14_full/pose012/packet.npz",
+    "sha256": "5c28910d7a8e3e335433f1f0e7a0d7d029bb2f6f28181b905964f7df6395eb2c"
+  },
+  {
+    "path": "/home/ayushregmibagale/10PROTAC-MD/SJF8240_renanalysis2/native_catalytic_validation_v2/results/poses/MAPK14_full/pose012/packet.npz",
+    "sha256": "fd2e287dfa080c53664653b184ce5cae50646021a46a39377559b16735ed12da"
+  },
+  {
+    "path": "/home/ayushregmibagale/10PROTAC-MD/SJF8240_reanalysis/mechanistic_v3/analysis/lysines/poses/MAPK14_full/pose012/packet.npz",
+    "sha256": "2e625eadc82ad986e099dc3c08f8e28b7b5cb68c5657277ad4358d24bed8c7e8"
+  },
+  {
+    "path": "/mnt/c/Users/Ayush Regmi Bagale/SJF8240_ten_target_mechanistic_v1/reach50/MAPK14_full/pose013/packet.npz",
+    "sha256": "9218d4ab66fa7974668d8aba22ddf816f1c0817517ad7821e6b20529c48abcf9"
+  },
+  {
+    "path": "/home/ayushregmibagale/10PROTAC-MD/SJF8240_reanalysis/full_frame_e2_delta50_v1/analysis/poses/MAPK14_full/pose013/packet.npz",
+    "sha256": "935bb9df6e0ae83e075734f7e1572ceaab1c7cd2bba946108fdf1570fa54bc37"
+  },
+  {
+    "path": "/home/ayushregmibagale/10PROTAC-MD/SJF8240_renanalysis2/native_catalytic_validation_v2/results/poses/MAPK14_full/pose013/packet.npz",
+    "sha256": "6116a56177ae705b013f9d03c977b2c5bf8a40a67370639bb276cf2f9424bced"
+  },
+  {
+    "path": "/home/ayushregmibagale/10PROTAC-MD/SJF8240_reanalysis/mechanistic_v3/analysis/lysines/poses/MAPK14_full/pose013/packet.npz",
+    "sha256": "de03c1adcfacff4f502be14ed36852a98d86a048070ce49f70386ed9ed76b46e"
+  },
+  {
+    "path": "/mnt/c/Users/Ayush Regmi Bagale/SJF8240_ten_target_mechanistic_v1/reach50/MAPK14_full/pose015/packet.npz",
+    "sha256": "05e3c9bae8839c5f7638fe595805c9afd49c0d53f338cd2aa61647d807e521ca"
+  },
+  {
+    "path": "/home/ayushregmibagale/10PROTAC-MD/SJF8240_reanalysis/full_frame_e2_delta50_v1/analysis/poses/MAPK14_full/pose015/packet.npz",
+    "sha256": "f540d2b69708281e258d7ef97151b95c2310458a3eafdde8ed0b324caa3fb926"
+  },
+  {
+    "path": "/home/ayushregmibagale/10PROTAC-MD/SJF8240_renanalysis2/native_catalytic_validation_v2/results/poses/MAPK14_full/pose015/packet.npz",
+    "sha256": "b17d9ac2b2bb945e90c4a814e703802f1a18e5f1e11a517c051652761d12d5e1"
+  },
+  {
+    "path": "/home/ayushregmibagale/10PROTAC-MD/SJF8240_reanalysis/mechanistic_v3/analysis/lysines/poses/MAPK14_full/pose015/packet.npz",
+    "sha256": "d437a1baaecb151170fc4f3d3368e2977e98e692a2121b435c28bd4895d92af3"
+  },
+  {
+    "path": "/mnt/c/Users/Ayush Regmi Bagale/SJF8240_ten_target_mechanistic_v1/reach50/MAPK14_full/pose016/packet.npz",
+    "sha256": "36ac5325276e64e2a6f8e756f9b168c4ef26a694f3f51f83010b7aa5c32bffce"
+  },
+  {
+    "path": "/home/ayushregmibagale/10PROTAC-MD/SJF8240_reanalysis/full_frame_e2_delta50_v1/analysis/poses/MAPK14_full/pose016/packet.npz",
+    "sha256": "dc6cc8bd5bd09d0f1f4f312a599bd1a2ed1bd6b777a5e8757db998189d6d0a71"
+  },
+  {
+    "path": "/home/ayushregmibagale/10PROTAC-MD/SJF8240_renanalysis2/native_catalytic_validation_v2/results/poses/MAPK14_full/pose016/packet.npz",
+    "sha256": "00aa04fbd7d24df27dadf8d834cc4dd187dd029d1e82b6497290e03b09e69e04"
+  },
+  {
+    "path": "/home/ayushregmibagale/10PROTAC-MD/SJF8240_reanalysis/mechanistic_v3/analysis/lysines/poses/MAPK14_full/pose016/packet.npz",
+    "sha256": "be38738b2491b26baab0222f7d4a30fc71edb5485769d902fd568a8a7e7eca90"
+  },
+  {
+    "path": "/mnt/c/Users/Ayush Regmi Bagale/SJF8240_ten_target_mechanistic_v1/reach50/MAPK14_full/pose017/packet.npz",
+    "sha256": "1e8492630d161470eaf9d2e0b3bbf092d7d30a2532c287b41732370c9da8500a"
+  },
+  {
+    "path": "/home/ayushregmibagale/10PROTAC-MD/SJF8240_reanalysis/full_frame_e2_delta50_v1/analysis/poses/MAPK14_full/pose017/packet.npz",
+    "sha256": "6b74d3c33aaa9c263053695ff8dd31de718df4d002066cc91d8820e8ce1f4e12"
+  },
+  {
+    "path": "/home/ayushregmibagale/10PROTAC-MD/SJF8240_renanalysis2/native_catalytic_validation_v2/results/poses/MAPK14_full/pose017/packet.npz",
+    "sha256": "8415a41fd93e72c2240be78ea29cbd932f51afb28b740df0f3e01e3ad42fe96d"
+  },
+  {
+    "path": "/home/ayushregmibagale/10PROTAC-MD/SJF8240_reanalysis/mechanistic_v3/analysis/lysines/poses/MAPK14_full/pose017/packet.npz",
+    "sha256": "bd12f8db09f484c4068f3f8fce63e81bb3ff49d38a0865d5f90c793733c49924"
+  },
+  {
+    "path": "/mnt/c/Users/Ayush Regmi Bagale/SJF8240_ten_target_mechanistic_v1/reach50/MAPK14_full/pose018/packet.npz",
+    "sha256": "f790574fcf2279de07d0b9ad5132faa11abe23889d38045d2e64f5601a20f03e"
+  },
+  {
+    "path": "/home/ayushregmibagale/10PROTAC-MD/SJF8240_reanalysis/full_frame_e2_delta50_v1/analysis/poses/MAPK14_full/pose018/packet.npz",
+    "sha256": "5c60679836282f3ac16b9d510bfd23c85c03f0e6e573a809ef6b7902280963d1"
+  },
+  {
+    "path": "/home/ayushregmibagale/10PROTAC-MD/SJF8240_renanalysis2/native_catalytic_validation_v2/results/poses/MAPK14_full/pose018/packet.npz",
+    "sha256": "805eebcdf87fd442ef2ec0907bd1e801640b872902ccc94138303c0f8500cef3"
+  },
+  {
+    "path": "/home/ayushregmibagale/10PROTAC-MD/SJF8240_reanalysis/mechanistic_v3/analysis/lysines/poses/MAPK14_full/pose018/packet.npz",
+    "sha256": "cb5ed4b4f663a70d8430563fa78629e2780c84d289f23a2bc9511f28afba2dbf"
+  },
+  {
+    "path": "/mnt/c/Users/Ayush Regmi Bagale/SJF8240_ten_target_mechanistic_v1/reach50/MAPK14_full/pose020/packet.npz",
+    "sha256": "8bc196064dcceb311c85a5c514bc57ff1831fd618dbb8bcaee4f7ac3e5318d41"
+  },
+  {
+    "path": "/home/ayushregmibagale/10PROTAC-MD/SJF8240_reanalysis/full_frame_e2_delta50_v1/analysis/poses/MAPK14_full/pose020/packet.npz",
+    "sha256": "ac5e692d0819577cc198ed7fd285d828de5689aaf3d6e835cc1474cb44c5a553"
+  },
+  {
+    "path": "/home/ayushregmibagale/10PROTAC-MD/SJF8240_renanalysis2/native_catalytic_validation_v2/results/poses/MAPK14_full/pose020/packet.npz",
+    "sha256": "57f1e81915d32494ea166e5a85d191e914a391b2d0c57fc9c3ca2106f0158894"
+  },
+  {
+    "path": "/home/ayushregmibagale/10PROTAC-MD/SJF8240_reanalysis/mechanistic_v3/analysis/lysines/poses/MAPK14_full/pose020/packet.npz",
+    "sha256": "f30da9c43283f8d966480a45018b662a350bd8dfeb208b878ec6af60acaeeabd"
+  },
+  {
+    "path": "/mnt/c/Users/Ayush Regmi Bagale/SJF8240_ten_target_mechanistic_v1/reach50/MET/pose002/packet.npz",
+    "sha256": "4cb0edbda3d19ab8a82d58ffc0fa1e24f923b4008dbcac1af95d2710f47679b8"
+  },
+  {
+    "path": "/home/ayushregmibagale/10PROTAC-MD/SJF8240_reanalysis/full_frame_e2_delta50_v1/analysis/poses/MET/pose002/packet.npz",
+    "sha256": "cdd726d44cd919c3de85c90023f6bb009e17828ede3f16211464a2c041547d8f"
+  },
+  {
+    "path": "/home/ayushregmibagale/10PROTAC-MD/SJF8240_renanalysis2/native_catalytic_validation_v2/results/poses/MET/pose002/packet.npz",
+    "sha256": "6bb80e92cf5b34c16196d43ef1e8174bdbc97b1cea6211f52750a13506a84d4c"
+  },
+  {
+    "path": "/home/ayushregmibagale/10PROTAC-MD/SJF8240_reanalysis/mechanistic_v3/analysis/lysines/poses/MET/pose002/packet.npz",
+    "sha256": "2866cc7302089902586814edb4db0282c10429d95d4760429cf8ea2d8d7f59b2"
+  },
+  {
+    "path": "/mnt/c/Users/Ayush Regmi Bagale/SJF8240_ten_target_mechanistic_v1/reach50/MET/pose003/packet.npz",
+    "sha256": "40d1ddc118a081a9da8de33e8bfb1747dd3480be6f9a23c5c25970107104f6ad"
+  },
+  {
+    "path": "/home/ayushregmibagale/10PROTAC-MD/SJF8240_reanalysis/full_frame_e2_delta50_v1/analysis/poses/MET/pose003/packet.npz",
+    "sha256": "e78d28f949730d18abcdcc35837ba1168089306a7426daab94d6c230f111f670"
+  },
+  {
+    "path": "/home/ayushregmibagale/10PROTAC-MD/SJF8240_renanalysis2/native_catalytic_validation_v2/results/poses/MET/pose003/packet.npz",
+    "sha256": "df6c49d36bea7506dd8457dc541dbbfb8162cdbebec0c90f177467993b39d6ce"
+  },
+  {
+    "path": "/home/ayushregmibagale/10PROTAC-MD/SJF8240_reanalysis/mechanistic_v3/analysis/lysines/poses/MET/pose003/packet.npz",
+    "sha256": "c821054b7a0f01da5524f5d1aa4920bd9c4329eb70e06944f9a0318d36f58488"
+  },
+  {
+    "path": "/mnt/c/Users/Ayush Regmi Bagale/SJF8240_ten_target_mechanistic_v1/reach50/MET/pose004/packet.npz",
+    "sha256": "0fe2dc595ada9f7eaf2e3ce2487de99dea907df31722d8187f64cbce91054c51"
+  },
+  {
+    "path": "/home/ayushregmibagale/10PROTAC-MD/SJF8240_reanalysis/full_frame_e2_delta50_v1/analysis/poses/MET/pose004/packet.npz",
+    "sha256": "890183e65c90aa33502defbde2bc85954e986ca15b2215037e1ab87a4d81a544"
+  },
+  {
+    "path": "/home/ayushregmibagale/10PROTAC-MD/SJF8240_renanalysis2/native_catalytic_validation_v2/results/poses/MET/pose004/packet.npz",
+    "sha256": "d610bc048fc5c5df80bb1814c7897d73a3186596e0d98f7e697fb01e73494089"
+  },
+  {
+    "path": "/home/ayushregmibagale/10PROTAC-MD/SJF8240_reanalysis/mechanistic_v3/analysis/lysines/poses/MET/pose004/packet.npz",
+    "sha256": "1feec6388774d231346c8e0ac37d35d5be2ef408c2c664df26813dc1d6c7b6ec"
+  },
+  {
+    "path": "/mnt/c/Users/Ayush Regmi Bagale/SJF8240_ten_target_mechanistic_v1/reach50/MET/pose005/packet.npz",
+    "sha256": "4cb0edbda3d19ab8a82d58ffc0fa1e24f923b4008dbcac1af95d2710f47679b8"
+  },
+  {
+    "path": "/home/ayushregmibagale/10PROTAC-MD/SJF8240_reanalysis/full_frame_e2_delta50_v1/analysis/poses/MET/pose005/packet.npz",
+    "sha256": "582d98b5cfe81f294ed92674916765e4ab4f0545d1eb9f2b3b9bd24409626a62"
+  },
+  {
+    "path": "/home/ayushregmibagale/10PROTAC-MD/SJF8240_renanalysis2/native_catalytic_validation_v2/results/poses/MET/pose005/packet.npz",
+    "sha256": "28822d228a109e39f2c4d27c5a923f1954e78937f8fdcebe9d9122b6398fe677"
+  },
+  {
+    "path": "/home/ayushregmibagale/10PROTAC-MD/SJF8240_reanalysis/mechanistic_v3/analysis/lysines/poses/MET/pose005/packet.npz",
+    "sha256": "5dbfa5b91dca45db4117e5149e15a6f9f416798b743ff3f2eba33dbfdc2f7257"
+  },
+  {
+    "path": "/mnt/c/Users/Ayush Regmi Bagale/SJF8240_ten_target_mechanistic_v1/reach50/MET/pose006/packet.npz",
+    "sha256": "8ab3bfb62b447c506b19ed226a7b46b516c88ab748248a7385aa37c1166afc16"
+  },
+  {
+    "path": "/home/ayushregmibagale/10PROTAC-MD/SJF8240_reanalysis/full_frame_e2_delta50_v1/analysis/poses/MET/pose006/packet.npz",
+    "sha256": "19ffd4c2e14265cd7e65bfe9b92c0c4a316b05d106a8a7302d8ebed3b96e5ba2"
+  },
+  {
+    "path": "/home/ayushregmibagale/10PROTAC-MD/SJF8240_renanalysis2/native_catalytic_validation_v2/results/poses/MET/pose006/packet.npz",
+    "sha256": "dbe5bd0480058907ca6bda717ed364c6b2fbe1eb489e0ca372359954fbe4343e"
+  },
+  {
+    "path": "/home/ayushregmibagale/10PROTAC-MD/SJF8240_reanalysis/mechanistic_v3/analysis/lysines/poses/MET/pose006/packet.npz",
+    "sha256": "444975330ba9c1575173e8f6ddc85c38688b958ee70869f1adf12385bb6112c0"
+  },
+  {
+    "path": "/mnt/c/Users/Ayush Regmi Bagale/SJF8240_ten_target_mechanistic_v1/reach50/MET/pose007/packet.npz",
+    "sha256": "4cb0edbda3d19ab8a82d58ffc0fa1e24f923b4008dbcac1af95d2710f47679b8"
+  },
+  {
+    "path": "/home/ayushregmibagale/10PROTAC-MD/SJF8240_reanalysis/full_frame_e2_delta50_v1/analysis/poses/MET/pose007/packet.npz",
+    "sha256": "3410eae44dde5078c9e1728b702303a03b81bf0268815272d22b1d6c8244dc91"
+  },
+  {
+    "path": "/home/ayushregmibagale/10PROTAC-MD/SJF8240_renanalysis2/native_catalytic_validation_v2/results/poses/MET/pose007/packet.npz",
+    "sha256": "852a3008a3f6d0a48db3cd98a0aac11ec9b08660d7d6bec72a954768fca072f1"
+  },
+  {
+    "path": "/home/ayushregmibagale/10PROTAC-MD/SJF8240_reanalysis/mechanistic_v3/analysis/lysines/poses/MET/pose007/packet.npz",
+    "sha256": "f499ffd60dd01669a3384165bc5c199580cff1234d6733150aec726f27a4279f"
+  },
+  {
+    "path": "/mnt/c/Users/Ayush Regmi Bagale/SJF8240_ten_target_mechanistic_v1/reach50/MET/pose008/packet.npz",
+    "sha256": "d7b98e3ac53af458d801b7ba3d61e4ddfb89d33b5a89d875066773c45e669dac"
+  },
+  {
+    "path": "/home/ayushregmibagale/10PROTAC-MD/SJF8240_reanalysis/full_frame_e2_delta50_v1/analysis/poses/MET/pose008/packet.npz",
+    "sha256": "382ff0aa284276a33e02643473b93afbde3ae50652c935a4b4ab603eded16795"
+  },
+  {
+    "path": "/home/ayushregmibagale/10PROTAC-MD/SJF8240_renanalysis2/native_catalytic_validation_v2/results/poses/MET/pose008/packet.npz",
+    "sha256": "3eb22e62e29c1041c856914ee201e7c07535fff9529025cb17788cc14b4ed865"
+  },
+  {
+    "path": "/home/ayushregmibagale/10PROTAC-MD/SJF8240_reanalysis/mechanistic_v3/analysis/lysines/poses/MET/pose008/packet.npz",
+    "sha256": "4dd9da456ec957b8247bcf28d984d3e29c1b879c048ab4b114da4a9237036156"
+  },
+  {
+    "path": "/mnt/c/Users/Ayush Regmi Bagale/SJF8240_ten_target_mechanistic_v1/reach50/MET/pose009/packet.npz",
+    "sha256": "4cb0edbda3d19ab8a82d58ffc0fa1e24f923b4008dbcac1af95d2710f47679b8"
+  },
+  {
+    "path": "/home/ayushregmibagale/10PROTAC-MD/SJF8240_reanalysis/full_frame_e2_delta50_v1/analysis/poses/MET/pose009/packet.npz",
+    "sha256": "19a4e7c1cd9a1974583f49d68f4a6316321fbf50935e8dd2ff45c0abeca0790d"
+  },
+  {
+    "path": "/home/ayushregmibagale/10PROTAC-MD/SJF8240_renanalysis2/native_catalytic_validation_v2/results/poses/MET/pose009/packet.npz",
+    "sha256": "1af6238253733564edb810065a9b50406c21b0b2de4154d367c4599efc16afe4"
+  },
+  {
+    "path": "/home/ayushregmibagale/10PROTAC-MD/SJF8240_reanalysis/mechanistic_v3/analysis/lysines/poses/MET/pose009/packet.npz",
+    "sha256": "f51883f91d5691ac195ab490f4bffc378ff5cb7d7aa701b6410842ccc926db84"
+  },
+  {
+    "path": "/mnt/c/Users/Ayush Regmi Bagale/SJF8240_ten_target_mechanistic_v1/reach50/MET/pose011/packet.npz",
+    "sha256": "4cb0edbda3d19ab8a82d58ffc0fa1e24f923b4008dbcac1af95d2710f47679b8"
+  },
+  {
+    "path": "/home/ayushregmibagale/10PROTAC-MD/SJF8240_reanalysis/full_frame_e2_delta50_v1/analysis/poses/MET/pose011/packet.npz",
+    "sha256": "2492b39f89df218a70c35bbdc03adaf8767a3cfa3facb71fb99ca5b51d572c4d"
+  },
+  {
+    "path": "/home/ayushregmibagale/10PROTAC-MD/SJF8240_renanalysis2/native_catalytic_validation_v2/results/poses/MET/pose011/packet.npz",
+    "sha256": "97d8ca498cc6b2ab0ac1fdc292f7f3ee894973fa81b8304cdc10b1b36e07270c"
+  },
+  {
+    "path": "/home/ayushregmibagale/10PROTAC-MD/SJF8240_reanalysis/mechanistic_v3/analysis/lysines/poses/MET/pose011/packet.npz",
+    "sha256": "19d13f73e8afa8217212bb81ff62344b67c65e531a053870b5d28bd8d1cc47fe"
+  },
+  {
+    "path": "/mnt/c/Users/Ayush Regmi Bagale/SJF8240_ten_target_mechanistic_v1/reach50/MET/pose012/packet.npz",
+    "sha256": "4cb0edbda3d19ab8a82d58ffc0fa1e24f923b4008dbcac1af95d2710f47679b8"
+  },
+  {
+    "path": "/home/ayushregmibagale/10PROTAC-MD/SJF8240_reanalysis/full_frame_e2_delta50_v1/analysis/poses/MET/pose012/packet.npz",
+    "sha256": "277889d1fd4700cceb9d4098a43b94e2a31b7f88e9dab2fcb9d0c6127a34b4bb"
+  },
+  {
+    "path": "/home/ayushregmibagale/10PROTAC-MD/SJF8240_renanalysis2/native_catalytic_validation_v2/results/poses/MET/pose012/packet.npz",
+    "sha256": "aa36ac528aa2712a19505eb35d55415b8ec6d1333593f7be2bcac63d9b564a42"
+  },
+  {
+    "path": "/home/ayushregmibagale/10PROTAC-MD/SJF8240_reanalysis/mechanistic_v3/analysis/lysines/poses/MET/pose012/packet.npz",
+    "sha256": "0a0c549ef18c57465c1e272d6594d43e1bd2b24abffa51eb2e3b9168049ba003"
+  },
+  {
+    "path": "/mnt/c/Users/Ayush Regmi Bagale/SJF8240_ten_target_mechanistic_v1/reach50/MET/pose013/packet.npz",
+    "sha256": "28629f055005c0e1605f1bd6f39c71191d07b47a7911117848f6c80fd838ae4c"
+  },
+  {
+    "path": "/home/ayushregmibagale/10PROTAC-MD/SJF8240_reanalysis/full_frame_e2_delta50_v1/analysis/poses/MET/pose013/packet.npz",
+    "sha256": "2d1f961c475e0309654fa7140a4ba4bc1578715c82d5c9543731a9fafba96620"
+  },
+  {
+    "path": "/home/ayushregmibagale/10PROTAC-MD/SJF8240_renanalysis2/native_catalytic_validation_v2/results/poses/MET/pose013/packet.npz",
+    "sha256": "7ea7043a71807557ae5abc20a34c0f59555d33856e2d798178e425ab7a7e7fc3"
+  },
+  {
+    "path": "/home/ayushregmibagale/10PROTAC-MD/SJF8240_reanalysis/mechanistic_v3/analysis/lysines/poses/MET/pose013/packet.npz",
+    "sha256": "1ca75196386a8d2b45c77eb5fd3ddd7ca234456296f9764af4371ea1f03f0183"
+  },
+  {
+    "path": "/mnt/c/Users/Ayush Regmi Bagale/SJF8240_ten_target_mechanistic_v1/reach50/MET/pose014/packet.npz",
+    "sha256": "4cb0edbda3d19ab8a82d58ffc0fa1e24f923b4008dbcac1af95d2710f47679b8"
+  },
+  {
+    "path": "/home/ayushregmibagale/10PROTAC-MD/SJF8240_reanalysis/full_frame_e2_delta50_v1/analysis/poses/MET/pose014/packet.npz",
+    "sha256": "eee76868552729ff892c89842b4bd7a668499bee5fe8435c6290717d4141b63b"
+  },
+  {
+    "path": "/home/ayushregmibagale/10PROTAC-MD/SJF8240_renanalysis2/native_catalytic_validation_v2/results/poses/MET/pose014/packet.npz",
+    "sha256": "326ee9edcd1c80e47c969d5cedd68065fc01102a4973aea9db28d4c2fe7a8524"
+  },
+  {
+    "path": "/home/ayushregmibagale/10PROTAC-MD/SJF8240_reanalysis/mechanistic_v3/analysis/lysines/poses/MET/pose014/packet.npz",
+    "sha256": "3b76d8148ea181a464e2eeb9852145b9f68ef7a9ef76343dbbe6b43a1cd4a3ea"
+  },
+  {
+    "path": "/mnt/c/Users/Ayush Regmi Bagale/SJF8240_ten_target_mechanistic_v1/reach50/MET/pose017/packet.npz",
+    "sha256": "dfc45c9566ebfae95f4739416635e217bf9aea21a609765f37a6dca1977a426c"
+  },
+  {
+    "path": "/home/ayushregmibagale/10PROTAC-MD/SJF8240_reanalysis/full_frame_e2_delta50_v1/analysis/poses/MET/pose017/packet.npz",
+    "sha256": "c9398c065ffc1d2e9a82bb5598a02db8043b4d24d73f24079eb82123699125f6"
+  },
+  {
+    "path": "/home/ayushregmibagale/10PROTAC-MD/SJF8240_renanalysis2/native_catalytic_validation_v2/results/poses/MET/pose017/packet.npz",
+    "sha256": "9cb155ff17e9fd81f27f5170d5c8fd637f490556d9c87507ccc62db411f6673b"
+  },
+  {
+    "path": "/home/ayushregmibagale/10PROTAC-MD/SJF8240_reanalysis/mechanistic_v3/analysis/lysines/poses/MET/pose017/packet.npz",
+    "sha256": "7f683fcf2f7edf31f1b2e09aca001dea1c20edf71a0fcada9569e6373d693923"
+  },
+  {
+    "path": "/mnt/c/Users/Ayush Regmi Bagale/SJF8240_ten_target_mechanistic_v1/reach50/MET/pose018/packet.npz",
+    "sha256": "4cb0edbda3d19ab8a82d58ffc0fa1e24f923b4008dbcac1af95d2710f47679b8"
+  },
+  {
+    "path": "/home/ayushregmibagale/10PROTAC-MD/SJF8240_reanalysis/full_frame_e2_delta50_v1/analysis/poses/MET/pose018/packet.npz",
+    "sha256": "269d09f15f55bcb96565df70f6aa204ad4dbd34857a21f2c7854d6e9f6f7b537"
+  },
+  {
+    "path": "/home/ayushregmibagale/10PROTAC-MD/SJF8240_renanalysis2/native_catalytic_validation_v2/results/poses/MET/pose018/packet.npz",
+    "sha256": "4c9470582310167ff848c948b7f679f18cd40d3de3a40eb9fc6f1d21ad4fd682"
+  },
+  {
+    "path": "/home/ayushregmibagale/10PROTAC-MD/SJF8240_reanalysis/mechanistic_v3/analysis/lysines/poses/MET/pose018/packet.npz",
+    "sha256": "943286f9b5b5b934f345abcd0f647b60b7309d32e0f27d05b8d5a3ae037122af"
+  },
+  {
+    "path": "/mnt/c/Users/Ayush Regmi Bagale/SJF8240_ten_target_mechanistic_v1/reach50/MET/pose019/packet.npz",
+    "sha256": "aa7a98bf93492cb0db806a878a59168c86f4a5cb0c306e156146f2f22d1336fc"
+  },
+  {
+    "path": "/home/ayushregmibagale/10PROTAC-MD/SJF8240_reanalysis/full_frame_e2_delta50_v1/analysis/poses/MET/pose019/packet.npz",
+    "sha256": "8b6a9e8cb1b9d72f976a9667e785f547663359749c43760563f429ee40775236"
+  },
+  {
+    "path": "/home/ayushregmibagale/10PROTAC-MD/SJF8240_renanalysis2/native_catalytic_validation_v2/results/poses/MET/pose019/packet.npz",
+    "sha256": "f5dc9fbd7c9d9df050d1cf14c9c182b1c3606cdfe7c9b731ee890e1fe1c80219"
+  },
+  {
+    "path": "/home/ayushregmibagale/10PROTAC-MD/SJF8240_reanalysis/mechanistic_v3/analysis/lysines/poses/MET/pose019/packet.npz",
+    "sha256": "e83144fdcf92ba6d9232de49b36d10924d2edcb11353d7855066a8ac1b0e31f1"
+  },
+  {
+    "path": "/mnt/c/Users/Ayush Regmi Bagale/SJF8240_ten_target_mechanistic_v1/reach50/MET/pose020/packet.npz",
+    "sha256": "4cb0edbda3d19ab8a82d58ffc0fa1e24f923b4008dbcac1af95d2710f47679b8"
+  },
+  {
+    "path": "/home/ayushregmibagale/10PROTAC-MD/SJF8240_reanalysis/full_frame_e2_delta50_v1/analysis/poses/MET/pose020/packet.npz",
+    "sha256": "37fb02f2bb49f55ce4635e3040d7b72db4a92cdd0fe3f78d030a72ca685b78f2"
+  },
+  {
+    "path": "/home/ayushregmibagale/10PROTAC-MD/SJF8240_renanalysis2/native_catalytic_validation_v2/results/poses/MET/pose020/packet.npz",
+    "sha256": "1c3a0a0a1f4925c918af75ce59579974e8867b519d880332251b4074b8c7de6e"
+  },
+  {
+    "path": "/home/ayushregmibagale/10PROTAC-MD/SJF8240_reanalysis/mechanistic_v3/analysis/lysines/poses/MET/pose020/packet.npz",
+    "sha256": "e132a1739b65aaa409457e35f230095b6074219e997c8f64c655c9b12b022fc4"
+  },
+  {
+    "path": "/mnt/c/Users/Ayush Regmi Bagale/SJF8240_ten_target_mechanistic_v1/reach50/RIPK2_full/pose001/packet.npz",
+    "sha256": "fa2afd77cb031141d57329d8f14ecb72cf61f8b88f987c2f6f6df2d4afdac364"
+  },
+  {
+    "path": "/home/ayushregmibagale/10PROTAC-MD/SJF8240_reanalysis/full_frame_e2_delta50_v1/analysis/poses/RIPK2_full/pose001/packet.npz",
+    "sha256": "1762691175dde66ddf4de265c15d588956b350ca2f381c20028906a2e3b6bfce"
+  },
+  {
+    "path": "/home/ayushregmibagale/10PROTAC-MD/SJF8240_renanalysis2/native_catalytic_validation_v2/results/poses/RIPK2_full/pose001/packet.npz",
+    "sha256": "51c8422cd327f17d1548953bdd3bd219797c65b31107e01336cad4ec646d2cb7"
+  },
+  {
+    "path": "/home/ayushregmibagale/10PROTAC-MD/SJF8240_reanalysis/mechanistic_v3/analysis/lysines/poses/RIPK2_full/pose001/packet.npz",
+    "sha256": "c7c9a4cbac736e86716a0ad533c3c44b72dc5ef7af20a95e45d730a91c2bfe7b"
+  },
+  {
+    "path": "/mnt/c/Users/Ayush Regmi Bagale/SJF8240_ten_target_mechanistic_v1/reach50/RIPK2_full/pose003/packet.npz",
+    "sha256": "9e1fd19789c5e90286fa75c96ef6c17d78556e244670098c9b531d93d34306aa"
+  },
+  {
+    "path": "/home/ayushregmibagale/10PROTAC-MD/SJF8240_reanalysis/full_frame_e2_delta50_v1/analysis/poses/RIPK2_full/pose003/packet.npz",
+    "sha256": "b4f2c41cfe02a1b0b0934081bccdfeccfc37af96edb7b578ffb7c5765e4fdede"
+  },
+  {
+    "path": "/home/ayushregmibagale/10PROTAC-MD/SJF8240_renanalysis2/native_catalytic_validation_v2/results/poses/RIPK2_full/pose003/packet.npz",
+    "sha256": "850e54039fbbec2c52e43e1b150a940369597460846c72f9c40de9b51b2c1056"
+  },
+  {
+    "path": "/home/ayushregmibagale/10PROTAC-MD/SJF8240_reanalysis/mechanistic_v3/analysis/lysines/poses/RIPK2_full/pose003/packet.npz",
+    "sha256": "26d4f99efb5ab3891138ae3d12da63a4c035feeaa9174b004324b5bfe7ed3449"
+  },
+  {
+    "path": "/mnt/c/Users/Ayush Regmi Bagale/SJF8240_ten_target_mechanistic_v1/reach50/RIPK2_full/pose004/packet.npz",
+    "sha256": "10a460eb499a4338eb13796776578b52e2831cf8b108d56ff05160f71544f468"
+  },
+  {
+    "path": "/home/ayushregmibagale/10PROTAC-MD/SJF8240_reanalysis/full_frame_e2_delta50_v1/analysis/poses/RIPK2_full/pose004/packet.npz",
+    "sha256": "e29c73c513a0b3422deb1341e907a1a95f4da27629221baf69875c1c773e33e0"
+  },
+  {
+    "path": "/home/ayushregmibagale/10PROTAC-MD/SJF8240_renanalysis2/native_catalytic_validation_v2/results/poses/RIPK2_full/pose004/packet.npz",
+    "sha256": "0f1d449983abf0472960d9edc162f3f344d3f4922e1b0e8c36dca43f65f54128"
+  },
+  {
+    "path": "/home/ayushregmibagale/10PROTAC-MD/SJF8240_reanalysis/mechanistic_v3/analysis/lysines/poses/RIPK2_full/pose004/packet.npz",
+    "sha256": "8f9a4829c77204b90bc86bb8c7cdab2d55bc9d97bc6d0d2627fdb4250662ed04"
+  },
+  {
+    "path": "/mnt/c/Users/Ayush Regmi Bagale/SJF8240_ten_target_mechanistic_v1/reach50/RIPK2_full/pose005/packet.npz",
+    "sha256": "10a460eb499a4338eb13796776578b52e2831cf8b108d56ff05160f71544f468"
+  },
+  {
+    "path": "/home/ayushregmibagale/10PROTAC-MD/SJF8240_reanalysis/full_frame_e2_delta50_v1/analysis/poses/RIPK2_full/pose005/packet.npz",
+    "sha256": "579878db6a8bafd956b00348c36a5eccb42416a3d5ecece1b7fb8d3ac467cbc3"
+  },
+  {
+    "path": "/home/ayushregmibagale/10PROTAC-MD/SJF8240_renanalysis2/native_catalytic_validation_v2/results/poses/RIPK2_full/pose005/packet.npz",
+    "sha256": "79c78e179d6343219eb7ccdc547ec43717fdf793a9a9c149c511a52e249ec466"
+  },
+  {
+    "path": "/home/ayushregmibagale/10PROTAC-MD/SJF8240_reanalysis/mechanistic_v3/analysis/lysines/poses/RIPK2_full/pose005/packet.npz",
+    "sha256": "8e9b0cb6c5d4f55b1bb60e5f0b559fc82675bfd9fd99ab65b587b88eaf64c6d3"
+  },
+  {
+    "path": "/mnt/c/Users/Ayush Regmi Bagale/SJF8240_ten_target_mechanistic_v1/reach50/RIPK2_full/pose006/packet.npz",
+    "sha256": "9a55a5f38cf3cd006e333fdb83fbd996489fb04fe038db553c911a84a4d05eac"
+  },
+  {
+    "path": "/home/ayushregmibagale/10PROTAC-MD/SJF8240_reanalysis/full_frame_e2_delta50_v1/analysis/poses/RIPK2_full/pose006/packet.npz",
+    "sha256": "916e1a94756275a7807a9fbb45097ae5da7192743c54e558d53321aeead6472a"
+  },
+  {
+    "path": "/home/ayushregmibagale/10PROTAC-MD/SJF8240_renanalysis2/native_catalytic_validation_v2/results/poses/RIPK2_full/pose006/packet.npz",
+    "sha256": "dc477ed3336efce5f1ae2b2f4baa4031c2163ca128e178a2f16ab89fd27f6ae3"
+  },
+  {
+    "path": "/home/ayushregmibagale/10PROTAC-MD/SJF8240_reanalysis/mechanistic_v3/analysis/lysines/poses/RIPK2_full/pose006/packet.npz",
+    "sha256": "8b3087cda18f24a684052bd43d4aea8128bccc0d0beda109295a115f8d5ed4b7"
+  },
+  {
+    "path": "/mnt/c/Users/Ayush Regmi Bagale/SJF8240_ten_target_mechanistic_v1/reach50/RIPK2_full/pose007/packet.npz",
+    "sha256": "f138ef439a1a70f51f52e44f2c50d60ae9b42621945b5dba418cfa968c6781ec"
+  },
+  {
+    "path": "/home/ayushregmibagale/10PROTAC-MD/SJF8240_reanalysis/full_frame_e2_delta50_v1/analysis/poses/RIPK2_full/pose007/packet.npz",
+    "sha256": "60fe3eb0d8a1a803d39c04c1b2a3f6b7980382bfdeb07c3ccf37ab47fd7d3b0b"
+  },
+  {
+    "path": "/home/ayushregmibagale/10PROTAC-MD/SJF8240_renanalysis2/native_catalytic_validation_v2/results/poses/RIPK2_full/pose007/packet.npz",
+    "sha256": "5309be6476bad27abf081358d1d6e308d0380e58786e4d311b1189b9bd06c8d3"
+  },
+  {
+    "path": "/home/ayushregmibagale/10PROTAC-MD/SJF8240_reanalysis/mechanistic_v3/analysis/lysines/poses/RIPK2_full/pose007/packet.npz",
+    "sha256": "4f38e6a9f634d5bc32c8513a3fc9981c267c65b052a1f2b0b4ddb1cb5d127e0b"
+  },
+  {
+    "path": "/mnt/c/Users/Ayush Regmi Bagale/SJF8240_ten_target_mechanistic_v1/reach50/RIPK2_full/pose008/packet.npz",
+    "sha256": "10a460eb499a4338eb13796776578b52e2831cf8b108d56ff05160f71544f468"
+  },
+  {
+    "path": "/home/ayushregmibagale/10PROTAC-MD/SJF8240_reanalysis/full_frame_e2_delta50_v1/analysis/poses/RIPK2_full/pose008/packet.npz",
+    "sha256": "826c8bcf76d2dcb918185275609dbafbb48f326f3071bcbe6ea2dc85ab945cc4"
+  },
+  {
+    "path": "/home/ayushregmibagale/10PROTAC-MD/SJF8240_renanalysis2/native_catalytic_validation_v2/results/poses/RIPK2_full/pose008/packet.npz",
+    "sha256": "0cd373fb24379d7b756383b63175e18a1402412f45aadabb1b9f3ee706dc59a4"
+  },
+  {
+    "path": "/home/ayushregmibagale/10PROTAC-MD/SJF8240_reanalysis/mechanistic_v3/analysis/lysines/poses/RIPK2_full/pose008/packet.npz",
+    "sha256": "f1aaba9996e58623bb810583c7f357661447301f54677a434889b2662147752f"
+  },
+  {
+    "path": "/mnt/c/Users/Ayush Regmi Bagale/SJF8240_ten_target_mechanistic_v1/reach50/RIPK2_full/pose009/packet.npz",
+    "sha256": "270a1c0d7bd562c48c48e8098b3e6955e6770a82ec4306404b2129a65d3411d8"
+  },
+  {
+    "path": "/home/ayushregmibagale/10PROTAC-MD/SJF8240_reanalysis/full_frame_e2_delta50_v1/analysis/poses/RIPK2_full/pose009/packet.npz",
+    "sha256": "377a2b6e3df0143d4e3a8ada5ed61b117ba10ddda67e6f1078c55495a694f2bc"
+  },
+  {
+    "path": "/home/ayushregmibagale/10PROTAC-MD/SJF8240_renanalysis2/native_catalytic_validation_v2/results/poses/RIPK2_full/pose009/packet.npz",
+    "sha256": "394d00c703bf45df1eb01b4729726450aedbf442260d25eaad1e7d310156d7ab"
+  },
+  {
+    "path": "/home/ayushregmibagale/10PROTAC-MD/SJF8240_reanalysis/mechanistic_v3/analysis/lysines/poses/RIPK2_full/pose009/packet.npz",
+    "sha256": "96c902b5d84a0dfb547a23f36f43975177e13c86e7e34ae04e45cda4d2767038"
+  },
+  {
+    "path": "/mnt/c/Users/Ayush Regmi Bagale/SJF8240_ten_target_mechanistic_v1/reach50/RIPK2_full/pose010/packet.npz",
+    "sha256": "7e8e99b59c36f6718fc0f6d93f8ac2a2672d3c6788bdd7454fda7a48a795a95b"
+  },
+  {
+    "path": "/home/ayushregmibagale/10PROTAC-MD/SJF8240_reanalysis/full_frame_e2_delta50_v1/analysis/poses/RIPK2_full/pose010/packet.npz",
+    "sha256": "06eabecd61694c38f913a19f349c708788952b8d9894497d5e8b74a2c9a1ebac"
+  },
+  {
+    "path": "/home/ayushregmibagale/10PROTAC-MD/SJF8240_renanalysis2/native_catalytic_validation_v2/results/poses/RIPK2_full/pose010/packet.npz",
+    "sha256": "2d398dd590b577a5d6575c7f171aa06c672dfcc9c1a41b7827f2b65118e001c9"
+  },
+  {
+    "path": "/home/ayushregmibagale/10PROTAC-MD/SJF8240_reanalysis/mechanistic_v3/analysis/lysines/poses/RIPK2_full/pose010/packet.npz",
+    "sha256": "925e7f16ad787b25a5e76155a90fd31ddb5de248bea5518df7beac106fbfbe13"
+  },
+  {
+    "path": "/mnt/c/Users/Ayush Regmi Bagale/SJF8240_ten_target_mechanistic_v1/reach50/RIPK2_full/pose011/packet.npz",
+    "sha256": "acd5c2bc7b70f417598332bd9a114039db8c934a9061c88a46d4057292b1f22a"
+  },
+  {
+    "path": "/home/ayushregmibagale/10PROTAC-MD/SJF8240_reanalysis/full_frame_e2_delta50_v1/analysis/poses/RIPK2_full/pose011/packet.npz",
+    "sha256": "baf8b68b1ede1c791cd8e90fa502a11fcb96d067151c077f385ba208036d4533"
+  },
+  {
+    "path": "/home/ayushregmibagale/10PROTAC-MD/SJF8240_renanalysis2/native_catalytic_validation_v2/results/poses/RIPK2_full/pose011/packet.npz",
+    "sha256": "39b7b6ae108bec4082174c6034dc35016d11d5daeb6597b77f66fa0c75be304a"
+  },
+  {
+    "path": "/home/ayushregmibagale/10PROTAC-MD/SJF8240_reanalysis/mechanistic_v3/analysis/lysines/poses/RIPK2_full/pose011/packet.npz",
+    "sha256": "97954b473209f0a89cad52efdd981fa1c379a115b1f594da73e4ed1f403167f6"
+  },
+  {
+    "path": "/mnt/c/Users/Ayush Regmi Bagale/SJF8240_ten_target_mechanistic_v1/reach50/RIPK2_full/pose012/packet.npz",
+    "sha256": "f6944653fe7dfb87680ac9438bc66127d510868ff4c8b547f2f23903eb0c431c"
+  },
+  {
+    "path": "/home/ayushregmibagale/10PROTAC-MD/SJF8240_reanalysis/full_frame_e2_delta50_v1/analysis/poses/RIPK2_full/pose012/packet.npz",
+    "sha256": "c1f0ef9daef2da1d8600a96e14612a299e8b299f54b7d42a8c3e52d3fb366706"
+  },
+  {
+    "path": "/home/ayushregmibagale/10PROTAC-MD/SJF8240_renanalysis2/native_catalytic_validation_v2/results/poses/RIPK2_full/pose012/packet.npz",
+    "sha256": "96a6591ef5a86bb8e1948956b75a65b9123a5b5b1b73a1d0aedef55f9dd6ba00"
+  },
+  {
+    "path": "/home/ayushregmibagale/10PROTAC-MD/SJF8240_reanalysis/mechanistic_v3/analysis/lysines/poses/RIPK2_full/pose012/packet.npz",
+    "sha256": "27edabcdfe644b02466b794410d92ffed995cb2692d18b79b7c1872fcd8ed8e6"
+  },
+  {
+    "path": "/mnt/c/Users/Ayush Regmi Bagale/SJF8240_ten_target_mechanistic_v1/reach50/RIPK2_full/pose015/packet.npz",
+    "sha256": "03ff4a62b0ad85dcec8eaa6b53e7c4fb036d007432c6c87364872fa8629db59f"
+  },
+  {
+    "path": "/home/ayushregmibagale/10PROTAC-MD/SJF8240_reanalysis/full_frame_e2_delta50_v1/analysis/poses/RIPK2_full/pose015/packet.npz",
+    "sha256": "e41138261788c3c64a6e282bd42ce9d7082abf06148314354c8da7a4af30bf9d"
+  },
+  {
+    "path": "/home/ayushregmibagale/10PROTAC-MD/SJF8240_renanalysis2/native_catalytic_validation_v2/results/poses/RIPK2_full/pose015/packet.npz",
+    "sha256": "937f42fb0b5c1e0a2d00424a74f849999e47969801c0197ce051cbb5bab93e07"
+  },
+  {
+    "path": "/home/ayushregmibagale/10PROTAC-MD/SJF8240_reanalysis/mechanistic_v3/analysis/lysines/poses/RIPK2_full/pose015/packet.npz",
+    "sha256": "b317321d338722d3ce449a5dd47f983d17ccb04ac7cd4a0d03a95ec9ee625e99"
+  },
+  {
+    "path": "/mnt/c/Users/Ayush Regmi Bagale/SJF8240_ten_target_mechanistic_v1/reach50/RIPK2_full/pose016/packet.npz",
+    "sha256": "2f4f9bfb9f4e5fbf6f4cfb6f1d01adfe04fe20eefd2f0c213c93023c230cb28f"
+  },
+  {
+    "path": "/home/ayushregmibagale/10PROTAC-MD/SJF8240_reanalysis/full_frame_e2_delta50_v1/analysis/poses/RIPK2_full/pose016/packet.npz",
+    "sha256": "2b71188d34e15aa45c2317ed31f07f4f222e69fa5e9f6e303ff2c167dd41b1fb"
+  },
+  {
+    "path": "/home/ayushregmibagale/10PROTAC-MD/SJF8240_renanalysis2/native_catalytic_validation_v2/results/poses/RIPK2_full/pose016/packet.npz",
+    "sha256": "1522ef30c8d96b4128e61d8aae3a50c02c0e336048d21884eb200fa2b69c0f81"
+  },
+  {
+    "path": "/home/ayushregmibagale/10PROTAC-MD/SJF8240_reanalysis/mechanistic_v3/analysis/lysines/poses/RIPK2_full/pose016/packet.npz",
+    "sha256": "7eb8c6252552fd813c38c350c6bda8eee11f527af15737430ee586b2727321dd"
+  },
+  {
+    "path": "/mnt/c/Users/Ayush Regmi Bagale/SJF8240_ten_target_mechanistic_v1/reach50/RIPK2_full/pose017/packet.npz",
+    "sha256": "6680e93c5c04fd9d0daa9a8c0f8498f14981dd9fe8f1b2923f6870c6ab682b73"
+  },
+  {
+    "path": "/home/ayushregmibagale/10PROTAC-MD/SJF8240_reanalysis/full_frame_e2_delta50_v1/analysis/poses/RIPK2_full/pose017/packet.npz",
+    "sha256": "d213e3076a9fbea859dd043a3b6ce635a347448324d398dad0a519bc0376ac52"
+  },
+  {
+    "path": "/home/ayushregmibagale/10PROTAC-MD/SJF8240_renanalysis2/native_catalytic_validation_v2/results/poses/RIPK2_full/pose017/packet.npz",
+    "sha256": "fa2e2a02fe224f2ac28fa32df69a466a80456f292f8536a46758516a290e201c"
+  },
+  {
+    "path": "/home/ayushregmibagale/10PROTAC-MD/SJF8240_reanalysis/mechanistic_v3/analysis/lysines/poses/RIPK2_full/pose017/packet.npz",
+    "sha256": "bcb3e68737dec82022a8ccc9ebebb73ee91af147f87b0517c9cd4e6f00e06cd3"
+  },
+  {
+    "path": "/mnt/c/Users/Ayush Regmi Bagale/SJF8240_ten_target_mechanistic_v1/reach50/RIPK2_full/pose018/packet.npz",
+    "sha256": "10a460eb499a4338eb13796776578b52e2831cf8b108d56ff05160f71544f468"
+  },
+  {
+    "path": "/home/ayushregmibagale/10PROTAC-MD/SJF8240_reanalysis/full_frame_e2_delta50_v1/analysis/poses/RIPK2_full/pose018/packet.npz",
+    "sha256": "a26a791d67d6173abf530dc21167117618efeb5b76a0cb589c3c293d92154008"
+  },
+  {
+    "path": "/home/ayushregmibagale/10PROTAC-MD/SJF8240_renanalysis2/native_catalytic_validation_v2/results/poses/RIPK2_full/pose018/packet.npz",
+    "sha256": "02cd595a5c49ab744c2d8ec2f10f884d1d9546ce2c5d1f0448eb61c530e1cce3"
+  },
+  {
+    "path": "/home/ayushregmibagale/10PROTAC-MD/SJF8240_reanalysis/mechanistic_v3/analysis/lysines/poses/RIPK2_full/pose018/packet.npz",
+    "sha256": "c588c3b4178dfd4017af514f88ce06c988d4a6cc61d4ea4bf79cb0b3f1e31b51"
+  },
+  {
+    "path": "/mnt/c/Users/Ayush Regmi Bagale/SJF8240_ten_target_mechanistic_v1/reach50/RIPK2_full/pose019/packet.npz",
+    "sha256": "225ad9f6f8539165aeb49e54b0f387a3f2f128152a24b92ed2f0804f0fab46c0"
+  },
+  {
+    "path": "/home/ayushregmibagale/10PROTAC-MD/SJF8240_reanalysis/full_frame_e2_delta50_v1/analysis/poses/RIPK2_full/pose019/packet.npz",
+    "sha256": "2e20f16161d1fac2159f114f868535dd5f75694b9e54ec63cb8dc9541196d96b"
+  },
+  {
+    "path": "/home/ayushregmibagale/10PROTAC-MD/SJF8240_renanalysis2/native_catalytic_validation_v2/results/poses/RIPK2_full/pose019/packet.npz",
+    "sha256": "688dc44364a47f137454fb86aa0210de5ee83e0aec25029df97980ec806af1ca"
+  },
+  {
+    "path": "/home/ayushregmibagale/10PROTAC-MD/SJF8240_reanalysis/mechanistic_v3/analysis/lysines/poses/RIPK2_full/pose019/packet.npz",
+    "sha256": "6ebf9ee64a3f17125b0c905cb8b4b3863876fecdadbe470e3ce9f1b19596a6dc"
+  },
+  {
+    "path": "/mnt/c/Users/Ayush Regmi Bagale/SJF8240_ten_target_mechanistic_v1/reach50/RIPK2_full/pose020/packet.npz",
+    "sha256": "10a460eb499a4338eb13796776578b52e2831cf8b108d56ff05160f71544f468"
+  },
+  {
+    "path": "/home/ayushregmibagale/10PROTAC-MD/SJF8240_reanalysis/full_frame_e2_delta50_v1/analysis/poses/RIPK2_full/pose020/packet.npz",
+    "sha256": "ebd900a23883746e8ff138a571a63eeca3e3548c3c80aa3c65fe51494a741f46"
+  },
+  {
+    "path": "/home/ayushregmibagale/10PROTAC-MD/SJF8240_renanalysis2/native_catalytic_validation_v2/results/poses/RIPK2_full/pose020/packet.npz",
+    "sha256": "593fba251b572b049882cae3e837a7d60ad701938a28be86b9500aa542a3a543"
+  },
+  {
+    "path": "/home/ayushregmibagale/10PROTAC-MD/SJF8240_reanalysis/mechanistic_v3/analysis/lysines/poses/RIPK2_full/pose020/packet.npz",
+    "sha256": "b361d2e60ce6160e46f9e1ac850558bbc89ef0a91e385c7d119ecfb7fd5c4432"
+  },
+  {
+    "path": "/mnt/c/Users/Ayush Regmi Bagale/SJF8240_ten_target_mechanistic_v1/extracted/RPS6KB2_full/pose001/native_packet.npz",
+    "sha256": "aba1877fd62548f7284e01f7cc694453386e12389b29aebd8a5ed0a3f6da0f47"
+  },
+  {
+    "path": "/mnt/c/Users/Ayush Regmi Bagale/SJF8240_ten_target_mechanistic_v1/extracted/RPS6KB2_full/pose001/base_packet.npz",
+    "sha256": "223f2f633b6d2d3950eef84122fb3c485fa35840e2e3846bce811c96c2083bb2"
+  },
+  {
+    "path": "/mnt/c/Users/Ayush Regmi Bagale/SJF8240_ten_target_mechanistic_v1/extracted/RPS6KB2_full/pose002/native_packet.npz",
+    "sha256": "54396b4528ba4be72e20480cef3eaad4c4dcde7e8201f5b4dec637c999d675b8"
+  },
+  {
+    "path": "/mnt/c/Users/Ayush Regmi Bagale/SJF8240_ten_target_mechanistic_v1/extracted/RPS6KB2_full/pose002/base_packet.npz",
+    "sha256": "2980f0712d97fe5813b30d497b7c1aaca837d201d1efd4d8a97e3d812dc2efac"
+  },
+  {
+    "path": "/mnt/c/Users/Ayush Regmi Bagale/SJF8240_ten_target_mechanistic_v1/extracted/RPS6KB2_full/pose003/native_packet.npz",
+    "sha256": "6d4f07edbfd51509fd96cce81dd735a7a4fd28d5b3df0addbb905af9032721ee"
+  },
+  {
+    "path": "/mnt/c/Users/Ayush Regmi Bagale/SJF8240_ten_target_mechanistic_v1/extracted/RPS6KB2_full/pose003/base_packet.npz",
+    "sha256": "c50ad4cd574c28b841a055ed634c679d3000cc1296a9de0bc9caad0c909a7356"
+  },
+  {
+    "path": "/mnt/c/Users/Ayush Regmi Bagale/SJF8240_ten_target_mechanistic_v1/extracted/RPS6KB2_full/pose004/native_packet.npz",
+    "sha256": "efc173459e369982b29bbde9547f88d92edd08977d645798bd3f3efd2afc5c78"
+  },
+  {
+    "path": "/mnt/c/Users/Ayush Regmi Bagale/SJF8240_ten_target_mechanistic_v1/extracted/RPS6KB2_full/pose004/base_packet.npz",
+    "sha256": "2d19316ac555d13cd9dd13981163a75371304e3f4133808b1fc174c60d740734"
+  },
+  {
+    "path": "/mnt/c/Users/Ayush Regmi Bagale/SJF8240_ten_target_mechanistic_v1/extracted/RPS6KB2_full/pose005/native_packet.npz",
+    "sha256": "3ef5feed7ecac02a7c217bd321dda06bc09f9161acbe0700909d93735dd4540c"
+  },
+  {
+    "path": "/mnt/c/Users/Ayush Regmi Bagale/SJF8240_ten_target_mechanistic_v1/extracted/RPS6KB2_full/pose005/base_packet.npz",
+    "sha256": "609ea95bf56f94a9ad6f8052fd8c2c3dff029bf5800e22b849a2ac414e904826"
+  },
+  {
+    "path": "/mnt/c/Users/Ayush Regmi Bagale/SJF8240_ten_target_mechanistic_v1/extracted/RPS6KB2_full/pose006/native_packet.npz",
+    "sha256": "5d387d7da65e31dc051db21848e162d779d75b3f199a819e4a229642ec02e3c9"
+  },
+  {
+    "path": "/mnt/c/Users/Ayush Regmi Bagale/SJF8240_ten_target_mechanistic_v1/extracted/RPS6KB2_full/pose006/base_packet.npz",
+    "sha256": "2f0bbb4e99186b5ff15200a3fbb6395dbe8b06c9af26e71655cd150003c7869f"
+  },
+  {
+    "path": "/mnt/c/Users/Ayush Regmi Bagale/SJF8240_ten_target_mechanistic_v1/extracted/RPS6KB2_full/pose008/native_packet.npz",
+    "sha256": "e895a60aa034b2ad47616eb09bb653ff048484f323c4c140a1c01e6524caab52"
+  },
+  {
+    "path": "/mnt/c/Users/Ayush Regmi Bagale/SJF8240_ten_target_mechanistic_v1/extracted/RPS6KB2_full/pose008/base_packet.npz",
+    "sha256": "aa1935a84ea90abea79342b4b4c8c399cfed89e5bc0f37cbd5dcb39494ec1ff6"
+  },
+  {
+    "path": "/mnt/c/Users/Ayush Regmi Bagale/SJF8240_ten_target_mechanistic_v1/extracted/RPS6KB2_full/pose009/native_packet.npz",
+    "sha256": "d2928491035873aba154b7ccd4122e9214f12bc82a08eb8444d8683245950b3f"
+  },
+  {
+    "path": "/mnt/c/Users/Ayush Regmi Bagale/SJF8240_ten_target_mechanistic_v1/extracted/RPS6KB2_full/pose009/base_packet.npz",
+    "sha256": "0ad84a50f0ac3c40ce2399a349ee7ff4ca8ff3b932b56d09250ad2f689255da2"
+  },
+  {
+    "path": "/mnt/c/Users/Ayush Regmi Bagale/SJF8240_ten_target_mechanistic_v1/extracted/RPS6KB2_full/pose010/native_packet.npz",
+    "sha256": "4dad15c9501d83c771e33e6f7a4269cdc68173618e374c1a9009705d8257a153"
+  },
+  {
+    "path": "/mnt/c/Users/Ayush Regmi Bagale/SJF8240_ten_target_mechanistic_v1/extracted/RPS6KB2_full/pose010/base_packet.npz",
+    "sha256": "2a36419bceb66f2ea85b315b578bd4127089df60fc9d19a4975d1db4ea5e172a"
+  },
+  {
+    "path": "/mnt/c/Users/Ayush Regmi Bagale/SJF8240_ten_target_mechanistic_v1/extracted/RPS6KB2_full/pose011/native_packet.npz",
+    "sha256": "a15ad250695277083067b0954b01012b063eb7b6562fba138f01a915473ce67f"
+  },
+  {
+    "path": "/mnt/c/Users/Ayush Regmi Bagale/SJF8240_ten_target_mechanistic_v1/extracted/RPS6KB2_full/pose011/base_packet.npz",
+    "sha256": "26b5329fef97410879f550c88b35641e44cad503c893b243977ca957a934eee4"
+  },
+  {
+    "path": "/mnt/c/Users/Ayush Regmi Bagale/SJF8240_ten_target_mechanistic_v1/extracted/RPS6KB2_full/pose012/native_packet.npz",
+    "sha256": "3e209edad58f4f8bca34130dc9b2cf8d1e6b8054b5408b013d52a2f2081f1027"
+  },
+  {
+    "path": "/mnt/c/Users/Ayush Regmi Bagale/SJF8240_ten_target_mechanistic_v1/extracted/RPS6KB2_full/pose012/base_packet.npz",
+    "sha256": "2c9b3e94d19fef145187105f7347e0f3e49aabb0f3da8195b395f610703e1c58"
+  },
+  {
+    "path": "/mnt/c/Users/Ayush Regmi Bagale/SJF8240_ten_target_mechanistic_v1/extracted/RPS6KB2_full/pose013/native_packet.npz",
+    "sha256": "5e2998a0adec3d8cae469528bcaa92f917413c23ce7e3e085e85bef7382266d4"
+  },
+  {
+    "path": "/mnt/c/Users/Ayush Regmi Bagale/SJF8240_ten_target_mechanistic_v1/extracted/RPS6KB2_full/pose013/base_packet.npz",
+    "sha256": "6561bb4520770730c7c6e6f12fd299cdf13be98403fea918a224d717f4d4c55a"
+  },
+  {
+    "path": "/mnt/c/Users/Ayush Regmi Bagale/SJF8240_ten_target_mechanistic_v1/extracted/RPS6KB2_full/pose014/native_packet.npz",
+    "sha256": "1ad6291501f8267996c7de7bd419648bd5b98e35aa02293e86d11af09d489c3c"
+  },
+  {
+    "path": "/mnt/c/Users/Ayush Regmi Bagale/SJF8240_ten_target_mechanistic_v1/extracted/RPS6KB2_full/pose014/base_packet.npz",
+    "sha256": "9287102b620a312843a1cb750bfa3f80600091aa070416f6bb46e6ac745e1b88"
+  },
+  {
+    "path": "/mnt/c/Users/Ayush Regmi Bagale/SJF8240_ten_target_mechanistic_v1/extracted/RPS6KB2_full/pose015/native_packet.npz",
+    "sha256": "3ab701cc15f46b9fd3f362e2978f116ced2d56958647008dbffcf50a35f7b5e5"
+  },
+  {
+    "path": "/mnt/c/Users/Ayush Regmi Bagale/SJF8240_ten_target_mechanistic_v1/extracted/RPS6KB2_full/pose015/base_packet.npz",
+    "sha256": "ba4d3376836b8a5c03649b9e07cd9947fa4c4f360eadcbbf9c6099358596d0c4"
+  },
+  {
+    "path": "/mnt/c/Users/Ayush Regmi Bagale/SJF8240_ten_target_mechanistic_v1/extracted/RPS6KB2_full/pose017/native_packet.npz",
+    "sha256": "b7bdcbaed8c699551e27fdda1e61d0fda2ebe0b454be2989384769efff092093"
+  },
+  {
+    "path": "/mnt/c/Users/Ayush Regmi Bagale/SJF8240_ten_target_mechanistic_v1/extracted/RPS6KB2_full/pose017/base_packet.npz",
+    "sha256": "1ed259c2d41ec5f5a6507c6f9e433f5fee25f47d3f3c3fdf34de2a5370ea973e"
+  },
+  {
+    "path": "/mnt/c/Users/Ayush Regmi Bagale/SJF8240_ten_target_mechanistic_v1/extracted/RPS6KB2_full/pose018/native_packet.npz",
+    "sha256": "d8ce3313bb60b207ad9352a6fae1974cfccb26dcd8690a1a3d49da749b63f872"
+  },
+  {
+    "path": "/mnt/c/Users/Ayush Regmi Bagale/SJF8240_ten_target_mechanistic_v1/extracted/RPS6KB2_full/pose018/base_packet.npz",
+    "sha256": "fe240e4d91155e6185008ff4e0e679acab4211a52822ac1440af7884d36f4a30"
+  },
+  {
+    "path": "/mnt/c/Users/Ayush Regmi Bagale/SJF8240_ten_target_mechanistic_v1/extracted/RPS6KB2_full/pose019/native_packet.npz",
+    "sha256": "65929793e2f353c572c2b3289093a964d3b5c27ebff2afc05681ebe063bf6408"
+  },
+  {
+    "path": "/mnt/c/Users/Ayush Regmi Bagale/SJF8240_ten_target_mechanistic_v1/extracted/RPS6KB2_full/pose019/base_packet.npz",
+    "sha256": "046c25ef31892542e25bbf1e998ac94b0b0a2bc03d1b518031bb7569458ed23a"
+  },
+  {
+    "path": "/mnt/c/Users/Ayush Regmi Bagale/SJF8240_ten_target_mechanistic_v1/extracted/RPS6KB2_full/pose020/native_packet.npz",
+    "sha256": "59e9b73a486465d00e4608a07bcfcda65b51608a6221f33a0b385362e1ff4f46"
+  },
+  {
+    "path": "/mnt/c/Users/Ayush Regmi Bagale/SJF8240_ten_target_mechanistic_v1/extracted/RPS6KB2_full/pose020/base_packet.npz",
+    "sha256": "54d8f06961ad5d2e4e7b0230569ea5b14f13e3f430c89ffe1835bc9ee5f0ee73"
+  },
+  {
+    "path": "/mnt/c/Users/Ayush Regmi Bagale/SJF8240_ten_target_mechanistic_v1/extracted/SIK3_full/pose002/native_packet.npz",
+    "sha256": "c14bd567b92c99236b8bbecee2963f01a2ab3af741041098e4212ae351bf09e5"
+  },
+  {
+    "path": "/mnt/c/Users/Ayush Regmi Bagale/SJF8240_ten_target_mechanistic_v1/extracted/SIK3_full/pose002/base_packet.npz",
+    "sha256": "b5e20ae8bd322e1e7c0fbdfb9fb5d3a3816eaa82953f906a51c815ee9249773f"
+  },
+  {
+    "path": "/mnt/c/Users/Ayush Regmi Bagale/SJF8240_ten_target_mechanistic_v1/extracted/SIK3_full/pose003/native_packet.npz",
+    "sha256": "7c6d1b20e60eb9417e50442ea9a962fbaaafd86ea29c860b6ba7154bd95025e4"
+  },
+  {
+    "path": "/mnt/c/Users/Ayush Regmi Bagale/SJF8240_ten_target_mechanistic_v1/extracted/SIK3_full/pose003/base_packet.npz",
+    "sha256": "ebe28c39286a43d77b9dbaac2363d6b61ca5c5b10cf422725609f2f36af72ee4"
+  },
+  {
+    "path": "/mnt/c/Users/Ayush Regmi Bagale/SJF8240_ten_target_mechanistic_v1/extracted/SIK3_full/pose006/native_packet.npz",
+    "sha256": "f797f44fcc4e6228f01baf3e5d19bdaa6fc9950f4fd7052da005c267c5c8d5b9"
+  },
+  {
+    "path": "/mnt/c/Users/Ayush Regmi Bagale/SJF8240_ten_target_mechanistic_v1/extracted/SIK3_full/pose006/base_packet.npz",
+    "sha256": "78b8ac53f24a9bf1148d38d3894d8bd670d34193fb93ae174e11820e94b005db"
+  },
+  {
+    "path": "/mnt/c/Users/Ayush Regmi Bagale/SJF8240_ten_target_mechanistic_v1/extracted/SIK3_full/pose008/native_packet.npz",
+    "sha256": "57c75401719372de241594f6b0e36a71262cd38038ad0238f3329e6062003699"
+  },
+  {
+    "path": "/mnt/c/Users/Ayush Regmi Bagale/SJF8240_ten_target_mechanistic_v1/extracted/SIK3_full/pose008/base_packet.npz",
+    "sha256": "2394d7e440ba939d9bf443b867eb763c223af9c854f4dc3f79e890bb27258574"
+  },
+  {
+    "path": "/mnt/c/Users/Ayush Regmi Bagale/SJF8240_ten_target_mechanistic_v1/extracted/SIK3_full/pose009/native_packet.npz",
+    "sha256": "8812e3a0ecee993fcd88ec8fa15088d648c633e654bf4c5593778f282450a722"
+  },
+  {
+    "path": "/mnt/c/Users/Ayush Regmi Bagale/SJF8240_ten_target_mechanistic_v1/extracted/SIK3_full/pose009/base_packet.npz",
+    "sha256": "0494b72b0531e6d63273332d7a539ded589a9df2e9dbdd5f90ca1ebeb3c8c3dc"
+  },
+  {
+    "path": "/mnt/c/Users/Ayush Regmi Bagale/SJF8240_ten_target_mechanistic_v1/extracted/SIK3_full/pose010/native_packet.npz",
+    "sha256": "2a19b75d9c44d4d09a82b7027c22c82e679704a708b9a85fd2bda150d35c2117"
+  },
+  {
+    "path": "/mnt/c/Users/Ayush Regmi Bagale/SJF8240_ten_target_mechanistic_v1/extracted/SIK3_full/pose010/base_packet.npz",
+    "sha256": "13bff2e9d34f2c77fe4b9ece534b48f3dcb78c912098a90a1a719c178f9bdb5a"
+  },
+  {
+    "path": "/mnt/c/Users/Ayush Regmi Bagale/SJF8240_ten_target_mechanistic_v1/extracted/SIK3_full/pose011/native_packet.npz",
+    "sha256": "491ecd90e43d780443431b97898f0037e11552facfad186e684ee663da5a79a5"
+  },
+  {
+    "path": "/mnt/c/Users/Ayush Regmi Bagale/SJF8240_ten_target_mechanistic_v1/extracted/SIK3_full/pose011/base_packet.npz",
+    "sha256": "f564fa86a8a7454b89a4a9fc9cd0aeb747174c58338f8dbeee0c8dc2238a9227"
+  },
+  {
+    "path": "/mnt/c/Users/Ayush Regmi Bagale/SJF8240_ten_target_mechanistic_v1/extracted/SIK3_full/pose012/native_packet.npz",
+    "sha256": "140dc3b1e34127b26685bf53adacda8f5e03681e8482275d9243b0435a1fa77b"
+  },
+  {
+    "path": "/mnt/c/Users/Ayush Regmi Bagale/SJF8240_ten_target_mechanistic_v1/extracted/SIK3_full/pose012/base_packet.npz",
+    "sha256": "74478e34d4647b54e8aad9c473da353684c702d9f30693c5e54b6ee15e2d1304"
+  },
+  {
+    "path": "/mnt/c/Users/Ayush Regmi Bagale/SJF8240_ten_target_mechanistic_v1/extracted/SIK3_full/pose013/native_packet.npz",
+    "sha256": "309e011ca8264ef4f46fe30f96a045249cf552340ee255378c7f494dbeb7c255"
+  },
+  {
+    "path": "/mnt/c/Users/Ayush Regmi Bagale/SJF8240_ten_target_mechanistic_v1/extracted/SIK3_full/pose013/base_packet.npz",
+    "sha256": "da20a52f764f2cc74621925eeaf1ed661ce7816a55a0940657a6988a49b6bb54"
+  },
+  {
+    "path": "/mnt/c/Users/Ayush Regmi Bagale/SJF8240_ten_target_mechanistic_v1/extracted/SIK3_full/pose014/native_packet.npz",
+    "sha256": "8a9c994e027da00fef036c4c4120a46b49f55b2b503cc8fdc71ebfb96e03b84e"
+  },
+  {
+    "path": "/mnt/c/Users/Ayush Regmi Bagale/SJF8240_ten_target_mechanistic_v1/extracted/SIK3_full/pose014/base_packet.npz",
+    "sha256": "7b801bf0a32102073b6c1b103606c793bf4bc7c6d151a68893724e11c49ba558"
+  },
+  {
+    "path": "/mnt/c/Users/Ayush Regmi Bagale/SJF8240_ten_target_mechanistic_v1/extracted/SIK3_full/pose015/native_packet.npz",
+    "sha256": "d64d59400712305f7bf2701396275eed84fcee83799ff1aca5fe1dc91ce30704"
+  },
+  {
+    "path": "/mnt/c/Users/Ayush Regmi Bagale/SJF8240_ten_target_mechanistic_v1/extracted/SIK3_full/pose015/base_packet.npz",
+    "sha256": "1c209d56978cbe160489ef31fa11352437ddace42f345b145ac6fef57b7366e6"
+  },
+  {
+    "path": "/mnt/c/Users/Ayush Regmi Bagale/SJF8240_ten_target_mechanistic_v1/extracted/SIK3_full/pose016/native_packet.npz",
+    "sha256": "9e315ebf60b7ff6469600fb991fedf3ac70c3a155a07169b0757f8e5296d5974"
+  },
+  {
+    "path": "/mnt/c/Users/Ayush Regmi Bagale/SJF8240_ten_target_mechanistic_v1/extracted/SIK3_full/pose016/base_packet.npz",
+    "sha256": "e22487d46cb269f055d292e962a9f8e6dcbab05eba758260b3eefb26eacddd12"
+  },
+  {
+    "path": "/mnt/c/Users/Ayush Regmi Bagale/SJF8240_ten_target_mechanistic_v1/extracted/SIK3_full/pose017/native_packet.npz",
+    "sha256": "291ec7c82d239a80b5dc9c0d29f6d137350c2faf2c9948ca3d8bb06f85a4f421"
+  },
+  {
+    "path": "/mnt/c/Users/Ayush Regmi Bagale/SJF8240_ten_target_mechanistic_v1/extracted/SIK3_full/pose017/base_packet.npz",
+    "sha256": "bbbc208b577f6e97313f3ce9cc76b8e797489353bbca7729eeaf61bda3e4904f"
+  },
+  {
+    "path": "/mnt/c/Users/Ayush Regmi Bagale/SJF8240_ten_target_mechanistic_v1/extracted/SIK3_full/pose019/native_packet.npz",
+    "sha256": "3111048ceb5561e4be4afe05ceb05e2389d1b3617115115ad6802c49be2facca"
+  },
+  {
+    "path": "/mnt/c/Users/Ayush Regmi Bagale/SJF8240_ten_target_mechanistic_v1/extracted/SIK3_full/pose019/base_packet.npz",
+    "sha256": "0bb78efd071ddda0db5cbca02fd12172ab7fe8194242260382d895c79ab70987"
+  },
+  {
+    "path": "/mnt/c/Users/Ayush Regmi Bagale/SJF8240_ten_target_mechanistic_v1/extracted/SIK3_full/pose020/native_packet.npz",
+    "sha256": "492acb4e83160ba4020aad8e9f9e8033310b0511ee0127bdb9d827ce7dd9f422"
+  },
+  {
+    "path": "/mnt/c/Users/Ayush Regmi Bagale/SJF8240_ten_target_mechanistic_v1/extracted/SIK3_full/pose020/base_packet.npz",
+    "sha256": "449b6db9a8eaf3bee1a04a21da80353b156029a23f8d548f3527317198a99238"
+  }
+]

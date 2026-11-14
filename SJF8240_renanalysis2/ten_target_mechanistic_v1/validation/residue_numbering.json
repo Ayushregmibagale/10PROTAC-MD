@@ -1,0 +1,127 @@
+{
+  "status": "PASS",
+  "source_sha256": "bd440f5193ee4fb896d24af249754e4edaa1b2790f46061e17ca7b526991878f",
+  "checks": [
+    {
+      "target": "ABL1",
+      "uniprot": "P00519",
+      "modeled_residues": 263,
+      "canonical_first": 235,
+      "canonical_last": 498,
+      "full_canonical_length": 1130,
+      "observed_sequence_identity": 1.0,
+      "unmapped_modeled_residues": 0,
+      "sequence_mismatches": 0,
+      "ambiguous_positions": 0
+    },
+    {
+      "target": "AXL",
+      "uniprot": "P30530",
+      "modeled_residues": 270,
+      "canonical_first": 521,
+      "canonical_last": 813,
+      "full_canonical_length": 894,
+      "observed_sequence_identity": 1.0,
+      "unmapped_modeled_residues": 0,
+      "sequence_mismatches": 0,
+      "ambiguous_positions": 0
+    },
+    {
+      "target": "DDR2",
+      "uniprot": "Q16832",
+      "modeled_residues": 275,
+      "canonical_first": 558,
+      "canonical_last": 849,
+      "full_canonical_length": 855,
+      "observed_sequence_identity": 0.9888888888888889,
+      "unmapped_modeled_residues": 5,
+      "sequence_mismatches": 3,
+      "ambiguous_positions": 0
+    },
+    {
+      "target": "EPHA2",
+      "uniprot": "P29317",
+      "modeled_residues": 287,
+      "canonical_first": 600,
+      "canonical_last": 896,
+      "full_canonical_length": 976,
+      "observed_sequence_identity": 1.0,
+      "unmapped_modeled_residues": 0,
+      "sequence_mismatches": 0,
+      "ambiguous_positions": 0
+    },
+    {
+      "target": "EPHB2",
+      "uniprot": "P29323",
+      "modeled_residues": 248,
+      "canonical_first": 615,
+      "canonical_last": 893,
+      "full_canonical_length": 1055,
+      "observed_sequence_identity": 1.0,
+      "unmapped_modeled_residues": 0,
+      "sequence_mismatches": 0,
+      "ambiguous_positions": 0
+    },
+    {
+      "target": "MAPK14_full",
+      "uniprot": "Q16539",
+      "modeled_residues": 337,
+      "canonical_first": 4,
+      "canonical_last": 352,
+      "full_canonical_length": 360,
+      "observed_sequence_identity": 0.9881305637982196,
+      "unmapped_modeled_residues": 0,
+      "sequence_mismatches": 4,
+      "ambiguous_positions": 1
+    },
+    {
+      "target": "MET",
+      "uniprot": "P08581",
+      "modeled_residues": 278,
+      "canonical_first": 1053,
+      "canonical_last": 1345,
+      "full_canonical_length": 1390,
+      "observed_sequence_identity": 1.0,
+      "unmapped_modeled_residues": 0,
+      "sequence_mismatches": 0,
+      "ambiguous_positions": 1
+    },
+    {
+      "target": "RIPK2_full",
+      "uniprot": "O43353",
+      "modeled_residues": 279,
+      "canonical_first": 8,
+      "canonical_last": 316,
+      "full_canonical_length": 540,
+      "observed_sequence_identity": 1.0,
+      "unmapped_modeled_residues": 0,
+      "sequence_mismatches": 0,
+      "ambiguous_positions": 1
+    },
+    {
+      "target": "RPS6KB2_full",
+      "uniprot": "Q9UBS0",
+      "modeled_residues": 241,
+      "canonical_first": 92,
+      "canonical_last": 332,
+      "full_canonical_length": 482,
+      "observed_sequence_identity": 1.0,
+      "unmapped_modeled_residues": 0,
+      "sequence_mismatches": 0,
+      "ambiguous_positions": 0
+    },
+    {
+      "target": "SIK3_full",
+      "uniprot": "Q9Y2K2",
+      "modeled_residues": 241,
+      "canonical_first": 86,
+      "canonical_last": 326,
+      "full_canonical_length": 1321,
+      "observed_sequence_identity": 1.0,
+      "unmapped_modeled_residues": 0,
+      "sequence_mismatches": 0,
+      "ambiguous_positions": 0
+    }
+  ],
+  "numbering_added_only_as_metadata": true
+}

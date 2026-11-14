@@ -1,0 +1,1027 @@
+[
+  {
+    "target": "RPS6KB2_full",
+    "source_target": "RPS6KB2",
+    "pose": "pose001",
+    "frames": 201,
+    "lysines": 17,
+    "seconds": 6.333723159041256,
+    "max_contact_replay_error_A": 0.0,
+    "source_sha256": {
+      "/home/ayushregmibagale/10PROTAC-MD/SJF8240_reanalysis/analysis/dynamic/poses/RPS6KB2/pose001/receipt.json": "bf52fe81a4a92efc978941e08c6f85b5f0ef58e65145a2d64de06c1678590c00",
+      "/home/ayushregmibagale/protac-md/random_screen/RPS6KB2/pose001/prod/prod.tpr": "f26329429e9e91ed68bd6f4bf4087ff5824a8577802493277b62acdc7f0d2253",
+      "/home/ayushregmibagale/protac-md/random_screen/RPS6KB2/pose001/prod/prod.xtc": "edf3380b4ccb29e805e11003cd46b7dda67a67a700250a9cebaabc0546686762",
+      "/home/ayushregmibagale/protac-md/random_screen/RPS6KB2/pose001/structure/complex_protein.pdb": "62746da3ff798b5ad8785748d2a85317a27007e40c4b2d3a47c81b5a79a4578b",
+      "/home/ayushregmibagale/10PROTAC-MD/prosettac_robust/existing_result_audit/prediction_compiled_roles_v3/per_pose_roles.json": "188549eec229ba0e30082e97d271cbc12e84cd4d086e10f8d7ac631f863ef143",
+      "/home/ayushregmibagale/protac-md/reference_structures/e2_c85_ensemble.json": "9dac98e05fdd384bb77fc147e3e61d9de3dcdfe028355d4cccb833d3d9f73f15",
+      "/home/ayushregmibagale/10PROTAC-MD/SJF8240_renanalysis2/native_catalytic_validation_v2/references/8R5H_observed_SY8.npz": "50fecc9fd857e7e145b2ce39b7b75114dfe4eecf42786d8d6706f21ec9fe96af",
+      "/home/ayushregmibagale/10PROTAC-MD/SJF8240_renanalysis2/native_catalytic_validation_v2/references/8RX0_G76_fit75.npz": "3ffbbe8e7ce8ad53a8a9c4f8686facc436dbdb3fef3b932961ed21554fc884d9",
+      "/home/ayushregmibagale/10PROTAC-MD/SJF8240_renanalysis2/native_catalytic_validation_v2/references/8RX0_E2_aligned_SY8.npz": "e367153c7e60e57f6e36458241a94b9f9dcc5c9e0ed8ba30f3235d87ee106389"
+    },
+    "manifest_sha256": "162dbac3890942fa7a397656f4dcd8592ce79577d8cb883ef28a45955930c393",
+    "outputs": {
+      "base_packet.npz": "223f2f633b6d2d3950eef84122fb3c485fa35840e2e3846bce811c96c2083bb2",
+      "native_packet.npz": "aba1877fd62548f7284e01f7cc694453386e12389b29aebd8a5ed0a3f6da0f47"
+    }
+  },
+  {
+    "target": "RPS6KB2_full",
+    "source_target": "RPS6KB2",
+    "pose": "pose002",
+    "frames": 201,
+    "lysines": 17,
+    "seconds": 7.516342576011084,
+    "max_contact_replay_error_A": 0.0,
+    "source_sha256": {
+      "/home/ayushregmibagale/10PROTAC-MD/SJF8240_reanalysis/analysis/dynamic/poses/RPS6KB2/pose002/receipt.json": "e6294b981f61fe638db96bf3ae954e6a0c56914739927656861492654d05ba56",
+      "/home/ayushregmibagale/protac-md/random_screen/RPS6KB2/pose002/prod/prod.tpr": "f7e96a0d0403049294a608f3c2edda3d98b8f9fe1ed1ff5d1141bedea196b86d",
+      "/home/ayushregmibagale/protac-md/random_screen/RPS6KB2/pose002/prod/prod.xtc": "9326469982dc81092e72d54e686c88148356ceaff943a1b8cef8fbccbadaa083",
+      "/home/ayushregmibagale/protac-md/random_screen/RPS6KB2/pose002/structure/complex_protein.pdb": "1a4f3fe461bdc88e714a626747f3aec07def67583c28c6f36e02628f51d8f718",
+      "/home/ayushregmibagale/10PROTAC-MD/prosettac_robust/existing_result_audit/prediction_compiled_roles_v3/per_pose_roles.json": "188549eec229ba0e30082e97d271cbc12e84cd4d086e10f8d7ac631f863ef143",
+      "/home/ayushregmibagale/protac-md/reference_structures/e2_c85_ensemble.json": "9dac98e05fdd384bb77fc147e3e61d9de3dcdfe028355d4cccb833d3d9f73f15",
+      "/home/ayushregmibagale/10PROTAC-MD/SJF8240_renanalysis2/native_catalytic_validation_v2/references/8R5H_observed_SY8.npz": "50fecc9fd857e7e145b2ce39b7b75114dfe4eecf42786d8d6706f21ec9fe96af",
+      "/home/ayushregmibagale/10PROTAC-MD/SJF8240_renanalysis2/native_catalytic_validation_v2/references/8RX0_G76_fit75.npz": "3ffbbe8e7ce8ad53a8a9c4f8686facc436dbdb3fef3b932961ed21554fc884d9",
+      "/home/ayushregmibagale/10PROTAC-MD/SJF8240_renanalysis2/native_catalytic_validation_v2/references/8RX0_E2_aligned_SY8.npz": "e367153c7e60e57f6e36458241a94b9f9dcc5c9e0ed8ba30f3235d87ee106389"
+    },
+    "manifest_sha256": "162dbac3890942fa7a397656f4dcd8592ce79577d8cb883ef28a45955930c393",
+    "outputs": {
+      "base_packet.npz": "2980f0712d97fe5813b30d497b7c1aaca837d201d1efd4d8a97e3d812dc2efac",
+      "native_packet.npz": "54396b4528ba4be72e20480cef3eaad4c4dcde7e8201f5b4dec637c999d675b8"
+    }
+  },
+  {
+    "target": "RPS6KB2_full",
+    "source_target": "RPS6KB2",
+    "pose": "pose003",
+    "frames": 201,
+    "lysines": 17,
+    "seconds": 6.849233002983965,
+    "max_contact_replay_error_A": 0.0,
+    "source_sha256": {
+      "/home/ayushregmibagale/10PROTAC-MD/SJF8240_reanalysis/analysis/dynamic/poses/RPS6KB2/pose003/receipt.json": "dc7826d56cc33f2d057bbf5d888c1bae2a099b92fe00baccec492ca4a8cbaea5",
+      "/home/ayushregmibagale/protac-md/random_screen/RPS6KB2/pose003/prod/prod.tpr": "0420bb02f2a92808ef37c18b3fb4090d4ff7552ad350013acbc31614956a15d8",
+      "/home/ayushregmibagale/protac-md/random_screen/RPS6KB2/pose003/prod/prod.xtc": "3d04cf4481d60430f1a4603dcc32c2e3960ccda487be05282aa0c8255f435bc8",
+      "/home/ayushregmibagale/protac-md/random_screen/RPS6KB2/pose003/structure/complex_protein.pdb": "2f056a556f4b85cce63f37e6710adc8799ecab098a6b842eab1522c5cc2d4381",
+      "/home/ayushregmibagale/10PROTAC-MD/prosettac_robust/existing_result_audit/prediction_compiled_roles_v3/per_pose_roles.json": "188549eec229ba0e30082e97d271cbc12e84cd4d086e10f8d7ac631f863ef143",
+      "/home/ayushregmibagale/protac-md/reference_structures/e2_c85_ensemble.json": "9dac98e05fdd384bb77fc147e3e61d9de3dcdfe028355d4cccb833d3d9f73f15",
+      "/home/ayushregmibagale/10PROTAC-MD/SJF8240_renanalysis2/native_catalytic_validation_v2/references/8R5H_observed_SY8.npz": "50fecc9fd857e7e145b2ce39b7b75114dfe4eecf42786d8d6706f21ec9fe96af",
+      "/home/ayushregmibagale/10PROTAC-MD/SJF8240_renanalysis2/native_catalytic_validation_v2/references/8RX0_G76_fit75.npz": "3ffbbe8e7ce8ad53a8a9c4f8686facc436dbdb3fef3b932961ed21554fc884d9",
+      "/home/ayushregmibagale/10PROTAC-MD/SJF8240_renanalysis2/native_catalytic_validation_v2/references/8RX0_E2_aligned_SY8.npz": "e367153c7e60e57f6e36458241a94b9f9dcc5c9e0ed8ba30f3235d87ee106389"
+    },
+    "manifest_sha256": "162dbac3890942fa7a397656f4dcd8592ce79577d8cb883ef28a45955930c393",
+    "outputs": {
+      "base_packet.npz": "c50ad4cd574c28b841a055ed634c679d3000cc1296a9de0bc9caad0c909a7356",
+      "native_packet.npz": "6d4f07edbfd51509fd96cce81dd735a7a4fd28d5b3df0addbb905af9032721ee"
+    }
+  },
+  {
+    "target": "RPS6KB2_full",
+    "source_target": "RPS6KB2",
+    "pose": "pose004",
+    "frames": 201,
+    "lysines": 17,
+    "seconds": 6.582420903025195,
+    "max_contact_replay_error_A": 0.0,
+    "source_sha256": {
+      "/home/ayushregmibagale/10PROTAC-MD/SJF8240_reanalysis/analysis/dynamic/poses/RPS6KB2/pose004/receipt.json": "dacc12206ab2cc2afab8f058d040ef669c40a8cc91de7b25e58334edcc34828e",
+      "/home/ayushregmibagale/protac-md/random_screen/RPS6KB2/pose004/prod/prod.tpr": "d380ca5e3d286e04829d8074b8a57560fc8216afe347d458e286065fd3947370",
+      "/home/ayushregmibagale/protac-md/random_screen/RPS6KB2/pose004/prod/prod.xtc": "a7cccdb8033ab57e62e96709a6f2a8f3acfa549e51a2af5178f3d1bc94d4a004",
+      "/home/ayushregmibagale/protac-md/random_screen/RPS6KB2/pose004/structure/complex_protein.pdb": "1396340dd5f62eca13aa770fd4c0860b2387326f39e45b53f36da7970958f4bb",
+      "/home/ayushregmibagale/10PROTAC-MD/prosettac_robust/existing_result_audit/prediction_compiled_roles_v3/per_pose_roles.json": "188549eec229ba0e30082e97d271cbc12e84cd4d086e10f8d7ac631f863ef143",
+      "/home/ayushregmibagale/protac-md/reference_structures/e2_c85_ensemble.json": "9dac98e05fdd384bb77fc147e3e61d9de3dcdfe028355d4cccb833d3d9f73f15",
+      "/home/ayushregmibagale/10PROTAC-MD/SJF8240_renanalysis2/native_catalytic_validation_v2/references/8R5H_observed_SY8.npz": "50fecc9fd857e7e145b2ce39b7b75114dfe4eecf42786d8d6706f21ec9fe96af",
+      "/home/ayushregmibagale/10PROTAC-MD/SJF8240_renanalysis2/native_catalytic_validation_v2/references/8RX0_G76_fit75.npz": "3ffbbe8e7ce8ad53a8a9c4f8686facc436dbdb3fef3b932961ed21554fc884d9",
+      "/home/ayushregmibagale/10PROTAC-MD/SJF8240_renanalysis2/native_catalytic_validation_v2/references/8RX0_E2_aligned_SY8.npz": "e367153c7e60e57f6e36458241a94b9f9dcc5c9e0ed8ba30f3235d87ee106389"
+    },
+    "manifest_sha256": "162dbac3890942fa7a397656f4dcd8592ce79577d8cb883ef28a45955930c393",
+    "outputs": {
+      "base_packet.npz": "2d19316ac555d13cd9dd13981163a75371304e3f4133808b1fc174c60d740734",
+      "native_packet.npz": "efc173459e369982b29bbde9547f88d92edd08977d645798bd3f3efd2afc5c78"
+    }
+  },
+  {
+    "target": "RPS6KB2_full",
+    "source_target": "RPS6KB2",
+    "pose": "pose005",
+    "frames": 201,
+    "lysines": 17,
+    "seconds": 6.56669393600896,
+    "max_contact_replay_error_A": 3.7989977363928062e-06,
+    "source_sha256": {
+      "/home/ayushregmibagale/10PROTAC-MD/SJF8240_reanalysis/analysis/dynamic/poses/RPS6KB2/pose005/receipt.json": "b41cb5a2148c973b9082e9b6c11d607f862e7f25983e713b0c98d188c47d5450",
+      "/home/ayushregmibagale/protac-md/random_screen/RPS6KB2/pose005/prod/prod.tpr": "aa27546f4a99cbe28bb5bd8c5d794a079abe2f397fc888160222f2452baf5a45",
+      "/home/ayushregmibagale/protac-md/random_screen/RPS6KB2/pose005/prod/prod.xtc": "4585b3c097d59c60359e2f28c8703e258bcfea3efe514a8dac1fb7f28d32239d",
+      "/home/ayushregmibagale/protac-md/random_screen/RPS6KB2/pose005/structure/complex_protein.pdb": "82784692df5bddd1677c4c5c82ea1db2c60a6c2858620b2c04babf972ce492dc",
+      "/home/ayushregmibagale/10PROTAC-MD/prosettac_robust/existing_result_audit/prediction_compiled_roles_v3/per_pose_roles.json": "188549eec229ba0e30082e97d271cbc12e84cd4d086e10f8d7ac631f863ef143",
+      "/home/ayushregmibagale/protac-md/reference_structures/e2_c85_ensemble.json": "9dac98e05fdd384bb77fc147e3e61d9de3dcdfe028355d4cccb833d3d9f73f15",
+      "/home/ayushregmibagale/10PROTAC-MD/SJF8240_renanalysis2/native_catalytic_validation_v2/references/8R5H_observed_SY8.npz": "50fecc9fd857e7e145b2ce39b7b75114dfe4eecf42786d8d6706f21ec9fe96af",
+      "/home/ayushregmibagale/10PROTAC-MD/SJF8240_renanalysis2/native_catalytic_validation_v2/references/8RX0_G76_fit75.npz": "3ffbbe8e7ce8ad53a8a9c4f8686facc436dbdb3fef3b932961ed21554fc884d9",
+      "/home/ayushregmibagale/10PROTAC-MD/SJF8240_renanalysis2/native_catalytic_validation_v2/references/8RX0_E2_aligned_SY8.npz": "e367153c7e60e57f6e36458241a94b9f9dcc5c9e0ed8ba30f3235d87ee106389"
+    },
+    "manifest_sha256": "162dbac3890942fa7a397656f4dcd8592ce79577d8cb883ef28a45955930c393",
+    "outputs": {
+      "base_packet.npz": "609ea95bf56f94a9ad6f8052fd8c2c3dff029bf5800e22b849a2ac414e904826",
+      "native_packet.npz": "3ef5feed7ecac02a7c217bd321dda06bc09f9161acbe0700909d93735dd4540c"
+    }
+  },
+  {
+    "target": "RPS6KB2_full",
+    "source_target": "RPS6KB2",
+    "pose": "pose006",
+    "frames": 201,
+    "lysines": 17,
+    "seconds": 6.493407328031026,
+    "max_contact_replay_error_A": 0.0,
+    "source_sha256": {
+      "/home/ayushregmibagale/10PROTAC-MD/SJF8240_reanalysis/analysis/dynamic/poses/RPS6KB2/pose006/receipt.json": "055810cf791b994101b252b3b395080e8a7bc7d1b1af69f03bcfaf8e718fb43b",
+      "/home/ayushregmibagale/protac-md/random_screen/RPS6KB2/pose006/prod/prod.tpr": "f8cc1421936007c813762c1633ec4aed0471a108cf90765e5e216ce4f9541c21",
+      "/home/ayushregmibagale/protac-md/random_screen/RPS6KB2/pose006/prod/prod.xtc": "a21baaa8f967da125e469850e3c6cb97dddd97cff65c339096f1a9c80de18a3b",
+      "/home/ayushregmibagale/protac-md/random_screen/RPS6KB2/pose006/structure/complex_protein.pdb": "17817c888e3215abd933c9f558f913fba66c0c5d032ee9c69aade5f43451da63",
+      "/home/ayushregmibagale/10PROTAC-MD/prosettac_robust/existing_result_audit/prediction_compiled_roles_v3/per_pose_roles.json": "188549eec229ba0e30082e97d271cbc12e84cd4d086e10f8d7ac631f863ef143",
+      "/home/ayushregmibagale/protac-md/reference_structures/e2_c85_ensemble.json": "9dac98e05fdd384bb77fc147e3e61d9de3dcdfe028355d4cccb833d3d9f73f15",
+      "/home/ayushregmibagale/10PROTAC-MD/SJF8240_renanalysis2/native_catalytic_validation_v2/references/8R5H_observed_SY8.npz": "50fecc9fd857e7e145b2ce39b7b75114dfe4eecf42786d8d6706f21ec9fe96af",
+      "/home/ayushregmibagale/10PROTAC-MD/SJF8240_renanalysis2/native_catalytic_validation_v2/references/8RX0_G76_fit75.npz": "3ffbbe8e7ce8ad53a8a9c4f8686facc436dbdb3fef3b932961ed21554fc884d9",
+      "/home/ayushregmibagale/10PROTAC-MD/SJF8240_renanalysis2/native_catalytic_validation_v2/references/8RX0_E2_aligned_SY8.npz": "e367153c7e60e57f6e36458241a94b9f9dcc5c9e0ed8ba30f3235d87ee106389"
+    },
+    "manifest_sha256": "162dbac3890942fa7a397656f4dcd8592ce79577d8cb883ef28a45955930c393",
+    "outputs": {
+      "base_packet.npz": "2f0bbb4e99186b5ff15200a3fbb6395dbe8b06c9af26e71655cd150003c7869f",
+      "native_packet.npz": "5d387d7da65e31dc051db21848e162d779d75b3f199a819e4a229642ec02e3c9"
+    }
+  },
+  {
+    "target": "RPS6KB2_full",
+    "source_target": "RPS6KB2",
+    "pose": "pose008",
+    "frames": 201,
+    "lysines": 17,
+    "seconds": 6.880039599025622,
+    "max_contact_replay_error_A": 0.0,
+    "source_sha256": {
+      "/home/ayushregmibagale/10PROTAC-MD/SJF8240_reanalysis/analysis/dynamic/poses/RPS6KB2/pose008/receipt.json": "a95f7c057028119db45cf0b918794b69c731f46289d0febb6b529c9252a2942c",
+      "/home/ayushregmibagale/protac-md/random_screen/RPS6KB2/pose008/prod/prod.tpr": "198ff470a2967afb06ed69957728a7976100aa3ba8ab5520233332e173dcb56c",
+      "/home/ayushregmibagale/protac-md/random_screen/RPS6KB2/pose008/prod/prod.xtc": "6b1682fab34b3d3bbb85a9de3293c77cc8bbf9fd351d8e5f6d8321c5d27cc747",
+      "/home/ayushregmibagale/protac-md/random_screen/RPS6KB2/pose008/structure/complex_protein.pdb": "03da2a35b907b21f541fb5e93e5610793d67d4d28bce9e42f4225049ece8fb02",
+      "/home/ayushregmibagale/10PROTAC-MD/prosettac_robust/existing_result_audit/prediction_compiled_roles_v3/per_pose_roles.json": "188549eec229ba0e30082e97d271cbc12e84cd4d086e10f8d7ac631f863ef143",
+      "/home/ayushregmibagale/protac-md/reference_structures/e2_c85_ensemble.json": "9dac98e05fdd384bb77fc147e3e61d9de3dcdfe028355d4cccb833d3d9f73f15",
+      "/home/ayushregmibagale/10PROTAC-MD/SJF8240_renanalysis2/native_catalytic_validation_v2/references/8R5H_observed_SY8.npz": "50fecc9fd857e7e145b2ce39b7b75114dfe4eecf42786d8d6706f21ec9fe96af",
+      "/home/ayushregmibagale/10PROTAC-MD/SJF8240_renanalysis2/native_catalytic_validation_v2/references/8RX0_G76_fit75.npz": "3ffbbe8e7ce8ad53a8a9c4f8686facc436dbdb3fef3b932961ed21554fc884d9",
+      "/home/ayushregmibagale/10PROTAC-MD/SJF8240_renanalysis2/native_catalytic_validation_v2/references/8RX0_E2_aligned_SY8.npz": "e367153c7e60e57f6e36458241a94b9f9dcc5c9e0ed8ba30f3235d87ee106389"
+    },
+    "manifest_sha256": "162dbac3890942fa7a397656f4dcd8592ce79577d8cb883ef28a45955930c393",
+    "outputs": {
+      "base_packet.npz": "aa1935a84ea90abea79342b4b4c8c399cfed89e5bc0f37cbd5dcb39494ec1ff6",
+      "native_packet.npz": "e895a60aa034b2ad47616eb09bb653ff048484f323c4c140a1c01e6524caab52"
+    }
+  },
+  {
+    "target": "RPS6KB2_full",
+    "source_target": "RPS6KB2",
+    "pose": "pose009",
+    "frames": 201,
+    "lysines": 17,
+    "seconds": 6.571370997000486,
+    "max_contact_replay_error_A": 0.0,
+    "source_sha256": {
+      "/home/ayushregmibagale/10PROTAC-MD/SJF8240_reanalysis/analysis/dynamic/poses/RPS6KB2/pose009/receipt.json": "0998726634f312dbafba54b2638564ad76e0db834b8b0cb9d6db18b2768afdf9",
+      "/home/ayushregmibagale/protac-md/random_screen/RPS6KB2/pose009/prod/prod.tpr": "06e500c18108c086123401754cfecbba4986c283c16bfb6a95b6cd9ad4b147d3",
+      "/home/ayushregmibagale/protac-md/random_screen/RPS6KB2/pose009/prod/prod.xtc": "9aaa6128be366bd4fb41d3ba77683c79de032549614996809a48a0427c795d5f",
+      "/home/ayushregmibagale/protac-md/random_screen/RPS6KB2/pose009/structure/complex_protein.pdb": "5f7832bafb8fd3952e8b7ac5126ce5606bf8ce1cfafb2b8439cba7a95ecad34b",
+      "/home/ayushregmibagale/10PROTAC-MD/prosettac_robust/existing_result_audit/prediction_compiled_roles_v3/per_pose_roles.json": "188549eec229ba0e30082e97d271cbc12e84cd4d086e10f8d7ac631f863ef143",
+      "/home/ayushregmibagale/protac-md/reference_structures/e2_c85_ensemble.json": "9dac98e05fdd384bb77fc147e3e61d9de3dcdfe028355d4cccb833d3d9f73f15",
+      "/home/ayushregmibagale/10PROTAC-MD/SJF8240_renanalysis2/native_catalytic_validation_v2/references/8R5H_observed_SY8.npz": "50fecc9fd857e7e145b2ce39b7b75114dfe4eecf42786d8d6706f21ec9fe96af",
+      "/home/ayushregmibagale/10PROTAC-MD/SJF8240_renanalysis2/native_catalytic_validation_v2/references/8RX0_G76_fit75.npz": "3ffbbe8e7ce8ad53a8a9c4f8686facc436dbdb3fef3b932961ed21554fc884d9",
+      "/home/ayushregmibagale/10PROTAC-MD/SJF8240_renanalysis2/native_catalytic_validation_v2/references/8RX0_E2_aligned_SY8.npz": "e367153c7e60e57f6e36458241a94b9f9dcc5c9e0ed8ba30f3235d87ee106389"
+    },
+    "manifest_sha256": "162dbac3890942fa7a397656f4dcd8592ce79577d8cb883ef28a45955930c393",
+    "outputs": {
+      "base_packet.npz": "0ad84a50f0ac3c40ce2399a349ee7ff4ca8ff3b932b56d09250ad2f689255da2",
+      "native_packet.npz": "d2928491035873aba154b7ccd4122e9214f12bc82a08eb8444d8683245950b3f"
+    }
+  },
+  {
+    "target": "RPS6KB2_full",
+    "source_target": "RPS6KB2",
+    "pose": "pose010",
+    "frames": 201,
+    "lysines": 17,
+    "seconds": 6.595780913019553,
+    "max_contact_replay_error_A": 1.228937309294409e-05,
+    "source_sha256": {
+      "/home/ayushregmibagale/10PROTAC-MD/SJF8240_reanalysis/analysis/dynamic/poses/RPS6KB2/pose010/receipt.json": "db0d35cce405a6c91cee3867f35258a0209877f7a9b11c844d274d92b0a577d1",
+      "/home/ayushregmibagale/protac-md/random_screen/RPS6KB2/pose010/prod/prod.tpr": "0cd1a78d3bdfc22e8d37b8e23a5ea23f85c2688f30ef995a815c6f2f3b02b455",
+      "/home/ayushregmibagale/protac-md/random_screen/RPS6KB2/pose010/prod/prod.xtc": "4b9f504fb0db861034d726831b9398f91245a450d25eb7a96ecc6a388728756b",
+      "/home/ayushregmibagale/protac-md/random_screen/RPS6KB2/pose010/structure/complex_protein.pdb": "77c190aba5ce0aa2e56115b37eb677ede4592b0527b82a1d21024ce3eab52a28",
+      "/home/ayushregmibagale/10PROTAC-MD/prosettac_robust/existing_result_audit/prediction_compiled_roles_v3/per_pose_roles.json": "188549eec229ba0e30082e97d271cbc12e84cd4d086e10f8d7ac631f863ef143",
+      "/home/ayushregmibagale/protac-md/reference_structures/e2_c85_ensemble.json": "9dac98e05fdd384bb77fc147e3e61d9de3dcdfe028355d4cccb833d3d9f73f15",
+      "/home/ayushregmibagale/10PROTAC-MD/SJF8240_renanalysis2/native_catalytic_validation_v2/references/8R5H_observed_SY8.npz": "50fecc9fd857e7e145b2ce39b7b75114dfe4eecf42786d8d6706f21ec9fe96af",
+      "/home/ayushregmibagale/10PROTAC-MD/SJF8240_renanalysis2/native_catalytic_validation_v2/references/8RX0_G76_fit75.npz": "3ffbbe8e7ce8ad53a8a9c4f8686facc436dbdb3fef3b932961ed21554fc884d9",
+      "/home/ayushregmibagale/10PROTAC-MD/SJF8240_renanalysis2/native_catalytic_validation_v2/references/8RX0_E2_aligned_SY8.npz": "e367153c7e60e57f6e36458241a94b9f9dcc5c9e0ed8ba30f3235d87ee106389"
+    },
+    "manifest_sha256": "162dbac3890942fa7a397656f4dcd8592ce79577d8cb883ef28a45955930c393",
+    "outputs": {
+      "base_packet.npz": "2a36419bceb66f2ea85b315b578bd4127089df60fc9d19a4975d1db4ea5e172a",
+      "native_packet.npz": "4dad15c9501d83c771e33e6f7a4269cdc68173618e374c1a9009705d8257a153"
+    }
+  },
+  {
+    "target": "RPS6KB2_full",
+    "source_target": "RPS6KB2",
+    "pose": "pose011",
+    "frames": 201,
+    "lysines": 17,
+    "seconds": 7.070448557031341,
+    "max_contact_replay_error_A": 0.0,
+    "source_sha256": {
+      "/home/ayushregmibagale/10PROTAC-MD/SJF8240_reanalysis/analysis/dynamic/poses/RPS6KB2/pose011/receipt.json": "fdb066f290e0798fd292163c9f74f257aeaeac81c4d2790230b662879964be0c",
+      "/home/ayushregmibagale/protac-md/random_screen/RPS6KB2/pose011/prod/prod.tpr": "a2fefc857cc963e2b58e599043902b5d59c4cce11483762e80cf9ab2a8ade900",
+      "/home/ayushregmibagale/protac-md/random_screen/RPS6KB2/pose011/prod/prod.xtc": "f7ffd11babe5978493117ee55ea6d124718264cbb454b65b6e7eadca215f5404",
+      "/home/ayushregmibagale/protac-md/random_screen/RPS6KB2/pose011/structure/complex_protein.pdb": "1025d6bb472588dba441e32a848138a560dac58a41b021ff7aebca9f6e8a44fd",
+      "/home/ayushregmibagale/10PROTAC-MD/prosettac_robust/existing_result_audit/prediction_compiled_roles_v3/per_pose_roles.json": "188549eec229ba0e30082e97d271cbc12e84cd4d086e10f8d7ac631f863ef143",
+      "/home/ayushregmibagale/protac-md/reference_structures/e2_c85_ensemble.json": "9dac98e05fdd384bb77fc147e3e61d9de3dcdfe028355d4cccb833d3d9f73f15",
+      "/home/ayushregmibagale/10PROTAC-MD/SJF8240_renanalysis2/native_catalytic_validation_v2/references/8R5H_observed_SY8.npz": "50fecc9fd857e7e145b2ce39b7b75114dfe4eecf42786d8d6706f21ec9fe96af",
+      "/home/ayushregmibagale/10PROTAC-MD/SJF8240_renanalysis2/native_catalytic_validation_v2/references/8RX0_G76_fit75.npz": "3ffbbe8e7ce8ad53a8a9c4f8686facc436dbdb3fef3b932961ed21554fc884d9",
+      "/home/ayushregmibagale/10PROTAC-MD/SJF8240_renanalysis2/native_catalytic_validation_v2/references/8RX0_E2_aligned_SY8.npz": "e367153c7e60e57f6e36458241a94b9f9dcc5c9e0ed8ba30f3235d87ee106389"
+    },
+    "manifest_sha256": "162dbac3890942fa7a397656f4dcd8592ce79577d8cb883ef28a45955930c393",
+    "outputs": {
+      "base_packet.npz": "26b5329fef97410879f550c88b35641e44cad503c893b243977ca957a934eee4",
+      "native_packet.npz": "a15ad250695277083067b0954b01012b063eb7b6562fba138f01a915473ce67f"
+    }
+  },
+  {
+    "target": "RPS6KB2_full",
+    "source_target": "RPS6KB2",
+    "pose": "pose012",
+    "frames": 201,
+    "lysines": 17,
+    "seconds": 6.775907246978022,
+    "max_contact_replay_error_A": 0.0,
+    "source_sha256": {
+      "/home/ayushregmibagale/10PROTAC-MD/SJF8240_reanalysis/analysis/dynamic/poses/RPS6KB2/pose012/receipt.json": "d289ea60ae774e74b1c10235f4c4158b8120c6abe8ac97d50da28005157a3bc3",
+      "/home/ayushregmibagale/protac-md/random_screen/RPS6KB2/pose012/prod/prod.tpr": "2b6c8980565c57b2b1f229a0da2f40949a7f27766c82755bbc174961548daa38",
+      "/home/ayushregmibagale/protac-md/random_screen/RPS6KB2/pose012/prod/prod.xtc": "925782fa12e03dadfd0c3034b8e8b4e1d737d6b2df3854dc9ab2ef9f3b37f3d6",
+      "/home/ayushregmibagale/protac-md/random_screen/RPS6KB2/pose012/structure/complex_protein.pdb": "3ec901fe9b9ffd973e84ef21aaafcd87a557418fda1595d9562d4e7a7ad601a7",
+      "/home/ayushregmibagale/10PROTAC-MD/prosettac_robust/existing_result_audit/prediction_compiled_roles_v3/per_pose_roles.json": "188549eec229ba0e30082e97d271cbc12e84cd4d086e10f8d7ac631f863ef143",
+      "/home/ayushregmibagale/protac-md/reference_structures/e2_c85_ensemble.json": "9dac98e05fdd384bb77fc147e3e61d9de3dcdfe028355d4cccb833d3d9f73f15",
+      "/home/ayushregmibagale/10PROTAC-MD/SJF8240_renanalysis2/native_catalytic_validation_v2/references/8R5H_observed_SY8.npz": "50fecc9fd857e7e145b2ce39b7b75114dfe4eecf42786d8d6706f21ec9fe96af",
+      "/home/ayushregmibagale/10PROTAC-MD/SJF8240_renanalysis2/native_catalytic_validation_v2/references/8RX0_G76_fit75.npz": "3ffbbe8e7ce8ad53a8a9c4f8686facc436dbdb3fef3b932961ed21554fc884d9",
+      "/home/ayushregmibagale/10PROTAC-MD/SJF8240_renanalysis2/native_catalytic_validation_v2/references/8RX0_E2_aligned_SY8.npz": "e367153c7e60e57f6e36458241a94b9f9dcc5c9e0ed8ba30f3235d87ee106389"
+    },
+    "manifest_sha256": "162dbac3890942fa7a397656f4dcd8592ce79577d8cb883ef28a45955930c393",
+    "outputs": {
+      "base_packet.npz": "2c9b3e94d19fef145187105f7347e0f3e49aabb0f3da8195b395f610703e1c58",
+      "native_packet.npz": "3e209edad58f4f8bca34130dc9b2cf8d1e6b8054b5408b013d52a2f2081f1027"
+    }
+  },
+  {
+    "target": "RPS6KB2_full",
+    "source_target": "RPS6KB2",
+    "pose": "pose013",
+    "frames": 201,
+    "lysines": 17,
+    "seconds": 6.657854006974958,
+    "max_contact_replay_error_A": 1.1247568445504896e-06,
+    "source_sha256": {
+      "/home/ayushregmibagale/10PROTAC-MD/SJF8240_reanalysis/analysis/dynamic/poses/RPS6KB2/pose013/receipt.json": "8e2ccce4ec07241eede91a3873d023fac050ceb4512a2e3d122b7d83e57b52a2",
+      "/home/ayushregmibagale/protac-md/random_screen/RPS6KB2/pose013/prod/prod.tpr": "fde44a558168448ad24bf023ceadc6eeba46d3050284ec1eedd19aad3d917a73",
+      "/home/ayushregmibagale/protac-md/random_screen/RPS6KB2/pose013/prod/prod.xtc": "2f029f3ff4f57e69ec240ffb6c2dff3c0f376cfd1a1197530eeb059eeefd8ea9",
+      "/home/ayushregmibagale/protac-md/random_screen/RPS6KB2/pose013/structure/complex_protein.pdb": "dca0f195ec3728251b04f6bdc0e6e2072f85497fc7f5db9fea682788ed4e149f",
+      "/home/ayushregmibagale/10PROTAC-MD/prosettac_robust/existing_result_audit/prediction_compiled_roles_v3/per_pose_roles.json": "188549eec229ba0e30082e97d271cbc12e84cd4d086e10f8d7ac631f863ef143",
+      "/home/ayushregmibagale/protac-md/reference_structures/e2_c85_ensemble.json": "9dac98e05fdd384bb77fc147e3e61d9de3dcdfe028355d4cccb833d3d9f73f15",
+      "/home/ayushregmibagale/10PROTAC-MD/SJF8240_renanalysis2/native_catalytic_validation_v2/references/8R5H_observed_SY8.npz": "50fecc9fd857e7e145b2ce39b7b75114dfe4eecf42786d8d6706f21ec9fe96af",
+      "/home/ayushregmibagale/10PROTAC-MD/SJF8240_renanalysis2/native_catalytic_validation_v2/references/8RX0_G76_fit75.npz": "3ffbbe8e7ce8ad53a8a9c4f8686facc436dbdb3fef3b932961ed21554fc884d9",
+      "/home/ayushregmibagale/10PROTAC-MD/SJF8240_renanalysis2/native_catalytic_validation_v2/references/8RX0_E2_aligned_SY8.npz": "e367153c7e60e57f6e36458241a94b9f9dcc5c9e0ed8ba30f3235d87ee106389"
+    },
+    "manifest_sha256": "162dbac3890942fa7a397656f4dcd8592ce79577d8cb883ef28a45955930c393",
+    "outputs": {
+      "base_packet.npz": "6561bb4520770730c7c6e6f12fd299cdf13be98403fea918a224d717f4d4c55a",
+      "native_packet.npz": "5e2998a0adec3d8cae469528bcaa92f917413c23ce7e3e085e85bef7382266d4"
+    }
+  },
+  {
+    "target": "RPS6KB2_full",
+    "source_target": "RPS6KB2",
+    "pose": "pose014",
+    "frames": 201,
+    "lysines": 17,
+    "seconds": 6.0921505499864,
+    "max_contact_replay_error_A": 0.0,
+    "source_sha256": {
+      "/home/ayushregmibagale/10PROTAC-MD/SJF8240_reanalysis/analysis/dynamic/poses/RPS6KB2/pose014/receipt.json": "9116be286f8da5e666cf74cea6855ea2d0697e559b8faf0162ceadc11fc5631a",
+      "/home/ayushregmibagale/protac-md/random_screen/RPS6KB2/pose014/prod/prod.tpr": "13918c71d3b8aca5b1abace5730b0e884c6a2fced1282620e78d1b83f9781713",
+      "/home/ayushregmibagale/protac-md/random_screen/RPS6KB2/pose014/prod/prod.xtc": "9c3aa4b98e7fe8a37b0400424e39bc8156138e162030bbe9321c8aafe4166ffc",
+      "/home/ayushregmibagale/protac-md/random_screen/RPS6KB2/pose014/structure/complex_protein.pdb": "fc29aa94ed629691dc9f29754162c57917407d041847ef2196537e5827b8acae",
+      "/home/ayushregmibagale/10PROTAC-MD/prosettac_robust/existing_result_audit/prediction_compiled_roles_v3/per_pose_roles.json": "188549eec229ba0e30082e97d271cbc12e84cd4d086e10f8d7ac631f863ef143",
+      "/home/ayushregmibagale/protac-md/reference_structures/e2_c85_ensemble.json": "9dac98e05fdd384bb77fc147e3e61d9de3dcdfe028355d4cccb833d3d9f73f15",
+      "/home/ayushregmibagale/10PROTAC-MD/SJF8240_renanalysis2/native_catalytic_validation_v2/references/8R5H_observed_SY8.npz": "50fecc9fd857e7e145b2ce39b7b75114dfe4eecf42786d8d6706f21ec9fe96af",
+      "/home/ayushregmibagale/10PROTAC-MD/SJF8240_renanalysis2/native_catalytic_validation_v2/references/8RX0_G76_fit75.npz": "3ffbbe8e7ce8ad53a8a9c4f8686facc436dbdb3fef3b932961ed21554fc884d9",
+      "/home/ayushregmibagale/10PROTAC-MD/SJF8240_renanalysis2/native_catalytic_validation_v2/references/8RX0_E2_aligned_SY8.npz": "e367153c7e60e57f6e36458241a94b9f9dcc5c9e0ed8ba30f3235d87ee106389"
+    },
+    "manifest_sha256": "162dbac3890942fa7a397656f4dcd8592ce79577d8cb883ef28a45955930c393",
+    "outputs": {
+      "base_packet.npz": "9287102b620a312843a1cb750bfa3f80600091aa070416f6bb46e6ac745e1b88",
+      "native_packet.npz": "1ad6291501f8267996c7de7bd419648bd5b98e35aa02293e86d11af09d489c3c"
+    }
+  },
+  {
+    "target": "RPS6KB2_full",
+    "source_target": "RPS6KB2",
+    "pose": "pose015",
+    "frames": 201,
+    "lysines": 17,
+    "seconds": 6.663773126027081,
+    "max_contact_replay_error_A": 4.770805528409028e-09,
+    "source_sha256": {
+      "/home/ayushregmibagale/10PROTAC-MD/SJF8240_reanalysis/analysis/dynamic/poses/RPS6KB2/pose015/receipt.json": "52aaaa62d8c7a06586931767d0816ccfa23cd95a1db582a5123f4125f092bb8e",
+      "/home/ayushregmibagale/protac-md/random_screen/RPS6KB2/pose015/prod/prod.tpr": "3505f7c0a62349d358176dc0ca3fbb730af09dcb14c12169352fe5a784d324bb",
+      "/home/ayushregmibagale/protac-md/random_screen/RPS6KB2/pose015/prod/prod.xtc": "010d8859b2f2ea91a35e7f7a36954f626af5c7462649d69393bc0464e7ff6871",
+      "/home/ayushregmibagale/protac-md/random_screen/RPS6KB2/pose015/structure/complex_protein.pdb": "7566ce642fec219c3e6d6f987f92424e80b9452b25e41393344ac34e010a7ae6",
+      "/home/ayushregmibagale/10PROTAC-MD/prosettac_robust/existing_result_audit/prediction_compiled_roles_v3/per_pose_roles.json": "188549eec229ba0e30082e97d271cbc12e84cd4d086e10f8d7ac631f863ef143",
+      "/home/ayushregmibagale/protac-md/reference_structures/e2_c85_ensemble.json": "9dac98e05fdd384bb77fc147e3e61d9de3dcdfe028355d4cccb833d3d9f73f15",
+      "/home/ayushregmibagale/10PROTAC-MD/SJF8240_renanalysis2/native_catalytic_validation_v2/references/8R5H_observed_SY8.npz": "50fecc9fd857e7e145b2ce39b7b75114dfe4eecf42786d8d6706f21ec9fe96af",
+      "/home/ayushregmibagale/10PROTAC-MD/SJF8240_renanalysis2/native_catalytic_validation_v2/references/8RX0_G76_fit75.npz": "3ffbbe8e7ce8ad53a8a9c4f8686facc436dbdb3fef3b932961ed21554fc884d9",
+      "/home/ayushregmibagale/10PROTAC-MD/SJF8240_renanalysis2/native_catalytic_validation_v2/references/8RX0_E2_aligned_SY8.npz": "e367153c7e60e57f6e36458241a94b9f9dcc5c9e0ed8ba30f3235d87ee106389"
+    },
+    "manifest_sha256": "162dbac3890942fa7a397656f4dcd8592ce79577d8cb883ef28a45955930c393",
+    "outputs": {
+      "base_packet.npz": "ba4d3376836b8a5c03649b9e07cd9947fa4c4f360eadcbbf9c6099358596d0c4",
+      "native_packet.npz": "3ab701cc15f46b9fd3f362e2978f116ced2d56958647008dbffcf50a35f7b5e5"
+    }
+  },
+  {
+    "target": "RPS6KB2_full",
+    "source_target": "RPS6KB2",
+    "pose": "pose017",
+    "frames": 201,
+    "lysines": 17,
+    "seconds": 6.9409703080309555,
+    "max_contact_replay_error_A": 0.0,
+    "source_sha256": {
+      "/home/ayushregmibagale/10PROTAC-MD/SJF8240_reanalysis/analysis/dynamic/poses/RPS6KB2/pose017/receipt.json": "c9b66969d91fcebb0a21e405301340dcf3293032cfa407acd189f29ae5aa7ed1",
+      "/home/ayushregmibagale/protac-md/random_screen/RPS6KB2/pose017/prod/prod.tpr": "037e9bed53532426f2da52aeca0f55b9b70c155f8ecdfd84079f3d0e9374a31b",
+      "/home/ayushregmibagale/protac-md/random_screen/RPS6KB2/pose017/prod/prod.xtc": "0cc70f258f7335ca890b2d023cf174aee6f007c51783157e70c2422974bed0af",
+      "/home/ayushregmibagale/protac-md/random_screen/RPS6KB2/pose017/structure/complex_protein.pdb": "89bebb29f1677bf276a4695b3b74096e99af4f96a4bb9088d362b9e3cbf2e546",
+      "/home/ayushregmibagale/10PROTAC-MD/prosettac_robust/existing_result_audit/prediction_compiled_roles_v3/per_pose_roles.json": "188549eec229ba0e30082e97d271cbc12e84cd4d086e10f8d7ac631f863ef143",
+      "/home/ayushregmibagale/protac-md/reference_structures/e2_c85_ensemble.json": "9dac98e05fdd384bb77fc147e3e61d9de3dcdfe028355d4cccb833d3d9f73f15",
+      "/home/ayushregmibagale/10PROTAC-MD/SJF8240_renanalysis2/native_catalytic_validation_v2/references/8R5H_observed_SY8.npz": "50fecc9fd857e7e145b2ce39b7b75114dfe4eecf42786d8d6706f21ec9fe96af",
+      "/home/ayushregmibagale/10PROTAC-MD/SJF8240_renanalysis2/native_catalytic_validation_v2/references/8RX0_G76_fit75.npz": "3ffbbe8e7ce8ad53a8a9c4f8686facc436dbdb3fef3b932961ed21554fc884d9",
+      "/home/ayushregmibagale/10PROTAC-MD/SJF8240_renanalysis2/native_catalytic_validation_v2/references/8RX0_E2_aligned_SY8.npz": "e367153c7e60e57f6e36458241a94b9f9dcc5c9e0ed8ba30f3235d87ee106389"
+    },
+    "manifest_sha256": "162dbac3890942fa7a397656f4dcd8592ce79577d8cb883ef28a45955930c393",
+    "outputs": {
+      "base_packet.npz": "1ed259c2d41ec5f5a6507c6f9e433f5fee25f47d3f3c3fdf34de2a5370ea973e",
+      "native_packet.npz": "b7bdcbaed8c699551e27fdda1e61d0fda2ebe0b454be2989384769efff092093"
+    }
+  },
+  {
+    "target": "RPS6KB2_full",
+    "source_target": "RPS6KB2",
+    "pose": "pose018",
+    "frames": 201,
+    "lysines": 17,
+    "seconds": 6.7981927579967305,
+    "max_contact_replay_error_A": 5.8730407674900675e-06,
+    "source_sha256": {
+      "/home/ayushregmibagale/10PROTAC-MD/SJF8240_reanalysis/analysis/dynamic/poses/RPS6KB2/pose018/receipt.json": "8d035d5535d847aacd7b48233b4d73d2046017fe34557fe5ccae5f17b147a5d1",
+      "/home/ayushregmibagale/protac-md/random_screen/RPS6KB2/pose018/prod/prod.tpr": "30edf921a835a1a0efff3160b401d6b9aefc4e46047b746981a79aa68b40e650",
+      "/home/ayushregmibagale/protac-md/random_screen/RPS6KB2/pose018/prod/prod.xtc": "f12f857f5643b88cbb5664dcde19e6a4dff05e0e4be6efa27ee54abbb2fe58ea",
+      "/home/ayushregmibagale/protac-md/random_screen/RPS6KB2/pose018/structure/complex_protein.pdb": "d1f82f904891ed92f86e34e17c0650a2e526de566af34d61947ddc2b2ef7d5c1",
+      "/home/ayushregmibagale/10PROTAC-MD/prosettac_robust/existing_result_audit/prediction_compiled_roles_v3/per_pose_roles.json": "188549eec229ba0e30082e97d271cbc12e84cd4d086e10f8d7ac631f863ef143",
+      "/home/ayushregmibagale/protac-md/reference_structures/e2_c85_ensemble.json": "9dac98e05fdd384bb77fc147e3e61d9de3dcdfe028355d4cccb833d3d9f73f15",
+      "/home/ayushregmibagale/10PROTAC-MD/SJF8240_renanalysis2/native_catalytic_validation_v2/references/8R5H_observed_SY8.npz": "50fecc9fd857e7e145b2ce39b7b75114dfe4eecf42786d8d6706f21ec9fe96af",
+      "/home/ayushregmibagale/10PROTAC-MD/SJF8240_renanalysis2/native_catalytic_validation_v2/references/8RX0_G76_fit75.npz": "3ffbbe8e7ce8ad53a8a9c4f8686facc436dbdb3fef3b932961ed21554fc884d9",
+      "/home/ayushregmibagale/10PROTAC-MD/SJF8240_renanalysis2/native_catalytic_validation_v2/references/8RX0_E2_aligned_SY8.npz": "e367153c7e60e57f6e36458241a94b9f9dcc5c9e0ed8ba30f3235d87ee106389"
+    },
+    "manifest_sha256": "162dbac3890942fa7a397656f4dcd8592ce79577d8cb883ef28a45955930c393",
+    "outputs": {
+      "base_packet.npz": "fe240e4d91155e6185008ff4e0e679acab4211a52822ac1440af7884d36f4a30",
+      "native_packet.npz": "d8ce3313bb60b207ad9352a6fae1974cfccb26dcd8690a1a3d49da749b63f872"
+    }
+  },
+  {
+    "target": "RPS6KB2_full",
+    "source_target": "RPS6KB2",
+    "pose": "pose019",
+    "frames": 201,
+    "lysines": 17,
+    "seconds": 7.874024437973276,
+    "max_contact_replay_error_A": 0.0,
+    "source_sha256": {
+      "/home/ayushregmibagale/10PROTAC-MD/SJF8240_reanalysis/analysis/dynamic/poses/RPS6KB2/pose019/receipt.json": "d3bfdbb85861a4ef507c4fa4b767b3dabc7264a4c89eb5d0b9ee1b4f2000bde0",
+      "/home/ayushregmibagale/protac-md/random_screen/RPS6KB2/pose019/prod/prod.tpr": "bc8c0683035f94528ba279e93e116a69438b7b892b4579c02a5d74eebaf47c55",
+      "/home/ayushregmibagale/protac-md/random_screen/RPS6KB2/pose019/prod/prod.xtc": "61a6b1030aae1b113f761abaaaec3ca6b47422c7dbedb2c63e8f32798f8b76bd",
+      "/home/ayushregmibagale/protac-md/random_screen/RPS6KB2/pose019/structure/complex_protein.pdb": "a8bffef2573fab96530e0ab2d33cc77ace0d59b8424f1f788fa7ed203a530a4b",
+      "/home/ayushregmibagale/10PROTAC-MD/prosettac_robust/existing_result_audit/prediction_compiled_roles_v3/per_pose_roles.json": "188549eec229ba0e30082e97d271cbc12e84cd4d086e10f8d7ac631f863ef143",
+      "/home/ayushregmibagale/protac-md/reference_structures/e2_c85_ensemble.json": "9dac98e05fdd384bb77fc147e3e61d9de3dcdfe028355d4cccb833d3d9f73f15",
+      "/home/ayushregmibagale/10PROTAC-MD/SJF8240_renanalysis2/native_catalytic_validation_v2/references/8R5H_observed_SY8.npz": "50fecc9fd857e7e145b2ce39b7b75114dfe4eecf42786d8d6706f21ec9fe96af",
+      "/home/ayushregmibagale/10PROTAC-MD/SJF8240_renanalysis2/native_catalytic_validation_v2/references/8RX0_G76_fit75.npz": "3ffbbe8e7ce8ad53a8a9c4f8686facc436dbdb3fef3b932961ed21554fc884d9",
+      "/home/ayushregmibagale/10PROTAC-MD/SJF8240_renanalysis2/native_catalytic_validation_v2/references/8RX0_E2_aligned_SY8.npz": "e367153c7e60e57f6e36458241a94b9f9dcc5c9e0ed8ba30f3235d87ee106389"
+    },
+    "manifest_sha256": "162dbac3890942fa7a397656f4dcd8592ce79577d8cb883ef28a45955930c393",
+    "outputs": {
+      "base_packet.npz": "046c25ef31892542e25bbf1e998ac94b0b0a2bc03d1b518031bb7569458ed23a",
+      "native_packet.npz": "65929793e2f353c572c2b3289093a964d3b5c27ebff2afc05681ebe063bf6408"
+    }
+  },
+  {
+    "target": "RPS6KB2_full",
+    "source_target": "RPS6KB2",
+    "pose": "pose020",
+    "frames": 201,
+    "lysines": 17,
+    "seconds": 7.9230806269915774,
+    "max_contact_replay_error_A": 5.5352361818528095e-06,
+    "source_sha256": {
+      "/home/ayushregmibagale/10PROTAC-MD/SJF8240_reanalysis/analysis/dynamic/poses/RPS6KB2/pose020/receipt.json": "f3a637f113f8e97650254f472b9706b43a6d8c543df6d7da8b3b3657872d80a2",
+      "/home/ayushregmibagale/protac-md/random_screen/RPS6KB2/pose020/prod/prod.tpr": "db5e5481e9be6c2e32b9431958bb539946749da80c18ea527fb14d8427f39f23",
+      "/home/ayushregmibagale/protac-md/random_screen/RPS6KB2/pose020/prod/prod.xtc": "f77d7beb69d4268b0ef0a114e499189ff769a4c1ba7cf895e344c035c45d8362",
+      "/home/ayushregmibagale/protac-md/random_screen/RPS6KB2/pose020/structure/complex_protein.pdb": "2ffaaaad0a61bd123189d4a183d3b57a6500253332d91c321ea492771561e95e",
+      "/home/ayushregmibagale/10PROTAC-MD/prosettac_robust/existing_result_audit/prediction_compiled_roles_v3/per_pose_roles.json": "188549eec229ba0e30082e97d271cbc12e84cd4d086e10f8d7ac631f863ef143",
+      "/home/ayushregmibagale/protac-md/reference_structures/e2_c85_ensemble.json": "9dac98e05fdd384bb77fc147e3e61d9de3dcdfe028355d4cccb833d3d9f73f15",
+      "/home/ayushregmibagale/10PROTAC-MD/SJF8240_renanalysis2/native_catalytic_validation_v2/references/8R5H_observed_SY8.npz": "50fecc9fd857e7e145b2ce39b7b75114dfe4eecf42786d8d6706f21ec9fe96af",
+      "/home/ayushregmibagale/10PROTAC-MD/SJF8240_renanalysis2/native_catalytic_validation_v2/references/8RX0_G76_fit75.npz": "3ffbbe8e7ce8ad53a8a9c4f8686facc436dbdb3fef3b932961ed21554fc884d9",
+      "/home/ayushregmibagale/10PROTAC-MD/SJF8240_renanalysis2/native_catalytic_validation_v2/references/8RX0_E2_aligned_SY8.npz": "e367153c7e60e57f6e36458241a94b9f9dcc5c9e0ed8ba30f3235d87ee106389"
+    },
+    "manifest_sha256": "162dbac3890942fa7a397656f4dcd8592ce79577d8cb883ef28a45955930c393",
+    "outputs": {
+      "base_packet.npz": "54d8f06961ad5d2e4e7b0230569ea5b14f13e3f430c89ffe1835bc9ee5f0ee73",
+      "native_packet.npz": "59e9b73a486465d00e4608a07bcfcda65b51608a6221f33a0b385362e1ff4f46"
+    }
+  },
+  {
+    "target": "SIK3_full",
+    "source_target": "SIK3",
+    "pose": "pose002",
+    "frames": 201,
+    "lysines": 20,
+    "seconds": 7.39386645302875,
+    "max_contact_replay_error_A": 0.0,
+    "source_sha256": {
+      "/home/ayushregmibagale/10PROTAC-MD/SJF8240_reanalysis/analysis/dynamic/poses/SIK3/pose002/receipt.json": "92d7dfe8668176d1eaca80acf652a31a3b5c3112c6ce183f542355bcb2e072b2",
+      "/home/ayushregmibagale/protac-md/random_screen/SIK3/pose002/prod/prod.tpr": "e7b09bf4bd143c4a01cc3720d222fdc98685253d0bb98fd7efa0b603ae34d4a7",
+      "/home/ayushregmibagale/protac-md/random_screen/SIK3/pose002/prod/prod.xtc": "e132eb722fd2de76fa1e74f4a644a06c86efad48dcbc2f95d6817d8ffdd03432",
+      "/home/ayushregmibagale/protac-md/random_screen/SIK3/pose002/structure/complex_protein.pdb": "f13fea220972f53d45d955245fb0f098a1d6a587794716caf50097a77ff07de1",
+      "/home/ayushregmibagale/10PROTAC-MD/prosettac_robust/existing_result_audit/prediction_compiled_roles_v3/per_pose_roles.json": "188549eec229ba0e30082e97d271cbc12e84cd4d086e10f8d7ac631f863ef143",
+      "/home/ayushregmibagale/protac-md/reference_structures/e2_c85_ensemble.json": "9dac98e05fdd384bb77fc147e3e61d9de3dcdfe028355d4cccb833d3d9f73f15",
+      "/home/ayushregmibagale/10PROTAC-MD/SJF8240_renanalysis2/native_catalytic_validation_v2/references/8R5H_observed_SY8.npz": "50fecc9fd857e7e145b2ce39b7b75114dfe4eecf42786d8d6706f21ec9fe96af",
+      "/home/ayushregmibagale/10PROTAC-MD/SJF8240_renanalysis2/native_catalytic_validation_v2/references/8RX0_G76_fit75.npz": "3ffbbe8e7ce8ad53a8a9c4f8686facc436dbdb3fef3b932961ed21554fc884d9",
+      "/home/ayushregmibagale/10PROTAC-MD/SJF8240_renanalysis2/native_catalytic_validation_v2/references/8RX0_E2_aligned_SY8.npz": "e367153c7e60e57f6e36458241a94b9f9dcc5c9e0ed8ba30f3235d87ee106389"
+    },
+    "manifest_sha256": "162dbac3890942fa7a397656f4dcd8592ce79577d8cb883ef28a45955930c393",
+    "outputs": {
+      "base_packet.npz": "b5e20ae8bd322e1e7c0fbdfb9fb5d3a3816eaa82953f906a51c815ee9249773f",
+      "native_packet.npz": "c14bd567b92c99236b8bbecee2963f01a2ab3af741041098e4212ae351bf09e5"
+    }
+  },
+  {
+    "target": "SIK3_full",
+    "source_target": "SIK3",
+    "pose": "pose003",
+    "frames": 201,
+    "lysines": 20,
+    "seconds": 7.390377658011857,
+    "max_contact_replay_error_A": 0.0,
+    "source_sha256": {
+      "/home/ayushregmibagale/10PROTAC-MD/SJF8240_reanalysis/analysis/dynamic/poses/SIK3/pose003/receipt.json": "24194f87bd5b2865010107649a4115a959c11de30b14016361e11a49cbb1dfee",
+      "/home/ayushregmibagale/protac-md/random_screen/SIK3/pose003/prod/prod.tpr": "82468f876f60c45b2de9b746cc0f2c9e2d191a97ff4a81042598de6e3f79d49e",
+      "/home/ayushregmibagale/protac-md/random_screen/SIK3/pose003/prod/prod.xtc": "b23456ce9ea6fcfa6e0a9bdb78b9448c909085f6bbc3a9488e941d7a47169cac",
+      "/home/ayushregmibagale/protac-md/random_screen/SIK3/pose003/structure/complex_protein.pdb": "b5851a84bfb0943c733ccbb453cfddf1eb47dca12855c927875437fd7bdc5aec",
+      "/home/ayushregmibagale/10PROTAC-MD/prosettac_robust/existing_result_audit/prediction_compiled_roles_v3/per_pose_roles.json": "188549eec229ba0e30082e97d271cbc12e84cd4d086e10f8d7ac631f863ef143",
+      "/home/ayushregmibagale/protac-md/reference_structures/e2_c85_ensemble.json": "9dac98e05fdd384bb77fc147e3e61d9de3dcdfe028355d4cccb833d3d9f73f15",
+      "/home/ayushregmibagale/10PROTAC-MD/SJF8240_renanalysis2/native_catalytic_validation_v2/references/8R5H_observed_SY8.npz": "50fecc9fd857e7e145b2ce39b7b75114dfe4eecf42786d8d6706f21ec9fe96af",
+      "/home/ayushregmibagale/10PROTAC-MD/SJF8240_renanalysis2/native_catalytic_validation_v2/references/8RX0_G76_fit75.npz": "3ffbbe8e7ce8ad53a8a9c4f8686facc436dbdb3fef3b932961ed21554fc884d9",
+      "/home/ayushregmibagale/10PROTAC-MD/SJF8240_renanalysis2/native_catalytic_validation_v2/references/8RX0_E2_aligned_SY8.npz": "e367153c7e60e57f6e36458241a94b9f9dcc5c9e0ed8ba30f3235d87ee106389"
+    },
+    "manifest_sha256": "162dbac3890942fa7a397656f4dcd8592ce79577d8cb883ef28a45955930c393",
+    "outputs": {
+      "base_packet.npz": "ebe28c39286a43d77b9dbaac2363d6b61ca5c5b10cf422725609f2f36af72ee4",
+      "native_packet.npz": "7c6d1b20e60eb9417e50442ea9a962fbaaafd86ea29c860b6ba7154bd95025e4"
+    }
+  },
+  {
+    "target": "SIK3_full",
+    "source_target": "SIK3",
+    "pose": "pose006",
+    "frames": 201,
+    "lysines": 20,
+    "seconds": 7.147570262022782,
+    "max_contact_replay_error_A": 0.0,
+    "source_sha256": {
+      "/home/ayushregmibagale/10PROTAC-MD/SJF8240_reanalysis/analysis/dynamic/poses/SIK3/pose006/receipt.json": "2c3e55d20a281fd03a2bbacd3e241d70af597c3bcdb4a22f5c32260134dc5940",
+      "/home/ayushregmibagale/protac-md/random_screen/SIK3/pose006/prod/prod.tpr": "04b65b54ee1877a95a4deabd2756ea11c4feeeefbf2e8e454f2de1d9269d22dd",
+      "/home/ayushregmibagale/protac-md/random_screen/SIK3/pose006/prod/prod.xtc": "80beb4583ae920dc7bbb21fc548128bef7d8251787ad23a3436c113ca5b7a956",
+      "/home/ayushregmibagale/protac-md/random_screen/SIK3/pose006/structure/complex_protein.pdb": "917191279edc76868fbd6400109645b9d26cad37218ac9a09ce129567ba67d42",
+      "/home/ayushregmibagale/10PROTAC-MD/prosettac_robust/existing_result_audit/prediction_compiled_roles_v3/per_pose_roles.json": "188549eec229ba0e30082e97d271cbc12e84cd4d086e10f8d7ac631f863ef143",
+      "/home/ayushregmibagale/protac-md/reference_structures/e2_c85_ensemble.json": "9dac98e05fdd384bb77fc147e3e61d9de3dcdfe028355d4cccb833d3d9f73f15",
+      "/home/ayushregmibagale/10PROTAC-MD/SJF8240_renanalysis2/native_catalytic_validation_v2/references/8R5H_observed_SY8.npz": "50fecc9fd857e7e145b2ce39b7b75114dfe4eecf42786d8d6706f21ec9fe96af",
+      "/home/ayushregmibagale/10PROTAC-MD/SJF8240_renanalysis2/native_catalytic_validation_v2/references/8RX0_G76_fit75.npz": "3ffbbe8e7ce8ad53a8a9c4f8686facc436dbdb3fef3b932961ed21554fc884d9",
+      "/home/ayushregmibagale/10PROTAC-MD/SJF8240_renanalysis2/native_catalytic_validation_v2/references/8RX0_E2_aligned_SY8.npz": "e367153c7e60e57f6e36458241a94b9f9dcc5c9e0ed8ba30f3235d87ee106389"
+    },
+    "manifest_sha256": "162dbac3890942fa7a397656f4dcd8592ce79577d8cb883ef28a45955930c393",
+    "outputs": {
+      "base_packet.npz": "78b8ac53f24a9bf1148d38d3894d8bd670d34193fb93ae174e11820e94b005db",
+      "native_packet.npz": "f797f44fcc4e6228f01baf3e5d19bdaa6fc9950f4fd7052da005c267c5c8d5b9"
+    }
+  },
+  {
+    "target": "SIK3_full",
+    "source_target": "SIK3",
+    "pose": "pose008",
+    "frames": 201,
+    "lysines": 20,
+    "seconds": 6.755964167998172,
+    "max_contact_replay_error_A": 9.995169324650277e-06,
+    "source_sha256": {
+      "/home/ayushregmibagale/10PROTAC-MD/SJF8240_reanalysis/analysis/dynamic/poses/SIK3/pose008/receipt.json": "d20fdcda04a147fa57ca27bc6b0480531fcc85e5d8de317d2911839a9158c0d8",
+      "/home/ayushregmibagale/protac-md/random_screen/SIK3/pose008/prod/prod.tpr": "c59eac255d116bdcf57794812fe698cedbb9cfa11d0138e43395daa6b5a94b83",
+      "/home/ayushregmibagale/protac-md/random_screen/SIK3/pose008/prod/prod.xtc": "634cacde039ec6a53b341992d4d2a443188163bf017aaca55e365c14c44b9fbc",
+      "/home/ayushregmibagale/protac-md/random_screen/SIK3/pose008/structure/complex_protein.pdb": "c581da937f1a6ec678e962396ac837b7b4c6015cd5242881e70b668af3d60a72",
+      "/home/ayushregmibagale/10PROTAC-MD/prosettac_robust/existing_result_audit/prediction_compiled_roles_v3/per_pose_roles.json": "188549eec229ba0e30082e97d271cbc12e84cd4d086e10f8d7ac631f863ef143",
+      "/home/ayushregmibagale/protac-md/reference_structures/e2_c85_ensemble.json": "9dac98e05fdd384bb77fc147e3e61d9de3dcdfe028355d4cccb833d3d9f73f15",
+      "/home/ayushregmibagale/10PROTAC-MD/SJF8240_renanalysis2/native_catalytic_validation_v2/references/8R5H_observed_SY8.npz": "50fecc9fd857e7e145b2ce39b7b75114dfe4eecf42786d8d6706f21ec9fe96af",
+      "/home/ayushregmibagale/10PROTAC-MD/SJF8240_renanalysis2/native_catalytic_validation_v2/references/8RX0_G76_fit75.npz": "3ffbbe8e7ce8ad53a8a9c4f8686facc436dbdb3fef3b932961ed21554fc884d9",
+      "/home/ayushregmibagale/10PROTAC-MD/SJF8240_renanalysis2/native_catalytic_validation_v2/references/8RX0_E2_aligned_SY8.npz": "e367153c7e60e57f6e36458241a94b9f9dcc5c9e0ed8ba30f3235d87ee106389"
+    },
+    "manifest_sha256": "162dbac3890942fa7a397656f4dcd8592ce79577d8cb883ef28a45955930c393",
+    "outputs": {
+      "base_packet.npz": "2394d7e440ba939d9bf443b867eb763c223af9c854f4dc3f79e890bb27258574",
+      "native_packet.npz": "57c75401719372de241594f6b0e36a71262cd38038ad0238f3329e6062003699"
+    }
+  },
+  {
+    "target": "SIK3_full",
+    "source_target": "SIK3",
+    "pose": "pose009",
+    "frames": 201,
+    "lysines": 20,
+    "seconds": 6.6282457069610246,
+    "max_contact_replay_error_A": 2.407917748747934e-06,
+    "source_sha256": {
+      "/home/ayushregmibagale/10PROTAC-MD/SJF8240_reanalysis/analysis/dynamic/poses/SIK3/pose009/receipt.json": "43e55f23e40e232166cb9e2e01c6fddb75f8c2b2c8c697a24ee4423ccf325ab2",
+      "/home/ayushregmibagale/protac-md/random_screen/SIK3/pose009/prod/prod.tpr": "1c720e16a33bb7672119f661c608d9c9465e1fa61affccd8cfa7257b8319ecc8",
+      "/home/ayushregmibagale/protac-md/random_screen/SIK3/pose009/prod/prod.xtc": "6550784ad116f16888d63cdc1e683cf40034afe5a586885315a894c6f0131ea1",
+      "/home/ayushregmibagale/protac-md/random_screen/SIK3/pose009/structure/complex_protein.pdb": "63fce373b10b739605a29d564931fe8d32943c418e8d8385dd2d4391b52a0be7",
+      "/home/ayushregmibagale/10PROTAC-MD/prosettac_robust/existing_result_audit/prediction_compiled_roles_v3/per_pose_roles.json": "188549eec229ba0e30082e97d271cbc12e84cd4d086e10f8d7ac631f863ef143",
+      "/home/ayushregmibagale/protac-md/reference_structures/e2_c85_ensemble.json": "9dac98e05fdd384bb77fc147e3e61d9de3dcdfe028355d4cccb833d3d9f73f15",
+      "/home/ayushregmibagale/10PROTAC-MD/SJF8240_renanalysis2/native_catalytic_validation_v2/references/8R5H_observed_SY8.npz": "50fecc9fd857e7e145b2ce39b7b75114dfe4eecf42786d8d6706f21ec9fe96af",
+      "/home/ayushregmibagale/10PROTAC-MD/SJF8240_renanalysis2/native_catalytic_validation_v2/references/8RX0_G76_fit75.npz": "3ffbbe8e7ce8ad53a8a9c4f8686facc436dbdb3fef3b932961ed21554fc884d9",
+      "/home/ayushregmibagale/10PROTAC-MD/SJF8240_renanalysis2/native_catalytic_validation_v2/references/8RX0_E2_aligned_SY8.npz": "e367153c7e60e57f6e36458241a94b9f9dcc5c9e0ed8ba30f3235d87ee106389"
+    },
+    "manifest_sha256": "162dbac3890942fa7a397656f4dcd8592ce79577d8cb883ef28a45955930c393",
+    "outputs": {
+      "base_packet.npz": "0494b72b0531e6d63273332d7a539ded589a9df2e9dbdd5f90ca1ebeb3c8c3dc",
+      "native_packet.npz": "8812e3a0ecee993fcd88ec8fa15088d648c633e654bf4c5593778f282450a722"
+    }
+  },
+  {
+    "target": "SIK3_full",
+    "source_target": "SIK3",
+    "pose": "pose010",
+    "frames": 201,
+    "lysines": 20,
+    "seconds": 7.714297231985256,
+    "max_contact_replay_error_A": 0.0,
+    "source_sha256": {
+      "/home/ayushregmibagale/10PROTAC-MD/SJF8240_reanalysis/analysis/dynamic/poses/SIK3/pose010/receipt.json": "844f12b4f278c820dc37ce0dc84d0e0c2101cdbae5cfa657313b68350daf7e4f",
+      "/home/ayushregmibagale/protac-md/random_screen/SIK3/pose010/prod/prod.tpr": "b22fce3380932c7aff559bf23a1959d04db72e5df2dfc7eb71e5d51b602e19db",
+      "/home/ayushregmibagale/protac-md/random_screen/SIK3/pose010/prod/prod.xtc": "f7640bf2eb19c626d03f1f2eda66ed156b4b80b2b9648a2d56cfba62df1df536",
+      "/home/ayushregmibagale/protac-md/random_screen/SIK3/pose010/structure/complex_protein.pdb": "294559bfeef721cb2df27ab669d1a46d8be63a1946b59915b0b5f5a533699f8e",
+      "/home/ayushregmibagale/10PROTAC-MD/prosettac_robust/existing_result_audit/prediction_compiled_roles_v3/per_pose_roles.json": "188549eec229ba0e30082e97d271cbc12e84cd4d086e10f8d7ac631f863ef143",
+      "/home/ayushregmibagale/protac-md/reference_structures/e2_c85_ensemble.json": "9dac98e05fdd384bb77fc147e3e61d9de3dcdfe028355d4cccb833d3d9f73f15",
+      "/home/ayushregmibagale/10PROTAC-MD/SJF8240_renanalysis2/native_catalytic_validation_v2/references/8R5H_observed_SY8.npz": "50fecc9fd857e7e145b2ce39b7b75114dfe4eecf42786d8d6706f21ec9fe96af",
+      "/home/ayushregmibagale/10PROTAC-MD/SJF8240_renanalysis2/native_catalytic_validation_v2/references/8RX0_G76_fit75.npz": "3ffbbe8e7ce8ad53a8a9c4f8686facc436dbdb3fef3b932961ed21554fc884d9",
+      "/home/ayushregmibagale/10PROTAC-MD/SJF8240_renanalysis2/native_catalytic_validation_v2/references/8RX0_E2_aligned_SY8.npz": "e367153c7e60e57f6e36458241a94b9f9dcc5c9e0ed8ba30f3235d87ee106389"
+    },
+    "manifest_sha256": "162dbac3890942fa7a397656f4dcd8592ce79577d8cb883ef28a45955930c393",
+    "outputs": {
+      "base_packet.npz": "13bff2e9d34f2c77fe4b9ece534b48f3dcb78c912098a90a1a719c178f9bdb5a",
+      "native_packet.npz": "2a19b75d9c44d4d09a82b7027c22c82e679704a708b9a85fd2bda150d35c2117"
+    }
+  },
+  {
+    "target": "SIK3_full",
+    "source_target": "SIK3",
+    "pose": "pose011",
+    "frames": 201,
+    "lysines": 20,
+    "seconds": 6.477098321018275,
+    "max_contact_replay_error_A": 3.7851302963076705e-06,
+    "source_sha256": {
+      "/home/ayushregmibagale/10PROTAC-MD/SJF8240_reanalysis/analysis/dynamic/poses/SIK3/pose011/receipt.json": "a724463548420e60bce8d096370e4746e0f7e72ef8aa4fc47bf66f80c02ee4bf",
+      "/home/ayushregmibagale/protac-md/random_screen/SIK3/pose011/prod/prod.tpr": "fecc70481e6da93a8132de91942a09dd86730a86037b08f6c49cac2ac3e44bed",
+      "/home/ayushregmibagale/protac-md/random_screen/SIK3/pose011/prod/prod.xtc": "0f792715d5f24fe439767270ff07df959c354b38374ec0819bb05bf620d15888",
+      "/home/ayushregmibagale/protac-md/random_screen/SIK3/pose011/structure/complex_protein.pdb": "cfed84ee1f15202d16b34d385193adc79a4db0f23f47ebefe1b78a11d5c62c55",
+      "/home/ayushregmibagale/10PROTAC-MD/prosettac_robust/existing_result_audit/prediction_compiled_roles_v3/per_pose_roles.json": "188549eec229ba0e30082e97d271cbc12e84cd4d086e10f8d7ac631f863ef143",
+      "/home/ayushregmibagale/protac-md/reference_structures/e2_c85_ensemble.json": "9dac98e05fdd384bb77fc147e3e61d9de3dcdfe028355d4cccb833d3d9f73f15",
+      "/home/ayushregmibagale/10PROTAC-MD/SJF8240_renanalysis2/native_catalytic_validation_v2/references/8R5H_observed_SY8.npz": "50fecc9fd857e7e145b2ce39b7b75114dfe4eecf42786d8d6706f21ec9fe96af",
+      "/home/ayushregmibagale/10PROTAC-MD/SJF8240_renanalysis2/native_catalytic_validation_v2/references/8RX0_G76_fit75.npz": "3ffbbe8e7ce8ad53a8a9c4f8686facc436dbdb3fef3b932961ed21554fc884d9",
+      "/home/ayushregmibagale/10PROTAC-MD/SJF8240_renanalysis2/native_catalytic_validation_v2/references/8RX0_E2_aligned_SY8.npz": "e367153c7e60e57f6e36458241a94b9f9dcc5c9e0ed8ba30f3235d87ee106389"
+    },
+    "manifest_sha256": "162dbac3890942fa7a397656f4dcd8592ce79577d8cb883ef28a45955930c393",
+    "outputs": {
+      "base_packet.npz": "f564fa86a8a7454b89a4a9fc9cd0aeb747174c58338f8dbeee0c8dc2238a9227",
+      "native_packet.npz": "491ecd90e43d780443431b97898f0037e11552facfad186e684ee663da5a79a5"
+    }
+  },
+  {
+    "target": "SIK3_full",
+    "source_target": "SIK3",
+    "pose": "pose012",
+    "frames": 201,
+    "lysines": 20,
+    "seconds": 6.9749793549999595,
+    "max_contact_replay_error_A": 9.19563280543656e-06,
+    "source_sha256": {
+      "/home/ayushregmibagale/10PROTAC-MD/SJF8240_reanalysis/analysis/dynamic/poses/SIK3/pose012/receipt.json": "720216a6df094ab8a81b0a72299f87445e4cbcc4961adb010091d077054a2e67",
+      "/home/ayushregmibagale/protac-md/random_screen/SIK3/pose012/prod/prod.tpr": "73b9fd50fb9e9504cbf76a5a3cf63d35dddad4f73ce4271cf144e724f59eebc0",
+      "/home/ayushregmibagale/protac-md/random_screen/SIK3/pose012/prod/prod.xtc": "b109347221df61093f2545946da2a7735c23cfe234bd21ab43730ecdf76255d2",
+      "/home/ayushregmibagale/protac-md/random_screen/SIK3/pose012/structure/complex_protein.pdb": "15b1e0d9235d29a38585b48e1cbd772d4a173d0ea83dfdc5bee4ae5f6eedc76e",
+      "/home/ayushregmibagale/10PROTAC-MD/prosettac_robust/existing_result_audit/prediction_compiled_roles_v3/per_pose_roles.json": "188549eec229ba0e30082e97d271cbc12e84cd4d086e10f8d7ac631f863ef143",
+      "/home/ayushregmibagale/protac-md/reference_structures/e2_c85_ensemble.json": "9dac98e05fdd384bb77fc147e3e61d9de3dcdfe028355d4cccb833d3d9f73f15",
+      "/home/ayushregmibagale/10PROTAC-MD/SJF8240_renanalysis2/native_catalytic_validation_v2/references/8R5H_observed_SY8.npz": "50fecc9fd857e7e145b2ce39b7b75114dfe4eecf42786d8d6706f21ec9fe96af",
+      "/home/ayushregmibagale/10PROTAC-MD/SJF8240_renanalysis2/native_catalytic_validation_v2/references/8RX0_G76_fit75.npz": "3ffbbe8e7ce8ad53a8a9c4f8686facc436dbdb3fef3b932961ed21554fc884d9",
+      "/home/ayushregmibagale/10PROTAC-MD/SJF8240_renanalysis2/native_catalytic_validation_v2/references/8RX0_E2_aligned_SY8.npz": "e367153c7e60e57f6e36458241a94b9f9dcc5c9e0ed8ba30f3235d87ee106389"
+    },
+    "manifest_sha256": "162dbac3890942fa7a397656f4dcd8592ce79577d8cb883ef28a45955930c393",
+    "outputs": {
+      "base_packet.npz": "74478e34d4647b54e8aad9c473da353684c702d9f30693c5e54b6ee15e2d1304",
+      "native_packet.npz": "140dc3b1e34127b26685bf53adacda8f5e03681e8482275d9243b0435a1fa77b"
+    }
+  },
+  {
+    "target": "SIK3_full",
+    "source_target": "SIK3",
+    "pose": "pose013",
+    "frames": 201,
+    "lysines": 20,
+    "seconds": 6.438444349972997,
+    "max_contact_replay_error_A": 4.40559866632384e-06,
+    "source_sha256": {
+      "/home/ayushregmibagale/10PROTAC-MD/SJF8240_reanalysis/analysis/dynamic/poses/SIK3/pose013/receipt.json": "24ac648b1791e14248e21506ea192cc4e464fe635adbac25391eb0914f96779a",
+      "/home/ayushregmibagale/protac-md/random_screen/SIK3/pose013/prod/prod.tpr": "a20722c627759b3fc13209ea41fc70615b968c231d759b1156a5f25f74d22f03",
+      "/home/ayushregmibagale/protac-md/random_screen/SIK3/pose013/prod/prod.xtc": "dd03d9e0c0cdb86af7843989fb7e37c14f6d4f22f44a8391ea558f8949c440b4",
+      "/home/ayushregmibagale/protac-md/random_screen/SIK3/pose013/structure/complex_protein.pdb": "6768a4ffaa408907ff98b326f482eeae5d18c8582090724b19295266cfdefb96",
+      "/home/ayushregmibagale/10PROTAC-MD/prosettac_robust/existing_result_audit/prediction_compiled_roles_v3/per_pose_roles.json": "188549eec229ba0e30082e97d271cbc12e84cd4d086e10f8d7ac631f863ef143",
+      "/home/ayushregmibagale/protac-md/reference_structures/e2_c85_ensemble.json": "9dac98e05fdd384bb77fc147e3e61d9de3dcdfe028355d4cccb833d3d9f73f15",
+      "/home/ayushregmibagale/10PROTAC-MD/SJF8240_renanalysis2/native_catalytic_validation_v2/references/8R5H_observed_SY8.npz": "50fecc9fd857e7e145b2ce39b7b75114dfe4eecf42786d8d6706f21ec9fe96af",
+      "/home/ayushregmibagale/10PROTAC-MD/SJF8240_renanalysis2/native_catalytic_validation_v2/references/8RX0_G76_fit75.npz": "3ffbbe8e7ce8ad53a8a9c4f8686facc436dbdb3fef3b932961ed21554fc884d9",
+      "/home/ayushregmibagale/10PROTAC-MD/SJF8240_renanalysis2/native_catalytic_validation_v2/references/8RX0_E2_aligned_SY8.npz": "e367153c7e60e57f6e36458241a94b9f9dcc5c9e0ed8ba30f3235d87ee106389"
+    },
+    "manifest_sha256": "162dbac3890942fa7a397656f4dcd8592ce79577d8cb883ef28a45955930c393",
+    "outputs": {
+      "base_packet.npz": "da20a52f764f2cc74621925eeaf1ed661ce7816a55a0940657a6988a49b6bb54",
+      "native_packet.npz": "309e011ca8264ef4f46fe30f96a045249cf552340ee255378c7f494dbeb7c255"
+    }
+  },
+  {
+    "target": "SIK3_full",
+    "source_target": "SIK3",
+    "pose": "pose014",
+    "frames": 201,
+    "lysines": 20,
+    "seconds": 6.886085075966548,
+    "max_contact_replay_error_A": 0.0,
+    "source_sha256": {
+      "/home/ayushregmibagale/10PROTAC-MD/SJF8240_reanalysis/analysis/dynamic/poses/SIK3/pose014/receipt.json": "c8b5ffcff4548b2d46be22ed90ce48fc9a8ea92fc9a263edb5825ce704942308",
+      "/home/ayushregmibagale/protac-md/random_screen/SIK3/pose014/prod/prod.tpr": "ab47dae202e0a841fcda95cce8939491a04e3e795b9d95682bf8df102314b426",
+      "/home/ayushregmibagale/protac-md/random_screen/SIK3/pose014/prod/prod.xtc": "911717b37c8bfb6b5b13ec4a7728c7c4065720f3ad452f6ed319eab777d1a13e",
+      "/home/ayushregmibagale/protac-md/random_screen/SIK3/pose014/structure/complex_protein.pdb": "6a88295dd9a1c677d507e2089c57d40154c4513949b969001caee2935eda47bf",
+      "/home/ayushregmibagale/10PROTAC-MD/prosettac_robust/existing_result_audit/prediction_compiled_roles_v3/per_pose_roles.json": "188549eec229ba0e30082e97d271cbc12e84cd4d086e10f8d7ac631f863ef143",
+      "/home/ayushregmibagale/protac-md/reference_structures/e2_c85_ensemble.json": "9dac98e05fdd384bb77fc147e3e61d9de3dcdfe028355d4cccb833d3d9f73f15",
+      "/home/ayushregmibagale/10PROTAC-MD/SJF8240_renanalysis2/native_catalytic_validation_v2/references/8R5H_observed_SY8.npz": "50fecc9fd857e7e145b2ce39b7b75114dfe4eecf42786d8d6706f21ec9fe96af",
+      "/home/ayushregmibagale/10PROTAC-MD/SJF8240_renanalysis2/native_catalytic_validation_v2/references/8RX0_G76_fit75.npz": "3ffbbe8e7ce8ad53a8a9c4f8686facc436dbdb3fef3b932961ed21554fc884d9",
+      "/home/ayushregmibagale/10PROTAC-MD/SJF8240_renanalysis2/native_catalytic_validation_v2/references/8RX0_E2_aligned_SY8.npz": "e367153c7e60e57f6e36458241a94b9f9dcc5c9e0ed8ba30f3235d87ee106389"
+    },
+    "manifest_sha256": "162dbac3890942fa7a397656f4dcd8592ce79577d8cb883ef28a45955930c393",
+    "outputs": {
+      "base_packet.npz": "7b801bf0a32102073b6c1b103606c793bf4bc7c6d151a68893724e11c49ba558",
+      "native_packet.npz": "8a9c994e027da00fef036c4c4120a46b49f55b2b503cc8fdc71ebfb96e03b84e"
+    }
+  },
+  {
+    "target": "SIK3_full",
+    "source_target": "SIK3",
+    "pose": "pose015",
+    "frames": 201,
+    "lysines": 20,
+    "seconds": 7.1863359060371295,
+    "max_contact_replay_error_A": 0.0,
+    "source_sha256": {
+      "/home/ayushregmibagale/10PROTAC-MD/SJF8240_reanalysis/analysis/dynamic/poses/SIK3/pose015/receipt.json": "5695ac550024293d668eeef2cacc4ab049ba3e316f6ba4ae0501c6c1cda67f3c",
+      "/home/ayushregmibagale/protac-md/random_screen/SIK3/pose015/prod/prod.tpr": "9ca4ab527949ad94fb3993b0f015ec59f2343e0f4af376a900b7caf1bf59bbff",
+      "/home/ayushregmibagale/protac-md/random_screen/SIK3/pose015/prod/prod.xtc": "95b9344a45c24487831494a58bdbe840148af1e1dcce6b3f9bd6f9edae529b80",
+      "/home/ayushregmibagale/protac-md/random_screen/SIK3/pose015/structure/complex_protein.pdb": "715c45380cf5f36c7c3684a0f005c87a7b5c089c409c5108c4bf4f02da27ec9a",
+      "/home/ayushregmibagale/10PROTAC-MD/prosettac_robust/existing_result_audit/prediction_compiled_roles_v3/per_pose_roles.json": "188549eec229ba0e30082e97d271cbc12e84cd4d086e10f8d7ac631f863ef143",
+      "/home/ayushregmibagale/protac-md/reference_structures/e2_c85_ensemble.json": "9dac98e05fdd384bb77fc147e3e61d9de3dcdfe028355d4cccb833d3d9f73f15",
+      "/home/ayushregmibagale/10PROTAC-MD/SJF8240_renanalysis2/native_catalytic_validation_v2/references/8R5H_observed_SY8.npz": "50fecc9fd857e7e145b2ce39b7b75114dfe4eecf42786d8d6706f21ec9fe96af",
+      "/home/ayushregmibagale/10PROTAC-MD/SJF8240_renanalysis2/native_catalytic_validation_v2/references/8RX0_G76_fit75.npz": "3ffbbe8e7ce8ad53a8a9c4f8686facc436dbdb3fef3b932961ed21554fc884d9",
+      "/home/ayushregmibagale/10PROTAC-MD/SJF8240_renanalysis2/native_catalytic_validation_v2/references/8RX0_E2_aligned_SY8.npz": "e367153c7e60e57f6e36458241a94b9f9dcc5c9e0ed8ba30f3235d87ee106389"
+    },
+    "manifest_sha256": "162dbac3890942fa7a397656f4dcd8592ce79577d8cb883ef28a45955930c393",
+    "outputs": {
+      "base_packet.npz": "1c209d56978cbe160489ef31fa11352437ddace42f345b145ac6fef57b7366e6",
+      "native_packet.npz": "d64d59400712305f7bf2701396275eed84fcee83799ff1aca5fe1dc91ce30704"
+    }
+  },
+  {
+    "target": "SIK3_full",
+    "source_target": "SIK3",
+    "pose": "pose016",
+    "frames": 201,
+    "lysines": 20,
+    "seconds": 6.4121539200423285,
+    "max_contact_replay_error_A": 0.0,
+    "source_sha256": {
+      "/home/ayushregmibagale/10PROTAC-MD/SJF8240_reanalysis/analysis/dynamic/poses/SIK3/pose016/receipt.json": "939dbf9af83a38c1de27ef164461877cd9ffac8290c957c810fbd89e7b1c152a",
+      "/home/ayushregmibagale/protac-md/random_screen/SIK3/pose016/prod/prod.tpr": "f97ea2c47cf019527069b21268e4588f189f6df12c100b6e83aee2f879f38692",
+      "/home/ayushregmibagale/protac-md/random_screen/SIK3/pose016/prod/prod.xtc": "b11ae3acfb9b39111ca434759952406c4be75e1f9dfa8f70d8407b5cb72ee18f",
+      "/home/ayushregmibagale/protac-md/random_screen/SIK3/pose016/structure/complex_protein.pdb": "a557ca2f3d319a6cbec834ad1909b762247813e1615a435c8453f326731e157d",
+      "/home/ayushregmibagale/10PROTAC-MD/prosettac_robust/existing_result_audit/prediction_compiled_roles_v3/per_pose_roles.json": "188549eec229ba0e30082e97d271cbc12e84cd4d086e10f8d7ac631f863ef143",
+      "/home/ayushregmibagale/protac-md/reference_structures/e2_c85_ensemble.json": "9dac98e05fdd384bb77fc147e3e61d9de3dcdfe028355d4cccb833d3d9f73f15",
+      "/home/ayushregmibagale/10PROTAC-MD/SJF8240_renanalysis2/native_catalytic_validation_v2/references/8R5H_observed_SY8.npz": "50fecc9fd857e7e145b2ce39b7b75114dfe4eecf42786d8d6706f21ec9fe96af",
+      "/home/ayushregmibagale/10PROTAC-MD/SJF8240_renanalysis2/native_catalytic_validation_v2/references/8RX0_G76_fit75.npz": "3ffbbe8e7ce8ad53a8a9c4f8686facc436dbdb3fef3b932961ed21554fc884d9",
+      "/home/ayushregmibagale/10PROTAC-MD/SJF8240_renanalysis2/native_catalytic_validation_v2/references/8RX0_E2_aligned_SY8.npz": "e367153c7e60e57f6e36458241a94b9f9dcc5c9e0ed8ba30f3235d87ee106389"
+    },
+    "manifest_sha256": "162dbac3890942fa7a397656f4dcd8592ce79577d8cb883ef28a45955930c393",
+    "outputs": {
+      "base_packet.npz": "e22487d46cb269f055d292e962a9f8e6dcbab05eba758260b3eefb26eacddd12",
+      "native_packet.npz": "9e315ebf60b7ff6469600fb991fedf3ac70c3a155a07169b0757f8e5296d5974"
+    }
+  },
+  {
+    "target": "SIK3_full",
+    "source_target": "SIK3",
+    "pose": "pose017",
+    "frames": 201,
+    "lysines": 20,
+    "seconds": 6.406905865995213,
+    "max_contact_replay_error_A": 3.5827079369887826e-06,
+    "source_sha256": {
+      "/home/ayushregmibagale/10PROTAC-MD/SJF8240_reanalysis/analysis/dynamic/poses/SIK3/pose017/receipt.json": "31bc02014ea54b77d51542340189adfd766c5d21011165c2f6608fe85494c4cc",
+      "/home/ayushregmibagale/protac-md/random_screen/SIK3/pose017/prod/prod.tpr": "a79b9966b6d589ba620a22dc945976993b4f0a69be13dd0f895d384eaac7e951",
+      "/home/ayushregmibagale/protac-md/random_screen/SIK3/pose017/prod/prod.xtc": "a65314ec534a3c017763099bf4dedc3adae05eda904d3dad0512040f372855c9",
+      "/home/ayushregmibagale/protac-md/random_screen/SIK3/pose017/structure/complex_protein.pdb": "b5001c1334e4ce120dea432c752eaf4cde555345b8214511b5ee9005e5418853",
+      "/home/ayushregmibagale/10PROTAC-MD/prosettac_robust/existing_result_audit/prediction_compiled_roles_v3/per_pose_roles.json": "188549eec229ba0e30082e97d271cbc12e84cd4d086e10f8d7ac631f863ef143",
+      "/home/ayushregmibagale/protac-md/reference_structures/e2_c85_ensemble.json": "9dac98e05fdd384bb77fc147e3e61d9de3dcdfe028355d4cccb833d3d9f73f15",
+      "/home/ayushregmibagale/10PROTAC-MD/SJF8240_renanalysis2/native_catalytic_validation_v2/references/8R5H_observed_SY8.npz": "50fecc9fd857e7e145b2ce39b7b75114dfe4eecf42786d8d6706f21ec9fe96af",
+      "/home/ayushregmibagale/10PROTAC-MD/SJF8240_renanalysis2/native_catalytic_validation_v2/references/8RX0_G76_fit75.npz": "3ffbbe8e7ce8ad53a8a9c4f8686facc436dbdb3fef3b932961ed21554fc884d9",
+      "/home/ayushregmibagale/10PROTAC-MD/SJF8240_renanalysis2/native_catalytic_validation_v2/references/8RX0_E2_aligned_SY8.npz": "e367153c7e60e57f6e36458241a94b9f9dcc5c9e0ed8ba30f3235d87ee106389"
+    },
+    "manifest_sha256": "162dbac3890942fa7a397656f4dcd8592ce79577d8cb883ef28a45955930c393",
+    "outputs": {
+      "base_packet.npz": "bbbc208b577f6e97313f3ce9cc76b8e797489353bbca7729eeaf61bda3e4904f",
+      "native_packet.npz": "291ec7c82d239a80b5dc9c0d29f6d137350c2faf2c9948ca3d8bb06f85a4f421"
+    }
+  },
+  {
+    "target": "SIK3_full",
+    "source_target": "SIK3",
+    "pose": "pose019",
+    "frames": 201,
+    "lysines": 20,
+    "seconds": 7.1336262480472215,
+    "max_contact_replay_error_A": 0.0,
+    "source_sha256": {
+      "/home/ayushregmibagale/10PROTAC-MD/SJF8240_reanalysis/analysis/dynamic/poses/SIK3/pose019/receipt.json": "838b4c1c7286760654dabff15e5f54396ce6d36599969e0b50dd1c8d1600f836",
+      "/home/ayushregmibagale/protac-md/random_screen/SIK3/pose019/prod/prod.tpr": "8d6e987d348f2aa970ab3207b7957ddb2fe948a21ccbed6c676c380061661490",
+      "/home/ayushregmibagale/protac-md/random_screen/SIK3/pose019/prod/prod.xtc": "541deaec10d060f763e97e8713c444b2146b89f2ecfc1961b49b122f38869fd4",
+      "/home/ayushregmibagale/protac-md/random_screen/SIK3/pose019/structure/complex_protein.pdb": "d8b9f1d62b978d4f5107ab2b0bc57f790770863a1730e6a4fc5cf85390b7a535",
+      "/home/ayushregmibagale/10PROTAC-MD/prosettac_robust/existing_result_audit/prediction_compiled_roles_v3/per_pose_roles.json": "188549eec229ba0e30082e97d271cbc12e84cd4d086e10f8d7ac631f863ef143",
+      "/home/ayushregmibagale/protac-md/reference_structures/e2_c85_ensemble.json": "9dac98e05fdd384bb77fc147e3e61d9de3dcdfe028355d4cccb833d3d9f73f15",
+      "/home/ayushregmibagale/10PROTAC-MD/SJF8240_renanalysis2/native_catalytic_validation_v2/references/8R5H_observed_SY8.npz": "50fecc9fd857e7e145b2ce39b7b75114dfe4eecf42786d8d6706f21ec9fe96af",
+      "/home/ayushregmibagale/10PROTAC-MD/SJF8240_renanalysis2/native_catalytic_validation_v2/references/8RX0_G76_fit75.npz": "3ffbbe8e7ce8ad53a8a9c4f8686facc436dbdb3fef3b932961ed21554fc884d9",
+      "/home/ayushregmibagale/10PROTAC-MD/SJF8240_renanalysis2/native_catalytic_validation_v2/references/8RX0_E2_aligned_SY8.npz": "e367153c7e60e57f6e36458241a94b9f9dcc5c9e0ed8ba30f3235d87ee106389"
+    },
+    "manifest_sha256": "162dbac3890942fa7a397656f4dcd8592ce79577d8cb883ef28a45955930c393",
+    "outputs": {
+      "base_packet.npz": "0bb78efd071ddda0db5cbca02fd12172ab7fe8194242260382d895c79ab70987",
+      "native_packet.npz": "3111048ceb5561e4be4afe05ceb05e2389d1b3617115115ad6802c49be2facca"
+    }
+  },
+  {
+    "target": "SIK3_full",
+    "source_target": "SIK3",
+    "pose": "pose020",
+    "frames": 201,
+    "lysines": 20,
+    "seconds": 6.3347300899913535,
+    "max_contact_replay_error_A": 2.9540306996089782e-06,
+    "source_sha256": {
+      "/home/ayushregmibagale/10PROTAC-MD/SJF8240_reanalysis/analysis/dynamic/poses/SIK3/pose020/receipt.json": "24e9e71ee49236c6653b3e96e824fdbf9e24f811ed5922130a999c1170f7f5bf",
+      "/home/ayushregmibagale/protac-md/random_screen/SIK3/pose020/prod/prod.tpr": "66209669fd82bc074184947c50ea4926331d5da9ac26419cd6b7db447824af30",
+      "/home/ayushregmibagale/protac-md/random_screen/SIK3/pose020/prod/prod.xtc": "ee7a4c7ae46b756ea5feecf14b256f97dd772850dbc79364fc4b9b151f77dbd7",
+      "/home/ayushregmibagale/protac-md/random_screen/SIK3/pose020/structure/complex_protein.pdb": "0dda916e7b88582eb699e725350c2d72bba51fe2903b9275eb253b9481122bf8",
+      "/home/ayushregmibagale/10PROTAC-MD/prosettac_robust/existing_result_audit/prediction_compiled_roles_v3/per_pose_roles.json": "188549eec229ba0e30082e97d271cbc12e84cd4d086e10f8d7ac631f863ef143",
+      "/home/ayushregmibagale/protac-md/reference_structures/e2_c85_ensemble.json": "9dac98e05fdd384bb77fc147e3e61d9de3dcdfe028355d4cccb833d3d9f73f15",
+      "/home/ayushregmibagale/10PROTAC-MD/SJF8240_renanalysis2/native_catalytic_validation_v2/references/8R5H_observed_SY8.npz": "50fecc9fd857e7e145b2ce39b7b75114dfe4eecf42786d8d6706f21ec9fe96af",
+      "/home/ayushregmibagale/10PROTAC-MD/SJF8240_renanalysis2/native_catalytic_validation_v2/references/8RX0_G76_fit75.npz": "3ffbbe8e7ce8ad53a8a9c4f8686facc436dbdb3fef3b932961ed21554fc884d9",
+      "/home/ayushregmibagale/10PROTAC-MD/SJF8240_renanalysis2/native_catalytic_validation_v2/references/8RX0_E2_aligned_SY8.npz": "e367153c7e60e57f6e36458241a94b9f9dcc5c9e0ed8ba30f3235d87ee106389"
+    },
+    "manifest_sha256": "162dbac3890942fa7a397656f4dcd8592ce79577d8cb883ef28a45955930c393",
+    "outputs": {
+      "base_packet.npz": "449b6db9a8eaf3bee1a04a21da80353b156029a23f8d548f3527317198a99238",
+      "native_packet.npz": "492acb4e83160ba4020aad8e9f9e8033310b0511ee0127bdb9d827ce7dd9f422"
+    }
+  },
+  {
+    "target": "ABL1",
+    "source_target": "ABL1",
+    "pose": "pose001",
+    "frames": 201,
+    "lysines": 18,
+    "seconds": 7.593697299947962,
+    "max_contact_replay_error_A": 0.0,
+    "source_sha256": {
+      "/home/ayushregmibagale/10PROTAC-MD/SJF8240_reanalysis/analysis/dynamic/poses/ABL1/pose001/receipt.json": "f51499b8707316cf58658ae92cd3833b68b32f5ac4f03337db5454ffcd6ab78b",
+      "/home/ayushregmibagale/protac-md/random_screen/ABL1/pose001/prod/prod.tpr": "f9228e3e573644840af08941f321cff25a3e8e124677c53cb9d681a5b7ec000c",
+      "/home/ayushregmibagale/protac-md/analysis/random_screen/ABL1/pose001/prod_nojump.xtc": "bf8d6d1a82197f0d64efca4c2f757aab3d95e73883d0ac7e2df2d76f397af133",
+      "/home/ayushregmibagale/protac-md/random_screen/ABL1/pose001/structure/complex_protein.pdb": "1bf750c6540e6d49ef3b3e2a3f9c7e2f75a26a3cd5de660f3f6dc2dc5f3eec33",
+      "/home/ayushregmibagale/10PROTAC-MD/prosettac_robust/existing_result_audit/protein_roles_core_complete/per_pose_roles.json": "58424dcef7fab12723789c597fc6e947a5b15ea236843fdeeb7dd5fb262f51b8",
+      "/home/ayushregmibagale/protac-md/reference_structures/e2_c85_ensemble.json": "9dac98e05fdd384bb77fc147e3e61d9de3dcdfe028355d4cccb833d3d9f73f15",
+      "/home/ayushregmibagale/10PROTAC-MD/SJF8240_renanalysis2/native_catalytic_validation_v2/references/8R5H_observed_SY8.npz": "50fecc9fd857e7e145b2ce39b7b75114dfe4eecf42786d8d6706f21ec9fe96af",
+      "/home/ayushregmibagale/10PROTAC-MD/SJF8240_renanalysis2/native_catalytic_validation_v2/references/8RX0_G76_fit75.npz": "3ffbbe8e7ce8ad53a8a9c4f8686facc436dbdb3fef3b932961ed21554fc884d9",
+      "/home/ayushregmibagale/10PROTAC-MD/SJF8240_renanalysis2/native_catalytic_validation_v2/references/8RX0_E2_aligned_SY8.npz": "e367153c7e60e57f6e36458241a94b9f9dcc5c9e0ed8ba30f3235d87ee106389"
+    },
+    "manifest_sha256": "162dbac3890942fa7a397656f4dcd8592ce79577d8cb883ef28a45955930c393",
+    "outputs": {
+      "base_packet.npz": "2fb8a92b302417306545b0cdc6a4d0f4056c526d3064d2725764e09477041310",
+      "native_packet.npz": "eaf8bf7daa4a44098a0a458b56ef1a3def0eb34e745a440b0b0fbb49a084aaa1"
+    }
+  },
+  {
+    "target": "AXL",
+    "source_target": "AXL",
+    "pose": "pose001",
+    "frames": 201,
+    "lysines": 16,
+    "seconds": 7.837789736979175,
+    "max_contact_replay_error_A": 0.0,
+    "source_sha256": {
+      "/home/ayushregmibagale/10PROTAC-MD/SJF8240_reanalysis/analysis/dynamic/poses/AXL/pose001/receipt.json": "b8fbf46cd96dcc9e089af8436a1b0c80fc76e6fdced933f326e390770d56590b",
+      "/home/ayushregmibagale/protac-md/random_screen/AXL/pose001/prod/prod.tpr": "f0d3cf24ce0097561aa8d87508b76c646ee36a647e96ad37b16edcc1da14eee8",
+      "/home/ayushregmibagale/protac-md/analysis/random_screen/AXL/pose001/prod_nojump.xtc": "d23d128acc49f74f40147c1f94d3e23fc9faa065b250ffa67248be4e2c871a59",
+      "/home/ayushregmibagale/protac-md/random_screen/AXL/pose001/structure/complex_protein.pdb": "69dc069b1e42c6be0c2341687758f15f333aff15757eb4f07f548929efac5a2c",
+      "/home/ayushregmibagale/10PROTAC-MD/prosettac_robust/existing_result_audit/protein_roles_core_complete/per_pose_roles.json": "58424dcef7fab12723789c597fc6e947a5b15ea236843fdeeb7dd5fb262f51b8",
+      "/home/ayushregmibagale/protac-md/reference_structures/e2_c85_ensemble.json": "9dac98e05fdd384bb77fc147e3e61d9de3dcdfe028355d4cccb833d3d9f73f15",
+      "/home/ayushregmibagale/10PROTAC-MD/SJF8240_renanalysis2/native_catalytic_validation_v2/references/8R5H_observed_SY8.npz": "50fecc9fd857e7e145b2ce39b7b75114dfe4eecf42786d8d6706f21ec9fe96af",
+      "/home/ayushregmibagale/10PROTAC-MD/SJF8240_renanalysis2/native_catalytic_validation_v2/references/8RX0_G76_fit75.npz": "3ffbbe8e7ce8ad53a8a9c4f8686facc436dbdb3fef3b932961ed21554fc884d9",
+      "/home/ayushregmibagale/10PROTAC-MD/SJF8240_renanalysis2/native_catalytic_validation_v2/references/8RX0_E2_aligned_SY8.npz": "e367153c7e60e57f6e36458241a94b9f9dcc5c9e0ed8ba30f3235d87ee106389"
+    },
+    "manifest_sha256": "162dbac3890942fa7a397656f4dcd8592ce79577d8cb883ef28a45955930c393",
+    "outputs": {
+      "base_packet.npz": "ac25f33aa499c83b0b2813c74bc86ec4c115c520074a9da0b363e0cc119b45ee",
+      "native_packet.npz": "7c1f869000608b54d29dc5e7f4753080db2ded18fa100a5bcfc98d2eb477e45a"
+    }
+  },
+  {
+    "target": "DDR2",
+    "source_target": "DDR2",
+    "pose": "pose001",
+    "frames": 201,
+    "lysines": 14,
+    "seconds": 7.770100721041672,
+    "max_contact_replay_error_A": 0.0,
+    "source_sha256": {
+      "/home/ayushregmibagale/10PROTAC-MD/SJF8240_reanalysis/analysis/dynamic/poses/DDR2/pose001/receipt.json": "2211f1fcbddf0dd2b262b97d970320c65f48d0f485382fe06344337eebb89b57",
+      "/home/ayushregmibagale/protac-md/random_screen/DDR2/pose001/prod/prod.tpr": "ddee6fdf1abf6045f4dc462bfaf5c1a95e2665a1072e680f6729b3400c1f4d6b",
+      "/home/ayushregmibagale/protac-md/analysis/random_screen/DDR2/pose001/prod_nojump.xtc": "e9978732e144e446fb0f1d71e4af0759c53d89dcc24d1d730669ac74da49c2cd",
+      "/home/ayushregmibagale/protac-md/random_screen/DDR2/pose001/structure/complex_protein.pdb": "78d0cec9100984d373d8c4310a0223f4b2c3728253286e078b8f00fde2969539",
+      "/home/ayushregmibagale/10PROTAC-MD/prosettac_robust/existing_result_audit/protein_roles_core_complete/per_pose_roles.json": "58424dcef7fab12723789c597fc6e947a5b15ea236843fdeeb7dd5fb262f51b8",
+      "/home/ayushregmibagale/protac-md/reference_structures/e2_c85_ensemble.json": "9dac98e05fdd384bb77fc147e3e61d9de3dcdfe028355d4cccb833d3d9f73f15",
+      "/home/ayushregmibagale/10PROTAC-MD/SJF8240_renanalysis2/native_catalytic_validation_v2/references/8R5H_observed_SY8.npz": "50fecc9fd857e7e145b2ce39b7b75114dfe4eecf42786d8d6706f21ec9fe96af",
+      "/home/ayushregmibagale/10PROTAC-MD/SJF8240_renanalysis2/native_catalytic_validation_v2/references/8RX0_G76_fit75.npz": "3ffbbe8e7ce8ad53a8a9c4f8686facc436dbdb3fef3b932961ed21554fc884d9",
+      "/home/ayushregmibagale/10PROTAC-MD/SJF8240_renanalysis2/native_catalytic_validation_v2/references/8RX0_E2_aligned_SY8.npz": "e367153c7e60e57f6e36458241a94b9f9dcc5c9e0ed8ba30f3235d87ee106389"
+    },
+    "manifest_sha256": "162dbac3890942fa7a397656f4dcd8592ce79577d8cb883ef28a45955930c393",
+    "outputs": {
+      "base_packet.npz": "0b9c60758c1ae5a48b9547789a8927eb22ce1074bdfde3776778e04914afb1f0",
+      "native_packet.npz": "a25e36909f2de5b2f66bb8ad4daff0b37b61223bcf9a7f23ccb422d91042f6ef"
+    }
+  },
+  {
+    "target": "EPHA2",
+    "source_target": "EPHA2",
+    "pose": "pose001",
+    "frames": 201,
+    "lysines": 20,
+    "seconds": 7.465170882001985,
+    "max_contact_replay_error_A": 0.0,
+    "source_sha256": {
+      "/home/ayushregmibagale/10PROTAC-MD/SJF8240_reanalysis/analysis/dynamic/poses/EPHA2/pose001/receipt.json": "ab0dadb65d5ae8218d37bd29dcfa473637def32e218558740226b4434997200a",
+      "/home/ayushregmibagale/protac-md/random_screen/EPHA2/pose001/prod/prod.tpr": "f702a475a8510d7cdf03019ba0ebced9d01efb35822a0643c09fb936d5e66431",
+      "/home/ayushregmibagale/protac-md/analysis/random_screen/EPHA2/pose001/prod_nojump.xtc": "6bdc70f1b8d9b31388453d3ee2e6123ab305c0d2917d8e123aba8145d88748b3",
+      "/home/ayushregmibagale/protac-md/random_screen/EPHA2/pose001/structure/complex_protein.pdb": "325f7f641cbaacec6f3128c2b3f609b8f88aa50e9dc82da0f89ffa2682e08873",
+      "/home/ayushregmibagale/10PROTAC-MD/prosettac_robust/existing_result_audit/protein_roles_core_complete/per_pose_roles.json": "58424dcef7fab12723789c597fc6e947a5b15ea236843fdeeb7dd5fb262f51b8",
+      "/home/ayushregmibagale/protac-md/reference_structures/e2_c85_ensemble.json": "9dac98e05fdd384bb77fc147e3e61d9de3dcdfe028355d4cccb833d3d9f73f15",
+      "/home/ayushregmibagale/10PROTAC-MD/SJF8240_renanalysis2/native_catalytic_validation_v2/references/8R5H_observed_SY8.npz": "50fecc9fd857e7e145b2ce39b7b75114dfe4eecf42786d8d6706f21ec9fe96af",
+      "/home/ayushregmibagale/10PROTAC-MD/SJF8240_renanalysis2/native_catalytic_validation_v2/references/8RX0_G76_fit75.npz": "3ffbbe8e7ce8ad53a8a9c4f8686facc436dbdb3fef3b932961ed21554fc884d9",
+      "/home/ayushregmibagale/10PROTAC-MD/SJF8240_renanalysis2/native_catalytic_validation_v2/references/8RX0_E2_aligned_SY8.npz": "e367153c7e60e57f6e36458241a94b9f9dcc5c9e0ed8ba30f3235d87ee106389"
+    },
+    "manifest_sha256": "162dbac3890942fa7a397656f4dcd8592ce79577d8cb883ef28a45955930c393",
+    "outputs": {
+      "base_packet.npz": "54ea4955bc951d204949443d5b25cd797c7fa9ce8d7f6c4fa61f6f3c2b75af0e",
+      "native_packet.npz": "dec4d7ba50392dc88cb4c73f7b78497e6cad6e97bb2580efec6b166bdb5c84aa"
+    }
+  },
+  {
+    "target": "EPHB2",
+    "source_target": "EPHB2",
+    "pose": "pose001",
+    "frames": 201,
+    "lysines": 13,
+    "seconds": 7.133652288001031,
+    "max_contact_replay_error_A": 0.0,
+    "source_sha256": {
+      "/home/ayushregmibagale/10PROTAC-MD/SJF8240_reanalysis/analysis/dynamic/poses/EPHB2/pose001/receipt.json": "de2737abc7264cd98d57d37e05093725799db2993dde2566892ff8655e8af4a7",
+      "/home/ayushregmibagale/protac-md/random_screen/EPHB2/pose001/prod/prod.tpr": "f36071ca7a1b1acab70910afe586624c6cb0a6906a451c5757fd52e5312974de",
+      "/home/ayushregmibagale/protac-md/analysis/random_screen/EPHB2/pose001/prod_nojump.xtc": "d9e80200b526cb1c398ecfa17e120bda8a03a4079bc8c9b7a6a6cbe10d7cd253",
+      "/home/ayushregmibagale/protac-md/random_screen/EPHB2/pose001/structure/complex_protein.pdb": "d49a8800ba813b39f9a3127b9218e1921cc113c94d95888385d7af93d54d73b5",
+      "/home/ayushregmibagale/10PROTAC-MD/prosettac_robust/existing_result_audit/protein_roles_core_complete/per_pose_roles.json": "58424dcef7fab12723789c597fc6e947a5b15ea236843fdeeb7dd5fb262f51b8",
+      "/home/ayushregmibagale/protac-md/reference_structures/e2_c85_ensemble.json": "9dac98e05fdd384bb77fc147e3e61d9de3dcdfe028355d4cccb833d3d9f73f15",
+      "/home/ayushregmibagale/10PROTAC-MD/SJF8240_renanalysis2/native_catalytic_validation_v2/references/8R5H_observed_SY8.npz": "50fecc9fd857e7e145b2ce39b7b75114dfe4eecf42786d8d6706f21ec9fe96af",
+      "/home/ayushregmibagale/10PROTAC-MD/SJF8240_renanalysis2/native_catalytic_validation_v2/references/8RX0_G76_fit75.npz": "3ffbbe8e7ce8ad53a8a9c4f8686facc436dbdb3fef3b932961ed21554fc884d9",
+      "/home/ayushregmibagale/10PROTAC-MD/SJF8240_renanalysis2/native_catalytic_validation_v2/references/8RX0_E2_aligned_SY8.npz": "e367153c7e60e57f6e36458241a94b9f9dcc5c9e0ed8ba30f3235d87ee106389"
+    },
+    "manifest_sha256": "162dbac3890942fa7a397656f4dcd8592ce79577d8cb883ef28a45955930c393",
+    "outputs": {
+      "base_packet.npz": "44ed5077ba4219f9fe2f51fb1b5e28086934fc9bce39f3516394d9c09b802286",
+      "native_packet.npz": "cf71d6cea5967445cb8b4b663a20516b515036614a24eb8cf899a36011a7e3ac"
+    }
+  },
+  {
+    "target": "MAPK14_full",
+    "source_target": "MAPK14_full",
+    "pose": "pose001",
+    "frames": 201,
+    "lysines": 19,
+    "seconds": 7.893948131008074,
+    "max_contact_replay_error_A": 0.0,
+    "source_sha256": {
+      "/home/ayushregmibagale/10PROTAC-MD/SJF8240_reanalysis/analysis/dynamic/poses/MAPK14_full/pose001/receipt.json": "11fdc2d61465d5d55ddb0a37e793d1577d911b6a8a1a9598ee2bdf4840477ac2",
+      "/home/ayushregmibagale/protac-md/random_screen/MAPK14_full/pose001/prod/prod.tpr": "6a9bd9a4bdc140d440ee698bad9c682fcacc90bbca753db44ec868535d8dff21",
+      "/home/ayushregmibagale/protac-md/analysis/random_screen/MAPK14_full/pose001/prod_nojump.xtc": "95fee4e0deebba5ddbc4d1872dbfd67e7ed2db4ee81eb422bddfaeb4397207d3",
+      "/home/ayushregmibagale/protac-md/random_screen/MAPK14_full/pose001/structure/complex_protein.pdb": "0a1ac34e5c6cbe57b69513d218ad463e7f2775b74e5f60d1d509c161002244e7",
+      "/home/ayushregmibagale/10PROTAC-MD/prosettac_robust/existing_result_audit/protein_roles_core_complete/per_pose_roles.json": "58424dcef7fab12723789c597fc6e947a5b15ea236843fdeeb7dd5fb262f51b8",
+      "/home/ayushregmibagale/protac-md/reference_structures/e2_c85_ensemble.json": "9dac98e05fdd384bb77fc147e3e61d9de3dcdfe028355d4cccb833d3d9f73f15",
+      "/home/ayushregmibagale/10PROTAC-MD/SJF8240_renanalysis2/native_catalytic_validation_v2/references/8R5H_observed_SY8.npz": "50fecc9fd857e7e145b2ce39b7b75114dfe4eecf42786d8d6706f21ec9fe96af",
+      "/home/ayushregmibagale/10PROTAC-MD/SJF8240_renanalysis2/native_catalytic_validation_v2/references/8RX0_G76_fit75.npz": "3ffbbe8e7ce8ad53a8a9c4f8686facc436dbdb3fef3b932961ed21554fc884d9",
+      "/home/ayushregmibagale/10PROTAC-MD/SJF8240_renanalysis2/native_catalytic_validation_v2/references/8RX0_E2_aligned_SY8.npz": "e367153c7e60e57f6e36458241a94b9f9dcc5c9e0ed8ba30f3235d87ee106389"
+    },
+    "manifest_sha256": "162dbac3890942fa7a397656f4dcd8592ce79577d8cb883ef28a45955930c393",
+    "outputs": {
+      "base_packet.npz": "d116eeeed6d89ec3fd6929eda1f1c203132c7c1fc0f41f8dc287d1c21fe34e87",
+      "native_packet.npz": "dd073969fe17c4724e01589ab44495de8d4b237c56a898a625d1f559206c59ae"
+    }
+  },
+  {
+    "target": "MET",
+    "source_target": "MET",
+    "pose": "pose002",
+    "frames": 201,
+    "lysines": 19,
+    "seconds": 7.901658161019441,
+    "max_contact_replay_error_A": 0.0,
+    "source_sha256": {
+      "/home/ayushregmibagale/10PROTAC-MD/SJF8240_reanalysis/analysis/dynamic/poses/MET/pose002/receipt.json": "2511f0a2e7962d5b66d4882f289f911362d7d9e67940479f5b6f45d7b1e16bee",
+      "/home/ayushregmibagale/protac-md/random_screen/MET/pose002/prod/prod.tpr": "08c2ffc58ce8d38a2a7a36e095fd206e684f48ef4f522e8bf4d528b562132f83",
+      "/home/ayushregmibagale/protac-md/analysis/random_screen/MET/pose002/prod_nojump.xtc": "13697b73025e12bb5ef067001e38b82a6e6d0018a5ae862f05cafb49e1568152",
+      "/home/ayushregmibagale/protac-md/random_screen/MET/pose002/structure/complex_protein.pdb": "25602a5efc33bd86cdb4ffc0da3f141eb52cdae593928a53f456c5af3077a341",
+      "/home/ayushregmibagale/10PROTAC-MD/prosettac_robust/existing_result_audit/protein_roles_core_complete/per_pose_roles.json": "58424dcef7fab12723789c597fc6e947a5b15ea236843fdeeb7dd5fb262f51b8",
+      "/home/ayushregmibagale/protac-md/reference_structures/e2_c85_ensemble.json": "9dac98e05fdd384bb77fc147e3e61d9de3dcdfe028355d4cccb833d3d9f73f15",
+      "/home/ayushregmibagale/10PROTAC-MD/SJF8240_renanalysis2/native_catalytic_validation_v2/references/8R5H_observed_SY8.npz": "50fecc9fd857e7e145b2ce39b7b75114dfe4eecf42786d8d6706f21ec9fe96af",
+      "/home/ayushregmibagale/10PROTAC-MD/SJF8240_renanalysis2/native_catalytic_validation_v2/references/8RX0_G76_fit75.npz": "3ffbbe8e7ce8ad53a8a9c4f8686facc436dbdb3fef3b932961ed21554fc884d9",
+      "/home/ayushregmibagale/10PROTAC-MD/SJF8240_renanalysis2/native_catalytic_validation_v2/references/8RX0_E2_aligned_SY8.npz": "e367153c7e60e57f6e36458241a94b9f9dcc5c9e0ed8ba30f3235d87ee106389"
+    },
+    "manifest_sha256": "162dbac3890942fa7a397656f4dcd8592ce79577d8cb883ef28a45955930c393",
+    "outputs": {
+      "base_packet.npz": "2866cc7302089902586814edb4db0282c10429d95d4760429cf8ea2d8d7f59b2",
+      "native_packet.npz": "aefcb5f4bc6917f2018c6a41320cd05c12c9dcf9ddb60d5d6fc3ba537a804e40"
+    }
+  },
+  {
+    "target": "RIPK2_full",
+    "source_target": "RIPK2_full",
+    "pose": "pose001",
+    "frames": 201,
+    "lysines": 13,
+    "seconds": 8.446569173014723,
+    "max_contact_replay_error_A": 0.0,
+    "source_sha256": {
+      "/home/ayushregmibagale/10PROTAC-MD/SJF8240_reanalysis/analysis/dynamic/poses/RIPK2_full/pose001/receipt.json": "02c836119b606dd60b7f29c44b825771f90f95c4b6b2557aeee9e680ecb35114",
+      "/home/ayushregmibagale/protac-md/random_screen/RIPK2_full/pose001/prod/prod.tpr": "f78af8d9bbc5c6fcd1f7e47f85d0b47a08479060a371f0be7e6f020eb39794dc",
+      "/home/ayushregmibagale/protac-md/analysis/random_screen/RIPK2_full/pose001/prod_nojump.xtc": "8a1548ac99a9658ec2b9755917954badce3a06235d6673f5b785240a2e2f2c33",
+      "/home/ayushregmibagale/protac-md/random_screen/RIPK2_full/pose001/structure/complex_protein.pdb": "540f3b070282317b64e2f8c4afbe6e1c4f2cd61d85f1c034f69914e8d916ed0c",
+      "/home/ayushregmibagale/10PROTAC-MD/prosettac_robust/existing_result_audit/protein_roles_core_complete/per_pose_roles.json": "58424dcef7fab12723789c597fc6e947a5b15ea236843fdeeb7dd5fb262f51b8",
+      "/home/ayushregmibagale/protac-md/reference_structures/e2_c85_ensemble.json": "9dac98e05fdd384bb77fc147e3e61d9de3dcdfe028355d4cccb833d3d9f73f15",
+      "/home/ayushregmibagale/10PROTAC-MD/SJF8240_renanalysis2/native_catalytic_validation_v2/references/8R5H_observed_SY8.npz": "50fecc9fd857e7e145b2ce39b7b75114dfe4eecf42786d8d6706f21ec9fe96af",
+      "/home/ayushregmibagale/10PROTAC-MD/SJF8240_renanalysis2/native_catalytic_validation_v2/references/8RX0_G76_fit75.npz": "3ffbbe8e7ce8ad53a8a9c4f8686facc436dbdb3fef3b932961ed21554fc884d9",
+      "/home/ayushregmibagale/10PROTAC-MD/SJF8240_renanalysis2/native_catalytic_validation_v2/references/8RX0_E2_aligned_SY8.npz": "e367153c7e60e57f6e36458241a94b9f9dcc5c9e0ed8ba30f3235d87ee106389"
+    },
+    "manifest_sha256": "162dbac3890942fa7a397656f4dcd8592ce79577d8cb883ef28a45955930c393",
+    "outputs": {
+      "base_packet.npz": "c7c9a4cbac736e86716a0ad533c3c44b72dc5ef7af20a95e45d730a91c2bfe7b",
+      "native_packet.npz": "2dfd57dfd78b927452ec247679bd89ee5af17612a0064cf9d6ea69fbc4dd639a"
+    }
+  }
+]

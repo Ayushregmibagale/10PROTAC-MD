@@ -1,0 +1,25 @@
+{
+  "target": "RPS6KB2_full",
+  "source_target": "RPS6KB2",
+  "pose": "pose018",
+  "frames": 201,
+  "lysines": 17,
+  "seconds": 6.7981927579967305,
+  "max_contact_replay_error_A": 5.8730407674900675e-06,
+  "source_sha256": {
+    "/home/ayushregmibagale/10PROTAC-MD/SJF8240_reanalysis/analysis/dynamic/poses/RPS6KB2/pose018/receipt.json": "8d035d5535d847aacd7b48233b4d73d2046017fe34557fe5ccae5f17b147a5d1",
+    "/home/ayushregmibagale/protac-md/random_screen/RPS6KB2/pose018/prod/prod.tpr": "30edf921a835a1a0efff3160b401d6b9aefc4e46047b746981a79aa68b40e650",
+    "/home/ayushregmibagale/protac-md/random_screen/RPS6KB2/pose018/prod/prod.xtc": "f12f857f5643b88cbb5664dcde19e6a4dff05e0e4be6efa27ee54abbb2fe58ea",
+    "/home/ayushregmibagale/protac-md/random_screen/RPS6KB2/pose018/structure/complex_protein.pdb": "d1f82f904891ed92f86e34e17c0650a2e526de566af34d61947ddc2b2ef7d5c1",
+    "/home/ayushregmibagale/10PROTAC-MD/prosettac_robust/existing_result_audit/prediction_compiled_roles_v3/per_pose_roles.json": "188549eec229ba0e30082e97d271cbc12e84cd4d086e10f8d7ac631f863ef143",
+    "/home/ayushregmibagale/protac-md/reference_structures/e2_c85_ensemble.json": "9dac98e05fdd384bb77fc147e3e61d9de3dcdfe028355d4cccb833d3d9f73f15",
+    "/home/ayushregmibagale/10PROTAC-MD/SJF8240_renanalysis2/native_catalytic_validation_v2/references/8R5H_observed_SY8.npz": "50fecc9fd857e7e145b2ce39b7b75114dfe4eecf42786d8d6706f21ec9fe96af",
+    "/home/ayushregmibagale/10PROTAC-MD/SJF8240_renanalysis2/native_catalytic_validation_v2/references/8RX0_G76_fit75.npz": "3ffbbe8e7ce8ad53a8a9c4f8686facc436dbdb3fef3b932961ed21554fc884d9",
+    "/home/ayushregmibagale/10PROTAC-MD/SJF8240_renanalysis2/native_catalytic_validation_v2/references/8RX0_E2_aligned_SY8.npz": "e367153c7e60e57f6e36458241a94b9f9dcc5c9e0ed8ba30f3235d87ee106389"
+  },
+  "manifest_sha256": "162dbac3890942fa7a397656f4dcd8592ce79577d8cb883ef28a45955930c393",
+  "outputs": {
+    "base_packet.npz": "fe240e4d91155e6185008ff4e0e679acab4211a52822ac1440af7884d36f4a30",
+    "native_packet.npz": "d8ce3313bb60b207ad9352a6fae1974cfccb26dcd8690a1a3d49da749b63f872"
+  }
+}

@@ -1,0 +1,730 @@
+{
+  "status": "PASS",
+  "frozen_models": 120,
+  "prediction_only_scores": 240,
+  "unknown_labels_used": false,
+  "training_run": false,
+  "heldout_reference_replays": [
+    {
+      "seed": 42,
+      "variant": "native_features",
+      "pair": "DDR2__AXL",
+      "heldout_replay_max_error": 0.0
+    },
+    {
+      "seed": 42,
+      "variant": "zero_padded_control",
+      "pair": "DDR2__AXL",
+      "heldout_replay_max_error": 0.0
+    },
+    {
+      "seed": 42,
+      "variant": "zero_padded_control",
+      "pair": "DDR2__ABL1",
+      "heldout_replay_max_error": 0.0
+    },
+    {
+      "seed": 42,
+      "variant": "native_features",
+      "pair": "DDR2__ABL1",
+      "heldout_replay_max_error": 0.0
+    },
+    {
+      "seed": 42,
+      "variant": "zero_padded_control",
+      "pair": "EPHA2__ABL1",
+      "heldout_replay_max_error": 0.0
+    },
+    {
+      "seed": 42,
+      "variant": "zero_padded_control",
+      "pair": "EPHA2__AXL",
+      "heldout_replay_max_error": 0.0
+    },
+    {
+      "seed": 42,
+      "variant": "native_features",
+      "pair": "EPHA2__AXL",
+      "heldout_replay_max_error": 0.0
+    },
+    {
+      "seed": 42,
+      "variant": "native_features",
+      "pair": "EPHA2__ABL1",
+      "heldout_replay_max_error": 0.0
+    },
+    {
+      "seed": 42,
+      "variant": "zero_padded_control",
+      "pair": "EPHB2__ABL1",
+      "heldout_replay_max_error": 0.0
+    },
+    {
+      "seed": 42,
+      "variant": "zero_padded_control",
+      "pair": "EPHB2__AXL",
+      "heldout_replay_max_error": 0.0
+    },
+    {
+      "seed": 42,
+      "variant": "native_features",
+      "pair": "EPHB2__ABL1",
+      "heldout_replay_max_error": 0.0
+    },
+    {
+      "seed": 42,
+      "variant": "native_features",
+      "pair": "EPHB2__AXL",
+      "heldout_replay_max_error": 0.0
+    },
+    {
+      "seed": 42,
+      "variant": "zero_padded_control",
+      "pair": "MAPK14_full__ABL1",
+      "heldout_replay_max_error": 0.0
+    },
+    {
+      "seed": 42,
+      "variant": "zero_padded_control",
+      "pair": "MAPK14_full__AXL",
+      "heldout_replay_max_error": 0.0
+    },
+    {
+      "seed": 42,
+      "variant": "native_features",
+      "pair": "MAPK14_full__ABL1",
+      "heldout_replay_max_error": 0.0
+    },
+    {
+      "seed": 42,
+      "variant": "native_features",
+      "pair": "MAPK14_full__AXL",
+      "heldout_replay_max_error": 0.0
+    },
+    {
+      "seed": 42,
+      "variant": "zero_padded_control",
+      "pair": "MET__AXL",
+      "heldout_replay_max_error": 0.0
+    },
+    {
+      "seed": 42,
+      "variant": "native_features",
+      "pair": "MET__ABL1",
+      "heldout_replay_max_error": 0.0
+    },
+    {
+      "seed": 42,
+      "variant": "zero_padded_control",
+      "pair": "MET__ABL1",
+      "heldout_replay_max_error": 0.0
+    },
+    {
+      "seed": 42,
+      "variant": "native_features",
+      "pair": "MET__AXL",
+      "heldout_replay_max_error": 0.0
+    },
+    {
+      "seed": 42,
+      "variant": "zero_padded_control",
+      "pair": "RIPK2_full__AXL",
+      "heldout_replay_max_error": 0.0
+    },
+    {
+      "seed": 42,
+      "variant": "zero_padded_control",
+      "pair": "RIPK2_full__ABL1",
+      "heldout_replay_max_error": 0.0
+    },
+    {
+      "seed": 42,
+      "variant": "native_features",
+      "pair": "RIPK2_full__ABL1",
+      "heldout_replay_max_error": 0.0
+    },
+    {
+      "seed": 42,
+      "variant": "native_features",
+      "pair": "RIPK2_full__AXL",
+      "heldout_replay_max_error": 0.0
+    },
+    {
+      "seed": 7,
+      "variant": "zero_padded_control",
+      "pair": "DDR2__ABL1",
+      "heldout_replay_max_error": 0.0
+    },
+    {
+      "seed": 7,
+      "variant": "zero_padded_control",
+      "pair": "DDR2__AXL",
+      "heldout_replay_max_error": 0.0
+    },
+    {
+      "seed": 7,
+      "variant": "native_features",
+      "pair": "DDR2__ABL1",
+      "heldout_replay_max_error": 0.0
+    },
+    {
+      "seed": 7,
+      "variant": "native_features",
+      "pair": "DDR2__AXL",
+      "heldout_replay_max_error": 0.0
+    },
+    {
+      "seed": 7,
+      "variant": "zero_padded_control",
+      "pair": "EPHA2__ABL1",
+      "heldout_replay_max_error": 0.0
+    },
+    {
+      "seed": 7,
+      "variant": "native_features",
+      "pair": "EPHA2__ABL1",
+      "heldout_replay_max_error": 0.0
+    },
+    {
+      "seed": 7,
+      "variant": "zero_padded_control",
+      "pair": "EPHA2__AXL",
+      "heldout_replay_max_error": 0.0
+    },
+    {
+      "seed": 7,
+      "variant": "native_features",
+      "pair": "EPHA2__AXL",
+      "heldout_replay_max_error": 0.0
+    },
+    {
+      "seed": 7,
+      "variant": "zero_padded_control",
+      "pair": "EPHB2__ABL1",
+      "heldout_replay_max_error": 0.0
+    },
+    {
+      "seed": 7,
+      "variant": "zero_padded_control",
+      "pair": "EPHB2__AXL",
+      "heldout_replay_max_error": 0.0
+    },
+    {
+      "seed": 7,
+      "variant": "native_features",
+      "pair": "EPHB2__ABL1",
+      "heldout_replay_max_error": 0.0
+    },
+    {
+      "seed": 7,
+      "variant": "native_features",
+      "pair": "EPHB2__AXL",
+      "heldout_replay_max_error": 0.0
+    },
+    {
+      "seed": 7,
+      "variant": "zero_padded_control",
+      "pair": "MAPK14_full__ABL1",
+      "heldout_replay_max_error": 0.0
+    },
+    {
+      "seed": 7,
+      "variant": "zero_padded_control",
+      "pair": "MAPK14_full__AXL",
+      "heldout_replay_max_error": 0.0
+    },
+    {
+      "seed": 7,
+      "variant": "native_features",
+      "pair": "MAPK14_full__ABL1",
+      "heldout_replay_max_error": 0.0
+    },
+    {
+      "seed": 7,
+      "variant": "native_features",
+      "pair": "MAPK14_full__AXL",
+      "heldout_replay_max_error": 0.0
+    },
+    {
+      "seed": 7,
+      "variant": "zero_padded_control",
+      "pair": "MET__ABL1",
+      "heldout_replay_max_error": 0.0
+    },
+    {
+      "seed": 7,
+      "variant": "native_features",
+      "pair": "MET__ABL1",
+      "heldout_replay_max_error": 0.0
+    },
+    {
+      "seed": 7,
+      "variant": "zero_padded_control",
+      "pair": "MET__AXL",
+      "heldout_replay_max_error": 0.0
+    },
+    {
+      "seed": 7,
+      "variant": "native_features",
+      "pair": "MET__AXL",
+      "heldout_replay_max_error": 0.0
+    },
+    {
+      "seed": 7,
+      "variant": "zero_padded_control",
+      "pair": "RIPK2_full__ABL1",
+      "heldout_replay_max_error": 0.0
+    },
+    {
+      "seed": 7,
+      "variant": "zero_padded_control",
+      "pair": "RIPK2_full__AXL",
+      "heldout_replay_max_error": 0.0
+    },
+    {
+      "seed": 7,
+      "variant": "native_features",
+      "pair": "RIPK2_full__ABL1",
+      "heldout_replay_max_error": 0.0
+    },
+    {
+      "seed": 7,
+      "variant": "native_features",
+      "pair": "RIPK2_full__AXL",
+      "heldout_replay_max_error": 0.0
+    },
+    {
+      "seed": 123,
+      "variant": "zero_padded_control",
+      "pair": "DDR2__AXL",
+      "heldout_replay_max_error": 0.0
+    },
+    {
+      "seed": 123,
+      "variant": "zero_padded_control",
+      "pair": "DDR2__ABL1",
+      "heldout_replay_max_error": 0.0
+    },
+    {
+      "seed": 123,
+      "variant": "native_features",
+      "pair": "DDR2__ABL1",
+      "heldout_replay_max_error": 0.0
+    },
+    {
+      "seed": 123,
+      "variant": "native_features",
+      "pair": "DDR2__AXL",
+      "heldout_replay_max_error": 0.0
+    },
+    {
+      "seed": 123,
+      "variant": "zero_padded_control",
+      "pair": "EPHA2__ABL1",
+      "heldout_replay_max_error": 0.0
+    },
+    {
+      "seed": 123,
+      "variant": "native_features",
+      "pair": "EPHA2__ABL1",
+      "heldout_replay_max_error": 0.0
+    },
+    {
+      "seed": 123,
+      "variant": "zero_padded_control",
+      "pair": "EPHA2__AXL",
+      "heldout_replay_max_error": 0.0
+    },
+    {
+      "seed": 123,
+      "variant": "native_features",
+      "pair": "EPHA2__AXL",
+      "heldout_replay_max_error": 0.0
+    },
+    {
+      "seed": 123,
+      "variant": "zero_padded_control",
+      "pair": "EPHB2__ABL1",
+      "heldout_replay_max_error": 0.0
+    },
+    {
+      "seed": 123,
+      "variant": "zero_padded_control",
+      "pair": "EPHB2__AXL",
+      "heldout_replay_max_error": 0.0
+    },
+    {
+      "seed": 123,
+      "variant": "native_features",
+      "pair": "EPHB2__ABL1",
+      "heldout_replay_max_error": 0.0
+    },
+    {
+      "seed": 123,
+      "variant": "native_features",
+      "pair": "EPHB2__AXL",
+      "heldout_replay_max_error": 0.0
+    },
+    {
+      "seed": 123,
+      "variant": "zero_padded_control",
+      "pair": "MAPK14_full__ABL1",
+      "heldout_replay_max_error": 0.0
+    },
+    {
+      "seed": 123,
+      "variant": "zero_padded_control",
+      "pair": "MAPK14_full__AXL",
+      "heldout_replay_max_error": 0.0
+    },
+    {
+      "seed": 123,
+      "variant": "native_features",
+      "pair": "MAPK14_full__ABL1",
+      "heldout_replay_max_error": 0.0
+    },
+    {
+      "seed": 123,
+      "variant": "native_features",
+      "pair": "MAPK14_full__AXL",
+      "heldout_replay_max_error": 0.0
+    },
+    {
+      "seed": 123,
+      "variant": "zero_padded_control",
+      "pair": "MET__ABL1",
+      "heldout_replay_max_error": 0.0
+    },
+    {
+      "seed": 123,
+      "variant": "zero_padded_control",
+      "pair": "MET__AXL",
+      "heldout_replay_max_error": 0.0
+    },
+    {
+      "seed": 123,
+      "variant": "native_features",
+      "pair": "MET__ABL1",
+      "heldout_replay_max_error": 0.0
+    },
+    {
+      "seed": 123,
+      "variant": "native_features",
+      "pair": "MET__AXL",
+      "heldout_replay_max_error": 0.0
+    },
+    {
+      "seed": 123,
+      "variant": "zero_padded_control",
+      "pair": "RIPK2_full__AXL",
+      "heldout_replay_max_error": 0.0
+    },
+    {
+      "seed": 123,
+      "variant": "zero_padded_control",
+      "pair": "RIPK2_full__ABL1",
+      "heldout_replay_max_error": 0.0
+    },
+    {
+      "seed": 123,
+      "variant": "native_features",
+      "pair": "RIPK2_full__ABL1",
+      "heldout_replay_max_error": 0.0
+    },
+    {
+      "seed": 123,
+      "variant": "native_features",
+      "pair": "RIPK2_full__AXL",
+      "heldout_replay_max_error": 0.0
+    },
+    {
+      "seed": 2026,
+      "variant": "zero_padded_control",
+      "pair": "DDR2__ABL1",
+      "heldout_replay_max_error": 0.0
+    },
+    {
+      "seed": 2026,
+      "variant": "native_features",
+      "pair": "DDR2__ABL1",
+      "heldout_replay_max_error": 0.0
+    },
+    {
+      "seed": 2026,
+      "variant": "zero_padded_control",
+      "pair": "DDR2__AXL",
+      "heldout_replay_max_error": 0.0
+    },
+    {
+      "seed": 2026,
+      "variant": "native_features",
+      "pair": "DDR2__AXL",
+      "heldout_replay_max_error": 0.0
+    },
+    {
+      "seed": 2026,
+      "variant": "zero_padded_control",
+      "pair": "EPHA2__ABL1",
+      "heldout_replay_max_error": 0.0
+    },
+    {
+      "seed": 2026,
+      "variant": "native_features",
+      "pair": "EPHA2__ABL1",
+      "heldout_replay_max_error": 0.0
+    },
+    {
+      "seed": 2026,
+      "variant": "zero_padded_control",
+      "pair": "EPHA2__AXL",
+      "heldout_replay_max_error": 0.0
+    },
+    {
+      "seed": 2026,
+      "variant": "native_features",
+      "pair": "EPHA2__AXL",
+      "heldout_replay_max_error": 0.0
+    },
+    {
+      "seed": 2026,
+      "variant": "zero_padded_control",
+      "pair": "EPHB2__AXL",
+      "heldout_replay_max_error": 0.0
+    },
+    {
+      "seed": 2026,
+      "variant": "zero_padded_control",
+      "pair": "EPHB2__ABL1",
+      "heldout_replay_max_error": 0.0
+    },
+    {
+      "seed": 2026,
+      "variant": "native_features",
+      "pair": "EPHB2__ABL1",
+      "heldout_replay_max_error": 0.0
+    },
+    {
+      "seed": 2026,
+      "variant": "native_features",
+      "pair": "EPHB2__AXL",
+      "heldout_replay_max_error": 0.0
+    },
+    {
+      "seed": 2026,
+      "variant": "zero_padded_control",
+      "pair": "MAPK14_full__ABL1",
+      "heldout_replay_max_error": 0.0
+    },
+    {
+      "seed": 2026,
+      "variant": "zero_padded_control",
+      "pair": "MAPK14_full__AXL",
+      "heldout_replay_max_error": 0.0
+    },
+    {
+      "seed": 2026,
+      "variant": "native_features",
+      "pair": "MAPK14_full__ABL1",
+      "heldout_replay_max_error": 0.0
+    },
+    {
+      "seed": 2026,
+      "variant": "native_features",
+      "pair": "MAPK14_full__AXL",
+      "heldout_replay_max_error": 0.0
+    },
+    {
+      "seed": 2026,
+      "variant": "zero_padded_control",
+      "pair": "MET__AXL",
+      "heldout_replay_max_error": 0.0
+    },
+    {
+      "seed": 2026,
+      "variant": "native_features",
+      "pair": "MET__ABL1",
+      "heldout_replay_max_error": 0.0
+    },
+    {
+      "seed": 2026,
+      "variant": "zero_padded_control",
+      "pair": "MET__ABL1",
+      "heldout_replay_max_error": 0.0
+    },
+    {
+      "seed": 2026,
+      "variant": "native_features",
+      "pair": "MET__AXL",
+      "heldout_replay_max_error": 0.0
+    },
+    {
+      "seed": 2026,
+      "variant": "zero_padded_control",
+      "pair": "RIPK2_full__ABL1",
+      "heldout_replay_max_error": 0.0
+    },
+    {
+      "seed": 2026,
+      "variant": "native_features",
+      "pair": "RIPK2_full__ABL1",
+      "heldout_replay_max_error": 0.0
+    },
+    {
+      "seed": 2026,
+      "variant": "zero_padded_control",
+      "pair": "RIPK2_full__AXL",
+      "heldout_replay_max_error": 0.0
+    },
+    {
+      "seed": 2026,
+      "variant": "native_features",
+      "pair": "RIPK2_full__AXL",
+      "heldout_replay_max_error": 0.0
+    },
+    {
+      "seed": 31415,
+      "variant": "zero_padded_control",
+      "pair": "DDR2__ABL1",
+      "heldout_replay_max_error": 0.0
+    },
+    {
+      "seed": 31415,
+      "variant": "native_features",
+      "pair": "DDR2__ABL1",
+      "heldout_replay_max_error": 0.0
+    },
+    {
+      "seed": 31415,
+      "variant": "zero_padded_control",
+      "pair": "DDR2__AXL",
+      "heldout_replay_max_error": 0.0
+    },
+    {
+      "seed": 31415,
+      "variant": "native_features",
+      "pair": "DDR2__AXL",
+      "heldout_replay_max_error": 0.0
+    },
+    {
+      "seed": 31415,
+      "variant": "zero_padded_control",
+      "pair": "EPHA2__AXL",
+      "heldout_replay_max_error": 0.0
+    },
+    {
+      "seed": 31415,
+      "variant": "zero_padded_control",
+      "pair": "EPHA2__ABL1",
+      "heldout_replay_max_error": 0.0
+    },
+    {
+      "seed": 31415,
+      "variant": "native_features",
+      "pair": "EPHA2__ABL1",
+      "heldout_replay_max_error": 0.0
+    },
+    {
+      "seed": 31415,
+      "variant": "native_features",
+      "pair": "EPHA2__AXL",
+      "heldout_replay_max_error": 0.0
+    },
+    {
+      "seed": 31415,
+      "variant": "zero_padded_control",
+      "pair": "EPHB2__AXL",
+      "heldout_replay_max_error": 0.0
+    },
+    {
+      "seed": 31415,
+      "variant": "native_features",
+      "pair": "EPHB2__ABL1",
+      "heldout_replay_max_error": 0.0
+    },
+    {
+      "seed": 31415,
+      "variant": "zero_padded_control",
+      "pair": "EPHB2__ABL1",
+      "heldout_replay_max_error": 0.0
+    },
+    {
+      "seed": 31415,
+      "variant": "native_features",
+      "pair": "EPHB2__AXL",
+      "heldout_replay_max_error": 0.0
+    },
+    {
+      "seed": 31415,
+      "variant": "zero_padded_control",
+      "pair": "MAPK14_full__ABL1",
+      "heldout_replay_max_error": 0.0
+    },
+    {
+      "seed": 31415,
+      "variant": "native_features",
+      "pair": "MAPK14_full__ABL1",
+      "heldout_replay_max_error": 0.0
+    },
+    {
+      "seed": 31415,
+      "variant": "zero_padded_control",
+      "pair": "MAPK14_full__AXL",
+      "heldout_replay_max_error": 0.0
+    },
+    {
+      "seed": 31415,
+      "variant": "native_features",
+      "pair": "MAPK14_full__AXL",
+      "heldout_replay_max_error": 0.0
+    },
+    {
+      "seed": 31415,
+      "variant": "zero_padded_control",
+      "pair": "MET__AXL",
+      "heldout_replay_max_error": 0.0
+    },
+    {
+      "seed": 31415,
+      "variant": "zero_padded_control",
+      "pair": "MET__ABL1",
+      "heldout_replay_max_error": 0.0
+    },
+    {
+      "seed": 31415,
+      "variant": "native_features",
+      "pair": "MET__ABL1",
+      "heldout_replay_max_error": 0.0
+    },
+    {
+      "seed": 31415,
+      "variant": "native_features",
+      "pair": "MET__AXL",
+      "heldout_replay_max_error": 0.0
+    },
+    {
+      "seed": 31415,
+      "variant": "zero_padded_control",
+      "pair": "RIPK2_full__AXL",
+      "heldout_replay_max_error": 0.0
+    },
+    {
+      "seed": 31415,
+      "variant": "native_features",
+      "pair": "RIPK2_full__AXL",
+      "heldout_replay_max_error": 0.0
+    },
+    {
+      "seed": 31415,
+      "variant": "zero_padded_control",
+      "pair": "RIPK2_full__ABL1",
+      "heldout_replay_max_error": 0.0
+    },
+    {
+      "seed": 31415,
+      "variant": "native_features",
+      "pair": "RIPK2_full__ABL1",
+      "heldout_replay_max_error": 0.0
+    }
+  ],
+  "maximum_unknown_replay_error": 0.0
+}

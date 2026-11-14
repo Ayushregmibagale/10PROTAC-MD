@@ -1,0 +1,20 @@
+{
+  "status": "COMPLETE",
+  "known_targets": 8,
+  "unknown_targets": 2,
+  "retained_poses": 174,
+  "frames_per_pose": 201,
+  "unknown_input_graphs": 4,
+  "frozen_models": 120,
+  "new_training": false,
+  "unknown_scores": 240,
+  "unknown_labels_used": false,
+  "EPHA2_label": 1,
+  "archived_target_score_max_error": 0.0,
+  "historical_corrected_positive_delta_fraction_max_error": 0.0,
+  "feature_matching": "PASS",
+  "independent_geometry": "PASS",
+  "CPU_replay": "PASS",
+  "residue_numbering": "PASS",
+  "physical_catalysis_validated": false
+}

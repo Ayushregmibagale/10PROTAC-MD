@@ -1,0 +1,172 @@
+{
+  "status": "PASS",
+  "preselected_targets": [
+    "ABL1",
+    "AXL",
+    "SIK3_full",
+    "RPS6KB2_full"
+  ],
+  "selection": "first lexicographic retained pose,frames0,100,200;no score-based selection",
+  "frame_checks": [
+    {
+      "target": "ABL1",
+      "pose": "pose001",
+      "frame": 0,
+      "NZ_distance_max_error_A": 3.643137418407605e-06,
+      "scaffold_overlap_error_A": 0.0,
+      "exposure_max_error": 1.390775045129189e-08,
+      "SVD_fit_RMSD_A": 0.9557631743864976,
+      "protein_reconstruction": "MDAnalysis unwrap",
+      "fit": "Bio.SVDSuperimposer",
+      "distance": "scipy.cdist"
+    },
+    {
+      "target": "ABL1",
+      "pose": "pose001",
+      "frame": 100,
+      "NZ_distance_max_error_A": 2.982127270456658e-06,
+      "scaffold_overlap_error_A": 0.0,
+      "exposure_max_error": 1.4570024298166118e-08,
+      "SVD_fit_RMSD_A": 1.8663622257993964,
+      "protein_reconstruction": "MDAnalysis unwrap",
+      "fit": "Bio.SVDSuperimposer",
+      "distance": "scipy.cdist"
+    },
+    {
+      "target": "ABL1",
+      "pose": "pose001",
+      "frame": 200,
+      "NZ_distance_max_error_A": 2.257064465993608e-06,
+      "scaffold_overlap_error_A": 0.0,
+      "exposure_max_error": 1.4570024298166118e-08,
+      "SVD_fit_RMSD_A": 2.0582627105992732,
+      "protein_reconstruction": "MDAnalysis unwrap",
+      "fit": "Bio.SVDSuperimposer",
+      "distance": "scipy.cdist"
+    },
+    {
+      "target": "AXL",
+      "pose": "pose001",
+      "frame": 0,
+      "NZ_distance_max_error_A": 3.3725483774560416e-06,
+      "scaffold_overlap_error_A": 0.0,
+      "exposure_max_error": 2.781550090258378e-08,
+      "SVD_fit_RMSD_A": 0.9890470643452763,
+      "protein_reconstruction": "MDAnalysis unwrap",
+      "fit": "Bio.SVDSuperimposer",
+      "distance": "scipy.cdist"
+    },
+    {
+      "target": "AXL",
+      "pose": "pose001",
+      "frame": 100,
+      "NZ_distance_max_error_A": 3.5604137025302407e-06,
+      "scaffold_overlap_error_A": 0.0,
+      "exposure_max_error": 1.4570024298166118e-08,
+      "SVD_fit_RMSD_A": 2.533520000519953,
+      "protein_reconstruction": "MDAnalysis unwrap",
+      "fit": "Bio.SVDSuperimposer",
+      "distance": "scipy.cdist"
+    },
+    {
+      "target": "AXL",
+      "pose": "pose001",
+      "frame": 200,
+      "NZ_distance_max_error_A": 3.2203505639927243e-06,
+      "scaffold_overlap_error_A": 0.0,
+      "exposure_max_error": 1.5894571991914574e-08,
+      "SVD_fit_RMSD_A": 2.217154167838347,
+      "protein_reconstruction": "MDAnalysis unwrap",
+      "fit": "Bio.SVDSuperimposer",
+      "distance": "scipy.cdist"
+    },
+    {
+      "target": "SIK3_full",
+      "pose": "pose002",
+      "frame": 0,
+      "NZ_distance_max_error_A": 2.6460904649638906e-06,
+      "scaffold_overlap_error_A": 0.0,
+      "exposure_max_error": 1.5894571991914574e-08,
+      "SVD_fit_RMSD_A": 0.9017073034871144,
+      "protein_reconstruction": "MDAnalysis unwrap",
+      "fit": "Bio.SVDSuperimposer",
+      "distance": "scipy.cdist"
+    },
+    {
+      "target": "SIK3_full",
+      "pose": "pose002",
+      "frame": 100,
+      "NZ_distance_max_error_A": 3.7569815418692087e-06,
+      "scaffold_overlap_error_A": 0.0,
+      "exposure_max_error": 2.9140048596332235e-08,
+      "SVD_fit_RMSD_A": 2.4603829334977823,
+      "protein_reconstruction": "MDAnalysis unwrap",
+      "fit": "Bio.SVDSuperimposer",
+      "distance": "scipy.cdist"
+    },
+    {
+      "target": "SIK3_full",
+      "pose": "pose002",
+      "frame": 200,
+      "NZ_distance_max_error_A": 7.39718440456727e-06,
+      "scaffold_overlap_error_A": 0.0,
+      "exposure_max_error": 2.9140048596332235e-08,
+      "SVD_fit_RMSD_A": 2.8407744836898177,
+      "protein_reconstruction": "MDAnalysis unwrap",
+      "fit": "Bio.SVDSuperimposer",
+      "distance": "scipy.cdist"
+    },
+    {
+      "target": "RPS6KB2_full",
+      "pose": "pose001",
+      "frame": 0,
+      "NZ_distance_max_error_A": 2.6882036934239295e-06,
+      "scaffold_overlap_error_A": 0.0,
+      "exposure_max_error": 2.781550090258378e-08,
+      "SVD_fit_RMSD_A": 0.8986879713156137,
+      "protein_reconstruction": "MDAnalysis unwrap",
+      "fit": "Bio.SVDSuperimposer",
+      "distance": "scipy.cdist"
+    },
+    {
+      "target": "RPS6KB2_full",
+      "pose": "pose001",
+      "frame": 100,
+      "NZ_distance_max_error_A": 2.6884497543733232e-06,
+      "scaffold_overlap_error_A": 0.0,
+      "exposure_max_error": 1.4570024298166118e-08,
+      "SVD_fit_RMSD_A": 1.9179704516567022,
+      "protein_reconstruction": "MDAnalysis unwrap",
+      "fit": "Bio.SVDSuperimposer",
+      "distance": "scipy.cdist"
+    },
+    {
+      "target": "RPS6KB2_full",
+      "pose": "pose001",
+      "frame": 200,
+      "NZ_distance_max_error_A": 3.116279188475346e-06,
+      "scaffold_overlap_error_A": 0.0,
+      "exposure_max_error": 1.5894571991914574e-08,
+      "SVD_fit_RMSD_A": 2.9180510167710794,
+      "protein_reconstruction": "MDAnalysis unwrap",
+      "fit": "Bio.SVDSuperimposer",
+      "distance": "scipy.cdist"
+    }
+  ],
+  "graph_checks": [
+    {
+      "target": "SIK3_full",
+      "windows": 4,
+      "matching_29_features_and_edges": true,
+      "native_addition_only_on_POI_lysines": true
+    },
+    {
+      "target": "RPS6KB2_full",
+      "windows": 4,
+      "matching_29_features_and_edges": true,
+      "native_addition_only_on_POI_lysines": true
+    }
+  ],
+  "shared_imaging_convention": true,
+  "physical_catalysis_validated": false
+}

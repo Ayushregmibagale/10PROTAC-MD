@@ -1,0 +1,11 @@
+target	modeled_lysines	lysines_with_defined_delta	positive_delta_fraction	median_delta
+ABL1	18	18	0.0	0.0
+AXL	16	16	0.0625	0.0
+DDR2	14	14	0.0	0.0
+EPHA2	20	20	0.0	0.0
+EPHB2	13	13	0.15384615384615385	0.0
+MAPK14_full	19	19	0.15789473684210525	0.0
+MET	19	19	0.0	0.0
+RIPK2_full	13	13	0.07692307692307693	0.0
+RPS6KB2_full	17	17	0.0	0.0
+SIK3_full	20	20	0.1	0.0

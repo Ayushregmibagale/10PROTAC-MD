@@ -1,0 +1,25 @@
+{
+  "target": "RPS6KB2_full",
+  "source_target": "RPS6KB2",
+  "pose": "pose011",
+  "frames": 201,
+  "lysines": 17,
+  "seconds": 7.070448557031341,
+  "max_contact_replay_error_A": 0.0,
+  "source_sha256": {
+    "/home/ayushregmibagale/10PROTAC-MD/SJF8240_reanalysis/analysis/dynamic/poses/RPS6KB2/pose011/receipt.json": "fdb066f290e0798fd292163c9f74f257aeaeac81c4d2790230b662879964be0c",
+    "/home/ayushregmibagale/protac-md/random_screen/RPS6KB2/pose011/prod/prod.tpr": "a2fefc857cc963e2b58e599043902b5d59c4cce11483762e80cf9ab2a8ade900",
+    "/home/ayushregmibagale/protac-md/random_screen/RPS6KB2/pose011/prod/prod.xtc": "f7ffd11babe5978493117ee55ea6d124718264cbb454b65b6e7eadca215f5404",
+    "/home/ayushregmibagale/protac-md/random_screen/RPS6KB2/pose011/structure/complex_protein.pdb": "1025d6bb472588dba441e32a848138a560dac58a41b021ff7aebca9f6e8a44fd",
+    "/home/ayushregmibagale/10PROTAC-MD/prosettac_robust/existing_result_audit/prediction_compiled_roles_v3/per_pose_roles.json": "188549eec229ba0e30082e97d271cbc12e84cd4d086e10f8d7ac631f863ef143",
+    "/home/ayushregmibagale/protac-md/reference_structures/e2_c85_ensemble.json": "9dac98e05fdd384bb77fc147e3e61d9de3dcdfe028355d4cccb833d3d9f73f15",
+    "/home/ayushregmibagale/10PROTAC-MD/SJF8240_renanalysis2/native_catalytic_validation_v2/references/8R5H_observed_SY8.npz": "50fecc9fd857e7e145b2ce39b7b75114dfe4eecf42786d8d6706f21ec9fe96af",
+    "/home/ayushregmibagale/10PROTAC-MD/SJF8240_renanalysis2/native_catalytic_validation_v2/references/8RX0_G76_fit75.npz": "3ffbbe8e7ce8ad53a8a9c4f8686facc436dbdb3fef3b932961ed21554fc884d9",
+    "/home/ayushregmibagale/10PROTAC-MD/SJF8240_renanalysis2/native_catalytic_validation_v2/references/8RX0_E2_aligned_SY8.npz": "e367153c7e60e57f6e36458241a94b9f9dcc5c9e0ed8ba30f3235d87ee106389"
+  },
+  "manifest_sha256": "162dbac3890942fa7a397656f4dcd8592ce79577d8cb883ef28a45955930c393",
+  "outputs": {
+    "base_packet.npz": "26b5329fef97410879f550c88b35641e44cad503c893b243977ca957a934eee4",
+    "native_packet.npz": "a15ad250695277083067b0954b01012b063eb7b6562fba138f01a915473ce67f"
+  }
+}

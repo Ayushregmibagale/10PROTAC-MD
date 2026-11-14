@@ -1,0 +1,11 @@
+{
+  "/mnt/c/Users/Ayush Regmi Bagale/SJF8240_ten_target_mechanistic_v1/01_extract_matching_inputs.py": "57cc2f311e7f01e6e40714caded71e8bc797de0426e8dfa2305f292366f1c04c",
+  "/mnt/c/Users/Ayush Regmi Bagale/SJF8240_ten_target_mechanistic_v1/source_snapshots/lysine_extractor.py": "f39a165933c7fbf0b96c3d36691a106e872f60f9af951546f5e37f01c3cb2111",
+  "/mnt/c/Users/Ayush Regmi Bagale/SJF8240_ten_target_mechanistic_v1/source_snapshots/native_extractor.py": "50db7b0290da1c4b2b885b5fed4a19f42fb40edc8f5854e1e71bdbdf49e1ae5f",
+  "/mnt/c/Users/Ayush Regmi Bagale/SJF8240_ten_target_mechanistic_v1/lib/coherent_images.py": "ef8e7a36e38d337ded98d78bd3ab3b98d2a315e0d89742cb94791348938d4888",
+  "/mnt/c/Users/Ayush Regmi Bagale/SJF8240_ten_target_mechanistic_v1/lib/e2_geometry.py": "7deee629aae416fad2916e64a75df0e822ffdcac9d09da10cc349040be23c70d",
+  "/mnt/c/Users/Ayush Regmi Bagale/SJF8240_ten_target_mechanistic_v1/lib/protac_qc.py": "b7faca900f0a3c441f3d7fccb9835e7ae138f1198f480101145b9e6363ccf632",
+  "/mnt/c/Users/Ayush Regmi Bagale/SJF8240_ten_target_mechanistic_v1/lib/read_only_trajectory.py": "231645da4027fd0f9e7e2ad49e7f5d942a12e768a5e1995b58a88fd505e55edb",
+  "/mnt/c/Users/Ayush Regmi Bagale/SJF8240_ten_target_mechanistic_v1/lib/runtime.py": "536c7fb8f0cc8305e07e2392fdaff9119f8873075b00cd4938d911cdacbaf936",
+  "/mnt/c/Users/Ayush Regmi Bagale/SJF8240_ten_target_mechanistic_v1/lib/temporal_model.py": "489fa23c6f22228ffab5be9ea59e7cf3a129027b9f89acc9d55469877c2f3130"
+}
