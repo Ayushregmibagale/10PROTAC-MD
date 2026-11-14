@@ -1,0 +1,51 @@
+{
+  "scope": "Bounded original-top10 local geometry repair, 198 rebuilt VHL reference heads and 198 tested kinase-head transfers; no production docking, new MD, GNN fitting or historical chemistry replacement.",
+  "preserve": "All original PDBs, MD, labels and previous results unchanged. Local derivatives only.",
+  "local_repair_stages": [
+    {
+      "stage": 1,
+      "MMFF": "MMFF94s",
+      "soft_overlap_penalty_kcal_per_mol_A2": 100,
+      "allowed_overlap_nonpolar_A": 0.4,
+      "allowed_overlap_N_O_pair_A": 0.6,
+      "internal_allowed_overlap_A": 0.6
+    },
+    {
+      "stage": 2,
+      "MMFF": "MMFF94s",
+      "soft_overlap_penalty_kcal_per_mol_A2": 1000,
+      "allowed_overlap_nonpolar_A": 0.3,
+      "allowed_overlap_N_O_pair_A": 0.4,
+      "internal_allowed_overlap_A": 0.3
+    }
+  ],
+  "restraint_energy_kcal_per_mol_A2": {
+    "chemical_head_heavy_atoms": 5,
+    "linker_heavy_atoms": 0.5
+  },
+  "maximum_coordinate_displacement_per_axis_A": 3,
+  "random_seed": 42,
+  "starts_per_stage": 2,
+  "iterations_per_start": 1200,
+  "evaluation": {
+    "maximum_ligand_external_overlap_A": 0.6,
+    "maximum_internal_nonbonded_overlap_A": 0.6,
+    "maximum_fixed_E3_POI_overlap_A": 0.6,
+    "bond_range_A": [
+      1.0,
+      2.1
+    ],
+    "minimum_each_correct_head_atoms_in_contact": 3,
+    "contact_cutoffs_A": [
+      4,
+      4.5,
+      5
+    ],
+    "optimizer_convergence_required": true,
+    "same_actual_archived_graph_and_3D_stereo_required": true
+  },
+  "note": "Internal0.6A gate is stricter than earlier0.8A diagnostic. Internal neighbor exclusions are graph distances1 and2. Heavy-atom overlap proxy is not a MolProbity clashscore or binding validation.",
+  "reference_method": "Deposited bound-parent fragments verified through CCD atom IDs, ELOC fitting for VHL; existing sequence/CE pocket coverage/core gates for kinase transfer; none relaxed.",
+  "repair_objective_is_binding_energy": false,
+  "supplier_equivalence_required_for_SJF8240_claim": true
+}

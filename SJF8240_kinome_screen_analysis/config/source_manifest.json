@@ -1,0 +1,6 @@
+{
+  "scripts/rank_poses.py": "ea1c2738e5cd1a8972122ced19cc86448e144e0196a25182a804e0e7a3cc67c2",
+  "scripts/prepare.py": "77209a3c07a2218ed99b46ea5e52bd9981dc808dc80c5e81387e6eba74e7b339",
+  "config/protocol.json": "694baab3557ade106d474706c4efa1ff3492430579119d20ec1bfac0fa8b292b",
+  "config/pools.json": "02de70a20aaee01552b963bb87cf480e79bd9d8fab00525d53c9a4bc5816680e"
+}

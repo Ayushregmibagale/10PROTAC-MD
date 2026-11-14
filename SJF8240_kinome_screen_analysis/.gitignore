@@ -1,0 +1,9 @@
+__pycache__/
+*.pyc
+/results
+/logs
+/validation
+/repair_v3/supplier_reference_candidates/
+/repair_v3/legacy_repairs/
+/repair_v3/stronger_relaxation/legacy_repairs/
+/repair_v3/probe_archive/

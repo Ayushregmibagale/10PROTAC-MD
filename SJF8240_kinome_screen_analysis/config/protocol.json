@@ -1,0 +1,33 @@
+{
+  "compound": "SJF8240",
+  "contact_A": 5.0,
+  "pocket_definition_A": 5.0,
+  "severe_clash_A": 1.5,
+  "min_ligand_contact_atoms": 3,
+  "anchor_rmsd_A": 1.0,
+  "vhl_backbone_rmsd_A": 1.0,
+  "full_e3_reference": "/home/ayushregmibagale/protac-md/random_screen/DDR2/pose001/structure/complex_protein.pdb",
+  "role_reference": "/home/ayushregmibagale/10PROTAC-MD/SJF8240_reanalysis/config/role_reference.json",
+  "kinase_structure_root": "/home/ayushregmibagale/kinome_scan/data/structures",
+  "known_labels": {
+    "P00519": 0,
+    "P30530": 0,
+    "Q16832": 1,
+    "P29317": 1,
+    "P29323": 1,
+    "Q16539": 1,
+    "P08581": 1,
+    "O43353": 1
+  },
+  "ranking": "Eligible dual pocket-proximity, fit and severe-clash screens first; balanced ligand-contact count descending; maximum pocket distance ascending; deterministic path tie-break. No learned degradation probability. Separate all-poses and one-per-kinase lists; prospective list excludes8 current-labelled targets.",
+  "scope": "Only clustered Results/combined*.pdb supplied by available runs. Unclustered Patchdock_Results are not pooled with refined clustered representatives. All incomplete/missing runs recorded; not zeros. Full-VHL rigid reference fit explicitly model-based and not a new docking/MD or proof of productive binding.",
+  "pocket_caveat": "Pocket regions derived from supplied PT0/PT1 reference coordinates; proximity of any PROTAC heavy atom, not atom-mapped verification of the two cognate heads.",
+  "post_score_tuning": false,
+  "new_MD_or_GNN": false,
+  "common_input_sha256": {
+    "/home/ayushregmibagale/protac-md/random_screen/DDR2/pose001/structure/complex_protein.pdb": "78d0cec9100984d373d8c4310a0223f4b2c3728253286e078b8f00fde2969539",
+    "/home/ayushregmibagale/10PROTAC-MD/SJF8240_reanalysis/config/role_reference.json": "bd440f5193ee4fb896d24af249754e4edaa1b2790f46061e17ca7b526991878f",
+    "/home/ayushregmibagale/kinome_scan/data/kinase_list.tsv": "905f186d130407a191a58d9aaa8464fb22602018c094b8ddcec73b2ef0f63d1a",
+    "/home/ayushregmibagale/10PROTAC-MD/SJF8240_reanalysis/config/current_md_labels.json": "5f999e61afba0563f93891b21790359535b9c5e6e707d5721c6fcab22742b34b"
+  }
+}

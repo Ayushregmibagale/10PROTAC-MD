@@ -1,0 +1,7 @@
+{
+  "scripts/verify_and_report.py": "54226cb98d9d3efd1a33922fbdffb2bd74ec207cf2924974bc5eeb532fda2fcf",
+  "scripts/record_identity.py": "b2260709bac2962b8262b61746552c3945bd558dce1ad37a1018bbd8b7a80651",
+  "scripts/repair_legacy_poses.py": "356418e66ca7427a1050113ccaed573c629bdd08cd77addcc0031b6b91e22ada",
+  "scripts/refine_legacy_poses.py": "403216ed37fde7180ebc313a8eacdc901f17853f11d4afa47b021df3ec3b913a",
+  "scripts/rebuild_references.py": "344fb9a21f8c4387f34e74985ca3398bb05469c4a4ddf9c5729641523eda8139"
+}

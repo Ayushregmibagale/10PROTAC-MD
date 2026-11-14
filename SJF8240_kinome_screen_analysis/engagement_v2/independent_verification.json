@@ -1,0 +1,68 @@
+{
+  "status": "PASS",
+  "method": "Independent raw PDB segment parser and direct NumPy broadcasting for previous top10 kinase contacts; explicit linker O11-C16 distance replay; output hashes; overlap formula checks. Not an independent full rescreen or biological validation.",
+  "poses_replayed": [
+    {
+      "gene": "TXK",
+      "ligand_POI_overlap_A": 1.5731562737880478,
+      "O11_C16_distance_A": 2.0318585088534147,
+      "source_sha256": "67af71bfd75c5b474356ea5662171aa623d186798c4243e63419f3fbc44c7e32"
+    },
+    {
+      "gene": "MAP3K14",
+      "ligand_POI_overlap_A": 1.651006575198176,
+      "O11_C16_distance_A": 2.0308338189029653,
+      "source_sha256": "275ece07ffd4810a92b1b16dce935ba3a9fb2a79c57e310a907867000c1369f1"
+    },
+    {
+      "gene": "FER",
+      "ligand_POI_overlap_A": 1.5779648741036936,
+      "O11_C16_distance_A": 2.030863117002229,
+      "source_sha256": "3495cb6dd226e75fb9f6bab0ad7836633e9fed7297bfdb53863bab9008ff2c2e"
+    },
+    {
+      "gene": "EPHA1",
+      "ligand_POI_overlap_A": 1.8480654008625237,
+      "O11_C16_distance_A": 2.031433976283754,
+      "source_sha256": "889deb2b7d97b035be557c994af04c71e4024bebf05047ba8fd9228c1dae65a8"
+    },
+    {
+      "gene": "RPS6KB1",
+      "ligand_POI_overlap_A": 1.4949698256634614,
+      "O11_C16_distance_A": 2.03165572870996,
+      "source_sha256": "89814c080e371d3119a3e40124b4fbd70c61b39ab6a60f54330e29ae7a6fc85b"
+    },
+    {
+      "gene": "PDIK1L",
+      "ligand_POI_overlap_A": 1.6981627574882454,
+      "O11_C16_distance_A": 2.03254151249119,
+      "source_sha256": "978533f568e207dc267c4868e388978d4c17bbccca22125ef6528fae9735bf2d"
+    },
+    {
+      "gene": "TGFBR1",
+      "ligand_POI_overlap_A": 1.5838119590747175,
+      "O11_C16_distance_A": 2.0318489117057914,
+      "source_sha256": "f4940bfe1456d72ebd2d23a8db6cb4d8c1bf6ad51477e6f27850d6e4c6e22eae"
+    },
+    {
+      "gene": "MAP3K13",
+      "ligand_POI_overlap_A": 1.1810963088535291,
+      "O11_C16_distance_A": 2.0312550307629946,
+      "source_sha256": "30606e5f7bad2423100e942e702ea00db4acad354326fe6e71025452e1a245f2"
+    },
+    {
+      "gene": "PRKG1",
+      "ligand_POI_overlap_A": 1.7995856786444282,
+      "O11_C16_distance_A": 2.0315572844495366,
+      "source_sha256": "96fdecab39d20d85aae4a53e165e70690668710c6d1bc216b7e1832f760a518c"
+    },
+    {
+      "gene": "PIK3CG",
+      "ligand_POI_overlap_A": 1.6296618966988294,
+      "O11_C16_distance_A": 2.0318550637287136,
+      "source_sha256": "0d0afa0476cafdf953e843685b3592f0e8873d9411781393b7fda1654e89307d"
+    }
+  ],
+  "all_reference_pools_untrusted": 198,
+  "verification_script_sha256": "268807936d3dae8437bb5bf4b0de93557d5404992ce5f05954e25f022aae89f9"
+}

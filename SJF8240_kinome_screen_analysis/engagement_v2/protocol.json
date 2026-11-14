@@ -1,0 +1,35 @@
+{
+  "scope": "All 723 unique original QC-passing poses; compare previous distinct-kinase top10. Not a fresh search of rejected pools or discarded poses.",
+  "cutoffs_A": [
+    4,
+    4.5,
+    5
+  ],
+  "minimum_correct_head_contact_atoms": 3,
+  "heavy_atom_vdw_radii_A": {
+    "C": 1.7,
+    "N": 1.55,
+    "O": 1.52,
+    "F": 1.47,
+    "S": 1.8,
+    "P": 1.8,
+    "CL": 1.75,
+    "BR": 1.85,
+    "I": 1.98
+  },
+  "overlap_thresholds_A": [
+    0.4,
+    0.6,
+    0.8
+  ],
+  "primary_diagnostic": "4A correct-head contacts plus maximum intercomponent heavy-atom overlap <=0.6A; ligand covalent geometry 1.0-2.1A and no internal nonbonded overlaps >0.8A excluding 1-2/1-3 pairs. Operational thresholds, not MolProbity or binding validation.",
+  "reference_policy": "Head chemical mappings must be unique atom sets; invalid reference-head bond lengths prevent validated pocket-engagement/RMSD claims. Correct-head contacts alone do not establish pocket engagement.",
+  "source_sha256": {
+    "original_table": "b8a8c97a19676ccbc228526c905472641531d761f74f939ff7b87988b429ea4e",
+    "full_ligand_params": "8813da26fefee67c00a177101b09c45dbcbc26b1782d43402a5d8115ad9e423a",
+    "script": "f4c9f399c6148d04c87cbba16ad5dba3e657619e12118f0e59a23f0d6835ea06",
+    "static_backend": "ea1c2738e5cd1a8972122ced19cc86448e144e0196a25182a804e0e7a3cc67c2",
+    "config": "694baab3557ade106d474706c4efa1ff3492430579119d20ec1bfac0fa8b292b",
+    "pool_inventory": "02de70a20aaee01552b963bb87cf480e79bd9d8fab00525d53c9a4bc5816680e"
+  }
+}

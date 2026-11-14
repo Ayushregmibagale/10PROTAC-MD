@@ -1,0 +1,18 @@
+{
+  "historical_intended_inchikey": "MCJFROJTDORRBB-ZWUDBOSPSA-N",
+  "historical_graph_inchikey": "MCJFROJTDORRBB-UHFFFAOYSA-N",
+  "supplier_inchikey": "SCUZPTNDZHEHLB-ZWUDBOSPSA-N",
+  "supplier_source": "https://www.rndsystems.com/products/sjf-8240_7266",
+  "same_chemical_graph": false,
+  "supplier_replacement_of_historical_results": false,
+  "scope": "Preserve archived graph and actual3D stereochemistry in ten local diagnostics; supplier-correct head inputs are a separate branch. No new MD or docking.",
+  "geometry_root_cause_evidence": "Historical reference preparation uses ref_mol_3d PDB coordinate indices as if they matched independently parsed reference SMILES indices, then overwrites only MCS atom coordinates. The code itself documents this unverified atom-order assumption. CCD atom IDs in the reviewed reference pipeline remove that assumption. Exact full historical execution provenance is not reconstructed.",
+  "sources_sha256": {
+    "/home/ayushregmibagale/protac/data/structures/PROTAC/SJF8240/SJF8240.smi": "417cd0be95ddeaf0059eaa3c8917aa99cd8d4515da8e484ea549a7ef1ed33670",
+    "/home/ayushregmibagale/kinome_scan/data/kinase_pRosettaC/Q16832/Patchdock_Results/PT_1_14.params": "8813da26fefee67c00a177101b09c45dbcbc26b1782d43402a5d8115ad9e423a",
+    "/home/ayushregmibagale/10PROTAC-MD/prosettac_robust/workflow/config/molecules.json": "fdb6f39a2ebab885a13a3733404af44495f2908ac2a8c60e34b65b1619bfb3b4",
+    "/home/ayushregmibagale/protac/scripts/01_structure_prep/03_place_warhead.py": "e9b88343a4956a2b7d7c9d67198eca0f1b664da61fd7db46a74db5c7b27715af",
+    "/home/ayushregmibagale/10PROTAC-MD/prosettac_robust/workflow/scripts/01_setup/00d_prepare_bound_references.py": "7cea797ec6d83a658c31febd431ee2432d9a701821d28c216fa9d1b3c1fcd199",
+    "/home/ayushregmibagale/10PROTAC-MD/prosettac_robust/workflow/scripts/01_setup/00f_prepare_foretinib_heads.py": "e65e4cb9964bafc898f207f0b5df3d0ecfcd653342eddc9c6573863af7d25be7"
+  }
+}

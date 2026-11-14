@@ -1,0 +1,21 @@
+{
+  "kind": "native_bound_parent_reference_control",
+  "supplier_identity": "SCUZPTNDZHEHLB-ZWUDBOSPSA-N",
+  "VHL_chain": "A",
+  "ELOB_chain": "B",
+  "ELOC_chain": "C",
+  "kinase_chain": "D",
+  "kinase": "MET",
+  "native_ternary": false,
+  "production_ready": false,
+  "note": "Separate bound MET/foretinib and VHL/VH032 references; not a ternary prediction or replacement for historical poses.",
+  "files_sha256": {
+    "full.smi": "16a5725d94f344357d82118aebb0607b5151f9f66e7fc2c5a315cbf277a1f92a",
+    "heads.json": "a5adf12bead2b127361868c2d724bbc62cacb1b932ac4844e5dc9ba3ff7cdc42",
+    "poi_head.sdf": "2c46229bc6f4d46bfd5cd0b8f152ccf0af2af45103aee38d752e3cba67c5ed53",
+    "Protac_params.txt": "8496abbf078d37265efc4cc3d6b9e2497e4282e3b436fa332754500e0c979a15",
+    "protein.pdb": "137ab951490f1a8941917034aae00e1ff7ccbf3f755cd18a1383588e0f334b9e",
+    "proteins.pdb": "315e98cc02f801f52414ef97fb925f3f5c1d20fcfee17f110db42df4965bb1ce",
+    "vhl_head.sdf": "37981dea105e48f8f26c666222ecad4ea8659270b46f0df9789fa49655a4a5d2"
+  }
+}

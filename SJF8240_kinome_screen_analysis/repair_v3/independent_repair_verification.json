@@ -1,0 +1,114 @@
+{
+  "status": "PASS",
+  "checked_legacy_repairs": 10,
+  "VHL_heads_checked": 198,
+  "kinase_alignment_self_control_pocket_RMSD_A": 1.108161069398093e-14,
+  "independent_checks": [
+    {
+      "gene": "TXK",
+      "independent_external_overlap_A": 0.5272414285220486,
+      "independent_internal_overlap_A": 0.362058840266978,
+      "independent_fixed_protein_overlap_A": -0.19245348552453212,
+      "source_pdb_sha256": "67af71bfd75c5b474356ea5662171aa623d186798c4243e63419f3fbc44c7e32",
+      "repaired_sdf_sha256": "16e2153f6f17223524fd510722aeae26dd121af4302027304a1102a0a5ea4a29",
+      "fixed_proteins_verified": true,
+      "gradient_check_max_absolute_error": 9.895319408315117e-08
+    },
+    {
+      "gene": "MAP3K14",
+      "independent_external_overlap_A": 0.40097594304903295,
+      "independent_internal_overlap_A": 0.35705316502359485,
+      "independent_fixed_protein_overlap_A": 0.6262418286581504,
+      "source_pdb_sha256": "275ece07ffd4810a92b1b16dce935ba3a9fb2a79c57e310a907867000c1369f1",
+      "repaired_sdf_sha256": "d4cc4c1ac196c225bb327a34219e92502696d409a11a750d7dffead9d1d5d4d0",
+      "fixed_proteins_verified": true,
+      "gradient_check_max_absolute_error": 2.574754489614861e-07
+    },
+    {
+      "gene": "FER",
+      "independent_external_overlap_A": 0.4323443932158222,
+      "independent_internal_overlap_A": 0.34759841927703716,
+      "independent_fixed_protein_overlap_A": 0.5168372228073226,
+      "source_pdb_sha256": "3495cb6dd226e75fb9f6bab0ad7836633e9fed7297bfdb53863bab9008ff2c2e",
+      "repaired_sdf_sha256": "cc6a9802c21d6b05f2c1fdd1d70bb9f4128dbca76020299d1791f23dbc820a87",
+      "fixed_proteins_verified": true,
+      "gradient_check_max_absolute_error": 3.5192465475120116e-07
+    },
+    {
+      "gene": "EPHA1",
+      "independent_external_overlap_A": 0.4185365984045806,
+      "independent_internal_overlap_A": 0.34950426323850925,
+      "independent_fixed_protein_overlap_A": 0.5134685607252893,
+      "source_pdb_sha256": "889deb2b7d97b035be557c994af04c71e4024bebf05047ba8fd9228c1dae65a8",
+      "repaired_sdf_sha256": "edd9b351f1d4f46833732d468395b75a9ff91e3a357bffa4c76a14cb47beede4",
+      "fixed_proteins_verified": true,
+      "gradient_check_max_absolute_error": 4.5638853407581337e-07
+    },
+    {
+      "gene": "RPS6KB1",
+      "independent_external_overlap_A": 0.404996491559535,
+      "independent_internal_overlap_A": 0.369273940125892,
+      "independent_fixed_protein_overlap_A": 1.1747258012493784,
+      "source_pdb_sha256": "89814c080e371d3119a3e40124b4fbd70c61b39ab6a60f54330e29ae7a6fc85b",
+      "repaired_sdf_sha256": "3b2b1c25f4ce13e52573dc605d1d4a673c9b28aeae3a566bd2bb03584c522d7b",
+      "fixed_proteins_verified": true,
+      "gradient_check_max_absolute_error": 1.642803226786782e-07
+    },
+    {
+      "gene": "PDIK1L",
+      "independent_external_overlap_A": 0.40503942055421227,
+      "independent_internal_overlap_A": 0.34726747650568024,
+      "independent_fixed_protein_overlap_A": 1.0491655982088406,
+      "source_pdb_sha256": "978533f568e207dc267c4868e388978d4c17bbccca22125ef6528fae9735bf2d",
+      "repaired_sdf_sha256": "69f4841a4fe2ab6251f59337320abda5a5a0d3229b41e5d7b13fe4bb038ea248",
+      "fixed_proteins_verified": true,
+      "gradient_check_max_absolute_error": 2.766486772998178e-07
+    },
+    {
+      "gene": "TGFBR1",
+      "independent_external_overlap_A": 0.3811024247252095,
+      "independent_internal_overlap_A": 0.3541715823112992,
+      "independent_fixed_protein_overlap_A": 0.16961906271100657,
+      "source_pdb_sha256": "f4940bfe1456d72ebd2d23a8db6cb4d8c1bf6ad51477e6f27850d6e4c6e22eae",
+      "repaired_sdf_sha256": "220eab13ae88716646f6881960cd5ef711ef2957ad4227a94a787b64b668ce3b",
+      "fixed_proteins_verified": true,
+      "gradient_check_max_absolute_error": 1.0818995122008346e-07
+    },
+    {
+      "gene": "MAP3K13",
+      "independent_external_overlap_A": 0.40361893758600464,
+      "independent_internal_overlap_A": 0.3500006786885965,
+      "independent_fixed_protein_overlap_A": 0.4173954335178789,
+      "source_pdb_sha256": "30606e5f7bad2423100e942e702ea00db4acad354326fe6e71025452e1a245f2",
+      "repaired_sdf_sha256": "516212306e5d49975b7017d0896329808e297abf6e3d16adbeadc766e47649b5",
+      "fixed_proteins_verified": true,
+      "gradient_check_max_absolute_error": 3.1930943578117876e-07
+    },
+    {
+      "gene": "PRKG1",
+      "independent_external_overlap_A": 0.4055503307142079,
+      "independent_internal_overlap_A": 0.35241833907604336,
+      "independent_fixed_protein_overlap_A": 0.25201634427403263,
+      "source_pdb_sha256": "96fdecab39d20d85aae4a53e165e70690668710c6d1bc216b7e1832f760a518c",
+      "repaired_sdf_sha256": "d7a814d7be627bdb156bd6b575d77649702686bee197889ee7061c981d1f288a",
+      "fixed_proteins_verified": true,
+      "gradient_check_max_absolute_error": 1.7785587402840974e-07
+    },
+    {
+      "gene": "PIK3CG",
+      "independent_external_overlap_A": 0.43198592411774106,
+      "independent_internal_overlap_A": 0.3750688850818422,
+      "independent_fixed_protein_overlap_A": 1.3407064318072615,
+      "source_pdb_sha256": "0d0afa0476cafdf953e843685b3592f0e8873d9411781393b7fda1654e89307d",
+      "repaired_sdf_sha256": "571ecfbe5738fad64f645f3057cb2e6ee120007a2ae09828f0987a7f85f5ed21",
+      "fixed_proteins_verified": true,
+      "gradient_check_max_absolute_error": 1.1581573744479101e-07
+    }
+  ],
+  "limitations": "Numeric replay and chemical identity/coordinate checks, not binding/degradation validation. Reuses the reviewed protein-role reconstruction.",
+  "sources_sha256": {
+    "verification_script": "54226cb98d9d3efd1a33922fbdffb2bd74ec207cf2924974bc5eeb532fda2fcf",
+    "repair_script": "403216ed37fde7180ebc313a8eacdc901f17853f11d4afa47b021df3ec3b913a",
+    "reference_script": "344fb9a21f8c4387f34e74985ca3398bb05469c4a4ddf9c5729641523eda8139"
+  }
+}
