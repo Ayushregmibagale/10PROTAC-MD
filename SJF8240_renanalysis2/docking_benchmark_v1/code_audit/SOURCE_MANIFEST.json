@@ -1,0 +1,262 @@
+{
+  "upstream_url": "https://github.com/karanicolaslab/PROTAC_ternary",
+  "upstream_commit": "a174357135d599c7274d24779e0662e15461b0ef",
+  "files": {
+    "upstream_PROTAC_ternary/.gitignore": "96b02e41700cb544f8387d4bd6f41f59a3a0c3f610730c48808ce791d92d9be5",
+    "upstream_PROTAC_ternary/Atom_list_Figure.png": "8d6f2ed0642b50ce7df85139aac0354f11d75f89878cafc25ebfd9c49f01ec2b",
+    "upstream_PROTAC_ternary/ffc_calculator.py": "5440d709ae20864ff237bd0234653c9a0aee8496dae365ebae0e9a499dcc8aa8",
+    "upstream_PROTAC_ternary/LICENSE": "0db5ff6056276416a51e6f7f71a52e3e2b597a95ecec410e4e64e69caab37858",
+    "upstream_PROTAC_ternary/ppi_skeleton_median.py": "afa39cfb5ae70caebcb937295b030cbcd6b6c175b75521d2b11b2146234fef45",
+    "upstream_PROTAC_ternary/ppi_ternary_scores.py": "7e5d0f0ea3d2e45bac406985d6c5941cdf56edb76e1e2c859f691ab84f8b6812",
+    "upstream_PROTAC_ternary/README.md": "8f5d55e1bbfd916be9a3f85c6b56d47f4fac45ebeb0f3690d8f78ef1f218454f",
+    "upstream_PROTAC_ternary/ternary_model_prediction.py": "07c7aafd46c7b96389c901359f444acc37c23e3c9d95dcaf416bcd470658d918",
+    "upstream_PROTAC_ternary/Example1_ternary_model_prediction/decoy_atom_list.txt": "ec5f395067bf8db4de22d5e4c09c676e8c7ee4148bf12e97a504ffb5724e6070",
+    "upstream_PROTAC_ternary/Example1_ternary_model_prediction/decoy_atom_list_delete.txt": "07939eab556fdb6b076516502b30cff004bebd13d9d34135c76cd74806cf7835",
+    "upstream_PROTAC_ternary/Example1_ternary_model_prediction/docking_decoy.pdb": "ec34168089f1b6ea6d8e2c162391742af6943cce35c5c83804450709130ecf7c",
+    "upstream_PROTAC_ternary/Example1_ternary_model_prediction/linker_atom_list.txt": "47f02a484e1c7025bed7d6b907e8ffe4c5640539f4c1c586fd1bf06add874879",
+    "upstream_PROTAC_ternary/Example1_ternary_model_prediction/linker_atom_list_delete.txt": "08463debdc131c1f726616fc58ea3b20ace48e9c8f33cf55228f15ae5a6b0383",
+    "upstream_PROTAC_ternary/Example1_ternary_model_prediction/linker_conformer.pdb": "f36b23a44e18f8b382e8f23bc2d16c9f13a84e9a80ac7f9154a503ead98f1f18",
+    "upstream_PROTAC_ternary/Example1_ternary_model_prediction/ternary1.pdb": "1cba6a445e5b1a73a8c429483b2b83a873a675ff1a097b96d0b573259a123678",
+    "upstream_PROTAC_ternary/Example2_ternary_model_prediction/decoy_atom_list.txt": "6240268a23f2ccd35c57e86513372df214995b93f974d4fc842b3a8beb2ca271",
+    "upstream_PROTAC_ternary/Example2_ternary_model_prediction/decoy_atom_list_delete.txt": "fa734e2dd9e1fdf897e6629eb21cd53e93e59bea3bbd9859683022d5f635ec91",
+    "upstream_PROTAC_ternary/Example2_ternary_model_prediction/docking_decoy.pdb": "ec34168089f1b6ea6d8e2c162391742af6943cce35c5c83804450709130ecf7c",
+    "upstream_PROTAC_ternary/Example2_ternary_model_prediction/linker_atom_list.txt": "47f02a484e1c7025bed7d6b907e8ffe4c5640539f4c1c586fd1bf06add874879",
+    "upstream_PROTAC_ternary/Example2_ternary_model_prediction/linker_atom_list_delete.txt": "08463debdc131c1f726616fc58ea3b20ace48e9c8f33cf55228f15ae5a6b0383",
+    "upstream_PROTAC_ternary/Example2_ternary_model_prediction/linker_conformer.pdb": "f36b23a44e18f8b382e8f23bc2d16c9f13a84e9a80ac7f9154a503ead98f1f18",
+    "upstream_PROTAC_ternary/Example2_ternary_model_prediction/rmsd.txt": "cf4e00e19c0148ed4d4ced99b726afad370a39e516fc2e9339bbf651af3b1c28",
+    "upstream_PROTAC_ternary/Example2_ternary_model_prediction/ternary0.pdb": "1cba6a445e5b1a73a8c429483b2b83a873a675ff1a097b96d0b573259a123678",
+    "upstream_PROTAC_ternary/PROTAC_ternary/PDBContainer.py": "2c7385b34dfd03a6aab116a653d882a3af06b45224ea661ea1d850d799966efb",
+    "upstream_PROTAC_ternary/PROTAC_ternary/TernaryModel.py": "065d2358206218fe85cfd9e58f37dea414114511f3dc0540095917772b9c915e",
+    "upstream_PROTAC_ternary/PROTAC_ternary/Utils.py": "134410a008b83cebd527a91162839f583895de75450d3108738c2006612d0940",
+    "upstream_PROTAC_ternary/PROTAC_ternary/__init__.py": "81564aec311ba4cc08e155d469dd44d3c81b374a53defb4b404767f4fbc0eef0",
+    "upstream_PROTAC_ternary/Ternary_modifier/ternary_modify.py": "2d06920352d4e2259bbef53c6575b5c290b2ef0b9497d067c9a5ed9155271358",
+    "upstream_PROTAC_ternary/Ternary_modifier/Util_min.py": "25f2f8b8dd9b88f47527a9f5c658c83a6bb976e0cacace9c9488123da67cd6ea",
+    "/home/ayushregmibagale/10PROTAC-MD/prosettac_robust/workflow/baseline_engine/runtime/adapter/pyrosetta_adapter.py": "803c2e9f0ba772e44cdba89579700906e918b2f54a2bd87e2ef8e69c543ce0b7",
+    "/home/ayushregmibagale/10PROTAC-MD/prosettac_robust/workflow/baseline_engine/runtime/adapter/run_docking.py": "eb03b7598b4ae8d645395fafd9be01f993daa7529a5cb93536a80701afb3d1e6",
+    "/home/ayushregmibagale/10PROTAC-MD/prosettac_robust/workflow/baseline_engine/runtime/PRosettaC/main.py": "4a64b8a2092fb00df1393009fabb41e020991a75cd493628487ef1486875cba7",
+    "/home/ayushregmibagale/10PROTAC-MD/prosettac_robust/workflow/baseline_engine/constrained_linker.py": "40279b507ff8a2818f132b83f5635e0a67eabe86eb6947369f035316f0f92034",
+    "/home/ayushregmibagale/10PROTAC-MD/prosettac_robust/workflow/baseline_engine/official_parameters.py": "3906c884a426c023ea8af4d87540a94065c0f462dc0d21652e205d080008c157",
+    "/home/ayushregmibagale/10PROTAC-MD/prosettac_robust/workflow/baseline_engine/clustering.py": "8867ea7f9b95a746b1e29d08351670c883735d4fe801c6d4ff600de7f9732985",
+    "/home/ayushregmibagale/10PROTAC-MD/prosettac_robust/workflow/baseline_engine/run.py": "f8ea591e165200a3b3b2aa36fe6476646c251c680c3ea6eacae96c317d3d7737",
+    "/home/ayushregmibagale/10PROTAC-MD/prosettac_robust/workflow/baseline_engine/execute.py": "bd22c5728c39b8a7138ea78e9fdf0f54ab7d7af346ae876c879dd24d7ed00140",
+    "/home/ayushregmibagale/10PROTAC-MD/prosettac_robust/workflow/baseline_engine/audit_outputs.py": "e2d51ee10894c2d8bcbfaab362dfd95a546d280dd6589d5ec84138d8b625b0f2"
+  },
+  "historical_counts": [
+    {
+      "target": "ABL1",
+      "accession": "P00519",
+      "reported_local_docking_solutions": 4080,
+      "reported_final_models": 2500,
+      "reported_top_models_clustered": 200,
+      "reported_clusters": 21,
+      "summary_sha256": "a6a22ca3b415f8ad04ff8f96019af27baf8cd539f0b96348e432442de6a01639",
+      "source": "/mnt/d/kinome_results/P00519/result_summary.txt",
+      "unique_local_pose_count_independently_verified": false,
+      "raw_Patchdock_Results_present": false
+    },
+    {
+      "target": "AXL",
+      "accession": "P30530",
+      "reported_local_docking_solutions": 2500,
+      "reported_final_models": 2500,
+      "reported_top_models_clustered": 200,
+      "reported_clusters": 18,
+      "summary_sha256": "fe62b06086a697ae9e6fb2bd981ea6e75b6aa20958b72347f3fc3412e35a5952",
+      "source": "/mnt/d/kinome_results/P30530/result_summary.txt",
+      "unique_local_pose_count_independently_verified": false,
+      "raw_Patchdock_Results_present": false
+    },
+    {
+      "target": "DDR2",
+      "accession": "Q16832",
+      "reported_local_docking_solutions": 2500,
+      "reported_final_models": 2500,
+      "reported_top_models_clustered": 200,
+      "reported_clusters": 12,
+      "summary_sha256": "0fc63d96855574bd2abb2fcf89bdfe96df7a82d3a8133f001f01820b0fc6c93e",
+      "source": "/mnt/d/kinome_results/Q16832/result_summary.txt",
+      "unique_local_pose_count_independently_verified": false,
+      "raw_Patchdock_Results_present": false
+    },
+    {
+      "target": "EPHA2",
+      "accession": "P29317",
+      "reported_local_docking_solutions": 2500,
+      "reported_final_models": 2500,
+      "reported_top_models_clustered": 200,
+      "reported_clusters": 11,
+      "summary_sha256": "d6d046908ff2553a672df2b169ebc8e8313564a0b40e748473a18b92594e58b5",
+      "source": "/mnt/d/kinome_results/P29317/result_summary.txt",
+      "unique_local_pose_count_independently_verified": false,
+      "raw_Patchdock_Results_present": false
+    }
+  ],
+  "budget_comparison": [
+    {
+      "pipeline": "Bai2022_published_schedule",
+      "stage": "initial_global",
+      "attempted_decoys": 20,
+      "carried_forward": 10
+    },
+    {
+      "pipeline": "Bai2022_published_schedule",
+      "stage": "second_global",
+      "attempted_decoys": 10000,
+      "carried_forward": 5000
+    },
+    {
+      "pipeline": "Bai2022_published_schedule",
+      "stage": "cluster_representatives",
+      "attempted_decoys": null,
+      "carried_forward": 200
+    },
+    {
+      "pipeline": "Bai2022_published_schedule",
+      "stage": "local_docking",
+      "attempted_decoys": 200000,
+      "carried_forward": 20000
+    },
+    {
+      "pipeline": "ours_current_wrapper_defaults",
+      "stage": "global_sampling_accepts_requested",
+      "attempted_decoys": null,
+      "carried_forward": 200
+    },
+    {
+      "pipeline": "ours_current_wrapper_defaults",
+      "stage": "local_docking",
+      "attempted_decoys": 10000,
+      "carried_forward": null
+    },
+    {
+      "pipeline": "ours_current_final_clustering",
+      "stage": "final_score_shortlist",
+      "attempted_decoys": null,
+      "carried_forward": 1000
+    },
+    {
+      "pipeline": "ours_current_final_clustering",
+      "stage": "local_score_shortlist",
+      "attempted_decoys": null,
+      "carried_forward": 200
+    }
+  ],
+  "upstream_probes": [
+    {
+      "probe": "example_default",
+      "returncode": 0,
+      "ternary_outputs": 1,
+      "rmsd_text": "/mnt/c/Users/Ayush Regmi Bagale/SJF8240_docking_benchmark_v1/upstream_PROTAC_ternary/Example1_ternary_model_prediction/docking_decoy.pdb /mnt/c/Users/Ayush Regmi Bagale/SJF8240_docking_benchmark_v1/upstream_PROTAC_ternary/Example1_ternary_model_prediction/linker_conformer.pdb 0.2343709872196782\n",
+      "command": [
+        "/home/ayushregmibagale/miniconda3/envs/deepternary/bin/python",
+        "/mnt/c/Users/Ayush Regmi Bagale/SJF8240_docking_benchmark_v1/upstream_PROTAC_ternary/ternary_model_prediction.py",
+        "-d",
+        "/mnt/c/Users/Ayush Regmi Bagale/SJF8240_docking_benchmark_v1/upstream_PROTAC_ternary/Example1_ternary_model_prediction/docking_decoy.pdb",
+        "-l",
+        "/mnt/c/Users/Ayush Regmi Bagale/SJF8240_docking_benchmark_v1/upstream_PROTAC_ternary/Example1_ternary_model_prediction/linker_conformer.pdb",
+        "-da",
+        "/mnt/c/Users/Ayush Regmi Bagale/SJF8240_docking_benchmark_v1/upstream_PROTAC_ternary/Example1_ternary_model_prediction/decoy_atom_list.txt",
+        "-la",
+        "/mnt/c/Users/Ayush Regmi Bagale/SJF8240_docking_benchmark_v1/upstream_PROTAC_ternary/Example1_ternary_model_prediction/linker_atom_list.txt",
+        "-wd",
+        "/mnt/c/Users/Ayush Regmi Bagale/SJF8240_docking_benchmark_v1/upstream_PROTAC_ternary/Example1_ternary_model_prediction/decoy_atom_list_delete.txt",
+        "-ld",
+        "/mnt/c/Users/Ayush Regmi Bagale/SJF8240_docking_benchmark_v1/upstream_PROTAC_ternary/Example1_ternary_model_prediction/linker_atom_list_delete.txt",
+        "-t",
+        "default"
+      ]
+    },
+    {
+      "probe": "negative_cutoff",
+      "returncode": 0,
+      "ternary_outputs": 0,
+      "rmsd_text": "/mnt/c/Users/Ayush Regmi Bagale/SJF8240_docking_benchmark_v1/upstream_PROTAC_ternary/Example1_ternary_model_prediction/docking_decoy.pdb /mnt/c/Users/Ayush Regmi Bagale/SJF8240_docking_benchmark_v1/upstream_PROTAC_ternary/Example1_ternary_model_prediction/linker_conformer.pdb 0.2343709872196782\n",
+      "command": [
+        "/home/ayushregmibagale/miniconda3/envs/deepternary/bin/python",
+        "/mnt/c/Users/Ayush Regmi Bagale/SJF8240_docking_benchmark_v1/upstream_PROTAC_ternary/ternary_model_prediction.py",
+        "-d",
+        "/mnt/c/Users/Ayush Regmi Bagale/SJF8240_docking_benchmark_v1/upstream_PROTAC_ternary/Example1_ternary_model_prediction/docking_decoy.pdb",
+        "-l",
+        "/mnt/c/Users/Ayush Regmi Bagale/SJF8240_docking_benchmark_v1/upstream_PROTAC_ternary/Example1_ternary_model_prediction/linker_conformer.pdb",
+        "-da",
+        "/mnt/c/Users/Ayush Regmi Bagale/SJF8240_docking_benchmark_v1/upstream_PROTAC_ternary/Example1_ternary_model_prediction/decoy_atom_list.txt",
+        "-la",
+        "/mnt/c/Users/Ayush Regmi Bagale/SJF8240_docking_benchmark_v1/upstream_PROTAC_ternary/Example1_ternary_model_prediction/linker_atom_list.txt",
+        "-wd",
+        "/mnt/c/Users/Ayush Regmi Bagale/SJF8240_docking_benchmark_v1/upstream_PROTAC_ternary/Example1_ternary_model_prediction/decoy_atom_list_delete.txt",
+        "-ld",
+        "/mnt/c/Users/Ayush Regmi Bagale/SJF8240_docking_benchmark_v1/upstream_PROTAC_ternary/Example1_ternary_model_prediction/linker_atom_list_delete.txt",
+        "-t",
+        "default",
+        "-c",
+        "-1"
+      ]
+    },
+    {
+      "probe": "nan_cutoff",
+      "returncode": 0,
+      "ternary_outputs": 0,
+      "rmsd_text": "/mnt/c/Users/Ayush Regmi Bagale/SJF8240_docking_benchmark_v1/upstream_PROTAC_ternary/Example1_ternary_model_prediction/docking_decoy.pdb /mnt/c/Users/Ayush Regmi Bagale/SJF8240_docking_benchmark_v1/upstream_PROTAC_ternary/Example1_ternary_model_prediction/linker_conformer.pdb 0.2343709872196782\n",
+      "command": [
+        "/home/ayushregmibagale/miniconda3/envs/deepternary/bin/python",
+        "/mnt/c/Users/Ayush Regmi Bagale/SJF8240_docking_benchmark_v1/upstream_PROTAC_ternary/ternary_model_prediction.py",
+        "-d",
+        "/mnt/c/Users/Ayush Regmi Bagale/SJF8240_docking_benchmark_v1/upstream_PROTAC_ternary/Example1_ternary_model_prediction/docking_decoy.pdb",
+        "-l",
+        "/mnt/c/Users/Ayush Regmi Bagale/SJF8240_docking_benchmark_v1/upstream_PROTAC_ternary/Example1_ternary_model_prediction/linker_conformer.pdb",
+        "-da",
+        "/mnt/c/Users/Ayush Regmi Bagale/SJF8240_docking_benchmark_v1/upstream_PROTAC_ternary/Example1_ternary_model_prediction/decoy_atom_list.txt",
+        "-la",
+        "/mnt/c/Users/Ayush Regmi Bagale/SJF8240_docking_benchmark_v1/upstream_PROTAC_ternary/Example1_ternary_model_prediction/linker_atom_list.txt",
+        "-wd",
+        "/mnt/c/Users/Ayush Regmi Bagale/SJF8240_docking_benchmark_v1/upstream_PROTAC_ternary/Example1_ternary_model_prediction/decoy_atom_list_delete.txt",
+        "-ld",
+        "/mnt/c/Users/Ayush Regmi Bagale/SJF8240_docking_benchmark_v1/upstream_PROTAC_ternary/Example1_ternary_model_prediction/linker_atom_list_delete.txt",
+        "-t",
+        "default",
+        "-c",
+        "nan"
+      ]
+    },
+    {
+      "probe": "zero_alignment_iterations",
+      "returncode": 0,
+      "ternary_outputs": 0,
+      "rmsd_text": "/mnt/c/Users/Ayush Regmi Bagale/SJF8240_docking_benchmark_v1/upstream_PROTAC_ternary/Example1_ternary_model_prediction/docking_decoy.pdb /mnt/c/Users/Ayush Regmi Bagale/SJF8240_docking_benchmark_v1/upstream_PROTAC_ternary/Example1_ternary_model_prediction/linker_conformer.pdb 5.971563678367661\n",
+      "command": [
+        "/home/ayushregmibagale/miniconda3/envs/deepternary/bin/python",
+        "/mnt/c/Users/Ayush Regmi Bagale/SJF8240_docking_benchmark_v1/upstream_PROTAC_ternary/ternary_model_prediction.py",
+        "-d",
+        "/mnt/c/Users/Ayush Regmi Bagale/SJF8240_docking_benchmark_v1/upstream_PROTAC_ternary/Example1_ternary_model_prediction/docking_decoy.pdb",
+        "-l",
+        "/mnt/c/Users/Ayush Regmi Bagale/SJF8240_docking_benchmark_v1/upstream_PROTAC_ternary/Example1_ternary_model_prediction/linker_conformer.pdb",
+        "-da",
+        "/mnt/c/Users/Ayush Regmi Bagale/SJF8240_docking_benchmark_v1/upstream_PROTAC_ternary/Example1_ternary_model_prediction/decoy_atom_list.txt",
+        "-la",
+        "/mnt/c/Users/Ayush Regmi Bagale/SJF8240_docking_benchmark_v1/upstream_PROTAC_ternary/Example1_ternary_model_prediction/linker_atom_list.txt",
+        "-wd",
+        "/mnt/c/Users/Ayush Regmi Bagale/SJF8240_docking_benchmark_v1/upstream_PROTAC_ternary/Example1_ternary_model_prediction/decoy_atom_list_delete.txt",
+        "-ld",
+        "/mnt/c/Users/Ayush Regmi Bagale/SJF8240_docking_benchmark_v1/upstream_PROTAC_ternary/Example1_ternary_model_prediction/linker_atom_list_delete.txt",
+        "-t",
+        "default",
+        "-ai",
+        "0"
+      ]
+    },
+    {
+      "probe": "nonexistent_delete_atom",
+      "silently_ignored": true
+    },
+    {
+      "probe": "malformed_atom_format",
+      "outcome": "TypeError:exceptions must derive from BaseException"
+    },
+    {
+      "probe": "duplicate_unqualified_atom_label",
+      "atoms": 2,
+      "dictionary_entries": 1,
+      "selected_index": 1
+    }
+  ]
+}

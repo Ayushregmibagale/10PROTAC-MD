@@ -1,0 +1,4 @@
+__pycache__/
+*.pyc
+*.log
+upstream_PROTAC_ternary/.git/

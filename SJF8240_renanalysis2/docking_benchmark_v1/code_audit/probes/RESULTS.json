@@ -1,0 +1,118 @@
+[
+  {
+    "probe": "example_default",
+    "returncode": 0,
+    "ternary_outputs": 1,
+    "rmsd_text": "/mnt/c/Users/Ayush Regmi Bagale/SJF8240_docking_benchmark_v1/upstream_PROTAC_ternary/Example1_ternary_model_prediction/docking_decoy.pdb /mnt/c/Users/Ayush Regmi Bagale/SJF8240_docking_benchmark_v1/upstream_PROTAC_ternary/Example1_ternary_model_prediction/linker_conformer.pdb 0.2343709872196782\n",
+    "command": [
+      "/home/ayushregmibagale/miniconda3/envs/deepternary/bin/python",
+      "/mnt/c/Users/Ayush Regmi Bagale/SJF8240_docking_benchmark_v1/upstream_PROTAC_ternary/ternary_model_prediction.py",
+      "-d",
+      "/mnt/c/Users/Ayush Regmi Bagale/SJF8240_docking_benchmark_v1/upstream_PROTAC_ternary/Example1_ternary_model_prediction/docking_decoy.pdb",
+      "-l",
+      "/mnt/c/Users/Ayush Regmi Bagale/SJF8240_docking_benchmark_v1/upstream_PROTAC_ternary/Example1_ternary_model_prediction/linker_conformer.pdb",
+      "-da",
+      "/mnt/c/Users/Ayush Regmi Bagale/SJF8240_docking_benchmark_v1/upstream_PROTAC_ternary/Example1_ternary_model_prediction/decoy_atom_list.txt",
+      "-la",
+      "/mnt/c/Users/Ayush Regmi Bagale/SJF8240_docking_benchmark_v1/upstream_PROTAC_ternary/Example1_ternary_model_prediction/linker_atom_list.txt",
+      "-wd",
+      "/mnt/c/Users/Ayush Regmi Bagale/SJF8240_docking_benchmark_v1/upstream_PROTAC_ternary/Example1_ternary_model_prediction/decoy_atom_list_delete.txt",
+      "-ld",
+      "/mnt/c/Users/Ayush Regmi Bagale/SJF8240_docking_benchmark_v1/upstream_PROTAC_ternary/Example1_ternary_model_prediction/linker_atom_list_delete.txt",
+      "-t",
+      "default"
+    ]
+  },
+  {
+    "probe": "negative_cutoff",
+    "returncode": 0,
+    "ternary_outputs": 0,
+    "rmsd_text": "/mnt/c/Users/Ayush Regmi Bagale/SJF8240_docking_benchmark_v1/upstream_PROTAC_ternary/Example1_ternary_model_prediction/docking_decoy.pdb /mnt/c/Users/Ayush Regmi Bagale/SJF8240_docking_benchmark_v1/upstream_PROTAC_ternary/Example1_ternary_model_prediction/linker_conformer.pdb 0.2343709872196782\n",
+    "command": [
+      "/home/ayushregmibagale/miniconda3/envs/deepternary/bin/python",
+      "/mnt/c/Users/Ayush Regmi Bagale/SJF8240_docking_benchmark_v1/upstream_PROTAC_ternary/ternary_model_prediction.py",
+      "-d",
+      "/mnt/c/Users/Ayush Regmi Bagale/SJF8240_docking_benchmark_v1/upstream_PROTAC_ternary/Example1_ternary_model_prediction/docking_decoy.pdb",
+      "-l",
+      "/mnt/c/Users/Ayush Regmi Bagale/SJF8240_docking_benchmark_v1/upstream_PROTAC_ternary/Example1_ternary_model_prediction/linker_conformer.pdb",
+      "-da",
+      "/mnt/c/Users/Ayush Regmi Bagale/SJF8240_docking_benchmark_v1/upstream_PROTAC_ternary/Example1_ternary_model_prediction/decoy_atom_list.txt",
+      "-la",
+      "/mnt/c/Users/Ayush Regmi Bagale/SJF8240_docking_benchmark_v1/upstream_PROTAC_ternary/Example1_ternary_model_prediction/linker_atom_list.txt",
+      "-wd",
+      "/mnt/c/Users/Ayush Regmi Bagale/SJF8240_docking_benchmark_v1/upstream_PROTAC_ternary/Example1_ternary_model_prediction/decoy_atom_list_delete.txt",
+      "-ld",
+      "/mnt/c/Users/Ayush Regmi Bagale/SJF8240_docking_benchmark_v1/upstream_PROTAC_ternary/Example1_ternary_model_prediction/linker_atom_list_delete.txt",
+      "-t",
+      "default",
+      "-c",
+      "-1"
+    ]
+  },
+  {
+    "probe": "nan_cutoff",
+    "returncode": 0,
+    "ternary_outputs": 0,
+    "rmsd_text": "/mnt/c/Users/Ayush Regmi Bagale/SJF8240_docking_benchmark_v1/upstream_PROTAC_ternary/Example1_ternary_model_prediction/docking_decoy.pdb /mnt/c/Users/Ayush Regmi Bagale/SJF8240_docking_benchmark_v1/upstream_PROTAC_ternary/Example1_ternary_model_prediction/linker_conformer.pdb 0.2343709872196782\n",
+    "command": [
+      "/home/ayushregmibagale/miniconda3/envs/deepternary/bin/python",
+      "/mnt/c/Users/Ayush Regmi Bagale/SJF8240_docking_benchmark_v1/upstream_PROTAC_ternary/ternary_model_prediction.py",
+      "-d",
+      "/mnt/c/Users/Ayush Regmi Bagale/SJF8240_docking_benchmark_v1/upstream_PROTAC_ternary/Example1_ternary_model_prediction/docking_decoy.pdb",
+      "-l",
+      "/mnt/c/Users/Ayush Regmi Bagale/SJF8240_docking_benchmark_v1/upstream_PROTAC_ternary/Example1_ternary_model_prediction/linker_conformer.pdb",
+      "-da",
+      "/mnt/c/Users/Ayush Regmi Bagale/SJF8240_docking_benchmark_v1/upstream_PROTAC_ternary/Example1_ternary_model_prediction/decoy_atom_list.txt",
+      "-la",
+      "/mnt/c/Users/Ayush Regmi Bagale/SJF8240_docking_benchmark_v1/upstream_PROTAC_ternary/Example1_ternary_model_prediction/linker_atom_list.txt",
+      "-wd",
+      "/mnt/c/Users/Ayush Regmi Bagale/SJF8240_docking_benchmark_v1/upstream_PROTAC_ternary/Example1_ternary_model_prediction/decoy_atom_list_delete.txt",
+      "-ld",
+      "/mnt/c/Users/Ayush Regmi Bagale/SJF8240_docking_benchmark_v1/upstream_PROTAC_ternary/Example1_ternary_model_prediction/linker_atom_list_delete.txt",
+      "-t",
+      "default",
+      "-c",
+      "nan"
+    ]
+  },
+  {
+    "probe": "zero_alignment_iterations",
+    "returncode": 0,
+    "ternary_outputs": 0,
+    "rmsd_text": "/mnt/c/Users/Ayush Regmi Bagale/SJF8240_docking_benchmark_v1/upstream_PROTAC_ternary/Example1_ternary_model_prediction/docking_decoy.pdb /mnt/c/Users/Ayush Regmi Bagale/SJF8240_docking_benchmark_v1/upstream_PROTAC_ternary/Example1_ternary_model_prediction/linker_conformer.pdb 5.971563678367661\n",
+    "command": [
+      "/home/ayushregmibagale/miniconda3/envs/deepternary/bin/python",
+      "/mnt/c/Users/Ayush Regmi Bagale/SJF8240_docking_benchmark_v1/upstream_PROTAC_ternary/ternary_model_prediction.py",
+      "-d",
+      "/mnt/c/Users/Ayush Regmi Bagale/SJF8240_docking_benchmark_v1/upstream_PROTAC_ternary/Example1_ternary_model_prediction/docking_decoy.pdb",
+      "-l",
+      "/mnt/c/Users/Ayush Regmi Bagale/SJF8240_docking_benchmark_v1/upstream_PROTAC_ternary/Example1_ternary_model_prediction/linker_conformer.pdb",
+      "-da",
+      "/mnt/c/Users/Ayush Regmi Bagale/SJF8240_docking_benchmark_v1/upstream_PROTAC_ternary/Example1_ternary_model_prediction/decoy_atom_list.txt",
+      "-la",
+      "/mnt/c/Users/Ayush Regmi Bagale/SJF8240_docking_benchmark_v1/upstream_PROTAC_ternary/Example1_ternary_model_prediction/linker_atom_list.txt",
+      "-wd",
+      "/mnt/c/Users/Ayush Regmi Bagale/SJF8240_docking_benchmark_v1/upstream_PROTAC_ternary/Example1_ternary_model_prediction/decoy_atom_list_delete.txt",
+      "-ld",
+      "/mnt/c/Users/Ayush Regmi Bagale/SJF8240_docking_benchmark_v1/upstream_PROTAC_ternary/Example1_ternary_model_prediction/linker_atom_list_delete.txt",
+      "-t",
+      "default",
+      "-ai",
+      "0"
+    ]
+  },
+  {
+    "probe": "nonexistent_delete_atom",
+    "silently_ignored": true
+  },
+  {
+    "probe": "malformed_atom_format",
+    "outcome": "TypeError:exceptions must derive from BaseException"
+  },
+  {
+    "probe": "duplicate_unqualified_atom_label",
+    "atoms": 2,
+    "dictionary_entries": 1,
+    "selected_index": 1
+  }
+]
