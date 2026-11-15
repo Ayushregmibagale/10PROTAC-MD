@@ -1,0 +1,16 @@
+{
+  "status": "DECLARED_PROTEIN_MODIFICATIONS_PRESENT",
+  "protein_heavy_atoms_including_modifications": 2697,
+  "modifications": [
+    {
+      "chain": "D",
+      "resnum": 308,
+      "icode": " ",
+      "resname": "TPO",
+      "heavy_atoms": 11
+    }
+  ],
+  "scope": "Residue/atom presence and explicit role selection only; not a physical/biological validation",
+  "negative_control_missing_phosphate": "correctly rejected",
+  "negative_control_undeclared_modification": "correctly rejected"
+}

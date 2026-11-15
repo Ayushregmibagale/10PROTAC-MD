@@ -1,0 +1,146 @@
+{
+  "status": "REFERENCE_CHAIN_ROLES_VERIFIED",
+  "references": {
+    "5T35_MZ1": {
+      "chain_roles": {
+        "A": {
+          "entity_id": "4",
+          "uniprot": "P40337",
+          "database_code": "VHL_HUMAN",
+          "role": "VHL",
+          "score": 298.0,
+          "identity": 1.0,
+          "observed_coverage": 1.0,
+          "source_sequence_coverage": 0.9197530864197531,
+          "aligned_residues": 149,
+          "observed_residues": 149
+        },
+        "B": {
+          "entity_id": "3",
+          "uniprot": "Q15369",
+          "database_code": "ELOC_HUMAN",
+          "role": "ELOC",
+          "score": 161.5,
+          "identity": 1.0,
+          "observed_coverage": 1.0,
+          "source_sequence_coverage": 0.8969072164948454,
+          "aligned_residues": 87,
+          "observed_residues": 87
+        },
+        "C": {
+          "entity_id": "2",
+          "uniprot": "Q15370",
+          "database_code": "ELOB_HUMAN",
+          "role": "ELOB",
+          "score": 208.0,
+          "identity": 1.0,
+          "observed_coverage": 1.0,
+          "source_sequence_coverage": 1.0,
+          "aligned_residues": 104,
+          "observed_residues": 104
+        },
+        "D": {
+          "entity_id": "1",
+          "uniprot": "O60885",
+          "database_code": "BRD4_HUMAN",
+          "role": "POI",
+          "score": 222.0,
+          "identity": 1.0,
+          "observed_coverage": 1.0,
+          "source_sequence_coverage": 0.8538461538461538,
+          "aligned_residues": 111,
+          "observed_residues": 111
+        }
+      },
+      "native_sha256": "46d5edea4da18164c177973d0e131aae271b9ca49d3bbb8af589a6c456352713",
+      "source_cif_sha256": "003a7b37998f5eded4e4c74b03c18b713c27906e253651a503acfac8d66f42f7",
+      "extended_role_chains": {
+        "VHL": [
+          "A"
+        ],
+        "ELOB": [
+          "C"
+        ],
+        "ELOC": [
+          "B"
+        ],
+        "POI": [
+          "D"
+        ]
+      }
+    },
+    "7PI4_GSK215": {
+      "chain_roles": {
+        "A": {
+          "entity_id": "1",
+          "uniprot": "P40337",
+          "database_code": "VHL_HUMAN",
+          "role": "VHL",
+          "score": 310.0,
+          "identity": 1.0,
+          "observed_coverage": 1.0,
+          "source_sequence_coverage": 1.0,
+          "aligned_residues": 155,
+          "observed_residues": 155
+        },
+        "B": {
+          "entity_id": "2",
+          "uniprot": "Q15370",
+          "database_code": "ELOB_HUMAN",
+          "role": "ELOB",
+          "score": 210.0,
+          "identity": 1.0,
+          "observed_coverage": 1.0,
+          "source_sequence_coverage": 1.0,
+          "aligned_residues": 105,
+          "observed_residues": 105
+        },
+        "C": {
+          "entity_id": "3",
+          "uniprot": "Q15369-2",
+          "database_code": "ELOC-2_HUMAN",
+          "role": "ELOC",
+          "score": 167.0,
+          "identity": 1.0,
+          "observed_coverage": 1.0,
+          "source_sequence_coverage": 0.9270833333333334,
+          "aligned_residues": 89,
+          "observed_residues": 89
+        },
+        "D": {
+          "entity_id": "4",
+          "uniprot": "Q05397",
+          "database_code": "FAK1_HUMAN",
+          "role": "POI",
+          "score": 516.0,
+          "identity": 1.0,
+          "observed_coverage": 1.0,
+          "source_sequence_coverage": 0.967032967032967,
+          "aligned_residues": 264,
+          "observed_residues": 264
+        }
+      },
+      "native_sha256": "b2f8e526142a71c8217f4305e9c84ff4b48e6166391bff56884391b6edd685d7",
+      "source_cif_sha256": "d164c769b54d1eeff38edc71b185b4a42b24984b2552a82925a941cc6b2f2c95",
+      "extended_role_chains": {
+        "VHL": [
+          "A"
+        ],
+        "ELOB": [
+          "B"
+        ],
+        "ELOC": [
+          "C"
+        ],
+        "POI": [
+          "D"
+        ]
+      }
+    }
+  },
+  "interpretation": "Observed reference sequences match deposited entity/UniProt annotations; isoforms are retained explicitly",
+  "limitations": [
+    "Reference controls only; every production input still needs explicit source/domain/role checks",
+    "No assumption of fixed B/C accessory ordering across sources"
+  ]
+}

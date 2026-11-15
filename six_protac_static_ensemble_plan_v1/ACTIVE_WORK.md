@@ -1,23 +1,25 @@
-# Active six-compound static campaign
+# Active campaign checkpoint — 15 November 2026
 
-Latest user instruction, 15 November 2026: continue the project, update GitHub and prioritize pRosettaC on Ernie. All six compounds were purchased from Tocris/Bio-Techne. MS143 (8081) is now identity-verified in the registry.
+Six supplier-verified compounds: GSK215, SJF8240, SJF1521, JNJ1013, SJF_delta, MS143. No new MD. MS143 is ATP-competitive, not allosteric. MZ1 is an external method control, not a seventh screening compound.
 
-Explicit constraint: WE WILL NOT DO MD FOR THESE SIX COMPOUNDS. Use pRosettaC ensembles, static structural analysis and later an ensemble GNN. Existing historical MD is separate supporting material only. Do not resume the old MD pilot or require MD equilibration as a docking release gate.
+User asks to prioritize submission before the weekly allowance runs out, while retaining publishable-quality checks. Prepare concrete inputs, quality reports and resource commands before the final submission approval. Do not launch the full kinome campaign while qualification fails. Existing remote reference pilot is complete; no additional remote job has been submitted.
 
-Next: reconcile stopped native-recovery outputs, prepare MS143 bound-head mappings, verify Ernie access/runtime/storage and release an isolated repaired docking pilot. Preserve scientific QC, raw failure counts, chemical identity and legacy outputs. No failed finite search is a biological negative. Save regular source/report checkpoints to GitHub.
+## Completed checks
 
-Read PLAN.md. The old SJF8240 supplier-correct pilot remains historical/paused; its docking outputs can be inventoried/reused without restarting its MD stages.
+Ernie 50 global x10 local x20 conformer pilot: GSK215 3/8 retained poses pass the frozen coarse structural gate; top1 passes; best target RMSD after VHL alignment 1.5628 A. MZ1 0/187 pass, best 8.3451 A. Integrity receipts pass. These are reference redocking results, not degradation validation. Native bound binary structures/heads were used; native ternary arrangement did not guide global generation.
 
-## Checkpoint: 15 November 2026, static reference pilot
+Full lossless raw archive: /mnt/c/Users/Ayush Regmi Bagale/10PROTAC_static_campaign_raw/ernie_reference_pilot_20261115/full_pilot_raw.tar.gz . SHA256 cc4ae4ec61ab7c4de4c87675cce1a74e1104ae5702956bd0aea740a468114554 . Remote originals retained.
 
-Read RESEARCH_CONTRACT.md before changing protocol or releasing data. User explicitly prioritizes scientific quality; no MD for these compounds. Old completed small-budget references have now been assessed: MZ1 misses the frozen coarse gate; GSK215 has one passing retained pose but top1fails. Full campaign release remains pending.
+Native fixed-head linker construction passes for both controls at seeds42/7/123; incompatible head placements reject. This is construction, not recovery or steric validation. Explicit source chain mapping confirms B/C ELOB/ELOC swap between references. MS143 strict seed4 remains the candidate; Rosetta retains phosphorylated Thr308. Modification presence/missing-phosphate/undeclared-residue checks pass. Existing ATOM-only geometry filters omit HETATM TPO, so explicit PTM-aware downstream selection is required.
 
-MS143 source/heads are under MS143/ and references/. Its modified AKT head is modeled, not experimental; TPO308is retained in the parent protein. Do not silently submit it as a validated ternary pose.
+Prepared cross-kinase structures are not production-qualified: many transferred heads clash, including backbone clashes. SJF_delta MAPK13 overlay is unsuitable. Its MET parent-head control must not be described as a confirmed degradation positive. Source calibrated steric reports are in pocket_obstacle_review/. Adapter is seeded random-global/PyRosetta/fixed-head linker workflow, not exact published PatchDock pRosettaC; see ENGINE_METHOD_REVIEW.md.
 
-An isolated bounded reference/resource pilot was launched on Ernie at /home/s1638308/ernie_static_reference_pilot_v1, supervisor PID313406. Inspect remote STATUS.json and receipts before any retry. Four-core affinity,24GiB summed process RSS cap,10GiB output cap,50GiBminimum free disk; native integration cap30min, each of two global runs cap8h. Global budget50×10×20,seed42. STOP sentinel terminates the current task. This pilot is not an authorization to release failed geometry or start kinome production. Licensed dependencies are reused privately from the remote protac environment.
+## Running local comparison
 
-Commands: ssh ernie 'cat /home/s1638308/ernie_static_reference_pilot_v1/STATUS.json'; ssh ernie 'touch /home/s1638308/ernie_static_reference_pilot_v1/STOP'. Monitor/update receipts and GitHub while actively working; no claim of continuous human/agent monitoring after the turn.
+/tmp/six_protac_matched_budget_comparison_v1/STATUS.json ; controller unified exec session41483. Four cores,24GiB,10GiB output cap. Budget500 global x1 local x20 conformers. MZ1 complete:0/201 pass, best13.2798 A. More global sampling alone did not fix recovery. GSK215 was still running at this checkpoint. Check fresh status; do not relaunch completed tasks. STOP sentinel at that root stops the controller; namespace PIDs are not host PIDs.
 
-Latest result: native-frame Ernie control completed with0/3feasible linkers at20conformers; this is NOT a successful native-recovery certificate. Global GSK215 benchmark is running; MZ1 follows if execution succeeds. This is a budget diagnostic, not a scientific production release. Initial MS143 lowest-internal-energy candidate fails the independent vdW screen; strict_review_v2retains one passing seed4candidate (maximum overlap0.576Åversus deposited parent0.483Å). Do not use the initial root candidate as input. All failed trials remain recorded.
+When complete, use scripts07 and01 to independently verify and evaluate both tasks, archive raw records outside Git, then checkpoint compact reports. Global coverage diagnostic /tmp/six_protac_global_coverage_diagnosis_v1 has exact first50 agreement with original pilot; no native-based orientation selection permitted.
 
-Latest user instruction: keep working autonomously; ask only when ready to submit the Ernie campaign. No additional remote submission beyond the already-running pilot queue without that approval. Current editable checkout: /mnt/c/Users/Ayush Regmi Bagale/10PROTAC_static_campaign_work . The original Linux working tree is preserved, including its staged checkpoint and unrelated changes. GitHub updates come from this isolated checkout.
+## Next work
+
+Resolve search/refinement and pocket fit before full production. Do not keep increasing counts blindly or relax thresholds to force passing. If preparing a bounded six-compound technical/resource pilot, explicitly label its scope and unresolved biological limitations; assemble all inputs/checks before requesting approval. No MD. Keep unknown SIK3/RPS6KB2 labels unknown. Preserve original Linux working tree and its unrelated changes. Work and GitHub checkpoint from this isolated writable checkout.

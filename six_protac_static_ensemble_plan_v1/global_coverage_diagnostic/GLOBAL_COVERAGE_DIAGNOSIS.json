@@ -1,0 +1,71 @@
+{
+  "status": "MATCHED_STREAM_DIAGNOSTIC_COMPLETE",
+  "results": [
+    {
+      "reference": "7PI4_GSK215",
+      "sampled_orientations": 500,
+      "seconds_generation_and_assessment": 34.709088511997834,
+      "first50_byte_identical_to_completed_pilot": true,
+      "scenarios": {
+        "50": {
+          "best_initial_POI_RMSD_A": 8.106705968989955,
+          "initial_orientations_passing_coarse_gate": 0
+        },
+        "100": {
+          "best_initial_POI_RMSD_A": 8.106705968989955,
+          "initial_orientations_passing_coarse_gate": 0
+        },
+        "200": {
+          "best_initial_POI_RMSD_A": 5.945983179968957,
+          "initial_orientations_passing_coarse_gate": 0
+        },
+        "500": {
+          "best_initial_POI_RMSD_A": 3.478166850119216,
+          "initial_orientations_passing_coarse_gate": 1
+        }
+      },
+      "source_sha256": {
+        "Init0.pdb": "5d6f88f3ffb09a44857a0e4c083ae5d91299eee7d87c37dc73a2c0b4f8665034",
+        "Init1.pdb": "601099bd0d0333e0a09221ce1403720fcd652bd71c39f454a0c994b5f1f5cfe7",
+        "anchor_distance_sampling.json": "521bda59a7f3b04ff869bb92b1382bfbd10e2e5d1617b01192fad2476758c5a3"
+      },
+      "adapter_sha256": "803c2e9f0ba772e44cdba89579700906e918b2f54a2bd87e2ef8e69c543ce0b7"
+    },
+    {
+      "reference": "5T35_MZ1",
+      "sampled_orientations": 500,
+      "seconds_generation_and_assessment": 24.210014623007737,
+      "first50_byte_identical_to_completed_pilot": true,
+      "scenarios": {
+        "50": {
+          "best_initial_POI_RMSD_A": 13.082825179198318,
+          "initial_orientations_passing_coarse_gate": 0
+        },
+        "100": {
+          "best_initial_POI_RMSD_A": 8.432182964739912,
+          "initial_orientations_passing_coarse_gate": 0
+        },
+        "200": {
+          "best_initial_POI_RMSD_A": 8.432182964739912,
+          "initial_orientations_passing_coarse_gate": 0
+        },
+        "500": {
+          "best_initial_POI_RMSD_A": 5.587728939729154,
+          "initial_orientations_passing_coarse_gate": 0
+        }
+      },
+      "source_sha256": {
+        "Init0.pdb": "ec58f397293ebfa7725095a36a576e537c00640fe5241d870cb0fa508abb23b3",
+        "Init1.pdb": "25ba6cdd5b2c00bee7e6360d57ccd11e997f277acdb7cebf3127b84ce6b5290b",
+        "anchor_distance_sampling.json": "6c87580a0c0ea0329741432584ca20e167b01b679a23b66ebe6900bf519714f9"
+      },
+      "adapter_sha256": "803c2e9f0ba772e44cdba89579700906e918b2f54a2bd87e2ef8e69c543ce0b7"
+    }
+  ],
+  "limitations": [
+    "Global C-alpha clash/anchor sampler only, before local refinement or full PROTAC construction",
+    "Native geometry used for evaluation only; no native-based pose selection is authorized",
+    "One seed/two reference-bound systems; cannot establish a production budget or degradation accuracy",
+    "More global coverage is not equivalent to physically valid final ternary ensembles"
+  ]
+}

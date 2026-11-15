@@ -25,5 +25,10 @@
   },
   "isolated_checkout_regression": "8 tests passed in 2.43s",
   "analysis_edge_cases": "2 tests passed in 1.28s",
-  "checks_passed_total": 10
+  "checks_passed_total": 10,
+  "latest_targeted_tests": {
+    "passed": 11,
+    "scope": "supplier formula/stereochemistry, controller, MS143 geometry and analysis edge cases",
+    "date": "2026-11-15"
+  }
 }

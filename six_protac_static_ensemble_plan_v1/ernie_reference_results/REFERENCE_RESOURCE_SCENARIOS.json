@@ -1,0 +1,141 @@
+{
+  "status": "REFERENCE_SCENARIOS_ONLY_NOT_RELEASED",
+  "nominal_pairs": 3600,
+  "observed_archive_ratio": 0.209721503145446,
+  "source_archive_sha256": "cc4ae4ec61ab7c4de4c87675cce1a74e1104ae5702956bd0aea740a468114554",
+  "rows": [
+    {
+      "reference": "7PI4_GSK215",
+      "nominal_pairs": 3600,
+      "concurrent_pairs": 1,
+      "allocated_CPU_slots": 4,
+      "reference_based_wall_days": 116.57060753305753,
+      "raw_logical_storage_TB_decimal": 2.0228493564,
+      "archive_storage_TB_decimal_at_observed_ratio": 0.42423500766100597,
+      "summed_peak_process_RSS_GB_decimal": 5.21525248
+    },
+    {
+      "reference": "7PI4_GSK215",
+      "nominal_pairs": 3600,
+      "concurrent_pairs": 2,
+      "allocated_CPU_slots": 8,
+      "reference_based_wall_days": 58.28530376652876,
+      "raw_logical_storage_TB_decimal": 2.0228493564,
+      "archive_storage_TB_decimal_at_observed_ratio": 0.42423500766100597,
+      "summed_peak_process_RSS_GB_decimal": 10.43050496
+    },
+    {
+      "reference": "7PI4_GSK215",
+      "nominal_pairs": 3600,
+      "concurrent_pairs": 4,
+      "allocated_CPU_slots": 16,
+      "reference_based_wall_days": 29.14265188326438,
+      "raw_logical_storage_TB_decimal": 2.0228493564,
+      "archive_storage_TB_decimal_at_observed_ratio": 0.42423500766100597,
+      "summed_peak_process_RSS_GB_decimal": 20.86100992
+    },
+    {
+      "reference": "7PI4_GSK215",
+      "nominal_pairs": 3600,
+      "concurrent_pairs": 8,
+      "allocated_CPU_slots": 32,
+      "reference_based_wall_days": 14.57132594163219,
+      "raw_logical_storage_TB_decimal": 2.0228493564,
+      "archive_storage_TB_decimal_at_observed_ratio": 0.42423500766100597,
+      "summed_peak_process_RSS_GB_decimal": 41.72201984
+    },
+    {
+      "reference": "7PI4_GSK215",
+      "nominal_pairs": 3600,
+      "concurrent_pairs": 16,
+      "allocated_CPU_slots": 64,
+      "reference_based_wall_days": 7.285662970816095,
+      "raw_logical_storage_TB_decimal": 2.0228493564,
+      "archive_storage_TB_decimal_at_observed_ratio": 0.42423500766100597,
+      "summed_peak_process_RSS_GB_decimal": 83.44403968
+    },
+    {
+      "reference": "7PI4_GSK215",
+      "nominal_pairs": 3600,
+      "concurrent_pairs": 24,
+      "allocated_CPU_slots": 96,
+      "reference_based_wall_days": 4.8571086472107305,
+      "raw_logical_storage_TB_decimal": 2.0228493564,
+      "archive_storage_TB_decimal_at_observed_ratio": 0.42423500766100597,
+      "summed_peak_process_RSS_GB_decimal": 125.16605952
+    },
+    {
+      "reference": "5T35_MZ1",
+      "nominal_pairs": 3600,
+      "concurrent_pairs": 1,
+      "allocated_CPU_slots": 4,
+      "reference_based_wall_days": 124.88318170110385,
+      "raw_logical_storage_TB_decimal": 4.9612351752,
+      "archive_storage_TB_decimal_at_observed_ratio": 1.0404776984010042,
+      "summed_peak_process_RSS_GB_decimal": 5.055942656
+    },
+    {
+      "reference": "5T35_MZ1",
+      "nominal_pairs": 3600,
+      "concurrent_pairs": 2,
+      "allocated_CPU_slots": 8,
+      "reference_based_wall_days": 62.441590850551925,
+      "raw_logical_storage_TB_decimal": 4.9612351752,
+      "archive_storage_TB_decimal_at_observed_ratio": 1.0404776984010042,
+      "summed_peak_process_RSS_GB_decimal": 10.111885312
+    },
+    {
+      "reference": "5T35_MZ1",
+      "nominal_pairs": 3600,
+      "concurrent_pairs": 4,
+      "allocated_CPU_slots": 16,
+      "reference_based_wall_days": 31.220795425275963,
+      "raw_logical_storage_TB_decimal": 4.9612351752,
+      "archive_storage_TB_decimal_at_observed_ratio": 1.0404776984010042,
+      "summed_peak_process_RSS_GB_decimal": 20.223770624
+    },
+    {
+      "reference": "5T35_MZ1",
+      "nominal_pairs": 3600,
+      "concurrent_pairs": 8,
+      "allocated_CPU_slots": 32,
+      "reference_based_wall_days": 15.610397712637981,
+      "raw_logical_storage_TB_decimal": 4.9612351752,
+      "archive_storage_TB_decimal_at_observed_ratio": 1.0404776984010042,
+      "summed_peak_process_RSS_GB_decimal": 40.447541248
+    },
+    {
+      "reference": "5T35_MZ1",
+      "nominal_pairs": 3600,
+      "concurrent_pairs": 16,
+      "allocated_CPU_slots": 64,
+      "reference_based_wall_days": 7.805198856318991,
+      "raw_logical_storage_TB_decimal": 4.9612351752,
+      "archive_storage_TB_decimal_at_observed_ratio": 1.0404776984010042,
+      "summed_peak_process_RSS_GB_decimal": 80.895082496
+    },
+    {
+      "reference": "5T35_MZ1",
+      "nominal_pairs": 3600,
+      "concurrent_pairs": 24,
+      "allocated_CPU_slots": 96,
+      "reference_based_wall_days": 5.203465904212661,
+      "raw_logical_storage_TB_decimal": 4.9612351752,
+      "archive_storage_TB_decimal_at_observed_ratio": 1.0404776984010042,
+      "summed_peak_process_RSS_GB_decimal": 121.342623744
+    }
+  ],
+  "limitations": [
+    "Two bound-reference systems at50global\u00d710local\u00d720conformers, one seed each",
+    "Other kinases/PROTACs may need more time/storage; these are observed reference scenarios, not worst-case bounds",
+    "CPU slots are affinity allocations, not measured CPU-time utilization",
+    "No reserved96CPU entitlement is inferred",
+    "No scheduler delays, preprocessing, replica/seed expansion, backups, feature extraction or GNN training included",
+    "Archive ratio is from a combined gzip of these raw references; per-pair compression and future datasets can differ",
+    "Uncompressed staged data plus archives require additional simultaneous storage; full raw data retention is preserved losslessly",
+    "The local500\u00d71\u00d720comparator uses different hardware; wall-time differences are not a paired speed benchmark",
+    "Nominal3600pairs reflects requested6\u00d7600scope, not3600currently qualified input pairs"
+  ],
+  "MD": false,
+  "production_submission_authorized": false
+}

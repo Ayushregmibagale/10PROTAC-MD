@@ -1,0 +1,44 @@
+{
+  "status": "COMPLETED_TASK_INTEGRITY_PASS",
+  "pilot_status": "RUNNING",
+  "remaining_tasks": [
+    "global_7PI4_GSK215_seed42"
+  ],
+  "runs": [
+    {
+      "name": "global_5T35_MZ1_seed42",
+      "reference": "5T35_MZ1",
+      "status": "INTEGRITY_PASS",
+      "engine_status": "COMPLETE",
+      "raw_scored_poses": 245,
+      "retained_operational_QC_poses": 201,
+      "sampling_ledgers": 500,
+      "run_logical_bytes": 1660489881,
+      "wall_seconds": 2024.3403878211975,
+      "cpu_affinity_limit": 4,
+      "peak_summed_group_RSS_bytes": 5080633344,
+      "observed_environment": {
+        "python": "3.10.22 | packaged by conda-forge | (main, Oct  6 2026, 23:02:24) [GCC 14.4.0]",
+        "versions": {
+          "numpy": "2.2.6",
+          "scipy": "1.15.2",
+          "rdkit": "2025.9.5",
+          "pyrosetta": "2026.3+releasequarterly.5e498f1409"
+        },
+        "openbabel_library_version": "3.1.0",
+        "scikit_learn_version": "1.7.2",
+        "platform": "Linux-6.6.87.2-microsoft-standard-WSL2-x86_64-with-glibc2.39",
+        "available_cpu_affinity": 4
+      },
+      "engine_status_sha256": "294b567bf0753179a2fbdcd06dd6d7ede54f81348b1dcd124dbfd3d4e27f5b22",
+      "physical_pose_quality_certified": false
+    }
+  ],
+  "MD": false,
+  "limitations": [
+    "Only receipt/source/input/output integrity assessed",
+    "Operational QC is coarse; structural recovery and independent atom-type-aware steric checks remain separate",
+    "Peak output in the controller is cumulative across runs; per-run bytes above are independently counted after completion",
+    "Both references share the same seed; this is not a replicated convergence benchmark"
+  ]
+}

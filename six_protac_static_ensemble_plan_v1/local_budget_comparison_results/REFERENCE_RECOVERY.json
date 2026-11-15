@@ -1,0 +1,28 @@
+{
+  "status": "EVALUATED_FROZEN_GATE",
+  "summary": [
+    {
+      "reference": "5T35_MZ1",
+      "retained_QC_poses": 201,
+      "raw_scored_poses": 245,
+      "gate": "POI CA RMSD after VHL fit <=5A AND native residue contact fraction >=0.5; retained engine chemical/gross-clash QC",
+      "gate_pass_count": 0,
+      "top1_pass": false,
+      "top10_any_pass": false,
+      "best_POI_RMSD_A": 13.279775766956984,
+      "best_native_contact_fraction": 0.4666666666666667,
+      "run_seconds": 2008.4271302223206,
+      "measurement_controls": "native self, common rigid transform, incompatible target placement: passed",
+      "engine_status_sha256": "294b567bf0753179a2fbdcd06dd6d7ede54f81348b1dcd124dbfd3d4e27f5b22",
+      "score_sha256": "e36062d4f1bb9a7d1dd6dde1c9c101408bab98da2ed03896f8ced3f062ca54a2",
+      "native_sha256": "46d5edea4da18164c177973d0e131aae271b9ca49d3bbb8af589a6c456352713",
+      "biological_validation": false
+    }
+  ],
+  "limitations": [
+    "One seed at a small budget; not a convergence study",
+    "Engine chemistry/gross-clash QC inherited; no new independent chemistry assay",
+    "This is a structural benchmark, not a degradation predictor",
+    "Global redocking uses reference-crystal bound binary structures and heads; no native ternary target coordinates/restraints guide global sampling"
+  ]
+}

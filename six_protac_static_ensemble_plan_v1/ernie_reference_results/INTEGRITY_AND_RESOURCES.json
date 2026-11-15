@@ -1,0 +1,96 @@
+{
+  "status": "SOURCE_INPUT_OUTPUT_INTEGRITY_PASS",
+  "runs": [
+    {
+      "name": "native_7PI4_GSK215_seed42",
+      "reference": "7PI4_GSK215",
+      "status": "INTEGRITY_PASS",
+      "engine_status": "COMPLETE_NO_VALID_POSES",
+      "raw_scored_poses": 0,
+      "retained_operational_QC_poses": 0,
+      "sampling_ledgers": 3,
+      "run_logical_bytes": 10631692,
+      "wall_seconds": 196.20725083351135,
+      "cpu_affinity_limit": 4,
+      "peak_summed_group_RSS_bytes": 2117529600,
+      "observed_environment": {
+        "python": "3.10.20 | packaged by conda-forge | (main, Mar  5 2026, 16:42:22) [GCC 14.3.0]",
+        "versions": {
+          "numpy": "2.2.6",
+          "scipy": "1.15.2",
+          "rdkit": "2025.9.5",
+          "pyrosetta": "2026.3+releasequarterly.5e498f1409"
+        },
+        "openbabel_library_version": "3.1.0",
+        "scikit_learn_version": "1.7.2",
+        "platform": "Linux-5.15.0-203-generic-x86_64-with-glibc2.35",
+        "available_cpu_affinity": 4
+      },
+      "engine_status_sha256": "306dcdba867ece5b9af3d625b9be00966d8e65ea5df4e77351d77deb95994d3a",
+      "physical_pose_quality_certified": false
+    },
+    {
+      "name": "global_7PI4_GSK215_seed42",
+      "reference": "7PI4_GSK215",
+      "status": "INTEGRITY_PASS",
+      "engine_status": "COMPLETE",
+      "raw_scored_poses": 8,
+      "retained_operational_QC_poses": 8,
+      "sampling_ledgers": 500,
+      "run_logical_bytes": 561902599,
+      "wall_seconds": 2797.6945807933807,
+      "cpu_affinity_limit": 4,
+      "peak_summed_group_RSS_bytes": 5215252480,
+      "observed_environment": {
+        "python": "3.10.20 | packaged by conda-forge | (main, Mar  5 2026, 16:42:22) [GCC 14.3.0]",
+        "versions": {
+          "numpy": "2.2.6",
+          "scipy": "1.15.2",
+          "rdkit": "2025.9.5",
+          "pyrosetta": "2026.3+releasequarterly.5e498f1409"
+        },
+        "openbabel_library_version": "3.1.0",
+        "scikit_learn_version": "1.7.2",
+        "platform": "Linux-5.15.0-203-generic-x86_64-with-glibc2.35",
+        "available_cpu_affinity": 4
+      },
+      "engine_status_sha256": "af327b4a7231487c0594894362b1b655b0ffc3870899c5eb61c8599dd9c7ce6e",
+      "physical_pose_quality_certified": false
+    },
+    {
+      "name": "global_5T35_MZ1_seed42",
+      "reference": "5T35_MZ1",
+      "status": "INTEGRITY_PASS",
+      "engine_status": "COMPLETE",
+      "raw_scored_poses": 244,
+      "retained_operational_QC_poses": 187,
+      "sampling_ledgers": 500,
+      "run_logical_bytes": 1378120882,
+      "wall_seconds": 2997.1963608264923,
+      "cpu_affinity_limit": 4,
+      "peak_summed_group_RSS_bytes": 5055942656,
+      "observed_environment": {
+        "python": "3.10.20 | packaged by conda-forge | (main, Mar  5 2026, 16:42:22) [GCC 14.3.0]",
+        "versions": {
+          "numpy": "2.2.6",
+          "scipy": "1.15.2",
+          "rdkit": "2025.9.5",
+          "pyrosetta": "2026.3+releasequarterly.5e498f1409"
+        },
+        "openbabel_library_version": "3.1.0",
+        "scikit_learn_version": "1.7.2",
+        "platform": "Linux-5.15.0-203-generic-x86_64-with-glibc2.35",
+        "available_cpu_affinity": 4
+      },
+      "engine_status_sha256": "d503536b3bb56894a314a560b812d556170ebb49d24a2bb8be55d02d05acb18e",
+      "physical_pose_quality_certified": false
+    }
+  ],
+  "MD": false,
+  "limitations": [
+    "Only receipt/source/input/output integrity assessed",
+    "Operational QC is coarse; structural recovery and independent atom-type-aware steric checks remain separate",
+    "Peak output in the controller is cumulative across runs; per-run bytes above are independently counted after completion",
+    "Both references share the same seed; this is not a replicated convergence benchmark"
+  ]
+}

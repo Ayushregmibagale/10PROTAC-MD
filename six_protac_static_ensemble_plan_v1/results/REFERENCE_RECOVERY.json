@@ -40,6 +40,7 @@
     "One seed at a small budget; not a convergence study",
     "Engine chemistry/gross-clash QC inherited; no new independent chemistry assay",
     "This is a structural benchmark, not a degradation predictor",
-    "Native coordinates not used for generation in these global runs"
-  ]
+    "Global redocking uses reference-crystal bound binary structures and heads; no native ternary target coordinates/restraints guide global sampling"
+  ],
+  "metadata_clarification": "Bound binaries are used; not unbound cross-docking or novel-target generalization. Numerical metrics unchanged."
 }

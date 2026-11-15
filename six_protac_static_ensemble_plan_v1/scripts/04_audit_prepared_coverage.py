@@ -26,14 +26,19 @@ def sterics(head_file,protein_file,chains=None):
     pt=Chem.GetPeriodicTable();xyz=np.array([a.coord for a in atoms]);tree=cKDTree(xyz)
     pr=np.array([pt.GetRvdw(pt.GetAtomicNumber(a.element.title())) for a in atoms])
     hx=mol.GetConformer().GetPositions();closest=tree.query(hx)[0]
-    best=-float('inf');pair=None
+    best=-float('inf');pair=None;backbone=-float('inf');sidechain=-float('inf');atom_name=None
     for i,near in enumerate(tree.query_ball_point(hx,4.5)):
         for j in near:
             distance=float(np.linalg.norm(hx[i]-xyz[j]));overlap=pt.GetRvdw(mol.GetAtomWithIdx(i).GetAtomicNum())+pr[j]-distance
-            if overlap>best:best=float(overlap);pair=[i,str(atoms[j].get_full_id())]
+            if atoms[j].name in {'N','CA','C','O','OXT'}:backbone=max(backbone,float(overlap))
+            else:sidechain=max(sidechain,float(overlap))
+            if overlap>best:best=float(overlap);pair=[i,str(atoms[j].get_full_id())];atom_name=atoms[j].name
+    if pair is None:raise ValueError('No head-protein contacts within4.5A; review placement/frame instead of assigning a zero feature')
     return {'head_heavy_atoms':mol.GetNumAtoms(),'min_distance_A':float(closest.min()),
             'max_vdw_overlap_A':best if pair else None,'max_overlap_pair':pair,
-            'head_atoms_within4A':int((closest<=4.).sum())}
+            'head_atoms_within4A':int((closest<=4.).sum()),'max_overlap_protein_atom_name':atom_name,
+            'max_backbone_vdw_overlap_A':backbone if np.isfinite(backbone) else None,
+            'max_sidechain_vdw_overlap_A':sidechain if np.isfinite(sidechain) else None}
 
 def main():
     p=argparse.ArgumentParser(description=__doc__);p.add_argument('--project',type=Path,required=True);p.add_argument('--output',type=Path,required=True);a=p.parse_args()
@@ -52,6 +57,9 @@ def main():
     candidate_rows=[];method_summary=[];sources={str(invpath):sha(invpath),
        str(root/'config/molecules.json'):sha(root/'config/molecules.json'),
        str(root/'structures/merged_manifest.tsv'):sha(root/'structures/merged_manifest.tsv')}
+    for baseline in baselines.values():
+        for filename in ('poi_head.sdf','protein.pdb','vhl_head.sdf','proteins.pdb'):
+            source=Path(baseline['reference_folder'])/filename;sources[str(source)]=sha(source)
     for method in ('prepared_screen','prepared_pocket_screen'):
         source=root/method/'screen_preparation.json';manifest=json.loads(source.read_text());sources[str(source)]=sha(source)
         if manifest.get('inventory_sha256',sha(invpath))!=sha(invpath):raise ValueError('Preparation inventory drift: '+method)
@@ -83,6 +91,9 @@ def main():
                   'vdw_review_flag':'NOT_EVALUATED','poi_reference_max_overlap_A':baselines[name]['poi']['max_vdw_overlap_A'],
                   'vhl_reference_max_overlap_A':baselines[name]['vhl']['max_vdw_overlap_A'],
                   'poi_overlap_change_from_reference_A':None,'vhl_overlap_change_from_reference_A':None,
+                  'poi_worst_protein_atom':None,'poi_worst_contact_class':None,
+                  'poi_max_backbone_overlap_A':None,'poi_backbone_overlap_change_A':None,
+                  'poi_max_sidechain_overlap_A':None,'poi_sidechain_overlap_change_A':None,
                   'production_ready':False}
                 try:
                     poi=sterics(run/'poi_head.sdf',run/'protein.pdb');vhl=sterics(run/'vhl_head.sdf',run/'vbc.pdb')
@@ -91,7 +102,13 @@ def main():
                          vhl_max_vdw_overlap_A=vhl['max_vdw_overlap_A'],
                          vdw_review_flag='OVERLAP_REVIEW_NEEDED' if any(x['max_vdw_overlap_A'] is not None and x['max_vdw_overlap_A']>.6 for x in (poi,vhl)) else 'WITHIN_OPERATIONAL_SCREEN',
                          poi_overlap_change_from_reference_A=poi['max_vdw_overlap_A']-baselines[name]['poi']['max_vdw_overlap_A'],
-                         vhl_overlap_change_from_reference_A=vhl['max_vdw_overlap_A']-baselines[name]['vhl']['max_vdw_overlap_A'])
+                         vhl_overlap_change_from_reference_A=vhl['max_vdw_overlap_A']-baselines[name]['vhl']['max_vdw_overlap_A'],
+                         poi_worst_protein_atom=poi['max_overlap_protein_atom_name'],
+                         poi_worst_contact_class='BACKBONE' if poi['max_overlap_protein_atom_name'] in {'N','CA','C','O','OXT'} else 'SIDECHAIN',
+                         poi_max_backbone_overlap_A=poi['max_backbone_vdw_overlap_A'],
+                         poi_backbone_overlap_change_A=poi['max_backbone_vdw_overlap_A']-baselines[name]['poi']['max_backbone_vdw_overlap_A'] if poi['max_backbone_vdw_overlap_A'] is not None and baselines[name]['poi']['max_backbone_vdw_overlap_A'] is not None else None,
+                         poi_max_sidechain_overlap_A=poi['max_sidechain_vdw_overlap_A'],
+                         poi_sidechain_overlap_change_A=poi['max_sidechain_vdw_overlap_A']-baselines[name]['poi']['max_sidechain_vdw_overlap_A'] if poi['max_sidechain_vdw_overlap_A'] is not None and baselines[name]['poi']['max_sidechain_vdw_overlap_A'] is not None else None)
                 except (ValueError,RuntimeError,OSError) as exc:entry['vdw_review_flag']='ERROR:'+str(exc)
                 candidate_rows.append(entry)
     write_table(a.output/'COVERAGE_BY_COMPOUND.tsv',method_summary)
@@ -113,7 +130,10 @@ def main():
           'hash_identity_integrity':dict(Counter(x['hash_identity_integrity'] for x in rows)),
           'steric_review':dict(Counter(x['vdw_review_flag'] for x in rows)),
           'poi_overlap_increase_over_reference_counts':{str(margin):sum(x['poi_overlap_change_from_reference_A'] is not None and x['poi_overlap_change_from_reference_A']>margin for x in rows) for margin in (0.,.2,.5)},
-          'vhl_overlap_increase_over_reference_gt0p2A':sum(x['vhl_overlap_change_from_reference_A'] is not None and x['vhl_overlap_change_from_reference_A']>.2 for x in rows)}
+          'vhl_overlap_increase_over_reference_gt0p2A':sum(x['vhl_overlap_change_from_reference_A'] is not None and x['vhl_overlap_change_from_reference_A']>.2 for x in rows),
+          'worst_poi_contact_class':dict(Counter(x['poi_worst_contact_class'] for x in rows)),
+          'poi_backbone_overlap_increase_over_reference_gt0p5A':sum(x['poi_backbone_overlap_change_A'] is not None and x['poi_backbone_overlap_change_A']>.5 for x in rows),
+          'poi_sidechain_overlap_increase_over_reference_gt0p5A':sum(x['poi_sidechain_overlap_change_A'] is not None and x['poi_sidechain_overlap_change_A']>.5 for x in rows)}
     (a.output/'COVERAGE_AUDIT.json').write_text(json.dumps(summary,indent=2,allow_nan=False)+'\n')
     print(json.dumps({k:v for k,v in summary.items() if k!='sources_sha256'},indent=2))
 

@@ -1,0 +1,13 @@
+{
+  "status": "FAILED",
+  "scope": "static parameter/load compatibility only",
+  "MD": false,
+  "started_unix": 1794732693.764143,
+  "source_hashes": {
+    "vhl_head.sdf": "37981dea105e48f8f26c666222ecad4ea8659270b46f0df9789fa49655a4a5d2",
+    "poi_modeled_head.sdf": "3d10b7996184ca9944daa1e3ca1e6d5555541b9f87f2cb76784b580ee7893625",
+    "AKT1_parent_protein.pdb": "a7e99dce8bf79b22ff840e5a85337e474cec4968d6dd32865138f92fa732d4dc"
+  },
+  "error": "RuntimeError('\\n\\nFile: /home/benchmark/rosetta/source/src/utility/options/OptionCollection.cc:1467\\nOption matching -jran42 not found in command line top-level context\\nDid you mean:\\n\\t -run:jran\\n')",
+  "finished_unix": 1794732695.8055525
+}

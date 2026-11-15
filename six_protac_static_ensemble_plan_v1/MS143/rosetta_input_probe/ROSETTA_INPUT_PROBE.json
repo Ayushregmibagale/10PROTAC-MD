@@ -1,0 +1,29 @@
+{
+  "status": "STATIC_INPUT_LOAD_PASSED_NOT_SCIENTIFIC_RELEASE",
+  "scope": "static parameter/load compatibility only",
+  "MD": false,
+  "started_unix": 1794732736.049993,
+  "source_script_sha256": "1644a8e8b1d00c9035102bd463b8cd6cc21c76df0230011723269843587e53c9",
+  "source_hashes": {
+    "vhl_head.sdf": "37981dea105e48f8f26c666222ecad4ea8659270b46f0df9789fa49655a4a5d2",
+    "poi_modeled_head.sdf": "3d10b7996184ca9944daa1e3ca1e6d5555541b9f87f2cb76784b580ee7893625",
+    "AKT1_parent_protein.pdb": "a7e99dce8bf79b22ff840e5a85337e474cec4968d6dd32865138f92fa732d4dc"
+  },
+  "rosetta_flags": "-mute all -constant_seed -jran 42 -ignore_unrecognized_res false -load_PDB_components false -extra_res_fa /tmp/six_protac_ms143_rosetta_probe_v2/PT0.params -extra_res_fa /tmp/six_protac_ms143_rosetta_probe_v2/PT1.params",
+  "protein_CA_count": 330,
+  "max_protein_CA_displacement_A": 0.0,
+  "head_heavy_atoms": 35,
+  "max_head_displacement_A": 0.000655743852428875,
+  "phospho_residue_type": "THR:phosphorylated",
+  "phosphate_atom_preserved": true,
+  "parameter_hashes": {
+    "PT0.params": "10672ec36858aed53f17767c8065b6c61c8175d6dc6b6a6d40a2dfeba9aff53e",
+    "PT1.params": "1b937ffce3c2d1b88214733b111cccf0dac869ebb926ff3255731004ae2a6203"
+  },
+  "limitations": [
+    "Input loading is not a binding-mode validation",
+    "No kinase-domain transfer or ternary docking performed",
+    "Protonation/assay-state review remains pending; no dominant solution-state population claimed"
+  ],
+  "finished_unix": 1794732738.0201995
+}

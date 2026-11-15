@@ -35,6 +35,14 @@ class AnalysisEdgeCases(unittest.TestCase):
             restricted=coverage.sterics(head,protein,chains={'A','B','C'})
             allchains=coverage.sterics(head,protein)
             self.assertGreater(allchains['max_vdw_overlap_A'],3.)
+            self.assertGreater(allchains['max_backbone_vdw_overlap_A'],3.)
             self.assertLess(restricted['max_vdw_overlap_A'],.8)
+    def test_missing_pocket_contact_is_an_explicit_error(self):
+        source=BASE/'reference_inputs/7PI4_GSK215';head=source/'vhl_head.sdf'
+        with tempfile.TemporaryDirectory(prefix='six-static-far-') as tmp:
+            protein=Path(tmp)/'protein.pdb'
+            protein.write_text('ATOM      1  CA  ALA D   1    1000.0001000.0001000.000  1.00 20.00           C  \nEND\n')
+            with self.assertRaisesRegex(ValueError,'review placement/frame'):
+                coverage.sterics(head,protein)
 
 if __name__=='__main__':unittest.main()

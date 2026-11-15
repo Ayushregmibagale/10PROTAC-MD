@@ -1,40 +1,29 @@
 {
-  "updated_at_utc": "2026-11-15T01:35:58.853565+00:00",
+  "updated_at_utc": "2026-11-15T10:17:59.166758+00:00",
   "scope": "six-compound pRosettaC/static analysis/GNN",
   "MD_authorized": false,
   "MD_required": false,
-  "overall": "ERNIE_REFERENCE_PILOT_RUNNING",
+  "overall": "REFERENCE_QUALIFICATION_INCOMPLETE",
   "registry_identity_verified": 6,
-  "MS143_preparation": "Initial lowest-UFF candidate rejected by vdW review. One of12fixed-scaffold trials (seed4) passes0.6Aoverlap; remains modeled/review-pending.",
-  "remote_jobs_launched": true,
+  "MS143_preparation": "Modeled seed4 candidate passes operational sterics; Rosetta typing/load and declared TPO308 presence checks pass. Full docking qualification pending.",
+  "remote_jobs_launched": false,
   "next": [
-    "monitor bounded reference pilot",
-    "assess recovery and measured resources",
-    "review MS143 bound geometry/state",
-    "freeze verified coverage/label table before production release"
+    "Complete local 500-global x1-local comparison and verify raw receipts",
+    "Resolve MZ1 recovery without selecting by native answer or loosening gates",
+    "Resolve pocket placement clashes and qualify six-compound technical pilot",
+    "Prepare concrete Ernie commands/resources and ask approval before campaign submission"
   ],
   "remote_scope": "bounded reference/resource pilot, not kinome production",
   "remote_root": "/home/s1638308/ernie_static_reference_pilot_v1",
-  "remote_supervisor_pid": 313406,
+  "remote_supervisor_pid": null,
   "remote_poll_command": "ssh ernie 'cat /home/s1638308/ernie_static_reference_pilot_v1/STATUS.json'",
   "remote_stop_command": "ssh ernie 'touch /home/s1638308/ernie_static_reference_pilot_v1/STOP'",
   "native_reference_recovery": {
-    "MZ1": "0/62pass; best POI RMSD9.9949A",
-    "GSK215": "1/3pass; best POI RMSD4.5861A; top1fails"
+    "MZ1": "0/187 pass; best RMSD 8.3451 A",
+    "GSK215": "3/8 pass; best RMSD 1.5628 A; top1 passes"
   },
   "remote_last_snapshot_heartbeat_unix": 1794704998.8588228,
-  "remote_tasks": [
-    {
-      "name": "native_7PI4_GSK215_seed42",
-      "status": "COMPLETE",
-      "engine_status": "COMPLETE_NO_VALID_POSES"
-    },
-    {
-      "name": "global_7PI4_GSK215_seed42",
-      "status": "RUNNING",
-      "engine_status": null
-    }
-  ],
+  "remote_tasks": "Completed; no additional campaign submitted",
   "scientific_production_release": false,
   "campaign_submission_requires_user_approval_when_ready": true,
   "additional_remote_submissions_authorized": false,
@@ -51,5 +40,7 @@
     "manifest_identifiers": 690,
     "proteins_with_defined_domains": 435,
     "domain_structure_rows": 770
-  }
+  },
+  "local_comparison_root": "/tmp/six_protac_matched_budget_comparison_v1",
+  "raw_archive": "/mnt/c/Users/Ayush Regmi Bagale/10PROTAC_static_campaign_raw/ernie_reference_pilot_20261115/full_pilot_raw.tar.gz"
 }

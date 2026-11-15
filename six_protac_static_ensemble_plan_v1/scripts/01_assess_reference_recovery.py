@@ -51,9 +51,10 @@ def main():
     p=argparse.ArgumentParser(description=__doc__)
     p.add_argument('--runs',type=Path,required=True);p.add_argument('--output',type=Path,required=True)
     p.add_argument('--references',type=Path,help='Separate evaluation-only <reference>/native_complex.pdb files; never required as generation inputs')
+    p.add_argument('--reference',action='append',choices=('5T35_MZ1','7PI4_GSK215'),help='Assess selected completed reference(s); defaults to both')
     a=p.parse_args();a.output.mkdir(parents=True,exist_ok=True)
     rows=[];summaries=[]
-    for ref in ('5T35_MZ1','7PI4_GSK215'):
+    for ref in a.reference or ('5T35_MZ1','7PI4_GSK215'):
         run=a.runs/f'global_{ref}_seed42';state=json.loads((run/'engine_status.json').read_text())
         if state['status'] not in ('COMPLETE','COMPLETE_NO_VALID_POSES'):raise ValueError('Not a complete retained-output run')
         selection=json.loads((run/'selection.json').read_text())
@@ -103,7 +104,8 @@ def main():
         w=csv.DictWriter(f,fieldnames=fields,delimiter='\t',lineterminator='\n');w.writeheader();w.writerows(rows)
     report={'status':'EVALUATED_FROZEN_GATE','summary':summaries,
       'limitations':['One seed at a small budget; not a convergence study','Engine chemistry/gross-clash QC inherited; no new independent chemistry assay',
-                    'This is a structural benchmark, not a degradation predictor','Native coordinates not used for generation in these global runs']}
+                    'This is a structural benchmark, not a degradation predictor',
+                    'Global redocking uses reference-crystal bound binary structures and heads; no native ternary target coordinates/restraints guide global sampling']}
     (a.output/'REFERENCE_RECOVERY.json').write_text(json.dumps(report,indent=2)+'\n')
     print(json.dumps(report,indent=2))
 

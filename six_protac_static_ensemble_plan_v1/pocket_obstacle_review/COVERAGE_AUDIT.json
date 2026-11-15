@@ -1,0 +1,227 @@
+{
+  "scope": "Inventory and static preparation review only; no new docking/MD; no biological labels inferred",
+  "registered_compounds": [
+    "GSK215",
+    "SJF8240",
+    "SJF1521",
+    "JNJ1013",
+    "SJF_delta",
+    "MS143"
+  ],
+  "supplier_verified": 6,
+  "merged_manifest_identifiers": 690,
+  "defined_domain_structure_rows": 770,
+  "proteins_with_defined_domains": 435,
+  "missing_defined_domain_files": 0,
+  "methods": {
+    "prepared_screen": {
+      "candidate_structures": 112,
+      "unique_compound_protein_pairs": 102,
+      "hash_identity_integrity": {
+        "PASS": 112
+      },
+      "steric_review": {
+        "OVERLAP_REVIEW_NEEDED": 111,
+        "WITHIN_OPERATIONAL_SCREEN": 1
+      },
+      "poi_overlap_increase_over_reference_counts": {
+        "0.0": 111,
+        "0.2": 106,
+        "0.5": 92
+      },
+      "vhl_overlap_increase_over_reference_gt0p2A": 0,
+      "worst_poi_contact_class": {
+        "SIDECHAIN": 79,
+        "BACKBONE": 33
+      },
+      "poi_backbone_overlap_increase_over_reference_gt0p5A": 74,
+      "poi_sidechain_overlap_increase_over_reference_gt0p5A": 80
+    },
+    "prepared_pocket_screen": {
+      "candidate_structures": 161,
+      "unique_compound_protein_pairs": 130,
+      "hash_identity_integrity": {
+        "PASS": 161
+      },
+      "steric_review": {
+        "OVERLAP_REVIEW_NEEDED": 160,
+        "WITHIN_OPERATIONAL_SCREEN": 1
+      },
+      "poi_overlap_increase_over_reference_counts": {
+        "0.0": 160,
+        "0.2": 155,
+        "0.5": 131
+      },
+      "vhl_overlap_increase_over_reference_gt0p2A": 0,
+      "worst_poi_contact_class": {
+        "SIDECHAIN": 132,
+        "BACKBONE": 29
+      },
+      "poi_backbone_overlap_increase_over_reference_gt0p5A": 96,
+      "poi_sidechain_overlap_increase_over_reference_gt0p5A": 124
+    }
+  },
+  "source_head_steric_baselines": {
+    "GSK215": {
+      "poi": {
+        "head_heavy_atoms": 36,
+        "min_distance_A": 2.9725866054949703,
+        "max_vdw_overlap_A": 0.22741339450502984,
+        "max_overlap_pair": [
+          23,
+          "('p', 0, 'D', (' ', 502, ' '), ('N', ' '))"
+        ],
+        "head_atoms_within4A": 29,
+        "max_overlap_protein_atom_name": "N",
+        "max_backbone_vdw_overlap_A": 0.22741339450502984,
+        "max_sidechain_vdw_overlap_A": 0.12123180483619045
+      },
+      "vhl": {
+        "head_heavy_atoms": 31,
+        "min_distance_A": 2.502984272291322,
+        "max_vdw_overlap_A": 0.6470157277086783,
+        "max_overlap_pair": [
+          14,
+          "('p', 0, 'A', (' ', 115, ' '), ('ND1', ' '))"
+        ],
+        "head_atoms_within4A": 26,
+        "max_overlap_protein_atom_name": "ND1",
+        "max_backbone_vdw_overlap_A": 0.4221027600912808,
+        "max_sidechain_vdw_overlap_A": 0.6470157277086783
+      },
+      "reference_folder": "/home/ayushregmibagale/10PROTAC-MD/reference_structures/validated/GSK215"
+    },
+    "SJF8240": {
+      "poi": {
+        "head_heavy_atoms": 37,
+        "min_distance_A": 2.893938144821787,
+        "max_vdw_overlap_A": 0.25606185517821345,
+        "max_overlap_pair": [
+          26,
+          "('p', 0, 'D', (' ', 1110, ' '), ('NZ', ' '))"
+        ],
+        "head_atoms_within4A": 37,
+        "max_overlap_protein_atom_name": "NZ",
+        "max_backbone_vdw_overlap_A": 0.14944373484466666,
+        "max_sidechain_vdw_overlap_A": 0.25606185517821345
+      },
+      "vhl": {
+        "head_heavy_atoms": 30,
+        "min_distance_A": 2.594906657775904,
+        "max_vdw_overlap_A": 0.5443995335987544,
+        "max_overlap_pair": [
+          11,
+          "('p', 0, 'A', (' ', 115, ' '), ('ND1', ' '))"
+        ],
+        "head_atoms_within4A": 24,
+        "max_overlap_protein_atom_name": "ND1",
+        "max_backbone_vdw_overlap_A": 0.33159435846387764,
+        "max_sidechain_vdw_overlap_A": 0.5443995335987544
+      },
+      "reference_folder": "/home/ayushregmibagale/10PROTAC-MD/reference_structures/validated/SJF8240"
+    },
+    "SJF1521": {
+      "poi": {
+        "head_heavy_atoms": 34,
+        "min_distance_A": 2.9600441320278503,
+        "max_vdw_overlap_A": 0.2500024072175475,
+        "max_overlap_pair": [
+          17,
+          "('p', 0, 'D', (' ', 788, ' '), ('O', ' '))"
+        ],
+        "head_atoms_within4A": 28,
+        "max_overlap_protein_atom_name": "O",
+        "max_backbone_vdw_overlap_A": 0.2500024072175475,
+        "max_sidechain_vdw_overlap_A": 0.08628820746596988
+      },
+      "vhl": {
+        "head_heavy_atoms": 30,
+        "min_distance_A": 2.594906657775904,
+        "max_vdw_overlap_A": 0.5443995335987544,
+        "max_overlap_pair": [
+          11,
+          "('p', 0, 'A', (' ', 115, ' '), ('ND1', ' '))"
+        ],
+        "head_atoms_within4A": 24,
+        "max_overlap_protein_atom_name": "ND1",
+        "max_backbone_vdw_overlap_A": 0.33159435846387764,
+        "max_sidechain_vdw_overlap_A": 0.5443995335987544
+      },
+      "reference_folder": "/home/ayushregmibagale/10PROTAC-MD/modeled_reference_candidates/SJF1521"
+    },
+    "JNJ1013": {
+      "poi": {
+        "head_heavy_atoms": 29,
+        "min_distance_A": 2.691390463146285,
+        "max_vdw_overlap_A": 0.45860953685371575,
+        "max_overlap_pair": [
+          24,
+          "('p', 0, 'D', (' ', 358, ' '), ('OD1', ' '))"
+        ],
+        "head_atoms_within4A": 24,
+        "max_overlap_protein_atom_name": "OD1",
+        "max_backbone_vdw_overlap_A": 0.13426853363269586,
+        "max_sidechain_vdw_overlap_A": 0.45860953685371575
+      },
+      "vhl": {
+        "head_heavy_atoms": 31,
+        "min_distance_A": 2.502984272291322,
+        "max_vdw_overlap_A": 0.6470157277086783,
+        "max_overlap_pair": [
+          14,
+          "('p', 0, 'A', (' ', 115, ' '), ('ND1', ' '))"
+        ],
+        "head_atoms_within4A": 26,
+        "max_overlap_protein_atom_name": "ND1",
+        "max_backbone_vdw_overlap_A": 0.4221027600912808,
+        "max_sidechain_vdw_overlap_A": 0.6470157277086783
+      },
+      "reference_folder": "/home/ayushregmibagale/10PROTAC-MD/modeled_reference_candidates/JNJ1013"
+    },
+    "SJF_delta": {
+      "poi": {
+        "head_heavy_atoms": 37,
+        "min_distance_A": 2.893938144821787,
+        "max_vdw_overlap_A": 0.25606185517821345,
+        "max_overlap_pair": [
+          26,
+          "('p', 0, 'D', (' ', 1110, ' '), ('NZ', ' '))"
+        ],
+        "head_atoms_within4A": 37,
+        "max_overlap_protein_atom_name": "NZ",
+        "max_backbone_vdw_overlap_A": 0.14944373484466666,
+        "max_sidechain_vdw_overlap_A": 0.25606185517821345
+      },
+      "vhl": {
+        "head_heavy_atoms": 39,
+        "min_distance_A": 2.5219790224241123,
+        "max_vdw_overlap_A": 0.8780209775758876,
+        "max_overlap_pair": [
+          24,
+          "('p', 0, 'A', (' ', 69, ' '), ('CG', ' '))"
+        ],
+        "head_atoms_within4A": 33,
+        "max_overlap_protein_atom_name": "CG",
+        "max_backbone_vdw_overlap_A": 0.5746826500068729,
+        "max_sidechain_vdw_overlap_A": 0.8780209775758876
+      },
+      "reference_folder": "/home/ayushregmibagale/10PROTAC-MD/modeled_reference_candidates/SJF_delta"
+    }
+  },
+  "sources_sha256": {
+    "/home/ayushregmibagale/10PROTAC-MD/structure_provenance/domains/domain_inventory.tsv": "080cf6126f1481e337b43c9781829ca75e9e5411865cadf8bd9d416dbe1a6420",
+    "/home/ayushregmibagale/10PROTAC-MD/config/molecules.json": "ec0862e72954593d89a131cf9f5a619ba2719f4d36d5ffed31aedf74e91dbe05",
+    "/home/ayushregmibagale/10PROTAC-MD/structures/merged_manifest.tsv": "c2ed8cf26512e9bb15029152349501535bdfcada9801746f9f2e7d6aff15108d",
+    "/home/ayushregmibagale/10PROTAC-MD/prepared_screen/screen_preparation.json": "cb185d93847104f6a0414f0ad1b7631e1507d0d4b0da055e6c4c1a46fddedc2b",
+    "/home/ayushregmibagale/10PROTAC-MD/prepared_pocket_screen/screen_preparation.json": "773ef79c753f911b3eb57af00006d5772180bf9f6f57feb5addd9dbbc00b2f8a"
+  },
+  "limitations": [
+    "Candidate counts include structure variants; methods are alternative preparation cohorts, not additive biological samples",
+    "An ATP-pocket fit is not evidence of binding across the kinome",
+    "Overlap0.6A is an operational review flag, not an experimentally calibrated binding threshold; native GSK215 VHL baseline itself exceeds it",
+    "Continuous differences from the corresponding bound-head baseline distinguish inherited source contacts from transfer-induced overlaps",
+    "Protein repacking/alternative conformations may resolve some overlaps; this review does not change or relax the source inputs",
+    "No MS143 cross-kinase placements exist in these two preparation cohorts",
+    "Full campaign release pending reference recovery, preparation review, state coverage, resources and explicit user approval"
+  ]
+}
