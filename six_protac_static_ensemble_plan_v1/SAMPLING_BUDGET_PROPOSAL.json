@@ -1,0 +1,40 @@
+{
+  "status": "PROPOSED_FOR_BENCHMARK_NOT_RELEASED",
+  "MD": false,
+  "first_pass": {
+    "n_dock": 50,
+    "n_local": 10,
+    "conformers": 20,
+    "seeds_per_pair": 1,
+    "local_arrangements": 500,
+    "max_conformer_proposals": 10000
+  },
+  "selective_expansion": {
+    "n_dock": 100,
+    "n_local": 20,
+    "conformers": 50,
+    "local_arrangements": 2000,
+    "max_conformer_proposals": 100000
+  },
+  "deep_subset_only": {
+    "n_dock": 200,
+    "n_local": 50,
+    "conformers": 100,
+    "local_arrangements": 10000,
+    "max_conformer_proposals": 1000000
+  },
+  "reference_seeds": [
+    42,
+    7,
+    123
+  ],
+  "workers": "measure and allocate on Ernie; not inferred from available CPUs",
+  "release_requirements": [
+    "reference recovery",
+    "measured runtime/storage",
+    "pose diversity/stability",
+    "common-budget primary comparison"
+  ],
+  "no_hit_policy": "explicit finite-sampling outcome, never an experimental negative",
+  "interpretation": "nominal conformer proposals exclude global rejected trials and internal embedding retries; not final pose counts"
+}

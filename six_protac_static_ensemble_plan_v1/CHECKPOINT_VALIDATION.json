@@ -10,5 +10,6 @@
     "scheduler_in_PATH": false,
     "pyrosetta_import": "passed; module __version__ unavailable"
   },
-  "plan_sha256": "a864bdaa23a227a64df5df9b53daab3e6538d0d305143a496109ea037476def9"
+  "plan_sha256": "f7befa66f05c967279d7b0b12bf9bca445770458fd128a77d9e13db0cb2e09ce",
+  "budget_validation": "arithmetic checked; structural sufficiency/runtime not yet established"
 }

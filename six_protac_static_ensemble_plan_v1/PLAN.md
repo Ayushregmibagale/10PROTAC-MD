@@ -151,10 +151,20 @@ This review inspected selected registry, status, receipt and report records. It 
 
 The user requested continuation and regular GitHub updates, prioritizing pRosettaC on Ernie as soon as practical. This authorizes progressing toward a bounded remote docking pilot and then staged release under measured resource and structural checks; it does not revive the old MD plan. Current next actions: MS143 bound-head preparation; reconcile stopped reference outputs; check remote access/runtime/storage and prepare an isolated repaired engine. Do not launch the legacy invalid inputs or certify failed recovery as successful.
 
-## 12. pRosettaC sampling budget clarification
+## 12. Revised sampling strategy after scale review
 
-Current engine production defaults per compound-target pair and seed: N=200 accepted global orientations; 50 local poses per global orientation; up to 100 linker conformers per local pose. This is 10,000 local arrangements and up to 1,000,000 conformer proposals. Generated conformers, scored structures, QC-valid structures and retained clusters are different counts. These defaults are not a released kinome budget.
+The user challenged the cost of200global ×50local ×100conformers across6compounds ×600kinases. These are inherited defaults, not an authorized production budget. No full-scale campaign has launched. No MD will be run for these six compounds.
 
-Existing reference pilot: 50 global × 5 local × 2 conformers, seed42. Proposed bounded next pilot: measure full conformer-budget behavior on the reference panel, then compare 50 versus 200 global orientations with 50 local poses and up to100 conformers; three seeds on selected controls for sampling sensitivity. Freeze measured runtime/storage and recovery before production expansion. Do not automatically run three full-budget seeds on every kinome pair.
+Published methods are not equivalent counting units:
+- Bai2022:20initial global decoys; top10seed a10×1000global search; top5000clustered at3Å;200cluster representatives seed200×1000local decoys; top20000considered for full ternary generation. These are docking decoys, not200000valid full-PROTAC poses. https://pmc.ncbi.nlm.nih.gov/articles/PMC9019245/
+- PROTACMap: approximately400–1400generated protein-pair conformations per system, followed by filtering/clustering and subsequent linker assessment. This is not the cost of an identical number of full pRosettaC models. https://pmc.ncbi.nlm.nih.gov/articles/PMC13404913/
+- COMPASS:20000RosettaDock candidate protein arrangements per system, then filtering/clustering and separate linker screening. https://pmc.ncbi.nlm.nih.gov/articles/PMC13372713/
 
-For GNN input, test a practical cap such as20–50 diverse cluster representatives per pair and quantify stability to the cap; it is a downstream representation choice, not permission to generate only20 poses. Record insufficient sampling instead of inventing poses. No new MD is part of this campaign.
+Proposed budget to TEST on references and a representative subset:
+1. Broad first pass: N=50accepted global orientations ×10local poses ×up to20linker conformers. This is500local arrangements and at most10000conformer proposals per compound-target pair, one seed initially. At3600eligible pairs this is1.8million local arrangements and up to36million conformer proposals, excluding global rejected trials/internal embedding retries. This is100-fold fewer proposals than the inherited defaults, not a measured100-fold speedup.
+2. Selective expansion: N=100 ×20local ×up to50conformers =2000local arrangements/up to100000proposals per pair. Use for sampling-unstable cases, benchmark controls, and a prespecified representative sample of apparently negative/no-hit cases. Do not deepen only promising predictions or select sampling by degradation labels.
+3. Deep diagnostics only: inherited200×50×100, if needed to investigate convergence on a small subset and if measured cost permits. Not the default for3600pairs.
+
+The first-pass budget is provisional: validate recovery, valid-pose diversity and runtime before release. Use three seeds on selected controls to assess reproducibility, not automatically every pair. Keep primary comparisons at a common budget, and report expanded analyses separately to avoid sampling-effort bias in productive fractions and GNN inputs. If the small budget misses known structures or changes rankings substantially, revise the policy before scaling rather than declaring unproductive targets negative.
+
+Keep a proposed20–50diverse cluster representatives for downstream GNN input, testing score stability to that cap. Do not fabricate additional representatives when few valid poses exist. All raw counters/statuses remain available; sampled conformers are not independent biological observations or equilibrium populations.
