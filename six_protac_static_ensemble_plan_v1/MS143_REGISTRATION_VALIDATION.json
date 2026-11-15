@@ -1,0 +1,14 @@
+{
+  "verified_compounds": 6,
+  "original_five_registry_entries_unchanged": true,
+  "MS143": {
+    "status": "IDENTITY_VERIFIED",
+    "formula": "C59H81ClN12O6S",
+    "inchikey": "DESJGFOSPPNXOH-XUXNHVGISA-N",
+    "molecular_weight": 1121.8949999999993,
+    "catalog": "8081",
+    "source": "https://www.rndsystems.com/products/ms-143_8081",
+    "pose_status": "supplier_identity_verified_pose_pending"
+  },
+  "bound_pose_ready": false
+}

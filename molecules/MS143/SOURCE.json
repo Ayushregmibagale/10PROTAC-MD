@@ -1,0 +1,20 @@
+{
+  "catalog": "8081",
+  "cas": "2376137-41-4",
+  "formula": "C59H81ClN12O6S",
+  "inchikey": "DESJGFOSPPNXOH-XUXNHVGISA-N",
+  "source": "https://www.rndsystems.com/products/ms-143_8081",
+  "structure_source": "https://www.tocris.com/cn/products/ms-143_8081",
+  "retrieved": "2026-11-15",
+  "smiles": "O=C(N1[C@@H](C[C@H](C1)O)C(NCC2=CC=C(C3=C(N=CS3)C)C=C2)=O)[C@H](C(C)(C)C)NC(CCCCCCCCCCC(N(CC4)CCN4CC[C@@H](C5=CC=C(C=C5)Cl)NC(C6(CCN(CC6)C7=C8C(NC=C8)=NC=N7)N)=O)=O)=O",
+  "reference": {
+    "pdb": "4GV1",
+    "kind": "parent_ligand_only_requires_atom_mapping",
+    "parent": "AZD5363",
+    "status": "candidate_not_prepared"
+  },
+  "status": "supplier_identity_verified_pose_pending",
+  "binding_mode": "ATP_competitive_AZD5363_derived",
+  "e3_ligase": "VHL",
+  "primary_publication": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8900464/"
+}

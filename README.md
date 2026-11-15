@@ -11,7 +11,9 @@ GSK215 (7818), SJF8240 (7266), SJF1521 (7261), JNJ1013 (8029), SJF_delta (7267).
 `config/molecules.json` records supplier isomeric SMILES, formula, InChIKey,
 CAS and source URLs. `molecules/verification.json` records machine checks.
 SJF_delta is Tocris catalog 7267; its distinct VHL attachment is retained in the registry.
-The current verified registry contains these five compounds.
+The current verified registry contains six purchased Tocris/Bio-Techne compounds, including MS143 (8081). MS143 identity is verified; its bound-head preparation, Rosetta parameters and docking qualification remain pending. Existing five-compound benchmark and parameter receipts do not cover MS143.
+
+The active static-only campaign plan is [six_protac_static_ensemble_plan_v1/PLAN.md](six_protac_static_ensemble_plan_v1/PLAN.md). No new MD is required. The user requested continued work and GitHub checkpoints on 15 November 2026.
 
 ## Repaired preparation and analysis
 

@@ -1,0 +1,15 @@
+{
+  "updated_at_utc": "2026-11-15T00:43:56.084042+00:00",
+  "scope": "six-compound pRosettaC/static analysis/GNN",
+  "MD_authorized": false,
+  "MD_required": false,
+  "overall": "PREPARING_DOCKING_PILOT",
+  "registry_identity_verified": 6,
+  "MS143_preparation": "identity_verified_bound_heads_parameters_pending",
+  "remote_jobs_launched": false,
+  "next": [
+    "audit stopped reference receipts",
+    "prepare MS143 bound references",
+    "check Ernie access/runtime/storage"
+  ]
+}

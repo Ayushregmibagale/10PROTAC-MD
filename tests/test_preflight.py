@@ -56,7 +56,10 @@ def receipt(run):
 def test_supplier_formulas_and_stereochemistry(tmp_path):
     (tmp_path/'config').mkdir();shutil.copy2(ROOT/'config/molecules.json',tmp_path/'config/molecules.json')
     results=supplier.verify(tmp_path)
-    assert sum(r['status']=='IDENTITY_VERIFIED' for r in results.values())==5
+    assert set(results)=={'GSK215','SJF8240','SJF1521','JNJ1013','SJF_delta','MS143'}
+    assert all(r['status']=='IDENTITY_VERIFIED' for r in results.values())
+    assert results['MS143']['catalog']=='8081'
+    assert results['MS143']['inchikey']=='DESJGFOSPPNXOH-XUXNHVGISA-N'
     assert results['SJF_delta']['catalog']=='7267'
 
 def test_published_delta_control_retains_explicit_model_evidence():

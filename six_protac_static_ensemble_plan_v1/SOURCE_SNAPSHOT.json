@@ -1,0 +1,64 @@
+{
+  "reviewed_at_utc": "2026-11-15T00:37:48.708029+00:00",
+  "scope": "selected saved records; no jobs launched or tests rerun",
+  "sources": [
+    {
+      "path": "/home/ayushregmibagale/10PROTAC-MD/config/molecules.json",
+      "sha256": "fdb6f39a2ebab885a13a3733404af44495f2908ac2a8c60e34b65b1619bfb3b4"
+    },
+    {
+      "path": "/home/ayushregmibagale/10PROTAC-MD/molecules/verification.json",
+      "sha256": "ae7825d65526eca500f8299ada34976aaf65ab9b06564cf898e3991fba8593f9"
+    },
+    {
+      "path": "/home/ayushregmibagale/10PROTAC-MD/README.md",
+      "sha256": "b51808cbc1b1e6769b4287b6a7d8fd6f5f012504855b00533d6b404219c74991"
+    },
+    {
+      "path": "/home/ayushregmibagale/10PROTAC-MD/docs/REMEDIATION_STATUS.md",
+      "sha256": "0b3d8894e98a5349f8c23ef776289133f4e63d9e7e76f4767103aa9fee2a0a59"
+    },
+    {
+      "path": "/home/ayushregmibagale/10PROTAC-MD/docs/ML_TRANSFER_SCOPE.md",
+      "sha256": "f3a0a904c5d65fa82a24141fd960c2a14202428492aefc8ba5e350fd097808fd"
+    },
+    {
+      "path": "/home/ayushregmibagale/10PROTAC-MD/validation_evidence/verified_checkpoint_summary.json",
+      "sha256": "1e622d938b5ba5d4ffcb3e7a80dd5e95e4ea072d05f9c548c4f46c298af3b119"
+    },
+    {
+      "path": "/home/ayushregmibagale/10PROTAC-MD/structure_provenance/domains/summary.json",
+      "sha256": "1044d2f7b3eee2fbc591c305a788464153a2a4ef584200102317597b74e1537d"
+    },
+    {
+      "path": "/home/ayushregmibagale/10PROTAC-MD/SJF8240_kinome_screen_analysis/repair_v3/FINDINGS.md",
+      "sha256": "940ce02ef5cc3ece485941640a4dd28d57ec2fdcd20e33a4198f888c42ab9b41"
+    },
+    {
+      "path": "/home/ayushregmibagale/10PROTAC-MD/SJF8240_renanalysis2/ACTIVE_WORK.md",
+      "sha256": "7800ebc44a692b88f337295645c4894fbc91b3fc36222419f99f3c1da96a2692"
+    },
+    {
+      "path": "/home/ayushregmibagale/10PROTAC-MD/SJF8240_renanalysis2/supplier_correct_pilot_v1/STATUS.json",
+      "sha256": "0ae95840c0c310ce07f1d7d98f4f81d30da4f5f55f1be06c8b45a0d30003eef3"
+    },
+    {
+      "path": "/home/ayushregmibagale/10PROTAC-MD/SJF8240_renanalysis2/supplier_correct_pilot_v1/WORK_LOG.md",
+      "sha256": "5ade8b7c35ab66513e8059ee11ef92dde988870993ac0dec2f6f730bfe0aef31"
+    },
+    {
+      "path": "/home/ayushregmibagale/10PROTAC-MD/SJF8240_renanalysis2/supplier_correct_pilot_v1/TODO_AND_RESUME.md",
+      "sha256": "fa40c2db8e322fed9b00aa82081a5265d6bca6f3c58f0afd9e345ab827127ac5"
+    },
+    {
+      "path": "/tmp/sjf_supplier_pilot_runs/global_5T35_MZ1_seed42/engine_raw/result_summary.txt",
+      "sha256": "5876665cbeebbec1e4e49a22be41e5010c512ec0eb2ef619ee21c911539ff916",
+      "archived_excerpt": "source_records/5T35_MZ1_raw_result_summary.txt"
+    },
+    {
+      "path": "/tmp/sjf_supplier_pilot_runs/global_7PI4_GSK215_seed42/engine_raw/result_summary.txt",
+      "sha256": "c2731665594769ef0b434d290f0569b2cbb2aceb3ae29ebe654674d985c0a5fe",
+      "archived_excerpt": "source_records/7PI4_GSK215_raw_result_summary.txt"
+    }
+  ]
+}

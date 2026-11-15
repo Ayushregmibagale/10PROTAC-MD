@@ -1,0 +1,14 @@
+{
+  "registry_regression": "1 passed, 90 deselected",
+  "test_command": "PYTHONDONTWRITEBYTECODE=1 python3 -m pytest -q -p no:cacheprovider --basetemp=/tmp/ms143_pytest tests/test_preflight.py -k supplier_formulas_and_stereochemistry",
+  "six_supplier_identities_verified": true,
+  "MD_authorized": false,
+  "remote_production_started": false,
+  "ernie_observation": {
+    "CPUs": 96,
+    "home_available_bytes": 1496504999936,
+    "scheduler_in_PATH": false,
+    "pyrosetta_import": "passed; module __version__ unavailable"
+  },
+  "plan_sha256": "a864bdaa23a227a64df5df9b53daab3e6538d0d305143a496109ea037476def9"
+}

@@ -1,0 +1,28 @@
+{
+  "source": "Tocris/Bio-Techne",
+  "catalog": "8081",
+  "validation": {
+    "verified_compounds": 6,
+    "original_five_registry_entries_unchanged": true,
+    "MS143": {
+      "status": "IDENTITY_VERIFIED",
+      "formula": "C59H81ClN12O6S",
+      "inchikey": "DESJGFOSPPNXOH-XUXNHVGISA-N",
+      "molecular_weight": 1121.8949999999993,
+      "catalog": "8081",
+      "source": "https://www.rndsystems.com/products/ms-143_8081",
+      "pose_status": "supplier_identity_verified_pose_pending"
+    },
+    "bound_pose_ready": false
+  },
+  "backup": "/home/ayushregmibagale/10PROTAC-MD/audit_baselines/before_MS143_registration_20261115T004356Z",
+  "files": {
+    "config/molecules.json": "ec0862e72954593d89a131cf9f5a619ba2719f4d36d5ffed31aedf74e91dbe05",
+    "molecules/verification.json": "370d341a93b865bfdb77731afd1afd46f16c7794a192fd8b28cab2870aa74f5c",
+    "molecules/MS143/full.smi": "ac4c1b9042734a6ba4ca3a299e521aa6afab57e70016cf88bf91941c2f69074d",
+    "molecules/MS143/SOURCE.json": "53542ad013d5f06004064a2c499441bd9fe4c550327d1457e0d267bf07ecadbb",
+    "README.md": "997994c7a97e2b81907287e4b6670775db01bbc4a9f3efbb3d7cf45c2a8400dd",
+    "six_protac_static_ensemble_plan_v1/PLAN.md": "c625184dc089722760a375ea40cf56ad7d94e1df1b146bfb64ecaee9d376ec37",
+    "six_protac_static_ensemble_plan_v1/PLAN.docx": "ead00a796250c465f7d86acbb2bfdaebe1403bb4c1ce2c8efc92a51e317ded79"
+  }
+}

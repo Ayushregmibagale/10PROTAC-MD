@@ -1,0 +1,5 @@
+250 local docking solutions were generated.
+123 final models with finite raw scores were generated.
+123 top final models were clustered.
+114 clusters were generated.
+Out of them 0 have at least 5 members.

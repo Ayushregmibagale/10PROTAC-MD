@@ -43,5 +43,14 @@
     "catalog": "7267",
     "source": "https://www.rndsystems.com/products/sjfdelta_7267",
     "pose_status": "supplier_identity_verified_pose_pending"
+  },
+  "MS143": {
+    "status": "IDENTITY_VERIFIED",
+    "formula": "C59H81ClN12O6S",
+    "inchikey": "DESJGFOSPPNXOH-XUXNHVGISA-N",
+    "molecular_weight": 1121.8949999999993,
+    "catalog": "8081",
+    "source": "https://www.rndsystems.com/products/ms-143_8081",
+    "pose_status": "supplier_identity_verified_pose_pending"
   }
 }

@@ -1,0 +1,82 @@
+{
+  "reviewed_at_utc": "2026-11-15T00:45:11.494727+00:00",
+  "runs": [
+    {
+      "reference": "5T35_MZ1",
+      "engine_status": "COMPLETE",
+      "stages": {
+        "global_sampling": {
+          "attempted": 352,
+          "succeeded": 50,
+          "rejected": 302,
+          "failed": 0
+        },
+        "local_docking": {
+          "attempted": 250,
+          "succeeded": 250,
+          "rejected": 0,
+          "failed": 0
+        },
+        "linker_modeling": {
+          "attempted": 250,
+          "succeeded": 123,
+          "rejected": 127,
+          "failed": 0
+        },
+        "scoring": {
+          "attempted": 123,
+          "succeeded": 123,
+          "rejected": 0,
+          "failed": 0
+        },
+        "pose_qc": {
+          "attempted": 123,
+          "succeeded": 62,
+          "rejected": 61,
+          "failed": 0
+        }
+      },
+      "source": "/tmp/sjf_supplier_pilot_runs/global_5T35_MZ1_seed42",
+      "recovery_qualified": false
+    },
+    {
+      "reference": "7PI4_GSK215",
+      "engine_status": "COMPLETE",
+      "stages": {
+        "global_sampling": {
+          "attempted": 810,
+          "succeeded": 50,
+          "rejected": 760,
+          "failed": 0
+        },
+        "local_docking": {
+          "attempted": 250,
+          "succeeded": 250,
+          "rejected": 0,
+          "failed": 0
+        },
+        "linker_modeling": {
+          "attempted": 250,
+          "succeeded": 3,
+          "rejected": 247,
+          "failed": 0
+        },
+        "scoring": {
+          "attempted": 3,
+          "succeeded": 3,
+          "rejected": 0,
+          "failed": 0
+        },
+        "pose_qc": {
+          "attempted": 3,
+          "succeeded": 3,
+          "rejected": 0,
+          "failed": 0
+        }
+      },
+      "source": "/tmp/sjf_supplier_pilot_runs/global_7PI4_GSK215_seed42",
+      "recovery_qualified": false
+    }
+  ],
+  "interpretation": "Engine completed before stop; raw pose generation/QC counts do not establish native recovery. Do not restart these runs blindly."
+}
