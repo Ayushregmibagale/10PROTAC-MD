@@ -1,0 +1,12 @@
+{
+  "installed_at_utc": "2026-11-15T01:07:26.807444+00:00",
+  "stage_sources": {
+    "scripts/01_assess_reference_recovery.py": "b20dcc4b6dac7f4a04682ea52867204b2d05faf996f0d4ced7302f5f68bf9ba8",
+    "scripts/02_prepare_ms143_heads.py": "3f40a3f27e7acf2e1759755c38e47ba9624645902b812d78904064a2ff3216a0",
+    "scripts/03_run_ernie_reference_pilot.py": "1e0b02c08714eed24cd3993930f7d65c89ba728289fe2bf03415ce5b11699fdf"
+  },
+  "archive_sha256": "a45063865fb925999f46432e37e9fbf6b87774230de6a2108475e144afb4c83d",
+  "remote_pid": 313406,
+  "remote_root": "/home/s1638308/ernie_static_reference_pilot_v1",
+  "no_MD": true
+}

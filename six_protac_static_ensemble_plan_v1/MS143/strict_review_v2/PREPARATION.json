@@ -1,0 +1,312 @@
+{
+  "compound": "MS143",
+  "catalog": "8081",
+  "supplier_inchikey": "DESJGFOSPPNXOH-XUXNHVGISA-N",
+  "source_structure": "4GV1",
+  "component": "0XZ",
+  "ligand_label_chain": "B",
+  "selected_original_protein_label_chain": "A",
+  "source_sha256": {
+    "4GV1.cif": "0ebc16b0ff4eba6ceccfbff1cf9d5e5b750e1a253f055dd479334aba22d5149c",
+    "0XZ.cif": "a9f2fc6bef64bf4efce7cc7da9aac0eea3dabd33ce3693169da366d6ed6da0a1"
+  },
+  "full_atom_index_basis": "molecules/MS143/full.smi canonical graph; zero based",
+  "cut_bonds": [
+    [
+      23,
+      24
+    ],
+    [
+      38,
+      36
+    ]
+  ],
+  "poi_full_indices": [
+    38,
+    39,
+    40,
+    41,
+    42,
+    43,
+    44,
+    45,
+    46,
+    47,
+    48,
+    49,
+    50,
+    51,
+    52,
+    53,
+    54,
+    55,
+    56,
+    57,
+    58,
+    59,
+    60,
+    61,
+    62,
+    63,
+    64,
+    65,
+    66,
+    67,
+    68,
+    69,
+    70,
+    71,
+    72
+  ],
+  "vhl_full_indices": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    73,
+    74,
+    75,
+    76,
+    77,
+    78
+  ],
+  "head_heavy_atoms": {
+    "poi": 35,
+    "vhl": 30,
+    "linker_excluded_from_heads": 14
+  },
+  "retained_modified_residues": [
+    {
+      "name": "TPO",
+      "number": 308
+    }
+  ],
+  "production_ready": false,
+  "required_reviews": [
+    "modeled piperazine binding geometry",
+    "reference phosphorylation/state",
+    "bound-head anchor correspondence",
+    "docking/QC integration"
+  ],
+  "vhl_reference": "exact graph/stereo match to retained 4W9H-derived head; independent protein frame, not a ternary pose",
+  "poi_anchor_one_based": 1,
+  "vhl_anchor_one_based": 1,
+  "parent_steric_control": {
+    "max_vdw_overlap_A": 0.4825663837882286,
+    "distance_at_max_overlap_A": 2.6674336162117718,
+    "ligand_atom_zero_based": 17,
+    "protein_atom": "('p', 0, 'D', (' ', 234, ' '), ('OE2', ' '))",
+    "radii": "RDKit periodic table van der Waals radii"
+  },
+  "max_overlap_cutoff_A": 0.6,
+  "trials": [
+    {
+      "seed": 1,
+      "coarse_model_pass": false,
+      "steric_pass": false,
+      "reason": "No converged clash-free scaffold-preserving conformer; [{\"seed\": 1, \"reason\": \"Severe protein clash\"}]"
+    },
+    {
+      "seed": 2,
+      "coarse_model_pass": false,
+      "steric_pass": false,
+      "reason": "No converged clash-free scaffold-preserving conformer; [{\"seed\": 2, \"reason\": \"Severe protein clash\"}]"
+    },
+    {
+      "seed": 3,
+      "coarse_model_pass": false,
+      "steric_pass": false,
+      "reason": "No converged clash-free scaffold-preserving conformer; [{\"seed\": 3, \"reason\": \"Severe protein clash\"}]"
+    },
+    {
+      "seed": 4,
+      "coarse_model_pass": true,
+      "steric_pass": true,
+      "max_vdw_overlap_A": 0.5762179670657552,
+      "distance_at_max_overlap_A": 2.7237820329342446,
+      "ligand_atom_zero_based": 33,
+      "protein_atom": "('p', 0, 'D', (' ', 276, ' '), ('NZ', ' '))",
+      "radii": "RDKit periodic table van der Waals radii",
+      "UFF_energy_internal_only": 149.95526443638332
+    },
+    {
+      "seed": 5,
+      "coarse_model_pass": false,
+      "steric_pass": false,
+      "reason": "No converged clash-free scaffold-preserving conformer; [{\"seed\": 5, \"reason\": \"Severe protein clash\"}]"
+    },
+    {
+      "seed": 6,
+      "coarse_model_pass": false,
+      "steric_pass": false,
+      "reason": "No converged clash-free scaffold-preserving conformer; [{\"seed\": 6, \"reason\": \"Severe protein clash\"}]"
+    },
+    {
+      "seed": 7,
+      "coarse_model_pass": false,
+      "steric_pass": false,
+      "reason": "No converged clash-free scaffold-preserving conformer; [{\"seed\": 7, \"reason\": \"Severe protein clash\"}]"
+    },
+    {
+      "seed": 8,
+      "coarse_model_pass": false,
+      "steric_pass": false,
+      "reason": "No converged clash-free scaffold-preserving conformer; [{\"seed\": 8, \"reason\": \"Severe protein clash\"}]"
+    },
+    {
+      "seed": 9,
+      "coarse_model_pass": true,
+      "steric_pass": false,
+      "max_vdw_overlap_A": 1.3221158878827062,
+      "distance_at_max_overlap_A": 2.0778841121172937,
+      "ligand_atom_zero_based": 33,
+      "protein_atom": "('p', 0, 'D', (' ', 276, ' '), ('CE', ' '))",
+      "radii": "RDKit periodic table van der Waals radii",
+      "UFF_energy_internal_only": 149.88565376988595
+    },
+    {
+      "seed": 10,
+      "coarse_model_pass": false,
+      "steric_pass": false,
+      "reason": "No converged clash-free scaffold-preserving conformer; [{\"seed\": 10, \"reason\": \"Severe protein clash\"}]"
+    },
+    {
+      "seed": 11,
+      "coarse_model_pass": true,
+      "steric_pass": false,
+      "max_vdw_overlap_A": 1.5874473665837805,
+      "distance_at_max_overlap_A": 1.8125526334162194,
+      "ligand_atom_zero_based": 1,
+      "protein_atom": "('p', 0, 'D', (' ', 278, ' '), ('CG', ' '))",
+      "radii": "RDKit periodic table van der Waals radii",
+      "UFF_energy_internal_only": 151.38151479108436
+    },
+    {
+      "seed": 12,
+      "coarse_model_pass": true,
+      "steric_pass": false,
+      "max_vdw_overlap_A": 1.3920788505246056,
+      "distance_at_max_overlap_A": 1.9079211494753943,
+      "ligand_atom_zero_based": 0,
+      "protein_atom": "('p', 0, 'D', (' ', 278, ' '), ('CB', ' '))",
+      "radii": "RDKit periodic table van der Waals radii",
+      "UFF_energy_internal_only": 149.62259733915994
+    }
+  ],
+  "strict_steric_pass_count": 1,
+  "status": "MODELED_HEAD_CANDIDATE_REQUIRES_REVIEW",
+  "poi_model": {
+    "method": "fixed_bound_scaffold_analog_model",
+    "experimental_coordinates_for_unmatched_atoms": false,
+    "production_ready": false,
+    "common_scaffold_atoms": 29,
+    "head_atoms": 35,
+    "core_reference_indices_zero_based": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29
+    ],
+    "core_head_indices_zero_based": [
+      30,
+      29,
+      28,
+      27,
+      31,
+      32,
+      26,
+      6,
+      5,
+      4,
+      7,
+      8,
+      9,
+      10,
+      12,
+      13,
+      11,
+      25,
+      24,
+      14,
+      15,
+      16,
+      17,
+      18,
+      23,
+      22,
+      21,
+      20,
+      19
+    ],
+    "reference_match_count": 1,
+    "head_match_count": 1,
+    "symmetry_rule": "first RDKit exact graph match; all counts archived for review",
+    "mcs_smarts": "[#7]1:&@[#6]2:&@[#7]:&@[#6]:&@[#6]:&@[#6]:&@2:&@[#6](:&@[#7]:&@[#6]:&@1)-&!@[#7]1-&@[#6]-&@[#6]-&@[#6](-&@[#6]-&@[#6]-&@1)(-&!@[#6&!R](=&!@[#8&!R])-&!@[#7&!R]-&!@[#6&!R](-&!@[#6]1:&@[#6]:&@[#6]:&@[#6](:&@[#6]:&@[#6]:&@1)-&!@[#17&!R])-&!@[#6&!R]-&!@[#6&!R])-&!@[#7&!R]",
+    "seeds_attempted": [
+      4
+    ],
+    "seeds_valid": 1,
+    "selected_seed": 4,
+    "UFF_energy_internal_only": 149.95526443638332,
+    "min_protein_contact_A": 2.667433371217985,
+    "failed_seeds": [],
+    "review_required": [
+      "modified_atoms_pose",
+      "symmetry_mapping",
+      "binding_mode",
+      "protein_environment_not_in_UFF_energy"
+    ]
+  },
+  "selected_steric_review": {
+    "max_vdw_overlap_A": 0.5762179670657552,
+    "distance_at_max_overlap_A": 2.7237820329342446,
+    "ligand_atom_zero_based": 33,
+    "protein_atom": "('p', 0, 'D', (' ', 276, ' '), ('NZ', ' '))",
+    "radii": "RDKit periodic table van der Waals radii"
+  }
+}

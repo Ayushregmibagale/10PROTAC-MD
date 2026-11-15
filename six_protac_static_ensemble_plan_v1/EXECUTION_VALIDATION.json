@@ -1,0 +1,29 @@
+{
+  "recorded_at_utc": "2026-11-15T01:23:32.511747+00:00",
+  "controller_checks": {
+    "passed": 4,
+    "command": "PYTHONDONTWRITEBYTECODE=1 python3 test_pilot_controller.py"
+  },
+  "MS143_geometry_checks": {
+    "passed": 3,
+    "command": "PYTHONDONTWRITEBYTECODE=1 python3 test_ms143_geometry.py"
+  },
+  "native_recovery_measurement_controls": [
+    "native self-comparison",
+    "common rigid transformation",
+    "incompatible placement"
+  ],
+  "external_evaluation_reference_path_check": "same reported metrics using separate evaluation-only native files",
+  "remote_last_observed_stage": "GSK215 global810attempted,50accepted,760rejected,0failed; local docking started",
+  "scientific_production_release": false,
+  "MD": false,
+  "script_sha256": {
+    "01_assess_reference_recovery.py": "b3e95a2a520dcc7b4fb45c43f353fd1c403362b75f1cc43f3dd31fdb91e2c40c",
+    "02_prepare_ms143_heads.py": "56fef488a92e2a14a22ca78f2fffa7d51421bddd60422c0c27028971df979cae",
+    "03_run_ernie_reference_pilot.py": "1e0b02c08714eed24cd3993930f7d65c89ba728289fe2bf03415ce5b11699fdf",
+    "04_audit_prepared_coverage.py": "6c467d39b317b81b2aabbdc8893ffe8a4b565fb1840ca1ab97c40978ccbf1894"
+  },
+  "isolated_checkout_regression": "8 tests passed in 2.43s",
+  "analysis_edge_cases": "2 tests passed in 1.28s",
+  "checks_passed_total": 10
+}

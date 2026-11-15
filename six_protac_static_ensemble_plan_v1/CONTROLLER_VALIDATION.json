@@ -1,0 +1,12 @@
+{
+  "tests": 4,
+  "result": "PASS",
+  "checks": [
+    "successful terminal receipt",
+    "nonzero subprocess failure propagation",
+    "timeout terminates descendants",
+    "source drift prevents launch"
+  ],
+  "command": "python3 test_pilot_controller.py",
+  "scope": "execution control only, not molecular/scientific validation"
+}

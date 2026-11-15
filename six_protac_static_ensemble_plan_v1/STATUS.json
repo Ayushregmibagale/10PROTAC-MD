@@ -1,15 +1,55 @@
 {
-  "updated_at_utc": "2026-11-15T00:43:56.084042+00:00",
+  "updated_at_utc": "2026-11-15T01:35:58.853565+00:00",
   "scope": "six-compound pRosettaC/static analysis/GNN",
   "MD_authorized": false,
   "MD_required": false,
-  "overall": "PREPARING_DOCKING_PILOT",
+  "overall": "ERNIE_REFERENCE_PILOT_RUNNING",
   "registry_identity_verified": 6,
-  "MS143_preparation": "identity_verified_bound_heads_parameters_pending",
-  "remote_jobs_launched": false,
+  "MS143_preparation": "Initial lowest-UFF candidate rejected by vdW review. One of12fixed-scaffold trials (seed4) passes0.6Aoverlap; remains modeled/review-pending.",
+  "remote_jobs_launched": true,
   "next": [
-    "audit stopped reference receipts",
-    "prepare MS143 bound references",
-    "check Ernie access/runtime/storage"
-  ]
+    "monitor bounded reference pilot",
+    "assess recovery and measured resources",
+    "review MS143 bound geometry/state",
+    "freeze verified coverage/label table before production release"
+  ],
+  "remote_scope": "bounded reference/resource pilot, not kinome production",
+  "remote_root": "/home/s1638308/ernie_static_reference_pilot_v1",
+  "remote_supervisor_pid": 313406,
+  "remote_poll_command": "ssh ernie 'cat /home/s1638308/ernie_static_reference_pilot_v1/STATUS.json'",
+  "remote_stop_command": "ssh ernie 'touch /home/s1638308/ernie_static_reference_pilot_v1/STOP'",
+  "native_reference_recovery": {
+    "MZ1": "0/62pass; best POI RMSD9.9949A",
+    "GSK215": "1/3pass; best POI RMSD4.5861A; top1fails"
+  },
+  "remote_last_snapshot_heartbeat_unix": 1794704998.8588228,
+  "remote_tasks": [
+    {
+      "name": "native_7PI4_GSK215_seed42",
+      "status": "COMPLETE",
+      "engine_status": "COMPLETE_NO_VALID_POSES"
+    },
+    {
+      "name": "global_7PI4_GSK215_seed42",
+      "status": "RUNNING",
+      "engine_status": null
+    }
+  ],
+  "scientific_production_release": false,
+  "campaign_submission_requires_user_approval_when_ready": true,
+  "additional_remote_submissions_authorized": false,
+  "editable_checkout": "/mnt/c/Users/Ayush Regmi Bagale/10PROTAC_static_campaign_work",
+  "coverage_audit": "coverage_audit/COVERAGE_AUDIT.json",
+  "current_release_blockers": [
+    "Reference recovery not yet qualified",
+    "Most kinase-head transfers require steric/pocket review",
+    "MS143 docking integration pending",
+    "Sampling/resource/storage policy not yet qualified",
+    "Final target/assay label table pending"
+  ],
+  "structural_coverage": {
+    "manifest_identifiers": 690,
+    "proteins_with_defined_domains": 435,
+    "domain_structure_rows": 770
+  }
 }

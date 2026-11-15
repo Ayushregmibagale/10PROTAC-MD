@@ -1,0 +1,55 @@
+{
+  "scope": "Inventory and static preparation review only; no new docking/MD; no biological labels inferred",
+  "registered_compounds": [
+    "GSK215",
+    "SJF8240",
+    "SJF1521",
+    "JNJ1013",
+    "SJF_delta",
+    "MS143"
+  ],
+  "supplier_verified": 6,
+  "merged_manifest_identifiers": 690,
+  "defined_domain_structure_rows": 770,
+  "proteins_with_defined_domains": 435,
+  "missing_defined_domain_files": 0,
+  "methods": {
+    "prepared_screen": {
+      "candidate_structures": 112,
+      "unique_compound_protein_pairs": 102,
+      "hash_identity_integrity": {
+        "PASS": 112
+      },
+      "steric_review": {
+        "OVERLAP_REVIEW_NEEDED": 111,
+        "WITHIN_OPERATIONAL_SCREEN": 1
+      }
+    },
+    "prepared_pocket_screen": {
+      "candidate_structures": 161,
+      "unique_compound_protein_pairs": 130,
+      "hash_identity_integrity": {
+        "PASS": 161
+      },
+      "steric_review": {
+        "OVERLAP_REVIEW_NEEDED": 160,
+        "WITHIN_OPERATIONAL_SCREEN": 1
+      }
+    }
+  },
+  "sources_sha256": {
+    "/home/ayushregmibagale/10PROTAC-MD/structure_provenance/domains/domain_inventory.tsv": "080cf6126f1481e337b43c9781829ca75e9e5411865cadf8bd9d416dbe1a6420",
+    "/home/ayushregmibagale/10PROTAC-MD/config/molecules.json": "ec0862e72954593d89a131cf9f5a619ba2719f4d36d5ffed31aedf74e91dbe05",
+    "/home/ayushregmibagale/10PROTAC-MD/structures/merged_manifest.tsv": "c2ed8cf26512e9bb15029152349501535bdfcada9801746f9f2e7d6aff15108d",
+    "/home/ayushregmibagale/10PROTAC-MD/prepared_screen/screen_preparation.json": "cb185d93847104f6a0414f0ad1b7631e1507d0d4b0da055e6c4c1a46fddedc2b",
+    "/home/ayushregmibagale/10PROTAC-MD/prepared_pocket_screen/screen_preparation.json": "773ef79c753f911b3eb57af00006d5772180bf9f6f57feb5addd9dbbc00b2f8a"
+  },
+  "limitations": [
+    "Candidate counts include structure variants; methods are alternative preparation cohorts, not additive biological samples",
+    "An ATP-pocket fit is not evidence of binding across the kinome",
+    "Overlap0.6A is an operational review flag, not an experimentally calibrated binding threshold",
+    "Protein repacking/alternative conformations may resolve some overlaps; this review does not change or relax the source inputs",
+    "No MS143 cross-kinase placements exist in these two preparation cohorts",
+    "Full campaign release pending reference recovery, preparation review, state coverage, resources and explicit user approval"
+  ]
+}

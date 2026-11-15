@@ -1,0 +1,13 @@
+{
+  "latest_report": "strict_review_v2/PREPARATION.json",
+  "status": "MODELED_HEAD_CANDIDATE_REQUIRES_REVIEW",
+  "strict_steric_pass_count": 1,
+  "selected_seed": 4,
+  "initial_root_candidate": "retained for provenance; rejected at vdW steric review; do not submit",
+  "production_ready": false,
+  "remaining": [
+    "binding-mode and chemical-state review",
+    "full input/engine integration",
+    "cross-target pocket transfer validation"
+  ]
+}

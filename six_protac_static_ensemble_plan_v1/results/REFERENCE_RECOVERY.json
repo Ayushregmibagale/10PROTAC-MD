@@ -1,0 +1,45 @@
+{
+  "status": "EVALUATED_FROZEN_GATE",
+  "summary": [
+    {
+      "reference": "5T35_MZ1",
+      "retained_QC_poses": 62,
+      "raw_scored_poses": 123,
+      "gate": "POI CA RMSD after VHL fit <=5A AND native residue contact fraction >=0.5; retained engine chemical/gross-clash QC",
+      "gate_pass_count": 0,
+      "top1_pass": false,
+      "top10_any_pass": false,
+      "best_POI_RMSD_A": 9.994907672307235,
+      "best_native_contact_fraction": 0.26666666666666666,
+      "run_seconds": 1533.6901051998138,
+      "measurement_controls": "native self, common rigid transform, incompatible target placement: passed",
+      "engine_status_sha256": "ab870ac174c5fe56a55faf62deb8ef706867844a8155d554994944be4c65cb21",
+      "score_sha256": "4307bd3ce44fef6a6f1145235b9be8b2db606f8cec14c201e260afd8e8c62c72",
+      "native_sha256": "46d5edea4da18164c177973d0e131aae271b9ca49d3bbb8af589a6c456352713",
+      "biological_validation": false
+    },
+    {
+      "reference": "7PI4_GSK215",
+      "retained_QC_poses": 3,
+      "raw_scored_poses": 3,
+      "gate": "POI CA RMSD after VHL fit <=5A AND native residue contact fraction >=0.5; retained engine chemical/gross-clash QC",
+      "gate_pass_count": 1,
+      "top1_pass": false,
+      "top10_any_pass": true,
+      "best_POI_RMSD_A": 4.586109924188337,
+      "best_native_contact_fraction": 0.625,
+      "run_seconds": 2295.295839548111,
+      "measurement_controls": "native self, common rigid transform, incompatible target placement: passed",
+      "engine_status_sha256": "9f3c30ee6dbc5a5537ca09649b5912d9b588594b526dcfae6fa6f16896c0308e",
+      "score_sha256": "5f27615294b90319984e9dc154e6051d79503b8e34b72deb5b122a5d1c0d66a9",
+      "native_sha256": "b2f8e526142a71c8217f4305e9c84ff4b48e6166391bff56884391b6edd685d7",
+      "biological_validation": false
+    }
+  ],
+  "limitations": [
+    "One seed at a small budget; not a convergence study",
+    "Engine chemistry/gross-clash QC inherited; no new independent chemistry assay",
+    "This is a structural benchmark, not a degradation predictor",
+    "Native coordinates not used for generation in these global runs"
+  ]
+}

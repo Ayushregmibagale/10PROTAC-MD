@@ -1,0 +1,156 @@
+{
+  "status": "RUNNING",
+  "scope": "static reference/resource pilot only",
+  "MD": false,
+  "pid": 313406,
+  "started_unix": 1794704651.4965398,
+  "cpus": [
+    0,
+    1,
+    2,
+    3
+  ],
+  "configuration": {
+    "purpose": "bounded reference/resource benchmark; no kinome production and no MD",
+    "cpu_limit": 4,
+    "poll_seconds": 15,
+    "max_group_RSS_bytes": 25769803776,
+    "max_output_bytes": 10737418240,
+    "min_free_bytes": 53687091200,
+    "tasks": [
+      {
+        "name": "native_7PI4_GSK215_seed42",
+        "reference": "7PI4_GSK215",
+        "seed": 42,
+        "protocol": "native_frame",
+        "n_dock": 1,
+        "n_local": 3,
+        "conformers": 20,
+        "max_global_trials": 20000,
+        "timeout_seconds": 1800
+      },
+      {
+        "name": "global_7PI4_GSK215_seed42",
+        "reference": "7PI4_GSK215",
+        "seed": 42,
+        "protocol": "global",
+        "n_dock": 50,
+        "n_local": 10,
+        "conformers": 20,
+        "max_global_trials": 20000,
+        "timeout_seconds": 28800
+      },
+      {
+        "name": "global_5T35_MZ1_seed42",
+        "reference": "5T35_MZ1",
+        "seed": 42,
+        "protocol": "global",
+        "n_dock": 50,
+        "n_local": 10,
+        "conformers": 20,
+        "max_global_trials": 20000,
+        "timeout_seconds": 28800
+      }
+    ]
+  },
+  "tasks": [
+    {
+      "name": "native_7PI4_GSK215_seed42",
+      "command": [
+        "/home/s1638308/miniconda3/envs/protac/bin/python3",
+        "/home/s1638308/ernie_static_reference_pilot_v1/workflow/baseline_engine/run.py",
+        "--run-dir",
+        "/home/s1638308/ernie_static_reference_pilot_v1/runs/native_7PI4_GSK215_seed42",
+        "--seed",
+        "42",
+        "--protocol",
+        "native_frame",
+        "--n-dock",
+        "1",
+        "--n-local",
+        "3",
+        "--conformers",
+        "20",
+        "--workers",
+        "4",
+        "--max-global-trials",
+        "20000"
+      ],
+      "started_unix": 1794704651.5104485,
+      "status": "COMPLETE",
+      "pid": 313407,
+      "process_group": 313407,
+      "elapsed_seconds": 181.13185715675354,
+      "peak_group_RSS_bytes": 2117529600,
+      "peak_output_bytes": 8822066,
+      "exit_code": 0,
+      "finished_unix": 1794704847.7176993,
+      "stop_reason": null,
+      "engine_status": "COMPLETE_NO_VALID_POSES",
+      "stages": {
+        "global_sampling": {
+          "attempted": 1,
+          "succeeded": 1,
+          "rejected": 0,
+          "failed": 0
+        },
+        "local_docking": {
+          "attempted": 3,
+          "succeeded": 3,
+          "rejected": 0,
+          "failed": 0
+        },
+        "linker_modeling": {
+          "attempted": 3,
+          "succeeded": 0,
+          "rejected": 3,
+          "failed": 0
+        },
+        "scoring": {
+          "attempted": 0,
+          "succeeded": 0,
+          "rejected": 0,
+          "failed": 0
+        },
+        "pose_qc": {
+          "attempted": 0,
+          "succeeded": 0,
+          "rejected": 0,
+          "failed": 0
+        }
+      },
+      "engine_status_sha256": "306dcdba867ece5b9af3d625b9be00966d8e65ea5df4e77351d77deb95994d3a"
+    },
+    {
+      "name": "global_7PI4_GSK215_seed42",
+      "command": [
+        "/home/s1638308/miniconda3/envs/protac/bin/python3",
+        "/home/s1638308/ernie_static_reference_pilot_v1/workflow/baseline_engine/run.py",
+        "--run-dir",
+        "/home/s1638308/ernie_static_reference_pilot_v1/runs/global_7PI4_GSK215_seed42",
+        "--seed",
+        "42",
+        "--protocol",
+        "global",
+        "--n-dock",
+        "50",
+        "--n-local",
+        "10",
+        "--conformers",
+        "20",
+        "--workers",
+        "4",
+        "--max-global-trials",
+        "20000"
+      ],
+      "started_unix": 1794704847.7366955,
+      "status": "RUNNING",
+      "pid": 313559,
+      "process_group": 313559,
+      "elapsed_seconds": 151.12212562561035,
+      "peak_group_RSS_bytes": 5166809088,
+      "peak_output_bytes": 57384990
+    }
+  ],
+  "heartbeat_unix": 1794704998.8588228
+}

@@ -1,0 +1,13 @@
+method	compound	attempted_structure_pairs	candidate_structures	candidate_unique_proteins	rejected	correspondence_unavailable	production_ready
+prepared_screen	GSK215	770	8	8	762	0	False
+prepared_screen	SJF8240	770	5	5	765	0	False
+prepared_screen	SJF1521	770	49	43	721	0	False
+prepared_screen	JNJ1013	770	45	41	725	0	False
+prepared_screen	SJF_delta	770	5	5	765	0	False
+prepared_screen	MS143	0	0	0	0	0	False
+prepared_pocket_screen	GSK215	770	34	29	522	214	False
+prepared_pocket_screen	SJF8240	770	12	12	544	214	False
+prepared_pocket_screen	SJF1521	770	42	35	514	214	False
+prepared_pocket_screen	JNJ1013	770	63	44	493	214	False
+prepared_pocket_screen	SJF_delta	770	10	10	546	214	False
+prepared_pocket_screen	MS143	0	0	0	0	0	False

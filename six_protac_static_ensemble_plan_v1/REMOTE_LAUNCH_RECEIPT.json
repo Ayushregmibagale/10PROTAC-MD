@@ -1,0 +1,12 @@
+{
+  "pid": 313406,
+  "command": [
+    "/home/s1638308/miniconda3/envs/protac/bin/python3",
+    "/home/s1638308/ernie_static_reference_pilot_v1/run_pilot.py",
+    "--root",
+    "/home/s1638308/ernie_static_reference_pilot_v1"
+  ],
+  "scope": "bounded static reference pilot",
+  "MD": false,
+  "STOP_command": "touch /home/s1638308/ernie_static_reference_pilot_v1/STOP"
+}
