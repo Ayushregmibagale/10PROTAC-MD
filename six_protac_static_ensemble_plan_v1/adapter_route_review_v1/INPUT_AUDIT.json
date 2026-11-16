@@ -1,0 +1,92 @@
+{
+  "scope": "Parameter-file audit only; not molecule/pose validation",
+  "input_root": "/home/ayushregmibagale/10PROTAC-MD/prosettac_inputs",
+  "compounds": [
+    {
+      "compound": "GSK215",
+      "directory_exists": true,
+      "parameter_files": 650,
+      "missing_required_keys": {
+        "Protac": 650,
+        "Anchor atoms": 650,
+        "Full": 650
+      },
+      "declared_molecule_paths": {
+        "/home/s1638308/protac/data/structures/PROTAC/SJF8240/SJF8240.smi": 650
+      },
+      "chain_selections": {
+        "ABC A": 650
+      },
+      "parameter_set_digest": "1ec35e3157b23f971254b67b0aa69fb1852515306cdb84baada5e25cdca502c5"
+    },
+    {
+      "compound": "JNJ1013",
+      "directory_exists": true,
+      "parameter_files": 644,
+      "missing_required_keys": {
+        "Protac": 644,
+        "Anchor atoms": 644,
+        "Full": 644
+      },
+      "declared_molecule_paths": {
+        "/home/s1638308/protac/data/structures/PROTAC/SJF8240/SJF8240.smi": 644
+      },
+      "chain_selections": {
+        "ABC A": 644
+      },
+      "parameter_set_digest": "afcd9ae7930ba90d2e51c99b1b1d8404a141a47ce3d9d4c8ac14f2545e59f995"
+    },
+    {
+      "compound": "SJF1521",
+      "directory_exists": true,
+      "parameter_files": 644,
+      "missing_required_keys": {
+        "Protac": 644,
+        "Anchor atoms": 644,
+        "Full": 644
+      },
+      "declared_molecule_paths": {
+        "/home/s1638308/protac/data/structures/PROTAC/SJF8240/SJF8240.smi": 644
+      },
+      "chain_selections": {
+        "ABC A": 644
+      },
+      "parameter_set_digest": "e6614a992ab2d8101a8c7b6b9d59fdec7df33af074ce238b4d227974580854bb"
+    },
+    {
+      "compound": "SJF8240",
+      "directory_exists": true,
+      "parameter_files": 461,
+      "missing_required_keys": {
+        "Protac": 461,
+        "Anchor atoms": 461,
+        "Full": 461
+      },
+      "declared_molecule_paths": {
+        "/home/s1638308/protac/data/structures/PROTAC/SJF8240/SJF8240.smi": 461
+      },
+      "chain_selections": {
+        "ABC A": 461
+      },
+      "parameter_set_digest": "132e6aec8e12d480201ea39f89244146ee481ea81628476bcc24b9a8fb335c1c"
+    },
+    {
+      "compound": "SJF_delta",
+      "directory_exists": true,
+      "parameter_files": 0,
+      "missing_required_keys": {},
+      "declared_molecule_paths": {},
+      "chain_selections": {},
+      "parameter_set_digest": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "compound": "MS143",
+      "directory_exists": false,
+      "parameter_files": 0,
+      "missing_required_keys": {},
+      "declared_molecule_paths": {},
+      "chain_selections": {},
+      "parameter_set_digest": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  ]
+}
