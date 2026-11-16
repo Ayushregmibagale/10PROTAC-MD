@@ -1,0 +1,183 @@
+{
+  "status": "REFERENCE_PILOT_COMPLETE_NEEDS_RECOVERY_ASSESSMENT",
+  "scope": "static reference/resource pilot only",
+  "MD": false,
+  "pid": 2,
+  "started_unix": 1794855210.230356,
+  "cpus": [
+    0,
+    1,
+    2,
+    3
+  ],
+  "configuration": {
+    "purpose": "Launch-critical Ernie generator qualification; soft linker-anchor restraint; no remote job or MD",
+    "cpu_limit": 4,
+    "poll_seconds": 15,
+    "max_group_RSS_bytes": 25769803776,
+    "max_output_bytes": 10737418240,
+    "min_free_bytes": 53687091200,
+    "tasks": [
+      {
+        "name": "global_7PI4_GSK215_seed42",
+        "reference": "7PI4_GSK215",
+        "seed": 42,
+        "protocol": "global",
+        "n_dock": 50,
+        "n_local": 10,
+        "conformers": 20,
+        "max_global_trials": 20000,
+        "timeout_seconds": 14400
+      },
+      {
+        "name": "global_5T35_MZ1_seed42",
+        "reference": "5T35_MZ1",
+        "seed": 42,
+        "protocol": "global",
+        "n_dock": 50,
+        "n_local": 10,
+        "conformers": 20,
+        "max_global_trials": 20000,
+        "timeout_seconds": 14400
+      }
+    ]
+  },
+  "tasks": [
+    {
+      "name": "global_7PI4_GSK215_seed42",
+      "command": [
+        "/home/ayushregmibagale/miniconda3/envs/deepternary/bin/python",
+        "/tmp/six_protac_anchor_repair_qualification_v1/workflow/baseline_engine/run.py",
+        "--run-dir",
+        "/tmp/six_protac_anchor_repair_qualification_v1/runs/global_7PI4_GSK215_seed42",
+        "--seed",
+        "42",
+        "--protocol",
+        "global",
+        "--n-dock",
+        "50",
+        "--n-local",
+        "10",
+        "--conformers",
+        "20",
+        "--workers",
+        "4",
+        "--max-global-trials",
+        "20000"
+      ],
+      "started_unix": 1794855210.2335396,
+      "status": "COMPLETE",
+      "pid": 9,
+      "process_group": 9,
+      "elapsed_seconds": 2338.1328780651093,
+      "peak_group_RSS_bytes": 5336948736,
+      "peak_output_bytes": 549056647,
+      "exit_code": 0,
+      "finished_unix": 1794857563.4939892,
+      "stop_reason": null,
+      "engine_status": "COMPLETE",
+      "stages": {
+        "global_sampling": {
+          "attempted": 810,
+          "succeeded": 50,
+          "rejected": 760,
+          "failed": 0
+        },
+        "local_docking": {
+          "attempted": 500,
+          "succeeded": 500,
+          "rejected": 0,
+          "failed": 0
+        },
+        "linker_modeling": {
+          "attempted": 500,
+          "succeeded": 11,
+          "rejected": 489,
+          "failed": 0
+        },
+        "scoring": {
+          "attempted": 11,
+          "succeeded": 11,
+          "rejected": 0,
+          "failed": 0
+        },
+        "pose_qc": {
+          "attempted": 11,
+          "succeeded": 11,
+          "rejected": 0,
+          "failed": 0
+        }
+      },
+      "engine_status_sha256": "b564a275c2c8b09370d1bf1c9d0e740f324a321bf69fd367d565299a6b6de27b"
+    },
+    {
+      "name": "global_5T35_MZ1_seed42",
+      "command": [
+        "/home/ayushregmibagale/miniconda3/envs/deepternary/bin/python",
+        "/tmp/six_protac_anchor_repair_qualification_v1/workflow/baseline_engine/run.py",
+        "--run-dir",
+        "/tmp/six_protac_anchor_repair_qualification_v1/runs/global_5T35_MZ1_seed42",
+        "--seed",
+        "42",
+        "--protocol",
+        "global",
+        "--n-dock",
+        "50",
+        "--n-local",
+        "10",
+        "--conformers",
+        "20",
+        "--workers",
+        "4",
+        "--max-global-trials",
+        "20000"
+      ],
+      "started_unix": 1794857563.51973,
+      "status": "COMPLETE",
+      "pid": 2267,
+      "process_group": 2267,
+      "elapsed_seconds": 2434.4306964874268,
+      "peak_group_RSS_bytes": 5171318784,
+      "peak_output_bytes": 2416698597,
+      "exit_code": 0,
+      "finished_unix": 1794860011.5852578,
+      "stop_reason": null,
+      "engine_status": "COMPLETE",
+      "stages": {
+        "global_sampling": {
+          "attempted": 352,
+          "succeeded": 50,
+          "rejected": 302,
+          "failed": 0
+        },
+        "local_docking": {
+          "attempted": 500,
+          "succeeded": 500,
+          "rejected": 0,
+          "failed": 0
+        },
+        "linker_modeling": {
+          "attempted": 500,
+          "succeeded": 480,
+          "rejected": 20,
+          "failed": 0
+        },
+        "scoring": {
+          "attempted": 480,
+          "succeeded": 480,
+          "rejected": 0,
+          "failed": 0
+        },
+        "pose_qc": {
+          "attempted": 480,
+          "succeeded": 392,
+          "rejected": 88,
+          "failed": 0
+        }
+      },
+      "engine_status_sha256": "32e105a17b574fc84c7380e7ad17fee4cc33caa40491bd078c297f802fcb433e"
+    }
+  ],
+  "heartbeat_unix": 1794859997.9504282,
+  "finished_unix": 1794860011.5884178
+}
