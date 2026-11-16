@@ -59,3 +59,5 @@ P4WARD CHECK16November: author code/documentation and bundledCRLmodels reviewed 
 
 
 LATEST SAVED CHECK 16 November 2026: soft-anchor qualification COMPLETE, both integrity PASS. Frozen gate: GSK215 1/11 retained poses passes, best RMSD 3.71393 A, top1 fails/top10 contains pass; MZ1 0/392 passes, best RMSD 6.14650 A. Generator still NOT qualified across both controls. No relaunch; six-drug Ernie package remains HOLD. Compact receipts in anchor_repair_results_complete/. Consolidated papers, reusable components, corrections, source-access limitations and campaign decisions saved in PAPERS_AND_REUSE_NOTES_2026-11-16.md. No MD or new GNN work.
+
+Completed follow-up: all-orientation trace and independent stereo/sterics saved in anchor_repair_results_complete/FINDINGS.md. MZ1 best global13.0828A -> best local6.1465A, 480/500 linker constructions; no local within5A. GSK best global8.1067A -> local3.7139A, 11/500 constructions. Full raw archive durably preserved and read back; FULL_RAW_ARCHIVE_RECEIPT.json records hash. Next isolate sampling with frozen repaired source rather than another simultaneous protocol/budget change. Production remains HOLD.

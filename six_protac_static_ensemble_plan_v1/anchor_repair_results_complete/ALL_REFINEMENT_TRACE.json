@@ -1,0 +1,35 @@
+{
+  "status": "ALL_SAVED_REFINEMENTS_EVALUATED",
+  "summary": [
+    {
+      "reference": "5T35_MZ1",
+      "global_count": 50,
+      "local_count": 500,
+      "best_global_RMSD_A": 13.082825179198318,
+      "best_local_RMSD_A": 6.14650447017812,
+      "global_RMSD_le5A": 0,
+      "local_RMSD_le5A": 0,
+      "feasible_local_RMSD_le5A": 0,
+      "feasible_linker_count": 480,
+      "median_RMSD_change_A": 0.04979731057927772
+    },
+    {
+      "reference": "7PI4_GSK215",
+      "global_count": 50,
+      "local_count": 500,
+      "best_global_RMSD_A": 8.106705968989955,
+      "best_local_RMSD_A": 3.7139303774137686,
+      "global_RMSD_le5A": 0,
+      "local_RMSD_le5A": 2,
+      "feasible_local_RMSD_le5A": 2,
+      "feasible_linker_count": 11,
+      "median_RMSD_change_A": 0.5339378348656645
+    }
+  ],
+  "source_sha256": "bb94c3d1a52a83a2dccdfd3568d781fa253f998aa9dfba10356e14413f235546",
+  "limitations": [
+    "Native coordinates used for retrospective measurement only, never for selecting a new search.",
+    "RMSD-only stage trace; final frozen gate also requires contact recovery and chemical QC.",
+    "One seed; not a convergence or biological validation study."
+  ]
+}

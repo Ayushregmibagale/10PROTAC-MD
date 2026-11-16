@@ -1,0 +1,9 @@
+{
+  "archive": "/mnt/c/Users/Ayush Regmi Bagale/10PROTAC_static_campaign_raw/anchor_repair_20261116/full_qualification_raw.tar.gz",
+  "bytes": 615877911,
+  "sha256": "f7ea1a4c68b266460fa31b938a5cdfee7efccebfb13462f52c8a7f50e6b094c6",
+  "readback_member_count": 15218,
+  "source": "/tmp/six_protac_anchor_repair_qualification_v1",
+  "scope": "full completed qualification including source, runs, logs and receipts",
+  "MD": false
+}
