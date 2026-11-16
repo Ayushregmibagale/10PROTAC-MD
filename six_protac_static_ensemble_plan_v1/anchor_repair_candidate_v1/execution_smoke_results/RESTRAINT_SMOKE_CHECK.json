@@ -1,0 +1,55 @@
+{
+  "status": "LOCAL_EXECUTION_SMOKE_AND_RESTRAINT_RECEIPTS_PASS",
+  "scientific_recovery_qualified": false,
+  "rows": [
+    {
+      "name": "global_5T35_MZ1_seed42",
+      "recorded_local_poses": 9,
+      "sampled_range_A": [
+        7.609999999999999,
+        11.61
+      ],
+      "local_min_A": 7.444378977588081,
+      "local_median_A": 11.034693168257764,
+      "local_max_A": 13.593402970363032,
+      "outside_soft_range_count": 4,
+      "linker_modeling": {
+        "attempted": 9,
+        "succeeded": 9,
+        "rejected": 0,
+        "failed": 0
+      },
+      "pose_qc": {
+        "attempted": 9,
+        "succeeded": 6,
+        "rejected": 3,
+        "failed": 0
+      }
+    },
+    {
+      "name": "global_7PI4_GSK215_seed42",
+      "recorded_local_poses": 9,
+      "sampled_range_A": [
+        1.3450000000000002,
+        5.345000000000001
+      ],
+      "local_min_A": 4.139299975144801,
+      "local_median_A": 5.551052877428164,
+      "local_max_A": 7.571575806606875,
+      "outside_soft_range_count": 5,
+      "linker_modeling": {
+        "attempted": 9,
+        "succeeded": 0,
+        "rejected": 9,
+        "failed": 0
+      },
+      "pose_qc": {
+        "attempted": 0,
+        "succeeded": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "next": "Freeze and run full50x10x20 reference qualification with unchanged structural gate"
+}

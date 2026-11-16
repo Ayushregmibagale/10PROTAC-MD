@@ -1,0 +1,26 @@
+{
+  "protein_chains": [
+    "D"
+  ],
+  "protein_modifications": [
+    {
+      "chain": "D",
+      "resnum": 308,
+      "icode": " ",
+      "resname": "TPO",
+      "required_heavy_atoms": [
+        "N",
+        "CA",
+        "C",
+        "O",
+        "CB",
+        "OG1",
+        "CG2",
+        "P",
+        "O1P",
+        "O2P",
+        "O3P"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,4 @@
+{
+  "production_ready": false,
+  "reason": "Unqualified staged technical inputs; read INPUT_MANIFEST.json"
+}

@@ -1,0 +1,32 @@
+{
+  "purpose": "Launch-critical Ernie generator qualification; soft linker-anchor restraint; no remote job or MD",
+  "cpu_limit": 4,
+  "poll_seconds": 15,
+  "max_group_RSS_bytes": 25769803776,
+  "max_output_bytes": 10737418240,
+  "min_free_bytes": 53687091200,
+  "tasks": [
+    {
+      "name": "global_7PI4_GSK215_seed42",
+      "reference": "7PI4_GSK215",
+      "seed": 42,
+      "protocol": "global",
+      "n_dock": 50,
+      "n_local": 10,
+      "conformers": 20,
+      "max_global_trials": 20000,
+      "timeout_seconds": 14400
+    },
+    {
+      "name": "global_5T35_MZ1_seed42",
+      "reference": "5T35_MZ1",
+      "seed": 42,
+      "protocol": "global",
+      "n_dock": 50,
+      "n_local": 10,
+      "conformers": 20,
+      "max_global_trials": 20000,
+      "timeout_seconds": 14400
+    }
+  ]
+}

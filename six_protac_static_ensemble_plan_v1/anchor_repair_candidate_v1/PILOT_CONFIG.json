@@ -1,0 +1,32 @@
+{
+  "purpose": "Bounded local execution smoke for Ernie launch-critical linker restraint repair; not production qualification",
+  "cpu_limit": 4,
+  "poll_seconds": 15,
+  "max_group_RSS_bytes": 25769803776,
+  "max_output_bytes": 10737418240,
+  "min_free_bytes": 53687091200,
+  "tasks": [
+    {
+      "name": "global_5T35_MZ1_seed42",
+      "reference": "5T35_MZ1",
+      "seed": 42,
+      "protocol": "global",
+      "n_dock": 3,
+      "n_local": 3,
+      "conformers": 20,
+      "max_global_trials": 20000,
+      "timeout_seconds": 1800
+    },
+    {
+      "name": "global_7PI4_GSK215_seed42",
+      "reference": "7PI4_GSK215",
+      "seed": 42,
+      "protocol": "global",
+      "n_dock": 3,
+      "n_local": 3,
+      "conformers": 20,
+      "max_global_trials": 20000,
+      "timeout_seconds": 1800
+    }
+  ]
+}

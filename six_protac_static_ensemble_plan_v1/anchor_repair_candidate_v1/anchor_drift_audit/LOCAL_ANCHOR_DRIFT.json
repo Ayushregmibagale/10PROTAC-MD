@@ -1,0 +1,43 @@
+{
+  "status": "READ_ONLY_ANCHOR_DRIFT_AUDIT_COMPLETE",
+  "summary": [
+    {
+      "reference": "5T35_MZ1",
+      "anchor_atom_names": [
+        "N4",
+        "N1"
+      ],
+      "range_A": [
+        7.609999999999999,
+        11.61
+      ],
+      "local_poses": 500,
+      "outside_sampled_range": 430,
+      "median_local_distance_A": 17.562431841866243,
+      "max_local_distance_A": 182.95031052447,
+      "feasible_linker_poses": 168
+    },
+    {
+      "reference": "7PI4_GSK215",
+      "anchor_atom_names": [
+        "N1",
+        "N6"
+      ],
+      "range_A": [
+        1.3450000000000002,
+        5.345000000000001
+      ],
+      "local_poses": 500,
+      "outside_sampled_range": 452,
+      "median_local_distance_A": 10.116587316667896,
+      "max_local_distance_A": 103.1763079636018,
+      "feasible_linker_poses": 3
+    }
+  ],
+  "source_sha256": "15dbb76c2e2dddf071d40bc16a35f1eddb31fde33ed40a886d9be2145853a0fe",
+  "limitations": [
+    "Sampled range is a finite free-conformer heuristic, not a physical impossibility bound",
+    "No native pose used for selection or restraint generation",
+    "Distance feasibility alone does not establish full linker closure or recovery"
+  ]
+}

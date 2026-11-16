@@ -1,0 +1,82 @@
+{
+  "purpose": "Six-compound static technical/resource pilot only, not kinome production or biological validation",
+  "cpu_limit": 4,
+  "poll_seconds": 15,
+  "max_group_RSS_bytes": 25769803776,
+  "max_output_bytes": 25769803776,
+  "min_free_bytes": 53687091200,
+  "tasks": [
+    {
+      "name": "global_GSK215_PTK2_Q05397_seed42",
+      "reference": "GSK215/PTK2_Q05397",
+      "seed": 42,
+      "protocol": "global",
+      "n_dock": 50,
+      "n_local": 10,
+      "conformers": 20,
+      "max_global_trials": 20000,
+      "timeout_seconds": 14400,
+      "role": "native ternary reference / technical control"
+    },
+    {
+      "name": "global_SJF8240_MET_P08581_seed42",
+      "reference": "SJF8240/MET_P08581",
+      "seed": 42,
+      "protocol": "global",
+      "n_dock": 50,
+      "n_local": 10,
+      "conformers": 20,
+      "max_global_trials": 20000,
+      "timeout_seconds": 14400,
+      "role": "parent-head technical control"
+    },
+    {
+      "name": "global_SJF1521_EGFR_P00533_seed42",
+      "reference": "SJF1521/EGFR_P00533",
+      "seed": 42,
+      "protocol": "global",
+      "n_dock": 50,
+      "n_local": 10,
+      "conformers": 20,
+      "max_global_trials": 20000,
+      "timeout_seconds": 14400,
+      "role": "modeled conjugated-head technical control"
+    },
+    {
+      "name": "global_JNJ1013_IRAK1_P51617_seed42",
+      "reference": "JNJ1013/IRAK1_P51617",
+      "seed": 42,
+      "protocol": "global",
+      "n_dock": 50,
+      "n_local": 10,
+      "conformers": 20,
+      "max_global_trials": 20000,
+      "timeout_seconds": 14400,
+      "role": "modeled conjugated-head technical control"
+    },
+    {
+      "name": "global_SJF_delta_MET_P08581_seed42",
+      "reference": "SJF_delta/MET_P08581",
+      "seed": 42,
+      "protocol": "global",
+      "n_dock": 50,
+      "n_local": 10,
+      "conformers": 20,
+      "max_global_trials": 20000,
+      "timeout_seconds": 14400,
+      "role": "parent-head technical control only; NOT a claimed degradation positive"
+    },
+    {
+      "name": "global_MS143_AKT1_P31749_seed42",
+      "reference": "MS143/AKT1_P31749",
+      "seed": 42,
+      "protocol": "global",
+      "n_dock": 50,
+      "n_local": 10,
+      "conformers": 20,
+      "max_global_trials": 20000,
+      "timeout_seconds": 14400,
+      "role": "modeled AKT technical control, phosphoThr308 retained"
+    }
+  ]
+}

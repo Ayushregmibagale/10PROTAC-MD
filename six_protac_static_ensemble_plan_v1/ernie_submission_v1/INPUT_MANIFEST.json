@@ -1,0 +1,363 @@
+{
+  "status": "SIX_COMPOUND_TECHNICAL_INPUTS_STAGED_ON_HOLD",
+  "created_at_utc": "2026-11-16T18:51:28.598416+00:00",
+  "MD": false,
+  "submission_performed": false,
+  "production_ready": false,
+  "scope": "Six chemistry/resource technical controls; not full kinase cohort, biological validation or proof of binding",
+  "global_blockers": [
+    "Docking reference qualification incomplete",
+    "Input pocket sterics/state review pending",
+    "MS143 full pipeline modification selection/preservation pending",
+    "Sampling/resources to be frozen after qualified pilot"
+  ],
+  "controls": [
+    {
+      "compound": "GSK215",
+      "target": "PTK2_Q05397",
+      "role": "native ternary reference / technical control",
+      "directory": "inputs/GSK215/PTK2_Q05397",
+      "sources": {
+        "full.smi": {
+          "source": "/home/ayushregmibagale/10PROTAC-MD/prepared_inputs/GSK215/PTK2_Q05397/full.smi",
+          "sha256": "2c10735a4f644a08ef4aac29b91fa9213a44931acbe12d7a7b2c7cb32ee0c2ed"
+        },
+        "vhl_head.sdf": {
+          "source": "/home/ayushregmibagale/10PROTAC-MD/prepared_inputs/GSK215/PTK2_Q05397/vhl_head.sdf",
+          "sha256": "926817eef52a725848ca79fd61679ea0605b4fa6eb6f1d63cacca3355ca56537"
+        },
+        "poi_head.sdf": {
+          "source": "/home/ayushregmibagale/10PROTAC-MD/prepared_inputs/GSK215/PTK2_Q05397/poi_head.sdf",
+          "sha256": "1e39c54042c3b028ca6d0e4fe2a320f0ee5ab493b3b2daea22e396e3de1eadb4"
+        },
+        "protein.pdb": {
+          "source": "/home/ayushregmibagale/10PROTAC-MD/prepared_inputs/GSK215/PTK2_Q05397/protein.pdb",
+          "sha256": "52ac6c7d90bee91eed2f5d5f84b2f7b45e068f0e9da8945c6c945e39bf63c0a6"
+        },
+        "vbc.pdb": {
+          "source": "/home/ayushregmibagale/10PROTAC-MD/prepared_inputs/GSK215/PTK2_Q05397/vbc.pdb",
+          "sha256": "38a87ba99977645ba344f0d36a0d20be725150a50182c68bfab6cfdd183902a2"
+        },
+        "Protac_params.txt": {
+          "source": "/home/ayushregmibagale/10PROTAC-MD/prepared_inputs/GSK215/PTK2_Q05397/Protac_params.txt",
+          "sha256": "42183eb86f4f5cdb68d99dfa53ed9b55612fad6022155615157f04a771dfc362"
+        },
+        "selection.json": {
+          "source": "/home/ayushregmibagale/10PROTAC-MD/prepared_inputs/GSK215/PTK2_Q05397/selection.json",
+          "sha256": "35d269763795f0e8585f3bf9a171037528820bc9443de00a2bf97a0836ba563e"
+        },
+        "preparation.json": {
+          "source": "/home/ayushregmibagale/10PROTAC-MD/prepared_inputs/GSK215/PTK2_Q05397/preparation.json",
+          "sha256": "cdc7677fe6f27e454baa3f3d290cb21b6509614a331a37830c82f416a29068af"
+        }
+      },
+      "production_ready": false,
+      "full_molecule_inchikey": "ZGSWGXNEXAXEGV-XFCHVEHOSA-N",
+      "formula": "C50H59F3N10O6S",
+      "head_heavy_atoms": {
+        "vhl_head.sdf": 31,
+        "poi_head.sdf": 36
+      },
+      "input_file_sha256": {
+        "full.smi": "2c10735a4f644a08ef4aac29b91fa9213a44931acbe12d7a7b2c7cb32ee0c2ed",
+        "poi_head.sdf": "1e39c54042c3b028ca6d0e4fe2a320f0ee5ab493b3b2daea22e396e3de1eadb4",
+        "preparation.json": "cdc7677fe6f27e454baa3f3d290cb21b6509614a331a37830c82f416a29068af",
+        "Protac_params.txt": "42183eb86f4f5cdb68d99dfa53ed9b55612fad6022155615157f04a771dfc362",
+        "protein.pdb": "52ac6c7d90bee91eed2f5d5f84b2f7b45e068f0e9da8945c6c945e39bf63c0a6",
+        "selection.json": "35d269763795f0e8585f3bf9a171037528820bc9443de00a2bf97a0836ba563e",
+        "vbc.pdb": "38a87ba99977645ba344f0d36a0d20be725150a50182c68bfab6cfdd183902a2",
+        "vhl_head.sdf": "926817eef52a725848ca79fd61679ea0605b4fa6eb6f1d63cacca3355ca56537"
+      },
+      "qualification_status": "STAGED_NOT_QUALIFIED"
+    },
+    {
+      "compound": "SJF8240",
+      "target": "MET_P08581",
+      "role": "parent-head technical control",
+      "directory": "inputs/SJF8240/MET_P08581",
+      "sources": {
+        "full.smi": {
+          "source": "/home/ayushregmibagale/10PROTAC-MD/prepared_inputs/SJF8240/MET_P08581/full.smi",
+          "sha256": "d66d442adccfab6b07c3aa34457027420932df051168ba5a9375b5a6754dbc08"
+        },
+        "vhl_head.sdf": {
+          "source": "/home/ayushregmibagale/10PROTAC-MD/prepared_inputs/SJF8240/MET_P08581/vhl_head.sdf",
+          "sha256": "37981dea105e48f8f26c666222ecad4ea8659270b46f0df9789fa49655a4a5d2"
+        },
+        "poi_head.sdf": {
+          "source": "/home/ayushregmibagale/10PROTAC-MD/prepared_inputs/SJF8240/MET_P08581/poi_head.sdf",
+          "sha256": "2c46229bc6f4d46bfd5cd0b8f152ccf0af2af45103aee38d752e3cba67c5ed53"
+        },
+        "protein.pdb": {
+          "source": "/home/ayushregmibagale/10PROTAC-MD/prepared_inputs/SJF8240/MET_P08581/protein.pdb",
+          "sha256": "b5d10882e57088e4305e5ad289510493f0582963a7893d250bc4fe78b50de9ea"
+        },
+        "vbc.pdb": {
+          "source": "/home/ayushregmibagale/10PROTAC-MD/prepared_inputs/SJF8240/MET_P08581/vbc.pdb",
+          "sha256": "d5d0c38470689c813f2c46495a479e6723568f2f131dbaddc8a95a469f539342"
+        },
+        "Protac_params.txt": {
+          "source": "/home/ayushregmibagale/10PROTAC-MD/prepared_inputs/SJF8240/MET_P08581/Protac_params.txt",
+          "sha256": "43f68cd55c3d64abffff72d5966a4a2b3cf400b5d18e3a4f0f998890d44995f1"
+        },
+        "selection.json": {
+          "source": "/home/ayushregmibagale/10PROTAC-MD/prepared_inputs/SJF8240/MET_P08581/selection.json",
+          "sha256": "35d269763795f0e8585f3bf9a171037528820bc9443de00a2bf97a0836ba563e"
+        },
+        "preparation.json": {
+          "source": "/home/ayushregmibagale/10PROTAC-MD/prepared_inputs/SJF8240/MET_P08581/preparation.json",
+          "sha256": "bebe345c4c0d97586c28e79109a18cc856c97e15df1119c8a283a69fad5d549f"
+        }
+      },
+      "production_ready": false,
+      "full_molecule_inchikey": "SCUZPTNDZHEHLB-ZWUDBOSPSA-N",
+      "formula": "C58H65F2N7O11S",
+      "head_heavy_atoms": {
+        "vhl_head.sdf": 30,
+        "poi_head.sdf": 37
+      },
+      "input_file_sha256": {
+        "full.smi": "d66d442adccfab6b07c3aa34457027420932df051168ba5a9375b5a6754dbc08",
+        "poi_head.sdf": "2c46229bc6f4d46bfd5cd0b8f152ccf0af2af45103aee38d752e3cba67c5ed53",
+        "preparation.json": "bebe345c4c0d97586c28e79109a18cc856c97e15df1119c8a283a69fad5d549f",
+        "Protac_params.txt": "43f68cd55c3d64abffff72d5966a4a2b3cf400b5d18e3a4f0f998890d44995f1",
+        "protein.pdb": "b5d10882e57088e4305e5ad289510493f0582963a7893d250bc4fe78b50de9ea",
+        "selection.json": "35d269763795f0e8585f3bf9a171037528820bc9443de00a2bf97a0836ba563e",
+        "vbc.pdb": "d5d0c38470689c813f2c46495a479e6723568f2f131dbaddc8a95a469f539342",
+        "vhl_head.sdf": "37981dea105e48f8f26c666222ecad4ea8659270b46f0df9789fa49655a4a5d2"
+      },
+      "qualification_status": "STAGED_NOT_QUALIFIED"
+    },
+    {
+      "compound": "SJF1521",
+      "target": "EGFR_P00533",
+      "role": "modeled conjugated-head technical control",
+      "directory": "inputs/SJF1521/EGFR_P00533",
+      "sources": {
+        "full.smi": {
+          "source": "/home/ayushregmibagale/10PROTAC-MD/prepared_inputs/SJF1521/EGFR_P00533/full.smi",
+          "sha256": "3302370deaabd590cef8fff386f73cf9f96e6227ef1e93bed09113d7518b69e0"
+        },
+        "vhl_head.sdf": {
+          "source": "/home/ayushregmibagale/10PROTAC-MD/prepared_inputs/SJF1521/EGFR_P00533/vhl_head.sdf",
+          "sha256": "37981dea105e48f8f26c666222ecad4ea8659270b46f0df9789fa49655a4a5d2"
+        },
+        "poi_head.sdf": {
+          "source": "/home/ayushregmibagale/10PROTAC-MD/prepared_inputs/SJF1521/EGFR_P00533/poi_head.sdf",
+          "sha256": "7c524a613f3c18892850731675e171752228a913b29089d7a9982b1694126edf"
+        },
+        "protein.pdb": {
+          "source": "/home/ayushregmibagale/10PROTAC-MD/prepared_inputs/SJF1521/EGFR_P00533/protein.pdb",
+          "sha256": "4a7b675638de75c32829a1284d188029a6ffaab139a6907593c2fba07098b4e2"
+        },
+        "vbc.pdb": {
+          "source": "/home/ayushregmibagale/10PROTAC-MD/prepared_inputs/SJF1521/EGFR_P00533/vbc.pdb",
+          "sha256": "d5d0c38470689c813f2c46495a479e6723568f2f131dbaddc8a95a469f539342"
+        },
+        "Protac_params.txt": {
+          "source": "/home/ayushregmibagale/10PROTAC-MD/prepared_inputs/SJF1521/EGFR_P00533/Protac_params.txt",
+          "sha256": "4bbc7b65b1543126f038720781ec40ca3bd4e40bc31d3c79577f9e80bdfa3c77"
+        },
+        "selection.json": {
+          "source": "/home/ayushregmibagale/10PROTAC-MD/prepared_inputs/SJF1521/EGFR_P00533/selection.json",
+          "sha256": "35d269763795f0e8585f3bf9a171037528820bc9443de00a2bf97a0836ba563e"
+        },
+        "preparation.json": {
+          "source": "/home/ayushregmibagale/10PROTAC-MD/prepared_inputs/SJF1521/EGFR_P00533/preparation.json",
+          "sha256": "ac81ca745b5a019a6d5528f228a97d70885c59646e5e1d4d675d8f3eea12edbb"
+        }
+      },
+      "production_ready": false,
+      "full_molecule_inchikey": "XZNORRXEBCTXPB-KHBXAZQSSA-N",
+      "formula": "C57H61ClFN7O9S",
+      "head_heavy_atoms": {
+        "vhl_head.sdf": 30,
+        "poi_head.sdf": 34
+      },
+      "input_file_sha256": {
+        "full.smi": "3302370deaabd590cef8fff386f73cf9f96e6227ef1e93bed09113d7518b69e0",
+        "poi_head.sdf": "7c524a613f3c18892850731675e171752228a913b29089d7a9982b1694126edf",
+        "preparation.json": "ac81ca745b5a019a6d5528f228a97d70885c59646e5e1d4d675d8f3eea12edbb",
+        "Protac_params.txt": "4bbc7b65b1543126f038720781ec40ca3bd4e40bc31d3c79577f9e80bdfa3c77",
+        "protein.pdb": "4a7b675638de75c32829a1284d188029a6ffaab139a6907593c2fba07098b4e2",
+        "selection.json": "35d269763795f0e8585f3bf9a171037528820bc9443de00a2bf97a0836ba563e",
+        "vbc.pdb": "d5d0c38470689c813f2c46495a479e6723568f2f131dbaddc8a95a469f539342",
+        "vhl_head.sdf": "37981dea105e48f8f26c666222ecad4ea8659270b46f0df9789fa49655a4a5d2"
+      },
+      "qualification_status": "STAGED_NOT_QUALIFIED"
+    },
+    {
+      "compound": "JNJ1013",
+      "target": "IRAK1_P51617",
+      "role": "modeled conjugated-head technical control",
+      "directory": "inputs/JNJ1013/IRAK1_P51617",
+      "sources": {
+        "full.smi": {
+          "source": "/home/ayushregmibagale/10PROTAC-MD/prepared_inputs/JNJ1013/IRAK1_P51617/full.smi",
+          "sha256": "571134df69a9e2a6a3a98ecd451191def020ec1b598442c2ca2e44623c221334"
+        },
+        "vhl_head.sdf": {
+          "source": "/home/ayushregmibagale/10PROTAC-MD/prepared_inputs/JNJ1013/IRAK1_P51617/vhl_head.sdf",
+          "sha256": "926817eef52a725848ca79fd61679ea0605b4fa6eb6f1d63cacca3355ca56537"
+        },
+        "poi_head.sdf": {
+          "source": "/home/ayushregmibagale/10PROTAC-MD/prepared_inputs/JNJ1013/IRAK1_P51617/poi_head.sdf",
+          "sha256": "fa0a342c586f47112b1c721cb8af5fcee812504e3b4fe8dc2efac66955aa5466"
+        },
+        "protein.pdb": {
+          "source": "/home/ayushregmibagale/10PROTAC-MD/prepared_inputs/JNJ1013/IRAK1_P51617/protein.pdb",
+          "sha256": "dbbd464ab9d839424188bff2538637572c61fa58dda660791f40c9db4b1f5660"
+        },
+        "vbc.pdb": {
+          "source": "/home/ayushregmibagale/10PROTAC-MD/prepared_inputs/JNJ1013/IRAK1_P51617/vbc.pdb",
+          "sha256": "38a87ba99977645ba344f0d36a0d20be725150a50182c68bfab6cfdd183902a2"
+        },
+        "Protac_params.txt": {
+          "source": "/home/ayushregmibagale/10PROTAC-MD/prepared_inputs/JNJ1013/IRAK1_P51617/Protac_params.txt",
+          "sha256": "44148151b5eaf9d2506e2ca9bb6626e5af2c5ea8aad802865dd91ddce5684756"
+        },
+        "selection.json": {
+          "source": "/home/ayushregmibagale/10PROTAC-MD/prepared_inputs/JNJ1013/IRAK1_P51617/selection.json",
+          "sha256": "35d269763795f0e8585f3bf9a171037528820bc9443de00a2bf97a0836ba563e"
+        },
+        "preparation.json": {
+          "source": "/home/ayushregmibagale/10PROTAC-MD/prepared_inputs/JNJ1013/IRAK1_P51617/preparation.json",
+          "sha256": "78121326ffba3fc3d5e095ec0fba682b9c427e5417d053ad4acda3284135d80d"
+        }
+      },
+      "production_ready": false,
+      "full_molecule_inchikey": "MHRNVFQJUUXQIG-VIFUUBRESA-N",
+      "formula": "C46H55N9O7S",
+      "head_heavy_atoms": {
+        "vhl_head.sdf": 31,
+        "poi_head.sdf": 29
+      },
+      "input_file_sha256": {
+        "full.smi": "571134df69a9e2a6a3a98ecd451191def020ec1b598442c2ca2e44623c221334",
+        "poi_head.sdf": "fa0a342c586f47112b1c721cb8af5fcee812504e3b4fe8dc2efac66955aa5466",
+        "preparation.json": "78121326ffba3fc3d5e095ec0fba682b9c427e5417d053ad4acda3284135d80d",
+        "Protac_params.txt": "44148151b5eaf9d2506e2ca9bb6626e5af2c5ea8aad802865dd91ddce5684756",
+        "protein.pdb": "dbbd464ab9d839424188bff2538637572c61fa58dda660791f40c9db4b1f5660",
+        "selection.json": "35d269763795f0e8585f3bf9a171037528820bc9443de00a2bf97a0836ba563e",
+        "vbc.pdb": "38a87ba99977645ba344f0d36a0d20be725150a50182c68bfab6cfdd183902a2",
+        "vhl_head.sdf": "926817eef52a725848ca79fd61679ea0605b4fa6eb6f1d63cacca3355ca56537"
+      },
+      "qualification_status": "STAGED_NOT_QUALIFIED"
+    },
+    {
+      "compound": "SJF_delta",
+      "target": "MET_P08581",
+      "role": "parent-head technical control only; NOT a claimed degradation positive",
+      "directory": "inputs/SJF_delta/MET_P08581",
+      "sources": {
+        "full.smi": {
+          "source": "/home/ayushregmibagale/10PROTAC-MD/prepared_inputs/SJF_delta/MET_P08581/full.smi",
+          "sha256": "911750d46e1e3a0cac330f3311854530de945c6c034961d8e5fcecec26583b13"
+        },
+        "vhl_head.sdf": {
+          "source": "/home/ayushregmibagale/10PROTAC-MD/prepared_inputs/SJF_delta/MET_P08581/vhl_head.sdf",
+          "sha256": "a61375fc07b7f24f9e0ac58bf3c6f14447c10779b804fd56389af7bee4976282"
+        },
+        "poi_head.sdf": {
+          "source": "/home/ayushregmibagale/10PROTAC-MD/prepared_inputs/SJF_delta/MET_P08581/poi_head.sdf",
+          "sha256": "2c46229bc6f4d46bfd5cd0b8f152ccf0af2af45103aee38d752e3cba67c5ed53"
+        },
+        "protein.pdb": {
+          "source": "/home/ayushregmibagale/10PROTAC-MD/prepared_inputs/SJF_delta/MET_P08581/protein.pdb",
+          "sha256": "b5d10882e57088e4305e5ad289510493f0582963a7893d250bc4fe78b50de9ea"
+        },
+        "vbc.pdb": {
+          "source": "/home/ayushregmibagale/10PROTAC-MD/prepared_inputs/SJF_delta/MET_P08581/vbc.pdb",
+          "sha256": "d5d0c38470689c813f2c46495a479e6723568f2f131dbaddc8a95a469f539342"
+        },
+        "Protac_params.txt": {
+          "source": "/home/ayushregmibagale/10PROTAC-MD/prepared_inputs/SJF_delta/MET_P08581/Protac_params.txt",
+          "sha256": "43f68cd55c3d64abffff72d5966a4a2b3cf400b5d18e3a4f0f998890d44995f1"
+        },
+        "selection.json": {
+          "source": "/home/ayushregmibagale/10PROTAC-MD/prepared_inputs/SJF_delta/MET_P08581/selection.json",
+          "sha256": "35d269763795f0e8585f3bf9a171037528820bc9443de00a2bf97a0836ba563e"
+        },
+        "preparation.json": {
+          "source": "/home/ayushregmibagale/10PROTAC-MD/prepared_inputs/SJF_delta/MET_P08581/preparation.json",
+          "sha256": "c3e41afd188e9dd56cf9cfd1d79264f150693d810043ccaa75dbf14c62b6edb9"
+        }
+      },
+      "production_ready": false,
+      "full_molecule_inchikey": "LYUUIIZKBMBNQV-CHOFKVETSA-N",
+      "formula": "C62H63F2N7O12S",
+      "head_heavy_atoms": {
+        "vhl_head.sdf": 39,
+        "poi_head.sdf": 37
+      },
+      "input_file_sha256": {
+        "full.smi": "911750d46e1e3a0cac330f3311854530de945c6c034961d8e5fcecec26583b13",
+        "poi_head.sdf": "2c46229bc6f4d46bfd5cd0b8f152ccf0af2af45103aee38d752e3cba67c5ed53",
+        "preparation.json": "c3e41afd188e9dd56cf9cfd1d79264f150693d810043ccaa75dbf14c62b6edb9",
+        "Protac_params.txt": "43f68cd55c3d64abffff72d5966a4a2b3cf400b5d18e3a4f0f998890d44995f1",
+        "protein.pdb": "b5d10882e57088e4305e5ad289510493f0582963a7893d250bc4fe78b50de9ea",
+        "selection.json": "35d269763795f0e8585f3bf9a171037528820bc9443de00a2bf97a0836ba563e",
+        "vbc.pdb": "d5d0c38470689c813f2c46495a479e6723568f2f131dbaddc8a95a469f539342",
+        "vhl_head.sdf": "a61375fc07b7f24f9e0ac58bf3c6f14447c10779b804fd56389af7bee4976282"
+      },
+      "qualification_status": "STAGED_NOT_QUALIFIED"
+    },
+    {
+      "compound": "MS143",
+      "target": "AKT1_P31749",
+      "role": "modeled AKT technical control, phosphoThr308 retained",
+      "directory": "inputs/MS143/AKT1_P31749",
+      "sources": {
+        "full.smi": {
+          "source": "/mnt/c/Users/Ayush Regmi Bagale/10PROTAC_static_campaign_work/molecules/MS143/full.smi",
+          "sha256": "ac4c1b9042734a6ba4ca3a299e521aa6afab57e70016cf88bf91941c2f69074d"
+        },
+        "vhl_head.sdf": {
+          "source": "/mnt/c/Users/Ayush Regmi Bagale/10PROTAC_static_campaign_work/six_protac_static_ensemble_plan_v1/MS143/strict_review_v2/vhl_head.sdf",
+          "sha256": "37981dea105e48f8f26c666222ecad4ea8659270b46f0df9789fa49655a4a5d2"
+        },
+        "poi_head.sdf": {
+          "source": "/mnt/c/Users/Ayush Regmi Bagale/10PROTAC_static_campaign_work/six_protac_static_ensemble_plan_v1/MS143/strict_review_v2/poi_modeled_head.sdf",
+          "sha256": "3d10b7996184ca9944daa1e3ca1e6d5555541b9f87f2cb76784b580ee7893625"
+        },
+        "protein.pdb": {
+          "source": "/mnt/c/Users/Ayush Regmi Bagale/10PROTAC_static_campaign_work/six_protac_static_ensemble_plan_v1/MS143/strict_review_v2/AKT1_parent_protein.pdb",
+          "sha256": "a7e99dce8bf79b22ff840e5a85337e474cec4968d6dd32865138f92fa732d4dc"
+        },
+        "vbc.pdb": {
+          "source": "/home/ayushregmibagale/10PROTAC-MD/prepared_inputs/SJF8240/MET_P08581/vbc.pdb",
+          "sha256": "d5d0c38470689c813f2c46495a479e6723568f2f131dbaddc8a95a469f539342"
+        },
+        "protein_modification_spec.json": {
+          "source": "/mnt/c/Users/Ayush Regmi Bagale/10PROTAC_static_campaign_work/six_protac_static_ensemble_plan_v1/MS143/protein_modification_spec.json",
+          "sha256": "a12d00c2ca6390b2283babfbd80a8cab1020c460af5033baad0a5dbcd16b33f3"
+        },
+        "preparation.json": {
+          "source": "/mnt/c/Users/Ayush Regmi Bagale/10PROTAC_static_campaign_work/six_protac_static_ensemble_plan_v1/MS143/strict_review_v2/PREPARATION.json",
+          "sha256": "4fd2a647e9b9f36d6ce9b4d8a8ddf51ce16f6504794b466e0c72ae120971cfbd"
+        }
+      },
+      "production_ready": false,
+      "extra_blocker": "Explicit PTM-aware geometry selection and end-to-end docking preservation required; ATOM-only POI selection is insufficient",
+      "full_molecule_inchikey": "DESJGFOSPPNXOH-XUXNHVGISA-N",
+      "formula": "C59H81ClN12O6S",
+      "head_heavy_atoms": {
+        "vhl_head.sdf": 30,
+        "poi_head.sdf": 35
+      },
+      "input_file_sha256": {
+        "full.smi": "ac4c1b9042734a6ba4ca3a299e521aa6afab57e70016cf88bf91941c2f69074d",
+        "poi_head.sdf": "3d10b7996184ca9944daa1e3ca1e6d5555541b9f87f2cb76784b580ee7893625",
+        "preparation.json": "4fd2a647e9b9f36d6ce9b4d8a8ddf51ce16f6504794b466e0c72ae120971cfbd",
+        "Protac_params.txt": "4bbc7b65b1543126f038720781ec40ca3bd4e40bc31d3c79577f9e80bdfa3c77",
+        "protein.pdb": "a7e99dce8bf79b22ff840e5a85337e474cec4968d6dd32865138f92fa732d4dc",
+        "protein_modification_spec.json": "a12d00c2ca6390b2283babfbd80a8cab1020c460af5033baad0a5dbcd16b33f3",
+        "selection.json": "35d269763795f0e8585f3bf9a171037528820bc9443de00a2bf97a0836ba563e",
+        "vbc.pdb": "d5d0c38470689c813f2c46495a479e6723568f2f131dbaddc8a95a469f539342",
+        "vhl_head.sdf": "37981dea105e48f8f26c666222ecad4ea8659270b46f0df9789fa49655a4a5d2"
+      },
+      "qualification_status": "STAGED_NOT_QUALIFIED"
+    }
+  ],
+  "source_script_sha256": "6fb8aedb063db0c74910ad104231ba7cfc956b7b77fa2d6978ecb3f21fd40a21"
+}

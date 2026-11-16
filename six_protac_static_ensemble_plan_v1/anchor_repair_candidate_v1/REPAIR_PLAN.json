@@ -1,0 +1,10 @@
+{
+  "purpose": "Test generation-only linker-anchor restraint derived from same free-conformer range used in global docking",
+  "restraint": "FlatHarmonicFunc(midpoint,sd=1A,tolerance=half interval),weight1 in low/high docking",
+  "native_or_degradation_labels_used": false,
+  "quality_gate_unchanged": true,
+  "raw_final_scoring": "Existing independent ref2015 scoring remains unchanged; restraint is generation-only",
+  "additional_fix": "Check residue atom inventories after centroid roundtrip; restore explicitly supported phosphorylated Thr with original fullatom residue in current backbone frame; unknown mismatches fail",
+  "scope": "Local first3global x3local smoke, same two reference inputs,4cores24GiB10GiB30min/reference",
+  "next": "If execution and restraint receipts pass, freeze separate50x10x20reference qualification run; no Ernie submission"
+}

@@ -1,0 +1,13 @@
+{
+  "status": "REPAIR_CONTRACT_CONTROLS_PASS",
+  "checks": [
+    "zero penalty throughout sampled flat interval",
+    "positive restraint penalty outside interval",
+    "missing anchor rejected",
+    "actual candidate restores phosphorylated Thr after centroid roundtrip",
+    "unexpected protein residue substitution rejected"
+  ],
+  "candidate_source_sha256": "c2727aea24ead34db528706fbdcc7c5345dc0468a73680fe3b1b3dc66862d958",
+  "script_sha256": "694b769c348644a4f8fc025e15ef1d0542b732fbb91d03cd0e2779634b75df5c",
+  "scope": "Static execution contracts only; not reference recovery qualification"
+}

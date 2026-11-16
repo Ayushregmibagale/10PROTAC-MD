@@ -1,0 +1,11 @@
+{
+  "status": "HOLD",
+  "production_ready": false,
+  "reason": [
+    "Reference recovery qualification pending",
+    "Per-input steric/state qualification pending",
+    "MS143 PTM-aware post-QC integration pending",
+    "Ernie resource/scheduling mode and final submission approval pending"
+  ],
+  "note": "No full kinome campaign or MD; builder cannot authorize release"
+}

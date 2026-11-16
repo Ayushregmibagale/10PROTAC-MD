@@ -1,0 +1,218 @@
+{
+  "status": "SIX_INPUT_HASH_AND_STERIC_AUDIT_COMPLETE",
+  "production_ready": false,
+  "controls": [
+    {
+      "compound": "GSK215",
+      "target": "PTK2_Q05397",
+      "hash_integrity": "PASS",
+      "poi_head_sterics": {
+        "head_heavy_atoms": 36,
+        "min_distance_A": 2.9725866054949703,
+        "max_vdw_overlap_A": 0.22741339450502984,
+        "max_overlap_pair": [
+          23,
+          "('p', 0, 'D', (' ', 502, ' '), ('N', ' '))"
+        ],
+        "head_atoms_within4A": 29,
+        "max_overlap_protein_atom_name": "N",
+        "max_backbone_vdw_overlap_A": 0.22741339450502984,
+        "max_sidechain_vdw_overlap_A": 0.12123180483619045
+      },
+      "vhl_head_sterics": {
+        "head_heavy_atoms": 31,
+        "min_distance_A": 2.502984272291322,
+        "max_vdw_overlap_A": 0.6470157277086783,
+        "max_overlap_pair": [
+          14,
+          "('p', 0, 'A', (' ', 115, ' '), ('ND1', ' '))"
+        ],
+        "head_atoms_within4A": 26,
+        "max_overlap_protein_atom_name": "ND1",
+        "max_backbone_vdw_overlap_A": 0.4221027600912808,
+        "max_sidechain_vdw_overlap_A": 0.6470157277086783
+      },
+      "qualification_status": "REVIEW_REQUIRED_NOT_RELEASED"
+    },
+    {
+      "compound": "SJF8240",
+      "target": "MET_P08581",
+      "hash_integrity": "PASS",
+      "poi_head_sterics": {
+        "head_heavy_atoms": 37,
+        "min_distance_A": 2.893938144821787,
+        "max_vdw_overlap_A": 0.25606185517821345,
+        "max_overlap_pair": [
+          26,
+          "('p', 0, 'D', (' ', 1110, ' '), ('NZ', ' '))"
+        ],
+        "head_atoms_within4A": 37,
+        "max_overlap_protein_atom_name": "NZ",
+        "max_backbone_vdw_overlap_A": 0.14944373484466666,
+        "max_sidechain_vdw_overlap_A": 0.25606185517821345
+      },
+      "vhl_head_sterics": {
+        "head_heavy_atoms": 30,
+        "min_distance_A": 2.594906657775904,
+        "max_vdw_overlap_A": 0.5443995335987544,
+        "max_overlap_pair": [
+          11,
+          "('p', 0, 'A', (' ', 115, ' '), ('ND1', ' '))"
+        ],
+        "head_atoms_within4A": 24,
+        "max_overlap_protein_atom_name": "ND1",
+        "max_backbone_vdw_overlap_A": 0.33159435846387764,
+        "max_sidechain_vdw_overlap_A": 0.5443995335987544
+      },
+      "qualification_status": "REVIEW_REQUIRED_NOT_RELEASED"
+    },
+    {
+      "compound": "SJF1521",
+      "target": "EGFR_P00533",
+      "hash_integrity": "PASS",
+      "poi_head_sterics": {
+        "head_heavy_atoms": 34,
+        "min_distance_A": 2.9600441320278503,
+        "max_vdw_overlap_A": 0.2500024072175475,
+        "max_overlap_pair": [
+          17,
+          "('p', 0, 'D', (' ', 788, ' '), ('O', ' '))"
+        ],
+        "head_atoms_within4A": 28,
+        "max_overlap_protein_atom_name": "O",
+        "max_backbone_vdw_overlap_A": 0.2500024072175475,
+        "max_sidechain_vdw_overlap_A": 0.08628820746596988
+      },
+      "vhl_head_sterics": {
+        "head_heavy_atoms": 30,
+        "min_distance_A": 2.594906657775904,
+        "max_vdw_overlap_A": 0.5443995335987544,
+        "max_overlap_pair": [
+          11,
+          "('p', 0, 'A', (' ', 115, ' '), ('ND1', ' '))"
+        ],
+        "head_atoms_within4A": 24,
+        "max_overlap_protein_atom_name": "ND1",
+        "max_backbone_vdw_overlap_A": 0.33159435846387764,
+        "max_sidechain_vdw_overlap_A": 0.5443995335987544
+      },
+      "qualification_status": "REVIEW_REQUIRED_NOT_RELEASED"
+    },
+    {
+      "compound": "JNJ1013",
+      "target": "IRAK1_P51617",
+      "hash_integrity": "PASS",
+      "poi_head_sterics": {
+        "head_heavy_atoms": 29,
+        "min_distance_A": 2.691390463146285,
+        "max_vdw_overlap_A": 0.45860953685371575,
+        "max_overlap_pair": [
+          24,
+          "('p', 0, 'D', (' ', 358, ' '), ('OD1', ' '))"
+        ],
+        "head_atoms_within4A": 24,
+        "max_overlap_protein_atom_name": "OD1",
+        "max_backbone_vdw_overlap_A": 0.13426853363269586,
+        "max_sidechain_vdw_overlap_A": 0.45860953685371575
+      },
+      "vhl_head_sterics": {
+        "head_heavy_atoms": 31,
+        "min_distance_A": 2.502984272291322,
+        "max_vdw_overlap_A": 0.6470157277086783,
+        "max_overlap_pair": [
+          14,
+          "('p', 0, 'A', (' ', 115, ' '), ('ND1', ' '))"
+        ],
+        "head_atoms_within4A": 26,
+        "max_overlap_protein_atom_name": "ND1",
+        "max_backbone_vdw_overlap_A": 0.4221027600912808,
+        "max_sidechain_vdw_overlap_A": 0.6470157277086783
+      },
+      "qualification_status": "REVIEW_REQUIRED_NOT_RELEASED"
+    },
+    {
+      "compound": "SJF_delta",
+      "target": "MET_P08581",
+      "hash_integrity": "PASS",
+      "poi_head_sterics": {
+        "head_heavy_atoms": 37,
+        "min_distance_A": 2.893938144821787,
+        "max_vdw_overlap_A": 0.25606185517821345,
+        "max_overlap_pair": [
+          26,
+          "('p', 0, 'D', (' ', 1110, ' '), ('NZ', ' '))"
+        ],
+        "head_atoms_within4A": 37,
+        "max_overlap_protein_atom_name": "NZ",
+        "max_backbone_vdw_overlap_A": 0.14944373484466666,
+        "max_sidechain_vdw_overlap_A": 0.25606185517821345
+      },
+      "vhl_head_sterics": {
+        "head_heavy_atoms": 39,
+        "min_distance_A": 2.5219790224241123,
+        "max_vdw_overlap_A": 0.8780209775758876,
+        "max_overlap_pair": [
+          24,
+          "('p', 0, 'A', (' ', 69, ' '), ('CG', ' '))"
+        ],
+        "head_atoms_within4A": 33,
+        "max_overlap_protein_atom_name": "CG",
+        "max_backbone_vdw_overlap_A": 0.5746826500068729,
+        "max_sidechain_vdw_overlap_A": 0.8780209775758876
+      },
+      "qualification_status": "REVIEW_REQUIRED_NOT_RELEASED"
+    },
+    {
+      "compound": "MS143",
+      "target": "AKT1_P31749",
+      "hash_integrity": "PASS",
+      "poi_head_sterics": {
+        "head_heavy_atoms": 35,
+        "min_distance_A": 2.6674330932579657,
+        "max_vdw_overlap_A": 0.5762530896303684,
+        "max_overlap_pair": [
+          33,
+          "('p', 0, 'D', (' ', 276, ' '), ('NZ', ' '))"
+        ],
+        "head_atoms_within4A": 29,
+        "max_overlap_protein_atom_name": "NZ",
+        "max_backbone_vdw_overlap_A": 0.31670936079226,
+        "max_sidechain_vdw_overlap_A": 0.5762530896303684
+      },
+      "vhl_head_sterics": {
+        "head_heavy_atoms": 30,
+        "min_distance_A": 2.594906657775904,
+        "max_vdw_overlap_A": 0.5443995335987544,
+        "max_overlap_pair": [
+          11,
+          "('p', 0, 'A', (' ', 115, ' '), ('ND1', ' '))"
+        ],
+        "head_atoms_within4A": 24,
+        "max_overlap_protein_atom_name": "ND1",
+        "max_backbone_vdw_overlap_A": 0.33159435846387764,
+        "max_sidechain_vdw_overlap_A": 0.5443995335987544
+      },
+      "qualification_status": "REVIEW_REQUIRED_NOT_RELEASED",
+      "declared_protein_modifications": {
+        "status": "DECLARED_PROTEIN_MODIFICATIONS_PRESENT",
+        "protein_heavy_atoms_including_modifications": 2696,
+        "modifications": [
+          {
+            "chain": "D",
+            "resnum": 308,
+            "icode": " ",
+            "resname": "TPO",
+            "heavy_atoms": 11
+          }
+        ],
+        "scope": "Residue/atom presence and explicit role selection only; not a physical/biological validation"
+      }
+    }
+  ],
+  "limitations": [
+    "Steric values are diagnostics, not binding or complete structure validation",
+    "No relaxation, docking, MD or remote submission",
+    "Full MS143 PTM preservation/selection remains an end-to-end qualification requirement"
+  ],
+  "source_script_sha256": "ae18465bffb1a03de530a982ef13f794140aa20e5b030e4a9ea81ff7717c9710"
+}

@@ -1,0 +1,16 @@
+{
+  "hostname": "ernie",
+  "cpu_count": 96,
+  "scheduler_commands": {
+    "sbatch": null,
+    "srun": null,
+    "qsub": null,
+    "qstat": null,
+    "bsub": null,
+    "modulecmd": null
+  },
+  "home_free_bytes": 1494484852736,
+  "existing_reference_pilot_status": "REFERENCE_PILOT_COMPLETE_NEEDS_RECOVERY_ASSESSMENT",
+  "scope": "Read-only connectivity/tool discovery; absence on noninteractive PATH does not establish site resource policy",
+  "job_submitted": false
+}

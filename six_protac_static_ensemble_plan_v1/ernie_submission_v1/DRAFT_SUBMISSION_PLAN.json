@@ -1,0 +1,19 @@
+{
+  "remote_root": "/home/s1638308/six_protac_ernie_pilot_v1",
+  "runtime": "/home/s1638308/miniconda3/envs/protac/bin/python3",
+  "controller_argv": [
+    "/home/s1638308/miniconda3/envs/protac/bin/python3",
+    "/home/s1638308/six_protac_ernie_pilot_v1/run_pilot.py",
+    "--root",
+    "/home/s1638308/six_protac_ernie_pilot_v1"
+  ],
+  "status": "DRAFT_HELD_NOT_SUBMITTED",
+  "tasks": 6,
+  "qualification_bundle": "/tmp/six_protac_anchor_repair_qualification_v1",
+  "qualification_manifest_sha256": "90f19062459da95d04389d91d46645e353725eabf7aa06e710ab751327b2b8a5",
+  "staged_input_manifest_sha256": "9edfb8ba21ed9941d1a5f00803e1f36a839e5957d5f95322d28be25290c89088",
+  "max_sequential_task_wall_hours": 24,
+  "max_simultaneous_cores": 4,
+  "scheduler_policy_note": "Read-only PATH discovery does not establish allocation or scheduling policy",
+  "approval": "Present a qualified concrete package to user before remote submission"
+}

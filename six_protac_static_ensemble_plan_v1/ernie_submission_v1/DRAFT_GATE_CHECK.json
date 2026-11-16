@@ -1,0 +1,7 @@
+{
+  "status": "DRAFT_EXECUTION_GATE_CORRECTLY_BLOCKS",
+  "exit_code": 1,
+  "no_runs_created": true,
+  "no_status_created": true,
+  "scope": "Local negative control; no remote job"
+}
