@@ -1,0 +1,10 @@
+{
+  "source": "/home/s1638308/PRosettaC",
+  "patchdock": "/home/s1638308/PatchDock",
+  "rosetta": "/home/s1638308/rosetta",
+  "openbabel": "/home/s1638308/miniconda3/envs/protac/bin",
+  "python": "/home/s1638308/miniconda3/envs/protac/bin/python3",
+  "workers": 4,
+  "task_timeout_seconds": 43200,
+  "min_free_bytes": 53687091200
+}

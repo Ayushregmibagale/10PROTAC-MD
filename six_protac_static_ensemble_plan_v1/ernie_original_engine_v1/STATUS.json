@@ -1,0 +1,23 @@
+{
+  "status": "ORIGINAL_ENGINE_PACKAGE_PREPARED_PATHS_BLOCKED",
+  "replacement_engine_recovery_required": false,
+  "six_compound_technical_tasks": 6,
+  "whole_kinome_inputs_complete": false,
+  "MD": false,
+  "submitted": false,
+  "remote_files_written": false,
+  "path_audit_utc": "2026-11-16T20:40:03.170182+00:00",
+  "missing_checks": [
+    "PatchDock:patch_dock.Linux",
+    "PatchDock:buildParams.pl",
+    "PatchDock:transOutput.pl",
+    "RosettaScripts",
+    "clean_pdb.py",
+    "molfile_to_params.py",
+    "babel (original code spelling)",
+    "PATH:python2.7",
+    "original Python imports"
+  ],
+  "tests": "5 orchestration tests passed; shell syntax and six-task dry run passed",
+  "next": "Resolve actual PatchDock and standalone Rosetta installation paths and original dependencies, rebuild frozen config, then present concrete launch for final approval"
+}

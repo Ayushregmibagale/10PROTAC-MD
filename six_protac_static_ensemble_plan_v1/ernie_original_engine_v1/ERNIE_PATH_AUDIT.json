@@ -1,0 +1,171 @@
+{
+  "status": "PATHS_BLOCKED",
+  "checked_utc": "2026-11-16T20:40:03.170182+00:00",
+  "hostname": "ernie",
+  "checks": [
+    {
+      "name": "source:main.py",
+      "path": "/home/s1638308/PRosettaC/main.py",
+      "ok": true,
+      "sha256": "bd71a24bdf6e20136fd1762d37fad67e6dca53ddcfb137ba2dd862387ea91089"
+    },
+    {
+      "name": "source:utils.py",
+      "path": "/home/s1638308/PRosettaC/utils.py",
+      "ok": true,
+      "sha256": "5a94f91c4454d6d1703884ec91d2713c6d135b8ec4f674581a585034b33e8dc9"
+    },
+    {
+      "name": "source:rosetta.py",
+      "path": "/home/s1638308/PRosettaC/rosetta.py",
+      "ok": true,
+      "sha256": "811b4573d417807e2d1a8404e72372fe1d569b4b39e6477a3a81339efafc4604"
+    },
+    {
+      "name": "source:protac_lib.py",
+      "path": "/home/s1638308/PRosettaC/protac_lib.py",
+      "ok": true,
+      "sha256": "72b9f934ace5b23eb676b0d4e7d234c11f01bff5c1f1a43ad8bcaeaace577239"
+    },
+    {
+      "name": "source:constraint_generation.py",
+      "path": "/home/s1638308/PRosettaC/constraint_generation.py",
+      "ok": true,
+      "sha256": "89f4c32d4f82899a884d0263eb5fbf88d3d85f7243da77a0e041d4a521f9af3d"
+    },
+    {
+      "name": "source:clustering.py",
+      "path": "/home/s1638308/PRosettaC/clustering.py",
+      "ok": true,
+      "sha256": "cbd3d6dcb37b2e83fb803efce8c01312059da191badb05a04aac996ecd04b782"
+    },
+    {
+      "name": "source:Rosetta/docking.xml",
+      "path": "/home/s1638308/PRosettaC/Rosetta/docking.xml",
+      "ok": true,
+      "sha256": "58c7f1366ece05011f0fc4387fe4f2c92da5f3e6e24bd1b3ae73097dfb49b7d7"
+    },
+    {
+      "name": "source:Rosetta/docking.flags",
+      "path": "/home/s1638308/PRosettaC/Rosetta/docking.flags",
+      "ok": true,
+      "sha256": "f5c3d79980ef59315ddbe2659c2643f20dfe4db92b3f539e0174b405e6d5ba54"
+    },
+    {
+      "name": "source:Rosetta/relax.flags",
+      "path": "/home/s1638308/PRosettaC/Rosetta/relax.flags",
+      "ok": true,
+      "sha256": "044801548d7c7e3a0798944d36d517296101ef3609171122d362cec253ba3962"
+    },
+    {
+      "name": "source:cluster/LOCAL/LOCAL.py",
+      "path": "/home/s1638308/PRosettaC/cluster/LOCAL/LOCAL.py",
+      "ok": true,
+      "sha256": "c8810b9378214e34219f76cd72f66e29fdab3988d0335d8481da025b9e1ad62a"
+    },
+    {
+      "name": "PatchDock:patch_dock.Linux",
+      "path": "/home/s1638308/PatchDock/patch_dock.Linux",
+      "ok": false,
+      "sha256": null
+    },
+    {
+      "name": "PatchDock:buildParams.pl",
+      "path": "/home/s1638308/PatchDock/buildParams.pl",
+      "ok": false,
+      "sha256": null
+    },
+    {
+      "name": "PatchDock:transOutput.pl",
+      "path": "/home/s1638308/PatchDock/transOutput.pl",
+      "ok": false,
+      "sha256": null
+    },
+    {
+      "name": "RosettaScripts",
+      "path": "/home/s1638308/rosetta/main/source/bin/rosetta_scripts.default.linuxgccrelease",
+      "ok": false,
+      "sha256": null
+    },
+    {
+      "name": "clean_pdb.py",
+      "path": "/home/s1638308/rosetta/tools/protein_tools/scripts/clean_pdb.py",
+      "ok": false,
+      "sha256": null
+    },
+    {
+      "name": "molfile_to_params.py",
+      "path": "/home/s1638308/rosetta/main/source/scripts/python/public/molfile_to_params.py",
+      "ok": false,
+      "sha256": null
+    },
+    {
+      "name": "babel (original code spelling)",
+      "path": "/home/s1638308/miniconda3/envs/protac/bin/babel",
+      "ok": false,
+      "sha256": null
+    },
+    {
+      "name": "python3",
+      "path": "/home/s1638308/miniconda3/envs/protac/bin/python3",
+      "ok": true,
+      "sha256": "98fe630dac907aac02f750a41aafa9d7cb345c71f6e73354b1caa7fb7923e785"
+    },
+    {
+      "name": "PATH:python2.7",
+      "path": null,
+      "ok": false
+    },
+    {
+      "name": "PATH:perl",
+      "path": "/usr/bin/perl",
+      "ok": true
+    },
+    {
+      "name": "PATH:bash",
+      "path": "/usr/bin/bash",
+      "ok": true
+    },
+    {
+      "name": "PATH:sed",
+      "path": "/usr/bin/sed",
+      "ok": true
+    },
+    {
+      "name": "PATH:grep",
+      "path": "/usr/bin/grep",
+      "ok": true
+    },
+    {
+      "name": "PATH:cat",
+      "path": "/usr/bin/cat",
+      "ok": true
+    },
+    {
+      "name": "PATH:mv",
+      "path": "/usr/bin/mv",
+      "ok": true
+    },
+    {
+      "name": "source calls PatchDock executable",
+      "ok": true
+    },
+    {
+      "name": "entrypoint has no PyRosetta adapter import",
+      "ok": true
+    },
+    {
+      "name": "original Python imports",
+      "ok": false,
+      "stdout": "",
+      "stderr": "Traceback (most recent call last):\n  File \"<string>\", line 1, in <module>\nModuleNotFoundError: No module named 'pymol'\n"
+    }
+  ],
+  "scheduler_commands": {
+    "sbatch": null,
+    "qsub": null,
+    "srun": null
+  },
+  "scope": "Original engine paths/imports only; no molecular jobs or reference-recovery gate",
+  "docking_launched": false
+}

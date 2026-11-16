@@ -1,0 +1,26 @@
+{
+  "vhl": {
+    "chains": [
+      "A"
+    ],
+    "record": "ATOM"
+  },
+  "poi": {
+    "chains": [
+      "D"
+    ],
+    "record": "ATOM"
+  },
+  "protac": {
+    "chains": [
+      "X"
+    ],
+    "record": "HETATM",
+    "resname": "PTC"
+  },
+  "qc": {
+    "min_nonbonded_heavy_distance_A": 1.5,
+    "units": "Angstrom",
+    "basis": "Same minimum contact distance as bound-head preparation; gross-overlap exclusion only"
+  }
+}
