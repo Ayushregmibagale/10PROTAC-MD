@@ -1,0 +1,54 @@
+{
+  "scope": "Targeted source identity comparison, not complete folder validation",
+  "sources": [
+    {
+      "source": "/mnt/d/PROTAC degradation Prediction/scripts/02_rosetta_utils/run_docking.py",
+      "sha256": "2d169df98336e024e4dc8b05da40c721aa2c01402b7b0b66b480b5cb66d76ccb",
+      "identical_existing_project_copies": [
+        "/home/ayushregmibagale/10PROTAC-MD/prosettac_robust/legacy_source/scripts/rosetta_utils/run_docking.py",
+        "/home/ayushregmibagale/10PROTAC-MD/prosettac_robust/legacy_source/scripts/02_rosetta_utils/run_docking.py",
+        "/home/ayushregmibagale/10PROTAC-MD/prosettac_robust/existing_result_audit/historical_methods_v1/source_snapshot/original_rosetta_wrappers/run_docking.py"
+      ]
+    },
+    {
+      "source": "/mnt/d/PROTAC degradation Prediction/scripts/02_rosetta_utils/pyrosetta_adapter.py",
+      "sha256": "b21629c36d6bc6250db86784a52e9bb063b1c82594731a39586d249844deadff",
+      "identical_existing_project_copies": [
+        "/home/ayushregmibagale/10PROTAC-MD/prosettac_robust/legacy_source/scripts/rosetta_utils/pyrosetta_adapter.py",
+        "/home/ayushregmibagale/10PROTAC-MD/prosettac_robust/legacy_source/scripts/02_rosetta_utils/pyrosetta_adapter.py",
+        "/home/ayushregmibagale/10PROTAC-MD/prosettac_robust/existing_result_audit/historical_methods_v1/source_snapshot/original_rosetta_wrappers/pyrosetta_adapter.py"
+      ]
+    },
+    {
+      "source": "/mnt/d/PROTAC degradation Prediction/scripts/02_rosetta_utils/03_run_local_prosettac.py",
+      "sha256": "d4c7228472e9ce7516cd3ea496cea7a50115a0b9bdf985e872d6de112f650c20",
+      "identical_existing_project_copies": [
+        "/home/ayushregmibagale/10PROTAC-MD/prosettac_robust/legacy_source/scripts/02_rosetta_utils/03_run_local_prosettac.py"
+      ]
+    },
+    {
+      "source": "/mnt/d/PROTAC degradation Prediction/scripts/02_rosetta_utils/constraint_generation.py",
+      "sha256": "c32d4c1f7a3099a0b877b25ebbe4dca4092a06583cd50ffce730b225b79c9489",
+      "identical_existing_project_copies": [
+        "/home/ayushregmibagale/10PROTAC-MD/prosettac_robust/legacy_source/scripts/rosetta_utils/constraint_generation.py",
+        "/home/ayushregmibagale/10PROTAC-MD/prosettac_robust/legacy_source/scripts/02_rosetta_utils/constraint_generation.py",
+        "/home/ayushregmibagale/10PROTAC-MD/prosettac_robust/existing_result_audit/historical_methods_v1/source_snapshot/original_rosetta_wrappers/constraint_generation.py"
+      ]
+    },
+    {
+      "source": "/mnt/d/PROTAC degradation Prediction/scripts/01_structure_prep/03_place_warhead.py",
+      "sha256": "e9b88343a4956a2b7d7c9d67198eca0f1b664da61fd7db46a74db5c7b27715af",
+      "identical_existing_project_copies": [
+        "/home/ayushregmibagale/10PROTAC-MD/prosettac_robust/legacy_source/scripts/01_structure_prep/03_place_warhead.py"
+      ]
+    },
+    {
+      "source": "/mnt/d/PROTAC degradation Prediction/scripts/03_analysis/02_recluster_feasible.py",
+      "sha256": "c2730c2d07d381f2a68d19d76ff9e587eb28e90b6e2aa88a44c16a82d2fd9468",
+      "identical_existing_project_copies": [
+        "/home/ayushregmibagale/10PROTAC-MD/prosettac_robust/legacy_source/scripts/03_analysis/02_recluster_feasible.py"
+      ]
+    }
+  ],
+  "note": "Historical README labels EPHA2 incorrectly as nondegrader; current confirmed degrader label takes precedence. Historical chemical structures require supplier identity checks before reuse."
+}
