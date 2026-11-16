@@ -1,0 +1,9 @@
+# MS143 modified-residue centroid check
+
+The normal SwitchResidueTypeSetMover/ReturnSidechainMover roundtrip fails to restore phosphorylated Thr308 fully in this runtime. Despite pose.is_fullatom() returningtrue and residue name remainingTHR:phosphorylated, its restored atom list remains centroid-like and lacks phosphateP. The uncorrected structured receipt records this failure. A pose-level representation flag alone is insufficient.
+
+A separate explicit restoration test replaces the declared Thr308 with the saved original full-atom phosphorylated residue, orienting it to its current backbone. All original atoms are recovered; maximum coordinate displacement is0.0A in this no-motion roundtrip; full-atom scoring is finite. This is a static compatibility check, not docking qualification. Moved-backbone/rigid-partner preservation and full docking still need validation before integrating a separately frozen candidate. The running two-reference benchmark has NOT been modified.
+
+Initial attempts exposed whitespace-sensitive Rosetta parameter/PDB loading and a generated-file naming collision. Source16now uses a no-whitespace output directory, keeps original full-atom parameters under distinct names, copies the input PDB to that directory, and writes a structured modification failure before exiting. Failed attempt logs are preserved. No chemical change, phosphate deletion, docking or MD was used to force a pass.
+
+The explicit TPO restoration also PASSES a second static control: the entire centroid pose is rotated90degrees aboutZ and translated(13,-7,5)A before restoration. All TPO atom coordinates agree with that expected moved frame to 7.944109290391274e-15A, and full-atom scoring is finite. This removes the no-motion-only limitation for the static residue restoration test. It still does not test full docking or constitute integration into the running protocol.

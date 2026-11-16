@@ -1,0 +1,57 @@
+{
+  "status": "FAILED_PHOSPHOTHREONINE_NOT_RESTORED",
+  "before": {
+    "is_fullatom": true,
+    "residue_name": "THR:phosphorylated",
+    "has_phosphate_P": true,
+    "residue_atoms": [
+      "N",
+      "CA",
+      "C",
+      "O",
+      "CB",
+      "OG1",
+      "CG2",
+      "P",
+      "O1P",
+      "O2P",
+      "O3P",
+      "H",
+      "HA",
+      "HB",
+      "1HG2",
+      "2HG2",
+      "3HG2"
+    ]
+  },
+  "centroid": {
+    "is_fullatom": false,
+    "residue_name": "THR:phosphorylated",
+    "has_phosphate_P": false,
+    "residue_atoms": [
+      "N",
+      "CA",
+      "C",
+      "O",
+      "CB",
+      "CEN",
+      "H"
+    ]
+  },
+  "after": {
+    "is_fullatom": true,
+    "residue_name": "THR:phosphorylated",
+    "has_phosphate_P": false,
+    "residue_atoms": [
+      "N",
+      "CA",
+      "C",
+      "O",
+      "CB",
+      "CEN",
+      "H"
+    ]
+  },
+  "source_script_sha256": "cb34c7fcca2f003bdda1fe716427ebc589092f24bc896a753e2ceb776ddb33b8",
+  "input_sha256": "8c4cd39dd457dff01e62a9fde6b4d84fc60ed1dcb752abcc72daf7bae77fbc04"
+}

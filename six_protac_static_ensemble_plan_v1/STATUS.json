@@ -46,5 +46,6 @@
   "local_comparison_status": "Complete, integrity PASS and both references assessed; 500x1 gives GSK0/5 and MZ1 0/201 passing frozen gate",
   "resume_document": "RESUME_HERE.md",
   "local_repair_root": "/tmp/six_protac_centroid_repair_pilot_v1",
-  "local_repair_status": "Started; execution/recovery not yet assessed"
+  "local_repair_status": "MZ1 complete: integrityPASS,1/129coarsegatepass,best4.4000A,passingposerank16;GSK215RUNNING",
+  "MS143_centroid_compatibility": "Uncorrected roundtrip FAILS phosphate restoration; explicit TPO restoration passes stationary and moved-frame static tests; full docking/integration pending"
 }

@@ -1,0 +1,89 @@
+{
+  "status": "MS143_PHOSPHOTHREONINE_CENTROID_ROUNDTRIP_PASS",
+  "before": {
+    "is_fullatom": true,
+    "residue_name": "THR:phosphorylated",
+    "has_phosphate_P": true,
+    "residue_atoms": [
+      "N",
+      "CA",
+      "C",
+      "O",
+      "CB",
+      "OG1",
+      "CG2",
+      "P",
+      "O1P",
+      "O2P",
+      "O3P",
+      "H",
+      "HA",
+      "HB",
+      "1HG2",
+      "2HG2",
+      "3HG2"
+    ]
+  },
+  "centroid": {
+    "is_fullatom": false,
+    "residue_name": "THR:phosphorylated",
+    "has_phosphate_P": false,
+    "residue_atoms": [
+      "N",
+      "CA",
+      "C",
+      "O",
+      "CB",
+      "CEN",
+      "H"
+    ]
+  },
+  "uncorrected_restore": {
+    "is_fullatom": true,
+    "residue_name": "THR:phosphorylated",
+    "has_phosphate_P": false,
+    "residue_atoms": [
+      "N",
+      "CA",
+      "C",
+      "O",
+      "CB",
+      "CEN",
+      "H"
+    ]
+  },
+  "restore_declared_tpo": true,
+  "rigid_perturb_centroid": true,
+  "after": {
+    "is_fullatom": true,
+    "residue_name": "THR:phosphorylated",
+    "has_phosphate_P": true,
+    "residue_atoms": [
+      "N",
+      "CA",
+      "C",
+      "O",
+      "CB",
+      "OG1",
+      "CG2",
+      "P",
+      "O1P",
+      "O2P",
+      "O3P",
+      "H",
+      "HA",
+      "HB",
+      "1HG2",
+      "2HG2",
+      "3HG2"
+    ]
+  },
+  "max_TPO_atom_displacement_from_expected_frame_A": 7.944109290391274e-15,
+  "fullatom_score_finite": true,
+  "input_sha256": "8c4cd39dd457dff01e62a9fde6b4d84fc60ed1dcb752abcc72daf7bae77fbc04",
+  "source_script_sha256": "1318dabd9e447826d4ecd892d1c0edcf004491daab61b33318dca7eb1cc26933",
+  "limitations": [
+    "No docking or minimization; static residue-type roundtrip and optional fixed rigid transform only",
+    "Does not qualify AKT binding pose, complete E3 assembly or reference recovery"
+  ]
+}
