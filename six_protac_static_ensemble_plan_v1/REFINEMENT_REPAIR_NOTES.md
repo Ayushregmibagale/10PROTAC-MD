@@ -1,0 +1,11 @@
+# Local refinement representation defect — 16 November 2026
+
+The inherited adapter calls DockingLowRes(interchain_cen) directly on a full-atom pose, without explicit centroid conversion or side-chain restoration. A bounded first-global-index diagnostic confirms the pose is full-atom both before and after this mover, with zero protein residues containing CEN atoms. This is an implementation defect against the documented centroid-mode precondition. It is not yet proven to be the sole cause of failed reference recovery.
+
+Primary documentation: PyRosetta textbook https://graylab.jhu.edu/pyrosetta/downloads/documentation/PyRosetta_Textbook.pdf (DockingLowRes requires centroid representation); RosettaDock https://docs.rosettacommons.org/docs/latest/application_documentation/docking/docking-protocol ; residue conversion/sidechain recovery https://graylab.jhu.edu/pyrosetta/downloads/documentation/PyRosetta_Workshops_Appendix_A.pdf . Accessed16November2026.
+
+The frozen baseline and its failed outputs are preserved. Script14 independently records the inherited representation. Script15 separately tests official centroid ligand parameter generation, explicit conversion, low-resolution docking, and full-atom/side-chain restoration on the first saved global pose. This is a transition smoke test, not a benchmarked replacement protocol. No native-based selection is used.
+
+Before a repaired protocol can qualify: verify ligand atom-name/coordinate preservation relative to each protein partner, E3 assembly integrity, phosphorylated MS143 compatibility, full-atom refinement and fixed-head linker reconstruction. Freeze the candidate separately, then rerun common-budget reference benchmarks using the same recovery gate. Do not silently replace historical methods/results or assume the transition check guarantees correct docking.
+
+The explicit transition smoke test PASSED. Both heads remained within0.001A of the rigidly moved parent protein frame in the tested GSK215 first-index pose (max0.000744A). This does not cover full-atom refinement or MS143. A separate frozen local50x10x20two-reference repair benchmark has now started at /tmp/six_protac_centroid_repair_pilot_v1 . Four-core affinity,24GiB RSS,10GiB output and4h/task caps; no new Ernie job. Candidate source and manifest are in refinement_candidate_v1/.

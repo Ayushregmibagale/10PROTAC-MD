@@ -1,0 +1,59 @@
+{
+  "status": "CENTROID_TRANSITION_SMOKE_PASS",
+  "before": {
+    "is_fullatom": true,
+    "protein_residues": 613,
+    "protein_residues_with_CEN": 0,
+    "nonprotein_residues": [
+      "PT0",
+      "PT1"
+    ]
+  },
+  "centroid": {
+    "is_fullatom": false,
+    "protein_residues": 613,
+    "protein_residues_with_CEN": 613,
+    "nonprotein_residues": [
+      "PT0",
+      "PT1"
+    ]
+  },
+  "after_lowres": {
+    "is_fullatom": false,
+    "protein_residues": 613,
+    "protein_residues_with_CEN": 613,
+    "nonprotein_residues": [
+      "PT0",
+      "PT1"
+    ]
+  },
+  "after_restore": {
+    "is_fullatom": true,
+    "protein_residues": 613,
+    "protein_residues_with_CEN": 0,
+    "nonprotein_residues": [
+      "PT0",
+      "PT1"
+    ]
+  },
+  "parameter_receipts": [
+    {
+      "head": "PT0",
+      "source_sdf_sha256": "4470ac60bcc1555a05872452661f4dcd5377f97003be414b8cbe9c4d3612be2e",
+      "centroid_params_sha256": "db403004df5ea8d963e9d788507ea4752ece172db63f37d7aad746640e400bdb"
+    },
+    {
+      "head": "PT1",
+      "source_sdf_sha256": "fe68d9b7b3312c8f62910bb2b0a6c58d2fb22930705ced0acf1bc751c70216b3",
+      "centroid_params_sha256": "10ada7aac55040abd32ea2eedf6a30ad3cd011e4254d1a3784ace3ee7efe0add"
+    }
+  ],
+  "source_sha256": "1332adcdde5dc100eeca8e7810ade30133fe81aab3f740be14d286b958029a3a",
+  "generator_sha256": "335e6ec826f0f725f7ef3ee26ad0f9024a6cbcb806ead331f6b0d58643f4759d",
+  "script_sha256": "926a8d736da5b2435f039c25af6ecedff7826e92b7c4bdd9bc23a2d8e6f0eaa2",
+  "limitations": [
+    "Single first-index pose, seed42; no full refinement, linker reconstruction or recovery qualification",
+    "Head geometry/sterics and phosphorylated MS143 compatibility remain unqualified",
+    "Frozen baseline has not been changed"
+  ]
+}

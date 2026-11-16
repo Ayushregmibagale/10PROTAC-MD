@@ -1,9 +1,7 @@
 {
-  "status": "COMPLETED_TASK_INTEGRITY_PASS",
-  "pilot_status": "RUNNING",
-  "remaining_tasks": [
-    "global_7PI4_GSK215_seed42"
-  ],
+  "status": "SOURCE_INPUT_OUTPUT_INTEGRITY_PASS",
+  "pilot_status": "REFERENCE_PILOT_COMPLETE_NEEDS_RECOVERY_ASSESSMENT",
+  "remaining_tasks": [],
   "runs": [
     {
       "name": "global_5T35_MZ1_seed42",
@@ -31,6 +29,34 @@
         "available_cpu_affinity": 4
       },
       "engine_status_sha256": "294b567bf0753179a2fbdcd06dd6d7ede54f81348b1dcd124dbfd3d4e27f5b22",
+      "physical_pose_quality_certified": false
+    },
+    {
+      "name": "global_7PI4_GSK215_seed42",
+      "reference": "7PI4_GSK215",
+      "status": "INTEGRITY_PASS",
+      "engine_status": "COMPLETE",
+      "raw_scored_poses": 5,
+      "retained_operational_QC_poses": 5,
+      "sampling_ledgers": 500,
+      "run_logical_bytes": 910206310,
+      "wall_seconds": 2131.789337158203,
+      "cpu_affinity_limit": 4,
+      "peak_summed_group_RSS_bytes": 5250793472,
+      "observed_environment": {
+        "python": "3.10.22 | packaged by conda-forge | (main, Oct  6 2026, 23:02:24) [GCC 14.4.0]",
+        "versions": {
+          "numpy": "2.2.6",
+          "scipy": "1.15.2",
+          "rdkit": "2025.9.5",
+          "pyrosetta": "2026.3+releasequarterly.5e498f1409"
+        },
+        "openbabel_library_version": "3.1.0",
+        "scikit_learn_version": "1.7.2",
+        "platform": "Linux-6.6.87.2-microsoft-standard-WSL2-x86_64-with-glibc2.39",
+        "available_cpu_affinity": 4
+      },
+      "engine_status_sha256": "1c31515cf95635c39a5429c063a28b851f0ba4509161cd9790d22f654f6f068b",
       "physical_pose_quality_certified": false
     }
   ],

@@ -1,0 +1,20 @@
+{
+  "status": "MEASURED",
+  "heads": [
+    {
+      "protein_chain": "A",
+      "head_chain": "X",
+      "head_heavy_atoms": 31,
+      "max_head_frame_displacement_A": 7.944109290391274e-15,
+      "protein_CA_fit_RMSD_A": 5.194549271227356e-15
+    },
+    {
+      "protein_chain": "D",
+      "head_chain": "Y",
+      "head_heavy_atoms": 36,
+      "max_head_frame_displacement_A": 0.0007441019020507135,
+      "protein_CA_fit_RMSD_A": 0.0005023478573456137
+    }
+  ],
+  "scope": "One GSK first-index pose after centroid docking and sidechain restoration; no full-atom refinement"
+}

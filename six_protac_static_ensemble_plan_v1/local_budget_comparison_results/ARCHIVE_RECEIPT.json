@@ -1,0 +1,9 @@
+{
+  "path": "/mnt/c/Users/Ayush Regmi Bagale/10PROTAC_static_campaign_raw/local_matched_budget_20261116/full_pilot_raw.tar.gz",
+  "bytes": 542145922,
+  "sha256": "a61310bf80a2da75e203793c99c9fdb13d588e4f0f9acd3d73a05272ffc65a56",
+  "gzip_complete_stream_verified": true,
+  "checked_at_utc": "2026-11-16T17:11:51.905747+00:00",
+  "source": "/tmp/six_protac_matched_budget_comparison_v1",
+  "purpose": "Lossless raw local matched-budget comparison; no MD"
+}

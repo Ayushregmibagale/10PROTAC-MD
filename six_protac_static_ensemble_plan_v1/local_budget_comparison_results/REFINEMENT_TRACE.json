@@ -1,0 +1,31 @@
+{
+  "status": "PAIRED_REFINEMENT_TRACE_COMPLETE",
+  "summary": [
+    {
+      "reference": "5T35_MZ1",
+      "paired_orientations": 500,
+      "best_global_RMSD_A": 5.587728939729154,
+      "best_local_RMSD_A": 10.990048879147146,
+      "global_RMSD_le5A": 0,
+      "local_RMSD_le5A": 0,
+      "improved_RMSD_count": 212,
+      "median_RMSD_change_A": 0.9860878881644641
+    },
+    {
+      "reference": "7PI4_GSK215",
+      "paired_orientations": 500,
+      "best_global_RMSD_A": 3.478166850119216,
+      "best_local_RMSD_A": 5.686451926319003,
+      "global_RMSD_le5A": 1,
+      "local_RMSD_le5A": 0,
+      "improved_RMSD_count": 177,
+      "median_RMSD_change_A": 1.5231156560477963
+    }
+  ],
+  "limitations": [
+    "Native used only for retrospective evaluation; no poses selected for further docking",
+    "RMSD-only diagnostic; not frozen conjunction gate or full-linker/steric certification",
+    "One seed, 500 global x1 local; cannot establish convergence"
+  ],
+  "source_sha256": "7eb9942808a30a75a03b2e97e3b711965f4506ec3c2c59a06e69bcf9d46c53e2"
+}

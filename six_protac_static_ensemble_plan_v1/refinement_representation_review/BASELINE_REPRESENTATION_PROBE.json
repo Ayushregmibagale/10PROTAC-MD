@@ -1,0 +1,23 @@
+{
+  "status": "REPRESENTATION_DIAGNOSTIC_COMPLETE",
+  "before_DockingLowRes": {
+    "pose_is_fullatom": true,
+    "protein_residues": 613,
+    "protein_residues_with_CEN_atom": 0,
+    "protein_atom_count": 9924
+  },
+  "after_DockingLowRes": {
+    "pose_is_fullatom": true,
+    "protein_residues": 613,
+    "protein_residues_with_CEN_atom": 0,
+    "protein_atom_count": 9924
+  },
+  "source_pose_sha256": "1332adcdde5dc100eeca8e7810ade30133fe81aab3f740be14d286b958029a3a",
+  "source_script_sha256": "52318e0ee3ae52bd7edfc0a7fcc8c971320c04f12845e7676a09bee92cb7e807",
+  "runtime_version": "\u250c\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2510\n\u2502                                  PyRosetta-4                                  \u2502\n\u2502               Created in JHU by Sergey Lyskov and PyRosetta Team              \u2502\n\u2502               (C) Copyright Rosetta Commons Member Institutions               \u2502\n\u2502                                                                               \u2502\n\u2502 NOTE: USE OF PyRosetta FOR COMMERCIAL PURPOSES REQUIRES PURCHASE OF A LICENSE \u2502\n\u2502          See LICENSE.PyRosetta.md or email license@uw.edu for details         \u2502\n\u2514\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2518\nPyRosetta-4 2026 [Rosetta PyRosetta4.Release.python310.ubuntu 2026.03+releasequarterly.5e498f1409c68ade56c8ce5842bf79e1b02e8db4 2026-01-13T13:24:11] retrieved from: http://www.pyrosetta.org",
+  "DockingLowRes_doc": "",
+  "limitations": [
+    "Single first-index pose, seed42; diagnostic only",
+    "No changes to frozen baseline or claim that this alone explains failed recovery"
+  ]
+}

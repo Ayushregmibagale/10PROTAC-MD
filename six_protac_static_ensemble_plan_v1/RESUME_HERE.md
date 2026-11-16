@@ -32,3 +32,9 @@ Next resolve search/refinement recovery and pocket fit, then assemble actual six
 Ernie originals /home/s1638308/ernie_static_reference_pilot_v1 retained. Local full archive /mnt/c/Users/Ayush Regmi Bagale/10PROTAC_static_campaign_raw/ernie_reference_pilot_20261115/full_pilot_raw.tar.gz ;409094335bytes; SHA256cc4ae4ec61ab7c4de4c87675cce1a74e1104ae5702956bd0aea740a468114554 . Extracted review /tmp/ernie_static_reference_review_20261115/extracted . Treat /tmp as temporary, preserve needed local comparison raw output durably.
 
 Latest targeted tests:11passed. No new Ernie campaign running or submitted by this work. Read actual current files/status before reporting new progress.
+
+## Latest continuation16November — takes precedence over earlier pending-status text
+
+The previous matched-budget comparison is fully assessed and archived: both integrityPASS; GSK0/5pass,best5.6865A;MZ1 0/201pass,best13.2798A. Reports in local_budget_comparison_results/. Raw archive receipt there points to durable542145922bytearchive with SHA256a61310bf80a2da75e203793c99c9fdb13d588e4f0f9acd3d73a05272ffc65a56. Paired500orientation traces implicate local refinement. Representation diagnostic confirms missing centroid conversion in inherited low-res adapter. Explicit transition/restore smoke passes; see REFINEMENT_REPAIR_NOTES.md.
+
+A NEW SEPARATE LOCAL bounded repair benchmark is RUNNING at /tmp/six_protac_centroid_repair_pilot_v1 . Controller session92185; read STATUS.json before any action. FirsttaskMZ1, thenGSK;50global x10local x20conformers,seed42. Candidate explicit centroid ligand typing/conversion/restoration, otherwise existing fullatom and linker pipeline; source/plan/manifests saved in refinement_candidate_v1/.4cores,24GiB,10GiB,4h/reference. STOP sentinel stops it. No new Ernie job. Next assess integrity/recovery/head engagement/independent sterics and preserve raw results. Passing execution is not structural qualification.

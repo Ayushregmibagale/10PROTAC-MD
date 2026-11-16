@@ -1,0 +1,11 @@
+{
+  "candidate": "Explicit centroid ligand typing, pose conversion and sidechain/full-atom restoration before existing full-atom docking",
+  "base": "Immutable matched-budget baseline; original source and outputs preserved",
+  "budget": "50global x10local x20conformers, seed42; same frozen recovery conjunction gate",
+  "native_used_for_generation": false,
+  "production_qualified": false,
+  "MD": false,
+  "resources": "4cores,24GiB summedRSS,10GiB output,4h/reference",
+  "scope": "Two reference-bound redocking systems; not degradation validation",
+  "followup": "Assess independent integrity, recovery, chemical/steric quality and head engagement; no production release based solely on execution success"
+}

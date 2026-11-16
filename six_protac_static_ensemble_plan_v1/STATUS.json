@@ -1,17 +1,17 @@
 {
-  "updated_at_utc": "2026-11-15T10:17:59.166758+00:00",
+  "updated_at_utc": "2026-11-16T17:17:22.386446+00:00",
   "scope": "six-compound pRosettaC/static analysis/GNN",
   "MD_authorized": false,
   "MD_required": false,
-  "overall": "REFERENCE_QUALIFICATION_INCOMPLETE",
+  "overall": "LOCAL_CENTROID_REPAIR_BENCHMARK_RUNNING",
   "registry_identity_verified": 6,
   "MS143_preparation": "Modeled seed4 candidate passes operational sterics; Rosetta typing/load and declared TPO308 presence checks pass. Full docking qualification pending.",
   "remote_jobs_launched": false,
   "next": [
-    "Complete local 500-global x1-local comparison and verify raw receipts",
-    "Resolve MZ1 recovery without selecting by native answer or loosening gates",
-    "Resolve pocket placement clashes and qualify six-compound technical pilot",
-    "Prepare concrete Ernie commands/resources and ask approval before campaign submission"
+    "Inspect local refinement representation/protocol using separately saved diagnostic",
+    "Repair and benchmark refinement/search without native-based selection or threshold relaxation",
+    "Resolve kinase-pocket clashes and qualify six-compound pilot",
+    "Prepare concrete Ernie submission for final approval"
   ],
   "remote_scope": "bounded reference/resource pilot, not kinome production",
   "remote_root": "/home/s1638308/ernie_static_reference_pilot_v1",
@@ -43,6 +43,8 @@
   },
   "local_comparison_root": "/tmp/six_protac_matched_budget_comparison_v1",
   "raw_archive": "/mnt/c/Users/Ayush Regmi Bagale/10PROTAC_static_campaign_raw/ernie_reference_pilot_20261115/full_pilot_raw.tar.gz",
-  "local_comparison_status": "Both tasks COMPLETE; full integrity/recovery assessment pending; saved comparison reports currently MZ1 only",
-  "resume_document": "RESUME_HERE.md"
+  "local_comparison_status": "Complete, integrity PASS and both references assessed; 500x1 gives GSK0/5 and MZ1 0/201 passing frozen gate",
+  "resume_document": "RESUME_HERE.md",
+  "local_repair_root": "/tmp/six_protac_centroid_repair_pilot_v1",
+  "local_repair_status": "Started; execution/recovery not yet assessed"
 }
