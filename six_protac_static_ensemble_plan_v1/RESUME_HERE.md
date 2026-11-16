@@ -1,0 +1,34 @@
+# Resume the six-PROTAC static campaign
+
+Saved 16 November 2026. Read this file, ACTIVE_WORK.md, STATUS.json, RESEARCH_CONTRACT.md and PLAN.md before continuing.
+
+## Objective and instructions
+
+Prepare publishable-quality static pRosettaC ensembles for six Tocris/Bio-Techne compounds across the kinase panel, followed by static geometry features and an ensemble GNN. NO NEW MD. Compounds: GSK215, SJF8240, SJF1521, JNJ1013, SJF_delta and MS143. MS143 is ATP-competitive AKT-targeting, not allosteric. MZ1 is only an external reference benchmark, not part of the six-drug screen.
+
+Work autonomously, conserve allowance, checkpoint scripts/results on GitHub, and ask the user only when a concrete Ernie submission package is ready. Do not sacrifice qualification to meet a quota deadline. No full campaign has been submitted. Prior reference pilot authorization does not authorize a new campaign submission.
+
+## Locations
+
+Writable checkout: /mnt/c/Users/Ayush Regmi Bagale/10PROTAC_static_campaign_work
+Original project, preserve unrelated changes: /home/ayushregmibagale/10PROTAC-MD
+Study folder: six_protac_static_ensemble_plan_v1
+GitHub: https://github.com/Ayushregmibagale/10PROTAC-MD ; latest prior checkpoint912b731 onmaster.
+
+## Completed / blockers
+
+Ernie reference pilot finished. At50global x10local x20conformers, seed42, GSK215:3/8retained poses pass frozen coarse gate, top1passes, best1.5628A target CA RMSD after VHL fit. MZ1:0/187pass, best8.3451A. Gate: RMSD<=5A and native residue-contact fraction>=0.5 plus inherited chemical/gross-clash QC. This is redocking, not biological validation. Bound binary/head coordinates derive from crystal references; native ternary arrangement did not guide generation. Integrity checks passed.
+
+Native fixed-head linker construction works for both controls at3seeds, incompatible controls reject. Many kinase-head transfers have serious steric/backbone clashes. SJF_delta MAPK13 overlay is unsuitable; MET can only be a clearly labeled parent-head technical control. MS143 strict seed4 is a modeled candidate, Rosetta typing/load succeeds and phosphorylated Thr308 is retained. Explicit PTM-aware downstream geometry selection is needed because ATOM-only selection omits HETATM TPO. See reports and ENGINE_METHOD_REVIEW.md: current engine is adapted seeded-random-global/PyRosetta/fixed-head linker sampling, not exact published PatchDock pRosettaC. Do not invent qualification or loosen gates to force success.
+
+## Immediate next action
+
+The local matched-nominal-budget comparison has NOW FINISHED, as checked16November. Both tasks statusCOMPLETE, overallREFERENCE_PILOT_COMPLETE_NEEDS_RECOVERY_ASSESSMENT. Root /tmp/six_protac_matched_budget_comparison_v1 . Budget500global x1local x20conformers. MZ1 already assessed:0/201pass, best13.2798A. GSK215 completed but has NOT yet been independently assessed in saved reports. Run scripts07 and01 for the complete pilot using their --help arguments; verify all receipts, assess GSK215, preserve full raw records outside Git and update compact reports. Do not relaunch these completed tasks. Existing local_budget_comparison_results/ is partial MZ1-only and must not be mistaken for full assessment.
+
+Next resolve search/refinement recovery and pocket fit, then assemble actual six-compound technical/resource pilot inputs, manifest, QC, runtime/storage estimates and commands for final Ernie approval. Full3600pair production is not ready. Failed docking is not a biological negative; poses are not independent biological samples. Keep SIK3/RPS6KB2 labels unknown. Never transfer SJF8240 experimental labels to other compounds.
+
+## Raw preservation
+
+Ernie originals /home/s1638308/ernie_static_reference_pilot_v1 retained. Local full archive /mnt/c/Users/Ayush Regmi Bagale/10PROTAC_static_campaign_raw/ernie_reference_pilot_20261115/full_pilot_raw.tar.gz ;409094335bytes; SHA256cc4ae4ec61ab7c4de4c87675cce1a74e1104ae5702956bd0aea740a468114554 . Extracted review /tmp/ernie_static_reference_review_20261115/extracted . Treat /tmp as temporary, preserve needed local comparison raw output durably.
+
+Latest targeted tests:11passed. No new Ernie campaign running or submitted by this work. Read actual current files/status before reporting new progress.

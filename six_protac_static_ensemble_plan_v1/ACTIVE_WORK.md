@@ -23,3 +23,5 @@ When complete, use scripts07 and01 to independently verify and evaluate both tas
 ## Next work
 
 Resolve search/refinement and pocket fit before full production. Do not keep increasing counts blindly or relax thresholds to force passing. If preparing a bounded six-compound technical/resource pilot, explicitly label its scope and unresolved biological limitations; assemble all inputs/checks before requesting approval. No MD. Keep unknown SIK3/RPS6KB2 labels unknown. Preserve original Linux working tree and its unrelated changes. Work and GitHub checkpoint from this isolated writable checkout.
+
+16 November update: local comparison completed both tasks. GSK215 assessment pending; do not relaunch. Read RESUME_HERE.md for durable handoff.

@@ -42,5 +42,7 @@
     "domain_structure_rows": 770
   },
   "local_comparison_root": "/tmp/six_protac_matched_budget_comparison_v1",
-  "raw_archive": "/mnt/c/Users/Ayush Regmi Bagale/10PROTAC_static_campaign_raw/ernie_reference_pilot_20261115/full_pilot_raw.tar.gz"
+  "raw_archive": "/mnt/c/Users/Ayush Regmi Bagale/10PROTAC_static_campaign_raw/ernie_reference_pilot_20261115/full_pilot_raw.tar.gz",
+  "local_comparison_status": "Both tasks COMPLETE; full integrity/recovery assessment pending; saved comparison reports currently MZ1 only",
+  "resume_document": "RESUME_HERE.md"
 }
