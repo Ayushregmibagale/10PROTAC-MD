@@ -59,5 +59,7 @@
   "six_compound_pilot_draft": "HOLD; six tasks packaged; gate negative-controlPASS; not submitted",
   "remote_connectivity": "Read-only checkPASS; no new job submitted",
   "full_CRL2_analysis_memory": "FULL_CRL2_ANALYSIS_MEMORY.md",
-  "full_CRL2_analysis_integration_status": "Planned downstream static assessment, not yet integrated/qualified for six compounds"
+  "full_CRL2_analysis_integration_status": "Planned downstream static assessment, not yet integrated/qualified for six compounds",
+  "p4ward_review": "method_selection_review/P4WARD/REVIEW.md",
+  "p4ward_integration_status": "Reviewed candidate for full-CRL post-docking layer; not installed/integrated"
 }
