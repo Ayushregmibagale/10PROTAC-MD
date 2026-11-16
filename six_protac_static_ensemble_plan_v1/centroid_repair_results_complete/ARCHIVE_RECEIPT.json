@@ -1,0 +1,8 @@
+{
+  "path": "/mnt/c/Users/Ayush Regmi Bagale/10PROTAC_static_campaign_raw/centroid_repair_20261116/full_pilot_raw.tar.gz",
+  "bytes": 351484212,
+  "sha256": "e2b412a3fea558b4e5f0266f7f53960409ee3874dd5a8ef32d02c29c9e0dbb75",
+  "gzip_complete_stream_verified": true,
+  "scope": "Complete frozen centroid-repair pilot raw output; no MD",
+  "checked_at_utc": "2026-11-16T18:25:03.308189+00:00"
+}

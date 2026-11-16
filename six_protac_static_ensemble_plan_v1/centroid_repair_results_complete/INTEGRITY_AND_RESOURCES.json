@@ -1,0 +1,70 @@
+{
+  "status": "SOURCE_INPUT_OUTPUT_INTEGRITY_PASS",
+  "pilot_status": "REFERENCE_PILOT_COMPLETE_NEEDS_RECOVERY_ASSESSMENT",
+  "remaining_tasks": [],
+  "runs": [
+    {
+      "name": "global_5T35_MZ1_seed42",
+      "reference": "5T35_MZ1",
+      "status": "INTEGRITY_PASS",
+      "engine_status": "COMPLETE",
+      "raw_scored_poses": 168,
+      "retained_operational_QC_poses": 129,
+      "sampling_ledgers": 500,
+      "run_logical_bytes": 1111254378,
+      "wall_seconds": 1637.8302555084229,
+      "cpu_affinity_limit": 4,
+      "peak_summed_group_RSS_bytes": 5141196800,
+      "observed_environment": {
+        "python": "3.10.22 | packaged by conda-forge | (main, Oct  6 2026, 23:02:24) [GCC 14.4.0]",
+        "versions": {
+          "numpy": "2.2.6",
+          "scipy": "1.15.2",
+          "rdkit": "2025.9.5",
+          "pyrosetta": "2026.3+releasequarterly.5e498f1409"
+        },
+        "openbabel_library_version": "3.1.0",
+        "scikit_learn_version": "1.7.2",
+        "platform": "Linux-6.6.87.2-microsoft-standard-WSL2-x86_64-with-glibc2.39",
+        "available_cpu_affinity": 4
+      },
+      "engine_status_sha256": "52d80605c0282885a1d3103d71a451efd0e754aedd40427db7f4769c829e5bd8",
+      "physical_pose_quality_certified": false
+    },
+    {
+      "name": "global_7PI4_GSK215_seed42",
+      "reference": "7PI4_GSK215",
+      "status": "INTEGRITY_PASS",
+      "engine_status": "COMPLETE",
+      "raw_scored_poses": 3,
+      "retained_operational_QC_poses": 3,
+      "sampling_ledgers": 500,
+      "run_logical_bytes": 535077451,
+      "wall_seconds": 2254.8215589523315,
+      "cpu_affinity_limit": 4,
+      "peak_summed_group_RSS_bytes": 5296316416,
+      "observed_environment": {
+        "python": "3.10.22 | packaged by conda-forge | (main, Oct  6 2026, 23:02:24) [GCC 14.4.0]",
+        "versions": {
+          "numpy": "2.2.6",
+          "scipy": "1.15.2",
+          "rdkit": "2025.9.5",
+          "pyrosetta": "2026.3+releasequarterly.5e498f1409"
+        },
+        "openbabel_library_version": "3.1.0",
+        "scikit_learn_version": "1.7.2",
+        "platform": "Linux-6.6.87.2-microsoft-standard-WSL2-x86_64-with-glibc2.39",
+        "available_cpu_affinity": 4
+      },
+      "engine_status_sha256": "9bbe0ae7000606f01c9ccdfcf69cc8dfd5d180519254ee56767d5f04f05b1d3e",
+      "physical_pose_quality_certified": false
+    }
+  ],
+  "MD": false,
+  "limitations": [
+    "Only receipt/source/input/output integrity assessed",
+    "Operational QC is coarse; structural recovery and independent atom-type-aware steric checks remain separate",
+    "Peak output in the controller is cumulative across runs; per-run bytes above are independently counted after completion",
+    "Both references share the same seed; this is not a replicated convergence benchmark"
+  ]
+}

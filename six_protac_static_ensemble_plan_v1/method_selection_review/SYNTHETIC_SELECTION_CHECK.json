@@ -1,0 +1,7 @@
+{
+  "method": "AST-isolated pure-function call, not full workflow execution",
+  "function": "COMPASS.extract_nz_coordinates",
+  "source_sha256": "6bb95b80b1ebf08006a5976eb376e73ab5489ac1e27bc446612609cea1b43196",
+  "result": "Same residue numbers on different chains overwrite each other; result changes with atom order",
+  "limitation": "Demonstrates adaptation requirement for multi-chain inputs, not failure of authors curated example inputs"
+}

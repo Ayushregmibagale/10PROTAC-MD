@@ -3,15 +3,15 @@
   "scope": "six-compound pRosettaC/static analysis/GNN",
   "MD_authorized": false,
   "MD_required": false,
-  "overall": "LOCAL_CENTROID_REPAIR_BENCHMARK_RUNNING",
+  "overall": "GENERATOR_QUALIFICATION_FAILED_METHOD_REVIEW_COMPLETE",
   "registry_identity_verified": 6,
   "MS143_preparation": "Modeled seed4 candidate passes operational sterics; Rosetta typing/load and declared TPO308 presence checks pass. Full docking qualification pending.",
   "remote_jobs_launched": false,
   "next": [
-    "Inspect local refinement representation/protocol using separately saved diagnostic",
-    "Repair and benchmark refinement/search without native-based selection or threshold relaxation",
-    "Resolve kinase-pocket clashes and qualify six-compound pilot",
-    "Prepare concrete Ernie submission for final approval"
+    "Benchmark standard/original Rosetta and bounded pretrained DeepTernary on common controls before selecting generator",
+    "Resolve kinase head placements and integrate explicit modification preservation",
+    "Adapt selected COMPASS-style VHL accessibility analysis; keep compact static pose-ensemble GNN for later",
+    "Prepare qualified six-compound Ernie pilot and final submission approval"
   ],
   "remote_scope": "bounded reference/resource pilot, not kinome production",
   "remote_root": "/home/s1638308/ernie_static_reference_pilot_v1",
@@ -46,6 +46,8 @@
   "local_comparison_status": "Complete, integrity PASS and both references assessed; 500x1 gives GSK0/5 and MZ1 0/201 passing frozen gate",
   "resume_document": "RESUME_HERE.md",
   "local_repair_root": "/tmp/six_protac_centroid_repair_pilot_v1",
-  "local_repair_status": "MZ1 complete: integrityPASS,1/129coarsegatepass,best4.4000A,passingposerank16;GSK215RUNNING",
-  "MS143_centroid_compatibility": "Uncorrected roundtrip FAILS phosphate restoration; explicit TPO restoration passes stationary and moved-frame static tests; full docking/integration pending"
+  "local_repair_status": "Both complete and integrityPASS; MZ1 1/129gatepass best4.4000A rank16; GSK215 0/3gatepass best35.1094A; production NOT qualified",
+  "MS143_centroid_compatibility": "Uncorrected roundtrip FAILS phosphate restoration; explicit TPO restoration passes stationary and moved-frame static tests; full docking/integration pending",
+  "local_repair_running": false,
+  "method_selection_review": "method_selection_review/RECOMMENDATION.md"
 }

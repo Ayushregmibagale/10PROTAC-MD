@@ -1,0 +1,97 @@
+{
+  "status": "INDEPENDENT_CONTINUOUS_STERIC_REVIEW_COMPLETE",
+  "native_baselines": {
+    "5T35_MZ1": {
+      "ligand_stereo_graph_match": true,
+      "ligand_protein_min_distance_A": 2.5650968792620708,
+      "ligand_protein_max_vdw_overlap_A": 0.5349031207379293,
+      "E3_POI_min_distance_A": 2.7983625569250323,
+      "E3_POI_max_vdw_overlap_A": 0.351637443074968,
+      "intraligand_max_vdw_overlap_topological_distance_gt3_A": 0.443294739071884,
+      "native_sha256": "46d5edea4da18164c177973d0e131aae271b9ca49d3bbb8af589a6c456352713"
+    },
+    "7PI4_GSK215": {
+      "ligand_stereo_graph_match": true,
+      "ligand_protein_min_distance_A": 2.502985617217965,
+      "ligand_protein_max_vdw_overlap_A": 0.6470143827820354,
+      "E3_POI_min_distance_A": 2.923185591097495,
+      "E3_POI_max_vdw_overlap_A": 0.47681440890250526,
+      "intraligand_max_vdw_overlap_topological_distance_gt3_A": 0.49047466641131887,
+      "native_sha256": "b2f8e526142a71c8217f4305e9c84ff4b48e6166391bff56884391b6edd685d7"
+    }
+  },
+  "summary": {
+    "5T35_MZ1": {
+      "poses": 129,
+      "chemistry_or_review_errors": 0,
+      "ligand_protein_overlap_increase_gt0p5A": 39,
+      "E3_POI_overlap_increase_gt0p5A": 4,
+      "top_ranked": {
+        "reference": "5T35_MZ1",
+        "seed": "42",
+        "rank_by_raw_total_score": "1",
+        "pose": "combined_33_9_0001",
+        "raw_total_score": "-387.57803",
+        "VHL_fit_CA_RMSD_A": "8.41385306943861e-15",
+        "POI_CA_RMSD_after_VHL_fit_A": "35.186257447057166",
+        "native_residue_contact_fraction": "0.0",
+        "native_contact_pairs": "15",
+        "model_contact_pairs": "15",
+        "frozen_gate_pass": "False",
+        "pose_sha256": "9b4351005eb512c82703ada7c2286d1cc58ced7b9002748c1eae2a56e4227f5a",
+        "independent_steric_status": "MEASURED_NOT_A_RELEASE_CERTIFICATE",
+        "ligand_stereo_graph_match": true,
+        "ligand_protein_min_distance_A": 2.7205220087328827,
+        "ligand_protein_max_vdw_overlap_A": 0.37947799126711734,
+        "E3_POI_min_distance_A": 2.7166435172837815,
+        "E3_POI_max_vdw_overlap_A": 0.43335648271621885,
+        "intraligand_max_vdw_overlap_topological_distance_gt3_A": 0.44284765356940037,
+        "change_from_native_ligand_protein_max_vdw_overlap_A": -0.155425129470812,
+        "change_from_native_E3_POI_max_vdw_overlap_A": 0.08171903964125082,
+        "change_from_native_intraligand_max_vdw_overlap_topological_distance_gt3_A": -0.000447085502483624,
+        "error": ""
+      }
+    },
+    "7PI4_GSK215": {
+      "poses": 3,
+      "chemistry_or_review_errors": 0,
+      "ligand_protein_overlap_increase_gt0p5A": 1,
+      "E3_POI_overlap_increase_gt0p5A": 1,
+      "top_ranked": {
+        "reference": "7PI4_GSK215",
+        "seed": "42",
+        "rank_by_raw_total_score": "1",
+        "pose": "combined_38_8_0001",
+        "raw_total_score": "173.954485",
+        "VHL_fit_CA_RMSD_A": "7.820262948228655e-15",
+        "POI_CA_RMSD_after_VHL_fit_A": "38.42488627465672",
+        "native_residue_contact_fraction": "0.0",
+        "native_contact_pairs": "16",
+        "model_contact_pairs": "26",
+        "frozen_gate_pass": "False",
+        "pose_sha256": "a00d363b7601c4dea5220bd9f83f4484f213dbf45ee7bbe7034c8d47f1a09ba6",
+        "independent_steric_status": "MEASURED_NOT_A_RELEASE_CERTIFICATE",
+        "ligand_stereo_graph_match": true,
+        "ligand_protein_min_distance_A": 2.4372482434089466,
+        "ligand_protein_max_vdw_overlap_A": 0.7627517565910535,
+        "E3_POI_min_distance_A": 2.4818422592904628,
+        "E3_POI_max_vdw_overlap_A": 0.6681577407095376,
+        "intraligand_max_vdw_overlap_topological_distance_gt3_A": 0.489984586510825,
+        "change_from_native_ligand_protein_max_vdw_overlap_A": 0.11573737380901816,
+        "change_from_native_E3_POI_max_vdw_overlap_A": 0.19134333180703234,
+        "change_from_native_intraligand_max_vdw_overlap_topological_distance_gt3_A": -0.0004900799004938783,
+        "error": ""
+      }
+    }
+  },
+  "limitations": [
+    "RDKit element-based van der Waals radii; not a force-field energy or binding affinity",
+    "0.5A excess counts are exploratory diagnostic summaries, not a validated acceptance cutoff",
+    "Protein interaction checks include ELOB/ELOC as well as VHL",
+    "Intraligand overlap excludes bonded, angle and1-4pairs (topological distance<=3)",
+    "No modification/minimization or selective deletion of poses",
+    "This reference-only schema explicitly rejects unhandled modified residues"
+  ],
+  "source_script_sha256": "991fc0db57eb7f09f45d206e3f0cfb2438c76b4916fcdf7822b3e6eed2c28963",
+  "recovery_table_sha256": "471a934c0284c4df5f523a630f00f860441fbea5f4efa66c0894b05124643ba8"
+}

@@ -1,0 +1,18 @@
+{
+  "date_utc": "2026-11-16T18:23:11.362526+00:00",
+  "status": "SOURCE_REVIEW_COMPLETE_RECOMMENDATION_NOT_RUNTIME_QUALIFICATION",
+  "no_new_MD": true,
+  "primary_scientific_template": "Bai2022 target-specific productive geometry, with Crowe2024 VHL catalytic controls",
+  "primary_structural_analysis": "Adapt reusable COMPASS-style static CRL/accessibility components to qualified existing ensembles",
+  "primary_small_data_GNN": "Reuse compact existing static encoder and add pose-ensemble pooling; actual whole-ternary graph schema must include relevant intermolecular/catalytic context",
+  "preferred_external_GNN_design_reference": "Pocket-PROTACs ensemble pooling and split-aware training; not a drop-in complete-ternary checkpoint",
+  "external_GNN_baseline": "DegradeMaster pocket graph classifier; SE3 optional chemistry/sequence comparator",
+  "generation_acceleration_candidate": "DeepTernary pretrained generation, conditional on shared benchmark and exact chemical/head mapping",
+  "additional_Rosetta_reference": "karanicolaslab/PROTAC_ternary; avoid treating published methods as validated on our inputs",
+  "do_not_delay_docking_for_GNN": true,
+  "production_qualified": false,
+  "remote_submission_performed": false,
+  "third_party_pipelines_trained_or_reproduced": false,
+  "code_review": "8 pinned repositories, selected files; one isolated synthetic COMPASS selector check",
+  "immediate_next": "Complete existing repaired reference benchmark, then common-control generator/input qualification and concrete six-compound Ernie pilot"
+}

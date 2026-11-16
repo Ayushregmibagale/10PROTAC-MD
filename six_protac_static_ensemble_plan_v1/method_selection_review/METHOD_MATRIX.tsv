@@ -1,0 +1,14 @@
+method	endpoint	fit_to_question	recommended_role	main_limitation
+Bai2021_PROTAC_ternary	Ternary formation	High for SJF8240 chemistry	Rosetta/reference/linker baseline	Reference implementation; not automatically production-qualified
+Bai2022_CRL4A	Productive geometry and kinase ubiquitination	Highest conceptual match	Scientific framework/fraction baseline	CRBN machinery needs VHL-specific validation
+COMPASS	Static ternary/linker feasibility	High structural relevance	Primary geometry-analysis foundation	Reconcile atom proxies, chains, dependencies; high reported FPR
+PROTACMap	Productive geometry mapping	Useful component-level match	Clustering/reference comparison	External docking software and MD in full workflow
+Kumar_Sobhia	CRL2-VHL geometry/dynamics	Mechanistically relevant	Reference cross-check	Incomplete full-method access; not principal implementation
+Crowe2024	Experimental VHL ubiquitination	Strong VHL reference	Catalytic controls	Engineered trapped assembly must be explicitly mapped
+Crowe2025	Experimental nonproductive homoPROTAC	General principle	Rationale	Different target/system from ABL1/AXL
+Integrative2026	MD and CDK12 design	Contextual	Surface/lysine hypothesis	MD outside user scope
+Pocket_PROTACs	Drug-target-E3 degradation	Best external ensemble scaffold	Pooling/training reference	Ligand-conformer ensemble differs from ternary-pose ensemble
+DegradeMaster	High/low degradation	Useful 3D pocket baseline	Encoder/baseline comparison	No direct full-ternary contacts; primary random split
+SE3_PROTACs	Degradation from chemical subgraphs/sequences	Useful comparator	Optional external baseline	No docked whole-ternary contact graph
+DeepTernary	Ternary coordinates	Best reviewed pretrained generation candidate	Bounded speed/quality benchmark	Not degradation predictor; no assumed end-to-end speedup
+DegradoMap	Drug-independent target/E3 degradability	Insufficient as primary drug-specific model	Target-only baseline	Cannot distinguish six drugs for same target/E3
