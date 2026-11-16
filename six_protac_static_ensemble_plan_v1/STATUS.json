@@ -57,5 +57,7 @@
   "local_anchor_controller_session": 11223,
   "six_compound_pilot_inputs": "ernie_submission_v1/INPUT_MANIFEST.json",
   "six_compound_pilot_draft": "HOLD; six tasks packaged; gate negative-controlPASS; not submitted",
-  "remote_connectivity": "Read-only checkPASS; no new job submitted"
+  "remote_connectivity": "Read-only checkPASS; no new job submitted",
+  "full_CRL2_analysis_memory": "FULL_CRL2_ANALYSIS_MEMORY.md",
+  "full_CRL2_analysis_integration_status": "Planned downstream static assessment, not yet integrated/qualified for six compounds"
 }
