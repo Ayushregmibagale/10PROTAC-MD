@@ -1,0 +1,254 @@
+[
+  {
+    "pose": "2_1",
+    "conformer": 1,
+    "protein_state": "docked",
+    "max_overlap_A": 1.6506435527758068,
+    "min_distance_A": 1.649356447224193,
+    "worst_chain": "A",
+    "worst_residue": "HIS110"
+  },
+  {
+    "pose": "2_1",
+    "conformer": 2,
+    "protein_state": "docked",
+    "max_overlap_A": 1.6506860062438071,
+    "min_distance_A": 1.6493139937561927,
+    "worst_chain": "A",
+    "worst_residue": "HIS110"
+  },
+  {
+    "pose": "2_1",
+    "conformer": 3,
+    "protein_state": "docked",
+    "max_overlap_A": 1.7997979190114815,
+    "min_distance_A": 1.6002020809885185,
+    "worst_chain": "A",
+    "worst_residue": "ILE109"
+  },
+  {
+    "pose": "2_1",
+    "conformer": 4,
+    "protein_state": "docked",
+    "max_overlap_A": 1.611496088248533,
+    "min_distance_A": 1.6885039117514669,
+    "worst_chain": "A",
+    "worst_residue": "HIS110"
+  },
+  {
+    "pose": "2_1",
+    "conformer": 5,
+    "protein_state": "docked",
+    "max_overlap_A": 1.799710635541186,
+    "min_distance_A": 1.6002893644588139,
+    "worst_chain": "A",
+    "worst_residue": "ILE109"
+  },
+  {
+    "pose": "2_1",
+    "conformer": 1,
+    "protein_state": "repacked",
+    "max_overlap_A": 1.6506435527758068,
+    "min_distance_A": 1.649356447224193,
+    "worst_chain": "A",
+    "worst_residue": "HIS110"
+  },
+  {
+    "pose": "2_1",
+    "conformer": 2,
+    "protein_state": "repacked",
+    "max_overlap_A": 1.6506860062438071,
+    "min_distance_A": 1.6493139937561927,
+    "worst_chain": "A",
+    "worst_residue": "HIS110"
+  },
+  {
+    "pose": "2_1",
+    "conformer": 3,
+    "protein_state": "repacked",
+    "max_overlap_A": 1.7997979190114815,
+    "min_distance_A": 1.6002020809885185,
+    "worst_chain": "A",
+    "worst_residue": "ILE109"
+  },
+  {
+    "pose": "2_1",
+    "conformer": 4,
+    "protein_state": "repacked",
+    "max_overlap_A": 1.611496088248533,
+    "min_distance_A": 1.6885039117514669,
+    "worst_chain": "A",
+    "worst_residue": "HIS110"
+  },
+  {
+    "pose": "2_1",
+    "conformer": 5,
+    "protein_state": "repacked",
+    "max_overlap_A": 1.799710635541186,
+    "min_distance_A": 1.6002893644588139,
+    "worst_chain": "A",
+    "worst_residue": "ILE109"
+  },
+  {
+    "pose": "3_1",
+    "conformer": 1,
+    "protein_state": "docked",
+    "max_overlap_A": 1.2098762562040486,
+    "min_distance_A": 2.0401237437959514,
+    "worst_chain": "A",
+    "worst_residue": "HIS110"
+  },
+  {
+    "pose": "3_1",
+    "conformer": 2,
+    "protein_state": "docked",
+    "max_overlap_A": 1.2166856194872264,
+    "min_distance_A": 2.0333143805127736,
+    "worst_chain": "A",
+    "worst_residue": "HIS110"
+  },
+  {
+    "pose": "3_1",
+    "conformer": 3,
+    "protein_state": "docked",
+    "max_overlap_A": 1.209791020507943,
+    "min_distance_A": 2.040208979492057,
+    "worst_chain": "A",
+    "worst_residue": "HIS110"
+  },
+  {
+    "pose": "3_1",
+    "conformer": 4,
+    "protein_state": "docked",
+    "max_overlap_A": 1.2098762562040486,
+    "min_distance_A": 2.0401237437959514,
+    "worst_chain": "A",
+    "worst_residue": "HIS110"
+  },
+  {
+    "pose": "3_1",
+    "conformer": 5,
+    "protein_state": "docked",
+    "max_overlap_A": 1.2098762562040486,
+    "min_distance_A": 2.0401237437959514,
+    "worst_chain": "A",
+    "worst_residue": "HIS110"
+  },
+  {
+    "pose": "3_1",
+    "conformer": 1,
+    "protein_state": "repacked",
+    "max_overlap_A": 1.2098762562040486,
+    "min_distance_A": 2.0401237437959514,
+    "worst_chain": "A",
+    "worst_residue": "HIS110"
+  },
+  {
+    "pose": "3_1",
+    "conformer": 2,
+    "protein_state": "repacked",
+    "max_overlap_A": 1.2166856194872264,
+    "min_distance_A": 2.0333143805127736,
+    "worst_chain": "A",
+    "worst_residue": "HIS110"
+  },
+  {
+    "pose": "3_1",
+    "conformer": 3,
+    "protein_state": "repacked",
+    "max_overlap_A": 1.209791020507943,
+    "min_distance_A": 2.040208979492057,
+    "worst_chain": "A",
+    "worst_residue": "HIS110"
+  },
+  {
+    "pose": "3_1",
+    "conformer": 4,
+    "protein_state": "repacked",
+    "max_overlap_A": 1.2098762562040486,
+    "min_distance_A": 2.0401237437959514,
+    "worst_chain": "A",
+    "worst_residue": "HIS110"
+  },
+  {
+    "pose": "3_1",
+    "conformer": 5,
+    "protein_state": "repacked",
+    "max_overlap_A": 1.2098762562040486,
+    "min_distance_A": 2.0401237437959514,
+    "worst_chain": "A",
+    "worst_residue": "HIS110"
+  },
+  {
+    "pose": "4_1",
+    "conformer": 1,
+    "protein_state": "docked",
+    "max_overlap_A": 2.739667015817015,
+    "min_distance_A": 0.5679894013095773,
+    "worst_chain": "A",
+    "worst_residue": "HIS110"
+  },
+  {
+    "pose": "4_1",
+    "conformer": 2,
+    "protein_state": "docked",
+    "max_overlap_A": 2.198821986548207,
+    "min_distance_A": 1.201178013451793,
+    "worst_chain": "A",
+    "worst_residue": "HIS110"
+  },
+  {
+    "pose": "4_1",
+    "conformer": 3,
+    "protein_state": "docked",
+    "max_overlap_A": 2.2614343074369816,
+    "min_distance_A": 0.8885656925630188,
+    "worst_chain": "A",
+    "worst_residue": "HIS110"
+  },
+  {
+    "pose": "4_1",
+    "conformer": 4,
+    "protein_state": "docked",
+    "max_overlap_A": 2.739667015817015,
+    "min_distance_A": 0.5679894013095773,
+    "worst_chain": "A",
+    "worst_residue": "HIS110"
+  },
+  {
+    "pose": "4_1",
+    "conformer": 1,
+    "protein_state": "repacked",
+    "max_overlap_A": 2.739667015817015,
+    "min_distance_A": 0.5679894013095773,
+    "worst_chain": "A",
+    "worst_residue": "HIS110"
+  },
+  {
+    "pose": "4_1",
+    "conformer": 2,
+    "protein_state": "repacked",
+    "max_overlap_A": 2.198821986548207,
+    "min_distance_A": 1.201178013451793,
+    "worst_chain": "A",
+    "worst_residue": "HIS110"
+  },
+  {
+    "pose": "4_1",
+    "conformer": 3,
+    "protein_state": "repacked",
+    "max_overlap_A": 2.2614343074369816,
+    "min_distance_A": 0.8885656925630188,
+    "worst_chain": "A",
+    "worst_residue": "HIS110"
+  },
+  {
+    "pose": "4_1",
+    "conformer": 4,
+    "protein_state": "repacked",
+    "max_overlap_A": 2.739667015817015,
+    "min_distance_A": 0.5679894013095773,
+    "worst_chain": "A",
+    "worst_residue": "HIS110"
+  }
+]

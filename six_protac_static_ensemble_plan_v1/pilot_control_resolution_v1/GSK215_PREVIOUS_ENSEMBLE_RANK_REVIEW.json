@@ -1,0 +1,127 @@
+{
+  "raw_score_max_absolute_replay_difference": 1.3608846091954945,
+  "orders": {
+    "raw_score": {
+      "passing_ranks": [
+        1,
+        4,
+        7
+      ],
+      "top_id": "combined_39_1_0001"
+    },
+    "protein_pair_delta": {
+      "passing_ranks": [
+        2,
+        4,
+        8
+      ],
+      "top_id": "combined_16_7_0001"
+    },
+    "protac_protein_delta": {
+      "passing_ranks": [
+        1,
+        2,
+        3
+      ],
+      "top_id": "combined_39_1_0001"
+    }
+  },
+  "poses": [
+    {
+      "VBC": 63.908957528052504,
+      "PTK2": 133.819461948993,
+      "PROTAC": 5.213833176507161,
+      "protein_pair": 191.51795494526363,
+      "all": 162.87992211060504,
+      "pose": "combined_10_9_0001",
+      "protein_pair_delta": -6.2104645317818665,
+      "protac_protein_delta": -33.85186601116575,
+      "raw_score": 164.061167,
+      "reference_gate_pass": true
+    },
+    {
+      "VBC": 87.81591947105986,
+      "PTK2": 136.94926943916147,
+      "PROTAC": 5.073487134240873,
+      "protein_pair": 222.43026197721304,
+      "all": 193.24185284149132,
+      "pose": "combined_16_10_0001",
+      "protein_pair_delta": -2.3349269330082905,
+      "protac_protein_delta": -34.261896269962584,
+      "raw_score": 194.527605,
+      "reference_gate_pass": true
+    },
+    {
+      "VBC": 63.531192013430044,
+      "PTK2": 132.91991455497225,
+      "PROTAC": 5.989058309829656,
+      "protein_pair": 190.25534081051893,
+      "all": 168.8605685112205,
+      "pose": "combined_16_6_0001",
+      "protein_pair_delta": -6.195765757883365,
+      "protac_protein_delta": -27.383830609128093,
+      "raw_score": 170.17036,
+      "reference_gate_pass": false
+    },
+    {
+      "VBC": 32.952216977607875,
+      "PTK2": 134.98104079891334,
+      "PROTAC": 5.254191994203204,
+      "protein_pair": 158.516972811755,
+      "all": 138.9163293908045,
+      "pose": "combined_16_7_0001",
+      "protein_pair_delta": -9.416284964766206,
+      "protac_protein_delta": -24.854835415153723,
+      "raw_score": 140.277214,
+      "reference_gate_pass": false
+    },
+    {
+      "VBC": 58.72315492547609,
+      "PTK2": 130.61975080512275,
+      "PROTAC": 5.177884332525615,
+      "protein_pair": 184.68646343536562,
+      "all": 159.44029134997734,
+      "pose": "combined_19_9_0001",
+      "protein_pair_delta": -4.656442295233205,
+      "protac_protein_delta": -30.424056417913896,
+      "raw_score": 160.554557,
+      "reference_gate_pass": false
+    },
+    {
+      "VBC": 85.94892327035936,
+      "PTK2": 131.345209517625,
+      "PROTAC": 5.21851373548525,
+      "protein_pair": 212.79465130287235,
+      "all": 184.55237173992748,
+      "pose": "combined_25_2_0001",
+      "protein_pair_delta": -4.499481485112,
+      "protac_protein_delta": -33.460793298430126,
+      "raw_score": 185.723189,
+      "reference_gate_pass": false
+    },
+    {
+      "VBC": 32.61561105189904,
+      "PTK2": 131.428485545183,
+      "PROTAC": 5.385147666347855,
+      "protein_pair": 158.73460566703778,
+      "all": 129.1403794956786,
+      "pose": "combined_39_1_0001",
+      "protein_pair_delta": -5.309490930044262,
+      "protac_protein_delta": -34.97937383770705,
+      "raw_score": 130.495572,
+      "reference_gate_pass": true
+    },
+    {
+      "VBC": 92.15511842118622,
+      "PTK2": 134.42100795530513,
+      "PROTAC": 5.051431755110929,
+      "protein_pair": 221.86011461036207,
+      "all": 196.78158709456613,
+      "pose": "combined_43_6_0001",
+      "protein_pair_delta": -4.71601176612927,
+      "protac_protein_delta": -30.12995927090687,
+      "raw_score": 197.919739,
+      "reference_gate_pass": false
+    }
+  ]
+}

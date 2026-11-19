@@ -1,0 +1,1514 @@
+[
+  {
+    "conformer": 1,
+    "head_rmsd_A": [
+      2.377018252930939,
+      2.446272853776276
+    ],
+    "status": "HEAD_SHAPE_REJECTED"
+  },
+  {
+    "conformer": 2,
+    "head_rmsd_A": [
+      1.648848116050575,
+      1.8671151027960855
+    ],
+    "status": "HEAD_SHAPE_REJECTED"
+  },
+  {
+    "conformer": 3,
+    "head_rmsd_A": [
+      1.6470624122798385,
+      1.831738681048164
+    ],
+    "status": "HEAD_SHAPE_REJECTED"
+  },
+  {
+    "conformer": 4,
+    "head_rmsd_A": [
+      2.0359102771939614,
+      1.582869817720558
+    ],
+    "status": "HEAD_SHAPE_REJECTED"
+  },
+  {
+    "conformer": 5,
+    "head_rmsd_A": [
+      1.8066792150438222,
+      1.9617847495312764
+    ],
+    "status": "HEAD_SHAPE_REJECTED"
+  },
+  {
+    "conformer": 6,
+    "head_rmsd_A": [
+      2.0090938081138563,
+      1.727064077094729
+    ],
+    "status": "HEAD_SHAPE_REJECTED"
+  },
+  {
+    "conformer": 7,
+    "head_rmsd_A": [
+      1.6402552415343217,
+      2.689373692246893
+    ],
+    "status": "HEAD_SHAPE_REJECTED"
+  },
+  {
+    "conformer": 8,
+    "head_rmsd_A": [
+      2.187635162145083,
+      2.440144019563924
+    ],
+    "status": "HEAD_SHAPE_REJECTED"
+  },
+  {
+    "conformer": 9,
+    "head_rmsd_A": [
+      1.7823869494822098,
+      2.604024588720479
+    ],
+    "status": "HEAD_SHAPE_REJECTED"
+  },
+  {
+    "conformer": 10,
+    "head_rmsd_A": [
+      1.9343448720121175,
+      2.802240206755332
+    ],
+    "status": "HEAD_SHAPE_REJECTED"
+  },
+  {
+    "conformer": 11,
+    "head_rmsd_A": [
+      2.1992920476279854,
+      1.439454129284493
+    ],
+    "status": "HEAD_SHAPE_REJECTED"
+  },
+  {
+    "conformer": 12,
+    "head_rmsd_A": [
+      1.9759036834236279,
+      2.0713883239379802
+    ],
+    "status": "HEAD_SHAPE_REJECTED"
+  },
+  {
+    "conformer": 13,
+    "head_rmsd_A": [
+      2.931333536830026,
+      3.2591030723677985
+    ],
+    "status": "HEAD_SHAPE_REJECTED"
+  },
+  {
+    "conformer": 14,
+    "head_rmsd_A": [
+      1.6188507137389074,
+      2.533366374515484
+    ],
+    "status": "HEAD_SHAPE_REJECTED"
+  },
+  {
+    "conformer": 15,
+    "head_rmsd_A": [
+      1.7622481294349461,
+      2.2008937543421747
+    ],
+    "status": "HEAD_SHAPE_REJECTED"
+  },
+  {
+    "conformer": 16,
+    "head_rmsd_A": [
+      1.9426877888608451,
+      1.9233670343962344
+    ],
+    "status": "HEAD_SHAPE_REJECTED"
+  },
+  {
+    "conformer": 17,
+    "head_rmsd_A": [
+      2.545745029468607,
+      1.8236321254486483
+    ],
+    "status": "HEAD_SHAPE_REJECTED"
+  },
+  {
+    "conformer": 18,
+    "head_rmsd_A": [
+      2.808884312101283,
+      2.7453914381229683
+    ],
+    "status": "HEAD_SHAPE_REJECTED"
+  },
+  {
+    "conformer": 19,
+    "head_rmsd_A": [
+      1.4866856410358629,
+      2.0801054395828578
+    ],
+    "status": "HEAD_SHAPE_REJECTED"
+  },
+  {
+    "conformer": 20,
+    "head_rmsd_A": [
+      1.8965698285123997,
+      1.9884124750174252
+    ],
+    "status": "HEAD_SHAPE_REJECTED"
+  },
+  {
+    "conformer": 21,
+    "head_rmsd_A": [
+      2.311297659532911,
+      2.2834789329861986
+    ],
+    "status": "HEAD_SHAPE_REJECTED"
+  },
+  {
+    "conformer": 22,
+    "head_rmsd_A": [
+      2.64978694827511,
+      2.552451628413433
+    ],
+    "status": "HEAD_SHAPE_REJECTED"
+  },
+  {
+    "conformer": 23,
+    "head_rmsd_A": [
+      1.8364075376373772,
+      2.2681093358158386
+    ],
+    "status": "HEAD_SHAPE_REJECTED"
+  },
+  {
+    "conformer": 24,
+    "head_rmsd_A": [
+      1.4847869260999262,
+      1.6321729730003733
+    ],
+    "status": "HEAD_SHAPE_REJECTED"
+  },
+  {
+    "conformer": 25,
+    "head_rmsd_A": [
+      2.1218229739765015,
+      2.989085420610586
+    ],
+    "status": "HEAD_SHAPE_REJECTED"
+  },
+  {
+    "conformer": 26,
+    "head_rmsd_A": [
+      1.8454523842290593,
+      2.093826555702432
+    ],
+    "status": "HEAD_SHAPE_REJECTED"
+  },
+  {
+    "conformer": 27,
+    "head_rmsd_A": [
+      1.5824111768137958,
+      1.4145993343419134
+    ],
+    "status": "HEAD_SHAPE_REJECTED"
+  },
+  {
+    "conformer": 28,
+    "head_rmsd_A": [
+      1.5370919901548514,
+      2.3289709184398655
+    ],
+    "status": "HEAD_SHAPE_REJECTED"
+  },
+  {
+    "conformer": 29,
+    "head_rmsd_A": [
+      1.5010039101255446,
+      1.2404154276860633
+    ],
+    "status": "HEAD_SHAPE_REJECTED"
+  },
+  {
+    "conformer": 30,
+    "head_rmsd_A": [
+      1.649146611844256,
+      2.823728846151422
+    ],
+    "status": "HEAD_SHAPE_REJECTED"
+  },
+  {
+    "conformer": 31,
+    "head_rmsd_A": [
+      1.1917250299667208,
+      2.686078348726585
+    ],
+    "status": "HEAD_SHAPE_REJECTED"
+  },
+  {
+    "conformer": 32,
+    "head_rmsd_A": [
+      2.6650903731996567,
+      2.104591660300478
+    ],
+    "status": "HEAD_SHAPE_REJECTED"
+  },
+  {
+    "conformer": 33,
+    "head_rmsd_A": [
+      2.942240925383513,
+      1.9462338248784354
+    ],
+    "status": "HEAD_SHAPE_REJECTED"
+  },
+  {
+    "conformer": 34,
+    "head_rmsd_A": [
+      3.1885837891212483,
+      2.7439863217831215
+    ],
+    "status": "HEAD_SHAPE_REJECTED"
+  },
+  {
+    "conformer": 35,
+    "head_rmsd_A": [
+      2.15613051923823,
+      2.2685742840734955
+    ],
+    "status": "HEAD_SHAPE_REJECTED"
+  },
+  {
+    "conformer": 36,
+    "head_rmsd_A": [
+      2.109549384127883,
+      3.053232462974177
+    ],
+    "status": "HEAD_SHAPE_REJECTED"
+  },
+  {
+    "conformer": 37,
+    "head_rmsd_A": [
+      1.509758171096886,
+      1.4568648065576777
+    ],
+    "status": "HEAD_SHAPE_REJECTED"
+  },
+  {
+    "conformer": 38,
+    "head_rmsd_A": [
+      1.9407652898549426,
+      1.991777626854443
+    ],
+    "status": "HEAD_SHAPE_REJECTED"
+  },
+  {
+    "conformer": 39,
+    "head_rmsd_A": [
+      1.8960399413955462,
+      1.9622182251536162
+    ],
+    "status": "HEAD_SHAPE_REJECTED"
+  },
+  {
+    "conformer": 40,
+    "head_rmsd_A": [
+      1.8038513611036877,
+      2.0084244820878077
+    ],
+    "status": "HEAD_SHAPE_REJECTED"
+  },
+  {
+    "conformer": 41,
+    "head_rmsd_A": [
+      2.7166405589832476,
+      1.1452952387611302
+    ],
+    "status": "HEAD_SHAPE_REJECTED"
+  },
+  {
+    "conformer": 42,
+    "head_rmsd_A": [
+      1.9606722963530485,
+      2.0753120990412253
+    ],
+    "status": "HEAD_SHAPE_REJECTED"
+  },
+  {
+    "conformer": 43,
+    "head_rmsd_A": [
+      1.7817215271455074,
+      2.913635262513992
+    ],
+    "status": "HEAD_SHAPE_REJECTED"
+  },
+  {
+    "conformer": 44,
+    "head_rmsd_A": [
+      1.8631139025763577,
+      1.8066748221751203
+    ],
+    "status": "HEAD_SHAPE_REJECTED"
+  },
+  {
+    "conformer": 45,
+    "head_rmsd_A": [
+      2.1229681602687536,
+      2.4460051727229777
+    ],
+    "status": "HEAD_SHAPE_REJECTED"
+  },
+  {
+    "conformer": 46,
+    "head_rmsd_A": [
+      1.9956040521406455,
+      2.7297573632655117
+    ],
+    "status": "HEAD_SHAPE_REJECTED"
+  },
+  {
+    "conformer": 47,
+    "head_rmsd_A": [
+      2.9076689406950607,
+      1.662541781093983
+    ],
+    "status": "HEAD_SHAPE_REJECTED"
+  },
+  {
+    "conformer": 48,
+    "head_rmsd_A": [
+      2.181768695571709,
+      2.3311022847761826
+    ],
+    "status": "HEAD_SHAPE_REJECTED"
+  },
+  {
+    "conformer": 49,
+    "head_rmsd_A": [
+      1.7440031005688577,
+      2.3751470291128634
+    ],
+    "status": "HEAD_SHAPE_REJECTED"
+  },
+  {
+    "conformer": 50,
+    "head_rmsd_A": [
+      1.716084824566502,
+      2.165831473914797
+    ],
+    "status": "HEAD_SHAPE_REJECTED"
+  },
+  {
+    "conformer": 51,
+    "head_rmsd_A": [
+      2.1480790550376514,
+      2.8326438613814577
+    ],
+    "status": "HEAD_SHAPE_REJECTED"
+  },
+  {
+    "conformer": 52,
+    "head_rmsd_A": [
+      2.476661662313529,
+      2.264334598310762
+    ],
+    "status": "HEAD_SHAPE_REJECTED"
+  },
+  {
+    "conformer": 53,
+    "head_rmsd_A": [
+      1.923911874136349,
+      2.1605435617131827
+    ],
+    "status": "HEAD_SHAPE_REJECTED"
+  },
+  {
+    "conformer": 54,
+    "head_rmsd_A": [
+      2.18858987472908,
+      2.0084443874400604
+    ],
+    "status": "HEAD_SHAPE_REJECTED"
+  },
+  {
+    "conformer": 55,
+    "head_rmsd_A": [
+      1.574160805599968,
+      2.92114779538655
+    ],
+    "status": "HEAD_SHAPE_REJECTED"
+  },
+  {
+    "conformer": 56,
+    "head_rmsd_A": [
+      1.6425573698674207,
+      2.703878809713196
+    ],
+    "status": "HEAD_SHAPE_REJECTED"
+  },
+  {
+    "conformer": 57,
+    "head_rmsd_A": [
+      2.395609078188372,
+      2.5563729524929495
+    ],
+    "status": "HEAD_SHAPE_REJECTED"
+  },
+  {
+    "conformer": 58,
+    "head_rmsd_A": [
+      2.4400823545202415,
+      2.6205007600654135
+    ],
+    "status": "HEAD_SHAPE_REJECTED"
+  },
+  {
+    "conformer": 59,
+    "head_rmsd_A": [
+      1.5070400372307298,
+      2.3168117040640372
+    ],
+    "status": "HEAD_SHAPE_REJECTED"
+  },
+  {
+    "conformer": 60,
+    "head_rmsd_A": [
+      1.695658042204829,
+      2.475808446277921
+    ],
+    "status": "HEAD_SHAPE_REJECTED"
+  },
+  {
+    "conformer": 61,
+    "head_rmsd_A": [
+      1.9394584836002495,
+      1.8840743023343898
+    ],
+    "status": "HEAD_SHAPE_REJECTED"
+  },
+  {
+    "conformer": 62,
+    "head_rmsd_A": [
+      1.4979266671917761,
+      2.6609166337312367
+    ],
+    "status": "HEAD_SHAPE_REJECTED"
+  },
+  {
+    "conformer": 63,
+    "head_rmsd_A": [
+      1.7877892111969766,
+      2.620283875574138
+    ],
+    "status": "HEAD_SHAPE_REJECTED"
+  },
+  {
+    "conformer": 64,
+    "head_rmsd_A": [
+      1.776073642102553,
+      1.8687051731305067
+    ],
+    "status": "HEAD_SHAPE_REJECTED"
+  },
+  {
+    "conformer": 65,
+    "head_rmsd_A": [
+      1.7349822576340785,
+      2.5409955730394067
+    ],
+    "status": "HEAD_SHAPE_REJECTED"
+  },
+  {
+    "conformer": 66,
+    "head_rmsd_A": [
+      2.5233356032192846,
+      2.204441943087476
+    ],
+    "status": "HEAD_SHAPE_REJECTED"
+  },
+  {
+    "conformer": 67,
+    "head_rmsd_A": [
+      1.9028258411372445,
+      2.4410233208921492
+    ],
+    "status": "HEAD_SHAPE_REJECTED"
+  },
+  {
+    "conformer": 68,
+    "head_rmsd_A": [
+      2.521328813252438,
+      2.432792819811268
+    ],
+    "status": "HEAD_SHAPE_REJECTED"
+  },
+  {
+    "conformer": 69,
+    "head_rmsd_A": [
+      1.9062955199927563,
+      1.9755923861058184
+    ],
+    "status": "HEAD_SHAPE_REJECTED"
+  },
+  {
+    "conformer": 70,
+    "head_rmsd_A": [
+      1.8839009368079875,
+      2.094299581185497
+    ],
+    "status": "HEAD_SHAPE_REJECTED"
+  },
+  {
+    "conformer": 71,
+    "head_rmsd_A": [
+      1.7938810609473028,
+      2.4828438480417008
+    ],
+    "status": "HEAD_SHAPE_REJECTED"
+  },
+  {
+    "conformer": 72,
+    "head_rmsd_A": [
+      1.7842061374283849,
+      2.2343192856824974
+    ],
+    "status": "HEAD_SHAPE_REJECTED"
+  },
+  {
+    "conformer": 73,
+    "head_rmsd_A": [
+      1.55398689262462,
+      1.7471433497002191
+    ],
+    "status": "HEAD_SHAPE_REJECTED"
+  },
+  {
+    "conformer": 74,
+    "head_rmsd_A": [
+      2.414780235033004,
+      2.539267978402741
+    ],
+    "status": "HEAD_SHAPE_REJECTED"
+  },
+  {
+    "conformer": 75,
+    "head_rmsd_A": [
+      2.0481311612727615,
+      3.1262879292218884
+    ],
+    "status": "HEAD_SHAPE_REJECTED"
+  },
+  {
+    "conformer": 76,
+    "head_rmsd_A": [
+      1.2497341007262763,
+      1.9981181680303468
+    ],
+    "status": "HEAD_SHAPE_REJECTED"
+  },
+  {
+    "conformer": 77,
+    "head_rmsd_A": [
+      2.6375516034391517,
+      1.6443121492928392
+    ],
+    "status": "HEAD_SHAPE_REJECTED"
+  },
+  {
+    "conformer": 78,
+    "head_rmsd_A": [
+      1.939261637034365,
+      2.1799963245345912
+    ],
+    "status": "HEAD_SHAPE_REJECTED"
+  },
+  {
+    "conformer": 79,
+    "head_rmsd_A": [
+      2.034993929028512,
+      1.3270696878760966
+    ],
+    "status": "HEAD_SHAPE_REJECTED"
+  },
+  {
+    "conformer": 80,
+    "head_rmsd_A": [
+      1.9932439115950307,
+      3.1042723980009894
+    ],
+    "status": "HEAD_SHAPE_REJECTED"
+  },
+  {
+    "conformer": 81,
+    "head_rmsd_A": [
+      1.9978089431239723,
+      2.838155006119106
+    ],
+    "status": "HEAD_SHAPE_REJECTED"
+  },
+  {
+    "conformer": 82,
+    "head_rmsd_A": [
+      1.9625523680374355,
+      1.8748464785927614
+    ],
+    "status": "HEAD_SHAPE_REJECTED"
+  },
+  {
+    "conformer": 83,
+    "head_rmsd_A": [
+      1.9120870167872275,
+      2.145850056732358
+    ],
+    "status": "HEAD_SHAPE_REJECTED"
+  },
+  {
+    "conformer": 84,
+    "head_rmsd_A": [
+      2.425681772396162,
+      1.8653380935064539
+    ],
+    "status": "HEAD_SHAPE_REJECTED"
+  },
+  {
+    "conformer": 85,
+    "head_rmsd_A": [
+      2.3527014206421755,
+      1.9737782283230516
+    ],
+    "status": "HEAD_SHAPE_REJECTED"
+  },
+  {
+    "conformer": 86,
+    "head_rmsd_A": [
+      2.009109872764857,
+      2.890017901075791
+    ],
+    "status": "HEAD_SHAPE_REJECTED"
+  },
+  {
+    "conformer": 87,
+    "head_rmsd_A": [
+      1.434267929729716,
+      1.5394141867359397
+    ],
+    "status": "HEAD_SHAPE_REJECTED"
+  },
+  {
+    "conformer": 88,
+    "head_rmsd_A": [
+      1.71890686772315,
+      2.518496105148166
+    ],
+    "status": "HEAD_SHAPE_REJECTED"
+  },
+  {
+    "conformer": 89,
+    "head_rmsd_A": [
+      2.1521098471262747,
+      2.2185979404966107
+    ],
+    "status": "HEAD_SHAPE_REJECTED"
+  },
+  {
+    "conformer": 90,
+    "head_rmsd_A": [
+      1.540829346286621,
+      3.059490469065994
+    ],
+    "status": "HEAD_SHAPE_REJECTED"
+  },
+  {
+    "conformer": 91,
+    "head_rmsd_A": [
+      1.5347718557561383,
+      1.664358461508968
+    ],
+    "status": "HEAD_SHAPE_REJECTED"
+  },
+  {
+    "conformer": 92,
+    "head_rmsd_A": [
+      2.489458964121155,
+      2.574586755938283
+    ],
+    "status": "HEAD_SHAPE_REJECTED"
+  },
+  {
+    "conformer": 93,
+    "head_rmsd_A": [
+      2.367695485114069,
+      1.678130420274646
+    ],
+    "status": "HEAD_SHAPE_REJECTED"
+  },
+  {
+    "conformer": 94,
+    "head_rmsd_A": [
+      2.5614450512996485,
+      1.6472445649889893
+    ],
+    "status": "HEAD_SHAPE_REJECTED"
+  },
+  {
+    "conformer": 95,
+    "head_rmsd_A": [
+      2.46248052533849,
+      1.60917411848457
+    ],
+    "status": "HEAD_SHAPE_REJECTED"
+  },
+  {
+    "conformer": 96,
+    "head_rmsd_A": [
+      2.743873681488471,
+      2.1030956148538946
+    ],
+    "status": "HEAD_SHAPE_REJECTED"
+  },
+  {
+    "conformer": 97,
+    "head_rmsd_A": [
+      1.4365871560405672,
+      2.0423972310783984
+    ],
+    "status": "HEAD_SHAPE_REJECTED"
+  },
+  {
+    "conformer": 98,
+    "head_rmsd_A": [
+      1.7986088510230591,
+      1.960180860351194
+    ],
+    "status": "HEAD_SHAPE_REJECTED"
+  },
+  {
+    "conformer": 99,
+    "head_rmsd_A": [
+      1.7380123441907214,
+      2.7531080556625853
+    ],
+    "status": "HEAD_SHAPE_REJECTED"
+  },
+  {
+    "conformer": 100,
+    "head_rmsd_A": [
+      1.9574055665768773,
+      1.874923025258428
+    ],
+    "status": "HEAD_SHAPE_REJECTED"
+  },
+  {
+    "conformer": 101,
+    "head_rmsd_A": [
+      3.0105132454421892,
+      2.412183384681309
+    ],
+    "status": "HEAD_SHAPE_REJECTED"
+  },
+  {
+    "conformer": 102,
+    "head_rmsd_A": [
+      1.3043826250471449,
+      1.9531584340972457
+    ],
+    "status": "HEAD_SHAPE_REJECTED"
+  },
+  {
+    "conformer": 103,
+    "head_rmsd_A": [
+      1.4598972339533047,
+      2.3382860651680106
+    ],
+    "status": "HEAD_SHAPE_REJECTED"
+  },
+  {
+    "conformer": 104,
+    "head_rmsd_A": [
+      1.9322295083560206,
+      2.1771301244904393
+    ],
+    "status": "HEAD_SHAPE_REJECTED"
+  },
+  {
+    "conformer": 105,
+    "head_rmsd_A": [
+      2.294222773836112,
+      2.7426326083395125
+    ],
+    "status": "HEAD_SHAPE_REJECTED"
+  },
+  {
+    "conformer": 106,
+    "head_rmsd_A": [
+      1.751974445897684,
+      1.6927043221668086
+    ],
+    "status": "HEAD_SHAPE_REJECTED"
+  },
+  {
+    "conformer": 107,
+    "head_rmsd_A": [
+      2.0504077881352525,
+      2.6504743580575374
+    ],
+    "status": "HEAD_SHAPE_REJECTED"
+  },
+  {
+    "conformer": 108,
+    "head_rmsd_A": [
+      1.9511242967161424,
+      2.169947351339949
+    ],
+    "status": "HEAD_SHAPE_REJECTED"
+  },
+  {
+    "conformer": 109,
+    "head_rmsd_A": [
+      1.6610636178280347,
+      3.132991391447466
+    ],
+    "status": "HEAD_SHAPE_REJECTED"
+  },
+  {
+    "conformer": 110,
+    "head_rmsd_A": [
+      1.622179717115278,
+      2.328138787054337
+    ],
+    "status": "HEAD_SHAPE_REJECTED"
+  },
+  {
+    "conformer": 111,
+    "head_rmsd_A": [
+      1.626708952673812,
+      1.512997567376632
+    ],
+    "status": "HEAD_SHAPE_REJECTED"
+  },
+  {
+    "conformer": 112,
+    "head_rmsd_A": [
+      1.5153348588058988,
+      2.2236001650300805
+    ],
+    "status": "HEAD_SHAPE_REJECTED"
+  },
+  {
+    "conformer": 113,
+    "head_rmsd_A": [
+      1.8371753226546845,
+      2.3056595103063517
+    ],
+    "status": "HEAD_SHAPE_REJECTED"
+  },
+  {
+    "conformer": 114,
+    "head_rmsd_A": [
+      1.756273414960081,
+      2.538484939243776
+    ],
+    "status": "HEAD_SHAPE_REJECTED"
+  },
+  {
+    "conformer": 115,
+    "head_rmsd_A": [
+      1.6695719429623537,
+      2.1332144759744947
+    ],
+    "status": "HEAD_SHAPE_REJECTED"
+  },
+  {
+    "conformer": 116,
+    "head_rmsd_A": [
+      2.069809503433821,
+      2.0663781293878416
+    ],
+    "status": "HEAD_SHAPE_REJECTED"
+  },
+  {
+    "conformer": 117,
+    "head_rmsd_A": [
+      2.0550270821985324,
+      2.75120612611679
+    ],
+    "status": "HEAD_SHAPE_REJECTED"
+  },
+  {
+    "conformer": 118,
+    "head_rmsd_A": [
+      1.7416429545528627,
+      2.886858937931652
+    ],
+    "status": "HEAD_SHAPE_REJECTED"
+  },
+  {
+    "conformer": 119,
+    "head_rmsd_A": [
+      1.5668223440717277,
+      2.4602024590565357
+    ],
+    "status": "HEAD_SHAPE_REJECTED"
+  },
+  {
+    "conformer": 120,
+    "head_rmsd_A": [
+      2.262206261414725,
+      1.8736722533584331
+    ],
+    "status": "HEAD_SHAPE_REJECTED"
+  },
+  {
+    "conformer": 121,
+    "head_rmsd_A": [
+      2.0195527747958852,
+      1.5963687367376251
+    ],
+    "status": "HEAD_SHAPE_REJECTED"
+  },
+  {
+    "conformer": 122,
+    "head_rmsd_A": [
+      1.1926106965630965,
+      1.5588923996460986
+    ],
+    "status": "HEAD_SHAPE_REJECTED"
+  },
+  {
+    "conformer": 123,
+    "head_rmsd_A": [
+      1.5055037246164455,
+      2.7984174379413322
+    ],
+    "status": "HEAD_SHAPE_REJECTED"
+  },
+  {
+    "conformer": 124,
+    "head_rmsd_A": [
+      1.7569452410207826,
+      1.1832083411221623
+    ],
+    "status": "HEAD_SHAPE_REJECTED"
+  },
+  {
+    "conformer": 125,
+    "head_rmsd_A": [
+      2.8508110633894677,
+      2.7271470239607893
+    ],
+    "status": "HEAD_SHAPE_REJECTED"
+  },
+  {
+    "conformer": 126,
+    "head_rmsd_A": [
+      2.0253731878244254,
+      2.5776953944420256
+    ],
+    "status": "HEAD_SHAPE_REJECTED"
+  },
+  {
+    "conformer": 127,
+    "head_rmsd_A": [
+      2.726088579026878,
+      2.222611549419189
+    ],
+    "status": "HEAD_SHAPE_REJECTED"
+  },
+  {
+    "conformer": 128,
+    "head_rmsd_A": [
+      2.61045788397722,
+      1.8793448925253888
+    ],
+    "status": "HEAD_SHAPE_REJECTED"
+  },
+  {
+    "conformer": 129,
+    "head_rmsd_A": [
+      2.0529614909903215,
+      1.7358553149376268
+    ],
+    "status": "HEAD_SHAPE_REJECTED"
+  },
+  {
+    "conformer": 130,
+    "head_rmsd_A": [
+      1.614686199555857,
+      1.8489479732177425
+    ],
+    "status": "HEAD_SHAPE_REJECTED"
+  },
+  {
+    "conformer": 131,
+    "head_rmsd_A": [
+      1.7236127148684017,
+      1.992458266199023
+    ],
+    "status": "HEAD_SHAPE_REJECTED"
+  },
+  {
+    "conformer": 132,
+    "head_rmsd_A": [
+      1.5561518267257537,
+      2.8450955233466813
+    ],
+    "status": "HEAD_SHAPE_REJECTED"
+  },
+  {
+    "conformer": 133,
+    "head_rmsd_A": [
+      2.5754661538528496,
+      1.4608032418640287
+    ],
+    "status": "HEAD_SHAPE_REJECTED"
+  },
+  {
+    "conformer": 134,
+    "head_rmsd_A": [
+      1.5751376622959203,
+      2.284365085341706
+    ],
+    "status": "HEAD_SHAPE_REJECTED"
+  },
+  {
+    "conformer": 135,
+    "head_rmsd_A": [
+      2.042292982813294,
+      2.2962855326294376
+    ],
+    "status": "HEAD_SHAPE_REJECTED"
+  },
+  {
+    "conformer": 136,
+    "head_rmsd_A": [
+      1.8989403399057032,
+      2.9320333314298552
+    ],
+    "status": "HEAD_SHAPE_REJECTED"
+  },
+  {
+    "conformer": 137,
+    "head_rmsd_A": [
+      2.771184660702646,
+      2.5325634355029765
+    ],
+    "status": "HEAD_SHAPE_REJECTED"
+  },
+  {
+    "conformer": 138,
+    "head_rmsd_A": [
+      3.024887241651658,
+      2.680955588688986
+    ],
+    "status": "HEAD_SHAPE_REJECTED"
+  },
+  {
+    "conformer": 139,
+    "head_rmsd_A": [
+      1.5516459213238882,
+      1.7749364551102687
+    ],
+    "status": "HEAD_SHAPE_REJECTED"
+  },
+  {
+    "conformer": 140,
+    "head_rmsd_A": [
+      1.6484556491689384,
+      2.6880865352212004
+    ],
+    "status": "HEAD_SHAPE_REJECTED"
+  },
+  {
+    "conformer": 141,
+    "head_rmsd_A": [
+      1.8787142023984704,
+      1.5183342252355803
+    ],
+    "status": "HEAD_SHAPE_REJECTED"
+  },
+  {
+    "conformer": 142,
+    "head_rmsd_A": [
+      1.8683306437427694,
+      2.759418758009629
+    ],
+    "status": "HEAD_SHAPE_REJECTED"
+  },
+  {
+    "conformer": 143,
+    "head_rmsd_A": [
+      1.713165146225264,
+      1.9908797083141352
+    ],
+    "status": "HEAD_SHAPE_REJECTED"
+  },
+  {
+    "conformer": 144,
+    "head_rmsd_A": [
+      2.0388077220891057,
+      2.1058618452359634
+    ],
+    "status": "HEAD_SHAPE_REJECTED"
+  },
+  {
+    "conformer": 145,
+    "head_rmsd_A": [
+      1.8674988280050713,
+      2.8425142381241324
+    ],
+    "status": "HEAD_SHAPE_REJECTED"
+  },
+  {
+    "conformer": 146,
+    "head_rmsd_A": [
+      2.427140569467437,
+      2.248168964033759
+    ],
+    "status": "HEAD_SHAPE_REJECTED"
+  },
+  {
+    "conformer": 147,
+    "head_rmsd_A": [
+      1.8595312285256909,
+      2.271692394029981
+    ],
+    "status": "HEAD_SHAPE_REJECTED"
+  },
+  {
+    "conformer": 148,
+    "head_rmsd_A": [
+      2.286532329484716,
+      2.6883440173542312
+    ],
+    "status": "HEAD_SHAPE_REJECTED"
+  },
+  {
+    "conformer": 149,
+    "head_rmsd_A": [
+      1.7174514729638157,
+      2.3882309179377943
+    ],
+    "status": "HEAD_SHAPE_REJECTED"
+  },
+  {
+    "conformer": 150,
+    "head_rmsd_A": [
+      2.1195981522037437,
+      2.7572936978757467
+    ],
+    "status": "HEAD_SHAPE_REJECTED"
+  },
+  {
+    "conformer": 151,
+    "head_rmsd_A": [
+      1.3165807351179772,
+      2.105340753037719
+    ],
+    "status": "HEAD_SHAPE_REJECTED"
+  },
+  {
+    "conformer": 152,
+    "head_rmsd_A": [
+      2.950872309698041,
+      2.5742257462723614
+    ],
+    "status": "HEAD_SHAPE_REJECTED"
+  },
+  {
+    "conformer": 153,
+    "head_rmsd_A": [
+      1.5787376249889817,
+      2.616338022049011
+    ],
+    "status": "HEAD_SHAPE_REJECTED"
+  },
+  {
+    "conformer": 154,
+    "head_rmsd_A": [
+      2.4848166637636706,
+      2.394397100301173
+    ],
+    "status": "HEAD_SHAPE_REJECTED"
+  },
+  {
+    "conformer": 155,
+    "head_rmsd_A": [
+      1.5219413253635663,
+      1.887704622450406
+    ],
+    "status": "HEAD_SHAPE_REJECTED"
+  },
+  {
+    "conformer": 156,
+    "head_rmsd_A": [
+      2.0175278941774084,
+      1.8472174843631068
+    ],
+    "status": "HEAD_SHAPE_REJECTED"
+  },
+  {
+    "conformer": 157,
+    "head_rmsd_A": [
+      2.8777196860514422,
+      1.798889746583956
+    ],
+    "status": "HEAD_SHAPE_REJECTED"
+  },
+  {
+    "conformer": 158,
+    "head_rmsd_A": [
+      2.544134239697555,
+      2.8822934066676984
+    ],
+    "status": "HEAD_SHAPE_REJECTED"
+  },
+  {
+    "conformer": 159,
+    "head_rmsd_A": [
+      2.469313055184498,
+      2.5815058330876233
+    ],
+    "status": "HEAD_SHAPE_REJECTED"
+  },
+  {
+    "conformer": 160,
+    "head_rmsd_A": [
+      1.925872355475212,
+      1.6193151683321214
+    ],
+    "status": "HEAD_SHAPE_REJECTED"
+  },
+  {
+    "conformer": 161,
+    "head_rmsd_A": [
+      2.9729847697292957,
+      2.6922926611640112
+    ],
+    "status": "HEAD_SHAPE_REJECTED"
+  },
+  {
+    "conformer": 162,
+    "head_rmsd_A": [
+      1.8918761047975552,
+      2.96796914321133
+    ],
+    "status": "HEAD_SHAPE_REJECTED"
+  },
+  {
+    "conformer": 163,
+    "head_rmsd_A": [
+      1.490897489857871,
+      1.7277019943427483
+    ],
+    "status": "HEAD_SHAPE_REJECTED"
+  },
+  {
+    "conformer": 164,
+    "head_rmsd_A": [
+      1.8583300662223385,
+      1.9035663822645452
+    ],
+    "status": "HEAD_SHAPE_REJECTED"
+  },
+  {
+    "conformer": 165,
+    "head_rmsd_A": [
+      1.569675081242032,
+      1.2687597976364255
+    ],
+    "status": "HEAD_SHAPE_REJECTED"
+  },
+  {
+    "conformer": 166,
+    "head_rmsd_A": [
+      1.9175571312774988,
+      2.8699671451111852
+    ],
+    "status": "HEAD_SHAPE_REJECTED"
+  },
+  {
+    "conformer": 167,
+    "head_rmsd_A": [
+      2.4327734357766997,
+      2.0303415509608778
+    ],
+    "status": "HEAD_SHAPE_REJECTED"
+  },
+  {
+    "conformer": 168,
+    "head_rmsd_A": [
+      2.9740681031557505,
+      1.682855059948819
+    ],
+    "status": "HEAD_SHAPE_REJECTED"
+  },
+  {
+    "conformer": 169,
+    "head_rmsd_A": [
+      1.868867033485549,
+      1.4078172051402746
+    ],
+    "status": "HEAD_SHAPE_REJECTED"
+  },
+  {
+    "conformer": 170,
+    "head_rmsd_A": [
+      2.090865673702456,
+      1.6618355938938574
+    ],
+    "status": "HEAD_SHAPE_REJECTED"
+  },
+  {
+    "conformer": 171,
+    "head_rmsd_A": [
+      1.789555528096849,
+      1.5896185805742835
+    ],
+    "status": "HEAD_SHAPE_REJECTED"
+  },
+  {
+    "conformer": 172,
+    "head_rmsd_A": [
+      1.6427511571840625,
+      1.4886035030594285
+    ],
+    "status": "HEAD_SHAPE_REJECTED"
+  },
+  {
+    "conformer": 173,
+    "head_rmsd_A": [
+      2.2917161629123384,
+      2.361006145310153
+    ],
+    "status": "HEAD_SHAPE_REJECTED"
+  },
+  {
+    "conformer": 174,
+    "head_rmsd_A": [
+      1.9987042951811207,
+      2.425158256178458
+    ],
+    "status": "HEAD_SHAPE_REJECTED"
+  },
+  {
+    "conformer": 175,
+    "head_rmsd_A": [
+      1.4279731599173358,
+      2.393291966328886
+    ],
+    "status": "HEAD_SHAPE_REJECTED"
+  },
+  {
+    "conformer": 176,
+    "head_rmsd_A": [
+      2.7167408422835386,
+      2.531729197547698
+    ],
+    "status": "HEAD_SHAPE_REJECTED"
+  },
+  {
+    "conformer": 177,
+    "head_rmsd_A": [
+      1.5889349233269967,
+      1.8074458632290824
+    ],
+    "status": "HEAD_SHAPE_REJECTED"
+  },
+  {
+    "conformer": 178,
+    "head_rmsd_A": [
+      2.014875781351295,
+      1.3901263474949825
+    ],
+    "status": "HEAD_SHAPE_REJECTED"
+  },
+  {
+    "conformer": 179,
+    "head_rmsd_A": [
+      1.5639353774100269,
+      2.669381432032676
+    ],
+    "status": "HEAD_SHAPE_REJECTED"
+  },
+  {
+    "conformer": 180,
+    "head_rmsd_A": [
+      2.548788306015985,
+      2.989580695681003
+    ],
+    "status": "HEAD_SHAPE_REJECTED"
+  },
+  {
+    "conformer": 181,
+    "head_rmsd_A": [
+      2.617247933687854,
+      2.737337833139826
+    ],
+    "status": "HEAD_SHAPE_REJECTED"
+  },
+  {
+    "conformer": 182,
+    "head_rmsd_A": [
+      2.5924949272752587,
+      2.684306365127524
+    ],
+    "status": "HEAD_SHAPE_REJECTED"
+  },
+  {
+    "conformer": 183,
+    "head_rmsd_A": [
+      1.8650647872054553,
+      2.347711623540847
+    ],
+    "status": "HEAD_SHAPE_REJECTED"
+  },
+  {
+    "conformer": 184,
+    "head_rmsd_A": [
+      1.752703391385327,
+      2.6184596521935126
+    ],
+    "status": "HEAD_SHAPE_REJECTED"
+  },
+  {
+    "conformer": 185,
+    "head_rmsd_A": [
+      1.7807303246514863,
+      2.4054199146005684
+    ],
+    "status": "HEAD_SHAPE_REJECTED"
+  },
+  {
+    "conformer": 186,
+    "head_rmsd_A": [
+      1.7506668093328421,
+      2.749076002459442
+    ],
+    "status": "HEAD_SHAPE_REJECTED"
+  },
+  {
+    "conformer": 187,
+    "head_rmsd_A": [
+      1.6309450414224067,
+      1.9913025843383863
+    ],
+    "status": "HEAD_SHAPE_REJECTED"
+  },
+  {
+    "conformer": 188,
+    "head_rmsd_A": [
+      2.323634474435489,
+      3.0664418915818943
+    ],
+    "status": "HEAD_SHAPE_REJECTED"
+  },
+  {
+    "conformer": 189,
+    "head_rmsd_A": [
+      2.173343971095997,
+      2.635282769289861
+    ],
+    "status": "HEAD_SHAPE_REJECTED"
+  }
+]
