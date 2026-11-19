@@ -1,0 +1,252 @@
+{
+  "generated_total": 2382,
+  "contact_screen_pass": 381,
+  "contact_and_0p6_overlap_pass": 45,
+  "new_review_candidates": 18,
+  "new_by_compound": {
+    "JNJ1013": 3,
+    "MS143": 7,
+    "SJF1521": 3,
+    "SJF8240": 2,
+    "SJF_delta": 2,
+    "GSK215": 1
+  },
+  "previously_missing_candidates": [
+    {
+      "drug": "JNJ1013",
+      "uid": "O14976",
+      "gene": "GAK",
+      "status": "placement_generated",
+      "fit_rmsd_A": 13.258736649379417,
+      "min_distance_A": 2.785352962250671,
+      "max_vdw_overlap_A": 0.45994431222362575,
+      "passes_minimum_contact_screen": true
+    },
+    {
+      "drug": "MS143",
+      "uid": "O15264",
+      "gene": "MAPK13",
+      "status": "placement_generated",
+      "fit_rmsd_A": 11.501282919581367,
+      "min_distance_A": 3.0013216044071784,
+      "max_vdw_overlap_A": 0.14867839559282192,
+      "passes_minimum_contact_screen": true
+    },
+    {
+      "drug": "MS143",
+      "uid": "O95747",
+      "gene": "OXSR1",
+      "status": "placement_generated",
+      "fit_rmsd_A": 12.74586641819176,
+      "min_distance_A": 3.0774926743881132,
+      "max_vdw_overlap_A": 0.27153456058829173,
+      "passes_minimum_contact_screen": true
+    },
+    {
+      "drug": "MS143",
+      "uid": "P06213",
+      "gene": "INSR",
+      "status": "placement_generated",
+      "fit_rmsd_A": 11.521982073422457,
+      "min_distance_A": 2.952301583510069,
+      "max_vdw_overlap_A": 0.19769841648993136,
+      "passes_minimum_contact_screen": true
+    },
+    {
+      "drug": "MS143",
+      "uid": "P08069",
+      "gene": "IGF1R",
+      "status": "placement_generated",
+      "fit_rmsd_A": 10.592631061411687,
+      "min_distance_A": 2.837080575339412,
+      "max_vdw_overlap_A": 0.5081534153122544,
+      "passes_minimum_contact_screen": true
+    },
+    {
+      "drug": "MS143",
+      "uid": "P53778",
+      "gene": "MAPK12",
+      "status": "placement_generated",
+      "fit_rmsd_A": 11.135690694836594,
+      "min_distance_A": 2.8948133753310787,
+      "max_vdw_overlap_A": 0.5051866246689212,
+      "passes_minimum_contact_screen": true
+    },
+    {
+      "drug": "JNJ1013",
+      "uid": "Q15759",
+      "gene": "MAPK11",
+      "status": "placement_generated",
+      "fit_rmsd_A": 11.793679204413818,
+      "min_distance_A": 2.8181327896958135,
+      "max_vdw_overlap_A": 0.48186721030418633,
+      "passes_minimum_contact_screen": true
+    },
+    {
+      "drug": "MS143",
+      "uid": "Q15759",
+      "gene": "MAPK11",
+      "status": "placement_generated",
+      "fit_rmsd_A": 11.020065794950355,
+      "min_distance_A": 2.9857019416738027,
+      "max_vdw_overlap_A": 0.4142980583261968,
+      "passes_minimum_contact_screen": true
+    },
+    {
+      "drug": "SJF1521",
+      "uid": "Q86TW2",
+      "gene": "ADCK1",
+      "status": "placement_generated",
+      "fit_rmsd_A": 18.319202714127417,
+      "min_distance_A": 4.419161238006947,
+      "max_vdw_overlap_A": -1.2191612380069472,
+      "passes_minimum_contact_screen": true
+    },
+    {
+      "drug": "JNJ1013",
+      "uid": "Q8TD19",
+      "gene": "NEK9",
+      "status": "placement_generated",
+      "fit_rmsd_A": 22.221672403003296,
+      "min_distance_A": 3.3410893737893375,
+      "max_vdw_overlap_A": 0.05891062621066245,
+      "passes_minimum_contact_screen": true
+    },
+    {
+      "drug": "SJF1521",
+      "uid": "Q8TD19",
+      "gene": "NEK9",
+      "status": "placement_generated",
+      "fit_rmsd_A": 21.506824423008702,
+      "min_distance_A": 2.8528186434149414,
+      "max_vdw_overlap_A": 0.5471813565850585,
+      "passes_minimum_contact_screen": true
+    },
+    {
+      "drug": "SJF8240",
+      "uid": "Q8TD19",
+      "gene": "NEK9",
+      "status": "placement_generated",
+      "fit_rmsd_A": 22.059790724095436,
+      "min_distance_A": 3.073426184136045,
+      "max_vdw_overlap_A": 0.32657381586395484,
+      "passes_minimum_contact_screen": true
+    },
+    {
+      "drug": "SJF_delta",
+      "uid": "Q8TD19",
+      "gene": "NEK9",
+      "status": "placement_generated",
+      "fit_rmsd_A": 22.059790724095436,
+      "min_distance_A": 3.073426184136045,
+      "max_vdw_overlap_A": 0.32657381586395484,
+      "passes_minimum_contact_screen": true
+    },
+    {
+      "drug": "GSK215",
+      "uid": "Q9NSY1",
+      "gene": "BMP2K",
+      "status": "placement_generated",
+      "fit_rmsd_A": 39.67298677675631,
+      "min_distance_A": 3.271353045290557,
+      "max_vdw_overlap_A": 0.028646954709442785,
+      "passes_minimum_contact_screen": true
+    },
+    {
+      "drug": "SJF1521",
+      "uid": "Q9NSY1",
+      "gene": "BMP2K",
+      "status": "placement_generated",
+      "fit_rmsd_A": 39.282540294607806,
+      "min_distance_A": 2.919973553906964,
+      "max_vdw_overlap_A": 0.3800264460930358,
+      "passes_minimum_contact_screen": true
+    },
+    {
+      "drug": "SJF8240",
+      "uid": "Q9NSY1",
+      "gene": "BMP2K",
+      "status": "placement_generated",
+      "fit_rmsd_A": 39.725421281759274,
+      "min_distance_A": 3.557734705103998,
+      "max_vdw_overlap_A": -0.257734705103998,
+      "passes_minimum_contact_screen": true
+    },
+    {
+      "drug": "SJF_delta",
+      "uid": "Q9NSY1",
+      "gene": "BMP2K",
+      "status": "placement_generated",
+      "fit_rmsd_A": 39.725421281759274,
+      "min_distance_A": 3.557734705103998,
+      "max_vdw_overlap_A": -0.257734705103998,
+      "passes_minimum_contact_screen": true
+    },
+    {
+      "drug": "MS143",
+      "uid": "Q9UEW8",
+      "gene": "STK39",
+      "status": "placement_generated",
+      "fit_rmsd_A": 12.881174927413205,
+      "min_distance_A": 3.083383522681419,
+      "max_vdw_overlap_A": 0.23394211842622292,
+      "passes_minimum_contact_screen": true
+    }
+  ],
+  "counts": {
+    "GSK215": {
+      "counts": {
+        "placement_generated": 397,
+        "no_eligible_DFG_window": 27,
+        "missing_legacy_AF2_file": 11
+      },
+      "contact_screen_pass": 43,
+      "overlap_at_most_0p6_A": 1
+    },
+    "JNJ1013": {
+      "counts": {
+        "placement_generated": 397,
+        "no_eligible_DFG_window": 27,
+        "missing_legacy_AF2_file": 11
+      },
+      "contact_screen_pass": 74,
+      "overlap_at_most_0p6_A": 4
+    },
+    "MS143": {
+      "counts": {
+        "placement_generated": 397,
+        "no_eligible_DFG_window": 27,
+        "missing_legacy_AF2_file": 11
+      },
+      "contact_screen_pass": 228,
+      "overlap_at_most_0p6_A": 33
+    },
+    "SJF1521": {
+      "counts": {
+        "placement_generated": 397,
+        "no_eligible_DFG_window": 27,
+        "missing_legacy_AF2_file": 11
+      },
+      "contact_screen_pass": 26,
+      "overlap_at_most_0p6_A": 3
+    },
+    "SJF8240": {
+      "counts": {
+        "placement_generated": 397,
+        "no_eligible_DFG_window": 27,
+        "missing_legacy_AF2_file": 11
+      },
+      "contact_screen_pass": 5,
+      "overlap_at_most_0p6_A": 2
+    },
+    "SJF_delta": {
+      "counts": {
+        "placement_generated": 397,
+        "no_eligible_DFG_window": 27,
+        "missing_legacy_AF2_file": 11
+      },
+      "contact_screen_pass": 5,
+      "overlap_at_most_0p6_A": 2
+    }
+  }
+}

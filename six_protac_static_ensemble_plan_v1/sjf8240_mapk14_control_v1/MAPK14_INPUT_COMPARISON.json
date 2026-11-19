@@ -1,0 +1,93 @@
+{
+  "legacy_dfg": {
+    "head_heavy_atoms": 37,
+    "min_distance_A": 0.3040732835002906,
+    "max_vdw_overlap_A": 2.995926716499709,
+    "max_overlap_pair": [
+      5,
+      "('p', 0, 'A', (' ', 285, ' '), ('N', ' '))"
+    ],
+    "head_atoms_within4A": 23,
+    "max_overlap_protein_atom_name": "N",
+    "max_backbone_vdw_overlap_A": 2.995926716499709,
+    "max_sidechain_vdw_overlap_A": 2.2992767261956613
+  },
+  "whole_pocket": {
+    "production_ready": false,
+    "status": "MODELED_MAPK14_CONTROL_CANDIDATE",
+    "pose_reference": "5IA4 foretinib overlaid onto 1W82",
+    "whole_pocket_rmsd_A": 1.8140710245058262,
+    "local_pocket_rmsd_A": 1.547057800980278,
+    "fit_pocket_positions": 84,
+    "full_ligand_inchikey": "SCUZPTNDZHEHLB-ZWUDBOSPSA-N",
+    "poi_anchor": 13,
+    "ligand_full_anchor_one_based": 37,
+    "sterics": {
+      "head_heavy_atoms": 37,
+      "min_distance_A": 1.609018230683365,
+      "max_vdw_overlap_A": 1.640981769316635,
+      "max_overlap_pair": [
+        35,
+        "('p', 0, 'D', (' ', 71, ' '), ('OE2', ' '))"
+      ],
+      "head_atoms_within4A": 33,
+      "max_overlap_protein_atom_name": "OE2",
+      "max_backbone_vdw_overlap_A": 0.4747936308308587,
+      "max_sidechain_vdw_overlap_A": 1.640981769316635
+    },
+    "source_hashes": {
+      "/home/ayushregmibagale/10PROTAC-MD/reference_sources/5IA4.pdb": "2485f28847af8dc936ac483964c3140522ebcd107230f676feea8c7b7c7536fb",
+      "/home/ayushregmibagale/10PROTAC-MD/reference_sources/KLIFS_7189_pocket_residue_map.json": "31197235c147a26073920b24da580fe43fd5cf229f92391df37b1543d624daa1",
+      "1W82.pdb": "fce7b495a740f91ae00e471be9be9b7a2359bcb39e4e5040fee317b5dfd3d091",
+      "1W82_pocket.json": "1129c20f743d65b8ccf5fb7ad070b71530a85a9576f89adce714b5c40ce10542"
+    },
+    "files": {
+      "selection.json": "35d269763795f0e8585f3bf9a171037528820bc9443de00a2bf97a0836ba563e",
+      "vbc.pdb": "d5d0c38470689c813f2c46495a479e6723568f2f131dbaddc8a95a469f539342",
+      "poi_head.sdf": "9362129c48fefd4fa8b1afdc5d38a0cb466819598dd2bf96ae6c2302a011abc7",
+      "protein.pdb": "47881a857b487f0e674b07be546298421e0fcc451dd0a52081e3ad6e1aff0cbc",
+      "vhl_head.sdf": "37981dea105e48f8f26c666222ecad4ea8659270b46f0df9789fa49655a4a5d2",
+      "full.smi": "d66d442adccfab6b07c3aa34457027420932df051168ba5a9375b5a6754dbc08",
+      "Protac_params.txt": "43f68cd55c3d64abffff72d5966a4a2b3cf400b5d18e3a4f0f998890d44995f1"
+    }
+  },
+  "head_neighborhood": {
+    "production_ready": false,
+    "status": "MODELED_MAPK14_CONTROL_CANDIDATE",
+    "pose_reference": "5IA4 foretinib overlaid onto 1W82",
+    "whole_pocket_rmsd_A": 1.8284025719866925,
+    "local_pocket_rmsd_A": 1.5338365466736488,
+    "fit_pocket_positions": 61,
+    "full_ligand_inchikey": "SCUZPTNDZHEHLB-ZWUDBOSPSA-N",
+    "poi_anchor": 13,
+    "ligand_full_anchor_one_based": 37,
+    "sterics": {
+      "head_heavy_atoms": 37,
+      "min_distance_A": 1.5662187223330284,
+      "max_vdw_overlap_A": 1.6837812776669716,
+      "max_overlap_pair": [
+        35,
+        "('p', 0, 'D', (' ', 71, ' '), ('OE2', ' '))"
+      ],
+      "head_atoms_within4A": 34,
+      "max_overlap_protein_atom_name": "OE2",
+      "max_backbone_vdw_overlap_A": 0.4487962549069744,
+      "max_sidechain_vdw_overlap_A": 1.6837812776669716
+    },
+    "source_hashes": {
+      "/home/ayushregmibagale/10PROTAC-MD/reference_sources/5IA4.pdb": "2485f28847af8dc936ac483964c3140522ebcd107230f676feea8c7b7c7536fb",
+      "/home/ayushregmibagale/10PROTAC-MD/reference_sources/KLIFS_7189_pocket_residue_map.json": "31197235c147a26073920b24da580fe43fd5cf229f92391df37b1543d624daa1",
+      "1W82.pdb": "fce7b495a740f91ae00e471be9be9b7a2359bcb39e4e5040fee317b5dfd3d091",
+      "1W82_pocket.json": "1129c20f743d65b8ccf5fb7ad070b71530a85a9576f89adce714b5c40ce10542"
+    },
+    "files": {
+      "selection.json": "35d269763795f0e8585f3bf9a171037528820bc9443de00a2bf97a0836ba563e",
+      "vbc.pdb": "d5d0c38470689c813f2c46495a479e6723568f2f131dbaddc8a95a469f539342",
+      "poi_head.sdf": "3dd403081a1e0c23867bac76fa2ad6b32044d235c5fdaecc4147bf80a44fb1f8",
+      "protein.pdb": "47881a857b487f0e674b07be546298421e0fcc451dd0a52081e3ad6e1aff0cbc",
+      "vhl_head.sdf": "37981dea105e48f8f26c666222ecad4ea8659270b46f0df9789fa49655a4a5d2",
+      "full.smi": "d66d442adccfab6b07c3aa34457027420932df051168ba5a9375b5a6754dbc08",
+      "Protac_params.txt": "43f68cd55c3d64abffff72d5966a4a2b3cf400b5d18e3a4f0f998890d44995f1"
+    }
+  }
+}
