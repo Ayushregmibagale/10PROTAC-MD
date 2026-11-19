@@ -1,0 +1,3594 @@
+{
+  "GSK215": {
+    "combined_12_1_0001": [
+      {
+        "ligand_atom": "O4",
+        "ligand_region": "PT0",
+        "protein_chain": "A",
+        "residue": "HIS115",
+        "protein_atom": "ND1",
+        "distance_A": 2.4568837986359906,
+        "overlap_A": 0.6931162013640098
+      },
+      {
+        "ligand_atom": "F2",
+        "ligand_region": "PT1",
+        "protein_chain": "D",
+        "residue": "VAL484",
+        "protein_atom": "CG2",
+        "distance_A": 2.6346356484341436,
+        "overlap_A": 0.5653643515658566
+      },
+      {
+        "ligand_atom": "N8",
+        "ligand_region": "PT0",
+        "protein_chain": "A",
+        "residue": "HIS110",
+        "protein_atom": "O",
+        "distance_A": 2.7278969921901384,
+        "overlap_A": 0.422103007809862
+      },
+      {
+        "ligand_atom": "O4",
+        "ligand_region": "PT0",
+        "protein_chain": "A",
+        "residue": "SER111",
+        "protein_atom": "OG",
+        "distance_A": 2.7040817295340753,
+        "overlap_A": 0.39591827046592476
+      },
+      {
+        "ligand_atom": "N10",
+        "ligand_region": "PT1",
+        "protein_chain": "D",
+        "residue": "CYS502",
+        "protein_atom": "N",
+        "distance_A": 2.9728360196956714,
+        "overlap_A": 0.22716398030432883
+      },
+      {
+        "ligand_atom": "C34",
+        "ligand_region": "PT0",
+        "protein_chain": "A",
+        "residue": "PRO99",
+        "protein_atom": "O",
+        "distance_A": 3.049454705353074,
+        "overlap_A": 0.20054529464692594
+      },
+      {
+        "ligand_atom": "O4",
+        "ligand_region": "PT0",
+        "protein_chain": "A",
+        "residue": "HIS115",
+        "protein_atom": "CE1",
+        "distance_A": 3.066221616256727,
+        "overlap_A": 0.18377838374327293
+      },
+      {
+        "ligand_atom": "O1",
+        "ligand_region": "PT1",
+        "protein_chain": "D",
+        "residue": "ASP564",
+        "protein_atom": "N",
+        "distance_A": 2.979916273991605,
+        "overlap_A": 0.17008372600839516
+      },
+      {
+        "ligand_atom": "O6",
+        "ligand_region": "PT1",
+        "protein_chain": "D",
+        "residue": "CYS502",
+        "protein_atom": "O",
+        "distance_A": 2.9853269502685955,
+        "overlap_A": 0.11467304973140457
+      },
+      {
+        "ligand_atom": "N3",
+        "ligand_region": "PT1",
+        "protein_chain": "D",
+        "residue": "CYS502",
+        "protein_atom": "O",
+        "distance_A": 3.0455314807107148,
+        "overlap_A": 0.10446851928928558
+      }
+    ],
+    "combined_12_2_0001": [
+      {
+        "ligand_atom": "O4",
+        "ligand_region": "PT0",
+        "protein_chain": "A",
+        "residue": "HIS115",
+        "protein_atom": "ND1",
+        "distance_A": 2.4568837986359906,
+        "overlap_A": 0.6931162013640098
+      },
+      {
+        "ligand_atom": "F2",
+        "ligand_region": "PT1",
+        "protein_chain": "D",
+        "residue": "VAL484",
+        "protein_atom": "CG1",
+        "distance_A": 2.6687626346305136,
+        "overlap_A": 0.5312373653694866
+      },
+      {
+        "ligand_atom": "N8",
+        "ligand_region": "PT0",
+        "protein_chain": "A",
+        "residue": "HIS110",
+        "protein_atom": "O",
+        "distance_A": 2.7278969921901384,
+        "overlap_A": 0.422103007809862
+      },
+      {
+        "ligand_atom": "O4",
+        "ligand_region": "PT0",
+        "protein_chain": "A",
+        "residue": "SER111",
+        "protein_atom": "OG",
+        "distance_A": 2.7040817295340753,
+        "overlap_A": 0.39591827046592476
+      },
+      {
+        "ligand_atom": "N10",
+        "ligand_region": "PT1",
+        "protein_chain": "D",
+        "residue": "CYS502",
+        "protein_atom": "N",
+        "distance_A": 2.9728296284852918,
+        "overlap_A": 0.22717037151470842
+      },
+      {
+        "ligand_atom": "C34",
+        "ligand_region": "PT0",
+        "protein_chain": "A",
+        "residue": "PRO99",
+        "protein_atom": "O",
+        "distance_A": 3.049454705353074,
+        "overlap_A": 0.20054529464692594
+      },
+      {
+        "ligand_atom": "O4",
+        "ligand_region": "PT0",
+        "protein_chain": "A",
+        "residue": "HIS115",
+        "protein_atom": "CE1",
+        "distance_A": 3.066221616256727,
+        "overlap_A": 0.18377838374327293
+      },
+      {
+        "ligand_atom": "O1",
+        "ligand_region": "PT1",
+        "protein_chain": "D",
+        "residue": "ASP564",
+        "protein_atom": "N",
+        "distance_A": 2.9802471374032042,
+        "overlap_A": 0.16975286259679612
+      },
+      {
+        "ligand_atom": "C24",
+        "ligand_region": "PT0",
+        "protein_chain": "A",
+        "residue": "TRP117",
+        "protein_atom": "CZ2",
+        "distance_A": 3.2704779467227687,
+        "overlap_A": 0.1295220532772312
+      },
+      {
+        "ligand_atom": "O6",
+        "ligand_region": "PT1",
+        "protein_chain": "D",
+        "residue": "CYS502",
+        "protein_atom": "O",
+        "distance_A": 2.9851623071451248,
+        "overlap_A": 0.11483769285487533
+      }
+    ],
+    "combined_15_1_0001": [
+      {
+        "ligand_atom": "O4",
+        "ligand_region": "PT0",
+        "protein_chain": "A",
+        "residue": "HIS115",
+        "protein_atom": "ND1",
+        "distance_A": 2.4568837986359906,
+        "overlap_A": 0.6931162013640098
+      },
+      {
+        "ligand_atom": "F2",
+        "ligand_region": "PT1",
+        "protein_chain": "D",
+        "residue": "VAL484",
+        "protein_atom": "CG2",
+        "distance_A": 2.6336417751850765,
+        "overlap_A": 0.5663582248149237
+      },
+      {
+        "ligand_atom": "N8",
+        "ligand_region": "PT0",
+        "protein_chain": "A",
+        "residue": "HIS110",
+        "protein_atom": "O",
+        "distance_A": 2.7278969921901384,
+        "overlap_A": 0.422103007809862
+      },
+      {
+        "ligand_atom": "O4",
+        "ligand_region": "PT0",
+        "protein_chain": "A",
+        "residue": "SER111",
+        "protein_atom": "OG",
+        "distance_A": 2.7040817295340753,
+        "overlap_A": 0.39591827046592476
+      },
+      {
+        "ligand_atom": "O2",
+        "ligand_region": "outside_fixed_heads",
+        "protein_chain": "A",
+        "residue": "TYR112",
+        "protein_atom": "CE1",
+        "distance_A": 2.8656135468691484,
+        "overlap_A": 0.3843864531308516
+      },
+      {
+        "ligand_atom": "O2",
+        "ligand_region": "outside_fixed_heads",
+        "protein_chain": "A",
+        "residue": "TYR112",
+        "protein_atom": "CD1",
+        "distance_A": 2.95205081257081,
+        "overlap_A": 0.29794918742918997
+      },
+      {
+        "ligand_atom": "N10",
+        "ligand_region": "PT1",
+        "protein_chain": "D",
+        "residue": "CYS502",
+        "protein_atom": "N",
+        "distance_A": 2.9725467195655635,
+        "overlap_A": 0.2274532804344367
+      },
+      {
+        "ligand_atom": "C34",
+        "ligand_region": "PT0",
+        "protein_chain": "A",
+        "residue": "PRO99",
+        "protein_atom": "O",
+        "distance_A": 3.049454705353074,
+        "overlap_A": 0.20054529464692594
+      },
+      {
+        "ligand_atom": "O2",
+        "ligand_region": "outside_fixed_heads",
+        "protein_chain": "A",
+        "residue": "HIS115",
+        "protein_atom": "CE1",
+        "distance_A": 3.063691564110197,
+        "overlap_A": 0.18630843588980284
+      },
+      {
+        "ligand_atom": "O4",
+        "ligand_region": "PT0",
+        "protein_chain": "A",
+        "residue": "HIS115",
+        "protein_atom": "CE1",
+        "distance_A": 3.066221616256727,
+        "overlap_A": 0.18377838374327293
+      }
+    ],
+    "combined_15_2_0001": [
+      {
+        "ligand_atom": "O4",
+        "ligand_region": "PT0",
+        "protein_chain": "A",
+        "residue": "HIS115",
+        "protein_atom": "ND1",
+        "distance_A": 2.4568837986359906,
+        "overlap_A": 0.6931162013640098
+      },
+      {
+        "ligand_atom": "F2",
+        "ligand_region": "PT1",
+        "protein_chain": "D",
+        "residue": "VAL484",
+        "protein_atom": "CG1",
+        "distance_A": 2.66968799675168,
+        "overlap_A": 0.5303120032483202
+      },
+      {
+        "ligand_atom": "N8",
+        "ligand_region": "PT0",
+        "protein_chain": "A",
+        "residue": "HIS110",
+        "protein_atom": "O",
+        "distance_A": 2.7278969921901384,
+        "overlap_A": 0.422103007809862
+      },
+      {
+        "ligand_atom": "O4",
+        "ligand_region": "PT0",
+        "protein_chain": "A",
+        "residue": "SER111",
+        "protein_atom": "OG",
+        "distance_A": 2.7040817295340753,
+        "overlap_A": 0.39591827046592476
+      },
+      {
+        "ligand_atom": "O2",
+        "ligand_region": "outside_fixed_heads",
+        "protein_chain": "A",
+        "residue": "TYR112",
+        "protein_atom": "CE1",
+        "distance_A": 2.9471596495609105,
+        "overlap_A": 0.3028403504390895
+      },
+      {
+        "ligand_atom": "N10",
+        "ligand_region": "PT1",
+        "protein_chain": "D",
+        "residue": "CYS502",
+        "protein_atom": "N",
+        "distance_A": 2.972851324906781,
+        "overlap_A": 0.22714867509321923
+      },
+      {
+        "ligand_atom": "O2",
+        "ligand_region": "outside_fixed_heads",
+        "protein_chain": "A",
+        "residue": "TYR112",
+        "protein_atom": "CD1",
+        "distance_A": 3.0363861743855955,
+        "overlap_A": 0.21361382561440445
+      },
+      {
+        "ligand_atom": "C34",
+        "ligand_region": "PT0",
+        "protein_chain": "A",
+        "residue": "PRO99",
+        "protein_atom": "O",
+        "distance_A": 3.049454705353074,
+        "overlap_A": 0.20054529464692594
+      },
+      {
+        "ligand_atom": "O4",
+        "ligand_region": "PT0",
+        "protein_chain": "A",
+        "residue": "HIS115",
+        "protein_atom": "CE1",
+        "distance_A": 3.066221616256727,
+        "overlap_A": 0.18377838374327293
+      },
+      {
+        "ligand_atom": "O1",
+        "ligand_region": "PT1",
+        "protein_chain": "D",
+        "residue": "ASP564",
+        "protein_atom": "N",
+        "distance_A": 2.9791762284228844,
+        "overlap_A": 0.17082377157711592
+      }
+    ],
+    "combined_16_2_0001": [
+      {
+        "ligand_atom": "O4",
+        "ligand_region": "PT0",
+        "protein_chain": "A",
+        "residue": "HIS115",
+        "protein_atom": "ND1",
+        "distance_A": 2.4568837986359906,
+        "overlap_A": 0.6931162013640098
+      },
+      {
+        "ligand_atom": "F2",
+        "ligand_region": "PT1",
+        "protein_chain": "D",
+        "residue": "VAL484",
+        "protein_atom": "CG1",
+        "distance_A": 2.6699988764042604,
+        "overlap_A": 0.5300011235957398
+      },
+      {
+        "ligand_atom": "N8",
+        "ligand_region": "PT0",
+        "protein_chain": "A",
+        "residue": "HIS110",
+        "protein_atom": "O",
+        "distance_A": 2.7278969921901384,
+        "overlap_A": 0.422103007809862
+      },
+      {
+        "ligand_atom": "O4",
+        "ligand_region": "PT0",
+        "protein_chain": "A",
+        "residue": "SER111",
+        "protein_atom": "OG",
+        "distance_A": 2.7040817295340753,
+        "overlap_A": 0.39591827046592476
+      },
+      {
+        "ligand_atom": "N10",
+        "ligand_region": "PT1",
+        "protein_chain": "D",
+        "residue": "CYS502",
+        "protein_atom": "N",
+        "distance_A": 2.9727611743966253,
+        "overlap_A": 0.22723882560337483
+      },
+      {
+        "ligand_atom": "C34",
+        "ligand_region": "PT0",
+        "protein_chain": "A",
+        "residue": "PRO99",
+        "protein_atom": "O",
+        "distance_A": 3.049454705353074,
+        "overlap_A": 0.20054529464692594
+      },
+      {
+        "ligand_atom": "O4",
+        "ligand_region": "PT0",
+        "protein_chain": "A",
+        "residue": "HIS115",
+        "protein_atom": "CE1",
+        "distance_A": 3.066221616256727,
+        "overlap_A": 0.18377838374327293
+      },
+      {
+        "ligand_atom": "O1",
+        "ligand_region": "PT1",
+        "protein_chain": "D",
+        "residue": "ASP564",
+        "protein_atom": "N",
+        "distance_A": 2.9796533355408963,
+        "overlap_A": 0.17034666445910407
+      },
+      {
+        "ligand_atom": "O6",
+        "ligand_region": "PT1",
+        "protein_chain": "D",
+        "residue": "CYS502",
+        "protein_atom": "O",
+        "distance_A": 2.9853358270050627,
+        "overlap_A": 0.11466417299493736
+      },
+      {
+        "ligand_atom": "N3",
+        "ligand_region": "PT1",
+        "protein_chain": "D",
+        "residue": "CYS502",
+        "protein_atom": "O",
+        "distance_A": 3.0449752051535652,
+        "overlap_A": 0.10502479484643512
+      }
+    ],
+    "combined_18_1_0001": [
+      {
+        "ligand_atom": "O4",
+        "ligand_region": "PT0",
+        "protein_chain": "A",
+        "residue": "HIS115",
+        "protein_atom": "ND1",
+        "distance_A": 2.4568837986359906,
+        "overlap_A": 0.6931162013640098
+      },
+      {
+        "ligand_atom": "F2",
+        "ligand_region": "PT1",
+        "protein_chain": "D",
+        "residue": "VAL484",
+        "protein_atom": "CG1",
+        "distance_A": 2.6693798905363786,
+        "overlap_A": 0.5306201094636216
+      },
+      {
+        "ligand_atom": "N8",
+        "ligand_region": "PT0",
+        "protein_chain": "A",
+        "residue": "HIS110",
+        "protein_atom": "O",
+        "distance_A": 2.7278969921901384,
+        "overlap_A": 0.422103007809862
+      },
+      {
+        "ligand_atom": "O4",
+        "ligand_region": "PT0",
+        "protein_chain": "A",
+        "residue": "SER111",
+        "protein_atom": "OG",
+        "distance_A": 2.7040817295340753,
+        "overlap_A": 0.39591827046592476
+      },
+      {
+        "ligand_atom": "N10",
+        "ligand_region": "PT1",
+        "protein_chain": "D",
+        "residue": "CYS502",
+        "protein_atom": "N",
+        "distance_A": 2.9726222430709206,
+        "overlap_A": 0.22737775692907958
+      },
+      {
+        "ligand_atom": "C34",
+        "ligand_region": "PT0",
+        "protein_chain": "A",
+        "residue": "PRO99",
+        "protein_atom": "O",
+        "distance_A": 3.049454705353074,
+        "overlap_A": 0.20054529464692594
+      },
+      {
+        "ligand_atom": "O4",
+        "ligand_region": "PT0",
+        "protein_chain": "A",
+        "residue": "HIS115",
+        "protein_atom": "CE1",
+        "distance_A": 3.066221616256727,
+        "overlap_A": 0.18377838374327293
+      },
+      {
+        "ligand_atom": "O1",
+        "ligand_region": "PT1",
+        "protein_chain": "D",
+        "residue": "ASP564",
+        "protein_atom": "N",
+        "distance_A": 2.9783099234297254,
+        "overlap_A": 0.1716900765702749
+      },
+      {
+        "ligand_atom": "O6",
+        "ligand_region": "PT1",
+        "protein_chain": "D",
+        "residue": "CYS502",
+        "protein_atom": "O",
+        "distance_A": 2.986037005798822,
+        "overlap_A": 0.11396299420117817
+      },
+      {
+        "ligand_atom": "N3",
+        "ligand_region": "PT1",
+        "protein_chain": "D",
+        "residue": "CYS502",
+        "protein_atom": "O",
+        "distance_A": 3.045252042114087,
+        "overlap_A": 0.1047479578859134
+      }
+    ],
+    "combined_18_2_0001": [
+      {
+        "ligand_atom": "O4",
+        "ligand_region": "PT0",
+        "protein_chain": "A",
+        "residue": "HIS115",
+        "protein_atom": "ND1",
+        "distance_A": 2.4568837986359906,
+        "overlap_A": 0.6931162013640098
+      },
+      {
+        "ligand_atom": "F2",
+        "ligand_region": "PT1",
+        "protein_chain": "D",
+        "residue": "VAL484",
+        "protein_atom": "CG2",
+        "distance_A": 2.633470333988975,
+        "overlap_A": 0.5665296660110251
+      },
+      {
+        "ligand_atom": "N8",
+        "ligand_region": "PT0",
+        "protein_chain": "A",
+        "residue": "HIS110",
+        "protein_atom": "O",
+        "distance_A": 2.7278969921901384,
+        "overlap_A": 0.422103007809862
+      },
+      {
+        "ligand_atom": "O4",
+        "ligand_region": "PT0",
+        "protein_chain": "A",
+        "residue": "SER111",
+        "protein_atom": "OG",
+        "distance_A": 2.7040817295340753,
+        "overlap_A": 0.39591827046592476
+      },
+      {
+        "ligand_atom": "N10",
+        "ligand_region": "PT1",
+        "protein_chain": "D",
+        "residue": "CYS502",
+        "protein_atom": "N",
+        "distance_A": 2.97287773041543,
+        "overlap_A": 0.22712226958457027
+      },
+      {
+        "ligand_atom": "C34",
+        "ligand_region": "PT0",
+        "protein_chain": "A",
+        "residue": "PRO99",
+        "protein_atom": "O",
+        "distance_A": 3.049454705353074,
+        "overlap_A": 0.20054529464692594
+      },
+      {
+        "ligand_atom": "O4",
+        "ligand_region": "PT0",
+        "protein_chain": "A",
+        "residue": "HIS115",
+        "protein_atom": "CE1",
+        "distance_A": 3.066221616256727,
+        "overlap_A": 0.18377838374327293
+      },
+      {
+        "ligand_atom": "O1",
+        "ligand_region": "PT1",
+        "protein_chain": "D",
+        "residue": "ASP564",
+        "protein_atom": "N",
+        "distance_A": 2.9792846456825823,
+        "overlap_A": 0.17071535431741802
+      },
+      {
+        "ligand_atom": "O6",
+        "ligand_region": "PT1",
+        "protein_chain": "D",
+        "residue": "CYS502",
+        "protein_atom": "O",
+        "distance_A": 2.9849546060199983,
+        "overlap_A": 0.1150453939800018
+      },
+      {
+        "ligand_atom": "N3",
+        "ligand_region": "PT1",
+        "protein_chain": "D",
+        "residue": "CYS502",
+        "protein_atom": "O",
+        "distance_A": 3.0456961437411953,
+        "overlap_A": 0.104303856258805
+      }
+    ],
+    "combined_20_1_0001": [
+      {
+        "ligand_atom": "O4",
+        "ligand_region": "PT0",
+        "protein_chain": "A",
+        "residue": "HIS115",
+        "protein_atom": "ND1",
+        "distance_A": 2.4568837986359906,
+        "overlap_A": 0.6931162013640098
+      },
+      {
+        "ligand_atom": "F2",
+        "ligand_region": "PT1",
+        "protein_chain": "D",
+        "residue": "VAL484",
+        "protein_atom": "CG2",
+        "distance_A": 2.633431411675653,
+        "overlap_A": 0.5665685883243472
+      },
+      {
+        "ligand_atom": "N8",
+        "ligand_region": "PT0",
+        "protein_chain": "A",
+        "residue": "HIS110",
+        "protein_atom": "O",
+        "distance_A": 2.7278969921901384,
+        "overlap_A": 0.422103007809862
+      },
+      {
+        "ligand_atom": "O4",
+        "ligand_region": "PT0",
+        "protein_chain": "A",
+        "residue": "SER111",
+        "protein_atom": "OG",
+        "distance_A": 2.7040817295340753,
+        "overlap_A": 0.39591827046592476
+      },
+      {
+        "ligand_atom": "N10",
+        "ligand_region": "PT1",
+        "protein_chain": "D",
+        "residue": "CYS502",
+        "protein_atom": "N",
+        "distance_A": 2.9720137953919363,
+        "overlap_A": 0.22798620460806385
+      },
+      {
+        "ligand_atom": "C34",
+        "ligand_region": "PT0",
+        "protein_chain": "A",
+        "residue": "PRO99",
+        "protein_atom": "O",
+        "distance_A": 3.049454705353074,
+        "overlap_A": 0.20054529464692594
+      },
+      {
+        "ligand_atom": "O4",
+        "ligand_region": "PT0",
+        "protein_chain": "A",
+        "residue": "HIS115",
+        "protein_atom": "CE1",
+        "distance_A": 3.066221616256727,
+        "overlap_A": 0.18377838374327293
+      },
+      {
+        "ligand_atom": "O1",
+        "ligand_region": "PT1",
+        "protein_chain": "D",
+        "residue": "ASP564",
+        "protein_atom": "N",
+        "distance_A": 2.9795083487045355,
+        "overlap_A": 0.17049165129546484
+      },
+      {
+        "ligand_atom": "C24",
+        "ligand_region": "PT0",
+        "protein_chain": "A",
+        "residue": "TRP117",
+        "protein_atom": "CZ2",
+        "distance_A": 3.2704779467227687,
+        "overlap_A": 0.1295220532772312
+      },
+      {
+        "ligand_atom": "O6",
+        "ligand_region": "PT1",
+        "protein_chain": "D",
+        "residue": "CYS502",
+        "protein_atom": "O",
+        "distance_A": 2.98571147299936,
+        "overlap_A": 0.11428852700064018
+      }
+    ],
+    "combined_20_2_0001": [
+      {
+        "ligand_atom": "O4",
+        "ligand_region": "PT0",
+        "protein_chain": "A",
+        "residue": "HIS115",
+        "protein_atom": "ND1",
+        "distance_A": 2.4568837986359906,
+        "overlap_A": 0.6931162013640098
+      },
+      {
+        "ligand_atom": "F2",
+        "ligand_region": "PT1",
+        "protein_chain": "D",
+        "residue": "VAL484",
+        "protein_atom": "CG2",
+        "distance_A": 2.6330079756810467,
+        "overlap_A": 0.5669920243189535
+      },
+      {
+        "ligand_atom": "N8",
+        "ligand_region": "PT0",
+        "protein_chain": "A",
+        "residue": "HIS110",
+        "protein_atom": "O",
+        "distance_A": 2.7278969921901384,
+        "overlap_A": 0.422103007809862
+      },
+      {
+        "ligand_atom": "F3",
+        "ligand_region": "PT1",
+        "protein_chain": "D",
+        "residue": "MET499",
+        "protein_atom": "SD",
+        "distance_A": 2.8798074588416473,
+        "overlap_A": 0.4201925411583525
+      },
+      {
+        "ligand_atom": "O4",
+        "ligand_region": "PT0",
+        "protein_chain": "A",
+        "residue": "SER111",
+        "protein_atom": "OG",
+        "distance_A": 2.7040817295340753,
+        "overlap_A": 0.39591827046592476
+      },
+      {
+        "ligand_atom": "N10",
+        "ligand_region": "PT1",
+        "protein_chain": "D",
+        "residue": "CYS502",
+        "protein_atom": "N",
+        "distance_A": 2.9723413330235133,
+        "overlap_A": 0.22765866697648685
+      },
+      {
+        "ligand_atom": "C34",
+        "ligand_region": "PT0",
+        "protein_chain": "A",
+        "residue": "PRO99",
+        "protein_atom": "O",
+        "distance_A": 3.049454705353074,
+        "overlap_A": 0.20054529464692594
+      },
+      {
+        "ligand_atom": "O4",
+        "ligand_region": "PT0",
+        "protein_chain": "A",
+        "residue": "HIS115",
+        "protein_atom": "CE1",
+        "distance_A": 3.066221616256727,
+        "overlap_A": 0.18377838374327293
+      },
+      {
+        "ligand_atom": "O1",
+        "ligand_region": "PT1",
+        "protein_chain": "D",
+        "residue": "ASP564",
+        "protein_atom": "N",
+        "distance_A": 2.9805090169298296,
+        "overlap_A": 0.16949098307017074
+      },
+      {
+        "ligand_atom": "F2",
+        "ligand_region": "PT1",
+        "protein_chain": "D",
+        "residue": "MET499",
+        "protein_atom": "CE",
+        "distance_A": 3.08011899120797,
+        "overlap_A": 0.11988100879203012
+      }
+    ],
+    "combined_24_1_0001": [
+      {
+        "ligand_atom": "O4",
+        "ligand_region": "PT0",
+        "protein_chain": "A",
+        "residue": "HIS115",
+        "protein_atom": "ND1",
+        "distance_A": 2.4568837986359906,
+        "overlap_A": 0.6931162013640098
+      },
+      {
+        "ligand_atom": "F2",
+        "ligand_region": "PT1",
+        "protein_chain": "D",
+        "residue": "VAL484",
+        "protein_atom": "CG2",
+        "distance_A": 2.6341163603759044,
+        "overlap_A": 0.5658836396240958
+      },
+      {
+        "ligand_atom": "N8",
+        "ligand_region": "PT0",
+        "protein_chain": "A",
+        "residue": "HIS110",
+        "protein_atom": "O",
+        "distance_A": 2.7278969921901384,
+        "overlap_A": 0.422103007809862
+      },
+      {
+        "ligand_atom": "O4",
+        "ligand_region": "PT0",
+        "protein_chain": "A",
+        "residue": "SER111",
+        "protein_atom": "OG",
+        "distance_A": 2.7040817295340753,
+        "overlap_A": 0.39591827046592476
+      },
+      {
+        "ligand_atom": "C41",
+        "ligand_region": "PT0",
+        "protein_chain": "D",
+        "residue": "SER509",
+        "protein_atom": "OG",
+        "distance_A": 2.9701624534695057,
+        "overlap_A": 0.2798375465304943
+      },
+      {
+        "ligand_atom": "N10",
+        "ligand_region": "PT1",
+        "protein_chain": "D",
+        "residue": "CYS502",
+        "protein_atom": "N",
+        "distance_A": 2.972125333830994,
+        "overlap_A": 0.2278746661690061
+      },
+      {
+        "ligand_atom": "C34",
+        "ligand_region": "PT0",
+        "protein_chain": "A",
+        "residue": "PRO99",
+        "protein_atom": "O",
+        "distance_A": 3.049454705353074,
+        "overlap_A": 0.20054529464692594
+      },
+      {
+        "ligand_atom": "O4",
+        "ligand_region": "PT0",
+        "protein_chain": "A",
+        "residue": "HIS115",
+        "protein_atom": "CE1",
+        "distance_A": 3.066221616256727,
+        "overlap_A": 0.18377838374327293
+      },
+      {
+        "ligand_atom": "O1",
+        "ligand_region": "PT1",
+        "protein_chain": "D",
+        "residue": "ASP564",
+        "protein_atom": "N",
+        "distance_A": 2.97984865387489,
+        "overlap_A": 0.17015134612511051
+      },
+      {
+        "ligand_atom": "C24",
+        "ligand_region": "PT0",
+        "protein_chain": "A",
+        "residue": "TRP117",
+        "protein_atom": "CZ2",
+        "distance_A": 3.2704779467227687,
+        "overlap_A": 0.1295220532772312
+      }
+    ],
+    "combined_24_2_0001": [
+      {
+        "ligand_atom": "O4",
+        "ligand_region": "PT0",
+        "protein_chain": "A",
+        "residue": "HIS115",
+        "protein_atom": "ND1",
+        "distance_A": 2.4568837986359906,
+        "overlap_A": 0.6931162013640098
+      },
+      {
+        "ligand_atom": "F2",
+        "ligand_region": "PT1",
+        "protein_chain": "D",
+        "residue": "VAL484",
+        "protein_atom": "CG2",
+        "distance_A": 2.633826493905777,
+        "overlap_A": 0.566173506094223
+      },
+      {
+        "ligand_atom": "N8",
+        "ligand_region": "PT0",
+        "protein_chain": "A",
+        "residue": "HIS110",
+        "protein_atom": "O",
+        "distance_A": 2.7278969921901384,
+        "overlap_A": 0.422103007809862
+      },
+      {
+        "ligand_atom": "O4",
+        "ligand_region": "PT0",
+        "protein_chain": "A",
+        "residue": "SER111",
+        "protein_atom": "OG",
+        "distance_A": 2.7040817295340753,
+        "overlap_A": 0.39591827046592476
+      },
+      {
+        "ligand_atom": "N10",
+        "ligand_region": "PT1",
+        "protein_chain": "D",
+        "residue": "CYS502",
+        "protein_atom": "N",
+        "distance_A": 2.9720600599584146,
+        "overlap_A": 0.22793994004158558
+      },
+      {
+        "ligand_atom": "C41",
+        "ligand_region": "PT0",
+        "protein_chain": "D",
+        "residue": "SER509",
+        "protein_atom": "OG",
+        "distance_A": 3.0234782949444177,
+        "overlap_A": 0.22652170505558233
+      },
+      {
+        "ligand_atom": "C34",
+        "ligand_region": "PT0",
+        "protein_chain": "A",
+        "residue": "PRO99",
+        "protein_atom": "O",
+        "distance_A": 3.049454705353074,
+        "overlap_A": 0.20054529464692594
+      },
+      {
+        "ligand_atom": "O4",
+        "ligand_region": "PT0",
+        "protein_chain": "A",
+        "residue": "HIS115",
+        "protein_atom": "CE1",
+        "distance_A": 3.066221616256727,
+        "overlap_A": 0.18377838374327293
+      },
+      {
+        "ligand_atom": "O1",
+        "ligand_region": "PT1",
+        "protein_chain": "D",
+        "residue": "ASP564",
+        "protein_atom": "N",
+        "distance_A": 2.9798110678363487,
+        "overlap_A": 0.1701889321636516
+      },
+      {
+        "ligand_atom": "O6",
+        "ligand_region": "PT1",
+        "protein_chain": "D",
+        "residue": "CYS502",
+        "protein_atom": "O",
+        "distance_A": 2.984822607794307,
+        "overlap_A": 0.1151773922056929
+      }
+    ],
+    "combined_25_1_0001": [
+      {
+        "ligand_atom": "O4",
+        "ligand_region": "PT0",
+        "protein_chain": "A",
+        "residue": "HIS115",
+        "protein_atom": "ND1",
+        "distance_A": 2.4568837986359906,
+        "overlap_A": 0.6931162013640098
+      },
+      {
+        "ligand_atom": "F2",
+        "ligand_region": "PT1",
+        "protein_chain": "D",
+        "residue": "VAL484",
+        "protein_atom": "CG2",
+        "distance_A": 2.634314142238926,
+        "overlap_A": 0.5656858577610744
+      },
+      {
+        "ligand_atom": "N8",
+        "ligand_region": "PT0",
+        "protein_chain": "A",
+        "residue": "HIS110",
+        "protein_atom": "O",
+        "distance_A": 2.7278969921901384,
+        "overlap_A": 0.422103007809862
+      },
+      {
+        "ligand_atom": "O4",
+        "ligand_region": "PT0",
+        "protein_chain": "A",
+        "residue": "SER111",
+        "protein_atom": "OG",
+        "distance_A": 2.7040817295340753,
+        "overlap_A": 0.39591827046592476
+      },
+      {
+        "ligand_atom": "N10",
+        "ligand_region": "PT1",
+        "protein_chain": "D",
+        "residue": "CYS502",
+        "protein_atom": "N",
+        "distance_A": 2.972072845675221,
+        "overlap_A": 0.2279271543247794
+      },
+      {
+        "ligand_atom": "C34",
+        "ligand_region": "PT0",
+        "protein_chain": "A",
+        "residue": "PRO99",
+        "protein_atom": "O",
+        "distance_A": 3.049454705353074,
+        "overlap_A": 0.20054529464692594
+      },
+      {
+        "ligand_atom": "O4",
+        "ligand_region": "PT0",
+        "protein_chain": "A",
+        "residue": "HIS115",
+        "protein_atom": "CE1",
+        "distance_A": 3.066221616256727,
+        "overlap_A": 0.18377838374327293
+      },
+      {
+        "ligand_atom": "O1",
+        "ligand_region": "PT1",
+        "protein_chain": "D",
+        "residue": "ASP564",
+        "protein_atom": "N",
+        "distance_A": 2.9799484894876977,
+        "overlap_A": 0.1700515105123026
+      },
+      {
+        "ligand_atom": "O6",
+        "ligand_region": "PT1",
+        "protein_chain": "D",
+        "residue": "CYS502",
+        "protein_atom": "O",
+        "distance_A": 2.985517878023845,
+        "overlap_A": 0.11448212197615515
+      },
+      {
+        "ligand_atom": "N3",
+        "ligand_region": "PT1",
+        "protein_chain": "D",
+        "residue": "CYS502",
+        "protein_atom": "O",
+        "distance_A": 3.045335121131989,
+        "overlap_A": 0.10466487886801135
+      }
+    ],
+    "combined_33_1_0001": [
+      {
+        "ligand_atom": "O4",
+        "ligand_region": "PT0",
+        "protein_chain": "A",
+        "residue": "HIS115",
+        "protein_atom": "ND1",
+        "distance_A": 2.4568837986359906,
+        "overlap_A": 0.6931162013640098
+      },
+      {
+        "ligand_atom": "F2",
+        "ligand_region": "PT1",
+        "protein_chain": "D",
+        "residue": "VAL484",
+        "protein_atom": "CG2",
+        "distance_A": 2.6333203375206793,
+        "overlap_A": 0.5666796624793209
+      },
+      {
+        "ligand_atom": "N8",
+        "ligand_region": "PT0",
+        "protein_chain": "A",
+        "residue": "HIS110",
+        "protein_atom": "O",
+        "distance_A": 2.7278969921901384,
+        "overlap_A": 0.422103007809862
+      },
+      {
+        "ligand_atom": "O4",
+        "ligand_region": "PT0",
+        "protein_chain": "A",
+        "residue": "SER111",
+        "protein_atom": "OG",
+        "distance_A": 2.7040817295340753,
+        "overlap_A": 0.39591827046592476
+      },
+      {
+        "ligand_atom": "N10",
+        "ligand_region": "PT1",
+        "protein_chain": "D",
+        "residue": "CYS502",
+        "protein_atom": "N",
+        "distance_A": 2.973422775186874,
+        "overlap_A": 0.22657722481312614
+      },
+      {
+        "ligand_atom": "C34",
+        "ligand_region": "PT0",
+        "protein_chain": "A",
+        "residue": "PRO99",
+        "protein_atom": "O",
+        "distance_A": 3.049454705353074,
+        "overlap_A": 0.20054529464692594
+      },
+      {
+        "ligand_atom": "O4",
+        "ligand_region": "PT0",
+        "protein_chain": "A",
+        "residue": "HIS115",
+        "protein_atom": "CE1",
+        "distance_A": 3.066221616256727,
+        "overlap_A": 0.18377838374327293
+      },
+      {
+        "ligand_atom": "O1",
+        "ligand_region": "PT1",
+        "protein_chain": "D",
+        "residue": "ASP564",
+        "protein_atom": "N",
+        "distance_A": 2.979665417458815,
+        "overlap_A": 0.1703345825411855
+      },
+      {
+        "ligand_atom": "O6",
+        "ligand_region": "PT1",
+        "protein_chain": "D",
+        "residue": "CYS502",
+        "protein_atom": "O",
+        "distance_A": 2.984831988571551,
+        "overlap_A": 0.11516801142844901
+      },
+      {
+        "ligand_atom": "N3",
+        "ligand_region": "PT1",
+        "protein_chain": "D",
+        "residue": "CYS502",
+        "protein_atom": "O",
+        "distance_A": 3.043838037741171,
+        "overlap_A": 0.10616196225882923
+      }
+    ],
+    "combined_33_2_0001": [
+      {
+        "ligand_atom": "O4",
+        "ligand_region": "PT0",
+        "protein_chain": "A",
+        "residue": "HIS115",
+        "protein_atom": "ND1",
+        "distance_A": 2.4568837986359906,
+        "overlap_A": 0.6931162013640098
+      },
+      {
+        "ligand_atom": "F2",
+        "ligand_region": "PT1",
+        "protein_chain": "D",
+        "residue": "VAL484",
+        "protein_atom": "CG2",
+        "distance_A": 2.6334257156791026,
+        "overlap_A": 0.5665742843208976
+      },
+      {
+        "ligand_atom": "N8",
+        "ligand_region": "PT0",
+        "protein_chain": "A",
+        "residue": "HIS110",
+        "protein_atom": "O",
+        "distance_A": 2.7278969921901384,
+        "overlap_A": 0.422103007809862
+      },
+      {
+        "ligand_atom": "C28",
+        "ligand_region": "PT0",
+        "protein_chain": "D",
+        "residue": "GLU430",
+        "protein_atom": "OE2",
+        "distance_A": 2.8349119915792804,
+        "overlap_A": 0.4150880084207196
+      },
+      {
+        "ligand_atom": "O4",
+        "ligand_region": "PT0",
+        "protein_chain": "A",
+        "residue": "SER111",
+        "protein_atom": "OG",
+        "distance_A": 2.7040817295340753,
+        "overlap_A": 0.39591827046592476
+      },
+      {
+        "ligand_atom": "N10",
+        "ligand_region": "PT1",
+        "protein_chain": "D",
+        "residue": "CYS502",
+        "protein_atom": "N",
+        "distance_A": 2.972823741831993,
+        "overlap_A": 0.22717625816800702
+      },
+      {
+        "ligand_atom": "C34",
+        "ligand_region": "PT0",
+        "protein_chain": "A",
+        "residue": "PRO99",
+        "protein_atom": "O",
+        "distance_A": 3.049454705353074,
+        "overlap_A": 0.20054529464692594
+      },
+      {
+        "ligand_atom": "O4",
+        "ligand_region": "PT0",
+        "protein_chain": "A",
+        "residue": "HIS115",
+        "protein_atom": "CE1",
+        "distance_A": 3.066221616256727,
+        "overlap_A": 0.18377838374327293
+      },
+      {
+        "ligand_atom": "O1",
+        "ligand_region": "PT1",
+        "protein_chain": "D",
+        "residue": "ASP564",
+        "protein_atom": "N",
+        "distance_A": 2.979831203273099,
+        "overlap_A": 0.17016879672690122
+      },
+      {
+        "ligand_atom": "C28",
+        "ligand_region": "PT0",
+        "protein_chain": "D",
+        "residue": "GLU430",
+        "protein_atom": "CD",
+        "distance_A": 3.2729951115148355,
+        "overlap_A": 0.12700488848516445
+      }
+    ],
+    "combined_36_1_0001": [
+      {
+        "ligand_atom": "O4",
+        "ligand_region": "PT0",
+        "protein_chain": "A",
+        "residue": "HIS115",
+        "protein_atom": "ND1",
+        "distance_A": 2.4568837986359906,
+        "overlap_A": 0.6931162013640098
+      },
+      {
+        "ligand_atom": "F2",
+        "ligand_region": "PT1",
+        "protein_chain": "D",
+        "residue": "VAL484",
+        "protein_atom": "CG2",
+        "distance_A": 2.635935317871057,
+        "overlap_A": 0.5640646821289432
+      },
+      {
+        "ligand_atom": "N8",
+        "ligand_region": "PT0",
+        "protein_chain": "A",
+        "residue": "HIS110",
+        "protein_atom": "O",
+        "distance_A": 2.7278969921901384,
+        "overlap_A": 0.422103007809862
+      },
+      {
+        "ligand_atom": "O4",
+        "ligand_region": "PT0",
+        "protein_chain": "A",
+        "residue": "SER111",
+        "protein_atom": "OG",
+        "distance_A": 2.7040817295340753,
+        "overlap_A": 0.39591827046592476
+      },
+      {
+        "ligand_atom": "N10",
+        "ligand_region": "PT1",
+        "protein_chain": "D",
+        "residue": "CYS502",
+        "protein_atom": "N",
+        "distance_A": 2.9736309454940764,
+        "overlap_A": 0.22636905450592382
+      },
+      {
+        "ligand_atom": "C34",
+        "ligand_region": "PT0",
+        "protein_chain": "A",
+        "residue": "PRO99",
+        "protein_atom": "O",
+        "distance_A": 3.049454705353074,
+        "overlap_A": 0.20054529464692594
+      },
+      {
+        "ligand_atom": "O4",
+        "ligand_region": "PT0",
+        "protein_chain": "A",
+        "residue": "HIS115",
+        "protein_atom": "CE1",
+        "distance_A": 3.066221616256727,
+        "overlap_A": 0.18377838374327293
+      },
+      {
+        "ligand_atom": "O1",
+        "ligand_region": "PT1",
+        "protein_chain": "D",
+        "residue": "ASP564",
+        "protein_atom": "N",
+        "distance_A": 2.9805571626794913,
+        "overlap_A": 0.16944283732050902
+      },
+      {
+        "ligand_atom": "O6",
+        "ligand_region": "PT1",
+        "protein_chain": "D",
+        "residue": "CYS502",
+        "protein_atom": "O",
+        "distance_A": 2.9851368477843705,
+        "overlap_A": 0.1148631522156296
+      },
+      {
+        "ligand_atom": "N3",
+        "ligand_region": "PT1",
+        "protein_chain": "D",
+        "residue": "CYS502",
+        "protein_atom": "O",
+        "distance_A": 3.0439650129395384,
+        "overlap_A": 0.106034987060462
+      }
+    ],
+    "combined_36_2_0001": [
+      {
+        "ligand_atom": "O2",
+        "ligand_region": "outside_fixed_heads",
+        "protein_chain": "A",
+        "residue": "TYR112",
+        "protein_atom": "OH",
+        "distance_A": 2.355810051765634,
+        "overlap_A": 0.7441899482343661
+      },
+      {
+        "ligand_atom": "O4",
+        "ligand_region": "PT0",
+        "protein_chain": "A",
+        "residue": "HIS115",
+        "protein_atom": "ND1",
+        "distance_A": 2.4568837986359906,
+        "overlap_A": 0.6931162013640098
+      },
+      {
+        "ligand_atom": "F2",
+        "ligand_region": "PT1",
+        "protein_chain": "D",
+        "residue": "VAL484",
+        "protein_atom": "CG2",
+        "distance_A": 2.634183744540232,
+        "overlap_A": 0.5658162554597683
+      },
+      {
+        "ligand_atom": "N8",
+        "ligand_region": "PT0",
+        "protein_chain": "A",
+        "residue": "HIS110",
+        "protein_atom": "O",
+        "distance_A": 2.7278969921901384,
+        "overlap_A": 0.422103007809862
+      },
+      {
+        "ligand_atom": "O4",
+        "ligand_region": "PT0",
+        "protein_chain": "A",
+        "residue": "SER111",
+        "protein_atom": "OG",
+        "distance_A": 2.7040817295340753,
+        "overlap_A": 0.39591827046592476
+      },
+      {
+        "ligand_atom": "N10",
+        "ligand_region": "PT1",
+        "protein_chain": "D",
+        "residue": "CYS502",
+        "protein_atom": "N",
+        "distance_A": 2.973992098173767,
+        "overlap_A": 0.22600790182623332
+      },
+      {
+        "ligand_atom": "C34",
+        "ligand_region": "PT0",
+        "protein_chain": "A",
+        "residue": "PRO99",
+        "protein_atom": "O",
+        "distance_A": 3.049454705353074,
+        "overlap_A": 0.20054529464692594
+      },
+      {
+        "ligand_atom": "O4",
+        "ligand_region": "PT0",
+        "protein_chain": "A",
+        "residue": "HIS115",
+        "protein_atom": "CE1",
+        "distance_A": 3.066221616256727,
+        "overlap_A": 0.18377838374327293
+      },
+      {
+        "ligand_atom": "O1",
+        "ligand_region": "PT1",
+        "protein_chain": "D",
+        "residue": "ASP564",
+        "protein_atom": "N",
+        "distance_A": 2.979023162044899,
+        "overlap_A": 0.17097683795510132
+      },
+      {
+        "ligand_atom": "O2",
+        "ligand_region": "outside_fixed_heads",
+        "protein_chain": "A",
+        "residue": "TYR112",
+        "protein_atom": "CZ",
+        "distance_A": 3.1289349625711305,
+        "overlap_A": 0.12106503742886954
+      }
+    ],
+    "combined_38_1_0001": [
+      {
+        "ligand_atom": "O4",
+        "ligand_region": "PT0",
+        "protein_chain": "A",
+        "residue": "HIS115",
+        "protein_atom": "ND1",
+        "distance_A": 2.4568837986359906,
+        "overlap_A": 0.6931162013640098
+      },
+      {
+        "ligand_atom": "F2",
+        "ligand_region": "PT1",
+        "protein_chain": "D",
+        "residue": "VAL484",
+        "protein_atom": "CG2",
+        "distance_A": 2.634319266907487,
+        "overlap_A": 0.5656807330925133
+      },
+      {
+        "ligand_atom": "N8",
+        "ligand_region": "PT0",
+        "protein_chain": "A",
+        "residue": "HIS110",
+        "protein_atom": "O",
+        "distance_A": 2.7278969921901384,
+        "overlap_A": 0.422103007809862
+      },
+      {
+        "ligand_atom": "O4",
+        "ligand_region": "PT0",
+        "protein_chain": "A",
+        "residue": "SER111",
+        "protein_atom": "OG",
+        "distance_A": 2.7040817295340753,
+        "overlap_A": 0.39591827046592476
+      },
+      {
+        "ligand_atom": "N10",
+        "ligand_region": "PT1",
+        "protein_chain": "D",
+        "residue": "CYS502",
+        "protein_atom": "N",
+        "distance_A": 2.972210961557065,
+        "overlap_A": 0.22778903844293508
+      },
+      {
+        "ligand_atom": "C34",
+        "ligand_region": "PT0",
+        "protein_chain": "A",
+        "residue": "PRO99",
+        "protein_atom": "O",
+        "distance_A": 3.049454705353074,
+        "overlap_A": 0.20054529464692594
+      },
+      {
+        "ligand_atom": "O4",
+        "ligand_region": "PT0",
+        "protein_chain": "A",
+        "residue": "HIS115",
+        "protein_atom": "CE1",
+        "distance_A": 3.066221616256727,
+        "overlap_A": 0.18377838374327293
+      },
+      {
+        "ligand_atom": "O1",
+        "ligand_region": "PT1",
+        "protein_chain": "D",
+        "residue": "ASP564",
+        "protein_atom": "N",
+        "distance_A": 2.9799035219281844,
+        "overlap_A": 0.17009647807181594
+      },
+      {
+        "ligand_atom": "C24",
+        "ligand_region": "PT0",
+        "protein_chain": "A",
+        "residue": "TRP117",
+        "protein_atom": "CZ2",
+        "distance_A": 3.2704779467227687,
+        "overlap_A": 0.1295220532772312
+      },
+      {
+        "ligand_atom": "O2",
+        "ligand_region": "outside_fixed_heads",
+        "protein_chain": "A",
+        "residue": "HIS115",
+        "protein_atom": "CE1",
+        "distance_A": 3.1325652427363755,
+        "overlap_A": 0.11743475726362451
+      }
+    ],
+    "combined_38_2_0001": [
+      {
+        "ligand_atom": "O4",
+        "ligand_region": "PT0",
+        "protein_chain": "A",
+        "residue": "HIS115",
+        "protein_atom": "ND1",
+        "distance_A": 2.4568837986359906,
+        "overlap_A": 0.6931162013640098
+      },
+      {
+        "ligand_atom": "F2",
+        "ligand_region": "PT1",
+        "protein_chain": "D",
+        "residue": "VAL484",
+        "protein_atom": "CG2",
+        "distance_A": 2.6335147616825716,
+        "overlap_A": 0.5664852383174286
+      },
+      {
+        "ligand_atom": "N8",
+        "ligand_region": "PT0",
+        "protein_chain": "A",
+        "residue": "HIS110",
+        "protein_atom": "O",
+        "distance_A": 2.7278969921901384,
+        "overlap_A": 0.422103007809862
+      },
+      {
+        "ligand_atom": "O4",
+        "ligand_region": "PT0",
+        "protein_chain": "A",
+        "residue": "SER111",
+        "protein_atom": "OG",
+        "distance_A": 2.7040817295340753,
+        "overlap_A": 0.39591827046592476
+      },
+      {
+        "ligand_atom": "N10",
+        "ligand_region": "PT1",
+        "protein_chain": "D",
+        "residue": "CYS502",
+        "protein_atom": "N",
+        "distance_A": 2.9717740492843663,
+        "overlap_A": 0.2282259507156339
+      },
+      {
+        "ligand_atom": "C34",
+        "ligand_region": "PT0",
+        "protein_chain": "A",
+        "residue": "PRO99",
+        "protein_atom": "O",
+        "distance_A": 3.049454705353074,
+        "overlap_A": 0.20054529464692594
+      },
+      {
+        "ligand_atom": "C17",
+        "ligand_region": "PT1",
+        "protein_chain": "A",
+        "residue": "TYR112",
+        "protein_atom": "OH",
+        "distance_A": 3.0610465530599114,
+        "overlap_A": 0.18895344694008864
+      },
+      {
+        "ligand_atom": "O4",
+        "ligand_region": "PT0",
+        "protein_chain": "A",
+        "residue": "HIS115",
+        "protein_atom": "CE1",
+        "distance_A": 3.066221616256727,
+        "overlap_A": 0.18377838374327293
+      },
+      {
+        "ligand_atom": "O1",
+        "ligand_region": "PT1",
+        "protein_chain": "D",
+        "residue": "ASP564",
+        "protein_atom": "N",
+        "distance_A": 2.979526304633003,
+        "overlap_A": 0.1704736953669972
+      },
+      {
+        "ligand_atom": "O6",
+        "ligand_region": "PT1",
+        "protein_chain": "D",
+        "residue": "CYS502",
+        "protein_atom": "O",
+        "distance_A": 2.9840197720524557,
+        "overlap_A": 0.11598022794754437
+      }
+    ],
+    "combined_3_1_0001": [
+      {
+        "ligand_atom": "O4",
+        "ligand_region": "PT0",
+        "protein_chain": "A",
+        "residue": "HIS115",
+        "protein_atom": "ND1",
+        "distance_A": 2.4568837986359906,
+        "overlap_A": 0.6931162013640098
+      },
+      {
+        "ligand_atom": "F2",
+        "ligand_region": "PT1",
+        "protein_chain": "D",
+        "residue": "VAL484",
+        "protein_atom": "CG2",
+        "distance_A": 2.635079695189504,
+        "overlap_A": 0.5649203048104963
+      },
+      {
+        "ligand_atom": "N8",
+        "ligand_region": "PT0",
+        "protein_chain": "A",
+        "residue": "HIS110",
+        "protein_atom": "O",
+        "distance_A": 2.7278969921901384,
+        "overlap_A": 0.422103007809862
+      },
+      {
+        "ligand_atom": "O4",
+        "ligand_region": "PT0",
+        "protein_chain": "A",
+        "residue": "SER111",
+        "protein_atom": "OG",
+        "distance_A": 2.7040817295340753,
+        "overlap_A": 0.39591827046592476
+      },
+      {
+        "ligand_atom": "N10",
+        "ligand_region": "PT1",
+        "protein_chain": "D",
+        "residue": "CYS502",
+        "protein_atom": "N",
+        "distance_A": 2.9726066002752543,
+        "overlap_A": 0.22739339972474593
+      },
+      {
+        "ligand_atom": "C34",
+        "ligand_region": "PT0",
+        "protein_chain": "A",
+        "residue": "PRO99",
+        "protein_atom": "O",
+        "distance_A": 3.049454705353074,
+        "overlap_A": 0.20054529464692594
+      },
+      {
+        "ligand_atom": "O4",
+        "ligand_region": "PT0",
+        "protein_chain": "A",
+        "residue": "HIS115",
+        "protein_atom": "CE1",
+        "distance_A": 3.066221616256727,
+        "overlap_A": 0.18377838374327293
+      },
+      {
+        "ligand_atom": "O1",
+        "ligand_region": "PT1",
+        "protein_chain": "D",
+        "residue": "ASP564",
+        "protein_atom": "N",
+        "distance_A": 2.9791278925215696,
+        "overlap_A": 0.17087210747843073
+      },
+      {
+        "ligand_atom": "O6",
+        "ligand_region": "PT1",
+        "protein_chain": "D",
+        "residue": "CYS502",
+        "protein_atom": "O",
+        "distance_A": 2.9843980967692643,
+        "overlap_A": 0.11560190323073583
+      },
+      {
+        "ligand_atom": "N3",
+        "ligand_region": "PT1",
+        "protein_chain": "D",
+        "residue": "CYS502",
+        "protein_atom": "O",
+        "distance_A": 3.0445467642984214,
+        "overlap_A": 0.10545323570157894
+      }
+    ],
+    "combined_3_2_0001": [
+      {
+        "ligand_atom": "O4",
+        "ligand_region": "PT0",
+        "protein_chain": "A",
+        "residue": "HIS115",
+        "protein_atom": "ND1",
+        "distance_A": 2.4568837986359906,
+        "overlap_A": 0.6931162013640098
+      },
+      {
+        "ligand_atom": "F2",
+        "ligand_region": "PT1",
+        "protein_chain": "D",
+        "residue": "VAL484",
+        "protein_atom": "CG2",
+        "distance_A": 2.634716872834724,
+        "overlap_A": 0.5652831271652761
+      },
+      {
+        "ligand_atom": "F3",
+        "ligand_region": "PT1",
+        "protein_chain": "D",
+        "residue": "MET499",
+        "protein_atom": "SD",
+        "distance_A": 2.8704997822678937,
+        "overlap_A": 0.4295002177321061
+      },
+      {
+        "ligand_atom": "N8",
+        "ligand_region": "PT0",
+        "protein_chain": "A",
+        "residue": "HIS110",
+        "protein_atom": "O",
+        "distance_A": 2.7278969921901384,
+        "overlap_A": 0.422103007809862
+      },
+      {
+        "ligand_atom": "O4",
+        "ligand_region": "PT0",
+        "protein_chain": "A",
+        "residue": "SER111",
+        "protein_atom": "OG",
+        "distance_A": 2.7040817295340753,
+        "overlap_A": 0.39591827046592476
+      },
+      {
+        "ligand_atom": "N10",
+        "ligand_region": "PT1",
+        "protein_chain": "D",
+        "residue": "CYS502",
+        "protein_atom": "N",
+        "distance_A": 2.971690764531196,
+        "overlap_A": 0.22830923546880433
+      },
+      {
+        "ligand_atom": "C34",
+        "ligand_region": "PT0",
+        "protein_chain": "A",
+        "residue": "PRO99",
+        "protein_atom": "O",
+        "distance_A": 3.049454705353074,
+        "overlap_A": 0.20054529464692594
+      },
+      {
+        "ligand_atom": "O4",
+        "ligand_region": "PT0",
+        "protein_chain": "A",
+        "residue": "HIS115",
+        "protein_atom": "CE1",
+        "distance_A": 3.066221616256727,
+        "overlap_A": 0.18377838374327293
+      },
+      {
+        "ligand_atom": "O1",
+        "ligand_region": "PT1",
+        "protein_chain": "D",
+        "residue": "ASP564",
+        "protein_atom": "N",
+        "distance_A": 2.9799162739916056,
+        "overlap_A": 0.17008372600839472
+      },
+      {
+        "ligand_atom": "F2",
+        "ligand_region": "PT1",
+        "protein_chain": "D",
+        "residue": "MET499",
+        "protein_atom": "CE",
+        "distance_A": 3.0698591172886034,
+        "overlap_A": 0.1301408827113968
+      }
+    ],
+    "combined_40_1_0001": [
+      {
+        "ligand_atom": "O4",
+        "ligand_region": "PT0",
+        "protein_chain": "A",
+        "residue": "HIS115",
+        "protein_atom": "ND1",
+        "distance_A": 2.4568837986359906,
+        "overlap_A": 0.6931162013640098
+      },
+      {
+        "ligand_atom": "F2",
+        "ligand_region": "PT1",
+        "protein_chain": "D",
+        "residue": "VAL484",
+        "protein_atom": "CG2",
+        "distance_A": 2.6352011308437153,
+        "overlap_A": 0.5647988691562849
+      },
+      {
+        "ligand_atom": "N8",
+        "ligand_region": "PT0",
+        "protein_chain": "A",
+        "residue": "HIS110",
+        "protein_atom": "O",
+        "distance_A": 2.7278969921901384,
+        "overlap_A": 0.422103007809862
+      },
+      {
+        "ligand_atom": "O4",
+        "ligand_region": "PT0",
+        "protein_chain": "A",
+        "residue": "SER111",
+        "protein_atom": "OG",
+        "distance_A": 2.7040817295340753,
+        "overlap_A": 0.39591827046592476
+      },
+      {
+        "ligand_atom": "N10",
+        "ligand_region": "PT1",
+        "protein_chain": "D",
+        "residue": "CYS502",
+        "protein_atom": "N",
+        "distance_A": 2.9723763220696036,
+        "overlap_A": 0.22762367793039662
+      },
+      {
+        "ligand_atom": "C34",
+        "ligand_region": "PT0",
+        "protein_chain": "A",
+        "residue": "PRO99",
+        "protein_atom": "O",
+        "distance_A": 3.049454705353074,
+        "overlap_A": 0.20054529464692594
+      },
+      {
+        "ligand_atom": "O4",
+        "ligand_region": "PT0",
+        "protein_chain": "A",
+        "residue": "HIS115",
+        "protein_atom": "CE1",
+        "distance_A": 3.066221616256727,
+        "overlap_A": 0.18377838374327293
+      },
+      {
+        "ligand_atom": "O1",
+        "ligand_region": "PT1",
+        "protein_chain": "D",
+        "residue": "ASP564",
+        "protein_atom": "N",
+        "distance_A": 2.9790805628582793,
+        "overlap_A": 0.1709194371417211
+      },
+      {
+        "ligand_atom": "C28",
+        "ligand_region": "PT0",
+        "protein_chain": "D",
+        "residue": "GLN512",
+        "protein_atom": "OE1",
+        "distance_A": 3.127914800629968,
+        "overlap_A": 0.12208519937003182
+      },
+      {
+        "ligand_atom": "O6",
+        "ligand_region": "PT1",
+        "protein_chain": "D",
+        "residue": "CYS502",
+        "protein_atom": "O",
+        "distance_A": 2.9845537354854255,
+        "overlap_A": 0.11544626451457463
+      }
+    ],
+    "combined_40_2_0001": [
+      {
+        "ligand_atom": "O4",
+        "ligand_region": "PT0",
+        "protein_chain": "A",
+        "residue": "HIS115",
+        "protein_atom": "ND1",
+        "distance_A": 2.4568837986359906,
+        "overlap_A": 0.6931162013640098
+      },
+      {
+        "ligand_atom": "F2",
+        "ligand_region": "PT1",
+        "protein_chain": "D",
+        "residue": "VAL484",
+        "protein_atom": "CG2",
+        "distance_A": 2.636322248891435,
+        "overlap_A": 0.5636777511085653
+      },
+      {
+        "ligand_atom": "N8",
+        "ligand_region": "PT0",
+        "protein_chain": "A",
+        "residue": "HIS110",
+        "protein_atom": "O",
+        "distance_A": 2.7278969921901384,
+        "overlap_A": 0.422103007809862
+      },
+      {
+        "ligand_atom": "O4",
+        "ligand_region": "PT0",
+        "protein_chain": "A",
+        "residue": "SER111",
+        "protein_atom": "OG",
+        "distance_A": 2.7040817295340753,
+        "overlap_A": 0.39591827046592476
+      },
+      {
+        "ligand_atom": "N10",
+        "ligand_region": "PT1",
+        "protein_chain": "D",
+        "residue": "CYS502",
+        "protein_atom": "N",
+        "distance_A": 2.9725357861596895,
+        "overlap_A": 0.22746421384031068
+      },
+      {
+        "ligand_atom": "C34",
+        "ligand_region": "PT0",
+        "protein_chain": "A",
+        "residue": "PRO99",
+        "protein_atom": "O",
+        "distance_A": 3.049454705353074,
+        "overlap_A": 0.20054529464692594
+      },
+      {
+        "ligand_atom": "O4",
+        "ligand_region": "PT0",
+        "protein_chain": "A",
+        "residue": "HIS115",
+        "protein_atom": "CE1",
+        "distance_A": 3.066221616256727,
+        "overlap_A": 0.18377838374327293
+      },
+      {
+        "ligand_atom": "O1",
+        "ligand_region": "PT1",
+        "protein_chain": "D",
+        "residue": "ASP564",
+        "protein_atom": "N",
+        "distance_A": 2.980050502927757,
+        "overlap_A": 0.16994949707224327
+      },
+      {
+        "ligand_atom": "C24",
+        "ligand_region": "PT0",
+        "protein_chain": "A",
+        "residue": "TRP117",
+        "protein_atom": "CZ2",
+        "distance_A": 3.2704779467227687,
+        "overlap_A": 0.1295220532772312
+      },
+      {
+        "ligand_atom": "O6",
+        "ligand_region": "PT1",
+        "protein_chain": "D",
+        "residue": "CYS502",
+        "protein_atom": "O",
+        "distance_A": 2.985292447985624,
+        "overlap_A": 0.1147075520143761
+      }
+    ],
+    "combined_41_2_0001": [
+      {
+        "ligand_atom": "O4",
+        "ligand_region": "PT0",
+        "protein_chain": "A",
+        "residue": "HIS115",
+        "protein_atom": "ND1",
+        "distance_A": 2.4568837986359906,
+        "overlap_A": 0.6931162013640098
+      },
+      {
+        "ligand_atom": "F2",
+        "ligand_region": "PT1",
+        "protein_chain": "D",
+        "residue": "VAL484",
+        "protein_atom": "CG2",
+        "distance_A": 2.635731776945447,
+        "overlap_A": 0.5642682230545533
+      },
+      {
+        "ligand_atom": "N8",
+        "ligand_region": "PT0",
+        "protein_chain": "A",
+        "residue": "HIS110",
+        "protein_atom": "O",
+        "distance_A": 2.7278969921901384,
+        "overlap_A": 0.422103007809862
+      },
+      {
+        "ligand_atom": "O4",
+        "ligand_region": "PT0",
+        "protein_chain": "A",
+        "residue": "SER111",
+        "protein_atom": "OG",
+        "distance_A": 2.7040817295340753,
+        "overlap_A": 0.39591827046592476
+      },
+      {
+        "ligand_atom": "N10",
+        "ligand_region": "PT1",
+        "protein_chain": "D",
+        "residue": "CYS502",
+        "protein_atom": "N",
+        "distance_A": 2.9735154279068414,
+        "overlap_A": 0.22648457209315875
+      },
+      {
+        "ligand_atom": "C34",
+        "ligand_region": "PT0",
+        "protein_chain": "A",
+        "residue": "PRO99",
+        "protein_atom": "O",
+        "distance_A": 3.049454705353074,
+        "overlap_A": 0.20054529464692594
+      },
+      {
+        "ligand_atom": "O4",
+        "ligand_region": "PT0",
+        "protein_chain": "A",
+        "residue": "HIS115",
+        "protein_atom": "CE1",
+        "distance_A": 3.066221616256727,
+        "overlap_A": 0.18377838374327293
+      },
+      {
+        "ligand_atom": "O1",
+        "ligand_region": "PT1",
+        "protein_chain": "D",
+        "residue": "ASP564",
+        "protein_atom": "N",
+        "distance_A": 2.978766355389423,
+        "overlap_A": 0.17123364461057733
+      },
+      {
+        "ligand_atom": "O2",
+        "ligand_region": "outside_fixed_heads",
+        "protein_chain": "A",
+        "residue": "ARG69",
+        "protein_atom": "CD",
+        "distance_A": 3.1025018936335877,
+        "overlap_A": 0.14749810636641225
+      },
+      {
+        "ligand_atom": "O6",
+        "ligand_region": "PT1",
+        "protein_chain": "D",
+        "residue": "CYS502",
+        "protein_atom": "O",
+        "distance_A": 2.9858308726383,
+        "overlap_A": 0.11416912736170026
+      }
+    ],
+    "combined_42_2_0001": [
+      {
+        "ligand_atom": "O4",
+        "ligand_region": "PT0",
+        "protein_chain": "A",
+        "residue": "HIS115",
+        "protein_atom": "ND1",
+        "distance_A": 2.4568837986359906,
+        "overlap_A": 0.6931162013640098
+      },
+      {
+        "ligand_atom": "F2",
+        "ligand_region": "PT1",
+        "protein_chain": "D",
+        "residue": "VAL484",
+        "protein_atom": "CG2",
+        "distance_A": 2.6341474901758994,
+        "overlap_A": 0.5658525098241007
+      },
+      {
+        "ligand_atom": "N8",
+        "ligand_region": "PT0",
+        "protein_chain": "A",
+        "residue": "HIS110",
+        "protein_atom": "O",
+        "distance_A": 2.7278969921901384,
+        "overlap_A": 0.422103007809862
+      },
+      {
+        "ligand_atom": "O4",
+        "ligand_region": "PT0",
+        "protein_chain": "A",
+        "residue": "SER111",
+        "protein_atom": "OG",
+        "distance_A": 2.7040817295340753,
+        "overlap_A": 0.39591827046592476
+      },
+      {
+        "ligand_atom": "N10",
+        "ligand_region": "PT1",
+        "protein_chain": "D",
+        "residue": "CYS502",
+        "protein_atom": "N",
+        "distance_A": 2.9730285905117024,
+        "overlap_A": 0.22697140948829775
+      },
+      {
+        "ligand_atom": "C34",
+        "ligand_region": "PT0",
+        "protein_chain": "A",
+        "residue": "PRO99",
+        "protein_atom": "O",
+        "distance_A": 3.049454705353074,
+        "overlap_A": 0.20054529464692594
+      },
+      {
+        "ligand_atom": "O4",
+        "ligand_region": "PT0",
+        "protein_chain": "A",
+        "residue": "HIS115",
+        "protein_atom": "CE1",
+        "distance_A": 3.066221616256727,
+        "overlap_A": 0.18377838374327293
+      },
+      {
+        "ligand_atom": "O1",
+        "ligand_region": "PT1",
+        "protein_chain": "D",
+        "residue": "ASP564",
+        "protein_atom": "N",
+        "distance_A": 2.9792687022153603,
+        "overlap_A": 0.17073129778464002
+      },
+      {
+        "ligand_atom": "O6",
+        "ligand_region": "PT1",
+        "protein_chain": "D",
+        "residue": "CYS502",
+        "protein_atom": "O",
+        "distance_A": 2.9861624202310257,
+        "overlap_A": 0.11383757976897435
+      },
+      {
+        "ligand_atom": "N3",
+        "ligand_region": "PT1",
+        "protein_chain": "D",
+        "residue": "CYS502",
+        "protein_atom": "O",
+        "distance_A": 3.044259023145042,
+        "overlap_A": 0.1057409768549582
+      }
+    ],
+    "combined_43_1_0001": [
+      {
+        "ligand_atom": "O4",
+        "ligand_region": "PT0",
+        "protein_chain": "A",
+        "residue": "HIS115",
+        "protein_atom": "ND1",
+        "distance_A": 2.4568837986359906,
+        "overlap_A": 0.6931162013640098
+      },
+      {
+        "ligand_atom": "F2",
+        "ligand_region": "PT1",
+        "protein_chain": "D",
+        "residue": "VAL484",
+        "protein_atom": "CG2",
+        "distance_A": 2.633900719465331,
+        "overlap_A": 0.5660992805346692
+      },
+      {
+        "ligand_atom": "N8",
+        "ligand_region": "PT0",
+        "protein_chain": "A",
+        "residue": "HIS110",
+        "protein_atom": "O",
+        "distance_A": 2.7278969921901384,
+        "overlap_A": 0.422103007809862
+      },
+      {
+        "ligand_atom": "O4",
+        "ligand_region": "PT0",
+        "protein_chain": "A",
+        "residue": "SER111",
+        "protein_atom": "OG",
+        "distance_A": 2.7040817295340753,
+        "overlap_A": 0.39591827046592476
+      },
+      {
+        "ligand_atom": "N10",
+        "ligand_region": "PT1",
+        "protein_chain": "D",
+        "residue": "CYS502",
+        "protein_atom": "N",
+        "distance_A": 2.9734252975314504,
+        "overlap_A": 0.22657470246854983
+      },
+      {
+        "ligand_atom": "C34",
+        "ligand_region": "PT0",
+        "protein_chain": "A",
+        "residue": "PRO99",
+        "protein_atom": "O",
+        "distance_A": 3.049454705353074,
+        "overlap_A": 0.20054529464692594
+      },
+      {
+        "ligand_atom": "O4",
+        "ligand_region": "PT0",
+        "protein_chain": "A",
+        "residue": "HIS115",
+        "protein_atom": "CE1",
+        "distance_A": 3.066221616256727,
+        "overlap_A": 0.18377838374327293
+      },
+      {
+        "ligand_atom": "O1",
+        "ligand_region": "PT1",
+        "protein_chain": "D",
+        "residue": "ASP564",
+        "protein_atom": "N",
+        "distance_A": 2.979818954231953,
+        "overlap_A": 0.1701810457680475
+      },
+      {
+        "ligand_atom": "O6",
+        "ligand_region": "PT1",
+        "protein_chain": "D",
+        "residue": "CYS502",
+        "protein_atom": "O",
+        "distance_A": 2.984292545981375,
+        "overlap_A": 0.11570745401862492
+      },
+      {
+        "ligand_atom": "C40",
+        "ligand_region": "PT0",
+        "protein_chain": "D",
+        "residue": "ARG426",
+        "protein_atom": "NH1",
+        "distance_A": 3.1944265526068985,
+        "overlap_A": 0.10557344739310137
+      }
+    ],
+    "combined_44_1_0001": [
+      {
+        "ligand_atom": "O4",
+        "ligand_region": "PT0",
+        "protein_chain": "A",
+        "residue": "HIS115",
+        "protein_atom": "ND1",
+        "distance_A": 2.4568837986359906,
+        "overlap_A": 0.6931162013640098
+      },
+      {
+        "ligand_atom": "F2",
+        "ligand_region": "PT1",
+        "protein_chain": "D",
+        "residue": "VAL484",
+        "protein_atom": "CG2",
+        "distance_A": 2.6343631108865786,
+        "overlap_A": 0.5656368891134216
+      },
+      {
+        "ligand_atom": "N8",
+        "ligand_region": "PT0",
+        "protein_chain": "A",
+        "residue": "HIS110",
+        "protein_atom": "O",
+        "distance_A": 2.7278969921901384,
+        "overlap_A": 0.422103007809862
+      },
+      {
+        "ligand_atom": "O4",
+        "ligand_region": "PT0",
+        "protein_chain": "A",
+        "residue": "SER111",
+        "protein_atom": "OG",
+        "distance_A": 2.7040817295340753,
+        "overlap_A": 0.39591827046592476
+      },
+      {
+        "ligand_atom": "N10",
+        "ligand_region": "PT1",
+        "protein_chain": "D",
+        "residue": "CYS502",
+        "protein_atom": "N",
+        "distance_A": 2.9731293278295152,
+        "overlap_A": 0.22687067217048495
+      },
+      {
+        "ligand_atom": "C34",
+        "ligand_region": "PT0",
+        "protein_chain": "A",
+        "residue": "PRO99",
+        "protein_atom": "O",
+        "distance_A": 3.049454705353074,
+        "overlap_A": 0.20054529464692594
+      },
+      {
+        "ligand_atom": "O4",
+        "ligand_region": "PT0",
+        "protein_chain": "A",
+        "residue": "HIS115",
+        "protein_atom": "CE1",
+        "distance_A": 3.066221616256727,
+        "overlap_A": 0.18377838374327293
+      },
+      {
+        "ligand_atom": "O1",
+        "ligand_region": "PT1",
+        "protein_chain": "D",
+        "residue": "ASP564",
+        "protein_atom": "N",
+        "distance_A": 2.9802572036654826,
+        "overlap_A": 0.16974279633451772
+      },
+      {
+        "ligand_atom": "O6",
+        "ligand_region": "PT1",
+        "protein_chain": "D",
+        "residue": "CYS502",
+        "protein_atom": "O",
+        "distance_A": 2.985684008732336,
+        "overlap_A": 0.1143159912676639
+      },
+      {
+        "ligand_atom": "N3",
+        "ligand_region": "PT1",
+        "protein_chain": "D",
+        "residue": "CYS502",
+        "protein_atom": "O",
+        "distance_A": 3.045075204325832,
+        "overlap_A": 0.10492479567416835
+      }
+    ],
+    "combined_44_2_0001": [
+      {
+        "ligand_atom": "O4",
+        "ligand_region": "PT0",
+        "protein_chain": "A",
+        "residue": "HIS115",
+        "protein_atom": "ND1",
+        "distance_A": 2.4568837986359906,
+        "overlap_A": 0.6931162013640098
+      },
+      {
+        "ligand_atom": "O2",
+        "ligand_region": "outside_fixed_heads",
+        "protein_chain": "A",
+        "residue": "TYR112",
+        "protein_atom": "CE1",
+        "distance_A": 2.6009569392821525,
+        "overlap_A": 0.6490430607178475
+      },
+      {
+        "ligand_atom": "F2",
+        "ligand_region": "PT1",
+        "protein_chain": "D",
+        "residue": "VAL484",
+        "protein_atom": "CG2",
+        "distance_A": 2.6349172662533435,
+        "overlap_A": 0.5650827337466566
+      },
+      {
+        "ligand_atom": "O2",
+        "ligand_region": "outside_fixed_heads",
+        "protein_chain": "A",
+        "residue": "TYR112",
+        "protein_atom": "CD1",
+        "distance_A": 2.810159781934114,
+        "overlap_A": 0.439840218065886
+      },
+      {
+        "ligand_atom": "N8",
+        "ligand_region": "PT0",
+        "protein_chain": "A",
+        "residue": "HIS110",
+        "protein_atom": "O",
+        "distance_A": 2.7278969921901384,
+        "overlap_A": 0.422103007809862
+      },
+      {
+        "ligand_atom": "O4",
+        "ligand_region": "PT0",
+        "protein_chain": "A",
+        "residue": "SER111",
+        "protein_atom": "OG",
+        "distance_A": 2.7040817295340753,
+        "overlap_A": 0.39591827046592476
+      },
+      {
+        "ligand_atom": "N10",
+        "ligand_region": "PT1",
+        "protein_chain": "D",
+        "residue": "CYS502",
+        "protein_atom": "N",
+        "distance_A": 2.9725998721657745,
+        "overlap_A": 0.2274001278342257
+      },
+      {
+        "ligand_atom": "C34",
+        "ligand_region": "PT0",
+        "protein_chain": "A",
+        "residue": "PRO99",
+        "protein_atom": "O",
+        "distance_A": 3.049454705353074,
+        "overlap_A": 0.20054529464692594
+      },
+      {
+        "ligand_atom": "O4",
+        "ligand_region": "PT0",
+        "protein_chain": "A",
+        "residue": "HIS115",
+        "protein_atom": "CE1",
+        "distance_A": 3.066221616256727,
+        "overlap_A": 0.18377838374327293
+      },
+      {
+        "ligand_atom": "O1",
+        "ligand_region": "PT1",
+        "protein_chain": "D",
+        "residue": "ASP564",
+        "protein_atom": "N",
+        "distance_A": 2.979693440607607,
+        "overlap_A": 0.17030655939239336
+      }
+    ],
+    "combined_45_1_0001": [
+      {
+        "ligand_atom": "O4",
+        "ligand_region": "PT0",
+        "protein_chain": "A",
+        "residue": "HIS115",
+        "protein_atom": "ND1",
+        "distance_A": 2.4568837986359906,
+        "overlap_A": 0.6931162013640098
+      },
+      {
+        "ligand_atom": "F2",
+        "ligand_region": "PT1",
+        "protein_chain": "D",
+        "residue": "VAL484",
+        "protein_atom": "CG2",
+        "distance_A": 2.6352891681938773,
+        "overlap_A": 0.5647108318061229
+      },
+      {
+        "ligand_atom": "N8",
+        "ligand_region": "PT0",
+        "protein_chain": "A",
+        "residue": "HIS110",
+        "protein_atom": "O",
+        "distance_A": 2.7278969921901384,
+        "overlap_A": 0.422103007809862
+      },
+      {
+        "ligand_atom": "O4",
+        "ligand_region": "PT0",
+        "protein_chain": "A",
+        "residue": "SER111",
+        "protein_atom": "OG",
+        "distance_A": 2.7040817295340753,
+        "overlap_A": 0.39591827046592476
+      },
+      {
+        "ligand_atom": "C17",
+        "ligand_region": "PT1",
+        "protein_chain": "A",
+        "residue": "TYR112",
+        "protein_atom": "OH",
+        "distance_A": 2.9598015136153952,
+        "overlap_A": 0.29019848638460477
+      },
+      {
+        "ligand_atom": "N10",
+        "ligand_region": "PT1",
+        "protein_chain": "D",
+        "residue": "CYS502",
+        "protein_atom": "N",
+        "distance_A": 2.973106960739885,
+        "overlap_A": 0.22689303926011517
+      },
+      {
+        "ligand_atom": "C34",
+        "ligand_region": "PT0",
+        "protein_chain": "A",
+        "residue": "PRO99",
+        "protein_atom": "O",
+        "distance_A": 3.049454705353074,
+        "overlap_A": 0.20054529464692594
+      },
+      {
+        "ligand_atom": "N5",
+        "ligand_region": "PT1",
+        "protein_chain": "A",
+        "residue": "TYR112",
+        "protein_atom": "OH",
+        "distance_A": 2.9570184307846277,
+        "overlap_A": 0.19298156921537268
+      },
+      {
+        "ligand_atom": "O4",
+        "ligand_region": "PT0",
+        "protein_chain": "A",
+        "residue": "HIS115",
+        "protein_atom": "CE1",
+        "distance_A": 3.066221616256727,
+        "overlap_A": 0.18377838374327293
+      },
+      {
+        "ligand_atom": "O1",
+        "ligand_region": "PT1",
+        "protein_chain": "D",
+        "residue": "ASP564",
+        "protein_atom": "N",
+        "distance_A": 2.9796036649192166,
+        "overlap_A": 0.17039633508078378
+      }
+    ],
+    "combined_45_2_0001": [
+      {
+        "ligand_atom": "O4",
+        "ligand_region": "PT0",
+        "protein_chain": "A",
+        "residue": "HIS115",
+        "protein_atom": "ND1",
+        "distance_A": 2.4568837986359906,
+        "overlap_A": 0.6931162013640098
+      },
+      {
+        "ligand_atom": "F2",
+        "ligand_region": "PT1",
+        "protein_chain": "D",
+        "residue": "VAL484",
+        "protein_atom": "CG2",
+        "distance_A": 2.6365519149070478,
+        "overlap_A": 0.5634480850929524
+      },
+      {
+        "ligand_atom": "N8",
+        "ligand_region": "PT0",
+        "protein_chain": "A",
+        "residue": "HIS110",
+        "protein_atom": "O",
+        "distance_A": 2.7278969921901384,
+        "overlap_A": 0.422103007809862
+      },
+      {
+        "ligand_atom": "O4",
+        "ligand_region": "PT0",
+        "protein_chain": "A",
+        "residue": "SER111",
+        "protein_atom": "OG",
+        "distance_A": 2.7040817295340753,
+        "overlap_A": 0.39591827046592476
+      },
+      {
+        "ligand_atom": "C17",
+        "ligand_region": "PT1",
+        "protein_chain": "A",
+        "residue": "TYR112",
+        "protein_atom": "OH",
+        "distance_A": 3.021428304626802,
+        "overlap_A": 0.2285716953731982
+      },
+      {
+        "ligand_atom": "N10",
+        "ligand_region": "PT1",
+        "protein_chain": "D",
+        "residue": "CYS502",
+        "protein_atom": "N",
+        "distance_A": 2.9729100221836524,
+        "overlap_A": 0.22708997781634777
+      },
+      {
+        "ligand_atom": "C34",
+        "ligand_region": "PT0",
+        "protein_chain": "A",
+        "residue": "PRO99",
+        "protein_atom": "O",
+        "distance_A": 3.049454705353074,
+        "overlap_A": 0.20054529464692594
+      },
+      {
+        "ligand_atom": "O4",
+        "ligand_region": "PT0",
+        "protein_chain": "A",
+        "residue": "HIS115",
+        "protein_atom": "CE1",
+        "distance_A": 3.066221616256727,
+        "overlap_A": 0.18377838374327293
+      },
+      {
+        "ligand_atom": "O1",
+        "ligand_region": "PT1",
+        "protein_chain": "D",
+        "residue": "ASP564",
+        "protein_atom": "N",
+        "distance_A": 2.97961625045911,
+        "overlap_A": 0.17038374954089042
+      },
+      {
+        "ligand_atom": "N5",
+        "ligand_region": "PT1",
+        "protein_chain": "A",
+        "residue": "TYR112",
+        "protein_atom": "OH",
+        "distance_A": 3.0121386090284714,
+        "overlap_A": 0.13786139097152894
+      }
+    ],
+    "combined_46_1_0001": [
+      {
+        "ligand_atom": "C18",
+        "ligand_region": "outside_fixed_heads",
+        "protein_chain": "A",
+        "residue": "TYR112",
+        "protein_atom": "OH",
+        "distance_A": 2.0651418837455204,
+        "overlap_A": 1.1848581162544796
+      },
+      {
+        "ligand_atom": "C18",
+        "ligand_region": "outside_fixed_heads",
+        "protein_chain": "A",
+        "residue": "TYR112",
+        "protein_atom": "CZ",
+        "distance_A": 2.5045925816387795,
+        "overlap_A": 0.8954074183612204
+      },
+      {
+        "ligand_atom": "O4",
+        "ligand_region": "PT0",
+        "protein_chain": "A",
+        "residue": "HIS115",
+        "protein_atom": "ND1",
+        "distance_A": 2.4568837986359906,
+        "overlap_A": 0.6931162013640098
+      },
+      {
+        "ligand_atom": "F2",
+        "ligand_region": "PT1",
+        "protein_chain": "D",
+        "residue": "VAL484",
+        "protein_atom": "CG2",
+        "distance_A": 2.6357082539613526,
+        "overlap_A": 0.5642917460386476
+      },
+      {
+        "ligand_atom": "C18",
+        "ligand_region": "outside_fixed_heads",
+        "protein_chain": "A",
+        "residue": "TYR112",
+        "protein_atom": "CE1",
+        "distance_A": 2.9336250612510124,
+        "overlap_A": 0.4663749387489875
+      },
+      {
+        "ligand_atom": "N8",
+        "ligand_region": "PT0",
+        "protein_chain": "A",
+        "residue": "HIS110",
+        "protein_atom": "O",
+        "distance_A": 2.7278969921901384,
+        "overlap_A": 0.422103007809862
+      },
+      {
+        "ligand_atom": "O4",
+        "ligand_region": "PT0",
+        "protein_chain": "A",
+        "residue": "SER111",
+        "protein_atom": "OG",
+        "distance_A": 2.7040817295340753,
+        "overlap_A": 0.39591827046592476
+      },
+      {
+        "ligand_atom": "C19",
+        "ligand_region": "outside_fixed_heads",
+        "protein_chain": "A",
+        "residue": "TYR112",
+        "protein_atom": "CE1",
+        "distance_A": 3.0157118562621306,
+        "overlap_A": 0.38428814373786935
+      },
+      {
+        "ligand_atom": "N10",
+        "ligand_region": "PT1",
+        "protein_chain": "D",
+        "residue": "CYS502",
+        "protein_atom": "N",
+        "distance_A": 2.9728281147755578,
+        "overlap_A": 0.22717188522444243
+      },
+      {
+        "ligand_atom": "C34",
+        "ligand_region": "PT0",
+        "protein_chain": "A",
+        "residue": "PRO99",
+        "protein_atom": "O",
+        "distance_A": 3.049454705353074,
+        "overlap_A": 0.20054529464692594
+      }
+    ],
+    "combined_47_2_0001": [
+      {
+        "ligand_atom": "O4",
+        "ligand_region": "PT0",
+        "protein_chain": "A",
+        "residue": "HIS115",
+        "protein_atom": "ND1",
+        "distance_A": 2.4568837986359906,
+        "overlap_A": 0.6931162013640098
+      },
+      {
+        "ligand_atom": "F2",
+        "ligand_region": "PT1",
+        "protein_chain": "D",
+        "residue": "VAL484",
+        "protein_atom": "CG2",
+        "distance_A": 2.6337222708554515,
+        "overlap_A": 0.5662777291445487
+      },
+      {
+        "ligand_atom": "N8",
+        "ligand_region": "PT0",
+        "protein_chain": "A",
+        "residue": "HIS110",
+        "protein_atom": "O",
+        "distance_A": 2.7278969921901384,
+        "overlap_A": 0.422103007809862
+      },
+      {
+        "ligand_atom": "O4",
+        "ligand_region": "PT0",
+        "protein_chain": "A",
+        "residue": "SER111",
+        "protein_atom": "OG",
+        "distance_A": 2.7040817295340753,
+        "overlap_A": 0.39591827046592476
+      },
+      {
+        "ligand_atom": "N10",
+        "ligand_region": "PT1",
+        "protein_chain": "D",
+        "residue": "CYS502",
+        "protein_atom": "N",
+        "distance_A": 2.9724234220581702,
+        "overlap_A": 0.22757657794182995
+      },
+      {
+        "ligand_atom": "C34",
+        "ligand_region": "PT0",
+        "protein_chain": "A",
+        "residue": "PRO99",
+        "protein_atom": "O",
+        "distance_A": 3.049454705353074,
+        "overlap_A": 0.20054529464692594
+      },
+      {
+        "ligand_atom": "O4",
+        "ligand_region": "PT0",
+        "protein_chain": "A",
+        "residue": "HIS115",
+        "protein_atom": "CE1",
+        "distance_A": 3.066221616256727,
+        "overlap_A": 0.18377838374327293
+      },
+      {
+        "ligand_atom": "O1",
+        "ligand_region": "PT1",
+        "protein_chain": "D",
+        "residue": "ASP564",
+        "protein_atom": "N",
+        "distance_A": 2.979829189735543,
+        "overlap_A": 0.17017081026445746
+      },
+      {
+        "ligand_atom": "C24",
+        "ligand_region": "PT0",
+        "protein_chain": "A",
+        "residue": "TRP117",
+        "protein_atom": "CZ2",
+        "distance_A": 3.2704779467227687,
+        "overlap_A": 0.1295220532772312
+      },
+      {
+        "ligand_atom": "O6",
+        "ligand_region": "PT1",
+        "protein_chain": "D",
+        "residue": "CYS502",
+        "protein_atom": "O",
+        "distance_A": 2.9846706685998052,
+        "overlap_A": 0.11532933140019486
+      }
+    ],
+    "combined_48_2_0001": [
+      {
+        "ligand_atom": "O4",
+        "ligand_region": "PT0",
+        "protein_chain": "A",
+        "residue": "HIS115",
+        "protein_atom": "ND1",
+        "distance_A": 2.4568837986359906,
+        "overlap_A": 0.6931162013640098
+      },
+      {
+        "ligand_atom": "F2",
+        "ligand_region": "PT1",
+        "protein_chain": "D",
+        "residue": "VAL484",
+        "protein_atom": "CG2",
+        "distance_A": 2.633495775580436,
+        "overlap_A": 0.5665042244195644
+      },
+      {
+        "ligand_atom": "N8",
+        "ligand_region": "PT0",
+        "protein_chain": "A",
+        "residue": "HIS110",
+        "protein_atom": "O",
+        "distance_A": 2.7278969921901384,
+        "overlap_A": 0.422103007809862
+      },
+      {
+        "ligand_atom": "O4",
+        "ligand_region": "PT0",
+        "protein_chain": "A",
+        "residue": "SER111",
+        "protein_atom": "OG",
+        "distance_A": 2.7040817295340753,
+        "overlap_A": 0.39591827046592476
+      },
+      {
+        "ligand_atom": "N10",
+        "ligand_region": "PT1",
+        "protein_chain": "D",
+        "residue": "CYS502",
+        "protein_atom": "N",
+        "distance_A": 2.973081229970013,
+        "overlap_A": 0.22691877002998728
+      },
+      {
+        "ligand_atom": "C34",
+        "ligand_region": "PT0",
+        "protein_chain": "A",
+        "residue": "PRO99",
+        "protein_atom": "O",
+        "distance_A": 3.049454705353074,
+        "overlap_A": 0.20054529464692594
+      },
+      {
+        "ligand_atom": "O5",
+        "ligand_region": "PT0",
+        "protein_chain": "D",
+        "residue": "VAL513",
+        "protein_atom": "CG2",
+        "distance_A": 3.0505824034108624,
+        "overlap_A": 0.1994175965891376
+      },
+      {
+        "ligand_atom": "O4",
+        "ligand_region": "PT0",
+        "protein_chain": "A",
+        "residue": "HIS115",
+        "protein_atom": "CE1",
+        "distance_A": 3.066221616256727,
+        "overlap_A": 0.18377838374327293
+      },
+      {
+        "ligand_atom": "O1",
+        "ligand_region": "PT1",
+        "protein_chain": "D",
+        "residue": "ASP564",
+        "protein_atom": "N",
+        "distance_A": 2.980137077384192,
+        "overlap_A": 0.16986292261580838
+      },
+      {
+        "ligand_atom": "O6",
+        "ligand_region": "PT1",
+        "protein_chain": "D",
+        "residue": "CYS502",
+        "protein_atom": "O",
+        "distance_A": 2.985619533698159,
+        "overlap_A": 0.11438046630184129
+      }
+    ],
+    "combined_50_1_0001": [
+      {
+        "ligand_atom": "O4",
+        "ligand_region": "PT0",
+        "protein_chain": "A",
+        "residue": "HIS115",
+        "protein_atom": "ND1",
+        "distance_A": 2.4568837986359906,
+        "overlap_A": 0.6931162013640098
+      },
+      {
+        "ligand_atom": "F2",
+        "ligand_region": "PT1",
+        "protein_chain": "D",
+        "residue": "VAL484",
+        "protein_atom": "CG2",
+        "distance_A": 2.6335964003620607,
+        "overlap_A": 0.5664035996379395
+      },
+      {
+        "ligand_atom": "N8",
+        "ligand_region": "PT0",
+        "protein_chain": "A",
+        "residue": "HIS110",
+        "protein_atom": "O",
+        "distance_A": 2.7278969921901384,
+        "overlap_A": 0.422103007809862
+      },
+      {
+        "ligand_atom": "O4",
+        "ligand_region": "PT0",
+        "protein_chain": "A",
+        "residue": "SER111",
+        "protein_atom": "OG",
+        "distance_A": 2.7040817295340753,
+        "overlap_A": 0.39591827046592476
+      },
+      {
+        "ligand_atom": "C41",
+        "ligand_region": "PT0",
+        "protein_chain": "D",
+        "residue": "CYS427",
+        "protein_atom": "O",
+        "distance_A": 3.0224443750051053,
+        "overlap_A": 0.22755562499489468
+      },
+      {
+        "ligand_atom": "N10",
+        "ligand_region": "PT1",
+        "protein_chain": "D",
+        "residue": "CYS502",
+        "protein_atom": "N",
+        "distance_A": 2.973398896885514,
+        "overlap_A": 0.22660110311448634
+      },
+      {
+        "ligand_atom": "C34",
+        "ligand_region": "PT0",
+        "protein_chain": "A",
+        "residue": "PRO99",
+        "protein_atom": "O",
+        "distance_A": 3.049454705353074,
+        "overlap_A": 0.20054529464692594
+      },
+      {
+        "ligand_atom": "O4",
+        "ligand_region": "PT0",
+        "protein_chain": "A",
+        "residue": "HIS115",
+        "protein_atom": "CE1",
+        "distance_A": 3.066221616256727,
+        "overlap_A": 0.18377838374327293
+      },
+      {
+        "ligand_atom": "O1",
+        "ligand_region": "PT1",
+        "protein_chain": "D",
+        "residue": "ASP564",
+        "protein_atom": "N",
+        "distance_A": 2.9805833321683872,
+        "overlap_A": 0.16941666783161313
+      },
+      {
+        "ligand_atom": "O6",
+        "ligand_region": "PT1",
+        "protein_chain": "D",
+        "residue": "CYS502",
+        "protein_atom": "O",
+        "distance_A": 2.9854617733275326,
+        "overlap_A": 0.11453822667246749
+      }
+    ],
+    "combined_50_2_0001": [
+      {
+        "ligand_atom": "O4",
+        "ligand_region": "PT0",
+        "protein_chain": "A",
+        "residue": "HIS115",
+        "protein_atom": "ND1",
+        "distance_A": 2.4568837986359906,
+        "overlap_A": 0.6931162013640098
+      },
+      {
+        "ligand_atom": "F2",
+        "ligand_region": "PT1",
+        "protein_chain": "D",
+        "residue": "VAL484",
+        "protein_atom": "CG2",
+        "distance_A": 2.6339812072222526,
+        "overlap_A": 0.5660187927777476
+      },
+      {
+        "ligand_atom": "N8",
+        "ligand_region": "PT0",
+        "protein_chain": "A",
+        "residue": "HIS110",
+        "protein_atom": "O",
+        "distance_A": 2.7278969921901384,
+        "overlap_A": 0.422103007809862
+      },
+      {
+        "ligand_atom": "O4",
+        "ligand_region": "PT0",
+        "protein_chain": "A",
+        "residue": "SER111",
+        "protein_atom": "OG",
+        "distance_A": 2.7040817295340753,
+        "overlap_A": 0.39591827046592476
+      },
+      {
+        "ligand_atom": "N10",
+        "ligand_region": "PT1",
+        "protein_chain": "D",
+        "residue": "CYS502",
+        "protein_atom": "N",
+        "distance_A": 2.9731010746357085,
+        "overlap_A": 0.22689892536429168
+      },
+      {
+        "ligand_atom": "C34",
+        "ligand_region": "PT0",
+        "protein_chain": "A",
+        "residue": "PRO99",
+        "protein_atom": "O",
+        "distance_A": 3.049454705353074,
+        "overlap_A": 0.20054529464692594
+      },
+      {
+        "ligand_atom": "C41",
+        "ligand_region": "PT0",
+        "protein_chain": "D",
+        "residue": "CYS427",
+        "protein_atom": "O",
+        "distance_A": 3.056539546611495,
+        "overlap_A": 0.19346045338850493
+      },
+      {
+        "ligand_atom": "O4",
+        "ligand_region": "PT0",
+        "protein_chain": "A",
+        "residue": "HIS115",
+        "protein_atom": "CE1",
+        "distance_A": 3.066221616256727,
+        "overlap_A": 0.18377838374327293
+      },
+      {
+        "ligand_atom": "O1",
+        "ligand_region": "PT1",
+        "protein_chain": "D",
+        "residue": "ASP564",
+        "protein_atom": "N",
+        "distance_A": 2.980167109408464,
+        "overlap_A": 0.1698328905915365
+      },
+      {
+        "ligand_atom": "O6",
+        "ligand_region": "PT1",
+        "protein_chain": "D",
+        "residue": "CYS502",
+        "protein_atom": "O",
+        "distance_A": 2.9849371852687283,
+        "overlap_A": 0.11506281473127178
+      }
+    ],
+    "combined_5_1_0001": [
+      {
+        "ligand_atom": "O4",
+        "ligand_region": "PT0",
+        "protein_chain": "A",
+        "residue": "HIS115",
+        "protein_atom": "ND1",
+        "distance_A": 2.4568837986359906,
+        "overlap_A": 0.6931162013640098
+      },
+      {
+        "ligand_atom": "F2",
+        "ligand_region": "PT1",
+        "protein_chain": "D",
+        "residue": "VAL484",
+        "protein_atom": "CG2",
+        "distance_A": 2.635114039277995,
+        "overlap_A": 0.5648859607220054
+      },
+      {
+        "ligand_atom": "N8",
+        "ligand_region": "PT0",
+        "protein_chain": "A",
+        "residue": "HIS110",
+        "protein_atom": "O",
+        "distance_A": 2.7278969921901384,
+        "overlap_A": 0.422103007809862
+      },
+      {
+        "ligand_atom": "O4",
+        "ligand_region": "PT0",
+        "protein_chain": "A",
+        "residue": "SER111",
+        "protein_atom": "OG",
+        "distance_A": 2.7040817295340753,
+        "overlap_A": 0.39591827046592476
+      },
+      {
+        "ligand_atom": "N5",
+        "ligand_region": "PT1",
+        "protein_chain": "A",
+        "residue": "TYR112",
+        "protein_atom": "OH",
+        "distance_A": 2.842377877763615,
+        "overlap_A": 0.3076221222363853
+      },
+      {
+        "ligand_atom": "N10",
+        "ligand_region": "PT1",
+        "protein_chain": "D",
+        "residue": "CYS502",
+        "protein_atom": "N",
+        "distance_A": 2.9737568831362156,
+        "overlap_A": 0.22624311686378462
+      },
+      {
+        "ligand_atom": "C34",
+        "ligand_region": "PT0",
+        "protein_chain": "A",
+        "residue": "PRO99",
+        "protein_atom": "O",
+        "distance_A": 3.049454705353074,
+        "overlap_A": 0.20054529464692594
+      },
+      {
+        "ligand_atom": "O4",
+        "ligand_region": "PT0",
+        "protein_chain": "A",
+        "residue": "HIS115",
+        "protein_atom": "CE1",
+        "distance_A": 3.066221616256727,
+        "overlap_A": 0.18377838374327293
+      },
+      {
+        "ligand_atom": "O1",
+        "ligand_region": "PT1",
+        "protein_chain": "D",
+        "residue": "ASP564",
+        "protein_atom": "N",
+        "distance_A": 2.9793992683089665,
+        "overlap_A": 0.17060073169103385
+      },
+      {
+        "ligand_atom": "O6",
+        "ligand_region": "PT1",
+        "protein_chain": "D",
+        "residue": "CYS502",
+        "protein_atom": "O",
+        "distance_A": 2.985766903159054,
+        "overlap_A": 0.11423309684094596
+      }
+    ],
+    "combined_5_2_0001": [
+      {
+        "ligand_atom": "O4",
+        "ligand_region": "PT0",
+        "protein_chain": "A",
+        "residue": "HIS115",
+        "protein_atom": "ND1",
+        "distance_A": 2.4568837986359906,
+        "overlap_A": 0.6931162013640098
+      },
+      {
+        "ligand_atom": "F2",
+        "ligand_region": "PT1",
+        "protein_chain": "D",
+        "residue": "VAL484",
+        "protein_atom": "CG2",
+        "distance_A": 2.633693414199915,
+        "overlap_A": 0.5663065858000853
+      },
+      {
+        "ligand_atom": "N8",
+        "ligand_region": "PT0",
+        "protein_chain": "A",
+        "residue": "HIS110",
+        "protein_atom": "O",
+        "distance_A": 2.7278969921901384,
+        "overlap_A": 0.422103007809862
+      },
+      {
+        "ligand_atom": "O4",
+        "ligand_region": "PT0",
+        "protein_chain": "A",
+        "residue": "SER111",
+        "protein_atom": "OG",
+        "distance_A": 2.7040817295340753,
+        "overlap_A": 0.39591827046592476
+      },
+      {
+        "ligand_atom": "N10",
+        "ligand_region": "PT1",
+        "protein_chain": "D",
+        "residue": "CYS502",
+        "protein_atom": "N",
+        "distance_A": 2.9731286551375455,
+        "overlap_A": 0.22687134486245464
+      },
+      {
+        "ligand_atom": "C34",
+        "ligand_region": "PT0",
+        "protein_chain": "A",
+        "residue": "PRO99",
+        "protein_atom": "O",
+        "distance_A": 3.049454705353074,
+        "overlap_A": 0.20054529464692594
+      },
+      {
+        "ligand_atom": "O4",
+        "ligand_region": "PT0",
+        "protein_chain": "A",
+        "residue": "HIS115",
+        "protein_atom": "CE1",
+        "distance_A": 3.066221616256727,
+        "overlap_A": 0.18377838374327293
+      },
+      {
+        "ligand_atom": "O1",
+        "ligand_region": "PT1",
+        "protein_chain": "D",
+        "residue": "ASP564",
+        "protein_atom": "N",
+        "distance_A": 2.979793449217581,
+        "overlap_A": 0.17020655078241953
+      },
+      {
+        "ligand_atom": "O6",
+        "ligand_region": "PT1",
+        "protein_chain": "D",
+        "residue": "CYS502",
+        "protein_atom": "O",
+        "distance_A": 2.986380417830248,
+        "overlap_A": 0.11361958216975188
+      },
+      {
+        "ligand_atom": "N3",
+        "ligand_region": "PT1",
+        "protein_chain": "D",
+        "residue": "CYS502",
+        "protein_atom": "O",
+        "distance_A": 3.045127419337322,
+        "overlap_A": 0.10487258066267824
+      }
+    ],
+    "combined_7_1_0001": [
+      {
+        "ligand_atom": "O4",
+        "ligand_region": "PT0",
+        "protein_chain": "A",
+        "residue": "HIS115",
+        "protein_atom": "ND1",
+        "distance_A": 2.4568837986359906,
+        "overlap_A": 0.6931162013640098
+      },
+      {
+        "ligand_atom": "F2",
+        "ligand_region": "PT1",
+        "protein_chain": "D",
+        "residue": "VAL484",
+        "protein_atom": "CG2",
+        "distance_A": 2.6348673590903964,
+        "overlap_A": 0.5651326409096038
+      },
+      {
+        "ligand_atom": "F3",
+        "ligand_region": "PT1",
+        "protein_chain": "D",
+        "residue": "MET499",
+        "protein_atom": "SD",
+        "distance_A": 2.875434749737857,
+        "overlap_A": 0.42456525026214287
+      },
+      {
+        "ligand_atom": "N8",
+        "ligand_region": "PT0",
+        "protein_chain": "A",
+        "residue": "HIS110",
+        "protein_atom": "O",
+        "distance_A": 2.7278969921901384,
+        "overlap_A": 0.422103007809862
+      },
+      {
+        "ligand_atom": "O4",
+        "ligand_region": "PT0",
+        "protein_chain": "A",
+        "residue": "SER111",
+        "protein_atom": "OG",
+        "distance_A": 2.7040817295340753,
+        "overlap_A": 0.39591827046592476
+      },
+      {
+        "ligand_atom": "N10",
+        "ligand_region": "PT1",
+        "protein_chain": "D",
+        "residue": "CYS502",
+        "protein_atom": "N",
+        "distance_A": 2.972351426059846,
+        "overlap_A": 0.22764857394015436
+      },
+      {
+        "ligand_atom": "C34",
+        "ligand_region": "PT0",
+        "protein_chain": "A",
+        "residue": "PRO99",
+        "protein_atom": "O",
+        "distance_A": 3.049454705353074,
+        "overlap_A": 0.20054529464692594
+      },
+      {
+        "ligand_atom": "O4",
+        "ligand_region": "PT0",
+        "protein_chain": "A",
+        "residue": "HIS115",
+        "protein_atom": "CE1",
+        "distance_A": 3.066221616256727,
+        "overlap_A": 0.18377838374327293
+      },
+      {
+        "ligand_atom": "O1",
+        "ligand_region": "PT1",
+        "protein_chain": "D",
+        "residue": "ASP564",
+        "protein_atom": "N",
+        "distance_A": 2.9795143899635734,
+        "overlap_A": 0.17048561003642693
+      },
+      {
+        "ligand_atom": "C24",
+        "ligand_region": "PT0",
+        "protein_chain": "A",
+        "residue": "TRP117",
+        "protein_atom": "CZ2",
+        "distance_A": 3.2704779467227687,
+        "overlap_A": 0.1295220532772312
+      }
+    ]
+  },
+  "SJF_delta_MAPK13": {
+    "combined_2_1_0001": [
+      {
+        "ligand_atom": "C32",
+        "ligand_region": "outside_fixed_heads",
+        "protein_chain": "A",
+        "residue": "ILE109",
+        "protein_atom": "CB",
+        "distance_A": 1.6004168207064098,
+        "overlap_A": 1.7995831792935901
+      },
+      {
+        "ligand_atom": "C32",
+        "ligand_region": "outside_fixed_heads",
+        "protein_chain": "A",
+        "residue": "ILE109",
+        "protein_atom": "CA",
+        "distance_A": 1.9443932215475432,
+        "overlap_A": 1.4556067784524567
+      },
+      {
+        "ligand_atom": "C32",
+        "ligand_region": "outside_fixed_heads",
+        "protein_chain": "A",
+        "residue": "HIS110",
+        "protein_atom": "N",
+        "distance_A": 1.9008655923026192,
+        "overlap_A": 1.3991344076973806
+      },
+      {
+        "ligand_atom": "C32",
+        "ligand_region": "outside_fixed_heads",
+        "protein_chain": "A",
+        "residue": "ILE109",
+        "protein_atom": "C",
+        "distance_A": 2.051089954146331,
+        "overlap_A": 1.348910045853669
+      },
+      {
+        "ligand_atom": "O7",
+        "ligand_region": "outside_fixed_heads",
+        "protein_chain": "A",
+        "residue": "HIS110",
+        "protein_atom": "N",
+        "distance_A": 1.915047257902532,
+        "overlap_A": 1.2349527420974684
+      },
+      {
+        "ligand_atom": "C33",
+        "ligand_region": "outside_fixed_heads",
+        "protein_chain": "A",
+        "residue": "HIS110",
+        "protein_atom": "O",
+        "distance_A": 2.3780164002798667,
+        "overlap_A": 0.8719835997201333
+      },
+      {
+        "ligand_atom": "C55",
+        "ligand_region": "PT0",
+        "protein_chain": "A",
+        "residue": "TYR112",
+        "protein_atom": "OH",
+        "distance_A": 2.400658867894402,
+        "overlap_A": 0.8493411321055979
+      },
+      {
+        "ligand_atom": "C32",
+        "ligand_region": "outside_fixed_heads",
+        "protein_chain": "A",
+        "residue": "ILE109",
+        "protein_atom": "CG1",
+        "distance_A": 2.588175805466082,
+        "overlap_A": 0.811824194533918
+      },
+      {
+        "ligand_atom": "C33",
+        "ligand_region": "outside_fixed_heads",
+        "protein_chain": "A",
+        "residue": "ILE109",
+        "protein_atom": "CB",
+        "distance_A": 2.6083454525810073,
+        "overlap_A": 0.7916545474189927
+      },
+      {
+        "ligand_atom": "C55",
+        "ligand_region": "PT0",
+        "protein_chain": "A",
+        "residue": "TYR112",
+        "protein_atom": "CZ",
+        "distance_A": 2.620718603742112,
+        "overlap_A": 0.779281396257888
+      }
+    ],
+    "combined_3_1_0001": [
+      {
+        "ligand_atom": "C33",
+        "ligand_region": "outside_fixed_heads",
+        "protein_chain": "A",
+        "residue": "HIS110",
+        "protein_atom": "O",
+        "distance_A": 2.033918877438343,
+        "overlap_A": 1.2160811225616568
+      },
+      {
+        "ligand_atom": "C33",
+        "ligand_region": "outside_fixed_heads",
+        "protein_chain": "A",
+        "residue": "HIS110",
+        "protein_atom": "N",
+        "distance_A": 2.1561052849988585,
+        "overlap_A": 1.1438947150011414
+      },
+      {
+        "ligand_atom": "C32",
+        "ligand_region": "outside_fixed_heads",
+        "protein_chain": "A",
+        "residue": "HIS110",
+        "protein_atom": "N",
+        "distance_A": 2.2415934064856664,
+        "overlap_A": 1.0584065935143334
+      },
+      {
+        "ligand_atom": "C33",
+        "ligand_region": "outside_fixed_heads",
+        "protein_chain": "A",
+        "residue": "HIS110",
+        "protein_atom": "C",
+        "distance_A": 2.541581004020925,
+        "overlap_A": 0.8584189959790751
+      },
+      {
+        "ligand_atom": "C55",
+        "ligand_region": "PT0",
+        "protein_chain": "A",
+        "residue": "TYR112",
+        "protein_atom": "OH",
+        "distance_A": 2.400658867894402,
+        "overlap_A": 0.8493411321055979
+      },
+      {
+        "ligand_atom": "C55",
+        "ligand_region": "PT0",
+        "protein_chain": "A",
+        "residue": "TYR112",
+        "protein_atom": "CZ",
+        "distance_A": 2.620718603742112,
+        "overlap_A": 0.779281396257888
+      },
+      {
+        "ligand_atom": "O10",
+        "ligand_region": "PT0",
+        "protein_chain": "A",
+        "residue": "HIS115",
+        "protein_atom": "ND1",
+        "distance_A": 2.4346264600550054,
+        "overlap_A": 0.715373539944995
+      },
+      {
+        "ligand_atom": "C55",
+        "ligand_region": "PT0",
+        "protein_chain": "A",
+        "residue": "TYR112",
+        "protein_atom": "CE1",
+        "distance_A": 2.756872140669578,
+        "overlap_A": 0.6431278593304217
+      },
+      {
+        "ligand_atom": "C33",
+        "ligand_region": "outside_fixed_heads",
+        "protein_chain": "A",
+        "residue": "HIS110",
+        "protein_atom": "CA",
+        "distance_A": 2.7838974478238248,
+        "overlap_A": 0.6161025521761752
+      },
+      {
+        "ligand_atom": "O8",
+        "ligand_region": "PT0",
+        "protein_chain": "A",
+        "residue": "HIS110",
+        "protein_atom": "O",
+        "distance_A": 2.525089107338598,
+        "overlap_A": 0.5749108926614022
+      }
+    ]
+  }
+}

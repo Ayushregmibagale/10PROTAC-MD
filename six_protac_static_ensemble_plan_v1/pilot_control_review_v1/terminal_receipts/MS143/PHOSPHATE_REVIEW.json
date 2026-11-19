@@ -1,0 +1,353 @@
+[
+  {
+    "pose": "combined_8_1_0001.pdb",
+    "max_head_core_rmsd_A": 0.0,
+    "modifications": [
+      {
+        "chain": "D",
+        "resnum": 308,
+        "icode": " ",
+        "resname": "TPO",
+        "heavy_atoms": 11
+      }
+    ]
+  },
+  {
+    "pose": "combined_10_1_0001.pdb",
+    "max_head_core_rmsd_A": 0.0,
+    "modifications": [
+      {
+        "chain": "D",
+        "resnum": 308,
+        "icode": " ",
+        "resname": "TPO",
+        "heavy_atoms": 11
+      }
+    ]
+  },
+  {
+    "pose": "combined_8_2_0001.pdb",
+    "max_head_core_rmsd_A": 0.0,
+    "modifications": [
+      {
+        "chain": "D",
+        "resnum": 308,
+        "icode": " ",
+        "resname": "TPO",
+        "heavy_atoms": 11
+      }
+    ]
+  },
+  {
+    "pose": "combined_3_2_0001.pdb",
+    "max_head_core_rmsd_A": 0.0,
+    "modifications": [
+      {
+        "chain": "D",
+        "resnum": 308,
+        "icode": " ",
+        "resname": "TPO",
+        "heavy_atoms": 11
+      }
+    ]
+  },
+  {
+    "pose": "combined_14_1_0001.pdb",
+    "max_head_core_rmsd_A": 0.0,
+    "modifications": [
+      {
+        "chain": "D",
+        "resnum": 308,
+        "icode": " ",
+        "resname": "TPO",
+        "heavy_atoms": 11
+      }
+    ]
+  },
+  {
+    "pose": "combined_12_1_0001.pdb",
+    "max_head_core_rmsd_A": 0.0,
+    "modifications": [
+      {
+        "chain": "D",
+        "resnum": 308,
+        "icode": " ",
+        "resname": "TPO",
+        "heavy_atoms": 11
+      }
+    ]
+  },
+  {
+    "pose": "combined_10_2_0001.pdb",
+    "max_head_core_rmsd_A": 0.0,
+    "modifications": [
+      {
+        "chain": "D",
+        "resnum": 308,
+        "icode": " ",
+        "resname": "TPO",
+        "heavy_atoms": 11
+      }
+    ]
+  },
+  {
+    "pose": "combined_12_2_0001.pdb",
+    "max_head_core_rmsd_A": 0.0,
+    "modifications": [
+      {
+        "chain": "D",
+        "resnum": 308,
+        "icode": " ",
+        "resname": "TPO",
+        "heavy_atoms": 11
+      }
+    ]
+  },
+  {
+    "pose": "combined_15_1_0001.pdb",
+    "max_head_core_rmsd_A": 0.0,
+    "modifications": [
+      {
+        "chain": "D",
+        "resnum": 308,
+        "icode": " ",
+        "resname": "TPO",
+        "heavy_atoms": 11
+      }
+    ]
+  },
+  {
+    "pose": "combined_15_2_0001.pdb",
+    "max_head_core_rmsd_A": 0.0,
+    "modifications": [
+      {
+        "chain": "D",
+        "resnum": 308,
+        "icode": " ",
+        "resname": "TPO",
+        "heavy_atoms": 11
+      }
+    ]
+  },
+  {
+    "pose": "combined_23_1_0001.pdb",
+    "max_head_core_rmsd_A": 0.0,
+    "modifications": [
+      {
+        "chain": "D",
+        "resnum": 308,
+        "icode": " ",
+        "resname": "TPO",
+        "heavy_atoms": 11
+      }
+    ]
+  },
+  {
+    "pose": "combined_22_1_0001.pdb",
+    "max_head_core_rmsd_A": 0.0,
+    "modifications": [
+      {
+        "chain": "D",
+        "resnum": 308,
+        "icode": " ",
+        "resname": "TPO",
+        "heavy_atoms": 11
+      }
+    ]
+  },
+  {
+    "pose": "combined_22_2_0001.pdb",
+    "max_head_core_rmsd_A": 0.0,
+    "modifications": [
+      {
+        "chain": "D",
+        "resnum": 308,
+        "icode": " ",
+        "resname": "TPO",
+        "heavy_atoms": 11
+      }
+    ]
+  },
+  {
+    "pose": "combined_25_2_0001.pdb",
+    "max_head_core_rmsd_A": 0.0,
+    "modifications": [
+      {
+        "chain": "D",
+        "resnum": 308,
+        "icode": " ",
+        "resname": "TPO",
+        "heavy_atoms": 11
+      }
+    ]
+  },
+  {
+    "pose": "combined_27_1_0001.pdb",
+    "max_head_core_rmsd_A": 0.0,
+    "modifications": [
+      {
+        "chain": "D",
+        "resnum": 308,
+        "icode": " ",
+        "resname": "TPO",
+        "heavy_atoms": 11
+      }
+    ]
+  },
+  {
+    "pose": "combined_27_2_0001.pdb",
+    "max_head_core_rmsd_A": 0.0,
+    "modifications": [
+      {
+        "chain": "D",
+        "resnum": 308,
+        "icode": " ",
+        "resname": "TPO",
+        "heavy_atoms": 11
+      }
+    ]
+  },
+  {
+    "pose": "combined_34_1_0001.pdb",
+    "max_head_core_rmsd_A": 0.0,
+    "modifications": [
+      {
+        "chain": "D",
+        "resnum": 308,
+        "icode": " ",
+        "resname": "TPO",
+        "heavy_atoms": 11
+      }
+    ]
+  },
+  {
+    "pose": "combined_35_1_0001.pdb",
+    "max_head_core_rmsd_A": 0.0,
+    "modifications": [
+      {
+        "chain": "D",
+        "resnum": 308,
+        "icode": " ",
+        "resname": "TPO",
+        "heavy_atoms": 11
+      }
+    ]
+  },
+  {
+    "pose": "combined_38_1_0001.pdb",
+    "max_head_core_rmsd_A": 0.0,
+    "modifications": [
+      {
+        "chain": "D",
+        "resnum": 308,
+        "icode": " ",
+        "resname": "TPO",
+        "heavy_atoms": 11
+      }
+    ]
+  },
+  {
+    "pose": "combined_35_2_0001.pdb",
+    "max_head_core_rmsd_A": 0.0,
+    "modifications": [
+      {
+        "chain": "D",
+        "resnum": 308,
+        "icode": " ",
+        "resname": "TPO",
+        "heavy_atoms": 11
+      }
+    ]
+  },
+  {
+    "pose": "combined_39_1_0001.pdb",
+    "max_head_core_rmsd_A": 0.0,
+    "modifications": [
+      {
+        "chain": "D",
+        "resnum": 308,
+        "icode": " ",
+        "resname": "TPO",
+        "heavy_atoms": 11
+      }
+    ]
+  },
+  {
+    "pose": "combined_39_2_0001.pdb",
+    "max_head_core_rmsd_A": 0.0,
+    "modifications": [
+      {
+        "chain": "D",
+        "resnum": 308,
+        "icode": " ",
+        "resname": "TPO",
+        "heavy_atoms": 11
+      }
+    ]
+  },
+  {
+    "pose": "combined_38_2_0001.pdb",
+    "max_head_core_rmsd_A": 0.0,
+    "modifications": [
+      {
+        "chain": "D",
+        "resnum": 308,
+        "icode": " ",
+        "resname": "TPO",
+        "heavy_atoms": 11
+      }
+    ]
+  },
+  {
+    "pose": "combined_44_1_0001.pdb",
+    "max_head_core_rmsd_A": 0.0,
+    "modifications": [
+      {
+        "chain": "D",
+        "resnum": 308,
+        "icode": " ",
+        "resname": "TPO",
+        "heavy_atoms": 11
+      }
+    ]
+  },
+  {
+    "pose": "combined_46_1_0001.pdb",
+    "max_head_core_rmsd_A": 0.0,
+    "modifications": [
+      {
+        "chain": "D",
+        "resnum": 308,
+        "icode": " ",
+        "resname": "TPO",
+        "heavy_atoms": 11
+      }
+    ]
+  },
+  {
+    "pose": "combined_46_2_0001.pdb",
+    "max_head_core_rmsd_A": 0.0,
+    "modifications": [
+      {
+        "chain": "D",
+        "resnum": 308,
+        "icode": " ",
+        "resname": "TPO",
+        "heavy_atoms": 11
+      }
+    ]
+  },
+  {
+    "pose": "combined_44_2_0001.pdb",
+    "max_head_core_rmsd_A": 0.0,
+    "modifications": [
+      {
+        "chain": "D",
+        "resnum": 308,
+        "icode": " ",
+        "resname": "TPO",
+        "heavy_atoms": 11
+      }
+    ]
+  }
+]

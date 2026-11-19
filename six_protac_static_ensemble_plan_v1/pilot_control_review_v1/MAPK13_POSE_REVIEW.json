@@ -1,0 +1,18 @@
+{
+  "combined_2_1_0001.pdb": {
+    "ligand_stereo_graph_match": true,
+    "ligand_protein_min_distance_A": 1.6004168207064098,
+    "ligand_protein_max_vdw_overlap_A": 1.7995831792935901,
+    "E3_POI_min_distance_A": 2.3035654972238095,
+    "E3_POI_max_vdw_overlap_A": 0.8464345027761908,
+    "intraligand_max_vdw_overlap_topological_distance_gt3_A": 0.6830332389754386
+  },
+  "combined_3_1_0001.pdb": {
+    "ligand_stereo_graph_match": true,
+    "ligand_protein_min_distance_A": 2.033918877438343,
+    "ligand_protein_max_vdw_overlap_A": 1.2160811225616568,
+    "E3_POI_min_distance_A": 3.2427691869758464,
+    "E3_POI_max_vdw_overlap_A": 0.05723081302415345,
+    "intraligand_max_vdw_overlap_topological_distance_gt3_A": 0.7831017451058049
+  }
+}

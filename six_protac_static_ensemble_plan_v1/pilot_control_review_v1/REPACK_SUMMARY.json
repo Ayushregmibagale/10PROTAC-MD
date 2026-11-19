@@ -1,0 +1,38 @@
+{
+  "original": {
+    "geometry": {
+      "head_heavy_atoms": 37,
+      "min_distance_A": 1.8652727380396001,
+      "max_vdw_overlap_A": 1.3847272619603999,
+      "max_overlap_pair": [
+        2,
+        "('p', 0, 'D', (' ', 110, ' '), ('O', ' '))"
+      ],
+      "head_atoms_within4A": 27,
+      "max_overlap_protein_atom_name": "O",
+      "max_backbone_vdw_overlap_A": 1.3847272619603999,
+      "max_sidechain_vdw_overlap_A": 0.7251628743128342
+    },
+    "head_preservation": {
+      "max_head_displacement_A": 0.0007071067811848996
+    }
+  },
+  "refit": {
+    "geometry": {
+      "head_heavy_atoms": 37,
+      "min_distance_A": 2.691950877378705,
+      "max_vdw_overlap_A": 0.5580491226212954,
+      "max_overlap_pair": [
+        2,
+        "('p', 0, 'D', (' ', 110, ' '), ('O', ' '))"
+      ],
+      "head_atoms_within4A": 29,
+      "max_overlap_protein_atom_name": "O",
+      "max_backbone_vdw_overlap_A": 0.5580491226212954,
+      "max_sidechain_vdw_overlap_A": 0.5073212424659714
+    },
+    "head_preservation": {
+      "max_head_displacement_A": 0.0007549834435239037
+    }
+  }
+}
