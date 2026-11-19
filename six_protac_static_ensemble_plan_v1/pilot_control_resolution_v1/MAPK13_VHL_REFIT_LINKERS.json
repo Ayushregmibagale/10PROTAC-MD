@@ -1,0 +1,56 @@
+[
+  {
+    "pose": "19_2",
+    "seed": 42,
+    "feasible": true,
+    "max_overlap_A": 1.053023914262074,
+    "min_distance_A": 2.196976085737926,
+    "worst_chain": "D",
+    "worst_residue": "THR29"
+  },
+  {
+    "pose": "19_2",
+    "seed": 7,
+    "feasible": true,
+    "max_overlap_A": 1.323671194393628,
+    "min_distance_A": 2.076328805606372,
+    "worst_chain": "A",
+    "worst_residue": "ILE109"
+  },
+  {
+    "pose": "19_2",
+    "seed": 123,
+    "feasible": true,
+    "max_overlap_A": 1.3175856122026355,
+    "min_distance_A": 2.0824143877973644,
+    "worst_chain": "A",
+    "worst_residue": "ILE109"
+  },
+  {
+    "pose": "5_2",
+    "seed": 42,
+    "feasible": true,
+    "max_overlap_A": 1.5123537129153226,
+    "min_distance_A": 1.7876462870846772,
+    "worst_chain": "A",
+    "worst_residue": "HIS110"
+  },
+  {
+    "pose": "5_2",
+    "seed": 7,
+    "feasible": true,
+    "max_overlap_A": 1.5996135095964013,
+    "min_distance_A": 1.7003864904035986,
+    "worst_chain": "A",
+    "worst_residue": "HIS110"
+  },
+  {
+    "pose": "5_2",
+    "seed": 123,
+    "feasible": true,
+    "max_overlap_A": 1.5123996753759952,
+    "min_distance_A": 1.7876003246240046,
+    "worst_chain": "A",
+    "worst_residue": "HIS110"
+  }
+]

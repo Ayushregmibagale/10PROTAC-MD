@@ -1,0 +1,33 @@
+{
+  "source_sterics": {
+    "head_heavy_atoms": 39,
+    "min_distance_A": 2.5219790224241123,
+    "max_vdw_overlap_A": 0.8780209775758876,
+    "max_overlap_pair": [
+      24,
+      "('p', 0, 'A', (' ', 69, ' '), ('CG', ' '))"
+    ],
+    "head_atoms_within4A": 33,
+    "max_overlap_protein_atom_name": "CG",
+    "max_backbone_vdw_overlap_A": 0.5746826500068729,
+    "max_sidechain_vdw_overlap_A": 0.8780209775758876
+  },
+  "refit_sterics": {
+    "head_heavy_atoms": 39,
+    "min_distance_A": 2.667663160277055,
+    "max_vdw_overlap_A": 0.43233683972294523,
+    "max_overlap_pair": [
+      6,
+      "('p', 0, 'A', (' ', 98, ' '), ('OH', ' '))"
+    ],
+    "head_atoms_within4A": 30,
+    "max_overlap_protein_atom_name": "OH",
+    "max_backbone_vdw_overlap_A": 0.4209261785367615,
+    "max_sidechain_vdw_overlap_A": 0.43233683972294523
+  },
+  "head_rms_displacement_A": 0.3296960995440927,
+  "head_max_displacement_A": 0.4759477276041847,
+  "fixed_protein": true,
+  "head_conformation_fixed": true,
+  "production_ready": false
+}

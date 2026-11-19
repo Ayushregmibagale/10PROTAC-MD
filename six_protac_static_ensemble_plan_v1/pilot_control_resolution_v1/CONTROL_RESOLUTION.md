@@ -24,3 +24,9 @@ A ligand-driven test rigidly aligned the MET and VHL binaries to each archived f
 A second diagnostic sampled 40 full ligands with intra-head distance bounds imposed independently on the two heads. Seven proposals satisfied both head shape checks. All seven failed the existing gross-clash screen, with minimum VBC–MET heavy-atom distances from 0.12 to 0.35 Å. These results describe the tested proposals. Additional unconstrained conformer sampling has no demonstrated route to a viable MET geometry.
 
 Bulk preparation and release are unchanged.
+
+### Completed follow-up checks
+
+All 50 archived SJF8240 global geometries were screened directly, before local refinement. There were zero feasible linkers at both 20 and 100 internal embedding iterations per seed, using 20 outer seeds per geometry. The synthetic full-ligand geometry passed both tests. Both receipts preserve the individual rejection ledgers.
+
+A separate MAPK13 test refit the VHL head in its bound binary by 0.33 Å RMS. The binary maximum overlap decreased from 0.88 to 0.43 Å. Fixed-head linker replays on two of the better saved ternary orientations closed across three seeds each, but their worst overlaps were 1.05–1.60 Å. The binary adjustment transferred the limiting contact to the linker or the kinase in these examples. The original 20 × 2 ensemble still contains the better modeled ternaries. No accepted production input was substituted.
