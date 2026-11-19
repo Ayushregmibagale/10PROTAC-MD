@@ -1,0 +1,158 @@
+{
+  "status": "COMPLETE",
+  "stages": {
+    "global_sampling": {
+      "attempted": 381,
+      "succeeded": 12,
+      "rejected": 369,
+      "failed": 0
+    },
+    "local_docking": {
+      "attempted": 24,
+      "succeeded": 24,
+      "rejected": 0,
+      "failed": 0
+    },
+    "linker_modeling": {
+      "attempted": 24,
+      "succeeded": 16,
+      "rejected": 8,
+      "failed": 0
+    },
+    "scoring": {
+      "attempted": 16,
+      "succeeded": 16,
+      "rejected": 0,
+      "failed": 0
+    },
+    "pose_qc": {
+      "attempted": 16,
+      "succeeded": 12,
+      "rejected": 4,
+      "failed": 0
+    }
+  },
+  "elapsed_seconds": 264.5041513442993,
+  "poses": [
+    {
+      "pose": "combined_10_2_0001.pdb",
+      "identity": "PASS",
+      "ligand_stereo_graph_match": true,
+      "ligand_protein_min_distance_A": 2.4346264600550054,
+      "ligand_protein_max_vdw_overlap_A": 0.715373539944995,
+      "E3_POI_min_distance_A": 2.826702142072986,
+      "E3_POI_max_vdw_overlap_A": 0.3232978579270145,
+      "intraligand_max_vdw_overlap_topological_distance_gt3_A": 0.6828913684233524
+    },
+    {
+      "pose": "combined_11_1_0001.pdb",
+      "identity": "PASS",
+      "ligand_stereo_graph_match": true,
+      "ligand_protein_min_distance_A": 2.4346264600550054,
+      "ligand_protein_max_vdw_overlap_A": 0.715373539944995,
+      "E3_POI_min_distance_A": 2.725203478641547,
+      "E3_POI_max_vdw_overlap_A": 0.42479652135845347,
+      "intraligand_max_vdw_overlap_topological_distance_gt3_A": 0.6818448184929728
+    },
+    {
+      "pose": "combined_11_2_0001.pdb",
+      "identity": "PASS",
+      "ligand_stereo_graph_match": true,
+      "ligand_protein_min_distance_A": 2.4346264600550054,
+      "ligand_protein_max_vdw_overlap_A": 0.715373539944995,
+      "E3_POI_min_distance_A": 2.4431686392879244,
+      "E3_POI_max_vdw_overlap_A": 0.706831360712076,
+      "intraligand_max_vdw_overlap_topological_distance_gt3_A": 0.6826346034687134
+    },
+    {
+      "pose": "combined_12_2_0001.pdb",
+      "identity": "PASS",
+      "ligand_stereo_graph_match": true,
+      "ligand_protein_min_distance_A": 1.8863440831407223,
+      "ligand_protein_max_vdw_overlap_A": 1.5136559168592776,
+      "E3_POI_min_distance_A": 2.5886129490520577,
+      "E3_POI_max_vdw_overlap_A": 0.5613870509479426,
+      "intraligand_max_vdw_overlap_topological_distance_gt3_A": 0.683205521329346
+    },
+    {
+      "pose": "combined_1_1_0001.pdb",
+      "identity": "PASS",
+      "ligand_stereo_graph_match": true,
+      "ligand_protein_min_distance_A": 2.4346264600550054,
+      "ligand_protein_max_vdw_overlap_A": 0.715373539944995,
+      "E3_POI_min_distance_A": 2.6940389752191813,
+      "E3_POI_max_vdw_overlap_A": 0.455961024780819,
+      "intraligand_max_vdw_overlap_topological_distance_gt3_A": 0.6826333875972113
+    },
+    {
+      "pose": "combined_1_2_0001.pdb",
+      "identity": "PASS",
+      "ligand_stereo_graph_match": true,
+      "ligand_protein_min_distance_A": 2.4346264600550054,
+      "ligand_protein_max_vdw_overlap_A": 0.715373539944995,
+      "E3_POI_min_distance_A": 2.6409547516002685,
+      "E3_POI_max_vdw_overlap_A": 0.5090452483997319,
+      "intraligand_max_vdw_overlap_topological_distance_gt3_A": 0.6821472896463199
+    },
+    {
+      "pose": "combined_3_1_0001.pdb",
+      "identity": "PASS",
+      "ligand_stereo_graph_match": true,
+      "ligand_protein_min_distance_A": 2.4346264600550054,
+      "ligand_protein_max_vdw_overlap_A": 0.715373539944995,
+      "E3_POI_min_distance_A": 2.6643674671486295,
+      "E3_POI_max_vdw_overlap_A": 0.48563253285137087,
+      "intraligand_max_vdw_overlap_topological_distance_gt3_A": 0.6822899278886121
+    },
+    {
+      "pose": "combined_6_1_0001.pdb",
+      "identity": "PASS",
+      "ligand_stereo_graph_match": true,
+      "ligand_protein_min_distance_A": 2.3479848807008983,
+      "ligand_protein_max_vdw_overlap_A": 0.9020151192991017,
+      "E3_POI_min_distance_A": 3.3291745223102946,
+      "E3_POI_max_vdw_overlap_A": -0.14296242242674717,
+      "intraligand_max_vdw_overlap_topological_distance_gt3_A": 0.6826084623635436
+    },
+    {
+      "pose": "combined_6_2_0001.pdb",
+      "identity": "PASS",
+      "ligand_stereo_graph_match": true,
+      "ligand_protein_min_distance_A": 1.6343634846630604,
+      "ligand_protein_max_vdw_overlap_A": 1.6156365153369396,
+      "E3_POI_min_distance_A": 3.1310223569945914,
+      "E3_POI_max_vdw_overlap_A": 0.06027084465383359,
+      "intraligand_max_vdw_overlap_topological_distance_gt3_A": 0.6814030300593852
+    },
+    {
+      "pose": "combined_7_2_0001.pdb",
+      "identity": "PASS",
+      "ligand_stereo_graph_match": true,
+      "ligand_protein_min_distance_A": 2.4346264600550054,
+      "ligand_protein_max_vdw_overlap_A": 0.715373539944995,
+      "E3_POI_min_distance_A": 2.460289617097956,
+      "E3_POI_max_vdw_overlap_A": 0.6397103829020443,
+      "intraligand_max_vdw_overlap_topological_distance_gt3_A": 0.6820759736166901
+    },
+    {
+      "pose": "combined_9_1_0001.pdb",
+      "identity": "PASS",
+      "ligand_stereo_graph_match": true,
+      "ligand_protein_min_distance_A": 2.088704383104509,
+      "ligand_protein_max_vdw_overlap_A": 1.0112956168954912,
+      "E3_POI_min_distance_A": 2.8895067053045587,
+      "E3_POI_max_vdw_overlap_A": 0.2604932946954417,
+      "intraligand_max_vdw_overlap_topological_distance_gt3_A": 0.6822218495172669
+    },
+    {
+      "pose": "combined_9_2_0001.pdb",
+      "identity": "PASS",
+      "ligand_stereo_graph_match": true,
+      "ligand_protein_min_distance_A": 1.5663412782660158,
+      "ligand_protein_max_vdw_overlap_A": 1.6836587217339842,
+      "E3_POI_min_distance_A": 2.8811653892131917,
+      "E3_POI_max_vdw_overlap_A": 0.2688346107868087,
+      "intraligand_max_vdw_overlap_topological_distance_gt3_A": 0.6831710638960002
+    }
+  ]
+}

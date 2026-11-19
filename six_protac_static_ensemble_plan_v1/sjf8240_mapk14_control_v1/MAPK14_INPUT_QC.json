@@ -1,0 +1,34 @@
+{
+  "ligand": "SCUZPTNDZHEHLB-ZWUDBOSPSA-N",
+  "verified_files": [
+    "selection.json",
+    "vbc.pdb",
+    "poi_head.sdf",
+    "protein.pdb",
+    "vhl_head.sdf",
+    "full.smi",
+    "Protac_params.txt"
+  ],
+  "anchors": [
+    {
+      "head": "vhl_head.sdf",
+      "one_based_input_anchor": 1,
+      "full_graph_link": [
+        50,
+        [
+          48
+        ]
+      ]
+    },
+    {
+      "head": "poi_head.sdf",
+      "one_based_input_anchor": 13,
+      "full_graph_link": [
+        37,
+        [
+          38
+        ]
+      ]
+    }
+  ]
+}

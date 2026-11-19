@@ -17,3 +17,9 @@ The benchmark reused the original DFG functions and the six current pilot binary
 MAPK14/p38α is the campaign's primary SJF8240 control. Smith et al. reported enhanced p38α selectivity and activity against p38δ under their assay conditions. The MAPK14 reference protein comes from the deposited 1W82 structure. Its inhibitor was replaced in the model using the foretinib scaffold from 5IA4 and explicit KLIFS positions. This creates a modeled input with the supplier-verified SJF8240 connectivity. [Smith et al.](https://www.nature.com/articles/s41467-018-08027-7) · [PDB 1W82](https://www.rcsb.org/structure/1W82)
 
 The whole-pocket fit gives 1.81 Å RMSD and 1.55 Å over the head neighborhood. The transferred binary initially had 1.64 Å worst overlap. A rigid-head refit and fixed-head protein side-chain repack reduced that to 0.71 Å, with 2.63 Å minimum heavy-atom distance. The established SJF8240 VHL head remains in the input, and the modeled foretinib head maps to the exact supplier ligand. A separate bounded 12-global × two-local test is running on Ernie.
+
+### Completed MAPK14 pilot
+
+The bounded run completed on Ernie in 264.5 seconds. It generated 12 global orientations, refined 24 local geometries, built and scored 16 ternaries, and retained 12 after mechanical QC. The independent review verified ligand stereochemical identity in all 12. The best worst ligand–protein overlap was 0.715 Å. The frozen input's file hashes passed verification. The one-based VHL and MAPK14 head anchors are 1 and 13, mapping respectively to full-ligand atoms 50 and 37 with outside-head neighbors 48 and 38. This is a usable modeled technical control. Native ternary pose recovery cannot be assessed from 1W82, which is a binary kinase structure.
+
+The raw attempt and inputs are saved under `local_archive/` in the workspace. Only the compact receipts, summary and preparation code are Git-tracked. The bulk campaign was not submitted.
