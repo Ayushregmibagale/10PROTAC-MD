@@ -1,0 +1,1226 @@
+[
+  {
+    "status": "CHEMISTRY_AND_STERIC_CHECKED_CANDIDATE",
+    "production_ready": false,
+    "method": "legacy_DFG_offset_transfer",
+    "compound": "JNJ1013",
+    "uniprot": "O14976",
+    "gene": "GAK",
+    "source_sha256": "927cde01db157852e39933860899caa52173032c4161d81d3fc0877e512a703b",
+    "legacy_code_sha256": "ac4998f6d26d8c89ff44a32494fefb7116580bf970b391264c5193badb74a7de",
+    "reference_head_sha256": "fa0a342c586f47112b1c721cb8af5fcee812504e3b4fe8dc2efac66955aa5466",
+    "benchmark_sha256": "a56a60b16c6114a3c88e3c3417b8343a1ea8666a6c89dbd711f84fb14260143d",
+    "geometry": {
+      "head_heavy_atoms": 29,
+      "min_distance_A": 2.7853241261995474,
+      "max_vdw_overlap_A": 0.45993318409562756,
+      "max_overlap_pair": [
+        10,
+        "('p', 0, 'D', (' ', 132, ' '), ('OE1', ' '))"
+      ],
+      "head_atoms_within4A": 12,
+      "max_overlap_protein_atom_name": "OE1",
+      "max_backbone_vdw_overlap_A": 0.021614045718913122,
+      "max_sidechain_vdw_overlap_A": 0.45993318409562756
+    },
+    "dfg_fit_rmsd_A": 13.258736649379417,
+    "anchors": [
+      {
+        "head": "vhl_head.sdf",
+        "one_based_anchor": 5,
+        "full_ligand_attachment": [
+          14,
+          [
+            12
+          ]
+        ]
+      },
+      {
+        "head": "poi_head.sdf",
+        "one_based_anchor": 12,
+        "full_ligand_attachment": [
+          10,
+          [
+            11
+          ]
+        ]
+      }
+    ],
+    "files": {
+      "selection.json": "35d269763795f0e8585f3bf9a171037528820bc9443de00a2bf97a0836ba563e",
+      "vbc.pdb": "38a87ba99977645ba344f0d36a0d20be725150a50182c68bfab6cfdd183902a2",
+      "poi_head.sdf": "b87133bc7a5a559d9fb71cc3dee99f6e82ac1c5f3707211f9a779dbe62abd452",
+      "protein.pdb": "75601ae7d60953694043e0d28a2da31d043502accd1efb150eccc13185d7bcfe",
+      "vhl_head.sdf": "926817eef52a725848ca79fd61679ea0605b4fa6eb6f1d63cacca3355ca56537",
+      "full.smi": "571134df69a9e2a6a3a98ecd451191def020ec1b598442c2ca2e44623c221334",
+      "Protac_params.txt": "44148151b5eaf9d2506e2ca9bb6626e5af2c5ea8aad802865dd91ddce5684756"
+    },
+    "input": "inputs/JNJ1013/GAK_O14976__legacy_DFG_AF2",
+    "input_sha256": {
+      "vbc.pdb": "38a87ba99977645ba344f0d36a0d20be725150a50182c68bfab6cfdd183902a2",
+      "protein.pdb": "75601ae7d60953694043e0d28a2da31d043502accd1efb150eccc13185d7bcfe",
+      "vhl_head.sdf": "926817eef52a725848ca79fd61679ea0605b4fa6eb6f1d63cacca3355ca56537",
+      "poi_head.sdf": "b87133bc7a5a559d9fb71cc3dee99f6e82ac1c5f3707211f9a779dbe62abd452",
+      "full.smi": "571134df69a9e2a6a3a98ecd451191def020ec1b598442c2ca2e44623c221334",
+      "Protac_params.txt": "44148151b5eaf9d2506e2ca9bb6626e5af2c5ea8aad802865dd91ddce5684756",
+      "preparation.json": "876706b3c95557223cb7945f96c42bae857a3e1624a3fb582eac8c882e416807",
+      "selection.json": "35d269763795f0e8585f3bf9a171037528820bc9443de00a2bf97a0836ba563e"
+    }
+  },
+  {
+    "status": "CHEMISTRY_AND_STERIC_CHECKED_CANDIDATE",
+    "production_ready": false,
+    "method": "legacy_DFG_offset_transfer",
+    "compound": "MS143",
+    "uniprot": "O15264",
+    "gene": "MAPK13",
+    "source_sha256": "933585ac2bb6c58b155336cabd7dffe8602cf32fad3261d4b54ba45f31c4c2fb",
+    "legacy_code_sha256": "ac4998f6d26d8c89ff44a32494fefb7116580bf970b391264c5193badb74a7de",
+    "reference_head_sha256": "3d10b7996184ca9944daa1e3ca1e6d5555541b9f87f2cb76784b580ee7893625",
+    "benchmark_sha256": "a56a60b16c6114a3c88e3c3417b8343a1ea8666a6c89dbd711f84fb14260143d",
+    "geometry": {
+      "head_heavy_atoms": 35,
+      "min_distance_A": 3.0012920852675196,
+      "max_vdw_overlap_A": 0.1487079147324808,
+      "max_overlap_pair": [
+        11,
+        "('p', 0, 'D', (' ', 154, ' '), ('O', ' '))"
+      ],
+      "head_atoms_within4A": 10,
+      "max_overlap_protein_atom_name": "O",
+      "max_backbone_vdw_overlap_A": 0.1487079147324808,
+      "max_sidechain_vdw_overlap_A": -0.18738640089725278
+    },
+    "dfg_fit_rmsd_A": 11.501282919581367,
+    "anchors": [
+      {
+        "head": "vhl_head.sdf",
+        "one_based_anchor": 1,
+        "full_ligand_attachment": [
+          24,
+          [
+            25
+          ]
+        ]
+      },
+      {
+        "head": "poi_head.sdf",
+        "one_based_anchor": 1,
+        "full_ligand_attachment": [
+          39,
+          [
+            37
+          ]
+        ]
+      }
+    ],
+    "files": {
+      "selection.json": "35d269763795f0e8585f3bf9a171037528820bc9443de00a2bf97a0836ba563e",
+      "vbc.pdb": "d5d0c38470689c813f2c46495a479e6723568f2f131dbaddc8a95a469f539342",
+      "poi_head.sdf": "8fffe2f38bb9be7d9227fd44ffe3b7a6f91a539e8fdf5c3456acba08a8561e9c",
+      "protein.pdb": "56cd12442dea97e380ea83b62aed149c0a360fe41935a1d60befe3ffc6315874",
+      "vhl_head.sdf": "37981dea105e48f8f26c666222ecad4ea8659270b46f0df9789fa49655a4a5d2",
+      "full.smi": "ac4c1b9042734a6ba4ca3a299e521aa6afab57e70016cf88bf91941c2f69074d",
+      "Protac_params.txt": "4bbc7b65b1543126f038720781ec40ca3bd4e40bc31d3c79577f9e80bdfa3c77"
+    },
+    "input": "inputs/MS143/MAPK13_O15264__legacy_DFG_AF2",
+    "input_sha256": {
+      "vbc.pdb": "d5d0c38470689c813f2c46495a479e6723568f2f131dbaddc8a95a469f539342",
+      "protein.pdb": "56cd12442dea97e380ea83b62aed149c0a360fe41935a1d60befe3ffc6315874",
+      "vhl_head.sdf": "37981dea105e48f8f26c666222ecad4ea8659270b46f0df9789fa49655a4a5d2",
+      "poi_head.sdf": "8fffe2f38bb9be7d9227fd44ffe3b7a6f91a539e8fdf5c3456acba08a8561e9c",
+      "full.smi": "ac4c1b9042734a6ba4ca3a299e521aa6afab57e70016cf88bf91941c2f69074d",
+      "Protac_params.txt": "4bbc7b65b1543126f038720781ec40ca3bd4e40bc31d3c79577f9e80bdfa3c77",
+      "preparation.json": "e8523b7426bdc9a73cb0d208339d8fe9dc64f819cd680a50024cd6d507b8e387",
+      "selection.json": "35d269763795f0e8585f3bf9a171037528820bc9443de00a2bf97a0836ba563e"
+    }
+  },
+  {
+    "status": "CHEMISTRY_AND_STERIC_CHECKED_CANDIDATE",
+    "production_ready": false,
+    "method": "legacy_DFG_offset_transfer",
+    "compound": "MS143",
+    "uniprot": "O95747",
+    "gene": "OXSR1",
+    "source_sha256": "8ac7be447f7ca4eebaa2a9d5904a8ab31ea431429b14a7bab66ae5ae5d8428dd",
+    "legacy_code_sha256": "ac4998f6d26d8c89ff44a32494fefb7116580bf970b391264c5193badb74a7de",
+    "reference_head_sha256": "3d10b7996184ca9944daa1e3ca1e6d5555541b9f87f2cb76784b580ee7893625",
+    "benchmark_sha256": "a56a60b16c6114a3c88e3c3417b8343a1ea8666a6c89dbd711f84fb14260143d",
+    "geometry": {
+      "head_heavy_atoms": 35,
+      "min_distance_A": 3.0775108040943664,
+      "max_vdw_overlap_A": 0.2715791118867381,
+      "max_overlap_pair": [
+        28,
+        "('p', 0, 'D', (' ', 46, ' '), ('CE', ' '))"
+      ],
+      "head_atoms_within4A": 10,
+      "max_overlap_protein_atom_name": "CE",
+      "max_backbone_vdw_overlap_A": 0.19782176689491315,
+      "max_sidechain_vdw_overlap_A": 0.2715791118867381
+    },
+    "dfg_fit_rmsd_A": 12.74586641819176,
+    "anchors": [
+      {
+        "head": "vhl_head.sdf",
+        "one_based_anchor": 1,
+        "full_ligand_attachment": [
+          24,
+          [
+            25
+          ]
+        ]
+      },
+      {
+        "head": "poi_head.sdf",
+        "one_based_anchor": 1,
+        "full_ligand_attachment": [
+          39,
+          [
+            37
+          ]
+        ]
+      }
+    ],
+    "files": {
+      "selection.json": "35d269763795f0e8585f3bf9a171037528820bc9443de00a2bf97a0836ba563e",
+      "vbc.pdb": "d5d0c38470689c813f2c46495a479e6723568f2f131dbaddc8a95a469f539342",
+      "poi_head.sdf": "18e96edc78c4dafceddc5163578cd2d5e3fe36b0c630deef81f7ba24ada0d252",
+      "protein.pdb": "a19cca5878f9cec0e078f181983cd3e00158d6ed3ab6b78b8f2909b6c1fc5d25",
+      "vhl_head.sdf": "37981dea105e48f8f26c666222ecad4ea8659270b46f0df9789fa49655a4a5d2",
+      "full.smi": "ac4c1b9042734a6ba4ca3a299e521aa6afab57e70016cf88bf91941c2f69074d",
+      "Protac_params.txt": "4bbc7b65b1543126f038720781ec40ca3bd4e40bc31d3c79577f9e80bdfa3c77"
+    },
+    "input": "inputs/MS143/OXSR1_O95747__legacy_DFG_AF2",
+    "input_sha256": {
+      "vbc.pdb": "d5d0c38470689c813f2c46495a479e6723568f2f131dbaddc8a95a469f539342",
+      "protein.pdb": "a19cca5878f9cec0e078f181983cd3e00158d6ed3ab6b78b8f2909b6c1fc5d25",
+      "vhl_head.sdf": "37981dea105e48f8f26c666222ecad4ea8659270b46f0df9789fa49655a4a5d2",
+      "poi_head.sdf": "18e96edc78c4dafceddc5163578cd2d5e3fe36b0c630deef81f7ba24ada0d252",
+      "full.smi": "ac4c1b9042734a6ba4ca3a299e521aa6afab57e70016cf88bf91941c2f69074d",
+      "Protac_params.txt": "4bbc7b65b1543126f038720781ec40ca3bd4e40bc31d3c79577f9e80bdfa3c77",
+      "preparation.json": "69d52f92f79fe489365b482986bc7582a95804e04ef7809cb2ce3db347a0af48",
+      "selection.json": "35d269763795f0e8585f3bf9a171037528820bc9443de00a2bf97a0836ba563e"
+    }
+  },
+  {
+    "status": "CHEMISTRY_AND_STERIC_CHECKED_CANDIDATE",
+    "production_ready": false,
+    "method": "legacy_DFG_offset_transfer",
+    "compound": "MS143",
+    "uniprot": "P06213",
+    "gene": "INSR",
+    "source_sha256": "34273ebf92a4a849ab4c2056adca97d16f051848ecd2ddebed93596ce0296044",
+    "legacy_code_sha256": "ac4998f6d26d8c89ff44a32494fefb7116580bf970b391264c5193badb74a7de",
+    "reference_head_sha256": "3d10b7996184ca9944daa1e3ca1e6d5555541b9f87f2cb76784b580ee7893625",
+    "benchmark_sha256": "a56a60b16c6114a3c88e3c3417b8343a1ea8666a6c89dbd711f84fb14260143d",
+    "geometry": {
+      "head_heavy_atoms": 35,
+      "min_distance_A": 2.9523401622014833,
+      "max_vdw_overlap_A": 0.1976598377985166,
+      "max_overlap_pair": [
+        11,
+        "('p', 0, 'D', (' ', 1110, ' '), ('OD2', ' '))"
+      ],
+      "head_atoms_within4A": 6,
+      "max_overlap_protein_atom_name": "OD2",
+      "max_backbone_vdw_overlap_A": -0.2825455111902211,
+      "max_sidechain_vdw_overlap_A": 0.1976598377985166
+    },
+    "dfg_fit_rmsd_A": 11.521982073422457,
+    "anchors": [
+      {
+        "head": "vhl_head.sdf",
+        "one_based_anchor": 1,
+        "full_ligand_attachment": [
+          24,
+          [
+            25
+          ]
+        ]
+      },
+      {
+        "head": "poi_head.sdf",
+        "one_based_anchor": 1,
+        "full_ligand_attachment": [
+          39,
+          [
+            37
+          ]
+        ]
+      }
+    ],
+    "files": {
+      "selection.json": "35d269763795f0e8585f3bf9a171037528820bc9443de00a2bf97a0836ba563e",
+      "vbc.pdb": "d5d0c38470689c813f2c46495a479e6723568f2f131dbaddc8a95a469f539342",
+      "poi_head.sdf": "ff028db1e2a9c49a33adaef879fb8881a387d4ef92d3f0cf44f1a7c3ebef4f52",
+      "protein.pdb": "0f0e6f6b525029429cef67e0eb22d7187b47bc05c5f903af811acd9b3d894a3f",
+      "vhl_head.sdf": "37981dea105e48f8f26c666222ecad4ea8659270b46f0df9789fa49655a4a5d2",
+      "full.smi": "ac4c1b9042734a6ba4ca3a299e521aa6afab57e70016cf88bf91941c2f69074d",
+      "Protac_params.txt": "4bbc7b65b1543126f038720781ec40ca3bd4e40bc31d3c79577f9e80bdfa3c77"
+    },
+    "input": "inputs/MS143/INSR_P06213__legacy_DFG_AF2",
+    "input_sha256": {
+      "vbc.pdb": "d5d0c38470689c813f2c46495a479e6723568f2f131dbaddc8a95a469f539342",
+      "protein.pdb": "0f0e6f6b525029429cef67e0eb22d7187b47bc05c5f903af811acd9b3d894a3f",
+      "vhl_head.sdf": "37981dea105e48f8f26c666222ecad4ea8659270b46f0df9789fa49655a4a5d2",
+      "poi_head.sdf": "ff028db1e2a9c49a33adaef879fb8881a387d4ef92d3f0cf44f1a7c3ebef4f52",
+      "full.smi": "ac4c1b9042734a6ba4ca3a299e521aa6afab57e70016cf88bf91941c2f69074d",
+      "Protac_params.txt": "4bbc7b65b1543126f038720781ec40ca3bd4e40bc31d3c79577f9e80bdfa3c77",
+      "preparation.json": "5c472f09f0ba5a0794fc2f4d71a9ea0f1fdf5f02c8e474913c9e7bc723a9c7fe",
+      "selection.json": "35d269763795f0e8585f3bf9a171037528820bc9443de00a2bf97a0836ba563e"
+    }
+  },
+  {
+    "status": "CHEMISTRY_AND_STERIC_CHECKED_CANDIDATE",
+    "production_ready": false,
+    "method": "legacy_DFG_offset_transfer",
+    "compound": "MS143",
+    "uniprot": "P08069",
+    "gene": "IGF1R",
+    "source_sha256": "9f6b7fc7b7603ecf15810c65bdf4bba1b1518afaa4520cad953aca0d1fcb463f",
+    "legacy_code_sha256": "ac4998f6d26d8c89ff44a32494fefb7116580bf970b391264c5193badb74a7de",
+    "reference_head_sha256": "3d10b7996184ca9944daa1e3ca1e6d5555541b9f87f2cb76784b580ee7893625",
+    "benchmark_sha256": "a56a60b16c6114a3c88e3c3417b8343a1ea8666a6c89dbd711f84fb14260143d",
+    "geometry": {
+      "head_heavy_atoms": 35,
+      "min_distance_A": 2.8371194023380717,
+      "max_vdw_overlap_A": 0.5081280731271778,
+      "max_overlap_pair": [
+        33,
+        "('p', 0, 'D', (' ', 1139, ' '), ('CD', ' '))"
+      ],
+      "head_atoms_within4A": 10,
+      "max_overlap_protein_atom_name": "CD",
+      "max_backbone_vdw_overlap_A": -0.11755180698322354,
+      "max_sidechain_vdw_overlap_A": 0.5081280731271778
+    },
+    "dfg_fit_rmsd_A": 10.592631061411687,
+    "anchors": [
+      {
+        "head": "vhl_head.sdf",
+        "one_based_anchor": 1,
+        "full_ligand_attachment": [
+          24,
+          [
+            25
+          ]
+        ]
+      },
+      {
+        "head": "poi_head.sdf",
+        "one_based_anchor": 1,
+        "full_ligand_attachment": [
+          39,
+          [
+            37
+          ]
+        ]
+      }
+    ],
+    "files": {
+      "selection.json": "35d269763795f0e8585f3bf9a171037528820bc9443de00a2bf97a0836ba563e",
+      "vbc.pdb": "d5d0c38470689c813f2c46495a479e6723568f2f131dbaddc8a95a469f539342",
+      "poi_head.sdf": "57f92ce304eb4cec7f762f7abb1f4e6f1a9c8a6704290f0410dc5eb9f36c1ae8",
+      "protein.pdb": "e44dcdbd6561ac01731666faca05f8473ebe02e17418a7b1cd5822f8cb007e26",
+      "vhl_head.sdf": "37981dea105e48f8f26c666222ecad4ea8659270b46f0df9789fa49655a4a5d2",
+      "full.smi": "ac4c1b9042734a6ba4ca3a299e521aa6afab57e70016cf88bf91941c2f69074d",
+      "Protac_params.txt": "4bbc7b65b1543126f038720781ec40ca3bd4e40bc31d3c79577f9e80bdfa3c77"
+    },
+    "input": "inputs/MS143/IGF1R_P08069__legacy_DFG_AF2",
+    "input_sha256": {
+      "vbc.pdb": "d5d0c38470689c813f2c46495a479e6723568f2f131dbaddc8a95a469f539342",
+      "protein.pdb": "e44dcdbd6561ac01731666faca05f8473ebe02e17418a7b1cd5822f8cb007e26",
+      "vhl_head.sdf": "37981dea105e48f8f26c666222ecad4ea8659270b46f0df9789fa49655a4a5d2",
+      "poi_head.sdf": "57f92ce304eb4cec7f762f7abb1f4e6f1a9c8a6704290f0410dc5eb9f36c1ae8",
+      "full.smi": "ac4c1b9042734a6ba4ca3a299e521aa6afab57e70016cf88bf91941c2f69074d",
+      "Protac_params.txt": "4bbc7b65b1543126f038720781ec40ca3bd4e40bc31d3c79577f9e80bdfa3c77",
+      "preparation.json": "67887360599c1525033ff2f6f57f74992ad13c8c0871a4c55e69140acf256ad4",
+      "selection.json": "35d269763795f0e8585f3bf9a171037528820bc9443de00a2bf97a0836ba563e"
+    }
+  },
+  {
+    "status": "CHEMISTRY_AND_STERIC_CHECKED_CANDIDATE",
+    "production_ready": false,
+    "method": "legacy_DFG_offset_transfer",
+    "compound": "MS143",
+    "uniprot": "P53778",
+    "gene": "MAPK12",
+    "source_sha256": "2f76f6a4067e946a6fe03ec12a2b366ab8aade4e497de3931c0093b739166332",
+    "legacy_code_sha256": "ac4998f6d26d8c89ff44a32494fefb7116580bf970b391264c5193badb74a7de",
+    "reference_head_sha256": "3d10b7996184ca9944daa1e3ca1e6d5555541b9f87f2cb76784b580ee7893625",
+    "benchmark_sha256": "a56a60b16c6114a3c88e3c3417b8343a1ea8666a6c89dbd711f84fb14260143d",
+    "geometry": {
+      "head_heavy_atoms": 35,
+      "min_distance_A": 2.8947823683236042,
+      "max_vdw_overlap_A": 0.5052176316763957,
+      "max_overlap_pair": [
+        21,
+        "('p', 0, 'D', (' ', 109, ' '), ('CE', ' '))"
+      ],
+      "head_atoms_within4A": 13,
+      "max_overlap_protein_atom_name": "CE",
+      "max_backbone_vdw_overlap_A": 0.02675035633575895,
+      "max_sidechain_vdw_overlap_A": 0.5052176316763957
+    },
+    "dfg_fit_rmsd_A": 11.135690694836594,
+    "anchors": [
+      {
+        "head": "vhl_head.sdf",
+        "one_based_anchor": 1,
+        "full_ligand_attachment": [
+          24,
+          [
+            25
+          ]
+        ]
+      },
+      {
+        "head": "poi_head.sdf",
+        "one_based_anchor": 1,
+        "full_ligand_attachment": [
+          39,
+          [
+            37
+          ]
+        ]
+      }
+    ],
+    "files": {
+      "selection.json": "35d269763795f0e8585f3bf9a171037528820bc9443de00a2bf97a0836ba563e",
+      "vbc.pdb": "d5d0c38470689c813f2c46495a479e6723568f2f131dbaddc8a95a469f539342",
+      "poi_head.sdf": "ae2b2fc438951b601e9aed30bb249a9ecc063f50e2865df6fc6642dc5ffd6d12",
+      "protein.pdb": "04668c7cef5522c1b76787ea625780a466308eeb9e0d3424949453248257a687",
+      "vhl_head.sdf": "37981dea105e48f8f26c666222ecad4ea8659270b46f0df9789fa49655a4a5d2",
+      "full.smi": "ac4c1b9042734a6ba4ca3a299e521aa6afab57e70016cf88bf91941c2f69074d",
+      "Protac_params.txt": "4bbc7b65b1543126f038720781ec40ca3bd4e40bc31d3c79577f9e80bdfa3c77"
+    },
+    "input": "inputs/MS143/MAPK12_P53778__legacy_DFG_AF2",
+    "input_sha256": {
+      "vbc.pdb": "d5d0c38470689c813f2c46495a479e6723568f2f131dbaddc8a95a469f539342",
+      "protein.pdb": "04668c7cef5522c1b76787ea625780a466308eeb9e0d3424949453248257a687",
+      "vhl_head.sdf": "37981dea105e48f8f26c666222ecad4ea8659270b46f0df9789fa49655a4a5d2",
+      "poi_head.sdf": "ae2b2fc438951b601e9aed30bb249a9ecc063f50e2865df6fc6642dc5ffd6d12",
+      "full.smi": "ac4c1b9042734a6ba4ca3a299e521aa6afab57e70016cf88bf91941c2f69074d",
+      "Protac_params.txt": "4bbc7b65b1543126f038720781ec40ca3bd4e40bc31d3c79577f9e80bdfa3c77",
+      "preparation.json": "68a8a695333448d6b39eca9d4e09b9c3e0a5435be88ab8b9bdf546678bf7fa52",
+      "selection.json": "35d269763795f0e8585f3bf9a171037528820bc9443de00a2bf97a0836ba563e"
+    }
+  },
+  {
+    "status": "CHEMISTRY_AND_STERIC_CHECKED_CANDIDATE",
+    "production_ready": false,
+    "method": "legacy_DFG_offset_transfer",
+    "compound": "JNJ1013",
+    "uniprot": "Q15759",
+    "gene": "MAPK11",
+    "source_sha256": "f1866c5e716e61c395195e55b7aa009b4181eb635b37b1d3e996fe9d5946c9f7",
+    "legacy_code_sha256": "ac4998f6d26d8c89ff44a32494fefb7116580bf970b391264c5193badb74a7de",
+    "reference_head_sha256": "fa0a342c586f47112b1c721cb8af5fcee812504e3b4fe8dc2efac66955aa5466",
+    "benchmark_sha256": "a56a60b16c6114a3c88e3c3417b8343a1ea8666a6c89dbd711f84fb14260143d",
+    "geometry": {
+      "head_heavy_atoms": 29,
+      "min_distance_A": 2.818065921397482,
+      "max_vdw_overlap_A": 0.4819340786025177,
+      "max_overlap_pair": [
+        9,
+        "('p', 0, 'D', (' ', 115, ' '), ('ND2', ' '))"
+      ],
+      "head_atoms_within4A": 18,
+      "max_overlap_protein_atom_name": "ND2",
+      "max_backbone_vdw_overlap_A": 0.06631767258966681,
+      "max_sidechain_vdw_overlap_A": 0.4819340786025177
+    },
+    "dfg_fit_rmsd_A": 11.793679204413818,
+    "anchors": [
+      {
+        "head": "vhl_head.sdf",
+        "one_based_anchor": 5,
+        "full_ligand_attachment": [
+          14,
+          [
+            12
+          ]
+        ]
+      },
+      {
+        "head": "poi_head.sdf",
+        "one_based_anchor": 12,
+        "full_ligand_attachment": [
+          10,
+          [
+            11
+          ]
+        ]
+      }
+    ],
+    "files": {
+      "selection.json": "35d269763795f0e8585f3bf9a171037528820bc9443de00a2bf97a0836ba563e",
+      "vbc.pdb": "38a87ba99977645ba344f0d36a0d20be725150a50182c68bfab6cfdd183902a2",
+      "poi_head.sdf": "7863a4fc4c2d2bb7be4d14a5c1435480370eaab115e797a12b03029e12cc50c0",
+      "protein.pdb": "4f8dd576aab622555e2e9d8547950ee9e4491dd45cfe88988832c8fcaeb0a26b",
+      "vhl_head.sdf": "926817eef52a725848ca79fd61679ea0605b4fa6eb6f1d63cacca3355ca56537",
+      "full.smi": "571134df69a9e2a6a3a98ecd451191def020ec1b598442c2ca2e44623c221334",
+      "Protac_params.txt": "44148151b5eaf9d2506e2ca9bb6626e5af2c5ea8aad802865dd91ddce5684756"
+    },
+    "input": "inputs/JNJ1013/MAPK11_Q15759__legacy_DFG_AF2",
+    "input_sha256": {
+      "vbc.pdb": "38a87ba99977645ba344f0d36a0d20be725150a50182c68bfab6cfdd183902a2",
+      "protein.pdb": "4f8dd576aab622555e2e9d8547950ee9e4491dd45cfe88988832c8fcaeb0a26b",
+      "vhl_head.sdf": "926817eef52a725848ca79fd61679ea0605b4fa6eb6f1d63cacca3355ca56537",
+      "poi_head.sdf": "7863a4fc4c2d2bb7be4d14a5c1435480370eaab115e797a12b03029e12cc50c0",
+      "full.smi": "571134df69a9e2a6a3a98ecd451191def020ec1b598442c2ca2e44623c221334",
+      "Protac_params.txt": "44148151b5eaf9d2506e2ca9bb6626e5af2c5ea8aad802865dd91ddce5684756",
+      "preparation.json": "7f08607512391e8b8d08f54106d77220bec55a572b53e819fd8b62570c35912b",
+      "selection.json": "35d269763795f0e8585f3bf9a171037528820bc9443de00a2bf97a0836ba563e"
+    }
+  },
+  {
+    "status": "CHEMISTRY_AND_STERIC_CHECKED_CANDIDATE",
+    "production_ready": false,
+    "method": "legacy_DFG_offset_transfer",
+    "compound": "MS143",
+    "uniprot": "Q15759",
+    "gene": "MAPK11",
+    "source_sha256": "f1866c5e716e61c395195e55b7aa009b4181eb635b37b1d3e996fe9d5946c9f7",
+    "legacy_code_sha256": "ac4998f6d26d8c89ff44a32494fefb7116580bf970b391264c5193badb74a7de",
+    "reference_head_sha256": "3d10b7996184ca9944daa1e3ca1e6d5555541b9f87f2cb76784b580ee7893625",
+    "benchmark_sha256": "a56a60b16c6114a3c88e3c3417b8343a1ea8666a6c89dbd711f84fb14260143d",
+    "geometry": {
+      "head_heavy_atoms": 35,
+      "min_distance_A": 2.985711296538426,
+      "max_vdw_overlap_A": 0.41428870346157387,
+      "max_overlap_pair": [
+        28,
+        "('p', 0, 'D', (' ', 53, ' '), ('CE', ' '))"
+      ],
+      "head_atoms_within4A": 10,
+      "max_overlap_protein_atom_name": "CE",
+      "max_backbone_vdw_overlap_A": 0.15101706526705572,
+      "max_sidechain_vdw_overlap_A": 0.41428870346157387
+    },
+    "dfg_fit_rmsd_A": 11.020065794950355,
+    "anchors": [
+      {
+        "head": "vhl_head.sdf",
+        "one_based_anchor": 1,
+        "full_ligand_attachment": [
+          24,
+          [
+            25
+          ]
+        ]
+      },
+      {
+        "head": "poi_head.sdf",
+        "one_based_anchor": 1,
+        "full_ligand_attachment": [
+          39,
+          [
+            37
+          ]
+        ]
+      }
+    ],
+    "files": {
+      "selection.json": "35d269763795f0e8585f3bf9a171037528820bc9443de00a2bf97a0836ba563e",
+      "vbc.pdb": "d5d0c38470689c813f2c46495a479e6723568f2f131dbaddc8a95a469f539342",
+      "poi_head.sdf": "fb04f44dc395c78dbc0f70ff2677a1bfb5230be845b08f178943e8e05e69c471",
+      "protein.pdb": "4f8dd576aab622555e2e9d8547950ee9e4491dd45cfe88988832c8fcaeb0a26b",
+      "vhl_head.sdf": "37981dea105e48f8f26c666222ecad4ea8659270b46f0df9789fa49655a4a5d2",
+      "full.smi": "ac4c1b9042734a6ba4ca3a299e521aa6afab57e70016cf88bf91941c2f69074d",
+      "Protac_params.txt": "4bbc7b65b1543126f038720781ec40ca3bd4e40bc31d3c79577f9e80bdfa3c77"
+    },
+    "input": "inputs/MS143/MAPK11_Q15759__legacy_DFG_AF2",
+    "input_sha256": {
+      "vbc.pdb": "d5d0c38470689c813f2c46495a479e6723568f2f131dbaddc8a95a469f539342",
+      "protein.pdb": "4f8dd576aab622555e2e9d8547950ee9e4491dd45cfe88988832c8fcaeb0a26b",
+      "vhl_head.sdf": "37981dea105e48f8f26c666222ecad4ea8659270b46f0df9789fa49655a4a5d2",
+      "poi_head.sdf": "fb04f44dc395c78dbc0f70ff2677a1bfb5230be845b08f178943e8e05e69c471",
+      "full.smi": "ac4c1b9042734a6ba4ca3a299e521aa6afab57e70016cf88bf91941c2f69074d",
+      "Protac_params.txt": "4bbc7b65b1543126f038720781ec40ca3bd4e40bc31d3c79577f9e80bdfa3c77",
+      "preparation.json": "02821063970181ded41a3e8e9003d77681d4148e1ad392ad40c8b5d82315fe19",
+      "selection.json": "35d269763795f0e8585f3bf9a171037528820bc9443de00a2bf97a0836ba563e"
+    }
+  },
+  {
+    "status": "CHEMISTRY_AND_STERIC_CHECKED_CANDIDATE",
+    "production_ready": false,
+    "method": "legacy_DFG_offset_transfer",
+    "compound": "SJF1521",
+    "uniprot": "Q86TW2",
+    "gene": "ADCK1",
+    "source_sha256": "4f799ebb621c0ac5b2be78a92efe2a37440b002af04c968c49faf85379d6a6d2",
+    "legacy_code_sha256": "ac4998f6d26d8c89ff44a32494fefb7116580bf970b391264c5193badb74a7de",
+    "reference_head_sha256": "7c524a613f3c18892850731675e171752228a913b29089d7a9982b1694126edf",
+    "benchmark_sha256": "a56a60b16c6114a3c88e3c3417b8343a1ea8666a6c89dbd711f84fb14260143d",
+    "geometry": {
+      "head_heavy_atoms": 34,
+      "min_distance_A": 4.4191962581032636,
+      "max_vdw_overlap_A": -1.2191962581032643,
+      "max_overlap_pair": [
+        26,
+        "('p', 0, 'D', (' ', 16, ' '), ('CD2', ' '))"
+      ],
+      "head_atoms_within4A": 0,
+      "max_overlap_protein_atom_name": "CD2",
+      "max_backbone_vdw_overlap_A": null,
+      "max_sidechain_vdw_overlap_A": -1.2191962581032643
+    },
+    "dfg_fit_rmsd_A": 18.319202714127417,
+    "anchors": [
+      {
+        "head": "vhl_head.sdf",
+        "one_based_anchor": 1,
+        "full_ligand_attachment": [
+          24,
+          [
+            25
+          ]
+        ]
+      },
+      {
+        "head": "poi_head.sdf",
+        "one_based_anchor": 1,
+        "full_ligand_attachment": [
+          37,
+          [
+            36
+          ]
+        ]
+      }
+    ],
+    "files": {
+      "selection.json": "35d269763795f0e8585f3bf9a171037528820bc9443de00a2bf97a0836ba563e",
+      "vbc.pdb": "d5d0c38470689c813f2c46495a479e6723568f2f131dbaddc8a95a469f539342",
+      "poi_head.sdf": "6f76cb1c6fc211fba7557699e4ed679e750f4784a02fc561ecf5ac5d2fdecc7b",
+      "protein.pdb": "7d977e42d7c663ba398c751aeb66438acc68eaa1955fe19f2aa6a1311ec00539",
+      "vhl_head.sdf": "37981dea105e48f8f26c666222ecad4ea8659270b46f0df9789fa49655a4a5d2",
+      "full.smi": "3302370deaabd590cef8fff386f73cf9f96e6227ef1e93bed09113d7518b69e0",
+      "Protac_params.txt": "4bbc7b65b1543126f038720781ec40ca3bd4e40bc31d3c79577f9e80bdfa3c77"
+    },
+    "input": "inputs/SJF1521/ADCK1_Q86TW2__legacy_DFG_AF2",
+    "input_sha256": {
+      "vbc.pdb": "d5d0c38470689c813f2c46495a479e6723568f2f131dbaddc8a95a469f539342",
+      "protein.pdb": "7d977e42d7c663ba398c751aeb66438acc68eaa1955fe19f2aa6a1311ec00539",
+      "vhl_head.sdf": "37981dea105e48f8f26c666222ecad4ea8659270b46f0df9789fa49655a4a5d2",
+      "poi_head.sdf": "6f76cb1c6fc211fba7557699e4ed679e750f4784a02fc561ecf5ac5d2fdecc7b",
+      "full.smi": "3302370deaabd590cef8fff386f73cf9f96e6227ef1e93bed09113d7518b69e0",
+      "Protac_params.txt": "4bbc7b65b1543126f038720781ec40ca3bd4e40bc31d3c79577f9e80bdfa3c77",
+      "preparation.json": "835faca5fda9ebf01d1bc93f8cce17fb63a3e5c2fb5b1cb7218495b9203e6fc1",
+      "selection.json": "35d269763795f0e8585f3bf9a171037528820bc9443de00a2bf97a0836ba563e"
+    }
+  },
+  {
+    "status": "CHEMISTRY_AND_STERIC_CHECKED_CANDIDATE",
+    "production_ready": false,
+    "method": "legacy_DFG_offset_transfer",
+    "compound": "JNJ1013",
+    "uniprot": "Q8TD19",
+    "gene": "NEK9",
+    "source_sha256": "451337dbc2b5afcef85b64c555946ce7a86800d6e7d899a39707239e40d74679",
+    "legacy_code_sha256": "ac4998f6d26d8c89ff44a32494fefb7116580bf970b391264c5193badb74a7de",
+    "reference_head_sha256": "fa0a342c586f47112b1c721cb8af5fcee812504e3b4fe8dc2efac66955aa5466",
+    "benchmark_sha256": "a56a60b16c6114a3c88e3c3417b8343a1ea8666a6c89dbd711f84fb14260143d",
+    "geometry": {
+      "head_heavy_atoms": 29,
+      "min_distance_A": 3.3411010972644375,
+      "max_vdw_overlap_A": 0.05889890273556242,
+      "max_overlap_pair": [
+        0,
+        "('p', 0, 'D', (' ', 7, ' '), ('CE1', ' '))"
+      ],
+      "head_atoms_within4A": 3,
+      "max_overlap_protein_atom_name": "CE1",
+      "max_backbone_vdw_overlap_A": null,
+      "max_sidechain_vdw_overlap_A": 0.05889890273556242
+    },
+    "dfg_fit_rmsd_A": 22.221672403003296,
+    "anchors": [
+      {
+        "head": "vhl_head.sdf",
+        "one_based_anchor": 5,
+        "full_ligand_attachment": [
+          14,
+          [
+            12
+          ]
+        ]
+      },
+      {
+        "head": "poi_head.sdf",
+        "one_based_anchor": 12,
+        "full_ligand_attachment": [
+          10,
+          [
+            11
+          ]
+        ]
+      }
+    ],
+    "files": {
+      "selection.json": "35d269763795f0e8585f3bf9a171037528820bc9443de00a2bf97a0836ba563e",
+      "vbc.pdb": "38a87ba99977645ba344f0d36a0d20be725150a50182c68bfab6cfdd183902a2",
+      "poi_head.sdf": "becc2c2433c2336613b2f7a21b321c0e3ce53e64095378e36d4f9c2f80981fe1",
+      "protein.pdb": "e91f55a334cc75ad20007f83533b06aa19af9ce0f9033c1822442c9b16b2f975",
+      "vhl_head.sdf": "926817eef52a725848ca79fd61679ea0605b4fa6eb6f1d63cacca3355ca56537",
+      "full.smi": "571134df69a9e2a6a3a98ecd451191def020ec1b598442c2ca2e44623c221334",
+      "Protac_params.txt": "44148151b5eaf9d2506e2ca9bb6626e5af2c5ea8aad802865dd91ddce5684756"
+    },
+    "input": "inputs/JNJ1013/NEK9_Q8TD19__legacy_DFG_AF2",
+    "input_sha256": {
+      "vbc.pdb": "38a87ba99977645ba344f0d36a0d20be725150a50182c68bfab6cfdd183902a2",
+      "protein.pdb": "e91f55a334cc75ad20007f83533b06aa19af9ce0f9033c1822442c9b16b2f975",
+      "vhl_head.sdf": "926817eef52a725848ca79fd61679ea0605b4fa6eb6f1d63cacca3355ca56537",
+      "poi_head.sdf": "becc2c2433c2336613b2f7a21b321c0e3ce53e64095378e36d4f9c2f80981fe1",
+      "full.smi": "571134df69a9e2a6a3a98ecd451191def020ec1b598442c2ca2e44623c221334",
+      "Protac_params.txt": "44148151b5eaf9d2506e2ca9bb6626e5af2c5ea8aad802865dd91ddce5684756",
+      "preparation.json": "41546510148903201523c1d150e638e11f067ea631139a72d796495dfd639a93",
+      "selection.json": "35d269763795f0e8585f3bf9a171037528820bc9443de00a2bf97a0836ba563e"
+    }
+  },
+  {
+    "status": "CHEMISTRY_AND_STERIC_CHECKED_CANDIDATE",
+    "production_ready": false,
+    "method": "legacy_DFG_offset_transfer",
+    "compound": "SJF1521",
+    "uniprot": "Q8TD19",
+    "gene": "NEK9",
+    "source_sha256": "451337dbc2b5afcef85b64c555946ce7a86800d6e7d899a39707239e40d74679",
+    "legacy_code_sha256": "ac4998f6d26d8c89ff44a32494fefb7116580bf970b391264c5193badb74a7de",
+    "reference_head_sha256": "7c524a613f3c18892850731675e171752228a913b29089d7a9982b1694126edf",
+    "benchmark_sha256": "a56a60b16c6114a3c88e3c3417b8343a1ea8666a6c89dbd711f84fb14260143d",
+    "geometry": {
+      "head_heavy_atoms": 34,
+      "min_distance_A": 2.852766700614131,
+      "max_vdw_overlap_A": 0.5472332993858688,
+      "max_overlap_pair": [
+        31,
+        "('p', 0, 'D', (' ', 7, ' '), ('CE1', ' '))"
+      ],
+      "head_atoms_within4A": 8,
+      "max_overlap_protein_atom_name": "CE1",
+      "max_backbone_vdw_overlap_A": 0.4558300593056859,
+      "max_sidechain_vdw_overlap_A": 0.5472332993858688
+    },
+    "dfg_fit_rmsd_A": 21.506824423008702,
+    "anchors": [
+      {
+        "head": "vhl_head.sdf",
+        "one_based_anchor": 1,
+        "full_ligand_attachment": [
+          24,
+          [
+            25
+          ]
+        ]
+      },
+      {
+        "head": "poi_head.sdf",
+        "one_based_anchor": 1,
+        "full_ligand_attachment": [
+          37,
+          [
+            36
+          ]
+        ]
+      }
+    ],
+    "files": {
+      "selection.json": "35d269763795f0e8585f3bf9a171037528820bc9443de00a2bf97a0836ba563e",
+      "vbc.pdb": "d5d0c38470689c813f2c46495a479e6723568f2f131dbaddc8a95a469f539342",
+      "poi_head.sdf": "fa4f42cb4433a7adeeb0110d5203b2dbe2846d2f3ca37d34daa1841f0784e245",
+      "protein.pdb": "e91f55a334cc75ad20007f83533b06aa19af9ce0f9033c1822442c9b16b2f975",
+      "vhl_head.sdf": "37981dea105e48f8f26c666222ecad4ea8659270b46f0df9789fa49655a4a5d2",
+      "full.smi": "3302370deaabd590cef8fff386f73cf9f96e6227ef1e93bed09113d7518b69e0",
+      "Protac_params.txt": "4bbc7b65b1543126f038720781ec40ca3bd4e40bc31d3c79577f9e80bdfa3c77"
+    },
+    "input": "inputs/SJF1521/NEK9_Q8TD19__legacy_DFG_AF2",
+    "input_sha256": {
+      "vbc.pdb": "d5d0c38470689c813f2c46495a479e6723568f2f131dbaddc8a95a469f539342",
+      "protein.pdb": "e91f55a334cc75ad20007f83533b06aa19af9ce0f9033c1822442c9b16b2f975",
+      "vhl_head.sdf": "37981dea105e48f8f26c666222ecad4ea8659270b46f0df9789fa49655a4a5d2",
+      "poi_head.sdf": "fa4f42cb4433a7adeeb0110d5203b2dbe2846d2f3ca37d34daa1841f0784e245",
+      "full.smi": "3302370deaabd590cef8fff386f73cf9f96e6227ef1e93bed09113d7518b69e0",
+      "Protac_params.txt": "4bbc7b65b1543126f038720781ec40ca3bd4e40bc31d3c79577f9e80bdfa3c77",
+      "preparation.json": "f65f9e1d6d2a92245a4f32e937b295fcb52dcf7d4d6622f198c79b6088c5682b",
+      "selection.json": "35d269763795f0e8585f3bf9a171037528820bc9443de00a2bf97a0836ba563e"
+    }
+  },
+  {
+    "status": "CHEMISTRY_AND_STERIC_CHECKED_CANDIDATE",
+    "production_ready": false,
+    "method": "legacy_DFG_offset_transfer",
+    "compound": "SJF8240",
+    "uniprot": "Q8TD19",
+    "gene": "NEK9",
+    "source_sha256": "451337dbc2b5afcef85b64c555946ce7a86800d6e7d899a39707239e40d74679",
+    "legacy_code_sha256": "ac4998f6d26d8c89ff44a32494fefb7116580bf970b391264c5193badb74a7de",
+    "reference_head_sha256": "2c46229bc6f4d46bfd5cd0b8f152ccf0af2af45103aee38d752e3cba67c5ed53",
+    "benchmark_sha256": "a56a60b16c6114a3c88e3c3417b8343a1ea8666a6c89dbd711f84fb14260143d",
+    "geometry": {
+      "head_heavy_atoms": 37,
+      "min_distance_A": 3.0734573720927343,
+      "max_vdw_overlap_A": 0.3265426279072656,
+      "max_overlap_pair": [
+        11,
+        "('p', 0, 'D', (' ', 10, ' '), ('CD2', ' '))"
+      ],
+      "head_atoms_within4A": 5,
+      "max_overlap_protein_atom_name": "CD2",
+      "max_backbone_vdw_overlap_A": -0.6406957308323369,
+      "max_sidechain_vdw_overlap_A": 0.3265426279072656
+    },
+    "dfg_fit_rmsd_A": 22.059790724095436,
+    "anchors": [
+      {
+        "head": "vhl_head.sdf",
+        "one_based_anchor": 1,
+        "full_ligand_attachment": [
+          50,
+          [
+            48
+          ]
+        ]
+      },
+      {
+        "head": "poi_head.sdf",
+        "one_based_anchor": 13,
+        "full_ligand_attachment": [
+          37,
+          [
+            38
+          ]
+        ]
+      }
+    ],
+    "files": {
+      "selection.json": "35d269763795f0e8585f3bf9a171037528820bc9443de00a2bf97a0836ba563e",
+      "vbc.pdb": "d5d0c38470689c813f2c46495a479e6723568f2f131dbaddc8a95a469f539342",
+      "poi_head.sdf": "17cb62d863ed4d3aaea3a5cd3d1d494c445a0225ce350c177203531cb042cd17",
+      "protein.pdb": "e91f55a334cc75ad20007f83533b06aa19af9ce0f9033c1822442c9b16b2f975",
+      "vhl_head.sdf": "37981dea105e48f8f26c666222ecad4ea8659270b46f0df9789fa49655a4a5d2",
+      "full.smi": "d66d442adccfab6b07c3aa34457027420932df051168ba5a9375b5a6754dbc08",
+      "Protac_params.txt": "43f68cd55c3d64abffff72d5966a4a2b3cf400b5d18e3a4f0f998890d44995f1"
+    },
+    "input": "inputs/SJF8240/NEK9_Q8TD19__legacy_DFG_AF2",
+    "input_sha256": {
+      "vbc.pdb": "d5d0c38470689c813f2c46495a479e6723568f2f131dbaddc8a95a469f539342",
+      "protein.pdb": "e91f55a334cc75ad20007f83533b06aa19af9ce0f9033c1822442c9b16b2f975",
+      "vhl_head.sdf": "37981dea105e48f8f26c666222ecad4ea8659270b46f0df9789fa49655a4a5d2",
+      "poi_head.sdf": "17cb62d863ed4d3aaea3a5cd3d1d494c445a0225ce350c177203531cb042cd17",
+      "full.smi": "d66d442adccfab6b07c3aa34457027420932df051168ba5a9375b5a6754dbc08",
+      "Protac_params.txt": "43f68cd55c3d64abffff72d5966a4a2b3cf400b5d18e3a4f0f998890d44995f1",
+      "preparation.json": "df5f9c903438974db9a1fee11831c50a31e1678c72315597d397285a63e906fa",
+      "selection.json": "35d269763795f0e8585f3bf9a171037528820bc9443de00a2bf97a0836ba563e"
+    }
+  },
+  {
+    "status": "CHEMISTRY_AND_STERIC_CHECKED_CANDIDATE",
+    "production_ready": false,
+    "method": "legacy_DFG_offset_transfer",
+    "compound": "SJF_delta",
+    "uniprot": "Q8TD19",
+    "gene": "NEK9",
+    "source_sha256": "451337dbc2b5afcef85b64c555946ce7a86800d6e7d899a39707239e40d74679",
+    "legacy_code_sha256": "ac4998f6d26d8c89ff44a32494fefb7116580bf970b391264c5193badb74a7de",
+    "reference_head_sha256": "2c46229bc6f4d46bfd5cd0b8f152ccf0af2af45103aee38d752e3cba67c5ed53",
+    "benchmark_sha256": "a56a60b16c6114a3c88e3c3417b8343a1ea8666a6c89dbd711f84fb14260143d",
+    "geometry": {
+      "head_heavy_atoms": 37,
+      "min_distance_A": 3.0734573720927343,
+      "max_vdw_overlap_A": 0.3265426279072656,
+      "max_overlap_pair": [
+        11,
+        "('p', 0, 'D', (' ', 10, ' '), ('CD2', ' '))"
+      ],
+      "head_atoms_within4A": 5,
+      "max_overlap_protein_atom_name": "CD2",
+      "max_backbone_vdw_overlap_A": -0.6406957308323369,
+      "max_sidechain_vdw_overlap_A": 0.3265426279072656
+    },
+    "dfg_fit_rmsd_A": 22.059790724095436,
+    "anchors": [
+      {
+        "head": "vhl_head.sdf",
+        "one_based_anchor": 1,
+        "full_ligand_attachment": [
+          46,
+          [
+            45
+          ]
+        ]
+      },
+      {
+        "head": "poi_head.sdf",
+        "one_based_anchor": 13,
+        "full_ligand_attachment": [
+          37,
+          [
+            38
+          ]
+        ]
+      }
+    ],
+    "files": {
+      "selection.json": "35d269763795f0e8585f3bf9a171037528820bc9443de00a2bf97a0836ba563e",
+      "vbc.pdb": "d5d0c38470689c813f2c46495a479e6723568f2f131dbaddc8a95a469f539342",
+      "poi_head.sdf": "17cb62d863ed4d3aaea3a5cd3d1d494c445a0225ce350c177203531cb042cd17",
+      "protein.pdb": "e91f55a334cc75ad20007f83533b06aa19af9ce0f9033c1822442c9b16b2f975",
+      "vhl_head.sdf": "a61375fc07b7f24f9e0ac58bf3c6f14447c10779b804fd56389af7bee4976282",
+      "full.smi": "911750d46e1e3a0cac330f3311854530de945c6c034961d8e5fcecec26583b13",
+      "Protac_params.txt": "43f68cd55c3d64abffff72d5966a4a2b3cf400b5d18e3a4f0f998890d44995f1"
+    },
+    "input": "inputs/SJF_delta/NEK9_Q8TD19__legacy_DFG_AF2",
+    "input_sha256": {
+      "vbc.pdb": "d5d0c38470689c813f2c46495a479e6723568f2f131dbaddc8a95a469f539342",
+      "protein.pdb": "e91f55a334cc75ad20007f83533b06aa19af9ce0f9033c1822442c9b16b2f975",
+      "vhl_head.sdf": "a61375fc07b7f24f9e0ac58bf3c6f14447c10779b804fd56389af7bee4976282",
+      "poi_head.sdf": "17cb62d863ed4d3aaea3a5cd3d1d494c445a0225ce350c177203531cb042cd17",
+      "full.smi": "911750d46e1e3a0cac330f3311854530de945c6c034961d8e5fcecec26583b13",
+      "Protac_params.txt": "43f68cd55c3d64abffff72d5966a4a2b3cf400b5d18e3a4f0f998890d44995f1",
+      "preparation.json": "ffb4fb3486715e20937e94a624ec2989ce5ab8fabe78a30dec47156213c7e742",
+      "selection.json": "35d269763795f0e8585f3bf9a171037528820bc9443de00a2bf97a0836ba563e"
+    }
+  },
+  {
+    "status": "CHEMISTRY_AND_STERIC_CHECKED_CANDIDATE",
+    "production_ready": false,
+    "method": "legacy_DFG_offset_transfer",
+    "compound": "GSK215",
+    "uniprot": "Q9NSY1",
+    "gene": "BMP2K",
+    "source_sha256": "311c7f40dddb9faaabb582b400b64a7382fa1b1fc222d8ba4e638d65d82f1d45",
+    "legacy_code_sha256": "ac4998f6d26d8c89ff44a32494fefb7116580bf970b391264c5193badb74a7de",
+    "reference_head_sha256": "1e39c54042c3b028ca6d0e4fe2a320f0ee5ab493b3b2daea22e396e3de1eadb4",
+    "benchmark_sha256": "a56a60b16c6114a3c88e3c3417b8343a1ea8666a6c89dbd711f84fb14260143d",
+    "geometry": {
+      "head_heavy_atoms": 36,
+      "min_distance_A": 3.271374785548807,
+      "max_vdw_overlap_A": 0.028625214451192704,
+      "max_overlap_pair": [
+        32,
+        "('p', 0, 'D', (' ', 1060, ' '), ('NE2', ' '))"
+      ],
+      "head_atoms_within4A": 2,
+      "max_overlap_protein_atom_name": "NE2",
+      "max_backbone_vdw_overlap_A": -1.2422018993525938,
+      "max_sidechain_vdw_overlap_A": 0.028625214451192704
+    },
+    "dfg_fit_rmsd_A": 39.67298677675631,
+    "anchors": [
+      {
+        "head": "vhl_head.sdf",
+        "one_based_anchor": 5,
+        "full_ligand_attachment": [
+          27,
+          [
+            25
+          ]
+        ]
+      },
+      {
+        "head": "poi_head.sdf",
+        "one_based_anchor": 34,
+        "full_ligand_attachment": [
+          23,
+          [
+            24
+          ]
+        ]
+      }
+    ],
+    "files": {
+      "selection.json": "35d269763795f0e8585f3bf9a171037528820bc9443de00a2bf97a0836ba563e",
+      "vbc.pdb": "38a87ba99977645ba344f0d36a0d20be725150a50182c68bfab6cfdd183902a2",
+      "poi_head.sdf": "69a3fa054d5d0c8ae3b0c2465acad288b60a1daa1274569b3ccf85e559728834",
+      "protein.pdb": "cd37499280093ba381341953cf02f539bdb6ebf37612693d698437e5adaa1d28",
+      "vhl_head.sdf": "926817eef52a725848ca79fd61679ea0605b4fa6eb6f1d63cacca3355ca56537",
+      "full.smi": "2c10735a4f644a08ef4aac29b91fa9213a44931acbe12d7a7b2c7cb32ee0c2ed",
+      "Protac_params.txt": "42183eb86f4f5cdb68d99dfa53ed9b55612fad6022155615157f04a771dfc362"
+    },
+    "input": "inputs/GSK215/BMP2K_Q9NSY1__legacy_DFG_AF2",
+    "input_sha256": {
+      "vbc.pdb": "38a87ba99977645ba344f0d36a0d20be725150a50182c68bfab6cfdd183902a2",
+      "protein.pdb": "cd37499280093ba381341953cf02f539bdb6ebf37612693d698437e5adaa1d28",
+      "vhl_head.sdf": "926817eef52a725848ca79fd61679ea0605b4fa6eb6f1d63cacca3355ca56537",
+      "poi_head.sdf": "69a3fa054d5d0c8ae3b0c2465acad288b60a1daa1274569b3ccf85e559728834",
+      "full.smi": "2c10735a4f644a08ef4aac29b91fa9213a44931acbe12d7a7b2c7cb32ee0c2ed",
+      "Protac_params.txt": "42183eb86f4f5cdb68d99dfa53ed9b55612fad6022155615157f04a771dfc362",
+      "preparation.json": "1710bc24f3108ef57a1d1b5af0513d3a0967bda1a6aa5609b9b84ddf4c719508",
+      "selection.json": "35d269763795f0e8585f3bf9a171037528820bc9443de00a2bf97a0836ba563e"
+    }
+  },
+  {
+    "status": "CHEMISTRY_AND_STERIC_CHECKED_CANDIDATE",
+    "production_ready": false,
+    "method": "legacy_DFG_offset_transfer",
+    "compound": "SJF1521",
+    "uniprot": "Q9NSY1",
+    "gene": "BMP2K",
+    "source_sha256": "311c7f40dddb9faaabb582b400b64a7382fa1b1fc222d8ba4e638d65d82f1d45",
+    "legacy_code_sha256": "ac4998f6d26d8c89ff44a32494fefb7116580bf970b391264c5193badb74a7de",
+    "reference_head_sha256": "7c524a613f3c18892850731675e171752228a913b29089d7a9982b1694126edf",
+    "benchmark_sha256": "a56a60b16c6114a3c88e3c3417b8343a1ea8666a6c89dbd711f84fb14260143d",
+    "geometry": {
+      "head_heavy_atoms": 34,
+      "min_distance_A": 2.919949292720345,
+      "max_vdw_overlap_A": 0.3800507072796546,
+      "max_overlap_pair": [
+        9,
+        "('p', 0, 'D', (' ', 1012, ' '), ('CB', ' '))"
+      ],
+      "head_atoms_within4A": 4,
+      "max_overlap_protein_atom_name": "CB",
+      "max_backbone_vdw_overlap_A": -0.677683648260579,
+      "max_sidechain_vdw_overlap_A": 0.3800507072796546
+    },
+    "dfg_fit_rmsd_A": 39.282540294607806,
+    "anchors": [
+      {
+        "head": "vhl_head.sdf",
+        "one_based_anchor": 1,
+        "full_ligand_attachment": [
+          24,
+          [
+            25
+          ]
+        ]
+      },
+      {
+        "head": "poi_head.sdf",
+        "one_based_anchor": 1,
+        "full_ligand_attachment": [
+          37,
+          [
+            36
+          ]
+        ]
+      }
+    ],
+    "files": {
+      "selection.json": "35d269763795f0e8585f3bf9a171037528820bc9443de00a2bf97a0836ba563e",
+      "vbc.pdb": "d5d0c38470689c813f2c46495a479e6723568f2f131dbaddc8a95a469f539342",
+      "poi_head.sdf": "efea6608a0c93679d4d94a1997295ee0b2c012f52e87bb76612dd6b0cfb097a7",
+      "protein.pdb": "cd37499280093ba381341953cf02f539bdb6ebf37612693d698437e5adaa1d28",
+      "vhl_head.sdf": "37981dea105e48f8f26c666222ecad4ea8659270b46f0df9789fa49655a4a5d2",
+      "full.smi": "3302370deaabd590cef8fff386f73cf9f96e6227ef1e93bed09113d7518b69e0",
+      "Protac_params.txt": "4bbc7b65b1543126f038720781ec40ca3bd4e40bc31d3c79577f9e80bdfa3c77"
+    },
+    "input": "inputs/SJF1521/BMP2K_Q9NSY1__legacy_DFG_AF2",
+    "input_sha256": {
+      "vbc.pdb": "d5d0c38470689c813f2c46495a479e6723568f2f131dbaddc8a95a469f539342",
+      "protein.pdb": "cd37499280093ba381341953cf02f539bdb6ebf37612693d698437e5adaa1d28",
+      "vhl_head.sdf": "37981dea105e48f8f26c666222ecad4ea8659270b46f0df9789fa49655a4a5d2",
+      "poi_head.sdf": "efea6608a0c93679d4d94a1997295ee0b2c012f52e87bb76612dd6b0cfb097a7",
+      "full.smi": "3302370deaabd590cef8fff386f73cf9f96e6227ef1e93bed09113d7518b69e0",
+      "Protac_params.txt": "4bbc7b65b1543126f038720781ec40ca3bd4e40bc31d3c79577f9e80bdfa3c77",
+      "preparation.json": "e555d8e313914fe718dc414cd5d3c3d89b1cbf66d3200781d32730f4a9eebbd6",
+      "selection.json": "35d269763795f0e8585f3bf9a171037528820bc9443de00a2bf97a0836ba563e"
+    }
+  },
+  {
+    "status": "CHEMISTRY_AND_STERIC_CHECKED_CANDIDATE",
+    "production_ready": false,
+    "method": "legacy_DFG_offset_transfer",
+    "compound": "SJF8240",
+    "uniprot": "Q9NSY1",
+    "gene": "BMP2K",
+    "source_sha256": "311c7f40dddb9faaabb582b400b64a7382fa1b1fc222d8ba4e638d65d82f1d45",
+    "legacy_code_sha256": "ac4998f6d26d8c89ff44a32494fefb7116580bf970b391264c5193badb74a7de",
+    "reference_head_sha256": "2c46229bc6f4d46bfd5cd0b8f152ccf0af2af45103aee38d752e3cba67c5ed53",
+    "benchmark_sha256": "a56a60b16c6114a3c88e3c3417b8343a1ea8666a6c89dbd711f84fb14260143d",
+    "geometry": {
+      "head_heavy_atoms": 37,
+      "min_distance_A": 3.557730002279217,
+      "max_vdw_overlap_A": -0.2577300022792173,
+      "max_overlap_pair": [
+        6,
+        "('p', 0, 'D', (' ', 1012, ' '), ('CB', ' '))"
+      ],
+      "head_atoms_within4A": 1,
+      "max_overlap_protein_atom_name": "CB",
+      "max_backbone_vdw_overlap_A": null,
+      "max_sidechain_vdw_overlap_A": -0.2577300022792173
+    },
+    "dfg_fit_rmsd_A": 39.725421281759274,
+    "anchors": [
+      {
+        "head": "vhl_head.sdf",
+        "one_based_anchor": 1,
+        "full_ligand_attachment": [
+          50,
+          [
+            48
+          ]
+        ]
+      },
+      {
+        "head": "poi_head.sdf",
+        "one_based_anchor": 13,
+        "full_ligand_attachment": [
+          37,
+          [
+            38
+          ]
+        ]
+      }
+    ],
+    "files": {
+      "selection.json": "35d269763795f0e8585f3bf9a171037528820bc9443de00a2bf97a0836ba563e",
+      "vbc.pdb": "d5d0c38470689c813f2c46495a479e6723568f2f131dbaddc8a95a469f539342",
+      "poi_head.sdf": "5035e9e7774e82f9a059baabf0f32e25049203d693526bd54249c8447aa80df0",
+      "protein.pdb": "cd37499280093ba381341953cf02f539bdb6ebf37612693d698437e5adaa1d28",
+      "vhl_head.sdf": "37981dea105e48f8f26c666222ecad4ea8659270b46f0df9789fa49655a4a5d2",
+      "full.smi": "d66d442adccfab6b07c3aa34457027420932df051168ba5a9375b5a6754dbc08",
+      "Protac_params.txt": "43f68cd55c3d64abffff72d5966a4a2b3cf400b5d18e3a4f0f998890d44995f1"
+    },
+    "input": "inputs/SJF8240/BMP2K_Q9NSY1__legacy_DFG_AF2",
+    "input_sha256": {
+      "vbc.pdb": "d5d0c38470689c813f2c46495a479e6723568f2f131dbaddc8a95a469f539342",
+      "protein.pdb": "cd37499280093ba381341953cf02f539bdb6ebf37612693d698437e5adaa1d28",
+      "vhl_head.sdf": "37981dea105e48f8f26c666222ecad4ea8659270b46f0df9789fa49655a4a5d2",
+      "poi_head.sdf": "5035e9e7774e82f9a059baabf0f32e25049203d693526bd54249c8447aa80df0",
+      "full.smi": "d66d442adccfab6b07c3aa34457027420932df051168ba5a9375b5a6754dbc08",
+      "Protac_params.txt": "43f68cd55c3d64abffff72d5966a4a2b3cf400b5d18e3a4f0f998890d44995f1",
+      "preparation.json": "e1639660ba0806fc3d6f1de2d858344798297a28c3815eab396d1467e091f9b1",
+      "selection.json": "35d269763795f0e8585f3bf9a171037528820bc9443de00a2bf97a0836ba563e"
+    }
+  },
+  {
+    "status": "CHEMISTRY_AND_STERIC_CHECKED_CANDIDATE",
+    "production_ready": false,
+    "method": "legacy_DFG_offset_transfer",
+    "compound": "SJF_delta",
+    "uniprot": "Q9NSY1",
+    "gene": "BMP2K",
+    "source_sha256": "311c7f40dddb9faaabb582b400b64a7382fa1b1fc222d8ba4e638d65d82f1d45",
+    "legacy_code_sha256": "ac4998f6d26d8c89ff44a32494fefb7116580bf970b391264c5193badb74a7de",
+    "reference_head_sha256": "2c46229bc6f4d46bfd5cd0b8f152ccf0af2af45103aee38d752e3cba67c5ed53",
+    "benchmark_sha256": "a56a60b16c6114a3c88e3c3417b8343a1ea8666a6c89dbd711f84fb14260143d",
+    "geometry": {
+      "head_heavy_atoms": 37,
+      "min_distance_A": 3.557730002279217,
+      "max_vdw_overlap_A": -0.2577300022792173,
+      "max_overlap_pair": [
+        6,
+        "('p', 0, 'D', (' ', 1012, ' '), ('CB', ' '))"
+      ],
+      "head_atoms_within4A": 1,
+      "max_overlap_protein_atom_name": "CB",
+      "max_backbone_vdw_overlap_A": null,
+      "max_sidechain_vdw_overlap_A": -0.2577300022792173
+    },
+    "dfg_fit_rmsd_A": 39.725421281759274,
+    "anchors": [
+      {
+        "head": "vhl_head.sdf",
+        "one_based_anchor": 1,
+        "full_ligand_attachment": [
+          46,
+          [
+            45
+          ]
+        ]
+      },
+      {
+        "head": "poi_head.sdf",
+        "one_based_anchor": 13,
+        "full_ligand_attachment": [
+          37,
+          [
+            38
+          ]
+        ]
+      }
+    ],
+    "files": {
+      "selection.json": "35d269763795f0e8585f3bf9a171037528820bc9443de00a2bf97a0836ba563e",
+      "vbc.pdb": "d5d0c38470689c813f2c46495a479e6723568f2f131dbaddc8a95a469f539342",
+      "poi_head.sdf": "5035e9e7774e82f9a059baabf0f32e25049203d693526bd54249c8447aa80df0",
+      "protein.pdb": "cd37499280093ba381341953cf02f539bdb6ebf37612693d698437e5adaa1d28",
+      "vhl_head.sdf": "a61375fc07b7f24f9e0ac58bf3c6f14447c10779b804fd56389af7bee4976282",
+      "full.smi": "911750d46e1e3a0cac330f3311854530de945c6c034961d8e5fcecec26583b13",
+      "Protac_params.txt": "43f68cd55c3d64abffff72d5966a4a2b3cf400b5d18e3a4f0f998890d44995f1"
+    },
+    "input": "inputs/SJF_delta/BMP2K_Q9NSY1__legacy_DFG_AF2",
+    "input_sha256": {
+      "vbc.pdb": "d5d0c38470689c813f2c46495a479e6723568f2f131dbaddc8a95a469f539342",
+      "protein.pdb": "cd37499280093ba381341953cf02f539bdb6ebf37612693d698437e5adaa1d28",
+      "vhl_head.sdf": "a61375fc07b7f24f9e0ac58bf3c6f14447c10779b804fd56389af7bee4976282",
+      "poi_head.sdf": "5035e9e7774e82f9a059baabf0f32e25049203d693526bd54249c8447aa80df0",
+      "full.smi": "911750d46e1e3a0cac330f3311854530de945c6c034961d8e5fcecec26583b13",
+      "Protac_params.txt": "43f68cd55c3d64abffff72d5966a4a2b3cf400b5d18e3a4f0f998890d44995f1",
+      "preparation.json": "3d85f049626aa1fa5688e967487adec2598d027815a9f81d6920520b7fdb1b88",
+      "selection.json": "35d269763795f0e8585f3bf9a171037528820bc9443de00a2bf97a0836ba563e"
+    }
+  },
+  {
+    "status": "CHEMISTRY_AND_STERIC_CHECKED_CANDIDATE",
+    "production_ready": false,
+    "method": "legacy_DFG_offset_transfer",
+    "compound": "MS143",
+    "uniprot": "Q9UEW8",
+    "gene": "STK39",
+    "source_sha256": "ebfadfd6e1994daaa8f3451d710002d5ea019f616fc3a938bd022ec615b68c1e",
+    "legacy_code_sha256": "ac4998f6d26d8c89ff44a32494fefb7116580bf970b391264c5193badb74a7de",
+    "reference_head_sha256": "3d10b7996184ca9944daa1e3ca1e6d5555541b9f87f2cb76784b580ee7893625",
+    "benchmark_sha256": "a56a60b16c6114a3c88e3c3417b8343a1ea8666a6c89dbd711f84fb14260143d",
+    "geometry": {
+      "head_heavy_atoms": 35,
+      "min_distance_A": 3.0834465289161734,
+      "max_vdw_overlap_A": 0.23395763873596387,
+      "max_overlap_pair": [
+        21,
+        "('p', 0, 'D', (' ', 138, ' '), ('SD', ' '))"
+      ],
+      "head_atoms_within4A": 11,
+      "max_overlap_protein_atom_name": "SD",
+      "max_backbone_vdw_overlap_A": 0.11360246986346212,
+      "max_sidechain_vdw_overlap_A": 0.23395763873596387
+    },
+    "dfg_fit_rmsd_A": 12.881174927413205,
+    "anchors": [
+      {
+        "head": "vhl_head.sdf",
+        "one_based_anchor": 1,
+        "full_ligand_attachment": [
+          24,
+          [
+            25
+          ]
+        ]
+      },
+      {
+        "head": "poi_head.sdf",
+        "one_based_anchor": 1,
+        "full_ligand_attachment": [
+          39,
+          [
+            37
+          ]
+        ]
+      }
+    ],
+    "files": {
+      "selection.json": "35d269763795f0e8585f3bf9a171037528820bc9443de00a2bf97a0836ba563e",
+      "vbc.pdb": "d5d0c38470689c813f2c46495a479e6723568f2f131dbaddc8a95a469f539342",
+      "poi_head.sdf": "7c9790714c47116afbd8fdbb1ffe87cb0fe05e0cbba9825f42e0ee9e9a073915",
+      "protein.pdb": "ec59c391e39bccae9927541daf55d54bc90a412c5a5eb68b5df989673f44ea67",
+      "vhl_head.sdf": "37981dea105e48f8f26c666222ecad4ea8659270b46f0df9789fa49655a4a5d2",
+      "full.smi": "ac4c1b9042734a6ba4ca3a299e521aa6afab57e70016cf88bf91941c2f69074d",
+      "Protac_params.txt": "4bbc7b65b1543126f038720781ec40ca3bd4e40bc31d3c79577f9e80bdfa3c77"
+    },
+    "input": "inputs/MS143/STK39_Q9UEW8__legacy_DFG_AF2",
+    "input_sha256": {
+      "vbc.pdb": "d5d0c38470689c813f2c46495a479e6723568f2f131dbaddc8a95a469f539342",
+      "protein.pdb": "ec59c391e39bccae9927541daf55d54bc90a412c5a5eb68b5df989673f44ea67",
+      "vhl_head.sdf": "37981dea105e48f8f26c666222ecad4ea8659270b46f0df9789fa49655a4a5d2",
+      "poi_head.sdf": "7c9790714c47116afbd8fdbb1ffe87cb0fe05e0cbba9825f42e0ee9e9a073915",
+      "full.smi": "ac4c1b9042734a6ba4ca3a299e521aa6afab57e70016cf88bf91941c2f69074d",
+      "Protac_params.txt": "4bbc7b65b1543126f038720781ec40ca3bd4e40bc31d3c79577f9e80bdfa3c77",
+      "preparation.json": "52523d2aa4f354fa7927a9f67ae8913353fea76e53d9f98c32a9470c4aeeec0a",
+      "selection.json": "35d269763795f0e8585f3bf9a171037528820bc9443de00a2bf97a0836ba563e"
+    }
+  }
+]
